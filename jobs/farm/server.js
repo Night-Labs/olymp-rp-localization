@@ -1,0 +1,60 @@
+export const server = {
+    name: {
+        ru: 'Фермер',
+        ua: 'Фермер',
+        en: 'Farmer',
+        de: 'Bauer',
+        pl: 'Rolnik',
+    },
+    youSuccessfullyDeployed: {
+        ru: 'Вы успешно устроились на работу фермера',
+        ua: 'Ви успішно працевлаштувалися на роботу фермера',
+        en: 'You have successfully been employed as a farmer',
+        de: 'Sie haben sich erfolgreich als Bauer beworben',
+        pl: 'Pomyślnie zatrudniony jako rolnik',
+    },
+    youSuccesfullyDissmissed: {
+        ru: 'Вы успешно уволились с работы фермера и заработали ${{salary}}',
+        ua: 'Ви успішно звільнилися з роботи фермера і заробили ${{salary}}',
+        en: 'You have successfully quit your job as a farmer and earned ${{salary}}',
+        de: 'Sie haben Ihren Job als Bauer erfolgreich gekündigt und ${{salary}} verdient',
+        pl: 'Pomyślnie zrezygnowałeś z pracy jako rolnik i zarobiłeś ${{salary}}',
+    },
+    youTooFar: {
+        ru: 'Вы слишком далеко от дерева',
+        ua: 'Ви занадто далеко від дерева',
+        en: 'You are too far from the tree',
+        de: 'Du bist zu weit vom Baum entfernt',
+        pl: 'Jesteś zbyt daleko od drzewa',
+    },
+    takeTheCartToStorage: {
+        ru: 'Отнесите корзину на склад',
+        ua: 'Віднесіть кошик на склад',
+        en: 'Take the cart to the storage',
+        de: 'Bring den Wagen zum Lager',
+        pl: 'Zanieś wózek do magazynu',
+    },
+    collectedTree: {
+        ru: 'Вы собрали яблоки с дерева, идите к следующим точкам',
+        ua: 'Ви зібрали яблука з дерева, йдіть до наступних точок',
+        en: 'You have collected apples from the tree, proceed to the next points',
+        de: 'Sie haben Äpfel vom Baum gesammelt, gehen Sie zu den nächsten Punkten',
+        pl: 'Zebrałeś jabłka z drzewa, przejdź do następnych punktów',
+    },
+    youGotSalary: {
+        ru: 'Вы заработали: ${{salary}}. Отправляйтесь к деревьям и снова собирайте яблоки',
+        ua: 'Ви заробили: ${{salary}}. Вирушайте до дерев і знову збирайте яблука',
+        en: 'You have earned: ${{salary}}. Head to the trees and collect apples again',
+        de: 'Du hast ${{salary}} verdient. Gehe zu den Bäumen und sammle wieder Äpfel',
+        pl: 'Zarobiłeś: ${{salary}}. Udaj się do drzew i zbierz jabłka ponownie',
+    },
+    startMessage: {
+        apple: {
+            ua: 'Відправляйтесь до дерев і збирайте яблука',
+            en: 'Go to the trees and pick apples',
+            ru: 'Отправляйтесь к деревьям и собирайте яблока',
+            de: 'Gehe zu den Bäumen und sammle Äpfel',
+            pl: 'Idź do drzew i zbieraj jabłka',
+        },
+    },
+};

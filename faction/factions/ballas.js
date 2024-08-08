@@ -1,0 +1,63 @@
+export default {
+    name: {
+        ru: 'Ballas',
+        ua: 'Ballas',
+        en: 'Ballas',
+        de: 'Ballas',
+        pl: 'Ballas',
+    },
+    ranks: {
+        newblood: {
+            ru: 'New Blood',
+            ua: 'New Blood',
+            en: 'New Blood',
+            de: 'New Blood',
+            pl: 'New Blood',
+        },
+        younggangster: {
+            ru: 'Young Gangster',
+            ua: 'Young Gangster',
+            en: 'Young Gangster',
+            de: 'Young Gangster',
+            pl: 'Young Gangster',
+        },
+        checkedup: {
+            ru: 'Checked Up',
+            ua: 'Checked Up',
+            en: 'Checked Up',
+            de: 'Checked Up',
+            pl: 'Checked Up',
+        },
+        homie: { ru: 'Homie', ua: 'Homie', en: 'Homie', de: 'Homie', pl: 'Homie' },
+        bastard: {
+            ru: 'Bastard',
+            ua: 'Bastard',
+            en: 'Bastard',
+            de: 'Bastard',
+            pl: 'Bastard',
+        },
+        ghettosoldier: {
+            ru: 'Ghetto Soldier',
+            ua: 'Ghetto Soldier',
+            en: 'Ghetto Soldier',
+            de: 'Ghetto Soldier',
+            pl: 'Ghetto Soldier',
+        },
+        destroyer: {
+            ru: 'Destroyer',
+            ua: 'Destroyer',
+            en: 'Destroyer',
+            de: 'Destroyer',
+            pl: 'Destroyer',
+        },
+        killa: { ru: 'Killa', ua: 'Killa', en: 'Killa', de: 'Killa', pl: 'Killa' },
+        playa: { ru: 'Playa', ua: 'Playa', en: 'Playa', de: 'Playa', pl: 'Playa' },
+        eastsidepac: {
+            ru: 'East Side Pac',
+            ua: 'East Side Pac',
+            en: 'East Side Pac',
+            de: 'East Side Pac',
+            pl: 'East Side Pac',
+        },
+    },
+};

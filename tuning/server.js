@@ -1,0 +1,67 @@
+export const server = {
+    notifyHeader: {
+        ua: 'Тюнінг ательє',
+        en: 'Tuning workshop',
+        ru: 'Тюнинг ателье',
+        de: 'Tuning-Werkstatt',
+        pl: 'Warsztat tuningowy',
+    },
+    notEnoughtMoney: {
+        ua: 'У вас недостатньо коштів для оплати тюнінгу',
+        en: 'You do not have enough money to pay for tuning',
+        ru: 'У вас недостаточно средств для оплаты тюнинга',
+        de: 'Sie haben nicht genügend Geld, um das Tuning zu bezahlen',
+        pl: 'Nie masz wystarczająco dużo pieniędzy, aby zapłacić za tuning',
+    },
+    thanks: {
+        ua: 'Дякуємо за тюнінг в нашому ательє!',
+        en: 'Thank you for tuning at our workshop!',
+        ru: 'Спасибо за тюнинг в нашем ателье!',
+        de: 'Vielen Dank für das Tuning in unserer Werkstatt!',
+        pl: 'Dziękujemy za tuning w naszym warsztacie!',
+    },
+    notEnoughtMoneyForFix: {
+        ua: 'У вас недостатньо коштів для ремонту транспорту',
+        en: 'You do not have enough money to repair your vehicle',
+        ru: 'У вас недостаточно средств для починки транспорта',
+        de: 'Sie haben nicht genügend Geld, um Ihr Fahrzeug zu reparieren',
+        pl: 'Nie masz wystarczająco dużo pieniędzy, aby naprawić swój pojazd',
+    },
+    fixed: {
+        ua: 'Ваш транспорт відремонтовано',
+        en: 'Your vehicle has been repaired',
+        ru: 'Ваш транспорт отремонтирован',
+        de: 'Ihr Fahrzeug wurde repariert',
+        pl: 'Twój pojazd został naprawiony',
+    },
+    modal: {
+        title: {
+            ua: 'Відремонтуйте транспорт перед тюнінгом',
+            en: 'Repair your vehicle before tuning',
+            ru: 'Почините транспорт перед тюнингом',
+            de: 'Repariere dein Fahrzeug vor dem Tuning',
+            pl: 'Napraw swój pojazd przed tuningiem',
+        },
+        message: {
+            ua: 'Бажаєте відновити ваш транспорт за ${{price}}?',
+            en: 'Do you want to repair your vehicle for ${{price}}?',
+            ru: 'Хотите ли вы восстановить ваш транспорт за ${{price}}?',
+            de: 'Möchten Sie Ihr Fahrzeug für ${{price}} reparieren?',
+            pl: 'Czy chcesz naprawić swój pojazd za ${{price}}?',
+        },
+        confirmButton: {
+            ua: 'Так',
+            en: 'Yes',
+            ru: 'Да',
+            de: 'Ja',
+            pl: 'Tak',
+        },
+        cancelButton: {
+            ua: 'Ні',
+            en: 'No',
+            ru: 'Нет',
+            de: 'Nein',
+            pl: 'Nie',
+        },
+    },
+};

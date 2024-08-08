@@ -1,0 +1,51 @@
+export default {
+    seller: {
+        ru: 'Продавец',
+        ua: 'Продавець',
+        en: 'Seller',
+        de: 'Verkäufer',
+        pl: 'Sprzedawca',
+    },
+    buyer: {
+        ru: 'Покупатель',
+        ua: 'Покупець',
+        en: 'Buyer',
+        de: 'Käufer',
+        pl: 'Kupujący',
+    },
+    placeholder: {
+        ru: 'Укажите цену (например 50000)',
+        ua: 'Вкажіть ціну (наприклад 50000)',
+        en: 'Enter price (e.g., 50000)',
+        de: 'Preis angeben (z.B. 50000)',
+        pl: 'Podaj cenę (np. 50000)',
+    },
+    offer: {
+        ru: 'Предложить',
+        ua: 'Запропонувати',
+        en: 'Offer',
+        de: 'Anbieten',
+        pl: 'Zaproponować',
+    },
+    accept: {
+        ru: 'Принять',
+        ua: 'Прийняти',
+        en: 'Accept',
+        de: 'Annehmen',
+        pl: 'Przyjąć',
+    },
+    cancel: {
+        ru: 'Отмена',
+        ua: 'Скасувати',
+        en: 'Cancel',
+        de: 'Abbrechen',
+        pl: 'Anulować',
+    },
+    decline: {
+        ru: 'Отклонить',
+        ua: 'Відхилити',
+        en: 'Deny',
+        de: 'Ablehnen',
+        pl: 'Odrzucić',
+    },
+};

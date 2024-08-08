@@ -1,0 +1,16 @@
+export default {
+    name: {
+        ru: 'Азарт и Удача',
+        ua: 'Азарт і Удача',
+        en: 'Risk and Luck',
+        de: 'Risiko und Glück',
+        pl: 'Ryzyko i Szczęście',
+    },
+    desc: {
+        ru: 'Готов погрузиться в мир блеска и роскоши казино? Попробуй свою удачу на колесе фортуны, а затем сделай ставку, которая может изменить всё! Не забудь прикупить фишек и позволить адреналину прокатиться по венам за игровым столом рулетки. Пора узнать, на чьей ты стороне судьбы!',
+        ua: 'Готовий поринути у світ блиску та розкоші казино? Спробуй свою удачу на колесі фортуни, а потім зроби ставку, яка може змінити все! Не забудь придбати фішки і дозволити адреналіну заграти у венах за гральним столом рулетки. Пора дізнатися, на чий ти бік долі!',
+        en: `Ready to dive into the world of casino glamour and luxury? Try your luck at the wheel of fortune, and then place a bet that could change everything! Don't forget to buy some chips and let the adrenaline rush through your veins at the roulette table. It's time to find out whose side fate is on!`,
+        de: 'Bereit, in die Welt des Casino-Glamours und Luxus einzutauchen? Versuchen Sie Ihr Glück am Rad des Schicksals und geben Sie dann eine Wette ab, die alles verändern könnte! Vergessen Sie nicht, einige Chips zu kaufen und lassen Sie das Adrenalin an dem Roulettetisch durch Ihre Adern rauschen. Es ist Zeit herauszufinden, auf welcher Seite das Schicksal steht!',
+        pl: 'Gotowy na nurkowanie w świecie blasku i luksusu kasyna? Wypróbuj swoje szczęście przy kole fortuny, a następnie postaw zakład, który może zmienić wszystko! Nie zapomnij kupić żetonów i pozwól adrenalinie przemykać przez żyły przy stole do ruletki. Czas dowiedzieć się, po której stronie jesteś losu!',
+    },
+};

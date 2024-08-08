@@ -1,0 +1,202 @@
+export default {
+    categories: {
+        all: {
+            ru: 'Все',
+            ua: 'Всі',
+            en: 'All',
+            de: 'Alle',
+            pl: 'Wszystko',
+        },
+        money: {
+            ru: 'Денежные операции',
+            ua: 'Грошові операції',
+            en: 'Money operations',
+            de: 'Geldoperationen',
+            pl: 'Operacje pieniężne',
+        },
+        inventory: {
+            ru: 'Инвентарь',
+            ua: 'Інвентар',
+            en: 'Inventory',
+            de: 'Inventar',
+            pl: 'Inwentarz',
+        },
+        pills: {
+            ru: 'Таблетки',
+            ua: 'Таблетки',
+            en: 'Pills',
+            de: 'Pillen',
+            pl: 'Pigułki',
+        },
+        actions: {
+            ru: 'Действия',
+            ua: 'Дії',
+            en: 'Actions',
+            de: 'Aktionen',
+            pl: 'Działania',
+        },
+        members: {
+            ru: 'Участники',
+            ua: 'Учасники',
+            en: 'Members',
+            de: 'Mitglieder',
+            pl: 'Członkowie',
+        },
+        fines: {
+            ru: 'Штрафы',
+            ua: 'Штрафи',
+            en: 'Fines',
+            de: 'Bußgelder',
+            pl: 'Grzywny',
+        },
+        zones: {
+            ru: 'Територии',
+            ua: 'Території',
+            en: 'Territories',
+            de: 'Gebiete',
+            pl: 'Terytoria',
+        },
+    },
+    //
+    invitedPlayer: {
+        ru: 'Пригласил игрока {{player}}',
+        ua: 'Запросив гравця {{player}}',
+        en: 'Invited player {{player}}',
+        de: 'Eingeladener Spieler {{player}}',
+        pl: 'Zaprosił gracza {{player}}',
+    },
+    kickedPlayer: {
+        ru: 'Выгнал игрока {{player}}',
+        ua: 'Вигнав гравця {{player}}',
+        en: 'Kicked out player {{player}}',
+        de: 'Spieler {{player}} rausgeworfen',
+        pl: 'Wyrzucił gracza {{player}}',
+    },
+    deposited: {
+        ru: 'Пополнил бюджет на ${{money}}',
+        ua: 'Поповнив бюджет на ${{money}}',
+        en: 'Deposited to the budget ${{money}}',
+        de: 'Budget auf ${{money}} aufgefüllt',
+        pl: 'Doładowałem budżet o ${{money}}',
+    },
+    withdraw: {
+        ru: 'Взял с бюджета ${{money}}',
+        ua: 'Взяв з бюджету ${{money}}',
+        en: 'Withdrew from the budget ${{money}}',
+        de: 'Vom Budget ${{money}} abgehoben',
+        pl: 'Wypłaciłem z budżetu ${{money}}',
+    },
+    test: {
+        ru: 'Абоба №{{num}}',
+        ua: 'Абоба №{{num}}',
+        en: 'Aboba No. {{num}}',
+        de: 'Aboba Nr. {{num}}',
+        pl: 'Aboba nr {{num}}',
+    },
+    sellPills: {
+        ru: 'Продал таблетки {{type}} на ${{sum}}',
+        ua: 'Продав таблетки {{type}} за ${{sum}}',
+        en: 'Sold {{type}} pills for ${{sum}}',
+        de: '{{type}} Pillen für ${{sum}} verkauft',
+        pl: 'Sprzedano tabletki {{type}} za ${{sum}}',
+    },
+    takedBlood: {
+        ru: 'Взял кровь у {{name}}',
+        ua: 'Взяв кров у {{name}}',
+        en: 'Took blood from {{name}}',
+        de: 'Hat Blut von {{name}} genommen',
+        pl: 'Pobrał krew od {{name}}',
+    },
+    sellBloodBag: {
+        ru: 'Сдал кровь в лабаратории на сумму ${{sum}}',
+        ua: 'Здав кров в лабораторії на суму ${{sum}}',
+        en: 'Donated blood in the laboratory for the amount of ${{sum}}',
+        de: 'Hat Blut im Labor für den Betrag von ${{sum}} gespendet',
+        pl: 'Oddał krew w laboratorium za kwotę ${{sum}}',
+    },
+    giveMedicalLicense: {
+        ru: 'Выдал медицинскую лицензию {{player}}',
+        ua: 'Видав медичну ліцензію {{player}}',
+        en: 'Issued a medical license to {{player}}',
+        de: 'Hat eine medizinische Lizenz an {{player}} ausgestellt',
+        pl: 'Wydano licencję medyczną dla {{player}}',
+    },
+    renewMedicalLicense: {
+        ru: 'Возобновил медицинскую лицензию {{player}}',
+        ua: 'Оновив медичну ліцензію {{player}}',
+        en: 'Renewed the medical license of {{player}}',
+        de: 'Hat die medizinische Lizenz von {{player}} erneuert',
+        pl: 'Odnowiono licencję medyczną dla {{player}}',
+    },
+
+    //
+    putItemToInventory: {
+        ru: 'Положил {{item}} ({{quantity}}x) на склад',
+        ua: 'Поклав {{item}} ({{quantity}}x) на склад',
+        en: 'Put {{item}} ({{quantity}}x) in inventory',
+        de: 'Lege {{item}} ({{quantity}}x) ins Inventar',
+        pl: 'Umieścił {{item}} ({{quantity}}x) w ekwipunku',
+    },
+
+    takeItemFromInventory: {
+        ru: 'Взял {{item}} ({{quantity}}x) с склада',
+        ua: 'Взяв {{item}} ({{quantity}}x) зі складу',
+        en: 'Took {{item}} ({{quantity}}x) from inventory',
+        de: 'Nahm {{item}} ({{quantity}}x) aus dem Inventar',
+        pl: 'Zabrał {{item}} ({{quantity}}x) z ekwipunku',
+    },
+
+    //
+    ticketed: {
+        ru: 'Выписал штраф {{name}} на сумму ${{value}} по причине {{reason}}. Коментарий: {{comment}}',
+        ua: 'Виписав штраф {{name}} на суму ${{value}} з причини {{reason}}. Коментар: {{comment}}',
+        en: 'Issued a fine to {{name}} in the amount of ${{value}} for the reason: {{reason}}. Comment: {{comment}}',
+        de: 'Hat {{name}} ein Bußgeld in Höhe von ${{value}} aus folgendem Grund verhängt: {{reason}}. Kommentar: {{comment}}',
+        pl: 'Wystawił grzywnę {{name}} w wysokości ${{value}} z następującego powodu: {{reason}}. Komentarz: {{comment}}',
+    },
+
+    //
+    zoneIncome: {
+        ru: 'Выручка от территорий ${{amount}}',
+        ua: 'Виручка від територій ${{amount}}',
+        en: 'Revenue from territories ${{amount}}',
+        de: 'Einnahmen aus Gebieten ${{amount}}',
+        pl: 'Przychody z terytoriów ${{amount}}',
+    },
+
+    declaredWar: {
+        ru: 'Объявил войну за территорию #{{zone}}.',
+        ua: 'Оголосив війну за територію #{{zone}}.',
+        en: 'Declared war for territory #{{zone}}.',
+        de: 'Krieg um Gebiet #{{zone}} erklärt. ',
+        pl: 'Wypowiedziano wojnę o terytorium #{{zone}}',
+    },
+    startedWar: {
+        ru: 'Началась война за территорию #{{zone}}.',
+        ua: 'Розпочалася війна за територію #{{zone}}.',
+        en: 'War started for territory #{{zone}}.',
+        de: 'Krieg um Gebiet #{{zone}} hat begonnen.',
+        pl: 'Rozpoczęła się wojna o terytorium #{{zone}}.',
+    },
+    youWinZone: {
+        ru: 'Вы выиграли войну за территорию #{{zone}}.',
+        ua: 'Ви виграли війну за територію #{{zone}}.',
+        en: 'You won the war for territory #{{zone}}.',
+        de: 'Du hast den Krieg um Gebiet #{{zone}} gewonnen.',
+        pl: 'Wygrałeś wojnę o terytorium #{{zone}}.',
+    },
+    youLoseZone: {
+        ru: 'Вы проиграли войну за территорию #{{zone}}.',
+        ua: 'Ви програли війну за територію #{{zone}}.',
+        en: 'You lost the war for territory #{{zone}}.',
+        de: 'Du hast den Krieg um Gebiet #{{zone}} verloren.',
+        pl: 'Przegrałeś wojnę o terytorium #{{zone}}.',
+    },
+    failedToStartWar: {
+        ru: 'Не удалось начать войну за территорию #{{zone}}.',
+        ua: 'Не вдалося розпочати війну за територію #{{zone}}.',
+        en: 'Failed to start the war for territory #{{zone}}.',
+        de: 'Krieg um Gebiet #{{zone}} konnte nicht begonnen werden.',
+        pl: 'Nie udało się rozpocząć wojny o terytorium #{{zone}}.',
+    },
+};

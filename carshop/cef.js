@@ -1,0 +1,92 @@
+export const cef = {
+    autosalon: {
+        ua: 'Автосалон',
+        en: 'Car showroom',
+        ru: 'Автосалон',
+        de: 'Autoausstellung',
+        pl: 'Salon samochodowy',
+    },
+    searchInput: {
+        ua: 'Пошук автомобіля за назвою',
+        en: 'Search for a vehicle by name',
+        ru: 'Поиск машины по названию',
+        de: 'Fahrzeug nach Namen suchen',
+        pl: 'Szukaj pojazdu po nazwie',
+    },
+    stats: {
+        label: {
+            ua: 'Статистика',
+            en: 'Statistics',
+            ru: 'Статистика',
+            de: 'Statistik',
+            pl: 'Statystyka',
+        },
+        speed: {
+            ua: 'Швидкість',
+            en: 'Speed',
+            ru: 'Скорость',
+            de: 'Geschwindigkeit',
+            pl: 'Prędkość',
+        },
+        acceleation: {
+            ua: 'Прискорення',
+            en: 'Acceleration',
+            ru: 'Ускорение',
+            de: 'Beschleunigung',
+            pl: 'Przyspieszenie',
+        },
+        control: {
+            ua: 'Керованість',
+            en: 'Control',
+            ru: 'Управляемость',
+            de: 'Kontrolle',
+            pl: 'Kontrola',
+        },
+        brakes: {
+            ua: 'Гальма',
+            en: 'Brakes',
+            ru: 'Тормоза',
+            de: 'Bremsen',
+            pl: 'Hamulce',
+        },
+        pessangers: {
+            ua: 'Вмістимість',
+            en: 'Passenger capacity',
+            ru: 'Вместительность',
+            de: 'Passagierkapazität',
+            pl: 'Pojemność pasażerów',
+        },
+    },
+    colors: {
+        primary: {
+            ua: 'Основний колір',
+            en: 'Primary color',
+            ru: 'Основной цвет',
+            de: 'Primärfarbe',
+            pl: 'Kolor podstawowy',
+        },
+        secondary: {
+            ua: 'Додатковий колір',
+            en: 'Secondary color',
+            ru: 'Доп. цвет',
+            de: 'Sekundärfarbe',
+            pl: 'Kolor dodatkowy',
+        },
+    },
+    buttons: {
+        buy: {
+            ua: 'Купити',
+            en: 'Buy',
+            ru: 'Купить',
+            de: 'Kaufen',
+            pl: 'Kup',
+        },
+        testDrive: {
+            ua: 'Тест-драйв',
+            en: 'Test Drive',
+            ru: 'Тест-драйв',
+            de: 'Probefahrt',
+            pl: 'Jazda próbna',
+        },
+    },
+};

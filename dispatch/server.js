@@ -1,0 +1,73 @@
+export default {
+    arrivedMedic: {
+        ru: 'Медик прибыл по вашему вызову',
+        ua: 'Медик прибув за вашим викликом',
+        en: 'The medic has arrived at your call',
+        de: 'Der Sanitäter ist bei Ihrem Anruf angekommen',
+        pl: 'Medyk przybył na twoje wezwanie',
+    },
+    acceptedDispatch: {
+        ru: '{{name}} принял ваш вызов. Ожидайте.',
+        ua: '{{name}} прийняв ваш виклик. Очікуйте.',
+        en: '{{name}} accepted your call. Wait.',
+        de: '{{name}} hat Ihren Anruf angenommen. Warten Sie.',
+        pl: '{{name}} przyjął twoje wezwanie. Czekaj.',
+    },
+    newDispatch: {
+        ru: 'Поступил новый вызов',
+        ua: 'Надійшов новий виклик',
+        en: 'A new dispatch has arrived',
+        de: 'Ein neuer Einsatz ist eingetroffen',
+        pl: 'Nadeszło nowe wezwanie',
+    },
+    goDispatch: {
+        ru: 'Вы приняли вызов. Скорее отправляйтесь на точку',
+        ua: 'Ви прийняли виклик. Швидше вирушайте до точки',
+        en: 'You accepted the call. Hurry to the point',
+        de: 'Sie haben den Anruf angenommen. Beeilen Sie sich zum Punkt',
+        pl: 'Przyjąłeś wezwanie. Śpiesz się do punktu',
+    },
+    playerDeath: {
+        ru: 'Человек по вашему вызову скончался, вызов отменён.',
+        ua: 'Людина за вашим викликом померла, виклик скасовано.',
+        en: 'The person on your call has died, the call is canceled.',
+        de: 'Die Person auf Ihrem Anruf ist gestorben, der Anruf wird abgebrochen.',
+        pl: 'Osoba, do której dzwoniłeś, nie żyje, rozmowa jest anulowana.',
+    },
+    playerRevived: {
+        ru: 'Человек по вашему вызову неожидано воскрес... Случаются же чудеса',
+        ua: 'Людина за вашим викликом несподівано воскресла... Чудеса трапляються',
+        en: 'The person you called has unexpectedly resurrected... Miracles do happen',
+        de: 'Die Person, die Sie angerufen haben, ist unerwartet wieder auferstanden... Wunder geschehen',
+        pl: 'Osoba, którą wezwałeś, niespodziewanie zmartwychwstała... Cuda się zdarzają',
+    },
+    canceled: {
+        ru: 'Вызов отменён',
+        ua: 'Виклик скасовано',
+        en: 'Call canceled',
+        de: 'Anruf abgebrochen',
+        pl: 'Połączenie anulowane',
+    },
+    medicQuit: {
+        ru: 'Медик который отправлялся к вам пропал безвести, к вам будет направленно другого медика.',
+        ua: 'Медик, який вирушав до вас, зник безвісти, до вас буде направлено іншого медика.',
+        en: 'The medic who was going to you has disappeared, another medic will be sent to you.',
+        de: 'Der Sanitäter, der zu Ihnen unterwegs war, ist spurlos verschwunden, ein anderer Sanitäter wird zu Ihnen geschickt.',
+        pl: 'Lekarz, który jechał do ciebie, zniknął, do ciebie zostanie wysłany inny lekarz.',
+    },
+    playerReanimated: {
+        ru: 'Человек по вашему вызову был реанимирован, вызов отменён.',
+        ua: 'Людина за вашим викликом була реанімована, виклик скасовано.',
+        en: 'The person on your call was reanimated, the call is canceled.',
+        de: 'Die Person auf Ihrem Anruf wurde reanimiert, der Anruf wird abgebrochen.',
+        pl: 'Osoba, do której dzwoniłeś, została reanimowana, rozmowa jest anulowana.',
+    },
+
+    youReanimated: {
+        ru: 'Вы реанимировали человека по вызову, ваша награда ${{reward}}',
+        ua: 'Ви реанімували людину за викликом, ваша нагорода ${{reward}}',
+        en: 'You reanimated a person on the call, your reward is ${{reward}}',
+        de: 'Sie haben eine Person auf dem Anruf reanimiert, Ihre Belohnung beträgt ${{reward}}',
+        pl: 'Ożywiłeś osobę na połączeniu, twoja nagroda to ${{reward}}',
+    },
+};

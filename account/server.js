@@ -1,0 +1,98 @@
+import recovery from './recovery';
+
+export const server = {
+    loginNotFound: {
+        ua: 'Аккаунт не знайдено!',
+        en: 'Account not found!',
+        ru: 'Аккаунт не найден!',
+        de: 'Konto nicht gefunden!',
+        pl: 'Nie znaleziono konta!',
+    },
+    accountAlreadyLogged: {
+        ua: 'Під вашим акаунтом хтось авторизований',
+        en: 'Someone is already logged in to your account',
+        ru: 'Под вашим аккаунтом кто-то авторизован',
+        de: 'Jemand ist bereits in Ihrem Konto angemeldet',
+        pl: 'Ktoś jest już zalogowany na twoim koncie',
+    },
+    invalidCredentials: {
+        ua: 'Неправильні дані',
+        en: 'Invalid credentials',
+        ru: 'Неправильные данные',
+        de: 'Ungültige Anmeldeinformationen',
+        pl: 'Nieprawidłowe dane',
+    },
+    waitSpam: {
+        ua: 'Зачекайте трохи',
+        en: 'Wait a little',
+        ru: 'Подождите немного',
+        de: 'Warte ein bisschen',
+        pl: 'Poczekaj chwilę',
+    },
+    registrationSuccess: {
+        ua: 'Ви успішно створили аккаунт',
+        en: 'You have successfully created an account',
+        ru: 'Вы успешно создали аккаунт',
+        de: 'Sie haben erfolgreich ein Konto erstellt',
+        pl: 'Pomyślnie utworzono konto',
+    },
+    accountCreationError: {
+        ua: 'Сталася помилка, спробуйте ще раз',
+        en: 'An error occurred, please try again',
+        ru: 'Произошла ошибка, повторите попытку',
+        de: 'Es ist ein Fehler aufgetreten, bitte versuchen Sie es erneut',
+        pl: 'Wystąpił błąd, spróbuj ponownie',
+    },
+    accountAlreadyExists: {
+        ua: 'Ви можете мати тільки один аккаунт',
+        en: 'You can have only one account',
+        ru: 'Вы можете иметь только один аккаунт',
+        de: 'Sie können nur ein Konto haben',
+        pl: 'Możesz mieć tylko jedno konto',
+    },
+    loginEmailInUse: {
+        ua: 'Логін або E-Mail вже використовуються. Спробуйте інші дані',
+        en: 'Login or E-Mail is already in use. Try different data',
+        ru: 'Логин или E-Mail уже используются. Попробуйте другие данные',
+        de: 'Login oder E-Mail wird bereits verwendet. Versuchen Sie es mit anderen Daten',
+        pl: 'Login lub E-Mail jest już używane. Spróbuj innych danych',
+    },
+    invalidRegistrationData: {
+        ua: 'Неправильні дані при реєстрації',
+        en: 'Invalid registration data',
+        ru: 'Неправильные данные при регистрации',
+        de: 'Ungültige Registrierungsdaten',
+        pl: 'Nieprawidłowe dane rejestracji',
+    },
+    banned: {
+        ru: 'Вы заблокированы на {{days}} дней по причине {{reason}}',
+        en: 'You are banned for {{days}} days for {{reason}}',
+        ua: 'Ви заблоковані на {{days}} днів по причині {{reason}}',
+        de: 'Du wurdest gesperrt wegen {{reason}}',
+        pl: 'Zostałeś zablokowany z powodu {{reason}}',
+    },
+    invalidCode: {
+        ru: 'Код восстановления не найден',
+        ua: 'Код відновлення не знайдено',
+        en: 'Recovery code not found',
+        de: 'Wiederherstellungscode nicht gefunden',
+        pl: 'Kod odzyskiwania nie znaleziony',
+    },
+    codeExpired: {
+        ru: 'Время действия кода истекло',
+        ua: 'Час дії коду закінчився',
+        en: 'Code has expired',
+        de: 'Code ist abgelaufen',
+        pl: 'Kod wygasł',
+    },
+    passwordChanged: {
+        ru: 'Вы успешно изменили пароль',
+        ua: 'Ви успішно змінили пароль',
+        en: 'You have successfully changed your password',
+        de: 'Sie haben Ihr Passwort erfolgreich geändert',
+        pl: 'Pomyślnie zmieniłeś hasło',
+    },
+    html: {
+        recovery,
+    },
+};
