@@ -56,6 +56,7 @@ import fishing from './jobs/fishing/fishing';
 import referral from './referral';
 import buyer from './buyer/buyer';
 import { gasStation } from './gasStation/gasStation';
+import cayoPerico from './cayoPerico';
 
 export default {
     account,
@@ -116,4 +117,5 @@ export default {
     referral,
     buyer,
     gasStation,
+    cayoPerico,
 };
