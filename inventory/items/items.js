@@ -47,6 +47,39 @@ export const items = {
             pl: 'Dokument tożsamości',
         },
     },
+    petrolcan: {
+        name: {
+            ru: 'Канистра бензина 20л.',
+            ua: 'Каністра бензину 20л.',
+            en: '20L Petrol Can',
+            de: '20L Benzinkanister',
+            pl: 'Kanister benzyny 20l.',
+        },
+        desc: {
+            ru: 'Заправляет любой бензиновый автомобиль на 20л.',
+            ua: 'Заправляє будь-який бензиновий автомобіль на 20л.',
+            en: 'Refuels any petrol car with 20L.',
+            de: 'Betankt jedes benzinbetriebene Auto mit 20L.',
+            pl: 'Tankuje każdy samochód benzynowy na 20l.',
+        },
+    },
+    powerStation: {
+        name: {
+            ru: 'Зарядная станция 20kW.',
+            ua: 'Зарядна станція 20kW.',
+            en: '20kW Charging Station',
+            de: '20kW Ladestation',
+            pl: 'Stacja ładowania 20kW',
+        },
+        desc: {
+            ru: 'Заряжает любой электро-мобиль на 20kW.',
+            ua: 'Заряджає будь-який електро-мобіль на 20kW.',
+            en: 'Charges any electric car with 20kW.',
+            de: 'Lädt jedes Elektroauto mit 20kW.',
+            pl: 'Ładuje każdy samochód elektryczny na 20kW.',
+        },
+    },
+
     backpack1: {
         name: {
             ua: 'Рюкзак',
