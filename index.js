@@ -55,6 +55,7 @@ import trading from './trading';
 import fishing from './jobs/fishing/fishing';
 import referral from './referral';
 import buyer from './buyer/buyer';
+import { gasStation } from './gasStation/gasStation';
 
 export default {
     account,
@@ -114,4 +115,5 @@ export default {
     fishing,
     referral,
     buyer,
+    gasStation,
 };

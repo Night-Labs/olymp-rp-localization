@@ -182,6 +182,13 @@ export default {
         de: 'Sie können dieses Auto nicht starten',
         pl: 'Nie możesz uruchomić tego samochodu',
     },
+    youCannotTurnOnEngineFuel: {
+        ru: 'Вы не можете завести эту машину потому что закончилось топливо',
+        ua: 'Ви не можете завести цю машину, тому що закінчилось паливо',
+        en: 'You cannot start this car because it is out of fuel',
+        de: 'Sie können dieses Auto nicht starten, weil der Treibstoff ausgegangen ist',
+        pl: 'Nie możesz uruchomić tego samochodu, ponieważ skończyło się paliwo',
+    },
     noDeliveryInGreenZone: {
         ru: 'Доставить машину в зеленую зону нельзя',
         ua: 'Доставити машину в зелену зону не можна',
