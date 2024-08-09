@@ -1,0 +1,83 @@
+export default {
+    first: {
+        welcomeToFarm: {
+            ru: 'Приветствую на нашей ферме! Ты случайно не хочешь немного поработать?',
+            ua: 'Вітаю на нашій фермі! Ти випадково не хочеш трохи попрацювати?',
+            en: 'Welcome to our farm! Do you happen to want to do some work?',
+            de: 'Willkommen auf unserem Bauernhof! Möchtest du zufällig etwas arbeiten?',
+            pl: 'Witamy na naszej farmie! Czy przypadkiem nie chcesz trochę popracować?',
+        },
+        ofCourse: {
+            ru: 'Давай',
+            ua: 'Давай',
+            en: 'Sure',
+            de: 'Klar',
+            pl: 'Oczywiście',
+        },
+        moreInfo: {
+            ru: 'Расскажи об ферме',
+            ua: 'Розкажи про ферму',
+            en: 'Tell me about the farm',
+            de: 'Erzähl mir von dem Bauernhof',
+            pl: 'Opowiedz mi o farmie',
+        },
+        later: {
+            ru: 'Позже',
+            ua: 'Пізніше',
+            en: 'Later',
+            de: 'Später',
+            pl: 'Później',
+        },
+        farmInfo: {
+            ru: 'Что-ж, всё зависит от твоего уровня. На нашей ферме присутствует много полей и на каждом можно садить определенную культуру, для каждой культуры надо иметь определенный уровень',
+            ua: 'Що ж, все залежить від твого рівня. На нашій фермі багато полів і на кожному можна садити певну культуру, для кожної культури треба мати певний рівень',
+            en: 'Well, it all depends on your level. Our farm has many fields, and you can plant a specific crop on each one. For each crop, you need to have a certain level',
+            de: 'Nun, es hängt alles von deinem Level ab. Auf unserem Bauernhof gibt es viele Felder, und auf jedem kannst du eine bestimmte Kultur pflanzen. Für jede Kultur brauchst du ein bestimmtes Level',
+            pl: 'Cóż, wszystko zależy od twojego poziomu. Nasza farma ma wiele pól, na każdym możesz sadzić określoną uprawę. Dla każdej uprawy musisz mieć określony poziom',
+        },
+        howToStartGrowing: {
+            ru: 'Можно сразу идти сажать?',
+            ua: 'Можна одразу йти садити?',
+            en: 'Can I start planting right away?',
+            de: 'Kann ich sofort mit dem Pflanzen beginnen?',
+            pl: 'Czy mogę od razu zacząć sadzić?',
+        },
+        okay: {
+            ru: 'Понятно',
+            ua: 'Зрозуміло',
+            en: 'Got it',
+            de: 'Verstanden',
+            pl: 'Zrozumiałem',
+        },
+        youNeedLevel: {
+            ru: 'Сажать можно начать с 2 уровня, а именно начиная с картошки и постепенно поднимая уровень. А чтобы достичь 2 уровня нужно пособирать апельсины из деревьев и достичь 2 уровня. Готов начать работу?',
+            ua: 'Садити можна почати з 2 рівня, а саме з картоплі і поступово підвищувати рівень. А щоб досягти 2 рівня, треба зібрати апельсини з дерев і досягти 2 рівня. Готовий почати роботу?',
+            en: 'You can start planting from level 2, starting with potatoes and gradually leveling up. To reach level 2, you need to gather oranges from the trees and reach level 2. Ready to start working?',
+            de: 'Du kannst ab Level 2 mit dem Pflanzen beginnen, beginnend mit Kartoffeln und nach und nach aufsteigen. Um Level 2 zu erreichen, musst du Orangen von den Bäumen sammeln und Level 2 erreichen. Bereit anzufangen?',
+            pl: 'Możesz zacząć sadzić od poziomu 2, zaczynając od ziemniaków i stopniowo podnosząc poziom. Aby osiągnąć poziom 2, musisz zebrać pomarańcze z drzew i osiągnąć poziom 2. Gotowy do pracy?',
+        },
+    },
+    second: {
+        youWantToQuitAlready: {
+            ru: 'Похоже ты хочешь уволиться, это так?',
+            ua: 'Схоже, ти хочеш звільнитися, це так?',
+            en: 'It looks like you want to quit, is that right?',
+            de: 'Es sieht so aus, als ob du kündigen möchtest, stimmt das?',
+            pl: 'Wygląda na to, że chcesz zrezygnować, czy to prawda?',
+        },
+        yes: {
+            ru: 'Да',
+            ua: 'Так',
+            en: 'Yes',
+            de: 'Ja',
+            pl: 'Tak',
+        },
+        no: {
+            ru: 'Я передумал',
+            ua: 'Я передумав',
+            en: "I've changed my mind",
+            de: 'Ich habe es mir anders überlegt',
+            pl: 'Zmieniłem zdanie',
+        },
+    },
+};

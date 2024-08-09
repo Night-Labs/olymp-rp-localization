@@ -55,7 +55,6 @@ import trading from './trading';
 import fishing from './jobs/fishing/fishing';
 import referral from './referral';
 import buyer from './buyer/buyer';
-import cayoPerico from './cayoPerico';
 
 export default {
     account,
@@ -115,5 +114,4 @@ export default {
     fishing,
     referral,
     buyer,
-    cayoPerico,
 };
