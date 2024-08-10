@@ -5,6 +5,7 @@ export default {
         en: 'Password recovery for',
         de: 'Passwortwiederherstellung für',
         pl: 'Odzyskiwanie hasła dla',
+        ge: 'YOUR LOCALIZATION'
     },
     instruction: {
         ru: 'Мы получили запрос на восстановление пароля для вашей учетной записи. Пожалуйста, используйте следующий код для сброса пароля. Этот код действителен в течение 30 минут.',
