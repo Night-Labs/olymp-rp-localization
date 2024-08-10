@@ -7,11 +7,11 @@ export default {
         pl: '~r~[Uwaga] Gdzieś w stanie zrzucono Air Drop, na mapie pojawi się przybliżona jego pozycja, ruszajcie na poszukiwania!',
     },
     messageForAdmins: {
-        ru: '`~r~[ADMIN] Начался Air Drop, следите чтобы никто не нарушал правила на нём!',
-        ua: '`~r~[ADMIN] Почався Air Drop, слідкуйте, щоб ніхто не порушував правила на ньому!',
-        en: '`~r~[ADMIN] Air Drop has started, make sure no one is breaking the rules!',
-        de: '`~r~[ADMIN] Air Drop hat begonnen, stellen Sie sicher, dass niemand die Regeln bricht!',
-        pl: '`~r~[ADMIN] Rozpoczął się Air Drop, upewnij się, że nikt nie łamie zasad!',
+        ru: '~r~[ADMIN] Начался Air Drop, следите чтобы никто не нарушал правила на нём!',
+        ua: '~r~[ADMIN] Почався Air Drop, слідкуйте, щоб ніхто не порушував правила на ньому!',
+        en: '~r~[ADMIN] Air Drop has started, make sure no one is breaking the rules!',
+        de: '~r~[ADMIN] Air Drop hat begonnen, stellen Sie sicher, dass niemand die Regeln bricht!',
+        pl: '~r~[ADMIN] Rozpoczął się Air Drop, upewnij się, że nikt nie łamie zasad!',
     },
     failedToDrop: {
         ru: '~r~[ADMIN] Аирдроп не сброшен так как недостаточно игроков в крайме',
@@ -19,5 +19,23 @@ export default {
         en: '~r~[ADMIN] Air Drop not dropped as there are not enough players in the crime',
         de: '~r~[ADMIN] Air Drop wurde nicht abgeworfen, da nicht genügend Spieler im Kriminalbereich sind',
         pl: '~r~[ADMIN] Air Drop nie został zrzucony, ponieważ nie ma wystarczającej liczby graczy w przestępstwie',
+    },
+
+    // Cayo perico
+    messageForFactionCayoPerico: {
+        ru: '~r~[Внимание] На острове Cayo Perico был сброшен Air Drop, на карте появится примерная его позиция, отправляйтесь на поиски!',
+        ua: "~r~[Увага] На острові Cayo Perico був скинутий Air Drop, на карті з'явиться його приблизна позиція, вирушайте на пошуки!",
+        en: '~r~[Attention] An Air Drop has been dropped on Cayo Perico island, its approximate position will appear on the map, go search for it!',
+        de: '~r~[Achtung] Ein Air Drop wurde auf der Insel Cayo Perico abgeworfen, seine ungefähre Position wird auf der Karte erscheinen, machen Sie sich auf die Suche!',
+        pl: '~r~[Uwaga] Na wyspie Cayo Perico zrzucono Air Drop, jego przybliżona pozycja pojawi się na mapie, wyruszcie na poszukiwania!',
+        ge: '~r~[ყურადღება] კაიო პერიკოს კუნძულზე ჩამოვარდა საჰაერო ჩამოტვირთვა, მისი სავარაუდო პოზიცია გამოჩნდება რუკაზე, მოძებნეთ!',
+    },
+    messageForAdminsCayoPerico: {
+        ru: '~r~[ADMIN] Начался Air Drop на Cayo Perico, следите чтобы никто не нарушал правила на нём!',
+        ua: '~r~[ADMIN] Почався Air Drop на Cayo Perico, стежте щоб ніхто не порушував правила на ньому!',
+        en: '~r~[ADMIN] An Air Drop has started on Cayo Perico, make sure no one breaks the rules during it!',
+        de: '~r~[ADMIN] Ein Air Drop hat auf Cayo Perico begonnen, achten Sie darauf, dass niemand die Regeln verletzt!',
+        pl: '~r~[ADMIN] Rozpoczął się Air Drop na Cayo Perico, upewnij się, że nikt nie łamie zasad podczas niego!',
+        ge: '~r~[ADMIN] კაიო პერიკოზე დაიწყო საჰაერო ჩამოტვირთვა, დარწმუნდით, რომ არავინ არღვევს წესებს!',
     },
 };
