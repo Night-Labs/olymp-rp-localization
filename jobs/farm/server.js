@@ -83,6 +83,14 @@ export const server = {
         de: 'Die Gießkanne ist leer',
         pl: 'Konewka jest pusta',
     },
+    fieldIsNotCultivated: {
+        ru: 'Чтобы садить на этом поле его нужно культивировать',
+        ua: 'Щоб садити на цьому полі, його потрібно культивувати',
+        en: 'To plant on this field, it needs to be cultivated',
+        de: 'Um auf diesem Feld zu pflanzen, muss es kultiviert werden',
+        pl: 'Aby sadzić na tym polu, należy je uprawiać',
+        ge: 'ამ ველზე დარგვისთვის საჭიროა მისი კულტივაცია',
+    },
     stages: {
         dead: {
             ru: 'Погибло',
@@ -120,4 +128,57 @@ export const server = {
             pl: 'Rośnie',
         },
     },
+
+    // Tractors stuff
+    deployedToTractorJob: {
+        ru: 'Найдите свободный трактор и следуйте указаниям',
+        ua: 'Знайдіть вільний трактор і дотримуйтесь вказівок',
+        en: 'Find a free tractor and follow the instructions',
+        de: 'Finde einen freien Traktor und folge den Anweisungen',
+        pl: 'Znajdź wolny traktor i postępuj zgodnie z instrukcjami',
+        ge: 'იპოვეთ თავისუფალი ტრაქტორი და მიჰყევით ინსტრუქციებს',
+    },
+    seatToTractorAndStart: {
+        ru: 'Найдите свободный культиватор и прицепите его к трактору',
+        ua: 'Знайдіть вільний культиватор і причепіть його до трактора',
+        en: 'Find a free cultivator and attach it to the tractor',
+        de: 'Finden Sie einen freien Kultivator und befestigen Sie ihn am Traktor',
+        pl: 'Znajdź wolny kultywator i przyczep go do traktora',
+        ge: 'იპოვეთ თავისუფალი კულტივატორი და მიამაგრეთ იგი ტრაქტორზე',
+    },
+    attachedCultivator: {
+        ru: 'Ищите свободное поле и начинайте его культивировать',
+        ua: 'Шукайте вільне поле і починайте його культивувати',
+        en: 'Look for a free field and start cultivating it',
+        de: 'Suchen Sie ein freies Feld und beginnen Sie es zu kultivieren',
+        pl: 'Szukaj wolnego pola i zacznij je uprawiać',
+        ge: 'მოიძიეთ თავისუფალი მინდორი და დაიწყეთ მისი კულტივირება',
+    },
+    yourLevelTooLow: {
+        ru: 'Ваш уровень слишком низкий для работы трактористом',
+        ua: 'Ваш рівень занадто низький для роботи трактористом',
+        en: 'Your level is too low to work as a tractor driver',
+        de: 'Ihr Level ist zu niedrig, um als Traktorfahrer zu arbeiten',
+        pl: 'Twój poziom jest zbyt niski, aby pracować jako traktorzysta',
+        ge: 'თქვენი დონე ძალიან დაბალია ტრაქტორისტად სამუშაოდ',
+    },
+    youAreCantSeatTractor: {
+        ru: 'У вас нет доступа к этому трактору',
+        ua: 'У вас немає доступу до цього трактора',
+        en: 'You do not have access to this tractor',
+        de: 'Sie haben keinen Zugang zu diesem Traktor',
+        pl: 'Nie masz dostępu do tego traktora',
+        ge: 'თქვენ არ გაქვთ წვდომა ამ ტრაქტორზე',
+    },
+    finishedCultivation: {
+        ru: 'Вы закончили культивировать это поле, теперь это поле пригодно для посадки растений. Вы заработали: ${{salary}}',
+        ua: 'Ви закінчили культивацію цього поля, тепер це поле придатне для посадки рослин. Ви заробили: ${{salary}}',
+        en: 'You have finished cultivating this field, it is now suitable for planting crops. You earned: ${{salary}}',
+        de: 'Du hast die Bearbeitung dieses Feldes abgeschlossen, es ist jetzt für den Anbau von Pflanzen geeignet. Du hast verdient: ${{salary}}',
+        pl: 'Zakończyłeś uprawę tego pola, teraz jest ono odpowiednie do sadzenia roślin. Zarobiłeś: ${{salary}}',
+        ge: 'თქვენ დაასრულეთ ამ ველის დამუშავება, ახლა ის მზადაა მცენარეების დასარგავად. თქვენ გამოიმუშავეთ: ${{salary}}',
+    },
+    // returnToTractor: {
+    //     ru: 'Вернитесь к трактору иначе '
+    // }
 };

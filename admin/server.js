@@ -193,4 +193,15 @@ export const server = {
         de: 'Fahrzeug gelöscht',
         pl: 'Pojazd usunięty',
     },
+
+    // Warns
+    youGivedWarn: {
+        ru: 'Вы выдали предупреждеие {{name}}. Всего: {{count}}/3',
+    },
+    youGotWarn: {
+        ru: 'Вы получили предупреждение. Всего: {{count}}/3',
+    },
+    youReachedMaxWarns: {
+        ru: 'Вы достигли максимального количества предупреждений. И были забанены',
+    },
 };
