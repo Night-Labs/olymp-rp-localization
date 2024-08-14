@@ -6,6 +6,7 @@ export const cef = {
             ru: 'Авторизация',
             de: 'Anmelden',
             pl: 'Zaloguj się',
+            ge: 'ავტორიზაცია'
         },
         subtitle: {
             ua: 'Щоб почати грати, вам потрібно увійти',
