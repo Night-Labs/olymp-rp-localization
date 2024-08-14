@@ -1,7 +1,7 @@
 export const gasStation = {
     title: {
         ru: 'Заправочная станция',
-        ua: 'Заправна станція',
+        ua: 'Заправна станцiя',
         en: 'Gas Station',
         de: 'Tankstelle',
         pl: 'Stacja benzynowa',
