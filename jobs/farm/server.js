@@ -6,12 +6,28 @@ export const server = {
         de: 'Arbeiten auf dem Bauernhof',
         pl: 'Praca na farmie',
     },
+    farmChat: {
+        ru: '[Ферма]: ',
+        ua: '[Ферма]: ',
+        en: '[Farm]: ',
+        de: '[Bauernhof]: ',
+        pl: '[Farma]: ',
+        ge: '[ფერმა]: ',
+    },
     plantation: {
         ru: 'Поле',
         ua: 'Поле',
         en: 'Plantation',
         de: 'Plantage',
         pl: 'Plantacja',
+    },
+    garden: {
+        ru: 'Сад апельсинов',
+        ua: 'Сад апельсинів',
+        en: 'Orange Garden',
+        de: 'Orangengarten',
+        pl: 'Ogród pomarańczowy',
+        ge: 'ფორთოხლის ბაღი',
     },
     youCantPlantThere: {
         ru: 'Вы не можете садить здесь',
@@ -181,4 +197,48 @@ export const server = {
     // returnToTractor: {
     //     ru: 'Вернитесь к трактору иначе '
     // }
+
+    // Orange
+    deployedToOrangesJob: {
+        ru: 'Отправляйтесь в сад собирать апельсины',
+        ua: 'Вирушайте в сад збирати апельсини',
+        en: 'Go to the orchard to pick oranges',
+        de: 'Gehen Sie in den Obstgarten, um Orangen zu pflücken',
+        pl: 'Idź do sadu zbierać pomarańcze',
+        ge: 'წადით ბაღში ფორთოხლების მოსაკრეფად',
+    },
+    youAreNotDeployedToOranges: {
+        ru: 'Чтобы собирать апельсины нужно устроится на работу',
+        ua: 'Щоб збирати апельсини, потрібно влаштуватися на роботу',
+        en: 'To pick oranges, you need to get a job',
+        de: 'Um Orangen zu pflücken, müssen Sie einen Job bekommen',
+        pl: 'Aby zbierać pomarańcze, musisz znaleźć pracę',
+        ge: 'ფორთოხლების მოსაკრეფად უნდა დასაქმდეთ',
+    },
+    treeCooldown: {
+        ru: 'Плоды на этом дереве ещё растут...',
+        ua: 'Плоди на цьому дереві ще ростуть...',
+        en: 'The fruits on this tree are still growing...',
+        de: 'Die Früchte an diesem Baum wachsen noch...',
+        pl: 'Owoce na tym drzewie wciąż rosną...',
+        ge: 'ხილები ამ ხეზე ჯერ კიდევ იზრდება...',
+    },
+    treeBusy: {
+        ru: 'Кто то уже собирает плоды на этом дереве',
+        ua: 'Хтось вже збирає плоди на цьому дереві',
+        en: 'Someone is already picking fruits from this tree',
+        de: 'Jemand pflückt bereits Früchte von diesem Baum',
+        pl: 'Ktoś już zbiera owoce z tego drzewa',
+        ge: 'ვინმე უკვე კრეფს ხილს ამ ხიდან',
+    },
+
+    //
+    vehiclesRespawned: {
+        ru: 'Незанятые тракторы и культиваторы были зареспавнены!',
+        ua: 'Незайняті трактори та культиватори були респавнені!',
+        en: 'Unoccupied tractors and cultivators have respawned!',
+        de: 'Unbesetzte Traktoren und Kultivatoren wurden respawnt!',
+        pl: 'Nieobsadzone traktory i kultywatory zostały zrespawnowane!',
+        ge: 'დაუკავებელი ტრაქტორები და კულტივატორები რესპავნდნენ!',
+    },
 };

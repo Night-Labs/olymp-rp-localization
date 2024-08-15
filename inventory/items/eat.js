@@ -175,4 +175,22 @@ export const food = {
             pl: 'Możesz wymienić je na prezent od Świętego Mikołaja',
         },
     },
+    orange: {
+        name: {
+            ru: 'Апельсин',
+            ua: 'Апельсин',
+            en: 'Orange',
+            de: 'Orange',
+            pl: 'Pomarańcza',
+            ge: 'ფორთოხალი',
+        },
+        desc: {
+            ru: 'Сочный апельсин, можно продать скупщику или съесть',
+            ua: "Соковитий апельсин, можна продати скупщику або з'їсти",
+            en: 'Juicy orange, can be sold to a buyer or eaten',
+            de: 'Saftige Orange, kann an einen Käufer verkauft oder gegessen werden',
+            pl: 'Soczysta pomarańcza, można sprzedać kupcowi lub zjeść',
+            ge: 'წვენიანი ფორთოხალი, შეიძლება გაიყიდოს მყიდველზე ან შეჭამონ',
+        },
+    },
 };

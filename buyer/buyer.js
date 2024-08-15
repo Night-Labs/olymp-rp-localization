@@ -110,5 +110,13 @@ export default {
             de: 'Fleisch',
             pl: 'Mięso',
         },
+        farm: {
+            ru: 'Агропродуктов',
+            ua: 'Агропродуктiв',
+            en: 'Farm',
+            de: 'Landwirtschaft',
+            pl: 'Gospodarstwo',
+            ge: 'ფერმა',
+        },
     },
 };
