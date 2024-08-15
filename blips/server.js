@@ -53,7 +53,7 @@ export const server = {
         en: 'Trucker',
         de: 'Trucker',
         pl: 'Kierowca ciężarówki',
-        ua: 'Далекобійник',
+        ua: 'Далекобiйник',
     },
     delivery: {
         ua: 'Курьер',

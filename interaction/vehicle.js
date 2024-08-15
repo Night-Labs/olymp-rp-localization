@@ -55,6 +55,23 @@ export const vehicle = {
         pl: 'Wyrzuć wszystkich',
     },
 
+    refuel: {
+        ru: 'Заправить с канистры',
+        ua: 'Заправити з каністри',
+        en: 'Refuel from a canister',
+        de: 'Mit einem Kanister tanken',
+        pl: 'Zatankować z kanistra',
+        ge: 'გაავსე კანისტრიდან',
+    },
+    recharge: {
+        ru: 'Зарядить зарядной станцией',
+        ua: 'Зарядити зарядною станцією',
+        en: 'Recharge at a charging station',
+        de: 'An einer Ladestation aufladen',
+        pl: 'Naładować na stacji ładowania',
+        ge: 'დატენეთ დამტენი სადგურით',
+    },
+
     //
 
     faction: {
@@ -128,7 +145,7 @@ export const vehicle = {
             de: 'Sie haben den Kofferraum geöffnet, jetzt können andere Leute ihn öffnen.',
             pl: 'Otworzyłeś bagażnik, teraz inni ludzie mogą go otworzyć.',
         },
-        
+
         trunkClose: {
             ru: 'Вы закрыли багажник.',
             ua: 'Ви закрили багажник.',
