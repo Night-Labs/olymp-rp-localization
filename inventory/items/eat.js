@@ -193,4 +193,20 @@ export const food = {
             ge: 'წვენიანი ფორთოხალი, შეიძლება გაიყიდოს მყიდველზე ან შეჭამონ',
         },
     },
+    melon_juice: {
+        name: {
+            ru: 'Арбузный коктейль',
+            ua: 'Кавуновий коктейль',
+            en: 'Watermelon Cocktail',
+            de: 'Wassermelonen-Cocktail',
+            pl: 'Koktajl arbuzowy',
+        },
+        desc: {
+            ru: 'Летний коктейль из свежего арбуза. Можно продать скупщику или выпить для освежения',
+            ua: 'Літній коктейль зі свіжого кавуна. Можна продати скупнику або випити для освіження',
+            en: 'Summer cocktail made from fresh watermelon. Can be sold to a trader or enjoyed for refreshment',
+            de: 'Sommercocktail aus frischer Wassermelone. Kann an einen Händler verkauft oder zur Erfrischung getrunken werden',
+            pl: 'Letni koktajl z świeżego arbuza. Może być sprzedany handlarzowi lub wypity dla orzeźwienia',
+        },
+    },
 };
