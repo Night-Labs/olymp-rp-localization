@@ -37,11 +37,12 @@ export const server = {
         pl: 'Nie możesz tam sadzić',
     },
     thatSeedsNot: {
-        ru: 'Эти семена не подходят на этом поле',
-        ua: 'Ці насіння не підходять на цьому полі',
-        en: 'These seeds are not suitable for this field',
-        de: 'Diese Samen sind für dieses Feld nicht geeignet',
-        pl: 'Te nasiona nie nadają się na to pole',
+        ru: 'На этом поле можно садить только: {{seeds}}',
+        ua: 'На цьому полі можна садити тільки: {{seeds}}',
+        en: 'Only the following can be planted in this field: {{seeds}}',
+        de: 'Auf diesem Feld können nur die folgenden Pflanzen gesät werden: {{seeds}}',
+        pl: 'Na tym polu można sadzić tylko: {{seeds}}',
+        ge: 'ამ ველში მხოლოდ შემდეგის დათესვაა შესაძლებელი: {{seeds}}',
     },
     waterTowerShapeEnter: {
         ru: 'Используйте лейку чтобы набрать в неё воду',

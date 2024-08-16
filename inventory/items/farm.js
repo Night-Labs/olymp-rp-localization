@@ -239,4 +239,118 @@ export default {
             pl: 'Może być sprzedany handlarzowi lub użyty do produkcji oleju',
         },
     },
+    watermelon_seeds: {
+        name: {
+            ru: 'Семена арбуза',
+            ua: 'Насіння кавуна',
+            en: 'Watermelon Seeds',
+            de: 'Wassermelonensamen',
+            pl: 'Nasiona arbuza',
+        },
+        desc: {
+            ru: 'Могут быть посажены для выращивания арбуза на ферме',
+            ua: 'Можуть бути посаджені для вирощування кавуна на фермі',
+            en: 'Can be planted to grow watermelons on the farm',
+            de: 'Können gepflanzt werden, um Wassermelonen auf der Farm anzubauen',
+            pl: 'Mogą być zasadzone do uprawy arbuzów na farmie',
+        },
+    },
+    pineapple_seeds: {
+        name: {
+            ru: 'Семена ананаса',
+            ua: 'Насіння ананаса',
+            en: 'Pineapple Seeds',
+            de: 'Ananassamen',
+            pl: 'Nasiona ananasa',
+        },
+        desc: {
+            ru: 'Могут быть посажены для выращивания ананаса на ферме',
+            ua: 'Можуть бути посаджені для вирощування ананаса на фермі',
+            en: 'Can be planted to grow pineapples on the farm',
+            de: 'Können gepflanzt werden, um Ananas auf der Farm anzubauen',
+            pl: 'Mogą być zasadzone do uprawy ananasów na farmie',
+        },
+    },
+    carrot_seeds: {
+        name: {
+            ru: 'Семена моркови',
+            ua: 'Насіння моркви',
+            en: 'Carrot Seeds',
+            de: 'Möhrensamen',
+            pl: 'Nasiona marchwi',
+        },
+        desc: {
+            ru: 'Могут быть посажены для выращивания моркови на ферме',
+            ua: 'Можуть бути посаджені для вирощування моркви на фермі',
+            en: 'Can be planted to grow carrots on the farm',
+            de: 'Können gepflanzt werden, um Möhren auf der Farm anzubauen',
+            pl: 'Mogą być zasadzone do uprawy marchwi na farmie',
+        },
+    },
+    carrot: {
+        name: {
+            ru: 'Морковь',
+            ua: 'Морква',
+            en: 'Carrot',
+            de: 'Möhre',
+            pl: 'Marchew',
+        },
+        desc: {
+            ru: 'Может быть использована для приготовления блюд или продана скупщику',
+            ua: 'Може бути використана для приготування страв або продана скупнику',
+            en: 'Can be used for cooking dishes or sold to a trader',
+            de: 'Kann zum Kochen von Gerichten verwendet oder an einen Händler verkauft werden',
+            pl: 'Może być używana do gotowania potraw lub sprzedana handlarzowi',
+        },
+    },
+    pineapple: {
+        name: {
+            ru: 'Ананас',
+            ua: 'Ананас',
+            en: 'Pineapple',
+            de: 'Ananas',
+            pl: 'Ananas',
+        },
+        desc: {
+            ru: 'Может быть использован для приготовления блюд или продан скупщику',
+            ua: 'Може бути використаний для приготування страв або проданий скупнику',
+            en: 'Can be used for cooking dishes or sold to a trader',
+            de: 'Kann zum Kochen von Gerichten verwendet oder an einen Händler verkauft werden',
+            pl: 'Może być używany do gotowania potraw lub sprzedany handlarzowi',
+        },
+    },
+    watermelon: {
+        name: {
+            ru: 'Арбуз',
+            ua: 'Кавун',
+            en: 'Watermelon',
+            de: 'Wassermelone',
+            pl: 'Arbuz',
+        },
+        desc: {
+            ru: 'Может быть использован для приготовления блюд или продан скупщику',
+            ua: 'Може бути використаний для приготування страв або проданий скупнику',
+            en: 'Can be used for cooking dishes or sold to a trader',
+            de: 'Kann zum Kochen von Gerichten verwendet oder an einen Händler verkauft werden',
+            pl: 'Może być używany do gotowania potraw lub sprzedany handlarzowi',
+        },
+    },
+    melon: {
+        name: {
+            ru: 'Долька арбуза',
+            ua: 'Скибка кавуна',
+            en: 'Slice of watermelon',
+            de: 'Wassermelonenstück',
+            pl: 'Kawałek arbuza',
+            ge: 'საზამთროს ნაჭერი',
+        },
+        desc: {
+            ru: 'Сочнейшая долька арбуза вырощеного на полях фермы Олимпа',
+            ua: 'Соковита скибка кавуна, вирощеного на полях ферми Олімпу',
+            en: 'The juiciest slice of watermelon grown on the fields of Olympus farm',
+            de: 'Das saftigste Stück Wassermelone, angebaut auf den Feldern der Olympfarm',
+            pl: 'Soczysty kawałek arbuza uprawiany na polach farmy Olimpu',
+            ge: 'საზამთროს ყველაზე წვნიანი ნაჭერი, რომელიც ოლიმპის ფერმის ველებზე მოყვანილია',
+        },
+    },
 };
