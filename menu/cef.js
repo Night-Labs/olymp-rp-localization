@@ -360,6 +360,15 @@ export const cef = {
                 pl: 'Typ amunicji',
             },
 
+            water: {
+                ru: 'Запас воды',
+                ua: 'Запас води',
+                en: 'Water supply',
+                de: 'Wasservorrat',
+                pl: 'Zapas wody',
+                ge: 'წყლის მარაგი',
+            },
+
             bindingText: {
                 ru: 'Нажмите кнопку для привязки',
                 ua: "Натисніть кнопку для прив'язки",

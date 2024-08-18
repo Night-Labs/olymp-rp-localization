@@ -185,7 +185,7 @@ export const cef = {
         de: 'Aus dem Warenkorb entfernen',
         pl: 'Usuń z koszyka',
     },
-    price:{
+    price: {
         ru: 'Цена:',
         ua: 'Ціна:',
         en: 'Price:',
@@ -258,6 +258,14 @@ export const cef = {
             en: 'Tools',
             de: 'Werkzeuge',
             pl: 'Narzędzia',
+        },
+        farm: {
+            ru: 'Фермерские',
+            ua: 'Фермерські',
+            en: 'Farm',
+            de: 'Bauernhof',
+            pl: 'Rolnicze',
+            ge: 'ფერმერული',
         },
         other: {
             ru: 'Прочее',
