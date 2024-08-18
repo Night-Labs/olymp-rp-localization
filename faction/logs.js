@@ -164,6 +164,15 @@ export default {
         pl: 'Przychody z terytoriów ${{amount}}',
     },
 
+    failedZoneIncome: {
+        ru: 'Из-за недостаточного кол-ва игроков выручка от территорий не получена!',
+        ua: 'Через недостатню кількість гравців дохід від територій не отримано!',
+        en: 'Due to an insufficient number of players, no income was received from the territories!',
+        de: 'Aufgrund einer unzureichenden Anzahl von Spielern wurde kein Einkommen aus den Gebieten erzielt!',
+        pl: 'Z powodu niewystarczającej liczby graczy dochód z terytoriów nie został uzyskany!',
+        ge: 'მოთამაშეთა არასაკმარისი რაოდენობის გამო, ტერიტორიის შემოსავალი ვერ მიიღეს!',
+    },
+
     declaredWar: {
         ru: 'Объявил войну за территорию #{{zone}}.',
         ua: 'Оголосив війну за територію #{{zone}}.',
