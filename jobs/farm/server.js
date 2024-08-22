@@ -29,6 +29,14 @@ export const server = {
         pl: 'Ogród pomarańczowy',
         ge: 'ფორთოხლის ბაღი',
     },
+    fieldMinLevel: {
+        ru: 'Минимальный уровень для этого поля: {{level}}',
+        ua: 'Мінімальний рівень для цього поля: {{level}}',
+        en: 'Minimum level for this field: {{level}}',
+        de: 'Mindestlevel für dieses Feld: {{level}}',
+        pl: 'Minimalny poziom dla tego pola: {{level}}',
+        ge: 'მინიმალური დონე ამ ველისთვის: {{level}}',
+    },
     youCantPlantThere: {
         ru: 'Вы не можете садить здесь',
         ua: 'Ви не можете садити тут',
@@ -99,6 +107,14 @@ export const server = {
         en: 'The watering can is empty',
         de: 'Die Gießkanne ist leer',
         pl: 'Konewka jest pusta',
+    },
+    noWaterNeed: {
+        ru: 'Растение и так полито',
+        ua: 'Рослину вже полито',
+        en: 'The plant is already watered',
+        de: 'Die Pflanze ist bereits gegossen',
+        pl: 'Roślina jest już podlana',
+        ge: 'მცენარე უკვე მორწყულია',
     },
     fieldIsNotCultivated: {
         ru: 'Чтобы садить на этом поле его нужно культивировать',
@@ -241,5 +257,41 @@ export const server = {
         de: 'Unbesetzte Traktoren und Kultivatoren wurden respawnt!',
         pl: 'Nieobsadzone traktory i kultywatory zostały zrespawnowane!',
         ge: 'დაუკავებელი ტრაქტორები და კულტივატორები რესპავნდნენ!',
+    },
+
+    //
+    label: {
+        field: {
+            ru: 'Поле',
+            ua: 'Поле',
+            en: 'Field',
+            de: 'Feld',
+            pl: 'Pole',
+            ge: 'ველი',
+        },
+        lvl: {
+            ru: 'Нужный уровень',
+            ua: 'Необхідний рівень',
+            en: 'Required level',
+            de: 'Erforderliches Niveau',
+            pl: 'Wymagany poziom',
+            ge: 'საჭირო დონე',
+        },
+        crop: {
+            ru: 'Культура',
+            ua: 'Культура',
+            en: 'Crop',
+            de: 'Kultur',
+            pl: 'Uprawa',
+            ge: 'მოსავალი',
+        },
+        planted: {
+            ru: 'Посажено',
+            ua: 'Посаджено',
+            en: 'Planted',
+            de: 'Gepflanzt',
+            pl: 'Zasadzono',
+            ge: 'დარგული',
+        },
     },
 };
