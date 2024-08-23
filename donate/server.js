@@ -80,6 +80,14 @@ export const server = {
             pl: 'Otrzymano {{exp}} doswiadczenia dla dostawce!',
         },
 
+        farm: {
+            ru: 'Получено {{exp}} опыта фермы!',
+            ua: 'Отримано {{exp}} досвіду ферми!',
+            en: '{{exp}} farm experience gained!',
+            de: '{{exp}} Farm-Erfahrung erhalten!',
+            pl: 'Zdobyto {{exp}} doświadczenia na farmie!',
+        },
+
         fishing: {
             ru: 'Получено {{exp}} опыта рыбалки!',
             ua: 'Отримано {{exp}} досвіду рибалки!',

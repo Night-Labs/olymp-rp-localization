@@ -200,6 +200,13 @@ export const cef = {
                 de: 'Für Fernfahrer',
                 pl: 'Dla kierowcy długodystansowego',
             },
+            farm: {
+                ru: 'Для фермы',
+                ua: 'Для ферми',
+                en: 'For the farm',
+                de: 'Für die Farm',
+                pl: 'Dla farmy',
+            },
             fishing: {
                 ru: 'Для рыбалки',
                 ua: 'Для риболовлі',

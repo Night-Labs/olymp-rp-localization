@@ -249,6 +249,21 @@ export const server = {
         ge: 'ვინმე უკვე კრეფს ხილს ამ ხიდან',
     },
 
+    notEnoughtLevelForTractor: {
+        ru: 'Для работы на тракторе нужен {{level}} уровень фермера',
+        ua: 'Для роботи на тракторі потрібен {{level}} рівень фермера',
+        en: 'You need a farmer level of {{level}} to operate a tractor',
+        de: 'Für die Arbeit mit dem Traktor wird ein Bauernlevel von {{level}} benötigt',
+        pl: 'Do pracy na traktorze potrzebny jest poziom rolnika {{level}}',
+    },
+    noFreeFiels: {
+        ru: 'Сейчас нет свободных полей для культивации',
+        ua: 'Зараз немає вільних полів для культивації',
+        en: 'There are currently no free fields for cultivation',
+        de: 'Zurzeit gibt es keine freien Felder für die Kultivierung',
+        pl: 'Obecnie nie ma wolnych pól do uprawy',
+    },
+
     //
     vehiclesRespawned: {
         ru: 'Незанятые тракторы и культиваторы были зареспавнены!',
