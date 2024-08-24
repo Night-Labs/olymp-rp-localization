@@ -264,6 +264,14 @@ export const server = {
         pl: 'Obecnie nie ma wolnych pól do uprawy',
     },
 
+    returnToTractor: {
+        ru: 'Вернитесь к трактору иначе прогресс будет потерян',
+        ua: 'Поверніться до трактора, інакше прогрес буде втрачено',
+        en: 'Return to the tractor or progress will be lost',
+        de: 'Kehren Sie zum Traktor zurück, sonst geht der Fortschritt verloren',
+        pl: 'Wróć do traktora, inaczej postęp zostanie utracony',
+    },
+
     //
     vehiclesRespawned: {
         ru: 'Незанятые тракторы и культиваторы были зареспавнены!',

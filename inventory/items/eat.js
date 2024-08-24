@@ -209,4 +209,134 @@ export const food = {
             pl: 'Letni koktajl z świeżego arbuza. Może być sprzedany handlarzowi lub wypity dla orzeźwienia',
         },
     },
+
+    // New since 08/24/2024
+    pretzels: {
+        name: {
+            ua: 'Прецелі',
+            en: 'Pretzels',
+            ru: 'Пряцели',
+            de: 'Brezeln',
+            pl: 'Precle',
+        },
+        desc: {
+            ua: 'Солоні прецелі, чудово підходять як закуска',
+            en: 'Salty pretzels, perfect as a snack',
+            ru: 'Соленые пряцели, идеально подходят в качестве закуски',
+            de: 'Salzige Brezeln, perfekt als Snack',
+            pl: 'Słone precle, idealne jako przekąska',
+        },
+    },
+    peanuts: {
+        name: {
+            ua: 'Арахіс',
+            en: 'Peanuts',
+            ru: 'Арахис',
+            de: 'Erdnüsse',
+            pl: 'Orzeszki ziemne',
+        },
+        desc: {
+            ua: 'Смачний та корисний арахіс',
+            en: 'Tasty and nutritious peanuts',
+            ru: 'Вкусный и питательный арахис',
+            de: 'Leckere und nahrhafte Erdnüsse',
+            pl: 'Smaczne i odżywcze orzeszki ziemne',
+        },
+    },
+    olymp_energy: {
+        name: {
+            ua: 'Olymp Energy',
+            en: 'Olymp Energy',
+            ru: 'Olymp Energy',
+            de: 'Olymp Energy',
+            pl: 'Olymp Energy',
+        },
+        desc: {
+            ua: 'Енергетичний напій для підвищення енергії',
+            en: 'Energy drink to boost your energy',
+            ru: 'Энергетический напиток для повышения энергии',
+            de: 'Energydrink zur Steigerung der Energie',
+            pl: 'Napój energetyczny na zwiększenie energii',
+        },
+    },
+    pepsi_can: {
+        name: {
+            ua: 'Pepsi',
+            en: 'Pepsi',
+            ru: 'Pepsi',
+            de: 'Pepsi',
+            pl: 'Pepsi',
+        },
+        desc: {
+            ua: 'Класична Pepsi у банці',
+            en: 'Classic Pepsi in a can',
+            ru: 'Классическая Pepsi в банке',
+            de: 'Klassische Pepsi in der Dose',
+            pl: 'Klasyczna Pepsi w puszce',
+        },
+    },
+    pepsi_can_black: {
+        name: {
+            ua: 'Pepsi Black',
+            en: 'Pepsi Black',
+            ru: 'Pepsi Black',
+            de: 'Pepsi Black',
+            pl: 'Pepsi Black',
+        },
+        desc: {
+            ua: 'Pepsi без цукру у банці',
+            en: 'Sugar-free Pepsi in a can',
+            ru: 'Pepsi без сахара в банке',
+            de: 'Zuckerfreie Pepsi in der Dose',
+            pl: 'Pepsi bez cukru w puszce',
+        },
+    },
+    croissant: {
+        name: {
+            ua: 'Круасан',
+            en: 'Croissant',
+            ru: 'Круассан',
+            de: 'Croissant',
+            pl: 'Rogal',
+        },
+        desc: {
+            ua: 'Ніжний круасан з маслом',
+            en: 'Delicate butter croissant',
+            ru: 'Нежный круассан с маслом',
+            de: 'Zartes Buttercroissant',
+            pl: 'Delikatny rogalik z masłem',
+        },
+    },
+    donut_white: {
+        name: {
+            ua: `Пончик з білою глазур'ю`,
+            en: 'Donut with white glaze',
+            ru: 'Пончик с белой глазурью',
+            de: 'Donut mit weißer Glasur',
+            pl: 'Pączek z białą polewą',
+        },
+        desc: {
+            ua: `Солодкий пончик з білою глазур'ю`,
+            en: 'Sweet donut with white glaze',
+            ru: 'Сладкий пончик с белой глазурью',
+            de: 'Süßer Donut mit weißer Glasur',
+            pl: 'Słodki pączek z białą polewą',
+        },
+    },
+    donut_black: {
+        name: {
+            ua: 'Пончик з чорним шоколадом',
+            en: 'Donut with black chocolate',
+            ru: 'Пончик с черным шоколадом',
+            de: 'Donut mit schwarzer Schokolade',
+            pl: 'Pączek z czarną czekoladą',
+        },
+        desc: {
+            ua: 'Солодкий пончик з чорним шоколадом',
+            en: 'Sweet donut with black chocolate',
+            ru: 'Сладкий пончик с черным шоколадом',
+            de: 'Süßer Donut mit schwarzer Schokolade',
+            pl: 'Słodki pączek z czarną czekoladą',
+        },
+    },
 };

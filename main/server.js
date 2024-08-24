@@ -20,6 +20,13 @@ export const server = {
         de: 'Info',
         pl: 'Informacja',
     },
+    warning: {
+        ru: 'Внимание',
+        ua: 'Увага',
+        en: 'Warning',
+        de: 'Achtung',
+        pl: 'Uwaga',
+    },
     male: {
         ua: 'Чоловіча',
         en: 'Male',
