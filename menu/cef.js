@@ -107,6 +107,21 @@ export const cef = {
             de: 'Unsere Website',
             pl: 'Nasza strona internetowa',
         },
+        
+        notifyHeader: {
+            ru: "Главная",
+            ua: "Головна",
+            en: "Home",
+            de: "Startseite",
+            pl: "Główna"
+        },
+        notifyText: {
+            ru: 'Если сайт не открылся автоматически попробуйте переключится на браузер вручную',
+            ua: 'Якщо сайт не відкрився автоматично, спробуйте переключитися на браузер вручну',
+            en: 'If the site did not open automatically, try switching to the browser manually',
+            de: 'Wenn die Seite nicht automatisch geöffnet wurde, versuchen Sie, manuell zum Browser zu wechseln',
+            pl: 'Jeśli strona nie otworzyła się automatycznie, spróbuj ręcznie przełączyć się na przeglądarkę',
+        },
     },
     stats: {
         title: {
