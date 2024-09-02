@@ -8,6 +8,7 @@ export default {
         en: "It seems you didn't score enough points, try again!",
         de: 'Sie haben anscheinend nicht genug Punkte erzielt, versuchen Sie es noch einmal!',
         pl: 'Wygląda na to, że nie zdobyłeś wystarczającej liczby punktów, spróbuj ponownie!',
+       zh:'你似乎没有获得足够的分数，再试一次！',
     },
     testPassed: {
         ru: 'Вы смогли сдать тест, вот ваша лицензия!',
@@ -15,6 +16,7 @@ export default {
         en: 'You have successfully passed the test, here is your license!',
         de: 'Sie haben den Test bestanden, hier ist Ihre Lizenz!',
         pl: 'Zdałeś test, oto twoja licencja!',
+        zh:'您已成功通过测试，这是您的驾照！',
     },
     timeRanOut: {
         ru: 'Похоже время вышло, попробуйте ещё раз!',
@@ -22,6 +24,7 @@ export default {
         en: 'It seems time has run out, try again!',
         de: 'Die Zeit ist anscheinend abgelaufen, versuchen Sie es noch einmal!',
         pl: 'Wygląda na to, że czas się skończył, spróbuj ponownie!',
+       zh:'时间似乎用完了，再试一次！',
     },
     time: {
         ru: 'ВРЕМЯ:',
@@ -29,6 +32,7 @@ export default {
         en: 'TIME:',
         de: 'ZEIT:',
         pl: 'CZAS:',
+       zh:'时间',
     },
     points: {
         ru: 'ОЧКИ:',
@@ -36,6 +40,7 @@ export default {
         en: 'POINTS:',
         de: 'PUNKTE:',
         pl: 'PUNKTY:',
+       zh:'积分',
     },
     toStart: {
         ru: 'До начала',
@@ -43,6 +48,7 @@ export default {
         en: 'Until the start',
         de: 'Bis zum Start',
         pl: 'Do rozpoczęcia',
+       zh:'开始吧',
     },
     great: {
         ru: 'Отлично',
@@ -50,6 +56,7 @@ export default {
         en: 'Great',
         de: 'Großartig',
         pl: 'Świetnie',
+       zh:'太好了',
     },
     stats: {
         ru: 'Вы набили {{points}} очков за {{time}}',
@@ -57,5 +64,6 @@ export default {
         en: 'You scored {{points}} points in {{time}}',
         de: 'Sie haben {{points}} Punkte in {{time}} erzielt',
         pl: 'Zdobyłeś {{points}} punktów w czasie {{time}}',
+        zh:'你在{时间}内得了{分}分',
     },
 };

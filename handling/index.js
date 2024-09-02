@@ -5,6 +5,7 @@ export default {
         ua: 'ЧІП',
         de: 'Chip',
         pl: 'Czip',
+        zh:'芯片',
     },
     tuning: {
         ru: 'ТЮНИНГ',
@@ -12,6 +13,7 @@ export default {
         ua: 'ТЮНІНГ',
         de: 'Tuning',
         pl: 'Tuning',
+        zh:'调整',
     },
     testDrive: {
         ru: 'Тест-драйв',
@@ -19,6 +21,7 @@ export default {
         ua: 'Тест-драйв',
         de: 'Testfahrt',
         pl: 'Jazda próbna',
+        zh:'试驾',
     },
     reset: {
         ru: 'Сбросить',
@@ -26,6 +29,7 @@ export default {
         ua: 'Скинути',
         de: 'Zurücksetzen',
         pl: 'Reset',
+        zh:'重置',
     },
     buy: {
         ru: 'Установить',
@@ -33,6 +37,7 @@ export default {
         ua: 'Встановити',
         de: 'Installieren',
         pl: 'Zainstalować',
+       zh:'设置',
     },
     fDriveBiasFront: {
         ua: 'Передній привід',
@@ -40,6 +45,7 @@ export default {
         ru: 'Передний привод',
         de: 'Vorderachs-Antriebsverteilung',
         pl: 'Przekładnia przednia',
+        zh:'第一个原因',
     },
     nInitialDriveGears: {
         ua: 'Кількість передач',
@@ -47,6 +53,7 @@ export default {
         ru: 'Количество передач',
         de: 'Anzahl der Gänge',
         pl: 'Liczba biegów',
+        zh:'运行次数',
     },
     fInitialDriveForce: {
         ua: 'Тяга двигуна',
@@ -54,6 +61,7 @@ export default {
         ru: 'Тяга двигателя',
         de: 'Motorzugkraft',
         pl: 'Siła napędowa silnika',
+       zh:'发动机功率，',
     },
     fDriveInertia: {
         ua: 'Інерція двигуна',
@@ -61,6 +69,7 @@ export default {
         ru: 'Инерция двигателя',
         de: 'Motor-Trägheit',
         pl: 'Inercja silnika',
+       zh:'发动机功率',
     },
     fClutchChangeRateScaleUpShift: {
         ua: 'Зміна зчеплення (збільшення)',
@@ -68,6 +77,7 @@ export default {
         ru: 'Изменение сцепления (увеличение)',
         de: 'Kupplungswechselrate Hochschalten',
         pl: 'Zmiana biegu sprzęgła (w górę)',
+       zh:'在离合器变速率放大换档中',
     },
     fClutchChangeRateScaleDownShift: {
         ua: 'Зміна зчеплення (зменшення)',
@@ -75,6 +85,7 @@ export default {
         ru: 'Изменение сцепления (уменьшение)',
         de: 'Kupplungswechselrate Runterschalten',
         pl: 'Zmiana biegu sprzęgła (w dół)',
+        zh:'在离合器变速率缩小换档中',
     },
     fBrakeForce: {
         ua: 'Сила гальмування',
@@ -82,6 +93,7 @@ export default {
         ru: 'Сила торможения',
         de: 'Bremskraft',
         pl: 'Siła hamowania',
+       zh:'制动力',
     },
     fBrakeBiasFront: {
         ua: 'Розподіл гальмування (перед)',
@@ -89,6 +101,7 @@ export default {
         ru: 'Распределение торможения (перед)',
         de: 'Bremsbalance vorn',
         pl: 'Przedni rozkład hamulców',
+        zh:'制动故障',
     },
     fHandBrakeForce: {
         ua: 'Сила ручного гальма',
@@ -96,6 +109,7 @@ export default {
         ru: 'Сила ручного тормоза',
         de: 'Handbremskraft',
         pl: 'Siła hamulca ręcznego',
+       zh:'手刹',
     },
     fSteeringLock: {
         ua: 'Блокування керма',
@@ -103,6 +117,7 @@ export default {
         ru: 'Блокировка руля',
         de: 'Lenkradsperre',
         pl: 'Blokada kierownicy',
+        zh:'把轮子锁上',
     },
     fTractionCurveMax: {
         ua: 'Максимальне зчеплення коліс',
@@ -110,6 +125,7 @@ export default {
         ru: 'Максимальное сцепление колес',
         de: 'Maximale Radhaftung',
         pl: 'Maksymalna przyczepność kół',
+        zh:'牵引曲线最大值',
     },
     fTractionCurveMin: {
         ua: 'Мінімальне зчеплення коліс',
@@ -117,6 +133,7 @@ export default {
         ru: 'Минимальное сцепление колес',
         de: 'Minimale Radhaftung',
         pl: 'Minimalna przyczepność kół',
+        zh:'牵引曲线最小值',
     },
     fTractionCurveLateral: {
         ua: 'Бічна сила зчеплення',
@@ -124,6 +141,7 @@ export default {
         ru: 'Боковая сила сцепления',
         de: 'Seitliche Haftkraft',
         pl: 'Boczna siła trakcji',
+       zh:'牵引曲线横向',
     },
     fLowSpeedTractionLossMult: {
         ua: 'Втрата зчеплення на низькій швидкості',
@@ -131,6 +149,7 @@ export default {
         ru: 'Потеря сцепления на низкой скорости',
         de: 'Traktionsverlust bei niedriger Geschwindigkeit',
         pl: 'Utrata przyczepności przy niskiej prędkości',
+       zh:'低速牵引损失结果',
     },
     fTractionBiasFront: {
         ua: 'Розподіл зчеплення (перед)',
@@ -138,6 +157,7 @@ export default {
         ru: 'Распределение сцепления (перед)',
         de: 'Vorderrad-Traktionsverteilung',
         pl: 'Przedni rozkład trakcji',
+        zh:'牵引前偏',
     },
     fSuspensionForce: {
         ua: 'Сила підвіски',
@@ -145,6 +165,7 @@ export default {
         ru: 'Сила подвески',
         de: 'Federkraft',
         pl: 'Siła zawieszenia',
+        zh:'悬挂力',
     },
     fSuspensionCompDamp: {
         ua: 'Сила демпфіровання підвіски',
@@ -152,6 +173,7 @@ export default {
         ru: 'Сила демпфирования подвески',
         de: 'Dämpfung der Federungskompression',
         pl: 'Tłumienie kompresji zawieszenia',
+       zh:'悬架组件',
     },
     fSuspensionReboundDamp: {
         ua: 'Демпфіровання підвіски на високих швидкостях',
@@ -159,6 +181,7 @@ export default {
         ru: 'Демпфирование отскока подвески на высоких скоростях',
         de: 'Dämpfung des Federungsrücksprungs bei hohen Geschwindigkeiten',
         pl: 'Tłumienie odbicia zawieszenia przy wysokich prędkościach',
+        zh:'悬架回弹阻尼',
     },
     fSuspensionRaise: {
         ua: 'Підняття підвіски',
@@ -166,6 +189,7 @@ export default {
         ru: 'Поднятие подвески',
         de: 'Federung anheben',
         pl: 'Podniesienie zawieszenia',
+       zh:'悬架提升',
     },
     fRollCentreHeightFront: {
         ua: 'Висота центру крену (перед)',
@@ -173,6 +197,7 @@ export default {
         ru: 'Высота центра крена (перед)',
         de: 'Höhe des Rollzentrums vorne',
         pl: 'Wysokość centrum przechyłu przedniego',
+       zh:'前轮中心的高度',
     },
     fRollCentreHeightRear: {
         ua: 'Висота центру крену (зад)',
@@ -180,6 +205,7 @@ export default {
         ru: 'Высота центра крена (зад)',
         de: 'Höhe des Rollzentrums hinten',
         pl: 'Wysokość centrum przechyłu tylnego',
+        zh:'后轮中心的高度',
     },
     modal: {
         title: {
@@ -188,6 +214,7 @@ export default {
             ua: 'Купівля чипа',
             de: 'Chipkauf',
             pl: 'Zakup chipa',
+           zh:'买芯片',
         },
         message: {
             ru: 'Вы действительно хотите приобрести чип за ${{price}}?',
@@ -195,6 +222,7 @@ export default {
             ua: 'Ви дійсно хочете придбати чип за ${{price}}?',
             de: 'Möchten Sie wirklich einen Chip für ${{price}} kaufen?',
             pl: 'Czy na pewno chcesz kupić chip za ${{price}}?',
+          zh:'你真的想以{{price}}美元的价格购买芯片吗？',
         },
         confirmButton: {
             ru: 'Купить',
@@ -202,6 +230,7 @@ export default {
             ua: 'Купити',
             de: 'Kaufen',
             pl: 'Kup',
+           zh:'购买',
         },
         cancelButton: {
             ru: 'Отмена',
@@ -209,6 +238,7 @@ export default {
             ua: 'Скасувати',
             de: 'Abbrechen',
             pl: 'Anuluj',
+           zh:'取消',
         },
     },
 };

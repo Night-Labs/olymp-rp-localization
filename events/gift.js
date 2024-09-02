@@ -5,6 +5,7 @@ export default {
         en: 'Gift',
         de: 'Geschenk',
         pl: 'Podarunek'
+       zh:'以及“礼物',
     },
     winning: {
         ru: "Вы выиграли - ",
@@ -12,6 +13,7 @@ export default {
         en: "You won - ",
         de: "Sie haben gewonnen - ",
         pl: "Wygrałeś - "
+        zh:'你赢了',
     },
     prizes: {
         exp: {
@@ -20,6 +22,7 @@ export default {
             en: "experience",
             de: "Erfahrung",
             pl: "doświadczenie"
+            zh:'经验',
         },
         cash: {
             ru: "деньги",
@@ -27,6 +30,7 @@ export default {
             en: "money",
             de: "Geld",
             pl: "pieniądze"
+            zh:'钱',
         },
         item: {
             ru: "случайный предмет",
@@ -34,6 +38,7 @@ export default {
             en: "mystery item",
             de: "Überraschungsgegenstand",
             pl: "przedmiot tajemnicy"
+            zh:'神秘物品',
         },
         donate: {
             ru: "донат-валюту",
@@ -41,6 +46,7 @@ export default {
             en: "donation currency",
             de: "Spendenwährung",
             pl: "waluta darowizn"
+           zh:'捐赠货币',
         },
     }
 }

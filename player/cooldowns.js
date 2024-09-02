@@ -5,6 +5,7 @@ export default {
         en: 'You can heal in {{time}}',
         de: 'Sie können in {{time}} heilen',
         pl: 'Będziesz mógł się leczyć za {{time}}',
+        zh:'你可以在{{time}}中治愈',
     },
     food: {
         ru: 'Вы недавно ели',
@@ -12,5 +13,6 @@ export default {
         en: 'You recently ate',
         de: 'Du hast kürzlich gegessen',
         pl: 'Niedawno jadłeś',
+        zh:'你最近吃过',
     },
 };

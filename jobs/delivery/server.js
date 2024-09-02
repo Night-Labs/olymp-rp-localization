@@ -5,6 +5,7 @@ export const server = {
         en: 'Courier',
         de: 'Kurier',
         pl: 'Kurier',
+        zh: '快递员',
     },
     youSuccessfulyDeployed: {
         ru: 'Вы успешно устроились на работу доставщика еды',
@@ -12,6 +13,7 @@ export const server = {
         en: 'You have successfully been employed as a food delivery driver',
         de: 'Sie wurden erfolgreich als Essenslieferant eingestellt',
         pl: 'Pomyślnie zatrudniłeś się jako dostawca jedzenia',
+        zh: '您已成功被聘为食品配送司机',
     },
     youSuccessfullyDismissed: {
         ru: 'Вы успешно уволились',
@@ -19,6 +21,7 @@ export const server = {
         en: 'You have successfully left your job',
         de: 'Sie haben Ihren Job erfolgreich verlassen',
         pl: 'Pomyślnie zakończyłeś pracę',
+        zh: '您已成功离职',
     },
     youBeenAssignedOrder: {
         ru: 'Вам назначен заказ на сумму ${{salary}}',
@@ -26,6 +29,7 @@ export const server = {
         en: 'You have been assigned an order worth ${{salary}}',
         de: 'Ihnen wurde eine Bestellung im Wert von ${{salary}} zugewiesen',
         pl: 'Przydzielono Ci zamówienie o wartości ${{salary}}',
+        zh: '您被分配了一个价值{{salary}}的订单',
     },
     didntGetPizza: {
         ru: 'Вы не достали пиццу',
@@ -33,6 +37,7 @@ export const server = {
         en: 'You did not get the pizza',
         de: 'Sie haben die Pizza nicht bekommen',
         pl: 'Nie dostałeś pizzy',
+        zh: '您没有拿到披萨',
     },
     tooFast: {
         ru: 'Слишком быстро, повторите попытку',
@@ -40,6 +45,7 @@ export const server = {
         en: 'Too fast, try again',
         de: 'Zu schnell, versuchen Sie es erneut',
         pl: 'Za szybko, spróbuj ponownie',
+        zh: '太快了，请再试一次',
     },
     youGotSalary: {
         ru: 'Вы получили зарплату ${{salary}}',
@@ -47,6 +53,7 @@ export const server = {
         en: 'You received a salary of ${{salary}}',
         de: 'Sie haben ein Gehalt von ${{salary}} erhalten',
         pl: 'Otrzymałeś wynagrodzenie w wysokości ${{salary}}',
+        zh: '您收到了{{salary}}的工资',
     },
     goToStorage: {
         ru: 'Отправляйтесь обратно в пицерию за товаром',
@@ -54,6 +61,7 @@ export const server = {
         en: 'Return to the pizzeria for the goods',
         de: 'Kehren Sie zur Pizzeria für die Waren zurück',
         pl: 'Wróć do pizzerii po towar',
+        zh: '返回比萨店取货',
     },
     returnToVehicle: {
         ru: 'У вас есть минута чтобы вернуться в рабочий транспорт',
@@ -61,5 +69,6 @@ export const server = {
         en: 'You have a minute to return to your work vehicle',
         de: 'Sie haben eine Minute, um zum Arbeitsfahrzeug zurückzukehren',
         pl: 'Masz minutę na powrót do swojego pojazdu służbowego',
+        zh: '您有一分钟时间返回工作车辆',
     },
 };

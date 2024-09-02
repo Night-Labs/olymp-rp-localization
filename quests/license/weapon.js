@@ -5,5 +5,6 @@ export default {
         en: 'Weapon License',
         de: 'Waffenlizenz',
         pl: 'Licencja na broń',
+        zh:'持枪证',
     },
 };

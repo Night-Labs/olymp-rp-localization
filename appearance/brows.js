@@ -5,6 +5,7 @@ export const brows = {
         ru: 'Нет',
         de: 'Keine',
         pl: 'Brak',
+       zh:'无',
     },
     
     balanced: {
@@ -13,6 +14,7 @@ export const brows = {
         ru: 'Сбалансированный',
         de: 'Ausgeglichen',
         pl: 'Zrównoważone',
+       zh:'均衡',
     },
     
     trendy: {
@@ -21,6 +23,7 @@ export const brows = {
         ru: 'Модный',
         de: 'Trendy',
         pl: 'Modne',
+        zh:'时尚',
     },
     
     cleopatra: {
@@ -29,6 +32,7 @@ export const brows = {
         ru: 'Клеопатра',
         de: 'Cleopatra',
         pl: 'Cleopatra',
+       zh:'Cleopatra',
     },
     
     pensive: {
@@ -37,6 +41,7 @@ export const brows = {
         ru: 'Задумчивый',
         de: 'Nachdenklich',
         pl: 'Zamyślony',
+        zh:'哀思',
     },
     
     feminine: {
@@ -45,6 +50,7 @@ export const brows = {
         ru: 'Женственный',
         de: 'Weiblich',
         pl: 'Kobiecy',
+        zh:'女性化',
     },
     
     seductive: {
@@ -53,6 +59,7 @@ export const brows = {
         ru: 'Соблазнительный',
         de: 'Verführerisch',
         pl: 'Kuszący',
+        zh:'有魅力的',
     },
     
     oppressed: {
@@ -61,6 +68,7 @@ export const brows = {
         ru: 'Сдавленный',
         de: 'Unterdrückt',
         pl: 'Przytłumiony',
+        zh:'被压迫的',
     },
     
     chola: {
@@ -69,6 +77,7 @@ export const brows = {
         ru: 'Чола',
         de: 'Chola',
         pl: 'Chola',
+        zh:'朱罗',
     },
     
     triumphant: {
@@ -77,6 +86,7 @@ export const brows = {
         ru: 'Триумфальный',
         de: 'Triumphal',
         pl: 'Tryumfalny',
+       zh:'得意洋洋',
     },
     
     carefree: {
@@ -85,6 +95,7 @@ export const brows = {
         ru: 'Беззаботный',
         de: 'Unbekümmert',
         pl: 'Beztroski',
+        zh:'无忧无虑',
     },
     
     curved: {
@@ -93,6 +104,7 @@ export const brows = {
         ru: 'Изогнутый',
         de: 'Gebogen',
         pl: 'Zakrzywione',
+        zh:'弯曲'.
     },
     
     rodent: {
@@ -101,6 +113,7 @@ export const brows = {
         ru: 'Грызун',
         de: 'Nagetier',
         pl: 'Gryzoń',
+       zh:'啮齿动物',
     },
     
     doubleTram: {
@@ -109,6 +122,7 @@ export const brows = {
         ru: 'Двойной Трам',
         de: 'Doppelter Straßenbahn',
         pl: 'Podwójna tramwajowa',
+       zh:'双层有轨电车',
     },
     
     thin: {
@@ -117,6 +131,7 @@ export const brows = {
         ru: 'Тонкий',
         de: 'Dünn',
         pl: 'Cienki',
+       zh:'瘦弱',
     },
     
     tin: {
@@ -125,6 +140,7 @@ export const brows = {
         ru: 'Оловянный',
         de: 'Zinn',
         pl: 'Blacha',
+        zh:'锡',
     },
     
     sparse: {
@@ -133,6 +149,7 @@ export const brows = {
         ru: 'Разреженный',
         de: 'Spärlich',
         pl: 'Rzadki',
+       zh:'稀少的',
     },
     
     straightAndNarrow: {
@@ -141,6 +158,7 @@ export const brows = {
         ru: 'Прямой и узкий',
         de: 'Gerade und schmal',
         pl: 'Proste i wąskie',
+       zh:'中规中矩',
     },
     
     natural: {
@@ -149,6 +167,7 @@ export const brows = {
         ru: 'Естественный',
         de: 'Natürlich',
         pl: 'Naturalny',
+        zh:'自然',
     },
     
     fluffy: {
@@ -157,6 +176,7 @@ export const brows = {
         ru: 'Пушистый',
         de: 'Flauschig',
         pl: 'Puszysty',
+        zh:'蓬松',
     },
     
     sloppy: {
@@ -165,6 +185,7 @@ export const brows = {
         ru: 'Неряшливый',
         de: 'Unordentlich',
         pl: 'Niekorzystny',
+        zh:'稀松',
     },
     
     caterpillar: {
@@ -173,6 +194,7 @@ export const brows = {
         ru: 'Гусеница',
         de: 'Raupe',
         pl: 'Gąsienica',
+       zh:'毛毛虫',
     },
     
     regular: {
@@ -181,6 +203,7 @@ export const brows = {
         ru: 'Регулярный',
         de: 'Regelmäßig',
         pl: 'Regularny',
+       zh:'常客',
     },
     
     mediterranean: {
@@ -189,6 +212,7 @@ export const brows = {
         ru: 'Средиземноморский',
         de: 'Mittelmeer',
         pl: 'Śródziemnomorski',
+        zh:'地中海',
     },
     
     neat: {
@@ -197,6 +221,7 @@ export const brows = {
         ru: 'Ухоженный',
         de: 'Gepflegt',
         pl: 'Zadbany',
+       zh:'整齐',
     },
     
     bushy: {
@@ -205,6 +230,7 @@ export const brows = {
         ru: 'Кустистый',
         de: 'Buschig',
         pl: 'Krzaczaste',
+        zh:'浓密的',
     },
     
     feathery: {
@@ -213,6 +239,7 @@ export const brows = {
         ru: 'Перистый',
         de: 'Fedrig',
         pl: 'Piórkowy',
+       zh:'生有羽毛',
     },
     
     prickly: {
@@ -221,6 +248,7 @@ export const brows = {
         ru: 'Колючий',
         de: 'Stachelig',
         pl: 'Kolczasty',
+       zh:'多刺的',
     },
     
     monobrow: {
@@ -229,6 +257,7 @@ export const brows = {
         ru: 'Моно-бровь',
         de: 'Monobraue',
         pl: 'Monobrew',
+       zh:'一字眉',
     },
     
     winged: {
@@ -237,6 +266,7 @@ export const brows = {
         ru: 'Крылатый',
         de: 'Geflügelt',
         pl: 'Skrzydlate',
+       zh:'有翼的',
     },
     
     tripleTram: {
@@ -245,6 +275,7 @@ export const brows = {
         ru: 'Тройной Трам',
         de: 'Dreifacher Straßenbahn',
         pl: 'Potrójny tramwaj',
+       zh:'三角肌',
     },
     
     ovalTram: {
@@ -253,6 +284,7 @@ export const brows = {
         ru: 'Овальный Трам',
         de: 'Ovale Straßenbahn',
         pl: 'Owalny tramwaj',
+        zh:'椭圆肌肉',
     },
     
     cutouts: {
@@ -261,6 +293,7 @@ export const brows = {
         ru: 'Вырезы',
         de: 'Aussparungen',
         pl: 'Wycięcia',
+        zh:'切割',
     },
     
     disappearance: {
@@ -269,6 +302,7 @@ export const brows = {
         ru: 'Исчезновение',
         de: 'Verschwinden',
         pl: 'Zaginięcie',
+       zh:'消失',
     },
     
     lonelyTram: {
@@ -277,5 +311,6 @@ export const brows = {
         ru: 'Одинокий Трам',
         de: 'Einsamer Straßenbahn',
         pl: 'Samotny tramwaj',
+       zh:'孤独的电车',
     },
 };

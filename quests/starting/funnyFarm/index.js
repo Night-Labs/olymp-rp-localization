@@ -6,6 +6,7 @@ export default {
         ua: 'Весела ферма',
         de: 'Glücklicher Bauernhof',
         pl: 'Szczęśliwe Gospodarstwo',
+        zh:'开心农场'.
     },
     desc: {
         ru: 'Скучно? Тогда предлагаю тебе немного сменить обстановку и отдохнуть на природе! Давай поедешь на ферму и проверишь свои силы в сборе урожая. Задача перед тобой: собрать 10 корзин яблок. Звучит просто, но вот быстро ли ты справишься? Дерзай и наслаждайся свежим воздухом!',
@@ -13,5 +14,6 @@ export default {
         ua: 'Запарився у місті? В такому випадку пропоную тобі виїхати на певний час за місто! Відправляйся на ферму в Палето Бей та перевір свої сили в зборі врожаю. Задача перед тобою: зібрати 10 кошиків яблук. Звучить просто, але як швидко впораєшся? Працюй та насолоджуйся свіжим повітрям.',
         de: 'Langweilig? Dann schlage ich vor, die Umgebung etwas zu ändern und in der Natur zu entspannen! Lass uns auf den Bauernhof gehen und deine Erntefähigkeiten testen. Deine Aufgabe besteht darin, 10 Körbe Äpfel zu sammeln. Klingt einfach, aber wie schnell kannst du es schaffen? Sei mutig und genieße die frische Luft!',
         pl: 'Nudzi ci się? W takim razie proponuję zmienić otoczenie i zrelaksować się na łonie natury! Chodź na farmę i przetestuj swoje umiejętności zbierania plonów. Twoim zadaniem jest zebranie 10 koszy jabłek. Brzmi prosto, ale jak szybko sobie poradzisz? Bądź odważny i ciesz się świeżym powietrzem!',
+       zh:'无聊?那么我建议你改变一下风景，在大自然中放松一下!我们去农场测试一下你的收割技能吧。你的任务是收集10篮子苹果。听起来很简单，但你能多快做到呢?大胆一点，享受新鲜空气吧!',
     },
 }

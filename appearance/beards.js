@@ -5,6 +5,7 @@ export const beards = {
         ru: 'Бритая щетина',
         de: 'Rasierter Stoppelschlag',
         pl: 'Gładko ogolone zarosty',
+       zh:'剃须茬',
     },
     
     lightStubble: {
@@ -13,6 +14,7 @@ export const beards = {
         ru: 'Легкая щетина',
         de: 'Leichter Stoppelschlag',
         pl: 'Lekkie zarosty',
+       zh:'胡茬',
     },
     
     balbo: {
@@ -21,6 +23,7 @@ export const beards = {
         ru: 'Бальбо',
         de: 'Balbo',
         pl: 'Balbo',
+        zh:'balbo',
     },
     
     circleBeard: {
@@ -29,6 +32,7 @@ export const beards = {
         ru: 'Круглая борода',
         de: 'Kreisförmiger Bart',
         pl: 'Okrągła broda',
+        zh:'一圈胡子',
     },
     
     goatee: {
@@ -37,6 +41,7 @@ export const beards = {
         ru: 'Козлиная борода',
         de: 'Goatee',
         pl: 'Koźlina',
+       zh:'山羊胡',
     },
     
     chin: {
@@ -45,6 +50,7 @@ export const beards = {
         ru: 'Подбородок',
         de: 'Kinn',
         pl: 'Podbródek',
+       zh:'下巴',
     },
     
     chinStubble: {
@@ -53,6 +59,7 @@ export const beards = {
         ru: 'Подбородочная щетина',
         de: 'Stoppelschlag am Kinn',
         pl: 'Zarost na podbródku',
+       zh:'下巴碎秸',
     },
     
     chinPencilMustache: {
@@ -61,6 +68,7 @@ export const beards = {
         ru: 'Подбородочный усик-карандаш',
         de: 'Kinnstiftschnurrbart',
         pl: 'Cienki wąs podbródkowy',
+       zh:'铅笔胡子',
     },
     
     scruffy: {
@@ -69,6 +77,7 @@ export const beards = {
         ru: 'Неопрятный',
         de: 'Ungepflegt',
         pl: 'Niedbały',
+       zh:'邋遢',
     },
     
     musketeerBeard: {
@@ -77,6 +86,7 @@ export const beards = {
         ru: 'Мушкетерская борода',
         de: 'Musketeer Bart',
         pl: 'Broda muszkietera',
+        zh:'火枪手胡须',
     },
     
     mustache: {
@@ -85,6 +95,7 @@ export const beards = {
         ru: 'Усики',
         de: 'Schnurrbart',
         pl: 'Wąsy',
+        zh:'八字胡',
     },
     
     groomedBeard: {
@@ -93,6 +104,7 @@ export const beards = {
         ru: 'Ухоженная борода',
         de: 'Gepflegter Bart',
         pl: 'Zadbana broda',
+        zh:'络腮胡',
     },
     
     threeDayStubble: {
@@ -101,6 +113,7 @@ export const beards = {
         ru: '3-дневная щетина',
         de: 'Dreitagebart',
         pl: 'Trzydniowy zarost',
+       zh:'三天胡茬',
     },
     thinCircleBeard: {
         ua: 'Тонка кругла борода',
@@ -108,6 +121,7 @@ export const beards = {
         ru: 'Тонкая круглая борода',
         de: 'Dünner Kreisbart',
         pl: 'Cienka broda w kształcie okręgu',
+        zh:'细圆胡子',
     },
     
     handlebarMustache: {
@@ -116,6 +130,7 @@ export const beards = {
         ru: 'Конские усы',
         de: 'Lenker Schnurrbart',
         pl: 'Wąsy w stylu kierownicy',
+       zh:'手把胡',
     },
     
     chinPencilMustacheAndSideburns: {
@@ -124,6 +139,7 @@ export const beards = {
         ru: 'Подбородочный усик-карандаш и бакенбарды',
         de: 'Kinn-Pinsel-Schnurrbart und Kotletten',
         pl: 'Wąsy podbródkowe i baki',
+       zh:'下巴铅笔胡须和鬓角',
     },
     
     goateeOnChin: {
@@ -132,6 +148,7 @@ export const beards = {
         ru: 'Бородка на подбородке',
         de: 'Goatee am Kinn',
         pl: 'Koźlina na podbródku',
+        zh:'中国山羊胡',
     },
     
     balboAndSideburns: {
@@ -140,6 +157,7 @@ export const beards = {
         ru: 'Бальбо и бакенбарды',
         de: 'Balbo und Kotletten',
         pl: 'Balbo i baki',
+        zh:'Balbo和鬓角',
     },
     
     muttonChops: {
@@ -148,6 +166,7 @@ export const beards = {
         ru: 'Овечьи бакенбарды',
         de: 'Vollbart',
         pl: 'Baczki',
+        zh:'络腮胡',
     },
     
     scruffyBeard: {
@@ -156,6 +175,7 @@ export const beards = {
         ru: 'Неопрятная борода',
         de: 'Zotteliger Bart',
         pl: 'Niedbała broda',
+        zh:'凌乱的胡须',
     },
     
     curlyBeard: {
@@ -164,6 +184,7 @@ export const beards = {
         ru: 'Кудрявая борода',
         de: 'Lockiger Bart',
         pl: 'Kręcony zarost',
+        zh:'虬髯',
     },
     
     curlyAndThickBeard: {
@@ -172,6 +193,7 @@ export const beards = {
         ru: 'Кудрявая и густая борода',
         de: 'Lockiger und dichter Bart',
         pl: 'Kręcony i gęsty zarost',
+        zh:'卷胡子和厚胡子',
     },
     
     handlebarMustacheLever: {
@@ -180,6 +202,7 @@ export const beards = {
         ru: 'Усы-рычаги',
         de: 'Lenker-Schnurrbart-Hebel',
         pl: 'Wąsy w stylu kierownicy z dźwignią',
+        zh:'八字胡把手',
     },
     
     faustBeard: {
@@ -188,6 +211,7 @@ export const beards = {
         ru: 'Фаустова борода',
         de: 'Faust Bart',
         pl: 'Broda Fausta',
+        zh:'浮士德的胡子',
     },
     
     ottoAndPatch: {
@@ -196,6 +220,7 @@ export const beards = {
         ru: 'Отто и заплатка',
         de: 'Otto und Flicken',
         pl: 'Otto i łata',
+        zh:'奥托和补丁',
     },
     
     ottoAndThickBeard: {
@@ -204,6 +229,7 @@ export const beards = {
         ru: 'Отто и густая борода',
         de: 'Otto und dichter Bart',
         pl: 'Otto i gęsty zarost',
+        zh:'奥托和厚胡子',
     },
     
     lightFrenchBeard: {
@@ -212,6 +238,7 @@ export const beards = {
         ru: 'Легкий француз',
         de: 'Leichter französischer Bart',
         pl: 'Lekka francuska broda',
+        zh:'法式小胡子',
     },
     
     hampstead: {
@@ -220,5 +247,6 @@ export const beards = {
         ru: 'Хампстед',
         de: 'Hampstead',
         pl: 'Hampstead',
+        zh:'汉普斯特德',
     },
 };

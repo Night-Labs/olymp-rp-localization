@@ -6,6 +6,7 @@ export default {
             en: 'Welcome to the shooting range! Here you can learn to shoot and even get a gun license. What are you interested in?',
             de: 'Willkommen auf dem Schießstand! Hier kannst du das Schießen lernen und sogar einen Waffenschein bekommen. Was interessiert dich?',
             pl: 'Witaj na strzelnicy! Tutaj możesz nauczyć się strzelać, a nawet zdobyć licencję na broń. Co Cię interesuje?',
+            zh:'欢迎来到射击场！在这里，你可以学习射击，甚至获得枪支执照。你对什么感兴趣？',
         },
 
         tellMeMore: {
@@ -14,6 +15,7 @@ export default {
             en: 'Tell me more',
             de: 'Erzähl mir mehr',
             pl: 'Opowiedz więcej',
+           zh:'告诉我更多',
         },
 
         licenseInfo: {
@@ -22,6 +24,7 @@ export default {
             en: 'Information about the license',
             de: 'Informationen zur Lizenz',
             pl: 'Informacje o licencji',
+            zh:'有关许可证的信息',
         },
 
         justLooking: {
@@ -30,6 +33,7 @@ export default {
             en: 'Just looking',
             de: 'Nur am Schauen',
             pl: 'Tylko oglądam',
+           zh:'我只是随便看看',
         },
 
         rangeInfo: {
@@ -38,6 +42,7 @@ export default {
             en: 'This place is perfect for both beginners and experienced shooters. We have a variety of weapons and coaches who can help you improve your skills.',
             de: 'Dieser Ort ist perfekt für Anfänger und erfahrene Schützen. Wir haben eine Vielzahl von Waffen und Trainer, die dir helfen können, deine Fähigkeiten zu verbessern.',
             pl: 'To miejsce jest idealne zarówno dla początkujących, jak i doświadczonych strzelców. Mamy różnorodną broń i trenerów, którzy mogą pomóc ci doskonalić umiejętności.',
+           zh:'这个地方非常适合先发投手和经验丰富的射手。我们有不同类型的武器和教练，可以帮助你提高技能',
         },
 
         licenseQuery: {
@@ -46,6 +51,7 @@ export default {
             en: 'What about the license?',
             de: 'Was ist mit der Lizenz?',
             pl: 'A co z licencją?',
+           zh:'许可证怎么样？',
         },
 
         thanksBye: {
@@ -54,6 +60,7 @@ export default {
             en: 'Thanks, goodbye',
             de: 'Danke, auf Wiedersehen',
             pl: 'Dzięki, do widzenia',
+            zh:'谢谢，再见',
         },
 
         licenseProcedure: {
@@ -62,6 +69,7 @@ export default {
             en: 'To get a license, you need to undergo training and hit a certain number of targets. Are you ready to take on the challenge?',
             de: 'Um eine Lizenz zu erhalten, musst du eine Ausbildung absolvieren und eine bestimmte Anzahl von Zielen treffen. Bist du bereit, die Herausforderung anzunehmen?',
             pl: 'Aby uzyskać licencję, musisz przejść szkolenie i trafić w określoną liczbę celów. Jesteś gotowy podjąć wyzwanie?',
+           zh:'要获得许可证，你必须经过培训并实现一定数量的目标。你准备好挑战了吗？',
         },
 
         signMeUp: {
@@ -70,6 +78,7 @@ export default {
             en: 'Sign me up',
             de: 'Melde mich an',
             pl: 'Zapisz mnie',
+           zh:'把我写下来',
         },
 
         needThink: {
@@ -78,6 +87,7 @@ export default {
             en: 'I need to think',
             de: 'Ich muss nachdenken',
             pl: 'Muszę pomyśleć',
+           zh:'我需要思考',
         },
 
         startShooting: {
@@ -86,6 +96,7 @@ export default {
             en: "Great! Here's your gear and weapon. Shall we start?",
             de: 'Großartig! Hier ist deine Ausrüstung und Waffe. Sollen wir anfangen?',
             pl: 'Świetnie! Oto twój sprzęt i broń. Zaczynamy?',
+            zh:'然后，“太好了！这是你的装备和武器。我们开始吧？',
         },
 
         ready: {
@@ -94,6 +105,7 @@ export default {
             en: 'Ready',
             de: 'Bereit',
             pl: 'Gotowy',
+           zh:'准备好了',
         },
 
         browseInvitation: {
@@ -102,6 +114,7 @@ export default {
             en: "Feel free to look around. If you have any questions – I'm here.",
             de: 'Fühl dich frei, dich umzusehen. Wenn du Fragen hast – ich bin hier.',
             pl: 'Zapraszam do rozejrzenia się. Jeśli masz jakieś pytania – jestem tutaj.',
+            zh:'随意四处看看。如果你有任何问题，我在这里。',
         },
 
         askRange: {
@@ -110,6 +123,7 @@ export default {
             en: 'Ask about the range',
             de: 'Nach dem Schießstand fragen',
             pl: 'Zapytać o strzelnicę',
+           zh:'询问范围',.
         },
 
         askLicense: {
@@ -118,6 +132,7 @@ export default {
             en: 'Ask about the license',
             de: 'Nach der Lizenz fragen',
             pl: 'Zapytać o licencję',
+            zh:'许可证请求',
         },
 
         leave: {
@@ -126,6 +141,8 @@ export default {
             en: 'Leave',
             de: 'Verlassen',
             pl: 'Wyjść',
+            zh:'去吧',
+          
         },
 
         goodbyeMessage: {
@@ -134,6 +151,7 @@ export default {
             en: 'Always happy to see you here. Good luck!',
             de: 'Immer froh, dich hier zu sehen. Viel Glück!',
             pl: 'Zawsze miło cię tu widzieć. Powodzenia!',
+            zh:'很高兴在这里见到你。祝你好运',
         },
         bye: {
             ru: 'Пока',
@@ -141,6 +159,7 @@ export default {
             en: 'Bye',
             de: 'Tschüss',
             pl: 'Pa',
+            zh:'再见',
         },
     },
     dialog2: {
@@ -150,6 +169,7 @@ export default {
             en: 'Welcome back! Ready for some shooting practice today?',
             de: 'Willkommen zurück! Bereit für ein bisschen Schießübung heute?',
             pl: 'Witaj ponownie! Gotowy na dzisiejszy trening strzelecki?',
+            zh:'欢迎回来！今天准备好进行射击训练了吗',
         },
 
         practiceShooting: {
@@ -158,6 +178,7 @@ export default {
             en: 'Practice shooting',
             de: 'Schießübung machen',
             pl: 'Ćwiczyć strzelanie',
+           zh:'练习射击',
         },
 
         askNewWeapons: {
@@ -166,6 +187,7 @@ export default {
             en: 'Ask about new weapons',
             de: 'Nach neuen Waffen fragen',
             pl: 'Zapytać o nową broń',
+            zh:'要求新武器',
         },
 
         justBrowsing: {
@@ -174,6 +196,7 @@ export default {
             en: 'Just browsing',
             de: 'Nur umsehen',
             pl: 'Tylko się rozglądam',
+            zh:'只是看看',
         },
 
         shootingInstructions: {
@@ -182,6 +205,7 @@ export default {
             en: "Great! Here's your equipment. Let me know when you're ready to start.",
             de: 'Großartig! Hier ist deine Ausrüstung. Sag mir, wenn du bereit bist zu starten.',
             pl: 'Świetnie! Oto twój sprzęt. Daj mi znać, kiedy będziesz gotowy zacząć.',
+           zh:'太好了！这是你的装备。告诉我你什么时候准备好开始。',
         },
 
         startShooting: {
@@ -190,6 +214,7 @@ export default {
             en: 'Start shooting',
             de: 'Mit dem Schießen beginnen',
             pl: 'Zacząć strzelać',
+            zh:'开始射击',
         },
 
         maybeLater: {
@@ -198,6 +223,7 @@ export default {
             en: 'Maybe later',
             de: 'Vielleicht später',
             pl: 'Może później',
+            zh:也许以后吧',
         },
 
         newWeaponsInfo: {
@@ -206,6 +232,7 @@ export default {
             en: 'We have a few new arrivals. Want to try them out?',
             de: 'Wir haben ein paar Neuankömmlinge. Willst du sie ausprobieren?',
             pl: 'Mamy kilka nowości. Chcesz je wypróbować?',
+           zh:'我们有几个新来的。你想试试吗？',
         },
 
         tryNewWeapon: {
@@ -214,6 +241,7 @@ export default {
             en: 'Try new weapon',
             de: 'Neue Waffe ausprobieren',
             pl: 'Wypróbować nową broń',
+            zh:'尝试新武器',
         },
 
         anotherTime: {
@@ -222,6 +250,7 @@ export default {
             en: 'Another time',
             de: 'Ein anderes Mal',
             pl: 'Innym razem',
+            zh:'下次吧',
         },
 
         browseOrLeave: {
@@ -230,6 +259,7 @@ export default {
             en: 'Feel free to look around or leave, as you wish.',
             de: 'Fühl dich frei, dich umzusehen oder zu gehen, wie du möchtest.',
             pl: 'Możesz rozejrzeć się lub wyjść, jak chcesz.',
+           zh:'你想看什么就看什么，想去什么就去什么',
         },
 
         lookAround: {
@@ -238,6 +268,7 @@ export default {
             en: 'Look around',
             de: 'Umschauen',
             pl: 'Rozglądać się',
+            zh:'环顾四周',
         },
 
         sayGoodbye: {
@@ -246,6 +277,7 @@ export default {
             en: 'Goodbye',
             de: 'Auf Wiedersehen',
             pl: 'Do widzenia',
+           zh:'再见',
         },
     },
     dialog3: {
@@ -255,6 +287,7 @@ export default {
             en: 'Hello! Is this your first time at our shooting range? Do you have questions about the license or just want to know more about us?',
             de: 'Hallo! Bist du das erste Mal auf unserem Schießstand? Hast du Fragen zur Lizenz oder möchtest du einfach mehr über uns erfahren?',
             pl: 'Cześć! Czy to Twoja pierwsza wizyta na naszej strzelnicy? Masz pytania o licencję, czy po prostu chcesz dowiedzieć się więcej o nas?',
+           zh:'你好！这是你第一次来我们的射击场吗？您对许可证有疑问，还是只是想了解更多关于我们的信息',
         },
 
         inquireLicense: {
@@ -263,6 +296,7 @@ export default {
             en: 'Tell me about the license',
             de: 'Erzähl mir von der Lizenz',
             pl: 'Opowiedz mi o licencji',
+            zh:'告诉我许可证的情况',
         },
 
         rangeInfoQuery: {
@@ -271,6 +305,7 @@ export default {
             en: 'What can you tell me about the range?',
             de: 'Was kannst du mir über den Schießstand erzählen?',
             pl: 'Co możesz mi powiedzieć o strzelnicy?',
+           zh:'你能告诉我关于范围的什么？',
         },
 
         justLooking: {
@@ -279,6 +314,7 @@ export default {
             en: "I'm just looking around",
             de: 'Ich sehe mich nur um',
             pl: 'Tylko się rozglądam',
+            zh:'我只是四处看看”',
         },
 
         licenseProcedureInfo: {
@@ -287,6 +323,7 @@ export default {
             en: 'To get a firearm license, you first need to visit the police station, and then come to us for practical shooting.',
             de: 'Um eine Waffenlizenz zu erhalten, musst du zuerst die Polizeistation besuchen und dann zu uns für das praktische Schießen kommen.',
             pl: 'Aby uzyskać licencję na broń, najpierw musisz odwiedzić posterunek policji, a potem przyjść do nas na praktyczne strzelanie.',
+            zh:'要获得持枪执照，你必须先去警察局，然后来我们这里进行一次实际射击，',
         },
 
         policeStationQuery: {
@@ -295,6 +332,7 @@ export default {
             en: 'Where is the police station?',
             de: 'Wo befindet sich die Polizeistation?',
             pl: 'Gdzie jest posterunek policji?',
+            zh:'警察局在哪里？',
         },
 
         thanksBye: {
@@ -303,6 +341,7 @@ export default {
             en: 'Thanks, goodbye',
             de: 'Danke, auf Wiedersehen',
             pl: 'Dzięki, do widzenia',
+            zh:'谢谢，再见',
         },
 
         rangeInfo: {
@@ -311,6 +350,7 @@ export default {
             en: 'We have various shooting lanes and weapons for all levels of experience. You can come and practice anytime.',
             de: 'Wir haben verschiedene Schießbahnen und Waffen für alle Erfahrungsstufen. Du kannst jederzeit kommen und üben.',
             pl: 'Mamy różne tory strzeleckie i broń dla każdego poziomu doświadczenia. Możesz przyjść i ćwiczyć w dowolnym czasie.',
+           zh:'我们有各种射击通道和武器，适合不同经验水平的人。你可以随时来练习',
         },
 
         licenseInterest: {
@@ -319,6 +359,7 @@ export default {
             en: 'I want to know about the license',
             de: 'Ich möchte mehr über die Lizenz erfahren',
             pl: 'Chcę się dowiedzieć o licencji',
+           zh:'我想了解更多关于许可证的信息',
         },
 
         leave: {
@@ -327,6 +368,7 @@ export default {
             en: 'Leave',
             de: 'Verlassen',
             pl: 'Wyjść',
+           zh:'去吧',
         },
 
         goodbyeMessage: {
@@ -335,6 +377,7 @@ export default {
             en: 'Always glad to see you! Come by whenever you like.',
             de: 'Immer froh, dich zu sehen! Komm vorbei, wann immer du möchtest.',
             pl: 'Zawsze miło Cię widzieć! Wpadaj, kiedy chcesz.',
+           zh:'见到你总是很高兴！你想什么时候来都行',
         },
 
         policeStationDirection: {
@@ -343,6 +386,7 @@ export default {
             en: 'The police station is located on Mission Row Sinner Street. First there, then back to us.',
             de: 'Die Polizeistation befindet sich in der Mission Row Sinner Street. Zuerst dorthin, dann zurück zu uns.',
             pl: 'Posterunek policji znajduje się na ulicy Mission Row Sinner Street. Najpierw tam, a potem z powrotem do nas.',
+           zh:'警察局在罗伊辛纳街。它从那里开始，然后回到我们身边',
         },
 
         understood: {
@@ -351,6 +395,7 @@ export default {
             en: 'Understood, thank you',
             de: 'Verstanden, danke',
             pl: 'Rozumiem, dziękuję',
+           zh:'明白了，谢谢',
         },
 
         moreQuestions: {
@@ -359,6 +404,7 @@ export default {
             en: 'I have more questions',
             de: 'Ich habe noch Fragen',
             pl: 'Mam więcej pytań',
+            zh:'还有一个问题',
         },
         bye: {
             ru: 'Пока',
@@ -366,6 +412,7 @@ export default {
             en: 'Bye',
             de: 'Tschüss',
             pl: 'Pa',
+           zh:'再见',
         },
     },
 };

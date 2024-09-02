@@ -5,6 +5,7 @@ export default {
         en: 'Date of issue',
         de: 'Ausstellungsdatum',
         pl: 'Data wydania',
+        zh:'签发日期',
     },
     name: {
         ru: 'Имя фамилия',
@@ -12,6 +13,7 @@ export default {
         en: 'First name last name',
         de: 'Vorname Nachname',
         pl: 'Imię nazwisko',
+        zh:'姓名',
     },
     age: {
         ru: 'Возраст',
@@ -19,6 +21,7 @@ export default {
         en: 'Age',
         de: 'Alter',
         pl: 'Wiek',
+        zh:'年龄',
     },
     gender: {
         ru: 'Пол',
@@ -26,6 +29,7 @@ export default {
         en: 'Gender',
         de: 'Geschlecht',
         pl: 'Płeć',
+        zh:'性别',
     },
     male: {
         ru: 'М',
@@ -33,6 +37,7 @@ export default {
         en: 'M',
         de: 'M',
         pl: 'M',
+        zh:'M',
     },
     female: {
         ru: 'Ж',
@@ -40,6 +45,7 @@ export default {
         en: 'F',
         de: 'W',
         pl: 'K',
+        zh:'F',
     },
     // сообщение что вы успешно получили пасспорт
     successGetPassport: {
@@ -48,6 +54,7 @@ export default {
         en: 'You have successfully obtained a passport!',
         de: 'Sie haben erfolgreich einen Pass erhalten!',
         pl: 'Pomyślnie otrzymałeś paszport!',
+        zh:'你已成功取得护照!',
     },
 
     youHaveNoPassport: {
@@ -56,6 +63,7 @@ export default {
         en: "You don't have a passport",
         de: 'Sie haben keinen Pass',
         pl: 'Nie masz paszportu',
+        zh:'你没有护照',
     },
     targetHasNoPassport: {
         ru: 'У игрока нет пасспорта',
@@ -63,5 +71,6 @@ export default {
         en: 'The player does not have a passport',
         de: 'Der Spieler hat keinen Pass',
         pl: 'Gracz nie ma pasza',
+        zh:'该市民没有护照',
     },
 };

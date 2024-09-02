@@ -6,6 +6,7 @@ export default {
             en: 'Exchange candies for gifts',
             de: 'Süßigkeiten gegen Geschenke eintauschen',
             pl: 'Wymień cukierki na prezenty',
+           zh:'用糖果换礼物',
         },
         message: {
             ru: 'Вы можете обменять {{candies}} конфет на {{gifts}} подарков',
@@ -13,6 +14,7 @@ export default {
             en: 'You can exchange {{candies}} candies for {{gifts}} gifts',
             de: 'Sie können {{candies}} Süßigkeiten gegen {{gifts}} Geschenke eintauschen',
             pl: 'Możesz wymienić {{candies}} cukierków na {{gifts}} prezentów',
+           zh:'你可以用糖换礼物',
         },
         confirmButton: {
             ru: 'Обменять',
@@ -20,6 +22,7 @@ export default {
             en: 'Exchange',
             de: 'Eintauschen',
             pl: 'Wymień',
+            zh:'交换',
         },
         cancelButton: {
             ru: 'Отмена',
@@ -27,6 +30,7 @@ export default {
             en: 'Cancel',
             de: 'Abbrechen',
             pl: 'Anuluj',
+           zh:'已取消',
         },
     },
     alternativeModal: {
@@ -36,6 +40,7 @@ export default {
             en: 'Exchange gifts for candies',
             de: 'Geschenke gegen Süßigkeiten eintauschen',
             pl: 'Wymień prezenty na cukierki',
+           zh:'糖礼物交换',
         },
         message: {
             ru: 'У вас нет конфет для обмена.',
@@ -43,6 +48,7 @@ export default {
             en: 'You do not have candies for exchange.',
             de: 'Sie haben keine Süßigkeiten zum Eintauschen.',
             pl: 'Nie masz cukierków do wymiany.',
+            zh:'你们没有糖可以交换',
         },
         confirmButton: {
             ru: 'Понятно',
@@ -50,6 +56,7 @@ export default {
             en: 'Understood',
             de: 'Verstanden',
             pl: 'Rozumiem',
+            zh:'明白了',
         },
         cancelButton: {
             ru: 'Закрыть',
@@ -57,6 +64,7 @@ export default {
             en: 'Close',
             de: 'Schließen',
             pl: 'Zamknij',
+            zh:'关闭',
         },
     },
 
@@ -66,5 +74,6 @@ export default {
         en: 'You have exchanged {{candies}} candies for {{gifts}} gifts',
         de: 'Sie haben {{candies}} Süßigkeiten gegen {{gifts}} Geschenke eingetauscht',
         pl: 'Wymieniłeś {{candies}} cukierków na {{gifts}} prezentów',
+        zh:'你用糖果换礼物',
     },
 };

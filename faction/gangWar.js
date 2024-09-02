@@ -5,6 +5,7 @@ export default {
         en: 'You have successfully declared war for the territory',
         de: 'Du hast erfolgreich Krieg um das Territorium erklärt',
         pl: 'Pomyślnie ogłosiłeś wojnę o terytorium',
+        zh:'你已经成功地向该领土宣战了',
     },
     youHasCooldown: {
         ru: 'Вы сейчас не можете объявить войну так как недавно воевали',
@@ -12,6 +13,7 @@ export default {
         en: 'You are currently on a cooldown from declaring war',
         de: 'Du hast derzeit eine Abklingzeit für Kriegserklärungen',
         pl: 'Obecnie obowiązuje okres odnowienia po wypowiedzeniu wojny',
+        zh:'你不能宣战，因为你最近一直在打仗',
     },
     targetHasCooldown: {
         ru: 'Банда которой вы объявляете войну недавно воевала',
@@ -19,6 +21,7 @@ export default {
         en: 'The gang you are declaring war on is currently on a cooldown from being attacked',
         de: 'Die Bande, der du den Krieg erklärst, hat derzeit eine Abklingzeit für Angriffe',
         pl: 'Gang, której wypowiadasz wojnę, jest obecnie w stanie odnowienia po atakach',
+        zh:'你宣战的帮派目前正处于被攻击的冷静期',
     },
     youDeclareWar: {
         ru: '~r~Вы объявили войну за территорию #{{zone}}, бой начнётся через {{time}}, максимальное количество участников с каждой из сторон: {{maxPlayers}}',
@@ -26,6 +29,7 @@ export default {
         en: '~r~You declared war for territory #{{zone}}, the battle will start in {{time}}, the maximum number of participants from each side: {{maxPlayers}}',
         de: '~r~Sie haben den Krieg um das Gebiet #{{zone}} erklärt, der Kampf beginnt in {{time}}, die maximale Anzahl der Teilnehmer von jeder Seite: {{maxPlayers}}',
         pl: '~r~Wypowiedziałeś wojnę o terytorium #{{zone}}, bitwa rozpocznie się za {{time}}, maksymalna liczba uczestników z każdej strony: {{maxPlayers}}',
+       zh:'~r~你为领土{{zone}}宣战，战斗将在{{time}}开始，双方参与者的最大数量：{{maxPlayers}}',
     },
     declaredWarToYou: {
         ru: '~r~Вам объявили войну за территорию #{{zone}}, бой начнётся через {{time}}, максимальное количество участников с каждой из сторон: {{maxPlayers}}',
@@ -33,6 +37,7 @@ export default {
         en: '~r~A war for territory #{{zone}} has been declared against you, the battle will begin in {{time}}, the maximum number of participants from each side: {{maxPlayers}}',
         de: '~r~Ein Krieg um das Gebiet #{{zone}} wurde gegen dich erklärt, der Kampf beginnt in {{time}}, die maximale Anzahl der Teilnehmer auf jeder Seite: {{maxPlayers}}',
         pl: '~r~Ogłoszono wojnę o terytorium #{{zone}}, bitwa rozpocznie się za {{time}}, maksymalna liczba uczestników z każdej strony: {{maxPlayers}}',
+        zh:'~r~你已在{{zone}}领土上宣战，战斗将在{{time}}开始，双方最大参与者人数：{{maxPlayers}',
     },
     toLessMembersToStartWar: {
         ru: 'Для объявления войны необходимо минимум {{count}} человек',
@@ -40,6 +45,7 @@ export default {
         en: 'To declare war, you need a minimum of {{count}} people',
         de: 'Um Krieg zu erklären, benötigen Sie mindestens {{count}} Personen',
         pl: 'Aby ogłosić wojnę, potrzebujesz co najmniej {{count}} osób',
+        zh:'要宣战，你需要至少{{count}}人',
     },
     tooLessMembersInEnemyTeam: {
         ru: 'Для объявления войны у врага должно быть онлайн минимум {{count}} человек',
@@ -47,6 +53,7 @@ export default {
         en: 'To declare war, the enemy must have a minimum of {{count}} online players',
         de: 'Um Krieg zu erklären, muss der Feind mindestens {{count}} Online-Spieler haben',
         pl: 'Aby ogłosić wojnę, wróg musi mieć co najmniej {{count}} graczy online',
+        zh:'要宣战，敌人必须至少有{{count}}名在线玩家',
     },
     failedBattle: {
         ru: '~r~Война за территорию не удалась из-за недостаточного кол-ва игроков из одной из сторон',
@@ -54,6 +61,7 @@ export default {
         en: '~r~The battle for the territory failed due to insufficient number of players on one of the sides',
         de: '~r~Der Kampf um das Gebiet ist aufgrund unzureichender Spielerzahl auf einer der Seiten gescheitert',
         pl: '~r~Bitwa o terytorium nie powiodła się z powodu niewystarczającej liczby graczy po jednej ze stron',
+        zh:'~r~由于一方玩家数量不足，争夺领土的战斗失败了',
     },
     toStart: {
         ru: 'До начала:',
@@ -61,6 +69,7 @@ export default {
         en: 'To start:',
         de: 'Bis zum Start:',
         pl: 'Do rozpoczecia:',
+        zh:'直到开始',
     },
     endingTitle: {
         ua: 'ВИ ПЕРЕМОГЛИ',
@@ -68,6 +77,7 @@ export default {
         en: 'YOU WON',
         de: 'SIE HABEN GEWONNEN',
         pl: 'WYGRAŁEŚ',
+        zh:'你赢了',
     },
     youLoseTitle: {
         ua: 'ВИ ПРОГРАЛИ',
@@ -75,6 +85,7 @@ export default {
         en: 'YOU LOST',
         de: 'SIE HABEN VERLOREN',
         pl: 'PRZEGRAŁEŚ',
+       zh:'你进步了',
     },
     youGotZone: {
         ua: 'Ви захопили територію #{{zone}}',
@@ -82,6 +93,7 @@ export default {
         en: 'You captured territory #{{zone}}',
         de: 'Sie haben das Gebiet #{{zone}} erobert',
         pl: 'Zdobyłeś terytorium #{{zone}}',
+       zh:'你已经占领了领土#{{zone}}',
     },
     youLoseZone: {
         ua: 'Ви втратили територію #{{zone}}',
@@ -89,6 +101,7 @@ export default {
         en: 'You lost territory #{{zone}}',
         de: 'Sie haben das Gebiet #{{zone}} verloren',
         pl: 'Straciłeś terytorium #{{zone}}',
+       zh:'你失去了领土#{{zone}}',
     },
     youFailedToCapture: {
         ru: 'Вы не смогли захватить территорию #{{zone}}',
@@ -96,6 +109,7 @@ export default {
         en: 'You failed to capture territory #{{zone}}',
         de: 'Sie konnten das Gebiet #{{zone}} nicht erobern',
         pl: 'Nie udało ci się zdobyć terytorium #{{zone}}',
+       zh:'你没能占领领土',
     },
     enemyFailedToCapture: {
         ru: 'Враг не смог захватить территорию #{{zone}}',
@@ -103,6 +117,7 @@ export default {
         en: 'The enemy failed to capture territory #{{zone}}',
         de: 'Der Feind konnte das Gebiet #{{zone}} nicht erobern',
         pl: 'Wrogi nie zdołał zdobyć terytorium #{{zone}}',
+        zh:'敌人未能占领领土#{{zone}',
     },
 
     cooldown: {
@@ -111,6 +126,7 @@ export default {
         en: 'Cooldown',
         de: 'Abklingzeit',
         pl: 'Czas odnowienia',
+       zh:'重新加载',
     },
 
     activeWar: {
@@ -119,6 +135,7 @@ export default {
         en: 'Active War',
         de: 'Aktiver Krieg',
         pl: 'Wojna aktywna',
+        zh:'积极战争',
     },
 
     income: {
@@ -127,6 +144,7 @@ export default {
         en: 'Income',
         de: 'Einnahmen',
         pl: 'Przychód',
+       zh:'收入',
     },
 
     perHour: {
@@ -135,6 +153,7 @@ export default {
         en: 'per hour',
         de: 'pro Stunde',
         pl: 'na godzine',
+        zh:'以“每小时”为单位',
     },
 
     zone: {
@@ -143,6 +162,7 @@ export default {
         en: 'Zone',
         de: 'Zone',
         pl: 'Strefa',
+        zh:'区域',
     },
 
     control: {
@@ -151,6 +171,7 @@ export default {
         en: 'Control:',
         de: 'Kontrolle:',
         pl: 'Kontrola:',
+        zh:'控制',
     },
     maxPlayers: {
         ru: 'Макс. кол-во игроков:',
@@ -158,6 +179,7 @@ export default {
         en: 'Max number of players:',
         de: 'Maximale Anzahl an Spielern:',
         pl: 'Maksymalna liczba graczy:',
+        zh:'最大。玩家数量',
     },
 
     leaveFromZone: {
@@ -166,6 +188,7 @@ export default {
         en: 'You left the capture zone, violating the rules, therefore you were killed',
         de: 'Sie haben die Eroberungszone verlassen und damit gegen die Regeln verstoßen, daher wurden Sie getötet',
         pl: 'Opuszczono strefę przejęcia, naruszając zasady, dlatego zostałeś zabity',
+        zh:'你离开了抓捕区，违反了规定，因此被杀',
     },
     // LOST
     evenMyGrandmaShootsBetterThanYou: {
@@ -174,6 +197,7 @@ export default {
         en: 'Even my grandma shoots better than you!',
         de: 'Selbst meine Oma schießt besser als du!',
         pl: 'Nawet moja babcia strzela lepiej niż ty!',
+        zh:'连我祖母的投篮都比你好！',
     },
     lostBattleNotWar: {
         ru: 'Вы проиграли битву, а не войну',
@@ -181,6 +205,7 @@ export default {
         en: 'You lost the battle, not the war',
         de: 'Du hast die Schlacht verloren, nicht den Krieg',
         pl: 'Przegrałeś bitwę, nie wojnę',
+        zh:'你输掉了一场战斗，而不是一场战争',
     },
     betterLuckNextTime: {
         ru: 'Повезет в следующий раз!',
@@ -188,6 +213,7 @@ export default {
         en: 'Better luck next time!',
         de: 'Beim nächsten Mal mehr Glück!',
         pl: 'Powodzenia następnym razem!',
+        zh:'祝你下次好运！',
     },
 
     // WIN
@@ -197,6 +223,7 @@ export default {
         en: "Now it's time for some food...",
         de: 'Jetzt ist Zeit für etwas zu essen...',
         pl: 'Teraz czas na jedzenie...',
+       zh:'现在该吃点东西了',
     },
 
     evenGodsProudYou: {
@@ -205,5 +232,6 @@ export default {
         en: 'Even the gods of Olympus believed in you',
         de: 'Selbst die Götter des Olymp glaubten an dich',
         pl: 'Nawet bogowie Olimpu wierzyli w ciebie',
+        zh:'就连奥林匹斯山的众神也相信你',
     },
 };

@@ -5,6 +5,7 @@ export default {
         en: 'List of dispatches',
         de: 'Liste der Einsätze',
         pl: 'Lista wezwań',
+        zh:'通讯录',
     },
     type: {
         ru: 'Тип',
@@ -12,6 +13,7 @@ export default {
         en: 'Type',
         de: 'Typ',
         pl: 'Rodzaj',
+        zh:'类型',
     },
     data: {
         ru: 'Данные',
@@ -19,6 +21,7 @@ export default {
         en: 'Data',
         de: 'Daten',
         pl: 'Dane',
+        zh:'日期',
     },
     distance: {
         ru: 'Расстояние',
@@ -26,6 +29,7 @@ export default {
         en: 'Distance',
         de: 'Entfernung',
         pl: 'Odległość',
+        zh:'距离',
     },
     emergency: {
         ru: 'Срочный вызов',
@@ -33,6 +37,7 @@ export default {
         en: 'Emergency call',
         de: 'Notruf',
         pl: 'Wezwanie awaryjne',
+        zh:'紧急呼叫',
     },
     meters: {
         ru: 'м.',
@@ -40,6 +45,7 @@ export default {
         en: 'm.',
         de: 'm.',
         pl: 'm.',
+        zh:'m',
     },
     youAccepted: {
         ru: 'Ты принял',
@@ -47,6 +53,7 @@ export default {
         en: 'You accepted',
         de: 'Du hast angenommen',
         pl: 'Przyjąłeś',
+        zh:'您接受了',
     },
     accept: {
         ru: 'Принять',
@@ -54,6 +61,7 @@ export default {
         en: 'Accept',
         de: 'Akzeptieren',
         pl: 'Akceptuj',
+        zh:'不可用',
     },
     unavailable: {
         ru: 'Недоступно',
@@ -61,6 +69,7 @@ export default {
         en: 'Unavailable',
         de: 'Nicht verfügbar',
         pl: 'Niedostępny',
+       zh:'不可用',
     },
     noDispatchesNow: {
         ru: 'Пока что вызовов нет...',
@@ -68,6 +77,7 @@ export default {
         en: 'There are no calls yet...',
         de: 'Es gibt noch keine Anrufe...',
         pl: 'Jeszcze nie ma połączeń...',
+        zh:'没有电话',
     },
     goodOrNot: {
         ru: '(это хорошо или плохо?)',
@@ -75,5 +85,6 @@ export default {
         en: '(is it good or bad?)',
         de: '(ist das gut oder schlecht?)',
         pl: '(czy to dobrze czy źle?)',
+        zh:'是好事坏事',
     },
 };

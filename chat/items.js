@@ -5,6 +5,7 @@ export default {
         ua: 'прийняв таблетки Relifix',
         de: 'hat Relifix-Tabletten genommen',
         pl: 'zażył tabletki Relifix',
+        zh:'服用Relifix药片',
     },
     painway: {
         ru: 'выпил таблетки Painaway',
@@ -12,6 +13,7 @@ export default {
         ua: 'прийняв таблетки Painaway',
         de: 'hat Painaway-Tabletten genommen',
         pl: 'zażył tabletki Painaway',
+        zh:'服用止痛药',
     },
     reanimated: {
         ru: '{{firstName}} реанимировал игрока {{targetName}}',
@@ -19,5 +21,6 @@ export default {
         ua: '{{firstName}} реанімував гравця {{targetName}}',
         de: '{{firstName}} hat Spieler {{targetName}} reanimiert',
         pl: '{{firstName}} zreanimował gracza {{targetName}}',
+        zh:'{{firstName}}复活玩家{{targetName}}',
     },
 };

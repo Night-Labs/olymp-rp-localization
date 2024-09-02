@@ -6,6 +6,8 @@ export const cef = {
             ru: 'Пополнение',
             de: 'Einzahlung',
             pl: 'Depozyt',
+            zh:'存款',
+           
         },
         currency: {
             ua: 'Ігрова валюта',
@@ -13,6 +15,7 @@ export const cef = {
             ru: 'Игровая валюта',
             de: 'Ingame-Währung',
             pl: 'Waluta w grze',
+            zh:'游戏货币',
         },
         vehicles: {
             ua: 'Транспорт',
@@ -20,6 +23,7 @@ export const cef = {
             en: 'Vehicles',
             de: 'Fahrzeuge',
             pl: 'Pojazdy',
+            zh:'车辆:'
         },
         cases: {
             ru: 'Кейсы', // Коробка с игровыми предметами
@@ -27,6 +31,7 @@ export const cef = {
             en: 'Cases', // Box with game items
             de: 'Fälle', // Kiste mit Spielgegenständen
             pl: 'Etui', // Pudełko z przedmiotami do gry
+            zh:'箱子”，//装有游戏物品的盒子',
         },
         info: {
             ua: 'Інформація',
@@ -34,6 +39,7 @@ export const cef = {
             ru: 'Информация',
             de: 'Information',
             pl: 'Informacja',
+            zh:'信息',
         },
         crash: {
             ru: 'CRASH',
@@ -41,6 +47,7 @@ export const cef = {
             en: 'CRASH',
             de: 'CRASH',
             pl: 'CRASH',
+            zh:'砰”的一声',
         },
         experience: {
             ru: 'Опыт',
@@ -48,6 +55,7 @@ export const cef = {
             en: 'Experience',
             de: 'Erfahrung',
             pl: 'Doświadczenie',
+            zh:'经验',
         },
         clothes: {
             ru: 'Одежда',
@@ -55,6 +63,7 @@ export const cef = {
             en: 'Clothes',
             de: 'Kleidung',
             pl: 'Ubrania',
+            zh:'衣服',
         },
         warehouse: {
             ru: 'Склад',
@@ -62,6 +71,7 @@ export const cef = {
             en: 'Warehouse',
             de: 'Lager',
             pl: 'Magazyn',
+           zh:'存储',
         },
     },
     currency: {
@@ -71,6 +81,7 @@ export const cef = {
             ru: 'Игровая валюта',
             de: 'Ingame-Währung',
             pl: 'Waluta w grze',
+            zh:'游戏货币',
         },
         text: {
             ru: 'Вы можете приобрести игровую валюту за донат-валюту, на игровую валюту вы можете купить машины, одежду, еду, оружие и многое другое',
@@ -78,6 +89,7 @@ export const cef = {
             en: 'You can purchase in-game currency with donation currency; with in-game currency, you can buy cars, clothes, food, weapons, and much more',
             de: 'Sie können Spielwährung mit Spendenwährung kaufen; mit Spielwährung können Sie Autos, Kleidung, Essen, Waffen und vieles mehr kaufen',
             pl: 'Możesz kupić walutę w grze za walutę darowizn; za walutę w grze możesz kupować samochody, ubrania, jedzenie, broń i wiele innych',
+            zh:'你可以用捐赠的货币购买玩具货币，也可以用玩具货币购买汽车、衣服、食物、武器等',
         },
     },
     vehicle: {
@@ -87,6 +99,7 @@ export const cef = {
             ru: 'Автомобили',
             de: 'Fahrzeuge',
             pl: 'Pojazdy',
+            zh:'车辆',
         },
         cars: {
             ua: 'Автомобілі',
@@ -94,6 +107,7 @@ export const cef = {
             ru: 'Автомобили',
             de: 'Fahrzeuge',
             pl: 'Pojazdy',
+            zh:'车辆',
         },
         moto: {
             ua: 'Мотоцикли',
@@ -101,6 +115,7 @@ export const cef = {
             ru: 'Мотоциклы',
             de: 'Motorräder',
             pl: 'Motocykle',
+            zh:'摩托车',
         },
         boats: {
             ua: 'Катери',
@@ -108,6 +123,7 @@ export const cef = {
             ru: 'Катера',
             de: 'Schiffe',
             pl: 'Łozy',
+            zh:'船只',
         },
         airplanes: {
             ua: 'Літаки',
@@ -115,6 +131,7 @@ export const cef = {
             ru: 'Самолёты',
             de: 'Flugzeuge',
             pl: 'Samoloty',
+            zh:'飞机',
         },
         helicopters: {
             ua: 'Гелікоптери',
@@ -122,6 +139,7 @@ export const cef = {
             ru: 'Вертолёты',
             de: 'Helikopter',
             pl: 'Helikoptery',
+            zh:'直升机',
         },
         text: {
             ru: 'Тут ви можете придбати транспорт дешевше ніж в автосалонах, а також преміальний транспорт.',
@@ -129,6 +147,7 @@ export const cef = {
             en: 'Here you can buy cheap transport, but also the premium transport.',
             de: 'Hier können Sie den tiefpreisigen Transport kaufen, aber auch den Premium-Transport.',
             pl: 'Tutaj może kupić drogi transportu, ale także drogi premium.',
+           zh:'在这里，你可以买到比车库便宜的交通工具，也可以买到高档交通工具',
         },
         delivery: {
             ua: 'Машина буде додана до вашого гаражу, і ви зможете викликати її за допомогою телефону',
@@ -136,6 +155,7 @@ export const cef = {
             ru: 'Машина будет добавлена в ваш гараж и вы сможете вызвать её через телефон',
             de: 'Das Fahrzeug wird zu deiner Garage hinzugefügt und du kannst es sofort über das Telefon rufen',
             pl: 'Pojazd zostanie dodany do twojego garażu i będziesz mógł go od razu wezwać za pomocą telefonu',
+            zh:'车辆将被添加到您的车库中，您可以通过电话立即召唤它',
         },
         buy: {
             ru: 'Купить',
@@ -143,6 +163,7 @@ export const cef = {
             en: 'Buy',
             de: 'Kaufen',
             pl: 'Kupić',
+            zh:'购买',
         },
         testDrive: {
             ru: 'Тест-драйв',
@@ -150,6 +171,7 @@ export const cef = {
             en: 'Test Drive',
             de: 'Probefahrt',
             pl: 'Jazda próbna',
+            zh:'试驾',
         },
     },
 
@@ -160,6 +182,7 @@ export const cef = {
             en: 'Experience',
             de: 'Erfahrung',
             pl: 'Doświadczenie',
+            zh:'经验',
         },
 
         text: {
@@ -168,6 +191,7 @@ export const cef = {
             en: "Tired of grinding for experience? Want to try a new position or job faster, but don't have enough level? No problem!",
             de: 'Keine Lust mehr, Erfahrung zu sammeln? Möchtest du eine neue Position oder einen neuen Job schneller ausprobieren, hast aber nicht genug Level? Kein Problem!',
             pl: 'Masz dość zdobywania doświadczenia? Chcesz szybciej spróbować nowego stanowiska lub pracy, ale brakuje Ci poziomu? Nie ma problemu!',
+            zh:'不再渴望积累经验了？你想更快地尝试新职位或新工作，但你没有足够的水平吗？没问题',
         },
 
         buy: {
@@ -176,6 +200,7 @@ export const cef = {
             en: 'Buy',
             de: 'Kaufen',
             pl: 'Kupić',
+            zh:'购买',
         },
 
         types: {
@@ -185,6 +210,7 @@ export const cef = {
                 en: 'For character',
                 de: 'Für Charakter',
                 pl: 'Dla postaci',
+                zh:'对于角色来说',
             },
             trucker1: {
                 ru: 'Для грузоперевозчика',
@@ -192,6 +218,7 @@ export const cef = {
                 en: 'For trucker',
                 de: 'Für LKW-Fahrer',
                 pl: 'Dla kierowcy ciężarówki',
+                zh:'对于卡车司机来说',
             },
             trucker2: {
                 ru: 'Для дальнобойщика',
@@ -199,6 +226,7 @@ export const cef = {
                 en: 'For long-haul driver',
                 de: 'Für Fernfahrer',
                 pl: 'Dla kierowcy długodystansowego',
+               zh:'对于长途司机',
             },
             farm: {
                 ru: 'Для фермы',
@@ -206,6 +234,7 @@ export const cef = {
                 en: 'For the farm',
                 de: 'Für die Farm',
                 pl: 'Dla farmy',
+                zh:'对于农场来说',
             },
             fishing: {
                 ru: 'Для рыбалки',
@@ -213,6 +242,7 @@ export const cef = {
                 en: 'For fishing',
                 de: 'Für Angeln',
                 pl: 'Do wędkowania',
+               zh:'钓鱼',
             },
             hunter: {
                 ru: 'Для охоты',
@@ -220,6 +250,7 @@ export const cef = {
                 en: 'For hunting',
                 de: 'Für die Jagd',
                 pl: 'Do polowania',
+                zh:'猎人',
             },
         },
     },
@@ -230,6 +261,7 @@ export const cef = {
             en: 'Clothes',
             de: 'Kleidung',
             pl: 'Ubrania',
+            zh:'衣服',
         },
 
         text: {
@@ -238,6 +270,7 @@ export const cef = {
             en: 'The best clothes in the state are here, at the best prices!',
             de: 'Die beste Kleidung des Staates finden Sie hier, zu den besten Preisen!',
             pl: 'Najlepsze ubrania w stanie są tutaj, w najlepszych cenach!',
+            zh:'本州最好的衣服都在这里，价格最优惠！',
         },
     },
     warehouse: {
@@ -247,6 +280,7 @@ export const cef = {
             en: 'Warehouse',
             de: 'Lager',
             pl: 'Magazyn',
+           zh:'仓库',
         },
 
         text: {
@@ -255,6 +289,7 @@ export const cef = {
             en: 'Here are all your donation items that you can buy in the donation store or win in cases.',
             de: 'Hier sind alle deine Spendengegenstände, die du im Spendenshop kaufen oder in Kisten gewinnen kannst.',
             pl: 'Tutaj znajdują się wszystkie Twoje przedmioty z darowizn, które możesz kupić w sklepie z darowiznami lub wygrać w skrzyniach.',
+            zh:'这是您可以在捐赠商店购买或在案件中获胜的所有捐赠物品:'
         },
 
         type: {
@@ -263,6 +298,7 @@ export const cef = {
             en: 'By type',
             de: 'Nach Typ',
             pl: 'Według typu',
+           zh:'按类型:'
         },
 
         rarity: {
@@ -271,6 +307,7 @@ export const cef = {
             en: 'By rarity',
             de: 'Nach Seltenheit',
             pl: 'Według rzadkości',
+            zh:'稀有性',
         },
 
         emptyText: {
@@ -279,6 +316,7 @@ export const cef = {
             en: 'Unfortunately, there is nothing here yet, but it will appear as soon as you buy or win something!',
             de: 'Leider gibt es hier noch nichts, aber es wird erscheinen, sobald Sie etwas kaufen oder gewinnen!',
             pl: 'Niestety, nie ma tu jeszcze nic, ale pojawi się, jak tylko coś kupisz lub wygrasz!',
+            zh:'很遗憾，这里还没有任何东西，但只要你买了或赢了什么，它就会出现！',
         },
 
         recive: {
@@ -287,6 +325,7 @@ export const cef = {
             en: 'Receive',
             de: 'Erhalten',
             pl: 'Otrzymaj',
+            zh:'收到',
         },
 
         open: {
@@ -295,6 +334,7 @@ export const cef = {
             en: 'Open',
             de: 'Oeffnen',
             pl: 'Otworz',
+            zh:'打开',
         },
 
         sell: {
@@ -303,6 +343,7 @@ export const cef = {
             en: 'Sell',
             de: 'Verkaufen',
             pl: 'Sprzedaj',
+            zh:'卖出',
         },
 
         // Filter
@@ -312,6 +353,7 @@ export const cef = {
             en: 'Vehicles',
             de: 'Fahrzeuge',
             pl: 'Pojazdy',
+            zh:'车辆',
         },
 
         items: {
@@ -320,6 +362,7 @@ export const cef = {
             en: 'Items',
             de: 'Gegenstaende',
             pl: 'Przedmioty',
+            zh:'在“项目”中',
         },
 
         currency: {
@@ -328,6 +371,7 @@ export const cef = {
             en: 'Currency',
             de: 'Waehrung',
             pl: 'Waluta',
+           zh:'货币',
         },
 
         experience: {
@@ -336,6 +380,7 @@ export const cef = {
             en: 'Experience',
             de: 'Erfahrung',
             pl: 'Doświadczenie',
+           zh:'经验',
         },
 
         cases: {
@@ -344,6 +389,7 @@ export const cef = {
             en: 'Cases',
             de: 'Kisten',
             pl: 'Skrzynki',
+           zh:'在某些情况下',
         },
 
         low: {
@@ -352,6 +398,7 @@ export const cef = {
             en: 'Low',
             de: 'Niedrig',
             pl: 'Niski',
+           zh:'低',
         },
 
         medium: {
@@ -360,6 +407,7 @@ export const cef = {
             en: 'Medium',
             de: 'Mittel',
             pl: 'Sredni',
+            zh:'中等',
         },
 
         hight: {
@@ -368,6 +416,7 @@ export const cef = {
             en: 'Hight',
             de: 'Hoch',
             pl: 'Wysoki',
+           zh:'高',
         },
 
         luxury: {
@@ -376,6 +425,7 @@ export const cef = {
             en: 'Luxury',
             de: 'Luxus',
             pl: 'Luksus',
+            zh:'豪华',
         },
     },
 
@@ -386,6 +436,7 @@ export const cef = {
             en: 'You won!',
             de: 'Du hast gewonnen!',
             pl: 'Wygrales!',
+            zh:'你赢了',
         },
 
         purchase: {
@@ -394,6 +445,7 @@ export const cef = {
             en: 'Congratulations on your purchase!',
             de: 'Herzlichen Glückwunsch zum Kauf!',
             pl: 'Gratulacje z zakupu!',
+            zh:'“恭喜你买了！',
         },
 
         recive: {
@@ -402,6 +454,7 @@ export const cef = {
             en: 'Receive',
             de: 'Erhalten',
             pl: 'Otrzymaj',
+           zh:'给你',
         },
 
         hold: {
@@ -410,6 +463,7 @@ export const cef = {
             en: 'Hold on',
             de: 'Nehmen',
             pl: 'Zostaw na stanie',
+            zh:'保存在仓库中',
         },
 
         sell: {
@@ -418,6 +472,7 @@ export const cef = {
             en: 'Sell',
             de: 'Verkaufen',
             pl: 'Sprzedaj',
+            zh:'卖出',
         },
     },
 
@@ -428,6 +483,7 @@ export const cef = {
         en: 'Do you really want to buy {{name}} for {{price}} OlympCoins?',
         de: 'Möchten Sie wirklich {{name}} für {{price}} OlympCoins kaufen?',
         pl: 'Czy na pewno chcesz kupić {{name}} za {{price}} OlympCoins?',
+        zh:'赞助咨询管理',
     },
 
     deposit: {
@@ -436,6 +492,7 @@ export const cef = {
         en: 'Top up',
         de: 'Aufladen',
         pl: 'Doładuj',
+        zh:'填写 并充值',
     },
 
     TopUp: {
@@ -445,6 +502,7 @@ export const cef = {
             en: 'Top Up',
             de: 'Einzahlung',
             pl: 'Doładuj',
+           zh:'账户完成',
         },
 
         desc: {
@@ -453,6 +511,7 @@ export const cef = {
             en: 'To donate, go to the project website <br> https://olymp-rp.com/donate. <br> (Open the browser and go to the site if the browser did not open automatically)',
             de: 'Um zu spenden, besuchen Sie die Projektwebsite <br> https://olymp-rp.com/donate. <br> (Öffnen Sie den Browser und gehen Sie zur Seite, falls der Browser nicht automatisch geöffnet wurde)',
             pl: 'Aby przekazać darowiznę, przejdź na stronę projektu <br> https://olymp-rp.com/donate. <br> (Otwórz przeglądarkę i przejdź na stronę, jeśli przeglądarka nie otworzyła się automatycznie)',
+            zh:'咨询管理',
         },
 
         // desc: {
@@ -461,6 +520,7 @@ export const cef = {
         //     en: `When you donate to the project, you get Olymp-Coins, which you can use to buy game property.<br><br>At the moment, we accept donations directly in any way convenient for you (Visa/MasterCard, PayPal, Crypto), after which we give you Olymp-Coins at the exchange rate, unfortunately, at the moment we are unable to connect payment systems due to non-compliance with their requirements, but we hope to do so in the future.<br><br> Thanks to your support, we are able to maintain and develop the project.`,
         //     de: `Wenn Sie für das Projekt spenden, erhalten Sie Olymp-Coins, die Sie verwenden können, um Eigentum im Spiel zu kaufen.<br><br>Im Moment akzeptieren wir Spenden direkt in irgendeiner Weise bequem für Sie (Visa / MasterCard, PayPal, Crypto), nach dem wir Sie Olymp-Coins zum Wechselkurs ausgeben, leider sind wir im Moment nicht in der Lage, Zahlungssysteme aufgrund der Nichteinhaltung ihrer Anforderungen zu verbinden, aber wir hoffen, dies in Zukunft zu tun.<br><br> Dank Ihrer Unterstützung sind wir in der Lage, das Projekt zu erhalten und weiterzuentwickeln.`,
         //     pl: `Przekazując darowiznę na rzecz projektu, otrzymujesz Olymp-Coins, które możesz wykorzystać do zakupu nieruchomości w grze.<br><br>W tej chwili akceptujemy darowizny bezpośrednio w dowolny dogodny dla Ciebie sposób (Visa/MasterCard, PayPal, Crypto), po czym wydajemy Ci Olymp-Coins po kursie wymiany, niestety w tej chwili nie jesteśmy w stanie połączyć systemów płatności z powodu niezgodności z ich wymaganiami, ale mamy nadzieję, że zrobimy to w przyszłości.<br><br>Dzięki Twojemu wsparciu jesteśmy w stanie utrzymać i rozwijać projekt.`,
+               zh:'咨询管理',
         // },
 
         courseСalculator: {
@@ -469,6 +529,7 @@ export const cef = {
             en: 'Exchange rate calculator',
             de: 'Wechselkursrechner',
             pl: 'Kurs kalkulator',
+            zh:'咨询管理',
         },
 
         enterSumInput: {
@@ -477,6 +538,7 @@ export const cef = {
             en: 'Enter the amount',
             de: 'Geben Sie den Betrag ein',
             pl: 'Wprowadź kwotę',
+            zh:'咨询管理',
         },
 
         adminsHeader: {
@@ -485,6 +547,7 @@ export const cef = {
             en: 'The administration who accepts donations',
             de: 'Die Administration, die Spenden akzeptiert',
             pl: 'Administrator, ktoś akceptuje darowizny',
+           zh:'汇率计算器',
         },
 
         adminsDesc: {
@@ -493,6 +556,7 @@ export const cef = {
             en: 'Only this administration is responsible for accepting donations, nobody else has the right to receive donations and the possibility of receiving Phys-Coins.',
             de: 'Nur diese Administration ist verantwortlich, Spenden zu akzeptieren, niemand anderes hat das Recht, Spenden zu erhalten und das Verlangen von Phys-Coins zu erzwingen.',
             pl: 'Tylko ta administrator jest odpowiedzialna za akceptowanie darowizn, nikogo nie ma praw do otrzymania darowizn i mozliwosc otrzymania Phys-Coins.',
+            zh:'只有这个管理员负责接受礼物，没有人有权接受礼物，也没有可能接受Phys币',
         },
     },
 };

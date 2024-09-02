@@ -7,6 +7,7 @@ export const cef = {
                 en: 'COLLECT',
                 de: 'SAMMELN',
                 pl: 'ZBIERAJ',
+                zh: '收集',
             },
             oranges: {
                 ru: 'АПЕЛЬСИНЫ',
@@ -15,6 +16,7 @@ export const cef = {
                 de: 'ORANGEN',
                 pl: 'POMARAŃCZE',
                 ge: 'ფორთოხალი',
+                zh: '橙子',
             },
             desc: {
                 ru: 'Вам требуется переложить все апельсины в корзину.',
@@ -23,6 +25,7 @@ export const cef = {
                 de: 'Sie müssen alle Orangen in den Korb legen.',
                 pl: 'Musisz przełożyć wszystkie pomarańcze do koszyka.',
                 ge: 'თქვენ უნდა გადაიტანოთ ყველა ფორთოხალი კალათში.',
+                zh: '你需要将所有的橙子放入篮子中。',
             },
             hintMouse: {
                 ru: 'Используйте мышь, чтобы переместить апельсины.',
@@ -31,6 +34,7 @@ export const cef = {
                 de: 'Verwenden Sie die Maus, um die Orangen zu bewegen.',
                 pl: 'Użyj myszy, aby przenieść pomarańcze.',
                 ge: 'გამოიყენეთ თაგვი ფორთოხლების გადასატანად.',
+                zh: '使用鼠标移动橙子。',
             },
         },
     },

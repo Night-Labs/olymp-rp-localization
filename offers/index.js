@@ -5,6 +5,7 @@ export default {
         ua: 'Вашу пропозицію прийнято',
         de: 'Ihr Angebot wurde angenommen',
         pl: 'Twoja oferta została zaakceptowana',
+        zh:'你方报盘已被接受',
     },
 
     offerDeclined: {
@@ -13,6 +14,7 @@ export default {
         ua: 'Вашу пропозицію відхилено',
         de: 'Ihr Angebot wurde abgelehnt',
         pl: 'Twoja oferta została odrzucona',
+        zh:'你方报盘已被拒绝',
     },
 
     inviteMember: {
@@ -21,6 +23,7 @@ export default {
         en: 'Invites you to join {{name}}',
         de: 'Lädt Sie ein, sich {{name}} anzuschließen',
         pl: 'Zaprasza cię do przyłączenia się do {{name}}',
+        zh:'邀请您加入{{name}}',
     },
 
     acquaintance: {
@@ -29,6 +32,7 @@ export default {
         en: 'Suggests getting acquainted',
         de: 'Schlägt eine Bekanntschaft vor',
         pl: 'Sugeruje zapoznanie się',
+       zh:'建议大家互相了解',
     },
 
     passport: {
@@ -37,6 +41,7 @@ export default {
         en: 'Offers to show their passport',
         de: 'Bietet an, ihren Pass zu zeigen',
         pl: 'Proponuje pokazać swój paszport',
+        zh:'出示护照',
     },
 
     licenses: {
@@ -45,6 +50,7 @@ export default {
         en: 'Invites to view their licenses',
         de: 'Lädt ein, die eigenen Lizenzen anzusehen',
         pl: 'Zaprasza do obejrzenia swoich licencji',
+       zh:'查看他们的许可证',
     },
 
     //
@@ -55,6 +61,7 @@ export default {
         en: 'Offers you to buy {{name}} pills for ${{sum}}',
         de: 'Bietet Ihnen an, {{name}} Tabletten für ${{sum}} zu kaufen',
         pl: 'Oferuje ci zakup tabletek {{name}} za ${{sum}}',
+        zh:'建议您以${{sum}}的价格购买{{name}}药片',
     },
 
     giveMedicalLisense: {
@@ -63,6 +70,7 @@ export default {
         en: 'Offers to get a medical license for ${{sum}}',
         de: 'Bietet an, eine medizinische Lizenz für ${{sum}} zu erhalten',
         pl: 'Oferuje uzyskanie licencji medycznej za ${{sum}}',
+       zh:'提供医疗执照${{sum}}',
     },
     renewMedicalLicense: {
         ru: 'Предлагает продлить вашу медицинскую лицензию за ${{sum}}',
@@ -70,6 +78,7 @@ export default {
         en: 'Offers to renew your medical license for ${{sum}}',
         de: 'Bietet an, Ihre medizinische Lizenz für ${{sum}} zu verlängern',
         pl: 'Oferuje przedłużenie twojej licencji medycznej za ${{sum}}',
+       zh:'提供更新您的医疗执照${{sum}}',
     },
     takeBlood: {
         ru: 'Предлагает взять у вас кровь за ${{sum}}',
@@ -77,5 +86,6 @@ export default {
         en: 'Offers to take your blood for ${{sum}}',
         de: 'Bietet an, Ihr Blut für ${{sum}} zu nehmen',
         pl: 'Oferuje pobranie Twojej krwi za ${{sum}}',
+       zh:'以${{sum}}的价格抽你的血',
     },
 };

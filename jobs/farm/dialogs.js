@@ -7,6 +7,7 @@ export default {
             de: 'Willkommen auf unserem Bauernhof! Möchtest du arbeiten?',
             pl: 'Witamy na naszej farmie! Chcesz pracować?',
             ge: 'კეთილი იყოს თქვენი მობრძანება ჩვენს ფერმაში! გინდათ მუშაობა?',
+            zh: '欢迎来到我们的农场！想要工作吗？',
         },
         yes: {
             ru: 'Да',
@@ -15,6 +16,7 @@ export default {
             de: 'Ja',
             pl: 'Tak',
             ge: 'დიახ',
+            zh: '是的',
         },
         no: {
             ru: 'Нет',
@@ -23,6 +25,7 @@ export default {
             de: 'Nein',
             pl: 'Nie',
             ge: 'არა',
+            zh: '不',
         },
     },
     second: {
@@ -32,6 +35,7 @@ export default {
             en: 'It looks like you want to quit, is that right?',
             de: 'Es sieht so aus, als ob du kündigen möchtest, stimmt das?',
             pl: 'Wygląda na to, że chcesz zrezygnować, czy to prawda?',
+            zh: '看起来你想要辞职，是吗？',
         },
         yes: {
             ru: 'Да',
@@ -39,6 +43,7 @@ export default {
             en: 'Yes',
             de: 'Ja',
             pl: 'Tak',
+            zh: '是的',
         },
         no: {
             ru: 'Я передумал',
@@ -46,6 +51,7 @@ export default {
             en: "I've changed my mind",
             de: 'Ich habe es mir anders überlegt',
             pl: 'Zmieniłem zdanie',
+            zh: '我改变主意了',
         },
     },
 };

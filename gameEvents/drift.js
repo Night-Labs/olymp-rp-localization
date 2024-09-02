@@ -5,6 +5,7 @@ export default {
         ua: 'Дрифт траса',
         de: 'Driftstrecke',
         pl: 'Tor Driftowy',
+       zh:'漂移轨迹',
     },
 
     enterDriftTrack: {
@@ -13,5 +14,6 @@ export default {
         ua: 'Заїхати на трасу',
         de: 'Auf die Strecke fahren',
         pl: 'Wjechać na tor',
+        zh:'走上赛道',
     },
 };

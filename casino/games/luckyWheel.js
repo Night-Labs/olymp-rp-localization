@@ -5,6 +5,7 @@ export const luckyWheel = {
         en: "Wheel <span style='color: var(--golden-sunshine)'>of Fortune</span>",
         de: "Rad <span style='color: var(--golden-sunshine)'>des Glücks</span>",
         pl: "Koło <span style='color: var(--golden-sunshine)'>Fortuny</span>"
+        zh:"转盘 <span style='字体:颜色(--golden-sunshine)'>好运</span>",
     },
     desc: {
         ru: `Здесь вы можете прокрутить колесо с призами и получить ценные предметы, такие как фишки, деньги, донат валюту или даже машину, а также менее ценные призы, такие как опыт или одежда.
@@ -17,6 +18,7 @@ export const luckyWheel = {
         <br><br>Jeden Tag erhalten Sie einen kostenlosen Dreh, nachdem Sie 30 Minuten im Spiel gespielt haben.`,
         pl: `Tutaj możesz obracać kołem z nagrodami i otrzymywać cenne przedmioty, takie jak żetony, pieniądze, walutę darowizn, a nawet samochód, a także mniej wartościowe nagrody, takie jak doświadczenie lub odzież.
         <br><br>Co dzień otrzymasz darmowy spin po 30 minutach grania w grę.`
+       zh:'在这里，你可以旋转奖品，获得有价值的物品，如筹码，金钱，捐赠货币，甚至是一辆车，以及不太有价值的奖品，如经验或衣服。<br><br>每天在游戏中玩30分钟后，您将获得一次免费旋转',
     },
     start: {
         ru: "Пуск",
@@ -24,6 +26,7 @@ export const luckyWheel = {
         en: "Start",
         de: "Start",
         pl: "Rozpocznij"
+       zh:"开始",
     },
     timeRemaining: {
         ru: "Будет доступно через:",
@@ -31,6 +34,7 @@ export const luckyWheel = {
         en: "Available in:",
         de: "Verfügbar in:",
         pl: "Dostępne za:"
+       zh:"可用选项",
     },
     onlineRemaining: {
         ru: "Отыграйте ещё:",
@@ -38,6 +42,7 @@ export const luckyWheel = {
         en: "Play for:",
         de: "Spiele noch:",
         pl: "Graj jeszcze:"
+       zh:"为了:",
     },
     spinNow: {
         ru: "Крутить сейчас",
@@ -45,6 +50,7 @@ export const luckyWheel = {
         en: "Spin Now",
         de: "Jetzt drehen",
         pl: "Obróć teraz"
+       zh:"自旋现在",
     },
     chances: {
         ru: "Шансы",
@@ -52,6 +58,7 @@ export const luckyWheel = {
         en: "Chances",
         de: "Chancen",
         pl: "Szanse"
+       zh:"机遇",
     },
 
     winning: {
@@ -60,6 +67,7 @@ export const luckyWheel = {
         en: "You won - ",
         de: "Sie haben gewonnen - ",
         pl: "Wygrałeś - "
+        zh:"你赢了-",
     },
 
     anyPlayerSpins: {
@@ -68,6 +76,7 @@ export const luckyWheel = {
         en: "Someone else is spinning the Wheel of Fortune right now. Please wait.",
         de: "Jemand anderes dreht gerade das Glücksrad. Bitte warten Sie.",
         pl: "Ktoś inny teraz kręci Kołem Fortuny. Proszę czekać."
+       zh:"另一位玩家正在转轮盘,请稍等",
     },
 
     prizes: {
@@ -77,6 +86,7 @@ export const luckyWheel = {
             en: "clothing",
             de: "Kleidung",
             pl: "ubrania"
+           zh:"衣服",
         },
         exp: {
             ru: "опыт",
@@ -84,6 +94,7 @@ export const luckyWheel = {
             en: "experience",
             de: "Erfahrung",
             pl: "doświadczenie"
+           zh:"经验",
         },
         money: {
             ru: "деньги",
@@ -91,6 +102,7 @@ export const luckyWheel = {
             en: "money",
             de: "Geld",
             pl: "pieniądze"
+           zh:"钱",
         },
         chips: {
             ru: "фишки",
@@ -98,6 +110,7 @@ export const luckyWheel = {
             en: "chips",
             de: "Chips",
             pl: "żetony"
+           zh:"筹码",
         },
         mystery: {
             ru: "случайный предмет",
@@ -105,6 +118,7 @@ export const luckyWheel = {
             en: "mystery item",
             de: "Überraschungsgegenstand",
             pl: "przedmiot tajemnicy"
+           zh:"神秘奖品",
         },
         donate: {
             ru: "донат-валюту",
@@ -112,6 +126,7 @@ export const luckyWheel = {
             en: "donation currency",
             de: "Spendenwährung",
             pl: "waluta darowizn"
+           zh:"捐赠货币",
         },
         vehicle: {
             ru: "автомобиль",
@@ -119,6 +134,7 @@ export const luckyWheel = {
             en: "vehicle",
             de: "Fahrzeug",
             pl: "pojazd"
+           zh:"载具奖品",
         },
     },
 
@@ -128,6 +144,7 @@ export const luckyWheel = {
         en: "Wheel of Fortune",
         de: "Glücksrad",
         pl: "Koło Fortuny"
+         zh:"幸运轮盘",
     },
 
     roulette: {
@@ -136,6 +153,7 @@ export const luckyWheel = {
         en: "Roulette",
         de: "Roulette",
         pl: "Ruletka",
+        zh:"轮盘赌",
     },
     win: {
         ru: "Вы выиграли {{rewardSum}} фишек",
@@ -143,6 +161,7 @@ export const luckyWheel = {
         en: "You won {{rewardSum}} chips",
         de: "Sie haben {{rewardSum}} Chips gewonnen",
         pl: "Wygrałeś {{rewardSum}} żetonów",
+       zh:"你赢得了{{rewardSum}}筹码",
     },
     maxChips: {
         ru: "Вы уже поставили максимум ставок на эту ячейку",
@@ -150,6 +169,7 @@ export const luckyWheel = {
         en: "You have already placed the maximum bet on this cell",
         de: "Sie haben bereits den maximalen Einsatz auf diese Zelle gesetzt",
         pl: "Ustawiłeś już maksymalny zakład na tę komórkę",
+       zh:"你已经在这个单元格下了最大的赌注",
     },
     discord: {
         ru: "Играет в рулетку",
@@ -157,5 +177,6 @@ export const luckyWheel = {
         en: "Playing roulette",
         de: "Spielt Roulette",
         pl: "Gra w ruletkę"
+       zh:"玩轮盘赌",
     },
 }

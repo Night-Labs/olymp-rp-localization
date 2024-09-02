@@ -6,6 +6,7 @@ export const hairs = {
             ru: 'Лысый',
             de: 'Glatze',
             pl: 'Łysy',
+           zh:'秃头',
         },
 
         shortHair: {
@@ -14,6 +15,7 @@ export const hairs = {
             ru: 'Короткая стрижка',
             de: 'Kurzes Haar',
             pl: 'Krótkie włosy',
+           zh:'短发',
         },
 
         fauxHawk: {
@@ -22,6 +24,7 @@ export const hairs = {
             ru: 'Ложная гребешковая',
             de: 'Faux-Hawk',
             pl: 'Faux Hawk',
+           zh:'莫西干',
         },
 
         hipsterShaved: {
@@ -30,6 +33,7 @@ export const hairs = {
             ru: 'Хипстер выбритый',
             de: 'Hipster rasiert',
             pl: 'Hipster zgolony',
+           zh:'潮人剃',
         },
 
         sideSweptPompadour: {
@@ -38,6 +42,7 @@ export const hairs = {
             ru: 'Боковая проборная взбитая',
             de: 'Seitlich gekämmte Pompadour',
             pl: 'Zaczesana na bok Pompadour',
+            zh:'侧扫蓬巴杜发型',
         },
 
         shorterHaircut: {
@@ -46,6 +51,7 @@ export const hairs = {
             ru: 'Более короткая стрижка',
             de: 'Kürzerer Haarschnitt',
             pl: 'Krótsza fryzura',
+            zh:'短的发型',
         },
 
         biker: {
@@ -54,6 +60,7 @@ export const hairs = {
             ru: 'Байкерская',
             de: 'Biker',
             pl: 'Motocyklista',
+            zh:'摩托帮发型',
         },
 
         ponytail: {
@@ -62,6 +69,7 @@ export const hairs = {
             ru: 'Конский хвост',
             de: 'Pferdeschwanz',
             pl: 'Kucyk',
+           zh:'马尾辫',
         },
 
         afroBraids: {
@@ -70,6 +78,7 @@ export const hairs = {
             ru: 'Афроплетение',
             de: 'Afro-Zöpfe',
             pl: 'Afro warkocze',
+            zh:'非洲式发型的辫子',
         },
 
         slickedBack: {
@@ -78,6 +87,7 @@ export const hairs = {
             ru: 'Заправленная',
             de: 'Nach hinten gekämmt',
             pl: 'Przyczochrana do tyłu',
+           zh:'直发',
         },
 
         shortSpike: {
@@ -86,6 +96,7 @@ export const hairs = {
             ru: 'Короткая щетинистая',
             de: 'Kurzer Igel',
             pl: 'Krótki kolczatka',
+           zh:'短刺发型',
         },
 
         spikyHair: {
@@ -94,6 +105,7 @@ export const hairs = {
             ru: 'Шипастая',
             de: 'Stachelige Haare',
             pl: 'Kolczaste włosy',
+            zh:'刺猬头',
         },
         caesar: {
             ua: 'Цезар',
@@ -101,6 +113,7 @@ export const hairs = {
             ru: 'Цезарь',
             de: 'Cäsar',
             pl: 'Cezar',
+            zh:'凯撒发型',
         },
 
         parted: {
@@ -109,6 +122,7 @@ export const hairs = {
             ru: 'Разделанная',
             de: 'Geteilt',
             pl: 'Podzielona',
+            zh:'分头',
         },
 
         dreadlocks: {
@@ -117,6 +131,7 @@ export const hairs = {
             ru: 'Дреды',
             de: 'Dreadlocks',
             pl: 'Dredy',
+           zh:'长发绺',
         },
 
         longHair: {
@@ -125,6 +140,7 @@ export const hairs = {
             ru: 'Длинные волосы',
             de: 'Langes Haar',
             pl: 'Długie włosy',
+            zh:'长发',
         },
 
         fluffyCurls: {
@@ -133,6 +149,7 @@ export const hairs = {
             ru: 'Пушистые кудри',
             de: 'Lockige Locken',
             pl: 'Puszyste loki',
+            zh:'蓬松卷发',
         },
 
         surferStyle: {
@@ -141,6 +158,7 @@ export const hairs = {
             ru: 'Серферский стиль',
             de: 'Surfer-Stil',
             pl: 'Styl surferski',
+            zh:'冲浪风格发型',
         },
 
         shortSidePart: {
@@ -149,6 +167,7 @@ export const hairs = {
             ru: 'Короткая боковая проборная',
             de: 'Kurzes Seitenteil',
             pl: 'Krótka przerwa na boku',
+            zh:'男士短发',
         },
 
         highShavedSides: {
@@ -157,6 +176,7 @@ export const hairs = {
             ru: 'Высокие выбритые боковые стороны',
             de: 'Hohe rasierte Seiten',
             pl: 'Wysokie zgolone boki',
+           zh:'高剃边',
         },
         longShaved: { 
             ua: 'Довгі вибриті',
@@ -164,6 +184,7 @@ export const hairs = {
             ru: 'Длинные выбритые',
             de: 'Lang rasiert',
             pl: 'Długie zgolone',
+            zh:'阴阳头',
         },
         
         youngHipster: { 
@@ -172,6 +193,7 @@ export const hairs = {
             ru: 'Молодежный хипстер',
             de: 'Junger Hipster',
             pl: 'Młody hipster',
+           zh:'皮士风格发型',
         },
         
         toddler: { 
@@ -180,6 +202,7 @@ export const hairs = {
             ru: 'Малютка',
             de: 'Kleinkind',
             pl: 'Małe dziecko',
+          zh:'胎儿发型',
         },
         
         classicAfroBraids: { 
@@ -188,6 +211,7 @@ export const hairs = {
             ru: 'Классическое афроплетение',
             de: 'Klassische Afro-Zöpfe',
             pl: 'Klasyczne warkocze afro',
+           zh:'非洲式辫子',
         },
         
         palmTreeAfroBraids: { 
@@ -196,6 +220,7 @@ export const hairs = {
             ru: 'Пальмовое афроплетение',
             de: 'Palmenbaum Afro-Zöpfe',
             pl: 'Afro warkocze z palmą',
+           zh:'棕榈树非洲式辫子',
         },
         
         lightningAfroBraids: { 
@@ -204,6 +229,7 @@ export const hairs = {
             ru: 'Молниевое афроплетение',
             de: 'Blitz-Afro-Zöpfe',
             pl: 'Afro warkocze z piorunami',
+           zh:'闪电非洲式辫子',
         },
         
         whippedAfroBraids: { 
@@ -212,6 +238,7 @@ export const hairs = {
             ru: 'Взбитое афроплетение',
             de: 'Geschlagene Afro-Zöpfe',
             pl: 'Ubijane warkocze afro',
+            zh:'打过的非洲辫子',
         },
         
         zigzagAfroBraids: { 
@@ -220,6 +247,7 @@ export const hairs = {
             ru: 'Зигзагообразное афроплетение',
             de: 'Zigzag-Afro-Zöpfe',
             pl: 'Afro warkocze w kształcie litery Z',
+            zh:'之字形非洲辫子',
         },
         
         snailAfroBraids: { 
@@ -228,6 +256,7 @@ export const hairs = {
             ru: 'Улитка афроплетение',
             de: 'Schneckenaus Afro-Zöpfe',
             pl: 'Afro warkocze w kształcie ślimaka',
+            zh:'蜗牛式非洲辫子',
         },
         
         hightop: { 
@@ -236,6 +265,7 @@ export const hairs = {
             ru: 'Хайтоп',
             de: 'Hightop',
             pl: 'Hightop',
+           zh:'高顶发型',
         },
         
         casuallySweptBack: { 
@@ -244,6 +274,7 @@ export const hairs = {
             ru: 'Свободно убранная назад',
             de: 'Lässig zurückgekämmt',
             pl: 'Nieuważnie zaczesane do tyłu',
+           zh:'高顶发型',
         },
         
         furryTrimmed: { 
@@ -252,6 +283,7 @@ export const hairs = {
             ru: 'Убранный снизу волосатый',
             de: 'Pelziger Beschnitt',
             pl: 'Z futerkiem przystrzyżone',
+            zh:'兽发',
         },
         
         casuallySweptToSide: { 
@@ -260,6 +292,7 @@ export const hairs = {
             ru: 'Убранный в сторону снизу',
             de: 'Lässig zur Seite gekehrt',
             pl: 'Nieuważnie zaczesane na bok',
+           zh:'侧发',
         },
         
         spikyMohawk: { 
@@ -268,6 +301,7 @@ export const hairs = {
             ru: 'Шипастый мохок',
             de: 'Stacheliger Irokesenschnitt',
             pl: 'Kolczasty irokez',
+           zh:'莫西干',
         },
         
         trendy: { 
@@ -276,6 +310,7 @@ export const hairs = {
             ru: 'Модник',
             de: 'Trendig',
             pl: 'Modny',
+            zh:'时尚发型',
         },
         
         fashionableHaircut: { 
@@ -284,6 +319,7 @@ export const hairs = {
             ru: 'Модная прическа',
             de: 'Modischer Haarschnitt',
             pl: 'Modna fryzura',
+           zh:'潮流发型',
         },
         
         topKnot: { 
@@ -292,6 +328,7 @@ export const hairs = {
             ru: 'Верхняя пучок',
             de: 'Oberer Knoten',
             pl: 'Górny kok',
+          zh:'头顶毛',
         },
         
         bob: { 
@@ -300,6 +337,7 @@ export const hairs = {
             ru: 'Боб',
             de: 'Bob',
             pl: 'Bob',
+           zh:'Bob',
         },
         
         mediumHair: { 
@@ -308,6 +346,7 @@ export const hairs = {
             ru: 'Средние волосы',
             de: 'Mittellanges Haar',
             pl: 'Średnie włosy',
+            zh:'中长发',
         },
         
         youthful: { 
@@ -316,6 +355,7 @@ export const hairs = {
             ru: 'Молодёжная',
             de: 'Jugendlich',
             pl: 'Młodzieżowa',
+           zh:'年轻发型',
         },
         
         tail: { 
@@ -324,6 +364,7 @@ export const hairs = {
             ru: 'Хвост',
             de: 'Pferdeschwanz',
             pl: 'Ogon',
+            zh:'马尾',
         },
         
         messy: { 
@@ -332,6 +373,7 @@ export const hairs = {
             ru: 'Хаотичная',
             de: 'Unordentlich',
             pl: 'Niesforne',
+            zh:'脏辫',
         },
         
         dreadlocksUnique: { 
@@ -340,6 +382,7 @@ export const hairs = {
             ru: 'Дреды',
             de: 'Dreadlocks',
             pl: 'Dredy',
+            zh:'长发绺',
         },
         
         longHairUnique: { 
@@ -348,6 +391,7 @@ export const hairs = {
             ru: 'Длинные волосы',
             de: 'Langes Haar',
             pl: 'Długie włosy',
+           zh:'长发',
         },
         
         net: { 
@@ -356,6 +400,7 @@ export const hairs = {
             ru: 'Сеточка',
             de: 'Netz',
             pl: 'Sieć',
+           zh:'net',
         },
         shortCurls: { 
             ua: 'Короткі кучері',
@@ -363,6 +408,7 @@ export const hairs = {
             ru: 'Короткие кудрявые',
             de: 'Kurze Locken',
             pl: 'Krótkie kręcone włosy',
+           zh:'金色的短卷发',
         },
         
         curls: { 
@@ -371,6 +417,7 @@ export const hairs = {
             ru: 'Кудрявые',
             de: 'Locken',
             pl: 'Kręcone włosy',
+           zh:'卷发',
         },
         
         shortHairUnique: { 
@@ -379,6 +426,7 @@ export const hairs = {
             ru: 'Короткая стрижка',
             de: 'Kurzes Haar',
             pl: 'Krótka fryzura',
+            zh:'短发',
         },
         
         upwards: { 
@@ -387,6 +435,7 @@ export const hairs = {
             ru: 'Вверх',
             de: 'Nach oben',
             pl: 'Do góry',
+            zh:'向上梳',
         },
         
         bothSides: { 
@@ -395,6 +444,7 @@ export const hairs = {
             ru: 'На две стороны',
             de: 'Beidseitig',
             pl: 'Na obie strony',
+           zh:'侧分发型',
         },
         
         antennas: { 
@@ -403,6 +453,7 @@ export const hairs = {
             ru: 'Антеночки',
             de: 'Antennen',
             pl: 'Anteny',
+           zh:'天线发型',
         },
         
         shockedByElectricity: { 
@@ -411,6 +462,7 @@ export const hairs = {
             ru: 'Ударило током',
             de: 'Von Elektrizität geschockt',
             pl: 'Porażony prądem',
+           zh:'电击发型',
         },
         
         regular: { 
@@ -419,6 +471,7 @@ export const hairs = {
             ru: 'Обычная',
             de: 'Normal',
             pl: 'Zwyczajna',
+           zh:'传统发型',
         },
         
         abobus: { 
@@ -427,6 +480,7 @@ export const hairs = {
             ru: 'Абобусная',
             de: 'Abobus',
             pl: 'Abobus',
+           zh:'迷因发型',
         },
         
         trendyUnique: { 
@@ -435,6 +489,7 @@ export const hairs = {
             ru: 'Модная',
             de: 'Trendig',
             pl: 'Modna',
+           zh:'时髦发型',
         },
         
         oldSchool: { 
@@ -443,6 +498,7 @@ export const hairs = {
             ru: 'Олдовая',
             de: 'Old School',
             pl: 'Stary styl',
+           zh:'学生发型',
         },
         
         almostMinecraft: { 
@@ -451,6 +507,7 @@ export const hairs = {
             ru: 'Почти майнкрафт',
             de: 'Fast wie Minecraft',
             pl: 'Prawie jak Minecraft',
+           zh:'Almost Minecraft',
         },
         
         mediumShortDownwards: { 
@@ -459,6 +516,7 @@ export const hairs = {
             ru: 'Средняя короткая вниз',
             de: 'Mittellang Kurz nach unten',
             pl: 'Średnie krótkie w dół',
+           zh:'中短向下发型'.
         },
         fashionableBackwards: { 
             ua: 'Модна назад',
@@ -466,6 +524,7 @@ export const hairs = {
             ru: 'Модная назад',
             de: 'Modisch nach hinten',
             pl: 'Modna do tyłu',
+           zh:'时尚向后发型',
         },
         
         fashionableToSide: { 
@@ -474,6 +533,7 @@ export const hairs = {
             ru: 'Модная на бок',
             de: 'Modisch zur Seite',
             pl: 'Modna na bok',
+           zh:'时尚侧面发型',
         },
         
         iroquois: { 
@@ -482,6 +542,7 @@ export const hairs = {
             ru: 'Ирукез',
             de: 'Irokesenschnitt',
             pl: 'Irokez',
+           zh:'印第安发型',
         },
         
         chaotic: { 
@@ -490,6 +551,7 @@ export const hairs = {
             ru: 'Хаотичная',
             de: 'Chaotisch',
             pl: 'Chaotyczna',
+           zh:'混乱发型',
         },
         
         overgrown: { 
@@ -498,6 +560,7 @@ export const hairs = {
             ru: 'Заросшая',
             de: 'Überwachsen',
             pl: 'Zarośnięta',
+           zh:'茂密发型',
         },
         
         miniMinecraft: { 
@@ -506,6 +569,7 @@ export const hairs = {
             ru: 'Мини майкнафт',
             de: 'Mini Minecraft',
             pl: 'Mini Minecraft',
+            zh:'Mini Minecraft',
         },
         
         short: { 
@@ -514,6 +578,7 @@ export const hairs = {
             ru: 'Короткая',
             de: 'Kurz',
             pl: 'Krótka',
+            zh:'短发',
         },
         
         high: { 
@@ -522,6 +587,7 @@ export const hairs = {
             ru: 'Высокая',
             de: 'Hoch',
             pl: 'Wysoka',
+            zh:'长发',
         },
         
         big: { 
@@ -530,6 +596,7 @@ export const hairs = {
             ru: 'Большая',
             de: 'Groß',
             pl: 'Duża',
+           zh:'大发型',
         },
         
         trendyWithPonytail: { 
@@ -538,6 +605,7 @@ export const hairs = {
             ru: 'Модная с хвостиком',
             de: 'Trendig mit Pferdeschwanz',
             pl: 'Modna z kucykiem',
+           zh:'时髦的马尾辫',
         },
         
         cap: { 
@@ -546,6 +614,7 @@ export const hairs = {
             ru: 'Шапочка',
             de: 'Kappe',
             pl: 'Czapka',
+           zh:'帽子发型',
         },
         
         longCurls: { 
@@ -554,6 +623,7 @@ export const hairs = {
             ru: 'Кудрявые длинные',
             de: 'Lange Locken',
             pl: 'Długie kręcone włosy',
+           zh:'一头长长卷发',
         },
         
         shortCurlsUnique: { 
@@ -562,6 +632,7 @@ export const hairs = {
             ru: 'Кудрявые короткие',
             de: 'Kurze Locken',
             pl: 'Krótkie kręcone włosy',
+           zh:'金色的短卷发',
         },
         
         curtains: { 
@@ -570,6 +641,7 @@ export const hairs = {
             ru: 'Шторы',
             de: 'Vorhänge',
             pl: 'Zasłony',
+           zh:'窗帘式刘海',
         },
     },
     female: {
@@ -579,6 +651,7 @@ export const hairs = {
             ru: 'Лысая',
             de: 'Glatze',
             pl: 'Łysy',
+           zh:'秃头',
         },
         
         shortHaircut: { 
@@ -587,6 +660,7 @@ export const hairs = {
             ru: 'Короткая стрижка',
             de: 'Kurzhaarschnitt',
             pl: 'Krótka fryzura',
+            zh:'短发',
         },
         
         layeredBob: { 
@@ -595,6 +669,7 @@ export const hairs = {
             ru: 'Ступенчатый боб',
             de: 'Stufiger Bob',
             pl: 'Warstwowy bob',
+           zh:'分层发型',
         },
         
         braids: { 
@@ -603,6 +678,7 @@ export const hairs = {
             ru: 'Косички',
             de: 'Flechten',
             pl: 'Warkocze',
+           zh:'麻花辫',
         },
         
         bun: { 
@@ -611,6 +687,7 @@ export const hairs = {
             ru: 'Пучок',
             de: 'Dutt',
             pl: 'Kok',
+           zh:'圆发型',
         },
         
         slantingMohawk: { 
@@ -619,6 +696,7 @@ export const hairs = {
             ru: 'Косой мохок',
             de: 'Schräger Irokesenschnitt',
             pl: 'Pochylony irokez',
+            zh:'倾斜的莫霍克',
         },
         
         bob: { 
@@ -627,6 +705,7 @@ export const hairs = {
             ru: 'Боб',
             de: 'Bob',
             pl: 'Bob',
+            zh:'Bob',
         },
         
         pinnedBow: { 
@@ -635,6 +714,7 @@ export const hairs = {
             ru: 'Приколотый бант',
             de: 'Angesteckte Schleife',
             pl: 'Przypięty kokard',
+           zh:'梳理发型',
         },
         
         longBob: { 
@@ -643,6 +723,7 @@ export const hairs = {
             ru: 'Длинный боб',
             de: 'Langer Bob',
             pl: 'Długi bob',
+            zh:'长发bob',
         },
         
         pixie: { 
@@ -651,6 +732,7 @@ export const hairs = {
             ru: 'Пикси',
             de: 'Pixie-Schnitt',
             pl: 'Pixie',
+            zh:'精灵发型',
         },
         
         sidePartedHair: { 
@@ -659,6 +741,7 @@ export const hairs = {
             ru: 'Разделенные волосы на бок',
             de: 'Seitlich geteiltes Haar',
             pl: 'Włosy z przedziałkiem na bok',
+            zh:'侧分头发',
         },
         
         wavyBob: { 
@@ -667,6 +750,7 @@ export const hairs = {
             ru: 'Волновой боб',
             de: 'Gewellter Bob',
             pl: 'Falowany bob',
+            zh:'波浪头',
         },
         
         pinUpHairdo: { 
@@ -675,6 +759,7 @@ export const hairs = {
             ru: 'Стрижка в стиле Pin Up',
             de: 'Pin Up Frisur',
             pl: 'Fryzura pin-up',
+           zh:'别针式发型',
         },
         
         messyBun: { 
@@ -683,6 +768,7 @@ export const hairs = {
             ru: 'Небрежный пучок',
             de: 'Unordentlicher Dutt',
             pl: 'Niezgrabny kok',
+            zh:'凌乱丸子头',
         },
         
         tightBun: { 
@@ -691,6 +777,7 @@ export const hairs = {
             ru: 'Тугой пучок',
             de: 'Enger Dutt',
             pl: 'Ciasny kok',
+            zh:'紧束发髻',
         },
         
         braidedBob: { 
@@ -699,6 +786,7 @@ export const hairs = {
             ru: 'Заплетенный боб',
             de: 'Geflochtener Bob',
             pl: 'Zaplatany bob',
+            zh:'编织发型',
         },
         
         bigBangs: { 
@@ -707,6 +795,7 @@ export const hairs = {
             ru: 'Большие челки',
             de: 'Großer Pony',
             pl: 'Duże grzywki',
+           zh:'爆炸头',
         },
         
         braidedBun: { 
@@ -715,6 +804,7 @@ export const hairs = {
             ru: 'Заплетенный пучок',
             de: 'Geflochtener Dutt',
             pl: 'Zaplatany kok',
+           zh:'凌乱辫子发簪',
         },
         
         baby: { 
@@ -723,6 +813,7 @@ export const hairs = {
             ru: 'Малютка',
             de: 'Baby',
             pl: 'Dziecko',
+           zh:'婴儿发型',
         },
         
         wavyBraids: { 
@@ -731,6 +822,7 @@ export const hairs = {
             ru: 'Волновые косички',
             de: 'Gewellte Zöpfe',
             pl: 'Falowane warkocze',
+           zh:'波浪的辫子',
         },
         
         spiralBraids: { 
@@ -739,6 +831,7 @@ export const hairs = {
             ru: 'Спиральные косички',
             de: 'Spiralzöpfe',
             pl: 'Spiralne warkocze',
+            zh:'螺旋的辫子',
         },
         
         combedQuiff: { 
@@ -747,6 +840,7 @@ export const hairs = {
             ru: 'Заправленный квифф',
             de: 'Gekämmter Quiff',
             pl: 'Czesany kufr',
+            zh:'梳理发型',
         },
         
         wavyBangs: { 
@@ -755,6 +849,7 @@ export const hairs = {
             ru: 'Волнистые челки',
             de: 'Gewellter Pony',
             pl: 'Falowane grzywki',
+          zh:'波浪的刘海',
         },
         
         slickedBackHair: { 
@@ -763,6 +858,7 @@ export const hairs = {
             ru: 'Отложенные волосы назад',
             de: 'Gekämmte zurückgestrichene Haare',
             pl: 'Wysmarowane do tyłu włosy',
+            zh:'大背头',
         },
         
         shortBack: { 
@@ -771,6 +867,7 @@ export const hairs = {
             ru: 'Короткая назад',
             de: 'Kurze Rückseite',
             pl: 'Krótki tył',
+            zh:'短黑发',
         },
         
         shortSide: { 
@@ -779,6 +876,7 @@ export const hairs = {
             ru: 'Короткая на бок',
             de: 'Kurze Seite',
             pl: 'Krótka strona',
+           zh:'男士发型',
         },
         
         mohawk: { 
@@ -787,6 +885,7 @@ export const hairs = {
             ru: 'Ирокез',
             de: 'Irokesenschnitt',
             pl: 'Irokez',
+           zh:'莫西干', 
         },
         
         braidedHair: { 
@@ -795,6 +894,7 @@ export const hairs = {
             ru: 'Косички',
             de: 'Flechten',
             pl: 'Warkocze',
+            zh:'辫子',
         },
         
         oneEye: { 
@@ -803,6 +903,7 @@ export const hairs = {
             ru: 'Один глаз',
             de: 'Ein Auge',
             pl: 'Jedno oko',
+           zh:'独眼龙',
         },
 
         longSide: { 
@@ -811,6 +912,7 @@ export const hairs = {
             ru: 'Длинные на бок',
             de: 'Lange Seite',
             pl: 'Długa strona',
+           zh:'长发',
         },
         
         longOtherSide: { 
@@ -819,6 +921,7 @@ export const hairs = {
             ru: 'Длинные на другой бок',
             de: 'Lange andere Seite',
             pl: 'Długa inna strona',
+            zh:'长长的另一边',
         },
         
         bigBraid: { 
@@ -827,6 +930,7 @@ export const hairs = {
             ru: 'Большая косичка',
             de: 'Große Flechte',
             pl: 'Duży warkocz',
+            zh:'大辫子',
         },
         
         longHair: { 
@@ -835,6 +939,7 @@ export const hairs = {
             ru: 'Длинные',
             de: 'Langes Haar',
             pl: 'Długie włosy',
+           zh:'长发',
         },
         
         dreadlocks: { 
@@ -843,6 +948,7 @@ export const hairs = {
             ru: 'Дреды',
             de: 'Dreadlocks',
             pl: 'Dredy',
+           zh:'长发绺',
         },
         
         messy: { 
@@ -851,6 +957,7 @@ export const hairs = {
             ru: 'Хаотичная',
             de: 'Unordentlich',
             pl: 'Zabałaganiona',
+           zh:'脏辫',
         },
         
         mediumHair: { 
@@ -859,6 +966,7 @@ export const hairs = {
             ru: 'Полу длинная',
             de: 'Mittellanges Haar',
             pl: 'Średnie włosy',
+            zh:'中长发',
         },
         
         bigTail: { 
@@ -867,6 +975,7 @@ export const hairs = {
             ru: 'Большой хвост',
             de: 'Großer Pferdeschwanz',
             pl: 'Duży kucyk',
+           zh:'大头发',
         },
         
         longStraight: { 
@@ -875,6 +984,7 @@ export const hairs = {
             ru: 'Длинные прямые',
             de: 'Lange Gerade',
             pl: 'Długie proste',
+           zh:'长直发',
         },
         
         longOther: { 
@@ -883,6 +993,7 @@ export const hairs = {
             ru: 'Длинные',
             de: 'Lange andere',
             pl: 'Długie inne',
+           zh:'长发',
         },
         
         esbuild: { 
@@ -891,6 +1002,7 @@ export const hairs = {
             ru: 'Есбилд',
             de: 'Esbuild',
             pl: 'Esbuild',
+           zh:'发型1',
         },
         
         shortOtherSide: { 
@@ -899,6 +1011,7 @@ export const hairs = {
             ru: 'Короткая на бок',
             de: 'Kurze andere Seite',
             pl: 'Krótka inna strona',
+           zh:'一边短发型',
         },
         
         harleyQuinn: { 
@@ -907,6 +1020,7 @@ export const hairs = {
             ru: 'Харли Квинн',
             de: 'Harley Quinn',
             pl: 'Harley Quinn',
+           zh:'哈莉奎因',
         },
         
         bombBack: { 
@@ -915,6 +1029,7 @@ export const hairs = {
             ru: 'Бомба сзади',
             de: 'Bombe zurück',
             pl: 'Bombowy tył',
+            zh:'爆炸头',
         },
         
         abobus: { 
@@ -923,6 +1038,7 @@ export const hairs = {
             ru: 'Абобусная',
             de: 'Abobus',
             pl: 'Abobus',
+            zh:'发型',
         },        
     },
 };
