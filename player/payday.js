@@ -5,6 +5,7 @@ export default {
         en: '~o~[PAYDAY] ~w~You received a salary of {{money}}',
         de: '~o~[PAYDAY] ~w~Sie haben ein Gehalt von {{money}} erhalten',
         pl: '~o~[PAYDAY] ~w~Otrzymałeś wynagrodzenie w wysokości {{money}}',
+        zh:'~o~[PAYDAY]~w~你收到了{{money}}的薪水',
     },
     messageNotTime: {
         ru: '~o~[PAYDAY] ~w~Для получения пейдея нужно отыграть минимум {{time}} минут',
@@ -12,6 +13,7 @@ export default {
         en: '~o~[PAYDAY] ~w~You need to play for at least {{time}} minutes to receive your payday',
         de: '~o~[PAYDAY] ~w~Sie müssen mindestens {{time}} Minuten spielen, um Ihren Zahltag zu erhalten',
         pl: '~o~[PAYDAY] ~w~Musisz grać przez co najmniej {{time}} minut, aby otrzymać wypłatę',
+       zh:'~o~[PAYDAY]~w~您需要至少玩{{time}}分钟才能获得发薪日',
     },
     messageBenefits: {
         ru: '~o~[PAYDAY] ~w~Вы получили пособие по безработице: {{benefits}}',
@@ -19,5 +21,6 @@ export default {
         en: '~o~[PAYDAY] ~w~You received unemployment benefits: {{benefits}}',
         de: '~o~[PAYDAY] ~w~Sie haben Arbeitslosengeld erhalten: {{benefits}}',
         pl: '~o~[PAYDAY] ~w~Otrzymałeś zasiłek dla bezrobotnych: {{benefits}}',
+        zh:'~o~[PAYDAY]~w~你领取失业救济金:{{benefits}}',
     },
 };

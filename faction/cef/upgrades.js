@@ -7,6 +7,7 @@ export default {
         en: 'List of Upgrades',
         de: 'Liste der Upgrades',
         pl: 'Lista ulepszeń',
+        zh:'升级列表',
     },
 
     active: {
@@ -15,6 +16,7 @@ export default {
         en: 'Active',
         de: 'Aktiv',
         pl: 'Aktywny',
+        zh:'活跃',
     },
     activate: {
         ru: 'Активировать',
@@ -22,6 +24,7 @@ export default {
         en: 'Activate',
         de: 'Aktivieren',
         pl: 'Aktywować',
+       zh:'激活',
     },
     hour: {
         ru: 'Час',
@@ -29,6 +32,7 @@ export default {
         en: 'Hour',
         de: 'Stunde',
         pl: 'Godzina',
+        zh:'时间',
     },
 
     // Categories
@@ -38,6 +42,7 @@ export default {
         en: 'Cars',
         de: 'Autos',
         pl: 'Samochody',
+        zh:'汽车',
     },
 
     // EMS Cars
@@ -47,6 +52,7 @@ export default {
         en: 'Regular medical cars',
         de: 'Normale medizinische Autos',
         pl: 'Zwykłe samochody medyczne',
+        zh:'普通医疗车',
     },
     defaultEMSCarsDesc: {
         ru: 'Это обычные медецинские автомобили, отлично подходят для вызовов',
@@ -54,6 +60,7 @@ export default {
         en: 'These are regular medical cars, great for calls',
         de: 'Das sind normale medizinische Autos, ideal für Anrufe',
         pl: 'To są zwykłe samochody medyczne, świetne do wywołań',
+        zh:'这些是普通的医疗车，打电话很好',
     },
     mediumEMSCarsTitle: {
         ru: 'Доп. автомобили',
@@ -61,6 +68,7 @@ export default {
         en: 'Additional cars',
         de: 'Zusätzliche Autos',
         pl: 'Dodatkowe samochody',
+        zh:'其他汽车',
     },
     mediumEMSCarsDesc: {
         ru: 'Этот апгрейд включает в себя 5 новеньких быстрых Infiniti FX50S',
@@ -68,6 +76,7 @@ export default {
         en: 'This upgrade includes 5 brand new and fast Infiniti FX50S',
         de: 'Dieses Upgrade beinhaltet 5 brandneue und schnelle Infiniti FX50S',
         pl: 'Ten upgrade obejmuje 5 nowych i szybkich Infiniti FX50S',
+        zh:'此次批准包括五款新的快速英菲尼迪FX50S',
     },
     highEMSCarsTitle: {
         ru: 'Вертолёт?',
@@ -75,6 +84,7 @@ export default {
         en: 'Helicopter?',
         de: 'Hubschrauber?',
         pl: 'Helikopter?',
+        zh:'直升机？',
     },
     highEMSCarsDesc: {
         ru: 'Этот апгрейд включает себя вертолёт на крыше EMS',
@@ -82,6 +92,7 @@ export default {
         en: 'This upgrade includes a helicopter on the EMS roof',
         de: 'Dieses Upgrade beinhaltet einen Hubschrauber auf dem EMS-Dach',
         pl: 'Ten upgrade obejmuje helikopter na dachu EMS',
+        zh:'这项批准包括EMS屋顶上的一架直升机',
     },
 
     // Cars
@@ -91,6 +102,7 @@ export default {
         en: 'Default Cars',
         de: 'Standardautos',
         pl: 'Standardowe samochody',
+        zh:'普通汽车',
     },
     mediumCarsTitle: {
         ru: 'Средние автомобили',
@@ -98,6 +110,7 @@ export default {
         en: 'Medium Cars',
         de: 'Mittlere Autos',
         pl: 'Średnie samochody',
+        zh:'中型汽车',
     },
     highCarsTitle: {
         ru: 'Высококлассные автомобили',
@@ -105,6 +118,7 @@ export default {
         en: 'High-end Cars',
         de: 'Hochwertige Autos',
         pl: 'Samochody wysokiej klasy',
+        zh:'高级轿车',
     },
     defaultCarsDesc: {
         ru: 'Это стандартные автомобили, идеально подходящие для повседневного использования.',
@@ -112,6 +126,7 @@ export default {
         en: 'These are standard cars, perfect for everyday use.',
         de: 'Das sind Standardautos, perfekt für den täglichen Gebrauch.',
         pl: 'To są standardowe samochody, idealne do codziennego użytku.',
+        zh:'这些是标准车，非常适合日常使用',
     },
     mediumCarsDesc: {
         ru: 'Это автомобили среднего класса, предлагающие больше комфорта и функций.',
@@ -119,6 +134,7 @@ export default {
         en: 'These are mid-range cars, offering more comfort and features.',
         de: 'Das sind Mittelklassewagen, die mehr Komfort und Funktionen bieten.',
         pl: 'To są samochody średniej klasy, oferujące więcej komfortu i funkcji.',
+       zh:'这些是中产阶级的汽车，提供更多的舒适性和功能',
     },
     highCarsDesc: {
         ru: 'Это высококлассные автомобили, предлагающие премиальные функции и высочайший уровень комфорта.',
@@ -126,6 +142,7 @@ export default {
         en: 'These are high-end cars, offering premium features and the highest level of comfort.',
         de: 'Das sind hochwertige Autos, die Premium-Funktionen und höchsten Komfort bieten.',
         pl: 'To są samochody wysokiej klasy, oferujące funkcje premium i najwyższy poziom komfortu.',
+        zh:'这些是高级轿车，功能齐全，舒适度高',
     },
 
     // LSPD
@@ -135,6 +152,7 @@ export default {
         en: 'Basic Cars',
         de: 'Basis-Fahrzeuge',
         pl: 'Podstawowe samochody',
+        zh:'基础车',
     },
     lowLSPDCarsDesc: {
         ru: 'Включает в себя все нужные автомобили, ничего особеного, патрульные машины и два джипа',
@@ -142,6 +160,7 @@ export default {
         en: 'Includes all the necessary cars, nothing special, patrol cars, and two jeeps',
         de: 'Enthält alle notwendigen Autos, nichts Besonderes, Streifenwagen und zwei Jeeps',
         pl: 'Zawiera wszystkie niezbędne samochody, nic specjalnego, radiowozy i dwa dżipy',
+        zh:'包括所有必要的汽车，没什么特别的，巡逻车和两辆吉普车',
     },
     mediumLSPDCarsName: {
         ru: 'Средние автомобили',
@@ -149,6 +168,7 @@ export default {
         en: 'Medium Cars',
         de: 'Mittelklasse-Fahrzeuge',
         pl: 'Samochody średniej klasy',
+       zh:'中型车',
     },
     mediumLSPDCarsDesc: {
         ru: 'Включает в себя уже больше качественых авто, а также большой джип и мотоциклы',
@@ -156,6 +176,7 @@ export default {
         en: 'Includes more high-quality cars, as well as a large jeep and motorcycles',
         de: 'Enthält mehr hochwertige Autos sowie einen großen Jeep und Motorräder',
         pl: 'Zawiera więcej wysokiej jakości samochodów, a także dużego jeepa i motocykle',
+        zh:'包括更多优质汽车以及更多吉普车和摩托车',
     },
     highLSPDCarsName: {
         ru: 'Лучший выбор',
@@ -163,6 +184,7 @@ export default {
         en: 'Best Choice',
         de: 'Beste Wahl',
         pl: 'Najlepszy wybór',
+        zh:'最佳选择',
     },
     highLSPDCarsDesc: {
         ru: 'Включает в себя всё что надо, спортивные электрически машины, патрульная без виннила, вертолёты на крыше',
@@ -170,6 +192,7 @@ export default {
         en: 'Includes everything you need, sports electric cars, unmarked patrol cars, helicopters on the roof',
         de: 'Enthält alles, was Sie brauchen, Sport-Elektroautos, unmarkierte Streifenwagen, Hubschrauber auf dem Dach',
         pl: 'Zawiera wszystko, czego potrzebujesz, sportowe samochody elektryczne, nieoznakowane radiowozy, helikoptery na dachu',
+       zh:'包括你需要的一切，运动型电动汽车、无罪巡逻、屋顶上的直升机',
     },
 
     // inventory
@@ -179,6 +202,7 @@ export default {
         en: 'Warehouse',
         de: 'Lager',
         pl: 'Magazyn',
+        zh:'存储库',
     },
     defaultInventory: {
         ru: 'Маленький склад',
@@ -186,6 +210,7 @@ export default {
         en: 'Small Warehouse',
         de: 'Kleines Lager',
         pl: 'Mały magazyn',
+        zh:'小型存储',
     },
     mediumInventory: {
         ru: 'Средний склад',
@@ -193,6 +218,7 @@ export default {
         en: 'Medium Warehouse',
         de: 'Mittleres Lager',
         pl: 'Średni magazyn',
+        zh:'中型仓库',
     },
     highInventory: {
         ru: 'Большой склад',
@@ -200,6 +226,7 @@ export default {
         en: 'Large Warehouse',
         de: 'Großes Lager',
         pl: 'Duży magazyn',
+       zh:'大型仓库',
     },
 
     defaultInventoryDesc: {
@@ -208,6 +235,7 @@ export default {
         en: 'A small warehouse for storing things.',
         de: 'Ein kleines Lager zur Aufbewahrung von Dingen.',
         pl: 'Mały magazyn do przechowywania rzeczy.',
+        zh:'一个用来存放东西的小仓库',
     },
     mediumInventoryDesc: {
         ru: 'Вполне себе средний склад для хранения вещей.',
@@ -215,6 +243,7 @@ export default {
         en: 'Quite a medium warehouse for storing things.',
         de: 'Ein ganz mittleres Lager zur Aufbewahrung von Dingen.',
         pl: 'Całkiem średni magazyn do przechowywania rzeczy.',
+       zh:'用于存储物品的中等存储设施',
     },
     highInventoryDesc: {
         ru: 'Большой склад для хранения вещей.',
@@ -222,5 +251,6 @@ export default {
         en: 'A large warehouse for storing things.',
         de: 'Ein großes Lager zur Aufbewahrung von Dingen.',
         pl: 'Duży magazyn do przechowywania rzeczy.',
+       zh:'一个用来存放东西的大仓库',
     },
 };

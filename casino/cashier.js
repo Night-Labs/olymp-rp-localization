@@ -5,6 +5,7 @@ export const cashier = {
         en: "CASINO <span style='color:var(--golden-sunshine)'>CASHIER</span>",
         de: "KASSE <span style='color:var(--golden-sunshine)'>KASINO</span>",
         pl: "KASA <span style='color:var(--golden-sunshine)'>KASINO</span>",
+        zh:"娱乐场<span style='color:var(- golden sunshine)'>收银</span>",
     },
     buyChipsName: {
         ru: "Покупка фишек",
@@ -12,6 +13,7 @@ export const cashier = {
         en: "Buy chips",
         de: "Chips kaufen",
         pl: "Kupić żetony",
+        zh:"买筹码",
     },
     buyChipsDesc: {
         ru: "Вы можете намного выгодней купить фишки в виде карточек",
@@ -19,6 +21,7 @@ export const cashier = {
         en: "You can buy chips in card packs for a much better price",
         de: "Sie können Chips in Kartenpaketen zu einem viel besseren Preis kaufen",
         pl: "Możesz kupić żetony w pakietach kart w o wiele lepszej cenie",
+        zh:"你可以以更优惠的价格购买卡包中的筹码",
     },
     buySellChipsName: {
         ru: "Купить / продать фишки",
@@ -26,6 +29,7 @@ export const cashier = {
         en: "Buy / sell chips",
         de: "Chips kaufen / verkaufen",
         pl: "Kup / sprzedaj żetony",
+        zh:"买入/卖出筹码",
     },
     buySellChipsDesc: {
         ru: "Тут вы можете купить или продать определённое кол-во фишек.",
@@ -33,6 +37,7 @@ export const cashier = {
         en: "Here you can buy or sell a certain number of chips.",
         de: "Hier kannst du eine bestimmte Anzahl von Chips kaufen oder verkaufen.",
         pl: "Tutaj możesz kupić lub sprzedać określoną liczbę żetonów.",
+        zh:"在这里你可以买卖一定数量的筹码.",
     },
     buy: {
         ru: "Покупка",
@@ -40,6 +45,7 @@ export const cashier = {
         en: "Buy",
         de: "Kaufen",
         pl: "Kupić",
+       zh:"买",
     },
     sell: {
         ru: "Продажа",
@@ -47,6 +53,7 @@ export const cashier = {
         en: "Sell",
         de: "Verkaufen",
         pl: "Sprzedać",
+        zh:"卖",
     },
     buyChips: {
         ru: "Купить фишки",
@@ -54,6 +61,7 @@ export const cashier = {
         en: "Buy chips",
         de: "Chips kaufen",
         pl: "Kupić żetony",
+       zh:"买筹码",
     },
     sellChips: {
         ru: "Продать фишки",
@@ -61,6 +69,7 @@ export const cashier = {
         en: "Sell chips",
         de: "Chips verkaufen",
         pl: "Sprzedać żetony",
+       zh:"出售筹码",
     },
     inputQuantity: {
         ru: "Введите кол-во фишек",
@@ -68,6 +77,7 @@ export const cashier = {
         en: "Enter the quantity of chips",
         de: "Geben Sie die Anzahl der Chips ein",
         pl: "Wprowadź ilość żetonów"
+       zh:"输入筹码数量",
     },
 
     cashier: {
@@ -76,6 +86,7 @@ export const cashier = {
         en: 'Cashier',
         de: 'Kasse',
         pl: 'Kasa',
+       zh:'收银员',
     },
     successBuy: {
         ru: 'Вы купили {{chips}} фишек за ${{money}}. Удачной игры!',
@@ -83,6 +94,7 @@ export const cashier = {
         en: 'You bought {{chips}} chips for ${{money}}. Good luck!',
         de: 'Du hast {{chips}} Chips für ${{money}} gekauft. Viel Glück!',
         pl: 'Kupiłeś {{chips}} żetonów za ${{money}}. Powodzenia!',
+       zh:'您以${{钱}}的价格购买{{chips}}筹码.祝你好运!',
     },
     successSell: {
         ru: 'Вы продали {{chips}} фишек за ${{money}}.',
@@ -90,6 +102,7 @@ export const cashier = {
         en: 'You sold {{chips}} chips for ${{money}}.',
         de: 'Du hast {{chips}} Chips für ${{money}} verkauft.',
         pl: 'Sprzedałeś {{chips}} żetonów za ${{money}}.',
+        zh:'您以${{钱}}的价格出售{{chips}}筹码',
     },
     discord: {
         ru: 'Покупает фишки',
@@ -97,5 +110,6 @@ export const cashier = {
         en: 'Buying chips',
         de: 'Kauft Chips',
         pl: 'Kupuje żetony',
+        zh:'购买筹码',
     },
 }

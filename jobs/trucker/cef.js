@@ -5,6 +5,7 @@ export const cef = {
         en: 'Trucker',
         de: 'Frachtführer',
         pl: 'Przewoźnik towarowy',
+        zh: '卡车司机',
     },
     desc: {
         ru: 'Вам нужно будет загружать и разгружать грузовую машину, а также перевозить груз. Вы можете работать вместе с друзьями.',
@@ -12,6 +13,7 @@ export const cef = {
         en: 'You will need to load and unload the cargo truck, as well as transport the goods. You can work together with friends.',
         de: 'Sie müssen den Fracht-LKW beladen und entladen sowie die Güter transportieren. Sie können mit Freunden zusammenarbeiten.',
         pl: 'Będziesz musiał załadować i rozładować ciężarówkę oraz transportować ładunki. Możesz współpracować z przyjaciółmi.',
+        zh: '你需要装载和卸载货车，以及运输货物。你可以和朋友一起工作。',
     },
     yourCurrentProgress: {
         ru: 'Ваш текущий прогресс',
@@ -19,6 +21,7 @@ export const cef = {
         en: 'Your current progress',
         de: 'Dein aktueller Fortschritt',
         pl: 'Twój aktualny postęp',
+        zh: '你目前的进度',
     },
     level: {
         ru: 'Уровень',
@@ -26,6 +29,7 @@ export const cef = {
         en: 'Level',
         de: 'Level',
         pl: 'Poziom',
+        zh: '等级',
     },
     buttons: {
         deploy: {
@@ -34,6 +38,7 @@ export const cef = {
             en: 'Deploy',
             de: 'Anstellen',
             pl: 'Zatrudnić się',
+            zh: '就业',
         },
         unavailable: {
             ru: 'Недоступно',
@@ -41,6 +46,7 @@ export const cef = {
             en: 'Unavailable',
             de: 'Nicht verfügbar',
             pl: 'Niedostępne',
+            zh: '不可用',
         },
         leave: {
             ru: 'Уволиться',
@@ -48,6 +54,7 @@ export const cef = {
             en: 'Leave',
             de: 'Verlassen',
             pl: 'Zwolnić się',
+            zh: '离职',
         },
     },
 
@@ -81,6 +88,12 @@ export const cef = {
         Dystanse: <span style="color:var(--white)">{{distText}}</span> <br>
         Wynagrodzenie za 1000 metrów: <span style="color:var(--white)">$ {{salary}}</span> <br> 
         Wynagrodzenie załadunkowców za skrzynkę: <span style="color:var(--white)">$ {{payForLoaders}}</span> <br>`,
+
+        zh: `
+        装载/卸载箱数：<span style="color:var(--white)">{{capacity}}</span> <br>
+        距离：<span style="color:var(--white)">{{distText}}</span> <br>
+        每1000米薪水：<span style="color:var(--white)">$ {{salary}}</span> <br> 
+        装卸工每箱薪水：<span style="color:var(--white)">$ {{payForLoaders}}</span> <br>`,
     },
 
     levels: {
@@ -91,6 +104,7 @@ export const cef = {
                 en: 'Courier',
                 de: 'Kurier',
                 pl: 'Kurier',
+                zh: '快递员',
             },
 
             distText: {
@@ -99,6 +113,7 @@ export const cef = {
                 en: 'Close',
                 de: 'Nah',
                 pl: 'Bliskie',
+                zh: '近距离',
             },
         },
 
@@ -109,6 +124,7 @@ export const cef = {
                 en: 'Carrier',
                 de: 'Frachtführer',
                 pl: 'Przewoźnik',
+                zh: '承运人',
             },
 
             distText: {
@@ -117,6 +133,7 @@ export const cef = {
                 en: 'Medium',
                 de: 'Mittel',
                 pl: 'Średnie',
+                zh: '中距离',
             },
         },
 
@@ -127,6 +144,7 @@ export const cef = {
                 en: 'Trucker',
                 de: 'Fernfahrer',
                 pl: 'Kierowca ciężarowy',
+                zh: '长途卡车司机',
             },
 
             distText: {
@@ -135,6 +153,7 @@ export const cef = {
                 en: 'Far',
                 de: 'Weit',
                 pl: 'Dalekie',
+                zh: '远距离',
             },
         },
     },

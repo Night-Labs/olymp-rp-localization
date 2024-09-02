@@ -5,6 +5,7 @@ export const cef = {
         ru: 'Аренда Т/С',
         de: 'Fahrzeugvermietung',
         pl: 'Wynajem pojazdów',
+        zh:'车辆租赁', 
     },
     description: {
         ua: `Виберіть транспортний засіб, який <br/>хочете орендувати`,
@@ -13,5 +14,6 @@ export const cef = {
         которое хотите арендовать`,
         de: `Wählen Sie das Fahrzeug aus,<br/> das Sie mieten möchten`,
         pl: `Wybierz pojazd, który chcesz wynająć`,
+        zh:'选择你想租的车',
     },
 };

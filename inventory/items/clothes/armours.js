@@ -6,6 +6,7 @@ export const armours = {
             en: 'Body Armor (Standard)',
             de: 'Körperschutz (Standard)',
             pl: 'Kamizelka kuloodporna (standard)',
+           zh:'防弹衣（标准）',
         },
     },
     armour2: {
@@ -15,6 +16,7 @@ export const armours = {
             en: 'Body Armor (Medium)',
             de: 'Körperschutz (Mittel)',
             pl: 'Kamizelka kuloodporna (średnia)',
+            zh:'防弹衣（中）',
         },
     },
     armour3: {
@@ -24,6 +26,7 @@ export const armours = {
             en: 'Heavy Body Armor',
             de: 'Schwerer Körperschutz',
             pl: 'Ciężka kamizelka kuloodporna',
+            zh:'在重型防弹衣中',
         },
     },
 };

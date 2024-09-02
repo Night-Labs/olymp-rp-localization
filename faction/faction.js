@@ -28,6 +28,7 @@ export const faction = {
         ua: 'Лідер',
         de: 'Anführer',
         pl: 'Lider',
+       zh:'领导者',
     },
 
     ranks: {
@@ -37,6 +38,7 @@ export const faction = {
             ua: 'Шериф',
             de: 'Sheriff',
             pl: 'Szeryf',
+           zh:'警长',
         },
     },
     radio: {
@@ -45,6 +47,7 @@ export const faction = {
         en: '!{#2196F3}[Radio {{factionName}}] {{message}}',
         de: '!{#2196F3}[Funk {{factionName}}] {{message}}',
         pl: '!{#2196F3}[Radio {{factionName}}] {{message}}',
+        zh:'{#2196F3}[无线电{{factionName}]{{message}',
     },
     noMoney: {
         ru: 'У вашей организации недостаточно денег',
@@ -52,6 +55,7 @@ export const faction = {
         en: 'Your organization does not have enough money',
         de: 'Ihre Organisation hat nicht genug Geld',
         pl: 'Twoja organizacja nie ma wystarczających gotości',
+        zh:'你的组织没有足够的资金',
     },
     noAccess: {
         ru: 'Недостаточно прав',
@@ -59,5 +63,6 @@ export const faction = {
         en: 'Insufficient rights',
         de: 'Nicht genug Rechte',
         pl: 'Niewystarczające uprawnienia',
+       zh:'权利不足',
     },
 };

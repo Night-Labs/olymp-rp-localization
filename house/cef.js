@@ -5,6 +5,7 @@ export const cef = {
         ru: "Дом",
         de: "Haus",
         pl: "Dom",
+        zh:'房子',
     },
     owner: {
         ua: "Власник будинку",
@@ -12,6 +13,7 @@ export const cef = {
         ru: "Владелец дома",
         de: "Hauseigentümer",
         pl: "Właściciel domu",
+        zh:'房主',
     },
     government: {
         ua: "Уряд",
@@ -19,6 +21,7 @@ export const cef = {
         ru: "Государство",
         de: "Regierung",
         pl: "Rząd",
+        zh:'政府',
     },
     class: {
         ua: "Клас",
@@ -26,6 +29,7 @@ export const cef = {
         ru: "Класс",
         de: "Klasse",
         pl: "Klasa",
+        zh:'班级',
     },
     price: {
         ua: "Держ. вартість",
@@ -33,6 +37,7 @@ export const cef = {
         ru: "Гос. стоимость",
         de: "Regierungspreis",
         pl: "Cena rządowa",
+        zh:'保留成本',
     },
     placeInGarage: {
         ua: "Місця в гаражі",
@@ -40,6 +45,7 @@ export const cef = {
         ru: "Места в гараже",
         de: "Plätze in der Garage",
         pl: "Miejsca w garażu",
+       zh:'车库里的地方',
     },
     tax: {
         ru: 'Квартплата',
@@ -47,6 +53,7 @@ export const cef = {
         en: 'Tax',
         de: 'Steuer',
         pl: 'Podatek',
+       zh:'税收',
     },
     buttons: {
         buy: {
@@ -55,6 +62,7 @@ export const cef = {
             ru: "Купить",
             de: "Kaufen",
             pl: "Kupić",
+           zh:'“购买',
         },
         enter: {
             ua: "Увійти",
@@ -62,6 +70,7 @@ export const cef = {
             ru: "Войти",
             de: "Eingeben",
             pl: "Wejść",
+           zh:'请进',
         },
         exit: {
             ua: "Вийти",
@@ -69,6 +78,7 @@ export const cef = {
             ru: "Выйти",
             de: "Beenden",
             pl: "Wyjście",
+            zh:'滚出去',
         },
         inspect: {
             ua: "Оглянути",
@@ -76,6 +86,7 @@ export const cef = {
             ru: "Осмотреть",
             de: "Inspektion",
             pl: "Sprawdź",
+          zh:'检查,
         },
         garage: {
             ua: "Гараж",
@@ -83,6 +94,7 @@ export const cef = {
             ru: "Гараж",
             de: "Garage",
             pl: "Garaż",
+            zh:'车库,
         },
     },
     controls: {
@@ -92,6 +104,7 @@ export const cef = {
             ru: "Продать дом",
             de: "Haus verkaufen",
             pl: "Sprzedaj dom",
+           zh:'卖房子',
         },
         lock: {
             ua: "Закрити дім",
@@ -99,6 +112,7 @@ export const cef = {
             ru: "Закрыть дом",
             de: "Haus abschließen",
             pl: "Zamknij dom",
+            zh:'关上房子',
         },
         unlock: {
             ua: "Відкрити дім",
@@ -106,6 +120,7 @@ export const cef = {
             ru: "Открыть дом",
             de: "Haus entsperren",
             pl: "Odblokuj dom",
+           zh:'解锁房子',
         },
     },
     classes: {
@@ -115,6 +130,7 @@ export const cef = {
             ru: "Высокий",
             de: "Hoch",
             pl: "Wysoki",
+           zh:'高',
         },
         medium: {
             ua: "Середній",
@@ -122,6 +138,7 @@ export const cef = {
             ru: "Средний",
             de: "Mittel",
             pl: "Średni",
+           zh:'中等',
         },
         low: {
             ua: "Низький",
@@ -129,6 +146,7 @@ export const cef = {
             ru: "Низкий",
             de: "Niedrig",
             pl: "Niski",
+           zh:'低',
         },
     },
 };

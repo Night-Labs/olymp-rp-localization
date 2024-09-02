@@ -5,6 +5,7 @@ export const gasStation = {
         en: 'Gas Station',
         de: 'Tankstelle',
         pl: 'Stacja benzynowa',
+        zh:'加油站',
     },
 
     fuel: {
@@ -13,6 +14,7 @@ export const gasStation = {
         en: 'Fuel',
         de: 'Kraftstoff',
         pl: 'Paliwo',
+        zh:'燃料',
     },
 
     inGasTank: {
@@ -21,6 +23,7 @@ export const gasStation = {
         en: 'In the gas tank',
         de: 'Im Benzintank',
         pl: 'W zbiorniku paliwa',
+       zh:'在油箱里',
     },
 
     inBattery: {
@@ -29,6 +32,7 @@ export const gasStation = {
         en: 'Battery charge',
         de: 'Batterieladung',
         pl: 'Ładunek baterii',
+        zh:'电池充电',
     },
 
     additional: {
@@ -37,6 +41,7 @@ export const gasStation = {
         en: 'Additional',
         de: 'Zusätzlich',
         pl: 'Dodatkowo',
+        zh:'附加',
     },
 
     cart: {
@@ -45,6 +50,7 @@ export const gasStation = {
         en: 'Cart',
         de: 'Warenkorb',
         pl: 'Koszyk',
+        zh:'购物车',
     },
 
     buy: {
@@ -53,6 +59,7 @@ export const gasStation = {
         en: 'Buy',
         de: 'Kaufen',
         pl: 'Kupić',
+        zh:'购买',
     },
 
     payable: {
@@ -61,6 +68,7 @@ export const gasStation = {
         en: 'Payable',
         de: 'Zu zahlen',
         pl: 'Do zapłaty',
+        zh:'直到付款',
     },
 
     pleaseEngineOff: {
@@ -69,6 +77,7 @@ export const gasStation = {
         en: 'Please turn off the engine before refueling',
         de: 'Bitte schalten Sie den Motor vor dem Tanken aus',
         pl: 'Proszę wyłączyć silnik przed tankowaniem',
+        zh:'加油前请关闭发动机',
     },
 
     fuelIsFull: {
@@ -78,6 +87,7 @@ export const gasStation = {
         de: 'Dieser Fahrzeugtank ist bereits voll',
         pl: 'W tym pojeździe zbiornik paliwa jest już pełny',
         ge: 'ამ მანქანის საწვავის ავზი უკვე სავსეა',
+       zh:'此车辆的油箱已满',
     },
 
     noItemForRefuel: {
@@ -87,6 +97,7 @@ export const gasStation = {
         de: 'Sie haben keinen geeigneten Gegenstand zum Betanken dieses Fahrzeugs',
         pl: 'Nie masz odpowiedniego przedmiotu do tankowania tego pojazdu',
         ge: 'თქვენ არ გაქვთ შესაბამისი ნივთი ამ მანქანის საწვავით შევსებისთვის',
+        zh:'您没有合适的物品为这辆车加油',
     },
 
     vehicleRefueledByItem: {
@@ -96,6 +107,7 @@ export const gasStation = {
         de: 'Sie haben das Fahrzeug um {{value}} Liter betankt.',
         pl: 'Zatankowałeś pojazd o {{value}} litrów.',
         ge: 'თქვენ მანქანა {{value}} ლიტრით შეავსეთ.',
+        zh:'你给车辆加油了{{value}}升',
     },
     
     vehicleRechargedByItem: {
@@ -105,6 +117,7 @@ export const gasStation = {
         de: 'Sie haben das Fahrzeug um {{value}} kWh aufgeladen.',
         pl: 'Naładowałeś pojazd o {{value}} kWh.',
         ge: 'თქვენ მანქანა {{value}} kWh-ით დამუხტეთ.',
+        zh:'您为车辆充电了{{value}}kWh。',
     },
 
     engineTypeError: {
@@ -114,6 +127,7 @@ export const gasStation = {
         de: 'Der Motortyp dieses Autos ist nicht für die Betankung mit dieser Kraftstoffart ausgelegt',
         pl: 'Typ silnika tego samochodu nie jest przeznaczony do tankowania tego rodzaju paliwa',
         ge: 'ამ მანქანის ძრავის ტიპი არ არის განკუთვნილი ამ ტიპის საწვავისათვის',
+       zh:'这辆车的发动机类型不是为使用这种燃料而设计的',
     },
 
     refueled: {
@@ -123,6 +137,7 @@ export const gasStation = {
         de: 'Das Tanken ist abgeschlossen, danke, dass Sie unsere Tankstelle gewählt haben, kommen Sie wieder!',
         pl: 'Tankowanie zakończone, dziękujemy za wybór naszej stacji benzynowej, zapraszamy ponownie!',
         ge: 'ავზის შევსება დასრულდა, გმადლობთ ჩვენი ბენზინგასამართი სადგურის არჩევისთვის, კვლავ მობრძანდით!',
+        zh:'加油完毕，感谢您选择我们的加油站，欢迎再次光临',
     },
     recharged: {
         ru: 'Зарядка завершена, спасибо за что выбрали нашу заправочную станцию, приезжайте ещё!',
@@ -131,6 +146,7 @@ export const gasStation = {
         de: 'Das Aufladen ist abgeschlossen, danke, dass Sie unsere Tankstelle gewählt haben, kommen Sie wieder!',
         pl: 'Ładowanie zakończone, dziękujemy za wybór naszej stacji benzynowej, zapraszamy ponownie!',
         ge: 'დამუხტვა დასრულდა, გმადლობთ ჩვენი ბენზინგასამართი სადგურის არჩევისთვის, კვლავ მობრძანდით!',
+        zh:'充电完成了，谢谢您选择我们的加油站，回来吧！',
     },
 
     refueling: {
@@ -140,6 +156,7 @@ export const gasStation = {
         de: 'Betanken...',
         pl: 'Tankowanie...',
         ge: 'გავსება...',
+        zh:'在“加油…”中',
     },
 
     recharging: {
@@ -149,6 +166,7 @@ export const gasStation = {
         de: 'Aufladen...',
         pl: 'Ładowanie...',
         ge: 'დამუხტვა...',
+        zh:'正在加载',
     },
 
     refuelingStarted: {
@@ -158,6 +176,7 @@ export const gasStation = {
         de: 'Das Tanken hat begonnen, bitte warten Sie, bis das Fahrzeug vollständig betankt ist!',
         pl: 'Tankowanie rozpoczęte, prosimy poczekać na pełne zatankowanie pojazdu!',
         ge: 'ავზის შევსება დაიწყო, გთხოვთ, დაელოდოთ ტრანსპორტის სრული შევსებას!',
+        zh:'加油开始，请等待车辆完全加油！',
     },
     rechargingStarted: {
         ru: 'Зарядка началась, пожалуйста дождитесь полной зарядки транспортного средства!',
@@ -166,5 +185,6 @@ export const gasStation = {
         de: 'Das Aufladen hat begonnen, bitte warten Sie, bis das Fahrzeug vollständig aufgeladen ist!',
         pl: 'Ładowanie rozpoczęte, prosimy poczekać na pełne naładowanie pojazdu!',
         ge: 'დამუხტვა დაიწყო, გთხოვთ, დაელოდოთ ტრანსპორტის სრულ დამუხტვას!',
+        zh:'充电已经开始，请等到车辆满载！',
     },
 };

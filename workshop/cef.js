@@ -5,6 +5,7 @@ export default {
         en: 'CRAFT <span>ITEMS</span>',
         de: 'HANDWERK <span>ARTIKEL</span>',
         pl: 'RĘKODZIEŁO <span>PRZEDMIOTY</span>',
+        zh:'手工艺 <span>物品</span>',
     },
     search: {
         ru: 'Поиск',
@@ -12,6 +13,7 @@ export default {
         en: 'Search',
         de: 'Suche',
         pl: 'Szukaj',
+        zh: '搜索',
     },
     infoAboutItem: {
         ru: 'Информация о предмете',
@@ -19,6 +21,7 @@ export default {
         en: 'Information about the item',
         de: 'Informationen über den Artikel',
         pl: 'Informacje o przedmiocie',
+        zh: '关于物品的信息',
     },
     production: {
         ru: 'Изготовление',
@@ -26,6 +29,7 @@ export default {
         en: 'Production',
         de: 'Produktion',
         pl: 'Produkcja',
+        zh: '生产',
     },
     materialsNeed: {
         ru: 'Необходимые материалы',
@@ -33,6 +37,7 @@ export default {
         en: 'Necessary materials',
         de: 'Notwendige Materialien',
         pl: 'Niezbędne materiały',
+        zh: '所需材料',
     },
     quantity: {
         ru: 'Количество предмета',
@@ -40,6 +45,7 @@ export default {
         en: 'Quantity of the item',
         de: 'Menge des Artikels',
         pl: 'Ilość przedmiotu',
+        zh: '物品数量',
     },
     create: {
         ru: 'Создать',
@@ -47,6 +53,7 @@ export default {
         en: 'Create',
         de: 'Erstellen',
         pl: 'Utwórz',
+        zh: '创建',
     },
     creating: {
         ru: 'Создаётся...',
@@ -54,5 +61,8 @@ export default {
         en: 'Creating...',
         de: 'Erstellen...',
         pl: 'Tworzenie...',
+        zh: '正在创建...',
     },
 };
+
+

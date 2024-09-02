@@ -5,6 +5,7 @@ export const types = {
         en: 'Starting',
         de: 'Start',
         pl: 'Początkowe',
+        zh:'开始',
     },
     daily: {
         ru: 'Ежедневные',
@@ -12,6 +13,7 @@ export const types = {
         en: 'Daily',
         de: 'Täglich',
         pl: 'Codzienne',
+        zh:'每日',
     },
     newYear: {
         ru: 'Зимние',
@@ -19,5 +21,6 @@ export const types = {
         en: 'Winter',
         de: 'Winter',
         pl: 'Zima',
+        zh:'冬天',
     },
 };

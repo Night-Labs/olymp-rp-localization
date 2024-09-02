@@ -14,6 +14,7 @@ export default {
             en: 'Carrier',
             de: 'Lkw-Fahrer',
             pl: 'Kierowca ciężarówki',
+            zh: '货物运输司机',
         },
         trucker2: {
             ua: 'Далекобійник',
@@ -21,6 +22,7 @@ export default {
             ru: 'Дальнобойщик',
             de: 'Trucker',
             pl: 'Kierowca ciężarówki',
+            zh: '长途卡车司机',
         },
         farm: {
             ua: 'Фермер',
@@ -28,6 +30,7 @@ export default {
             ru: 'Фермер',
             de: 'Landwirt',
             pl: 'Rolnik',
+            zh: '农民',
         },
         delivery: {
             ua: 'Доставник їжі',
@@ -35,6 +38,7 @@ export default {
             ru: 'Доставщик еды',
             de: 'Essenslieferant',
             pl: 'Dostawca jedzenia',
+            zh: '食品配送员',
         },
         bus: {
             ua: 'Водій автобуса',
@@ -42,6 +46,7 @@ export default {
             ru: 'Автобусник',
             de: 'Busfahrer',
             pl: 'Kierowca autobusu',
+            zh: '公交车司机',
         },
         hunter: {
             ru: 'Охотник',
@@ -49,6 +54,7 @@ export default {
             en: 'Hunter',
             de: 'Jäger',
             pl: 'Myśliwy',
+            zh: '猎人',
         },
         fishing: {
             ru: 'Рыбак',
@@ -56,6 +62,7 @@ export default {
             en: 'Fisherman',
             de: 'Angeln',
             pl: 'Wędkarstwo',
+            zh: '渔夫',
         },
     },
     youAlreadyWorking: {
@@ -64,6 +71,7 @@ export default {
         en: 'You are already working at another job, first resign from it',
         de: 'Sie arbeiten bereits an einem anderen Arbeitsplatz. Kündigen Sie zuerst dort',
         pl: 'Już pracujesz w innym miejscu pracy, najpierw zrezygnuj z niego',
+        zh: '你已经在另一个工作岗位上，首先请从那里辞职',
     },
 
     // САМИ РАБОТЫ

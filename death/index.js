@@ -5,6 +5,7 @@ export default {
         en: 'Continue fighting',
         de: 'Weiter kämpfen',
         pl: 'Kontynuować walkę',
+        zh:'继续战斗',
     },
 
     timeUntilDeath: {
@@ -13,6 +14,7 @@ export default {
         en: 'Time until death',
         de: 'Zeit bis zum Tod',
         pl: 'Czas do śmierci',
+        zh:'你死亡了',
     },
 
     giveUp: {
@@ -21,6 +23,7 @@ export default {
         en: 'Give up',
         de: 'Aufgeben',
         pl: 'Poddaj się',
+        zh:'放弃',
     },
 
     timerExplanationContinue: {
@@ -29,6 +32,7 @@ export default {
         en: 'If you choose this option, an ambulance will be called to you, if no one comes to you within {{time}} minutes, you will be taken to the nearest hospital',
         de: 'Wenn Sie diese Option wählen, wird ein Krankenwagen zu Ihnen gerufen, wenn niemand innerhalb von {{time}} Minuten zu Ihnen kommt, werden Sie ins nächstgelegene Krankenhaus gebracht',
         pl: 'Jeśli wybierzesz tę opcję, wezwana zostanie do ciebie karetka, jeśli nikt nie przyjedzie do ciebie w ciągu {{time}} minut, zostaniesz przewieziony do najbliższego szpitala',
+        zh:'如果您选择此选项，救护车将为您呼叫，如果在｛15｝分钟内没有人来找您，您将被送往最近的医院',
     },
 
     timerExplanationGiveUp: {
@@ -37,6 +41,7 @@ export default {
         en: 'Choosing this option will start a {{time}} minute timer, after which you will be taken to the nearest hospital',
         de: 'Wenn Sie diese Option wählen, wird ein {{time}}-Minuten-Timer gestartet, nach dessen Ablauf Sie ins nächste Krankenhaus gebracht werden',
         pl: 'Wybranie tej opcji uruchomi licznik {{time}} minutowy, po którym zostaniesz przetransportowany do najbliższego szpitala',
+        zh:'如果你选择了这个，你将在15分钟后被送进最近的医院',
     },
 
     // TODO ПЕРЕНЕСТИ В factions/ems (просто его нет ещё а там дебаг ещё не сверстал шоб конликфтов не было)
@@ -46,6 +51,7 @@ export default {
         en: 'You have successfully resuscitated the player {{name}}',
         de: 'Sie haben den Spieler {{name}} erfolgreich reanimiert',
         pl: 'Pomyślnie zreanimowałeś gracza {{name}}',
+       zh:'你已抢救成功',
     },
 
     youWereResuscitated: {
@@ -54,5 +60,6 @@ export default {
         en: 'You were resuscitated by player {{name}}',
         de: 'Sie wurden von Spieler {{name}} reanimiert',
         pl: 'Zostałeś zreanimowany przez gracza {{name}}',
+        zh:'你在昏迷期间被人救活了',
     },
 };

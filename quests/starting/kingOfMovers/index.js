@@ -5,6 +5,7 @@ export default {
         en: 'King of Loaders',
         de: 'König der Verlader',
         pl: 'Król ładowaczy',
+        zh:'装载机之王',
     },
     desc: {
         ru: 'Станьте незаменимым звеном в цепи поставок, перевозя грузы с умением и смекалкой. Ваша цель - достигнуть вершин в мире грузоперевозок. Удачи!',
@@ -12,5 +13,6 @@ export default {
         en: 'Become an indispensable link in the supply chain, transporting goods with skill and ingenuity. Your goal is to reach the top in the world of freight transportation. Good luck!',
         de: 'Werden Sie ein unverzichtbares Glied in der Lieferkette, indem Sie Waren mit Geschick und Einfallsreichtum transportieren. Ihr Ziel ist es, die Spitze in der Welt des Gütertransports zu erreichen. Viel Glück!',
         pl: 'Stań się niezastąpionym ogniwem w łańcuchu dostaw, transportując towary z umiejętnościami i pomysłowością. Twoim celem jest osiągnięcie szczytu w świecie transportu towarów. Powodzenia!',
+        zh:'成为供应链中不可或缺的一环，用技能和智慧运输货物。你们的目标是成为世界货运的佼佼者。好运！',
     },
 };

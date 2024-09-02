@@ -5,6 +5,7 @@ export default {
         ua: 'Динамічна гра з ризиком та виграшем: взяти <br />невеликий виграш раніше або взяти великий банк.',
         de: 'Ein dynamisches Spiel mit Risiko und Belohnung: Holen Sie sich einen kleinen Gewinn frühzeitig oder brechen Sie die Bank für einen großen Gewinn.',
         pl: 'Dynamiczna gra z ryzykiem i nagrodą: zdobądź małą wygraną wcześnie lub zdobądź duży bank.',
+        zh:'一个有风险和回报的动态游戏:拿一个小的<br />早赢或倾家荡产以获得大的回报',
     },
     sumBet: {
         ru: 'Сумма ставки',
@@ -12,6 +13,7 @@ export default {
         ua: 'Сума ставки',
         de: 'Wetteinsatz',
         pl: 'Kwota zakładu',
+        zh:'选择数量',
     },
     autoOut: {
         ru: 'Авто-вывод',
@@ -19,6 +21,7 @@ export default {
         ua: 'Авто-вивід',
         de: 'Automatischer Auszahlung',
         pl: 'Automatyczne wycofywanie',
+        zh:'自动提款',
     },
     bet: {
         ru: 'Сделать ставку',
@@ -26,6 +29,7 @@ export default {
         ua: 'Зробити ставку',
         de: 'Eine Wette platzieren',
         pl: 'Postaw zakład',
+        zh:'下赌注',
     },
     take: {
         ru: 'Забрать',
@@ -33,6 +37,7 @@ export default {
         ua: 'Забрати',
         de: 'Nehmen',
         pl: 'Zabierz',
+        zh:'拿走',
     },
     unavailable: {
         ru: 'Недоступно',
@@ -40,6 +45,7 @@ export default {
         ua: 'Недоступно',
         de: 'Nicht verfügbar',
         pl: 'Niedostępne',
+        zhz:'不可用',
     },
     playersBets: {
         ru: 'Ставки игроков',
@@ -47,6 +53,7 @@ export default {
         ua: 'Ставки гравців',
         de: 'Spielerwetten',
         pl: 'Zakłady graczy',
+        zh:'玩家的下注',
     },
     noBets: {
         ru: 'Ставок нет',
@@ -54,6 +61,7 @@ export default {
         ua: 'Ставок немає',
         de: 'Keine Wetten',
         pl: 'Brak zakładów',
+        zh:'愿赌服输',
     },
     toStart: {
         ru: 'До начала',
@@ -61,6 +69,7 @@ export default {
         ua: 'До початку',
         de: 'Bis zum Start',
         pl: 'Do rozpoczęcia',
+        zh:'开始',
     },
     inGame: {
         ru: 'В ИГРЕ',
@@ -68,5 +77,6 @@ export default {
         ua: 'У ГРІ',
         de: 'IM SPIEL',
         pl: 'W GRZE',
+        zh:'在游戏中',
     },
 };

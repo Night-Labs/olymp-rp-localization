@@ -8,6 +8,7 @@ export default {
         en: "Interaction",
         de: "Interaktion",
         pl: "Interakcja"
+        zh:'互动',
     },
 
     // Player
