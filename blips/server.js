@@ -5,7 +5,7 @@ export const server = {
         ru: 'Авторынок',
         de: 'Automarkt',
         pl: 'Automarket',
-        zh:'汽车市场',
+        zh: '汽车市场',
     },
     productShop: {
         ua: 'Магазин 24/7',
@@ -13,7 +13,7 @@ export const server = {
         ru: 'Магазин 24/7',
         de: 'Supermarkt',
         pl: 'Sklep convenience',
-        zh:'24/7便利店',
+        zh: '24/7便利店',
     },
     clothesShop: {
         ua: 'Магазин одягу',
@@ -21,7 +21,7 @@ export const server = {
         ru: 'Магазин одежды',
         de: 'Bekleidungsgeschäft',
         pl: 'Sklep z odzieżą',
-        zh:'服装店',
+        zh: '服装店',
     },
     gunShop: {
         ua: 'Збройний магазин',
@@ -29,7 +29,7 @@ export const server = {
         ru: 'Магазин оружия',
         de: 'Waffengeschäft',
         pl: 'Sklep z bronią',
-        zh:'武装国度',
+        zh: '武装国度',
     },
     barberShop: {
         ua: 'Перукарня',
@@ -37,7 +37,7 @@ export const server = {
         ru: 'Барбершоп',
         de: 'Barbershop',
         pl: 'Barber Shop',
-        zh:'理发店',
+        zh: '理发店',
     },
     tattooShop: {
         ua: 'Тату салон',
@@ -45,7 +45,7 @@ export const server = {
         ru: 'Тату салон',
         de: 'Tattoo-Studio',
         pl: 'Studio tatuażu',
-       zh:'纹身店'.
+        zh: '纹身店',
     },
     trucker: {
         ru: 'Грузоперевозчик',
@@ -53,7 +53,7 @@ export const server = {
         en: 'Trucker',
         de: 'Frachtführer',
         pl: 'Przewoźnik towarowy',
-        zh:'卡车司机',
+        zh: '卡车司机',
     },
     trucker2: {
         ru: 'Дальнобойщик',
@@ -61,7 +61,7 @@ export const server = {
         de: 'Trucker',
         pl: 'Kierowca ciężarówki',
         ua: 'Далекобiйник',
-        zh:'卡车司机2',
+        zh: '卡车司机2',
     },
     delivery: {
         ua: 'Курьер',
@@ -69,7 +69,7 @@ export const server = {
         ru: 'Курьер',
         de: 'Lieferung',
         pl: 'Dostawa',
-        zh:'递送',
+        zh: '递送',
     },
     bus: {
         ru: 'Автобусник',
@@ -77,7 +77,7 @@ export const server = {
         en: 'Bus Driver',
         de: 'Busleiter',
         pl: 'Autobusnik',
-        zh:'公共汽车司机',
+        zh: '公共汽车司机',
     },
     farm: {
         ru: 'Ферма',
@@ -85,7 +85,7 @@ export const server = {
         en: 'Farm',
         de: 'Bauernhof',
         pl: 'Farma',
-        zh:'农场',
+        zh: '农场',
     },
     rent: {
         ua: 'Оренда Т/З',
@@ -93,7 +93,7 @@ export const server = {
         ru: 'Аренда Т/С',
         de: 'Autovermietung',
         pl: 'Wynajem samochodów',
-       zh:'汽车租赁',
+        zh: '汽车租赁',
     },
     hospital: {
         ua: 'Лiкарня',
@@ -101,7 +101,7 @@ export const server = {
         ru: 'Больница',
         de: 'Krankenhaus',
         pl: 'Szpital',
-        zh:'医院',
+        zh: '医院',
     },
     bank: {
         ru: 'Отделение банка',
@@ -109,7 +109,7 @@ export const server = {
         ua: 'Вiддiлення банку',
         de: 'Bankfiliale',
         pl: 'Oddział banku',
-        zh:'银行分行',
+        zh: '银行分行',
     },
     atm: {
         ru: 'Банкомат',
@@ -117,7 +117,7 @@ export const server = {
         ua: 'Банкомат',
         de: 'ATM',
         pl: 'Bankomat',
-        zh:'ATM',
+        zh: 'ATM',
     },
     quest: {
         ru: 'Квестовое задание',
@@ -125,7 +125,7 @@ export const server = {
         en: 'Quest',
         de: 'Quest',
         pl: 'Zadanie questowe',
-        zh:'任务',
+        zh: '任务',
     },
     strangersAndOthers: {
         ru: 'Чудаки и прочие незнакомцы',
@@ -133,7 +133,7 @@ export const server = {
         en: 'Oddballs and other strangers',
         de: 'Sonderlinge und andere Fremde',
         pl: 'Dziwacy i inni nieznajomi',
-        zh:'怪人和其他陌生人',
+        zh: '怪人和其他陌生人',
     },
     santa: {
         ru: 'Санта-Клаус',
@@ -141,7 +141,7 @@ export const server = {
         en: 'Santa Claus',
         de: 'Santa Claus',
         pl: 'Święty Mikołaj',
-       zh:'圣诞老人',
+        zh: '圣诞老人',
     },
     cityhall: {
         ru: 'Мэрия',
@@ -149,7 +149,7 @@ export const server = {
         en: 'City Hall',
         de: 'Rathaus',
         pl: 'Ratusz',
-        zh:'市政厅',
+        zh: '市政厅',
     },
     gunClub: {
         ru: 'Тир',
@@ -157,7 +157,7 @@ export const server = {
         en: 'Shooting range',
         de: 'Schießstand',
         pl: 'Strzelnica',
-       zh:'射击场',
+        zh: '射击场',
     },
     airdrop: {
         ru: 'Air drop',
@@ -165,7 +165,7 @@ export const server = {
         en: 'Air drop',
         pl: 'Air drop',
         de: 'Air drop',
-        zh:'空投',
+        zh: '空投',
     },
     fishing: {
         ru: 'Зона для рыбалки',
@@ -173,6 +173,6 @@ export const server = {
         en: 'Fishing area',
         de: 'Angelgebiet',
         pl: 'Strefa wędkowania',
-        zh:'渔区',
+        zh: '渔区',
     },
 };

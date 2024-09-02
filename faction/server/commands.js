@@ -5,7 +5,7 @@ export default {
         en: '!{#2196F3}[Gov.wave] {{factionName}} {{playerName}}: {{message}}',
         de: '!{#2196F3}[Staatswelle] {{factionName}} {{playerName}}: {{message}}',
         pl: '!{#2196F3}[Fala rządowa] {{factionName}} {{playerName}}: {{message}}',
-        zh:'#2196F3}[政府讲话]{{factionName}{{playerName}:{{message}'，',
+        zh:'#2196F3}[政府讲话]{{factionName}{{playerName}:{{message}'
     },
     govBroadcast: {
         ru: '!{#2196F3}{{factionName}} {{playerName}}: {{message}}',
@@ -20,7 +20,7 @@ export default {
         en: '!{#2196F3}[Radio {{factionName}}] {{playerName}}: {{message}}',
         de: '!{#2196F3}[Funkgerät {{factionName}}] {{playerName}}: {{message}}',
         pl: '!{#2196F3}[Radio {{factionName}}] {{playerName}}: {{message}}',
-       zh:'#2196F3}[无线电{{factionName}]{{playerName}:{{message}'，',
+       zh:'#2196F3}[无线电{{factionName}]{{playerName}:{{message}'
     },
     fbMessage: {
         ru: '!{#2196F3}[Рация {{factionName}}] {{playerName}}: (( {{message}} ))',
@@ -28,7 +28,7 @@ export default {
         en: '!{#2196F3}[Radio {{factionName}}] {{playerName}}: (( {{message}} ))',
         de: '!{#2196F3}[Funk {{factionName}}] {{playerName}}: (( {{message}} ))',
         pl: '!{#2196F3}[Radio {{factionName}}] {{playerName}}: (( {{message}} ))',
-        zh:'{#2196F3}[无线电{{factionName}]{{playerName}}：（（{{message}}））'，
+        zh:'{#2196F3}[无线电{{factionName}]{{playerName}}：（（{{message}}））'
     },
 
     // modal
@@ -72,7 +72,7 @@ export default {
         en: '!{#20a832}[Advertisement] {{message}}. Sender: {{playerName}}',
         de: '!{#20a832}[Werbung] {{message}}. Absender: {{playerName}}',
         pl: '!{#20a832}[Reklama] {{message}}. Nadawca: {{playerName}}',
-        zh:',{#20a832}[广告]{{消息}}。发件人：｛｛playerName｝｝'，',
+        zh:',{#20a832}[广告]{{消息}}。发件人：｛｛playerName｝｝'
     },
     youHaveAdTimeout: {
         ru: 'Вы уже отправляли рекламу банды',

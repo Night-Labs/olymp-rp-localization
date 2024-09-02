@@ -40,7 +40,7 @@ export default {
         en: '~r~[SUPPLY] Loading of supplies is complete, head to your base and unload the trucks!',
         de: '~r~[LIEFERUNG] Das Laden der Vorräte ist abgeschlossen, begeben Sie sich zu Ihrer Basis und entladen Sie die LKWs!',
         pl: '~r~[DOSTAWA] Załadunek materiałów jest zakończony, udaj się na swoją bazę i rozładuj ciężarówki!',
-        zh:~r~[LEFT]材料装载完成，去你的基地卸下卡车',
+        zh: '~r~[LEFT]材料装载完成，去你的基地卸下卡车',
     },
 
     // Suply

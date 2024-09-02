@@ -4,8 +4,8 @@ export const cef = {
         en: 'Car showroom',
         ru: 'Автосалон',
         de: 'Autoausstellung',
-        pl: 'Salon samochodowy',、
-        zh:'汽车展览厅',
+        pl: 'Salon samochodowy',
+        zh: '汽车展览厅',
     },
     searchInput: {
         ua: 'Пошук автомобіля за назвою',
@@ -13,7 +13,7 @@ export const cef = {
         ru: 'Поиск машины по названию',
         de: 'Fahrzeug nach Namen suchen',
         pl: 'Szukaj pojazdu po nazwie',
-        zh:'按名称搜索车辆',
+        zh: '按名称搜索车辆',
     },
     stats: {
         label: {
@@ -22,7 +22,7 @@ export const cef = {
             ru: 'Статистика',
             de: 'Statistik',
             pl: 'Statystyka',
-           zh:'统计',
+            zh: '统计',
         },
         speed: {
             ua: 'Швидкість',
@@ -30,7 +30,7 @@ export const cef = {
             ru: 'Скорость',
             de: 'Geschwindigkeit',
             pl: 'Prędkość',
-           zh:'速度',
+            zh: '速度',
         },
         acceleation: {
             ua: 'Прискорення',
@@ -38,7 +38,7 @@ export const cef = {
             ru: 'Ускорение',
             de: 'Beschleunigung',
             pl: 'Przyspieszenie',
-           zh:'加速度',
+            zh: '加速度',
         },
         control: {
             ua: 'Керованість',
@@ -46,7 +46,7 @@ export const cef = {
             ru: 'Управляемость',
             de: 'Kontrolle',
             pl: 'Kontrola',
-           zh:'控制',
+            zh: '控制',
         },
         brakes: {
             ua: 'Гальма',
@@ -54,7 +54,7 @@ export const cef = {
             ru: 'Тормоза',
             de: 'Bremsen',
             pl: 'Hamulce',
-           zh:'刹车',
+            zh: '刹车',
         },
         pessangers: {
             ua: 'Вмістимість',
@@ -62,7 +62,7 @@ export const cef = {
             ru: 'Вместительность',
             de: 'Passagierkapazität',
             pl: 'Pojemność pasażerów',
-           zh:'核载人数',
+            zh: '核载人数',
         },
     },
     colors: {
@@ -72,7 +72,7 @@ export const cef = {
             ru: 'Основной цвет',
             de: 'Primärfarbe',
             pl: 'Kolor podstawowy',
-           zh:'主色调',
+            zh: '主色调',
         },
         secondary: {
             ua: 'Додатковий колір',
@@ -80,7 +80,7 @@ export const cef = {
             ru: 'Доп. цвет',
             de: 'Sekundärfarbe',
             pl: 'Kolor dodatkowy',
-            zh:'副色调',
+            zh: '副色调',
         },
     },
     buttons: {
@@ -90,7 +90,7 @@ export const cef = {
             ru: 'Купить',
             de: 'Kaufen',
             pl: 'Kup',
-           zh:'购买',
+            zh: '购买',
         },
         testDrive: {
             ua: 'Тест-драйв',
@@ -98,7 +98,7 @@ export const cef = {
             ru: 'Тест-драйв',
             de: 'Probefahrt',
             pl: 'Jazda próbna',
-           zh:'试驾',
+            zh: '试驾',
         },
     },
 };

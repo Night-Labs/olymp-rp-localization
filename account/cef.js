@@ -6,8 +6,8 @@ export const cef = {
             ru: 'Авторизация',
             de: 'Anmelden',
             pl: 'Zaloguj się',
-            ge: 'ავტორიზაცია'
-            zh:'登录',
+            ge: 'ავტორიზაცია',
+            zh: '登录',
         },
         subtitle: {
             ua: 'Щоб почати грати, вам потрібно увійти',
@@ -15,7 +15,7 @@ export const cef = {
             ru: 'Чтобы начать играть, вам нужно войти',
             de: 'Um zu spielen, müssen Sie sich anmelden',
             pl: 'Aby zacząć grać, musisz się zalogować',
-           zh:'点击登录，启动游戏',
+            zh: '点击登录，启动游戏',
         },
         inputs: {
             login: {
@@ -24,7 +24,7 @@ export const cef = {
                 ru: 'Введите логин',
                 de: 'Geben Sie Ihren Benutzernamen ein',
                 pl: 'Wprowadź login',
-               zh:'输入账号',
+                zh: '输入账号',
             },
             password: {
                 ua: 'Введіть пароль',
@@ -32,7 +32,7 @@ export const cef = {
                 ru: 'Введите пароль',
                 de: 'Geben Sie Ihr Passwort ein',
                 pl: 'Wprowadź hasło',
-               zh:'输入密码',
+                zh: '输入密码',
             },
         },
         rememberMe: {
@@ -41,7 +41,7 @@ export const cef = {
             ru: 'Запомнить меня',
             de: 'Erinnere dich an mich',
             pl: 'Zapamiętaj mnie',
-           zh:'记住账号密码',
+            zh: '记住账号密码',
         },
         forgotPassword: {
             ua: 'Забув пароль?',
@@ -49,7 +49,7 @@ export const cef = {
             en: 'Forgot password?',
             de: 'Passwort vergessen?',
             pl: 'Zapomniałeś hasła?',
-           zh:'忘记密码',
+            zh: '忘记密码',
         },
         signIn: {
             ua: 'Увійти',
@@ -57,7 +57,7 @@ export const cef = {
             ru: 'Войти',
             de: 'Anmelden',
             pl: 'Zaloguj się',
-           zh:'注册',
+            zh: '注册',
         },
         noAccount: {
             ua: 'Немає облікового запису?',
@@ -65,7 +65,7 @@ export const cef = {
             ru: 'Нет аккаунта?',
             de: 'Sie haben noch keinen Account?',
             pl: 'Nie masz konta?',
-           zh:'没有账号？',
+            zh: '没有账号？',
         },
         create: {
             ua: 'Створити',
@@ -73,7 +73,7 @@ export const cef = {
             ru: 'Создать',
             de: 'Erstellen',
             pl: 'Utwórz',
-           zh:'创建',
+            zh: '创建',
         },
     },
     register: {
@@ -83,7 +83,7 @@ export const cef = {
             ru: 'Регистрация',
             de: 'Registrierung',
             pl: 'Rejestracja',
-           zh:'注册',
+            zh: '注册',
         },
         subtitle: {
             ua: 'Щоб почати грати, вам потрібно увійти',
@@ -91,7 +91,7 @@ export const cef = {
             ru: 'Чтобы начать играть, вам нужно войти',
             de: 'Um zu spielen, müssen Sie sich anmelden',
             pl: 'Aby zacząć grać, musisz się zalogować',
-           zh:'登录以开始游戏',
+            zh: '登录以开始游戏',
         },
         inputs: {
             login: {
@@ -100,7 +100,7 @@ export const cef = {
                 ru: 'Введите логин',
                 de: 'Wählen Sie einen Benutzernamen',
                 pl: 'Wybierz login',
-               zh:'注册ID',
+                zh: '注册ID',
             },
             email: {
                 ua: 'Введіть електронну пошту',
@@ -108,7 +108,7 @@ export const cef = {
                 ru: 'Введите почту',
                 de: 'Geben Sie Ihre E-Mail-Adresse ein',
                 pl: 'Wprowadź adres e-mail',
-               zh:'输入邮箱',
+                zh: '输入邮箱',
             },
             password: {
                 ua: 'Введіть пароль',
@@ -116,7 +116,7 @@ export const cef = {
                 ru: 'Введите пароль',
                 de: 'Wählen Sie ein Passwort',
                 pl: 'Wybierz hasło',
-               zh:'输入密码',
+                zh: '输入密码',
             },
             repassword: {
                 ua: 'Повторіть пароль',
@@ -124,7 +124,7 @@ export const cef = {
                 ru: 'Повторите пароль',
                 de: 'Passwort wiederholen',
                 pl: 'Powtórz hasło',
-               zh:'确认密码',
+                zh: '确认密码',
             },
         },
         register: {
@@ -133,7 +133,7 @@ export const cef = {
             ru: 'Регистрация',
             de: 'Registrieren',
             pl: 'Zarejestruj się',
-           zh:'注册',
+            zh: '注册',
         },
         haveAccount: {
             ua: 'У вас є обліковий запис?',
@@ -141,7 +141,7 @@ export const cef = {
             ru: 'Есть аккаунт?',
             de: 'Sie haben bereits einen Account?',
             pl: 'Masz już konto?',
-           zh:'拥有账户？',
+            zh: '拥有账户？',
         },
         signIn: {
             ua: 'Увійти',
@@ -149,7 +149,7 @@ export const cef = {
             ru: 'Вход',
             de: 'Anmelden',
             pl: 'Zaloguj się',
-           zh:'登录',
+            zh: '登录',
         },
     },
     language: {
@@ -159,7 +159,7 @@ export const cef = {
             ru: 'Добро пожаловать на сервер',
             de: 'Willkommen auf dem Server',
             pl: 'Witamy na serwerze',
-           zh:'欢迎来到自由城',
+            zh: '欢迎来到自由城',
         },
         subtitle: {
             ua: 'Перш ніж перейти до сторінки авторизації, будь ласка, оберіть свою мову',
@@ -167,7 +167,7 @@ export const cef = {
             ru: 'Прежде чем перейти на страницу авторизации, выберите свой язык',
             de: 'Bevor Sie zur Anmeldeseite gehen, wählen Sie bitte Ihre Sprache aus',
             pl: 'Przed przejściem do strony logowania, wybierz swój język',
-           zh:'在进入登录页面之前，请选择你的语言偏好',
+            zh: '在进入登录页面之前，请选择你的语言偏好',
         },
         button: {
             ua: 'Вибрати',
@@ -175,7 +175,7 @@ export const cef = {
             ru: 'Выбрать',
             de: 'Auswählen',
             pl: 'Wybierz',
-           zh:'选择',
+            zh: '选择',
         },
     },
     recovery: {
@@ -185,7 +185,7 @@ export const cef = {
             en: 'Password Recovery',
             de: 'Passwort-Wiederherstellung',
             pl: 'Odzyskiwanie hasła',
-           zh:'重置密码',
+            zh: '重置密码',
         },
         subtitleEmail: {
             ru: 'Для восстановления пароля введите ваш email',
@@ -193,7 +193,7 @@ export const cef = {
             en: 'To recover your password, enter your email',
             de: 'Geben Sie Ihre E-Mail ein, um Ihr Passwort wiederherzustellen',
             pl: 'Aby odzyskać hasło, wpisz swój email',
-           zh:'输入邮箱发送重置密码邮件',
+            zh: '输入邮箱发送重置密码邮件',
         },
         buttonEmail: {
             ru: 'Восстановить',
@@ -201,7 +201,7 @@ export const cef = {
             en: 'Recover',
             de: 'Wiederherstellen',
             pl: 'Odzyskaj',
-           zh:'找回',
+            zh: '找回',
         },
         placeholderEmail: {
             ru: 'Введите email',
@@ -209,7 +209,7 @@ export const cef = {
             en: 'Enter email',
             de: 'E-Mail eingeben',
             pl: 'Wpisz email',
-           zh:'输入邮箱',
+            zh: '输入邮箱',
         },
         subtitleCode: {
             ru: 'Введите код отправленый на почту {{email}}',
@@ -217,7 +217,7 @@ export const cef = {
             en: 'Enter the code sent to {{email}}',
             de: 'Geben Sie den an {{email}} gesendeten Code ein',
             pl: 'Wpisz kod wysłany na {{email}}',
-           zh:'输入验证码{{email}}',
+            zh: '输入验证码{{email}}',
         },
         buttonCode: {
             ru: 'Отправить код',
@@ -225,7 +225,7 @@ export const cef = {
             en: 'Send code',
             de: 'Code senden',
             pl: 'Wyślij kod',
-           zh:'发送验证码',
+            zh: '发送验证码',
         },
         placeholderCode: {
             ru: 'Введите код',
@@ -233,7 +233,7 @@ export const cef = {
             en: 'Enter code',
             de: 'Code eingeben',
             pl: 'Wpisz kod',
-           zh:'输入验证码',
+            zh: '输入验证码',
         },
         subtitleNewPassword: {
             ru: 'Введите новый пароль',
@@ -241,7 +241,7 @@ export const cef = {
             en: 'Enter new password',
             de: 'Neues Passwort eingeben',
             pl: 'Wpisz nowe hasło',
-           zh:'输入新的密码',
+            zh: '输入新的密码',
         },
         placeholderNewPassword: {
             ru: 'Введите пароль',
@@ -249,7 +249,7 @@ export const cef = {
             en: 'Enter password',
             de: 'Passwort eingeben',
             pl: 'Wpisz hasło',
-           zh:'输入密码',
+            zh: '输入密码',
         },
         placeholderRepeatPassword: {
             ru: 'Повторите пароль',
@@ -257,7 +257,7 @@ export const cef = {
             en: 'Repeat password',
             de: 'Passwort wiederholen',
             pl: 'Powtórz hasło',
-           zh:'确认密码',
+            zh: '确认密码',
         },
         buttonNewPassword: {
             ru: 'Сменить пароль',
@@ -265,7 +265,7 @@ export const cef = {
             en: 'Change password',
             de: 'Passwort ändern',
             pl: 'Zmień hasło',
-           zh:'修改密码',
+            zh: '修改密码',
         },
     },
 };

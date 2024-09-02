@@ -41,7 +41,7 @@ export default {
         en: 'That was the last package. Earned: ${{money}}',
         de: 'Das war das letzte Paket. Verdient: ${{money}}',
         pl: 'To była ostatnia paczka. Zarobione: ${{money}}',
-       zh:'那是最后一个包裹。完成：${钱}'',
+       zh:'那是最后一个包裹。完成：${钱}',
     },
 
     deliveryPoint: {

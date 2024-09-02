@@ -6,7 +6,7 @@ export default {
             en: 'Bad Deer Skin',
             de: 'Schlechte Hirschhaut',
             pl: 'Zła skóra jelenia',
-            zh:'狐狸皮不好',
+            zh: '狐狸皮不好',
         },
         desc: {
             ru: 'Шкура с многочисленными дефектами',
@@ -14,7 +14,7 @@ export default {
             en: 'Skin with numerous defects',
             de: 'Haut mit zahlreichen Mängeln',
             pl: 'Skóra z licznymi defektami',
-           zh:'多缺陷皮肤',
+            zh: '多缺陷皮肤',
         },
     },
     deer_skin_normal: {
@@ -24,7 +24,7 @@ export default {
             en: 'Normal Deer Skin',
             de: 'Normale Hirschhaut',
             pl: 'Normalna skóra jelenia',
-            zh:'正常鹿皮',
+            zh: '正常鹿皮',
         },
         desc: {
             ru: 'Обычная шкура без особенностей',
@@ -32,7 +32,7 @@ export default {
             en: 'Ordinary skin without special features',
             de: 'Normale Haut ohne Besonderheiten',
             pl: 'Zwykła skóra bez specjalnych cech',
-            zh:'没有特征的正常皮肤',
+            zh: '没有特征的正常皮肤',
         },
     },
     deer_skin_good: {
@@ -42,7 +42,7 @@ export default {
             en: 'Good Deer Skin',
             de: 'Gute Hirschhaut',
             pl: 'Dobra skóra jelenia',
-           zh:'好鹿皮',
+            zh: '好鹿皮',
         },
         desc: {
             ru: 'Шкура хорошего качества',
@@ -50,7 +50,7 @@ export default {
             en: 'High-quality skin',
             de: 'Hochwertige Haut',
             pl: 'Wysokiej jakości skóra',
-            zh:'高品质皮肤',
+            zh: '高品质皮肤',
         },
     },
     deer_skin_legendary: {
@@ -60,7 +60,7 @@ export default {
             en: 'Legendary Deer Skin',
             de: 'Legendäre Hirschhaut',
             pl: 'Legendarna skóra jelenia',
-            zh:'传奇鹿皮',
+            zh: '传奇鹿皮',
         },
         desc: {
             ru: 'Шкура наивысшего качества',
@@ -68,7 +68,7 @@ export default {
             en: 'Top-quality skin',
             de: 'Haut höchster Qualität',
             pl: 'Skóra najwyższej jakości',
-             zh:'高品质',
+            zh: '高品质',
         },
     },
     deer_raw_meet: {
@@ -78,7 +78,7 @@ export default {
             en: 'Raw deer meat',
             de: 'Rohes Hirschfleisch',
             pl: 'Surowe mięso jelenia',
-           zh:'生牛肉',
+            zh: '生牛肉',
         },
         desc: {
             ru: 'Можно продать или же приготовить',
@@ -86,7 +86,7 @@ export default {
             en: 'Can be sold or cooked',
             de: 'Kann verkauft oder gekocht werden',
             pl: 'Można sprzedać lub ugotować',
-          zh:'你可以卖，也可以做饭',
+            zh: '你可以卖，也可以做饭',
         },
     },
     deer_antlers: {
@@ -96,7 +96,7 @@ export default {
             en: 'Deer Antlers',
             de: 'Hirschgeweihe',
             pl: 'Rogi jelenia',
-           zh:'鹿角',
+            zh: '鹿角',
         },
         desc: {
             ru: 'Ценный трофей охотника',
@@ -104,7 +104,7 @@ export default {
             en: "Valuable hunter's trophy",
             de: 'Wertvolle Jagdtrophäe',
             pl: 'Cenny trofeum myśliwego',
-           zh:'珍贵的狩猎战利品',
+            zh: '珍贵的狩猎战利品',
         },
     },
     boar_skin_bad: {
@@ -114,7 +114,7 @@ export default {
             en: 'Bad Boar Skin',
             de: 'Schlechte Wildschweinhaut',
             pl: 'Zła skóra dzika',
-            zh:'野生动物的坏皮肤',
+            zh: '野生动物的坏皮肤',
         },
         desc: {
             ru: 'Шкура с многочисленными дефектами',
@@ -122,7 +122,7 @@ export default {
             en: 'Skin with numerous defects',
             de: 'Haut mit zahlreichen Mängeln',
             pl: 'Skóra z licznymi defektami',
-           zh:'有许多缺陷的皮肤',
+            zh: '有许多缺陷的皮肤',
         },
     },
     boar_skin_normal: {
@@ -132,7 +132,7 @@ export default {
             en: 'Normal Boar Skin',
             de: 'Normale Wildschweinhaut',
             pl: 'Normalna skóra dzika',
-            zh:'正常公猪皮肤',
+            zh: '正常公猪皮肤',
         },
         desc: {
             ru: 'Обычная шкура без особенностей',
@@ -140,7 +140,7 @@ export default {
             en: 'Ordinary skin without special features',
             de: 'Normale Haut ohne Besonderheiten',
             pl: 'Zwykła skóra bez specjalnych cech',
-            zh:'没有特殊特征的普通皮肤',
+            zh: '没有特殊特征的普通皮肤',
         },
     },
     boar_meat: {
@@ -150,7 +150,7 @@ export default {
             en: 'Boar Meat',
             de: 'Wildschweinfleisch',
             pl: 'Mięso z dzika',
-           zh:'野猪肉',
+            zh: '野猪肉',
         },
         desc: {
             ru: 'Можно либо продать либо приготовить',
@@ -158,7 +158,7 @@ export default {
             en: 'Can be sold or cooked',
             de: 'Kann verkauft oder gekocht werden',
             pl: 'Można sprzedać lub ugotować',
-            zh:'你可以卖东西或做饭',
+            zh: '你可以卖东西或做饭',
         },
     },
     coyote_skin_bad: {
@@ -168,7 +168,7 @@ export default {
             en: 'Bad Coyote Skin',
             de: 'Schlechte Kojotenhaut',
             pl: 'Zła skóra kojota',
-            zh:'坏狼皮',
+            zh: '坏狼皮',
         },
         desc: {
             ru: 'Шкура с многочисленными дефектами',
@@ -176,7 +176,7 @@ export default {
             en: 'Skin with numerous defects',
             de: 'Haut mit zahlreichen Mängeln',
             pl: 'Skóra z licznymi defektami',
-           zh:'有许多缺陷的皮肤',
+            zh: '有许多缺陷的皮肤',
         },
     },
     coyote_skin_normal: {
@@ -186,7 +186,7 @@ export default {
             en: 'Normal Coyote Skin',
             de: 'Normale Kojotenhaut',
             pl: 'Normalna skóra kojota',
-           zh:正常的土狼皮',
+            zh: '正常的土狼皮',
         },
         desc: {
             ru: 'Обычная шкура без особенностей',
@@ -194,7 +194,7 @@ export default {
             en: 'Ordinary skin without special features',
             de: 'Normale Haut ohne Besonderheiten',
             pl: 'Zwykła skóra bez specjalnych cech',
-            zh:'没有特征的正常皮肤',
+            zh: '没有特征的正常皮肤',
         },
     },
     coyote_skin_good: {
@@ -204,7 +204,7 @@ export default {
             en: 'Good Coyote Skin',
             de: 'Gute Kojotenhaut',
             pl: 'Dobra skóra kojota',
-            zh:'土狼皮很好',
+            zh: '土狼皮很好',
         },
         desc: {
             ru: 'Шкура хорошего качества',
@@ -212,7 +212,7 @@ export default {
             en: 'High-quality skin',
             de: 'Hochwertige Haut',
             pl: 'Wysokiej jakości skóra',
-            zh:'高品质皮肤',
+            zh: '高品质皮肤',
         },
     },
     animal_tooth: {
@@ -222,7 +222,7 @@ export default {
             en: 'Animal Tooth',
             de: 'Tierzahn',
             pl: 'Ząb zwierzęcia',
-            zh:'动物牙齿',
+            zh: '动物牙齿',
         },
         desc: {
             ru: 'Можно продать скупщику, или же что-то другое???',
@@ -230,7 +230,7 @@ export default {
             en: 'Can be sold to a buyer, or something else???',
             de: 'Kann an einen Käufer verkauft werden, oder etwas anderes???',
             pl: 'Można sprzedać handlarzowi, lub coś innego???',
-            zh:'你能卖商场什么的吗？',
+            zh: '你能卖商场什么的吗？',
         },
     },
     animal_fang: {
@@ -240,7 +240,7 @@ export default {
             en: 'Animal Fang',
             de: 'Tierreißzahn',
             pl: 'Kieł zwierzęcia',
-           zh:'动物语言',
+            zh: '动物语言',
         },
         desc: {
             ru: 'Можно продать скупщику, или же что-то другое???',
@@ -248,7 +248,7 @@ export default {
             en: 'Can be sold to a buyer, or something else???',
             de: 'Kann an einen Käufer verkauft werden, oder etwas anderes???',
             pl: 'Można sprzedać handlarzowi, lub coś innego???',
-            zh:'你能把东西卖给交易员吗？',
+            zh: '你能把东西卖给交易员吗？',
         },
     },
     deer_raw_meat: {
@@ -258,7 +258,7 @@ export default {
             en: 'Deer Raw Meat',
             de: 'Rohes Hirschfleisch',
             pl: 'Surowe mięso jelenia',
-            zh:'生牛肉',
+            zh: '生牛肉',
         },
         desc: {
             ru: 'Можно приготовить или продать',
@@ -266,7 +266,7 @@ export default {
             en: 'Can be cooked or sold',
             de: 'Kann gekocht oder verkauft werden',
             pl: 'Można gotować lub sprzedawać',
-           zh:'可以烹饪或出售',
+            zh: '可以烹饪或出售',
         },
     },
     lion_skin_bad: {
@@ -276,7 +276,7 @@ export default {
             en: 'Bad Lion Skin',
             de: 'Schlechte Löwenhaut',
             pl: 'Zła skóra lwa',
-           zh:'狮子的坏皮肤',
+            zh: '狮子的坏皮肤',
         },
         desc: {
             ru: 'Шкура с многочисленными дефектами и повреждениями',
@@ -284,7 +284,7 @@ export default {
             en: 'Skin with numerous defects and damages',
             de: 'Haut mit zahlreichen Mängeln und Schäden',
             pl: 'Skóra z licznymi defektami i uszkodzeniami',
-           zh:'皮肤有许多缺陷和损伤',
+            zh: '皮肤有许多缺陷和损伤',
         },
     },
     lion_skin_normal: {
@@ -294,7 +294,7 @@ export default {
             en: 'Normal Lion Skin',
             de: 'Normale Löwenhaut',
             pl: 'Normalna skóra lwa',
-           zh:'正常的狮子皮',
+            zh: '正常的狮子皮',
         },
         desc: {
             ru: 'Обычная шкура, пригодная для использования',
@@ -302,7 +302,7 @@ export default {
             en: 'Ordinary skin, suitable for use',
             de: 'Normale Haut, geeignet für den Gebrauch',
             pl: 'Zwykła skóra, nadająca się do użytku',
-            zh:'适合使用的普通皮肤',
+            zh: '适合使用的普通皮肤',
         },
     },
     lion_skin_good: {
@@ -312,7 +312,7 @@ export default {
             en: 'Good Lion Skin',
             de: 'Gute Löwenhaut',
             pl: 'Dobra skóra lwa',
-           zh:'狮子的皮肤很好',
+            zh: '狮子的皮肤很好',
         },
         desc: {
             ru: 'Шкура хорошего качества, без видимых дефектов',
@@ -320,7 +320,7 @@ export default {
             en: 'High-quality skin, without visible defects',
             de: 'Hochwertige Haut, ohne sichtbare Mängel',
             pl: 'Wysokiej jakości skóra, bez widocznych defektów',
-            zh:'高质量的皮肤，没有可见的缺陷',
+            zh: '高质量的皮肤，没有可见的缺陷',
         },
     },
     lion_skin_legendary: {
@@ -330,7 +330,7 @@ export default {
             en: 'Legendary Lion Skin',
             de: 'Legendäre Löwenhaut',
             pl: 'Legendarna skóra lwa',
-           zh:'传说中的狮子皮',
+            zh: '传说中的狮子皮',
         },
         desc: {
             ru: 'Шкура наивысшего качества, редкая и ценная',
@@ -338,7 +338,7 @@ export default {
             en: 'Top-quality skin, rare and valuable',
             de: 'Haut höchster Qualität, selten und wertvoll',
             pl: 'Skóra najwyższej jakości, rzadka i cenna',
-            zh:'优质肌肤，稀有而珍贵',
+            zh: '优质肌肤，稀有而珍贵',
         },
     },
     rabbit_skin_bad: {
@@ -348,7 +348,7 @@ export default {
             en: 'Bad Rabbit Skin',
             de: 'Schlechte Kaninchenhaut',
             pl: 'Zła skóra królika',
-            zh:'兔皮不好',
+            zh: '兔皮不好',
         },
         desc: {
             ru: 'Шкурка с многочисленными дефектами и повреждениями',
@@ -356,7 +356,7 @@ export default {
             en: 'Skin with numerous defects and damages',
             de: 'Haut mit zahlreichen Mängeln und Schäden',
             pl: 'Skóra z licznymi defektami i uszkodzeniami',
-            zh:'皮肤有许多缺陷和损伤',
+            zh: '皮肤有许多缺陷和损伤',
         },
     },
     rabbit_skin_normal: {
@@ -366,7 +366,7 @@ export default {
             en: 'Normal Rabbit Skin',
             de: 'Normale Kaninchenhaut',
             pl: 'Normalna skóra królika',
-           zh:'正常兔皮',
+            zh: '正常兔皮',
         },
         desc: {
             ru: 'Обычная шкурка, пригодная для использования',
@@ -374,7 +374,7 @@ export default {
             en: 'Ordinary skin, suitable for use',
             de: 'Normale Haut, geeignet für den Gebrauch',
             pl: 'Zwykła skóra, nadająca się do użytku',
-           zh:'适合使用的普通皮肤',
+            zh: '适合使用的普通皮肤',
         },
     },
     rabbit_skin_good: {
@@ -384,7 +384,7 @@ export default {
             en: 'Good Rabbit Skin',
             de: 'Gute Kaninchenhaut',
             pl: 'Dobra skóra królika',
-           zh:'兔皮很好',
+            zh: '兔皮很好',
         },
         desc: {
             ru: 'Шкурка хорошего качества, без видимых дефектов',
@@ -392,7 +392,7 @@ export default {
             en: 'High-quality skin, without visible defects',
             de: 'Hochwertige Haut, ohne sichtbare Mängel',
             pl: 'Wysokiej jakości skóra, bez widocznych defektów',
-             zh:'高质量的皮肤，没有可见的缺陷',
+            zh: '高质量的皮肤，没有可见的缺陷',
         },
     },
     rabbit_meat: {
@@ -402,7 +402,7 @@ export default {
             en: 'Rabbit Meat',
             de: 'Kaninchenfleisch',
             pl: 'Mięso z królika',
-           zh:'兔肉',
+            zh: '兔肉',
         },
         desc: {
             ru: 'Можно приготовить или продать',
@@ -410,7 +410,7 @@ export default {
             en: 'Can be cooked or sold',
             de: 'Kann gekocht oder verkauft werden',
             pl: 'Można gotować lub sprzedawać',
-             zh:'你可以做饭或卖东西',
+            zh: '你可以做饭或卖东西',
         },
     },
     rabbit_foot: {
@@ -420,7 +420,7 @@ export default {
             en: 'Rabbit Foot',
             de: 'Kaninchenpfote',
             pl: 'Królicza łapka',
-           zh:'兔子的脚',
+            zh: '兔子的脚',
         },
         desc: {
             ru: 'Символ удачи, можно продать или оставить себе',
@@ -428,7 +428,7 @@ export default {
             en: 'Symbol of luck, can be sold or kept',
             de: 'Symbol des Glücks, kann verkauft oder behalten werden',
             pl: 'Symbol szczęścia, można sprzedać lub zachować',
-            zh:'幸运的象征可以被卖掉或留下',
+            zh: '幸运的象征可以被卖掉或留下',
         },
     },
     //
@@ -439,7 +439,7 @@ export default {
             en: 'Bad panther skin',
             de: 'Schlechte Pantherhaut',
             pl: 'Zła skóra pantery',
-            zh:'黑豹皮肤不好',
+            zh: '黑豹皮肤不好',
         },
         desc: {
             ru: 'Шкура с многочисленными дефектами и повреждениями',
@@ -447,7 +447,7 @@ export default {
             en: 'Skin with numerous defects and damages',
             de: 'Haut mit zahlreichen Mängeln und Beschädigungen',
             pl: 'Skóra z licznymi wadami i uszkodzeniami',
-           zh:'皮肤有许多缺陷和损伤',
+            zh: '皮肤有许多缺陷和损伤',
         },
     },
     panther_skin_normal: {
@@ -457,7 +457,7 @@ export default {
             en: 'Normal panther skin',
             de: 'Normale Pantherhaut',
             pl: 'Normalna skóra pantery',
-           zh:正常的豹皮',
+            zh: '正常的豹皮',
         },
         desc: {
             ru: 'Обычная шкура, пригодная для использования',
@@ -465,7 +465,7 @@ export default {
             en: 'Regular skin, suitable for use',
             de: 'Normale Haut, geeignet für die Verwendung',
             pl: 'Zwykła skóra, nadająca się do użytku',
-            zh:'适合使用的普通皮肤',
+            zh: '适合使用的普通皮肤',
         },
     },
     panther_skin_good: {
@@ -475,7 +475,7 @@ export default {
             en: 'Good panther skin',
             de: 'Gute Pantherhaut',
             pl: 'Dobra skóra pantery',
-            zh:'黑豹皮肤好',
+            zh: '黑豹皮肤好',
         },
         desc: {
             ru: 'Шкура хорошего качества, без видимых дефектов',
@@ -483,7 +483,7 @@ export default {
             en: 'Good quality skin, without visible defects',
             de: 'Haut von guter Qualität, ohne sichtbare Mängel',
             pl: 'Skóra dobrej jakości, bez widocznych wad',
-           zh:'优质皮肤，无可见缺陷”中',
+            zh: '优质皮肤，无可见缺陷”中',
         },
     },
     panther_skin_legendary: {
@@ -493,7 +493,7 @@ export default {
             en: 'Legendary panther skin',
             de: 'Legendäre Pantherhaut',
             pl: 'Legendarna skóra pantery',
-            zh:'传奇豹皮',
+            zh: '传奇豹皮',
         },
         desc: {
             ru: 'Шкура легендарного качества, без видимых дефектов',
@@ -501,7 +501,7 @@ export default {
             en: 'Legendary quality skin, without visible defects',
             de: 'Haut von legendärer Qualität, ohne sichtbare Mängel',
             pl: 'Skóra legendarnej jakości, bez widocznych wad',
-           zh:'具有传奇品质的肌肤，无明显瑕疵',
+            zh: '具有传奇品质的肌肤，无明显瑕疵',
         },
     },
 };

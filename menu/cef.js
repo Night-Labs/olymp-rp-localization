@@ -6,7 +6,7 @@ export const cef = {
             ru: 'Главная',
             de: 'Hauptseite',
             pl: 'Główna',
-            zh:'主要的',
+            zh: '主要的',
         },
         stats: {
             ua: 'Статистика',
@@ -14,7 +14,7 @@ export const cef = {
             ru: 'Статистика',
             de: 'Statistiken',
             pl: 'Statystyki',
-           zh:'统计',
+            zh: '统计',
         },
         inventory: {
             ua: 'Інвентар',
@@ -22,7 +22,7 @@ export const cef = {
             ru: 'Инвентарь',
             de: 'Inventar',
             pl: 'Inwentarz',
-            zh:'库存',
+            zh: '库存',
         },
         donate: {
             ua: 'Магазин',
@@ -30,15 +30,15 @@ export const cef = {
             ru: 'Магазин',
             de: 'Shop',
             pl: 'Sklep',
-           zh:'商店',
+            zh: '商店',
         },
         settings: {
             ua: 'Налаштування',
             en: 'Settings',
             ru: 'Настройки',
             de: 'Einstellungen',
-            pl: 'Ustawienia', 
-            zh:'设置',
+            pl: 'Ustawienia',
+            zh: '设置',
         },
         quests: {
             ua: 'Лінія квестів',
@@ -46,7 +46,7 @@ export const cef = {
             ru: 'Квестовая линия',
             de: 'Quests',
             pl: 'Zadania',
-            zh:'任务',
+            zh: '任务',
         },
         faction: {
             ru: 'Фракция',
@@ -54,7 +54,7 @@ export const cef = {
             en: 'Faction',
             de: 'Fraktion',
             pl: 'Frakcja',
-            zh:'帮派',
+            zh: '帮派',
         },
         crash: {
             ru: 'Краш режим',
@@ -62,7 +62,7 @@ export const cef = {
             ua: 'Режим крашу',
             de: 'Absturzmodus',
             pl: 'Tryb awarii',
-            zh:'碰撞模式',
+            zh: '碰撞模式',
         },
         referral: {
             ru: 'Рефералы',
@@ -70,7 +70,7 @@ export const cef = {
             en: 'Referrals',
             de: 'Empfehlungen',
             pl: 'Polecenia',
-            zh:'引荐',
+            zh: '引荐',
         },
     },
     main: {
@@ -88,7 +88,7 @@ export const cef = {
             ru: 'Наш сервер разрабатывается полностью с нуля. Он находится в активной разработке и будет постоянно развиваться. Мы надеемся на вашу поддержку.',
             de: 'Unser Server wird von Grund auf entwickelt. Er befindet sich in der aktiven Entwicklung und wird kontinuierlich weiterentwickelt. Wir setzen auf Ihre Unterstützung.',
             pl: 'Nasz serwer jest rozwijany od podstaw. Jest w trakcie aktywnego rozwoju i będzie się stale rozwijał. Liczymy na wsparcie.',
-            zh:'我们的服务器是从头开始开发的。它正在积极发展，并将继续发展。我们依靠你的支持',
+            zh: '我们的服务器是从头开始开发的。它正在积极发展，并将继续发展。我们依靠你的支持',
         },
         changes: {
             ua: 'Список змін:',
@@ -96,7 +96,7 @@ export const cef = {
             ru: 'Список изменений:',
             de: 'Liste der Änderungen:',
             pl: 'Lista zmian:',
-            zh:'变更清单:',
+            zh: '变更清单:',
         },
         discord: {
             ua: 'Наш Discord',
@@ -104,7 +104,7 @@ export const cef = {
             ru: 'Наш дискорд',
             de: 'Unser Discord',
             pl: 'Nasz Discord',
-            zh:'我们不和谐',
+            zh: '我们不和谐',
         },
         copied: {
             ua: 'Скопійовано',
@@ -112,7 +112,7 @@ export const cef = {
             ru: 'Скопировано',
             de: 'Kopiert',
             pl: 'Skopiowane',
-           zh:'复制',
+            zh: '复制',
         },
         site: {
             ua: 'Наш сайт',
@@ -120,16 +120,16 @@ export const cef = {
             ru: 'Наш сайт',
             de: 'Unsere Website',
             pl: 'Nasza strona internetowa',
-            zh:'我们网站',
+            zh: '我们网站',
         },
-        
+
         notifyHeader: {
-            ru: "Главная",
-            ua: "Головна",
-            en: "Home",
-            de: "Startseite",
-            pl: "Główna"
-           zh:'主页',
+            ru: 'Главная',
+            ua: 'Головна',
+            en: 'Home',
+            de: 'Startseite',
+            pl: 'Główna',
+            zh: '主页',
         },
         notifyText: {
             ru: 'Если сайт не открылся автоматически попробуйте переключится на браузер вручную',
@@ -137,7 +137,7 @@ export const cef = {
             en: 'If the site did not open automatically, try switching to the browser manually',
             de: 'Wenn die Seite nicht automatisch geöffnet wurde, versuchen Sie, manuell zum Browser zu wechseln',
             pl: 'Jeśli strona nie otworzyła się automatycznie, spróbuj ręcznie przełączyć się na przeglądarkę',
-            zh:'如果网站没有自动打开，请尝试手动切换到浏览器',
+            zh: '如果网站没有自动打开，请尝试手动切换到浏览器',
         },
     },
     stats: {
@@ -147,7 +147,7 @@ export const cef = {
             ru: 'Статистика',
             de: 'Statistiken',
             pl: 'Statystyki',
-            zh:'统计',
+            zh: '统计',
         },
         subtitle: {
             ua: 'Тут описана ваша статистика',
@@ -155,7 +155,7 @@ export const cef = {
             ru: 'Здесь описана ваша статистика',
             de: 'Hier sind deine Statistiken',
             pl: 'Oto twoje statystyki',
-            zh:'这是你的统计数据',
+            zh: '这是你的统计数据',
         },
 
         mainStats: {
@@ -164,7 +164,7 @@ export const cef = {
             ru: 'Общая статистика',
             de: 'Gesamtstatistik',
             pl: 'Statystyki ogólne',
-            zh:'全面统计',
+            zh: '全面统计',
         },
         jobs: {
             ua: 'Рівні робіт',
@@ -172,7 +172,7 @@ export const cef = {
             ru: 'Уровни работ',
             de: 'Job-Levels',
             pl: 'Poziomy pracy',
-            zh:'工作等级',
+            zh: '工作等级',
         },
         property: {
             ua: 'Майно',
@@ -180,7 +180,7 @@ export const cef = {
             ru: 'Имущество',
             de: 'Eigentum',
             pl: 'Nieruchomość',
-            zh:'属性',
+            zh: '属性',
         },
         mainStatsList: {
             gender: {
@@ -189,7 +189,7 @@ export const cef = {
                 ru: 'Пол',
                 de: 'Geschlecht',
                 pl: 'Płeć',
-                zh:'性别',
+                zh: '性别',
             },
             age: {
                 ua: 'Вік',
@@ -197,7 +197,7 @@ export const cef = {
                 ru: 'Возраст',
                 de: 'Alter',
                 pl: 'Wiek',
-                zh:'年龄',
+                zh: '年龄',
             },
             id: {
                 ua: 'ID',
@@ -205,7 +205,7 @@ export const cef = {
                 ru: 'ID',
                 de: 'ID',
                 pl: 'ID',
-                zh:'ID',
+                zh: 'ID',
             },
             cash: {
                 ua: 'Готівка',
@@ -213,7 +213,7 @@ export const cef = {
                 ru: 'Наличные',
                 de: 'Bargeld',
                 pl: 'Gotówka',
-                zh:'现金',
+                zh: '现金',
             },
             lvl: {
                 ua: 'Рівень',
@@ -221,7 +221,7 @@ export const cef = {
                 ru: 'Уровень',
                 de: 'Level',
                 pl: 'Poziom',
-                zh:'等级',
+                zh: '等级',
             },
             bank: {
                 ua: 'У банку',
@@ -229,7 +229,7 @@ export const cef = {
                 ru: 'В банке',
                 de: 'Bank',
                 pl: 'Bank',
-                zh:'银行',
+                zh: '银行',
             },
             exp: {
                 ua: 'EXP',
@@ -237,7 +237,7 @@ export const cef = {
                 ru: 'EXP',
                 de: 'EXP',
                 pl: 'EXP',
-                zh:'经验',
+                zh: '经验',
             },
             warns: {
                 ua: 'Попередження',
@@ -245,7 +245,7 @@ export const cef = {
                 ru: 'Предупреждения',
                 de: 'Verwarnungen',
                 pl: 'Ostrzeżenia',
-                zh:'警告',
+                zh: '警告',
             },
             faction: {
                 ua: 'Організація',
@@ -253,7 +253,7 @@ export const cef = {
                 ru: 'Организация',
                 de: 'Fraktion',
                 pl: 'Frakcja',
-                zh:'帮派',
+                zh: '帮派',
             },
             post: {
                 ua: 'Посада',
@@ -261,7 +261,7 @@ export const cef = {
                 ru: 'Должность',
                 de: 'Position',
                 pl: 'Stanowisko',
-               zh:'位置',
+                zh: '位置',
             },
             additionalAge: {
                 ua: 'років',
@@ -269,7 +269,7 @@ export const cef = {
                 ru: 'лет',
                 de: 'Jahre',
                 pl: 'lat',
-               zh:'年后',
+                zh: '年后',
             },
             additionalPost: {
                 ua: 'Не має',
@@ -277,7 +277,7 @@ export const cef = {
                 ru: 'Не состоит',
                 de: 'Nicht zutreffend',
                 pl: 'Brak',
-                zh:'N/A',
+                zh: 'N/A',
             },
             no: {
                 ua: 'Немає',
@@ -285,7 +285,7 @@ export const cef = {
                 ru: 'Нет',
                 de: 'Nein',
                 pl: 'Nie',
-                zh:'不',
+                zh: '不',
             },
         },
         categories: {
@@ -295,7 +295,7 @@ export const cef = {
                 ru: 'Всё',
                 de: 'Alle',
                 pl: 'Wszystko',
-                zh:'全部',
+                zh: '全部',
             },
             vehicle: {
                 ua: 'Транспорт',
@@ -303,7 +303,7 @@ export const cef = {
                 ru: 'Транспорт',
                 de: 'Fahrzeuge',
                 pl: 'Pojazdy',
-                zh:'车辆',
+                zh: '车辆',
             },
             house: {
                 ua: 'Будинки',
@@ -311,7 +311,7 @@ export const cef = {
                 ru: 'Дома',
                 de: 'Häuser',
                 pl: 'Domki',
-                zh:'房屋',
+                zh: '房屋',
             },
         },
     },
@@ -322,7 +322,7 @@ export const cef = {
             ru: 'Инвентарь',
             de: 'Inventar',
             pl: 'Inwentarz',
-            zh:'库存',
+            zh: '库存',
         },
         unavailable: {
             ua: '(недоступно)',
@@ -330,7 +330,7 @@ export const cef = {
             ru: '(недоступно)',
             de: '(nicht verfügbar)',
             pl: '(niedostępne)',
-            zh:'(不可用)',
+            zh: '(不可用)',
         },
         equipment: {
             ua: 'Ваше спорядження',
@@ -338,7 +338,7 @@ export const cef = {
             ru: 'Ваше снаряжение',
             de: 'Deine Ausrüstung',
             pl: 'Twój sprzęt',
-            zh:'组配',
+            zh: '组配',
         },
         environment: {
             ua: 'Середовище',
@@ -346,7 +346,7 @@ export const cef = {
             ru: 'Окружение',
             de: 'Umgebung',
             pl: 'Otoczenie',
-            zh:'环境',
+            zh: '环境',
         },
         weapons: {
             ua: 'Ваша зброя',
@@ -354,7 +354,7 @@ export const cef = {
             ru: 'Ваше оружие',
             de: 'Deine Waffen',
             pl: 'Twoje bronie',
-            zh:'你的武器',
+            zh: '你的武器',
         },
         weight: {
             ua: 'кг',
@@ -362,7 +362,7 @@ export const cef = {
             ru: 'кг',
             de: 'kg',
             pl: 'kg',
-            zh:'kg',
+            zh: 'kg',
         },
 
         trunk: {
@@ -371,7 +371,7 @@ export const cef = {
             en: 'Trunk',
             de: 'Kofferraum',
             pl: 'Bagażnik',
-            zh:'树干',
+            zh: '树干',
         },
 
         storage: {
@@ -380,7 +380,7 @@ export const cef = {
             en: 'Storage {{faction}}',
             de: 'Lager {{faction}}',
             pl: 'Magazyn {{faction}}',
-            zh:'存储{{faction}}',
+            zh: '存储{{faction}}',
         },
 
         contextMenu: {
@@ -390,7 +390,7 @@ export const cef = {
                 ru: ' кг.',
                 de: ' kg.',
                 pl: ' kg.',
-                zh:'kg',
+                zh: 'kg',
             },
             weight: {
                 ua: 'Вага',
@@ -398,7 +398,7 @@ export const cef = {
                 en: 'Weight',
                 de: 'Gewicht',
                 pl: 'Waga',
-                zh:'重量',
+                zh: '重量',
             },
             totalWeight: {
                 ru: 'Общий вес',
@@ -406,7 +406,7 @@ export const cef = {
                 en: 'Total Weight',
                 de: 'Gesamtgewicht',
                 pl: 'Całkowita waga',
-                zh:'总重量',
+                zh: '总重量',
             },
             quantity: {
                 ru: 'Количество',
@@ -414,7 +414,7 @@ export const cef = {
                 en: 'Quantity',
                 de: 'Menge',
                 pl: 'Ilość',
-               zh:'量',
+                zh: '量',
             },
 
             ammoType: {
@@ -423,7 +423,7 @@ export const cef = {
                 en: 'Ammo Type',
                 de: 'Munitionstyp',
                 pl: 'Typ amunicji',
-                zh:'弹药类型',
+                zh: '弹药类型',
             },
 
             water: {
@@ -433,7 +433,7 @@ export const cef = {
                 de: 'Wasservorrat',
                 pl: 'Zapas wody',
                 ge: 'წყლის მარაგი',
-                zh:'供水',
+                zh: '供水',
             },
 
             bindingText: {
@@ -442,7 +442,7 @@ export const cef = {
                 en: 'Press the button to bind',
                 de: 'Drücken Sie die Taste zum Binden',
                 pl: 'Naciśnij przycisk, aby przypisać',
-                zh:'按下按钮进行绑定',
+                zh: '按下按钮进行绑定',
             },
 
             use: {
@@ -451,7 +451,7 @@ export const cef = {
                 en: 'Use',
                 de: 'Verwenden',
                 pl: 'Użyj',
-               zh:'使用',
+                zh: '使用',
             },
             dontUse: {
                 ru: 'Не использовать',
@@ -459,7 +459,7 @@ export const cef = {
                 en: "Don't Use",
                 de: 'Nicht verwenden',
                 pl: 'Nie używaj',
-                zh:'勿使用',
+                zh: '勿使用',
             },
             bind: {
                 ru: 'Назначить на кнопку',
@@ -467,7 +467,7 @@ export const cef = {
                 en: 'Bind to button',
                 de: 'Auf Taste binden',
                 pl: 'Przypisz do przycisku',
-                zh:'绑定到按钮',
+                zh: '绑定到按钮',
             },
             unbind: {
                 ru: 'Отвязать от кнопки',
@@ -475,15 +475,15 @@ export const cef = {
                 en: 'Unbind from button',
                 de: 'Von der Taste lösen',
                 pl: 'Odpiąć od przycisku',
-                zh:'解除绑定按钮',
+                zh: '解除绑定按钮',
             },
             divide: {
                 ru: 'Разделить',
                 ua: 'Поділити',
                 en: 'Divide',
                 de: 'Teilen',
-                pl: 'Podziel', 
-                zh:'差异',
+                pl: 'Podziel',
+                zh: '差异',
             },
             drop: {
                 ru: 'Выбросить',
@@ -491,7 +491,7 @@ export const cef = {
                 en: 'Drop',
                 de: 'Fallen lassen',
                 pl: 'Upuść',
-                zh:'下降',
+                zh: '下降',
             },
             durability: {
                 ru: 'Прочность',
@@ -499,7 +499,7 @@ export const cef = {
                 en: 'Durability',
                 de: 'Haltbarkeit',
                 pl: 'Wytrzymałość',
-                zh:'持久性',
+                zh: '持久性',
             },
         },
         quantityMenu: {
@@ -510,7 +510,7 @@ export const cef = {
                     en: 'Item Division',
                     de: 'Gegenstandsteilung',
                     pl: 'Podział przedmiotu',
-                    zh:'项目区分',
+                    zh: '项目区分',
                 },
                 accept: {
                     ru: 'Разделить',
@@ -518,7 +518,7 @@ export const cef = {
                     en: 'Divide',
                     de: 'Teilen',
                     pl: 'Podziel',
-                    zh:'分开',
+                    zh: '分开',
                 },
             },
             drop: {
@@ -528,7 +528,7 @@ export const cef = {
                     en: 'Drop Item',
                     de: 'Gegenstand fallen lassen',
                     pl: 'Upuść przedmiot',
-                    zh:'扔掉物品',
+                    zh: '扔掉物品',
                 },
                 accept: {
                     ru: 'Выбросить',
@@ -536,7 +536,7 @@ export const cef = {
                     en: 'Drop',
                     de: 'Fallen lassen',
                     pl: 'Upuść',
-                    zh:'下降',
+                    zh: '下降',
                 },
             },
             pickUpDrop: {
@@ -546,7 +546,7 @@ export const cef = {
                     en: 'Pick Up Item',
                     de: 'Gegenstand aufheben',
                     pl: 'Podnieś przedmiot',
-                    zh:'从地面上取物',
+                    zh: '从地面上取物',
                 },
                 accept: {
                     ru: 'Подобрать',
@@ -554,7 +554,7 @@ export const cef = {
                     en: 'Pick Up',
                     de: 'Aufheben',
                     pl: 'Podnieś',
-                    zh:'拾起',
+                    zh: '拾起',
                 },
             },
             quantity: {
@@ -563,7 +563,7 @@ export const cef = {
                 en: 'Quantity:',
                 de: 'Menge:',
                 pl: 'Ilość:',
-                zh:'数量:',
+                zh: '数量:',
             },
             pcs: {
                 ru: 'шт.',
@@ -571,7 +571,7 @@ export const cef = {
                 en: 'pcs',
                 de: 'Stk.',
                 pl: 'szt.',
-                zh:'件数',
+                zh: '件数',
             },
             close: {
                 ru: 'Отмена',
@@ -579,7 +579,7 @@ export const cef = {
                 en: 'Cancel',
                 de: 'Abbrechen',
                 pl: 'Anuluj',
-                zh:'取消 ',
+                zh: '取消 ',
             },
             all: {
                 ru: 'ВСЁ',
@@ -587,7 +587,7 @@ export const cef = {
                 en: 'All',
                 de: 'Alles',
                 pl: 'Wszystko',
-                zh:'全部',
+                zh: '全部',
             },
         },
         slot: {
@@ -597,7 +597,7 @@ export const cef = {
                 en: 'pcs',
                 de: 'Stk.',
                 pl: 'szt.',
-                zh:'件数',
+                zh: '件数',
             },
             weight: {
                 ua: 'кг',
@@ -605,7 +605,7 @@ export const cef = {
                 ru: 'кг',
                 de: 'kg',
                 pl: 'kg',
-                zh:'kg',
+                zh: 'kg',
             },
         },
     },
@@ -616,7 +616,7 @@ export const cef = {
             ru: 'Настройки',
             de: 'Einstellungen',
             pl: 'Ustawienia',
-            zh:'设置',
+            zh: '设置',
         },
         chooseLanguage: {
             ua: 'Оберіть мову',
@@ -624,7 +624,7 @@ export const cef = {
             ru: 'Выберите язык',
             de: 'Wählen Sie eine Sprache',
             pl: 'Wybierz język',
-            zh:'选择语言',
+            zh: '选择语言',
         },
     },
 };

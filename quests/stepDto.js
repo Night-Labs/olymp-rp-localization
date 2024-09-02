@@ -5,7 +5,7 @@ export const stepDto = {
         en: 'Talk to {{name}}',
         de: 'Sprechen Sie mit {{name}}',
         pl: 'Porozmawiaj z {{name}}',
-        zh:'与{{name}}对话',
+        zh: '与{{name}}对话',
     },
     rentVehicle: {
         en: 'Rent any vehicle',
@@ -13,7 +13,7 @@ export const stepDto = {
         ua: 'Орендуйте будь-який транспортний засіб',
         de: 'Mieten Sie ein beliebiges Fahrzeug',
         pl: 'Wypożycz dowolny pojazd',
-        zh:'租用任何车辆',
+        zh: '租用任何车辆',
     },
 
     collectApples: {
@@ -22,7 +22,7 @@ export const stepDto = {
         ru: 'Соберите {{count}} корзин яблок на ферме',
         de: 'Sammle {{count}} Körbe Äpfel auf der Farm',
         pl: 'Zbierz {{count}} koszy jabłek na farmie',
-        zh:'在农场收集{{count}}篮子的苹果',
+        zh: '在农场收集{{count}}篮子的苹果',
     },
 
     deliveryPizza: {
@@ -31,7 +31,7 @@ export const stepDto = {
         en: 'Deliver {{count}} pizzas',
         de: 'Liefern Sie {{count}} Pizzas',
         pl: 'Dostarcz {{count}} pizz',
-       zh:'送{{count}}披萨',
+        zh: '送{{count}}披萨',
     },
 
     goToPosition: {
@@ -40,7 +40,7 @@ export const stepDto = {
         en: 'Reach the waypoint',
         de: 'Erreichen Sie den Wegpunkt',
         pl: 'Dotrzyj do punktu',
-        zh:'到达航路点',
+        zh: '到达航路点',
     },
 
     boughtVehicle: {
@@ -49,7 +49,7 @@ export const stepDto = {
         ua: 'Купіть будь-який транспорт',
         de: 'Kaufen Sie ein beliebiges Fahrzeug',
         pl: 'Kup dowolny pojazd',
-        zh:'购买任何车辆',
+        zh: '购买任何车辆',
     },
 
     buyVehicleMinumumAmount: {
@@ -58,7 +58,7 @@ export const stepDto = {
         en: 'Purchase a vehicle for at least {{cash}}',
         de: 'Kaufen Sie ein Fahrzeug für mindestens {{cash}}',
         pl: 'Kup pojazd za co najmniej {{cash}}',
-        zh:'至少用{{cash}}购买一辆车',
+        zh: '至少用{{cash}}购买一辆车',
     },
 
     waitTime: {
@@ -67,7 +67,7 @@ export const stepDto = {
         en: 'Wait {{time}} minutes',
         de: 'Warten Sie {{time}} Minuten',
         pl: 'Poczekaj {{time}} minut(y)',
-       zh:'等待{{time}}分钟',
+        zh: '等待{{time}}分钟',
     },
 
     createBankAccount: {
@@ -76,7 +76,7 @@ export const stepDto = {
         ua: 'Створіть банківський рахунок',
         de: 'Erstellen Sie ein Bankkonto',
         pl: 'Utwórz konto bankowe',
-        zh:'创建一个银行账户',
+        zh: '创建一个银行账户',
     },
 
     depositCash: {
@@ -85,7 +85,7 @@ export const stepDto = {
         ua: 'Внесіть гроші на <br/> банківський рахунок',
         de: 'Zahlen Sie Geld auf das <br/> Bankkonto ein',
         pl: 'Wpłać pieniądze na konto <br/> bankowe',
-        zh:'把钱存入<br/>银行账户',
+        zh: '把钱存入<br/>银行账户',
     },
     withdrawCash: {
         ru: 'Снимите деньги с <br/> банковского счета',
@@ -93,7 +93,7 @@ export const stepDto = {
         ua: 'Зніміть гроші з <br/> банківського рахунку',
         de: 'Heben Sie Geld vom <br/> Bankkonto ab',
         pl: 'Wypłać pieniądze z konta<br/>  bankowego',
-       zh:'从银行账户<br/>中取钱',
+        zh: '从银行账户<br/>中取钱',
     },
     //
     openPhone: {
@@ -102,7 +102,7 @@ export const stepDto = {
         ua: 'Відкрийте телефон',
         de: 'Öffnen Sie das Telefon',
         pl: 'Otwórz telefon',
-        zh:'打开手机',
+        zh: '打开手机',
     },
 
     openMenu: {
@@ -111,7 +111,7 @@ export const stepDto = {
         en: 'Open the menu',
         de: 'Öffnen Sie das Menü',
         pl: 'Otwórz menu',
-        zh:'打开菜单',
+        zh: '打开菜单',
     },
     // PERSONAL VEHICLE
     personalVehicleBlip: {
@@ -120,7 +120,7 @@ export const stepDto = {
         ua: 'Відзначте автомобіль на карті',
         de: 'Markiere das Auto auf der Karte',
         pl: 'Oznacz samochód na mapie',
-        zh:'在地图上标出这辆车',
+        zh: '在地图上标出这辆车',
     },
 
     lockPersonalVehicle: {
@@ -129,7 +129,7 @@ export const stepDto = {
         ua: 'Закрийте автомобіль',
         de: 'Schließen Sie das Auto ab',
         pl: 'Zamknij samochód',
-        zh:'锁好车',
+        zh: '锁好车',
     },
     unlockPersonalVehicle: {
         ru: 'Откройте машину',
@@ -137,7 +137,7 @@ export const stepDto = {
         ua: 'Відкрийте автомобіль',
         de: 'Entriegeln Sie das Auto',
         pl: 'Odblokuj samochód',
-        zh:'解锁汽车'
+        zh: '解锁汽车',
     },
 
     //
@@ -147,7 +147,7 @@ export const stepDto = {
         en: 'Buy clothes worth ${{goal}}',
         de: 'Kaufen Sie Kleidung im Wert von ${{goal}}',
         pl: 'Kup ubrania za ${{goal}}',
-        zh:'购买价值${{goal}}的衣服',
+        zh: '购买价值${{goal}}的衣服',
     },
 
     buyWeaponsWorth: {
@@ -156,7 +156,7 @@ export const stepDto = {
         en: 'Buy weapons worth ${{goal}}',
         de: 'Kaufen Sie Waffen im Wert von ${{goal}}',
         pl: 'Kup broń za ${{goal}}',
-        zh:'购买价值${{goal}}的武器',
+        zh: '购买价值${{goal}}的武器',
     },
 
     buyProductsWorth: {
@@ -165,7 +165,7 @@ export const stepDto = {
         en: 'Buy products worth ${{goal}}',
         de: 'Kaufen Sie Produkte im Wert von ${{goal}}',
         pl: 'Kup produkty za ${{goal}}',
-        zh:'购买价值${{goal}}的产品',
+        zh: '购买价值${{goal}}的产品',
     },
 
     buyGunsWorth: {
@@ -174,7 +174,7 @@ export const stepDto = {
         en: 'Buy guns worth ${{goal}}',
         de: 'Kaufen Sie Waffen im Wert von ${{goal}}',
         pl: 'Kup broń za ${{goal}}',
-        zh:'购买价值${{goal}}的枪支',
+        zh: '购买价值${{goal}}的枪支',
     },
 
     // УСТРОЙСТВА НА РАБОТЫ ЕБАНЫЕ БЛЯДЬ
@@ -185,7 +185,7 @@ export const stepDto = {
         en: 'Get a job as a food delivery person',
         de: 'Bewerben Sie sich als Lebensmittellieferant',
         pl: 'Znajdź pracę jako dostawca jedzenia',
-        zh:'找一份送餐员的工作',
+        zh: '找一份送餐员的工作',
     },
 
     deployTrucker: {
@@ -194,7 +194,7 @@ export const stepDto = {
         en: 'Get a job as a trucker',
         de: 'Arbeiten Sie als LKW-Fahrer',
         pl: 'Zostań kierowcą ciężarówki',
-        zh:'找一份卡车司机的工作',
+        zh: '找一份卡车司机的工作',
     },
     deployTrucker2: {
         ru: 'Устройтесь на работу дальнобойщика',
@@ -202,7 +202,7 @@ export const stepDto = {
         en: 'Get a job as a long-haul trucker',
         de: 'Arbeiten Sie als Fernfahrer',
         pl: 'Zostań kierowcą ciężarówki dalekobieżnej',
-        zh:'找一份长途卡车司机的工作',
+        zh: '找一份长途卡车司机的工作',
     },
 
     // INVENTORY
@@ -212,7 +212,7 @@ export const stepDto = {
         en: 'Use any item',
         de: 'Verwenden Sie einen beliebigen Gegenstand',
         pl: 'Użyj dowolnego przedmiotu',
-        zh:'万能巧手',
+        zh: '万能巧手',
     },
 
     eatBurger: {
@@ -221,8 +221,7 @@ export const stepDto = {
         en: 'Eat a burger',
         de: 'Essen Sie einen Burger',
         pl: 'Zjedz burgera',
-        zh:'吃一个汉堡
-',
+        zh: '吃一个汉堡',
     },
 
     //
@@ -232,7 +231,7 @@ export const stepDto = {
         en: 'Reach the third level',
         de: 'Erreichen Sie das dritte Level',
         pl: 'Osiągnij trzeci poziom',
-        zh:'到达第三层',
+        zh: '到达第三层',
     },
 
     //
@@ -242,7 +241,7 @@ export const stepDto = {
         en: 'Earn ${{count}} as a trucker',
         de: 'Verdienen Sie ${{count}} als LKW-Fahrer',
         pl: 'Zarób ${{count}} jako kierowca ciężarówki',
-        zh:'作为卡车司机赚取${{count}}',
+        zh: '作为卡车司机赚取${{count}}',
     },
     earnMoneyWorkingInTrucker2: {
         ru: 'Заработайте ${{count}} дальнобойщиком',
@@ -250,7 +249,7 @@ export const stepDto = {
         en: 'Earn ${{count}} as a long-haul trucker',
         de: 'Verdienen Sie ${{count}} als Fernfahrer',
         pl: 'Zarób ${{count}} jako kierowca długodystansowy',
-        zh:'赚取${{count}}作为长途卡车司机',
+        zh: '赚取${{count}}作为长途卡车司机',
     },
 
     earnMoneyWorkingBusman: {
@@ -259,7 +258,7 @@ export const stepDto = {
         en: 'Earn ${{count}} working as a busman',
         de: 'Verdienen Sie ${{count}} als Busfahrer',
         pl: 'Zarób ${{count}} jako kierowca autobusu',
-        zh:'当司机赚${{count}',
+        zh: '当司机赚${{count}',
     },
 
     meetPlayers: {
@@ -268,7 +267,7 @@ export const stepDto = {
         en: 'Meet {{greetCount}} players',
         de: 'Treffen Sie {{greetCount}} Spieler',
         pl: 'Poznaj {{greetCount}} graczy',
-        zh:'与{{greetCount}}玩家见面',
+        zh: '与{{greetCount}}玩家见面',
     },
 
     playSlotsForChips: {
@@ -277,7 +276,7 @@ export const stepDto = {
         en: 'Play slots for {{chipsGoal}} chips',
         de: 'Spielen Sie Slots für {{chipsGoal}} Chips',
         pl: 'Zagraj w automaty na {{chipsGoal}} żetonów',
-        zh:'为{{chipsGoal}}筹码玩插槽',
+        zh: '为{{chipsGoal}}筹码玩插槽',
     },
 
     // interactions
@@ -287,7 +286,7 @@ export const stepDto = {
         ua: 'Передайте ${{amount}} {{transfersCount}} гравцям',
         de: 'Übergeben Sie ${{amount}} an {{transfersCount}} Spieler',
         pl: 'Przekaż ${{amount}} do {{transfersCount}} graczy',
-        zh:'将${{amount}}交给{{transfersCount}}玩家',
+        zh: '将${{amount}}交给{{transfersCount}}玩家',
     },
 
     openInteractionOnPlayer: {
@@ -296,7 +295,7 @@ export const stepDto = {
         en: 'Find a player and open the interaction menu on them',
         de: 'Finden Sie einen Spieler und öffnen Sie das Interaktionsmenü darauf',
         pl: 'Znajdź gracza i otwórz na nim menu interakcji',
-        zh:'找到一个玩家并打开他们的互动菜单', 
+        zh: '找到一个玩家并打开他们的互动菜单',
     },
 
     //
@@ -306,7 +305,7 @@ export const stepDto = {
         en: 'Tune your car for at least ${{tuningAmountGoal}}',
         de: 'Tunen Sie Ihr Auto für mindestens ${{tuningAmountGoal}}',
         pl: 'Wtuninguje swój samochód za co najmniej ${{tuningAmountGoal}}',
-        zh:'为至少${{tuningAmountGoal}}调整您的汽车',
+        zh: '为至少${{tuningAmountGoal}}调整您的汽车',
     },
 
     buyChipsForMoney: {
@@ -315,7 +314,7 @@ export const stepDto = {
         en: 'Purchase chips for ${{moneyGoal}}',
         de: 'Kaufen Sie Chips für ${{moneyGoal}}',
         pl: 'Kup żetony za ${{moneyGoal}}',
-        zh:'${{moneyGoal}}购买筹码',
+        zh: '${{moneyGoal}}购买筹码',
     },
     buyChips: {
         ru: 'Купите {{chipsGoal}} фишек',
@@ -323,7 +322,7 @@ export const stepDto = {
         en: 'Purchase {{chipsGoal}} chips',
         de: 'Kaufen Sie {{chipsGoal}} Chips',
         pl: 'Kup {{chipsGoal}} żetonów',
-        zh:'购买{{chipsGoal}}筹码',
+        zh: '购买{{chipsGoal}}筹码',
     },
     playRouletteForChips: {
         ru: 'Сыграйте рулетку суммой минимум {{chipsGoal}} фишек',
@@ -331,7 +330,7 @@ export const stepDto = {
         en: 'Play roulette with a minimum of {{chipsGoal}} chips',
         de: 'Spielen Sie Roulette mit mindestens {{chipsGoal}} Chips',
         pl: 'Zagraj w ruletkę za co najmniej {{chipsGoal}} żetonów',
-        zh:'玩轮盘赌最少{{chipsGoal}}筹码',
+        zh: '玩轮盘赌最少{{chipsGoal}}筹码',
     },
     spinLuckyWheel: {
         ru: 'Покрутите колесо удачи',
@@ -339,7 +338,7 @@ export const stepDto = {
         en: 'Spin the lucky wheel',
         de: 'Drehen Sie das Glücksrad',
         pl: 'Kręć kołem fortuny',
-        zh:'转动幸运轮',
+        zh: '转动幸运轮',
     },
 
     //
@@ -349,7 +348,7 @@ export const stepDto = {
         en: 'Buy something in the gun store',
         de: 'Kaufen Sie etwas im Waffenladen',
         pl: 'Kup coś w sklepie z bronią',
-        zh:'在武装国度买些东西',
+        zh: '在武装国度买些东西',
     },
 
     //
@@ -359,7 +358,7 @@ export const stepDto = {
         en: 'Add {{animationsCount}} animations to quick access',
         de: 'Fügen Sie {{animationsCount}} Animationen zum Schnellzugriff hinzu',
         pl: 'Dodaj {{animationsCount}} animacji do szybkiego dostępu',
-         zh:'添加{{animationsCount}}动画来快速访问',
+        zh: '添加{{animationsCount}}动画来快速访问',
     },
 
     addAnimationsToFavorite: {
@@ -368,7 +367,7 @@ export const stepDto = {
         en: 'Add {{animationsCount}} animations to favorites',
         de: 'Fügen Sie {{animationsCount}} Animationen zu den Favoriten hinzu',
         pl: 'Dodaj {{animationsCount}} animacji do ulubionych',
-        zh:'将{{animationsCount}}动画添加到收藏夹',
+        zh: '将{{animationsCount}}动画添加到收藏夹',
     },
 
     playAnimation: {
@@ -377,7 +376,7 @@ export const stepDto = {
         en: 'Play {{count}} animations',
         de: 'Spielen Sie {{count}} Animationen',
         pl: 'Zagraj {{count}} animacji',
-        zh:'播放{{count}}动画',
+        zh: '播放{{count}}动画',
     },
 
     //
@@ -387,7 +386,7 @@ export const stepDto = {
         en: 'Sell any of your vehicles',
         de: 'Verkaufe jedes deiner Fahrzeuge',
         pl: 'Sprzedaj dowolny z twoich pojazdów',
-        zh:'卖掉你的任何一辆车',
+        zh: '卖掉你的任何一辆车',
     },
 
     // house
@@ -397,7 +396,7 @@ export const stepDto = {
         en: 'Buy a house',
         de: 'Kaufe ein Haus',
         pl: 'Kup dom',
-        zh:'买一所房子', 
+        zh: '买一所房子',
     },
     enterHouse: {
         ru: 'Войдите в дом',
@@ -405,7 +404,7 @@ export const stepDto = {
         en: 'Enter the house',
         de: 'Betrete das Haus',
         pl: 'Wejdź do domu',
-        zh:'进入房屋',
+        zh: '进入房屋',
     },
     exitHouse: {
         ru: 'Выйдите из дома',
@@ -413,7 +412,7 @@ export const stepDto = {
         en: 'Exit the house',
         de: 'Verlassen das haus',
         pl: 'Wyjść z domu',
-        zh:'离开房屋',
+        zh: '离开房屋',
     },
     sellHouse: {
         ru: 'Продайте дом',
@@ -421,7 +420,7 @@ export const stepDto = {
         en: 'Sell the house',
         de: 'Verkaufe das Haus',
         pl: 'Sprzedaj dom',
-        zh:'卖掉房子',
+        zh: '卖掉房子',
     },
     lockHouse: {
         ru: 'Закройте дом на замок',
@@ -429,7 +428,7 @@ export const stepDto = {
         en: 'Lock the house',
         de: 'Schließe das Haus ab',
         pl: 'Zamknij dom na klucz',
-        zh:'用锁把房子锁起来',
+        zh: '用锁把房子锁起来',
     },
     unlockHouse: {
         ru: 'Откройте дом',
@@ -437,7 +436,7 @@ export const stepDto = {
         en: 'Unlock the house',
         de: 'Öffne das Haus',
         pl: 'Otwórz dom',
-        zh:'打开房子',
+        zh: '打开房子',
     },
     enterGarage: {
         ru: 'Заедьте в гараж на машине',
@@ -445,7 +444,7 @@ export const stepDto = {
         en: 'Enter the garage with the car',
         de: 'Fahren Sie mit dem Auto in die Garage',
         pl: 'Wjedź do garażu samochodem',
-        zh:'带着车进入车库',
+        zh: '带着车进入车库',
     },
     exitGarage: {
         ru: 'Выедьте из гаража на машине',
@@ -453,7 +452,7 @@ export const stepDto = {
         en: 'Exit the garage with the car',
         de: 'Fahren Sie mit dem Auto aus der Garage',
         pl: 'Wyjedź z garażu samochodem',
-        zh:'带着车离开车库',
+        zh: '带着车离开车库',
     },
 
     //
@@ -463,7 +462,7 @@ export const stepDto = {
         en: 'Earn ${{moneyGoal}} by any means',
         de: 'Verdienen Sie ${{moneyGoal}} auf beliebige Weise',
         pl: 'Zarób ${{moneyGoal}} dowolnym sposobem',
-        zh:'以任何方式赚取${{moneyGoal}}', 
+        zh: '以任何方式赚取${{moneyGoal}}',
     },
 
     //
@@ -473,7 +472,7 @@ export const stepDto = {
         en: 'Complete the shooting range challenge',
         de: 'Bestehen Sie die Herausforderung auf dem Schießstand',
         pl: 'Przejdź wyzwanie na strzelnicy',
-        zh;'完成射击场挑战'.
+        zh: '完成射击场挑战',
     },
 
     //
@@ -483,7 +482,7 @@ export const stepDto = {
         en: 'Get a ID card',
         de: 'Holen Sie sich ein Passport',
         pl: 'Otrzymaj paszport',
-        zh:'办身份证',
+        zh: '办身份证',
     },
 
     //
@@ -493,7 +492,7 @@ export const stepDto = {
         en: 'Buy anything in the casino bar',
         de: 'Kaufen Sie etwas in der Casino-Bar',
         pl: 'Kup coś w barze kasyna',
-        zh:'在赌场酒吧买任何东西',
+        zh: '在赌场酒吧买任何东西',
     },
     drinkVodka: {
         ru: 'Выпейте {{goal}} бутылок водки',
@@ -501,7 +500,7 @@ export const stepDto = {
         en: 'Drink {{goal}} bottles of vodka',
         de: 'Trinken Sie {{goal}} Flaschen Wodka',
         pl: 'Wypij {{goal}} butelek wódki',
-        zh:'喝{{goal}}瓶伏特加',
+        zh: '喝{{goal}}瓶伏特加',
     },
 
     //
@@ -511,7 +510,7 @@ export const stepDto = {
         en: 'Catch {{amount}} any fish',
         de: 'Fangen Sie {{amount}} beliebige Fische',
         pl: 'Złap {{amount}} dowolnych ryb',
-        zh:'Catch {{amount}} any fish',
+        zh: 'Catch {{amount}} any fish',
     },
     catchSpecificFish: {
         ru: 'Словите рыбу "{{fish}}" {{fishNeeded}} раз',
@@ -519,7 +518,7 @@ export const stepDto = {
         en: 'Catch the fish "{{fish}}" {{fishNeeded}} times',
         de: 'Fangen Sie den Fisch "{{fish}}" {{fishNeeded}} mal',
         pl: 'Złap rybę "{{fish}}" {{fishNeeded}} razy',
-        zh:'抓鱼'{{fish}}'{{fishNeeded}}次',
+        zh: `抓鱼'{{fish}}'{{fishNeeded}}次`,
     },
 
     //
@@ -529,6 +528,6 @@ export const stepDto = {
         en: 'Hunt {{amount}} any animals',
         de: 'Jagen Sie {{amount}} beliebige Tiere',
         pl: 'Upoluj {{amount}} dowolnych zwierząt',
-        zh:'猎杀{{amount}}任何动物',
+        zh: '猎杀{{amount}}任何动物',
     },
 };

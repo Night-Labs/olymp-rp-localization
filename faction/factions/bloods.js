@@ -5,7 +5,7 @@ export default {
         en: 'Blood Street Gang',
         de: 'Blood Street Gang',
         pl: 'Blood Street Gang',
-        zh:'血帮'.
+        zh:'血帮'
     },
     ranks: {
         settler: {

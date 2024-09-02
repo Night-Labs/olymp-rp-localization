@@ -6,8 +6,7 @@ export const fish = {
             en: 'Common Roach',
             de: 'Plötze',
             pl: 'Płoć',
-           zh:'普通蟑螂',
-            
+            zh: '普通蟑螂',
         },
     },
     crucianCarp: {
@@ -17,7 +16,7 @@ export const fish = {
             en: 'Crucian Carp',
             de: 'Karausche',
             pl: 'Karaś',
-           zh:'鲫鱼',
+            zh: '鲫鱼',
         },
     },
     riverPerch: {
@@ -27,7 +26,7 @@ export const fish = {
             en: 'River Perch',
             de: 'Flussbarsch',
             pl: 'Okoń rzeczny',
-           zh:'江海',
+            zh: '江海',
         },
     },
     bream: {
@@ -37,7 +36,7 @@ export const fish = {
             en: 'Bream',
             de: 'Brachse',
             pl: 'Leszcz',
-           zh:'简单',
+            zh: '简单',
         },
     },
     carp: {
@@ -47,7 +46,7 @@ export const fish = {
             en: 'Carp',
             de: 'Karpfen',
             pl: 'Karp',
-            zh:'卡普',
+            zh: '卡普',
         },
     },
     cod: {
@@ -57,7 +56,7 @@ export const fish = {
             en: 'Cod',
             de: 'Kabeljau',
             pl: 'Dorsz',
-            zh:'科德',
+            zh: '科德',
         },
     },
     pikePerch: {
@@ -67,7 +66,7 @@ export const fish = {
             en: 'Pike-Perch',
             de: 'Zander',
             pl: 'Sandacz',
-           zh:'法官',
+            zh: '法官',
         },
     },
     trout: {
@@ -77,7 +76,7 @@ export const fish = {
             en: 'Trout',
             de: 'Forelle',
             pl: 'Pstrąg',
-           zh:'鳟鱼',
+            zh: '鳟鱼',
         },
     },
     pike: {
@@ -87,7 +86,7 @@ export const fish = {
             en: 'Pike',
             de: 'Hecht',
             pl: 'Szczupak',
-             zh:'吸',
+            zh: '吸',
         },
     },
     salmon: {
@@ -97,7 +96,7 @@ export const fish = {
             en: 'Salmon',
             de: 'Lachs',
             pl: 'Łosoś',
-            zh:'洛杉矶',
+            zh: '洛杉矶',
         },
     },
     seaBass: {
@@ -107,7 +106,7 @@ export const fish = {
             en: 'Sea Bass',
             de: 'Seebarsch',
             pl: 'Okoń morski',
-            zh:'海鲈鱼',
+            zh: '海鲈鱼',
         },
     },
     mackerel: {
@@ -117,7 +116,7 @@ export const fish = {
             en: 'Mackerel',
             de: 'Makrele',
             pl: 'Makrela',
-            zh:'鲭鱼',
+            zh: '鲭鱼',
         },
     },
     blackHake: {
@@ -127,7 +126,7 @@ export const fish = {
             en: 'Black Hake',
             de: 'Schwarzer Seehecht',
             pl: 'Czarny morszczuk',
-           zh:'黑鲨',
+            zh: '黑鲨',
         },
     },
     kingMackerel: {
@@ -137,7 +136,7 @@ export const fish = {
             en: 'King Mackerel',
             de: 'Königsmakrele',
             pl: 'Królewska makrela',
-            zh:'金鲭鱼',
+            zh: '金鲭鱼',
         },
     },
     minnow: {
@@ -147,7 +146,7 @@ export const fish = {
             en: 'Minnow',
             de: 'Elritze',
             pl: 'Kiełb',
-           zh:'小鱼',
+            zh: '小鱼',
         },
     },
     dace: {
@@ -157,7 +156,7 @@ export const fish = {
             en: 'Dace',
             de: 'Hasel',
             pl: 'Jelec',
-            zh:'鸡肉,
+            zh: '鸡肉',
         },
     },
     bleak: {
@@ -167,7 +166,7 @@ export const fish = {
             en: 'Bleak',
             de: 'Laube',
             pl: 'Boleń',
-           zh:'黑暗',
+            zh: '黑暗',
         },
     },
     roach: {
@@ -177,8 +176,7 @@ export const fish = {
             en: 'Roach',
             de: 'Rotauge',
             pl: 'Jelec',
-            zh:'红色',
-            
+            zh: '红色',
         },
     },
     ide: {
@@ -188,7 +186,7 @@ export const fish = {
             en: 'Ide',
             de: 'Aland',
             pl: 'Jaź',
-           zh:'吃',
+            zh: '吃',
         },
     },
     tench: {
@@ -198,7 +196,7 @@ export const fish = {
             en: 'Tench',
             de: 'Schleie',
             pl: 'Lin',
-            zh:'林',
+            zh: '林',
         },
     },
     silverBream: {
@@ -208,7 +206,7 @@ export const fish = {
             en: 'Silver Bream',
             de: 'Güstern',
             pl: 'Karaś srebrzysty',
-            zh:'古斯特',
+            zh: '古斯特',
         },
     },
     flounder: {
@@ -218,7 +216,7 @@ export const fish = {
             en: 'Flounder',
             de: 'Scholle',
             pl: 'Flądra',
-           zh:'比目鱼',
+            zh: '比目鱼',
         },
     },
     herring: {
@@ -228,7 +226,7 @@ export const fish = {
             en: 'Herring',
             de: 'Hering',
             pl: 'Śledź',
-           zh:'鲱鱼',
+            zh: '鲱鱼',
         },
     },
     nilePerch: {
@@ -238,7 +236,7 @@ export const fish = {
             en: 'Nile Perch',
             de: 'Nilbarsch',
             pl: 'Okoń nilowy',
-            zh:'尼罗河鲈鱼',
+            zh: '尼罗河鲈鱼',
         },
     },
     yellowfinTuna: {
@@ -248,7 +246,7 @@ export const fish = {
             en: 'Yellowfin Tuna',
             de: 'Gelbflossen-Thunfisch',
             pl: 'Tuz tunżółtopłetwy',
-           zh:'黄鳍金枪鱼',
+            zh: '黄鳍金枪鱼',
         },
     },
     barracuda: {
@@ -258,7 +256,7 @@ export const fish = {
             en: 'Barracuda',
             de: 'Barrakuda',
             pl: 'Barakuda',
-            zh:'梭子鱼',
+            zh: '梭子鱼',
         },
     },
     ray: {
@@ -268,7 +266,7 @@ export const fish = {
             en: 'Ray',
             de: 'Rochen',
             pl: 'Płaszczka',
-           zh:'斯科特',
+            zh: '斯科特',
         },
     },
     sierra: {
@@ -278,7 +276,7 @@ export const fish = {
             en: 'Sierra',
             de: 'Sierra',
             pl: 'Sierra',
-            zh:'塞拉',
+            zh: '塞拉',
         },
     },
     greaterAmberjack: {
@@ -288,7 +286,7 @@ export const fish = {
             en: 'Greater Amberjack',
             de: 'Großer Bernsteinfisch',
             pl: 'Duży bursztyn',
-            zh:'大琥珀',
+            zh: '大琥珀',
         },
     },
     blueMarlin: {
@@ -298,7 +296,7 @@ export const fish = {
             en: 'Blue Marlin',
             de: 'Blauer Marlin',
             pl: 'Błękitny marlin',
-           zh:'蓝色马林鱼',
+            zh: '蓝色马林鱼',
         },
     },
     bluefinTuna: {
@@ -308,7 +306,7 @@ export const fish = {
             en: 'Bluefin Tuna',
             de: 'Blauflossen-Thunfisch',
             pl: 'Tuz błękitnopłetwy',
-            zh:'蓝鳍金枪鱼',
+            zh: '蓝鳍金枪鱼',
         },
     },
     shark: {
@@ -318,7 +316,7 @@ export const fish = {
             en: 'Shark',
             de: 'Hai',
             pl: 'Rekin',
-           zh:'鲨鱼',
+            zh: '鲨鱼',
         },
     },
 };

@@ -5,7 +5,7 @@ export default {
         en: 'ARREST',
         de: 'VERHAFTUNG',
         pl: 'AREST',
-        zh:'逮捕',
+        zh: '逮捕',
     },
     reason: {
         ru: 'Причина',
@@ -13,7 +13,7 @@ export default {
         en: 'Reason',
         de: 'Grund',
         pl: 'Powód',
-        zh:'原因',
+        zh: '原因',
     },
     time: {
         ru: 'Время (В минутах)',
@@ -21,7 +21,7 @@ export default {
         en: 'Time (In minutes)',
         de: 'Zeit (In Minuten)',
         pl: 'Czas (W minutach)',
-       zh:'时间（分钟）',
+        zh: '时间（分钟）',
     },
     comment: {
         ru: 'Комментарий (?)',
@@ -29,7 +29,7 @@ export default {
         en: 'Comment (?)',
         de: 'Kommentar (?)',
         pl: 'Komentarz (?)',
-        zh:评论（？）',
+        zh: '评论（？）',
     },
     accept: {
         ru: 'Подтвердить',
@@ -37,7 +37,7 @@ export default {
         en: 'Accept',
         de: 'Bestätigen',
         pl: 'Zaakceptować',
-       zh:'确认',
+        zh: '确认',
     },
     decline: {
         ru: 'Отмена',
@@ -45,6 +45,6 @@ export default {
         en: 'Decline',
         de: 'Ablehnen',
         pl: 'Odrzucić',
-       zh:'已取消',
+        zh: '已取消',
     },
 };

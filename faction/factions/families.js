@@ -5,7 +5,7 @@ export default {
         en: 'The Families',
         de: 'The Families',
         pl: 'The Families',
-        zh:'家庭',
+        zh: '家庭',
     },
     ranks: {
         youngsta: {
@@ -14,7 +14,7 @@ export default {
             en: 'Youngsta',
             de: 'Youngsta',
             pl: 'Youngsta',
-            zh:'Youngsta',
+            zh: 'Youngsta',
         },
         beginner: {
             ru: 'Beginner',
@@ -22,7 +22,7 @@ export default {
             en: 'Beginner',
             de: 'Beginner',
             pl: 'Beginner',
-            zh:'初学者,
+            zh: '初学者',
         },
         checkedup: {
             ru: 'Checked Up',
@@ -30,7 +30,7 @@ export default {
             en: 'Checked Up',
             de: 'Checked Up',
             pl: 'Checked Up',
-            zh:'检查过了',
+            zh: '检查过了',
         },
         hustler: {
             ru: 'Hustler',
@@ -38,7 +38,7 @@ export default {
             en: 'Hustler',
             de: 'Hustler',
             pl: 'Hustler',
-            zh:'骗子',
+            zh: '骗子',
         },
         hoodlum: {
             ru: 'Hoodlum',
@@ -46,7 +46,7 @@ export default {
             en: 'Hoodlum',
             de: 'Hoodlum',
             pl: 'Hoodlum',
-            zh:'Hoodlum',
+            zh: 'Hoodlum',
         },
         blackflawless: {
             ru: 'Black Flawless',
@@ -54,7 +54,7 @@ export default {
             en: 'Black Flawless',
             de: 'Black Flawless',
             pl: 'Black Flawless',
-            zh:'黑色无瑕',
+            zh: '黑色无瑕',
         },
         outlaw: {
             ru: 'Outlaw',
@@ -62,7 +62,7 @@ export default {
             en: 'Outlaw',
             de: 'Outlaw',
             pl: 'Outlaw',
-            zh:'违法',
+            zh: '违法',
         },
         authority: {
             ru: 'Authority',
@@ -70,7 +70,7 @@ export default {
             en: 'Authority',
             de: 'Authority',
             pl: 'Authority',
-            zh:'权威',
+            zh: '权威',
         },
         deputypac: {
             ru: 'Deputy Pac',
@@ -78,7 +78,7 @@ export default {
             en: 'Deputy Pac',
             de: 'Deputy Pac',
             pl: 'Deputy Pac',
-            zh:'副警长',
+            zh: '副警长',
         },
         strawberrypac: {
             ru: 'Strawberry Pac',
@@ -86,7 +86,7 @@ export default {
             en: 'Strawberry Pac',
             de: 'Strawberry Pac',
             pl: 'Strawberry Pac',
-            zh:'草莓派',
+            zh: '草莓派',
         },
     },
 };

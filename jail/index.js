@@ -21,6 +21,6 @@ export default {
         en: 'Imprisonment term: {{minutes}} min. Reason: {{reason}}',
         de: 'Haftdauer: {{minutes}} Min. Grund: {{reason}}',
         pl: 'Czas uwięzienia: {{minutes}} min. Powód: {{reason}}',
-       zh:'入狱时间：{{minutes}}分钟。原因：{{Reason}}'，',
+       zh:'入狱时间：{{minutes}}分钟。原因：{{Reason}}',
     },
 };

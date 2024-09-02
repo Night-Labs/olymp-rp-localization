@@ -5,7 +5,7 @@ export const server = {
         ru: 'Создан случайный промокод ~o~{{promo}} ~w~на ~o~{{sum}} донат валюты ~w~ <br>Он будет работать ровно ~o~5 минут ~w~, успей ввести его в <br>~g~Меню > Магазин > Промокод',
         de: 'Ein zufälliger Promo-Code wurde erstellt ~o~{{promo}} ~w~für ~o~{{sum}} Spendenwährung ~w~ <br>Er wird genau ~o~5 Minuten ~w~ funktionieren, beeil dich, ihn einzugeben in <br>~g~Menü > Shop > Promo-Code',
         pl: 'Utworzono losowy kod promocyjny ~o~{{promo}} ~w~dla ~o~{{sum}} waluty donacyjnej ~w~ <br>Będzie działać przez dokładnie ~o~5 minut ~w~, śpiesz się, aby go wprowadzić w <br>~g~Menu > Sklep > Kod promocyjny',
-        zh:'随机代码~o~{promo}}~w~关于~o~{sum}}货币捐赠~w~<br>它将同样有效~o~5分钟~w~，请在<br>~g~菜单>杂志>代码中输入它'',
+        zh: '随机代码~o~{promo}}~w~关于~o~{sum}}货币捐赠~w~<br>它将同样有效~o~5分钟~w~，请在<br>~g~菜单>杂志>代码中输入它',
     },
     donatStore: {
         ua: 'Донат магазин',
@@ -13,7 +13,7 @@ export const server = {
         ru: 'Магазин донатов',
         de: 'Spenden-Shop',
         pl: 'Sklep donacji',
-       zh:'捐赠杂志',
+        zh: '捐赠杂志',
     },
     notEnoughDonat: {
         ru: 'Недостаточно донат-валюты',
@@ -21,7 +21,7 @@ export const server = {
         en: 'Not enough donation currency',
         de: 'Nicht genug Spendengeld',
         pl: 'Niewystarczająca ilość waluty darowizn',
-       zh:'捐助货币不足',
+        zh: '捐助货币不足',
     },
 
     donateInventory: {
@@ -30,7 +30,7 @@ export const server = {
         en: 'Donation inventory',
         de: 'Spendeninventar',
         pl: 'Inwentarz donacji',
-       zh:'捐赠清单',
+        zh: '捐赠清单',
     },
 
     sell: {
@@ -39,7 +39,7 @@ export const server = {
         en: `You sold {{name}} for {{price}} Olymp-Coins`,
         de: `Sie haben {{name}} fuer {{price}} Olymp-Coins`,
         pl: `Sprzedano {{name}} za {{price}} Olymp-Coins`,
-        zh:'您需要购买奥林普币',
+        zh: '您需要购买奥林普币',
     },
 
     purchaseNotify: {
@@ -48,7 +48,7 @@ export const server = {
         en: `You purchased {{name}} {{quantity}} pcs.`,
         de: `Sie haben {{name}} {{quantity}} pcs. gekauft`,
         pl: `Kupiono {{name}} {{quantity}} szt.`,
-       zh:'您购买了｛｛name｝｝｛｛quantity｝件',
+        zh: '您购买了｛｛name｝｝｛｛quantity｝件',
     },
 
     donated: {
@@ -57,7 +57,7 @@ export const server = {
         en: '!{#ffffff}Thank you for your donation to the project! <br> You have been credited with !{#fdd431}{{donateSum}} Olymp-Coins !{#ffffff}your balance: !{#fdd431}{{balance}} Olymp-Coins',
         de: '!{#ffffff}Danke für Ihre Spende an das Projekt! <br> Ihnen wurden !{#fdd431}{{donateSum}} Olymp-Coins gutgeschrieben !{#ffffff}Ihr Kontostand: !{#fdd431}{{balance}} Olymp-Coins',
         pl: '!{#ffffff}Dziękujemy za darowiznę na rzecz projektu! <br> Zostało Ci przyznane !{#fdd431}{{donateSum}} Olymp-Coins !{#ffffff}twój stan konta: !{#fdd431}{{balance}} Olymp-Coins',
-        zh:'请联系管理',
+        zh: '请联系管理',
     },
 
     recive: {
@@ -69,7 +69,7 @@ export const server = {
             en: 'Received {{exp}} experience!',
             de: 'Erhaltene {{exp}} Erfahrung!',
             pl: 'Otrzymano {{exp}} doswiadczenia!',
-           zh:'收到｛｛exp｝｝｝经验！',
+            zh: '收到｛｛exp｝｝｝经验！',
         },
 
         expTrucker: {
@@ -78,7 +78,7 @@ export const server = {
             en: 'Received {{exp}} experience for trucker!',
             de: 'Erhaltene {{exp}} Erfahrung für Transporteur!',
             pl: 'Otrzymano {{exp}} doswiadczenia dla dostawce!',
-           zh:''获得了卡车司机的{{exp}}经验',
+            zh: '获得了卡车司机的{{exp}}经验',
         },
 
         expTrucker2: {
@@ -87,7 +87,7 @@ export const server = {
             en: 'Received {{exp}} experience for trucker!',
             de: 'Erhaltene {{exp}} Erfahrung für Transporteur!',
             pl: 'Otrzymano {{exp}} doswiadczenia dla dostawce!',
-           zh:'收到｛｛exp｝｝｝远程玩家体验！',
+            zh: '收到｛｛exp｝｝远程玩家体验！',
         },
 
         farm: {
@@ -96,7 +96,7 @@ export const server = {
             en: '{{exp}} farm experience gained!',
             de: '{{exp}} Farm-Erfahrung erhalten!',
             pl: 'Zdobyto {{exp}} doświadczenia na farmie!',
-            zh:'获得了农场经验！',
+            zh: '获得了农场经验！',
         },
 
         fishing: {
@@ -105,7 +105,7 @@ export const server = {
             en: 'Received {{exp}} experience for fishing!',
             de: 'Erhaltene {{exp}} Erfahrung für Angeln!',
             pl: 'Otrzymano {{exp}} doswiadczenia dla ryb!',
-           zh:'有钓鱼经验！',
+            zh: '有钓鱼经验！',
         },
 
         hunter: {
@@ -114,7 +114,7 @@ export const server = {
             en: 'Received {{exp}} experience for hunter!',
             de: 'Erhaltene {{exp}} Erfahrung für Jaeger!',
             pl: 'Otrzymano {{exp}} doswiadczenia dla łowco!',
-            zh:'有狩猎经验！',
+            zh: '有狩猎经验！',
         },
 
         currency: {
@@ -123,7 +123,7 @@ export const server = {
             en: 'Received ${{currency}}',
             de: 'Erhaltene ${{currency}}',
             pl: 'Otrzymano ${{currency}}',
-           zh:'收到${{货币}',
+            zh: '收到${{货币}',
         },
 
         vehicle: {
@@ -132,7 +132,7 @@ export const server = {
             en: 'Received {{vehicle}}',
             de: 'Erhaltene {{vehicle}}',
             pl: 'Otrzymano {{vehicle}}',
-            zh:'收到｛｛车辆｝”中',
+            zh: '收到｛｛车辆｝”中',
         },
     },
 };
