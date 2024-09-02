@@ -5,7 +5,7 @@ export const selector = {
         ru: 'Создать персонажа',
         de: 'Charakter erstellen',
         pl: 'Stwórz postać',
-        zh:'创建角色',
+        zh: '创建角色',
     },
     delete: {
         ua: 'Видалити',
@@ -13,7 +13,7 @@ export const selector = {
         ru: 'Удалить',
         de: 'Löschen',
         pl: 'Usuń',
-        zh:'删除',
+        zh: '删除',
     },
     playCharacter: {
         ua: 'Вибрати персонажа',
@@ -21,7 +21,7 @@ export const selector = {
         ru: 'Выбрать персонажа',
         de: 'Charakter auswählen',
         pl: 'Wybierz postać',
-        zh:'选择角色',
+        zh: '选择角色',
     },
     played: {
         ua: 'Відіграно:',
@@ -29,7 +29,7 @@ export const selector = {
         ru: 'Отыграно:',
         de: 'Gespielt:',
         pl: 'Odtwarzane:',
-       zh:'开演',
+        zh: '开演',
     },
     cash: {
         ua: 'Готівка:',
@@ -37,7 +37,7 @@ export const selector = {
         ru: 'Наличные:',
         de: 'Bargeld:',
         pl: 'Gotówka:',
-        zh:'付款:',
+        zh: '付款:',
     },
     bank: {
         ua: 'Гроші в банку:',
@@ -45,7 +45,7 @@ export const selector = {
         ru: 'Деньги в банке:',
         de: 'Bank:',
         pl: 'Bank:',
-        zh:'银行:',
+        zh: '银行:',
     },
     faction: {
         ua: 'Фракція',
@@ -53,7 +53,7 @@ export const selector = {
         ru: 'Фракция',
         de: 'Fraktion',
         pl: 'Frakcja',
-        zh:'帮派',
+        zh: '帮派',
     },
     notMember: {
         ua: 'Не входить',
@@ -61,7 +61,7 @@ export const selector = {
         ru: 'Не входит',
         de: 'Kein Mitglied',
         pl: 'Nie jest członkiem',
-        zh:'非会员',
+        zh: '非会员',
     },
     modal: {
         title: {
@@ -70,7 +70,7 @@ export const selector = {
             ru: 'Удалить персонажа {{name}}',
             de: 'Charakter {{name}} löschen',
             pl: 'Usuń postać {{name}}',
-            zh:'删除角色{{name}}',
+            zh: '删除角色{{name}}',
         },
         message: {
             ua: 'При підтвердженні персонаж буде назавжди видалений',
@@ -78,7 +78,7 @@ export const selector = {
             ru: 'При подтверждении персонаж будет навсегда удалён',
             de: 'Der Charakter wird nach Bestätigung dauerhaft gelöscht',
             pl: 'Postać zostanie trwale usunięta po potwierdzeniu',
-            zh:'确认后将被永久删除',
+            zh: '确认后将被永久删除',
         },
         confirmButton: {
             ua: 'Видалити',
@@ -86,7 +86,7 @@ export const selector = {
             ru: 'Удалить',
             de: 'Löschen',
             pl: 'Usuń',
-            zh:'删除',
+            zh: '删除',
         },
         cancelButton: {
             ua: 'Скасувати',
@@ -94,7 +94,7 @@ export const selector = {
             ru: 'Отмена',
             de: 'Abbrechen',
             pl: 'Anuluj',
-            zh:'取消',
+            zh: '取消',
         },
     },
     youHaveDailyQuests: {
@@ -103,6 +103,6 @@ export const selector = {
         en: 'It looks like you have {{count}} unfinished daily quests, hurry up and complete them!',
         de: 'Es sieht so aus, als hätten Sie {{count}} unerledigte tägliche Quests, beeilen Sie sich und erledigen Sie sie!',
         pl: 'Wygląda na to, że masz {{count}} niewykonanych codziennych zadań, pospiesz się i ukończ je!',
-        zh:'看起来你有{{count}}未完成的日常任务，快点完成它们',
+        zh: '看起来你有{{count}}未完成的日常任务，快点完成它们',
     },
 };
