@@ -14,13 +14,57 @@ export const stepDto = {
         pl: 'Wypożycz dowolny pojazd',
     },
 
-    collectApples: {
-        ua: 'Зберіть {{count}} кошиків яблук на фермі',
-        en: 'Collect {{count}} baskets of apples on the farm',
-        ru: 'Соберите {{count}} корзин яблок на ферме',
-        de: 'Sammle {{count}} Körbe Äpfel auf der Farm',
-        pl: 'Zbierz {{count}} koszy jabłek na farmie',
+    getToFarm: {
+        ru: 'Доберитесь до фермы',
+        ua: 'Дістаньтеся до ферми',
+        en: 'Get to the farm',
+        de: 'Gehe zur Farm',
+        pl: 'Dostęp do farmy',
     },
+    deployFarm: {
+        ru: 'Устройтесь работать на ферме',
+        ua: 'Влаштуйтеся працювати на фермі',
+        en: 'Deploy to work on the farm',
+        de: 'Stellen Sie sich auf der Farm ein',
+        pl: 'Rozpocznij pracę na farmie',
+    },
+    collectTree: {
+        ru: 'Соберите апельсины с {{count}} деревьев',
+        ua: 'Зберіть апельсини з {{count}} дерев',
+        en: 'Collect oranges from {{count}} trees',
+        de: 'Sammle Orangen von {{count}} Bäumen',
+        pl: 'Zbierz pomarańcze z {{count}} drzew',
+    },
+    getFarmTreesAreas: {
+        ru: 'Доберитесь до одного из трёх садов апельсинов',
+        ua: 'Дістаньтеся до одного з трьох садів апельсинів',
+        en: 'Get to one of the three orange orchards',
+        de: 'Gehe zu einem der drei Orangenplantagen',
+        pl: 'Dostęp do jednego z trzech sadów pomarańczowych',
+    },
+    getToFarmBuyer: {
+        ru: 'Доберитесь до фермерского скупщика',
+        ua: 'Доберіться до фермерського скупника',
+        en: "Get to the farmer's buyer",
+        de: 'Gehe zum Bauernkäufer',
+        pl: 'Dostęp do kupca rolnika',
+    },
+    sellItemBuyer: {
+        ru: 'Продайте скупщику {{name}} в количестве {{count}} шт.',
+        ua: 'Продайте скуповувачу {{name}} у кількості {{count}} шт.',
+        en: 'Sell {{count}} of {{name}} to the buyer',
+        de: 'Verkaufe {{count}} von {{name}} an den Käufer',
+        pl: 'Sprzedaj {{count}} sztuk {{name}} kupcowi',
+    },
+    sellItemBuyerAll: {
+        ru: 'Продайте скупщику весь {{name}} который у вас есть',
+        ua: 'Продайте скуповувачу весь {{name}}, що у вас є',
+        en: 'Sell all of your {{name}} to the buyer',
+        de: 'Verkaufe alle deine {{name}} an den Käufer',
+        pl: 'Sprzedaj całe {{name}}, które masz, kupcowi',
+    },
+
+    //
 
     deliveryPizza: {
         ru: 'Доставьте {{count}} пицц',
