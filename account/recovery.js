@@ -5,6 +5,7 @@ export default {
         en: 'Password recovery for',
         de: 'Passwortwiederherstellung für',
         pl: 'Odzyskiwanie hasła dla',
+       zh:'找回密码',
     },
     instruction: {
         ru: 'Мы получили запрос на восстановление пароля для вашей учетной записи. Пожалуйста, используйте следующий код для сброса пароля. Этот код действителен в течение 30 минут.',
@@ -12,6 +13,7 @@ export default {
         en: 'We have received a request to reset the password for your account. Please use the following code to reset your password. This code is valid for 30 minutes.',
         de: 'Wir haben eine Anfrage zum Zurücksetzen des Passworts für Ihr Konto erhalten. Bitte verwenden Sie den folgenden Code, um Ihr Passwort zurückzusetzen. Dieser Code ist 30 Minuten lang gültig.',
         pl: 'Otrzymaliśmy żądanie zresetowania hasła do twojego konta. Proszę użyj poniższego kodu, aby zresetować hasło. Kod ten jest ważny przez 30 minut.',
+       zh:'已发送验证码，有效期为30分钟',
     },
     disclaimer: {
         ru: 'Если вы не запрашивали восстановление пароля, пожалуйста, проигнорируйте это письмо.',
@@ -19,6 +21,7 @@ export default {
         en: 'If you did not request a password recovery, please ignore this email.',
         de: 'Wenn Sie keine Passwortwiederherstellung angefordert haben, ignorieren Sie bitte diese E-Mail.',
         pl: 'Jeśli nie żądałeś odzyskania hasła, proszę zignoruj tę wiadomość.',
+       zh:'如果你没有找回密码，请忽略邮件',
     },
     site: {
         ru: 'Сайт',
@@ -26,6 +29,7 @@ export default {
         en: 'Website',
         de: 'Webseite',
         pl: 'Strona internetowa',
+       zh:'网站',
     },
     mail: {
         ru: 'Почта',
@@ -33,5 +37,6 @@ export default {
         en: 'Mail',
         de: 'Mail',
         pl: 'Poczta',
+       zh:'邮箱',
     },
 };

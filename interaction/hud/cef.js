@@ -6,6 +6,7 @@ export const cef = {
             ru: 'Инвентарь',
             de: 'Inventar',
             pl: 'Inwentarz',
+            zh:'发明人',
         },
         m: {
             ua: 'Меню',
@@ -13,6 +14,7 @@ export const cef = {
             ru: 'Меню',
             de: 'Menü',
             pl: 'Menu',
+            zh:'菜单',
         },
         k: {
             ua: 'Телефон',
@@ -20,6 +22,7 @@ export const cef = {
             ru: 'Телефон',
             de: 'Telefon',
             pl: 'Telefon',
+            zh:'电话',
         },
         f7: {
             ua: 'Сховати HUD',
@@ -27,6 +30,7 @@ export const cef = {
             ru: 'Скрыть худ',
             de: 'HUD ausblenden',
             pl: 'Ukryj HUD',
+            zh:'隐藏HUD',
         },
         f8: {
             ua: 'Сховати підказки',
@@ -34,6 +38,7 @@ export const cef = {
             ru: 'Скрыть подсказки',
             de: 'Hinweise ausblenden',
             pl: 'Ukryj podpowiedzi',
+           zh:'隐藏提示',
         },
         n: {
             ua: 'Голосовий чат',
@@ -41,6 +46,7 @@ export const cef = {
             ru: 'Голосовой чат',
             de: 'Sprachchat',
             pl: 'Czat głosowy',
+           zh:'语音聊天',
         },
         b: {
             ua: 'Запустити двигун',
@@ -48,6 +54,7 @@ export const cef = {
             ru: 'Завести двигатель',
             de: 'Motor starten',
             pl: 'Uruchom silnik',
+            zh:'启动发动机',
         },
         j: {
             ua: 'Ремінь безпеки',
@@ -55,6 +62,7 @@ export const cef = {
             ru: 'Ремень безопасности',
             de: 'Sicherheitsgurt',
             pl: 'Pas bezpieczeństwa',
+            zh:'安全带',
         },
         o: {
             ru: 'Меню анимаций',
@@ -62,6 +70,7 @@ export const cef = {
             en: 'Animation Menu',
             de: 'Animationsmenü',
             pl: 'Menu animacji',
+           zh:'动画菜单',
         },
     },
     chat: {
@@ -71,6 +80,7 @@ export const cef = {
             ru: 'Введите сообщение',
             de: 'Geben Sie eine Nachricht ein',
             pl: 'Wprowadź wiadomość',
+           zh:'输入消息',
         },
         actions: {
             default: {
@@ -79,6 +89,7 @@ export const cef = {
                 ru: 'Обычный',
                 de: 'Standard',
                 pl: 'Domyślny',
+                zh:'正常',
             },
         },
     },
@@ -89,6 +100,7 @@ export const cef = {
             ua: 'Пропозиція',
             de: 'Vorschlag',
             pl: 'Propozycja',
+            zh:'提案',
         },
 
         offer: {
@@ -97,6 +109,7 @@ export const cef = {
             ua: 'ПРОПОНУЄ',
             de: 'BIETET AN',
             pl: 'OFERUJE',
+            zh:'报价',
         },
     },
 };

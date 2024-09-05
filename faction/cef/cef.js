@@ -13,6 +13,7 @@ export const cef = {
         en: 'All available actions',
         de: 'Alle verfügbaren Aktionen',
         pl: 'Wszystkie dostępne działania',
+        zh: '所有可用操作',
     },
 
     state: {
@@ -21,6 +22,7 @@ export const cef = {
         en: 'State',
         de: 'Zustand',
         pl: 'Stan',
+        zh: '条件',
     },
 
     tabs: {
@@ -30,6 +32,7 @@ export const cef = {
             en: 'Home',
             de: 'Startseite',
             pl: 'Główna',
+            zh: '主要',
         },
 
         quests: {
@@ -38,6 +41,7 @@ export const cef = {
             en: 'Quests',
             de: 'Quests',
             pl: 'Zadania',
+            zh: '在“任务”中',
         },
 
         team: {
@@ -46,6 +50,7 @@ export const cef = {
             en: 'Team',
             de: 'Team',
             pl: 'Zespół',
+            zh: '团队',
         },
 
         ranks: {
@@ -54,6 +59,7 @@ export const cef = {
             en: 'Ranks',
             de: 'Ränge',
             pl: 'Rangi',
+            zh: '兰吉',
         },
 
         map: {
@@ -62,6 +68,7 @@ export const cef = {
             en: 'Map',
             de: 'Karte',
             pl: 'Mapa',
+            zh: '地图',
         },
 
         upgrades: {
@@ -70,6 +77,7 @@ export const cef = {
             en: 'Upgrades',
             de: 'Verbesserungen',
             pl: 'Ulepszenia',
+            zh: '升级',
         },
 
         suply: {
@@ -78,6 +86,7 @@ export const cef = {
             en: 'Supplies',
             de: 'Lieferungen',
             pl: 'Dostawy',
+            zh: '设置',
         },
     },
 
@@ -88,6 +97,7 @@ export const cef = {
             ua: 'Тут ви можете переглянути загальну інформацію про вашу організацію, а також керувати доступом до складу та бюджету.',
             de: 'Hier können Sie allgemeine Informationen über Ihre Organisation einsehen sowie den Zugang zum Lager und zum Budget verwalten.',
             pl: 'Tutaj możesz przeglądać ogólne informacje o swojej organizacji, jak również zarządzać dostępem do magazynu i budżetu.',
+            zh: '在这里，你可以看到有关你组织的公共信息，还可以管理仓库和预算的访问权限',
         },
         quests: {
             ru: 'Здесь вы можете выполнять фракционные квесты.',
@@ -95,6 +105,7 @@ export const cef = {
             ua: 'Тут ви можете виконувати фракційні квести.',
             de: 'Hier können Sie Fraktionsquests abschließen.',
             pl: 'Tutaj możesz wykonywać questy frakcyjne.',
+            zh: '在这里你可以完成派系任务',
         },
         team: {
             ru: 'Здесь вы можете просмотреть всех участников вашей организации, а также управлять ими.',
@@ -102,6 +113,7 @@ export const cef = {
             ua: 'Тут ви можете переглянути всіх учасників вашої організації, а також керувати ними.',
             de: 'Hier können Sie alle Mitglieder Ihrer Organisation ansehen und sie verwalten.',
             pl: 'Tutaj możesz przeglądać wszystkich członków swojej organizacji oraz zarządzać nimi.',
+            zh: '在这里，你可以查看组织中的所有参与者并对其进行管理',
         },
         ranks: {
             ru: 'Здесь вы можете управлять рангами вашей организации.',
@@ -109,6 +121,7 @@ export const cef = {
             ua: 'Тут ви можете керувати рангами вашої організації.',
             de: 'Hier können Sie die Ränge Ihrer Organisation verwalten.',
             pl: 'Tutaj możesz zarządzać rangami w swojej organizacji.',
+            zh: '在这里，您可以管理组织的级别',
         },
         map: {
             ru: 'С помощью этой карты вы можете следить за территориями вашей банды. А также объявлять войну за территории другим бандам.',
@@ -116,6 +129,7 @@ export const cef = {
             en: 'With this map, you can track the territories of your gang. You can also declare war on territories belonging to other gangs.',
             de: 'Mit dieser Karte können Sie die Gebiete Ihrer Band überwachen. Sie können auch Krieg gegen Gebiete anderer Banden erklären.',
             pl: 'Z pomocą tej mapy możesz śledzić terytoria twojej bandy. Możesz także wypowiedzieć wojnę o terytoria należące do innych band.',
+            zh: '有了这张地图，你就可以追踪到你帮派的领地。你也可以对属于其他帮派的领土宣战',
         },
         upgrades: {
             ru: 'Тут лидер может управлять улучшениями для организации',
@@ -123,6 +137,7 @@ export const cef = {
             en: 'Here the leader can manage upgrades for the organization',
             de: 'Hier kann der Leiter Verbesserungen für die Organisation verwalten',
             pl: 'Tutaj lider może zarządzać ulepszeniami dla organizacji',
+            zh: '在这里，经理可以管理组织的改进',
         },
 
         suply: {
@@ -131,6 +146,7 @@ export const cef = {
             en: 'Here you can order supplies for your faction',
             de: 'Hier können Sie Lieferungen für Ihre Fraktion bestellen',
             pl: 'Tutaj możesz zamówić materiały dla swojej frakcji',
+            zh: '在这里，你可以为你的材料部分订购供应品',
         },
     },
 
@@ -140,6 +156,7 @@ export const cef = {
         ua: "Ім'я Прізвище",
         de: 'Vorname Nachname',
         pl: 'Imię Nazwisko',
+        zh: '姓名',
     },
 
     leaderDate: {
@@ -148,6 +165,7 @@ export const cef = {
         ua: 'Призначений(а) на посаду',
         de: 'Am Datum zum Amt ernannt',
         pl: 'Mianowany(ana) na stanowisko dnia',
+        zh: '分配到任务',
     },
 
     generalStatistics: {
@@ -156,6 +174,7 @@ export const cef = {
         ua: 'Загальна статистика',
         de: 'Allgemeine Statistik',
         pl: 'Statystyki ogólne',
+        zh: '综合统计',
     },
 
     actionsLog: {
@@ -164,6 +183,7 @@ export const cef = {
         ua: 'Лог дій',
         de: 'Aktionsprotokoll',
         pl: 'Dziennik działań',
+        zh: '行动日志',
     },
 
     search: {
@@ -172,6 +192,7 @@ export const cef = {
         ua: 'Пошук',
         de: 'Suche',
         pl: 'Szukaj',
+        zh: '搜索',
     },
 
     nameRank: {
@@ -180,6 +201,7 @@ export const cef = {
         ua: "Ім'я/Ранг",
         de: 'Name/Rang',
         pl: 'Nazwa/Ranga',
+        zh: '姓名/级别',
     },
 
     date: {
@@ -188,6 +210,7 @@ export const cef = {
         ua: 'Дата',
         de: 'Datum',
         pl: 'Data',
+        zh: '日期',
     },
 
     crimeFinance: {
@@ -196,6 +219,7 @@ export const cef = {
         ua: 'Общак',
         de: 'Schwarzgeldkasse',
         pl: 'Czarna kasa',
+        zh: '黑钱',
     },
 
     govFinance: {
@@ -204,6 +228,7 @@ export const cef = {
         ua: 'Бюджет',
         de: 'Haushaltsplan',
         pl: 'Budżet',
+        zh: '预算',
     },
 
     balance: {
@@ -212,6 +237,7 @@ export const cef = {
         ua: 'Баланс',
         de: 'Saldo',
         pl: 'Saldo',
+        zh: '平衡',
     },
 
     enterSumm: {
@@ -220,6 +246,7 @@ export const cef = {
         ua: 'Введіть суму',
         de: 'Betrag eingeben',
         pl: 'Wprowadź kwotę',
+        zh: '输入金额',
     },
 
     deposit: {
@@ -228,6 +255,7 @@ export const cef = {
         ua: 'Покласти',
         de: 'Einzahlen',
         pl: 'Wpłacić',
+        zh: '支付',
     },
 
     take: {
@@ -236,6 +264,7 @@ export const cef = {
         ua: 'Зняти',
         de: 'Abheben',
         pl: 'Wypłacić',
+        zh: '支付',
     },
 
     limitText: {
@@ -244,6 +273,7 @@ export const cef = {
         en: '*Withdrawal limit {{limit}}',
         de: '*Auszahlungslimit {{limit}}',
         pl: '*Limit wypłaty {{limit}}',
+        zh: '付款限额{{limit}}',
     },
 
     warehouse: {
@@ -252,6 +282,7 @@ export const cef = {
         ua: 'Склад',
         de: 'Lagerhaus',
         pl: 'Magazyn',
+        zh: '存储',
     },
 
     vehicleRespawn: {
@@ -260,6 +291,7 @@ export const cef = {
         en: 'Vehicle respawn',
         de: 'Fahrzeug-Respawn',
         pl: 'Respawn pojazdu',
+        zh: '车辆重置',
     },
 
     status: {
@@ -268,6 +300,7 @@ export const cef = {
         ua: 'Статус',
         de: 'Status',
         pl: 'Status',
+        zh: '状态',
     },
 
     allowed: {
@@ -276,6 +309,7 @@ export const cef = {
         ua: 'Дозволено',
         de: 'Erlaubt',
         pl: 'Dozwolone',
+        zh: '允许',
     },
 
     forbidden: {
@@ -284,6 +318,7 @@ export const cef = {
         ua: 'Заборонено',
         de: 'Verboten',
         pl: 'Zabronione',
+        zh: '禁止',
     },
 
     allow: {
@@ -292,6 +327,7 @@ export const cef = {
         ua: 'Дозволити',
         de: 'Erlauben',
         pl: 'Zezwolić',
+        zh: '允许',
     },
 
     forbid: {
@@ -300,6 +336,7 @@ export const cef = {
         ua: 'Заборонити',
         de: 'Verbieten',
         pl: 'Zakazać',
+        zh: '禁止',
     },
 
     rank: {
@@ -308,6 +345,7 @@ export const cef = {
         ua: 'Ранг',
         de: 'Rang',
         pl: 'Ranga',
+        zh: '范围',
     },
 
     dateOfEntry: {
@@ -316,6 +354,7 @@ export const cef = {
         ua: 'Дата вступу',
         de: 'Eintrittsdatum',
         pl: 'Data wejścia',
+        zh: '入境日期',
     },
 
     action: {
@@ -324,6 +363,7 @@ export const cef = {
         ua: 'Дія',
         de: 'Aktion',
         pl: 'Akcja',
+        zh: '行动',
     },
 
     online: {
@@ -332,6 +372,7 @@ export const cef = {
         ua: 'Онлайн',
         de: 'Online',
         pl: 'Online',
+        zh: '在线',
     },
 
     was: {
@@ -340,6 +381,7 @@ export const cef = {
         ua: 'Був(ла)',
         de: 'War',
         pl: 'Był(a)',
+        zh: '曾经(a)',
     },
 
     control: {
@@ -348,6 +390,7 @@ export const cef = {
         ua: 'Керування',
         de: 'Steuerung',
         pl: 'Kontrola',
+        zh: '控制',
     },
 
     controlUser: {
@@ -356,6 +399,7 @@ export const cef = {
         ua: 'Керування гравцем',
         de: 'Spielersteuerung',
         pl: 'Kontrola gracza',
+        zh: '关于玩家控制',
     },
 
     kick: {
@@ -364,6 +408,7 @@ export const cef = {
         ua: 'Вигнати',
         de: 'Rauswerfen',
         pl: 'Wyrzucić',
+        zh: '被开除',
     },
 
     title: {
@@ -372,6 +417,7 @@ export const cef = {
         ua: 'Назва',
         de: 'Titel',
         pl: 'Tytuł',
+        zh: '标题',
     },
 
     numbers: {
@@ -380,6 +426,7 @@ export const cef = {
         ua: 'Чисельність',
         de: 'Anzahl',
         pl: 'Liczba',
+        zh: '数字',
     },
 
     requiredExperience: {
@@ -388,6 +435,7 @@ export const cef = {
         ua: 'Необхідний досвід',
         de: 'Erforderliche Erfahrung',
         pl: 'Wymagane doświadczenie',
+        zh: '需要经验',
     },
 
     view: {
@@ -396,6 +444,7 @@ export const cef = {
         ua: 'Перегляд',
         de: 'Ansicht',
         pl: 'Widok',
+        zh: '视图',
     },
 
     you: {
@@ -404,6 +453,7 @@ export const cef = {
         ua: 'Ви',
         de: 'Du',
         pl: 'Ty',
+        zh: '你',
     },
 
     controlRank: {
@@ -412,6 +462,7 @@ export const cef = {
         ua: 'Редагування рангу',
         de: 'Rang bearbeiten',
         pl: 'Edytuj rangę',
+        zh: '编辑排名',
     },
 
     permits: {
@@ -420,6 +471,7 @@ export const cef = {
         ua: 'Дозволи',
         de: 'Genehmigungen',
         pl: 'Zezwolenia',
+        zh: '权限',
     },
 
     stateCount: {
@@ -429,6 +481,7 @@ export const cef = {
             ua: 'людей онлайн',
             de: 'Personen online',
             pl: 'osób online',
+            zh: '在线用户',
         },
         offline: {
             ru: 'человек оффлайн',
@@ -436,6 +489,7 @@ export const cef = {
             ua: 'людей оффлайн',
             de: 'Personen offline',
             pl: 'osób offline',
+            zh: '离线人员',
         },
         general: {
             ru: 'человек всего',
@@ -443,6 +497,7 @@ export const cef = {
             ua: 'всього людей',
             de: 'Gesamtanzahl Personen',
             pl: 'ogółem osób',
+            zh: '总人数',
         },
     },
 
@@ -453,6 +508,7 @@ export const cef = {
         en: 'Materials',
         de: 'Materialien',
         pl: 'Materiały',
+        zh: '材料',
     },
     medicalMaterials: {
         ru: 'Мед. материалы',
@@ -460,6 +516,7 @@ export const cef = {
         en: 'Medical materials',
         de: 'Medizinische Materialien',
         pl: 'Materiały medyczne',
+        zh: '医疗材料',
     },
 
     noFaction: {
@@ -468,6 +525,7 @@ export const cef = {
         en: 'You are not currently in a faction, you can join a faction by following the news in the chat or other communities.',
         de: 'Derzeit sind Sie in keiner Fraktion, Sie können einer Fraktion beitreten, indem Sie die Nachrichten im Chat oder in anderen Gemeinschaften verfolgen.',
         pl: 'Obecnie nie należysz do frakcji, możesz dołączyć do frakcji, śledząc wiadomości na czacie lub w innych społecznościach.',
+        zh: '现在你不在一个小圈子里，你可以加入一个小团体，在聊天室或其他社区看新闻',
     },
 
     //
@@ -477,5 +535,6 @@ export const cef = {
         en: 'Respawn',
         de: 'Respawnen',
         pl: 'Respawnować',
+        zh: '休息',
     },
 };

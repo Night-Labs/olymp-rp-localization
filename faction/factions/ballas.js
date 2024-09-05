@@ -5,6 +5,7 @@ export default {
         en: 'Ballas',
         de: 'Ballas',
         pl: 'Ballas',
+        zh:'巴拉斯',
     },
     ranks: {
         newblood: {
@@ -13,6 +14,7 @@ export default {
             en: 'New Blood',
             de: 'New Blood',
             pl: 'New Blood',
+            zh:'新鲜血液',
         },
         younggangster: {
             ru: 'Young Gangster',
@@ -20,6 +22,7 @@ export default {
             en: 'Young Gangster',
             de: 'Young Gangster',
             pl: 'Young Gangster',
+            zh:'少年黑帮',
         },
         checkedup: {
             ru: 'Checked Up',
@@ -27,6 +30,7 @@ export default {
             en: 'Checked Up',
             de: 'Checked Up',
             pl: 'Checked Up',
+            zh:'检查过了',
         },
         homie: { ru: 'Homie', ua: 'Homie', en: 'Homie', de: 'Homie', pl: 'Homie' },
         bastard: {
@@ -35,6 +39,7 @@ export default {
             en: 'Bastard',
             de: 'Bastard',
             pl: 'Bastard',
+           zh:'混蛋',
         },
         ghettosoldier: {
             ru: 'Ghetto Soldier',
@@ -42,6 +47,7 @@ export default {
             en: 'Ghetto Soldier',
             de: 'Ghetto Soldier',
             pl: 'Ghetto Soldier',
+            zh:'贫民区士兵',
         },
         destroyer: {
             ru: 'Destroyer',
@@ -49,6 +55,7 @@ export default {
             en: 'Destroyer',
             de: 'Destroyer',
             pl: 'Destroyer',
+            zh:'毁灭',
         },
         killa: { ru: 'Killa', ua: 'Killa', en: 'Killa', de: 'Killa', pl: 'Killa' },
         playa: { ru: 'Playa', ua: 'Playa', en: 'Playa', de: 'Playa', pl: 'Playa' },
@@ -58,6 +65,7 @@ export default {
             en: 'East Side Pac',
             de: 'East Side Pac',
             pl: 'East Side Pac',
+           zh:'东区Pac',
         },
     },
 };

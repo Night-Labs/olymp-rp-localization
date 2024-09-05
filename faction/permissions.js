@@ -5,6 +5,7 @@ export default {
         en: 'Warehouse Access',
         de: 'Zugang zum Lager',
         pl: 'Dostęp do magazynu',
+       zh:'仓库访问',
     },
     inventory: {
         ru: 'Доступ к складу',
@@ -12,6 +13,7 @@ export default {
         en: 'Access to inventory',
         de: 'Zugang zum Lager',
         pl: 'Dostęp do magazynu',
+       zh:'访问存储',
     },
     garage: {
         ru: 'Доступ к гаражу',
@@ -19,6 +21,7 @@ export default {
         en: 'Garage Access',
         de: 'Zugang zur Garage',
         pl: 'Dostęp do garażu',
+        zh:'进入车库',
     },
     workshop: {
         ru: 'Доступ к крафтам',
@@ -26,6 +29,7 @@ export default {
         en: 'Workshop Access',
         de: 'Zugang zur Werkstatt',
         pl: 'Dostęp do warsztatu',
+        zh:'进入大楼',
     },
     wanted: {
         ru: 'Доступ к розыскам',
@@ -33,6 +37,7 @@ export default {
         en: 'Wanted Access',
         de: 'Zugang zur Fahndung',
         pl: 'Dostęp do listy gończej',
+       zh:'想要访问',
     },
     members: {
         ru: 'Доступ к управлению членами',
@@ -40,6 +45,7 @@ export default {
         en: 'Members Management Access',
         de: 'Zugang zur Mitgliederverwaltung',
         pl: 'Dostęp do zarządzania członkami',
+       zh:'访问成员管理',
     },
     acceptCalls: {
         ru: 'Принимать вызовы на скорую помощь',
@@ -47,6 +53,7 @@ export default {
         en: 'Accept emergency calls',
         de: 'Notrufe annehmen',
         pl: 'Przyjmować połączenia alarmowe',
+        zh:'接听紧急电话',
     },
     license: {
         ru: 'Выдавать лицензию',
@@ -54,6 +61,7 @@ export default {
         en: 'Issue a license',
         de: 'Eine Lizenz ausstellen',
         pl: 'Wydawać licencję',
+        zh:'许可证已颁发',
     },
     blood: {
         ru: 'Возможность брать кровь',
@@ -61,6 +69,7 @@ export default {
         en: 'Ability to take blood',
         de: 'Möglichkeit, Blut zu nehmen',
         pl: 'Możliwość pobierania krwi',
+       zh:'采血的能力',
     },
     factionUpgrades: {
         ru: 'Управление улучшениями',
@@ -68,6 +77,7 @@ export default {
         en: 'Upgrade Management',
         de: 'Verbesserungsverwaltung',
         pl: 'Zarządzanie ulepszeniami',
+       zh:'升级管理',
     },
     ranks: {
         ru: 'Управлять рангами, и рангами игроков',
@@ -75,6 +85,7 @@ export default {
         en: 'Manage ranks and player ranks',
         de: 'Ränge und Spieler-Ränge verwalten',
         pl: 'Zarządzać rangami i rangami graczy',
+        zh:'管理排名和玩家排名',
     },
     controlInventory: {
         ru: 'Закрывать/Открывать склад',
@@ -82,6 +93,7 @@ export default {
         en: 'Close/Open inventory',
         de: 'Lager schließen/öffnen',
         pl: 'Zamykać/Otwierać magazyn',
+        zh:'关闭/打开仓库',
     },
     money: {
         ru: 'Доступ к бюджету',
@@ -89,6 +101,7 @@ export default {
         en: 'Access to Budget',
         de: 'Zugriff auf Budget',
         pl: 'Dostęp do budżetu',
+        zh:'预算访问',
     },
     startSuply: {
         ru: 'Начинать поставки',
@@ -96,6 +109,7 @@ export default {
         en: 'Start Supplies',
         de: 'Lieferung starten',
         pl: 'Rozpocząć dostawy',
+        zh:'开始供应',
     },
     startCaptureWar: {
         ru: 'Начинать войну за территорию',
@@ -103,6 +117,7 @@ export default {
         en: 'Start a territory war',
         de: 'Territoriumskrieg beginnen',
         pl: 'Rozpocząć wojnę o terytorium',
+        zh:'在领土上发动战争',
     },
     goToCaptureWar: {
         ru: 'Участвовать в войне за территорию',
@@ -110,6 +125,7 @@ export default {
         en: 'Participate in the territory war',
         de: 'Am Territoriumskrieg teilnehmen',
         pl: 'Uczestniczyć w wojnie o terytorium',
+        zh:'在“参与领土战争”中',
     },
     takeLicense: {
         ru: 'Забирать лицензии',
@@ -117,6 +133,7 @@ export default {
         en: 'Take licenses',
         de: 'Lizenzen nehmen',
         pl: 'Zabierać licencje',
+        zh:'获取许可证',
     },
     respawnVehicles: {
         ru: 'Респавнить авто',
@@ -124,5 +141,6 @@ export default {
         en: 'Respawn vehicles',
         de: 'Fahrzeuge respawnen',
         pl: 'Respawnować pojazdy',
+        zh:'修复车辆',
     },
 };

@@ -8,5 +8,6 @@ export default {
         en: 'Workshop',
         de: 'Werkstatt',
         pl: 'Warsztat',
+        zh: '工作室',
     },
 };

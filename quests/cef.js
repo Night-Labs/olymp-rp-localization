@@ -6,6 +6,7 @@ export const cef = {
             ru: 'Квесты',
             de: 'Quests',
             pl: 'Zadania',
+            zh:'任务',
         },
         desc: {
             ua: 'Тут розміщенні всі доступні вам квести',
@@ -13,6 +14,7 @@ export const cef = {
             ru: 'Здесь размещены все доступные вам квесты',
             de: 'Hier sind alle Quests verfügbar für dich',
             pl: 'Tutaj znajdziesz wszystkie dostępne dla ciebie zadania',
+            zh:'这里是所有的任务提供给你',
         },
     },
     main: {
@@ -22,6 +24,7 @@ export const cef = {
             ru: 'Список квестов',
             de: 'Quest-Liste',
             pl: 'Lista zadań',
+            zh:'宾客名单',
         },
         tasks: {
             ua: 'Завдання',
@@ -29,6 +32,7 @@ export const cef = {
             en: 'Tasks',
             de: 'Aufgaben',
             pl: 'Zadania',
+            zh:'任务',
         },
     },
     statuses: {
@@ -38,6 +42,7 @@ export const cef = {
             en: 'Completed',
             de: 'Abgeschlossen',
             pl: 'Zakończony',
+            zh:'建成',
         },
         start: {
             ru: 'Начать',
@@ -45,6 +50,7 @@ export const cef = {
             ua: 'Почати',
             de: 'Starten',
             pl: 'Rozpocznij',
+            zh:'开始',
         },
         stop: {
             ru: 'Остановить',
@@ -52,6 +58,7 @@ export const cef = {
             ua: 'Зупинити',
             de: 'Anhalten',
             pl: 'Zatrzymaj',
+           zh:'停止',
         },
         unavailable: {
             ru: 'Недоступен',
@@ -59,6 +66,7 @@ export const cef = {
             ua: 'Недоступний',
             de: 'Nicht verfügbar',
             pl: 'Niedostępny',
+           zh:'不可用',
         },
     },
     complete: {
@@ -68,6 +76,7 @@ export const cef = {
             ru: 'Завершено',
             de: 'Erledigt',
             pl: 'Gotowe',
+           zh:'完成',
         },
         awards: {
             ua: 'Нагороди',
@@ -75,6 +84,7 @@ export const cef = {
             ru: 'Награды',
             de: 'Auszeichnungen',
             pl: 'Nagrody',
+            zh:'奖项',
         },
         button: {
             ua: 'Прийняти',
@@ -82,6 +92,7 @@ export const cef = {
             ru: 'Принять',
             de: 'Akzeptieren',
             pl: 'Akceptuj',
+            zh:'接受',
         },
     },
 };

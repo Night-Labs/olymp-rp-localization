@@ -5,6 +5,7 @@ export const server = {
         en: 'Trucker',
         de: 'Frachtführer',
         pl: 'Przewoźnik towarowy',
+        zh: '卡车司机',
     },
     labels: {
         loaded: {
@@ -13,6 +14,7 @@ export const server = {
             en: 'Items loaded',
             de: 'Artikel geladen',
             pl: 'Załadowane przedmioty',
+            zh: '物品已装载',
         },
         unloaded: {
             ru: 'Товара разгружено',
@@ -20,6 +22,7 @@ export const server = {
             en: 'Items unloaded',
             de: 'Artikel entladen',
             pl: 'Rozładowane przedmioty',
+            zh: '物品已卸载',
         },
     },
     gotJob: {
@@ -28,6 +31,7 @@ export const server = {
         en: 'You have successfully got a job, head to the loading point',
         de: 'Sie haben erfolgreich einen Job gefunden, begeben Sie sich zur Ladezone',
         pl: 'Pomyślnie znalazłeś pracę, udaj się do punktu załadunku',
+        zh: '你已成功找到工作，请前往装载点',
     },
     leaveJob: {
         ru: 'Вы успешно уволились с работы',
@@ -35,6 +39,7 @@ export const server = {
         en: 'You have successfully left the job',
         de: 'Sie haben erfolgreich den Job verlassen',
         pl: 'Pomyślnie zrezygnowałeś z pracy',
+        zh: '你已成功离职',
     },
     startLoading: {
         ru: 'Начинайте загружать товар в машину',
@@ -42,6 +47,7 @@ export const server = {
         en: 'Start loading the goods into the truck',
         de: 'Beginnen Sie mit dem Beladen der Waren in den LKW',
         pl: 'Zacznij załadunek towaru do ciężarówki',
+        zh: '开始将货物装载到卡车',
     },
     startUnloading: {
         ru: 'Начинайте разгружать товар из машины',
@@ -49,6 +55,7 @@ export const server = {
         en: 'Start unloading the goods from the truck',
         de: 'Beginnen Sie mit dem Entladen der Waren aus dem LKW',
         pl: 'Zacznij rozładunek towaru z ciężarówki',
+        zh: '开始从卡车卸载货物',
     },
     firstTakeGoodsFromStorage: {
         ru: 'Сначала возьмите товар со склада',
@@ -56,6 +63,7 @@ export const server = {
         en: 'First take the goods from the warehouse',
         de: 'Nehmen Sie zuerst die Waren aus dem Lager',
         pl: 'Najpierw weź towar ze składu',
+        zh: '首先从仓库取货',
     },
     youLoadedBoxAndEarned: {
         ru: 'Вы загрузили ящик и заработали {{salary}}$',
@@ -63,6 +71,7 @@ export const server = {
         en: 'You loaded a box and earned {{salary}}$',
         de: 'Sie haben eine Kiste geladen und {{salary}}$ verdient',
         pl: 'Załadowałeś skrzynię i zarobiłeś {{salary}}$',
+        zh: '你装载了一个箱子，赚取了{{salary}}$',
     },
     youSuccessfullyUnloadedGoods: {
         ru: 'Вы успешно разгрузили весь товар из машины и заработали {{salary}}. Отправляйтесь на следующую точку загрузки.',
@@ -70,6 +79,7 @@ export const server = {
         en: 'You have successfully unloaded all the goods from the truck and earned {{salary}}. Head to the next loading point.',
         de: 'Sie haben erfolgreich alle Waren aus dem LKW entladen und {{salary}} verdient. Begeben Sie sich zur nächsten Ladezone.',
         pl: 'Pomyślnie rozładowałeś cały towar z ciężarówki i zarobiłeś {{salary}}. Udaj się do następnego punktu załadunku.',
+        zh: '你已成功从卡车卸载所有货物并赚取了{{salary}}。前往下一个装载点。',
     },
     youUnloadedBoxAndEarned: {
         ru: 'Вы разгрузили ящик и заработали {{salary}}$',
@@ -77,6 +87,7 @@ export const server = {
         en: 'You unloaded a box and earned {{salary}}$',
         de: 'Sie haben eine Kiste entladen und {{salary}}$ verdient',
         pl: 'Rozładowałeś skrzynię i zarobiłeś {{salary}}$',
+        zh: '你卸载了一个箱子，赚取了{{salary}}$',
     },
     youSuccessfullyLoadedGoods: {
         ru: 'Вы успешно загрузили весь товар в машину. Отправляйтесь на точку разгрузки.',
@@ -84,6 +95,7 @@ export const server = {
         en: 'You have successfully loaded all the goods into the truck. Head to the unloading point.',
         de: 'Sie haben erfolgreich alle Waren in den LKW geladen. Begeben Sie sich zur Entladezone.',
         pl: 'Pomyślnie załadowałeś cały towar do ciężarówki. Udaj się do punktu rozładowczego.',
+        zh: '你已成功将所有货物装载到卡车。前往卸载点。',
     },
     yourVehicleDestroyed: {
         ru: 'Ваш рабочий транспорт уничтожен, вы уволены',
@@ -91,6 +103,7 @@ export const server = {
         en: 'Your work vehicle has been destroyed, you have been fired',
         de: 'Ihr Arbeitsfahrzeug wurde zerstört, Sie wurden entlassen',
         pl: 'Twój pojazd służbowy został zniszczony, zostałeś zwolniony',
+        zh: '你的工作车辆已被摧毁，你已被解雇',
     },
     returnToLoadingPoint: {
         ru: 'Возвращайтесь на точку загрузки',
@@ -98,6 +111,7 @@ export const server = {
         en: 'Return to the loading point',
         de: 'Zurück zum Ladebereich',
         pl: 'Wróć do punktu załadunku',
+        zh: '返回装载点',
     },
     returnToUnloadingPoint: {
         ru: 'Возвращайтесь на точку разгрузки',
@@ -105,6 +119,7 @@ export const server = {
         en: 'Return to the unloading point',
         de: 'Zurück zum Entladebereich',
         pl: 'Wróć do punktu rozładunku',
+        zh: '返回卸载点',
     },
     youCantEnterVehicle: {
         ru: 'Это не ваш рабочий транспорт',
@@ -112,6 +127,7 @@ export const server = {
         en: 'This is not your work vehicle',
         de: 'Dies ist nicht Ihr Arbeitsfahrzeug',
         pl: 'To nie jest twój pojazd służbowy',
+        zh: '这不是你的工作车辆',
     },
     youHaveReturnedToVehicle: {
         ru: 'Вы вернулись в рабочий транспорт',
@@ -119,6 +135,7 @@ export const server = {
         en: 'You have returned to the work vehicle',
         de: 'Sie sind zum Arbeitsfahrzeug zurückgekehrt',
         pl: 'Wróciłeś do pojazdu służbowego',
+        zh: '你已返回工作车辆',
     },
     youHaveMinuteToReturnToVehicle: {
         ru: 'У вас есть 1 минута чтобы вернуться в рабочий транспорт, иначе вы будете уволены',
@@ -126,6 +143,7 @@ export const server = {
         en: 'You have 1 minute to return to the work vehicle, otherwise you will be fired',
         de: 'Sie haben 1 Minute, um zum Arbeitsfahrzeug zurückzukehren, andernfalls werden Sie entlassen',
         pl: 'Masz 1 minutę na powrót do pojazdu służbowego, w przeciwnym razie zostaniesz zwolniony',
+        zh: '你有1分钟时间返回工作车辆，否则你将被解雇',
     },
     youBeenFired: {
         ru: 'Вы уволены, так как покинули свой рабочий транспорт на продолжительное время',
@@ -133,6 +151,7 @@ export const server = {
         en: 'You have been fired for leaving your work vehicle unattended for an extended period',
         de: 'Sie wurden entlassen, weil Sie Ihr Arbeitsfahrzeug längere Zeit unbeaufsichtigt gelassen haben',
         pl: 'Zostałeś zwolniony za zostawienie pojazdu służbowego bez opieki przez dłuższy czas',
+        zh: '你因长时间离开工作车辆而被解雇',
     },
     yourJobVehicle: {
         ru: 'Ваша рабочая машина',
@@ -140,6 +159,7 @@ export const server = {
         en: 'Your job vehicle',
         de: 'Ihr Arbeitsfahrzeug',
         pl: 'Twój pojazd służbowy',
+        zh: '你的工作车辆',
     },
     loadingPoint: {
         ru: 'Точка загрузки',
@@ -147,6 +167,7 @@ export const server = {
         en: 'Loading point',
         de: 'Ladezone',
         pl: 'Punkt załadunku',
+        zh: '装载点',
     },
     unloadingPoint: {
         ru: 'Точка разгрузки',
@@ -154,5 +175,6 @@ export const server = {
         en: 'Unloading point',
         de: 'Entladezone',
         pl: 'Punkt rozładunku',
+        zh: '卸载点',
     },
 };

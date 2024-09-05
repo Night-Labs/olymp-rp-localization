@@ -6,6 +6,7 @@ export const cef = {
         de: 'Standard',
         pl: 'Domyślny',
     },
+zh: '默认',
 
     setted: {
         ua: 'Встановлено',
@@ -13,6 +14,7 @@ export const cef = {
         ru: 'Установлено',
         de: 'Eingestellt',
         pl: 'Ustawione',
+        zh: '已设置',
     },
 
     engine: {
@@ -21,6 +23,7 @@ export const cef = {
         de: 'Motor',
         pl: 'Motor',
         ua: 'Двигун',
+        zh: '发动机',
     },
 
     engineDesc: {
@@ -29,6 +32,7 @@ export const cef = {
         ru: 'Улучшение двигателя увеличивает эффективность и производительность.',
         de: 'Motorupgrade verbessert Effizienz und Leistung.',
         pl: 'Ulepszenie silnika poprawia wydajność i osiągi.',
+        zh: '发动机升级提高了其效率和性能',
     },
 
     brakes: {
@@ -37,6 +41,7 @@ export const cef = {
         ru: 'Тормоза',
         de: 'Bremsen',
         pl: 'Hamulce',
+        zh: '刹车',
     },
 
     brakesDesc: {
@@ -45,6 +50,7 @@ export const cef = {
         en: 'Choose more efficient brake pads to improve braking.',
         de: 'Wählen Sie effizientere Bremsbeläge für eine bessere Bremsleistung.',
         pl: 'Wybierz bardziej wydajne klocki hamulcowe, aby poprawić hamowanie.',
+        zh: '选择更高效的刹车片以提升制动性能',
     },
 
     transmission: {
@@ -53,6 +59,7 @@ export const cef = {
         ru: 'Трансмиссия',
         de: 'Getriebe',
         pl: 'Skrzynia biegów',
+        zh: '变速器',
     },
 
     transmissionDesc: {
@@ -61,6 +68,7 @@ export const cef = {
         en: 'Improved transmission modifications make the car accelerate faster.',
         de: 'Verbesserte Modifikationen des Getriebes machen das Auto beim Beschleunigen schneller.',
         pl: 'Ulepszone modyfikacje skrzyni biegów sprawiają, że samochód przyspiesza szybciej.',
+        zh: '改进的变速器改装使汽车加速更快。',
     },
 
     turbo: {
@@ -69,6 +77,7 @@ export const cef = {
         ru: 'Турбо надув',
         de: 'Turboaufladung',
         pl: 'Turbosprężarka',
+        zh: '涡轮增压器',
     },
 
     turboDesc: {
@@ -77,6 +86,7 @@ export const cef = {
         en: 'Turbocharger provides the largest increase in vehicle acceleration.',
         de: 'Der Turbolader sorgt für die größte Steigerung der Beschleunigung des Fahrzeugs.',
         pl: 'Turbosprężarka zapewnia największy wzrost przyspieszenia pojazdu.',
+        zh: '涡轮增压器为交通工具提供最大的加速提升。',
     },
 
     suspension: {
@@ -85,6 +95,7 @@ export const cef = {
         ru: 'Подвеска',
         de: 'Aufhängung',
         pl: 'Zawieszenie',
+        zh: '悬挂',
     },
 
     suspensionDesc: {
@@ -93,6 +104,7 @@ export const cef = {
         en: "Customize your car's suspension to your liking.",
         de: 'Passen Sie die Federung Ihres Autos an Ihren Geschmack an.',
         pl: 'Dostosuj zawieszenie swojego samochodu do swoich preferencji.',
+        zh: '根据个人喜好调整汽车悬挂。',
     },
 
     windowsTint: {
@@ -101,6 +113,7 @@ export const cef = {
         ru: 'Тонировка',
         de: 'Fenstertönung',
         pl: 'Tonowanie szyb',
+        zh: '车窗颜色',
     },
 
     spoiler: {
@@ -109,6 +122,7 @@ export const cef = {
         ru: 'Спойлер',
         de: 'Spoiler',
         pl: 'Spojler',
+        zh: '扰流板',
     },
 
     spoilerDesc: {
@@ -117,6 +131,7 @@ export const cef = {
         en: 'Provides not only appearance but also better downforce',
         de: 'Sorgt nicht nur für ein besseres Aussehen, sondern auch für mehr Abtrieb',
         pl: 'Zapewnia nie tylko wygląd, ale także lepszą siłę docisku',
+        zh: '扰流板不仅提供外观，还提供更好的下压力',
     },
 
     frontBumper: {
@@ -125,6 +140,7 @@ export const cef = {
         ru: 'Передний бампер',
         de: 'Vorderer Stoßfänger',
         pl: 'Przedni zderzak',
+        zh: '前保险杠',
     },
 
     frontBumperDesc: {
@@ -133,6 +149,7 @@ export const cef = {
         en: 'Front bumper tuning for a more attractive appearance.',
         de: 'Tuning der vorderen Stoßstange für ein attraktiveres Erscheinungsbild.',
         pl: 'Tuning przedniego zderzaka dla bardziej atrakcyjnego wyglądu.',
+        zh: '前保险杠改装，以获得更具吸引力的外观',
     },
 
     backBumper: {
@@ -141,6 +158,7 @@ export const cef = {
         ru: 'Задний бампер',
         de: 'Hinterer Stoßfänger',
         pl: 'Tylny zderzak',
+        zh: '后保险杠',
     },
 
     backBumperDesc: {
@@ -149,6 +167,7 @@ export const cef = {
         en: 'Rear bumper tuning for a more attractive appearance.',
         de: 'Tuning der hinteren Stoßstange für ein attraktiveres Erscheinungsbild.',
         pl: 'Tuning tylnego zderzaka dla bardziej atrakcyjnego wyglądu.',
+        zh: '后保险杠改装，以获得更具吸引力的外观',
     },
 
     sideSkirt: {
@@ -157,6 +176,7 @@ export const cef = {
         ru: 'Пороги',
         de: 'Seitenschweller',
         pl: 'Progi boczne',
+        zh: '侧裙',
     },
 
     sideSkirtDesc: {
@@ -165,6 +185,7 @@ export const cef = {
         en: 'Side skirt tuning for a more attractive appearance.',
         de: 'Tuning der Seitenschweller für ein attraktiveres Erscheinungsbild.',
         pl: 'Tuning progów bocznych dla bardziej atrakcyjnego wyglądu.',
+        zh: '侧裙改装，以获得更具吸引力的外观',
     },
 
     exhaust: {
@@ -173,6 +194,7 @@ export const cef = {
         ru: 'Глушитель',
         de: 'Auspuffanlage',
         pl: 'Układ wydechowy',
+        zh: '排气系统',
     },
 
     exhaustDesc: {
@@ -181,6 +203,7 @@ export const cef = {
         en: 'Exhaust system tuning.',
         de: 'Tuning der Auspuffanlage.',
         pl: 'Tuning układu wydechowego.',
+        zh: '排气系统改装',
     },
 
     frame: {
@@ -189,6 +212,7 @@ export const cef = {
         ru: 'Каркас безопасности',
         de: 'Sicherheitsrahmen',
         pl: 'Rama bezpieczeństwa',
+        zh: '车架',
     },
 
     frameDesc: {
@@ -197,6 +221,7 @@ export const cef = {
         en: 'Roll cage tuning.',
         de: 'Tuning des Überrollkäfigs.',
         pl: 'Tuning klatki bezpieczeństwa.',
+        zh: '车架改装',
     },
 
     grille: {
@@ -205,6 +230,7 @@ export const cef = {
         ru: 'Решётка радиатора',
         de: 'Kühlergrill',
         pl: 'Grill chłodnicy',
+        zh: '散热器',
     },
 
     grilleDesc: {
@@ -213,6 +239,7 @@ export const cef = {
         en: 'Radiator grille tuning.',
         de: 'Tuning der Kuhlergrill.',
         pl: 'Tuning grillu chłodnicy.',
+        zh: '散热器改装',
     },
 
     hood: {
@@ -221,6 +248,7 @@ export const cef = {
         ru: 'Капот',
         de: 'Motorhaube',
         pl: 'Maska samochodu',
+        zh: '引擎盖',
     },
 
     hoodDesc: {
@@ -229,6 +257,7 @@ export const cef = {
         en: 'Hood tuning.',
         de: 'Tuning der Motorhaube.',
         pl: 'Tuning maski samochodu.',
+        zh: '引擎盖改装',
     },
 
     fenders: {
@@ -237,6 +266,7 @@ export const cef = {
         ru: 'Передние фары',
         de: 'Vordere Kotflügel',
         pl: 'Przednie błotniki',
+        zh: '前挡泥板',
     },
 
     fendersDesc: {
@@ -245,6 +275,7 @@ export const cef = {
         en: 'Front fender and body kit tuning for a more attractive appearance.',
         de: 'Tuning der vorderen Kotflügel und Anbauteile für ein attraktiveres Erscheinungsbild.',
         pl: 'Tuning przednich błotników i zestawów nadwozia dla bardziej atrakcyjnego wyglądu.',
+        zh: '选择更好的前挡泥板和车身套件，以获得更具吸引力的外观',
     },
 
     backFenders: {
@@ -253,6 +284,7 @@ export const cef = {
         ru: 'Задние фары',
         de: 'Hintere Kotflügel',
         pl: 'Tylne błotniki',
+        zh: '后挡泥板',
     },
 
     backFendersDesc: {
@@ -261,6 +293,7 @@ export const cef = {
         en: 'Rear fender and body kit tuning for a more attractive appearance.',
         de: 'Tuning der hinteren Kotflügel und Anbauteile für ein attraktiveres Erscheinungsbild.',
         pl: 'Tuning tylnych błotników i zestawów nadwozia dla bardziej atrakcyjnego wyglądu.',
+        zh: '改进后挡泥板和车身套件，以获得更具吸引力的外观',
     },
 
     roof: {
@@ -269,6 +302,7 @@ export const cef = {
         ru: 'Крыша',
         de: 'Dach',
         pl: 'Dach',
+        zh: '车顶',
     },
 
     roofDesc: {
@@ -277,6 +311,7 @@ export const cef = {
         en: "Roof tuning: replace, remove or decorate your car's roof? Easy!",
         de: 'Dachtuning: Dach ersetzen, entfernen oder dekorieren? Einfach!',
         pl: 'Tuning dachu: wymienić, usunąć lub ozdobić dach swojego samochodu? Łatwo!',
+        zh: '车顶改装：更换、拆除或装饰您的车顶？简单！',
     },
 
     lights: {
@@ -285,6 +320,7 @@ export const cef = {
         ru: 'Фары',
         de: 'Lichter',
         pl: 'Światła',
+        zh: '车灯',
     },
 
     lightsDesc: {
@@ -293,6 +329,7 @@ export const cef = {
         en: "Change the color of your car's headlights.",
         de: 'Ändern Sie die Farbe der Scheinwerfer Ihres Autos.',
         pl: 'Zmień kolor reflektorów swojego samochodu.',
+        zh: '更换您汽车前灯的颜色。',
     },
 
     numberPlate: {
@@ -301,6 +338,7 @@ export const cef = {
         ru: 'Номерной знак',
         de: 'Kennzeichen',
         pl: 'Tablica rejestracyjna',
+        zh: '车牌',
     },
 
     numberPlateDesc: {
@@ -309,6 +347,7 @@ export const cef = {
         en: "Change the color of your car's license plate.",
         de: 'Ändern Sie die Farbe des Nummernschilds Ihres Autos.',
         pl: 'Zmień kolor tablicy rejestracyjnej swojego samochodu.',
+        zh: '改变您汽车车牌的颜色',
     },
 
     paint: {
@@ -317,6 +356,7 @@ export const cef = {
         ru: 'Винил',
         de: 'Lackierung',
         pl: 'Malowanie',
+        zh: '喷漆',
     },
 
     paintDesc: {
@@ -325,6 +365,7 @@ export const cef = {
         en: 'Want to stand out and show the uniqueness and style of your car? Vinyl is what you need!',
         de: 'Wollen Sie sich von der Masse abheben und die Einzigartigkeit und den Stil Ihres Autos zeigen? Vinyl ist das, was Sie brauchen!',
         pl: 'Chcesz się wyróżnić i pokazać wyjątkowość i styl swojego samochodu? Winyl to to, czego potrzebujesz!',
+        zh: '想要让您的汽车脱颖而出，展示其独特性和风格吗？您需要的是车身贴膜！',
     },
 
     sound: {
@@ -333,6 +374,7 @@ export const cef = {
         ru: 'Гудок',
         de: 'Klang',
         pl: 'Dźwięk',
+        zh: '声音',
     },
 
     soundDesc: {
@@ -341,6 +383,7 @@ export const cef = {
         en: "Set a unique sound for your car's horn.",
         de: 'Stellen Sie einen einzigartigen Klang für die Hupe Ihres Autos ein.',
         pl: 'Ustaw unikalny dźwięk klaksonu swojego samochodu.',
+        zh: '为您的汽车喇叭设置一个独特的声音',
     },
 
     color: {
@@ -349,6 +392,7 @@ export const cef = {
         ru: 'Цвет',
         de: 'Farbe',
         pl: 'Kolor',
+        zh: '颜色',
     },
 
     colorDesc: {
@@ -357,6 +401,7 @@ export const cef = {
         en: 'Give your car a unique look by painting its elements in one of 16.7 million color shades.',
         de: 'Verleihen Sie Ihrem Auto ein einzigartiges Aussehen, indem Sie seine Elemente in einem von 16,7 Millionen Farbtönen lackieren.',
         pl: 'Nadaj swojemu samochodowi wyjątkowy wygląd, malując jego elementy w jednym z 16,7 miliona odcieni kolorów.',
+        zh: '选择涂装颜色，使其外观独一无二',
     },
 
     neon: {
@@ -366,6 +411,7 @@ export const cef = {
             en: 'Neon light',
             de: 'Neonlicht',
             pl: 'Neonowe światło',
+            zh: '霓虹灯',
         },
 
         desc: {
@@ -374,6 +420,7 @@ export const cef = {
             en: 'Installing neon lights on the sides of your car will give it a unique look and style.',
             de: 'Die Installation von Neonröhren an den Seiten Ihres Autos verleiht ihm Einzigartigkeit und Stil.',
             pl: 'Montaż neonów po bokach Twojego samochodu nada mu wyjątkowy wygląd i styl.',
+            zh: '在您的汽车侧面安装霓虹灯将赋予它独特的外观和风格',
         },
 
         none: {
@@ -382,6 +429,7 @@ export const cef = {
             en: 'No lighting',
             de: 'Keine Beleuchtung',
             pl: 'Bez podświetlenia',
+            zh: '无照明',
         },
 
         frontBack: {
@@ -390,6 +438,7 @@ export const cef = {
             en: 'Front and back',
             de: 'Vorne und hinten',
             pl: 'Przód i tył',
+            zh: '前和后',
         },
 
         sides: {
@@ -398,6 +447,7 @@ export const cef = {
             en: 'Sides',
             de: 'Seiten',
             pl: 'Boki',
+            zh: '侧面',
         },
 
         all: {
@@ -406,6 +456,7 @@ export const cef = {
             en: 'All sides',
             de: 'Alle Seiten',
             pl: 'Wszystkie strony',
+            zh: '所有侧面',
         },
     },
 
@@ -416,6 +467,7 @@ export const cef = {
             en: 'Wheel type',
             de: 'Radtyp',
             pl: 'Typ koła',
+            zh: '车轮类型',
         },
 
         desc: {
@@ -424,6 +476,7 @@ export const cef = {
             en: 'Select the type of wheels for your car.',
             de: 'Wählen Sie den Radtyp für Ihr Auto.',
             pl: 'Wybierz typ felg do swojego samochodu.',
+            zh: '选择适合您汽车的车轮类型',
         },
 
         sport: {
@@ -432,6 +485,7 @@ export const cef = {
             en: 'Sport',
             de: 'Sport',
             pl: 'Sportowe',
+            zh: '运动型',
         },
 
         muscle: {
@@ -440,6 +494,7 @@ export const cef = {
             en: 'Muscle car',
             de: 'Muscle-Car',
             pl: 'Muscle car',
+            zh: '肌肉车',
         },
 
         lowrider: {
@@ -448,6 +503,7 @@ export const cef = {
             en: 'Lowrider',
             de: 'Lowrider',
             pl: 'Lowrider',
+            zh: '低骑者',
         },
 
         suv: {
@@ -456,6 +512,7 @@ export const cef = {
             en: 'SUV',
             de: 'SUV',
             pl: 'SUV',
+            zh: 'SUV',
         },
 
         offroad: {
@@ -464,11 +521,13 @@ export const cef = {
             en: 'Off-road',
             de: 'Geländewagen',
             pl: 'Samochód terenowy',
+            zh: '越野',
         },
 
         BOriginals: {
             en: 'Bennys Originals',
         },
+
 
         BBespoke: {
             en: 'Bennys Bespoke',
@@ -480,6 +539,7 @@ export const cef = {
             en: 'Street',
             de: 'Straßen-',
             pl: 'Uliczne',
+            zh: '街头',
         },
 
         track: {
@@ -488,6 +548,7 @@ export const cef = {
             en: 'Track',
             de: 'Strecken-',
             pl: 'Torowe',
+            zh: '赛道',
         },
     },
 
@@ -497,6 +558,7 @@ export const cef = {
         en: 'Wheels',
         de: 'Felgen',
         pl: 'Felgi',
+        zh: '轮毂',
     },
 
     wheelIndexDesc: {
@@ -505,6 +567,7 @@ export const cef = {
         en: "Find the perfect wheels for your car's style.",
         de: 'Finden Sie die perfekten Felgen für den Stil Ihres Autos.',
         pl: 'Znajdź idealne felgi do stylu swojego samochodu.',
+        zh: '为您的汽车风格选择完美的轮毂',
     },
 
     windowTint: {
@@ -514,14 +577,15 @@ export const cef = {
             en: 'Window tint',
             de: 'Fenstertönung',
             pl: 'Przyciemnianie szyb',
+            zh: '车窗着色',
         },
-
         desc: {
             ru: 'Конфиденциальность превыше всего.',
             ua: 'Конфіденційність понад усе.',
             en: 'Privacy above all else.',
             de: 'Privatsphäre geht vor.',
             pl: 'Prywatność przede wszystkim.',
+            zh: '隐私至关重要',
         },
 
         none: {
@@ -530,6 +594,7 @@ export const cef = {
             en: 'No tint',
             de: 'Keine Tönung',
             pl: 'Bez przyciemniania',
+            zh: '无着色',
         },
 
         light: {
@@ -538,6 +603,7 @@ export const cef = {
             en: 'Light tint',
             de: 'Leichte Tönung',
             pl: 'Przyciemnianie lekkie',
+            zh: '浅色着色',
         },
 
         medium: {
@@ -546,6 +612,7 @@ export const cef = {
             en: 'Medium tint',
             de: 'Mittlere Tönung',
             pl: 'Przyciemnianie średnie',
+            zh: '中等着色',
         },
 
         dark: {
@@ -554,6 +621,7 @@ export const cef = {
             en: 'Limousine tint',
             de: 'Limousinen-Tönung',
             pl: 'Przyciemnianie limuzynowe',
+            zh: '深色调',
         },
     },
 
@@ -563,6 +631,7 @@ export const cef = {
         en: 'Primary color type',
         de: 'Primärfarbtyp',
         pl: 'Typ koloru podstawowego',
+        zh: '主要颜色类型',
     },
 
     primaryColorTypeDesc: {
@@ -571,6 +640,7 @@ export const cef = {
         en: 'Choose the type of color for the main color of your car.',
         de: 'Wählen Sie die Art der Farbe für die Hauptfarbe Ihres Autos.',
         pl: 'Wybierz typ koloru dla głównego koloru Twojego samochodu.',
+        zh: '为您的汽车选择主要颜色的类型',
     },
 
     secondaryColorType: {
@@ -579,6 +649,7 @@ export const cef = {
         en: 'Secondary color type',
         de: 'Sekundärfarbtyp',
         pl: 'Typ koloru dodatkowego',
+        zh: '次要颜色类型',
     },
 
     secondaryColorTypeDesc: {
@@ -587,6 +658,7 @@ export const cef = {
         en: 'Choose the type of color for the secondary color of your car.',
         de: 'Wählen Sie die Art der Farbe für die Sekundärfarbe Ihres Autos.',
         pl: 'Wybierz typ koloru dla dodatkowego koloru Twojego samochodu.',
+        zh: '为您的汽车选择次要颜色的类型',
     },
 
     colorTypes: {
@@ -596,6 +668,7 @@ export const cef = {
             en: 'Default',
             de: 'Standard',
             pl: 'Domyślny',
+            zh: '普通',
         },
 
         util: {
@@ -604,6 +677,7 @@ export const cef = {
             en: 'Metallic',
             de: 'Metall',
             pl: 'Metaliczny',
+            zh: '金属',
         },
 
         worn: {
@@ -612,6 +686,7 @@ export const cef = {
             en: 'Worn',
             de: 'Gelb',
             pl: 'Worn',
+            zh: '磨损',
         },
 
         matte: {
@@ -620,6 +695,7 @@ export const cef = {
             en: 'Matte',
             de: 'Metallisch',
             pl: 'Matte',
+            zh: '哑光',
         },
 
         metal: {
@@ -628,6 +704,7 @@ export const cef = {
             en: 'Metal',
             de: 'Metallisch',
             pl: 'Metal',
+            zh: '金属',
         },
 
         chrome: {
@@ -636,6 +713,7 @@ export const cef = {
             en: 'Chrome',
             de: 'Metallisch',
             pl: 'Chrome',
+            zh: '铬',
         },
     },
 
@@ -645,6 +723,7 @@ export const cef = {
         ru: 'Тюнинг ателье',
         de: 'Tuning-Werkstatt',
         pl: 'Studio tuningowe',
+        zh: '改装工作室',
     },
 
     catalogue: {
@@ -653,6 +732,7 @@ export const cef = {
         ru: 'Каталог',
         de: 'Katalog',
         pl: 'Katalog',
+        zh: '目录',
     },
 
     cart: {
@@ -661,6 +741,7 @@ export const cef = {
         ru: 'Корзина',
         de: 'Warenkorb',
         pl: 'Koszyk',
+        zh: '购物车',
     },
 
     chooseCategory: {
@@ -669,6 +750,7 @@ export const cef = {
         ru: 'Выбирите категорию',
         de: 'Kategorie auswählen',
         pl: 'Wybierz kategorię',
+        zh: '选择类别',
     },
 
     prev: {
@@ -677,6 +759,7 @@ export const cef = {
         en: 'Prev',
         de: 'Vorherige',
         pl: 'Poprzednia',
+        zh: '上一个',
     },
 
     next: {
@@ -685,6 +768,7 @@ export const cef = {
         en: 'Next',
         de: 'Nächste',
         pl: 'Następna',
+        zh: '下一个',
     },
 
     hints: {
@@ -694,6 +778,7 @@ export const cef = {
             ru: 'Выйти',
             de: 'Schließen',
             pl: 'Zamknij',
+            zh: '关闭',
         },
 
         back: {
@@ -702,6 +787,7 @@ export const cef = {
             ru: 'Назад',
             de: 'Zurück',
             pl: 'Powrót',
+            zh: '返回',
         },
 
         enter: {
@@ -710,6 +796,7 @@ export const cef = {
             ru: 'Перейти',
             de: 'Eintreten',
             pl: 'Wejść',
+            zh: '进入',
         },
 
         removeCart: {
@@ -718,6 +805,7 @@ export const cef = {
             ru: 'Убрать из корзины',
             de: 'Aus dem Warenkorb entfernen',
             pl: 'Usuń z koszyka',
+            zh: '从购物车移除',
         },
 
         addCart: {
@@ -726,6 +814,7 @@ export const cef = {
             ru: 'В корзину',
             de: 'In den Warenkorb legen',
             pl: 'Dodaj do koszyka',
+            zh: '添加到购物车',
         },
 
         buy: {
@@ -734,8 +823,10 @@ export const cef = {
             ru: 'Купить',
             de: 'Kaufen',
             pl: 'Kupować',
+            zh: '购买',
         },
     },
+
     lightsTypes: {
         standart: {
             ua: 'Стандартні фари',
@@ -743,6 +834,7 @@ export const cef = {
             ru: 'Стандартные фары',
             de: 'Standard-Scheinwerfer',
             pl: 'Standardowe reflektory',
+            zh: '标准前灯',
         },
 
         xenon: {
@@ -751,6 +843,7 @@ export const cef = {
             ru: 'Ксеноновые фары',
             de: 'Xenon-Scheinwerfer',
             pl: 'Reflektory ksenonowe',
+            zh: '氙气前灯',
         },
     },
     colors: {
@@ -760,6 +853,7 @@ export const cef = {
             ru: 'Основной цвет',
             de: 'Hauptfarbe',
             pl: 'Kolor podstawowy',
+            zh: '主要颜色',
         },
         secondary: {
             ua: 'Додатковий колір',
@@ -767,6 +861,7 @@ export const cef = {
             ru: 'Дополнительный цвет',
             de: 'Zweite Farbe',
             pl: 'Kolor dodatkowy',
+            zh: '次要颜色',
         },
         wheelColor: {
             ua: 'Колір дисків',
@@ -774,6 +869,7 @@ export const cef = {
             ru: 'Цвет дисков',
             de: 'Felgenfarbe',
             pl: 'Kolor felg',
+            zh: '轮毂颜色',
         },
         neonColor: {
             ru: 'Цвет неона',
@@ -781,6 +877,7 @@ export const cef = {
             en: 'Neon color',
             de: 'Neonfarbe',
             pl: 'Kolor neonu',
+            zh: '霓虹灯颜色',
         },
         reset: {
             ua: 'Скидання',
@@ -788,6 +885,7 @@ export const cef = {
             ru: 'Сброс',
             de: 'Zurücksetzen',
             pl: 'Resetuj',
+            zh: '重置',
         },
         buy: {
             ua: 'Купити',
@@ -795,6 +893,7 @@ export const cef = {
             ru: 'В корзину',
             de: 'Kaufen',
             pl: 'Kupić',
+            zh: '购买',
         },
     },
     modalSet: {
@@ -804,6 +903,7 @@ export const cef = {
             ru: 'Установить тюнинг за ${{price}}?',
             de: 'Tuning für ${{price}} installieren?',
             pl: 'Zainstalować tuning za ${{price}}?',
+            zh: '安装改装 ${{price}}？',
         },
         message: {
             ua: 'Підтверджуючи, тюнінг буде встановлено на ваш транспорт',
@@ -811,6 +911,7 @@ export const cef = {
             ru: 'При подтверждении тюнинг будет установлен на ваш транспорт',
             de: 'Durch Bestätigung wird das Tuning an Ihrem Fahrzeug installiert',
             pl: 'Potwierdzając, tuning zostanie zainstalowany w twoim pojeździe',
+            zh: '确认后，改装将被安装到您的汽车上',
         },
         confirmButton: {
             ua: 'Купити',
@@ -818,6 +919,7 @@ export const cef = {
             ru: 'Купить',
             de: 'Kaufen',
             pl: 'Kupić',
+            zh: '购买',
         },
         cancelButton: {
             ua: 'Скасувати',
@@ -825,6 +927,7 @@ export const cef = {
             ru: 'Отменить',
             de: 'Abbrechen',
             pl: 'Anulować',
+            zh: '取消',
         },
     },
     modalLeave: {
@@ -834,6 +937,7 @@ export const cef = {
             ru: 'Покинуть тюнинг?',
             de: 'Tuning verlassen?',
             pl: 'Opuszczać tuning?',
+            zh: '离开改装？',
         },
         message: {
             ua: 'Ви впевнені, що хочете покинути тюнінг? у вашій кошику {{count}} предметів',
@@ -841,6 +945,7 @@ export const cef = {
             ru: 'Вы уверены, что хотите покинуть тюнинг? в вашей корзине {{count}} предметов',
             de: 'Sind Sie sicher, dass Sie das Tuning verlassen möchten? Es befinden sich {{count}} Artikel in Ihrem Warenkorb',
             pl: 'Czy na pewno chcesz opuścić tuning? W koszyku znajduje się {{count}} przedmiotów',
+            zh: '您确定要离开改装吗？您的购物车中有 {{count}} 个项目',
         },
         confirmButton: {
             ua: 'Покинути',
@@ -848,6 +953,7 @@ export const cef = {
             ru: 'Покинуть',
             de: 'Verlassen',
             pl: 'Opuścić',
+            zh: '离开',
         },
         cancelButton: {
             ua: 'Залишитися',
@@ -855,6 +961,7 @@ export const cef = {
             ru: 'Остаться',
             de: 'Bleiben',
             pl: 'Zostać',
+            zh: '留下',
         },
     },
 };

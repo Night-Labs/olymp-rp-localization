@@ -5,6 +5,7 @@ export default {
         en: 'Path to Mastery',
         de: 'Weg zur Meisterschaft',
         pl: 'Droga do mistrzostwa',
+        zh:'通往精深之路',
     },
     desc: {
         ru: 'Всё начинается с первого шага, и в игре не исключение! Ты уже вплотную приближаешься к новым возможностям и приключениям. Дай себе жару, достигни третьего уровня, и докажи, что ты готов к большему!',
@@ -12,5 +13,6 @@ export default {
         en: `Everything starts with the first step, and the game is no exception! You're getting closer to new opportunities and adventures. Push yourself, reach the third level, and prove you're ready for more!`,
         de: 'Alles beginnt mit dem ersten Schritt, und das Spiel ist keine Ausnahme! Du näherst dich bereits neuen Möglichkeiten und Abenteuern. Gib alles, erreiche das dritte Level und beweise, dass du bereit für mehr bist!',
         pl: 'Wszystko zaczyna się od pierwszego kroku, a gra nie jest wyjątkiem! Już zbliżasz się do nowych możliwości i przygód. Dodaj sobie energii, osiągnij trzeci poziom i udowodnij, że jesteś gotowy na więcej!',
+        zh:'一切都从第一步开始，游戏也不例外!你离新的机会和冒险越来越近了。鞭策自己，达到第三级，并证明你已经准备好迎接更多!',
     },
 };

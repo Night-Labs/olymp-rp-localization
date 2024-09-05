@@ -5,6 +5,7 @@ export const cef = {
         en: 'Bus Driver Job',
         de: 'Job als Busfahrer',
         pl: 'Praca kierowcy autobusu',
+        zh: '公交车司机工作',
     },
     desc: {
         ru: 'Выберите маршрут по которому будете ездить',
@@ -12,6 +13,7 @@ export const cef = {
         en: 'Choose the route you will drive',
         de: 'Wählen Sie die Route, auf der Sie fahren werden',
         pl: 'Wybierz trasę, którą będziesz prowadzić',
+        zh: '选择你将驾驶的路线',
     },
     buttons: {
         cancel: {
@@ -20,6 +22,7 @@ export const cef = {
             en: 'Cancel',
             de: 'Abbrechen',
             pl: 'Anulować',
+            zh: '取消',
         },
         select: {
             ru: 'Выбрать',
@@ -27,6 +30,7 @@ export const cef = {
             en: 'Select',
             de: 'Auswählen',
             pl: 'Wybierz',
+            zh: '选择',
         },
     },
     routes: {
@@ -36,6 +40,7 @@ export const cef = {
             en: 'First',
             de: 'Erste',
             pl: 'Pierwszy',
+            zh: '第一个',
         },
         sa: {
             ru: 'Сан-Андреас',
@@ -43,6 +48,7 @@ export const cef = {
             en: 'San Andreas',
             de: 'San Andreas',
             pl: 'San Andreas',
+            zh: '圣安地列斯',
         },
         airport: {
             ru: 'Аэропорт',
@@ -50,6 +56,7 @@ export const cef = {
             en: 'Airport',
             de: 'Flughafen',
             pl: 'Lotnisko',
+            zh: '机场',
         },
         sandyShorts: {
             ru: 'Лос Сантос - Сэнди Шортс',
@@ -57,6 +64,7 @@ export const cef = {
             en: 'Los Santos - Sandy Shorts',
             de: 'Los Santos - Sandy Shorts',
             pl: 'Los Santos - Sandy Shorts',
+            zh: '洛圣都 - Sandy Shorts',
         },
         jobs: {
             ru: 'По работам',
@@ -64,6 +72,7 @@ export const cef = {
             en: 'Jobs',
             de: 'Jobs',
             pl: 'Prace',
+            zh: '工作',
         },
     },
 };

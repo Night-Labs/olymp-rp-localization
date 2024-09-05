@@ -6,6 +6,7 @@ export default {
         en: 'Loaded:',
         de: 'Geladen:',
         pl: 'Załadowano:',
+       zh:'已加载',
     },
     left: {
         ru: 'Осталось:',
@@ -13,6 +14,7 @@ export default {
         en: 'Remaining:',
         de: 'Verbleibend:',
         pl: 'Pozostało:',
+        zh:'剩余',
     },
     suply: {
         ru: 'Поставка',
@@ -20,6 +22,7 @@ export default {
         en: 'Supply',
         de: 'Lieferung',
         pl: 'Dostawa',
+        zh:'设置',
     },
 
     // chat
@@ -29,6 +32,7 @@ export default {
         en: '~r~[SUPPLY] A supply delivery has started, hurry up and join it!',
         de: '~r~[LIEFERUNG] Eine Lieferlieferung hat begonnen, beeilen Sie sich und nehmen Sie daran teil!',
         pl: '~r~[DOSTAWA] Rozpoczęła się dostawa materiałów, śpiesz się i dołącz do niej!',
+        zh:'~r~[GETS]材料交付开始了，赶紧加入吧！',
     },
     loadingComplete: {
         ru: '~r~[ПОСТАВКА] Погрузка материалов закончена, отправляйтесь на свою базу и разгружайте грузовики!',
@@ -36,6 +40,7 @@ export default {
         en: '~r~[SUPPLY] Loading of supplies is complete, head to your base and unload the trucks!',
         de: '~r~[LIEFERUNG] Das Laden der Vorräte ist abgeschlossen, begeben Sie sich zu Ihrer Basis und entladen Sie die LKWs!',
         pl: '~r~[DOSTAWA] Załadunek materiałów jest zakończony, udaj się na swoją bazę i rozładuj ciężarówki!',
+        zh: '~r~[LEFT]材料装载完成，去你的基地卸下卡车',
     },
 
     // Suply
@@ -45,6 +50,7 @@ export default {
         en: 'How does it work?',
         de: 'Wie funktioniert es?',
         pl: 'Jak to działa?',
+       zh:'它是如何工作的？',
     },
     registration: {
         ru: 'Оформление',
@@ -52,6 +58,7 @@ export default {
         en: 'Registration',
         de: 'Anmeldung',
         pl: 'Rejestracja',
+       zh:'注册',
     },
     info: {
         ru: 'Информация',
@@ -59,6 +66,7 @@ export default {
         en: 'Information',
         de: 'Informationen',
         pl: 'Informacje',
+        zh:'信息',
     },
     pickQuantity: {
         ru: 'Укажите кол-во которое вы хотите заказать',
@@ -66,6 +74,7 @@ export default {
         en: 'Specify the quantity you want to order',
         de: 'Geben Sie die Menge an, die Sie bestellen möchten',
         pl: 'Podaj ilość, którą chcesz zamówić',
+        zh:'给我你要订购的数量',
     },
     pickType: {
         ru: 'Укажите тип материалов',
@@ -73,6 +82,7 @@ export default {
         en: 'Specify the type of materials',
         de: 'Geben Sie die Art der Materialien an',
         pl: 'Podaj rodzaj materiałów',
+        zh:'指定材料类型',
     },
     materials: {
         ru: 'Материалы',
@@ -80,6 +90,7 @@ export default {
         en: 'Materials',
         de: 'Materialien',
         pl: 'Materiały',
+        zh:'材料',
     },
     medicalMaterials: {
         ru: 'Мед. материалы',
@@ -87,6 +98,7 @@ export default {
         en: 'Med. materials',
         de: 'Med. Materialien',
         pl: 'Materiały medyczne',
+        zh:'医学材料',
     },
     order: {
         ru: 'Заказать',
@@ -94,6 +106,7 @@ export default {
         en: 'Order',
         de: 'Bestellen',
         pl: 'Zamów',
+       zh:'订单',
     },
     materialsDesc: {
         ru: 'После оформления заказа вашей фракции нужно сесть в нужные авто, и отправится на нужную точку на карте, а там перенести ящики из склада в машины, после отправится назад и также разгрузить их',
@@ -101,6 +114,7 @@ export default {
         en: 'After placing an order for your faction, you need to get into the necessary vehicles, go to the desired point on the map, transfer the boxes from the warehouse to the cars, then go back and unload them as well.',
         de: 'Nachdem Sie eine Bestellung für Ihre Fraktion aufgegeben haben, müssen Sie in die entsprechenden Fahrzeuge steigen, zum gewünschten Punkt auf der Karte fahren, die Kisten vom Lager in die Fahrzeuge umladen, dann zurückfahren und diese ebenfalls entladen.',
         pl: 'Po złożeniu zamówienia dla swojej frakcji musisz wsiąść do odpowiednich pojazdów, udać się do wyznaczonego punktu na mapie, przenieść skrzynie ze magazynu do pojazdów, a następnie wrócić i również je rozładować',
+        zh:'一旦你的阵营被命令，你必须坐在车里，去地图上正确的地方，你必须把箱子从仓库搬到车上，然后你也必须回去卸货',
     },
 
     // info page
@@ -110,6 +124,7 @@ export default {
         en: 'Type of supplies',
         de: 'Art der Materialien',
         pl: 'Typ materiałów',
+        zh:'材料类型',
     },
     quantity: {
         ru: 'Количество',
@@ -117,6 +132,7 @@ export default {
         en: 'Quantity',
         de: 'Menge',
         pl: 'Ilość',
+        zh:'数量',
     },
     time: {
         ru: 'Время',
@@ -124,6 +140,7 @@ export default {
         en: 'Time',
         de: 'Zeit',
         pl: 'Czas',
+        zh:'时间',
     },
     motivationText: {
         ru: 'Скорее отправляйтесь на текущую поставку',
@@ -131,6 +148,7 @@ export default {
         en: 'Hurry up and head to the current delivery!',
         de: 'Beeilen Sie sich und machen Sie sich auf den Weg zur aktuellen Lieferung!',
         pl: 'Spiesz się i udaj się na bieżącą dostawę!',
+       zh:'快点，去目前交货的路上！',
     },
     cooldown: {
         ru: 'Перезарядка',
@@ -138,5 +156,6 @@ export default {
         en: 'Cooldown',
         de: 'Abklingzeit',
         pl: 'Czas odnowienia',
+        zh:'重新加载',
     },
 };

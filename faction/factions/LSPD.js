@@ -5,6 +5,7 @@ export default {
         en: 'LSPD',
         de: 'LSPD',
         pl: 'LSPD',
+        zh:'LSPD',
     },
     ranks: {
         cadet: {
@@ -13,6 +14,7 @@ export default {
             en: 'Cadet',
             de: 'Kadett',
             pl: 'Kadet',
+            zh:'学员',
         },
         senior_cadet: {
             ru: 'Старший кадет',
@@ -20,6 +22,7 @@ export default {
             en: 'Senior Cadet',
             de: 'Senior Kadett',
             pl: 'Starszy kadet',
+            zh:'高级学员',
         },
         trainee_officer: {
             ru: 'Офицер стажер',
@@ -27,6 +30,7 @@ export default {
             en: 'Trainee Officer',
             de: 'Auszubildender Offizier',
             pl: 'Stażysta oficer',
+            zh:'教练官',
         },
         corporal: {
             ru: 'Капрал',
@@ -34,6 +38,7 @@ export default {
             en: 'Corporal',
             de: 'Gefreiter',
             pl: 'Kapral',
+           zh:'下士',
         },
         sergeant: {
             ru: 'Сержант',
@@ -41,6 +46,7 @@ export default {
             en: 'Sergeant',
             de: 'Sergeant',
             pl: 'Sierżant',
+            zh:'中士',
         },
         staff_sergeant: {
             ru: 'Штаб-Сержант',
@@ -48,6 +54,7 @@ export default {
             en: 'Staff Sergeant',
             de: 'Stabsfeldwebel',
             pl: 'Starszy sierżant',
+            zh:'上士',
         },
         lieutenant: {
             ru: 'Лейтенант',
@@ -55,6 +62,7 @@ export default {
             en: 'Lieutenant',
             de: 'Leutnant',
             pl: 'Porucznik',
+            zh:'中尉',
         },
         captain: {
             ru: 'Капитан',
@@ -62,6 +70,7 @@ export default {
             en: 'Captain',
             de: 'Kapitän',
             pl: 'Kapitan',
+            zh:'船长',
         },
         department_inspector: {
             ru: 'Инспектор отдела',
@@ -69,6 +78,7 @@ export default {
             en: 'Department Inspector',
             de: 'Abteilungsinspektor',
             pl: 'Inspektor działu',
+            zh:'部门检查员',
         },
         department_head: {
             ru: 'Начальник отдела',
@@ -76,6 +86,7 @@ export default {
             en: 'Department Head',
             de: 'Abteilungsleiter',
             pl: 'Kierownik działu',
+            zh:'单位负责人',
         },
         deputy_chief: {
             ru: 'Заместитель Шефа',
@@ -83,6 +94,7 @@ export default {
             en: 'Deputy Chief',
             de: 'Stellvertretender Chef',
             pl: 'Zastępca szefa',
+            zh:'副局长',
         },
         chief: {
             ru: 'Шеф',
@@ -90,6 +102,7 @@ export default {
             en: 'Chief',
             de: 'Chef',
             pl: 'Szef',
+            zh:'局长',
         },
     },
 };

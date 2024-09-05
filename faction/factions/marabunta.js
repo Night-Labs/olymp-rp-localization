@@ -5,6 +5,7 @@ export default {
         en: 'Marabunta Grande',
         de: 'Marabunta Grande',
         pl: 'Marabunta Grande',
+        zh:'大马拉邦塔',
     },
     ranks: {
         forastero: {
@@ -13,6 +14,7 @@ export default {
             en: 'Forastero',
             de: 'Forastero',
             pl: 'Forastero',
+            zh:'福拉斯特罗',
         },
         jovenes: {
             ru: 'Jovenes',
@@ -20,6 +22,7 @@ export default {
             en: 'Jovenes',
             de: 'Jovenes',
             pl: 'Jovenes',
+            zh:'年轻人',
         },
         formado: {
             ru: 'Formado',
@@ -27,6 +30,7 @@ export default {
             en: 'Formado',
             de: 'Formado',
             pl: 'Formado',
+            zh:'格式',
         },
         bandido: {
             ru: 'Bandido',
@@ -34,6 +38,7 @@ export default {
             en: 'Bandido',
             de: 'Bandido',
             pl: 'Bandido',
+            zh:'土匪',
         },
         verificado: {
             ru: 'Verificado',
@@ -41,6 +46,7 @@ export default {
             en: 'Verificado',
             de: 'Verificado',
             pl: 'Verificado',
+            zh:'已验证',
         },
         matador: {
             ru: 'Matador',
@@ -48,6 +54,7 @@ export default {
             en: 'Matador',
             de: 'Matador',
             pl: 'Matador',
+            zh:'杀手',
         },
         elegante: {
             ru: 'Elegante',
@@ -55,6 +62,7 @@ export default {
             en: 'Elegante',
             de: 'Elegante',
             pl: 'Elegante',
+            zh:'优雅',
         },
         suplente: {
             ru: 'Suplente',
@@ -62,6 +70,7 @@ export default {
             en: 'Suplente',
             de: 'Suplente',
             pl: 'Suplente',
+            zh:'至高无上',
         },
         adjunto: {
             ru: 'Adjunto',
@@ -69,6 +78,7 @@ export default {
             en: 'Adjunto',
             de: 'Adjunto',
             pl: 'Adjunto',
+            zh:'在一起',
         },
         padre: { ru: 'Padre', ua: 'Padre', en: 'Padre', de: 'Padre', pl: 'Padre' },
     },

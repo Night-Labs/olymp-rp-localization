@@ -8,6 +8,7 @@ export const weapons = {
                 en: '9mm ammo',
                 de: '9mm Munition',
                 pl: 'Amunicja 9mm',
+                zh:'9毫米弹药',
             },
             desc: {
                 ru: 'Коробка с патронами 9мм, идеально подходящими для большинства пистолетов и некоторых автоматов.',
@@ -15,6 +16,7 @@ export const weapons = {
                 en: 'A box of 9mm ammo, perfect for most pistols and some automatics.',
                 de: 'Eine Schachtel mit 9mm Patronen, ideal für die meisten Pistolen und einige Automatikwaffen.',
                 pl: 'Pudełko z amunicją 9mm, idealne do większości pistoletów i niektórych automatów.',
+               zh:'一个有9毫米图案的盒子，非常适合大多数手枪和一些自动武器',
             },
         },
         '12gauge': {
@@ -24,6 +26,7 @@ export const weapons = {
                 en: '12-gauge ammo',
                 de: '12-Kaliber Munition',
                 pl: 'Amunicja 12-kalibrowa',
+               zh:'12口径弹药',
             },
             desc: {
                 ru: 'Коробка с 12-калибровыми патронами, обеспечивающими мощный выстрел из дробовика.',
@@ -31,6 +34,7 @@ export const weapons = {
                 en: 'A box of 12-gauge ammo, providing a powerful shot from a shotgun.',
                 de: 'Eine Schachtel mit 12-Kaliber Patronen, die einen kräftigen Schuss aus einer Schrotflinte ermöglichen.',
                 pl: 'Pudełko z amunicją 12-kalibrową, zapewniającą potężny strzał z strzelby.',
+                zh:'一盒12号口径的弹药，用霰弹枪射出威力强大的子弹',
             },
         },
         '556mm': {
@@ -40,6 +44,7 @@ export const weapons = {
                 en: '5.56mm ammo',
                 de: '5,56mm Munition',
                 pl: 'Amunicja 5,56mm',
+               zh:'5.56毫米弹药',
             },
             desc: {
                 ru: 'Коробка с 5.56мм патронами, обеспечивающими высокую точность и урон при стрельбе из автомата.',
@@ -47,6 +52,7 @@ export const weapons = {
                 en: 'A box of 5.56mm ammo, providing high accuracy and damage when firing from an automatic rifle.',
                 de: 'Eine Schachtel mit 5,56mm Patronen, die eine hohe Genauigkeit und Schaden beim Schießen aus einem Automatikgewehr ermöglichen.',
                 pl: 'Pudełko z amunicją 5,56mm, zapewniającą wysoką celność i obrażenia podczas strzelania z karabinu automatycznego.',
+                zh:'一盒5.56毫米弹药，在自动步枪射击时提供高精度和伤害',
             },
         },
         308: {
@@ -56,6 +62,7 @@ export const weapons = {
                 en: '.308 ammo',
                 de: '.308 Munition',
                 pl: 'Amunicja .308',
+                zh:'308弹药',
             },
             desc: {
                 ru: 'Коробка с .308 патронами, обеспечивающими высокую точность на дальних дистанциях при стрельбе из снайперской винтовки.',
@@ -63,6 +70,7 @@ export const weapons = {
                 en: 'A box of .308 ammo, providing high accuracy at long distances when firing from a sniper rifle.',
                 de: 'Eine Schachtel mit .308 Patronen, die eine hohe Genauigkeit auf weite Entfernungen beim Schießen aus einem Scharfschützengewehr ermöglichen.',
                 pl: 'Pudełko z amunicją .308, zapewniającą wysoką celność na dużych dystansach podczas strzelania z karabinu snajperskiego.',
+               zh:'308口径的子弹，从狙击步枪上发射时，可以在远距离提供高精度',
             },
         },
         '762mm': {
@@ -72,6 +80,7 @@ export const weapons = {
                 en: '7.62mm ammo',
                 de: '7,62mm Munition',
                 pl: 'Amunicja 7,62mm',
+               zh:'7.62毫米弹药',
             },
             desc: {
                 ru: 'Коробка с 7.62мм патронами, обеспечивающими высокую точность и урон при стрельбе из винтовки с оптическим прицелом.',
@@ -79,6 +88,7 @@ export const weapons = {
                 en: 'A box of 7.62mm ammo, providing high accuracy and damage when firing from a rifle with an optical sight.',
                 de: 'Eine Schachtel mit 7,62mm Patronen, die eine hohe Genauigkeit und Schaden beim Schießen aus einem Gewehr mit optischem Visier ermöglichen.',
                 pl: 'Pudełko z amunicją 7,62mm, zapewniającą wysoką celność i obrażenia podczas strzelania z karabinu z celownikiem optycznym.',
+                zh:'一种带有7.62毫米图案的盒子，当从具有光学视觉的武器发射时，可以实现高精度和高伤害',
             },
         },
         '45acp': {
@@ -88,6 +98,7 @@ export const weapons = {
                 en: '.45 ACP ammo',
                 de: '.45 ACP Munition',
                 pl: 'Amunicja .45 ACP',
+               zh:'45口径弹药',
             },
             desc: {
                 ru: 'Коробка с .45 ACP патронами, обеспечивающими высокую скорострельность и урон при стрельбе из пистолета-пулемета.',
@@ -95,6 +106,7 @@ export const weapons = {
                 en: 'A box of .45 ACP ammo, providing high rate of fire and damage when shooting from a submachine gun.',
                 de: 'Eine Schachtel mit .45 ACP Patronen, die eine hohe Feuerrate und Schaden beim Schießen aus einer Maschinenpistole ermöglichen.',
                 pl: 'Pudełko z amunicją .45 ACP, zapewniającą wysoką szybkostrzelność i obrażenia podczas strzelania z pistoletu maszynowego.',
+                zh:'一盒.45 ACP弹药，在冲锋枪射击时提供高射速和高伤害',
             },
         },
     },
@@ -107,6 +119,7 @@ export const weapons = {
                 en: 'Nightstick',
                 de: 'Polizeiknüppel',
                 pl: 'Pałka policyjna',
+                zh:'警棍',
             },
             desc: {
                 ru: 'Прочное ручное оружие из дерева или металла, используемое для нанесения ударов.',
@@ -114,6 +127,7 @@ export const weapons = {
                 en: 'A sturdy handheld weapon made of wood or metal, used to inflict blows.',
                 de: 'Eine robuste Handwaffe aus Holz oder Metall, die zum Schlagen verwendet wird.',
                 pl: 'Trwała broń ręczna z drewna lub metalu, używana do zadawania uderzeń.',
+               zh:'一种坚固的木制或金属制手持武器，用于击打',
             },
         },
         knife: {
@@ -123,6 +137,7 @@ export const weapons = {
                 en: 'Knife',
                 de: 'Messer',
                 pl: 'Nóż',
+               zh:'刀',
             },
             desc: {
                 ru: 'Военный нож',
@@ -130,6 +145,7 @@ export const weapons = {
                 en: 'Military knife',
                 de: 'Militärisches Messer',
                 pl: 'Nóż wojskowy',
+               zh:'军刀',
             },
         },
         bat: {
@@ -139,6 +155,7 @@ export const weapons = {
                 en: 'Bat',
                 de: 'Schläger',
                 pl: 'Kij',
+               zh:'蝙蝠',
             },
             desc: {
                 ru: 'Простая и надежная бита для защиты и нападения.',
@@ -146,6 +163,7 @@ export const weapons = {
                 en: 'A simple and reliable bat for defense and offense.',
                 de: 'Ein einfacher und zuverlässiger Schläger zur Verteidigung und Angriff.',
                 pl: 'Prosty i niezawodny kij do obrony i ataku.',
+               zh:'一场简单而充满希望的保护和攻击之战',
             },
         },
         crowbar: {
@@ -155,6 +173,7 @@ export const weapons = {
                 en: 'Crowbar',
                 de: 'Brecheisen',
                 pl: 'Łom',
+                zh:'撬棍',
             },
             desc: {
                 ru: 'Инструмент, используемый для силового вскрытия или разрушения.',
@@ -162,6 +181,7 @@ export const weapons = {
                 en: 'A tool used for forcible entry or destruction.',
                 de: 'Ein Werkzeug, das für gewaltsames Eindringen oder Zerstörung verwendet wird.',
                 pl: 'Narzędzie służące do siłowego wejścia lub zniszczenia.',
+               zh:'用于强力打开或破坏的工具',
             },
         },
         hammer: {
@@ -171,6 +191,7 @@ export const weapons = {
                 en: 'Hammer',
                 de: 'Hammer',
                 pl: 'Młotek',
+               zh:'锤子',
             },
             desc: {
                 ru: 'Инструмент, используемый для забивания гвоздей или разрушения.',
@@ -178,6 +199,7 @@ export const weapons = {
                 en: 'A tool used for driving nails or destruction.',
                 de: 'Ein Werkzeug, das zum Eintreiben von Nägeln oder zur Zerstörung verwendet wird.',
                 pl: 'Narzędzie służące do wbijania gwoździ lub niszczenia.',
+               zh:'用于钉钉子或破坏的工具',
             },
         },
         hatchet: {
@@ -187,6 +209,7 @@ export const weapons = {
                 en: 'Hatchet',
                 de: 'Beil',
                 pl: 'Siekiera',
+               zh:'斧头',
             },
             desc: {
                 ru: 'Маленький топорик для различных задач, таких как рубка дерева.',
@@ -194,6 +217,7 @@ export const weapons = {
                 en: 'A small axe used for various tasks such as chopping wood.',
                 de: 'Eine kleine Axt, die für verschiedene Aufgaben wie das Hacken von Holz verwendet wird.',
                 pl: 'Mała siekiera używana do różnych zadań, takich jak rąbanie drewna.',
+               zh:'一种用于砍柴等各种任务的小斧头',
             },
         },
         flashlight: {
@@ -203,6 +227,7 @@ export const weapons = {
                 en: 'Flashlight',
                 de: 'Taschenlampe',
                 pl: 'Latarka',
+                zh:'手电筒',
             },
             desc: {
                 ru: 'Портативный источник света, который можно использовать в темноте.',
@@ -210,6 +235,7 @@ export const weapons = {
                 en: 'A portable light source that can be used in the dark.',
                 de: 'Eine tragbare Lichtquelle, die im Dunkeln verwendet werden kann.',
                 pl: 'Przenośne źródło światła, które można używać w ciemności.',
+                zh:'一种可以在黑暗中使用的便携式光源',
             },
         },
         wrench: {
@@ -219,6 +245,7 @@ export const weapons = {
                 en: 'Adjustable Wrench',
                 de: 'Verstellbarer Schraubenschlüssel',
                 pl: 'Klucz nastawny',
+               zh:'可调节扳手',
             },
             desc: {
                 ru: 'Инструмент, используемый для работы с гаечными соединениями.',
@@ -226,6 +253,7 @@ export const weapons = {
                 en: 'A tool used for working with nut and bolt connections.',
                 de: 'Ein Werkzeug, das zum Arbeiten mit Schraubenverbindungen verwendet wird.',
                 pl: 'Narzędzie służące do pracy z połączeniami śrubowymi.',
+                zh:'用来拧螺丝的工具',
             },
         },
         golfclub: {
@@ -235,6 +263,7 @@ export const weapons = {
                 en: 'Golf Club',
                 de: 'Golf Schläger',
                 pl: 'Kij golfowy',
+                zh:'高尔夫',
             },
             desc: {
                 ru: 'Инструмент, используемый в игре в гольф для удара по мячу.',
@@ -242,6 +271,7 @@ export const weapons = {
                 en: 'A tool used in the game of golf to strike the ball.',
                 de: 'Ein Werkzeug, das im Golfspiel zum Schlagen des Balls verwendet wird.',
                 pl: 'Narzędzie używane w grze w golfa do uderzania piłki.',
+                zh:'打高尔夫球时用来击球的工具',
             },
         },
         poolcue: {
@@ -251,6 +281,7 @@ export const weapons = {
                 en: 'Pool Cue',
                 de: 'Billard Queue',
                 pl: 'Kij bilardowy',
+               zh:'台球',
             },
             desc: {
                 ru: 'Инструмент, используемый в игре в бильярд для удара по шару.',
@@ -258,6 +289,7 @@ export const weapons = {
                 en: 'A tool used in the game of pool to strike the ball.',
                 de: 'Ein Werkzeug, das im Billardspiel zum Schlagen des Balls verwendet wird.',
                 pl: 'Narzędzie używane w grze w bilard do uderzania piłki.',
+               zh:'用来玩台球击球的工具',
             },
         },
         petrolcan: {
@@ -267,6 +299,7 @@ export const weapons = {
                 en: 'Petrol Can',
                 de: 'Benzinkanister',
                 pl: 'Kanister z benzyną',
+                zh:'油罐车',
             },
             desc: {
                 ru: 'Контейнер для хранения и перевозки бензина.',
@@ -274,6 +307,7 @@ export const weapons = {
                 en: 'A container used for storing and transporting petrol.',
                 de: 'Ein Behälter, der zum Lagern und Transportieren von Benzin verwendet wird.',
                 pl: 'Pojemnik służący do przechowywania i transportu benzyny.',
+               zh:'用于储存和运输汽油的容器',
             },
         },
         dagger: {
@@ -283,6 +317,7 @@ export const weapons = {
                 en: 'Cavalry Dagger',
                 de: 'Kavallerie Dolch',
                 pl: 'Szponton kawaleryjski',
+                zh:',骑兵匕首',
             },
             desc: {
                 ru: 'Оружие с коротким лезвием и рукояткой, используемое в качестве холодного оружия.',
@@ -290,6 +325,7 @@ export const weapons = {
                 en: 'A weapon with a short blade and handle, used as a cold ',
                 de: 'Eine Waffe mit kurzer Klinge und Griff, die als Kaltwaffe verwendet wird.',
                 pl: 'Broń o krótkim ostrzu i rękojeści, używana jako broń biała.',
+                zh:'短木和手套制成的武器，用作冷兵器',
             },
         },
         knuckle: {
@@ -299,6 +335,7 @@ export const weapons = {
                 en: 'Knuckle Duster',
                 de: 'Schlagring',
                 pl: 'Kastet',
+                zh:'卡斯特',
             },
             desc: {
                 ru: 'Ручное холодное оружие, предназначенное для усиления ударов кулаками.',
@@ -306,6 +343,7 @@ export const weapons = {
                 en: 'Handheld cold weapon designed to enhance punches.',
                 de: 'Handgeführte Kaltwaffe, die dazu dient, Schläge zu verstärken.',
                 pl: 'Ręczna broń biała zaprojektowana do wzmocnienia ciosów pięściami.',
+                zh:'旨在增强拳击的手持冷兵器',
             },
         },
         machete: {
@@ -315,6 +353,7 @@ export const weapons = {
                 en: 'Machete',
                 de: 'Machete',
                 pl: 'Maczeta',
+               zh:'砍刀',
             },
             desc: {
                 ru: 'Крупный нож с широким лезвием, используемый для рубки и разрубания.',
@@ -322,6 +361,7 @@ export const weapons = {
                 en: 'A large knife with a broad blade, used for cutting and chopping.',
                 de: 'Ein großes Messer mit breiter Klinge, das zum Schneiden und Hacken verwendet wird.',
                 pl: 'Duży nóż o szerokim ostrzu, używany do cięcia i krojenia.',
+                zh:'一把宽刃大刀，用于切割和剁碎',
             },
         },
         battleaxe: {
@@ -331,6 +371,7 @@ export const weapons = {
                 en: 'Battleaxe',
                 de: 'Streitaxt',
                 pl: 'Topór bojowy',
+                zh:'战斧',
             },
             desc: {
                 ru: 'Тяжелый топор с длинной ручкой, применяемый в бою.',
@@ -338,6 +379,7 @@ export const weapons = {
                 en: 'A heavy axe with a long handle, used in combat.',
                 de: 'Eine schwere Axt mit einem langen Griff, die im Kampf verwendet wird.',
                 pl: 'Ciężki topór z długim uchwytem, używany w walce.',
+                zh:'一种长柄重型斧头，用于战斗',
             },
         },
         pistol: {
@@ -347,6 +389,7 @@ export const weapons = {
                 en: 'Pistol',
                 de: 'Pistole',
                 pl: 'Pistolet',
+               zh:'手枪',
             },
             desc: {
                 ru: 'Короткоствольное оружие, используется для стрельбы на ближней дистанции.',
@@ -354,6 +397,7 @@ export const weapons = {
                 en: 'Short-barreled weapon, used for shooting at close range.',
                 de: 'Kurzwaffe, für das Schießen auf kurze Distanz verwendet.',
                 pl: 'Broń krótkołufowa, używana do strzelania na krótkim dystansie.',
+                zh:'用于近距离射击的短程武器',
             },
         },
         combatpistol: {
@@ -363,6 +407,7 @@ export const weapons = {
                 en: 'Combat Pistol',
                 de: 'Kampfpistole',
                 pl: 'Pistolet bojowy',
+               zh:'战斗手枪',
             },
             desc: {
                 ru: 'Среднеразмерное огнестрельное оружие, обычно используется для самообороны или в ближнем бою.',
@@ -370,6 +415,7 @@ export const weapons = {
                 en: 'A medium-sized firearm, typically used for self-defense or in close combat.',
                 de: 'Eine mittelgroße Schusswaffe, die typischerweise zur Selbstverteidigung oder im Nahkampf verwendet wird.',
                 pl: 'Średniej wielkości broń palna, zwykle używana do samoobrony lub w walce wręcz.',
+               zh:'中型枪支，通常用于自卫或近战',
             },
         },
         appistol: {
@@ -379,6 +425,7 @@ export const weapons = {
                 en: 'AP Pistol',
                 de: 'AP-Pistole',
                 pl: 'Pistolet AP',
+                zh:'AP手枪',
             },
             desc: {
                 ru: "Компактное огнестрельное оружие, обычно используется для самообороны или в ближнем бою. AP означает 'бронебойный'.",
@@ -386,6 +433,7 @@ export const weapons = {
                 en: "A compact firearm, typically used for self-defense or in close combat. AP stands for 'armor-piercing'.",
                 de: "Eine kompakte Schusswaffe, die typischerweise zur Selbstverteidigung oder im Nahkampf verwendet wird. AP steht für 'panzerbrechend'.",
                 pl: "Kompaktowa broń palna, zwykle używana do samoobrony lub w walce wręcz. AP oznacza 'przebijający pancerz'.",
+                zh:'种紧凑型枪支，通常用于自卫或附近的战斗。AP代表‘破甲',
             },
         },
         pistol50: {
@@ -395,6 +443,7 @@ export const weapons = {
                 en: 'Pistol .50',
                 de: '.50 Pistole',
                 pl: 'Pistolet .50',
+               zh:'手枪50',
             },
             desc: {
                 ru: 'Мощное огнестрельное оружие, использующее патроны калибра .50. Обычно используется для самообороны или в ближнем бою.',
@@ -402,6 +451,7 @@ export const weapons = {
                 en: 'A powerful firearm that uses .50 caliber ammunition. Typically used for self-defense or in close combat.',
                 de: 'Eine leistungsstarke Schusswaffe, die .50-Kaliber-Munition verwendet. Typischerweise für die Selbstverteidigung oder im Nahkampf verwendet.',
                 pl: 'Potężna broń palna, która używa amunicji kal. .50. Zwykle używana do samoobrony lub w walce wręcz.',
+                 zh:'种使用.50口径图案的强大枪支。它通常用于自卫或近战',
             },
         },
         snspistol: {
@@ -411,6 +461,7 @@ export const weapons = {
                 en: 'SNS Pistol',
                 de: 'SNS-Pistole',
                 pl: 'Pistolet SNS',
+                zh:'SNS手枪',
             },
             desc: {
                 ru: 'Компактное огнестрельное оружие, обычно используется для самообороны или в ближнем бою.',
@@ -418,6 +469,7 @@ export const weapons = {
                 en: 'A compact firearm, typically used for self-defense or in close combat.',
                 de: 'Eine kompakte Schusswaffe, die typischerweise zur Selbstverteidigung oder im Nahkampf verwendet wird.',
                 pl: 'Kompaktowa broń palna, zwykle używana do samoobrony lub w walce wręcz.',
+               zh:'一种紧凑型枪支，通常用于自卫或近战',
             },
         },
         snspistolmkii: {
@@ -427,6 +479,7 @@ export const weapons = {
                 en: 'SNS Pistol Mk II',
                 de: 'SNS-Pistole Mk II',
                 pl: 'Pistolet SNS Mk II',
+               zh:'SNS Mk II手枪',
             },
             desc: {
                 ru: 'Улучшенная версия пистолета SNS, обычно используется для самообороны или в ближнем бою.',
@@ -434,6 +487,7 @@ export const weapons = {
                 en: 'An upgraded version of the SNS Pistol, typically used for self-defense or in close combat.',
                 de: 'Eine verbesserte Version der SNS-Pistole, die typischerweise zur Selbstverteidigung oder im Nahkampf verwendet wird.',
                 pl: 'Ulepszona wersja pistoletu SNS, zwykle używana do samoobrony lub w walce wręcz.',
+               zh:'SNS枪的改进版本通常用于自卫或近战',
             },
         },
         heavypistol: {
@@ -443,6 +497,7 @@ export const weapons = {
                 en: 'Heavy Pistol',
                 de: 'Schwere Pistole',
                 pl: 'Ciężki pistolet',
+                zh:'重型手枪',
             },
             desc: {
                 ru: 'Большое и мощное огнестрельное оружие, обычно используется для самообороны или в ближнем бою.',
@@ -450,6 +505,7 @@ export const weapons = {
                 en: 'A large and powerful firearm, typically used for self-defense or in close combat.',
                 de: 'Eine große und leistungsstarke Schusswaffe, die typischerweise zur Selbstverteidigung oder im Nahkampf verwendet wird.',
                 pl: 'Duża i potężna broń palna, zwykle używana do samoobrony lub w walce wręcz.',
+               zh:'一种大型而强大的枪支，通常用于自卫或近战',
             },
         },
         vintagepistol: {
@@ -459,6 +515,7 @@ export const weapons = {
                 en: 'Vintage Pistol',
                 de: 'Vintage-Pistole',
                 pl: 'Pistolet vintage',
+               zh:'复古手枪',
             },
             desc: {
                 ru: 'Старинное огнестрельное оружие, обычно используется для самообороны или в ближнем бою.',
@@ -466,6 +523,7 @@ export const weapons = {
                 en: 'An antique firearm, typically used for self-defense or in close combat.',
                 de: 'Eine antike Schusswaffe, die typischerweise zur Selbstverteidigung oder im Nahkampf verwendet wird.',
                 pl: 'Antyczna broń palna, zwykle używana do samoobrony lub w walce wręcz.',
+                zh:'一种古董枪支，通常用于自卫或近身格斗',
             },
         },
         marksmanpistol: {
@@ -475,6 +533,7 @@ export const weapons = {
                 en: 'Marksman Pistol',
                 de: 'Marksman-Pistole',
                 pl: 'Pistolet strzelecki',
+               zh:'神枪手手枪',
             },
             desc: {
                 ru: 'Огнестрельное оружие, обычно используется для точной стрельбы на средней дистанции.',
@@ -482,6 +541,7 @@ export const weapons = {
                 en: 'A firearm, typically used for accurate shooting at medium range.',
                 de: 'Eine Schusswaffe, die typischerweise für genaues Schießen auf mittlere Entfernung verwendet wird.',
                 pl: 'Broń palna, zwykle używana do celnej strzelaniny na średnim dystansie.',
+               zh:'一种枪支，通常用于中程精确射击',
             },
         },
         revolver: {
@@ -491,6 +551,7 @@ export const weapons = {
                 en: 'Revolver',
                 de: 'Revolver',
                 pl: 'Rewolwer',
+                zh:'左轮手枪',
             },
             desc: {
                 ru: 'Короткоствольное оружие с вращающимся барабаном для патронов.',
@@ -498,6 +559,7 @@ export const weapons = {
                 en: 'A short-barreled firearm with a rotating cylinder for bullets.',
                 de: 'Eine kurzläufige Schusswaffe mit einer drehbaren Trommel für Patronen.',
                 pl: 'Broń krótkostrzałowa z obracającym się bębnem na pociski.',
+                zh:'种带有旋转子弹筒的短管枪支',
             },
         },
         ceramicpistol: {
@@ -507,6 +569,7 @@ export const weapons = {
                 en: 'Ceramic Pistol',
                 de: 'Keramikpistole',
                 pl: 'Pistolet ceramiczny',
+               zh:'陶瓷手枪',
             },
             desc: {
                 ru: 'Пистолет, изготовленный из керамических материалов для уменьшения массы и обнаружимости металлодетекторами.',
@@ -514,6 +577,7 @@ export const weapons = {
                 en: 'A pistol made from ceramic materials to reduce weight and metal detector detectability.',
                 de: 'Eine Pistole aus keramischen Materialien zur Gewichtsreduzierung und Metall-Detektierbarkeit.',
                 pl: 'Pistolet wykonany z materiałów ceramicznych w celu zmniejszenia wagi i wykrywalności przez wykrywacze metali.',
+                 zh:'种由陶瓷材料制成的枪，以减少质量和金属探测器的可探测性',
             },
         },
         heavyrevolvermkii: {
@@ -523,12 +587,14 @@ export const weapons = {
                 en: 'Heavy Revolver Mk II',
                 de: 'Schwerer Revolver Mk II',
                 pl: 'Ciężki rewolwer Mk II',
+                zh:'Mk II重型左轮手枪',
             },
             desc: {
                 ru: 'Улучшенная версия тяжелого револьвера, обычно используется для самообороны или в ближнем бою.',
                 ua: 'Покращена версія важкого револьвера, зазвичай використовується для самозахисту або в близькому бою.',
                 en: 'An upgraded version of the heavy revolver, typically used for self-defense or in close combat.',
                 de: 'Eine verbesserte Version des schweren Revolvers, die typischerweise zur Selbstverteidigung oder im Nahkampf verwendet wird.',
+                zh:'最好的重型左轮手枪通常用于自卫或近战',
                 pl: 'Ulepszona wersja ciężkiego rewolweru, zwykle używana do samoobrony lub w walce wręcz.',
             },
         },
@@ -539,6 +605,7 @@ export const weapons = {
                 en: 'Double Action Revolver',
                 de: 'Double-Action-Revolver',
                 pl: 'Rewolwer Double Action',
+                zh:'双动左轮手枪',
             },
             desc: {
                 ru: 'Револьвер, который стреляет при каждом нажатии на спусковой крючок, обычно используется для самообороны или в ближнем бою.',
@@ -546,6 +613,7 @@ export const weapons = {
                 en: 'A revolver that fires with each pull of the trigger, typically used for self-defense or in close combat.',
                 de: 'Ein Revolver, der bei jedem Abzug feuert, typischerweise zur Selbstverteidigung oder im Nahkampf verwendet.',
                 pl: 'Rewolwer, który strzela przy każdym pociągnięciu spustu, zwykle używany do samoobrony lub w walce wręcz.',
+               zh:'每次按下下扳机都会射击的左轮手枪通常用于自卫或近身格斗',
             },
         },
         navyrevolver: {
@@ -555,6 +623,7 @@ export const weapons = {
                 en: 'Navy Revolver',
                 de: 'Marine-Revolver',
                 pl: 'Rewolwer morski',
+               zh:'海军左轮手枪',
             },
             desc: {
                 ru: 'Револьвер, который был широко использован в морской пехоте, обычно используется для самообороны или в ближнем бою.',
@@ -562,6 +631,7 @@ export const weapons = {
                 en: 'A revolver that was widely used in the navy, typically used for self-defense or in close combat.',
                 de: 'Ein Revolver, der in der Marine weit verbreitet war, typischerweise zur Selbstverteidigung oder im Nahkampf verwendet.',
                 pl: 'Rewolwer, który był szeroko używany w marynarce wojennej, zwykle używany do samoobrony lub w walce wręcz.',
+                zh:'海军中广泛使用的左轮手枪，通常用于自卫或近战',
             },
         },
         pericopistol: {
@@ -571,6 +641,7 @@ export const weapons = {
                 en: 'Perico Pistol',
                 de: 'Perico-Pistole',
                 pl: 'Pistolet Perico',
+               zh:'佩里科手枪',
             },
             desc: {
                 ru: 'Уникальный пистолет, обычно используется для самообороны или в ближнем бою.',
@@ -578,6 +649,7 @@ export const weapons = {
                 en: 'A unique pistol, typically used for self-defense or in close combat.',
                 de: 'Eine einzigartige Pistole, die typischerweise zur Selbstverteidigung oder im Nahkampf verwendet wird.',
                 pl: 'Unikalny pistolet, zwykle używany do samoobrony lub w walce wręcz.',
+                zh:'独特的枪，通常用于自卫或近战',
             },
         },
         flaregun: {
@@ -587,6 +659,7 @@ export const weapons = {
                 en: 'Flare Gun',
                 de: 'Leuchtpistole',
                 pl: 'Pistolet sygnałowy',
+               zh:'信号枪',
             },
             desc: {
                 ru: 'Пистолет, предназначенный для запуска сигнальных ракет.',
@@ -594,6 +667,7 @@ export const weapons = {
                 en: 'A pistol designed to launch signal flares.',
                 de: 'Eine Pistole, die zum Abschießen von Signalraketen konzipiert ist.',
                 pl: 'Pistolet zaprojektowany do wystrzeliwania sygnałowych flar.',
+                zh:'一种用于发射信号导弹的手枪',
             },
         },
 
@@ -605,6 +679,7 @@ export const weapons = {
                 en: 'Micro SMG',
                 de: 'Mikro-SMG',
                 pl: 'Mikro SMG',
+                zh:'微型SMG',
             },
             desc: {
                 ru: 'Компактное автоматическое оружие, обычно используется для ближнего боя.',
@@ -612,6 +687,7 @@ export const weapons = {
                 en: 'A compact automatic weapon, typically used in close combat.',
                 de: 'Eine kompakte automatische Waffe, die typischerweise im Nahkampf verwendet wird.',
                 pl: 'Kompaktowa broń automatyczna, zwykle używana w walce wręcz.',
+                zh:'紧凑型自动武器通常用于附近的战斗',
             },
         },
         smg: {
@@ -621,6 +697,7 @@ export const weapons = {
                 en: 'SMG',
                 de: 'SMG',
                 pl: 'SMG',
+                zh:'脉冲枪',
             },
             desc: {
                 ru: 'Автоматическое оружие, обычно используется для ближнего боя.',
@@ -628,6 +705,7 @@ export const weapons = {
                 en: 'An automatic weapon, typically used in close combat.',
                 de: 'Eine automatische Waffe, die typischerweise im Nahkampf verwendet wird.',
                 pl: 'Broń automatyczna, zwykle używana w walce wręcz.',
+                zh:'一种自动武器，通常用于近战',
             },
         },
         smg_mk2: {
@@ -637,6 +715,7 @@ export const weapons = {
                 en: 'SMG Mk II',
                 de: 'SMG Mk II',
                 pl: 'SMG Mk II',
+               zh:'SMG Mk II',
             },
             desc: {
                 ru: 'Улучшенная версия пистолета-пулемета, обычно используется для ближнего бою.',
@@ -644,6 +723,7 @@ export const weapons = {
                 en: 'An upgraded version of the SMG, typically used in close combat.',
                 de: 'Eine verbesserte Version des SMG, die typischerweise im Nahkampf verwendet wird.',
                 pl: 'Ulepszona wersja SMG, zwykle używana w walce wręcz.',
+               zh:'最好的手枪子弹通常用于下一场战斗',
             },
         },
         assaultsmg: {
@@ -653,6 +733,7 @@ export const weapons = {
                 en: 'Assault SMG',
                 de: 'Sturm-SMG',
                 pl: 'SMG szturmowy',
+                zh:'突击SMG',
             },
             desc: {
                 ru: 'Автоматическое оружие, обычно используется для ближнего боя. Штурмовой пистолет-пулемет обладает большей мощностью и точностью.',
@@ -660,6 +741,7 @@ export const weapons = {
                 en: 'An automatic weapon, typically used in close combat. The Assault SMG has greater power and accuracy.',
                 de: 'Eine automatische Waffe, die typischerweise im Nahkampf verwendet wird. Das Sturm-SMG hat eine größere Leistung und Genauigkeit.',
                 pl: 'Broń automatyczna, zwykle używana w walce wręcz. SMG szturmowy ma większą moc i celność.',
+                 zh:'自动武器通常用于附近的战斗。子弹枪有更大的力量和精度',
             },
         },
         minismg: {
@@ -669,6 +751,7 @@ export const weapons = {
                 en: 'Mini SMG',
                 de: 'Mini-SMG',
                 pl: 'Mini SMG',
+                zh:'迷你SMG',
             },
             desc: {
                 ru: 'Очень компактное автоматическое оружие, обычно используется для самообороны или в ближнем бою.',
@@ -676,6 +759,7 @@ export const weapons = {
                 en: 'A very compact automatic weapon, typically used for self-defense or in close combat.',
                 de: 'Eine sehr kompakte automatische Waffe, die typischerweise zur Selbstverteidigung oder im Nahkampf verwendet wird.',
                 pl: 'Bardzo kompaktowa broń automatyczna, zwykle używana do samoobrony lub w walce wręcz.',
+                zh:'非常紧凑的自动武器通常用于自卫或近战',
             },
         },
         machinepistol: {
@@ -685,6 +769,7 @@ export const weapons = {
                 en: 'Machine Pistol',
                 de: 'Maschinenpistole',
                 pl: 'Pistolet maszynowy',
+                zh:'机关枪',
             },
             desc: {
                 ru: 'Компактное автоматическое оружие с возможностью стрельбы очередями.',
@@ -692,6 +777,7 @@ export const weapons = {
                 en: 'A compact automatic weapon capable of firing in bursts.',
                 de: 'Eine kompakte automatische Waffe mit Feuerstoßfunktion.',
                 pl: 'Kompaktowa broń automatyczna zdolna do strzelania seriami.',
+               zh:'一种紧凑型自动武器，可以轮流射击',
             },
         },
         combatpdw: {
@@ -701,6 +787,7 @@ export const weapons = {
                 en: 'Combat PDW',
                 de: 'Kampf-PDW',
                 pl: 'Karabinek PDW',
+               zh:'PDW战斗',
             },
             desc: {
                 ru: 'Компактное легкое автоматическое оружие для ближнего боя.',
@@ -708,6 +795,7 @@ export const weapons = {
                 en: 'A compact lightweight automatic weapon for close-quarters combat.',
                 de: 'Eine kompakte, leichte automatische Waffe für den Nahkampf.',
                 pl: 'Kompaktowy, lekki karabin automatyczny do walki na bliskie odległości.',
+                zh:'一种用于近距离战斗的紧凑型轻型自动武器',
             },
         },
         tecpistol: {
@@ -717,6 +805,7 @@ export const weapons = {
                 en: 'Tactical SMG',
                 de: 'Taktisches SMG',
                 pl: 'Taktyczny SMG',
+                zh:'战术滑轮枪',
             },
             desc: {
                 ru: 'Автоматическое оружие, обычно используется для ближнего боя. Тактический пистолет-пулемет обладает улучшенной точностью и управляемостью.',
@@ -724,6 +813,7 @@ export const weapons = {
                 en: 'An automatic weapon, typically used in close combat. The Tactical SMG has improved accuracy and control.',
                 de: 'Eine automatische Waffe, die typischerweise im Nahkampf verwendet wird. Das taktische SMG hat eine verbesserte Genauigkeit und Kontrolle.',
                 pl: 'Broń automatyczna, zwykle używana w walce wręcz. Taktyczny SMG ma poprawioną celność i kontrolę.',
+                zh:'自动武器通常用于附近的战斗。战术手枪具有完美的准确性和控制力',
             },
         },
 
@@ -736,6 +826,7 @@ export const weapons = {
                 en: 'Pump Shotgun Mk II',
                 de: 'Pump-Action-Schrotflinte Mk II',
                 pl: 'Strzelba naładowana pompą Mk II',
+               zh:'Mk II泵式霰弹枪',
             },
             desc: {
                 ru: "Это оружие, которое говорит: 'Я серьезно'. Если вы хотите сделать впечатление, ничто не говорит об этом лучше, чем дырка от дробовика.",
@@ -743,6 +834,7 @@ export const weapons = {
                 en: "This is a weapon that says, 'I mean business'. If you want to make an impression, nothing says it better than a shotgun hole.",
                 de: "Dies ist eine Waffe, die sagt: 'Ich meine es ernst'. Wenn Sie einen Eindruck hinterlassen wollen, sagt nichts es besser als ein Schrotflintenloch.",
                 pl: "To jest broń, która mówi: 'Mówię poważnie'. Jeśli chcesz zrobić wrażenie, nic nie mówi o tym lepiej niż dziura po strzale z shotguna.",
+                zh:'这是一种武器，它说，”我是认真的。“如果你想给人留下印象，没有什么比一个裂缝更能说明问题了',
             },
         },
         assaultshotgun: {
@@ -752,6 +844,7 @@ export const weapons = {
                 en: 'Assault Shotgun',
                 de: 'Sturm-Schrotflinte',
                 pl: 'Strzelba szturmowa',
+                zh:'突击霰弹枪',
             },
             desc: {
                 ru: 'Когда одного выстрела недостаточно, этот зверь выстреливает целым потоком. Подходит для тех, кто любит разрушения.',
@@ -759,6 +852,7 @@ export const weapons = {
                 en: "When one shot isn't enough, this beast fires a stream. Suitable for those who love destruction.",
                 de: 'Wenn ein Schuss nicht ausreicht, feuert dieses Biest einen Strom ab. Geeignet für diejenigen, die Zerstörung lieben.',
                 pl: 'Gdy jeden strzał nie wystarcza, to bestia strzela strumieniem. Odpowiednie dla tych, którzy kochają zniszczenie.',
+                zh:'一枪不够的时候，这头野兽会射到整条小溪。这是为了那些热爱毁灭的人',
             },
         },
         musket: {
@@ -768,6 +862,7 @@ export const weapons = {
                 en: 'Musket',
                 de: 'Muskete',
                 pl: 'Muszkiet',
+                zh:'火枪手',
             },
             desc: {
                 ru: 'Вернитесь в прошлое с этим оружием. Мушкет - это классика, которая никогда не выходит из моды.',
@@ -775,6 +870,7 @@ export const weapons = {
                 en: 'Take a step back in time with this weapon. The musket is a classic that never goes out of style.',
                 de: 'Machen Sie einen Schritt zurück in die Zeit mit dieser Waffe. Das Musket ist ein Klassiker, der nie aus der Mode kommt.',
                 pl: 'Cofnij się w czasie z tą bronią. Muszkiet to klasyk, który nigdy nie wychodzi z mody.',
+                zh:'带着这把武器回到过去。《麝香猫》是一部永不过时的经典之作。',
             },
         },
 
@@ -785,6 +881,7 @@ export const weapons = {
                 en: 'Sawn-off Shotgun',
                 de: 'Abgesägte Schrotflinte',
                 pl: 'Strzelba skrócona',
+               zh:'锯切枪',
             },
             desc: {
                 ru: 'Короткоствольный дробовик с обрезанным стволом для ближнего боя.',
@@ -792,7 +889,8 @@ export const weapons = {
                 en: 'A short-barreled shotgun with a sawn-off barrel for close-quarters combat.',
                 de: 'Eine kurzläufige Schrotflinte mit abgesägtem Lauf für den Nahkampf.',
                 pl: 'Strzelba o skróconej lufie do walki na bliskie odległości.',
-            },
+                zh:'一种短管霰弹枪，配有锯开的枪管，用于近距离战斗',
+            }
         },
         pumpshotgun: {
             name: {
@@ -801,6 +899,7 @@ export const weapons = {
                 en: 'Pump Shotgun',
                 de: 'Pumpen-Schrotflinte',
                 pl: 'Pompowany karabin szturmowy',
+               zh:'泵喷枪',
             },
             desc: {
                 ru: 'Дробовик с механизмом повторной подачи патронов.',
@@ -808,6 +907,7 @@ export const weapons = {
                 en: 'A shotgun with a pump-action mechanism for chambering rounds.',
                 de: 'Eine Schrotflinte mit einer Pumpaktion zum Laden von Patronen.',
                 pl: 'Strzelba z mechanizmem pompowym do nabijania naboi.',
+               zh:'一种带有泵动机构的霰弹枪，用于装弹',
             },
         },
         bullpupshotgun: {
@@ -817,6 +917,7 @@ export const weapons = {
                 en: 'Bullpup Shotgun',
                 de: 'Bullpup-Schrotflinte',
                 pl: 'Strzelba Bullpup',
+                zh:'牛头犬霰弹枪',
             },
             desc: {
                 ru: 'Дробовик с расположением магазина и затвора сзади рукояти.',
@@ -824,6 +925,7 @@ export const weapons = {
                 en: 'A shotgun with the magazine and action located behind the grip.',
                 de: 'Eine Schrotflinte mit dem Magazin und Verschluss hinter dem Griff platziert.',
                 pl: 'Strzelba z magazynkiem i zamkiem umieszczonymi za chwytem.',
+               zh:'一把霰弹枪，弹匣和动作位于握把后面',
             },
         },
         heavyshotgun: {
@@ -833,6 +935,7 @@ export const weapons = {
                 en: 'Heavy Shotgun',
                 de: 'Schwere Schrotflinte',
                 pl: 'Ciężka strzelba',
+                zh:'“重型霰弹枪',
             },
             desc: {
                 ru: 'Мощный и тяжелый дробовик для максимального урона.',
@@ -840,6 +943,7 @@ export const weapons = {
                 en: 'A powerful and heavy shotgun for maximum damage.',
                 de: 'Eine leistungsstarke und schwere Schrotflinte für maximalen Schaden.',
                 pl: 'Mocna i ciężka strzelba o maksymalnym obrażeniu.',
+                zh:'一把威力强大、重量巨大的霰弹枪，可造成最大伤害',
             },
         },
         autoshotgun: {
@@ -849,6 +953,7 @@ export const weapons = {
                 en: 'Automatic Shotgun',
                 de: 'Automatische Schrotflinte',
                 pl: 'Automatyczna strzelba',
+                zh:'自动喷枪',
             },
             desc: {
                 ru: 'Дробовик с возможностью автоматической стрельбы.',
@@ -856,6 +961,7 @@ export const weapons = {
                 en: 'A shotgun capable of automatic fire.',
                 de: 'Eine Schrotflinte, die automatisches Feuer abgeben kann.',
                 pl: 'Strzelba zdolna do automatycznego ognia.',
+                 zh:'一种能够自动射击的霰弹枪',
             },
         },
 
@@ -866,6 +972,7 @@ export const weapons = {
                 en: 'Double Barrel Shotgun',
                 de: 'Doppelläufige Schrotflinte',
                 pl: 'Strzelba dwulufowa',
+                zh:'双管霰弹枪',
             },
             desc: {
                 ru: 'Это оружие для тех, кто хочет убедиться, что цель упала с первого выстрела. Двуствольное ружье - это классика, которая всегда в моде.',
@@ -873,6 +980,7 @@ export const weapons = {
                 en: "This is a weapon for those who want to make sure the target goes down with the first shot. The double barrel shotgun is a classic that's always in style.",
                 de: 'Dies ist eine Waffe für diejenigen, die sicherstellen wollen, dass das Ziel mit dem ersten Schuss fällt. Die doppelläufige Schrotflinte ist ein Klassiker, der immer im Trend liegt.',
                 pl: 'To jest broń dla tych, którzy chcą mieć pewność, że cel padnie za pierwszym strzałem. Dwulufowa strzelba to klasyk, który zawsze jest na czasie.',
+                zh:'这是一种武器，适合那些想确保目标在第一枪中就被击落的人。双管霰弹枪是一种经典',
             },
         },
         combatshotgun: {
@@ -882,6 +990,7 @@ export const weapons = {
                 en: 'Combat Shotgun',
                 de: 'Kampfschrotflinte',
                 pl: 'Strzelba bojowa',
+               zh:'战斗霰弹枪',
             },
             desc: {
                 ru: 'Когда дела идут плохо, боевое ружье приходит на помощь. Это оружие для тех, кто не боится ближнего боя.',
@@ -889,6 +998,7 @@ export const weapons = {
                 en: "When things get tough, the combat shotgun comes to the rescue. This is a weapon for those who aren't afraid of close combat.",
                 de: 'Wenn die Dinge hart auf hart kommen, kommt die Kampfschrotflinte zur Rettung. Dies ist eine Waffe für diejenigen, die den Nahkampf nicht scheuen.',
                 pl: 'Gdy sytuacja się komplikuje, na ratunek przychodzi strzelba bojowa. To broń dla tych, którzy nie boją się walki wręcz.',
+                zh:'当情况变得艰难时，战斗霰弹枪会来救援。这是一种适合那些不害怕近距离战斗的人的武器',
             },
         },
 
@@ -901,6 +1011,7 @@ export const weapons = {
                 en: 'Special Carbine',
                 de: 'Spezialkarabiner',
                 pl: 'Karabinek specjalny',
+               zh:'特种卡宾枪',
             },
             desc: {
                 ru: 'Улучшенный карабин с дополнительными возможностями.',
@@ -908,6 +1019,7 @@ export const weapons = {
                 en: 'An improved carbine with additional features.',
                 de: 'Ein verbessertes Karabiner mit zusätzlichen Funktionen.',
                 pl: 'Ulepszony karabinek z dodatkowymi funkcjami.',
+                 zh:'功能强大的精制步枪',
             },
         },
 
@@ -918,6 +1030,7 @@ export const weapons = {
                 en: 'Carbine',
                 de: 'Karabiner',
                 pl: 'Karabin',
+               zh:'卡拉宾',
             },
             desc: {
                 ru: 'Улучшенный карабин с превосходной эргономикой и инновационным системой прицеливания, обеспечивающей максимальную точность в любых условиях боя.',
@@ -925,6 +1038,7 @@ export const weapons = {
                 en: 'An upgraded carbine with exceptional ergonomics and an innovative targeting system, ensuring maximum accuracy in any combat situation.',
                 de: 'Ein aufgewertetes Karabiner mit außergewöhnlicher Ergonomie und einem innovativen Zielsystem, das eine maximale Genauigkeit in jeder Kampfsituation gewährleistet.',
                 pl: 'Unikalny karabin z doskonałą ergonomią i innowacyjnym systemem celowania, zapewniający maksymalną precyzję w każdej sytuacji bojowej.',
+               zh:'种经过升级的卡宾枪，具有卓越的人体工程学和创新的瞄准系统，确保在任何战斗情况下都能达到最高的精度',
             },
         },
         assaultrifle: {
@@ -934,6 +1048,7 @@ export const weapons = {
                 en: 'Assault Rifle',
                 de: 'Sturmgewehr',
                 pl: 'Karabin szturmowy',
+                zh:'突击步枪',
             },
             desc: {
                 ru: 'Мощная штурмовая винтовка с передовой технологией подавления отдачи, обеспечивающая стремительную точность и надежность в критических моментах.',
@@ -941,6 +1056,7 @@ export const weapons = {
                 en: 'A powerful assault rifle with advanced recoil suppression technology, providing swift accuracy and reliability in critical moments.',
                 de: 'Ein leistungsstarkes Sturmgewehr mit fortschrittlicher Rückstoßunterdrückungstechnologie, die eine schnelle Genauigkeit und Zuverlässigkeit in kritischen Momenten bietet.',
                 pl: 'Potężny karabin szturmowy z zaawansowaną technologią tłumienia odrzutu, zapewniający szybką precyzję i niezawodność w kluczowych momentach.',
+               zh:'一种具有先进后坐力抑制技术的强大突击步枪，在关键时刻提供快速的准确性和可靠性',
             },
         },
         advancedrifle: {
@@ -950,6 +1066,7 @@ export const weapons = {
                 en: 'Advanced Rifle',
                 de: 'Fortgeschrittenes Gewehr',
                 pl: 'Zaawansowany karabin',
+                zh:'先进步枪',
             },
             desc: {
                 ru: 'Современная винтовка с интегрированными оптическими прицелами и уникальной системой быстрой перезарядки, обеспечивающая превосходную маневренность и скорострельность.',
@@ -957,6 +1074,7 @@ export const weapons = {
                 en: 'A modern rifle with integrated optical sights and a unique fast reload system, providing excellent maneuverability and rapid fire capability.',
                 de: 'Ein modernes Gewehr mit integrierten optischen Visieren und einem einzigartigen Schnellladesystem, das hervorragende Beweglichkeit und schnelles Feuern ermöglicht.',
                 pl: 'Nowoczesny karabin z zintegrowanymi celownikami optycznymi i unikalnym systemem szybkiego przeładowania, zapewniający doskonałą manewrowość i szybkostrzelność.',
+                zh:'一种具有集成光学物镜和独特快速充电系统的现代蜘蛛，可提供卓越的机动性和速度',
             },
         },
 
@@ -967,6 +1085,7 @@ export const weapons = {
                 en: 'Assault Rifle Mk II',
                 de: 'Sturmgewehr Mk II',
                 pl: 'Karabin szturmowy Mk II',
+                zh:'Mk II突击步枪',
             },
             desc: {
                 ru: 'Улучшенная версия штурмовой винтовки, обычно используется для боевых действий на средней дистанции.',
@@ -974,6 +1093,7 @@ export const weapons = {
                 en: 'An upgraded version of the assault rifle, typically used for combat at medium range.',
                 de: 'Eine verbesserte Version des Sturmgewehrs, typischerweise für den Kampf auf mittlere Entfernung verwendet.',
                 pl: 'Ulepszona wersja karabinu szturmowego, zwykle używana do walki na średnim dystansie.',
+                zh:'突击步枪的升级版，通常用于中程作战',
             },
         },
         bullpuprifle: {
@@ -983,6 +1103,7 @@ export const weapons = {
                 en: 'Bullpup Rifle',
                 de: 'Bullpup-Gewehr',
                 pl: 'Karabin bullpup',
+               zh:'牛头犬步枪',
             },
             desc: {
                 ru: 'Компактная винтовка с bullpup-схемой, обычно используется для боевых действий на средней дистанции.',
@@ -990,6 +1111,7 @@ export const weapons = {
                 en: 'A compact rifle with a bullpup layout, typically used for combat at medium range.',
                 de: 'Ein kompaktes Gewehr mit Bullpup-Layout, typischerweise für den Kampf auf mittlere Entfernung verwendet.',
                 pl: 'Kompaktowy karabin z układem bullpup, zwykle używany do walki na średnim dystansie.',
+                zh:'种紧凑型武器，采用牛头犬式布局，通常用于中距离战斗',
             },
         },
         compactrifle: {
@@ -999,6 +1121,7 @@ export const weapons = {
                 en: 'Compact Rifle',
                 de: 'Kompaktgewehr',
                 pl: 'Karabin kompaktowy',
+               zh:'紧凑步枪',
             },
             desc: {
                 ru: 'Маленькая, но мощная винтовка, обычно используется для боевых действий на средней дистанции.',
@@ -1006,6 +1129,7 @@ export const weapons = {
                 en: 'A small but powerful rifle, typically used for combat at medium range.',
                 de: 'Ein kleines, aber leistungsstarkes Gewehr, typischerweise für den Kampf auf mittlere Entfernung verwendet.',
                 pl: 'Mały, ale potężny karabin, zwykle używany do walki na średnim dystansie.',
+                zh:'一种小型但威力强大的步枪，通常用于中程作战',
             },
         },
         militaryrifle: {
@@ -1015,6 +1139,7 @@ export const weapons = {
                 en: 'Military Rifle',
                 de: 'Militärgewehr',
                 pl: 'Karabin wojskowy',
+                zh:'军用步枪',
             },
             desc: {
                 ru: 'Это оружие, которое используется военными. Военная винтовка обладает высокой точностью и мощностью.',
@@ -1022,6 +1147,7 @@ export const weapons = {
                 en: 'This is a weapon that is used by the military. The military rifle has high accuracy and power.',
                 de: 'Dies ist eine Waffe, die vom Militär verwendet wird. Das Militärgewehr hat eine hohe Genauigkeit und Leistung.',
                 pl: 'To jest broń używana przez wojsko. Karabin wojskowy ma wysoką celność i moc.',
+                zh:'这是军方使用的武器。军用步枪具有很高的精度和威力',
             },
         },
         heavyrifle: {
@@ -1031,6 +1157,7 @@ export const weapons = {
                 en: 'Heavy Rifle',
                 de: 'Schweres Gewehr',
                 pl: 'Ciężki karabin',
+               zh:'重型步枪',
             },
             desc: {
                 ru: 'Это оружие для тех, кто хочет уничтожить все на своем пути. Тяжелая винтовка обладает огромной мощностью.',
@@ -1038,6 +1165,7 @@ export const weapons = {
                 en: 'This is a weapon for those who want to obliterate everything in their path. The heavy rifle has immense power.',
                 de: 'Dies ist eine Waffe für diejenigen, die alles auf ihrem Weg auslöschen wollen. Das schwere Gewehr hat eine immense Leistung.',
                 pl: 'To jest broń dla tych, którzy chcą zniszczyć wszystko na swojej drodze. Ciężki karabin ma ogromną moc.',
+                zh:'对于那些想在路上毁掉一切的人来说，这是一种武器。重大发明具有巨大的力量',
             },
         },
         tacticalrifle: {
@@ -1047,6 +1175,7 @@ export const weapons = {
                 en: 'Tactical Rifle',
                 de: 'Taktisches Gewehr',
                 pl: 'Karabin taktyczny',
+                zh:'战术步枪',
             },
             desc: {
                 ru: 'Это оружие для тех, кто ценит стратегию и тактику. Тактическая винтовка обладает высокой точностью и управляемостью.',
@@ -1054,6 +1183,7 @@ export const weapons = {
                 en: 'This is a weapon for those who value strategy and tactics. The tactical rifle has high accuracy and control.',
                 de: 'Dies ist eine Waffe für diejenigen, die Strategie und Taktik schätzen. Das taktische Gewehr hat eine hohe Genauigkeit und Kontrolle.',
                 pl: 'To jest broń dla tych, którzy cenią strategię i taktykę. Karabin taktyczny ma wysoką celność i kontrolę.',
+               zh:'这是那些欣赏战略和战术的人的武器。战术谜题非常准确且易于管理',
             },
         },
 
@@ -1066,6 +1196,7 @@ export const weapons = {
                 en: 'MG',
                 de: 'MG',
                 pl: 'MG',
+               zh:'轻机枪',
             },
             desc: {
                 ru: 'Оружие с высокой скоростью стрельбы, обычно используется для подавления огня противника на больших дистанциях.',
@@ -1073,6 +1204,7 @@ export const weapons = {
                 en: 'A weapon with a high rate of fire, typically used for suppressing enemy fire at long ranges.',
                 de: 'Eine Waffe mit hoher Feuerrate, die typischerweise zum Unterdrücken des Feindfeuers auf lange Distanzen verwendet wird.',
                 pl: 'Broń o wysokiej szybkości ognia, zwykle używana do tłumienia ognia wroga na dużych dystansach.',
+                zh:'高速武器通常用于远距离射击对手',
             },
         },
         combatmg: {
@@ -1082,6 +1214,7 @@ export const weapons = {
                 en: 'Combat MG',
                 de: 'Kampf-MG',
                 pl: 'MG bojowy',
+               zh:'战斗MG',
             },
             desc: {
                 ru: 'Боевой пулемет обладает улучшенной точностью и мощностью, обычно используется для подавления огня противника на больших дистанциях.',
@@ -1089,6 +1222,7 @@ export const weapons = {
                 en: 'The Combat MG has improved accuracy and power, typically used for suppressing enemy fire at long ranges.',
                 de: 'Das Kampf-MG hat eine verbesserte Genauigkeit und Leistung, typischerweise zum Unterdrücken des Feindfeuers auf lange Distanzen verwendet.',
                 pl: 'MG bojowy ma poprawioną celność i moc, zwykle używany do tłumienia ognia wroga na dużych dystansach.',
+                zh:'战场配备了完美的精确度和力量，通常用于远距离射击对手',
             },
         },
         combatmg_mk2: {
@@ -1098,6 +1232,7 @@ export const weapons = {
                 en: 'Combat MG Mk II',
                 de: 'Kampf-MG Mk II',
                 pl: 'MG bojowy Mk II',
+                zh:'Mk II战斗',
             },
             desc: {
                 ru: 'Улучшенная версия боевого пулемета, обычно используется для подавления огня противника на больших дистанциях.',
@@ -1105,6 +1240,7 @@ export const weapons = {
                 en: 'An upgraded version of the Combat MG, typically used for suppressing enemy fire at long ranges.',
                 de: 'Eine verbesserte Version des Kampf-MGs, typischerweise zum Unterdrücken des Feindfeuers auf lange Distanzen verwendet.',
                 pl: 'Ulepszona wersja MG bojowego, zwykle używany do tłumienia ognia wroga na dużych dystansach.',
+                zh:'最好的战场模式通常用于远距离射击对手',
             },
         },
         gusenberg: {
@@ -1114,6 +1250,7 @@ export const weapons = {
                 en: 'Gusenberg Sweeper',
                 de: 'Gusenberg-Sweeper',
                 pl: 'Gusenberg Sweeper',
+               zh:'古森伯格',
             },
             desc: {
                 ru: 'Это оружие в стиле 1920-х годов, обычно используется для боевых действий на средней дистанции.',
@@ -1121,6 +1258,7 @@ export const weapons = {
                 en: 'A weapon in the style of the 1920s, typically used for combat at medium range.',
                 de: 'Eine Waffe im Stil der 1920er Jahre, typischerweise für den Kampf auf mittlere Entfernung verwendet.',
                 pl: 'Broń w stylu lat 20-tych, zwykle używana do walki na średnim dystansie.',
+                zh:'这是一种20世纪20年代风格的武器，通常用于中距离战斗',
             },
         },
 
@@ -1133,6 +1271,7 @@ export const weapons = {
                 en: 'Sniper Rifle',
                 de: 'Scharfschützengewehr',
                 pl: 'Karabin snajperski',
+                zh:'狙击步枪',
             },
             desc: {
                 ru: 'Это оружие для тех, кто ценит точность и контроль. Снайперская винтовка обычно используется для точной стрельбы на больших дистанциях.',
@@ -1140,6 +1279,7 @@ export const weapons = {
                 en: 'This is a weapon for those who value precision and control. The sniper rifle is typically used for accurate shooting at long ranges.',
                 de: 'Dies ist eine Waffe für diejenigen, die Präzision und Kontrolle schätzen. Das Scharfschützengewehr wird typischerweise für genaues Schießen auf lange Distanzen verwendet.',
                 pl: 'To jest broń dla tych, którzy cenią precyzję i kontrolę. Karabin snajperski jest zwykle używany do celnej strzelaniny na dużych dystansach.',
+               zh:'这是那些欣赏准确性和控制力的人的武器。狙击手演习通常用于远距离精确射击',
             },
         },
 
@@ -1150,6 +1290,7 @@ export const weapons = {
                 en: 'Precision Hunter',
                 de: 'Präzisionsjäger',
                 pl: 'Myśliwski Karabin Precyzyjny',
+                zh:'精密步枪',
             },
             desc: {
                 ru: 'Эта винтовка предназначена для тех, кто требует абсолютной точности. Прецизионная винтовка обеспечивает превосходную точность и мощь на дальних дистанциях, отлично подходит для охоты.',
@@ -1157,6 +1298,7 @@ export const weapons = {
                 en: 'This rifle is designed for those who demand absolute precision. The Precision Hunter offers superb accuracy and power at long ranges, making it perfect for hunting.',
                 de: 'Dieses Gewehr ist für diejenigen gedacht, die absolute Präzision verlangen. Das Präzisionsjäger-Gewehr bietet hervorragende Genauigkeit und Durchschlagskraft auf große Entfernungen und ist ideal für die Jagd.',
                 pl: 'Ten karabin został zaprojektowany dla tych, którzy wymagają absolutnej precyzji. Myśliwski Karabin Precyzyjny oferuje doskonałą dokładność i moc na dużych odległościach, co czyni go idealnym do polowań.',
+               zh:'这是为那些需要绝对精确的人准备的。精密测量仪在远距离提供卓越的精度和功率，非常适合狩猎',
             },
         },
         
@@ -1168,6 +1310,7 @@ export const weapons = {
                 en: 'Snowball',
                 de: 'Schneeball',
                 pl: 'Słomik',
+                zh:'雪球',
             },
             desc: {
                 ua: 'Можна знести комусь їбало',
@@ -1175,6 +1318,7 @@ export const weapons = {
                 en: "Can smash someone's face",
                 de: 'Kann jemandem das Gesicht einschlagen',
                 pl: 'Można rozbić komuś twarz',
+                zh:'可以砸碎某人的脸',
             },
         },
         stungun: {
@@ -1184,6 +1328,7 @@ export const weapons = {
                 en: 'Stun Gun',
                 de: 'Elektroschocker',
                 pl: 'Paralizator',
+               zh:'电击枪',
             },
             desc: {
                 ru: 'Высокотехнологичное нелетальное оружие, предназначенное для временного обездвиживания цели с помощью электрического разряда. Обладает встроенной системой точного наведения и усовершенствованным механизмом для многократного использования.',
@@ -1191,6 +1336,7 @@ export const weapons = {
                 en: 'A high-tech non-lethal weapon designed to temporarily immobilize a target with an electrical discharge. Features an integrated precision targeting system and an advanced mechanism for multiple uses.',
                 de: 'Eine hochtechnologische nicht-tödliche Waffe, entwickelt, um ein Ziel vorübergehend mit einer elektrischen Entladung zu immobilisieren. Verfügt über ein integriertes Präzisionszielsystem und einen fortschrittlichen Mechanismus für mehrfache Verwendungen.',
                 pl: 'Wysokotechnologiczna broń nieśmiercionośna, zaprojektowana do tymczasowego unieruchomienia celu za pomocą wyładowania elektrycznego. Posiada wbudowany system precyzyjnego celowania i zaawansowany mechanizm umożliwiający wielokrotne użycie.',
+               zh:'一种高科技非致命武器，通过放电暂时固定目标。具有集成的精确靶系统和先进的多用途机制',
             },
         },
     },

@@ -5,6 +5,7 @@ export default{
         ru: 'Ремень безопасности',
         de: 'Sicherheitsgurt',
         pl: 'Pas bezpieczeństwa',
+        zh: '安全带',
     },
     attached: {
         ua: 'Застібнутий',
@@ -12,6 +13,7 @@ export default{
         ru: 'Пристёгнут',
         de: 'Angelegt',
         pl: 'Zapięty',
+        zh: '已扣好',
     },
     detached: {
         ua: 'Відстібнутий',
@@ -19,5 +21,6 @@ export default{
         ru: 'Отстёгнут',
         de: 'Abgenommen',
         pl: 'Odepnięty',
+        zh: '未扣好',
     },
 };

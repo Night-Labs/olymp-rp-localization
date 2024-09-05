@@ -5,6 +5,7 @@ export default {
         en: 'Fishing',
         de: 'Angeln',
         pl: 'Wędkarstwo',
+        zh: '钓鱼',
     },
 
     playingFish: {
@@ -13,6 +14,7 @@ export default {
         en: 'Playing Fish',
         de: 'Drillen',
         pl: 'Holowanie',
+        zh: '遛鱼',
     },
 
     catchLanding: {
@@ -21,6 +23,7 @@ export default {
         en: 'Catch Landing',
         de: 'Landen',
         pl: 'Lądowanie',
+        zh: '起鱼',
     },
 
     fishingStart: {
@@ -29,6 +32,7 @@ export default {
         en: 'You cast the hook! Wait for the fish to bite.',
         de: 'Sie haben den Haken ausgeworfen! Warten Sie, bis der Fisch anbeißt.',
         pl: 'Zarzucono haczyk! Czekaj, aż ryba złapie.',
+        zh: '你抛下了鱼钩！等待鱼儿上钩。',
     },
 
     startPlayingFish: {
@@ -37,6 +41,7 @@ export default {
         en: 'The fish bit! Now reel it in by keeping the hook inside the marker and pulling the indicated side.',
         de: 'Der Fisch hat angebissen! Holen Sie ihn ein, indem Sie den Haken im Marker halten und die angegebene Seite ziehen.',
         pl: 'Ryba złapała! Teraz holuj ją, trzymając haczyk wewnątrz znacznika i ciągnąc wskazaną stronę.',
+        zh: '鱼上钩了！现在开始遛鱼，保持鱼钩在标记内，并拉向指示的方向。',
     },
 
     startCatchLanding: {
@@ -45,6 +50,7 @@ export default {
         en: 'The fish is tired! Now pull it out by keeping the hook inside the marker and pulling as quickly as possible.',
         de: 'Der Fisch ist müde! Ziehen Sie ihn jetzt heraus, indem Sie den Haken im Marker halten und so schnell wie möglich ziehen.',
         pl: 'Ryba się zmęczyła! Teraz wyciągaj ją, trzymając haczyk wewnątrz znacznika i ciągnąc jak najszybciej.',
+        zh: '鱼累了！现在把它拉上来，保持鱼钩在标记内，并尽可能快地拉。',
     },
 
     errorPlace: {
@@ -53,6 +59,7 @@ export default {
         en: 'Fishing is not allowed here.',
         de: 'Angeln ist hier nicht erlaubt.',
         pl: 'Łowienie ryb jest tutaj zabronione.',
+        zh: '这里不允许钓鱼。',
     },
 
     noBite: {
@@ -61,6 +68,7 @@ export default {
         en: "You don't have the right bait.",
         de: 'Sie haben keinen passenden Köder.',
         pl: 'Nie masz odpowiedniej przynęty.',
+        zh: '你没有合适的诱饵。',
     },
 
     isSwimming: {
@@ -69,6 +77,7 @@ export default {
         en: 'You cannot fish while you are swimming.',
         de: 'Sie können nicht angeln, während Sie schwimmen.',
         pl: 'Nie możesz łowić ryb, gdy pływasz.',
+        zh: '当你游泳时不能钓鱼。',
     },
 
     errorHeader: {
@@ -77,6 +86,7 @@ export default {
         en: 'The fish slipped away',
         de: 'Der Fisch ist entwischt',
         pl: 'Ryba uciekła',
+        zh: '鱼脱钩了',
     },
 
     errorLvlPosition: {
@@ -85,6 +95,7 @@ export default {
         en: 'This spot is available from fishing level {{lvl}}',
         de: 'Dieser Ort ist ab Angelstufe {{lvl}} verfügbar',
         pl: 'To miejsce jest dostępne od poziomu wędkowania {{lvl}}',
+        zh: '这个钓点从钓鱼等级{{lvl}}起可用',
     },
 
     errorLvl: {
@@ -93,6 +104,7 @@ export default {
         en: 'Your skills were not enough to handle this fish.',
         de: 'Ihre Fähigkeiten reichten nicht aus, um diesen Fisch zu bewältigen.',
         pl: 'Twoje umiejętności nie wystarczyły, aby poradzić sobie z tą rybą.',
+        zh: '你的技能不足以应对这条鱼。',
     },
 
     errorRod: {
@@ -101,6 +113,7 @@ export default {
         en: 'Your rod is not suitable for fishing in this location.',
         de: 'Ihre Angelrute ist für das Angeln an diesem Ort nicht geeignet.',
         pl: 'Twoja wędka nie nadaje się do łowienia w tym miejscu.',
+        zh: '你的钓竿不适合在这个地点钓鱼。',
     },
 
     noWater1: {
@@ -109,6 +122,7 @@ export default {
         en: "It's too shallow here, try casting the hook in a deeper spot.",
         de: 'Es ist hier zu seicht, versuchen Sie den Haken an einer tieferen Stelle auszuwerfen.',
         pl: 'Jest tu za płytko, spróbuj zarzucić haczyk w głębszym miejscu.',
+        zh: '这里太浅了，尝试在更深的地方抛投鱼钩。',
     },
 
     noWater2: {
@@ -117,6 +131,7 @@ export default {
         en: 'It is too shallow here, the hook got stuck on the bottom and the fish swam away.',
         de: 'Es ist hier zu seicht, der Haken hat sich am Boden verfangen und der Fisch ist weggeschwommen.',
         pl: 'Jest tu za płytko, haczyk zaczepił się o dno i ryba uciekła.',
+        zh: '这里太浅了，鱼钩卡在了底部，鱼游走了。',
     },
 
     failMistakes: {
@@ -125,6 +140,7 @@ export default {
         en: 'You made too many mistakes, the fish managed to escape and swim away.',
         de: 'Sie haben zu viele Fehler gemacht, der Fisch konnte entkommen und wegschwimmen.',
         pl: 'Popełniłeś zbyt wiele błędów, rybie udało się uciec i odpłynęła.',
+        zh: '你犯了太多错误，鱼设法逃脱并游走了。',
     },
 
     failCatchLanding: {
@@ -133,6 +149,7 @@ export default {
         en: 'You were too careless in landing the fish and it slipped off the hook and swam away.',
         de: 'Sie waren zu unvorsichtig beim Landen des Fisches und er rutschte vom Haken und schwamm weg.',
         pl: 'Byłeś zbyt nieostrożny przy wyciąganiu ryby i zeszła z haczyka, a następnie odpłynęła.',
+        zh: '你太不小心地拉起鱼，它从钩子上滑落并游走了。',
     },
 
     waterTypes: {
@@ -142,6 +159,7 @@ export default {
             en: 'Water type',
             de: 'Wassertyp',
             pl: 'Rodzaj wody',
+            zh: '水类型',
         },
 
         freshWater: {
@@ -150,6 +168,7 @@ export default {
             en: 'Fresh water',
             de: 'Süßwasser',
             pl: 'Woda słodka',
+            zh: '淡水',
         },
         saltWater: {
             ru: 'Соленая вода',
@@ -157,6 +176,7 @@ export default {
             en: 'Salt water',
             de: 'Salzwasser',
             pl: 'Woda słona',
+            zh: '咸水',
         },
     },
 
@@ -166,6 +186,7 @@ export default {
         en: 'Fishing area',
         de: 'Angelgebiet',
         pl: 'Strefa wędkowania',
+        zh: '钓鱼区域',
     },
 
     lvl: {
@@ -174,6 +195,7 @@ export default {
         en: 'Level required',
         de: 'Level erforderlich',
         pl: 'Wymagany poziom',
+        zh: '所需等级',
     },
 
     license: {
@@ -182,6 +204,7 @@ export default {
         en: 'License',
         de: 'Lizenz',
         pl: 'Licencja',
+        zh: '许可证',
     },
 
     licenseTrue: {
@@ -190,6 +213,7 @@ export default {
         en: 'required',
         de: 'erforderlich',
         pl: 'wymagana',
+        zh: '必需',
     },
     licenseFalse: {
         ru: 'не нужна',
@@ -197,5 +221,6 @@ export default {
         en: 'not required',
         de: 'nicht erforderlich',
         pl: 'nie wymagana',
+        zh: '不必需',
     },
 };

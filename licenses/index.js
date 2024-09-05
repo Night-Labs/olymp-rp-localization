@@ -8,6 +8,7 @@ export default {
             en: 'Obtaining a weapon license',
             de: 'Erwerb einer Waffenlizenz',
             pl: 'Uzyskanie licencji na broń',
+            zh: '取得持枪证',
         },
         message: {
             ru: `
@@ -40,6 +41,12 @@ export default {
                     <span style="color: var(--primary)">- Minimum {{level}} poziom</span><br />
                     <br />
                     Po tym musisz udać się na strzelnicę, a po teście strzeleckim otrzymasz upragnioną licencję`,
+            zh: `
+               要获得武器许可证，您必须具备以下条件:<br />
+                  <span style="color: var(——primary)"</span><br />
+                  <span style="color: var(——primary)"</span><br />
+                  < br / >
+                在那之后，你需要去射击场，只有在射击测试之后，你才能获得梦寐以求的持枪证`,
         },
         confirmButton: {
             ru: 'Купить',
@@ -47,6 +54,7 @@ export default {
             en: 'Buy',
             de: 'Kaufen',
             pl: 'Kup',
+            zh: '买',
         },
         cancelButton: {
             ru: 'Отмена',
@@ -54,6 +62,7 @@ export default {
             en: 'Cancel',
             de: 'Abbrechen',
             pl: 'Anuluj',
+            zh: '取消',
         },
     },
 
@@ -64,6 +73,7 @@ export default {
             en: 'Weapon License Renewal',
             de: 'Waffenscheinverlängerung',
             pl: 'Odnowienie licencji na broń',
+            zh: '持枪证更新',
         },
         message: {
             ru: `Восстановление лицензии будет стоить вам <br /><span style="color: var(--primary)">$ {{money}}</span>`,
@@ -71,6 +81,7 @@ export default {
             en: `The license renewal will cost you <br /><span style="color: var(--primary)">$ {{money}}</span>`,
             de: `Die Verlängerung des Waffenscheins kostet Sie <br /><span style="color: var(--primary)">$ {{money}}</span>`,
             pl: `Odnowienie licencji będzie Cię kosztować <br /><span style="color: var(--primary)">$ {{money}}</span>`,
+            zh: '许可证的续期需要费用<br/><span style="color:var(--primary)">${{money}}</span>',
         },
         confirmButton: {
             ru: 'Восстановить',
@@ -78,6 +89,7 @@ export default {
             en: 'Renew',
             de: 'Verlängern',
             pl: 'Odnów',
+            zh: '重建',
         },
         cancelButton: {
             ru: 'Отмена',
@@ -85,6 +97,7 @@ export default {
             en: 'Cancel',
             de: 'Abbrechen',
             pl: 'Anuluj',
+            zh: '取消',
         },
     },
 
@@ -94,6 +107,7 @@ export default {
         en: 'You have successfully purchased a weapon license',
         de: 'Sie haben erfolgreich eine Waffenlizenz erworben',
         pl: 'Pomyślnie kupiłeś licencję na broń',
+        zh: '您已成功办理持枪证',
     },
 
     messageRenew: {
@@ -102,6 +116,7 @@ export default {
         en: 'You have successfully renewed your weapon license',
         de: 'Sie haben Ihren Waffenschein erfolgreich verlängert',
         pl: 'Pomyślnie odnowiłeś licencję na broń',
+        zh: '你已经成功更新了你的持枪证',
     },
 
     messageRenewMedical: {
@@ -110,6 +125,7 @@ export default {
         en: 'You have successfully renewed your medical license',
         de: 'Sie haben Ihre medizinische Lizenz erfolgreich erneuert',
         pl: 'Pomyślnie odnowiłeś swoją licencję medyczną',
+        zh: '您的医疗执照已成功续期',
     },
     messageGiveMedical: {
         ru: 'Вы успешно получили медицинскую лицензию',
@@ -117,6 +133,7 @@ export default {
         en: 'You have successfully obtained a medical license',
         de: 'Sie haben erfolgreich eine medizinische Lizenz erhalten',
         pl: 'Pomyślnie uzyskałeś licencję medyczną',
+        zh: '您已成功取得医疗执照',
     },
 
     ...cef,
@@ -128,6 +145,7 @@ export default {
         en: 'For Car',
         de: 'Für Auto',
         pl: 'Na samochód',
+        zh: '车上用品',
     },
     motorcycle: {
         ru: 'На мотоцикл',
@@ -135,6 +153,7 @@ export default {
         en: 'For Motorcycle',
         de: 'Für Motorrad',
         pl: 'Na motocykl',
+        zh: '摩托车用品',
     },
     boat: {
         ru: 'На лодку',
@@ -142,6 +161,7 @@ export default {
         en: 'For Boat',
         de: 'Für Boot',
         pl: 'Na łódź',
+        zh: '船用品',
     },
     air: {
         ru: 'На воздушное судно',
@@ -149,6 +169,7 @@ export default {
         en: 'For Air Vehicle',
         de: 'Für Luftfahrzeug',
         pl: 'Na statek powietrzny',
+        zh: '飞机用品',
     },
     weapon: {
         ru: 'На оружие',
@@ -156,6 +177,7 @@ export default {
         en: 'For Weapon',
         de: 'Für Waffe',
         pl: 'Na broń',
+        zh: '武器用品',
     },
     medical: {
         ru: 'Медицинская',
@@ -163,6 +185,7 @@ export default {
         en: 'Medical',
         de: 'Medizinisch',
         pl: 'Medyczna',
+        zh: '健康检查',
     },
     business: {
         ru: 'Бизнес',
@@ -170,6 +193,7 @@ export default {
         en: 'For Business',
         de: 'Gewerbe',
         pl: 'Biznesowa',
+        zh: '办理业务',
     },
     fishing: {
         ru: 'На рыбалку',
@@ -177,6 +201,7 @@ export default {
         en: 'For Fishing',
         de: 'Für Angeln',
         pl: 'Na rybołówstwo',
+        zh: '钓鱼用品',
     },
     military: {
         ru: 'Военная',
@@ -184,6 +209,7 @@ export default {
         en: 'Military',
         de: 'Militär',
         pl: 'Wojskowa',
+        zh: '军事',
     },
 
     //
@@ -194,6 +220,7 @@ export default {
         en: 'Take a license at {{name}}',
         de: 'Holen Sie sich eine Lizenz bei {{name}}',
         pl: 'Zdobądź licencję w {{name}}',
+        zh: '取得执照{{name}}',
     },
 
     licenseTaken: {
@@ -202,6 +229,7 @@ export default {
         en: '{{playerName}} took your {{license}} license',
         de: '{{playerName}} hat Ihre Lizenz {{license}} genommen',
         pl: '{{playerName}} zabrał twoją licencję {{license}}',
+        zh: '{{playerName}}拿走了你的{{license}}驾照',
     },
     licenseTaken2: {
         ru: 'Вы забрали лицензию {{license}} в {{playerName}}',
@@ -209,5 +237,6 @@ export default {
         en: 'You took the {{license}} license from {{playerName}}',
         de: 'Sie haben die Lizenz {{license}} von {{playerName}} genommen',
         pl: 'Zabrałeś licencję {{license}} od {{playerName}}',
+        zh: '您从{{playerName}}获取了{{license}}许可证。',
     },
 };

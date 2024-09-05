@@ -5,6 +5,7 @@ export default {
         en: 'Blood Street Gang',
         de: 'Blood Street Gang',
         pl: 'Blood Street Gang',
+        zh:'血帮'
     },
     ranks: {
         settler: {
@@ -13,6 +14,7 @@ export default {
             en: 'Settler',
             de: 'Settler',
             pl: 'Settler',
+            zh:'定居者',
         },
         younggangster: {
             ru: 'Young Gangster',
@@ -20,6 +22,7 @@ export default {
             en: 'Young Gangster',
             de: 'Young Gangster',
             pl: 'Young Gangster',
+           zh:'少年黑帮',
         },
         gangster: {
             ru: 'Gangster',
@@ -27,6 +30,7 @@ export default {
             en: 'Gangster',
             de: 'Gangster',
             pl: 'Gangster',
+            zh:'黑帮',
         },
         thuggangsta: {
             ru: 'Thug Gangsta',
@@ -34,6 +38,7 @@ export default {
             en: 'Thug Gangsta',
             de: 'Thug Gangsta',
             pl: 'Thug Gangsta',
+           zh:'暴徒',
         },
         ghettosoldier: {
             ru: 'Ghetto Soldier',
@@ -41,6 +46,7 @@ export default {
             en: 'Ghetto Soldier',
             de: 'Ghetto Soldier',
             pl: 'Ghetto Soldier',
+            zh:'贫民区士兵',
         },
         cutthroat: {
             ru: 'Cutthroat',
@@ -48,6 +54,7 @@ export default {
             en: 'Cutthroat',
             de: 'Cutthroat',
             pl: 'Cutthroat',
+           zh:'Cutthroat',
         },
         lockilla: {
             ru: 'Loc Killa',
@@ -55,6 +62,7 @@ export default {
             en: 'Loc Killa',
             de: 'Loc Killa',
             pl: 'Loc Killa',
+           zh:'基拉湖',
         },
         bloodmentor: {
             ru: 'Blood Mentor',
@@ -62,6 +70,7 @@ export default {
             en: 'Blood Mentor',
             de: 'Blood Mentor',
             pl: 'Blood Mentor',
+            zh:'血液导师',
         },
         advisor: {
             ru: 'Advisor',
@@ -69,6 +78,7 @@ export default {
             en: 'Advisor',
             de: 'Advisor',
             pl: 'Advisor',
+           zh:'顾问',
         },
         eastsidepac: {
             ru: 'East Side Pac',
@@ -76,6 +86,7 @@ export default {
             en: 'East Side Pac',
             de: 'East Side Pac',
             pl: 'East Side Pac',
+            zh:'东区Pac',
         },
     },
 };
