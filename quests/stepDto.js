@@ -573,4 +573,27 @@ export const stepDto = {
         pl: 'Upoluj {{amount}} dowolnych zwierząt',
         zh: '猎杀{{amount}}任何动物',
     },
+
+    //
+    plantSeeds: {
+        ru: 'Посадите {{name}} {{count}} раз',
+        ua: 'Посадіть {{name}} {{count}} разів',
+        en: 'Plant {{name}} {{count}} times',
+        de: 'Pflanzen Sie {{name}} {{count}} Mal',
+        pl: 'Zasadź {{name}} {{count}} razy',
+    },
+    growPlants: {
+        ru: 'Выростите "{{name}}" на ферме {{count}} раз',
+        ua: 'Виростіть "{{name}}" на фермі {{count}} разів',
+        en: 'Grow "{{name}}" on the farm {{count}} times',
+        de: 'Züchten Sie "{{name}}" auf dem Bauernhof {{count}} Mal',
+        pl: 'Wyhoduj "{{name}}" na farmie {{count}} razy',
+    },
+    waterAnyPlants: {
+        ru: 'Полейте любые растения на ферме {{count}} раз',
+        ua: 'Полийте будь-які рослини на фермі {{count}} разів',
+        en: 'Water any plants on the farm {{count}} times',
+        de: 'Gießen Sie beliebige Pflanzen auf dem Bauernhof {{count}} Mal',
+        pl: 'Podlej dowolne rośliny na farmie {{count}} razy',
+    },
 };
