@@ -6,6 +6,7 @@ export const hairs = {
             ru: 'Лысый',
             de: 'Glatze',
             pl: 'Łysy',
+            zh: '秃头',
         },
 
         shortHair: {
@@ -14,6 +15,7 @@ export const hairs = {
             ru: 'Короткая стрижка',
             de: 'Kurzes Haar',
             pl: 'Krótkie włosy',
+            zh: '短发',
         },
 
         fauxHawk: {
@@ -22,6 +24,7 @@ export const hairs = {
             ru: 'Ложная гребешковая',
             de: 'Faux-Hawk',
             pl: 'Faux Hawk',
+            zh: '莫西干',
         },
 
         hipsterShaved: {
@@ -30,6 +33,7 @@ export const hairs = {
             ru: 'Хипстер выбритый',
             de: 'Hipster rasiert',
             pl: 'Hipster zgolony',
+            zh: '潮人剃',
         },
 
         sideSweptPompadour: {
@@ -38,6 +42,7 @@ export const hairs = {
             ru: 'Боковая проборная взбитая',
             de: 'Seitlich gekämmte Pompadour',
             pl: 'Zaczesana na bok Pompadour',
+            zh: '侧扫蓬巴杜发型',
         },
 
         shorterHaircut: {
@@ -46,6 +51,7 @@ export const hairs = {
             ru: 'Более короткая стрижка',
             de: 'Kürzerer Haarschnitt',
             pl: 'Krótsza fryzura',
+            zh: '短的发型',
         },
 
         biker: {
@@ -54,6 +60,7 @@ export const hairs = {
             ru: 'Байкерская',
             de: 'Biker',
             pl: 'Motocyklista',
+            zh: '摩托帮发型',
         },
 
         ponytail: {
@@ -62,6 +69,7 @@ export const hairs = {
             ru: 'Конский хвост',
             de: 'Pferdeschwanz',
             pl: 'Kucyk',
+            zh: '马尾辫',
         },
 
         afroBraids: {
@@ -70,6 +78,7 @@ export const hairs = {
             ru: 'Афроплетение',
             de: 'Afro-Zöpfe',
             pl: 'Afro warkocze',
+            zh: '非洲式发型的辫子',
         },
 
         slickedBack: {
@@ -78,6 +87,7 @@ export const hairs = {
             ru: 'Заправленная',
             de: 'Nach hinten gekämmt',
             pl: 'Przyczochrana do tyłu',
+            zh: '直发',
         },
 
         shortSpike: {
@@ -86,6 +96,7 @@ export const hairs = {
             ru: 'Короткая щетинистая',
             de: 'Kurzer Igel',
             pl: 'Krótki kolczatka',
+            zh: '短刺发型',
         },
 
         spikyHair: {
@@ -94,6 +105,7 @@ export const hairs = {
             ru: 'Шипастая',
             de: 'Stachelige Haare',
             pl: 'Kolczaste włosy',
+            zh: '刺猬头',
         },
         caesar: {
             ua: 'Цезар',
@@ -101,6 +113,7 @@ export const hairs = {
             ru: 'Цезарь',
             de: 'Cäsar',
             pl: 'Cezar',
+            zh: '凯撒发型',
         },
 
         parted: {
@@ -109,6 +122,7 @@ export const hairs = {
             ru: 'Разделанная',
             de: 'Geteilt',
             pl: 'Podzielona',
+            zh: '分头',
         },
 
         dreadlocks: {
@@ -117,6 +131,7 @@ export const hairs = {
             ru: 'Дреды',
             de: 'Dreadlocks',
             pl: 'Dredy',
+            zh: '长发绺',
         },
 
         longHair: {
@@ -125,6 +140,7 @@ export const hairs = {
             ru: 'Длинные волосы',
             de: 'Langes Haar',
             pl: 'Długie włosy',
+            zh: '长发',
         },
 
         fluffyCurls: {
@@ -133,6 +149,7 @@ export const hairs = {
             ru: 'Пушистые кудри',
             de: 'Lockige Locken',
             pl: 'Puszyste loki',
+            zh: '蓬松卷发',
         },
 
         surferStyle: {
@@ -141,6 +158,7 @@ export const hairs = {
             ru: 'Серферский стиль',
             de: 'Surfer-Stil',
             pl: 'Styl surferski',
+            zh: '冲浪风格发型',
         },
 
         shortSidePart: {
@@ -149,6 +167,7 @@ export const hairs = {
             ru: 'Короткая боковая проборная',
             de: 'Kurzes Seitenteil',
             pl: 'Krótka przerwa na boku',
+            zh: '男士短发',
         },
 
         highShavedSides: {
@@ -157,772 +176,869 @@ export const hairs = {
             ru: 'Высокие выбритые боковые стороны',
             de: 'Hohe rasierte Seiten',
             pl: 'Wysokie zgolone boki',
+            zh: '高剃边',
         },
-        longShaved: { 
+        longShaved: {
             ua: 'Довгі вибриті',
             en: 'Long Shaved',
             ru: 'Длинные выбритые',
             de: 'Lang rasiert',
             pl: 'Długie zgolone',
+            zh: '阴阳头',
         },
-        
-        youngHipster: { 
+
+        youngHipster: {
             ua: 'Молодіжний хіпстер',
             en: 'Young Hipster',
             ru: 'Молодежный хипстер',
             de: 'Junger Hipster',
             pl: 'Młody hipster',
+            zh: '皮士风格发型',
         },
-        
-        toddler: { 
+
+        toddler: {
             ua: 'Дитинча',
             en: 'Toddler',
             ru: 'Малютка',
             de: 'Kleinkind',
             pl: 'Małe dziecko',
+            zh: '胎儿发型',
         },
-        
-        classicAfroBraids: { 
+
+        classicAfroBraids: {
             ua: 'Класичне афроплетіння',
             en: 'Classic Afro Braids',
             ru: 'Классическое афроплетение',
             de: 'Klassische Afro-Zöpfe',
             pl: 'Klasyczne warkocze afro',
+            zh: '非洲式辫子',
         },
-        
-        palmTreeAfroBraids: { 
+
+        palmTreeAfroBraids: {
             ua: 'Пальмове афроплетіння',
             en: 'Palm Tree Afro Braids',
             ru: 'Пальмовое афроплетение',
             de: 'Palmenbaum Afro-Zöpfe',
             pl: 'Afro warkocze z palmą',
+            zh: '棕榈树非洲式辫子',
         },
-        
-        lightningAfroBraids: { 
+
+        lightningAfroBraids: {
             ua: 'Молниєве афроплетіння',
             en: 'Lightning Afro Braids',
             ru: 'Молниевое афроплетение',
             de: 'Blitz-Afro-Zöpfe',
             pl: 'Afro warkocze z piorunami',
+            zh: '闪电非洲式辫子',
         },
-        
-        whippedAfroBraids: { 
+
+        whippedAfroBraids: {
             ua: 'Збите афроплетіння',
             en: 'Whipped Afro Braids',
             ru: 'Взбитое афроплетение',
             de: 'Geschlagene Afro-Zöpfe',
             pl: 'Ubijane warkocze afro',
+            zh: '打过的非洲辫子',
         },
-        
-        zigzagAfroBraids: { 
+
+        zigzagAfroBraids: {
             ua: 'Зигзагоподібне афроплетіння',
             en: 'Zigzag Afro Braids',
             ru: 'Зигзагообразное афроплетение',
             de: 'Zigzag-Afro-Zöpfe',
             pl: 'Afro warkocze w kształcie litery Z',
+            zh: '之字形非洲辫子',
         },
-        
-        snailAfroBraids: { 
+
+        snailAfroBraids: {
             ua: 'Вулиткове афроплетіння',
             en: 'Snail Afro Braids',
             ru: 'Улитка афроплетение',
             de: 'Schneckenaus Afro-Zöpfe',
             pl: 'Afro warkocze w kształcie ślimaka',
+            zh: '蜗牛式非洲辫子',
         },
-        
-        hightop: { 
+
+        hightop: {
             ua: 'Хайтоп',
             en: 'Hightop',
             ru: 'Хайтоп',
             de: 'Hightop',
             pl: 'Hightop',
+            zh: '高顶发型',
         },
-        
-        casuallySweptBack: { 
+
+        casuallySweptBack: {
             ua: 'Випадково убране назад',
             en: 'Casually Swept Back',
             ru: 'Свободно убранная назад',
             de: 'Lässig zurückgekämmt',
             pl: 'Nieuważnie zaczesane do tyłu',
+            zh: '高顶发型',
         },
-        
-        furryTrimmed: { 
+
+        furryTrimmed: {
             ua: 'Збиті знизу волосисті',
             en: 'Furry Trimmed',
             ru: 'Убранный снизу волосатый',
             de: 'Pelziger Beschnitt',
             pl: 'Z futerkiem przystrzyżone',
+            zh: '兽发',
         },
-        
-        casuallySweptToSide: { 
+
+        casuallySweptToSide: {
             ua: 'Випадково убране вбік',
             en: 'Casually Swept To Side',
             ru: 'Убранный в сторону снизу',
             de: 'Lässig zur Seite gekehrt',
             pl: 'Nieuważnie zaczesane na bok',
+            zh: '侧发',
         },
-        
-        spikyMohawk: { 
+
+        spikyMohawk: {
             ua: 'Шипастий мохок',
             en: 'Spiky Mohawk',
             ru: 'Шипастый мохок',
             de: 'Stacheliger Irokesenschnitt',
             pl: 'Kolczasty irokez',
+            zh: '莫西干',
         },
-        
-        trendy: { 
+
+        trendy: {
             ua: 'Модний',
             en: 'Trendy',
             ru: 'Модник',
             de: 'Trendig',
             pl: 'Modny',
+            zh: '时尚发型',
         },
-        
-        fashionableHaircut: { 
+
+        fashionableHaircut: {
             ua: 'Модна стрижка',
             en: 'Fashionable Haircut',
             ru: 'Модная прическа',
             de: 'Modischer Haarschnitt',
             pl: 'Modna fryzura',
+            zh: '潮流发型',
         },
-        
-        topKnot: { 
+
+        topKnot: {
             ua: 'Верхній пучок',
             en: 'Top Knot',
             ru: 'Верхняя пучок',
             de: 'Oberer Knoten',
             pl: 'Górny kok',
+            zh: '头顶毛',
         },
-        
-        bob: { 
+
+        bob: {
             ua: 'Боб',
             en: 'Bob',
             ru: 'Боб',
             de: 'Bob',
             pl: 'Bob',
+            zh: 'Bob',
         },
-        
-        mediumHair: { 
+
+        mediumHair: {
             ua: 'Середні волосся',
             en: 'Medium Hair',
             ru: 'Средние волосы',
             de: 'Mittellanges Haar',
             pl: 'Średnie włosy',
+            zh: '中长发',
         },
-        
-        youthful: { 
+
+        youthful: {
             ua: 'Молодіжна',
             en: 'Youthful',
             ru: 'Молодёжная',
             de: 'Jugendlich',
             pl: 'Młodzieżowa',
+            zh: '年轻发型',
         },
-        
-        tail: { 
+
+        tail: {
             ua: 'Хвіст',
             en: 'Tail',
             ru: 'Хвост',
             de: 'Pferdeschwanz',
             pl: 'Ogon',
+            zh: '马尾',
         },
-        
-        messy: { 
+
+        messy: {
             ua: 'Хаотична',
             en: 'Messy',
             ru: 'Хаотичная',
             de: 'Unordentlich',
             pl: 'Niesforne',
+            zh: '脏辫',
         },
-        
-        dreadlocksUnique: { 
+
+        dreadlocksUnique: {
             ua: 'Дреди',
             en: 'Dreadlocks',
             ru: 'Дреды',
             de: 'Dreadlocks',
             pl: 'Dredy',
+            zh: '长发绺',
         },
-        
-        longHairUnique: { 
+
+        longHairUnique: {
             ua: 'Довгі волосся',
             en: 'Long Hair',
             ru: 'Длинные волосы',
             de: 'Langes Haar',
             pl: 'Długie włosy',
+            zh: '长发',
         },
-        
-        net: { 
+
+        net: {
             ua: 'Сіточка',
             en: 'Net',
             ru: 'Сеточка',
             de: 'Netz',
             pl: 'Sieć',
+            zh: 'net',
         },
-        shortCurls: { 
+        shortCurls: {
             ua: 'Короткі кучері',
             en: 'Short Curls',
             ru: 'Короткие кудрявые',
             de: 'Kurze Locken',
             pl: 'Krótkie kręcone włosy',
+            zh: '金色的短卷发',
         },
-        
-        curls: { 
+
+        curls: {
             ua: 'Кучері',
             en: 'Curls',
             ru: 'Кудрявые',
             de: 'Locken',
             pl: 'Kręcone włosy',
+            zh: '卷发',
         },
-        
-        shortHairUnique: { 
+
+        shortHairUnique: {
             ua: 'Коротка стрижка',
             en: 'Short Hair',
             ru: 'Короткая стрижка',
             de: 'Kurzes Haar',
             pl: 'Krótka fryzura',
+            zh: '短发',
         },
-        
-        upwards: { 
+
+        upwards: {
             ua: 'Вгору',
             en: 'Upwards',
             ru: 'Вверх',
             de: 'Nach oben',
             pl: 'Do góry',
+            zh: '向上梳',
         },
-        
-        bothSides: { 
+
+        bothSides: {
             ua: 'На дві сторони',
             en: 'Both Sides',
             ru: 'На две стороны',
             de: 'Beidseitig',
             pl: 'Na obie strony',
+            zh: '侧分发型',
         },
-        
-        antennas: { 
+
+        antennas: {
             ua: 'Антени',
             en: 'Antennas',
             ru: 'Антеночки',
             de: 'Antennen',
             pl: 'Anteny',
+            zh: '天线发型',
         },
-        
-        shockedByElectricity: { 
+
+        shockedByElectricity: {
             ua: 'Вдарило струмом',
             en: 'Shocked By Electricity',
             ru: 'Ударило током',
             de: 'Von Elektrizität geschockt',
             pl: 'Porażony prądem',
+            zh: '电击发型',
         },
-        
-        regular: { 
+
+        regular: {
             ua: 'Звичайна',
             en: 'Regular',
             ru: 'Обычная',
             de: 'Normal',
             pl: 'Zwyczajna',
+            zh: '传统发型',
         },
-        
-        abobus: { 
+
+        abobus: {
             ua: 'Абобусна',
             en: 'Abobus',
             ru: 'Абобусная',
             de: 'Abobus',
             pl: 'Abobus',
+            zh: '迷因发型',
         },
-        
-        trendyUnique: { 
+
+        trendyUnique: {
             ua: 'Модна',
             en: 'Trendy',
             ru: 'Модная',
             de: 'Trendig',
             pl: 'Modna',
+            zh: '时髦发型',
         },
-        
-        oldSchool: { 
+
+        oldSchool: {
             ua: 'Старая школа',
             en: 'Old School',
             ru: 'Олдовая',
             de: 'Old School',
             pl: 'Stary styl',
+            zh: '学生发型',
         },
-        
-        almostMinecraft: { 
+
+        almostMinecraft: {
             ua: 'Майже майнкрафт',
             en: 'Almost Minecraft',
             ru: 'Почти майнкрафт',
             de: 'Fast wie Minecraft',
             pl: 'Prawie jak Minecraft',
+            zh: 'Almost Minecraft',
         },
-        
-        mediumShortDownwards: { 
+
+        mediumShortDownwards: {
             ua: 'Середньо коротка вниз',
             en: 'Medium Short Downwards',
             ru: 'Средняя короткая вниз',
             de: 'Mittellang Kurz nach unten',
             pl: 'Średnie krótkie w dół',
+            zh: '中短向下发型',
         },
-        fashionableBackwards: { 
+        fashionableBackwards: {
             ua: 'Модна назад',
             en: 'Fashionable Backwards',
             ru: 'Модная назад',
             de: 'Modisch nach hinten',
             pl: 'Modna do tyłu',
+            zh: '时尚向后发型',
         },
-        
-        fashionableToSide: { 
+
+        fashionableToSide: {
             ua: 'Модна на бік',
             en: 'Fashionable To Side',
             ru: 'Модная на бок',
             de: 'Modisch zur Seite',
             pl: 'Modna na bok',
+            zh: '时尚侧面发型',
         },
-        
-        iroquois: { 
+
+        iroquois: {
             ua: 'Ірокез',
             en: 'Iroquois',
             ru: 'Ирукез',
             de: 'Irokesenschnitt',
             pl: 'Irokez',
+            zh: '印第安发型',
         },
-        
-        chaotic: { 
+
+        chaotic: {
             ua: 'Хаотична',
             en: 'Chaotic',
             ru: 'Хаотичная',
             de: 'Chaotisch',
             pl: 'Chaotyczna',
+            zh: '混乱发型',
         },
-        
-        overgrown: { 
+
+        overgrown: {
             ua: 'Заростла',
             en: 'Overgrown',
             ru: 'Заросшая',
             de: 'Überwachsen',
             pl: 'Zarośnięta',
+            zh: '茂密发型',
         },
-        
-        miniMinecraft: { 
+
+        miniMinecraft: {
             ua: 'Міні майкнафт',
             en: 'Mini Minecraft',
             ru: 'Мини майкнафт',
             de: 'Mini Minecraft',
             pl: 'Mini Minecraft',
+            zh: 'Mini Minecraft',
         },
-        
-        short: { 
+
+        short: {
             ua: 'Коротка',
             en: 'Short',
             ru: 'Короткая',
             de: 'Kurz',
             pl: 'Krótka',
+            zh: '短发',
         },
-        
-        high: { 
+
+        high: {
             ua: 'Висока',
             en: 'High',
             ru: 'Высокая',
             de: 'Hoch',
             pl: 'Wysoka',
+            zh: '长发',
         },
-        
-        big: { 
+
+        big: {
             ua: 'Велика',
             en: 'Big',
             ru: 'Большая',
             de: 'Groß',
             pl: 'Duża',
+            zh: '大发型',
         },
-        
-        trendyWithPonytail: { 
+
+        trendyWithPonytail: {
             ua: 'Модна з хвостиком',
             en: 'Trendy With Ponytail',
             ru: 'Модная с хвостиком',
             de: 'Trendig mit Pferdeschwanz',
             pl: 'Modna z kucykiem',
+            zh: '时髦的马尾辫',
         },
-        
-        cap: { 
+
+        cap: {
             ua: 'Шапочка',
             en: 'Cap',
             ru: 'Шапочка',
             de: 'Kappe',
             pl: 'Czapka',
+            zh: '帽子发型',
         },
-        
-        longCurls: { 
+
+        longCurls: {
             ua: 'Довгі кучері',
             en: 'Long Curls',
             ru: 'Кудрявые длинные',
             de: 'Lange Locken',
             pl: 'Długie kręcone włosy',
+            zh: '一头长长卷发',
         },
-        
-        shortCurlsUnique: { 
+
+        shortCurlsUnique: {
             ua: 'Кудряві короткі',
             en: 'Short Curls',
             ru: 'Кудрявые короткие',
             de: 'Kurze Locken',
             pl: 'Krótkie kręcone włosy',
+            zh: '金色的短卷发',
         },
-        
-        curtains: { 
+
+        curtains: {
             ua: 'Штори',
             en: 'Curtains',
             ru: 'Шторы',
             de: 'Vorhänge',
             pl: 'Zasłony',
+            zh: '窗帘式刘海',
         },
     },
     female: {
-        bald: { 
+        bald: {
             ua: 'Лиса',
             en: 'Bald',
             ru: 'Лысая',
             de: 'Glatze',
             pl: 'Łysy',
+            zh: '秃头',
         },
-        
-        shortHaircut: { 
+
+        shortHaircut: {
             ua: 'Коротка стрижка',
             en: 'Short Haircut',
             ru: 'Короткая стрижка',
             de: 'Kurzhaarschnitt',
             pl: 'Krótka fryzura',
+            zh: '短发',
         },
-        
-        layeredBob: { 
+
+        layeredBob: {
             ua: 'Сходящийся боб',
             en: 'Layered Bob',
             ru: 'Ступенчатый боб',
             de: 'Stufiger Bob',
             pl: 'Warstwowy bob',
+            zh: '分层发型',
         },
-        
-        braids: { 
+
+        braids: {
             ua: 'Косички',
             en: 'Braids',
             ru: 'Косички',
             de: 'Flechten',
             pl: 'Warkocze',
+            zh: '麻花辫',
         },
-        
-        bun: { 
+
+        bun: {
             ua: 'Кок',
             en: 'Bun',
             ru: 'Пучок',
             de: 'Dutt',
             pl: 'Kok',
+            zh: '圆发型',
         },
-        
-        slantingMohawk: { 
+
+        slantingMohawk: {
             ua: 'Нахилений мохок',
             en: 'Slanting Mohawk',
             ru: 'Косой мохок',
             de: 'Schräger Irokesenschnitt',
             pl: 'Pochylony irokez',
+            zh: '倾斜的莫霍克',
         },
-        
-        bob: { 
+
+        bob: {
             ua: 'Боб',
             en: 'Bob',
             ru: 'Боб',
             de: 'Bob',
             pl: 'Bob',
+            zh: 'Bob',
         },
-        
-        pinnedBow: { 
+
+        pinnedBow: {
             ua: 'Приколотий бант',
             en: 'Pinned Bow',
             ru: 'Приколотый бант',
             de: 'Angesteckte Schleife',
             pl: 'Przypięty kokard',
+            zh: '梳理发型',
         },
-        
-        longBob: { 
+
+        longBob: {
             ua: 'Довгий боб',
             en: 'Long Bob',
             ru: 'Длинный боб',
             de: 'Langer Bob',
             pl: 'Długi bob',
+            zh: '长发bob',
         },
-        
-        pixie: { 
+
+        pixie: {
             ua: 'Піксі',
             en: 'Pixie',
             ru: 'Пикси',
             de: 'Pixie-Schnitt',
             pl: 'Pixie',
+            zh: '精灵发型',
         },
-        
-        sidePartedHair: { 
+
+        sidePartedHair: {
             ua: 'Волосся розділені на бік',
             en: 'Side Parted Hair',
             ru: 'Разделенные волосы на бок',
             de: 'Seitlich geteiltes Haar',
             pl: 'Włosy z przedziałkiem na bok',
+            zh: '侧分头发',
         },
-        
-        wavyBob: { 
+
+        wavyBob: {
             ua: 'Боб хвилястий',
             en: 'Wavy Bob',
             ru: 'Волновой боб',
             de: 'Gewellter Bob',
             pl: 'Falowany bob',
+            zh: '波浪头',
         },
-        
-        pinUpHairdo: { 
+
+        pinUpHairdo: {
             ua: 'Зачіска в стилі Pin Up',
             en: 'Pin Up Hairdo',
             ru: 'Стрижка в стиле Pin Up',
             de: 'Pin Up Frisur',
             pl: 'Fryzura pin-up',
+            zh: '别针式发型',
         },
-        
-        messyBun: { 
+
+        messyBun: {
             ua: 'Нерівний кок',
             en: 'Messy Bun',
             ru: 'Небрежный пучок',
             de: 'Unordentlicher Dutt',
             pl: 'Niezgrabny kok',
+            zh: '凌乱丸子头',
         },
-        
-        tightBun: { 
+
+        tightBun: {
             ua: 'Тугий кок',
             en: 'Tight Bun',
             ru: 'Тугой пучок',
             de: 'Enger Dutt',
             pl: 'Ciasny kok',
+            zh: '紧束发髻',
         },
-        
-        braidedBob: { 
+
+        braidedBob: {
             ua: 'Заплетений боб',
             en: 'Braided Bob',
             ru: 'Заплетенный боб',
             de: 'Geflochtener Bob',
             pl: 'Zaplatany bob',
+            zh: '编织发型',
         },
-        
-        bigBangs: { 
+
+        bigBangs: {
             ua: 'Великі чубчики',
             en: 'Big Bangs',
             ru: 'Большие челки',
             de: 'Großer Pony',
             pl: 'Duże grzywki',
+            zh: '爆炸头',
         },
-        
-        braidedBun: { 
+
+        braidedBun: {
             ua: 'Заплетений кок',
             en: 'Braided Bun',
             ru: 'Заплетенный пучок',
             de: 'Geflochtener Dutt',
             pl: 'Zaplatany kok',
+            zh: '凌乱辫子发簪',
         },
-        
-        baby: { 
+
+        baby: {
             ua: 'Дитинка',
             en: 'Baby',
             ru: 'Малютка',
             de: 'Baby',
             pl: 'Dziecko',
+            zh: '婴儿发型',
         },
-        
-        wavyBraids: { 
+
+        wavyBraids: {
             ua: 'Волнисті косички',
             en: 'Wavy Braids',
             ru: 'Волновые косички',
             de: 'Gewellte Zöpfe',
             pl: 'Falowane warkocze',
+            zh: '波浪的辫子',
         },
-        
-        spiralBraids: { 
+
+        spiralBraids: {
             ua: 'Спіральні косички',
             en: 'Spiral Braids',
             ru: 'Спиральные косички',
             de: 'Spiralzöpfe',
             pl: 'Spiralne warkocze',
+            zh: '螺旋的辫子',
         },
-        
-        combedQuiff: { 
+
+        combedQuiff: {
             ua: 'Заправлений квифф',
             en: 'Combed Quiff',
             ru: 'Заправленный квифф',
             de: 'Gekämmter Quiff',
             pl: 'Czesany kufr',
+            zh: '梳理发型',
         },
-        
-        wavyBangs: { 
+
+        wavyBangs: {
             ua: 'Волнисті чубчики',
             en: 'Wavy Bangs',
             ru: 'Волнистые челки',
             de: 'Gewellter Pony',
             pl: 'Falowane grzywki',
+            zh: '波浪的刘海',
         },
-        
-        slickedBackHair: { 
+
+        slickedBackHair: {
             ua: 'Прибрані волосся назад',
             en: 'Slicked Back Hair',
             ru: 'Отложенные волосы назад',
             de: 'Gekämmte zurückgestrichene Haare',
             pl: 'Wysmarowane do tyłu włosy',
+            zh: '大背头',
         },
-        
-        shortBack: { 
+
+        shortBack: {
             ua: 'Коротка на спині',
             en: 'Short Back',
             ru: 'Короткая назад',
             de: 'Kurze Rückseite',
             pl: 'Krótki tył',
+            zh: '短黑发',
         },
-        
-        shortSide: { 
+
+        shortSide: {
             ua: 'Коротка на бік',
             en: 'Short Side',
             ru: 'Короткая на бок',
             de: 'Kurze Seite',
             pl: 'Krótka strona',
+            zh: '男士发型',
         },
-        
-        mohawk: { 
+
+        mohawk: {
             ua: 'Ірокез',
             en: 'Mohawk',
             ru: 'Ирокез',
             de: 'Irokesenschnitt',
             pl: 'Irokez',
+            zh: '莫西干',
         },
-        
-        braidedHair: { 
+
+        braidedHair: {
             ua: 'Косички',
             en: 'Braids',
             ru: 'Косички',
             de: 'Flechten',
             pl: 'Warkocze',
+            zh: '辫子',
         },
-        
-        oneEye: { 
+
+        oneEye: {
             ua: 'Одне око',
             en: 'One Eye',
             ru: 'Один глаз',
             de: 'Ein Auge',
             pl: 'Jedno oko',
+            zh: '独眼龙',
         },
 
-        longSide: { 
+        longSide: {
             ua: 'Довгі на бік',
             en: 'Long Side',
             ru: 'Длинные на бок',
             de: 'Lange Seite',
             pl: 'Długa strona',
+            zh: '长发',
         },
-        
-        longOtherSide: { 
+
+        longOtherSide: {
             ua: 'Довгі на інший бік',
             en: 'Long Other Side',
             ru: 'Длинные на другой бок',
             de: 'Lange andere Seite',
             pl: 'Długa inna strona',
+            zh: '长长的另一边',
         },
-        
-        bigBraid: { 
+
+        bigBraid: {
             ua: 'Велика косичка',
             en: 'Big Braid',
             ru: 'Большая косичка',
             de: 'Große Flechte',
             pl: 'Duży warkocz',
+            zh: '大辫子',
         },
-        
-        longHair: { 
+
+        longHair: {
             ua: 'Довгі волосся',
             en: 'Long Hair',
             ru: 'Длинные',
             de: 'Langes Haar',
             pl: 'Długie włosy',
+            zh: '长发',
         },
-        
-        dreadlocks: { 
+
+        dreadlocks: {
             ua: 'Дреди',
             en: 'Dreadlocks',
             ru: 'Дреды',
             de: 'Dreadlocks',
             pl: 'Dredy',
+            zh: '长发绺',
         },
-        
-        messy: { 
+
+        messy: {
             ua: 'Хаотична',
             en: 'Messy',
             ru: 'Хаотичная',
             de: 'Unordentlich',
             pl: 'Zabałaganiona',
+            zh: '脏辫',
         },
-        
-        mediumHair: { 
+
+        mediumHair: {
             ua: 'Півдовгі волосся',
             en: 'Medium Hair',
             ru: 'Полу длинная',
             de: 'Mittellanges Haar',
             pl: 'Średnie włosy',
+            zh: '中长发',
         },
-        
-        bigTail: { 
+
+        bigTail: {
             ua: 'Великий хвіст',
             en: 'Big Tail',
             ru: 'Большой хвост',
             de: 'Großer Pferdeschwanz',
             pl: 'Duży kucyk',
+            zh: '大头发',
         },
-        
-        longStraight: { 
+
+        longStraight: {
             ua: 'Довгі прямі',
             en: 'Long Straight',
             ru: 'Длинные прямые',
             de: 'Lange Gerade',
             pl: 'Długie proste',
+            zh: '长直发',
         },
-        
-        longOther: { 
+
+        longOther: {
             ua: 'Довгі',
             en: 'Long Other',
             ru: 'Длинные',
             de: 'Lange andere',
             pl: 'Długie inne',
+            zh: '长发',
         },
-        
-        esbuild: { 
+
+        esbuild: {
             ua: 'Есбілд',
             en: 'Esbuild',
             ru: 'Есбилд',
             de: 'Esbuild',
             pl: 'Esbuild',
+            zh: '发型1',
         },
-        
-        shortOtherSide: { 
+
+        shortOtherSide: {
             ua: 'Коротка на інший бік',
             en: 'Short Other Side',
             ru: 'Короткая на бок',
             de: 'Kurze andere Seite',
             pl: 'Krótka inna strona',
+            zh: '一边短发型',
         },
-        
-        harleyQuinn: { 
+
+        harleyQuinn: {
             ua: 'Харлі Квінн',
             en: 'Harley Quinn',
             ru: 'Харли Квинн',
             de: 'Harley Quinn',
             pl: 'Harley Quinn',
+            zh: '哈莉奎因',
         },
-        
-        bombBack: { 
+
+        bombBack: {
             ua: 'Бомба назад',
             en: 'Bomb Back',
             ru: 'Бомба сзади',
             de: 'Bombe zurück',
             pl: 'Bombowy tył',
+            zh: '爆炸头',
         },
-        
-        abobus: { 
+
+        abobus: {
             ua: 'Абобусна',
             en: 'Abobus',
             ru: 'Абобусная',
             de: 'Abobus',
             pl: 'Abobus',
-        },        
+            zh: '发型',
+        },
     },
 };

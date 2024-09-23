@@ -6,6 +6,7 @@ export default {
             en: `I don't fucking get it, what are you doing here? Get outta here!`,
             pl: 'Nie rozumiem, kurwa, co ty tu robisz? Wynoś się stąd!',
             de: `Ich kapier's nicht, was machst du hier? Raus mit dir!`,
+            zh: '我他妈不明白，你在这里干什么?滚出去!',
         },
         sorry: {
             ru: 'Извини',
@@ -13,6 +14,7 @@ export default {
             en: 'Sorry',
             de: 'Entschuldigung',
             pl: 'Przepraszam',
+            zh: '抱歉',
         },
         fuckYou: {
             ru: 'Пошёл нахуй',
@@ -20,6 +22,7 @@ export default {
             en: 'Fuck you',
             de: 'Leck mich',
             pl: 'Spierdalaj',
+            zh: '去你妈的',
         },
     },
     job: {
@@ -29,6 +32,7 @@ export default {
             en: 'Hey there! Looking for a job? Just need to steal a car, pay well!',
             de: 'Hallo! Auf der Suche nach Arbeit? Muss nur ein Auto stehlen, gut bezahlen!',
             pl: 'Cześć! Szukasz pracy? Wystarczy ukraść samochód, płacę dobrze!',
+            zh: '嘿!在找工作吗?只需要偷一辆车，我会付一大笔钱',
         },
         moreInfo: {
             ru: 'Подробнее',
@@ -36,6 +40,7 @@ export default {
             en: 'More Info',
             de: 'Mehr Info',
             pl: 'Więcej informacji',
+            zh: '更多信息',
         },
         go: {
             ru: 'Давай',
@@ -43,6 +48,7 @@ export default {
             en: 'Go',
             de: 'Los',
             pl: 'Idź',
+            zh: '走',
         },
         //
         readyGoSendCoordinatesCarDetails: {
@@ -51,6 +57,7 @@ export default {
             en: `Yeah, it's simple. I give you approximate coordinates of the car, its color, model, and you find it and bring it to the location. So, are you ready?`,
             de: 'Ja, das ist einfach. Ich gebe dir ungefähre Koordinaten des Autos, seine Farbe, Modell, und du findest es und bringst es zum Zielort. Also, bist du bereit?',
             pl: 'Tak, to proste. Podaję ci przybliżone współrzędne samochodu, jego kolor, model, a ty go znajdujesz i dostarczasz pod wskazane miejsce. Czy jesteś gotowy?',
+            zh: '是的，很简单。我给你车的大概坐标，颜色，型号，然后你找到它，把它带到指定地点。那么，你准备好了吗?',
         },
         yes: {
             ru: 'Да',
@@ -58,6 +65,7 @@ export default {
             en: 'Yes',
             de: 'Ja',
             pl: 'Tak',
+            zh: '是的',
         },
         no: {
             ru: 'В другой раз',
@@ -65,6 +73,7 @@ export default {
             en: 'Another time',
             de: 'Ein anderes Mal',
             pl: 'Innym razem',
+            zh: '下一次',
         },
 
         //
@@ -74,6 +83,7 @@ export default {
             en: 'Great! You will soon receive an SMS with location details and other information, please wait.',
             de: 'Super! Du wirst bald eine SMS mit Standortdetails und anderen Informationen erhalten, bitte warte.',
             pl: 'Świetnie! Wkrótce otrzymasz SMS z danymi dotyczącymi lokalizacji i innymi informacjami, proszę czekać.',
+            zh: '太棒了!您将很快收到一条包含位置详细信息和其他信息的短信，请稍候',
         },
         okay: {
             ru: 'Хорошо',
@@ -81,6 +91,7 @@ export default {
             en: 'Okay',
             de: 'Okay',
             pl: 'Dobra',
+            zh: '好吧',
         },
     },
     already: {
@@ -90,6 +101,7 @@ export default {
             en: 'Are you still here? I gave you a task, get out',
             de: 'Bist du immer noch hier? Ich habe dir eine Aufgabe gegeben, verschwinde',
             pl: 'Jesteś jeszcze tutaj? Dałem ci zadanie, wynoś się',
+            zh: '你怎么还在这里?给我滚去做任务！',
         },
         ahYes: {
             ru: 'Забыл уже',
@@ -97,6 +109,7 @@ export default {
             en: 'Forgot already',
             de: 'Schon vergessen',
             pl: 'Już zapomniałem',
+            zh: '你已经忘了我',
         },
         bye: {
             ru: 'Хорошо',
@@ -104,6 +117,7 @@ export default {
             en: 'Okay',
             de: 'Gut',
             pl: 'Dobrze',
+            zh: '好吧',
         },
     },
     cooldown: {
@@ -113,6 +127,7 @@ export default {
             en: 'Yo bro, wait {{minutes}} minutes and then I can give you a new job!',
             de: 'Yo Bro, warte {{minutes}} Minuten und dann kann ich dir einen neuen Job geben!',
             pl: 'Yo bro, poczekaj {{minutes}} minut i wtedy będę mógł dać ci nową robotę!',
+            zh: '嘿，兄弟，等{{minutes}}分钟，然后我可以给你一份新工作',
         },
         ok: {
             ru: 'Ладно',
@@ -120,6 +135,7 @@ export default {
             en: 'Okay',
             de: 'Okay',
             pl: 'Ok',
+            zh: '好吧',
         },
     },
 };

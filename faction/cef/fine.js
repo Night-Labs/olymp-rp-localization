@@ -5,6 +5,7 @@ export default {
         en: 'Issue Fine',
         de: 'Bußgeld verhängen',
         pl: 'Nałożyć grzywnę',
+       zh:'写罚款',
     },
     reason: {
         ru: 'Укажите причину',
@@ -12,6 +13,7 @@ export default {
         en: 'Specify Reason',
         de: 'Geben Sie einen Grund an',
         pl: 'Podaj powód',
+        zh:'输入原因',
     },
     comment: {
         ru: 'Комментарий (?)',
@@ -19,6 +21,7 @@ export default {
         en: 'Comment (?)',
         de: 'Kommentar (?)',
         pl: 'Komentarz (?)',
+        zh:'评论（？）',
     },
     sum: {
         ru: 'Введите сумму от {{min}} до {{max}}',
@@ -26,6 +29,7 @@ export default {
         en: 'Enter Amount from {{min}} to {{max}}',
         de: 'Geben Sie einen Betrag zwischen {{min}} und {{max}} ein',
         pl: 'Wprowadź kwotę od {{min}} do {{max}}',
+        zh:'输入介于｛｛min｝｝和｛｛max｝｝之间的金额',
     },
     accept: {
         ru: 'Подтвердить',
@@ -33,6 +37,7 @@ export default {
         en: 'Accept',
         de: 'Bestätigen',
         pl: 'Zaakceptować',
+        zh:'接受',
     },
     decline: {
         ru: 'Отмена',
@@ -40,6 +45,7 @@ export default {
         en: 'Decline',
         de: 'Ablehnen',
         pl: 'Odrzucić',
+       zh:'已取消',
     },
 
     // Modal
@@ -51,6 +57,7 @@ export default {
             en: 'Fine',
             de: 'Bußgeld',
             pl: 'Grzywna',
+            zh:'特拉夫',
         },
         text: {
             ru: '{{name}} выписал вам штраф по бланку <br /> <br/> Причина: <span style="color: white">{{reason}}</span> <br /> Сумма: <span style="color: white">${{value}}</span> <br /> <br/> Вы хотите его оплатить?',
@@ -58,6 +65,7 @@ export default {
             en: '{{name}} has issued you a fine for a ticket. <br /> <br/> Reason: <span style="color: white">{{reason}}</span> <br /> Amount: <span style="color: white">${{value}}</span> <br /> <br/> Would you like to pay it?',
             de: '{{name}} hat Ihnen ein Bußgeld für ein Ticket ausgestellt. <br /> <br/> Grund: <span style="color: white">{{reason}}</span> <br /> Betrag: <span style="color: white">${{value}}</span> <br /> <br/> Möchten Sie es bezahlen?',
             pl: '{{name}} wystawił Ci mandat za bilet. <br /> <br/> Powód: <span style="color: white">{{reason}}</span> <br /> Kwota: <span style="color: white">${{value}}</span> <br /> <br/> Czy chcesz go zapłacić?',
+            zh:'｛｛name｝｝给你写了一笔罚款<br/><br/>原因：<span style=“color:white”>｛｛Reason｝</span><br/>金额：<span style=“color=white”>$｛value｝</span><br/]<br/]你想付钱吗？',
         },
         confirmButton: {
             ru: 'Оплатить',
@@ -65,6 +73,7 @@ export default {
             en: 'Pay',
             de: 'Bezahlen',
             pl: 'Opłacić',
+            zh:'支付',
         },
         declineButton: {
             ru: 'Отказаться',
@@ -72,6 +81,7 @@ export default {
             en: 'Decline',
             de: 'Ablehnen',
             pl: 'Odrzucić',
+            zh:'拒绝',
         },
     },
     youPayedFine: {
@@ -80,6 +90,7 @@ export default {
         en: 'You have paid a fine of ${{value}}',
         de: 'Sie haben ein Bußgeld in Höhe von ${{value}} bezahlt',
         pl: 'Opłaciłeś grzywnę w wysokości ${{value}}',
+        zh:'你已经支付了{{value}美元的罚款',
     },
     targetPayedFine: {
         ru: '{{name}} оплатил вам штраф на сумму ${{value}}',
@@ -87,6 +98,7 @@ export default {
         en: '{{name}} has paid you a fine of ${{value}}',
         de: '{{name}} hat Ihnen ein Bußgeld in Höhe von ${{value}} bezahlt',
         pl: '{{name}} opłacił Ci grzywnę w wysokości ${{value}}',
+        zh:'{{name}}已经向你支付了{{value}美元的罚款',
     },
 
     errorTooFar: {
@@ -95,6 +107,7 @@ export default {
         en: 'You are too far from the citizen',
         de: 'Sie sind zu weit von dem Bürger entfernt',
         pl: 'Jesteś zbyt daleko od obywatela',
+        zh:'你离市民太远了',
     },
 
     targetFailedToPayFine: {
@@ -103,6 +116,7 @@ export default {
         en: 'The citizen was unable to pay the fine',
         de: 'Der Bürger konnte das Bußgeld nicht bezahlen',
         pl: 'Obywatel nie mógł zapłacić grzywny',
+        zh:'这个公民付不起罚款',
     },
     targetDeclinedFine: {
         ru: 'Гражданин отказался оплатить штраф',
@@ -110,5 +124,6 @@ export default {
         en: 'The citizen declined to pay the fine',
         de: 'Der Bürger hat sich geweigert, das Bußgeld zu bezahlen',
         pl: 'Obywatel odmówił zapłaty grzywny',
+        zh:'公民拒绝支付罚款',
     },
 };

@@ -5,6 +5,7 @@ export default {
         en: 'Buyer',
         de: 'Ankäufer',
         pl: 'Skupujący',
+       zh:'买方',
     },
 
     information: {
@@ -13,6 +14,7 @@ export default {
         en: 'Information',
         de: 'Information',
         pl: 'Informacja',
+        zh:'消息',
     },
 
     listDesc: {
@@ -21,6 +23,7 @@ export default {
         en: 'List of items available for sale',
         de: 'Liste der zum Verkauf verfügbaren Artikel',
         pl: 'Lista przedmiotów dostępnych do sprzedaży',
+        zh:'可供出售的物品清单',
     },
 
     price: {
@@ -29,6 +32,7 @@ export default {
         en: 'Price',
         de: 'Preis',
         pl: 'Cena',
+       zh:'价格',
     },
 
     limit: {
@@ -37,6 +41,7 @@ export default {
         en: 'Limit',
         de: 'Limit',
         pl: 'Limit',
+       zh:'极限',
     },
 
     have: {
@@ -45,6 +50,7 @@ export default {
         en: 'Your',
         de: 'Ihre',
         pl: 'U ciebie',
+       zh:'你的',
     },
 
     enterAmount: {
@@ -53,6 +59,7 @@ export default {
         en: 'Enter amount',
         de: 'Menge eingeben',
         pl: 'Wprowadź ilość',
+        zh:'输入金额',
     },
 
     sell: {
@@ -61,6 +68,7 @@ export default {
         ua: 'Продати',
         de: 'Verkaufen',
         pl: 'Sprzedać',
+        zh:'卖',
     },
 
     interaction: {
@@ -69,6 +77,7 @@ export default {
         en: "Open the buyer's menu",
         de: 'Das Käufermenü öffnen',
         pl: 'Otwórz menu kupującego',
+        zh:'打开买方的菜单',
     },
 
     limitReached: {
@@ -77,6 +86,7 @@ export default {
         en: 'The buyer no longer needs this item for now',
         de: 'Der Käufer benötigt diesen Artikel vorerst nicht mehr',
         pl: 'Kupujący na razie nie potrzebuje tego towaru',
+        zh:'买家现在不再需要这个物品了',
     },
 
     youNotHaveItem: {
@@ -84,7 +94,8 @@ export default {
         ua: 'У вас недостатньо цього товару',
         en: 'You do not have enough of this item',
         de: 'Sie haben nicht genug von diesem Artikel',
-        pl: 'Nie masz wystarczająco tego towaru',
+        pl: 'Nie masz wystarczająco tego towaru', 
+        zh:'这种货你们的数量不够',
     },
 
     sold: {
@@ -93,6 +104,7 @@ export default {
         en: 'You sold {{name}} {{quantity}} pcs. for ${{price}}',
         de: 'Sie haben {{name}} {{quantity}} Stk. für ${{price}} verkauft',
         pl: 'Sprzedałeś {{name}} {{quantity}} szt. za ${{price}}',
+        zh:'您售出{{name}}{{quantity}}件,价格为$ {{price}}',
     },
 
     types: {
@@ -102,6 +114,7 @@ export default {
             en: 'Fishing',
             de: 'Fischen',
             pl: 'Wędkarstwo',
+           zh:'钓鱼',
         },
         meat: {
             ru: 'Мяса',
@@ -109,6 +122,16 @@ export default {
             en: 'Meat',
             de: 'Fleisch',
             pl: 'Mięso',
+           zh:'肉类',
+        },
+        farm: {
+            ru: 'Агропродуктов',
+            ua: 'Агропродуктiв',
+            en: 'Farm',
+            de: 'Landwirtschaft',
+            pl: 'Gospodarstwo',
+            ge: 'ფერმა',
+          zh:'农场',
         },
     },
 };

@@ -5,6 +5,7 @@ export default {
         en: '~r~ATTENTION! An event called {{name}} has started. To participate, enter /gomp',
         de: '~r~ACHTUNG! Eine Veranstaltung namens {{name}} wurde gestartet. Um teilzunehmen, geben Sie /gomp ein',
         pl: '~r~UWAGA! Rozpoczęto wydarzenie o nazwie {{name}}. Aby wziąć udział, wpisz /gomp',
+       zh:'~r~注意！活动{{name}}已开启,输入 /gomp 加入',
     },
     playerJoinMessage: {
         ru: 'Вы присоединились к мероприятию под названием {{name}}, ожидайте указаний администрации. Чтобы покинуть /leavemp',
@@ -12,6 +13,7 @@ export default {
         en: 'You have joined the event called {{name}}, await further instructions from the administration. To leave, enter /leavemp',
         de: 'Sie haben sich der Veranstaltung namens {{name}} angeschlossen, warten Sie auf Anweisungen der Verwaltung. Um zu verlassen, geben Sie /leavemp ein',
         pl: 'Dołączyłeś do wydarzenia o nazwie {{name}}, czekaj na instrukcje administracji. Aby opuścić, wpisz /leavemp',
+       zh:'您已加入{{name}}活动,请管理部门的进一步指示.推出请输入/leavemp',
     },
     noActiveEvent: {
         ru: 'Нет активного мероприятия',
@@ -19,6 +21,7 @@ export default {
         en: 'No active event',
         de: 'Kein aktives Ereignis',
         pl: 'Brak aktywnego wydarzenia',
+       zh:'暂无活动',
     },
     endMessage: {
         ru: '~r~Мероприятие {{name}} окончено. Спасибо всем за участие!',
@@ -26,6 +29,7 @@ export default {
         en: '~r~The event {{name}} has ended. Thank you all for participating!',
         de: '~r~Die Veranstaltung {{name}} ist beendet. Vielen Dank an alle Teilnehmer!',
         pl: '~r~Wydarzenie {{name}} zakończone. Dziękujemy wszystkim za udział!',
+       zh:'~R~活动{{name}}已结束.谢谢参与!',
     },
     youStartedMp: {
         ru: 'Вы запустили мероприятие под названием {{name}}. Чтобы закончить его /endmp',
@@ -33,6 +37,7 @@ export default {
         en: 'You have started an event called {{name}}. To end it, enter /endmp',
         de: 'Sie haben eine Veranstaltung namens {{name}} gestartet. Um sie zu beenden, geben Sie /endmp ein',
         pl: 'Rozpocząłeś wydarzenie o nazwie {{name}}. Aby je zakończyć, wpisz /endmp',
+       zh:'已开启{{name}}活动,输入 /endmp 结束活动',
     },
     activeJob: {
         ru: 'Вы не можете войти на мероприятие, находясь в работе',
@@ -40,6 +45,7 @@ export default {
         en: 'You cannot join the event while on a job',
         de: 'Sie können nicht an der Veranstaltung teilnehmen, während Sie arbeiten',
         pl: 'Nie możesz dołączyć do wydarzenia, będąc w pracy',
+       zh:'你不能在工作期间加入活动',
     },
     youJustCant: {
         ru: 'Абобус совсем?',
@@ -47,6 +53,7 @@ export default {
         en: 'Are you completely Abobus?',
         de: 'Bist du völlig Abobus?',
         pl: 'Jesteś całkiem Abobus?',
+       zh:'你完全是阿波斯人吗?',
     },
     youDead: {
         ru: 'Вы умерли на мероприятии, и попадаете в обычный мир',
@@ -54,6 +61,7 @@ export default {
         en: 'You died during the event and are returning to the normal world',
         de: 'Sie sind während der Veranstaltung gestorben und kehren in die normale Welt zurück',
         pl: 'Zginąłeś podczas wydarzenia i wracasz do normalnego świata',
+       zh:'你在活动中死亡,你已被送回自由城',
     },
     youCant: {
         ru: 'Вы уже не можете участвовать в мероприятии',
@@ -61,5 +69,6 @@ export default {
         en: 'You can no longer participate in the event',
         de: 'Sie können nicht mehr an der Veranstaltung teilnehmen',
         pl: 'Nie możesz już brać udziału w wydarzeniu',
+       zh:'你无法再参与活动',
     },
 };

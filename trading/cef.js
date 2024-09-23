@@ -5,6 +5,7 @@ export default {
         en: 'Seller',
         de: 'Verkäufer',
         pl: 'Sprzedawca',
+        zh: '卖家',
     },
     buyer: {
         ru: 'Покупатель',
@@ -12,6 +13,7 @@ export default {
         en: 'Buyer',
         de: 'Käufer',
         pl: 'Kupujący',
+        zh: '买家',
     },
     placeholder: {
         ru: 'Укажите цену (например 50000)',
@@ -19,6 +21,7 @@ export default {
         en: 'Enter price (e.g., 50000)',
         de: 'Preis angeben (z.B. 50000)',
         pl: 'Podaj cenę (np. 50000)',
+        zh: '请输入价格（例如 50000）',
     },
     offer: {
         ru: 'Предложить',
@@ -26,6 +29,7 @@ export default {
         en: 'Offer',
         de: 'Anbieten',
         pl: 'Zaproponować',
+        zh: '报价',
     },
     accept: {
         ru: 'Принять',
@@ -33,6 +37,7 @@ export default {
         en: 'Accept',
         de: 'Annehmen',
         pl: 'Przyjąć',
+        zh: '接受',
     },
     cancel: {
         ru: 'Отмена',
@@ -40,6 +45,7 @@ export default {
         en: 'Cancel',
         de: 'Abbrechen',
         pl: 'Anulować',
+        zh: '取消',
     },
     decline: {
         ru: 'Отклонить',
@@ -47,5 +53,6 @@ export default {
         en: 'Deny',
         de: 'Ablehnen',
         pl: 'Odrzucić',
+        zh: '拒绝',
     },
 };

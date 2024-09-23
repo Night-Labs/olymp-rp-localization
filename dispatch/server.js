@@ -5,6 +5,7 @@ export default {
         en: 'The medic has arrived at your call',
         de: 'Der Sanitäter ist bei Ihrem Anruf angekommen',
         pl: 'Medyk przybył na twoje wezwanie',
+        zh:'医生接听了你的急救电话',
     },
     acceptedDispatch: {
         ru: '{{name}} принял ваш вызов. Ожидайте.',
@@ -12,6 +13,7 @@ export default {
         en: '{{name}} accepted your call. Wait.',
         de: '{{name}} hat Ihren Anruf angenommen. Warten Sie.',
         pl: '{{name}} przyjął twoje wezwanie. Czekaj.',
+        zh:'医生正在来的路上',
     },
     newDispatch: {
         ru: 'Поступил новый вызов',
@@ -19,6 +21,7 @@ export default {
         en: 'A new dispatch has arrived',
         de: 'Ein neuer Einsatz ist eingetroffen',
         pl: 'Nadeszło nowe wezwanie',
+        zh:'新的报警电话',
     },
     goDispatch: {
         ru: 'Вы приняли вызов. Скорее отправляйтесь на точку',
@@ -26,6 +29,7 @@ export default {
         en: 'You accepted the call. Hurry to the point',
         de: 'Sie haben den Anruf angenommen. Beeilen Sie sich zum Punkt',
         pl: 'Przyjąłeś wezwanie. Śpiesz się do punktu',
+        zh:'电话接通了',
     },
     playerDeath: {
         ru: 'Человек по вашему вызову скончался, вызов отменён.',
@@ -33,6 +37,7 @@ export default {
         en: 'The person on your call has died, the call is canceled.',
         de: 'Die Person auf Ihrem Anruf ist gestorben, der Anruf wird abgebrochen.',
         pl: 'Osoba, do której dzwoniłeś, nie żyje, rozmowa jest anulowana.',
+        zh:'通讯故障电话自动取消',
     },
     playerRevived: {
         ru: 'Человек по вашему вызову неожидано воскрес... Случаются же чудеса',
@@ -40,6 +45,7 @@ export default {
         en: 'The person you called has unexpectedly resurrected... Miracles do happen',
         de: 'Die Person, die Sie angerufen haben, ist unerwartet wieder auferstanden... Wunder geschehen',
         pl: 'Osoba, którą wezwałeś, niespodziewanie zmartwychwstała... Cuda się zdarzają',
+        zh:'一个接到你电话的人意外复活了，真是个奇迹',
     },
     canceled: {
         ru: 'Вызов отменён',
@@ -47,6 +53,7 @@ export default {
         en: 'Call canceled',
         de: 'Anruf abgebrochen',
         pl: 'Połączenie anulowane',
+        zh:'通话取消',
     },
     medicQuit: {
         ru: 'Медик который отправлялся к вам пропал безвести, к вам будет направленно другого медика.',
@@ -54,6 +61,7 @@ export default {
         en: 'The medic who was going to you has disappeared, another medic will be sent to you.',
         de: 'Der Sanitäter, der zu Ihnen unterwegs war, ist spurlos verschwunden, ein anderer Sanitäter wird zu Ihnen geschickt.',
         pl: 'Lekarz, który jechał do ciebie, zniknął, do ciebie zostanie wysłany inny lekarz.',
+       zh:'医生取消了你的急救电话，将为您重新派遣',
     },
     playerReanimated: {
         ru: 'Человек по вашему вызову был реанимирован, вызов отменён.',
@@ -61,6 +69,7 @@ export default {
         en: 'The person on your call was reanimated, the call is canceled.',
         de: 'Die Person auf Ihrem Anruf wurde reanimiert, der Anruf wird abgebrochen.',
         pl: 'Osoba, do której dzwoniłeś, została reanimowana, rozmowa jest anulowana.',
+        zh:'和你打电话的人改名了，通话自动挂断',
     },
 
     youReanimated: {
@@ -69,5 +78,6 @@ export default {
         en: 'You reanimated a person on the call, your reward is ${{reward}}',
         de: 'Sie haben eine Person auf dem Anruf reanimiert, Ihre Belohnung beträgt ${{reward}}',
         pl: 'Ożywiłeś osobę na połączeniu, twoja nagroda to ${{reward}}',
+        zh:'你复活了一个人，你的奖励是',
     },
 };

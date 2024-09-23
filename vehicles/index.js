@@ -5,6 +5,7 @@ export default {
         ru: 'Т/С',
         de: 'Fahrzeuge',
         pl: 'Pojazdy',
+        zh: '交通工具',
     },
     youCantInGarage: {
         ua: 'Ви не можете зробити це в гаражі',
@@ -12,6 +13,7 @@ export default {
         ru: 'Вы не можете сделать этого в гараже',
         de: 'Du kannst dies nicht in der Garage tun',
         pl: 'Nie możesz tego zrobić w garażu',
+        zh: '你不能在车库里这样做',
     },
     notFound: {
         ua: 'Транспорт не знайдено',
@@ -19,6 +21,7 @@ export default {
         ru: 'Транспорт не найден',
         de: 'Fahrzeug nicht gefunden',
         pl: 'Pojazd nie znaleziony',
+        zh: '未找到交通工具',
     },
     destroyed: {
         ua: 'Транспорт знищено',
@@ -26,6 +29,7 @@ export default {
         ru: 'Транспорт уничтожен',
         de: 'Fahrzeug zerstört',
         pl: 'Pojazd zniszczony',
+        zh: '交通工具已被摧毁',
     },
     cantSpawn: {
         ua: 'Ви не можете спавнити автомобілі',
@@ -33,6 +37,7 @@ export default {
         ru: 'Вы не можете спавнить машины',
         de: 'Du kannst keine Fahrzeuge spawnen',
         pl: 'Nie możesz spawnować pojazdów',
+        zh: '你不能生成车辆',
     },
     youAreSpawned: {
         ua: 'Ви заспавнили {{name}}',
@@ -40,6 +45,7 @@ export default {
         ru: 'Вы заспавнили {{name}}',
         de: 'Du hast {{name}} gespawnt',
         pl: 'Zespawnowałeś {{name}}',
+        zh: '你已生成 {{name}}',
     },
     needBeSpawned: {
         ua: 'Транспорт повинен бути заспавнений',
@@ -47,6 +53,7 @@ export default {
         ru: 'Транспорт должен быть заспавнен',
         de: 'Fahrzeug muss gespawnt werden',
         pl: 'Pojazd musi być zespawnowany',
+        zh: '交通工具需要生成',
     },
     youAreIn: {
         ua: 'Ви вже знаходитесь у {{name}}',
@@ -54,6 +61,7 @@ export default {
         ru: 'Вы уже находитесь в {{name}}',
         de: 'Du bist bereits in {{name}}',
         pl: 'Już jesteś w {{name}}',
+        zh: '你已经在 {{name}} 里',
     },
     blip: {
         ua: 'Ви позначили {{name}} на карті',
@@ -61,6 +69,7 @@ export default {
         ru: 'Вы отметили {{name}} на карте',
         de: 'Du hast {{name}} auf der Karte markiert',
         pl: 'Oznaczyłeś {{name}} na mapie',
+        zh: '你已在地图上标记 {{name}}',
     },
     locked: {
         ua: 'Ви заблокували {{name}}',
@@ -68,6 +77,7 @@ export default {
         ru: 'Вы закрыли {{name}}',
         de: 'Du hast {{name}} verschlossen',
         pl: 'Zamknąłeś {{name}}',
+        zh: '你已关锁 {{name}}',
     },
     unlocked: {
         ua: 'Ви розблокували {{name}}',
@@ -75,6 +85,7 @@ export default {
         ru: 'Вы открыли {{name}}',
         de: 'Du hast {{name}} entsperrt',
         pl: 'Odblokowałeś {{name}}',
+        zh: '你已解锁 {{name}}',
     },
     noOccupants: {
         ua: 'В транспорті немає пасажирів',
@@ -82,6 +93,7 @@ export default {
         ru: 'В транспорте нет пассажиров',
         de: 'Es befinden sich keine Insassen im Fahrzeug',
         pl: 'W pojeździe nie ma pasażerów',
+        zh: '车内没有乘客',
     },
     kicked: {
         ua: 'Вас вигнали з транспорту',
@@ -89,6 +101,7 @@ export default {
         ru: 'Вас выгнали из транспорта',
         de: 'Du wurdest aus dem Fahrzeug geworfen',
         pl: 'Zostałeś wyrzucony z pojazdu',
+        zh: '你已被踢出车辆',
     },
     youKicked: {
         ua: 'Ви вигнали всіх з {{name}}',
@@ -96,6 +109,7 @@ export default {
         ru: 'Вы выгнали всех из {{name}}',
         de: 'Du hast alle aus {{name}} rausgeworfen',
         pl: 'Wyrzuciłeś wszystkich z {{name}}',
+        zh: '你已将所有人踢出 {{name}}',
     },
     youNeedToLeaveFromVehicle: {
         ua: 'Ви повинні вийти з поточного транспорту перед замовленням доставки',
@@ -103,6 +117,7 @@ export default {
         ru: 'Вы должны выйти из текущего транспорта, прежде чем заказывать доставку',
         de: 'Du musst das aktuelle Fahrzeug verlassen, bevor du eine Lieferung bestellst',
         pl: 'Musisz opuścić obecny pojazd przed zamówieniem dostawy',
+        zh: '在订购送货之前，你需要先退出当前车辆',
     },
     spawnedForDelivery: {
         ua: 'Транспорт повинен бути заспавнений для доставки',
@@ -110,6 +125,7 @@ export default {
         ru: 'Транспорт должнен быть заспавнен для доставки',
         de: 'Das Fahrzeug muss für die Lieferung gespawnt sein',
         pl: 'Pojazd musi być zespawnowany do dostawy',
+        zh: '车辆需要为送货生成',
     },
     noMoneyForDelivery: {
         ua: 'У вас недостатньо грошей для доставки',
@@ -117,6 +133,7 @@ export default {
         ru: 'У вас недостаточно денег для доставки',
         de: 'Du hast nicht genug Geld für die Lieferung',
         pl: 'Nie masz wystarczająco pieniędzy na dostawę',
+        zh: '你没有足够的钱进行送货',
     },
     yourVehicleWillArrive: {
         ua: 'Ваш транспорт прибуде через {{time}} секунд!',
@@ -124,6 +141,7 @@ export default {
         ru: 'Ваш транспорт прибудет через {{time}} секунд!',
         de: 'Dein Fahrzeug wird in {{time}} Sekunden eintreffen!',
         pl: 'Twój pojazd przybędzie za {{time}} sekund!',
+        zh: '你的车辆将在 {{time}} 秒后到达！',
     },
     yourVehicleHasArrived: {
         ua: 'Ваш транспорт доставлено, з вас списано ${{price}}',
@@ -131,6 +149,7 @@ export default {
         ru: 'Ваш транспорт прибыл, с вас снято ${{price}}',
         de: 'Dein Fahrzeug ist angekommen, es wurden {{price}} $ abgebucht',
         pl: 'Twój pojazd przybył, pobrano {{price}} $',
+        zh: '你的车辆已到达，已收取 ${{price}}',
     },
     yourVehicleIsDestroyed: {
         ua: 'Ваш транспорт був знищений',
@@ -138,14 +157,15 @@ export default {
         ru: 'Ваш транспорт был уничтожен',
         de: 'Dein Fahrzeug wurde zerstört',
         pl: 'Twój pojazd został zniszczony',
+        zh: '你的交通工具已被摧毁',
     },
-
     noMoneyForRestore: {
         ua: 'У вас недостатньо грошей.',
         en: 'You do not have enough money.',
         ru: 'У вас недостаточно денег.',
         de: 'Du hast nicht genug Geld.',
         pl: 'Nie masz wystarczająco pieniędzy.',
+        zh: '你没有足够的钱',
     },
     youRestored: {
         ua: 'Ви відновили {{name}}',
@@ -153,6 +173,7 @@ export default {
         ru: 'Вы восстановили {{name}}',
         de: 'Du hast {{name}} wiederhergestellt',
         pl: 'Przywróciłeś {{name}}',
+        zh: '你已恢复 {{name}}',
     },
     youNeedToLeave: {
         ua: 'Ви повинні вийти з поточного транспорту перед його евакуацією',
@@ -160,6 +181,7 @@ export default {
         ru: 'Вы должны выйти из текущего транспорта, прежде чем эвакуировать его',
         de: 'Du musst das aktuelle Fahrzeug verlassen, bevor du es evakuierst',
         pl: 'Musisz opuścić obecny pojazd przed jego ewakuacją',
+        zh: '在扣押之前，你需要先退出当前交通工具',
     },
     youHaveNoMoney: {
         ua: 'У вас немає достатньо грошей для евакуації',
@@ -167,6 +189,7 @@ export default {
         ru: 'У вас недостаточно денег для эвакуации',
         de: 'Du hast nicht genug Geld für die Evakuierung',
         pl: 'Nie masz wystarczająco pieniędzy na ewakuację',
+        zh: '你没有足够的钱从扣押场取回车辆',
     },
     evacuated: {
         ua: 'Ви евакуювали {{name}}, вона знаходиться на штрафному майданчику',
@@ -174,6 +197,7 @@ export default {
         ru: 'Вы эвакуировали {{name}}, она находится на штрафной стоянке',
         de: 'Du hast {{name}} evakuiert, es befindet sich jetzt auf dem Abschleppplatz',
         pl: 'Ewakuowałeś {{name}}, teraz znajduje się na parkingu strzeżonym',
+        zh: '你的车辆 {{name}}已经被移到扣押场',
     },
     youCannotTurnOnEngine: {
         ru: 'Вы не можете завести эту машину',
@@ -181,6 +205,7 @@ export default {
         en: 'You cannot start this car',
         de: 'Sie können dieses Auto nicht starten',
         pl: 'Nie możesz uruchomić tego samochodu',
+        zh: '你不能启动这辆车',
     },
     youCannotTurnOnEngineFuel: {
         ru: 'Вы не можете завести эту машину потому что закончилось топливо',
@@ -188,6 +213,7 @@ export default {
         en: 'You cannot start this car because it is out of fuel',
         de: 'Sie können dieses Auto nicht starten, weil der Treibstoff ausgegangen ist',
         pl: 'Nie możesz uruchomić tego samochodu, ponieważ skończyło się paliwo',
+        zh: '因为燃料耗尽，你不能启动这辆车',
     },
     noDeliveryInGreenZone: {
         ru: 'Доставить машину в зеленую зону нельзя',
@@ -195,5 +221,6 @@ export default {
         en: 'It is not allowed to deliver the car to the green zone',
         de: 'Es ist nicht erlaubt, das Auto in die grüne Zone zu liefern',
         pl: 'Nie wolno dostarczać samochodu do strefy zielonej',
+        zh: '不允许将车辆送至绿区',
     },
 };

@@ -7,6 +7,7 @@ export const animations = {
         en: 'Animation Menu',
         de: 'Animationsmenü',
         pl: 'Menu animacji',
+       zh:'动作菜单',
     },
 
     wheelName: {
@@ -15,6 +16,7 @@ export const animations = {
         en: 'Quick access to animations',
         de: 'Schneller Zugriff auf Animationen',
         pl: 'Szybki dostęp do animacji',
+      zh:'快速访问动画',
     },
 
     notAvailableInVehicle: {
@@ -23,6 +25,7 @@ export const animations = {
         en: 'Not available in vehicle',
         de: 'Im Fahrzeug nicht verfügbar',
         pl: 'Niedostępne w pojeździe',
+       zh:'车内不可用',
     },
 
     desc: {
@@ -31,6 +34,7 @@ export const animations = {
         en: 'Express your style, mood, and behavior',
         de: 'Drücken Sie Ihren Stil, Ihre Stimmung und Ihr Verhalten aus',
         pl: 'Wyraź swój styl, nastrój i zachowanie',
+       zh:'表达你的风格、情绪和行为',
     },
 
     fastAccess: {
@@ -39,6 +43,7 @@ export const animations = {
         en: 'Fast access',
         de: 'Schneller Zugriff',
         pl: 'Szybki dostęp',
+       zh:'快捷访问',
     },
 
     fastAccessDesc: {
@@ -47,6 +52,7 @@ export const animations = {
         en: 'Drag animations using the right mouse button',
         de: 'Ziehen Sie Animationen mit der rechten Maustaste',
         pl: 'Przeciągnij animacje przy użyciu prawego przycisku myszy',
+       zh:'使用鼠标右键拖动动画',
     },
 
     favoritName: {
@@ -55,6 +61,7 @@ export const animations = {
         en: 'FAVORITES',
         de: 'FAVORITEN',
         pl: 'ULUBIONE',
+       zh:'收藏',
     },
 
     favoriteDesc: {
@@ -63,6 +70,7 @@ export const animations = {
         en: 'animations',
         de: 'Animationen',
         pl: 'animacje',
+       zh:'动画',
     },
 
     input: {
@@ -71,6 +79,7 @@ export const animations = {
         en: 'Enter the animation name...',
         de: 'Geben Sie den Namen der Animation ein...',
         pl: 'Wprowadź nazwę animacji...',
+       zh:'输入动画名称...',
     },
 
     stopAnimation: {
@@ -79,6 +88,7 @@ export const animations = {
         ua: 'Зупинити анімацію',
         de: 'Animation stoppen',
         pl: 'Zatrzymaj animację',
+       zh:'停止动作',
     },
 
     stopPairsAnimation: {
@@ -87,6 +97,7 @@ export const animations = {
         en: 'Stop pairs animation',
         de: 'Paar-Animation stoppen',
         pl: 'Zatrzymaj animację par',
+       zh:'停止动画',
     },
 
     list,

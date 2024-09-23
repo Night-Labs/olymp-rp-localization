@@ -5,6 +5,7 @@ export default {
         en: 'LS Vagos',
         de: 'LS Vagos',
         pl: 'LS Vagos',
+        zh: 'LS Vagos',
     },
     ranks: {
         novato: {
@@ -13,6 +14,7 @@ export default {
             en: 'Novato',
             de: 'Novato',
             pl: 'Novato',
+           zh:'诺瓦托',
         },
         ordinario: {
             ru: 'Ordinario',
@@ -20,6 +22,7 @@ export default {
             en: 'Ordinario',
             de: 'Ordinario',
             pl: 'Ordinario',
+            zh:'普通',
         },
         local: { ru: 'Local', ua: 'Local', en: 'Local', de: 'Local', pl: 'Local' },
         buscando: {
@@ -28,6 +31,7 @@ export default {
             en: 'Buscando',
             de: 'Buscando',
             pl: 'Buscando',
+            zh:'搜索',
         },
         hermano: {
             ru: 'Hermano',
@@ -35,6 +39,7 @@ export default {
             en: 'Hermano',
             de: 'Hermano',
             pl: 'Hermano',
+            zh:'兄弟',
         },
         soldado: {
             ru: 'Soldado',
@@ -42,6 +47,7 @@ export default {
             en: 'Soldado',
             de: 'Soldado',
             pl: 'Soldado',
+           zh:'士兵',
         },
         elgangsterviejo: {
             ru: 'El gangster viejo',
@@ -49,6 +55,7 @@ export default {
             en: 'El gangster viejo',
             de: 'El gangster viejo',
             pl: 'El gangster viejo',
+            zh:'老流氓',
         },
         autoridad: {
             ru: 'Autoridad',
@@ -56,6 +63,7 @@ export default {
             en: 'Autoridad',
             de: 'Autoridad',
             pl: 'Autoridad',
+            zh:'权威',
         },
         asesor: {
             ru: 'Asesor',
@@ -63,6 +71,7 @@ export default {
             en: 'Asesor',
             de: 'Asesor',
             pl: 'Asesor',
+            zh:'顾问',
         },
         elpadre: {
             ru: 'El Padre',
@@ -70,6 +79,7 @@ export default {
             en: 'El Padre',
             de: 'El Padre',
             pl: 'El Padre',
+            zh:'父亲',
         },
     },
 };

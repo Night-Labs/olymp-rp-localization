@@ -5,6 +5,7 @@ export const server = {
         ua: 'Авторинок',
         de: 'Auto-Markt',
         pl: 'Rynek samochodowy',
+       zh:'汽车销售商',
     },
     modal: {
         title: {
@@ -13,6 +14,7 @@ export const server = {
             ua: 'Продаж {{name}}',
             de: 'Verkauf von {{name}}',
             pl: 'Sprzedaż {{name}}',
+           zh:'销售{{name}}',
         },
         message: {
             ru: 'Вы действительно хотите продать {{name}} за ${{price}}',
@@ -20,6 +22,7 @@ export const server = {
             ua: 'Ви дійсно хочете продати {{name}} за ${{price}}',
             de: 'Möchten Sie {{name}} wirklich für ${{price}} verkaufen',
             pl: 'Czy naprawdę chcesz sprzedać {{name}} za ${{price}}',
+           zh:'您真的想以${{price}}的价格出售{{name}}吗?',
         },
         confirmButton: {
             ru: 'Продать',
@@ -27,6 +30,7 @@ export const server = {
             ua: 'Продати',
             de: 'Verkaufen',
             pl: 'Sprzedaj',
+           zh:'出售',
         },
         cancelButton: {
             ru: 'Отмена',
@@ -34,6 +38,7 @@ export const server = {
             ua: 'Скасувати',
             de: 'Abbrechen',
             pl: 'Anuluj',
+           zh:'取消',
         },
     },
     successMessage: {
@@ -42,5 +47,6 @@ export const server = {
         ua: 'Ви успішно продали {{name}} за ${{price}}',
         de: 'Sie haben {{name}} erfolgreich für ${{price}} verkauft',
         pl: 'Pomyślnie sprzedano {{name}} za ${{price}}',
+        zh:'您已成功将{{name}}以${{price}}的价格出售',
     },
 };

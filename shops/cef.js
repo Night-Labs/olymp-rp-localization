@@ -5,6 +5,7 @@ export const cef = {
         ru: 'Магазин',
         de: 'Geschäft',
         pl: 'Sklep',
+        zh: '商店',
     },
     choose: {
         ua: 'Виберіть',
@@ -12,6 +13,7 @@ export const cef = {
         ru: 'Выберете',
         de: 'Wählen',
         pl: 'Wybierz',
+        zh: '选择',
     },
     category: {
         ua: 'Категорію',
@@ -19,6 +21,7 @@ export const cef = {
         ru: 'Категорию',
         de: 'Kategorie',
         pl: 'Kategoria',
+        zh: '类别',
     },
     cloth: {
         ua: 'Одяг',
@@ -26,6 +29,7 @@ export const cef = {
         ru: 'Одежду',
         de: 'Kleidung',
         pl: 'Odzież',
+        zh: '服装',
     },
     back: {
         ua: 'Назад',
@@ -33,6 +37,7 @@ export const cef = {
         ru: 'Назад',
         de: 'Zurück',
         pl: 'Wróć',
+        zh: '返回',
     },
     style: {
         ua: 'Стиль',
@@ -40,6 +45,7 @@ export const cef = {
         ru: 'Стиль',
         de: 'Stil',
         pl: 'Styl',
+        zh: '风格',
     },
     price: {
         ua: 'Ціна',
@@ -47,6 +53,7 @@ export const cef = {
         ru: 'Цена',
         de: 'Preis',
         pl: 'Cena',
+        zh: '价格',
     },
     buy: {
         ua: 'Купити',
@@ -54,6 +61,7 @@ export const cef = {
         ru: 'Купить',
         de: 'Kaufen',
         pl: 'Kupić',
+        zh: '购买',
     },
     clothes: {
         name: {
@@ -62,6 +70,7 @@ export const cef = {
             ru: 'одежды',
             de: 'Kleidung',
             pl: 'ubrania',
+            zh: '服装',
         },
         categories: {
             glasses: {
@@ -70,6 +79,7 @@ export const cef = {
                 ru: 'Очки',
                 de: 'Brillen',
                 pl: 'Okulary',
+                zh: '眼镜',
             },
             mask: {
                 ua: 'Маски',
@@ -77,6 +87,7 @@ export const cef = {
                 ru: 'Маски',
                 de: 'Masken',
                 pl: 'Maski',
+                zh: '面具',
             },
             cap: {
                 ua: 'Шапки',
@@ -84,6 +95,7 @@ export const cef = {
                 ru: 'Шапки',
                 de: 'Kappen',
                 pl: 'Czapki',
+                zh: '帽子',
             },
             ears: {
                 ua: 'Сережки',
@@ -91,6 +103,7 @@ export const cef = {
                 ru: 'Серьги',
                 de: 'Ohrringe',
                 pl: 'Kolczyki',
+                zh: '耳环',
             },
             top: {
                 ua: 'Верхній одяг',
@@ -98,6 +111,7 @@ export const cef = {
                 ru: 'Верхняя одежда',
                 de: 'Oberteile',
                 pl: 'Górne części',
+                zh: '上衣',
             },
             neck: {
                 ua: 'Шия',
@@ -105,6 +119,7 @@ export const cef = {
                 ru: 'Шея',
                 de: 'Hals',
                 pl: 'Szyja',
+                zh: '颈部',
             },
             gloves: {
                 ua: 'Рукавички',
@@ -112,6 +127,7 @@ export const cef = {
                 ru: 'Перчатки',
                 de: 'Handschuhe',
                 pl: 'Rękawiczki',
+                zh: '手套',
             },
             tShirt: {
                 ua: 'Футболки',
@@ -119,6 +135,7 @@ export const cef = {
                 ru: 'Футболки',
                 de: 'T-Shirts',
                 pl: 'Koszulki',
+                zh: 'T恤',
             },
             legs: {
                 ua: 'Ноги',
@@ -126,6 +143,7 @@ export const cef = {
                 ru: 'Ноги',
                 de: 'Beine',
                 pl: 'Nogi',
+                zh: '腿部',
             },
             shoes: {
                 ua: 'Взуття',
@@ -133,6 +151,7 @@ export const cef = {
                 ru: 'Обувь',
                 de: 'Schuhe',
                 pl: 'Buty',
+                zh: '鞋子',
             },
             watch: {
                 ua: 'Годинник',
@@ -140,6 +159,7 @@ export const cef = {
                 ru: 'Часы',
                 de: 'Uhr',
                 pl: 'Zegarek',
+                zh: '手表',
             },
             accessories: {
                 ru: 'Аксессуары',
@@ -147,6 +167,7 @@ export const cef = {
                 en: 'Accessories',
                 de: 'Zubehör',
                 pl: 'Akcesoria',
+                zh: '配件',
             },
         },
     },
@@ -156,6 +177,7 @@ export const cef = {
         en: 'Add to Cart',
         de: 'In den Warenkorb legen',
         pl: 'Dodaj do koszyka',
+        zh: '加入购物车',
     },
     listOfProducts: {
         ru: 'Список товаров',
@@ -163,6 +185,7 @@ export const cef = {
         en: 'List of Products',
         de: 'Produktliste',
         pl: 'Lista produktów',
+        zh: '产品列表',
     },
     cart: {
         ru: 'Корзина',
@@ -170,6 +193,7 @@ export const cef = {
         en: 'Cart',
         de: 'Warenkorb',
         pl: 'Koszyk',
+        zh: '购物车',
     },
     emptyCart: {
         ru: 'Корзина пуста',
@@ -177,6 +201,7 @@ export const cef = {
         en: 'Cart is empty',
         de: 'Der Warenkorb ist leer',
         pl: 'Koszyk jest pusty',
+        zh: '购物车为空',
     },
     removeFromCart: {
         ru: 'Удалить из корзины',
@@ -184,13 +209,15 @@ export const cef = {
         en: 'Remove from Cart',
         de: 'Aus dem Warenkorb entfernen',
         pl: 'Usuń z koszyka',
+        zh: '从购物车移除',
     },
-    price:{
+    price: {
         ru: 'Цена:',
         ua: 'Ціна:',
         en: 'Price:',
         de: 'Preis:',
         pl: 'Cena:',
+        zh: '价格:',
     },
 
     sumPrice: {
@@ -199,6 +226,7 @@ export const cef = {
         en: 'Total Price:',
         de: 'Gesamtpreis:',
         pl: 'Suma cenowa:',
+        zh: '总价:',
     },
     weapons: {
         name: {
@@ -207,6 +235,7 @@ export const cef = {
             en: 'Weapons',
             de: 'Waffen',
             pl: 'Broń',
+            zh: '武器',
         },
         near: {
             ru: 'Холодное',
@@ -214,6 +243,7 @@ export const cef = {
             en: 'Melee',
             de: 'Nahkampf',
             pl: 'Broń biała',
+            zh: '近战',
         },
         pistol: {
             ru: 'Пистолеты и ПП',
@@ -221,6 +251,7 @@ export const cef = {
             en: 'Pistols and SMGs',
             de: 'Pistolen und MP',
             pl: 'Pistolety i PDW',
+            zh: '手枪和冲锋枪',
         },
         heavy: {
             ru: 'Тяжёлое',
@@ -228,6 +259,7 @@ export const cef = {
             en: 'Heavy',
             de: 'Schwer',
             pl: 'Ciężkie',
+            zh: '重型',
         },
         ammo: {
             ru: 'Боеприпасы',
@@ -235,6 +267,7 @@ export const cef = {
             en: 'Ammunition',
             de: 'Munition',
             pl: 'Amunicja',
+            zh: '弹药',
         },
     },
     items: {
@@ -244,6 +277,7 @@ export const cef = {
             en: 'Food',
             de: 'Lebensmittel',
             pl: 'Żywność',
+            zh: '食品',
         },
         medical: {
             ru: 'Медикоменты',
@@ -251,6 +285,7 @@ export const cef = {
             en: 'Medical',
             de: 'Medizinisch',
             pl: 'Artykuły medyczne',
+            zh: '医疗',
         },
         tools: {
             ru: 'Инструменты',
@@ -258,6 +293,16 @@ export const cef = {
             en: 'Tools',
             de: 'Werkzeuge',
             pl: 'Narzędzia',
+            zh: '工具',
+        },
+        farm: {
+            ru: 'Фермерские',
+            ua: 'Фермерські',
+            en: 'Farm',
+            de: 'Bauernhof',
+            pl: 'Rolnicze',
+            ge: 'ფერმერული',
+            zh: '农场',
         },
         other: {
             ru: 'Прочее',
@@ -265,6 +310,7 @@ export const cef = {
             en: 'Other',
             de: 'Sonstiges',
             pl: 'Inne',
+            zh: '其他',
         },
     },
 };

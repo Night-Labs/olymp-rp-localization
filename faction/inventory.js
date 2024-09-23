@@ -5,6 +5,7 @@ export default {
         en: 'Warehouse closed',
         de: 'Lager geschlossen',
         pl: 'Magazyn zamknięty',
+        zh:'仓库已关闭',
     },
     wasClosed: {
         ru: 'Склад был закрыт',
@@ -12,6 +13,7 @@ export default {
         en: 'Warehouse was closed',
         de: 'Lager war geschlossen',
         pl: 'Magazyn był zamknięty',
+        zh:'仓库已经关闭了',
     },
     noAccess: {
         ru: 'У вас нет доступа к складу',
@@ -19,5 +21,6 @@ export default {
         en: 'You do not have access to the warehouse',
         de: 'Sie haben keinen Zugriff auf das Lager',
         pl: 'Nie masz dostępu do magazynu',
+        zh:'您无权访问仓库',
     },
 };

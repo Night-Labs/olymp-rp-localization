@@ -5,6 +5,7 @@ export default {
         en: 'EMS',
         de: 'EMS',
         pl: 'EMS',
+        zh:'EMS',
     },
     ranks: {
         student: {
@@ -13,6 +14,7 @@ export default {
             en: 'Student',
             de: 'Student',
             pl: 'Student',
+            zh:'学生',
         },
         intern: {
             ru: 'Интерн',
@@ -20,6 +22,7 @@ export default {
             en: 'Intern',
             de: 'Praktikant',
             pl: 'Stażysta',
+           zh:'互联网',
         },
         medicalWorker: {
             ru: 'Медицинский Работник',
@@ -27,6 +30,7 @@ export default {
             en: 'Medical Worker',
             de: 'Medizinischer Arbeiter',
             pl: 'Pracownik Medyczny',
+           zh:'医务工作者',
         },
         doctor: {
             ru: 'Доктор',
@@ -34,6 +38,7 @@ export default {
             en: 'Doctor',
             de: 'Arzt',
             pl: 'Lekarz',
+           zh:'医生',
         },
         therapist: {
             ru: 'Терапевт',
@@ -41,6 +46,7 @@ export default {
             en: 'Therapist',
             de: 'Therapeut',
             pl: 'Terapeuta',
+            zh:'治疗师',
         },
         narсologist: {
             ru: 'Нарколог',
@@ -48,6 +54,7 @@ export default {
             en: 'Narcologist',
             de: 'Narkologe',
             pl: 'Narkolog',
+           zh:'麻醉师',
         },
         surgeon: {
             ru: 'Хирург',
@@ -55,6 +62,7 @@ export default {
             en: 'Surgeon',
             de: 'Chirurg',
             pl: 'Chirurg',
+            zh:'外科医生',
         },
         psychiatrist: {
             ru: 'Психиатр',
@@ -62,6 +70,7 @@ export default {
             en: 'Psychiatrist',
             de: 'Psychiater',
             pl: 'Psychiatra',
+            zh:'精神科医生',
         },
         inspector: {
             ru: 'Инспектор',
@@ -69,6 +78,7 @@ export default {
             en: 'Inspector',
             de: 'Inspektor',
             pl: 'Inspektor',
+            zh:'检查员',
         },
         specialist: {
             ru: 'Специалист',
@@ -76,6 +86,7 @@ export default {
             en: 'Specialist',
             de: 'Spezialist',
             pl: 'Specjalista',
+            zh:'专家',
         },
         seniorInspector: {
             ru: 'Старший инспектор',
@@ -83,6 +94,7 @@ export default {
             en: 'Senior Inspector',
             de: 'Oberinspektor',
             pl: 'Starszy Inspektor',
+            zh:'高级督察',
         },
         chiefOfEMSInspection: {
             ru: 'Начальник инспекции EMS',
@@ -90,6 +102,7 @@ export default {
             en: 'Chief of EMS Inspection',
             de: 'Leiter der EMS-Inspektion',
             pl: 'Szef Inspekcji EMS',
+            zh:'EMS检查主管',
         },
         deputyChiefPhysician: {
             ru: 'Заместитель Глав Врача',
@@ -97,6 +110,7 @@ export default {
             en: 'Deputy Chief Physician',
             de: 'Stellvertretender Chefarzt',
             pl: 'Zastępca Głównego Lekarza',
+            zh:'副主任医师',
         },
         chiefPhysician: {
             ru: 'Глав Врач',
@@ -104,6 +118,7 @@ export default {
             en: 'Chief Physician',
             de: 'Chefarzt',
             pl: 'Główny Lekarz',
+            zh:'主任医师',
         },
     },
 };

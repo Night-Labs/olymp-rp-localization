@@ -5,6 +5,7 @@ export const server = {
         ru: '!{#FF5757}Администратор {{admin}} {{message}}',
         de: '!{#FF5757}Administrator {{admin}} {{message}}',
         pl: '!{#FF5757}Administrator {{admin}} {{message}}',
+        zh:'!{#FF5757}管理员 {{admin}} {{message}}',
     },
     youHaveBeenTeleportedByAdmin: {
         ru: 'Вы были телепортированы адинистратором {{name}}',
@@ -12,6 +13,7 @@ export const server = {
         ua: 'Ви були телепортовані адміністратором {{name}}',
         de: 'Du wurdest von Admin {{name}} teleportiert',
         pl: 'Zostałeś teleportowany przez administratora {{name}}',
+        zh:'您被管理员 {{name}}传送',
     },
     youTeleportedPlayer: {
         ru: 'Вы телепортировали {{name}}',
@@ -19,6 +21,7 @@ export const server = {
         ua: 'Ви телепортували {{name}}',
         de: 'Du hast {{name}} teleportiert',
         pl: 'Zostałeś teleportowany przez {{name}}',
+       zh:'您传送了{{name}}',
     },
     adminKickedPlayer: {
         ua: '~r~Адміністратор {{admin}} кікнув гравця {{player}} по причині {{reason}}',
@@ -26,6 +29,7 @@ export const server = {
         ru: '~r~Администратор {{admin}} кикнул игрока {{player}} по причине {{reason}}',
         de: '~r~Administrator {{admin}} hat den Spieler {{player}} wegen {{reason}} gekickt',
         pl: '~r~Administrator {{admin}} wyrzucił gracza {{player}} z powodu {{reason}}',
+        zh:'管理员{{admin}}因为{{reason}}踢了玩家{{player}}',
     },
     adminBannedPlayer: {
         ua: '~r~Адміністратор {{admin}} заблокував гравця {{player}} на {{days}} днів по причині {{reason}}',
@@ -33,5 +37,6 @@ export const server = {
         ru: '~r~Администратор {{admin}} заблокировал игрока {{player}} на {{days}} дней по причине {{reason}}',
         de: '~r~Administrator {{admin}} hat den Spieler {{player}} für {{days}} Tage gesperrt wegen {{reason}}',
         pl: '~r~Administrator {{admin}} zablokował gracza {{player}} na {{days}} dni z powodu {{reason}}',
+       zh:'~r~管理员{{admin}}封禁玩家{{player}}，封禁时间{{days}}天，原因{{reason}}',
     },
 };

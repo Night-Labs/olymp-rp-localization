@@ -8,6 +8,7 @@ export default {
         en: 'Wait for SMS',
         de: 'Warte auf SMS',
         pl: 'Czekaj na SMS',
+       zh:'请等待短信',
     },
     order: {
         ru: 'Здарова! Сегодня у нас {{model}}, цвет {{color}}, номера {{plate}}. Приблизительные данные у тебя на карте, поторопись.',
@@ -15,6 +16,7 @@ export default {
         en: 'Hello! Today we have {{model}}, color {{color}}, plates {{plate}}. Approximate data is on your map, hurry up.',
         de: 'Hallo! Heute haben wir {{model}}, Farbe {{color}}, Nummernschilder {{plate}}. Ungefähre Daten sind auf Ihrer Karte, beeilen Sie sich.',
         pl: 'Cześć! Dzisiaj mamy {{model}}, kolor {{color}}, tablice rejestracyjne {{plate}}. Przybliżone dane są na twojej mapie, pospiesz się.',
+        zh:'你好！今天我们有{{model}}，颜色{{color}}，车牌号{{plate}}. 大致位置在您的地图上，快点过来吧！',
     },
     dropOff: {
         ru: 'Отлично! Ты справился с заданием, ты заработал: ${{salary}}',
@@ -22,6 +24,7 @@ export default {
         en: 'Great! You completed the task, you earned: ${{salary}}',
         de: 'Großartig! Du hast die Aufgabe erledigt, du hast verdient: ${{salary}}',
         pl: 'Świetnie! Wykonałeś zadanie, zarobiłeś: ${{salary}}',
+        zh:'太棒了!您完成了任务，您获得了:${{salary}}',
     },
     smsDropOff: {
         ru: 'Я вижу ты успешно доставил машину как я хотел, держи бесплатную доставку личной машины!',
@@ -29,6 +32,7 @@ export default {
         en: 'I see you successfully delivered the car as I wanted, enjoy a free personal car delivery!',
         de: 'Ich sehe, dass du das Auto erfolgreich geliefert hast, wie ich es wollte, hier ist eine kostenlose Lieferung eines persönlichen Autos!',
         pl: 'Widzę, że dostarczyłeś samochód zgodnie z moimi oczekiwaniami, oto darmowa dostawa osobistego samochodu!',
+        zh:'我看到你按我的要求成功送货，享受免费送货上门!',
     },
     carStolen: {
         ru: 'Внимание! В вашем районе произошел угон автомобиля. Модель: {{model}}, номер: {{plate}}. Просьба усилить бдительность.',
@@ -36,6 +40,7 @@ export default {
         en: 'Attention! A car was stolen in your area. Model: {{model}}, plate: {{plate}}. Please be extra vigilant.',
         de: 'Achtung! In Ihrem Gebiet wurde ein Auto gestohlen. Modell: {{model}}, Kennzeichen: {{plate}}. Bitte seien Sie besonders wachsam.',
         pl: 'Uwaga! W twojej okolicy skradziono samochód. Model: {{model}}, numer: {{plate}}. Prosimy o zwiększenie czujności.',
+        zh:'注意!一辆车在你的区域被盗。型号:{{Model}}，车牌号:{{plate}}。请格外警惕',
     },
     messageForPoliceman: {
         ru: 'Отвезите угнаную машину в специальное место чтобы получить премию!',
@@ -43,6 +48,7 @@ export default {
         en: 'Take the stolen car to a special place to get a reward!',
         de: 'Bringen Sie das gestohlene Auto an einen besonderen Ort, um eine Belohnung zu erhalten!',
         pl: 'Zawieź skradziony samochód do specjalnego miejsca, aby otrzymać nagrodę!',
+        zh:'把偷来的车带到一个特别的地方换钱!',
     },
     policemanModal: {
         title: {
@@ -51,6 +57,7 @@ export default {
             en: 'Successful work',
             de: 'Erfolgreiche Arbeit',
             pl: 'Udane prace',
+            zh:'干得好',
         },
         message: {
             ru: 'Вы смогли найти угнаный автомобиль, поздравляем! Ваша награда: ${{salary}}.',
@@ -58,6 +65,7 @@ export default {
             en: 'You were able to find the stolen car, congratulations! Your reward: ${{salary}}.',
             de: 'Sie haben das gestohlene Auto gefunden, herzlichen Glückwunsch! Ihre Belohnung: ${{salary}}.',
             pl: 'Udało ci się znaleźć skradziony samochód, gratulacje! Twoja nagroda: ${{salary}}.',
+            zh:'你找到了被偷的车，恭喜你!你的报酬:${{salary}}',
         },
         confirmButton: {
             ru: 'Спасибо',
@@ -65,6 +73,7 @@ export default {
             en: 'Thank you',
             de: 'Danke',
             pl: 'Dziękuję',
+            zh:'谢谢',
         },
     },
     cooldown: {
@@ -73,6 +82,7 @@ export default {
         en: 'Wait {{time}}',
         de: 'Warten Sie {{time}}',
         pl: 'Czekaj {{time}}',
+        zh:'等待{{time}}',
     },
     noFreePosition: {
         ru: 'Попробуйте позже',
@@ -80,5 +90,6 @@ export default {
         en: 'Try again later',
         de: 'Versuchen Sie es später noch einmal',
         pl: 'Spróbuj ponownie później',
+        zh:'请稍后在尝试',
     },
 };

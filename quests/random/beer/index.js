@@ -5,5 +5,6 @@ export default {
         en: 'Buy a beer for the old geezer',
         de: 'Kauf dem alten Kerl ein Bier',
         pl: 'Kup piwo dla starego dziadka',
+        zh:'给老家伙买瓶啤酒',
     },
 };

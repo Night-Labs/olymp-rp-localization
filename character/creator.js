@@ -5,6 +5,7 @@ export const creator = {
         ru: 'Создание персонажа',
         de: 'Charaktererstellung',
         pl: 'Tworzenie postaci',
+        zh:'角色创建',
     },
 
     notify: {
@@ -13,6 +14,7 @@ export const creator = {
         ru: 'Вы ввели некоректные данные',
         de: 'Sie haben ungültige Daten eingegeben',
         pl: 'Wprowadziłeś nieprawidłowe dane',
+        zh:'输入的数据不正确',
     },
     pages: {
         info: {
@@ -21,6 +23,7 @@ export const creator = {
             ru: 'Информация о персонаже',
             de: 'Charakterinformationen',
             pl: 'Informacje o postaci',
+           zh:'字符信息',
         },
         parents: {
             ua: 'Вибір батьків',
@@ -28,6 +31,7 @@ export const creator = {
             ru: 'Выбор родителей',
             de: 'Elternauswahl',
             pl: 'Wybór rodziców',
+           zh:'选择父母',
         },
         face: {
             ua: 'Зовнішність',
@@ -35,6 +39,7 @@ export const creator = {
             ru: 'Внешность',
             de: 'Gesicht',
             pl: 'Twarz',
+            zh:'脸',
         },
         appearance: {
             ua: 'Зовнішній вигляд',
@@ -42,6 +47,7 @@ export const creator = {
             ru: 'Внешний вид',
             de: 'Aussehen',
             pl: 'Wygląd',
+            zh:'外观',
         },
         clothes: {
             ua: 'Одяг',
@@ -49,6 +55,7 @@ export const creator = {
             ru: 'Одежда',
             de: 'Kleidung',
             pl: 'Ubrania',
+            zh:'衣服',
         },
         next: {
             ua: 'Далі',
@@ -56,6 +63,7 @@ export const creator = {
             ru: 'Дальше',
             de: 'Weiter',
             pl: 'Następny',
+            zh:'下一个',
         },
     },
     info: {
@@ -66,6 +74,7 @@ export const creator = {
                 ru: 'Мужской',
                 de: 'Männlich',
                 pl: 'Mężczyzna',
+                zh:'男人',
             },
             female: {
                 ua: 'Жінка',
@@ -73,6 +82,7 @@ export const creator = {
                 ru: 'Женский',
                 de: 'Weiblich',
                 pl: 'Kobieta',
+               zh:'女性',
             },
         },
         inputs: {
@@ -82,6 +92,7 @@ export const creator = {
                 ru: 'Введите имя',
                 de: 'Geben Sie einen Namen ein',
                 pl: 'Wprowadź imię',
+                zh:'进入游戏',
             },
             surnamePlaceholder: {
                 ua: 'Введіть прізвище',
@@ -89,6 +100,7 @@ export const creator = {
                 ru: 'Введите фамилию',
                 de: 'Geben Sie einen Nachnamen ein',
                 pl: 'Wprowadź nazwisko',
+                zh:'输入姓',
             },
             agePlaceholder: {
                 ua: 'Введіть вік (від 18 до 90)',
@@ -96,6 +108,7 @@ export const creator = {
                 ru: 'Введите возраст (от 18 до 90)',
                 de: 'Geben Sie das Alter ein (18 bis 90)',
                 pl: 'Wprowadź wiek (od 18 do 90)',
+                zh:'输入年龄(18至90岁)',
             },
             genderSelection: {
                 ua: 'Вибір статі',
@@ -103,6 +116,7 @@ export const creator = {
                 ru: 'Выбор пола',
                 de: 'Geschlechtsauswahl',
                 pl: 'Wybór płci',
+                zh:'性别选择',
             },
         },
     },
@@ -113,6 +127,7 @@ export const creator = {
             ru: 'Сходство генов',
             de: 'Genähnlichkeit',
             pl: 'Podobieństwo genetyczne',
+            zh:'基因相似度',
         },
         skinColorLabel: {
             ua: 'Колір шкіри',
@@ -120,6 +135,7 @@ export const creator = {
             ru: 'Цвет кожи',
             de: 'Hautfarbe',
             pl: 'Kolor skóry',
+            zh:'皮肤颜色',
         },
     },
     face: {
@@ -130,6 +146,7 @@ export const creator = {
                 ru: 'Ширина носа',
                 de: 'Breite der Nase',
                 pl: 'Szerokość nosa',
+                zh:'鼻子宽度',
             },
             heightOfNose: {
                 ua: 'Висота носа',
@@ -137,6 +154,7 @@ export const creator = {
                 ru: 'Высота носа',
                 de: 'Höhe der Nase',
                 pl: 'Wysokość nosa',
+                zh:'鼻子高度',
             },
             lengthOfNose: {
                 ua: 'Довжина носа',
@@ -144,6 +162,7 @@ export const creator = {
                 ru: 'Длина носа',
                 de: 'Länge der Nase',
                 pl: 'Długość nosa',
+                zh:'鼻子长度',
             },
             bridgeOfNose: {
                 ua: 'Місток носа',
@@ -151,6 +170,7 @@ export const creator = {
                 ru: 'Мостик носа',
                 de: 'Nasenrücken',
                 pl: 'Grzbiet nosa',
+                zh:'鼻梁',
             },
             nasalTip: {
                 ua: 'Носовий кінчик',
@@ -158,6 +178,7 @@ export const creator = {
                 ru: 'Носовой кончик',
                 de: 'Nasenspitze',
                 pl: 'Czoło nosa',
+                zh:'鼻尖',
             },
             nasalBridge: {
                 ua: 'Ребро носа',
@@ -165,6 +186,7 @@ export const creator = {
                 ru: 'Ребро носа',
                 de: 'Nasenbrücke',
                 pl: 'Mostek nosa',
+                zh:'鼻梁',
             },
             eyebrowHeight: {
                 ua: 'Высота брів',
@@ -172,6 +194,7 @@ export const creator = {
                 ru: 'Высота бровей',
                 de: 'Augenbrauenhöhe',
                 pl: 'Wysokość brwi',
+                zh:'眉高',
             },
             eyebrowWidth: {
                 ua: 'Ширина брів',
@@ -179,6 +202,7 @@ export const creator = {
                 ru: 'Ширина бровей',
                 de: 'Augenbrauenbreite',
                 pl: 'Szerokość brwi',
+                zh:'眉宽度',
             },
             cheekboneHeight: {
                 ua: 'Висота скул',
@@ -186,6 +210,7 @@ export const creator = {
                 ru: 'Высота скул',
                 de: 'Wangenbeinhöhe',
                 pl: 'Wysokość kości policzkowych',
+                zh:'颧骨高',
             },
             cheekboneWidth: {
                 ua: 'Ширина скул',
@@ -193,6 +218,7 @@ export const creator = {
                 ru: 'Ширина скул',
                 de: 'Wangenbeinbreite',
                 pl: 'Szerokość kości policzkowych',
+               zh:'颧骨宽度',
             },
             cheekWidth: {
                 ua: 'Ширина щік',
@@ -200,6 +226,7 @@ export const creator = {
                 ru: 'Ширина щек',
                 de: 'Wangenbreite',
                 pl: 'Szerokość policzków',
+               zh:'脸颊宽度',
             },
             eyelids: {
                 ua: 'Повіки',
@@ -207,6 +234,7 @@ export const creator = {
                 ru: 'Веки',
                 de: 'Augenlider',
                 pl: 'Powieki',
+                zh:'眼皮',
             },
             lips: {
                 ua: 'Губи',
@@ -214,6 +242,7 @@ export const creator = {
                 ru: 'Губы',
                 de: 'Lippen',
                 pl: 'Usta',
+                zh:'嘴唇',
             },
             jawWidth: {
                 ua: 'Ширина щелепи',
@@ -221,6 +250,7 @@ export const creator = {
                 ru: 'Ширина челюсти',
                 de: 'Kieferbreite',
                 pl: 'Szerokość szczęki',
+               zh:'颚宽',
             },
             jawHeight: {
                 ua: 'Высота щелепи',
@@ -228,6 +258,7 @@ export const creator = {
                 ru: 'Высота челюсти',
                 de: 'Kieferhöhe',
                 pl: 'Wysokość szczęki',
+                zh:'下巴高度',
             },
             chinLength: {
                 ua: 'Довжина підборіддя',
@@ -235,6 +266,7 @@ export const creator = {
                 ru: 'Длина подбородка',
                 de: 'Kinnlänge',
                 pl: 'Długość brody',
+                zh:'下巴长',
             },
             chinPosition: {
                 ua: 'Положення підборіддя',
@@ -242,6 +274,7 @@ export const creator = {
                 ru: 'Положение подбородка',
                 de: 'Kinnposition',
                 pl: 'Położenie brody',
+                zh:'下巴位置',
             },
             chinWidth: {
                 ua: 'Ширина підборіддя',
@@ -249,6 +282,7 @@ export const creator = {
                 ru: 'Ширина подбородка',
                 de: 'Kinnbreite',
                 pl: 'Szerokość brody',
+                zh:'下巴宽度',
             },
             chinShape: {
                 ua: 'Форма підборіддя',
@@ -256,6 +290,7 @@ export const creator = {
                 ru: 'Форма подбородка',
                 de: 'Kinnform',
                 pl: 'Kształt brody',
+                zh:'下巴形状',
             },
             neckWidth: {
                 ua: 'Ширина шиї',
@@ -263,6 +298,7 @@ export const creator = {
                 ru: 'Ширина шеи',
                 de: 'Halsbreite',
                 pl: 'Szerokość szyi',
+                zh:'颈宽',
             },
         },
     },
@@ -273,6 +309,7 @@ export const creator = {
             ru: 'Выберите цвет глаз',
             de: 'Wählen Sie die Augenfarbe',
             pl: 'Wybierz kolor oczu',
+            zh:'选择眼睛颜色',
         },
         hairIndex: {
             ua: 'Виберіть зачіску',
@@ -280,6 +317,7 @@ export const creator = {
             ru: 'Выберите прическу',
             de: 'Wählen Sie eine Frisur',
             pl: 'Wybierz fryzurę',
+            zh:'选择合适的发型',
         },
         hairColor: {
             ua: 'Виберіть колір волосся',
@@ -287,6 +325,7 @@ export const creator = {
             ru: 'Выберите цвет волос',
             de: 'Wählen Sie die Haarfarbe',
             pl: 'Wybierz kolor włosów',
+            zh:'选择发色',
         },
         browsIndex: {
             ua: 'Виберіть брови',
@@ -294,6 +333,7 @@ export const creator = {
             ru: 'Выберите брови',
             de: 'Wählen Sie Augenbrauen',
             pl: 'Wybierz brwi',
+           zh:'选择眉毛',
         },
         browsColor: {
             ua: 'Виберіть колір брів',
@@ -301,6 +341,7 @@ export const creator = {
             ru: 'Выберите цвет бровей',
             de: 'Wählen Sie die Augenbrauenfarbe',
             pl: 'Wybierz kolor brwi',
+            zh:'选择眉色',
         },
         beardIndex: {
             ua: 'Виберіть бороду',
@@ -308,6 +349,7 @@ export const creator = {
             ru: 'Выберите бороду',
             de: 'Wählen Sie einen Bart',
             pl: 'Wybierz brodę',
+            zh:'选择胡子',
         },
         beardColor: {
             ua: 'Виберіть колір бороди',
@@ -315,6 +357,7 @@ export const creator = {
             ru: 'Выберите цвет бороды',
             de: 'Wählen Sie die Bartfarbe',
             pl: 'Wybierz kolor brody',
+            zh:'选择胡须颜色',
         },
         blemishesIndex: {
             ua: 'Пятна на лице',
@@ -322,6 +365,7 @@ export const creator = {
             ru: 'Пятна на лице',
             de: 'Hautunreinheiten',
             pl: 'Znamiona i piegi',
+           zh:'面部瑕疵',
         },
         ageingIndex: {
             ua: 'Старение',
@@ -329,6 +373,7 @@ export const creator = {
             ru: 'Старение',
             de: 'Alterung',
             pl: 'Starzenie się',
+           zh:'衰老',
         },
         sunDamageIndex: {
             ua: 'Урон от солнца',
@@ -336,6 +381,7 @@ export const creator = {
             ru: 'Урон от солнца',
             de: 'Sonnenschäden',
             pl: 'Uszkodzenia spowodowane słońcem',
+            zh:'晒伤',
         },
         molesIndex: {
             ua: 'Родинки и веснушки',
@@ -343,6 +389,7 @@ export const creator = {
             ru: 'Родинки и веснушки',
             de: 'Muttermale und Sommersprossen',
             pl: 'Pieprzyki i piegi',
+            zh:'痣和雀斑',
         },
     },
     clothes: {
@@ -352,6 +399,7 @@ export const creator = {
             ru: 'Верхняя одежда',
             de: 'Oberteile',
             pl: 'Górne części',
+            zh:'上装',
         },
         tshirt: {
             ua: 'Футболка',
@@ -359,6 +407,7 @@ export const creator = {
             ru: 'Футболка',
             de: 'T-Shirt',
             pl: 'Koszulka',
+            zh:'T恤',
         },
         legs: {
             ua: 'Штани',
@@ -366,6 +415,7 @@ export const creator = {
             ru: 'Штаны',
             de: 'Hosen',
             pl: 'Spodnie',
+            zh:'长裤',
         },
         shoes: {
             ua: 'Взуття',
@@ -373,6 +423,7 @@ export const creator = {
             ru: 'Обувь',
             de: 'Schuhe',
             pl: 'Buty',
+            zh:'鞋子',
         },
     },
     buttons: {
@@ -382,6 +433,7 @@ export const creator = {
             ru: 'Назад',
             de: 'Zurück',
             pl: 'Wstecz',
+            zh:'后面',
         },
         next: {
             ua: 'Далі',
@@ -389,6 +441,7 @@ export const creator = {
             ru: 'Далее',
             de: 'Weiter',
             pl: 'Dalej',
+            zh:'下一个',
         },
     },
 };

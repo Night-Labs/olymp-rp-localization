@@ -5,6 +5,7 @@ export default {
         en: 'Take the knife in your hands',
         de: 'Nehmen Sie das Messer in die Hand',
         pl: 'Weź nóż do rąk',
+        zh: '把刀拿在手里',
     },
     interaction: {
         ru: 'Разделать животное',
@@ -12,6 +13,7 @@ export default {
         en: 'Field dress the animal',
         de: 'Das Tier ausweiden',
         pl: 'Oskórować zwierzę',
+        zh: '野外处理动物',
     },
     animalArea: {
         ru: 'Зона охоты',
@@ -19,6 +21,7 @@ export default {
         en: 'Hunting Zone',
         de: 'Jagdzonen',
         pl: 'Strefa polowań',
+        zh: '狩猎区',
     },
     inventoryFull: {
         ru: 'Недостаточно места в инвентаре',
@@ -26,6 +29,7 @@ export default {
         en: 'Not enough space in the inventory',
         de: 'Nicht genug Platz im Inventar',
         pl: 'Niewystarczająca ilość miejsca w ekwipunku',
+        zh: '背包空间不足',
     },
     killedByVehicle: {
         ru: 'Эта тушка была повреждена машиной, поэтому не может быть обработана',
@@ -33,6 +37,7 @@ export default {
         en: 'This carcass was damaged by a vehicle and cannot be processed',
         de: 'Dieses Tier wurde von einem Fahrzeug beschädigt und kann nicht verarbeitet werden',
         pl: 'Ta tusza została uszkodzona przez pojazd i nie może zostać przetworzona',
+        zh: '这具动物尸体被车辆损坏，无法处理',
     },
     someoneAnotherPickUp: {
         ru: 'Кто-то другой обрабатывает это животное',
@@ -40,5 +45,6 @@ export default {
         en: 'Someone else is handling this animal',
         de: 'Jemand anderes kümmert sich um dieses Tier',
         pl: 'Ktoś inny zajmuje się tym zwierzęciem',
+        zh: '有人在处理这个动物',
     },
 };

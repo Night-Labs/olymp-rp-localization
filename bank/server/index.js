@@ -8,6 +8,7 @@ export const server = {
         de: 'Dieses Konto existiert nicht',
         fr: "Ce compte n'existe pas",
         ua: 'Такого рахунку не існує',
+        zh:'此帐户不存在',
     },
     youNotEnoughtMoney: {
         ru: 'У вас недостаточно денег',
@@ -15,6 +16,7 @@ export const server = {
         de: 'Du hast nicht genug Geld',
         fr: "Vous n'avez pas assez d'argent",
         ua: 'У вас недостатньо грошей',
+        zh:'你没有足够的钱',
     },
     maxDepositExceeded: {
         ru: 'Превышен максимальный размер депозита',
@@ -22,6 +24,7 @@ export const server = {
         de: 'Maximale Einlagengrenze überschritten',
         fr: 'Montant maximum de dépôt dépassé',
         ua: 'Перевищено максимальний розмір депозиту',
+        zh:'超过最高存款额',
     },
     error: {
         ru: 'Произошла ошибка, попробуйте ещё раз',
@@ -29,6 +32,7 @@ export const server = {
         en: 'An error occurred, please try again',
         de: 'Ein Fehler ist aufgetreten, bitte versuchen Sie es erneut',
         pl: 'Wystąpił błąd, spróbuj ponownie',
+        zh:'发生错误，请再试一次',
     },
     operations,
     atm,

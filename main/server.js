@@ -5,6 +5,7 @@ export const server = {
         ru: 'Успешно',
         de: 'Erfolgreich',
         pl: 'Sukces',
+        zh:'成功',
     },
     error: {
         ua: 'Помилка',
@@ -12,6 +13,7 @@ export const server = {
         ru: 'Ошибка',
         de: 'Fehler',
         pl: 'Błąd',
+        zh:'错误',
     },
     info: {
         ua: 'Інформація',
@@ -19,6 +21,15 @@ export const server = {
         ru: 'Информация',
         de: 'Info',
         pl: 'Informacja',
+        zh:'信息',
+    },
+    warning: {
+        ru: 'Внимание',
+        ua: 'Увага',
+        en: 'Warning',
+        de: 'Achtung',
+        pl: 'Uwaga',
+       zh:'警告',
     },
     male: {
         ua: 'Чоловіча',
@@ -26,6 +37,7 @@ export const server = {
         ru: 'Мужской',
         de: 'Männlich',
         pl: 'Mężczyzna',
+        zh:'男性',
     },
     female: {
         ua: 'Жіноча',
@@ -33,6 +45,7 @@ export const server = {
         ru: 'Женский',
         de: 'Weiblich',
         pl: 'Kobieta',
+        zh:'女性',
     },
     pcs: {
         ru: 'шт.',
@@ -40,6 +53,7 @@ export const server = {
         en: 'pcs',
         de: 'Stk.',
         pl: 'szt.',
+        zh:'片数',
     },
     money: {
         ru: 'Деньги',
@@ -47,6 +61,7 @@ export const server = {
         en: 'Money',
         de: 'Geld',
         pl: 'Pieniądze',
+        zh:'钱',
     },
     notEnoughMoney: {
         ua: 'У вас недостатньо коштів',
@@ -54,6 +69,7 @@ export const server = {
         ru: 'У вас недостаточно средств',
         de: 'Sie haben nicht genügend Geld',
         pl: 'Nie masz wystarczająco dużo pieniędzy',
+       zh:'你没有足够的钱',
     },
     negativeBalance: {
         ru: 'У вас отрицательный баланс',
@@ -61,6 +77,7 @@ export const server = {
         ua: "У вас від'ємний баланс.",
         de: 'Sie haben einen negativen Kontostand.',
         pl: 'Masz ujemne saldo.',
+        zh:'你的结余是负的',
     },
     inDev1: {
         ru: 'В разработке',
@@ -68,6 +85,7 @@ export const server = {
         en: 'In Development',
         de: 'In Entwicklung',
         pl: 'W trakcie rozwoju',
+        zh:'研制中',
     },
     inDev2: {
         ru: 'Данная функция пока находится в разработке ;)',
@@ -75,6 +93,7 @@ export const server = {
         en: 'This feature is currently in development ;)',
         de: 'Diese Funktion befindet sich derzeit in Entwicklung ;)',
         pl: 'Ta funkcja jest obecnie w trakcie rozwoju ;)',
+        zh:'此功能目前正在开发中',
     },
     lowLevel: {
         ua: 'Для цієї роботи ваш рівень повинен бути {{level}}',
@@ -82,6 +101,7 @@ export const server = {
         ru: 'Для этой работы ваш уровень должен быть {{level}}',
         de: 'Für diese Aufgabe sollte dein Level {{level}} sein',
         pl: 'Dla tego zadania twój poziom powinien wynosić {{level}}',
+        zh:'对于这项工作，你的等级应该是{{level}}',
     },
     strangerMale: {
         ru: 'Незнакомец',
@@ -89,6 +109,7 @@ export const server = {
         en: 'Stranger',
         de: 'Fremder',
         pl: 'Nieznajomy',
+        zh:'陌生人',
     },
     strangerFemale: {
         ru: 'Незнакомка',
@@ -96,6 +117,7 @@ export const server = {
         en: 'Stranger (female)',
         de: 'Fremde',
         pl: 'Nieznajoma',
+        zh:'陌生人(女性)',
     },
     voiceHasBeenReloaded: {
         ru: 'Войс-чат был перезагружён',
@@ -103,6 +125,7 @@ export const server = {
         en: 'Voice chat has been reloaded',
         de: 'Voice-Chat wurde neu geladen',
         pl: 'Czat głosowy został ponownie załadowany',
+        zh:'语音聊天已重新加载',
     },
     mustBeInVehicle: {
         ru: 'Вы должны находиться в транспортном средстве',
@@ -110,6 +133,7 @@ export const server = {
         en: 'You must be in a vehicle',
         de: 'Sie müssen sich in einem Fahrzeug befinden',
         pl: 'Musisz być w pojeździe',
+        zh:'你一定是在车里',
     },
     sms: {
         ru: '[СМС]',
@@ -117,6 +141,7 @@ export const server = {
         en: '[SMS]',
         de: '[SMS]',
         pl: '[SMS]',
+        zh:'[短信]',
     },
 
     noSpaceInInventory: {
@@ -125,6 +150,7 @@ export const server = {
         en: 'Not enough space in inventory',
         de: 'Nicht genug Platz im Inventar',
         pl: 'Za mało miejsca w ekwipunku',
+        zh:'库存空间不足',
     },
 
     // DELAY
@@ -134,6 +160,7 @@ export const server = {
         en: 'Hold up!',
         de: 'Warte mal!',
         pl: 'Poczekaj!',
+        zh:'支撑!',
     },
 
     messageDelay: {
@@ -142,6 +169,7 @@ export const server = {
         en: 'Not so fast cowboy!',
         de: 'Nicht so schnell Cowboy!',
         pl: 'Nie tak szybko kowboju!',
+        zh:'别急，牛仔!',
     },
 
     // Player too far
@@ -151,6 +179,7 @@ export const server = {
         en: 'The player is too far from you',
         de: 'Der Spieler ist zu weit von Ihnen entfernt',
         pl: 'Gracz jest zbyt daleko od ciebie',
+        zh:'玩家离你太远了',
     },
 
     // Are u gay?
@@ -160,5 +189,6 @@ export const server = {
         en: 'This action can only be performed with a player of the opposite gender',
         de: 'Diese Aktion kann nur mit einem Spieler des anderen Geschlechts durchgeführt werden',
         pl: 'Tę czynność można wykonać tylko z graczem przeciwnej płci',
+        zh:'这个动作只能由异性玩家执行',
     },
 };

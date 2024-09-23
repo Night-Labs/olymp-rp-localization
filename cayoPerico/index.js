@@ -6,6 +6,7 @@ export default {
             en: 'Do you want to go to Cayo Perico?',
             de: 'Möchten Sie nach Cayo Perico gehen?',
             pl: 'Czy chcesz pojechać na Cayo Perico?',
+            zh:'你想去佩里科岛吗?',
         },
         titleLS: {
             ru: 'Вы хотите вернуться на Лос Сантос?',
@@ -13,6 +14,7 @@ export default {
             en: 'Do you want to return to Los Santos?',
             de: 'Möchten Sie nach Los Santos zurückkehren?',
             pl: 'Czy chcesz wrócić do Los Santos?',
+            zh:'你想回自由城吗?',
         },
         message: {
             ru: 'Цена отправки будет ${{price}}, вы готовы?',
@@ -20,6 +22,7 @@ export default {
             en: 'The cost of the trip will be ${{price}}, are you ready?',
             de: 'Die Kosten für die Reise betragen ${{price}}, sind Sie bereit?',
             pl: 'Koszt podróży wyniesie ${{price}}, jesteś gotowy?',
+            zh:'这次旅行的费用是${{price}}，你准备好了吗?',
         },
         confirmButton: {
             ru: 'Да',
@@ -27,6 +30,7 @@ export default {
             en: 'Yes',
             de: 'Ja',
             pl: 'Tak',
+            zh:'是的',
         },
         cancelButton: {
             ru: 'Нет',
@@ -34,6 +38,7 @@ export default {
             en: 'No',
             de: 'Nein',
             pl: 'Nie',
+            zh:'不',
         },
     },
     labelToCayoPerico: {
@@ -42,6 +47,7 @@ export default {
         en: 'Trip to Cayo Perico',
         de: 'Reise nach Cayo Perico',
         pl: 'Podróż na Cayo Perico',
+        zh:'前往佩里克岛',
     },
     labelToLS: {
         ru: 'Возвращение в Лос Сантос',
@@ -49,5 +55,6 @@ export default {
         en: 'Return to Los Santos',
         de: 'Rückkehr nach Los Santos',
         pl: 'Powrót do Los Santos',
+        zh:'返回自由城',
     },
 };

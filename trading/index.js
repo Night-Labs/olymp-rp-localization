@@ -8,6 +8,7 @@ export default {
         en: 'An error occurred while selling the car',
         de: 'Beim Verkauf des Autos ist ein Fehler aufgetreten',
         pl: 'Wystąpił błąd podczas sprzedaży samochodu',
+        zh: '出售汽车时发生错误',
     },
     youSuccessfullySold: {
         ru: 'Вы продали {{vehicle}} за ${{price}} гражданину {{buyer}}',
@@ -15,6 +16,7 @@ export default {
         en: 'You sold {{vehicle}} for ${{price}} to {{buyer}}',
         de: 'Sie haben {{vehicle}} für ${{price}} an {{buyer}} verkauft',
         pl: 'Sprzedałeś {{vehicle}} za ${{price}} obywatelowi {{buyer}}',
+        zh: '您已成功以 {{price}} 的价格将 {{vehicle}} 卖给了 {{buyer}}',
     },
     youSuccessfullyBought: {
         ru: 'Вы купили {{vehicle}} за ${{price}} у {{seller}}',
@@ -22,6 +24,7 @@ export default {
         en: 'You bought {{vehicle}} for ${{price}} from {{seller}}',
         de: 'Sie haben {{vehicle}} für ${{price}} von {{seller}} gekauft',
         pl: 'Kupiłeś {{vehicle}} za ${{price}} od {{seller}}',
+        zh: '您已成功以 {{price}} 的价格从 {{seller}} 购买了 {{vehicle}}',
     },
     declineNotify: {
         ru: '{{buyer}} отказался от вашего предложения',
@@ -29,6 +32,7 @@ export default {
         en: '{{buyer}} declined your offer',
         de: '{{buyer}} hat Ihr Angebot abgelehnt',
         pl: '{{buyer}} odrzucił twoją ofertę',
+        zh: '{{buyer}} 拒绝了您的报价',
     },
     offerVehicle: {
         ru: 'Предлагает вам сделку по продаже Т/С',
@@ -36,6 +40,7 @@ export default {
         en: 'Offers you a deal to sell the vehicle',
         de: 'Bietet Ihnen ein Geschäft zum Verkauf des Fahrzeugs an',
         pl: 'Oferuje ci umowę na sprzedaż pojazdu',
+        zh: '向您提供一个出售车辆的交易',
     },
     waitForSeller: {
         ru: 'Ожидайте ответа продавца',
@@ -43,6 +48,7 @@ export default {
         en: "Wait for the seller's response",
         de: 'Warten Sie auf die Antwort des Verkäufers',
         pl: 'Czekaj na odpowiedź sprzedawcy',
+        zh: '等待卖家回应',
     },
     waitResponseFromBuyer: {
         ru: 'Ожидайте ответа покупателя',
@@ -50,6 +56,7 @@ export default {
         en: 'Wait for a response from the buyer',
         de: 'Warten Sie auf eine Antwort des Käufers',
         pl: 'Czekaj na odpowiedź od kupującego',
+        zh: '等待买家回应',
     },
     timeIsOutForBuyer: {
         ru: 'Время ожидания ответа от покупателя истекло',
@@ -57,6 +64,7 @@ export default {
         en: "The time for the buyer's response has expired",
         de: 'Die Wartezeit auf die Antwort des Käufers ist abgelaufen',
         pl: 'Czas oczekiwania na odpowiedź od kupującego minął',
+        zh: '等待买家回应的时间已过',
     },
     buyerDisconnect: {
         ru: 'Покупатель неожиданно исчез, сделка отменена',
@@ -64,6 +72,7 @@ export default {
         en: 'The buyer unexpectedly disappeared, the deal is canceled',
         de: 'Der Käufer ist unerwartet verschwunden, das Geschäft ist storniert',
         pl: 'Kupujący niespodziewanie zniknął, transakcja została anulowana',
+        zh: '买家意外断开连接，交易取消',
     },
     sellerDisconnect: {
         ru: 'Продавец неожиданно исчез, сделка отменена',
@@ -71,6 +80,7 @@ export default {
         en: 'The seller unexpectedly disappeared, the deal is canceled',
         de: 'Der Verkäufer ist unerwartet verschwunden, das Geschäft ist storniert',
         pl: 'Sprzedawca niespodziewanie zniknął, transakcja została anulowana',
+        zh: '卖家意外断开连接，交易取消',
     },
     notEnoughMoney: {
         ru: 'Недостаточно средств, сделка отменена',
@@ -78,6 +88,7 @@ export default {
         en: 'Not enough funds, the deal is canceled',
         de: 'Nicht genügend Mittel, das Geschäft ist storniert',
         pl: 'Niewystarczające środki, transakcja została anulowana',
+        zh: '资金不足，交易取消',
     },
     notEnoughMoneyTarget: {
         ru: 'У покупателя недостаточно средств, сделка отменена',
@@ -85,6 +96,7 @@ export default {
         en: 'The buyer does not have enough funds, the deal is canceled',
         de: 'Der Käufer hat nicht genügend Mittel, das Geschäft ist storniert',
         pl: 'Kupujący nie ma wystarczających środków, transakcja została anulowana',
+        zh: '买家资金不足，交易取消',
     },
     alreadyOffer: {
         ru: 'Сейчас вы не можете ничего предложить',
@@ -92,5 +104,6 @@ export default {
         en: "You can't offer anything right now",
         de: 'Du kannst momentan nichts anbieten',
         pl: 'Nie możesz teraz nic zaoferować',
+        zh: '您目前无法提供任何报价',
     },
 };

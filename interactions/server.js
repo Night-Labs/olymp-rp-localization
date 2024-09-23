@@ -5,6 +5,7 @@ export const server = {
         en: 'Press to interact',
         de: 'Drücken Sie, um zu interagieren',
         pl: 'Naciśnij, aby interakcji',
+       zh:'按下进行交互',
     },
     productShop: {
         ru: 'Чтобы открыть магазин 24/7',
@@ -12,6 +13,7 @@ export const server = {
         en: 'To open the 24/7 store',
         de: 'Um den 24/7 Laden zu öffnen',
         pl: 'Aby otworzyć sklep 24/7',
+        zh:'要全天候开店',
     },
     weaponShop: {
         ru: 'Чтобы открыть каталог магазина оружия',
@@ -19,6 +21,7 @@ export const server = {
         en: 'To open the weapon shop catalog',
         de: 'Um den Waffenladenkatalog zu öffnen',
         pl: 'Aby otworzyć katalog sklepu z bronią',
+        zh:'打开武器商店目录',
     },
     clothesShop: {
         ru: 'Чтобы открыть каталог магазина одежды',
@@ -26,6 +29,7 @@ export const server = {
         en: 'To open the clothing store catalog',
         de: 'Um den Kleidungsladenkatalog zu öffnen',
         pl: 'Aby otworzyć katalog sklepu odzieżowego',
+        zh:'打开服装店目录',
     },
     pickupItem: {
         ru: 'Чтобы подобрать предмет, нажмите',
@@ -33,6 +37,7 @@ export const server = {
         en: 'To pick up the item, press',
         de: 'Um den Gegenstand aufzuheben, drücken Sie',
         pl: 'Aby podnieść przedmiot, naciśnij',
+        zh:'要拾取项目，请按',
     },
     truckerMenu: {
         ru: 'Чтобы открыть меню дальнобойщика',
@@ -40,6 +45,7 @@ export const server = {
         en: 'To open the trucker menu',
         de: 'Um das Trucker-Menü zu öffnen',
         pl: 'Aby otworzyć menu truckera',
+        zh:'打开卡车司机菜单',
     },
     deliveryMenu: {
         ru: 'Чтобы открыть меню доставки еды',
@@ -47,6 +53,7 @@ export const server = {
         en: 'To open the food delivery menu',
         de: 'Um das Menü für die Lieferung von Essen zu öffnen',
         pl: 'Aby otworzyć menu dostawy jedzenia',
+        zh:'打开送餐菜单',
     },
     job: {
         ru: 'Чтобы открыть меню устройства на работу нажмите',
@@ -54,6 +61,7 @@ export const server = {
         en: 'To open the job device menu, press',
         de: 'Um das Arbeitsgerätemenü zu öffnen, drücken Sie',
         pl: 'Aby otworzyć menu urządzenia na pracę, naciśnij',
+       zh:'要打开作业设备菜单，请按',
     },
     rent: {
         ua: 'Щоб відкрити меню оренди',
@@ -61,6 +69,7 @@ export const server = {
         ru: 'Чтобы открыть меню аренды',
         de: 'Um das Mietmenü zu öffnen',
         pl: 'Aby otworzyć menu wynajmu',
+        zh:'打开租赁菜单',
     },
     carshop: {
         ua: 'Щоб відкрити меню автосалону',
@@ -68,6 +77,7 @@ export const server = {
         ru: 'Чтобы открыть меню автосалона',
         de: 'Um das Menü des Autohauses zu öffnen',
         pl: 'Aby otworzyć menu salonu samochodowego',
+        zh:'打开汽车旅馆的菜单',
     },
     lsc: {
         ua: 'Щоб відкрити меню тюнінг-ательє',
@@ -75,6 +85,7 @@ export const server = {
         ru: 'Чтобы открыть меню тюнинг-ателье',
         de: 'Um das Menü der Tuning-Werkstatt zu öffnen',
         pl: 'Aby otworzyć menu warsztatu tuningowego',
+        zh:'打开调音艺术菜单',
     },
     atm: {
         ua: 'Щоб відкрити меню банкомату',
@@ -82,6 +93,7 @@ export const server = {
         ru: 'Чтобы открыть меню банкомата',
         de: 'Um das ATM-Menü zu öffnen',
         pl: 'Aby otworzyć menu bankomatu',
+        zh:'打开ATM菜单',
     },
     bank: {
         ua: 'Щоб відкрити меню банка',
@@ -89,6 +101,7 @@ export const server = {
         ru: 'Чтобы открыть меню банка',
         de: 'Um das Bank-Menü zu öffnen',
         pl: 'Aby otworzyć menu banku',
+        zh:'打开银行菜单',
     },
     arrest: {
         ru: 'Оформление',
@@ -96,6 +109,7 @@ export const server = {
         en: 'Processing',
         de: 'Bearbeitung',
         pl: 'Przetwarzanie',
+       zh:'处理',
     },
     toTalk: {
         ru: 'Чтобы поговорить нажмите',
@@ -103,6 +117,7 @@ export const server = {
         en: 'To talk, click',
         de: 'Um zu sprechen, klicken Sie auf',
         pl: 'Aby porozmawiać, kliknij',
+        zh:'要发言，请单击',
     },
     houseInventory: {
         ru: 'Чтобы открыть инвентарь дома нажмите',
@@ -110,5 +125,6 @@ export const server = {
         en: 'To open the house inventory, press',
         de: 'Um das Hausinventar zu öffnen, drücken Sie',
         pl: 'Aby otworzyc magazyn domu, naciśnij',
+       zh:'要打开房子，请按',
     },
 };

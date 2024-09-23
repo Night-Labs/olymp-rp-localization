@@ -5,6 +5,7 @@ export const atm = {
         en: 'Congratulations!',
         de: 'Herzlichen Glückwunsch!',
         pl: 'Gratulacje!',
+       zh:'恭喜！',
     },
     youBoughtAtm: {
         ru: 'Вы купили банкомат',
@@ -12,6 +13,7 @@ export const atm = {
         en: 'You bought an ATM',
         de: 'Sie haben einen ATM gekauft',
         pl: 'Założyłeś konto bankomatu',
+        zh:'你买了一台自动取款机',
     },
     youDontHaveAnAccount: {
         ru: 'У вас нет банковского счёта',
@@ -19,5 +21,6 @@ export const atm = {
         de: 'Sie haben kein Bankkonto',
         fr: "Vous n'avez pas de compte bancaire",
         ua: 'У вас немає банківського рахунку',
+        zh:'你还没有银行账户',
     },
 };

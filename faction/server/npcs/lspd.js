@@ -6,6 +6,7 @@ export default {
             en: 'Welcome to the LSPD police station! How can I assist you?',
             de: 'Willkommen auf der Polizeiwache LSPD! Wie kann ich Ihnen helfen?',
             pl: 'Witamy na komisariacie LSPD! W czym mogę pomóc?',
+           zh:'欢迎来到LSPD警察局！我能为你做什么？',
         },
 
         factionRecruit: {
@@ -14,6 +15,7 @@ export default {
             en: 'Faction recruitment',
             de: 'Fraktionsrekrutierung',
             pl: 'Rekrutacja do frakcji',
+            zh:'派系招募',
         },
 
         gunLicense: {
@@ -22,6 +24,7 @@ export default {
             en: 'Gun license',
             de: 'Waffenschein',
             pl: 'Licencja na broń',
+            zh:'武器许可证',
         },
 
         justLooking: {
@@ -30,6 +33,7 @@ export default {
             en: 'Just looking',
             de: 'Nur schauen',
             pl: 'Tylko oglądam',
+            zh:'我只是随便看看',
         },
 
         factionRecruitment: {
@@ -38,6 +42,7 @@ export default {
             en: 'LSPD faction recruitment is conducted by the leader and their deputy. Keep an eye on the announcements.',
             de: 'Die Rekrutierung für die LSPD-Fraktion erfolgt durch den Leiter und seinen Stellvertreter. Achten Sie auf die Ankündigungen.',
             pl: 'Rekrutacja do frakcji LSPD odbywa się przez lidera i jego zastępcę. Śledź ogłoszenia.',
+            zh:'LSPD派系的招募是由领导人及其副手进行的。请密切关注公告',
         },
 
         licenseInfo: {
@@ -46,6 +51,7 @@ export default {
             en: 'The gun license costs ${{price}} and requires level {{level}}.',
             de: 'Der Waffenschein kostet ${{price}} und erfordert Stufe {{level}}.',
             pl: 'Licencja na broń kosztuje ${{price}} i wymaga {{level}} poziomu.',
+           zh:'“武器许可证是${{price}}，需要{{level}}级别',
         },
 
         gotIt: {
@@ -54,6 +60,7 @@ export default {
             en: 'Got it',
             de: 'Verstanden',
             pl: 'Rozumiem',
+           zh:'明白了',
         },
 
         buy: {
@@ -62,6 +69,7 @@ export default {
             en: 'Obtain',
             de: 'Erhalten',
             pl: 'Otrzymać',
+            zh:'得到',
         },
 
         farewell: {
@@ -70,6 +78,7 @@ export default {
             en: 'Take care!',
             de: "Mach's gut!",
             pl: 'Trzymaj się!',
+            zh:'生日快乐',
         },
 
         bye: {
@@ -78,6 +87,7 @@ export default {
             en: 'Goodbye',
             de: 'Auf Wiedersehen',
             pl: 'Do widzenia',
+            zh:'再见',
         },
 
         //
@@ -88,6 +98,7 @@ export default {
             en: 'It seems that your weapon license has expired, do you want to renew it?',
             de: 'Es scheint, dass Ihr Waffenschein abgelaufen ist. Möchten Sie ihn erneuern?',
             pl: 'Wygląda na to, że Twoja licencja na broń wygasła. Czy chcesz ją odnowić?',
+            zh:'“你的持枪执照似乎没时间了，你想续签吗？',
         },
         yes: {
             ru: 'Да',
@@ -95,6 +106,7 @@ export default {
             en: 'Yes',
             de: 'Ja',
             pl: 'Tak',
+           zh:'是的',
         },
         notNow: {
             ru: 'Не в этот раз',
@@ -102,6 +114,7 @@ export default {
             en: 'Not now',
             de: 'Nicht jetzt',
             pl: 'Nie teraz',
+            zh:'现在不行',
         },
     },
     dialog2: {
@@ -111,6 +124,7 @@ export default {
             en: "Congratulations on acquiring the license. But that's not all, first you need to go to the shooting range, pass the practical test, and then you will receive your license",
             de: 'Glückwunsch zum Erwerb der Lizenz. Aber das ist noch nicht alles, zuerst müssen Sie zum Schießstand gehen, den praktischen Test bestehen und dann erhalten Sie Ihre Lizenz',
             pl: 'Gratulacje z okazji zdobycia licencji. Ale to jeszcze nie wszystko, najpierw musisz udać się na strzelnicę, zdać test praktyczny, a potem otrzymasz licencję',
+            zh:'恭喜你拿到执照。但这还不是全部，首先你必须去这个国家，进行实际测试，然后你才能获得执照',
         },
 
         askNextStep: {
@@ -119,6 +133,7 @@ export default {
             en: "What's the next step?",
             de: 'Was ist der nächste Schritt?',
             pl: 'Jaki jest następny krok?',
+            zh:'下一步是什么？',
         },
 
         sayThanks: {
@@ -127,6 +142,7 @@ export default {
             en: 'Thanks for the information',
             de: 'Danke für die Information',
             pl: 'Dziękuję za informację',
+            zh:'谢谢你的信息',
         },
 
         directionToRange: {
@@ -135,6 +151,7 @@ export default {
             en: 'Go to the shooting range, you can see its location on the map. There you will have to undergo practical shooting. After which you will receive the license',
             de: 'Gehen Sie zum Schießstand, dessen Standort Sie auf der Karte sehen können. Dort müssen Sie das praktische Schießen absolvieren. Danach erhalten Sie die Lizenz',
             pl: 'Udaj się na strzelnicę, jej lokalizację zobaczysz na mapie. Tam będziesz musiał przejść praktyczne strzelanie. Po czym otrzymasz licencję',
+            zh:'去射击场，你可以在地图上看到它的位置。在那里，你必须进行实际射击。之后，您将收到许可证',
         },
 
         gotIt: {
@@ -143,6 +160,7 @@ export default {
             en: 'Understood, thank you',
             de: 'Verstanden, danke',
             pl: 'Rozumiem, dziękuję',
+           zh:'明白了，谢谢',
         },
 
         farewellWithEncouragement: {
@@ -151,6 +169,7 @@ export default {
             en: 'Good luck at the range! Remember, safety first.',
             de: 'Viel Erfolg auf dem Schießstand! Denk daran, Sicherheit geht vor.',
             pl: 'Powodzenia na strzelnicy! Pamiętaj, bezpieczeństwo przede wszystkim.',
+           zh:'祝你好运！记住，安全高于一切',
         },
 
         bye: {
@@ -159,6 +178,7 @@ export default {
             en: 'Goodbye',
             de: 'Auf Wiedersehen',
             pl: 'Do widzenia',
+            zh:'再见',
         },
     },
 };

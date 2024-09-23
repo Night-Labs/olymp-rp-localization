@@ -15,6 +15,7 @@ export default {
         en: 'Balance:',
         de: 'Saldo:',
         pl: 'Bilans:',
+       zh:'余额:',
     },
 
     casino: {
@@ -23,6 +24,7 @@ export default {
         en: 'Casino',
         de: 'Casino',
         pl: 'Kasyno',
+        zh:'赌场',
     },
 
     notEnoughChips: {
@@ -31,6 +33,7 @@ export default {
         en: "You don't have enough chips",
         de: 'Sie haben nicht genug Chips',
         pl: 'Nie masz wystarczająco żetonów',
+       zh:'你没有足够的筹码',
     },
 
     youWon: {
@@ -39,6 +42,7 @@ export default {
         en: 'You won {{chips}} chips!',
         de: 'Sie haben {{chips}} Chips gewonnen!',
         pl: 'Wygrałeś {{chips}} żetonów!',
+       zh:'你赢了{{chips}}筹码!',
     },
 
     interaction: {
@@ -48,6 +52,7 @@ export default {
             en: 'Enter the casino',
             de: 'Ins Casino gehen',
             pl: 'Wejdź do kasyna',
+            zh:'进入赌场',
         },
         exit: {
             ru: 'Выйти из казино',
@@ -55,6 +60,7 @@ export default {
             en: 'Exit the casino',
             de: 'Das Casino verlassen',
             pl: 'Wyjdź z kasyna',
+            zh:'离开赌场',
         },
         roofEnter: {
             ru: 'Выйти на крышу',
@@ -62,6 +68,7 @@ export default {
             en: 'Go to the roof',
             de: 'Auf das Dach gehen',
             pl: 'Wejdź na dach',
+           zh:'去楼顶',
         },
         roofExit: {
             ru: 'Спуститься в казино',
@@ -69,6 +76,7 @@ export default {
             en: 'Descend to the casino',
             de: 'Zum Casino hinabsteigen',
             pl: 'Zejdź do kasyna',
+           zh:'下到赌场',
         },
         roof: {
             ru: 'Выход на крышу',
@@ -76,6 +84,7 @@ export default {
             en: 'Roof access',
             de: 'Dachzugang',
             pl: 'Dostęp do dachu',
+            zh:'屋顶入口',
         },
     },
 
@@ -86,6 +95,7 @@ export default {
             en: 'Bar',
             de: 'Bar',
             pl: 'Bar',
+            zh:'酒吧',
         },
 
         drinks: {
@@ -94,6 +104,7 @@ export default {
             en: 'Drinks',
             de: 'Getraenke',
             pl: 'Napoży',
+            zh:'饮料',
         },
 
         food: {
@@ -102,6 +113,7 @@ export default {
             en: 'Food',
             de: 'Essen',
             pl: 'Jedzenie',
+           zh:'食物',
         },
     },
 };

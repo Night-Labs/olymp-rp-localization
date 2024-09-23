@@ -5,6 +5,7 @@ export const server = {
         ru: 'Тюнинг ателье',
         de: 'Tuning-Werkstatt',
         pl: 'Warsztat tuningowy',
+        zh: '改装工作室',
     },
     notEnoughtMoney: {
         ua: 'У вас недостатньо коштів для оплати тюнінгу',
@@ -12,6 +13,7 @@ export const server = {
         ru: 'У вас недостаточно средств для оплаты тюнинга',
         de: 'Sie haben nicht genügend Geld, um das Tuning zu bezahlen',
         pl: 'Nie masz wystarczająco dużo pieniędzy, aby zapłacić za tuning',
+        zh: '您没有足够的资金支付改装费用',
     },
     thanks: {
         ua: 'Дякуємо за тюнінг в нашому ательє!',
@@ -19,6 +21,7 @@ export const server = {
         ru: 'Спасибо за тюнинг в нашем ателье!',
         de: 'Vielen Dank für das Tuning in unserer Werkstatt!',
         pl: 'Dziękujemy za tuning w naszym warsztacie!',
+        zh: '感谢您在我们的工作室进行改装！',
     },
     notEnoughtMoneyForFix: {
         ua: 'У вас недостатньо коштів для ремонту транспорту',
@@ -26,6 +29,7 @@ export const server = {
         ru: 'У вас недостаточно средств для починки транспорта',
         de: 'Sie haben nicht genügend Geld, um Ihr Fahrzeug zu reparieren',
         pl: 'Nie masz wystarczająco dużo pieniędzy, aby naprawić swój pojazd',
+        zh: '您没有足够的资金来修理您的交通工具',
     },
     fixed: {
         ua: 'Ваш транспорт відремонтовано',
@@ -33,6 +37,7 @@ export const server = {
         ru: 'Ваш транспорт отремонтирован',
         de: 'Ihr Fahrzeug wurde repariert',
         pl: 'Twój pojazd został naprawiony',
+        zh: '您的交通工具已修复',
     },
     modal: {
         title: {
@@ -41,6 +46,7 @@ export const server = {
             ru: 'Почините транспорт перед тюнингом',
             de: 'Repariere dein Fahrzeug vor dem Tuning',
             pl: 'Napraw swój pojazd przed tuningiem',
+            zh: '在改装前修理您的交通工具',
         },
         message: {
             ua: 'Бажаєте відновити ваш транспорт за ${{price}}?',
@@ -48,6 +54,7 @@ export const server = {
             ru: 'Хотите ли вы восстановить ваш транспорт за ${{price}}?',
             de: 'Möchten Sie Ihr Fahrzeug für ${{price}} reparieren?',
             pl: 'Czy chcesz naprawić swój pojazd za ${{price}}?',
+            zh: '您想要花费 ${{price}} 来修理您的交通工具吗?',
         },
         confirmButton: {
             ua: 'Так',
@@ -55,6 +62,7 @@ export const server = {
             ru: 'Да',
             de: 'Ja',
             pl: 'Tak',
+            zh: '是',
         },
         cancelButton: {
             ua: 'Ні',
@@ -62,6 +70,7 @@ export const server = {
             ru: 'Нет',
             de: 'Nein',
             pl: 'Nie',
+            zh: '否',
         },
     },
 };

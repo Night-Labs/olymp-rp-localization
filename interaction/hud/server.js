@@ -6,6 +6,7 @@ export const server = {
             ru: 'говорит',
             de: 'spricht',
             pl: 'mówi',
+            zh:'说话',
         },
         info: {
             ua: '[Інформація]',
@@ -13,6 +14,7 @@ export const server = {
             ru: '[Информация]',
             de: '[Information]',
             pl: '[Informacja]',
+           zh:'[信息]',
         },
         success: {
             ru: 'Удачно',
@@ -20,6 +22,7 @@ export const server = {
             en: 'Successful',
             de: 'Erfolgreich',
             pl: 'Z powodzeniem',
+            zh:'成功',
         },
         fail: {
             ru: 'Неудачно',
@@ -27,6 +30,7 @@ export const server = {
             en: 'Unsuccessful',
             de: 'Fehlgeschlagen',
             pl: 'Nieudany',
+           zh:'失败',
         },
         chat: {
             ru: 'Чат',
@@ -34,6 +38,7 @@ export const server = {
             en: 'Chat',
             de: 'Chat',
             pl: 'Czat',
+            zh:'聊天',
         },
         youreMuted: {
             ru: 'Вы замучены',
@@ -41,6 +46,7 @@ export const server = {
             en: 'You are muted',
             de: 'Du bist stummgeschaltet',
             pl: 'Jesteś wyciszony',
+            zh:'您已静音',
         },
     },
 };
