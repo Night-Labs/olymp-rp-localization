@@ -173,4 +173,47 @@ export const vehicle = {
             zh:'你关上了后备箱',
         },
     },
+
+    doorsControl: {
+        ru: 'Управление дверьми',
+        ua: 'Керування дверима',
+        en: 'Doors Control',
+        de: 'Türsteuerung',
+        pl: 'Sterowanie drzwiami',
+    },
+    'doorsControl-driverFrontDoor': {
+        ru: 'Передняя левая дверь',
+        ua: 'Передні ліві двері',
+        en: "Driver's Front Door",
+        de: 'Fahrertür vorne links',
+        pl: 'Przednie lewe drzwi',
+    },
+    'doorsControl-passengerFrontDoor': {
+        ru: 'Передняя правая дверь',
+        ua: 'Передні праві двері',
+        en: "Passenger's Front Door",
+        de: 'Beifahrertür vorne rechts',
+        pl: 'Przednie prawe drzwi',
+    },
+    'doorsControl-driverRearDoor': {
+        ru: 'Задняя левая дверь',
+        ua: 'Задні ліві двері',
+        en: "Driver's Rear Door",
+        de: 'Fahrertür hinten links',
+        pl: 'Tylne lewe drzwi',
+    },
+    'doorsControl-passengerRearDoor': {
+        ru: 'Задняя правая дверь',
+        ua: 'Задні праві двері',
+        en: "Passenger's Rear Door",
+        de: 'Beifahrertür hinten rechts',
+        pl: 'Tylne prawe drzwi',
+    },
+    'doorsControl-hood': {
+        ru: 'Капот',
+        ua: 'Капот',
+        en: 'Hood',
+        de: 'Motorhaube',
+        pl: 'Maska',
+    },
 };
