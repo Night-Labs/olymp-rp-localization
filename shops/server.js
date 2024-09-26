@@ -23,6 +23,20 @@ export const server = {
         pl: 'Sklep odzieżowy',
         zh: '服装店',
     },
+    barberShop: {
+        ru: 'Барбершоп',
+        ua: 'Барбершоп',
+        en: 'Barbershop',
+        de: 'Barbershop',
+        pl: 'Barbershop',
+    },
+    tattooSalon: {
+        ru: 'Тату-салон',
+        ua: 'Тату-салон',
+        en: 'Tattoo salon',
+        de: 'Tattoo-Salon',
+        pl: 'Salon tatuażu',
+    },
     thanksForBuy: {
         ru: 'Спасибо за покупку',
         ua: 'Дякуємо за покупку',
@@ -31,6 +45,13 @@ export const server = {
         pl: 'Dziękujemy za zakup',
         zh: '感谢您的购买',
     },
+    youRemovedTattoo: {
+        ru: 'Вы успешно свели это тату',
+        ua: 'Ви успішно вивели це тату',
+        en: 'You successfully removed this tattoo',
+        de: 'Sie haben dieses Tattoo erfolgreich entfernt',
+        pl: 'Udało ci się usunąć ten tatuaż',
+    },
     youAlreadyHaveThisClothes: {
         ru: 'У вас уже есть эта одежда',
         ua: 'У вас вже є ця одяг',
@@ -38,6 +59,13 @@ export const server = {
         de: 'Du hast diese Kleidung bereits',
         pl: 'Masz już tę odzież',
         zh: '您已经拥有这件服装',
+    },
+    chairAlreadyTaken: {
+        ru: 'Кресло уже занято',
+        ua: 'Крісло вже зайняте',
+        en: 'The chair is already taken',
+        de: 'Der Stuhl ist bereits besetzt',
+        pl: 'Krzesło jest już zajęte',
     },
     notEnoughSpace: {
         ru: 'Недостаточно места в инвентаре',
@@ -48,6 +76,20 @@ export const server = {
         zh: '您的背包空间不足',
     },
 
+    youAlreadyHaveThisAppearance: {
+        ru: 'У вас уже есть это',
+        ua: 'У вас вже є це',
+        en: 'You already have this',
+        de: 'Du hast das bereits',
+        pl: 'Już to masz',
+    },
+    youAlreadyHaveThisTattoo: {
+        ru: 'У вас уже есть этот тату',
+        ua: 'У вас вже є це тату',
+        en: 'You already have this tattoo',
+        de: 'Du hast dieses Tattoo bereits',
+        pl: 'Masz już ten tatuaż',
+    },
     //
     noWeaponLicense: {
         ru: 'Нет лицензии оружия',

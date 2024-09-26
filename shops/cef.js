@@ -7,30 +7,90 @@ export const cef = {
         pl: 'Sklep',
         zh: '商店',
     },
-    choose: {
-        ua: 'Виберіть',
-        en: 'Choose',
-        ru: 'Выберете',
-        de: 'Wählen',
-        pl: 'Wybierz',
-        zh: '选择',
+    chooseLabels: {
+        choose: {
+            ua: 'Виберіть',
+            en: 'Choose',
+            ru: 'Выберете',
+            de: 'Wählen',
+            pl: 'Wybierz',
+            zh: '选择',
+        },
+        category: {
+            ru: 'категорию',
+            ua: 'категорію',
+            en: 'category',
+            de: 'Kategorie',
+            pl: 'kategoria',
+            zh: '類別',
+        },
+        cloth: {
+            ru: 'одежду',
+            ua: 'одяг',
+            en: 'clothing',
+            de: 'Kleidung',
+            pl: 'odzież',
+            zh: '衣服',
+        },
+        hairs: {
+            ru: 'причёску',
+            ua: 'зачіску',
+            en: 'hairstyle',
+            de: 'Frisur',
+            pl: 'fryzurę',
+        },
+        beards: {
+            ru: 'бороду',
+            ua: 'бороду',
+            en: 'beard',
+            de: 'Bart',
+            pl: 'brodę',
+        },
+        brows: {
+            ru: 'брови',
+            ua: 'брови',
+            en: 'eyebrows',
+            de: 'Augenbrauen',
+            pl: 'brwi',
+        },
+        makeup: {
+            ru: 'макияж',
+            ua: 'макіяж',
+            en: 'makeup',
+            de: 'Make-up',
+            pl: 'makijaż',
+        },
+        blush: {
+            ru: 'румяну',
+            ua: "рум'яну",
+            en: 'blush',
+            de: 'Rouge',
+            pl: 'róż',
+        },
+        lipstick: {
+            ru: 'помаду',
+            ua: 'помаду',
+            en: 'lipstick',
+            de: 'Lippenstift',
+            pl: 'szminkę',
+        },
+        lenses: {
+            ru: 'линзы',
+            ua: 'лінзи',
+            en: 'lenses',
+            de: 'Linsen',
+            pl: 'soczewki',
+        },
+        tattoo: {
+            ru: 'тату',
+            ua: 'тату',
+            en: 'tattoo',
+            de: 'Tattoo',
+            pl: 'tatuań',
+            zh: '武器',
+        },
     },
-    category: {
-        ru: 'категорию',
-        ua: 'категорію',
-        en: 'category',
-        de: 'Kategorie',
-        pl: 'kategoria',
-        zh: '類別',
-    },
-    cloth: {
-        ru: 'одежду',
-        ua: 'одяг',
-        en: 'clothing',
-        de: 'Kleidung',
-        pl: 'odzież',
-        zh: '衣服',
-    },
+
     back: {
         ua: 'Назад',
         en: 'Back',
@@ -62,6 +122,26 @@ export const cef = {
         de: 'Kaufen',
         pl: 'Kupić',
         zh: '购买',
+    },
+    primaryColor: {
+        ru: 'Основной цвет',
+        ua: 'Основний колір',
+        en: 'Primary color',
+        de: 'Primärfarbe',
+        pl: 'Kolor podstawowy',
+    },
+    highlightColor: {
+        ru: 'Дополнительный цвет',
+        ua: 'Додатковий колір',
+        en: 'Secondary color',
+        de: 'Sekundärfarbe',
+        pl: 'Kolor dodatkowy',
+    },
+    browsOpacity: {
+        ru: 'Яркость бровей',
+    },
+    makeupOpacity: {
+        ru: 'Интенсивность макияжа',
     },
     clothes: {
         name: {
@@ -172,12 +252,6 @@ export const cef = {
         },
     },
     barber: {
-        color: {
-            ru: 'Цвет',
-        },
-        additionalColor: {
-            ru: 'Дополнительный цвет',
-        },
         categories: {
             hairs: {
                 ru: 'Причёска',
@@ -193,7 +267,7 @@ export const cef = {
                 de: 'Linsen',
                 pl: 'Soczewki',
             },
-            beard: {
+            beards: {
                 ru: 'Борода',
                 ua: 'Борода',
                 en: 'Beard',
@@ -241,6 +315,59 @@ export const cef = {
                 en: 'Lipstick',
                 de: 'Lippenstift',
                 pl: 'Szminka',
+            },
+        },
+    },
+    tattoo: {
+        categories: {
+            head: {
+                ru: 'Голова',
+                ua: 'Голова',
+                en: 'Head',
+                de: 'Kopf',
+                pl: 'Głowa',
+            },
+            torso: {
+                ru: 'Тело',
+                ua: 'Тіло',
+                en: 'Torso',
+                de: 'Rumpf',
+                pl: 'Tułów',
+            },
+            leftArm: {
+                ru: 'Левая рука',
+                ua: 'Ліва рука',
+                en: 'Left Arm',
+                de: 'Linker Arm',
+                pl: 'Lewa ręka',
+            },
+            rightArm: {
+                ru: 'Правая рука',
+                ua: 'Права рука',
+                en: 'Right Arm',
+                de: 'Rechter Arm',
+                pl: 'Prawa ręka',
+            },
+            leftLeg: {
+                ru: 'Левая нога',
+                ua: 'Ліва нога',
+                en: 'Left Leg',
+                de: 'Linkes Bein',
+                pl: 'Lewa noga',
+            },
+            rightLeg: {
+                ru: 'Правая нога',
+                ua: 'Права нога',
+                en: 'Right Leg',
+                de: 'Rechtes Bein',
+                pl: 'Prawa noga',
+            },
+            removeTattoos: {
+                ru: 'Свести тату',
+                ua: 'Звести тату',
+                en: 'Remove tattoos',
+                de: 'Tattoos entfernen',
+                pl: 'Usunąć tatuaże',
             },
         },
     },

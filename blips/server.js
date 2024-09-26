@@ -39,7 +39,7 @@ export const server = {
         pl: 'Barber Shop',
         zh: '理发店',
     },
-    tattooShop: {
+    tattooSalon: {
         ua: 'Тату салон',
         en: 'Tattoo Shop',
         ru: 'Тату салон',
@@ -174,5 +174,19 @@ export const server = {
         de: 'Angelgebiet',
         pl: 'Strefa wędkowania',
         zh: '渔区',
+    },
+    barberShop: {
+        ru: 'Барбершоп',
+        ua: 'Барбершоп',
+        en: 'Barbershop',
+        de: 'Barbershop',
+        pl: 'Barbershop',
+    },
+    tattooSalon: {
+        ru: 'Тату-Салон',
+        ua: 'Тату-Салон',
+        en: 'Tattoo Shop',
+        de: 'Tattoo-Studio',
+        pl: 'Studio Tatuażu',
     },
 };
