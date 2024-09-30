@@ -626,5 +626,33 @@ export const cef = {
             pl: 'Wybierz język',
             zh: '选择语言',
         },
+        chatSettings: {
+            ru: 'Настройки чата',
+            ua: 'Налаштування чату',
+            en: 'Chat settings',
+            de: 'Chateinstellungen',
+            pl: 'Ustawienia czatu',
+        },
+        chatFontSize: {
+            ru: 'Размер шрифта в чате',
+            ua: 'Розмір шрифту в чаті',
+            en: 'Chat font size',
+            de: 'Schriftgröße im Chat',
+            pl: 'Rozmiar czcionki w czacie',
+        },
+        chatInactiveTime: {
+            ru: 'Время через которое будет исчезать чат (в секундах)',
+            ua: 'Час через який чат буде зникати (у секундах)',
+            en: 'Time after which the chat will disappear (in seconds)',
+            de: 'Zeit, nach der der Chat verschwindet (in Sekunden)',
+            pl: 'Czas po którym czat zniknie (w sekundach)',
+        },
+        chatShowTime: {
+            ru: 'Показывать время в чате',
+            ua: 'Показувати час у чаті',
+            en: 'Show time in chat',
+            de: 'Zeit im Chat anzeigen',
+            pl: 'Pokazywać czas w czacie',
+        },
     },
 };
