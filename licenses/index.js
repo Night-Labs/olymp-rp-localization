@@ -211,6 +211,13 @@ export default {
         pl: 'Wojskowa',
         zh: '军事',
     },
+    hunting: {
+        ru: 'На охоту',
+        ua: 'На полювання',
+        en: 'Hunting',
+        de: 'Jagen',
+        pl: 'Na polowanie',
+    },
 
     //
 
