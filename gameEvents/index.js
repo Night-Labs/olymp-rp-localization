@@ -1,5 +1,6 @@
-
-import drift from "./drift"
+import drift from './drift';
+import hud from './hud';
+import race from './race';
 
 export const gameEvents = {
     dm: {
@@ -9,7 +10,7 @@ export const gameEvents = {
             en: 'DM Zone',
             de: 'DM Zone',
             pl: 'Strefa DM',
-            zh:'DM区',
+            zh: 'DM区',
         },
 
         discord: {
@@ -18,7 +19,7 @@ export const gameEvents = {
             en: 'Playing in DM zone',
             de: 'Spielt im DM-Bereich',
             pl: 'Gra w strefie DM',
-           zh:'玩DM区域',
+            zh: '玩DM区域',
         },
 
         players: {
@@ -27,7 +28,7 @@ export const gameEvents = {
             en: 'Participants',
             de: 'Teilnehmer',
             pl: 'Uczestników',
-            zh:'参与者',
+            zh: '参与者',
         },
 
         enter: {
@@ -36,7 +37,7 @@ export const gameEvents = {
             en: 'Enter the DM Zone',
             de: 'Betritt die DM Zone',
             pl: 'Wejdź do strefy DM',
-            zh:'前往DM专区',
+            zh: '前往DM专区',
         },
 
         enterChatText: {
@@ -45,7 +46,7 @@ export const gameEvents = {
             en: 'You have entered the ~r~DM Zone!~w~ <br> Participants: ~o~{{players}} <br> ~w~You have been given: ~o~ temporary weapons and infinite ammo. <br> ~w~To exit, type ~o~/exit',
             de: 'Du bist in die ~r~DM Zone!~w~ eingetreten. <br> Teilnehmer: ~o~{{players}} <br> ~w~Du hast bekommen: ~o~ temporäre Waffen und unendliche Munition. <br> ~w~Um zu verlassen, gib ein ~o~/exit',
             pl: 'Wszedłeś do ~r~DM Zone!~w~ <br> Uczestników: ~o~{{players}} <br> ~w~Otrzymałeś: ~o~ tymczasową broń i nieskończoność amunicji. <br> ~w~Aby wyjść, wpisz ~o~/exit',
-           zh:'你已经进入~r~DM区了~w~<br>参与者：~o~{{玩家}<br>~w~您将获得：~o~临时武器和无尽的赞助人<要退出，请输入~o~/exit',
+            zh: '你已经进入~r~DM区了~w~<br>参与者：~o~{{玩家}<br>~w~您将获得：~o~临时武器和无尽的赞助人<要退出，请输入~o~/exit',
         },
 
         exitChatText: {
@@ -54,7 +55,7 @@ export const gameEvents = {
             en: 'You have exited the ~r~DM Zone!',
             de: 'Du hast die ~r~DM Zone! verlassen.',
             pl: 'Wyszedłeś z ~r~DM Zone!',
-            zh:'您已退出~r~DM区域！',
+            zh: '您已退出~r~DM区域！',
         },
 
         playerEntered: {
@@ -63,7 +64,7 @@ export const gameEvents = {
             en: 'Player {{playerName}} has joined',
             de: 'Spieler {{playerName}} hat sich angeschlossen',
             pl: 'Gracz {{playerName}} dołączył',
-           zh:'游戏{{playerName}}已加入',
+            zh: '游戏{{playerName}}已加入',
         },
         playerExited: {
             ru: 'Игрок {{playerName}} вышел',
@@ -71,7 +72,7 @@ export const gameEvents = {
             en: 'Player {{playerName}} has left',
             de: 'Spieler {{playerName}} hat verlassen',
             pl: 'Gracz {{playerName}} wyszedł',
-           zh:'游戏{{playerName}}已退出',
+            zh: '游戏{{playerName}}已退出',
         },
         playerExitFromGameZone: {
             ru: 'Вы вышли из игровой зоны DM и были исключены.',
@@ -79,7 +80,7 @@ export const gameEvents = {
             en: 'You have exited the DM game zone and were kicked out.',
             de: 'Sie haben die DM-Spielzone verlassen und wurden herausgeworfen.',
             pl: 'Wyszedłeś z strefy gry DM i zostałeś wyłączony.',
-            zh:'您已退出DM游戏区并被踢出。',
+            zh: '您已退出DM游戏区并被踢出。',
         },
         playerKill: {
             ru: '{{killer}} убил {{victim}}',
@@ -87,8 +88,10 @@ export const gameEvents = {
             en: '{{killer}} killed {{victim}}',
             de: '{{killer}} hat {{victim}} getötet',
             pl: '{{killer}} zabił {{victim}}',
-            zh:'凶手杀死了受害者',
-        }
+            zh: '凶手杀死了受害者',
+        },
     },
-    drift
-}
+    drift,
+    hud,
+    race,
+};
