@@ -8,11 +8,10 @@ export default {
         zh: '开心农场',
     },
     desc: {
-        ru: 'Скучно? Тогда предлагаю тебе немного сменить обстановку и отдохнуть на природе! Давай поедешь на ферму и проверишь свои силы в сборе урожая. Задача перед тобой: собрать 10 корзин яблок. Звучит просто, но вот быстро ли ты справишься? Дерзай и наслаждайся свежим воздухом!',
-        en: `Bored? Then I suggest you change the scenery a bit and relax in nature! Let's go to the farm and test your harvesting skills. Your task is to collect 10 baskets of apples. Sounds simple, but how quickly can you do it? Be bold and enjoy the fresh air!`,
-        ua: 'Запарився у місті? В такому випадку пропоную тобі виїхати на певний час за місто! Відправляйся на ферму в Палето Бей та перевір свої сили в зборі врожаю. Задача перед тобою: зібрати 10 кошиків яблук. Звучить просто, але як швидко впораєшся? Працюй та насолоджуйся свіжим повітрям.',
-        de: 'Langweilig? Dann schlage ich vor, die Umgebung etwas zu ändern und in der Natur zu entspannen! Lass uns auf den Bauernhof gehen und deine Erntefähigkeiten testen. Deine Aufgabe besteht darin, 10 Körbe Äpfel zu sammeln. Klingt einfach, aber wie schnell kannst du es schaffen? Sei mutig und genieße die frische Luft!',
-        pl: 'Nudzi ci się? W takim razie proponuję zmienić otoczenie i zrelaksować się na łonie natury! Chodź na farmę i przetestuj swoje umiejętności zbierania plonów. Twoim zadaniem jest zebranie 10 koszy jabłek. Brzmi prosto, ale jak szybko sobie poradzisz? Bądź odważny i ciesz się świeżym powietrzem!',
-        zh: '无聊?那么我建议你改变一下风景，在大自然中放松一下!我们去农场测试一下你的收割技能吧。你的任务是收集10篮子苹果。听起来很简单，但你能多快做到呢?大胆一点，享受新鲜空气吧!',
+        ru: 'Скучно? Тогда предлагаю тебе немного сменить обстановку и отдохнуть на природе! Давай поедешь на ферму и соберешь немного апельсинов а потом продаш их, заработаешь немного денег на дальнейшее развитие заодно выполнишь мою просьбу.',
+        ua: 'Нудно? Тоді пропоную трохи змінити обстановку і відпочити на природі! Давай поїдеш на ферму і збереш трохи апельсинів, а потім продаси їх, заробиш трохи грошей для подальшого розвитку і заодно виконаєш моє прохання.',
+        en: 'Bored? Then I suggest you change the scenery a bit and relax in nature! How about going to the farm, picking some oranges, then selling them, earning some money for further development, and at the same time fulfilling my request.',
+        de: 'Langweilig? Dann schlage ich vor, dass du die Umgebung ein wenig wechselst und dich in der Natur entspannst! Fahr doch auf den Bauernhof, pflücke ein paar Orangen, verkaufe sie und verdiene etwas Geld für die weitere Entwicklung, während du gleichzeitig meine Bitte erfüllst.',
+        pl: 'Nudzisz się? W takim razie proponuję trochę zmienić otoczenie i odpocząć na łonie natury! Jedź na farmę, zbierz trochę pomarańczy, a potem je sprzedaj, zarób trochę pieniędzy na dalszy rozwój i przy okazji spełnij moją prośbę.',
     },
 };

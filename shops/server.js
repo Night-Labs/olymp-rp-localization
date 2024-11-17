@@ -99,4 +99,11 @@ export const server = {
         pl: 'Brak licencji broni',
         zh: '没有武器许可证',
     },
+    noFreeChairs: {
+        ru: 'Нет свободных кресел',
+        ua: 'Немає вільних крісел',
+        en: 'No free chairs',
+        de: 'Keine freien Stühle',
+        pl: 'Brak wolnych krzeseł',
+    },
 };
