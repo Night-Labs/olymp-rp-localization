@@ -338,4 +338,37 @@ export const cef = {
         pl: 'Bez filtra',
         zh: '无过滤',
     },
+
+    capacity: {
+        ru: 'Вместимость',
+        ua: 'Місткість',
+        en: 'Capacity',
+        de: 'Kapazität',
+        pl: 'Pojemność',
+    },
+
+    slotsCount: {
+        ru: 'Слотов',
+        ua: 'Слотів',
+        en: 'Slots',
+        de: 'Slots',
+        pl: 'Slotów',
+    },
+
+    ammoClipSize: {
+        ru: 'Обойма',
+        ua: 'Обойма',
+        en: 'Clip Size',
+        de: 'Magazingröße',
+        pl: 'Pojemność magazynka',
+    },
+
+    kg: {
+        ua: ' кг.',
+        en: ' kg.',
+        ru: ' кг.',
+        de: ' kg.',
+        pl: ' kg.',
+        zh: 'kg',
+    },
 };

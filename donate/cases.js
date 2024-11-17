@@ -491,6 +491,46 @@ export const cases = {
                 zh: '有各种类型的汽车，从最实惠的价格到最豪华的功能，甚至可以满足最精致的品味和要求',
             },
         },
+
+        dailyCase: {
+            name: {
+                ru: 'Ежедневный кейс',
+                ua: 'Щоденний кейс',
+                en: 'Daily Case',
+                de: 'Täglicher Fall',
+                pl: 'Codzienna Skrzynka',
+            },
+            desc: {
+                ru: 'Этот кейс нельзя купить, но вы можете получать его каждый день абсолютно бесплатно просто играя на проекте!',
+                ua: 'Цей кейс неможливо придбати, але ви можете отримувати його кожного дня абсолютно безкоштовно, просто граючи на проєкті!',
+                en: 'This case cannot be bought, but you can receive it every day absolutely free just by playing on the project!',
+                de: 'Dieser Fall kann nicht gekauft werden, aber Sie können ihn jeden Tag völlig kostenlos erhalten, indem Sie einfach auf dem Projekt spielen!',
+                pl: 'Tego pudełka nie można kupić, ale możesz je otrzymać codziennie, zupełnie za darmo, po prostu grając na projekcie!',
+            },
+            leftToPlay: {
+                ru: 'Отыграть осталось',
+                ua: 'Залишилося відіграти',
+                en: 'Left to play',
+                de: 'Verbleibend zu spielen',
+                pl: 'Pozostało do zagrania',
+            },
+
+            receivedTitle: {
+                ru: 'Вы получили Ежедневный кейс!',
+                ua: 'Ви отримали Щоденний кейс!',
+                en: 'You received a Daily Case!',
+                de: 'Du hast eine tägliche Kiste erhalten!',
+                pl: 'Otrzymałeś codzienną skrzynię!',
+            },
+
+            receivedDesc: {
+                ru: 'Поздравляем! Вы отыграли необходимое количество времени и получили Ежедневный кейс, открыть его можно в Меню > Магазин > Склад',
+                ua: 'Вітаємо! Ви відіграли необхідну кількість часу та отримали Щоденний кейс, відкрити його можна в Меню > Магазин > Склад',
+                en: 'Congratulations! You have played the required amount of time and received a Daily Case, you can open it in Menu > Shop > Inventory',
+                de: 'Herzlichen Glückwunsch! Du hast die erforderliche Zeit gespielt und eine tägliche Kiste erhalten, diese kannst du im Menü > Shop > Inventar öffnen',
+                pl: 'Gratulacje! Rozegrałeś wymaganą ilość czasu i otrzymałeś codzienną skrzynię, możesz ją otworzyć w Menu > Sklep > Magazyn',
+            },
+        },
     },
 
     openingDesc: {

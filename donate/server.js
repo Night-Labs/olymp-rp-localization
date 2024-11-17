@@ -134,5 +134,13 @@ export const server = {
             pl: 'Otrzymano {{vehicle}}',
             zh: '收到｛｛车辆｝”中',
         },
+
+        donate: {
+            ru: 'Получено {{donate}} Olymp-Coins',
+            ua: 'Отримано {{donate}} Olymp-Coins',
+            en: 'Received {{donate}} Olymp-Coins',
+            de: '{{donate}} Olymp-Coins erhalten',
+            pl: 'Otrzymano {{donate}} Olymp-Coins',
+        },
     },
 };

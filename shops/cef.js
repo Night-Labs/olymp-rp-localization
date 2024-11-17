@@ -249,6 +249,14 @@ export const cef = {
                 pl: 'Akcesoria',
                 zh: '配件',
             },
+            backpack:{
+                ru: 'Рюкзаки',
+                ua: 'Рюкзаки',
+                en: 'Backpacks',
+                de: 'Rucksaecke',
+                pl: 'Plecaki',
+                zh: '背包',
+            }
         },
     },
     barber: {
