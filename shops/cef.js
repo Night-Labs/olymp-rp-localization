@@ -139,9 +139,17 @@ export const cef = {
     },
     browsOpacity: {
         ru: 'Яркость бровей',
+        ua: 'Яскравість брів',
+        en: 'Brows Opacity',
+        de: 'Augenbrauen Helligkeit',
+        pl: 'Jasność brwi',
     },
     makeupOpacity: {
         ru: 'Интенсивность макияжа',
+        ua: 'Інтенсивність макіяжу',
+        en: 'Makeup Intensity',
+        de: 'Make-up Intensität',
+        pl: 'Intensywność makijażu',
     },
     clothes: {
         name: {
@@ -249,6 +257,14 @@ export const cef = {
                 pl: 'Akcesoria',
                 zh: '配件',
             },
+            backpack:{
+                ru: 'Рюкзаки',
+                ua: 'Рюкзаки',
+                en: 'Backpacks',
+                de: 'Rucksaecke',
+                pl: 'Plecaki',
+                zh: '背包',
+            }
         },
     },
     barber: {

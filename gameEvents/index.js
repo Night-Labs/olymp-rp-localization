@@ -1,5 +1,6 @@
 import drift from './drift';
 import hud from './hud';
+import race from './race';
 
 export const gameEvents = {
     dm: {
@@ -92,4 +93,5 @@ export const gameEvents = {
     },
     drift,
     hud,
+    race,
 };

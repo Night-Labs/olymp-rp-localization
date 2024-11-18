@@ -41,4 +41,18 @@ export default {
         de: 'Sie sterben vor Durst!',
         pl: 'Umierasz z pragnienia!',
     },
+    youDontWannaEat: {
+        ru: 'Вы не хотите есть!',
+        ua: 'Ви не хочете їсти!',
+        en: "You don't want to eat!",
+        de: 'Sie möchten nicht essen!',
+        pl: 'Nie chcesz jeść!',
+    },
+    youDontWannaDrink: {
+        ru: 'Вы не хотите пить!',
+        ua: 'Ви не хочете пити!',
+        en: "You don't want to drink!",
+        de: 'Sie möchten nicht trinken!',
+        pl: 'Nie chcesz pić!',
+    },
 };

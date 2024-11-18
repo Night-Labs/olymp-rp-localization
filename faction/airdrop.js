@@ -43,4 +43,33 @@ export default {
         ge: '~r~[ADMIN] კაიო პერიკოზე დაიწყო საჰაერო ჩამოტვირთვა, დარწმუნდით, რომ არავინ არღვევს წესებს!',
         zh: '~r~[ADMN]佩里科岛已经开始空投，确保在空投过程中没有人违反规定！',
     },
+    //
+    plantInteraction: {
+        ru: 'Заложить взрывчатку',
+        ua: 'Закласти вибухівку',
+        en: 'Plant the explosive',
+        de: 'Sprengsatz platzieren',
+        pl: 'Podłożyć ładunek wybuchowy',
+    },
+    openInteraction: {
+        ru: 'Осмотреть ящик',
+        ua: 'Оглянути ящик',
+        en: 'Inspect the box',
+        de: 'Kiste inspizieren',
+        pl: 'Sprawdzić skrzynkę',
+    },
+    youPlantedBomb: {
+        ru: 'Вы заложили взрывчатку, ожидайте взрыва',
+        ua: 'Ви заклали вибухівку, чекайте вибуху',
+        en: 'You planted the explosive, wait for the detonation',
+        de: 'Sie haben den Sprengsatz platziert, warten Sie auf die Explosion',
+        pl: 'Podłożyłeś ładunek wybuchowy, czekaj na detonację',
+    },
+    youHaveNoBomb: {
+        ru: 'У вас нет C4',
+        ua: 'У вас немає C4',
+        en: "You don't have any C4",
+        de: 'Sie haben kein C4',
+        pl: 'Nie masz C4',
+    },
 };
