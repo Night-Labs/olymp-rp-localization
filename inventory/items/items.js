@@ -6,7 +6,7 @@ export const items = {
             en: 'First Aid Kit',
             de: 'Erste-Hilfe-Kasten',
             pl: 'Apteczka',
-           zh:'急救箱',
+            zh: '急救箱',
         },
         desc: {
             ru: 'Восстанавливает 75 процентов здоровья, при условии что здоровье ниже 25 процентов, также можно использовать для одноразовой реанимации людей',
@@ -14,7 +14,7 @@ export const items = {
             en: 'Restores 75 percent health if health is below 25 percent, can also be used for one-time revival of people',
             de: 'Stellt 75 Prozent der Gesundheit wieder her, wenn die Gesundheit unter 25 Prozent liegt, kann auch für einmalige Wiederbelebung von Personen verwendet werden',
             pl: 'Przywraca 75 procent zdrowia, jeśli zdrowie jest poniżej 25 procent, może być również używany do jednorazowej reanimacji ludzi',
-           zh:'它可以恢复75%的健康，前提是只有不到25%的健康也可以用于同时进行人体复苏',
+            zh: '它可以恢复75%的健康，前提是只有不到25%的健康也可以用于同时进行人体复苏',
         },
     },
     repairkit: {
@@ -24,7 +24,7 @@ export const items = {
             ru: 'Рем. комплект',
             de: 'Reparaturset',
             pl: 'Zestaw naprawczy',
-            zh:'维修工具包',
+            zh: '维修工具包',
         },
         desc: {
             ua: 'Комплект для ремонту',
@@ -32,7 +32,7 @@ export const items = {
             ru: 'Комплект для ремонта',
             de: 'Ein Set für Reparaturen',
             pl: 'Zestaw naprawczy',
-           zh:'一套维修',
+            zh: '一套维修',
         },
     },
     passport: {
@@ -42,7 +42,7 @@ export const items = {
             ru: 'Пасспорт',
             de: 'Reisepass',
             pl: 'Paszport',
-           zh:'护照',
+            zh: '护照',
         },
         desc: {
             ua: 'Документ для засвiдчення особи',
@@ -50,7 +50,7 @@ export const items = {
             ru: 'Документ для удостоверения личности',
             de: 'Dokument zur Identifikation',
             pl: 'Dokument tożsamości',
-             zh:'身份证明文件',
+            zh: '身份证明文件',
         },
     },
     petrolcan: {
@@ -60,7 +60,7 @@ export const items = {
             en: '20L Petrol Can',
             de: '20L Benzinkanister',
             pl: 'Kanister benzyny 20l.',
-            zh:'汽油容器20升',
+            zh: '汽油容器20升',
         },
         desc: {
             ru: 'Заправляет любой бензиновый автомобиль на 20л.',
@@ -68,7 +68,7 @@ export const items = {
             en: 'Refuels any petrol car with 20L.',
             de: 'Betankt jedes benzinbetriebene Auto mit 20L.',
             pl: 'Tankuje każdy samochód benzynowy na 20l.',
-           zh:'任何20升的汽油车加油',
+            zh: '任何20升的汽油车加油',
         },
     },
     powerStation: {
@@ -78,7 +78,7 @@ export const items = {
             en: '20kW Charging Station',
             de: '20kW Ladestation',
             pl: 'Stacja ładowania 20kW',
-           zh:'20kW充电站',
+            zh: '20kW充电站',
         },
         desc: {
             ru: 'Заряжает любой электро-мобиль на 20kW.',
@@ -86,7 +86,7 @@ export const items = {
             en: 'Charges any electric car with 20kW.',
             de: 'Lädt jedes Elektroauto mit 20kW.',
             pl: 'Ładuje każdy samochód elektryczny na 20kW.',
-            zh:'为任何20kW的电动汽车充电',
+            zh: '为任何20kW的电动汽车充电',
         },
     },
 
@@ -97,7 +97,7 @@ export const items = {
             ru: 'Рюкзак',
             de: 'Rucksack',
             pl: 'Plecak',
-            zh:'背包',
+            zh: '背包',
         },
         desc: {
             ua: 'Сумка для перенесення речей',
@@ -105,7 +105,7 @@ export const items = {
             ru: 'Сумка для переноски вещей',
             de: 'Tasche zum Tragen von Gegenständen',
             pl: 'Torebka do przenoszenia przedmiotów',
-           zh:'携带物品的袋子',
+            zh: '携带物品的袋子',
         },
     },
     simCard: {
@@ -115,7 +115,7 @@ export const items = {
             ru: 'Сим карта',
             de: 'SIM-Karte',
             pl: 'Karta SIM',
-           zh:'SIM卡',
+            zh: 'SIM卡',
         },
         desc: {
             ua: `Карта для мобільного зв'язку`,
@@ -123,7 +123,7 @@ export const items = {
             ru: 'Карта для мобильной связи',
             de: 'Karte für mobile Kommunikation',
             pl: 'Karta do komunikacji mobilnej',
-           zh:'手机卡',
+            zh: '手机卡',
         },
     },
     cigarettes: {
@@ -133,7 +133,7 @@ export const items = {
             ru: 'Сигареты',
             de: 'Zigaretten',
             pl: 'Papierosy',
-           zh:'香烟',
+            zh: '香烟',
         },
         desc: {
             ua: 'Тютюнові вироби для куріння',
@@ -141,7 +141,7 @@ export const items = {
             ru: 'Табачные изделия для курения',
             de: 'Tabakprodukte zum Rauchen',
             pl: 'Produkty tytoniowe do palenia',
-           zh:'吸烟烟草制品',
+            zh: '吸烟烟草制品',
         },
     },
     //
@@ -152,7 +152,7 @@ export const items = {
             en: '"RelieFix" Pills',
             de: '"RelieFix" Tabletten',
             pl: 'Tabletki "RelieFix"',
-             zh:'RelieFix片剂',
+            zh: 'RelieFix片剂',
         },
         desc: {
             ru: 'Восстанавливают 75 процентов здоровья, невзависимости от текущего здоровья',
@@ -160,7 +160,7 @@ export const items = {
             en: 'Restores 75 percent of health, regardless of current health',
             de: 'Stellt 75 Prozent der Gesundheit wieder her, unabhängig von der aktuellen Gesundheit',
             pl: 'Przywraca 75 procent zdrowia, niezależnie od obecnego stanu zdrowia',
-           zh:'无论他们目前的健康状况如何，他们都能恢复75%的健康',
+            zh: '无论他们目前的健康状况如何，他们都能恢复75%的健康',
         },
     },
     painaway_advanced: {
@@ -170,7 +170,7 @@ export const items = {
             en: '"PainAway Advanced" Pills',
             de: '"PainAway Advanced" Tabletten',
             pl: 'Tabletki "PainAway Advanced"',
-            zh:'PainAway高级片剂',
+            zh: 'PainAway高级片剂',
         },
         desc: {
             ru: 'Восстанавливают здоровье полностью.',
@@ -178,7 +178,7 @@ export const items = {
             en: 'Fully restores health.',
             de: 'Stellt die Gesundheit vollständig wieder her.',
             pl: 'Całkowicie przywraca zdrowie.',
-           zh:'完全恢复',
+            zh: '完全恢复',
         },
     },
 
@@ -189,7 +189,7 @@ export const items = {
             ru: 'Дефибриллятор "DefibroCharge"',
             de: 'Defibrillator "DefibroCharge"',
             pl: 'Defibrylator "DefibroCharge"',
-           zh:'除颤监护仪',
+            zh: '除颤监护仪',
         },
         desc: {
             ua: 'Життєво необхідний прилад для невідкладної реанімації, що повертає на межі життя та смерті',
@@ -197,7 +197,7 @@ export const items = {
             ru: 'Жизненно необходимое устройство для экстренной реанимации, возвращающее на грань жизни и смерти',
             de: 'Ein lebenswichtiges Reanimationsgerät, das Leben an der Schwelle zum Tod zurückholt',
             pl: 'Niezbędne urządzenie resuscytacyjne, które odzyskuje życie z granicy śmierci',
-           zh:'一种从死亡边缘夺走生命的重要复苏装置”',
+            zh: '一种从死亡边缘夺走生命的重要复苏装置”',
         },
     },
     materials: {
@@ -207,7 +207,7 @@ export const items = {
             en: 'Materials',
             de: 'Materialien',
             pl: 'Materiały',
-           zh:'材料',
+            zh: '材料',
         },
         desc: {
             ru: 'Используются для создания различных предметов в том числе оружия',
@@ -215,7 +215,7 @@ export const items = {
             en: 'Used to create various items including weapons',
             de: 'Wird zur Herstellung verschiedener Gegenstände einschließlich Waffen verwendet',
             pl: 'Używane do tworzenia różnych przedmiotów, w tym broni',
-            zh:'用于制造各种物品，包括武器',
+            zh: '用于制造各种物品，包括武器',
         },
     },
     medicalMaterials: {
@@ -225,7 +225,7 @@ export const items = {
             en: 'Medical materials',
             de: 'Medizinische Materialien',
             pl: 'Materiały medyczne',
-           zh:'医用材料',
+            zh: '医用材料',
         },
         desc: {
             ru: 'Используются для создания аптечек, и лекарств',
@@ -233,7 +233,7 @@ export const items = {
             en: 'Used to create first aid kits and medicines',
             de: 'Wird zur Herstellung von Erste-Hilfe-Kästen und Medikamenten verwendet',
             pl: 'Używane do tworzenia apteczek i leków',
-            zh:'用于制作急救箱和药品',
+            zh: '用于制作急救箱和药品',
         },
     },
     bloodBag: {
@@ -243,7 +243,7 @@ export const items = {
             en: 'Blood bag',
             de: 'Blutbeutel',
             pl: 'Torba z krwią',
-           zh:'血袋',
+            zh: '血袋',
         },
         desc: {
             ru: 'Отнеси к NPC в лабаратории для получения награды',
@@ -251,7 +251,7 @@ export const items = {
             en: 'Take it to the NPC in the laboratory to get a reward',
             de: 'Bringen Sie es zum NPC im Labor, um eine Belohnung zu erhalten',
             pl: 'Zanieś to do NPC w laboratorium, aby otrzymać nagrodę',
-           zh:'把它拿到实验室的NPC那里去拿奖励',
+            zh: '把它拿到实验室的NPC那里去拿奖励',
         },
     },
 
@@ -263,7 +263,7 @@ export const items = {
             en: 'Green Seeds',
             de: 'Green Samen',
             pl: 'Nasiona Green',
-           zh:'绿色',
+            zh: '绿色',
         },
         desc: {
             ru: 'Семена за которые могут посадить',
@@ -271,7 +271,7 @@ export const items = {
             en: 'Seeds that can be planted',
             de: 'Samen, die gepflanzt werden können',
             pl: 'Nasiona, które można posadzić',
-             zh:'可以播种的种子',
+            zh: '可以播种的种子',
         },
     },
     uprooted_bush: {
@@ -281,7 +281,7 @@ export const items = {
             en: 'Uprooted Green Bush',
             de: 'Ausgerissener Green Busch',
             pl: 'Wyrwany Krzak Green',
-            zh:'连根拔起的灌木丛',
+            zh: '连根拔起的灌木丛',
         },
         desc: {
             ru: 'Какой то нелегальный куст, почему же он нелегальный?',
@@ -289,7 +289,7 @@ export const items = {
             en: 'Some illegal bush, why is it illegal?',
             de: 'Ein illegaler Busch, warum ist er illegal?',
             pl: 'Jakiś nielegalny krzak, dlaczego jest nielegalny?',
-             zh:'一些非法的灌木丛，为什么是非法的？',
+            zh: '一些非法的灌木丛，为什么是非法的？',
         },
     },
     green_bag: {
@@ -299,7 +299,7 @@ export const items = {
             en: 'Green Bag',
             de: 'Green Beutel',
             pl: 'Woreczek Green',
-           zh:'绿色包装',
+            zh: '绿色包装',
         },
         desc: {
             ru: 'Полиэтиленовый прозрачный пакет с Green.',
@@ -307,7 +307,7 @@ export const items = {
             en: 'Transparent plastic bag with Green.',
             de: 'Transparenter Plastikbeutel mit Green.',
             pl: 'Przezroczysta plastikowa torebka z Green.',
-            zh:'绿色聚乙烯透明包装',
+            zh: '绿色聚乙烯透明包装',
         },
     },
     green_block: {
@@ -317,7 +317,7 @@ export const items = {
             en: 'Green Block',
             de: 'Green Block',
             pl: 'Blok Green',
-            zh:'绿色块',
+            zh: '绿色块',
         },
         desc: {
             ru: 'Плотно запакованный блок с Green.',
@@ -325,7 +325,7 @@ export const items = {
             en: 'A tightly packed block of Green.',
             de: 'Ein fest verpackter Block Green.',
             pl: 'Szczelnie zapakowany blok Green.',
-            zh:'刚刚挤满了格林街区',
+            zh: '刚刚挤满了格林街区',
         },
     },
     scotch_tape: {
@@ -335,7 +335,7 @@ export const items = {
             en: 'Scotch tape',
             de: 'Klebeband',
             pl: 'Taśma klejąca',
-            zh:'苏格兰威士忌',
+            zh: '苏格兰威士忌',
         },
         desc: {
             ru: 'Можно заклеить что угодно',
@@ -343,7 +343,7 @@ export const items = {
             en: 'Can be used to tape anything',
             de: 'Kann zum Verkleben von allem verwendet werden',
             pl: 'Można go użyć do zaklejenia wszystkiego',
-           zh:'你可以赌任何东西',
+            zh: '你可以赌任何东西',
         },
     },
 
@@ -354,7 +354,7 @@ export const items = {
             en: 'Polyethylene film',
             de: 'Polyethylenfolie',
             pl: 'Folia polietylenowa',
-           zh:'聚乙烯薄膜',
+            zh: '聚乙烯薄膜',
         },
         desc: {
             ru: 'Можно замотать что угодно',
@@ -362,7 +362,7 @@ export const items = {
             en: 'Can be used to wrap anything',
             de: 'Kann zum Einwickeln von allem verwendet werden',
             pl: 'Można go użyć do owinięcia wszystkiego',
-           zh:'可以用来包装任何东西',
+            zh: '可以用来包装任何东西',
         },
     },
     handcuffs: {
@@ -372,7 +372,7 @@ export const items = {
             en: 'Handcuffs',
             de: 'Handschellen',
             pl: 'Kajdanki',
-           zh:'手铐',
+            zh: '手铐',
         },
         desc: {
             ru: 'Используются гос. структурами для задержания преступников',
@@ -380,7 +380,71 @@ export const items = {
             en: 'Used by law enforcement to restrain criminals.',
             de: 'Verwendet von Strafverfolgungsbehörden, um Kriminelle festzuhalten.',
             pl: 'Używane przez organy ścigania do obezwładniania przestępców.',
-           zh:'执法部门用来逮捕罪犯',
+            zh: '执法部门用来逮捕罪犯',
+        },
+    },
+    C4: {
+        name: {
+            ru: 'C4',
+            ua: 'C4',
+            en: 'C4',
+            de: 'C4',
+            pl: 'C4',
+        },
+        desc: {
+            ru: 'C4 — это компактная пластичная взрывчатка, идеально подходящая для подрыва укреплённых целей, например, ящиков аирдропа. Она легко устанавливается на поверхность, активируется с дистанции или по таймеру, и с высокой эффективностью разрушает препятствия, обеспечивая доступ к содержимому.',
+            ua: 'C4 — це компактна пластична вибухівка, ідеально підходяща для підриву укріплених цілей, наприклад, ящиків аірдропу. Вона легко встановлюється на поверхню, активується дистанційно або за таймером, і з високою ефективністю руйнує перешкоди, забезпечуючи доступ до вмісту.',
+            en: 'C4 is a compact plastic explosive, ideal for demolishing fortified targets, such as airdrop crates. It easily attaches to surfaces, can be activated remotely or by timer, and efficiently destroys obstacles, granting access to the contents.',
+            de: 'C4 ist ein kompakter plastischer Sprengstoff, der sich ideal zum Zerstören befestigter Ziele eignet, wie z.B. Airdrop-Kisten. Es lässt sich leicht an Oberflächen anbringen, wird aus der Ferne oder per Timer aktiviert und zerstört effizient Hindernisse, um Zugang zum Inhalt zu gewähren.',
+            pl: 'C4 to kompaktowy materiał wybuchowy, idealny do niszczenia umocnionych celów, takich jak skrzynie zrzutu. Łatwo przylega do powierzchni, może być aktywowany zdalnie lub za pomocą timera i skutecznie niszczy przeszkody, zapewniając dostęp do zawartości.',
+        },
+    },
+    cloth: {
+        name: {
+            ru: 'Ткань',
+            ua: 'Тканина',
+            en: 'Cloth',
+            de: 'Stoff',
+            pl: 'Tkanina',
+        },
+        desc: {
+            ru: 'универсальный материал, необходимый для крафта различных предметов.',
+            ua: 'універсальний матеріал, необхідний для створення різних предметів.',
+            en: 'a versatile material necessary for crafting various items.',
+            de: 'ein vielseitiges Material, das für das Herstellen verschiedener Gegenstände benötigt wird.',
+            pl: 'uniwersalny materiał potrzebny do tworzenia różnych przedmiotów.',
+        },
+    },
+    chipset: {
+        name: {
+            ru: 'Набор микросхем',
+            ua: 'Набір мікросхем',
+            en: 'Chipset',
+            de: 'Chipsatz',
+            pl: 'Zestaw mikroprocesorów',
+        },
+        desc: {
+            ru: 'Редкие электронные компоненты, применяемые для крафта продвинутого оборудования и взрывчатки.',
+            ua: 'Рідкісні електронні компоненти, що застосовуються для створення передового обладнання та вибухівки.',
+            en: 'Rare electronic components used for crafting advanced equipment and explosives.',
+            de: 'Seltene elektronische Komponenten, die für die Herstellung fortschrittlicher Ausrüstung und Sprengstoffe verwendet werden.',
+            pl: 'Rzadkie komponenty elektroniczne wykorzystywane do tworzenia zaawansowanego sprzętu i materiałów wybuchowych.',
+        },
+    },
+    explosives: {
+        name: {
+            ru: 'Взрывчатка',
+            ua: 'Вибухівка',
+            en: 'Explosives',
+            de: 'Sprengstoff',
+            pl: 'Materiały wybuchowe',
+        },
+        desc: {
+            ru: 'Мощное вещество, необходимое для создания различных взрывных устройств, таких как С4.',
+            ua: 'Потужна речовина, необхідна для створення різних вибухових пристроїв, таких як C4.',
+            en: 'A powerful substance necessary for creating various explosive devices, such as C4.',
+            de: 'Eine kraftvolle Substanz, die zur Herstellung verschiedener Sprengvorrichtungen, wie z.B. C4, benötigt wird.',
+            pl: 'Potężna substancja potrzebna do tworzenia różnych urządzeń wybuchowych, takich jak C4.',
         },
     },
 };
