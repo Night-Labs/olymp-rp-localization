@@ -57,6 +57,7 @@ import referral from './referral';
 import buyer from './buyer/buyer';
 import { gasStation } from './gasStation/gasStation';
 import cayoPerico from './cayoPerico';
+import sellers from './sellers';
 
 export default {
     account,
@@ -118,4 +119,5 @@ export default {
     buyer,
     gasStation,
     cayoPerico,
+    sellers
 };
