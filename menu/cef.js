@@ -633,6 +633,27 @@ export const cef = {
             de: 'Chateinstellungen',
             pl: 'Ustawienia czatu',
         },
+        hudSettings: {
+            ru: 'Настройки HUD',
+            ua: 'Налаштування HUD',
+            en: 'HUD Settings',
+            de: 'HUD-Einstellungen',
+            pl: 'Ustawienia HUD',
+        },
+        showDailyCase: {
+            ru: 'Показывать время до получения ежедневного кейса',
+            ua: 'Показувати час до отримання щоденного кейсу',
+            en: 'Show time until daily case is available',
+            de: 'Zeit bis zur Verfügbarkeit des täglichen Falls anzeigen',
+            pl: 'Pokaż czas do otrzymania codziennej skrzynki',
+        },
+        showWeapon: {
+            ru: 'Показывать оружие',
+            ua: 'Показувати зброю',
+            en: 'Show weapon',
+            de: 'Waffe anzeigen',
+            pl: 'Pokaż broń',
+        },
         chatFontSize: {
             ru: 'Размер шрифта в чате',
             ua: 'Розмір шрифту в чаті',
