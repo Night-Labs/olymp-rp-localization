@@ -1,6 +1,6 @@
 export default {
     types: {
-        illegal: {
+        illegalSeller: {
             ru: 'Нелегальный торговец',
             ua: 'Нелегальний торговець',
             en: 'Illegal Trader',
