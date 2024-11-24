@@ -48,7 +48,7 @@ export const server = {
         en: "You can't plant there",
         de: 'Sie können dort nicht pflanzen',
         pl: 'Nie możesz tam sadzić',
-        zh: "你不能在这里种植",
+        zh: '你不能在这里种植',
     },
     thatSeedsNot: {
         ru: 'На этом поле можно садить только: {{seeds}}',
@@ -305,6 +305,13 @@ export const server = {
         de: 'Kehren Sie zum Traktor zurück, sonst geht der Fortschritt verloren',
         pl: 'Wróć do traktora, inaczej postęp zostanie utracony',
         zh: '返回拖拉机，否则进度将丢失',
+    },
+    returnAttachToTractor: {
+        ru: 'Прикрепите культиватор обратно иначе прогресс будет потерян',
+        ua: 'Прикріпіть культиватор назад, інакше прогрес буде втрачено',
+        en: 'Attach the cultivator back, or progress will be lost',
+        de: 'Befestigen Sie den Kultivator wieder, sonst geht der Fortschritt verloren',
+        pl: 'Przymocuj kultywator z powrotem, inaczej postęp zostanie utracony',
     },
 
     //
