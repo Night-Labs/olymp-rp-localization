@@ -223,12 +223,33 @@ export const server = {
 
     // Warns
     youGivedWarn: {
-        ru: 'Вы выдали предупреждеие {{name}}. Всего: {{count}}/3',
+        ru: 'Вы выдали предупреждение {{name}}. Всего: {{count}}/3',
+        ua: 'Ви видали попередження {{name}}. Всього: {{count}}/3',
+        en: 'You issued a warning to {{name}}. Total: {{count}}/3',
+        de: 'Sie haben {{name}} eine Warnung erteilt. Insgesamt: {{count}}/3',
+        pl: 'Wydałeś ostrzeżenie {{name}}. Razem: {{count}}/3',
     },
     youGotWarn: {
         ru: 'Вы получили предупреждение. Всего: {{count}}/3',
+        ua: 'Ви отримали попередження. Всього: {{count}}/3',
+        en: 'You received a warning. Total: {{count}}/3',
+        de: 'Sie haben eine Warnung erhalten. Insgesamt: {{count}}/3',
+        pl: 'Otrzymałeś ostrzeżenie. Razem: {{count}}/3',
     },
     youReachedMaxWarns: {
         ru: 'Вы достигли максимального количества предупреждений. И были забанены',
+        ua: 'Ви досягли максимальної кількості попереджень. І були заблоковані',
+        en: 'You have reached the maximum number of warnings and have been banned',
+        de: 'Sie haben die maximale Anzahl an Warnungen erreicht und wurden gesperrt',
+        pl: 'Osiągnąłeś maksymalną liczbę ostrzeżeń i zostałeś zbanowany',
+    },
+
+    //
+    anticheatWarning: {
+        ru: '~r~[OLYMP ADMIN] {{name}} слишком подозрительный, проверьте его немедленно! Причина: {{reason}}',
+        ua: '~r~[OLYMP ADMIN] {{name}} занадто підозрілий, перевірте його негайно! Причина: {{reason}}',
+        en: '~r~[OLYMP ADMIN] {{name}} is too suspicious, check them immediately! Reason: {{reason}}',
+        de: '~r~[OLYMP ADMIN] {{name}} ist zu verdächtig, überprüfen Sie ihn sofort! Grund: {{reason}}',
+        pl: '~r~[OLYMP ADMIN] {{name}} jest zbyt podejrzany, sprawdź go natychmiast! Powód: {{reason}}',
     },
 };
