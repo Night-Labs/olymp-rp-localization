@@ -5,7 +5,7 @@ export const vehicle = {
         en: 'Trunk',
         de: 'Kofferraum',
         pl: 'Bagażnik',
-        zh:'行李',
+        zh: '行李',
     },
 
     engine: {
@@ -14,7 +14,7 @@ export const vehicle = {
         en: 'Engine',
         de: 'Motor',
         pl: 'Silnik',
-         zh:'引擎',
+        zh: '引擎',
     },
 
     lock: {
@@ -23,7 +23,7 @@ export const vehicle = {
         en: 'Lock',
         de: 'Abschließen',
         pl: 'Zablokować',
-        zh:'锁定',
+        zh: '锁定',
     },
 
     unlock: {
@@ -32,7 +32,7 @@ export const vehicle = {
         en: 'Unlock',
         de: 'Aufschließen',
         pl: 'Odblokować',
-        zh:'解锁',
+        zh: '解锁',
     },
 
     'trunk-open': {
@@ -41,7 +41,7 @@ export const vehicle = {
         en: 'Open trunk for others',
         de: 'Kofferraum für andere öffnen',
         pl: 'Otwórz bagażnik dla innych',
-        zh:'为别人打开后备箱',
+        zh: '为别人打开后备箱',
     },
 
     'trunk-close': {
@@ -50,7 +50,7 @@ export const vehicle = {
         en: 'Close trunk for others',
         de: 'Kofferraum für andere schließen',
         pl: 'Zamknij bagażnik dla innych',
-        zh:'为他人关闭后备箱',
+        zh: '为他人关闭后备箱',
     },
 
     'kick-all': {
@@ -59,7 +59,7 @@ export const vehicle = {
         en: 'Kick out all',
         de: 'Alle rauswerfen',
         pl: 'Wyrzuć wszystkich',
-        zh:'把所有人都踢出去',
+        zh: '把所有人都踢出去',
     },
 
     refuel: {
@@ -69,7 +69,7 @@ export const vehicle = {
         de: 'Mit einem Kanister tanken',
         pl: 'Zatankować z kanistra',
         ge: 'გაავსე კანისტრიდან',
-       zh:'从罐中加油',
+        zh: '从罐中加油',
     },
     recharge: {
         ru: 'Зарядить зарядной станцией',
@@ -78,7 +78,7 @@ export const vehicle = {
         de: 'An einer Ladestation aufladen',
         pl: 'Naładować na stacji ładowania',
         ge: 'დატენეთ დამტენი სადგურით',
-        zh:'在充电站充电时',
+        zh: '在充电站充电时',
     },
 
     //
@@ -89,7 +89,7 @@ export const vehicle = {
         ua: 'Фракційне',
         de: 'Fraktion',
         pl: 'Frakcja',
-        zh:'功能性',
+        zh: '功能性',
     },
 
     putToVehicle: {
@@ -98,7 +98,7 @@ export const vehicle = {
         en: 'Put in vehicle',
         de: 'Ins Fahrzeug setzen',
         pl: 'Posadzić w samochodzie',
-       zh:'放进车里',
+        zh: '放进车里',
     },
     takeFromVehicle: {
         ru: 'Вытащить из машины',
@@ -106,7 +106,7 @@ export const vehicle = {
         en: 'Take out of vehicle',
         de: 'Aus dem Fahrzeug nehmen',
         pl: 'Wyciągnąć z samochodu',
-        zh:'下车',
+        zh: '下车',
     },
     checkVehicle: {
         ru: 'Проверить машину',
@@ -114,7 +114,7 @@ export const vehicle = {
         en: 'Check the car',
         de: 'Überprüfen Sie das Auto',
         pl: 'Sprawdź samochód',
-        zh:'检查一下车',
+        zh: '检查一下车',
     },
 
     'repair-car': {
@@ -123,7 +123,7 @@ export const vehicle = {
         en: 'Repair the car',
         de: 'Auto reparieren',
         pl: 'Naprawić samochód',
-        zh:'修理汽车',
+        zh: '修理汽车',
     },
 
     //
@@ -133,7 +133,7 @@ export const vehicle = {
         en: 'Sell to GOV.',
         de: 'An den STAAT verkaufen',
         pl: 'Sprzedaj do GOV.',
-        zh:'卖给政府',
+        zh: '卖给政府',
     },
 
     //
@@ -143,7 +143,7 @@ export const vehicle = {
         en: 'Drop anchor',
         de: 'Anker werfen',
         pl: 'Zrzucić kotwicę',
-         zh:'抛锚',
+        zh: '抛锚',
     },
     'up-anchor': {
         ru: 'Поднять якорь',
@@ -151,7 +151,7 @@ export const vehicle = {
         en: 'Raise anchor',
         de: 'Anker lichten',
         pl: 'Podnieść kotwicę',
-       zh:'起锚',
+        zh: '起锚',
     },
 
     notify: {
@@ -161,7 +161,7 @@ export const vehicle = {
             en: 'You opened the trunk, now other people can open it.',
             de: 'Sie haben den Kofferraum geöffnet, jetzt können andere Leute ihn öffnen.',
             pl: 'Otworzyłeś bagażnik, teraz inni ludzie mogą go otworzyć.',
-           zh:'你打开了后备箱，现在其他人可以打开了',
+            zh: '你打开了后备箱，现在其他人可以打开了',
         },
 
         trunkClose: {
@@ -170,7 +170,7 @@ export const vehicle = {
             en: 'You closed the trunk.',
             de: 'Sie haben den Kofferraum geschlossen.',
             pl: 'Zamknąłeś bagażnik.',
-            zh:'你关上了后备箱',
+            zh: '你关上了后备箱',
         },
     },
 
@@ -215,5 +215,28 @@ export const vehicle = {
         en: 'Hood',
         de: 'Motorhaube',
         pl: 'Maska',
+    },
+
+    //
+    carjacker: {
+        ru: 'Автоугонщик',
+        ua: 'Автокрадій',
+        en: 'Carjacker',
+        de: 'Autodieb',
+        pl: 'Złodziej samochodów',
+    },
+    brokeWindow: {
+        ru: 'Разбить окно',
+        ua: 'Розбити вікно',
+        en: 'Break the window',
+        de: 'Fenster einschlagen',
+        pl: 'Wybić okno',
+    },
+    startHacking: {
+        ru: 'Начать взлом',
+        ua: 'Почати злам',
+        en: 'Start hacking',
+        de: 'Hacken starten',
+        pl: 'Rozpocząć włamanie',
     },
 };
