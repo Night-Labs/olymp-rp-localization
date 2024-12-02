@@ -120,6 +120,6 @@ export default {
     buyer,
     gasStation,
     cayoPerico,
-    spawnSelector
+    spawnSelector,
     seller
 };
