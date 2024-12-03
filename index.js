@@ -57,6 +57,7 @@ import referral from './referral';
 import buyer from './buyer/buyer';
 import { gasStation } from './gasStation/gasStation';
 import cayoPerico from './cayoPerico';
+import spawnSelector from './spawnSelector';
 import seller from './seller';
 import party from './party';
 
@@ -121,5 +122,6 @@ export default {
     gasStation,
     cayoPerico,
     seller,
-    party
+    party,
+    spawnSelector,
 };
