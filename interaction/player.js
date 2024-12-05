@@ -5,7 +5,7 @@ export const player = {
         en: 'Get Acquainted',
         de: 'Sich kennenlernen',
         pl: 'Poznaj się',
-        zh:'见面',
+        zh: '见面',
     },
     giveMoney: {
         ru: 'Передать деньги',
@@ -13,7 +13,7 @@ export const player = {
         en: 'Give money',
         de: 'Geld geben',
         pl: 'Przekazać pieniądze',
-        zh:'转账',
+        zh: '转账',
     },
 
     robPlayer: {
@@ -22,7 +22,7 @@ export const player = {
         en: 'Rob',
         de: 'Rauben',
         pl: 'Ograbić',
-        zh:'抓',
+        zh: '抓',
     },
 
     takeLicenses: {
@@ -31,7 +31,7 @@ export const player = {
         en: 'Revoke Licenses',
         de: 'Lizenzen entziehen',
         pl: 'Odbierać licencje',
-        zh:'吊销许可证',
+        zh: '吊销许可证',
     },
 
     giveMoneyHeader: {
@@ -40,7 +40,7 @@ export const player = {
         en: 'Money Transfer',
         de: 'Geldüberweisung',
         pl: 'Przekazywanie pieniędzy',
-       zh:'转账',
+        zh: '转账',
     },
 
     youGaveMoney: {
@@ -49,7 +49,7 @@ export const player = {
         en: 'You gave {{value}}$ to {{name}}',
         de: 'Sie haben {{value}}$ an {{name}} überwiesen',
         pl: 'Przekazałeś {{value}}$ dla {{name}}',
-        zh:'你给了{{value}$给{{name}}',
+        zh: '你给了{{value}$给{{name}}',
     },
 
     youGotMoney: {
@@ -58,7 +58,7 @@ export const player = {
         en: 'You received {{value}}$ from {{name}}',
         de: 'Sie haben {{value}}$ von {{name}} erhalten',
         pl: 'Otrzymałeś {{value}}$ od {{name}}',
-        zh:'你从{{name}}得到了{{value}}$',
+        zh: '你从{{name}}得到了{{value}}$',
     },
 
     // Faction
@@ -68,7 +68,7 @@ export const player = {
         ua: 'Фракційне',
         de: 'Fraktion',
         pl: 'Frakcja',
-        zh:'功能性',
+        zh: '功能性',
     },
 
     inviteMember: {
@@ -77,7 +77,7 @@ export const player = {
         ua: 'Запросити гравця',
         de: 'Spieler einladen',
         pl: 'Zaprosić gracza',
-         zh:'邀请玩家',
+        zh: '邀请玩家',
     },
 
     kickMember: {
@@ -86,7 +86,7 @@ export const player = {
         ua: 'Вигнати гравця з фракції',
         de: 'Spieler aus der Fraktion werfen',
         pl: 'Wyrzucić gracza z frakcji',
-       zh:'将玩家踢出阵营',
+        zh: '将玩家踢出阵营',
     },
 
     // ems
@@ -97,7 +97,7 @@ export const player = {
         en: 'Resuscitate',
         de: 'Wiederbeleben',
         pl: 'Reanimować',
-        zh:'复活',
+        zh: '复活',
     },
     sellReliefix: {
         ru: 'Продать Reliefix',
@@ -105,7 +105,7 @@ export const player = {
         en: 'Sell Reliefix',
         de: 'Reliefix verkaufen',
         pl: 'Sprzedać Reliefix',
-       zh:'出售救济品',
+        zh: '出售救济品',
     },
     sellPainaway: {
         ru: 'Продать Painaway',
@@ -113,7 +113,7 @@ export const player = {
         en: 'Sell Painaway',
         de: 'Painaway verkaufen',
         pl: 'Sprzedać Painaway',
-        zh:'卖掉痛苦',
+        zh: '卖掉痛苦',
     },
 
     takeBlood: {
@@ -122,7 +122,7 @@ export const player = {
         en: 'Take blood',
         de: 'Blut nehmen',
         pl: 'Pobrać krew',
-        zh:'抽血',
+        zh: '抽血',
     },
     giveLicense: {
         ru: 'Выдать лицензию',
@@ -130,7 +130,7 @@ export const player = {
         en: 'Issue a license',
         de: 'Eine Lizenz ausstellen',
         pl: 'Wydaj licencję',
-        zh:'许可证已颁发',
+        zh: '许可证已颁发',
     },
 
     //
@@ -141,7 +141,7 @@ export const player = {
         en: 'Cuff',
         de: 'Handschellen anlegen',
         pl: 'Założyć kajdanki',
-        zh:'戴上手铐',
+        zh: '戴上手铐',
     },
     uncuff: {
         ru: 'Снять наручники',
@@ -149,7 +149,7 @@ export const player = {
         en: 'Uncuff',
         de: 'Handschellen abnehmen',
         pl: 'Zdjąć kajdanki',
-        zh:'解开手铐',
+        zh: '解开手铐',
     },
     follow: {
         ru: 'Вести за собой',
@@ -157,7 +157,7 @@ export const player = {
         en: 'Follow',
         de: 'Folgen',
         pl: 'Prowadzić',
-       zh:'跟我来',
+        zh: '跟我来',
     },
     unfollow: {
         ru: 'Перестать вести за собой',
@@ -165,7 +165,7 @@ export const player = {
         en: 'Unfollow',
         de: 'Nicht mehr folgen',
         pl: 'Przestać prowadzić',
-        zh:'别跟着我',
+        zh: '别跟着我',
     },
 
     //
@@ -175,7 +175,7 @@ export const player = {
         en: 'Make a snowball',
         de: 'Einen Schneeball machen',
         pl: 'Ulepić śnieżkę',
-         zh:'堆雪',
+        zh: '堆雪',
     },
 
     //
@@ -185,7 +185,7 @@ export const player = {
         en: 'View your passport',
         de: 'Eigenen Pass ansehen',
         pl: 'Zobacz swój paszport',
-       zh:'查看您的护照',
+        zh: '查看您的护照',
     },
     showPassport: {
         ru: 'Показать паспорт',
@@ -193,7 +193,7 @@ export const player = {
         en: 'Show passport',
         de: 'Pass zeigen',
         pl: 'Pokaż paszport',
-        zh:'出示护照',
+        zh: '出示护照',
     },
 
     // frisk
@@ -203,7 +203,7 @@ export const player = {
         en: 'Frisk',
         de: 'Abtasten',
         pl: 'Przeszukanie',
-        zh:'搜索',
+        zh: '搜索',
     },
 
     viewPassport: {
@@ -212,7 +212,7 @@ export const player = {
         en: 'View passport',
         de: 'Pass ansehen',
         pl: 'Zobacz paszport',
-       zh:'看看护照',
+        zh: '看看护照',
     },
 
     viewLicenses: {
@@ -221,7 +221,7 @@ export const player = {
         en: 'View licenses',
         de: 'Lizenzen ansehen',
         pl: 'Zobacz licencje',
-       zh:'查看许可证',
+        zh: '查看许可证',
     },
 
     showLicenses: {
@@ -230,7 +230,7 @@ export const player = {
         en: 'Show licenses',
         de: 'Lizenzen anzeigen',
         pl: 'Pokaż licencje',
-        zh:'出示许可证',
+        zh: '出示许可证',
     },
 
     dispatches: {
@@ -239,7 +239,7 @@ export const player = {
         en: 'Dispatches',
         de: 'Versand',
         pl: 'Wysyłki',
-       zh:'呼叫',
+        zh: '呼叫',
     },
 
     issueFine: {
@@ -248,7 +248,7 @@ export const player = {
         en: 'Issue Fine',
         de: 'Bußgeld verhängen',
         pl: 'Nakład grzywny',
-        zh:'写罚款',
+        zh: '写罚款',
     },
 
     reviveAidKit: {
@@ -257,7 +257,7 @@ export const player = {
         en: 'Revive with aid kit',
         de: 'Mit Verbandskasten wiederbeleben',
         pl: 'Reanimować zestawem pierwszej pomocy',
-        zh:'用急救箱恢复活力',
+        zh: '用急救箱恢复活力',
     },
 
     // trading
@@ -267,7 +267,7 @@ export const player = {
         en: 'Trading',
         de: 'Handel',
         pl: 'Handel',
-        zh:'贸易',
+        zh: '贸易',
     },
     sellVehicle: {
         ru: 'Продать Т/С',
@@ -275,7 +275,7 @@ export const player = {
         en: 'Sell Vehicle',
         de: 'Fahrzeug verkaufen',
         pl: 'Sprzedać pojazd',
-       zh:'车辆销售',
+        zh: '车辆销售',
     },
     sellHouse: {
         ru: 'Продать Дом',
@@ -283,7 +283,7 @@ export const player = {
         en: 'Sell House',
         de: 'Haus verkaufen',
         pl: 'Sprzedać dom',
-        zh:'卖掉房子',
+        zh: '卖掉房子',
     },
 
     // pairs animations
@@ -294,7 +294,7 @@ export const player = {
             en: 'Paired Animations',
             de: 'Paar-Animationen',
             pl: 'Animacje Par',
-            zh:'配对动画',
+            zh: '配对动画',
         },
         shoulder: {
             ru: 'Положить на плечо',
@@ -302,7 +302,7 @@ export const player = {
             en: 'Put on Shoulder',
             de: 'Auf die Schulter legen',
             pl: 'Położyć na ramię',
-           zh:'扛在肩上',
+            zh: '扛在肩上',
         },
         carry: {
             ru: 'Нести на руках',
@@ -310,7 +310,7 @@ export const player = {
             en: 'Carry in Arms',
             de: 'Auf den Armen tragen',
             pl: 'Nieść na rękach',
-           zh:'把它放在你的手上',
+            zh: '把它放在你的手上',
         },
         carryBehind: {
             ru: 'Нести на спине',
@@ -318,7 +318,7 @@ export const player = {
             en: 'Carry on Back',
             de: 'Auf dem Rücken tragen',
             pl: 'Nieść na plecach',
-           zh:'背上',
+            zh: '背上',
         },
         takeHostage: {
             ru: 'Взять в заложники',
@@ -326,7 +326,7 @@ export const player = {
             en: 'Take Hostage',
             de: 'Als Geisel nehmen',
             pl: 'Wziąć zakładnika',
-           zh:'劫持人质',
+            zh: '劫持人质',
         },
 
         embrace: {
@@ -335,7 +335,7 @@ export const player = {
             en: 'Embrace',
             de: 'Umarmen',
             pl: 'Objąć',
-           zh:'拥抱',
+            zh: '拥抱',
         },
         kiss: {
             ru: 'Поцеловать',
@@ -343,7 +343,7 @@ export const player = {
             en: 'Kiss',
             de: 'Küssen',
             pl: 'Pocałować',
-           zh:'吻',
+            zh: '吻',
         },
         five: {
             ru: 'Пять',
@@ -351,7 +351,7 @@ export const player = {
             en: 'Five',
             de: 'Fünf',
             pl: 'Pięć',
-           zh:'五个',
+            zh: '五个',
         },
         slap: {
             ru: 'Ударить по лицу',
@@ -359,7 +359,51 @@ export const player = {
             en: 'Slap',
             de: 'Schlagen ins Gesicht',
             pl: 'Uderzyć w twarz',
-           zh:'打脸',
+            zh: '打脸',
         },
+    },
+
+    // Party
+    party: {
+        ru: 'Пати',
+        ua: 'Паті',
+        en: 'Party',
+        de: 'Party',
+        pl: 'Impreza',
+    },
+    createParty: {
+        ru: 'Создать пати',
+        ua: 'Створити паті',
+        en: 'Create party',
+        de: 'Party erstellen',
+        pl: 'Utwórz imprezę',
+    },
+    disbandParty: {
+        ru: 'Распустить пати',
+        ua: 'Розпустити паті',
+        en: 'Disband party',
+        de: 'Party auflösen',
+        pl: 'Rozwiąż imprezę',
+    },
+    inviteToParty: {
+        ru: 'Пригласить в пати',
+        ua: 'Запросити в паті',
+        en: 'Invite to party',
+        de: 'Zur Party einladen',
+        pl: 'Zaproś na imprezę',
+    },
+    leaveParty: {
+        ru: 'Покинуть пати',
+        ua: 'Покинути паті',
+        en: 'Leave party',
+        de: 'Party verlassen',
+        pl: 'Opuść imprezę',
+    },
+    kickFromParty: {
+        ru: 'Выгнать из пати',
+        ua: 'Вигнати з паті',
+        en: 'Kick from party',
+        de: 'Aus der Party werfen',
+        pl: 'Wyrzuć z imprezy',
     },
 };

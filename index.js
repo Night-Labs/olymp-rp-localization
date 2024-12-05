@@ -59,6 +59,7 @@ import { gasStation } from './gasStation/gasStation';
 import cayoPerico from './cayoPerico';
 import spawnSelector from './spawnSelector';
 import seller from './seller';
+import party from './party';
 
 export default {
     account,
@@ -120,6 +121,7 @@ export default {
     buyer,
     gasStation,
     cayoPerico,
+    seller,
+    party,
     spawnSelector,
-    seller
 };
