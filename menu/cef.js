@@ -654,6 +654,20 @@ export const cef = {
             de: 'Waffe anzeigen',
             pl: 'Pokaż broń',
         },
+        showHints: {
+            ru: 'Показывать подсказки',
+            ua: 'Показувати підказки',
+            en: 'Show hints',
+            de: 'Hinweise anzeigen',
+            pl: 'Pokaż wskazówki',
+        },
+        customLogo: {
+            ru: 'Кастомный логотип',
+            ua: 'Кастомний логотип',
+            en: 'Custom logo',
+            de: 'Benutzerdefiniertes Logo',
+            pl: 'Niestandardowe logo',
+        },
         chatFontSize: {
             ru: 'Размер шрифта в чате',
             ua: 'Розмір шрифту в чаті',
