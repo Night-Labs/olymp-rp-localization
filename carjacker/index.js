@@ -55,12 +55,11 @@ export default {
         pl: 'Za kradzież samochodu przez wybicie szyby płacimy o połowę mniej, więc naucz się kraść samochód bez zostawiania śladów.',
     },
     carStolen: {
-        ru: 'Внимание! В вашем районе произошел угон автомобиля. Модель: {{model}}, номер: {{plate}}. Просьба усилить бдительность.',
-        ua: 'Увага! У вашому районі викрадено автомобіль. Модель: {{model}}, номер: {{plate}}. Будьте пильні.',
-        en: 'Attention! A car was stolen in your area. Model: {{model}}, plate: {{plate}}. Please be extra vigilant.',
-        de: 'Achtung! In Ihrem Gebiet wurde ein Auto gestohlen. Modell: {{model}}, Kennzeichen: {{plate}}. Bitte seien Sie besonders wachsam.',
-        pl: 'Uwaga! W twojej okolicy skradziono samochód. Model: {{model}}, numer: {{plate}}. Prosimy o zwiększenie czujności.',
-        zh: '注意!一辆车在你的区域被盗。型号:{{Model}}，车牌号:{{plate}}。请格外警惕',
+        ru: 'Внимание! Сообщено про угон автомобиля. Модель: {{model}}, номер: {{plate}}. Просьба усилить бдительность.',
+        ua: 'Увага! Повідомлено про викрадення автомобіля. Модель: {{model}}, номер: {{plate}}. Просимо бути пильними.',
+        en: 'Attention! A car theft has been reported. Model: {{model}}, plate: {{plate}}. Please stay alert.',
+        de: 'Achtung! Ein Autodiebstahl wurde gemeldet. Modell: {{model}}, Kennzeichen: {{plate}}. Bitte seien Sie wachsam.',
+        pl: 'Uwaga! Zgłoszono kradzież samochodu. Model: {{model}}, numer rejestracyjny: {{plate}}. Prosimy o czujność.',
     },
     messageForPoliceman: {
         ru: 'Отвезите угнаную машину в специальное место чтобы получить премию!',
