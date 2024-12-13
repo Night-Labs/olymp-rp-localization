@@ -151,6 +151,13 @@ export const cef = {
         de: 'Make-up Intensität',
         pl: 'Intensywność makijażu',
     },
+    blushOpacity: {
+        ru: 'Яркость румян',
+        ua: "Яскравість рум'ян",
+        en: 'Blush opacity',
+        de: 'Rouge-Deckkraft',
+        pl: 'Przezroczystość różu',
+    },
     clothes: {
         name: {
             ua: 'одягу',
@@ -257,14 +264,14 @@ export const cef = {
                 pl: 'Akcesoria',
                 zh: '配件',
             },
-            backpack:{
+            backpack: {
                 ru: 'Рюкзаки',
                 ua: 'Рюкзаки',
                 en: 'Backpacks',
                 de: 'Rucksaecke',
                 pl: 'Plecaki',
                 zh: '背包',
-            }
+            },
         },
     },
     barber: {
