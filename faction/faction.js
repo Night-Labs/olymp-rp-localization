@@ -10,6 +10,7 @@ import airdrop from './airdrop';
 import plants from './plants';
 import suply from './suply';
 import randomTruck from './randomTruck';
+import robbery from './robbery';
 
 export const faction = {
     factions,
@@ -22,6 +23,7 @@ export const faction = {
     suply,
     plants,
     randomTruck,
+    robbery,
     ...cef,
     ...server,
     leader: {
