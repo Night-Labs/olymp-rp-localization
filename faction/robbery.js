@@ -69,4 +69,20 @@ export default {
         de: 'Der Verkäufer hat sich aufgelehnt, der Überfall ist gescheitert!',
         pl: 'Sprzedawca zbuntował się, napad się nie powiódł!',
     },
+    timer: {
+        header: {
+            ru: 'Ограбление бизнеса',
+            ua: 'Пограбування бізнесу',
+            en: 'Business Robbery',
+            de: 'Geschäftsraub',
+            pl: 'Napad na biznes',
+        },
+        text: {
+            ru: 'Держите прицел на продавце и не отпускайте',
+            ua: 'Тримайте приціл на продавцеві і не відпускайте',
+            en: "Keep your aim on the seller and don't let go",
+            de: 'Halten Sie den Verkäufer im Visier und lassen Sie nicht los',
+            pl: 'Trzymaj celownik na sprzedawcy i nie puszczaj',
+        },
+    },
 };

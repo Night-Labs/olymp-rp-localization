@@ -21,6 +21,13 @@ export default {
             de: 'Kann ich eine Frage stellen?',
             pl: 'Czy mogę zadać pytanie?',
         },
+        moneyLaundering: {
+            ru: 'Отмыв денег',
+            ua: 'Відмивання грошей',
+            en: 'Money laundering',
+            de: 'Geldwäsche',
+            pl: 'Pranie pieniędzy',
+        },
         noWorkInterest: {
             ru: 'Неа',
             ua: 'Ні',
@@ -170,6 +177,29 @@ export default {
             en: 'Got it',
             de: 'Verstanden',
             pl: 'Zrozumiałem',
+        },
+
+        // Атмыв деньги
+        noMoneyForLaundry: {
+            ru: 'У тебя нет денег для отмыва, как будут возвращайся, буду рад с тобой сотрудничать',
+            ua: "У тебе немає грошей для відмивання, як з'являться — повертайся, буду радий співпраці",
+            en: "You don't have money for laundering, come back when you do, I'll be happy to work with you",
+            de: 'Du hast kein Geld für die Wäsche, komm zurück, wenn du welches hast, ich freue mich auf die Zusammenarbeit',
+            pl: 'Nie masz pieniędzy na pranie, wróć, gdy będziesz miał, z przyjemnością będę z tobą współpracować',
+        },
+        dirtyMoneyOffer: {
+            ru: 'У тебя есть ${{quantity}} грязных денег, после отмыва их ты получишь ${{sum}}, устраивает?',
+            ua: 'У тебе є ${{quantity}} брудних грошей, після їх відмивання ти отримаєш ${{sum}}, влаштовує?',
+            en: "You have ${{quantity}} dirty money, after laundering it you'll get ${{sum}}, does that work for you?",
+            de: 'Du hast ${{quantity}} schmutziges Geld, nach dem Waschen erhältst du ${{sum}}, passt das?',
+            pl: 'Masz ${{quantity}} brudnych pieniędzy, po ich wypraniu otrzymasz ${{sum}}, pasuje ci to?',
+        },
+        agreed: {
+            ru: 'Устраивает',
+            ua: 'Влаштовує',
+            en: 'Agreed',
+            de: 'Einverstanden',
+            pl: 'Zgoda',
         },
     },
     noFaction: {
