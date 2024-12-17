@@ -17,6 +17,14 @@ export const vehicle = {
         zh: '引擎',
     },
 
+    musicPlayer: {
+        ru: 'Плеер',
+        ua: 'Плеєр',
+        en: 'Player',
+        de: 'Player',
+        pl: 'Odtwarzacz',
+    },
+
     lock: {
         ru: 'Закрыть',
         ua: 'Закрити',

@@ -35,6 +35,14 @@ export default {
         zh: '价格',
     },
 
+    maxPrice: {
+        ru: 'Максимальная цена',
+        ua: 'Максимальна ціна',
+        en: 'Maximum price',
+        de: 'Höchstpreis',
+        pl: 'Maksymalna cena',
+    },
+
     limit: {
         ru: 'Лимит',
         ua: 'Ліміт',
@@ -78,7 +86,7 @@ export default {
         de: 'Alles verkaufen',
         pl: 'Sprzedaj wszystko',
     },
-    
+
     interaction: {
         ru: 'Открыть меню скупщика',
         ua: 'Відкрити меню скупника',

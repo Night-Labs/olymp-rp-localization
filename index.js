@@ -60,6 +60,7 @@ import cayoPerico from './cayoPerico';
 import spawnSelector from './spawnSelector';
 import seller from './seller';
 import party from './party';
+import musicPlayer from './musicPlayer';
 
 export default {
     account,
@@ -124,4 +125,5 @@ export default {
     seller,
     party,
     spawnSelector,
+    musicPlayer,
 };
