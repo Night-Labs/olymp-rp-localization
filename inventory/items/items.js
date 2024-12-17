@@ -447,4 +447,20 @@ export const items = {
             pl: 'Potężna substancja potrzebna do tworzenia różnych urządzeń wybuchowych, takich jak C4.',
         },
     },
+    dirty_money: {
+        name: {
+            ru: 'Грязные деньги',
+            ua: 'Брудні гроші',
+            en: 'Dirty Money',
+            de: 'Schmutziges Geld',
+            pl: 'Brudne pieniądze',
+        },
+        desc: {
+            ru: 'Деньги которые нельзя использовать пока не отмоешь их, обычно получают нелегальным путем',
+            ua: 'Гроші, які не можна використовувати, поки їх не відмиєш, зазвичай отримують незаконним шляхом',
+            en: 'Money that cannot be used until laundered, usually obtained illegally',
+            de: 'Geld, das nicht verwendet werden kann, bis es gewaschen wird, wird normalerweise illegal erworben',
+            pl: 'Pieniądze, których nie można używać, dopóki nie zostaną wyprane, zwykle zdobyte nielegalnie',
+        },
+    },
 };

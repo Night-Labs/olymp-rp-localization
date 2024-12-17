@@ -106,4 +106,13 @@ export const server = {
         de: 'Keine freien Stühle',
         pl: 'Brak wolnych krzeseł',
     },
+
+    //
+    closed: {
+        ru: 'Магазин сейчас не работает',
+        ua: 'Магазин зараз не працює',
+        en: 'The store is currently closed',
+        de: 'Der Laden ist derzeit geschlossen',
+        pl: 'Sklep jest obecnie zamknięty',
+    },
 };
