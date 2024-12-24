@@ -40,7 +40,6 @@ import offers from './offers';
 import { faction } from './faction/faction';
 import handling from './handling';
 import crash from './crash';
-import events from './events';
 import jail from './jail';
 import cityhall from './cityhall';
 import licenses from './licenses';
@@ -106,7 +105,6 @@ export default {
     offers,
     faction,
     crash,
-    events,
     jail,
     cityhall,
     licenses,
