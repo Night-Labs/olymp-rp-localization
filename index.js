@@ -126,6 +126,6 @@ export default {
     seller,
     party,
     spawnSelector,
-    xmas
+    xmas,
     musicPlayer,
 };
