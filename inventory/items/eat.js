@@ -189,12 +189,11 @@ export const food = {
             zh: '糖果',
         },
         desc: {
-            ua: 'Ви можете обміняти їх на подарунок у Санта-клауса',
-            ru: 'Вы можете обменять их на подарок у Санта-Клауса',
-            en: 'You can exchange them for a gift from Santa Claus',
-            de: 'Sie können sie gegen ein Geschenk von Santa Claus eintauschen',
-            pl: 'Możesz wymienić je na prezent od Świętego Mikołaja',
-            zh: '你可以把它们换成圣诞老人的礼物',
+            ru: 'Можно обменять у Санта Клауса на кейсы с которых ты можешь выбить новогоднюю одежду и другие подарки!',
+            ua: 'Можна обміняти у Санта-Клауса на кейси, з яких ти можеш отримати новорічний одяг та інші подарунки!',
+            en: 'Can be exchanged with Santa Claus for cases from which you can get Christmas clothes and other gifts!',
+            de: 'Kann beim Weihnachtsmann gegen Kisten eingetauscht werden, aus denen du Weihnachtskleidung und andere Geschenke erhalten kannst!',
+            pl: 'Można wymienić u Świętego Mikołaja na skrzynki, z których można zdobyć świąteczne ubrania i inne prezenty!',
         },
     },
     orange: {
