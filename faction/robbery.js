@@ -85,4 +85,7 @@ export default {
             pl: 'Trzymaj celownik na sprzedawcy i nie puszczaj',
         },
     },
+    lspdMessage: {
+        ru: 'Внимание! Началось ограбление магазина, он обозначен на карте!',
+    },
 };

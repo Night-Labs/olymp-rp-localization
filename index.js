@@ -40,7 +40,6 @@ import offers from './offers';
 import { faction } from './faction/faction';
 import handling from './handling';
 import crash from './crash';
-import events from './events';
 import jail from './jail';
 import cityhall from './cityhall';
 import licenses from './licenses';
@@ -60,6 +59,7 @@ import cayoPerico from './cayoPerico';
 import spawnSelector from './spawnSelector';
 import seller from './seller';
 import party from './party';
+import xmas from './xmas';
 import musicPlayer from './musicPlayer';
 
 export default {
@@ -105,7 +105,6 @@ export default {
     offers,
     faction,
     crash,
-    events,
     jail,
     cityhall,
     licenses,
@@ -125,5 +124,6 @@ export default {
     seller,
     party,
     spawnSelector,
+    xmas,
     musicPlayer,
 };
