@@ -531,6 +531,23 @@ export const cases = {
                 pl: 'Gratulacje! Rozegrałeś wymaganą ilość czasu i otrzymałeś codzienną skrzynię, możesz ją otworzyć w Menu > Sklep > Magazyn',
             },
         },
+
+        newYear: {
+            name: {
+                ru: 'Новогодний кейс',
+                ua: 'Новорічний кейс',
+                en: 'New Year Case',
+                de: 'Neujahrsfall',
+                pl: 'Noworoczna skrzynia',
+            },
+            desc: {
+                ru: 'Этот праздничный кейс нельзя купить, но вы можете собирать подарки разбросанные по всей карте и обменять их у санты на этот кейс! С Новым Годом!',
+                ua: 'Цей святковий кейс не можна купити, але ви можете збирати подарунки, розкидані по всій карті, і обміняти їх у Санти на цей кейс! З Новим Роком!',
+                en: 'This festive case cannot be purchased, but you can collect gifts scattered all over the map and exchange them with Santa for this case! Happy New Year!',
+                de: 'Dieser festliche Fall kann nicht gekauft werden, aber Sie können Geschenke sammeln, die über die gesamte Karte verstreut sind, und sie bei Santa gegen diesen Fall eintauschen! Frohes neues Jahr!',
+                pl: 'Tego świątecznego pudełka nie można kupić, ale możesz zbierać prezenty porozrzucane po całej mapie i wymienić je u Świętego Mikołaja na tę skrzynię! Szczęśliwego Nowego Roku!',
+            },
+        },
     },
 
     openingDesc: {
