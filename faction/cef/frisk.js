@@ -20,12 +20,19 @@ export default {
         de: 'Dokumente',
         pl: 'Dokumenty',
     },
+    confiscate_weapons: {
+        ru: 'Изъять оружие',
+        ua: 'Вилучити зброю',
+        en: 'Confiscate weapons',
+        de: 'Waffen beschlagnahmen',
+        pl: 'Skonfiskować broń',
+    },
     confiscate_items: {
         ru: 'Изъять вещи',
         ua: 'Вилучити речі',
         en: 'Confiscate items',
         de: 'Gegenstände beschlagnahmen',
-        pl: 'Skonfiskuj przedmioty',
+        pl: 'Skonfiskować rzeczy',
     },
     pcs: {
         ru: 'шт.',
