@@ -41,4 +41,12 @@ export default {
         de: 'Stk.',
         pl: 'szt.',
     },
+
+    nothing: {
+        ru: 'Не найдено ни одного подозрительного предмета.',
+        ua: 'Не знайдено жодного підозрілого предмета.',
+        en: 'No suspicious items found.',
+        de: 'Keine verdächtigen Gegenstände gefunden.',
+        pl: 'Nie znaleziono żadnych podejrzanych przedmiotów.',
+    },
 };
