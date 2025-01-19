@@ -11,6 +11,7 @@ import plants from './plants';
 import suply from './suply';
 import randomTruck from './randomTruck';
 import robbery from './robbery';
+import database from './database';
 
 export const faction = {
     factions,
@@ -24,6 +25,7 @@ export const faction = {
     plants,
     randomTruck,
     robbery,
+    database,
     ...cef,
     ...server,
     leader: {
