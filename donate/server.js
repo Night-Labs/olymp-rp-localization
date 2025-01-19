@@ -142,5 +142,14 @@ export const server = {
             de: '{{donate}} Olymp-Coins erhalten',
             pl: 'Otrzymano {{donate}} Olymp-Coins',
         },
+
+        // inventory item
+        item: {
+            ru: '{{item}} {{quantity}} шт. добавлен в ваш инвентарь',
+            ua: '{{item}} {{quantity}} шт. додано до вашого інвентарю',
+            en: '{{item}} {{quantity}} pcs. added to your inventory',
+            de: '{{item}} {{quantity}} Stk. in dein Inventar hinzugefügt',
+            pl: '{{item}} {{quantity}} szt. dodano do twojego ekwipunku',
+        },
     },
 };
