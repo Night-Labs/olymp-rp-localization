@@ -247,4 +247,27 @@ export default {
         de: 'Abbrechen',
         pl: 'Anuluj',
     },
+
+    //
+    vehicleName: {
+        ru: 'Модель',
+        ua: 'Модель',
+        en: 'Model',
+        de: 'Modell',
+        pl: 'Model',
+    },
+    vehicleOwner: {
+        ru: 'Владелец',
+        ua: 'Власник',
+        en: 'Owner',
+        de: 'Eigentümer',
+        pl: 'Właściciel',
+    },
+    vehiclePlate: {
+        ru: 'Гос. номер',
+        ua: 'Держ. номер',
+        en: 'License plate',
+        de: 'Kennzeichen',
+        pl: 'Tablica rejestracyjna',
+    },
 };
