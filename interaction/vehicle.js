@@ -264,4 +264,12 @@ export const vehicle = {
         de: 'Einsätze',
         pl: 'Wezwania',
     },
+
+    database: {
+        ru: 'База данных',
+        ua: 'База даних',
+        en: 'Database',
+        de: 'Datenbank',
+        pl: 'Baza danych',
+    },
 };

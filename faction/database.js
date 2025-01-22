@@ -270,4 +270,39 @@ export default {
         de: 'Kennzeichen',
         pl: 'Tablica rejestracyjna',
     },
+
+    //
+    caseTypes: {
+        wanted: {
+            ru: 'Розыск',
+            ua: 'Розшук',
+            en: 'Wanted',
+            de: 'Gesucht',
+            pl: 'Poszukiwany',
+        },
+        arrest: {
+            ru: 'Арест',
+            ua: 'Арешт',
+            en: 'Arrest',
+            de: 'Verhaftung',
+            pl: 'Aresztowanie',
+        },
+    },
+    //
+    noResults: {
+        ru: 'Пусто',
+        ua: 'Порожньо',
+        en: 'Empty',
+        de: 'Leer',
+        pl: 'Pusto',
+    },
+
+    //
+    youHaveNoRights: {
+        ru: 'У вас нет доступа к базе данных',
+        ua: 'У вас немає доступу до бази даних',
+        en: 'You have no access to the database',
+        de: 'Sie haben keinen Zugriff auf die Datenbank',
+        pl: 'Nie masz dostępu do bazy danych',
+    },
 };
