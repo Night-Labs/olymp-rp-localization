@@ -15,6 +15,14 @@ const inventory = {
         pl: 'Ekwipunek',
     },
 
+    cantUseInventory: {
+        ru: 'Сейчас вы не можете использовать инвентарь',
+        ua: 'Зараз ви не можете використовувати інвентар',
+        en: 'You cannot use the inventory right now',
+        de: 'Derzeit können Sie das Inventar nicht verwenden',
+        pl: 'Nie możesz teraz korzystać z inwentarza',
+    },
+    
     receiveItem: {
         ru: 'Получен предмет',
         ua: 'Отримано предмет',
