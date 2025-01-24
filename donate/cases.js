@@ -16,6 +16,14 @@ export const cases = {
         zh: '在这里，你可以打开各种奖品的箱子试试运气。你要么能以更低的价格买到更有价值的东西，要么最终会亏损。祝你好运',
     },
 
+    warning: {
+        ru: 'Внимание! При продаже призов из этого кейса их цена будет 0 Olymp-Coins',
+        ua: 'Увага! При продажу призів із цього кейса їхня ціна буде 0 Olymp-Coins',
+        en: 'Warning! When selling prizes from this case, their price will be 0 Olymp-Coins',
+        de: 'Achtung! Beim Verkauf von Preisen aus diesem Fall beträgt ihr Preis 0 Olymp-Coins',
+        pl: `Uwaga! Przy sprzedaży nagród z tego case'u ich cena wyniesie 0 Olymp-Coins`,
+    },
+
     notEnough: {
         ru: 'У вас нет этих кейсов.',
         ua: 'У вас немає таких кейсів.',
