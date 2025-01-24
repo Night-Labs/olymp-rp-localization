@@ -1,11 +1,13 @@
 import arrest from './arrest';
 import upgrades from './upgrades';
 import fine from './fine';
+import frisk from './frisk';
 
 export const cef = {
     arrest,
     upgrades,
     fine,
+    frisk,
 
     tabsName: {
         ru: 'Все доступные действия',

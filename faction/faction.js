@@ -11,6 +11,7 @@ import plants from './plants';
 import suply from './suply';
 import randomTruck from './randomTruck';
 import robbery from './robbery';
+import database from './database';
 
 export const faction = {
     factions,
@@ -24,6 +25,7 @@ export const faction = {
     plants,
     randomTruck,
     robbery,
+    database,
     ...cef,
     ...server,
     leader: {
@@ -89,5 +91,19 @@ export const faction = {
         en: 'The respawn process is already running',
         de: 'Der Respawn-Prozess läuft bereits',
         pl: 'Proces respawnu jest już uruchomiony',
+    },
+    confiscatedItems: {
+        ru: '{{name}} Провёл обыск и конфисковал нелегальные вещи у {{targetName}}',
+        ua: '{{name}} Провів обшук і конфіскував нелегальні речі у {{targetName}}',
+        en: '{{name}} conducted a search and confiscated illegal items from {{targetName}}',
+        de: '{{name}} führte eine Durchsuchung durch und beschlagnahmte illegale Gegenstände bei {{targetName}}',
+        pl: '{{name}} przeprowadził rewizję i skonfiskował nielegalne przedmioty od {{targetName}}',
+    },
+    confiscatedWeapons: {
+        ru: '{{name}} Провёл обыск и конфисковал всё оружие у {{targetName}}',
+        ua: '{{name}} Провів обшук і конфіскував всю зброю у {{targetName}}',
+        en: '{{name}} conducted a search and confiscated all weapons from {{targetName}}',
+        de: '{{name}} führte eine Durchsuchung durch und beschlagnahmte alle Waffen bei {{targetName}}',
+        pl: '{{name}} przeprowadził rewizję i skonfiskował całą broń od {{targetName}}',
     },
 };

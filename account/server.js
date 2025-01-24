@@ -7,7 +7,7 @@ export const server = {
         ru: 'Аккаунт не найден!',
         de: 'Konto nicht gefunden!',
         pl: 'Nie znaleziono konta!',
-       zh:'未找到账户！',
+        zh: '未找到账户！',
     },
     accountAlreadyLogged: {
         ua: 'Під вашим акаунтом хтось авторизований',
@@ -15,7 +15,7 @@ export const server = {
         ru: 'Под вашим аккаунтом кто-то авторизован',
         de: 'Jemand ist bereits in Ihrem Konto angemeldet',
         pl: 'Ktoś jest już zalogowany na twoim koncie',
-       zh:'账号已在别处登录',
+        zh: '账号已在别处登录',
     },
     invalidCredentials: {
         ua: 'Неправильні дані',
@@ -23,7 +23,7 @@ export const server = {
         ru: 'Неправильные данные',
         de: 'Ungültige Anmeldeinformationen',
         pl: 'Nieprawidłowe dane',
-       zh:'身份信息不匹配',
+        zh: '身份信息不匹配',
     },
     waitSpam: {
         ua: 'Зачекайте трохи',
@@ -31,7 +31,7 @@ export const server = {
         ru: 'Подождите немного',
         de: 'Warte ein bisschen',
         pl: 'Poczekaj chwilę',
-       zh:'请稍等',
+        zh: '请稍等',
     },
     registrationSuccess: {
         ua: 'Ви успішно створили аккаунт',
@@ -39,7 +39,7 @@ export const server = {
         ru: 'Вы успешно создали аккаунт',
         de: 'Sie haben erfolgreich ein Konto erstellt',
         pl: 'Pomyślnie utworzono konto',
-       zh:'账户创建成功',
+        zh: '账户创建成功',
     },
     accountCreationError: {
         ua: 'Сталася помилка, спробуйте ще раз',
@@ -47,7 +47,7 @@ export const server = {
         ru: 'Произошла ошибка, повторите попытку',
         de: 'Es ist ein Fehler aufgetreten, bitte versuchen Sie es erneut',
         pl: 'Wystąpił błąd, spróbuj ponownie',
-       zh:'错误，请重试',
+        zh: '错误，请重试',
     },
     accountAlreadyExists: {
         ua: 'Ви можете мати тільки один аккаунт',
@@ -55,7 +55,7 @@ export const server = {
         ru: 'Вы можете иметь только один аккаунт',
         de: 'Sie können nur ein Konto haben',
         pl: 'Możesz mieć tylko jedno konto',
-       zh:'一人最多只能拥有一个账户',
+        zh: '一人最多只能拥有一个账户',
     },
     loginEmailInUse: {
         ua: 'Логін або E-Mail вже використовуються. Спробуйте інші дані',
@@ -63,7 +63,7 @@ export const server = {
         ru: 'Логин или E-Mail уже используются. Попробуйте другие данные',
         de: 'Login oder E-Mail wird bereits verwendet. Versuchen Sie es mit anderen Daten',
         pl: 'Login lub E-Mail jest już używane. Spróbuj innych danych',
-       zh:'该邮箱已被占用',
+        zh: '该邮箱已被占用',
     },
     invalidRegistrationData: {
         ua: 'Неправильні дані при реєстрації',
@@ -71,7 +71,7 @@ export const server = {
         ru: 'Неправильные данные при регистрации',
         de: 'Ungültige Registrierungsdaten',
         pl: 'Nieprawidłowe dane rejestracji',
-       zh:'注册数据无效',
+        zh: '注册数据无效',
     },
     banned: {
         ru: 'Вы заблокированы на {{days}} дней по причине {{reason}}',
@@ -79,7 +79,7 @@ export const server = {
         ua: 'Ви заблоковані на {{days}} днів по причині {{reason}}',
         de: 'Du wurdest gesperrt wegen {{reason}}',
         pl: 'Zostałeś zablokowany z powodu {{reason}}',
-       zh:'您已被封禁{{days}}封禁原因{{reason}}',
+        zh: '您已被封禁{{days}}封禁原因{{reason}}',
     },
     invalidCode: {
         ru: 'Код восстановления не найден',
@@ -87,7 +87,7 @@ export const server = {
         en: 'Recovery code not found',
         de: 'Wiederherstellungscode nicht gefunden',
         pl: 'Kod odzyskiwania nie znaleziony',
-       zh:'未找到恢复代码',
+        zh: '未找到恢复代码',
     },
     codeExpired: {
         ru: 'Время действия кода истекло',
@@ -95,7 +95,7 @@ export const server = {
         en: 'Code has expired',
         de: 'Code ist abgelaufen',
         pl: 'Kod wygasł',
-       zh:'代码已过期',
+        zh: '代码已过期',
     },
     passwordChanged: {
         ru: 'Вы успешно изменили пароль',
@@ -103,7 +103,14 @@ export const server = {
         en: 'You have successfully changed your password',
         de: 'Sie haben Ihr Passwort erfolgreich geändert',
         pl: 'Pomyślnie zmieniłeś hasło',
-       zh:'密码修改成功',
+        zh: '密码修改成功',
+    },
+    resetData: {
+        ru: 'Сохраненные данные были сброшены в целях безопасности',
+        ua: 'Збережені дані були скинуті з міркувань безпеки',
+        en: 'Saved data has been reset for security reasons',
+        de: 'Gespeicherte Daten wurden aus Sicherheitsgründen zurückgesetzt',
+        pl: 'Zapisane dane zostały zresetowane ze względów bezpieczeństwa',
     },
     html: {
         recovery,

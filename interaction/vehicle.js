@@ -91,6 +91,14 @@ export const vehicle = {
 
     //
 
+    frisk: {
+        ru: 'Обыск автомобиля',
+        ua: 'Огляд автомобіля',
+        en: 'Car frisk',
+        de: 'Durchsuchung des Fahrzeugs',
+        pl: 'Przeszukanie samochodu',
+    },
+
     faction: {
         ru: 'Фракционное',
         en: 'Faction',
@@ -246,5 +254,22 @@ export const vehicle = {
         en: 'Start hacking',
         de: 'Hacken starten',
         pl: 'Rozpocząć włamanie',
+    },
+
+    // dispatches
+    dispatches: {
+        ru: 'Вызовы',
+        ua: 'Виклики',
+        en: 'Dispatches',
+        de: 'Einsätze',
+        pl: 'Wezwania',
+    },
+
+    database: {
+        ru: 'База данных',
+        ua: 'База даних',
+        en: 'Database',
+        de: 'Datenbank',
+        pl: 'Baza danych',
     },
 };
