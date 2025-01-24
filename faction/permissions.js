@@ -157,4 +157,11 @@ export default {
         de: 'Zugriff auf die Datenbank',
         pl: 'Dostęp do bazy danych',
     },
+    giveWarns: {
+        ru: 'Выдавать выговоры',
+        ua: 'Видавати догани',
+        en: 'Give reprimands',
+        de: 'Verweise erteilen',
+        pl: 'Wystawiać nagany',
+    },
 };

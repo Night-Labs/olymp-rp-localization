@@ -350,6 +350,14 @@ export const cef = {
         zh: '范围',
     },
 
+    warns: {
+        ru: 'Выговор',
+        ua: 'Догана',
+        en: 'Reprimand',
+        de: 'Verweis',
+        pl: 'Nagana',
+    },
+
     dateOfEntry: {
         ru: 'Дата вступления',
         en: 'Date of Entry',
@@ -411,6 +419,14 @@ export const cef = {
         de: 'Rauswerfen',
         pl: 'Wyrzucić',
         zh: '被开除',
+    },
+
+    giveWarn: {
+        ru: 'Дать выговор',
+        ua: 'Дати догану',
+        en: 'Give a reprimand',
+        de: 'Einen Verweis erteilen',
+        pl: 'Udzielić nagany',
     },
 
     title: {
