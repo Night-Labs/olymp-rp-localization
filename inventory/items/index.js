@@ -5,6 +5,7 @@ import { items as itemsList } from './items';
 import { weapons } from './weapons';
 import hunting from './hunting';
 import farm from './farm';
+import drugs from './drugs';
 
 export const items = {
     ...food,
@@ -14,4 +15,5 @@ export const items = {
     ...hunting,
     ...fishing,
     ...farm,
+    ...drugs
 };
