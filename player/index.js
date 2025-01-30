@@ -3,6 +3,7 @@ import payday from './payday';
 import aidkit from './aidkit';
 import cooldowns from './cooldowns';
 import vitals from './vitals';
+import disease from './disease';
 
 export default {
     congratulations: {
@@ -33,5 +34,6 @@ export default {
     payday,
     aidkit,
     cooldowns,
-    vitals
+    vitals,
+    disease,
 };
