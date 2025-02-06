@@ -109,8 +109,8 @@ export const cases = {
         ru: 'У вас {{quantity}} шт.',
         ua: 'У вас {{quantity}} шт.',
         en: 'You have {{quantity}} pcs.',
-        de: 'Sie haben {{quantity} Stk.',
-        pl: 'Masz {{quantity} szt.',
+        de: 'Sie haben {{quantity}} Stk.',
+        pl: 'Masz {{quantity}} szt.',
         zh: '你有的盒子数量',
     },
 
