@@ -5,7 +5,7 @@ export const npc = {
         en: 'Freddy',
         de: 'Freddy',
         pl: 'Freddy',
-        zh:'弗莱迪',
+        zh: '弗莱迪',
     },
     james: {
         ru: 'Джеймс',
@@ -13,7 +13,7 @@ export const npc = {
         en: 'James',
         de: 'James',
         pl: 'James',
-        zh:'詹姆斯',
+        zh: '詹姆斯',
     },
     robert: {
         ru: 'Роберт',
@@ -21,7 +21,7 @@ export const npc = {
         en: 'Robert',
         de: 'Robert',
         pl: 'Robert',
-        zh:'罗伯特',
+        zh: '罗伯特',
     },
     michael: {
         ru: 'Майкл',
@@ -29,7 +29,7 @@ export const npc = {
         en: 'Michael',
         de: 'Michael',
         pl: 'Michael',
-        zh:'迈克尔',
+        zh: '迈克尔',
     },
     david: {
         ru: 'Дэвид',
@@ -37,7 +37,7 @@ export const npc = {
         en: 'David',
         de: 'David',
         pl: 'David',
-        zh:'戴维',
+        zh: '戴维',
     },
     william: {
         ru: 'Уильям',
@@ -45,7 +45,7 @@ export const npc = {
         en: 'William',
         de: 'William',
         pl: 'William',
-        zh:'威廉',
+        zh: '威廉',
     },
     john: {
         ru: 'Джон',
@@ -53,7 +53,7 @@ export const npc = {
         en: 'John',
         de: 'John',
         pl: 'John',
-        zh:'约翰',
+        zh: '约翰',
     },
     brian: {
         ru: 'Брайан',
@@ -61,7 +61,7 @@ export const npc = {
         en: 'Brian',
         de: 'Brian',
         pl: 'Brian',
-        zh:'布莱恩',
+        zh: '布莱恩',
     },
     matthew: {
         ru: 'Мэттью',
@@ -69,7 +69,7 @@ export const npc = {
         en: 'Matthew',
         de: 'Matthew',
         pl: 'Mateusz',
-        zh:'马修',
+        zh: '马修',
     },
     joseph: {
         ru: 'Джозеф',
@@ -77,7 +77,7 @@ export const npc = {
         en: 'Joseph',
         de: 'Joseph',
         pl: 'Józef',
-        zh:'乔瑟夫',
+        zh: '乔瑟夫',
     },
     richard: {
         ru: 'Ричард',
@@ -85,7 +85,7 @@ export const npc = {
         en: 'Richard',
         de: 'Richard',
         pl: 'Ryszard',
-        zh:'理查德',
+        zh: '理查德',
     },
     daniel: {
         ru: 'Дэниел',
@@ -93,7 +93,7 @@ export const npc = {
         en: 'Daniel',
         de: 'Daniel',
         pl: 'Daniel',
-        zh:'丹尼尔',
+        zh: '丹尼尔',
     },
     paul: {
         ru: 'Пол',
@@ -101,7 +101,7 @@ export const npc = {
         en: 'Paul',
         de: 'Paul',
         pl: 'Paweł',
-        zh:'保罗',
+        zh: '保罗',
     },
     mark: {
         ru: 'Марк',
@@ -109,7 +109,7 @@ export const npc = {
         en: 'Mark',
         de: 'Mark',
         pl: 'Marek',
-         zh:'马克',
+        zh: '马克',
     },
     anthony: {
         ru: 'Энтони',
@@ -117,7 +117,7 @@ export const npc = {
         en: 'Anthony',
         de: 'Anton',
         pl: 'Antoni',
-        zh:'安东尼',
+        zh: '安东尼',
     },
     'santa-claus': {
         ru: 'Санта-Клаус',
@@ -125,7 +125,7 @@ export const npc = {
         en: 'Santa-Claus',
         de: 'Santa-Claus',
         pl: 'Santa-Claus',
-        zh:'圣诞老人',
+        zh: '圣诞老人',
     },
     mary: {
         en: 'Mary',
@@ -133,7 +133,7 @@ export const npc = {
         ua: 'Мерi',
         de: 'Maria',
         pl: 'Maria',
-        zh:'玛丽',
+        zh: '玛丽',
     },
     emily: {
         en: 'Emily',
@@ -141,7 +141,7 @@ export const npc = {
         ua: 'Емiлi',
         de: 'Emily',
         pl: 'Emilia',
-        zh:'艾米莉',
+        zh: '艾米莉',
     },
     rider: {
         ru: 'Райдер',
@@ -149,7 +149,7 @@ export const npc = {
         en: 'Ryder',
         de: 'Reiter',
         pl: 'Jeździec',
-        zh:'莱德',
+        zh: '莱德',
     },
     joe: {
         ru: 'Джо',
@@ -157,7 +157,7 @@ export const npc = {
         en: 'Joe',
         de: 'Joe',
         pl: 'Joe',
-        zh:'乔',
+        zh: '乔',
     },
     natalia: {
         ru: 'Наталья',
@@ -165,7 +165,7 @@ export const npc = {
         en: 'Natalia',
         de: 'Natalia',
         pl: 'Natalia',
-        zh:'纳塔莉亚',
+        zh: '纳塔莉亚',
     },
     lisa: {
         ru: 'Лиза',
@@ -173,6 +173,13 @@ export const npc = {
         en: 'Lisa',
         de: 'Lisa',
         pl: 'Lisa',
-        zh:'莉莎',
+        zh: '莉莎',
+    },
+    slivnoyVitalya: {
+        ru: 'Сливной Виталя',
+        ua: 'Зливний Віталя',
+        en: 'Drain Vitalya',
+        de: 'Abfluss Vitalya',
+        pl: 'Odpływ Vitalya',
     },
 };

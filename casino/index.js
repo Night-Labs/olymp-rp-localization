@@ -2,12 +2,14 @@ import { cashier } from './cashier';
 import { luckyWheel } from './games/luckyWheel';
 import { roulette } from './games/roulette';
 import { slots } from './games/slots';
+import homeless from './homeless';
 
 export default {
     cashier,
     luckyWheel,
     roulette,
     slots,
+    homeless,
 
     balance: {
         ru: 'Баланс:',
