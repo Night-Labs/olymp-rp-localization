@@ -132,7 +132,30 @@ export default {
         pl: 'Możesz dodać do ulubionych nie więcej niż {{maxFavorites}} utworów',
     },
 
+    remove: {
+        ru: 'Убрать',
+        ua: 'Прибрати',
+        en: 'Remove',
+        de: 'Entfernen',
+        pl: 'Usuń',
+    },
+
     public: {
+        allowButton: {
+            ru: 'Разрешить',
+            ua: 'Дозволити',
+            en: 'Allow',
+            de: 'Erlauben',
+            pl: 'Zezwolić',
+        },
+        denyButton: {
+            ru: 'Запретить',
+            ua: 'Заборонити',
+            en: 'Deny',
+            de: 'Verweigern',
+            pl: 'Odmówić',
+        },
+
         allow: {
             ru: 'Доступ другим игрокам к плееру разрешён',
             ua: 'Доступ іншим гравцям до плеєра дозволено',
@@ -155,5 +178,13 @@ export default {
         en: 'You have been disconnected, access to the player is restricted.',
         de: 'Sie wurden getrennt, der Zugriff auf den Player ist eingeschränkt.',
         pl: 'Zostałeś rozłączony, dostęp do odtwarzacza jest ograniczony.',
+    },
+
+    musicPlayerTooClose: {
+        ru: 'Плеер с id: {{id}} находится слишком близко',
+        ua: 'Плеєр з id: {{id}} знаходиться занадто близько',
+        en: 'The player with id: {{id}} is too close',
+        de: 'Der Player mit der ID: {{id}} ist zu nah',
+        pl: 'Odtwarzacz z id: {{id}} jest za blisko',
     },
 };
