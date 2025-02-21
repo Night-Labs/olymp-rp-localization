@@ -397,6 +397,10 @@ export const items = {
 
         desc: {
             ru: 'Громкий качественный бумбокс, хорошо подходит для тусовок в кругу друзей',
+            ua: 'Гучний якісний бумбокс, добре підходить для тусовок у колі друзів',
+            en: 'A loud, high-quality boombox, perfect for parties with friends',
+            de: 'Ein lauter, hochwertiger Boombox, ideal für Partys mit Freunden',
+            pl: 'Głośny, wysokiej jakości boombox, idealny na imprezy w gronie przyjaciół',
         },
     },
 };
