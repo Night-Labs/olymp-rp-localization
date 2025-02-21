@@ -689,5 +689,21 @@ export const cef = {
             de: 'Zeit im Chat anzeigen',
             pl: 'Pokazywać czas w czacie',
         },
+
+        gameSettings: {
+            ru: 'Настройки игры',
+            ua: 'Налаштування гри',
+            en: 'Game Settings',
+            de: 'Spieleinstellungen',
+            pl: 'Ustawienia gry',
+        },
+
+        disableMusicPlayer: {
+            ru: 'Отключить звук музыкальных плееров',
+            ua: 'Вимкнути звук музичних плеєрів',
+            en: 'Disable sound of music players',
+            de: 'Ton von Musikplayern deaktivieren',
+            pl: 'Wyłącz dźwięk odtwarzaczy muzyki',
+        },
     },
 };
