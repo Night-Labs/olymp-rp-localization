@@ -157,4 +157,11 @@ export const faction = {
             pl: 'Anuluj',
         },
     },
+    yourRankDeletedNotifyToPlayer: {
+        ru: 'Ваш ранг {{name}} был удален, вам был присвоен ранг {{newRankName}}',
+        ua: 'Ваш ранг {{name}} було видалено, вам було присвоєно ранг {{newRankName}}',
+        en: 'Your rank {{name}} has been deleted, you have been assigned the rank {{newRankName}}',
+        de: 'Ihr Rang {{name}} wurde gelöscht, Ihnen wurde der Rang {{newRankName}} zugewiesen',
+        pl: 'Twój rang {{name}} został usunięty, przydzielono ci rangę {{newRankName}}',
+    },
 };

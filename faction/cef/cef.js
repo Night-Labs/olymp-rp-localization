@@ -608,4 +608,12 @@ export const cef = {
         de: 'Rang erstellen',
         pl: 'Utwórz rangę',
     },
+
+    deleteRankButton: {
+        ru: 'Удалить ранг',
+        ua: 'Видалити ранг',
+        en: 'Delete rank',
+        de: 'Rang löschen',
+        pl: 'Usuń rangę',
+    },
 };
