@@ -122,4 +122,54 @@ export default {
             pl: 'Torebka z niebieskimi kryształkami: zmniejsza otrzymywane obrażenia o 35% i zwiększa twoje obrażenia o 7% przez całe 45 sekund!',
         },
     },
+
+    //
+    coca_leaves: {
+        name: {
+            ru: 'Листья коки',
+            ua: 'Листя коки',
+            en: 'Coca leaves',
+            de: 'Kokablätter',
+            pl: 'Liście koki',
+        },
+        desc: {
+            ru: 'Могут пригодиться для крафта чего-то нелегального...',
+            ua: 'Можуть стати в пригоді для крафту чогось нелегального...',
+            en: 'Might be useful for crafting something illegal...',
+            de: 'Könnten nützlich sein, um etwas Illegales herzustellen...',
+            pl: 'Mogą przydać się do tworzenia czegoś nielegalnego...',
+        },
+    },
+    chemical_reagents: {
+        name: {
+            ru: 'Химические реагенты',
+            ua: 'Хімічні реагенти',
+            en: 'Chemical reagents',
+            de: 'Chemische Reagenzien',
+            pl: 'Odczynniki chemiczne',
+        },
+        desc: {
+            ru: 'Могут пригодиться для крафта чего-то нелегального...',
+            ua: 'Можуть стати в пригоді для крафту чогось нелегального...',
+            en: 'Might be useful for crafting something illegal...',
+            de: 'Könnten nützlich sein, um etwas Illegales herzustellen...',
+            pl: 'Mogą przydać się do tworzenia czegoś nielegalnego...',
+        },
+    },
+    red_phosphorus: {
+        name: {
+            ru: 'Красный фосфор',
+            ua: 'Червоний фосфор',
+            en: 'Red phosphorus',
+            de: 'Roter Phosphor',
+            pl: 'Czerwony fosfor',
+        },
+        desc: {
+            ru: 'Красный порошок фосфора, который может пригодиться для крафта чего-то нелегального...',
+            ua: 'Червоний порошок фосфору, який може стати в пригоді для крафту чогось нелегального...',
+            en: 'Red phosphorus powder that might be useful for crafting something illegal...',
+            de: 'Rotes Phosphorpulver, das nützlich sein könnte, um etwas Illegales herzustellen...',
+            pl: 'Czerwony proszek fosforu, który może przydać się do tworzenia czegoś nielegalnego...',
+        },
+    },
 };

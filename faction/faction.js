@@ -171,4 +171,11 @@ export const faction = {
         de: 'Sie haben den Rang {{name}} gelöscht, allen Spielern, die diesen Rang hatten, wurde der Rang {{newRankName}} zugewiesen',
         pl: 'Usunąłeś rangę {{name}}, wszystkim graczom, którzy mieli tę rangę, została przypisana ranga {{newRankName}}',
     },
+    toGiveWarnPlayerMustBeOnline: {
+        ru: 'Чтобы дать предупреждение игроку, он должен быть онлайн',
+        ua: 'Щоб дати догану гравцеві, він повинен бути онлайн',
+        en: 'To give a warning to a player, they must be online',
+        de: 'Um einem Spieler eine Verwarnung zu geben, muss er online sein',
+        pl: 'Aby dać ostrzeżenie graczowi, musi być online',
+    },
 };

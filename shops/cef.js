@@ -115,6 +115,13 @@ export const cef = {
         pl: 'Cena',
         zh: '价格',
     },
+    inStock: {
+        ru: 'В наличии',
+        ua: 'В наявності',
+        en: 'In stock',
+        de: 'Auf Lager',
+        pl: 'W magazynie',
+    },
     buy: {
         ua: 'Купити',
         en: 'Buy',

@@ -273,4 +273,11 @@ export default {
         de: 'Rang von Mitglied {{member}} auf {{rank}} aktualisiert',
         pl: 'Zaktualizowano rangę członka {{member}} na {{rank}}',
     },
+    giveWarn: {
+        ru: 'Выдал предупреждение {{member}}. (({{warns}}/3))',
+        ua: 'Видав догану {{member}}. (({{warns}}/3))',
+        en: 'Issued a warning to {{member}}. (({{warns}}/3))',
+        de: 'Hat eine Verwarnung an {{member}} erteilt. (({{warns}}/3))',
+        pl: 'Wystawił ostrzeżenie dla {{member}}. (({{warns}}/3))',
+    },
 };
