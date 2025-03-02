@@ -121,11 +121,11 @@ export const faction = {
         pl: 'Twoja organizacja osiągnęła maksymalną liczbę rang',
     },
     cantDeleteLastRank: {
-        ru: 'Должен быть как минимум один ранг',
-        ua: 'Повинен бути щонайменше один ранг',
-        en: 'There must be at least one rank',
-        de: 'Es muss mindestens einen Rang geben',
-        pl: 'Musi być co najmniej jeden rang',
+        ru: 'Должно быть как минимум два ранга',
+        ua: 'Має бути щонайменше два ранги',
+        en: 'There must be at least two ranks',
+        de: 'Es muss mindestens zwei Ränge geben',
+        pl: 'Musi być co najmniej dwie rangi',
     },
     deleteRankModal: {
         title: {
@@ -163,5 +163,12 @@ export const faction = {
         en: 'Your rank {{name}} has been deleted, you have been assigned the rank {{newRankName}}',
         de: 'Ihr Rang {{name}} wurde gelöscht, Ihnen wurde der Rang {{newRankName}} zugewiesen',
         pl: 'Twój rang {{name}} został usunięty, przydzielono ci rangę {{newRankName}}',
+    },
+    rankDeletedNotify: {
+        ru: 'Вы удалили ранг {{name}}, всем игрокам, имевшим этот ранг, был присвоен ранг {{newRankName}}',
+        ua: 'Ви видалили ранг {{name}}, всім гравцям, які мали цей ранг, було присвоєно ранг {{newRankName}}',
+        en: 'You deleted the rank {{name}}, all players who had this rank were assigned the rank {{newRankName}}',
+        de: 'Sie haben den Rang {{name}} gelöscht, allen Spielern, die diesen Rang hatten, wurde der Rang {{newRankName}} zugewiesen',
+        pl: 'Usunąłeś rangę {{name}}, wszystkim graczom, którzy mieli tę rangę, została przypisana ranga {{newRankName}}',
     },
 };
