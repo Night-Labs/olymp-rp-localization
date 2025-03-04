@@ -4,6 +4,7 @@ import delivery from './delivery';
 import bus from './bus';
 import farm from './farm';
 import hunting from './hunting';
+import { quarry } from './quarry/quarry';
 
 export default {
     // ТО ЧТО СВЯЗАНО С РАБОТАМИ
@@ -64,6 +65,13 @@ export default {
             pl: 'Wędkarstwo',
             zh: '渔夫',
         },
+        quarry: {
+            ru: 'Карьер',
+            ua: "Кар'єр",
+            en: 'Quarry',
+            de: 'Steinbruch',
+            pl: 'Kamieniołom',
+        },
     },
     youAlreadyWorking: {
         ru: 'Вы уже работаете на другой работе, для начала увольтесь с неё',
@@ -81,4 +89,5 @@ export default {
     farm,
     trucker2,
     hunting,
+    quarry,
 };

@@ -403,4 +403,21 @@ export const items = {
             pl: 'Głośny, wysokiej jakości boombox, idealny na imprezy w gronie przyjaciół',
         },
     },
+
+    pickaxe: {
+        name: {
+            ru: 'Кирка',
+            ua: 'Кирка',
+            en: 'Pickaxe',
+            de: 'Spitzhacke',
+            pl: 'Kilof',
+        },
+        desc: {
+            ru: 'Мощная и надёжная кирка для работы в карьере. Тяжёлый металлический наконечник с лёгкостью разбивает камень, а прочная рукоять выдерживает любые нагрузки. Идеальный инструмент для добычи ресурсов.',
+            ua: "Потужна та надійна кирка для роботи в кар'єрі. Важкий металевий наконечник з легкістю розбиває камінь, а міцна рукоятка витримує будь-які навантаження. Ідеальний інструмент для видобутку ресурсів.",
+            en: 'A powerful and reliable pickaxe for quarry work. The heavy metal tip easily breaks stone, and the sturdy handle can withstand any load. The perfect tool for resource extraction.',
+            de: 'Eine leistungsstarke und zuverlässige Spitzhacke für Steinbrucharbeiten. Die schwere Metallspitze bricht mühelos Stein, und der robuste Griff hält jeder Belastung stand. Das perfekte Werkzeug für die Rohstoffgewinnung.',
+            pl: 'Potężny i niezawodny kilof do pracy w kamieniołomie. Ciężki metalowy grot z łatwością rozbija kamień, a solidny uchwyt wytrzymuje każde obciążenie. Idealne narzędzie do wydobywania zasobów.',
+        },
+    },
 };
