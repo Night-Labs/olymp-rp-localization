@@ -268,4 +268,37 @@ export default {
         pl: '{{name}} odebrał Ci licencję {{value}}',
         zh: '｛｛name｝｝已授予您许可证｛｛value｝',
     },
+
+    //
+    playerHasNoDiseases: {
+        ru: 'Гражданин ничем не болен',
+        ua: 'Громадянин нічим не хворіє',
+        en: 'The citizen has no illnesses',
+        de: 'Der Bürger ist nicht krank',
+        pl: 'Obywatel nie jest chory',
+    },
+
+    playerHasDiseases: {
+        ru: 'Гражданин болен: {{values}}',
+        ua: 'Громадянин хворий: {{values}}',
+        en: 'The citizen is sick: {{values}}',
+        de: 'Der Bürger ist krank: {{values}}',
+        pl: 'Obywatel jest chory: {{values}}',
+    },
+
+    youHealedPlayerDiseases: {
+        ru: 'Вы излечили все болезни у {{name}}',
+        ua: 'Ви вилікували всі хвороби у {{name}}',
+        en: 'You cured all diseases of {{name}}',
+        de: 'Sie haben alle Krankheiten von {{name}} geheilt',
+        pl: 'Wyleczyłeś wszystkie choroby u {{name}}',
+    },
+
+    youHealedDiseases: {
+        ru: 'Вам излечили все болезни',
+        ua: 'Вам вилікували всі хвороби',
+        en: 'All your diseases have been cured',
+        de: 'Alle Ihre Krankheiten wurden geheilt',
+        pl: 'Wszystkie twoje choroby zostały wyleczone',
+    },
 };

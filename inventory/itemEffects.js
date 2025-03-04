@@ -21,11 +21,11 @@ export default {
         pl: 'Musisz mieć mniej niż 25% HP',
     },
     healedByHeal: {
-        ru: 'Вы восстановили своё здоровье до 75 процентов',
-        ua: "Ви відновили своє здоров'я до 75 відсотків",
-        en: 'You have restored your health to 75 percent',
-        de: 'Du hast deine Gesundheit auf 75 Prozent wiederhergestellt',
-        pl: 'Przywróciłeś swoje zdrowie do 75 procent',
+        ru: 'Вы использовали аптечку',
+        ua: 'Ви використали аптечку',
+        en: 'You used a medkit',
+        de: 'Sie haben ein Medkit benutzt',
+        pl: 'Użyłeś apteczki',
     },
     youHaveFullHp: {
         ru: 'У вас и так полное здоровье',
@@ -36,21 +36,28 @@ export default {
     },
 
     youTookReliefix: {
-        ru: 'Вы приняли таблетки Reliefix и восстановили свою здоровье до 75 процентов',
-        ua: "Ви прийняли таблетки Reliefix і відновили своє здоров'я до 75 відсотків",
-        en: 'You took Reliefix and restored your health to 75 percent',
-        de: 'Du hast Reliefix genommen und deine Gesundheit auf 75 Prozent wiederhergestellt',
-        pl: 'Wziąłeś Reliefix i przywróciłeś swoje zdrowie do 75 procent',
+        ru: 'Вы приняли таблетки Reliefix',
+        ua: 'Ви прийняли таблетки Reliefix',
+        en: 'You took Reliefix pills',
+        de: 'Sie haben Reliefix-Tabletten eingenommen',
+        pl: 'Zażyłeś tabletki Reliefix',
     },
 
     youTookPainaway: {
-        ru: 'Вы приняли таблетки Painaway и восстановили свою здоровье до 100 процентов',
-        ua: "Ви прийняли таблетки Painaway і відновили своє здоров'я до 100 відсотків",
-        en: 'You took Painaway and restored your health to 100 percent',
-        de: 'Du hast Painaway genommen und deine Gesundheit auf 100 Prozent wiederhergestellt',
-        pl: 'Wziąłeś Painaway i przywróciłeś swoje zdrowie do 100 procent',
+        ru: 'Вы приняли таблетки Painaway',
+        ua: 'Ви прийняли таблетки Painaway',
+        en: 'You took Painaway pills',
+        de: 'Sie haben Painaway-Tabletten eingenommen',
+        pl: 'Zażyłeś tabletki Painaway',
     },
 
+    youTookNufrieren: {
+        ru: 'Вы приняли таблетки Nufrieren',
+        ua: 'Ви прийняли таблетки Nufrieren',
+        en: 'You took Nufrieren pills',
+        de: 'Sie haben Nufrieren-Tabletten eingenommen',
+        pl: 'Zażyłeś tabletki Nufrieren',
+    },
     // RP
 
     playerTookPills: {

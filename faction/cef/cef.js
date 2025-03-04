@@ -483,6 +483,43 @@ export const cef = {
         zh: '编辑排名',
     },
 
+    createRank: {
+        ru: 'Создание ранга',
+        ua: 'Створення рангу',
+        en: 'Create rank',
+        de: 'Rang erstellen',
+        pl: 'Utwórz rangę',
+    },
+    rankName: {
+        ru: 'Название ранга',
+        ua: 'Назва рангу',
+        en: 'Rank name',
+        de: 'Rangname',
+        pl: 'Nazwa rangi',
+    },
+    enterRankName: {
+        ru: 'Введите название ранга',
+        ua: 'Введіть назву рангу',
+        en: 'Enter rank name',
+        de: 'Geben Sie den Rangnamen ein',
+        pl: 'Wprowadź nazwę rangi',
+    },
+    rankSalary: {
+        ru: 'Выберите зарплату ранга',
+        ua: 'Виберіть зарплату рангу',
+        en: 'Select rank salary',
+        de: 'Wählen Sie das Ranggehalt',
+        pl: 'Wybierz wynagrodzenie rangi',
+    },
+
+    saveRankButton: {
+        ru: 'Сохранить',
+        ua: 'Зберегти',
+        en: 'Save',
+        de: 'Speichern',
+        pl: 'Zapisz',
+    },
+
     permits: {
         ru: 'Разрешения',
         en: 'Permits',
@@ -490,6 +527,14 @@ export const cef = {
         de: 'Genehmigungen',
         pl: 'Zezwolenia',
         zh: '权限',
+    },
+
+    createRankButton: {
+        ru: 'Создать',
+        ua: 'Створити',
+        en: 'Create',
+        de: 'Erstellen',
+        pl: 'Utwórz',
     },
 
     stateCount: {
@@ -554,5 +599,21 @@ export const cef = {
         de: 'Respawnen',
         pl: 'Respawnować',
         zh: '休息',
+    },
+
+    createRankBtn: {
+        ru: 'Создать ранг',
+        ua: 'Створити ранг',
+        en: 'Create rank',
+        de: 'Rang erstellen',
+        pl: 'Utwórz rangę',
+    },
+
+    deleteRankButton: {
+        ru: 'Удалить ранг',
+        ua: 'Видалити ранг',
+        en: 'Delete rank',
+        de: 'Rang löschen',
+        pl: 'Usuń rangę',
     },
 };

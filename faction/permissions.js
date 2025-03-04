@@ -1,4 +1,27 @@
 export default {
+    // Управление рангами
+    createRanks: {
+        ru: 'Создавать ранги',
+        ua: 'Створювати ранги',
+        en: 'Create ranks',
+        de: 'Ränge erstellen',
+        pl: 'Tworzyć rangi',
+    },
+    editRanks: {
+        ru: 'Редактировать ранги',
+        ua: 'Редагувати ранги',
+        en: 'Edit ranks',
+        de: 'Ränge bearbeiten',
+        pl: 'Edytować rangi',
+    },
+    deleteRanks: {
+        ru: 'Удалять ранги',
+        ua: 'Видаляти ранги',
+        en: 'Delete ranks',
+        de: 'Ränge löschen',
+        pl: 'Usuwać rangi',
+    },
+    //
     warehouse: {
         ru: 'Доступ к складу',
         ua: 'Доступ до складу',

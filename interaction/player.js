@@ -133,6 +133,22 @@ export const player = {
         zh: '许可证已颁发',
     },
 
+    checkPlayer: {
+        ru: 'Проверить здоровье игрока',
+        ua: "Перевірити здоров'я гравця",
+        en: "Check player's health",
+        de: 'Spielergesundheit überprüfen',
+        pl: 'Sprawdź zdrowie gracza',
+    },
+
+    healPlayer: {
+        ru: 'Вылечить игрока',
+        ua: 'Вилікувати гравця',
+        en: 'Heal the player',
+        de: 'Spieler heilen',
+        pl: 'Wylecz gracza',
+    },
+
     //
 
     cuff: {
