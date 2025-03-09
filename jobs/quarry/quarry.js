@@ -3,10 +3,6 @@ import { cef } from './cef';
 export const quarry = {
     ...cef,
 
-    gotJob: {
-
-    },
-    
     leaveJob: {
         ru: 'Вы успешно уволились с работы',
         ua: 'Ви успішно звільнилися з роботи',
@@ -70,5 +66,64 @@ export const quarry = {
         de: 'Ihr Arbeitsfahrzeug',
         pl: 'Twój pojazd służbowy',
         zh: '你的工作车辆',
+    },
+
+    miner: {
+        name: {
+            ru: 'Горняк',
+            ua: 'Гірник',
+            en: 'Miner',
+            de: 'Bergmann',
+            pl: 'Górnik',
+        },
+        startJob: {
+            ru: 'Вы успешно устроились на работу горняком, отправляйтесь к месту добычи руды, обозначенным на карте.',
+            ua: 'Ви успішно влаштувалися на роботу гірником, вирушайте до місця видобутку руди, позначеного на карті.',
+            en: 'You have successfully got a job as a miner, go to the ore mining location marked on the map.',
+            de: 'Sie haben erfolgreich eine Anstellung als Bergmann erhalten. Begeben Sie sich zum auf der Karte markierten Erzabbaugebiet.',
+            pl: 'Pomyślnie podjąłeś pracę jako górnik, udaj się do miejsca wydobycia rudy zaznaczonego na mapie.',
+        },
+        alreadyMining: {
+            ru: 'Вы уже копаете руду.',
+            ua: 'Ви вже копаєте руду.',
+            en: 'You are already mining ore.',
+            de: 'Sie bauen bereits Erz ab.',
+            pl: 'Już kopiesz rudę.',
+        },
+        notWorking: {
+            ru: 'Вы не работаете горняком.',
+            ua: 'Ви не працюєте гірником.',
+            en: 'You are not working as a miner.',
+            de: 'Sie arbeiten nicht als Bergmann.',
+            pl: 'Nie pracujesz jako górnik.',
+        },
+        noPickaxe: {
+            ru: 'У вас нет кирки, её можно купить в магазине 24/7.',
+            ua: 'У вас немає кирки, її можна купити в магазині 24/7.',
+            en: "You don't have a pickaxe, you can buy it at the 24/7 store.",
+            de: 'Sie haben keine Spitzhacke, Sie können sie im 24/7-Shop kaufen.',
+            pl: 'Nie masz kilofa, możesz go kupić w sklepie 24/7.',
+        },
+        gotOres: {
+            ru: 'Вы добыли {{count}} шт. руды',
+            ua: 'Ви видобули {{count}} шт. руди',
+            en: 'You mined {{count}} ore',
+            de: 'Du hast {{count}} Erz abgebaut',
+            pl: 'Wydobyłeś {{count}} szt. rudy',
+        },
+        point: {
+            ru: 'Точка добычи руды',
+            ua: 'Точка видобутку руди',
+            en: 'Ore mining point',
+            de: 'Erzabbaupunkt',
+            pl: 'Punkt wydobycia rudy',
+        },
+        interaction: {
+            ru: 'Начать добычу руды',
+            ua: 'Почати видобуток руди',
+            en: 'Start mining ore',
+            de: 'Mit dem Erzabbau beginnen',
+            pl: 'Rozpocznij wydobycie rudy',
+        },
     },
 };
