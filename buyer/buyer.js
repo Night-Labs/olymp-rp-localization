@@ -157,5 +157,12 @@ export default {
             ge: 'ფერმა',
             zh: '农场',
         },
+        ores: {
+            ru: 'Руды',
+            ua: 'Руди',
+            en: 'Ores',
+            de: 'Erze',
+            pl: 'Rudy',
+        },
     },
 };
