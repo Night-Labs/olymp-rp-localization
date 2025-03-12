@@ -301,4 +301,11 @@ export default {
         de: 'Alle Ihre Krankheiten wurden geheilt',
         pl: 'Wszystkie twoje choroby zostały wyleczone',
     },
+    checkPlayerForDiseasesAction: {
+        ru: 'Осматривает {{name}} на наличие болезней',
+        ua: 'Оглядає {{name}} на наявність хвороб',
+        en: 'Examines {{name}} for diseases',
+        de: 'Untersucht {{name}} auf Krankheiten',
+        pl: 'Bada {{name}} pod kątem chorób',
+    },
 };
