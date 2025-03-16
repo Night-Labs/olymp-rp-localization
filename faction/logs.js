@@ -6,7 +6,7 @@ export default {
             en: 'All',
             de: 'Alle',
             pl: 'Wszystko',
-           zh:'每个人',
+            zh: '每个人',
         },
         money: {
             ru: 'Денежные операции',
@@ -14,7 +14,7 @@ export default {
             en: 'Money operations',
             de: 'Geldoperationen',
             pl: 'Operacje pieniężne',
-            zh:'货币操作',
+            zh: '货币操作',
         },
         inventory: {
             ru: 'Инвентарь',
@@ -22,7 +22,7 @@ export default {
             en: 'Inventory',
             de: 'Inventar',
             pl: 'Inwentarz',
-            zh:'发明人',
+            zh: '发明人',
         },
         pills: {
             ru: 'Таблетки',
@@ -30,7 +30,7 @@ export default {
             en: 'Pills',
             de: 'Pillen',
             pl: 'Pigułki',
-            zh:'平板电脑',
+            zh: '平板电脑',
         },
         actions: {
             ru: 'Действия',
@@ -38,7 +38,7 @@ export default {
             en: 'Actions',
             de: 'Aktionen',
             pl: 'Działania',
-            zh:'行动',
+            zh: '行动',
         },
         members: {
             ru: 'Участники',
@@ -46,7 +46,7 @@ export default {
             en: 'Members',
             de: 'Mitglieder',
             pl: 'Członkowie',
-            zh:'参与者',
+            zh: '参与者',
         },
         fines: {
             ru: 'Штрафы',
@@ -54,7 +54,7 @@ export default {
             en: 'Fines',
             de: 'Bußgelder',
             pl: 'Grzywny',
-           zh:'罚款',
+            zh: '罚款',
         },
         zones: {
             ru: 'Територии',
@@ -62,7 +62,14 @@ export default {
             en: 'Territories',
             de: 'Gebiete',
             pl: 'Terytoria',
-            zh:'领土',
+            zh: '领土',
+        },
+        ranks: {
+            ru: 'Ранги',
+            ua: 'Ранги',
+            en: 'Ranks',
+            de: 'Ränge',
+            pl: 'Rangi',
         },
     },
     //
@@ -72,7 +79,7 @@ export default {
         en: 'Invited player {{player}}',
         de: 'Eingeladener Spieler {{player}}',
         pl: 'Zaprosił gracza {{player}}',
-       zh:'受邀玩家{{player}}',
+        zh: '受邀玩家{{player}}',
     },
     kickedPlayer: {
         ru: 'Выгнал игрока {{player}}',
@@ -80,7 +87,7 @@ export default {
         en: 'Kicked out player {{player}}',
         de: 'Spieler {{player}} rausgeworfen',
         pl: 'Wyrzucił gracza {{player}}',
-        zh:'玩家{{Player}}被踢出',
+        zh: '玩家{{Player}}被踢出',
     },
     deposited: {
         ru: 'Пополнил бюджет на ${{money}}',
@@ -88,7 +95,7 @@ export default {
         en: 'Deposited to the budget ${{money}}',
         de: 'Budget auf ${{money}} aufgefüllt',
         pl: 'Doładowałem budżet o ${{money}}',
-        zh:'存入预算${货币}',
+        zh: '存入预算${货币}',
     },
     withdraw: {
         ru: 'Взял с бюджета ${{money}}',
@@ -96,7 +103,7 @@ export default {
         en: 'Withdrew from the budget ${{money}}',
         de: 'Vom Budget ${{money}} abgehoben',
         pl: 'Wypłaciłem z budżetu ${{money}}',
-        zh:'从预算中提取${货币}',
+        zh: '从预算中提取${货币}',
     },
     test: {
         ru: 'Абоба №{{num}}',
@@ -104,7 +111,7 @@ export default {
         en: 'Aboba No. {{num}}',
         de: 'Aboba Nr. {{num}}',
         pl: 'Aboba nr {{num}}',
-        zh:'阿巴号',
+        zh: '阿巴号',
     },
     sellPills: {
         ru: 'Продал таблетки {{type}} на ${{sum}}',
@@ -112,15 +119,15 @@ export default {
         en: 'Sold {{type}} pills for ${{sum}}',
         de: '{{type}} Pillen für ${{sum}} verkauft',
         pl: 'Sprzedano tabletki {{type}} za ${{sum}}',
-        zh:'“以{{type}}美元的价格出售平板电脑',
+        zh: '“以{{type}}美元的价格出售平板电脑',
     },
     takedBlood: {
         ru: 'Взял кровь у {{name}}',
         ua: 'Взяв кров у {{name}}',
         en: 'Took blood from {{name}}',
         de: 'Hat Blut von {{name}} genommen',
-        pl: 'Pobrał krew od {{name}}', 
-        zh:'从{{name}}身上取了血',
+        pl: 'Pobrał krew od {{name}}',
+        zh: '从{{name}}身上取了血',
     },
     sellBloodBag: {
         ru: 'Сдал кровь в лабаратории на сумму ${{sum}}',
@@ -128,7 +135,7 @@ export default {
         en: 'Donated blood in the laboratory for the amount of ${{sum}}',
         de: 'Hat Blut im Labor für den Betrag von ${{sum}} gespendet',
         pl: 'Oddał krew w laboratorium za kwotę ${{sum}}',
-        zh:'以{{sum}美元的价格向实验室献血',
+        zh: '以{{sum}美元的价格向实验室献血',
     },
     giveMedicalLicense: {
         ru: 'Выдал медицинскую лицензию {{player}}',
@@ -136,7 +143,7 @@ export default {
         en: 'Issued a medical license to {{player}}',
         de: 'Hat eine medizinische Lizenz an {{player}} ausgestellt',
         pl: 'Wydano licencję medyczną dla {{player}}',
-        zh:'已颁发医疗执照{{player}}',
+        zh: '已颁发医疗执照{{player}}',
     },
     renewMedicalLicense: {
         ru: 'Возобновил медицинскую лицензию {{player}}',
@@ -144,7 +151,7 @@ export default {
         en: 'Renewed the medical license of {{player}}',
         de: 'Hat die medizinische Lizenz von {{player}} erneuert',
         pl: 'Odnowiono licencję medyczną dla {{player}}',
-       zh:'更新{{player}}的医疗执照',
+        zh: '更新{{player}}的医疗执照',
     },
 
     //
@@ -154,7 +161,7 @@ export default {
         en: 'Put {{item}} ({{quantity}}x) in inventory',
         de: 'Lege {{item}} ({{quantity}}x) ins Inventar',
         pl: 'Umieścił {{item}} ({{quantity}}x) w ekwipunku',
-        zh:'已将{{item}}（{{quantity}}x）放入存储中',
+        zh: '已将{{item}}（{{quantity}}x）放入存储中',
     },
 
     takeItemFromInventory: {
@@ -163,7 +170,7 @@ export default {
         en: 'Took {{item}} ({{quantity}}x) from inventory',
         de: 'Nahm {{item}} ({{quantity}}x) aus dem Inventar',
         pl: 'Zabrał {{item}} ({{quantity}}x) z ekwipunku',
-        zh:'从存储中获取{{item}}（{{quantity}}x）',
+        zh: '从存储中获取{{item}}（{{quantity}}x）',
     },
 
     //
@@ -173,7 +180,7 @@ export default {
         en: 'Issued a fine to {{name}} in the amount of ${{value}} for the reason: {{reason}}. Comment: {{comment}}',
         de: 'Hat {{name}} ein Bußgeld in Höhe von ${{value}} aus folgendem Grund verhängt: {{reason}}. Kommentar: {{comment}}',
         pl: 'Wystawił grzywnę {{name}} w wysokości ${{value}} z następującego powodu: {{reason}}. Komentarz: {{comment}}',
-        zh:'对{{name}}处以金额为${value}}的罚款，原因为：{{reason}}。评论：｛｛Comment｝｝',
+        zh: '对{{name}}处以金额为${value}}的罚款，原因为：{{reason}}。评论：｛｛Comment｝｝',
     },
 
     //
@@ -183,7 +190,7 @@ export default {
         en: 'Revenue from territories ${{amount}}',
         de: 'Einnahmen aus Gebieten ${{amount}}',
         pl: 'Przychody z terytoriów ${{amount}}',
-       zh:'来自领土的收入${金额}',
+        zh: '来自领土的收入${金额}',
     },
 
     failedZoneIncome: {
@@ -193,7 +200,7 @@ export default {
         de: 'Aufgrund einer unzureichenden Anzahl von Spielern wurde kein Einkommen aus den Gebieten erzielt!',
         pl: 'Z powodu niewystarczającej liczby graczy dochód z terytoriów nie został uzyskany!',
         ge: 'მოთამაშეთა არასაკმარისი რაოდენობის გამო, ტერიტორიის შემოსავალი ვერ მიიღეს!',
-       zh:'由于玩家数量不足，没有从领土获得任何收入！',
+        zh: '由于玩家数量不足，没有从领土获得任何收入！',
     },
 
     declaredWar: {
@@ -202,7 +209,7 @@ export default {
         en: 'Declared war for territory #{{zone}}.',
         de: 'Krieg um Gebiet #{{zone}} erklärt. ',
         pl: 'Wypowiedziano wojnę o terytorium #{{zone}}',
-       zh:'对领土宣战',
+        zh: '对领土宣战',
     },
     startedWar: {
         ru: 'Началась война за территорию #{{zone}}.',
@@ -210,7 +217,7 @@ export default {
         en: 'War started for territory #{{zone}}.',
         de: 'Krieg um Gebiet #{{zone}} hat begonnen.',
         pl: 'Rozpoczęła się wojna o terytorium #{{zone}}.',
-        zh:'战争是为了领土而开始的',
+        zh: '战争是为了领土而开始的',
     },
     youWinZone: {
         ru: 'Вы выиграли войну за территорию #{{zone}}.',
@@ -218,7 +225,7 @@ export default {
         en: 'You won the war for territory #{{zone}}.',
         de: 'Du hast den Krieg um Gebiet #{{zone}} gewonnen.',
         pl: 'Wygrałeś wojnę o terytorium #{{zone}}.',
-       zh:'你赢得了领土上的战争',
+        zh: '你赢得了领土上的战争',
     },
     youLoseZone: {
         ru: 'Вы проиграли войну за территорию #{{zone}}.',
@@ -226,7 +233,7 @@ export default {
         en: 'You lost the war for territory #{{zone}}.',
         de: 'Du hast den Krieg um Gebiet #{{zone}} verloren.',
         pl: 'Przegrałeś wojnę o terytorium #{{zone}}.',
-        zh:'你在争夺领土的战争中失败了',
+        zh: '你在争夺领土的战争中失败了',
     },
     failedToStartWar: {
         ru: 'Не удалось начать войну за территорию #{{zone}}.',
@@ -234,6 +241,43 @@ export default {
         en: 'Failed to start the war for territory #{{zone}}.',
         de: 'Krieg um Gebiet #{{zone}} konnte nicht begonnen werden.',
         pl: 'Nie udało się rozpocząć wojny o terytorium #{{zone}}.',
-        zh:'无法开始对#{zone}}领土的战争。',
+        zh: '无法开始对#{zone}}领土的战争。',
+    },
+
+    //
+    createdRank: {
+        ru: 'Создал новый ранг {{rank}}',
+        ua: 'Створив новий ранг {{rank}}',
+        en: 'Created a new rank {{rank}}',
+        de: 'Neuen Rang erstellt {{rank}}',
+        pl: 'Utworzono nową rangę {{rank}}',
+    },
+    deletedRank: {
+        ru: 'Удалил ранг {{rank}}',
+        ua: 'Видалив ранг {{rank}}',
+        en: 'Deleted rank {{rank}}',
+        de: 'Rang gelöscht {{rank}}',
+        pl: 'Usunięto rangę {{rank}}',
+    },
+    updatedRank: {
+        ru: 'Обновил ранг {{rank}}',
+        ua: 'Оновив ранг {{rank}}',
+        en: 'Updated rank {{rank}}',
+        de: 'Rang aktualisiert {{rank}}',
+        pl: 'Zaktualizowano rangę {{rank}}',
+    },
+    updatedMemberRank: {
+        ru: 'Обновил ранг участника {{member}} на {{rank}}',
+        ua: 'Оновив ранг учасника {{member}} на {{rank}}',
+        en: "Updated member {{member}}'s rank to {{rank}}",
+        de: 'Rang von Mitglied {{member}} auf {{rank}} aktualisiert',
+        pl: 'Zaktualizowano rangę członka {{member}} na {{rank}}',
+    },
+    giveWarn: {
+        ru: 'Выдал предупреждение {{member}}. (({{warns}}/3))',
+        ua: 'Видав догану {{member}}. (({{warns}}/3))',
+        en: 'Issued a warning to {{member}}. (({{warns}}/3))',
+        de: 'Hat eine Verwarnung an {{member}} erteilt. (({{warns}}/3))',
+        pl: 'Wystawił ostrzeżenie dla {{member}}. (({{warns}}/3))',
     },
 };

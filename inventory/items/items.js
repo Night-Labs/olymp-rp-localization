@@ -403,7 +403,38 @@ export const items = {
             pl: 'Głośny, wysokiej jakości boombox, idealny na imprezy w gronie przyjaciół',
         },
     },
-
+    rolling_paper: {
+        name: {
+            ru: 'Бумага для самокруток',
+            ua: 'Папір для самокруток',
+            en: 'Rolling paper',
+            de: 'Drehpapier',
+            pl: 'Bibułka do skrętów',
+        },
+        desc: {
+            ru: 'Позволяет сделать сигарету',
+            ua: 'Дозволяє зробити сигарету',
+            en: 'Allows you to make a cigarette',
+            de: 'Ermöglicht das Drehen einer Zigarette',
+            pl: 'Pozwala zrobić papierosa',
+        },
+    },
+    ephedrine_pills: {
+        name: {
+            ru: 'Эфедриновые таблетки',
+            ua: 'Ефедринові таблетки',
+            en: 'Ephedrine tablets',
+            de: 'Ephedrin-Tabletten',
+            pl: 'Tabletki efedrynowe',
+        },
+        desc: {
+            ru: 'Могут пригодиться для крафта чего-то нелегального...',
+            ua: 'Можуть стати в пригоді для крафту чогось нелегального...',
+            en: 'Might be useful for crafting something illegal...',
+            de: 'Könnten nützlich sein, um etwas Illegales herzustellen...',
+            pl: 'Mogą przydać się do tworzenia czegoś nielegalnego...',
+        },
+    },
     pickaxe: {
         name: {
             ru: 'Кирка',

@@ -80,4 +80,19 @@ export default {
         de: 'Du hast ein aktives Paket, hole es so schnell wie möglich ab',
         pl: 'Masz aktywną paczkę, odbierz ją jak najszybciej',
     },
+
+    productIsOutOfStock: {
+        ru: 'Товар "{{name}}" закончился или недостаточно в наличии.',
+        ua: 'Товар "{{name}}" закінчився або недостатньо в наявності.',
+        en: 'The item "{{name}}" is out of stock or not available in sufficient quantity.',
+        de: 'Der Artikel "{{name}}" ist ausverkauft oder nicht in ausreichender Menge verfügbar.',
+        pl: 'Produkt "{{name}}" jest wyprzedany lub nie jest dostępny w wystarczającej ilości.',
+    },
+    noPositionsRightNow: {
+        ru: 'Сейчас не получится доставить посылку, попробуй чуть позже...',
+        ua: 'Зараз не вдасться доставити посилку, спробуй трохи пізніше...',
+        en: 'The package cannot be delivered right now, try again a bit later...',
+        de: 'Das Paket kann derzeit nicht zugestellt werden, versuche es später noch einmal...',
+        pl: 'Nie można teraz dostarczyć paczki, spróbuj ponownie trochę później...',
+    },
 };
