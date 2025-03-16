@@ -299,6 +299,13 @@ export const cef = {
                 pl: 'Do polowania',
                 zh: '猎人',
             },
+            quarry: {
+                ru: 'Для карьера',
+                ua: "Для кар'єру",
+                en: 'For quarry',
+                de: 'Für den Steinbruch',
+                pl: 'Do kamieniołomu',
+            },
         },
     },
     clothes: {
