@@ -126,4 +126,155 @@ export const quarry = {
             pl: 'Rozpocznij wydobycie rudy',
         },
     },
+
+    dumper: {
+        name: {
+            ru: 'Водитель самосвала',
+            ua: 'Водій самоскида',
+            en: 'Dump truck driver',
+            de: 'Muldenkipperfahrer',
+            pl: 'Kierowca wywrotki',
+        },
+
+        startJob: {
+            ru: 'Вы успешно устроились на работу водителем самосвала, отправляйтесь к точке загрузки.',
+            ua: 'Ви успішно влаштувалися на роботу водієм самоскида, вирушайте до точки завантаження.',
+            en: 'You have successfully started working as a dump truck driver, head to the loading point.',
+            de: 'Sie haben erfolgreich eine Stelle als Muldenkipperfahrer angetreten, begeben Sie sich zum Ladepunkt.',
+            pl: 'Pomyślnie rozpocząłeś pracę jako kierowca wywrotki, udaj się do punktu załadunku.',
+        },
+
+        finishLoading: {
+            ru: 'Загрузка завершена, отправляйтесь к точке разгрузки.',
+            ua: 'Завантаження завершено, вирушайте до точки розвантаження.',
+            en: 'Loading is complete, head to the unloading point.',
+            de: 'Das Laden ist abgeschlossen, begeben Sie sich zum Entladepunkt.',
+            pl: 'Załadunek zakończony, udaj się do punktu rozładunku.',
+        },
+
+        finishUnloading: {
+            ru: 'Разгрузка завершена, вы заработали {{salary}}, отправляйтесь к новой точке загрузки.',
+            ua: 'Розвантаження завершено, ви заробили {{salary}}, вирушайте до нової точки завантаження.',
+            en: 'Unloading complete, you earned {{salary}}, head to the new loading point.',
+            de: 'Entladen abgeschlossen, Sie haben {{salary}} verdient, begeben Sie sich zur neuen Ladestelle.',
+            pl: 'Rozładunek zakończony, zarobiłeś {{salary}}, udaj się do nowego punktu załadunku.',
+        },
+
+        interaction: {
+            load: {
+                ru: 'Начать загрузку',
+                ua: 'Почати завантаження',
+                en: 'Start loading',
+                de: 'Laden starten',
+                pl: 'Rozpocznij ładowanie',
+            },
+
+            unload: {
+                ru: 'Начать разгрузку',
+                ua: 'Почати розвантаження',
+                en: 'Start unloading',
+                de: 'Entladen starten',
+                pl: 'Rozpocznij rozładunek',
+            },
+        },
+
+        loadingPoint: {
+            ru: 'Точка загрузки',
+            ua: 'Точка завантаження',
+            en: 'Loading point',
+            de: 'Ladepunkt',
+            pl: 'Punkt załadunku',
+        },
+
+        unloadingPoint: {
+            ru: 'Точка разгрузки',
+            ua: 'Точка розвантаження',
+            en: 'Unloading point',
+            de: 'Entladepunkt',
+            pl: 'Punkt rozładunku',
+        },
+
+        loading: {
+            ru: 'Идёт загрузка',
+            ua: 'Йде завантаження',
+            en: 'Loading',
+            de: 'Wird geladen',
+            pl: 'Ładowanie',
+        },
+
+        unloading: {
+            ru: 'Идёт разгрузка',
+            ua: 'Йде розвантаження',
+            en: 'Unloading',
+            de: 'Wird entladen',
+            pl: 'Rozładunek',
+        },
+    },
+    bulldozer: {
+        name: {
+            ru: 'Водитель бульдозера',
+            ua: 'Водій бульдозера',
+            en: 'Bulldozer driver',
+            de: 'Bulldozerfahrer',
+            pl: 'Operator spycharki',
+        },
+
+        startJob: {
+            ru: 'Вы успешно устроились на работу водителем бульдозера, отправляйтесь к точке загрузки.',
+            ua: 'Ви успішно влаштувалися на роботу водієм бульдозера, вирушайте до точки завантаження.',
+            en: 'You have successfully been employed as a bulldozer driver, head to the loading point.',
+            de: 'Sie wurden erfolgreich als Bulldozerfahrer eingestellt, begeben Sie sich zum Verladepunkt.',
+            pl: 'Zostałeś pomyślnie zatrudniony jako kierowca spychacza, udaj się do punktu załadunku.',
+        },
+
+        loadingPoint: {
+            ru: 'Точка загрузки',
+            ua: 'Точка завантаження',
+            en: 'Loading point',
+            de: 'Ladepunkt',
+            pl: 'Punkt załadunku',
+        },
+
+        unloadingPoint: {
+            ru: 'Точка разгрузки',
+            ua: 'Точка розвантаження',
+            en: 'Unloading point',
+            de: 'Entladepunkt',
+            pl: 'Punkt rozładunku',
+        },
+
+        interaction: {
+            load: {
+                ru: 'Начать загрузку',
+                ua: 'Почати завантаження',
+                en: 'Start loading',
+                de: 'Laden starten',
+                pl: 'Rozpocznij ładowanie',
+            },
+
+            unload: {
+                ru: 'Начать разгрузку',
+                ua: 'Почати розвантаження',
+                en: 'Start unloading',
+                de: 'Entladen starten',
+                pl: 'Rozpocznij rozładunek',
+            },
+        },
+
+        finishLoading: {
+            ru: 'Загрузка завершена, отправляйтесь к точке разгрузки.',
+            ua: 'Завантаження завершено, вирушайте до точки розвантаження.',
+            en: 'Loading is complete, head to the unloading point.',
+            de: 'Das Laden ist abgeschlossen, begeben Sie sich zum Entladepunkt.',
+            pl: 'Załadunek zakończony, udaj się do punktu rozładunku.',
+        },
+
+        finishUnloading: {
+            ru: 'Разгрузка завершена, вы заработали {{salary}}, отправляйтесь к новой точке загрузки.',
+            ua: 'Розвантаження завершено, ви заробили {{salary}}, вирушайте до нової точки завантаження.',
+            en: 'Unloading complete, you earned {{salary}}, head to the new loading point.',
+            de: 'Entladen abgeschlossen, Sie haben {{salary}} verdient, begeben Sie sich zur neuen Ladestelle.',
+            pl: 'Rozładunek zakończony, zarobiłeś {{salary}}, udaj się do nowego punktu załadunku.',
+        },
+    },
 };

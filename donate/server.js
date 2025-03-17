@@ -117,6 +117,14 @@ export const server = {
             zh: '有狩猎经验！',
         },
 
+        quarry: {
+            ru: 'Получено {{exp}} опыта работы на карьере!',
+            ua: "Отримано {{exp}} досвіду роботи на кар'єрі!",
+            en: 'Received {{exp}} quarrying experience!',
+            de: '{{exp}} Erfahrung im Steinbruch erhalten!',
+            pl: 'Otrzymano {{exp}} doświadczenia w pracy w kamieniołomie!',
+        },
+        
         currency: {
             ru: 'Получено ${{currency}}',
             ua: 'Отримано ${{currency}}',
