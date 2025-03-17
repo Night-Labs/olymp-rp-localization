@@ -102,12 +102,11 @@ export const cef = {
             zh: '在这里，你可以看到有关你组织的公共信息，还可以管理仓库和预算的访问权限',
         },
         quests: {
-            ru: 'Здесь вы можете выполнять фракционные квесты.',
-            en: 'Here you can complete faction quests.',
-            ua: 'Тут ви можете виконувати фракційні квести.',
-            de: 'Hier können Sie Fraktionsquests abschließen.',
-            pl: 'Tutaj możesz wykonywać questy frakcyjne.',
-            zh: '在这里你可以完成派系任务',
+            ru: 'Здесь отображаются общие фракционные квесты которые должны выполнить ваша фракция',
+            ua: 'Тут відображаються загальні фракційні квести, які має виконати ваша фракція',
+            en: 'This section displays common faction quests that your faction must complete',
+            de: 'Hier werden gemeinsame Fraktionsquests angezeigt, die eure Fraktion abschließen muss',
+            pl: 'Tutaj wyświetlane są wspólne zadania frakcyjne, które twoja frakcja musi wykonać',
         },
         team: {
             ru: 'Здесь вы можете просмотреть всех участников вашей организации, а также управлять ими.',

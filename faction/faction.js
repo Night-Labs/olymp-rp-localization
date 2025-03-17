@@ -12,6 +12,7 @@ import suply from './suply';
 import randomTruck from './randomTruck';
 import robbery from './robbery';
 import database from './database';
+import quests from './quests';
 
 export const faction = {
     factions,
@@ -26,6 +27,7 @@ export const faction = {
     randomTruck,
     robbery,
     database,
+    quests,
     ...cef,
     ...server,
     leader: {
