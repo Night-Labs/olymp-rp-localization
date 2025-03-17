@@ -89,7 +89,7 @@ export const server = {
     },
     quarry: {
         ru: 'Карьер',
-        ua: "Кар'єр",
+        ua: "Кар'ер",
         en: 'Quarry',
         de: 'Steinbruch',
         pl: 'Kamieniołom',

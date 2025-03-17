@@ -227,6 +227,22 @@ export const quarry = {
             pl: 'Zostałeś pomyślnie zatrudniony jako kierowca spychacza, udaj się do punktu załadunku.',
         },
 
+        loadingPoint: {
+            ru: 'Точка загрузки',
+            ua: 'Точка завантаження',
+            en: 'Loading point',
+            de: 'Ladepunkt',
+            pl: 'Punkt załadunku',
+        },
+
+        unloadingPoint: {
+            ru: 'Точка разгрузки',
+            ua: 'Точка розвантаження',
+            en: 'Unloading point',
+            de: 'Entladepunkt',
+            pl: 'Punkt rozładunku',
+        },
+
         interaction: {
             load: {
                 ru: 'Начать загрузку',
