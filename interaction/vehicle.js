@@ -248,7 +248,7 @@ export const vehicle = {
         de: 'Fenster einschlagen',
         pl: 'Wybić okno',
     },
-    startHacking: {
+    startLockpicking: {
         ru: 'Начать взлом',
         ua: 'Почати злам',
         en: 'Start hacking',

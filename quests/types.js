@@ -5,7 +5,7 @@ export const types = {
         en: 'Starting',
         de: 'Start',
         pl: 'Początkowe',
-        zh:'开始',
+        zh: '开始',
     },
     daily: {
         ru: 'Ежедневные',
@@ -13,7 +13,7 @@ export const types = {
         en: 'Daily',
         de: 'Täglich',
         pl: 'Codzienne',
-        zh:'每日',
+        zh: '每日',
     },
     newYear: {
         ru: 'Зимние',
@@ -21,6 +21,13 @@ export const types = {
         en: 'Winter',
         de: 'Winter',
         pl: 'Zima',
-        zh:'冬天',
+        zh: '冬天',
+    },
+    factions: {
+        ru: 'Фракционные',
+        ua: 'Фракційні',
+        en: 'Faction',
+        de: 'Fraktion',
+        pl: 'Frakcyjne',
     },
 };

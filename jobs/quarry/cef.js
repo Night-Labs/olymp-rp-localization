@@ -116,4 +116,12 @@ export const cef = {
             pl: 'Użyj myszy i LPM, aby wydobyć rudę.',
         },
     },
+
+    vehicleSalary: {
+        ru: 'Зарплата {{salary}} за 100 метров',
+        ua: 'Зарплата {{salary}} за 100 метрів',
+        en: 'Salary {{salary}} per 100 meters',
+        de: 'Gehalt {{salary}} pro 100 Meter',
+        pl: 'Wynagrodzenie {{salary}} za 100 metrów',
+    },
 };

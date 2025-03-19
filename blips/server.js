@@ -87,6 +87,13 @@ export const server = {
         pl: 'Farma',
         zh: '农场',
     },
+    quarry: {
+        ru: 'Карьер',
+        ua: "Кар'ер",
+        en: 'Quarry',
+        de: 'Steinbruch',
+        pl: 'Kamieniołom',
+    },
     rent: {
         ua: 'Оренда Т/З',
         en: 'Car Rental',

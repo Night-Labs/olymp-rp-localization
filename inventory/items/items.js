@@ -403,7 +403,38 @@ export const items = {
             pl: 'Głośny, wysokiej jakości boombox, idealny na imprezy w gronie przyjaciół',
         },
     },
-
+    rolling_paper: {
+        name: {
+            ru: 'Бумага для самокруток',
+            ua: 'Папір для самокруток',
+            en: 'Rolling paper',
+            de: 'Drehpapier',
+            pl: 'Bibułka do skrętów',
+        },
+        desc: {
+            ru: 'Позволяет сделать сигарету',
+            ua: 'Дозволяє зробити сигарету',
+            en: 'Allows you to make a cigarette',
+            de: 'Ermöglicht das Drehen einer Zigarette',
+            pl: 'Pozwala zrobić papierosa',
+        },
+    },
+    ephedrine_pills: {
+        name: {
+            ru: 'Эфедриновые таблетки',
+            ua: 'Ефедринові таблетки',
+            en: 'Ephedrine tablets',
+            de: 'Ephedrin-Tabletten',
+            pl: 'Tabletki efedrynowe',
+        },
+        desc: {
+            ru: 'Могут пригодиться для крафта чего-то нелегального...',
+            ua: 'Можуть стати в пригоді для крафту чогось нелегального...',
+            en: 'Might be useful for crafting something illegal...',
+            de: 'Könnten nützlich sein, um etwas Illegales herzustellen...',
+            pl: 'Mogą przydać się do tworzenia czegoś nielegalnego...',
+        },
+    },
     pickaxe: {
         name: {
             ru: 'Кирка',
@@ -418,6 +449,22 @@ export const items = {
             en: 'A powerful and reliable pickaxe for quarry work. The heavy metal tip easily breaks stone, and the sturdy handle can withstand any load. The perfect tool for resource extraction.',
             de: 'Eine leistungsstarke und zuverlässige Spitzhacke für Steinbrucharbeiten. Die schwere Metallspitze bricht mühelos Stein, und der robuste Griff hält jeder Belastung stand. Das perfekte Werkzeug für die Rohstoffgewinnung.',
             pl: 'Potężny i niezawodny kilof do pracy w kamieniołomie. Ciężki metalowy grot z łatwością rozbija kamień, a solidny uchwyt wytrzymuje każde obciążenie. Idealne narzędzie do wydobywania zasobów.',
+        },
+    },
+    lockpick: {
+        name: {
+            ru: 'Отмычка',
+            ua: 'Відмичка',
+            en: 'Lockpick',
+            de: 'Dietrich',
+            pl: 'Wytrych',
+        },
+        desc: {
+            ru: 'Используется для взлома замка машин и других замков, может сломаться при неудачном взломе будьте внимательны!',
+            ua: 'Використовується для злому замків автомобілів та інших замків, може зламатися при невдалому зломі — будьте уважні!',
+            en: 'Used to pick car locks and other locks, may break if the attempt fails – be careful!',
+            de: 'Wird verwendet, um Autoschlösser und andere Schlösser zu knacken, kann bei einem Fehlversuch brechen – seien Sie vorsichtig!',
+            pl: 'Służy do otwierania zamków samochodów i innych zamków, może się złamać przy nieudanej próbie – bądź ostrożny!',
         },
     },
 };

@@ -21,6 +21,13 @@ export default {
         de: 'Ränge löschen',
         pl: 'Usuwać rangi',
     },
+    changeMemberRanks: {
+        ru: 'Изменять ранги участников',
+        ua: 'Змінювати ранги учасників',
+        en: 'Change member ranks',
+        de: 'Mitgliedsränge ändern',
+        pl: 'Zmieniaj rangi członków',
+    },
     //
     warehouse: {
         ru: 'Доступ к складу',
@@ -85,6 +92,13 @@ export default {
         de: 'Eine Lizenz ausstellen',
         pl: 'Wydawać licencję',
         zh: '许可证已颁发',
+    },
+    issueFine: {
+        ru: 'Выписывать штрафы',
+        ua: 'Виписувати штрафи',
+        en: 'Issue fines',
+        de: 'Strafen verhängen',
+        pl: 'Nakładać mandaty',
     },
     blood: {
         ru: 'Возможность брать кровь',
