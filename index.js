@@ -61,6 +61,7 @@ import seller from './seller';
 import party from './party';
 import xmas from './xmas';
 import musicPlayer from './musicPlayer';
+import games from './games/games';
 
 export default {
     account,
@@ -126,4 +127,5 @@ export default {
     spawnSelector,
     xmas,
     musicPlayer,
+    games,
 };
