@@ -72,6 +72,13 @@ export default {
             de: 'Steinbruch',
             pl: 'Kamieniołom',
         },
+        carjacker: {
+            ru: 'Автоугонщик',
+            ua: 'Автокрадій',
+            en: 'Carjacker',
+            de: 'Autodieb',
+            pl: 'Złodziej samochodów',
+        },
     },
     youAlreadyWorking: {
         ru: 'Вы уже работаете на другой работе, для начала увольтесь с неё',
