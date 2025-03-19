@@ -127,4 +127,20 @@ export default {
         de: 'Verbleibende Zeit',
         pl: 'Pozostało czasu',
     },
+
+    //
+    hudAction: {
+        ru: 'Начать взлом',
+        ua: 'Почати злам',
+        en: 'Start hacking',
+        de: 'Hacken starten',
+        pl: 'Rozpocznij hakowanie',
+    },
+    noLockPick: {
+        ru: 'У вас нет отмычки',
+        ua: 'У вас немає відмички',
+        en: "You don't have a lockpick",
+        de: 'Du hast kein Dietrich',
+        pl: 'Nie masz wytrychu',
+    },
 };
