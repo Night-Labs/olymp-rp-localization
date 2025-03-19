@@ -13,6 +13,7 @@ import randomTruck from './randomTruck';
 import robbery from './robbery';
 import database from './database';
 import quests from './quests';
+import pointCapture from './pointCapture';
 
 export const faction = {
     factions,
@@ -28,6 +29,7 @@ export const faction = {
     robbery,
     database,
     quests,
+    pointCapture,
     ...cef,
     ...server,
     leader: {
