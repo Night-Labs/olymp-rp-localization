@@ -124,6 +124,13 @@ export const faction = {
         de: 'Ihre Organisation hat die maximale Anzahl an Rängen erreicht',
         pl: 'Twoja organizacja osiągnęła maksymalną liczbę rang',
     },
+    rankNameAlreadyExists: {
+        ru: 'Ранг с таким именем уже существует',
+        ua: 'Ранг з такою назвою вже існує',
+        en: 'A rank with this name already exists',
+        de: 'Ein Rang mit diesem Namen existiert bereits',
+        pl: 'Ranga o tej nazwie już istnieje',
+    },
     cantDeleteLastRank: {
         ru: 'Должно быть как минимум два ранга',
         ua: 'Має бути щонайменше два ранги',

@@ -451,4 +451,20 @@ export const items = {
             pl: 'Potężny i niezawodny kilof do pracy w kamieniołomie. Ciężki metalowy grot z łatwością rozbija kamień, a solidny uchwyt wytrzymuje każde obciążenie. Idealne narzędzie do wydobywania zasobów.',
         },
     },
+    lockpick: {
+        name: {
+            ru: 'Отмычка',
+            ua: 'Відмичка',
+            en: 'Lockpick',
+            de: 'Dietrich',
+            pl: 'Wytrych',
+        },
+        desc: {
+            ru: 'Используется для взлома замка машин и других замков, может сломаться при неудачном взломе будьте внимательны!',
+            ua: 'Використовується для злому замків автомобілів та інших замків, може зламатися при невдалому зломі — будьте уважні!',
+            en: 'Used to pick car locks and other locks, may break if the attempt fails – be careful!',
+            de: 'Wird verwendet, um Autoschlösser und andere Schlösser zu knacken, kann bei einem Fehlversuch brechen – seien Sie vorsichtig!',
+            pl: 'Służy do otwierania zamków samochodów i innych zamków, może się złamać przy nieudanej próbie – bądź ostrożny!',
+        },
+    },
 };
