@@ -143,4 +143,11 @@ export default {
         de: 'Du hast kein Dietrich',
         pl: 'Nie masz wytrychu',
     },
+    yourLockpickBroken: {
+        ru: 'Ваша отмычка сломалась',
+        ua: 'Ваша відмичка зламалась',
+        en: 'Your lockpick broke',
+        de: 'Dein Dietrich ist zerbrochen',
+        pl: 'Twoje wytrychy się złamały',
+    },
 };
