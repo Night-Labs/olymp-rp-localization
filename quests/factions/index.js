@@ -25,10 +25,10 @@ export default {
         },
         desc: {
             ru: 'Тачки сами себя не перегонят. Угони и доставь {{goalCount}} машин в нужное место — чисто, быстро, без следов. Покажи, кто тут лучший угонщик.',
-            ua: 'Тачки самі себе не переганяють. Угонуй і достав {{goalCount}} машин куди треба — чисто, швидко, без слідів. Покажи, хто тут найкращий викрадач.',
-            en: 'Cars won’t drive themselves. Steal and deliver {{goalCount}} vehicles to the right place — clean, fast, no traces. Show them who the top carjacker is.',
-            de: 'Autos fahren sich nicht von selbst. Klau und liefere {{goalCount}} Fahrzeuge zum Zielort – sauber, schnell, spurlos. Zeig, wer hier der beste Autodieb ist.',
-            pl: 'Auta same się nie przestawią. Ukradnij i dostarcz {{goalCount}} pojazdów we właściwe miejsce — czysto, szybko, bez śladów. Pokaż, kto tu jest najlepszym złodziejem aut.',
+            ua: 'Тачки самі себе не перегонять. Укради та достав {{goalCount}} машин у потрібне місце — чисто, швидко, без слідів. Покажи, хто тут найкращий викрадач.',
+            en: 'Cars won’t drive themselves. Steal and deliver {{goalCount}} cars to the right place — clean, fast, without a trace. Show who’s the best car thief.',
+            de: 'Autos fahren sich nicht von selbst. Klau und liefere {{goalCount}} Wagen sauber, schnell und spurlos ab. Zeig, wer hier der beste Autodieb ist.',
+            pl: 'Auta same się nie przestawią. Skradnij i dostarcz {{goalCount}} samochodów we właściwe miejsce — czysto, szybko, bez śladu. Pokaż, kto tu jest najlepszym złodziejem aut.',
         },
     },
     deliverGreenBlockFactionDailyQuest: {

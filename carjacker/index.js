@@ -150,4 +150,26 @@ export default {
         de: 'Dein Dietrich ist zerbrochen',
         pl: 'Twoje wytrychy się złamały',
     },
+    youHackedLockpick: {
+        ru: 'Вы взломали замок отмычкой',
+        ua: 'Ви зламали замок відмичкою',
+        en: 'You picked the lock',
+        de: 'Du hast das Schloss geknackt',
+        pl: 'Otworzyłeś zamek wytrychem',
+    },
+    youHackedEngine: {
+        ru: 'Вы смогли завезти двигатель',
+        ua: 'Вам вдалося завести двигун',
+        en: 'You managed to start the engine',
+        de: 'Du konntest den Motor starten',
+        pl: 'Udało ci się uruchomić silnik',
+    },
+    vehiclePdBlip: {
+        ru: "Угнанное авто",
+        ua: "Викрадене авто",
+        en: "Stolen vehicle",
+        de: "Gestohlenes Fahrzeug",
+        pl: "Skradziony pojazd"
+    }
+    
 };
