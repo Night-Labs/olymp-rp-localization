@@ -1,4 +1,19 @@
 export const cef = {
+    account: {
+        ru: 'Статус',
+        ua: 'Статус',
+        en: 'Status',
+        de: 'Status',
+        pl: 'Status',
+    },
+    balance: {
+        ru: 'Баланс',
+        ua: 'Баланс',
+        en: 'Balance',
+        de: 'Guthaben',
+        pl: 'Saldo',
+    },
+
     pages: {
         deposit: {
             ua: 'Поповнення',
@@ -219,6 +234,14 @@ export const cef = {
             en: 'discount',
             de: 'Rabatt',
             pl: 'zniżka',
+        },
+
+        defaultAccount: {
+            ru: 'Обычный',
+            ua: 'Звичайний',
+            en: 'Default',
+            de: 'Standard',
+            pl: 'Domyślny',
         },
 
         list: {
