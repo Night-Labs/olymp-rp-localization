@@ -315,12 +315,44 @@ export const cef = {
                 de: 'Verbrauch von Essen, Wasser und Ausdauer um {{value}}% reduziert.',
                 pl: 'Zużycie jedzenia, wody i wytrzymałości zmniejszone o {{value}}%.',
             },
+            timeForDailyCase: {
+                ru: 'Время для получения ежедневного кейса - {{value}}:00.',
+                ua: 'Час для отримання щоденного кейсу - {{value}}:00.',
+                en: 'Time for daily case - {{value}}:00.',
+                de: 'Zeit für den täglichen Fall - {{value}}:00.',
+                pl: 'Czas na codzienny przypadek - {{value}}:00.',
+            },
+            depositBalanceLimit: {
+                ru: 'Увеличение максимального баланса банковского вклада на {{value}}%.',
+                ua: 'Збільшення максимального балансу банківського вкладу на {{value}}%.',
+                en: 'Increase the maximum bank deposit balance by {{value}}%.',
+                de: 'Erhöhe das maximale Bankguthaben um {{value}}%.',
+                pl: 'Zwiększ maksymalne saldo depozytu bankowego o {{value}}%.',
+            },
             crown: {
                 ru: 'Корона возле вашего ника.',
                 ua: 'Корона біля вашого ніку.',
                 en: 'Crown next to your nickname.',
                 de: 'Krone neben deinem Nicknamen.',
                 pl: 'Korona obok twojego nicku.',
+            },
+        },
+
+        notify: {
+            warning: {
+                ru: 'Внимание',
+                ua: 'Увага',
+                en: 'Warning',
+                de: 'Achtung',
+                pl: 'Ostrzeżenie',
+            },
+
+            expired: {
+                ru: 'Время действия вашего {{value}} статуса истекло',
+                ua: 'Термін дії вашого {{value}} статусу закінчився',
+                en: 'Your {{value}} status has expired',
+                de: 'Ihre {{value}} Status ist abgelaufen',
+                pl: 'Twój status {{value}} wygasł',
             },
         },
     },
