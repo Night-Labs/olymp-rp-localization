@@ -5,6 +5,7 @@ import vagos from './vagos';
 import bloods from './bloods';
 import marabunta from './marabunta';
 import ems from './ems';
+import sang from './sang';
 
 export default {
     LSPD,
@@ -14,5 +15,6 @@ export default {
     vagos,
     bloods,
     marabunta,
-    ems
+    ems,
+    sang
 };
