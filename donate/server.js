@@ -124,7 +124,7 @@ export const server = {
             de: '{{exp}} Erfahrung im Steinbruch erhalten!',
             pl: 'Otrzymano {{exp}} doświadczenia w pracy w kamieniołomie!',
         },
-        
+
         currency: {
             ru: 'Получено ${{currency}}',
             ua: 'Отримано ${{currency}}',
@@ -158,6 +158,14 @@ export const server = {
             en: '{{item}} {{quantity}} pcs. added to your inventory',
             de: '{{item}} {{quantity}} Stk. in dein Inventar hinzugefügt',
             pl: '{{item}} {{quantity}} szt. dodano do twojego ekwipunku',
+        },
+
+        status: {
+            ru: 'Активирован {{status}} статус на {{days}} дней',
+            ua: 'Активовано {{status}} статус на {{days}} днів',
+            en: 'Activated {{status}} status for {{days}} days',
+            de: '{{status}} Status für {{days}} Tage aktiviert',
+            pl: 'Aktywowano status {{status}} na {{days}} dni',
         },
     },
 };
