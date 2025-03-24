@@ -6,6 +6,7 @@ import bloods from './bloods';
 import marabunta from './marabunta';
 import ems from './ems';
 import sang from './sang';
+import goverment from './goverment';
 
 export default {
     LSPD,
@@ -16,5 +17,6 @@ export default {
     bloods,
     marabunta,
     ems,
-    sang
+    sang,
+    goverment,
 };
