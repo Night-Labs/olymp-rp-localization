@@ -82,7 +82,7 @@ export const cef = {
             zh: '升级',
         },
 
-        suply: {
+        supply: {
             ru: 'Поставки',
             ua: 'Поставки',
             en: 'Supplies',
@@ -141,7 +141,7 @@ export const cef = {
             zh: '在这里，经理可以管理组织的改进',
         },
 
-        suply: {
+        supply: {
             ru: 'Тут можно заказывать поставки нужных вашей фракции материалов',
             ua: 'Тут можна замовляти поставки потрібних вашій фракції матеріалів',
             en: 'Here you can order supplies for your faction',

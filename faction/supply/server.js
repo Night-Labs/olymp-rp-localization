@@ -76,4 +76,18 @@ export default {
         de: 'Nicht genügend Materialien zum Entladen',
         pl: 'Niewystarczająca ilość materiałów do rozładunku',
     },
+    youStoleSupplyVehicle: {
+        ru: 'Отвезите этот транспорт на вашу базу',
+        ua: 'Відвезіть цей транспорт на вашу базу',
+        en: 'Drive this vehicle to your base',
+        de: 'Bringen Sie dieses Fahrzeug zu Ihrer Basis',
+        pl: 'Zawieź ten pojazd do swojej bazy',
+    },
+    trackingBlip: {
+        ru: 'Матовозка',
+        ua: 'Матовозка',
+        en: 'Mat Truck',
+        de: 'Matten-LKW',
+        pl: 'Ciężarówka z matami',
+    },
 };
