@@ -8,7 +8,7 @@ import logs from './logs';
 import inventory from './inventory';
 import airdrop from './airdrop';
 import plants from './plants';
-import suply from './suply';
+import supply from './supply';
 import randomTruck from './randomTruck';
 import robbery from './robbery';
 import database from './database';
@@ -23,7 +23,7 @@ export const faction = {
     inventory,
     logs,
     airdrop,
-    suply,
+    supply,
     plants,
     randomTruck,
     robbery,

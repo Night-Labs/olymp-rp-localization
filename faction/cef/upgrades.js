@@ -195,6 +195,35 @@ export default {
         zh: '包括你需要的一切，运动型电动汽车、无罪巡逻、屋顶上的直升机',
     },
 
+    // army
+    basicArmyCarsTitle: {
+        ru: 'Базовый транспорт',
+        ua: 'Базовий транспорт',
+        en: 'Basic Transport',
+        de: 'Basisfahrzeuge',
+        pl: 'Podstawowy transport',
+    },
+    basicArmyCarsDesc: {
+        ru: 'Включает в себя всё нужное, матовозки, куча транспорта. Больше чем в армии некоторых стран',
+        ua: 'Містить усе необхідне: матовозки, купу транспорту. Більше, ніж в армії деяких країн',
+        en: "Includes everything you need: supply trucks, tons of vehicles. More than some countries' armies have",
+        de: 'Enthält alles Notwendige: Versorgungsfahrzeuge, jede Menge Transportmittel. Mehr als manche Armeen haben',
+        pl: 'Zawiera wszystko, co potrzebne: ciężarówki zaopatrzeniowe, mnóstwo pojazdów. Więcej niż ma armia niektórych krajów',
+    },
+    betterArmyCarsTitle: {
+        ru: 'Дополнительные вертолёты',
+        ua: 'Додаткові гелікоптери',
+        en: 'Additional Helicopters',
+        de: 'Zusätzliche Hubschrauber',
+        pl: 'Dodatkowe helikoptery',
+    },
+    betterArmyCarsDesc: {
+        ru: 'Включает в себя 4 новых вертолёта карго боба готовых к любым полётам!',
+        ua: 'Містить 4 нові гелікоптери Карго Боба, готові до будь-яких польотів!',
+        en: 'Includes 4 new Cargo Bob helicopters ready for any flight!',
+        de: 'Enthält 4 neue Cargo-Bob-Hubschrauber, bereit für jeden Flug!',
+        pl: 'Zawiera 4 nowe helikoptery Cargo Bob gotowe na każdy lot!',
+    },
     // Gangs
     mediumGangCarsTitle: {
         ru: 'Премиум автомобили',
