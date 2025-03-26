@@ -112,11 +112,11 @@ export default {
         },
 
         yes: {
-            ru: 'Да!',
-            ua: 'Так!',
-            en: 'Yes!',
-            de: 'Ja!',
-            pl: 'Tak!',
+            ru: 'Да',
+            ua: 'Так',
+            en: 'Yes',
+            de: 'Ja',
+            pl: 'Tak',
             zh: '是的',
         },
 
@@ -127,6 +127,49 @@ export default {
             de: 'Nein',
             pl: 'Nie',
             zh: '不',
+        },
+
+        actions: {
+            sell: {
+                title: {
+                    ru: 'Продать ?',
+                    ua: 'Продати ?',
+                    en: 'Sell ?',
+                    de: 'Verkaufen ?',
+                    pl: 'Sprzedać ?',
+                },
+                desc: {
+                    ru: 'Вы действительно хотите продать {{name}} за {{price}} Olymp-Coins ?',
+                    ua: 'Ви дійсно хочете продати {{name}} за {{price}} Olymp-Coins ?',
+                    en: 'Do you really want to sell {{name}} for {{price}} Olymp-Coins?',
+                    de: 'Möchten Sie {{name}} wirklich für {{price}} Olymp-Coins verkaufen?',
+                    pl: 'Czy na pewno chcesz sprzedać {{name}} za {{price}} Olymp-Coins?',
+                },
+            },
+            receive: {
+                title: {
+                    ru: 'Получить ?',
+                    ua: 'Отримати ?',
+                    en: 'Get ?',
+                    de: 'Erhalten ?',
+                    pl: 'Otrzymać ?',
+                },
+                desc: {
+                    ru: 'Вы действительно хотите получить {{name}} со склада ?',
+                    ua: 'Ви дійсно хочете отримати {{name}} зі складу?',
+                    en: 'Do you really want to receive {{name}} from the warehouse?',
+                    de: 'Möchten Sie {{name}} wirklich aus dem Lager erhalten?',
+                    pl: 'Czy na pewno chcesz odebrać {{name}} z magazynu?',
+                },
+            },
+        },
+
+        statusWarning: {
+            ru: 'Обратите внимание! <br> При переходе на другой статус, оставшийся срок действия вашего текущего статуса будет аннулирован без конвертации и компенсации. <br> При активации аналогичного вашему статусу срок действия будет продлен.',
+            ua: 'Зверніть увагу! <br> При переході на інший статус, термін дії вашого поточного статусу буде анульовано без конвертації та компенсації. <br> При активації аналогічного вашому статусу термін дії буде продовжено.',
+            en: 'Attention! <br> When switching to another status, the remaining validity period of your current status will be canceled without conversion or compensation. <br> When activating a status similar to yours, the validity period will be extended.',
+            de: 'Achtung! <br> Beim Wechsel zu einem anderen Status verfällt die verbleibende Gültigkeitsdauer Ihres aktuellen Status ohne Umwandlung oder Entschädigung. <br> Bei Aktivierung eines ähnlichen Status wird die Gültigkeitsdauer verlängert.',
+            pl: 'Uwaga! <br> Przy przejściu na inny status, pozostały okres ważności twojego obecnego statusu zostanie anulowany bez konwersji i rekompensaty. <br> Przy aktywacji statusu analogicznego do twojego, okres ważności zostanie przedłużony.',
         },
     },
 };

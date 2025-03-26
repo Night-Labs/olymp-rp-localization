@@ -508,7 +508,7 @@ export const cef = {
             zh: '很遗憾，这里还没有任何东西，但只要你买了或赢了什么，它就会出现！',
         },
 
-        recive: {
+        receive: {
             ru: 'Забрать',
             ua: 'Отримати',
             en: 'Receive',
@@ -637,7 +637,7 @@ export const cef = {
             zh: '“恭喜你买了！',
         },
 
-        recive: {
+        receive: {
             ru: 'Забрать',
             ua: 'Отримати',
             en: 'Receive',
