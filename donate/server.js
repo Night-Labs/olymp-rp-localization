@@ -60,7 +60,7 @@ export const server = {
         zh: '请联系管理',
     },
 
-    recive: {
+    receive: {
         // Exp
 
         expMain: {
