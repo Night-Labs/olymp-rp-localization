@@ -4,6 +4,7 @@ import aidkit from './aidkit';
 import cooldowns from './cooldowns';
 import vitals from './vitals';
 import disease from './disease';
+import statuses from './statuses';
 
 export default {
     congratulations: {
@@ -36,4 +37,5 @@ export default {
     cooldowns,
     vitals,
     disease,
+    statuses,
 };

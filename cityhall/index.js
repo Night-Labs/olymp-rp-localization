@@ -250,6 +250,13 @@ export default {
                 de: 'Sie haben die Lizenz erfolgreich gekauft',
                 pl: 'Pomyślnie kupiłeś licencję',
             },
+            renewNotify: {
+                ru: 'Вы успешно возобновили лицензию',
+                ua: 'Ви успішно відновили ліцензію',
+                en: 'You have successfully renewed the license',
+                de: 'Sie haben die Lizenz erfolgreich verlängert',
+                pl: 'Pomyślnie odnowiłeś licencję',
+            },
         },
     },
 };
