@@ -1,7 +1,7 @@
 import cef from './cef';
 
 export default {
-    modal: {
+    weaponModal: {
         title: {
             ru: 'Получение лицензии на оружие',
             ua: 'Отримання ліцензії на зброю',
@@ -66,7 +66,7 @@ export default {
         },
     },
 
-    restoreModal: {
+    restoreWeaponModal: {
         title: {
             ru: 'Восстановление лицензии на оружие',
             ua: 'Відновлення ліцензії на зброю',

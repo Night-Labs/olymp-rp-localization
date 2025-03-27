@@ -1,10 +1,10 @@
 export default {
     licensesDiscountNotify: {
-        ru: 'Так как у вас {{status}} скидка {{discount}}%',
-        ua: 'Оскільки у вас {{status}}, знижка {{discount}}%',
-        en: 'Since you have {{status}}, a discount of {{discount}}%',
-        de: 'Da Sie den Status {{status}} haben, erhalten Sie {{discount}}% Rabatt',
-        pl: 'Ponieważ masz status {{status}}, otrzymujesz {{discount}}% zniżki',
+        ru: 'Так как у вас {{status}} скидка на лицензию {{discount}}%',
+        ua: 'Оскільки у вас {{status}} знижка на ліцензію {{discount}}%',
+        en: 'Since you have a {{status}} discount on the license of {{discount}}%',
+        de: 'Da Sie einen {{status}} Rabatt auf die Lizenz von {{discount}}% haben',
+        pl: 'Ponieważ masz {{status}} zniżkę na licencję w wysokości {{discount}}%',
     },
     deliveryVehicleDiscountNotify: {
         ru: 'Так как у вас {{status}} скидка на доставку {{discount}}%',
