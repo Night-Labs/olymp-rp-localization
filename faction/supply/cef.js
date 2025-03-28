@@ -131,4 +131,64 @@ export default {
             },
         },
     },
+    titleOrders: {
+        ru: 'ЗАЯВКИ НА <span style="color: var(--primary)">ПОСТАВКИ</span>',
+        ua: 'ЗАЯВКИ НА <span style="color: var(--primary)">ПОСТАВКИ</span>',
+        en: 'ORDERS FOR <span style="color: var(--primary)">SUPPLIES</span>',
+        de: 'BESTELLUNGEN FÜR <span style="color: var(--primary)">LIEFERUNGEN</span>',
+        pl: 'ZAMÓWIENIA NA <span style="color: var(--primary)">DOSTAWY</span>',
+    },
+    clientCell: {
+        ru: 'Заказчик',
+        ua: 'Замовник',
+        en: 'Client',
+        de: 'Kunde',
+        pl: 'Zamawiający',
+    },
+    executorCell: {
+        ru: 'Исполнитель',
+        ua: 'Виконавець',
+        en: 'Executor',
+        de: 'Ausführer',
+        pl: 'Wykonawca',
+    },
+    typeCell: {
+        ru: 'Тип',
+        ua: 'Тип',
+        en: 'Type',
+        de: 'Typ',
+        pl: 'Typ',
+    },
+    quantityCell: {
+        ru: 'Количество',
+        ua: 'Кількість',
+        en: 'Quantity',
+        de: 'Menge',
+        pl: 'Ilość',
+    },
+    dateCell: {
+        ru: 'Дата заказа',
+        ua: 'Дата замовлення',
+        en: 'Order Date',
+        de: 'Bestelldatum',
+        pl: 'Data zamówienia',
+    },
+    statusCell: {
+        ru: 'Статус',
+        ua: 'Статус',
+        en: 'Status',
+        de: 'Status',
+        pl: 'Status',
+    },
+    orderStatus: {
+        active: {
+            ru: 'Активный',
+        },
+        waiting: {
+            ru: 'Принять',
+        },
+        completed: {
+            ru: 'Выполнен',
+        },
+    },
 };

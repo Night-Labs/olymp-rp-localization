@@ -13,4 +13,11 @@ export default {
         de: 'Da Sie den Status {{status}} haben, erhalten Sie {{discount}}% Rabatt auf die Lieferung',
         pl: 'Ponieważ masz status {{status}}, otrzymujesz {{discount}}% zniżki na dostawę',
     },
+    jobBonusNotify: {
+        ru: '{{status}} - бонус к зарплате ${{bonus}}',
+        ua: '{{status}} - бонус до зарплати ${{bonus}}',
+        en: '{{status}} - salary bonus ${{bonus}}',
+        de: '{{status}} – Gehaltsbonus ${{bonus}}',
+        pl: '{{status}} – premia do pensji ${{bonus}}',
+    },
 };
