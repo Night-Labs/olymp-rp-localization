@@ -122,12 +122,19 @@ export default {
                 de: 'In Bearbeitung',
                 pl: 'W trakcie',
             },
-            waiting: {
+            pending: {
                 ru: 'В ожидании',
                 ua: 'В очікуванні',
                 en: 'Waiting',
                 de: 'Wartend',
                 pl: 'Oczekuje',
+            },
+            completed: {
+                ru: 'Выполнен',
+                ua: 'Виконано',
+                en: 'Completed',
+                de: 'Abgeschlossen',
+                pl: 'Wykonano',
             },
         },
     },
