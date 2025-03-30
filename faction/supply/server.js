@@ -90,4 +90,21 @@ export default {
         de: 'Matten-LKW',
         pl: 'Ciężarówka z matami',
     },
+    acceptedSupplyGoverment: {
+        ru: 'Вы успешно подтвердили эту поставку, соотвествующая фракция выполнит её',
+        ua: 'Ви успішно підтвердили цю поставку, відповідна фракція виконає її',
+        en: 'You have successfully confirmed this supply, the corresponding faction will fulfill it',
+        de: 'Sie haben diese Lieferung erfolgreich bestätigt, die entsprechende Fraktion wird sie ausführen',
+        pl: 'Pomyślnie potwierdziłeś tę dostawę, odpowiednia frakcja ją zrealizuje',
+    },
+    executorHasLowOnline: {
+        ru: 'Текущая фракция исполнителя имеет недостаточный онлайн чтобы выполнить эту поставку',
+        ua: 'Поточна фракція виконавця має недостатній онлайн, щоб виконати цю поставку',
+        en: "The executor's current faction has insufficient online presence to complete this delivery",
+        de: 'Die aktuelle Fraktion des Ausführers hat nicht genügend Online-Präsenz, um diese Lieferung abzuschließen',
+        pl: 'Obecna frakcja wykonawcy ma niewystarczającą liczbę graczy online, aby zrealizować tę dostawę',
+    },
+    supplyAlreadyActive: {
+        ru: 'Эта поставка уже активна',
+    },
 };
