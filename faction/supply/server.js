@@ -106,5 +106,30 @@ export default {
     },
     supplyAlreadyActive: {
         ru: 'Эта поставка уже активна',
+        ua: 'Ця поставка вже активна',
+        en: 'This supply is already active',
+        de: 'Diese Lieferung ist bereits aktiv',
+        pl: 'Ta dostawa jest już aktywna',
+    },
+    startSupplyExecutorMessage: {
+        ru: 'Начинается поставка, скорее готовьте машины и отправляйтесь на неё!',
+        ua: 'Починається поставка, скоріше готуйте машини та вирушайте на неї!',
+        en: 'A supply run is starting, quickly prepare your vehicles and head out!',
+        de: 'Eine Lieferung beginnt, bereitet schnell eure Fahrzeuge vor und macht euch auf den Weg!',
+        pl: 'Rozpoczyna się dostawa, szybko przygotujcie pojazdy i ruszajcie w drogę!',
+    },
+    startClientSupplyMessage: {
+        ru: 'Вашу заявку на поставку оформили, скоро вам привезут материалы',
+        ua: 'Вашу заявку на поставку оформили, скоро вам привезуть матеріали',
+        en: 'Your supply request has been processed, materials will be delivered to you soon',
+        de: 'Ihre Lieferanfrage wurde bearbeitet, Materialien werden Ihnen bald geliefert',
+        pl: 'Twoje zamówienie na dostawę zostało przetworzone, materiały zostaną wkrótce dostarczone',
+    },
+    govermentMessage: {
+        ru: 'Пришла новая заявка на поставку материалов',
+        ua: 'Надійшла нова заявка на поставку матеріалів',
+        en: 'A new request for the supply of materials has arrived',
+        de: 'Eine neue Anfrage zur Lieferung von Materialien ist eingegangen',
+        pl: 'Nadeszło nowe zgłoszenie na dostawę materiałów',
     },
 };
