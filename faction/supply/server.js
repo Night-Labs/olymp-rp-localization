@@ -119,11 +119,11 @@ export default {
         pl: 'Rozpoczyna się dostawa, szybko przygotujcie pojazdy i ruszajcie w drogę!',
     },
     startClientSupplyMessage: {
-        ru: 'Вашу заявку на поставку оформили, скоро вам привезут материалы',
-        ua: 'Вашу заявку на поставку оформили, скоро вам привезуть матеріали',
-        en: 'Your supply request has been processed, materials will be delivered to you soon',
-        de: 'Ihre Lieferanfrage wurde bearbeitet, Materialien werden Ihnen bald geliefert',
-        pl: 'Twoje zamówienie na dostawę zostało przetworzone, materiały zostaną wkrótce dostarczone',
+        ru: 'Вашу заявку на поставку одобрили в правительстве, скоро вам привезут материалы',
+        ua: 'Вашу заявку на постачання схвалили в уряді, скоро вам привезуть матеріали',
+        en: 'Your supply request has been approved by the government, materials will be delivered to you soon',
+        de: 'Ihr Lieferantrag wurde von der Regierung genehmigt, die Materialien werden Ihnen bald zugestellt',
+        pl: 'Twój wniosek o dostawę został zatwierdzony przez rząd, wkrótce materiały zostaną ci dostarczone',
     },
     govermentMessage: {
         ru: 'Пришла новая заявка на поставку материалов',
