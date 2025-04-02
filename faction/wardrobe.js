@@ -73,4 +73,11 @@ export default {
         de: 'Nichts',
         pl: 'Nic',
     },
+    style: {
+        ru: 'Стиль',
+        ua: 'Стиль',
+        en: 'Style',
+        de: 'Stil',
+        pl: 'Styl',
+    },
 };
