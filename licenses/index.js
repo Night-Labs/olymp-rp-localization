@@ -204,12 +204,11 @@ export default {
         zh: '钓鱼用品',
     },
     military: {
-        ru: 'Военная',
-        ua: 'Військова',
-        en: 'Military',
-        de: 'Militär',
-        pl: 'Wojskowa',
-        zh: '军事',
+        ru: 'Военный билет',
+        ua: 'Військовий квиток',
+        en: 'Military ID',
+        de: 'Militärausweis',
+        pl: 'Legitymacja wojskowa',
     },
     hunting: {
         ru: 'На охоту',
