@@ -1,6 +1,7 @@
 import { cases } from './cases';
 import { cef } from './cef';
 import { server } from './server';
+import { features } from './items/features';
 
 export default {
     ...cef,
@@ -171,5 +172,9 @@ export default {
             de: 'Achtung! <br> Beim Wechsel zu einem anderen Status verfällt die verbleibende Gültigkeitsdauer Ihres aktuellen Status ohne Umwandlung oder Entschädigung. <br> Bei Aktivierung eines ähnlichen Status wird die Gültigkeitsdauer verlängert.',
             pl: 'Uwaga! <br> Przy przejściu na inny status, pozostały okres ważności twojego obecnego statusu zostanie anulowany bez konwersji i rekompensaty. <br> Przy aktywacji statusu analogicznego do twojego, okres ważności zostanie przedłużony.',
         },
+    },
+
+    items: {
+        features,
     },
 };
