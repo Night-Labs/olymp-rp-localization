@@ -120,6 +120,30 @@ export const cef = {
             zh: '你可以用捐赠的货币购买玩具货币，也可以用玩具货币购买汽车、衣服、食物、武器等',
         },
     },
+    features: {
+        title: {
+            ru: 'Дополнительные услуги',
+            ua: 'Додаткові послуги',
+            en: 'Additional services',
+            de: 'Zusätzliche Dienstleistungen',
+            pl: 'Dodatkowe usługi',
+        },
+        text: {
+            ru: 'Нужны особые решения? Загляните сюда, чтобы получить доступ к эксклюзивным игровым сервисам.',
+            ua: 'Потрібні особливі рішення? Завітайте сюди, щоб отримати доступ до ексклюзивних ігрових сервісів.',
+            en: 'Need special solutions? Look here to access exclusive gaming services.',
+            de: 'Benötigen Sie spezielle Lösungen? Schauen Sie hier, um auf exklusive Spieledienste zuzugreifen.',
+            pl: 'Potrzebujesz specjalnych rozwiązań? Zajrzyj tutaj, aby uzyskać dostęp do ekskluzywnych usług gamingowych.',
+        },
+        buy: {
+            ru: 'Купить',
+            ua: 'Купити',
+            en: 'Buy',
+            de: 'Kaufen',
+            pl: 'Kupić',
+            zh: '购买',
+        },
+    },
     vehicle: {
         title: {
             ua: 'Автомобілі',
@@ -316,11 +340,11 @@ export const cef = {
                 pl: 'Zużycie jedzenia, wody i wytrzymałości zmniejszone o {{value}}%.',
             },
             timeForDailyCase: {
-                ru: 'Время для получения ежедневного кейса - {{value}}:00.',
-                ua: 'Час для отримання щоденного кейсу - {{value}}:00.',
-                en: 'Time for daily case - {{value}}:00.',
-                de: 'Zeit für den täglichen Fall - {{value}}:00.',
-                pl: 'Czas na codzienny przypadek - {{value}}:00.',
+                ru: 'Время для получения ежедневного кейса - 0{{value}}:00.',
+                ua: 'Час для отримання щоденного кейсу - 0{{value}}:00.',
+                en: 'Time for daily case - 0{{value}}:00.',
+                de: 'Zeit für den täglichen Fall - 0{{value}}:00.',
+                pl: 'Czas na codzienny przypadek - 0{{value}}:00.',
             },
             depositBalanceLimit: {
                 ru: 'Увеличение максимального баланса банковского вклада на {{value}}%.',
