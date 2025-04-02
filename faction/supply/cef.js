@@ -122,12 +122,19 @@ export default {
                 de: 'In Bearbeitung',
                 pl: 'W trakcie',
             },
-            waiting: {
+            pending: {
                 ru: 'В ожидании',
                 ua: 'В очікуванні',
                 en: 'Waiting',
                 de: 'Wartend',
                 pl: 'Oczekuje',
+            },
+            completed: {
+                ru: 'Выполнен',
+                ua: 'Виконано',
+                en: 'Completed',
+                de: 'Abgeschlossen',
+                pl: 'Wykonano',
             },
         },
     },
@@ -181,14 +188,33 @@ export default {
         pl: 'Status',
     },
     orderStatus: {
-        active: {
-            ru: 'Активный',
-        },
-        waiting: {
+        accept: {
             ru: 'Принять',
+            ua: 'Прийняти',
+            en: 'Accept',
+            de: 'Akzeptieren',
+            pl: 'Akceptuj',
+        },
+        active: {
+            ru: 'Выполняется',
+            ua: 'Виконується',
+            en: 'Active',
+            de: 'Aktiv',
+            pl: 'Aktywny',
         },
         completed: {
             ru: 'Выполнен',
+            ua: 'Виконано',
+            en: 'Completed',
+            de: 'Abgeschlossen',
+            pl: 'Zakończony',
+        },
+        canceled: {
+            ru: 'Отменён',
+            ua: 'Скасовано',
+            en: 'Canceled',
+            de: 'Abgebrochen',
+            pl: 'Anulowano',
         },
     },
 };

@@ -189,4 +189,11 @@ export const faction = {
         de: 'Um einem Spieler eine Verwarnung zu geben, muss er online sein',
         pl: 'Aby dać ostrzeżenie graczowi, musi być online',
     },
+    orderedSupply: {
+        ru: 'Вы оформил заявку на поствку материалов, ожидайте пока её примет правительство',
+        ua: 'Ви оформили заявку на поставку матеріалів, очікуйте, поки її прийме уряд',
+        en: 'You have placed an order for the supply of materials, please wait for the government to accept it',
+        de: 'Sie haben eine Bestellung für die Lieferung von Materialien aufgegeben. Bitte warten Sie, bis die Regierung sie annimmt.',
+        pl: 'Złożyłeś zamówienie na dostawę materiałów, poczekaj, aż rząd je zaakceptuje.',
+    },
 };

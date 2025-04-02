@@ -201,4 +201,13 @@ export default {
         de: 'Verweise erteilen',
         pl: 'Wystawiać nagany',
     },
+
+    //
+    manageGovermentSupply: {
+        ru: 'Управление поставками',
+        ua: 'Управління поставками',
+        en: 'Manage Government Supply',
+        de: 'Verwaltung der Regierungsversorgung',
+        pl: 'Zarządzanie dostawami rządowymi',
+    },
 };

@@ -252,4 +252,62 @@ export const server = {
         de: '~r~[OLYMP ADMIN] {{name}} ist zu verdächtig, überprüfen Sie ihn sofort! Grund: {{reason}}',
         pl: '~r~[OLYMP ADMIN] {{name}} jest zbyt podejrzany, sprawdź go natychmiast! Powód: {{reason}}',
     },
+
+    // Короче фракционная поебота
+    freeFactionsTitle: {
+        ru: 'Свободные фракции',
+        ua: 'Вільні фракції',
+        en: 'Free Factions',
+        de: 'Freie Fraktionen',
+        pl: 'Wolne Frakcje',
+    },
+    takenFactionsTitle: {
+        ru: 'Занятые фракции',
+        ua: 'Зайняті фракції',
+        en: 'Taken Factions',
+        de: 'Besetzte Fraktionen',
+        pl: 'Zajęte Frakcje',
+    },
+    youBeenTakenLeader: {
+        ru: 'Вы были сняты с поста лидера фракции {{faction}}',
+        ua: 'Вас було знято з посади лідера фракції {{faction}}',
+        en: 'You have been removed from the leader position of the {{faction}} faction',
+        de: 'Du wurdest von deinem Posten als Anführer der Fraktion {{faction}} entfernt',
+        pl: 'Zostałeś zdjęty ze stanowiska lidera frakcji {{faction}}',
+    },
+    youTakedOffLeader: {
+        ru: 'Вы сняли {{name}} с лидерки {{faction}}',
+        ua: 'Ви зняли {{name}} з лідерства {{faction}}',
+        en: 'You removed {{name}} from the leader position of {{faction}}',
+        de: 'Du hast {{name}} von der Führungsposition von {{faction}} entfernt',
+        pl: 'Zdjąłeś {{name}} ze stanowiska lidera {{faction}}',
+    },
+    youSettedPlayerAsLeaderOfFaction: {
+        ru: 'Вы установили {{name}} лидером фракции {{faction}}',
+        ua: 'Ви встановили {{name}} лідером фракції {{faction}}',
+        en: 'You set {{name}} as the leader of the {{faction}} faction',
+        de: 'Du hast {{name}} zum Anführer der Fraktion {{faction}} ernannt',
+        pl: 'Ustanowiłeś {{name}} liderem frakcji {{faction}}',
+    },
+    youNowLeaderOfFaction: {
+        ru: 'Администратор {{name}} назначил вас лидером фракции {{faction}}',
+        ua: 'Адміністратор {{name}} призначив вас лідером фракції {{faction}}',
+        en: 'Administrator {{name}} has appointed you as the leader of the {{faction}} faction',
+        de: 'Administrator {{name}} hat dich zum Anführer der Fraktion {{faction}} ernannt',
+        pl: 'Administrator {{name}} mianował cię liderem frakcji {{faction}}',
+    },
+    youJustTakenOffFroFaction: {
+        ru: 'Вы выгнали {{name}} из фракции {{faction}}',
+        ua: 'Ви вигнали {{name}} з фракції {{faction}}',
+        en: 'You kicked {{name}} from the faction {{faction}}',
+        de: 'Du hast {{name}} aus der Fraktion {{faction}} entfernt',
+        pl: 'Wyrzuciłeś/aś {{name}} z frakcji {{faction}}',
+    },
+    justTakenOffFroFaction: {
+        ru: 'Вы были выгнаны из фракции администратором',
+        ua: 'Вас було виключено з фракції адміністратором',
+        en: 'You have been removed from the faction by an administrator',
+        de: 'Du wurdest von einem Administrator aus der Fraktion entfernt',
+        pl: 'Zostałeś usunięty z frakcji przez administratora',
+    },
 };
