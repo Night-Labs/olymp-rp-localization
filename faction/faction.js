@@ -75,6 +75,13 @@ export const faction = {
         pl: 'Niewystarczające uprawnienia',
         zh: '权利不足',
     },
+    startedRespawnVehicles: {
+        ru: 'Вы запустили респавн всех фракционных машин, он будет через минуту',
+        ua: 'Ви запустили респавн всіх фракційних машин, він буде через хвилину',
+        en: 'You started the respawn of all faction vehicles, it will be in a minute',
+        de: 'Sie haben den Respawn aller Fraktionsfahrzeuge gestartet, er wird in einer Minute erfolgen',
+        pl: 'Rozpocząłeś odradzanie się wszystkich pojazdów frakcyjnych, nastąpi to za minutę',
+    },
     startedRespawnTimer: {
         ru: 'Через 1 минуту все фракционные авто будут зареспавнены',
         ua: 'Через 1 хвилину всі фракційні авто будуть зареспавнені',
