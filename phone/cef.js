@@ -123,7 +123,7 @@ export const cef = {
             },
             buttons: {
                 spawn: {
-                    spawn: {
+                    despawn: {
                         ua: 'Прибрати',
                         en: 'Remove',
                         ru: 'Убрать',
@@ -131,7 +131,7 @@ export const cef = {
                         pl: 'Usuń',
                         zh: '移除',
                     },
-                    secondLabel: {
+                    spawn: {
                         ua: 'Спавнити',
                         en: 'Spawn',
                         ru: 'Заспавнить',
@@ -236,6 +236,15 @@ export const cef = {
                         de: '(Kostenlos)',
                         pl: '(Bezpłatnie)',
                         zh: '(Free)',
+                    },
+                },
+                restore: {
+                    restore: {
+                        ru: 'Восстановить',
+                        ua: 'Відновити',
+                        en: 'Restore',
+                        de: 'Wiederherstellen',
+                        pl: 'Przywrócić',
                     },
                 },
             },
