@@ -6,7 +6,7 @@ export const cef = {
             ru: 'Ваш транспорт',
             de: 'Deine Fahrzeuge',
             pl: 'Twoje pojazdy',
-           zh:'你的汽车',
+            zh: '你的汽车',
         },
         findInput: {
             ua: 'Пошук автомобілів за назвою',
@@ -14,7 +14,7 @@ export const cef = {
             ru: 'Поиск машин по названию',
             de: 'Suche nach Fahrzeugen nach Namen',
             pl: 'Wyszukaj pojazdy po nazwie',
-           zh:'按名称搜索车辆',
+            zh: '按名称搜索车辆',
         },
         noVehicles: {
             ua: 'У вас немає транспорту',
@@ -22,9 +22,25 @@ export const cef = {
             ru: 'У вас нет транспорта',
             de: 'Du hast keine Fahrzeuge',
             pl: 'Nie masz żadnych pojazdów',
-            zh:'你没有车辆',
+            zh: '你没有车辆',
         },
         control: {
+            engines: {
+                electric: {
+                    ru: 'Электрический',
+                    ua: 'Електричний',
+                    en: 'Electric',
+                    de: 'Elektrisch',
+                    pl: 'Elektryczny',
+                },
+                gasoline: {
+                    ru: 'Бензиновый',
+                    ua: 'Бензиновий',
+                    en: 'Gasoline',
+                    de: 'Benzin',
+                    pl: 'Benzynowy',
+                },
+            },
             info: {
                 price: {
                     ua: 'Ціна',
@@ -32,7 +48,7 @@ export const cef = {
                     ru: 'Цена',
                     de: 'Preis',
                     pl: 'Cena',
-                   zh:'价格',
+                    zh: '价格',
                 },
                 plate: {
                     ua: 'Номери',
@@ -40,7 +56,7 @@ export const cef = {
                     ru: 'Номера',
                     de: 'Kennzeichen',
                     pl: 'Tablica rejestracyjna',
-                    zh:'盘子',
+                    zh: '盘子',
                 },
                 fuel: {
                     ua: 'Паливо',
@@ -48,7 +64,15 @@ export const cef = {
                     ru: 'Топливо',
                     de: 'Kraftstoff',
                     pl: 'Paliwo',
-                    zh:'燃料',
+                    zh: '燃料',
+                },
+                trunk: {
+                    ru: 'Багажник',
+                    ua: 'Багажник',
+                    en: 'Trunk',
+                    de: 'Kofferraum',
+                    pl: 'Bagażnik',
+                    zh: '树干',
                 },
                 class: {
                     ua: 'Клас',
@@ -56,7 +80,21 @@ export const cef = {
                     ru: 'Класс',
                     de: 'Klasse',
                     pl: 'Klasa',
-                    zh:'班级',
+                    zh: '班级',
+                },
+                engine: {
+                    ru: 'Тип двигателя',
+                    ua: 'Тип двигуна',
+                    en: 'Engine type',
+                    de: 'Motortyp',
+                    pl: 'Typ silnika',
+                },
+                health: {
+                    ru: 'Состояние',
+                    ua: 'Стан',
+                    en: 'Condition',
+                    de: 'Zustand',
+                    pl: 'Stan',
                 },
                 mileage: {
                     ua: 'Пробіг',
@@ -64,18 +102,34 @@ export const cef = {
                     ru: 'Пробег',
                     de: 'Kilometerstand',
                     pl: 'Przebieg',
-                    zh:'里程数',
+                    zh: '里程数',
+                },
+                speed: {
+                    ua: 'Швидкість',
+                    en: 'Speed',
+                    ru: 'Скорость',
+                    de: 'Geschwindigkeit',
+                    pl: 'Prędkość',
+                    zh: '速度',
+                },
+                pessangers: {
+                    ua: 'Вмістимість',
+                    en: 'Passenger capacity',
+                    ru: 'Вместительность',
+                    de: 'Passagierkapazität',
+                    pl: 'Pojemność pasażerów',
+                    zh: '核载人数',
                 },
             },
             buttons: {
                 spawn: {
-                    firstLabel: {
+                    spawn: {
                         ua: 'Прибрати',
                         en: 'Remove',
                         ru: 'Убрать',
                         de: 'Entfernen',
                         pl: 'Usuń',
-                       zh:'移除',
+                        zh: '移除',
                     },
                     secondLabel: {
                         ua: 'Спавнити',
@@ -83,25 +137,25 @@ export const cef = {
                         ru: 'Заспавнить',
                         de: 'Spawnen',
                         pl: 'Spawnuj',
-                        zh:'重生',
+                        zh: '重生',
                     },
                 },
                 blip: {
-                    firstLabel: {
+                    remove: {
                         ua: 'Прибрати позначку',
                         en: 'Remove Blip',
                         ru: 'Убрать метку',
                         de: 'Blip entfernen',
                         pl: 'Usuń oznaczenie',
-                        zh:'删除信号',
+                        zh: '删除信号',
                     },
-                    secondLabel: {
+                    show: {
                         ua: 'Показати на карті',
                         en: 'Show on Map',
                         ru: 'Показать на карте',
                         de: 'Auf Karte anzeigen',
                         pl: 'Pokaż na mapie',
-                        zh:'在地图上显示我的位置',
+                        zh: '在地图上显示我的位置',
                     },
                 },
                 evacuated: {
@@ -111,7 +165,7 @@ export const cef = {
                         ru: 'Эвакуировать',
                         de: 'Evakuieren',
                         pl: 'Ewakuuj',
-                       zh:'撤离',
+                        zh: '撤离',
                     },
                     additionalText: {
                         ua: '(${{price}})',
@@ -119,25 +173,25 @@ export const cef = {
                         ru: '(${{price}})',
                         de: '(${{price}})',
                         pl: '(${{price}})',
-                        zh:'(${{price}})',
+                        zh: '(${{price}})',
                     },
                 },
-                locked: {
-                    firstLabel: {
+                lock: {
+                    unlock: {
                         ua: 'Відкрити',
                         en: 'Unlock',
                         ru: 'Открыть',
                         de: 'Entsperren',
                         pl: 'Odblokuj',
-                        zh:'开锁',
+                        zh: '开锁',
                     },
-                    secondLabel: {
+                    lock: {
                         ua: 'Закрити',
                         en: 'Lock',
                         ru: 'Закрыть',
                         de: 'Sperren',
                         pl: 'Zablokuj',
-                        zh:'锁',
+                        zh: '锁',
                     },
                 },
                 kickAll: {
@@ -147,25 +201,25 @@ export const cef = {
                         ru: 'Выгнать всех',
                         de: 'Alle rausschmeißen',
                         pl: 'Wyrzuć wszystkich',
-                       zh:'踢掉所有',
+                        zh: '踢掉所有',
                     },
                 },
                 delivery: {
-                    firstLabel: {
+                    cancel: {
                         ua: 'Скасувати доставку',
                         en: 'Cancel Delivery',
                         ru: 'Отменить доставку',
                         de: 'Lieferung abbrechen',
                         pl: 'Anuluj dostawę',
-                        zh:'取消运送',
+                        zh: '取消运送',
                     },
-                    secondLabel: {
+                    delivery: {
                         ua: 'Доставити до себе',
                         en: 'Deliver to Me',
                         ru: 'Доставить к себе',
                         de: 'Zu mir liefern',
                         pl: 'Dostarcz do mnie',
-                       zh:'交给我',
+                        zh: '交给我',
                     },
                     additionalText: {
                         ua: '(${{price}})',
@@ -173,7 +227,7 @@ export const cef = {
                         ru: '(${{price}})',
                         de: '(${{price}})',
                         pl: '(${{price}})',
-                       zh:'(${{price}})',
+                        zh: '(${{price}})',
                     },
                     free: {
                         ua: '(Безкоштовно)',
@@ -181,8 +235,8 @@ export const cef = {
                         ru: '(Бесплатно)',
                         de: '(Kostenlos)',
                         pl: '(Bezpłatnie)',
-                        zh:'(Free)',
-                    }
+                        zh: '(Free)',
+                    },
                 },
             },
             deliveryInProcess: {
@@ -191,7 +245,7 @@ export const cef = {
                 ru: 'Доставка идёт',
                 de: 'Lieferung läuft',
                 pl: 'Trwa dostawa',
-                zh:'正在交货',
+                zh: '正在交货',
             },
             delivery: {
                 ua: 'Доставити до себе',
@@ -199,7 +253,7 @@ export const cef = {
                 ru: 'Доставить к себе',
                 de: 'Zu mir liefern',
                 pl: 'Dostarcz do mnie',
-                zh:'交给我',
+                zh: '交给我',
             },
             unavailable: {
                 ua: 'Недоступно',
@@ -207,7 +261,7 @@ export const cef = {
                 ru: 'Недоступно',
                 de: 'Nicht verfügbar',
                 pl: 'Niedostępne',
-                zh:'不可用',
+                zh: '不可用',
             },
             vehicleClasses: {
                 compact: {
@@ -216,7 +270,7 @@ export const cef = {
                     ru: 'Компактные',
                     de: 'Kompakt',
                     pl: 'Kompaktowe',
-                    zh:'紧凑型',
+                    zh: '紧凑型',
                 },
                 sedan: {
                     ua: 'Седани',
@@ -224,7 +278,7 @@ export const cef = {
                     ru: 'Седаны',
                     de: 'Limousinen',
                     pl: 'Sedany',
-                    zh:'车型',
+                    zh: '车型',
                 },
                 suv: {
                     ua: 'Позашляховики',
@@ -232,7 +286,7 @@ export const cef = {
                     ru: 'Внедорожники',
                     de: 'SUVs',
                     pl: 'SUV-y',
-                    zh:'SUVs',
+                    zh: 'SUVs',
                 },
                 coupe: {
                     ua: 'Купе',
@@ -240,7 +294,7 @@ export const cef = {
                     ru: 'Купе',
                     de: 'Coupés',
                     pl: 'Coupé',
-                    zh:'轿车',
+                    zh: '轿车',
                 },
                 muscle: {
                     ua: `М'юскл-кари`,
@@ -248,7 +302,7 @@ export const cef = {
                     ru: 'Мускул-кары',
                     de: 'Muscle Cars',
                     pl: 'Muscle Cars',
-                     zh:'肌肉车',
+                    zh: '肌肉车',
                 },
                 classicSport: {
                     ua: 'Класичні спорткари',
@@ -256,7 +310,7 @@ export const cef = {
                     ru: 'Классические спорткары',
                     de: 'Klassische Sportwagen',
                     pl: 'Klasyczne samochody sportowe',
-                    zh:'经典跑车',
+                    zh: '经典跑车',
                 },
                 sports: {
                     ua: 'Спортивні автомобілі',
@@ -264,7 +318,7 @@ export const cef = {
                     ru: 'Спортивные автомобили',
                     de: 'Sportwagen',
                     pl: 'Samochody sportowe',
-                    zh:'越野车',
+                    zh: '越野车',
                 },
                 super: {
                     ua: 'Суперкари',
@@ -272,7 +326,7 @@ export const cef = {
                     ru: 'Суперкары',
                     de: 'Supersportwagen',
                     pl: 'Supersamochody',
-                    zh:'超级跑车',
+                    zh: '超级跑车',
                 },
                 motorcycles: {
                     ua: 'Мотоцикли',
@@ -280,7 +334,7 @@ export const cef = {
                     ru: 'Мотоциклы',
                     de: 'Motorräder',
                     pl: 'Motocykle',
-                    zh:'摩托车',
+                    zh: '摩托车',
                 },
                 industrial: {
                     ua: 'Промислові',
@@ -288,7 +342,7 @@ export const cef = {
                     ru: 'Промышленные',
                     de: 'Industriell',
                     pl: 'Przemysłowe',
-                    zh:'工业车辆',
+                    zh: '工业车辆',
                 },
                 utility: {
                     ua: 'Утилітарні',
@@ -296,7 +350,7 @@ export const cef = {
                     ru: 'Утилитарные',
                     de: 'Nutzfahrzeuge',
                     pl: 'Użytkowe',
-                    zh:'公共服务',
+                    zh: '公共服务',
                 },
                 vans: {
                     ua: 'Фургони',
@@ -304,7 +358,7 @@ export const cef = {
                     ru: 'Фургоны',
                     de: 'Lieferwagen',
                     pl: 'Vany',
-                    zh:'大蓬货车',
+                    zh: '大蓬货车',
                 },
                 bicycles: {
                     ua: 'Велосипеди',
@@ -312,7 +366,7 @@ export const cef = {
                     ru: 'Велосипеды',
                     de: 'Fahrräder',
                     pl: 'Rowery',
-                    zh:'自行车',
+                    zh: '自行车',
                 },
                 boats: {
                     ua: 'Човни',
@@ -320,7 +374,7 @@ export const cef = {
                     ru: 'Лодки',
                     de: 'Boote',
                     pl: 'Łodzie',
-                     zh:'船',
+                    zh: '船',
                 },
                 helicopters: {
                     ua: 'Вертольоти',
@@ -328,7 +382,7 @@ export const cef = {
                     ru: 'Вертолеты',
                     de: 'Helikopter',
                     pl: 'Śmigłowce',
-                   zh:'直升机', 
+                    zh: '直升机',
                 },
                 planes: {
                     ua: 'Літаки',
@@ -336,7 +390,7 @@ export const cef = {
                     ru: 'Самолеты',
                     de: 'Flugzeuge',
                     pl: 'Samoloty',
-                    zh:'飞机',
+                    zh: '飞机',
                 },
                 service: {
                     ua: 'Службові',
@@ -344,7 +398,7 @@ export const cef = {
                     ru: 'Служебные',
                     de: 'Dienstwagen',
                     pl: 'Służbowe',
-                    zh:'服务',
+                    zh: '服务',
                 },
                 emergency: {
                     ua: 'Екстрені',
@@ -352,7 +406,7 @@ export const cef = {
                     ru: 'Экстренные',
                     de: 'Notfall',
                     pl: 'Pojazdy ratunkowe',
-                    zh:'紧急情况',
+                    zh: '紧急情况',
                 },
                 military: {
                     ua: 'Військові',
@@ -360,7 +414,7 @@ export const cef = {
                     ru: 'Военные',
                     de: 'Militär',
                     pl: 'Wojskowe',
-                    zh:'军事',
+                    zh: '军事',
                 },
                 commercial: {
                     ua: 'Комерційні',
@@ -368,7 +422,7 @@ export const cef = {
                     ru: 'Коммерческие',
                     de: 'Gewerblich',
                     pl: 'Komercyjne',
-                    zh:'商业广告',
+                    zh: '商业广告',
                 },
                 trains: {
                     ua: 'Поїзди',
@@ -376,7 +430,7 @@ export const cef = {
                     ru: 'Поезда',
                     de: 'Züge',
                     pl: 'Pociągi',
-                   zh:'火车',
+                    zh: '火车',
                 },
                 convertibles: {
                     ua: 'Кабріолети',
@@ -384,7 +438,7 @@ export const cef = {
                     ru: 'Открытые автомобили',
                     de: 'Cabrios',
                     pl: 'Kabriolety',
-                    zh:'敞篷车',
+                    zh: '敞篷车',
                 },
             },
         },

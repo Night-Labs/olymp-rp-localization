@@ -58,11 +58,11 @@ export const features = {
     },
     leaveFaction: {
         name: {
-            ru: 'Уволить из фракции',
-            ua: 'Звільнити з фракції',
-            en: 'Leave faction',
-            de: 'Fraktion verlassen',
-            pl: 'Opuść frakcję',
+            ru: 'Уволится из фракции',
+            ua: 'Звільнитися з фракції',
+            en: 'Resign from faction',
+            de: 'Aus Fraktion austreten',
+            pl: 'Wystąpienie z frakcji',
         },
         modal: {
             name: {
