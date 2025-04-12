@@ -71,6 +71,13 @@ export default {
             de: 'Ränge',
             pl: 'Rangi',
         },
+        tickets: {
+            ru: 'Военные билеты',
+            ua: 'Військові квитки',
+            en: 'Military tickets',
+            de: 'Militärtickets',
+            pl: 'Bilety wojskowe',
+        },
     },
     //
     invitedPlayer: {
@@ -279,5 +286,14 @@ export default {
         en: 'Issued a warning to {{member}}. (({{warns}}/3))',
         de: 'Hat eine Verwarnung an {{member}} erteilt. (({{warns}}/3))',
         pl: 'Wystawił ostrzeżenie dla {{member}}. (({{warns}}/3))',
+    },
+
+    //
+    giveMiltaryTicket: {
+        ru: 'Выдал военный билет {{name}}',
+        ua: 'Видав військовий квиток {{name}}',
+        en: 'Issued military ticket to {{name}}',
+        de: 'Militärausweis an {{name}} ausgegeben',
+        pl: 'Wydał bilet wojskowy {{name}}',
     },
 };

@@ -422,4 +422,11 @@ export const player = {
         de: 'Aus der Gruppe entfernen',
         pl: 'Wyrzuć z grupy',
     },
+    armyTicket: {
+        ru: 'Выдать военный билет',
+        ua: 'Видати військовий квиток',
+        en: 'Issue military ID',
+        de: 'Militärausweis ausstellen',
+        pl: 'Wydać bilet wojskowy',
+    },
 };

@@ -308,4 +308,27 @@ export default {
         de: 'Untersucht {{name}} auf Krankheiten',
         pl: 'Bada {{name}} pod kątem chorób',
     },
+
+    //
+    alreadyHasMiltaryTicket: {
+        ru: 'У гражданина уже есть военный билет',
+        ua: 'У громадянина вже є військовий квиток',
+        en: 'The citizen already has a military ID',
+        de: 'Der Bürger hat bereits einen Militärausweis',
+        pl: 'Obywatel posiada już książeczkę wojskową',
+    },
+    youGivedMiltaryTicket: {
+        ru: 'Вы выдали военный билет {{name}}',
+        ua: 'Ви видали військовий квиток {{name}}',
+        en: 'You issued a military ID to {{name}}',
+        de: 'Sie haben {{name}} einen Militärausweis ausgestellt',
+        pl: 'Wydałeś książeczkę wojskową {{name}}',
+    },
+    youReceiveMiltaryTicket: {
+        ru: 'Вы получили военный билет от {{name}}',
+        ua: 'Ви отримали військовий квиток від {{name}}',
+        en: 'You received a military ID from {{name}}',
+        de: 'Sie haben einen Militärausweis von {{name}} erhalten',
+        pl: 'Otrzymałeś książeczkę wojskową od {{name}}',
+    },
 };
