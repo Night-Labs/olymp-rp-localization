@@ -62,6 +62,7 @@ import party from './party';
 import xmas from './xmas';
 import musicPlayer from './musicPlayer';
 import games from './games/games';
+import flappyBird from './flappyBird'
 
 export default {
     account,
@@ -128,4 +129,5 @@ export default {
     xmas,
     musicPlayer,
     games,
+    flappyBird
 };
