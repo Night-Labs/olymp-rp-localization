@@ -95,4 +95,13 @@ export default {
         de: '{{name}} wird Sie für ${{sum}} heilen',
         pl: '{{name}} wyleczy cię za ${{sum}}',
     },
+
+    //
+    showBadge: {
+        ru: 'Предлагает вам показать свое удостоверение',
+        ua: 'Пропонує вам показати своє посвідчення',
+        en: 'Offers you to show your badge',
+        de: 'Bietet Ihnen an, Ihren Ausweis vorzuzeigen',
+        pl: 'Proponuje ci pokazanie swojej odznaki',
+    },
 };

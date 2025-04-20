@@ -2,12 +2,14 @@ import arrest from './arrest';
 import upgrades from './upgrades';
 import fine from './fine';
 import frisk from './frisk';
+import badge from './badge';
 
 export const cef = {
     arrest,
     upgrades,
     fine,
     frisk,
+    badge,
 
     tabsName: {
         ru: 'Все доступные действия',
