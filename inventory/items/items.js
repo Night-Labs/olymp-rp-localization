@@ -467,4 +467,20 @@ export const items = {
             pl: 'Służy do otwierania zamków samochodów i innych zamków, może się złamać przy nieudanej próbie – bądź ostrożny!',
         },
     },
+    speedradar: {
+        name: {
+            ru: 'Скоростной радар',
+            ua: 'Швидкісний радар',
+            en: 'Speed radar',
+            de: 'Geschwindigkeitsradar',
+            pl: 'Radar prędkości',
+        },
+        desc: {
+            ru: 'Инструкция по использованию: Встаньте на место которое хотите поставить радар, обернитесь в сторону куда он должен смотреть и используйте предмет, выберете минимальную скорость.',
+            ua: 'Інструкція з використання: Станьте на місце, де хочете встановити радар, оберніться в бік, куди він повинен дивитися, і використайте предмет, виберіть мінімальну швидкість.',
+            en: 'Usage instructions: Stand in the place where you want to place the radar, turn towards the direction it should be facing, and use the item. Choose the minimum speed.',
+            de: 'Gebrauchsanweisung: Stellen Sie sich an die Stelle, an der Sie das Radar aufstellen möchten, drehen Sie sich in die Richtung, in die es zeigen soll, und benutzen Sie den Gegenstand. Wählen Sie die Mindestgeschwindigkeit.',
+            pl: 'Instrukcja użytkowania: Stań w miejscu, w którym chcesz umieścić radar, obróć się w kierunku, w którym ma być skierowany, i użyj przedmiotu. Wybierz minimalną prędkość.',
+        },
+    },
 };

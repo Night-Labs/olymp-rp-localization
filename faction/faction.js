@@ -14,6 +14,7 @@ import robbery from './robbery';
 import database from './database';
 import quests from './quests';
 import pointCapture from './pointCapture';
+import speedradar from './speedradar';
 
 export const faction = {
     factions,
@@ -30,6 +31,7 @@ export const faction = {
     database,
     quests,
     pointCapture,
+    speedradar,
     ...cef,
     ...server,
     leader: {
