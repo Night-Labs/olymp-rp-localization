@@ -20,6 +20,20 @@ export default {
         de: 'Du hast ein Radar platziert',
         pl: 'Umieściłeś radar',
     },
+    inputModalError: {
+        ru: 'Введите корректные данные',
+        ua: 'Введіть коректні дані',
+        en: 'Enter valid data',
+        de: 'Bitte korrekte Daten eingeben',
+        pl: 'Wprowadź poprawne dane',
+    },
+    alreadyPlaced: {
+        ru: 'Нельзя ставить больше одного радара',
+        ua: 'Не можна ставити більше одного радара',
+        en: "You can't place more than one radar",
+        de: 'Es kann nicht mehr als ein Radar platziert werden',
+        pl: 'Nie można umieścić więcej niż jednego radaru',
+    },
     controlModal: {
         title: {
             ru: 'Управление скоростным радаром',
@@ -29,11 +43,11 @@ export default {
             pl: 'Zarządzanie radarem prędkości',
         },
         message: {
-            ru: 'Количество проверенных машин: {{vehiclesChecked}} <br /> Количество нарушивших машин: {{vehiclesDetected}}',
-            ua: 'Кількість перевірених машин: {{vehiclesChecked}} <br /> Кількість машин, що порушили: {{vehiclesDetected}}',
-            en: 'Vehicles checked: {{vehiclesChecked}} <br /> Vehicles detected: {{vehiclesDetected}}',
-            de: 'Anzahl der überprüften Fahrzeuge: {{vehiclesChecked}} <br /> Anzahl der erkannten Verstöße: {{vehiclesDetected}}',
-            pl: 'Liczba sprawdzonych pojazdów: {{vehiclesChecked}} <br /> Liczba wykrytych naruszeń: {{vehiclesDetected}}',
+            ru: 'Лимит скорости: {{speedLimit}} <br />Количество проверенных машин: {{vehiclesChecked}} <br /> Количество нарушивших машин: {{vehiclesDetected}}',
+            ua: 'Ліміт швидкості: {{speedLimit}} <br />Кількість перевірених машин: {{vehiclesChecked}} <br /> Кількість машин, що порушили: {{vehiclesDetected}}',
+            en: 'Speed limit: {{speedLimit}} <br />Number of vehicles checked: {{vehiclesChecked}} <br /> Number of vehicles in violation: {{vehiclesDetected}}',
+            de: 'Geschwindigkeitsbegrenzung: {{speedLimit}} <br />Anzahl der überprüften Fahrzeuge: {{vehiclesChecked}} <br /> Anzahl der Fahrzeuge mit Verstößen: {{vehiclesDetected}}',
+            pl: 'Ograniczenie prędkości: {{speedLimit}} <br />Liczba sprawdzonych pojazdów: {{vehiclesChecked}} <br /> Liczba pojazdów, które naruszyły przepisy: {{vehiclesDetected}}',
         },
         confirmButton: {
             ru: 'Забрать радар',
@@ -45,6 +59,36 @@ export default {
         cancelButton: {
             ru: 'Отмена',
             ua: 'Відміна',
+            en: 'Cancel',
+            de: 'Abbrechen',
+            pl: 'Anuluj',
+        },
+    },
+    inputModal: {
+        title: {
+            ru: 'Выберете максимальную скорость, это должна быть цифра от 30 до 300.',
+            ua: 'Виберіть максимальну швидкість, це має бути цифра від 30 до 300.',
+            en: 'Choose the maximum speed, it should be a number from 30 to 300.',
+            de: 'Wählen Sie die maximale Geschwindigkeit, es sollte eine Zahl zwischen 30 und 300 sein.',
+            pl: 'Wybierz maksymalną prędkość, powinna to być liczba od 30 do 300.',
+        },
+        placeholder: {
+            ru: 'Например 60',
+            ua: 'Наприклад 60',
+            en: 'For example 60',
+            de: 'Zum Beispiel 60',
+            pl: 'Na przykład 60',
+        },
+        confirmButton: {
+            ru: 'Установить',
+            ua: 'Встановити',
+            en: 'Set',
+            de: 'Einstellen',
+            pl: 'Ustaw',
+        },
+        cancelButton: {
+            ru: 'Отмена',
+            ua: 'Скасувати',
             en: 'Cancel',
             de: 'Abbrechen',
             pl: 'Anuluj',
