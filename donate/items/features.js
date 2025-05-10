@@ -96,4 +96,43 @@ export const features = {
             pl: 'Nie jesteś w frakcji',
         },
     },
+    miltaryTicket: {
+        name: {
+            ru: 'Военный билет',
+            ua: 'Військовий квиток',
+            en: 'Military ID',
+            de: 'Wehrpass',
+            pl: 'Dowód wojskowy',
+        },
+        modal: {
+            name: {
+                ru: 'Купить военный билет',
+                ua: 'Купити військовий квиток',
+                en: 'Buy military ID',
+                de: 'Wehrpass kaufen',
+                pl: 'Kup dowód wojskowy',
+            },
+            desc: {
+                ru: 'Вы действительно хотите купить военный билет?',
+                ua: 'Ви дійсно хочете купити військовий квиток?',
+                en: 'Do you really want to buy a military ID?',
+                de: 'Möchten Sie wirklich einen Wehrpass kaufen?',
+                pl: 'Czy na pewno chcesz kupić dowód wojskowy?',
+            },
+        },
+        success: {
+            ru: 'Вы успешно получили военный билет',
+            ua: 'Ви успішно отримали військовий квиток',
+            en: 'You have successfully received the military ID',
+            de: 'Sie haben den Wehrpass erfolgreich erhalten',
+            pl: 'Pomyślnie otrzymałeś dowód wojskowy',
+        },
+        error: {
+            ru: 'У вас уже есть военный билет',
+            ua: 'У вас вже є військовий квиток',
+            en: 'You already have a military ID',
+            de: 'Sie haben bereits einen Wehrpass',
+            pl: 'Masz już dowód wojskowy',
+        },
+    },
 };
