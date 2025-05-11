@@ -5,6 +5,7 @@ import cooldowns from './cooldowns';
 import vitals from './vitals';
 import disease from './disease';
 import statuses from './statuses';
+import bodyCamera from './bodyCamera';
 
 export default {
     congratulations: {
@@ -52,4 +53,5 @@ export default {
     vitals,
     disease,
     statuses,
+    bodyCamera,
 };

@@ -483,4 +483,20 @@ export const items = {
             pl: 'Instrukcja użytkowania: Stań w miejscu, w którym chcesz umieścić radar, obróć się w kierunku, w którym ma być skierowany, i użyj przedmiotu. Wybierz minimalną prędkość.',
         },
     },
+    bodycamera: {
+        name: {
+            ru: 'Нагрудная камера',
+            ua: 'Нагрудна камера',
+            en: 'Body camera',
+            de: 'Körperkamera',
+            pl: 'Kamera nasobna',
+        },
+        desc: {
+            ru: 'Устройство для записи происходящего от первого лица персонажа, используется для документирования событий в RP-сценах. Часто применяется сотрудниками госструктур, например, полицией. Запись может быть использована как доказательство в суде или других RP-ситуациях.',
+            ua: 'Пристрій для запису подій від першої особи персонажа, використовується для документування подій у RP-сценах. Часто використовується працівниками держструктур, наприклад, поліцією. Запис може бути використаний як доказ у суді або в інших RP-ситуаціях.',
+            en: "A device for recording events from the character's first-person view, used to document situations in RP scenes. Often used by government employees, such as the police. The recording can be used as evidence in court or other RP scenarios.",
+            de: 'Ein Gerät zur Aufzeichnung von Ereignissen aus der Ich-Perspektive des Charakters, das zur Dokumentation von Situationen in RP-Szenen verwendet wird. Wird häufig von Staatsbediensteten wie der Polizei verwendet. Die Aufzeichnung kann als Beweis vor Gericht oder in anderen RP-Situationen dienen.',
+            pl: 'Urządzenie do nagrywania wydarzeń z perspektywy pierwszej osoby postaci, używane do dokumentowania sytuacji w scenach RP. Często wykorzystywane przez pracowników instytucji państwowych, np. policję. Nagranie może posłużyć jako dowód w sądzie lub innych sytuacjach RP.',
+        },
+    },
 };
