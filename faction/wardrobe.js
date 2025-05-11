@@ -80,4 +80,11 @@ export default {
         de: 'Stil',
         pl: 'Styl',
     },
+    alreadyInJob: {
+        ru: 'Вы уже работаете на какой то работе',
+        ua: 'Ви вже працюєте на якійсь роботі',
+        en: 'You are already working at a job',
+        de: 'Du hast bereits einen Job',
+        pl: 'Masz już jakąś pracę',
+    },
 };
