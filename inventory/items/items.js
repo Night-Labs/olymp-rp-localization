@@ -467,4 +467,52 @@ export const items = {
             pl: 'Służy do otwierania zamków samochodów i innych zamków, może się złamać przy nieudanej próbie – bądź ostrożny!',
         },
     },
+    speedradar: {
+        name: {
+            ru: 'Скоростной радар',
+            ua: 'Швидкісний радар',
+            en: 'Speed radar',
+            de: 'Geschwindigkeitsradar',
+            pl: 'Radar prędkości',
+        },
+        desc: {
+            ru: 'Инструкция по использованию: Встаньте на место которое хотите поставить радар, обернитесь в сторону куда он должен смотреть и используйте предмет, выберете минимальную скорость.',
+            ua: 'Інструкція з використання: Станьте на місце, де хочете встановити радар, оберніться в бік, куди він повинен дивитися, і використайте предмет, виберіть мінімальну швидкість.',
+            en: 'Usage instructions: Stand in the place where you want to place the radar, turn towards the direction it should be facing, and use the item. Choose the minimum speed.',
+            de: 'Gebrauchsanweisung: Stellen Sie sich an die Stelle, an der Sie das Radar aufstellen möchten, drehen Sie sich in die Richtung, in die es zeigen soll, und benutzen Sie den Gegenstand. Wählen Sie die Mindestgeschwindigkeit.',
+            pl: 'Instrukcja użytkowania: Stań w miejscu, w którym chcesz umieścić radar, obróć się w kierunku, w którym ma być skierowany, i użyj przedmiotu. Wybierz minimalną prędkość.',
+        },
+    },
+    bodycamera: {
+        name: {
+            ru: 'Нагрудная камера',
+            ua: 'Нагрудна камера',
+            en: 'Body camera',
+            de: 'Körperkamera',
+            pl: 'Kamera nasobna',
+        },
+        desc: {
+            ru: 'Устройство для записи происходящего от первого лица персонажа, используется для документирования событий в RP-сценах. Часто применяется сотрудниками госструктур, например, полицией. Запись может быть использована как доказательство в суде или других RP-ситуациях.',
+            ua: 'Пристрій для запису подій від першої особи персонажа, використовується для документування подій у RP-сценах. Часто використовується працівниками держструктур, наприклад, поліцією. Запис може бути використаний як доказ у суді або в інших RP-ситуаціях.',
+            en: "A device for recording events from the character's first-person view, used to document situations in RP scenes. Often used by government employees, such as the police. The recording can be used as evidence in court or other RP scenarios.",
+            de: 'Ein Gerät zur Aufzeichnung von Ereignissen aus der Ich-Perspektive des Charakters, das zur Dokumentation von Situationen in RP-Szenen verwendet wird. Wird häufig von Staatsbediensteten wie der Polizei verwendet. Die Aufzeichnung kann als Beweis vor Gericht oder in anderen RP-Situationen dienen.',
+            pl: 'Urządzenie do nagrywania wydarzeń z perspektywy pierwszej osoby postaci, używane do dokumentowania sytuacji w scenach RP. Często wykorzystywane przez pracowników instytucji państwowych, np. policję. Nagranie może posłużyć jako dowód w sądzie lub innych sytuacjach RP.',
+        },
+    },
+    walkieTalkie: {
+        name: {
+            ru: 'Рация',
+            ua: 'Рація',
+            en: 'Radio',
+            de: 'Funkgerät',
+            pl: 'Radio',
+        },
+        desc: {
+            ru: 'Портативное устройство для голосовой связи. Позволяет подключаться к заданной радиочастоте и общаться с другими игроками на той же волне. Необходима для координации действий в группах.',
+            ua: "Портативний пристрій для голосового зв'язку. Дозволяє підключатися до заданої радіочастоти та спілкуватися з іншими гравцями на тій самій хвилі. Необхідний для координації дій у групах.",
+            en: 'A portable device for voice communication. Allows connecting to a specified radio frequency and talking with other players on the same channel. Essential for coordinating actions in groups.',
+            de: 'Tragbares Gerät zur Sprachkommunikation. Ermöglicht die Verbindung mit einer bestimmten Funkfrequenz und die Kommunikation mit anderen Spielern auf dem gleichen Kanal. Unverzichtbar für die Koordination in Gruppen.',
+            pl: 'Przenośne urządzenie do komunikacji głosowej. Umożliwia łączenie się z określoną częstotliwością radiową i rozmowę z innymi graczami na tym samym kanale. Niezbędne do koordynacji działań w grupach.',
+        },
+    },
 };
