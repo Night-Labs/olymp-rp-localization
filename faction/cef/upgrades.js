@@ -95,6 +95,35 @@ export default {
         zh: '这项批准包括EMS屋顶上的一架直升机',
     },
 
+    // Weazel news
+    defaultWeazelNewsCarsTitle: {
+        ru: 'Стандартные автомобили',
+        ua: 'Стандартні автомобілі',
+        en: 'Standard Vehicles',
+        de: 'Standardfahrzeuge',
+        pl: 'Standardowe pojazdy',
+    },
+    defaultWeazelNewsCarsDesc: {
+        ru: 'Включает в себя базовые нужные для Weazel News машины, всё что нужно.',
+        ua: 'Включає базові необхідні для Weazel News автомобілі, усе що потрібно.',
+        en: 'Includes the basic vehicles needed for Weazel News, everything required.',
+        de: 'Enthält die grundlegenden Fahrzeuge, die für Weazel News benötigt werden – alles Notwendige.',
+        pl: 'Zawiera podstawowe pojazdy potrzebne dla Weazel News – wszystko, co potrzebne.',
+    },
+    highWeazelNewsCarsTitle: {
+        ru: 'Вертолёт',
+        ua: 'Гелікоптер',
+        en: 'Helicopter',
+        de: 'Hubschrauber',
+        pl: 'Helikopter',
+    },
+    highWeazelNewsCarsDesc: {
+        ru: 'Добавляет вертолёт Maverick в автопарк, он расположен на крыше',
+        ua: 'Додає гелікоптер Maverick до автопарку, він розташований на даху',
+        en: 'Adds a Maverick helicopter to the fleet, it is located on the rooftop',
+        de: 'Fügt dem Fuhrpark einen Maverick-Hubschrauber hinzu, er befindet sich auf dem Dach',
+        pl: 'Dodaje helikopter Maverick do floty, znajduje się on na dachu',
+    },
     // Cars
     defaultCarsTitle: {
         ru: 'Обычные автомобили',
