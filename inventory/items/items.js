@@ -499,4 +499,20 @@ export const items = {
             pl: 'Urządzenie do nagrywania wydarzeń z perspektywy pierwszej osoby postaci, używane do dokumentowania sytuacji w scenach RP. Często wykorzystywane przez pracowników instytucji państwowych, np. policję. Nagranie może posłużyć jako dowód w sądzie lub innych sytuacjach RP.',
         },
     },
+    walkieTalkie: {
+        name: {
+            ru: 'Рация',
+            ua: 'Рація',
+            en: 'Radio',
+            de: 'Funkgerät',
+            pl: 'Radio',
+        },
+        desc: {
+            ru: 'Портативное устройство для голосовой связи. Позволяет подключаться к заданной радиочастоте и общаться с другими игроками на той же волне. Необходима для координации действий в группах.',
+            ua: "Портативний пристрій для голосового зв'язку. Дозволяє підключатися до заданої радіочастоти та спілкуватися з іншими гравцями на тій самій хвилі. Необхідний для координації дій у групах.",
+            en: 'A portable device for voice communication. Allows connecting to a specified radio frequency and talking with other players on the same channel. Essential for coordinating actions in groups.',
+            de: 'Tragbares Gerät zur Sprachkommunikation. Ermöglicht die Verbindung mit einer bestimmten Funkfrequenz und die Kommunikation mit anderen Spielern auf dem gleichen Kanal. Unverzichtbar für die Koordination in Gruppen.',
+            pl: 'Przenośne urządzenie do komunikacji głosowej. Umożliwia łączenie się z określoną częstotliwością radiową i rozmowę z innymi graczami na tym samym kanale. Niezbędne do koordynacji działań w grupach.',
+        },
+    },
 };

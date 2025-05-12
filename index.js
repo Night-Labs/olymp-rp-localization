@@ -62,7 +62,8 @@ import party from './party';
 import xmas from './xmas';
 import musicPlayer from './musicPlayer';
 import games from './games/games';
-import flappyBird from './flappyBird'
+import flappyBird from './flappyBird';
+import walkieTalkie from './walkieTalkie';
 
 export default {
     account,
@@ -129,5 +130,6 @@ export default {
     xmas,
     musicPlayer,
     games,
-    flappyBird
+    flappyBird,
+    walkieTalkie,
 };
