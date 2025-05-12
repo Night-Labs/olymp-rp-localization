@@ -69,4 +69,12 @@ export default {
         de: 'Einstellungen',
         pl: 'Ustawienia',
     },
+
+    unavailableForNow: {
+        ru: 'Это приложение на данный момент недоступно',
+        ua: 'Цей застосунок на даний момент недоступний',
+        en: 'This application is currently unavailable',
+        de: 'Diese Anwendung ist momentan nicht verfügbar',
+        pl: 'Ta aplikacja jest obecnie niedostępna',
+    },
 };
