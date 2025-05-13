@@ -15,4 +15,21 @@ export const cef = {
             pl: 'Nie znaleziono nic dla podanych parametrów wyszukiwania',
         },
     },
+
+    confirmModal: {
+        confirm: {
+            ru: 'Подтвердить',
+            ua: 'Підтвердити',
+            en: 'Confirm',
+            de: 'Bestätigen',
+            pl: 'Potwierdź',
+        },
+        cancel: {
+            ru: 'Отменить',
+            ua: 'Відмінити',
+            en: 'Cancel',
+            de: 'Abbrechen',
+            pl: 'Anuluj',
+        },
+    },
 };
