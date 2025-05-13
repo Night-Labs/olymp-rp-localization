@@ -210,4 +210,13 @@ export default {
         de: 'Verwaltung der Regierungsversorgung',
         pl: 'Zarządzanie dostawami rządowymi',
     },
+
+    //
+    moderateAds: {
+        ru: 'Модерировать объявления',
+        ua: 'Модерувати оголошення',
+        en: 'Moderate ads',
+        de: 'Anzeigen moderieren',
+        pl: 'Moderuj ogłoszenia',
+    },
 };

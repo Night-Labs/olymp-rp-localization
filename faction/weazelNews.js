@@ -13,9 +13,49 @@ export default {
         de: '!{#A06A18}Bearbeitet von Weazel News Mitarbeiter {{name}}.',
         pl: '!{#A06A18}Edytowane przez pracownika Weazel News {{name}}.',
     },
+    editingAlreadySomeone: {
+        ru: 'Это объявление уже кто то редактирует',
+        ua: 'Це оголошення вже хтось редагує',
+        en: 'This listing is already being edited by someone',
+        de: 'Diese Anzeige wird bereits von jemandem bearbeitet',
+        pl: 'To ogłoszenie jest już edytowane przez kogoś',
+    },
+    publishedBySomeone: {
+        ru: 'Это объявление уже кто то опубликовал',
+        ua: 'Це оголошення вже хтось опублікував',
+        en: 'This listing has already been published by someone',
+        de: 'Diese Anzeige wurde bereits von jemandem veröffentlicht',
+        pl: 'To ogłoszenie zostało już przez kogoś opublikowane',
+    },
+    declinedSomeone: {
+        ru: 'Это объявление уже отклонено',
+        ua: 'Це оголошення вже відхилено',
+        en: 'This listing has already been declined',
+        de: 'Diese Anzeige wurde bereits abgelehnt',
+        pl: 'To ogłoszenie zostało już odrzucone',
+    },
+    youPublishedSuccess: {
+        ru: 'Вы успешно опубликовали объявление',
+        ua: 'Ви успішно опублікували оголошення',
+        en: 'You have successfully published the listing',
+        de: 'Sie haben die Anzeige erfolgreich veröffentlicht',
+        pl: 'Pomyślnie opublikowano ogłoszenie',
+    },
+    youDeclinedSuccess: {
+        ru: 'Вы отклонили объявление гражданина {{name}}',
+        ua: 'Ви відхилили оголошення громадянина {{name}}',
+        en: 'You have declined the listing of citizen {{name}}',
+        de: 'Sie haben die Anzeige von Bürger {{name}} abgelehnt',
+        pl: 'Odrzuciłeś ogłoszenie obywatela {{name}}',
+    },
 
-    
-
+    invalidMessage: {
+        ru: 'Текст некорректный',
+        ua: 'Текст некоректний',
+        en: 'The text is incorrect',
+        de: 'Der Text ist fehlerhaft',
+        pl: 'Tekst jest nieprawidłowy',
+    },
     cef: {
         titleBase: {
             ru: 'ОБЪЯВЛЕНИЯ',
