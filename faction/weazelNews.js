@@ -130,4 +130,52 @@ export default {
             },
         },
     },
+
+    liveStream: {
+        live: {
+            ru: '<font color="b51d1d">LIVE</font>',
+            ua: '<font color="b51d1d">НАЖИВО</font>',
+            en: '<font color="b51d1d">LIVE</font>',
+            de: '<font color="b51d1d">LIVE</font>',
+            pl: '<font color="b51d1d">NA ŻYWO</font>',
+        },
+        notLive: {
+            ru: 'Прямой эфир отключен',
+            ua: 'Прямий ефір вимкнено',
+            en: 'Live stream is off',
+            de: 'Live-Übertragung ist deaktiviert',
+            pl: 'Transmisja na żywo wyłączona',
+        },
+        peopleInStream: {
+            ru: 'Людей в эфире:',
+            ua: 'Людей в ефірі:',
+            en: 'People in stream:',
+            de: 'Personen im Stream:',
+            pl: 'Ludzi na transmisji:',
+        },
+
+        modal: {
+            title: {
+                ru: 'Управление прямым эфиром',
+                ua: 'Керування прямим ефіром',
+                en: 'Live Stream Control',
+                de: 'Live-Stream-Steuerung',
+                pl: 'Zarządzanie transmisją na żywo',
+            },
+            startButton: {
+                ru: 'Начать прямой эфир',
+                ua: 'Почати прямий ефір',
+                en: 'Start Live Stream',
+                de: 'Live-Stream starten',
+                pl: 'Rozpocznij transmisję na żywo',
+            },
+            stopButton: {
+                ru: 'Остановить прямой эфир',
+                ua: 'Зупинити прямий ефір',
+                en: 'Stop Live Stream',
+                de: 'Live-Stream beenden',
+                pl: 'Zatrzymaj transmisję na żywo',
+            },
+        },
+    },
 };
