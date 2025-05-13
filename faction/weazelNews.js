@@ -56,6 +56,13 @@ export default {
         de: 'Der Text ist fehlerhaft',
         pl: 'Tekst jest nieprawidłowy',
     },
+    notEnoughMoney: {
+        ru: 'На вашем банковском счету недостаточно денег',
+        ua: 'На вашому банківському рахунку недостатньо коштів',
+        en: 'There is not enough money in your bank account',
+        de: 'Ihr Bankkonto enthält nicht genügend Geld',
+        pl: 'Na Twoim koncie bankowym brakuje środków',
+    },
     cef: {
         titleBase: {
             ru: 'ОБЪЯВЛЕНИЯ',
