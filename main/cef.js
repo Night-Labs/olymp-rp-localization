@@ -546,7 +546,13 @@ export const cef = {
         de: 'Magazingröße',
         pl: 'Pojemność magazynka',
     },
-
+    weaponSerialNumber: {
+        ru: 'Серийный номер оружия',
+        ua: 'Серійний номер зброї',
+        en: 'Weapon Serial Number',
+        de: 'Waffenseriennummer',
+        pl: 'Numer seryjny broni',
+    },
     kg: {
         ua: ' кг.',
         en: ' kg.',

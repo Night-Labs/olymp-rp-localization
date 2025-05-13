@@ -35,11 +35,11 @@ export default {
         pl: 'To ogłoszenie zostało już odrzucone',
     },
     youPublishedSuccess: {
-        ru: 'Вы успешно опубликовали объявление',
-        ua: 'Ви успішно опублікували оголошення',
-        en: 'You have successfully published the listing',
-        de: 'Sie haben die Anzeige erfolgreich veröffentlicht',
-        pl: 'Pomyślnie opublikowano ogłoszenie',
+        ru: 'Вы успешно опубликовали объявление и заработали ${{money}}',
+        ua: 'Ви успішно опублікували оголошення та заробили ${{money}}',
+        en: 'You have successfully published the ad and earned ${{money}}',
+        de: 'Sie haben die Anzeige erfolgreich veröffentlicht und ${{money}} verdient',
+        pl: 'Pomyślnie opublikowałeś ogłoszenie i zarobiłeś ${{money}}',
     },
     youDeclinedSuccess: {
         ru: 'Вы отклонили объявление гражданина {{name}}',
