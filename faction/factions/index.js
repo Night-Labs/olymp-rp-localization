@@ -7,16 +7,19 @@ import marabunta from './marabunta';
 import ems from './ems';
 import sang from './sang';
 import goverment from './goverment';
+import weazelNews from './weazelNews';
 
 export default {
+    // Gov
     LSPD,
-    //
+    ems,
+    sang,
+    goverment,
+    weazelNews,
+    // Gang
     families,
     ballas,
     vagos,
     bloods,
     marabunta,
-    ems,
-    sang,
-    goverment,
 };

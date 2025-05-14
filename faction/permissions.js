@@ -28,7 +28,15 @@ export default {
         de: 'Mitgliedsränge ändern',
         pl: 'Zmieniaj rangi członków',
     },
+
     //
+    controlDoors: {
+        ru: 'Закрывать/Открывать двери',
+        ua: 'Закривати/Відкривати двері',
+        en: 'Close/Open doors',
+        de: 'Türen schließen/öffnen',
+        pl: 'Zamykać/Otwierać drzwi',
+    },
     warehouse: {
         ru: 'Доступ к складу',
         ua: 'Доступ до складу',
@@ -209,5 +217,21 @@ export default {
         en: 'Manage Government Supply',
         de: 'Verwaltung der Regierungsversorgung',
         pl: 'Zarządzanie dostawami rządowymi',
+    },
+
+    //
+    moderateAds: {
+        ru: 'Модерировать объявления',
+        ua: 'Модерувати оголошення',
+        en: 'Moderate ads',
+        de: 'Anzeigen moderieren',
+        pl: 'Moderuj ogłoszenia',
+    },
+    controlLiveStreams: {
+        ru: 'Доступ к управлению прямым эфиром',
+        ua: 'Доступ до керування прямим ефіром',
+        en: 'Access to live stream control',
+        de: 'Zugriff auf Livestream-Steuerung',
+        pl: 'Dostęp do zarządzania transmisją na żywo',
     },
 };

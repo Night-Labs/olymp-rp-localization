@@ -429,4 +429,20 @@ export const player = {
         de: 'Militärausweis ausstellen',
         pl: 'Wydać bilet wojskowy',
     },
+
+    // doors
+    doorOpen: {
+        ru: 'Открыть дверь',
+        ua: 'Відкрити двері',
+        en: 'Open door',
+        de: 'Tür öffnen',
+        pl: 'Otwórz drzwi',
+    },
+    doorClose: {
+        ru: 'Закрыть дверь',
+        ua: 'Закрити двері',
+        en: 'Close door',
+        de: 'Tür schließen',
+        pl: 'Zamknij drzwi',
+    },
 };
