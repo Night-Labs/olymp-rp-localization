@@ -63,6 +63,13 @@ export default {
         de: 'Ihr Bankkonto enthält nicht genügend Geld',
         pl: 'Na Twoim koncie bankowym brakuje środków',
     },
+    cooldown: {
+        ru: 'Вы недавно уже отправляли объявление, подождите немного',
+        ua: 'Ви нещодавно вже надсилали оголошення, зачекайте трохи',
+        en: 'You have recently sent an announcement, please wait a bit',
+        de: 'Sie haben kürzlich bereits eine Anzeige gesendet, bitte warten Sie etwas',
+        pl: 'Niedawno już wysłałeś ogłoszenie, poczekaj chwilę',
+    },
     cef: {
         titleBase: {
             ru: 'ОБЪЯВЛЕНИЯ',
