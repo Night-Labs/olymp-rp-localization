@@ -46,6 +46,13 @@ export default {
         de: 'Du bist gerade im Fraktionsdienst',
         pl: 'Jesteś obecnie na zmianie w frakcji',
     },
+    toSeatPress: {
+        ru: 'Чтобы сесть нажмите',
+        ua: 'Щоб сісти, натисніть',
+        en: 'To sit down, press',
+        de: 'Zum Hinsetzen drücken Sie',
+        pl: 'Aby usiąść, naciśnij',
+    },
     passport,
     payday,
     aidkit,
