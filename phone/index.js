@@ -10,6 +10,7 @@ import call from './pages/call';
 import gps from './pages/gps';
 import settings from './pages/settings';
 import weazelNews from './pages/weazelNews';
+import forbes from './pages/forbes';
 
 export default {
     ...cef,
@@ -23,4 +24,5 @@ export default {
     gps,
     settings,
     weazelNews,
+    forbes
 };
