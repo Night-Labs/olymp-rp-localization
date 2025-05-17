@@ -1,28 +1,21 @@
 export default {
     hello: {
-        ru: 'Привет, {{name}}',
-        ua: 'Привіт, {{name}}',
-        en: 'Hello, {{name}}',
-        de: 'Hallo, {{name}}',
-        pl: 'Czesc, {{name}}',
-        zh: '你好',
+        ru: 'Здравствуйте, если вам нужно в больницу пожалуйста поднимитесь по лифту или войдите с другой стороны',
+        ua: 'Здравствуйте, якщо вам потрібно до лікарні, будь ласка, підніміться ліфтом або зайдіть з іншого боку',
+        en: 'Hello, if you need to get to the hospital, please take the elevator or enter from the other side',
+        de: 'Hallo, wenn Sie ins Krankenhaus müssen, nehmen Sie bitte den Aufzug oder gehen Sie von der anderen Seite hinein',
+        pl: 'Witaj, jeśli potrzebujesz dostać się do szpitala, skorzystaj z windy lub wejdź z drugiej strony',
     },
-    no: {
-        ru: 'Нет',
-        ua: 'Ні',
-        en: 'No',
-        de: 'Nein',
-        pl: 'Nie',
-        zh: '不',
+    ok: {
+        ru: 'Спасибо',
+        ua: 'Дякую',
+        en: 'Thank you',
+        de: 'Danke',
+        pl: 'Dziękuję',
     },
 
     selledBloodBags: {
         ru: 'Вы продали {{amount}} мешочков крови за ${{price}}',
-        ua: 'Ви продали {{amount}} мішечків крові за ${{price}}',
-        en: 'You sold {{amount}} blood bags for ${{price}}',
-        de: 'Sie haben {{amount}} Blutbeutel für ${{price}} verkauft',
-        pl: 'Sprzedałeś {{amount}} woreczków krwi za ${{price}}',
-        zh: '您的价格是多少？',
     },
 
     firstDialog: {
@@ -49,6 +42,13 @@ export default {
             de: 'Über die Lizenz',
             pl: 'O licencji',
             zh: '许可证',
+        },
+        callStaff: {
+            ru: 'Позвать работника',
+            ua: 'Покликати працівника',
+            en: 'Call staff',
+            de: 'Mitarbeiter rufen',
+            pl: 'Wezwać pracownika',
         },
         bye: {
             ru: 'Досвидания',
