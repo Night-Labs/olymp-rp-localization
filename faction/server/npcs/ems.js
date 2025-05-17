@@ -1,28 +1,21 @@
 export default {
     hello: {
-        ru: 'Привет, {{name}}',
-        ua: 'Привіт, {{name}}',
-        en: 'Hello, {{name}}',
-        de: 'Hallo, {{name}}',
-        pl: 'Czesc, {{name}}',
-        zh:'你好',
+        ru: 'Здравствуйте, если вам нужно в больницу пожалуйста поднимитесь по лифту или войдите с другой стороны',
+        ua: 'Здравствуйте, якщо вам потрібно до лікарні, будь ласка, підніміться ліфтом або зайдіть з іншого боку',
+        en: 'Hello, if you need to get to the hospital, please take the elevator or enter from the other side',
+        de: 'Hallo, wenn Sie ins Krankenhaus müssen, nehmen Sie bitte den Aufzug oder gehen Sie von der anderen Seite hinein',
+        pl: 'Witaj, jeśli potrzebujesz dostać się do szpitala, skorzystaj z windy lub wejdź z drugiej strony',
     },
-    no: {
-        ru: 'Нет',
-        ua: 'Ні',
-        en: 'No',
-        de: 'Nein',
-        pl: 'Nie',
-        zh:'不',
+    ok: {
+        ru: 'Спасибо',
+        ua: 'Дякую',
+        en: 'Thank you',
+        de: 'Danke',
+        pl: 'Dziękuję',
     },
 
     selledBloodBags: {
         ru: 'Вы продали {{amount}} мешочков крови за ${{price}}',
-        ua: 'Ви продали {{amount}} мішечків крові за ${{price}}',
-        en: 'You sold {{amount}} blood bags for ${{price}}',
-        de: 'Sie haben {{amount}} Blutbeutel für ${{price}} verkauft',
-        pl: 'Sprzedałeś {{amount}} woreczków krwi za ${{price}}',
-        zh:'您的价格是多少？',
     },
 
     firstDialog: {
@@ -32,7 +25,7 @@ export default {
             ua: 'Ласкаво просимо до нашого відділення EMS, як я можу допомогти?',
             de: 'Willkommen in unserer EMS-Abteilung, wie kann ich helfen?',
             pl: 'Witamy w naszym dziale EMS, jak mogę pomóc?',
-           zh:'欢迎来到我们的EMS部门，有什么我能帮忙的吗？',
+            zh: '欢迎来到我们的EMS部门，有什么我能帮忙的吗？',
         },
         howToJoinToFaction: {
             ru: 'Как я могу присоединиться к вашей фракции?',
@@ -40,7 +33,7 @@ export default {
             ua: 'Як я можу приєднатися до вашої фракції?',
             de: 'Wie kann ich Ihrer Fraktion beitreten?',
             pl: 'Jak mogę dołączyć do twojej frakcji?',
-           zh:'我怎样才能加入你的阵营',
+            zh: '我怎样才能加入你的阵营',
         },
         aboutLicense: {
             ru: 'О лицензии',
@@ -48,7 +41,14 @@ export default {
             ua: 'Про ліцензію',
             de: 'Über die Lizenz',
             pl: 'O licencji',
-           zh:'许可证',
+            zh: '许可证',
+        },
+        callStaff: {
+            ru: 'Позвать работника',
+            ua: 'Покликати працівника',
+            en: 'Call staff',
+            de: 'Mitarbeiter rufen',
+            pl: 'Wezwać pracownika',
         },
         bye: {
             ru: 'Досвидания',
@@ -56,7 +56,7 @@ export default {
             ua: 'До побачення',
             de: 'Auf Wiedersehen',
             pl: 'Do widzenia',
-           zh:'再见',
+            zh: '再见',
         },
         joinToFaction: {
             ru: 'Всё просто, лидер EMS часто проводит набор в персонал фракции EMS, внимательно следите за чатом, и приходите на собеседование',
@@ -64,7 +64,7 @@ export default {
             ua: 'Все просто, лідер EMS часто проводить набір до персоналу фракції EMS, уважно слідкуйте за чатом і приходьте на співбесіду',
             de: 'Es ist einfach, der EMS-Leiter rekrutiert oft Personal für die EMS-Fraktion, folgen Sie dem Chat genau und kommen Sie zum Vorstellungsgespräch',
             pl: 'To proste, lider EMS często rekrutuje do personelu frakcji EMS, uważnie obserwuj czat i przyjdź na rozmowę kwalifikacyjną',
-           zh:'很简单，EMS负责人经常管理一个EMS人员团队，仔细关注聊天内容，然后来参加会议',
+            zh: '很简单，EMS负责人经常管理一个EMS人员团队，仔细关注聊天内容，然后来参加会议',
         },
         okay: {
             ru: 'Хорошо',
@@ -72,7 +72,7 @@ export default {
             ua: 'Добре',
             de: 'Gut',
             pl: 'Dobrze',
-           zh:'好的',
+            zh: '好的',
         },
 
         //
@@ -82,7 +82,7 @@ export default {
             ua: 'Ліцензію можна отримати у лікаря, пошукайте навколо себе лікарів і запитайте у них, чи можуть вони видає вам ліцензію.',
             de: 'Sie können eine Lizenz von einem Arzt erhalten, suchen Sie nach Ärzten und fragen Sie sie, ob sie Ihnen eine Lizenz ausstellen können.',
             pl: 'Licencję można uzyskać od lekarza, poszukaj lekarzy wokół siebie i zapytaj ich, czy mogą wydać ci licencję.',
-           zh:'你可以从医生那里拿到执照，四处看看医生，问他们是否可以给你执照',
+            zh: '你可以从医生那里拿到执照，四处看看医生，问他们是否可以给你执照',
         },
         howItGoingBe: {
             ru: 'Как это будет происходить?',
@@ -90,7 +90,7 @@ export default {
             en: 'How is it going to happen?',
             de: 'Wie wird das passieren?',
             pl: 'Jak to będzie się działo?',
-           zh:'这将如何发生',
+            zh: '这将如何发生',
         },
         forWhatIt: {
             ru: 'Для чего это?',
@@ -98,7 +98,7 @@ export default {
             en: 'What is it for?',
             de: 'Wofür ist das?',
             pl: 'Do czego to jest?',
-           zh:'这是干什么用的？',
+            zh: '这是干什么用的？',
         },
         howItGoingBeAnswer: {
             ru: 'Как только вы найдете доктора и скажите ему про получение медецинской лицензии, он осмотрит вас и возьмёт кровь на анализ, после этого вам придётся заплатить ${{money}} для получение этой лицензии',
@@ -205,6 +205,31 @@ export default {
             en: 'Okay',
             de: 'Okay',
             pl: 'Dobrze',
+        },
+    },
+
+    // Диалог в хирурга
+    surgeonDialog: {
+        helloMessage: {
+            ru: 'Здравствуйте, вы хотите изменить внешность? Это будет стоить ${{price}}',
+            ua: 'Здравствуйте, ви хочете змінити зовнішність? Це коштуватиме ${{price}}',
+            en: 'Hello, do you want to change your appearance? It will cost ${{price}}',
+            de: 'Hallo, möchten Sie Ihr Aussehen ändern? Das kostet ${{price}}',
+            pl: 'Witaj, chcesz zmienić swój wygląd? To będzie kosztować ${{price}}',
+        },
+        yes: {
+            ru: 'Да',
+            ua: 'Так',
+            en: 'Yes',
+            de: 'Ja',
+            pl: 'Tak',
+        },
+        no: {
+            ru: 'Нет',
+            ua: 'Ні',
+            en: 'No',
+            de: 'Nein',
+            pl: 'Nie',
         },
     },
 };

@@ -64,6 +64,7 @@ import musicPlayer from './musicPlayer';
 import games from './games/games';
 import flappyBird from './flappyBird';
 import walkieTalkie from './walkieTalkie';
+import elevators from './elevators';
 
 export default {
     account,
@@ -132,4 +133,5 @@ export default {
     games,
     flappyBird,
     walkieTalkie,
+    elevators,
 };
