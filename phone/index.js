@@ -11,6 +11,7 @@ import gps from './pages/gps';
 import settings from './pages/settings';
 import weazelNews from './pages/weazelNews';
 import forbes from './pages/forbes';
+import online from './pages/online';
 
 export default {
     ...cef,
@@ -24,5 +25,6 @@ export default {
     gps,
     settings,
     weazelNews,
-    forbes
+    forbes,
+    online,
 };

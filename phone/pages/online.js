@@ -1,0 +1,51 @@
+export default {
+    title: {
+        ru: 'Игроки онлайн',
+        ua: 'Гравці онлайн',
+        en: 'Players online',
+        de: 'Spieler online',
+        pl: 'Gracze online',
+    },
+    desc: {
+        ru: 'Хотите узнать кто из лидеров или других нужных вам персон онлайн? Вы можете увидеть их здесь.',
+        ua: 'Хочете дізнатися, хто з лідерів чи інших потрібних вам персон онлайн? Ви можете побачити їх тут.',
+        en: 'Want to know which leaders or other people you need are online? You can see them here.',
+        de: 'Möchten Sie wissen, welche Anführer oder andere Personen, die Sie benötigen, online sind? Sie können sie hier sehen.',
+        pl: 'Chcesz wiedzieć, którzy liderzy lub inne potrzebne osoby są online? Możesz ich zobaczyć tutaj.',
+    },
+    leaders: {
+        ru: 'Лидеры',
+        ua: 'Лідери',
+        en: 'Leaders',
+        de: 'Führungskräfte',
+        pl: 'Liderzy',
+    },
+    helpers: {
+        ru: 'Хелперы',
+        ua: 'Хелпери',
+        en: 'Helpers',
+        de: 'Helfer',
+        pl: 'Pomocnicy',
+    },
+    gov: {
+        ru: 'Мерия',
+        ua: 'Мерія',
+        en: 'City Hall',
+        de: 'Rathaus',
+        pl: 'Ratusz',
+    },
+    weazelNews: {
+        ru: 'Репортёры',
+        ua: 'Репортери',
+        en: 'Reporters',
+        de: 'Reporter',
+        pl: 'Reporterzy',
+    },
+    ems: {
+        ru: 'Медики',
+        ua: 'Медики',
+        en: 'Medics',
+        de: 'Sanitäter',
+        pl: 'Medycy',
+    },
+};

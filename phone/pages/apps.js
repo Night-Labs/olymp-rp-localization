@@ -69,6 +69,13 @@ export default {
         de: 'Einstellungen',
         pl: 'Ustawienia',
     },
+    online: {
+        ru: 'Онлайн',
+        ua: 'Онлайн',
+        en: 'Online',
+        de: 'Online',
+        pl: 'Online',
+    },
 
     unavailableForNow: {
         ru: 'Это приложение на данный момент недоступно',
