@@ -182,4 +182,11 @@ export const npc = {
         de: 'Abfluss Vitalya',
         pl: 'Odpływ Vitalya',
     },
+    surgeon: {
+        ru: 'Хирург',
+        ua: 'Хірург',
+        en: 'Surgeon',
+        de: 'Chirurg',
+        pl: 'Chirurg',
+    },
 };

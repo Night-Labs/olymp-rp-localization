@@ -16,6 +16,7 @@ import quests from './quests';
 import pointCapture from './pointCapture';
 import speedradar from './speedradar';
 import weazelNews from './weazelNews';
+import surgeon from './surgeon';
 
 export const faction = {
     factions,
@@ -34,6 +35,7 @@ export const faction = {
     pointCapture,
     speedradar,
     weazelNews,
+    surgeon,
     ...cef,
     ...server,
     leader: {
