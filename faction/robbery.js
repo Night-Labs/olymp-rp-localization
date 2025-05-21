@@ -87,5 +87,16 @@ export default {
     },
     lspdMessage: {
         ru: 'Внимание! Началось ограбление магазина, он обозначен на карте!',
+        ua: 'Увага! Почалося пограбування магазину, він позначений на карті!',
+        en: 'Attention! A store robbery has started, it is marked on the map!',
+        de: 'Achtung! Ein Ladenüberfall hat begonnen, er ist auf der Karte markiert!',
+        pl: 'Uwaga! Rozpoczęło się napad na sklep, jest zaznaczony na mapie!',
+    },
+    notAllowedFaction: {
+        ru: 'Участники группы состоят в корректной фракции',
+        ua: 'Учасники групи перебувають у правильній фракції',
+        en: 'Group members belong to the correct faction',
+        de: 'Gruppenmitglieder gehören der richtigen Fraktion an',
+        pl: 'Członkowie grupy należą do właściwej frakcji',
     },
 };
