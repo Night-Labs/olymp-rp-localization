@@ -58,6 +58,13 @@ export default {
         de: 'Sie haben Nufrieren-Tabletten eingenommen',
         pl: 'Zażyłeś tabletki Nufrieren',
     },
+    youTookActivatedCoal: {
+        ru: 'Вы приняли активированый уголь',
+        ua: 'Ви прийняли активоване вугілля',
+        en: 'You took activated charcoal',
+        de: 'Du hast Aktivkohle eingenommen',
+        pl: 'Zażyłeś węgiel aktywowany',
+    },
     // RP
 
     playerTookPills: {

@@ -53,6 +53,22 @@ export default {
         de: 'Zum Hinsetzen drücken Sie',
         pl: 'Aby usiąść, naciśnij',
     },
+    //
+    couldntActivateCoal: {
+        ru: 'Вы не смогли активировать уголь...',
+        ua: 'Ви не змогли активувати вугілля...',
+        en: "You couldn't activate the coal...",
+        de: 'Du konntest die Kohle nicht aktivieren...',
+        pl: 'Nie udało się aktywować węgla...',
+    },
+    activatedCoal: {
+        ru: 'Вы выполнили все условия, и активировали уголь, ваша награда:',
+        ua: 'Ви виконали всі умови та активували вугілля, ваша нагорода:',
+        en: 'You met all the conditions and activated the coal, your reward:',
+        de: 'Du hast alle Bedingungen erfüllt und die Kohle aktiviert, deine Belohnung:',
+        pl: 'Spełniłeś wszystkie warunki i aktywowałeś węgiel, twoja nagroda:',
+    },
+    // 
     passport,
     payday,
     aidkit,

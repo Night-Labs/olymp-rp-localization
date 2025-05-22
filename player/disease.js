@@ -53,6 +53,13 @@ export default {
         pl: '~r~Masz zatrucie pokarmowe! Natychmiast zgłoś się do lekarza lub weź węgiel aktywny, inaczej twój stan może stać się krytyczny',
     },
 
+    youDeadByRawMeat: {
+        ru: 'Вы умерли от сырого мяса',
+        ua: "Ви померли від сирого м'яса",
+        en: 'You died from raw meat',
+        de: 'Du bist an rohem Fleisch gestorben',
+        pl: 'Zginąłeś od surowego mięsa',
+    },
     youAreCuredFoodPoisoning: {
         ru: '~b~Вы полностью вылечились от пищевого отравления. Тошнота, рвота и боль в животе остались в прошлом. Будьте осторожнее с едой в будущем!',
         ua: '~b~Ви повністю вилікувалися від харчового отруєння. Нудота, блювання та біль у животі залишилися в минулому. Будьте обережніші з їжею в майбутньому!',
