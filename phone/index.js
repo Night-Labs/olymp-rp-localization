@@ -12,6 +12,8 @@ import settings from './pages/settings';
 import weazelNews from './pages/weazelNews';
 import forbes from './pages/forbes';
 import online from './pages/online';
+import sim from './pages/sim';
+import widgets from './pages/widgets';
 
 export default {
     ...cef,
@@ -27,4 +29,6 @@ export default {
     weazelNews,
     forbes,
     online,
+    sim,
+    widgets
 };

@@ -77,6 +77,14 @@ export default {
         pl: 'Online',
     },
 
+    sim: {
+        ru: 'SIM-карта',
+        ua: 'SIM-картка',
+        en: 'SIM card',
+        de: 'SIM-Karte',
+        pl: 'Karta SIM',
+    },
+
     unavailableForNow: {
         ru: 'Это приложение на данный момент недоступно',
         ua: 'Цей застосунок на даний момент недоступний',

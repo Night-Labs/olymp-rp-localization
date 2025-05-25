@@ -1,0 +1,96 @@
+export default {
+    title: {
+        ru: 'Сим-карта',
+        ua: 'Сім-карта',
+        en: 'SIM card',
+        de: 'SIM-Karte',
+        pl: 'Karta SIM',
+    },
+    desc: {
+        ru: 'Для использования всех сервисов мобильного телефона не забывайте пополнять баланс сим-карты, сделать это можно в любой банке или банкомате.',
+        ua: 'Для використання всіх сервісів мобільного телефону не забувайте поповнювати баланс сім-карти, зробити це можна в будь-якому банку або банкоматі.',
+        en: "To use all mobile phone services, don't forget to top up your SIM card balance. You can do this at any bank or ATM.",
+        de: 'Um alle Dienste Ihres Mobiltelefons nutzen zu können, vergessen Sie nicht, Ihr SIM-Karten-Guthaben aufzuladen. Sie können dies in jeder Bank oder an einem Geldautomaten tun.',
+        pl: 'Aby korzystać ze wszystkich usług telefonu komórkowego, nie zapomnij doładować karty SIM. Można to zrobić w każdym banku lub bankomacie.',
+    },
+    yourNumber: {
+        ru: 'Ваш номер:',
+        ua: 'Ваш номер:',
+        en: 'Your number:',
+        de: 'Ihre Nummer:',
+        pl: 'Twój numer:',
+    },
+    serviceCost: {
+        ru: 'Стоимость услуг:',
+        ua: 'Вартість послуг:',
+        en: 'Service cost:',
+        de: 'Servicekosten:',
+        pl: 'Koszt usług:',
+    },
+    balance: {
+        ru: 'Баланс:',
+        ua: 'Баланс:',
+        en: 'Balance:',
+        de: 'Guthaben:',
+        pl: 'Saldo:',
+    },
+    activeUntil: {
+        ru: 'Оплачено до:',
+        ua: 'Оплачено до:',
+        en: 'Active until:',
+        de: 'Aktiv bis:',
+        pl: 'Aktywne do:',
+    },
+    status: {
+        ru: 'Статус:',
+        ua: 'Статус:',
+        en: 'Status:',
+        de: 'Status:',
+        pl: 'Status:',
+    },
+    calls: {
+        ru: 'Звонки',
+        ua: 'Дзвінки',
+        en: 'Calls',
+        de: 'Anrufe',
+        pl: 'Połączenia',
+    },
+    messages: {
+        ru: 'Сообщения',
+        ua: 'Повідомлення',
+        en: 'Messages',
+        de: 'Nachrichten',
+        pl: 'Wiadomości',
+    },
+    internet: {
+        ru: 'Интернет',
+        ua: 'Інтернет',
+        en: 'Internet',
+        de: 'Internet',
+        pl: 'Internet',
+    },
+
+    active: {
+        ru: 'Активно',
+        ua: 'Активно',
+        en: 'Active',
+        de: 'Aktiv',
+        pl: 'Aktywny',
+    },
+
+    inactive: {
+        ru: 'Приостановлен',
+        ua: 'Призупинено',
+        en: 'Suspended',
+        de: 'Pausiert',
+        pl: 'Zawieszony',
+    },
+
+    day: {
+        ru: 'день',
+        ua: 'день',
+        en: 'day',
+        de: 'Tag',
+        pl: 'dzień',
+    },
+};

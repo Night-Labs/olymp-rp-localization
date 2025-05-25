@@ -50,6 +50,30 @@ export default {
             de: 'Text auf dem Sperrbildschirm',
             pl: 'Tekst na ekranie blokady',
         },
+
+        showOnlineWidget: {
+            ru: 'Отображать виджет онлайна',
+            ua: 'Відображати віджет онлайна',
+            en: 'Show online widget',
+            de: 'Online-Widget anzeigen',
+            pl: 'Wyświetlaj widget online',
+        },
+
+        showWeatherWidget: {
+            ru: 'Отображать виджет погоды',
+            ua: 'Відображати віджет погоди',
+            en: 'Show weather widget',
+            de: 'Wetter-Widget anzeigen',
+            pl: 'Wyświetlaj widget pogody',
+        },
+
+        widgetsOpacity: {
+            ru: 'Прозрачность виджетов',
+            ua: 'Прозорість віджетів',
+            en: 'Widgets Opacity',
+            de: 'Widgets-Transparenz',
+            pl: 'Przezroczystość widżetów',
+        },
     },
 
     wallpapers: {
