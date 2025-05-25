@@ -17,6 +17,7 @@ import pointCapture from './pointCapture';
 import speedradar from './speedradar';
 import weazelNews from './weazelNews';
 import surgeon from './surgeon';
+import graffitiWar from './graffitiWar';
 
 export const faction = {
     factions,
@@ -36,6 +37,7 @@ export const faction = {
     speedradar,
     weazelNews,
     surgeon,
+    graffitiWar,
     ...cef,
     ...server,
     leader: {
@@ -208,6 +210,13 @@ export const faction = {
         en: 'You have placed an order for the supply of materials, please wait for the government to accept it',
         de: 'Sie haben eine Bestellung für die Lieferung von Materialien aufgegeben. Bitte warten Sie, bis die Regierung sie annimmt.',
         pl: 'Złożyłeś zamówienie na dostawę materiałów, poczekaj, aż rząd je zaakceptuje.',
+    },
+    noMoneyForSupply: {
+        ru: 'На счету организации недостаточно денег для поставки',
+        ua: 'На рахунку організації недостатньо коштів для постачання',
+        en: 'The organization does not have enough funds for the supply',
+        de: 'Die Organisation hat nicht genug Geld für die Lieferung',
+        pl: 'Organizacja nie ma wystarczających środków na dostawę',
     },
     toStaffNoPlayers: {
         ru: 'Сейчас нет активных сотрудников который можно позвать',

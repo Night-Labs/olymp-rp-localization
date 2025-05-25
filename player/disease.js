@@ -43,4 +43,92 @@ export default {
         de: '~b~Sie fühlen sich sehr schwach, Ihre Gesundheit verschlechtert sich aufgrund des schweren Erkältungsstadiums rapide. Beginnen Sie sofort mit der Behandlung, sonst könnten die Folgen irreversibel sein',
         pl: '~b~Czujesz się bardzo osłabiony, twoje zdrowie gwałtownie się pogarsza z powodu zaawansowanego stadium przeziębienia. Natychmiast rozpocznij leczenie, inaczej skutki mogą być nieodwracalne',
     },
+
+    // Новые сообщения для пищевого отравления
+    youHaveFoodPoisoning: {
+        ru: '~r~У вас пищевое отравление! Немедленно обратитесь к врачу или примите активированный уголь, иначе состояние может стать критическим',
+        ua: '~r~У вас харчове отруєння! Негайно зверніться до лікаря або прийміть активоване вугілля, інакше стан може стати критичним',
+        en: '~r~You have food poisoning! Seek medical attention immediately or take activated charcoal, or your condition may become critical',
+        de: '~r~Sie haben eine Lebensmittelvergiftung! Suchen Sie sofort einen Arzt auf oder nehmen Sie Aktivkohle, sonst könnte Ihr Zustand kritisch werden',
+        pl: '~r~Masz zatrucie pokarmowe! Natychmiast zgłoś się do lekarza lub weź węgiel aktywny, inaczej twój stan może stać się krytyczny',
+    },
+
+    youDeadByRawMeat: {
+        ru: 'Вы умерли от сырого мяса',
+        ua: "Ви померли від сирого м'яса",
+        en: 'You died from raw meat',
+        de: 'Du bist an rohem Fleisch gestorben',
+        pl: 'Zginąłeś od surowego mięsa',
+    },
+    youAreCuredFoodPoisoning: {
+        ru: '~b~Вы полностью вылечились от пищевого отравления. Тошнота, рвота и боль в животе остались в прошлом. Будьте осторожнее с едой в будущем!',
+        ua: '~b~Ви повністю вилікувалися від харчового отруєння. Нудота, блювання та біль у животі залишилися в минулому. Будьте обережніші з їжею в майбутньому!',
+        en: '~b~You have fully recovered from food poisoning. Nausea, vomiting, and stomach pain are now behind you. Be more careful with food in the future!',
+        de: '~b~Sie haben sich vollständig von der Lebensmittelvergiftung erholt. Übelkeit, Erbrechen und Bauchschmerzen gehören der Vergangenheit an. Seien Sie in Zukunft vorsichtiger mit dem Essen!',
+        pl: '~b~Wyleczyłeś się całkowicie z zatrucia pokarmowego. Nudności, wymioty i ból brzucha to już przeszłość. Bądź ostrożniejszy z jedzeniem w przyszłości!',
+    },
+
+    mildFoodPoisoningSymptoms: {
+        ru: '~y~У вас легкие симптомы пищевого отравления - небольшая тошнота и дискомфорт в животе',
+        ua: '~y~У вас легкі симптоми харчового отруєння - невелика нудота та дискомфорт у животі',
+        en: '~y~You have mild food poisoning symptoms - slight nausea and stomach discomfort',
+        de: '~y~Sie haben leichte Symptome einer Lebensmittelvergiftung - leichte Übelkeit und Magenbeschwerden',
+        pl: '~y~Masz łagodne objawy zatrucia pokarmowego - lekkie nudności i dyskomfort żołądka',
+    },
+
+    foodPoisoningWorsening: {
+        ru: '~o~Отравление усиливается! Начинается рвота и сильные боли в животе. Срочно нужно лечение',
+        ua: '~o~Отруєння посилюється! Починається блювання та сильні болі в животі. Терміново потрібне лікування',
+        en: '~o~The poisoning is getting worse! Vomiting and severe stomach pain are starting. Treatment is urgently needed',
+        de: '~o~Die Vergiftung wird schlimmer! Erbrechen und starke Bauchschmerzen beginnen. Eine Behandlung ist dringend erforderlich',
+        pl: '~o~Zatrucie się pogarsza! Zaczynają się wymioty i silne bóle brzucha. Pilnie potrzebne jest leczenie',
+    },
+
+    severeFoodPoisoning: {
+        ru: '~r~У вас тяжелое пищевое отравление! Постоянная рвота, диарея и сильные боли истощают организм',
+        ua: '~r~У вас тяжке харчове отруєння! Постійне блювання, діарея та сильні болі виснажують організм',
+        en: '~r~You have severe food poisoning! Constant vomiting, diarrhea, and severe pain are exhausting your body',
+        de: '~r~Sie haben eine schwere Lebensmittelvergiftung! Ständiges Erbrechen, Durchfall und starke Schmerzen erschöpfen Ihren Körper',
+        pl: '~r~Masz poważne zatrucie pokarmowe! Ciągłe wymioty, biegunka i silne bóle wyczerpują twój organizm',
+    },
+
+    criticalFoodPoisoning: {
+        ru: '~r~КРИТИЧЕСКОЕ СОСТОЯНИЕ! Обезвоживание и интоксикация достигли опасного уровня. Без медицинской помощи вы можете умереть!',
+        ua: '~r~КРИТИЧНИЙ СТАН! Зневоднення та інтоксикація досягли небезпечного рівня. Без медичної допомоги ви можете померти!',
+        en: '~r~CRITICAL CONDITION! Dehydration and intoxication have reached dangerous levels. Without medical help, you could die!',
+        de: '~r~KRITISCHER ZUSTAND! Dehydration und Vergiftung haben ein gefährliches Niveau erreicht. Ohne medizinische Hilfe könnten Sie sterben!',
+        pl: '~r~STAN KRYTYCZNY! Odwodnienie i zatrucie osiągnęły niebezpieczny poziom. Bez pomocy medycznej możesz umrzeć!',
+    },
+
+    lifeThreatening: {
+        ru: '~r~СМЕРТЕЛЬНАЯ ОПАСНОСТЬ! Ваш организм на грани полного отказа от тяжелейшего отравления. Счет идет на минуты!',
+        ua: '~r~СМЕРТЕЛЬНА НЕБЕЗПЕКА! Ваш організм на межі повного відмови від найтяжчого отруєння. Рахунок йде на хвилини!',
+        en: '~r~LIFE-THREATENING! Your body is on the verge of complete failure from severe poisoning. Every minute counts!',
+        de: '~r~LEBENSGEFAHR! Ihr Körper steht kurz vor dem kompletten Versagen durch schwere Vergiftung. Jede Minute zählt!',
+        pl: '~r~ZAGROŻENIE ŻYCIA! Twój organizm jest na skraju całkowitego załamania z powodu ciężkiego zatrucia. Liczy się każda minuta!',
+    },
+
+    criticalCondition: {
+        ru: '~r~КРИТИЧЕСКОЕ СОСТОЯНИЕ! Немедленно к врачу!',
+        ua: '~r~КРИТИЧНИЙ СТАН! Негайно до лікаря!',
+        en: '~r~CRITICAL CONDITION! Get to a doctor immediately!',
+        de: '~r~KRITISCHER ZUSTAND! Sofort zum Arzt!',
+        pl: '~r~STAN KRYTYCZNY! Natychmiast do lekarza!',
+    },
+
+    diedFromFoodPoisoning: {
+        ru: '~r~Вы умерли от тяжелого пищевого отравления. Обезвоживание и интоксикация оказались фатальными...',
+        ua: '~r~Ви померли від тяжкого харчового отруєння. Зневоднення та інтоксикація виявилися фатальними...',
+        en: '~r~You died from severe food poisoning. Dehydration and intoxication proved fatal...',
+        de: '~r~Sie sind an einer schweren Lebensmittelvergiftung gestorben. Dehydration und Vergiftung erwiesen sich als tödlich...',
+        pl: '~r~Zmarłeś z powodu ciężkiego zatrucia pokarmowego. Odwodnienie i zatrucie okazały się śmiertelne...',
+    },
+
+    diarrheaSymptom: {
+        ru: '~y~Диарея усиливает обезвоживание организма и истощает силы',
+        ua: '~y~Діарея посилює зневоднення організму та виснажує сили',
+        en: '~y~Diarrhea increases dehydration and depletes your strength',
+        de: '~y~Durchfall verstärkt die Dehydration und schwächt Sie',
+        pl: '~y~Biegunka nasila odwodnienie i wyczerpuje siły',
+    },
 };
