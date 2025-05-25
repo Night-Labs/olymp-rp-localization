@@ -515,4 +515,20 @@ export const items = {
             pl: 'Przenośne urządzenie do komunikacji głosowej. Umożliwia łączenie się z określoną częstotliwością radiową i rozmowę z innymi graczami na tym samym kanale. Niezbędne do koordynacji działań w grupach.',
         },
     },
+    sprayPaintCan: {
+        name: {
+            ru: 'Баллончик с краской',
+            ua: 'Балончик з фарбою',
+            en: 'Spray Paint Can',
+            de: 'Spraydose',
+            pl: 'Puszka z farbą w sprayu',
+        },
+        desc: {
+            ru: 'Аэрозольный баллончик, используемый для рисования граффити. Оставляет яркие следы на любой поверхности.',
+            ua: 'Аерозольний балончик, що використовується для створення графіті. Залишає яскраві сліди на будь-якій поверхні.',
+            en: 'An aerosol can used for graffiti. Leaves vivid marks on any surface.',
+            de: 'Eine Sprühdose, die für Graffiti verwendet wird. Hinterlässt leuchtende Spuren auf jeder Oberfläche.',
+            pl: 'Aerozolowa puszka używana do malowania graffiti. Pozostawia wyraźne ślady na każdej powierzchni.',
+        },
+    },
 };
