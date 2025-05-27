@@ -7,6 +7,14 @@ export default {
         pl: 'Ustawienia',
     },
 
+    enterText: {
+        ru: 'Введите текст',
+        ua: 'Введіть текст',
+        en: 'Enter text',
+        de: 'Text eingeben',
+        pl: 'Wprowadź tekst',
+    },
+    
     list: {
         theme: {
             ru: 'Тёмная тема',

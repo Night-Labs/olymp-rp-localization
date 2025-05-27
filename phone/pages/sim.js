@@ -93,4 +93,20 @@ export default {
         de: 'Tag',
         pl: 'dzień',
     },
+
+    activated: {
+        ru: 'SIM-карта активирована! \n Ваш номер: {{number}}',
+        ua: 'SIM-карта активована! \n Ваш номер: {{number}}',
+        en: 'SIM card activated! \n Your number: {{number}}',
+        de: 'SIM-Karte aktiviert! \n Ihre Nummer: {{number}}',
+        pl: 'Karta SIM aktywowana! \n Twój numer: {{number}}',
+    },
+
+    noSimError: {
+        ru: 'Для этого приложения или действия требуется SIM-карта',
+        ua: 'Для цього застосунку або дії потрібна SIM-картка',
+        en: 'This application or action requires a SIM card',
+        de: 'Für diese Anwendung oder Aktion ist eine SIM-Karte erforderlich',
+        pl: 'Ta aplikacja lub działanie wymaga karty SIM',
+    },
 };
