@@ -109,4 +109,12 @@ export default {
         de: 'Für diese Anwendung oder Aktion ist eine SIM-Karte erforderlich',
         pl: 'Ta aplikacja lub działanie wymaga karty SIM',
     },
+
+    deposited: {
+        ru: 'Ваш счёт {{number}} \n Пополнена на {{amount}} Баланс {{balance}}',
+        ua: 'Ваш рахунок {{number}} \n Поповнено на {{amount}} Баланс {{balance}}',
+        en: 'Your account {{number}} \n Deposited {{amount}} Balance {{balance}}',
+        de: 'Ihr Konto {{number}} \n Einzahlung {{amount}} Guthaben {{balance}}',
+        pl: 'Twoje konto {{number}} \n Wpłacono {{amount}} Saldo {{balance}}',
+    },
 };
