@@ -5,7 +5,7 @@ export const operations = {
         ua: 'Поповнив рахунок',
         de: 'Einzahlung',
         pl: 'Dokonano wpłaty',
-       zh:'存取',
+        zh: '存取',
     },
     withdrew: {
         ru: 'Снял со счёта',
@@ -13,7 +13,7 @@ export const operations = {
         ua: 'Зняв з рахунку',
         de: 'Abgehoben',
         pl: 'Wypłacono',
-       zh:'收回',
+        zh: '收回',
     },
     transferFrom: {
         ru: 'Вам перевели со счёта {{account}}',
@@ -21,7 +21,7 @@ export const operations = {
         ua: 'Вам перерахували з рахунку {{account}}',
         de: 'Sie haben eine Überweisung von Konto {{account}} erhalten',
         pl: 'Otrzymałeś transfer z konta {{account}}',
-       zh:'您收到账户{{account}}的转账',
+        zh: '您收到账户{{account}}的转账',
     },
     transferTo: {
         ru: 'Вы перевели на счёт {{account}}',
@@ -29,7 +29,7 @@ export const operations = {
         ua: 'Ви перерахували на рахунок {{account}}',
         de: 'Sie haben auf Konto {{account}} überwiesen',
         pl: 'Przekazałeś na konto {{account}}',
-        zh:'您已转帐到帐户{{account}}',
+        zh: '您已转帐到帐户{{account}}',
     },
     withdrawFromContributions: {
         ru: 'Снял со счёта вкладов',
@@ -37,7 +37,7 @@ export const operations = {
         ua: 'Зняв зі скарбничого рахунку',
         de: 'Von Beitragsguthaben abgehoben',
         pl: 'Wypłacono z konta wkładów',
-       zh:'从供款帐户提款',
+        zh: '从供款帐户提款',
     },
     depositToContributions: {
         ru: 'Пополнил счёт вкладов',
@@ -45,7 +45,7 @@ export const operations = {
         ua: 'Поповнив на скарбничий рахунок',
         de: 'Einzahlung auf Beitragsguthaben',
         pl: 'Dokonano wpłaty na konta wkładów',
-        zh:'存入供款帐户',
+        zh: '存入供款帐户',
     },
     depositToTax: {
         ru: 'Пополнил комунальный счёт',
@@ -53,7 +53,7 @@ export const operations = {
         en: 'Topped up the utility account',
         de: 'Habe das Gemeinschaftskonto aufgefüllt',
         pl: 'Doładowałem konto komunalne',
-       zh:'给公用事业账户充值',
+        zh: '给公用事业账户充值',
     },
     depositedToCommercial: {
         ru: 'Пополнил коммерческий счёт',
@@ -61,7 +61,14 @@ export const operations = {
         en: 'Deposited to commercial account',
         de: 'Auf das Geschäftskonto eingezahlt',
         pl: 'Wpłacono na konto komercyjne',
-        zh:'存入商业帐户',
+        zh: '存入商业帐户',
+    },
+    depositToPhone: {
+        ru: 'Пополнил мобильный',
+        ua: 'Поповнив мобільний',
+        en: 'Topped up mobile',
+        de: 'Handy aufgeladen',
+        pl: 'Doładowano telefon',
     },
     takeHouse: {
         ru: 'Отобран дом #{{id}}',
@@ -69,7 +76,7 @@ export const operations = {
         ua: 'Відібрано будинок #{{id}}',
         de: 'Haus genommen #{{id}}',
         pl: 'Wybrano dom #{{id}}',
-        zh:'被占用房屋#{{id}}',
+        zh: '被占用房屋#{{id}}',
     },
     takeAtm: {
         ru: 'Отобран банкомат #{{id}}',
@@ -77,6 +84,6 @@ export const operations = {
         en: 'ATM taken #{{id}}',
         de: 'Geldautomat genommen #{{id}}',
         pl: 'Przejęto bankomat #{{id}}',
-        zh:'自动取款机#{{id}}',
+        zh: '自动取款机#{{id}}',
     },
 };

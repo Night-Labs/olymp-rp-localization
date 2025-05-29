@@ -198,6 +198,22 @@ export const cef = {
                 zh: '这个账户用于支付各种类型的企业，比如ATM机或24小时营业的商店。您的企业所需资金将每天自动从该账户中扣除。',
             },
         },
+        phone: {
+            name: {
+                ru: 'Мобильный телефон',
+                ua: 'Мобільний телефон',
+                en: 'Mobile phone',
+                de: 'Mobiltelefon',
+                pl: 'Telefon komórkowy',
+            },
+            desc: {
+                ru: 'На этой странице вы можете пополнить мобильный телефон',
+                ua: 'На цій сторінці ви можете поповнити мобільний телефон',
+                en: 'On this page, you can top up your mobile phone',
+                de: 'Auf dieser Seite können Sie Ihr Mobiltelefon aufladen',
+                pl: 'Na tej stronie możesz doładować swój telefon komórkowy',
+            },
+        },
         exit: {
             name: {
                 ua: 'Вийти',
@@ -621,6 +637,55 @@ export const cef = {
             de: 'Einzahlen',
             pl: 'Wpłać',
             zh: '存款',
+        },
+    },
+    phone: {
+        balance: {
+            ru: 'Баланс',
+            en: 'Balance',
+            ua: 'Баланс',
+            de: 'Guthaben',
+            pl: 'Saldo',
+            zh: '平衡',
+        },
+        input: {
+            ru: 'Введите сумму',
+            en: 'Enter amount',
+            ua: 'Введіть суму',
+            de: 'Geben Sie den Betrag ein',
+            pl: 'Wprowadź kwotę',
+            zh: '输入金额',
+        },
+        commission: {
+            ua: 'Комісія',
+            en: 'Commission',
+            ru: 'Комиссия',
+            de: 'Kommission',
+            pl: 'Prowizja',
+            zh: '支付手续费',
+        },
+        total: {
+            ua: 'Загальна сума',
+            en: 'Total Amount',
+            ru: 'Итоговая сумма',
+            de: 'Gesamtbetrag',
+            pl: 'Całkowita kwota',
+            zh: '总金额',
+        },
+        button: {
+            ru: 'Пополнить',
+            en: 'Deposit',
+            ua: 'Поповнити',
+            de: 'Einzahlen',
+            pl: 'Wpłać',
+            zh: '存款',
+        },
+        noSimCard: {
+            ru: '🍃 У вас нет сим-карты',
+            ua: '🍃 У вас немає SIM-картки',
+            en: "🍃 You don't have a SIM card",
+            de: '🍃 Sie haben keine SIM-Karte',
+            pl: '🍃 Nie masz karty SIM',
         },
     },
 };
