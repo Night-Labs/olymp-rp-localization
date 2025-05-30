@@ -74,6 +74,20 @@ export default {
             de: 'Kontakt',
             pl: 'Kontakt',
         },
+        new: {
+            ru: 'Новый контакт',
+            ua: 'Новий контакт',
+            en: 'New contact',
+            de: 'Neuer Kontakt',
+            pl: 'Nowy kontakt',
+        },
+        change: {
+            ru: 'Редактирование контакта',
+            ua: 'Редагування контакту',
+            en: 'Edit contact',
+            de: 'Kontakt bearbeiten',
+            pl: 'Edycja kontaktu',
+        },
         firstName: {
             ru: 'Имя',
             ua: "Ім'я",
@@ -196,6 +210,56 @@ export default {
             en: 'Unblock',
             de: 'Entsperren',
             pl: 'Odblokuj',
+        },
+    },
+
+    notification: {
+        contacts: {
+            error: {
+                ru: 'Вы ввели некорректные данные, пожалуйста повторите попытку с новыми данными',
+                ua: 'Ви ввели некоректні дані, будь ласка, повторіть спробу з новими даними',
+                en: 'You have entered incorrect data, please try again with new data',
+                de: 'Sie haben ungültige Daten eingegeben, bitte versuchen Sie es erneut mit neuen Daten',
+                pl: 'Wprowadziłeś niepoprawne dane, spróbuj ponownie z nowymi danymi',
+            },
+
+            exists: {
+                ru: 'Контакт с номером {{firstName}} {{lastName}} - {{number}} уже существует',
+                ua: 'Контакт з номером {{firstName}} {{lastName}} - {{number}} вже існує',
+                en: 'Contact with number {{firstName}} {{lastName}} - {{number}} already exists',
+                de: 'Kontakt mit der Nummer {{firstName}} {{lastName}} - {{number}} existiert bereits',
+                pl: 'Kontakt o numerze {{firstName}} {{lastName}} - {{number}} już istnieje',
+            },
+            added: {
+                ru: 'Контакт {{firstName}} {{lastName}} - {{number}} добавлен',
+                ua: 'Контакт {{firstName}} {{lastName}} - {{number}} додано',
+                en: 'Contact {{firstName}} {{lastName}} - {{number}} added',
+                de: 'Kontakt {{firstName}} {{lastName}} - {{number}} hinzugefügt',
+                pl: 'Kontakt {{firstName}} {{lastName}} - {{number}} dodany',
+            },
+            removed: {
+                ru: 'Контакт {{firstName}} {{lastName}} - {{number}} удален',
+                ua: 'Контакт {{firstName}} {{lastName}} - {{number}} видалено',
+                en: 'Contact {{firstName}} {{lastName}} - {{number}} removed',
+                de: 'Kontakt {{firstName}} {{lastName}} - {{number}} entfernt',
+                pl: 'Kontakt {{firstName}} {{lastName}} - {{number}} usunięty',
+            },
+        },
+        blacklist: {
+            added: {
+                ru: 'Контакт {{number}} заблокирован',
+                ua: 'Контакт {{number}} заблоковано',
+                en: 'Contact {{number}} blocked',
+                de: 'Kontakt {{number}} blockiert',
+                pl: 'Kontakt {{number}} zablokowany',
+            },
+            removed: {
+                ru: 'Контакт {{number}} разблокирован',
+                ua: 'Контакт {{number}} розблоковано',
+                en: 'Contact {{number}} unblocked',
+                de: 'Kontakt {{number}} entsperrt',
+                pl: 'Kontakt {{number}} odblokowany',
+            },
         },
     },
 };
