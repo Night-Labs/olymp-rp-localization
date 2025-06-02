@@ -15,6 +15,7 @@ export default {
         pl: 'Aby prowadzić gracza, najpierw załóż na niego kajdanki',
         zh: '要领导一名球员，先给他们戴上手铐',
     },
+    //
     useHandCuffs: {
         ru: '{{firstName}} надел(а) наручники на {{targetName}}',
         ua: '{{firstName}} надів(ла) кайданки на {{targetName}}',
@@ -31,6 +32,21 @@ export default {
         pl: '{{firstName}} zdjął(a) kajdanki z {{targetName}}',
         zh: '｛｛firstName｝｝从｛｛targetName｝｝中摘下了手铐',
     },
+    useCabbleTie: {
+        ru: '{{firstName}} надел(а) стяжки на руки {{targetName}}',
+        ua: '{{firstName}} надів(ла) стяжки на руки {{targetName}}',
+        en: "{{firstName}} put cable ties on {{targetName}}'s hands",
+        de: '{{firstName}} hat {{targetName}} Kabelbinder an den Händen angebracht',
+        pl: '{{firstName}} założył(a) opaski kablowe na ręce {{targetName}}',
+    },
+    removeCabbleTie: {
+        ru: '{{firstName}} снял(а) стяжки с рук {{targetName}}',
+        ua: '{{firstName}} зняв(ла) стяжки з рук {{targetName}}',
+        en: "{{firstName}} removed cable ties from {{targetName}}'s hands",
+        de: "{{firstName}} hat die Kabelbinder von {{targetName}}'s Händen entfernt",
+        pl: '{{firstName}} zdjął(ęła) opaski kablowe z rąk {{targetName}}',
+    },
+    //
     startedLead: {
         ru: '{{firstName}} начал(а) вести за собой {{targetName}}',
         ua: '{{firstName}} почав(ла) вести за собою {{targetName}}',
@@ -188,15 +204,13 @@ export default {
         zh: '你可以通过时间抢劫这个公民',
     },
 
-    targetNeedToRaiseHand: {
-        ru: 'Гражданин должен поднять руки вверх',
-        ua: 'Громадянин повинен підняти руки вгору',
-        en: 'The citizen must raise their hands',
-        de: 'Der Bürger muss die Hände heben',
-        pl: 'Obywatel musi podnieść ręce do góry',
-        zh: '公民必须举手',
+    targetNeedToBeRestrainedOrRaiseHand: {
+        ru: 'Гражданин должен быть связан или поднять руки вверх',
+        ua: "Громадянин повинен бути зв'язаний або підняти руки вгору",
+        en: 'The citizen must be restrained or raise their hands up',
+        de: 'Der Bürger muss gefesselt sein oder die Hände heben',
+        pl: 'Obywatel musi być związany lub podnieść ręce do góry',
     },
-
     cantRobTeam: {
         ru: 'Бей своих чтобы чужие боялись да? С ограблениями так не выйдет бро',
         ua: "Б'єш своїх, щоб чужі боялися, так? З пограбуваннями так не вийде, бро",
@@ -330,5 +344,22 @@ export default {
         en: 'You received a military ID from {{name}}',
         de: 'Sie haben einen Militärausweis von {{name}} erhalten',
         pl: 'Otrzymałeś książeczkę wojskową od {{name}}',
+    },
+
+    youDontHave: {
+        handcuffs: {
+            ru: 'У вас нет наручников',
+            ua: 'У вас немає наручників',
+            en: "You don't have handcuffs",
+            de: 'Sie haben keine Handschellen',
+            pl: 'Nie masz kajdanek',
+        },
+        cabbleTie: {
+            ru: 'У вас нет стяжек',
+            ua: 'У вас немає стяжок',
+            en: "You don't have cable ties",
+            de: 'Sie haben keine Kabelbinder',
+            pl: 'Nie masz opasek kablowych',
+        },
     },
 };
