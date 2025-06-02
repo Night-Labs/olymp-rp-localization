@@ -531,4 +531,20 @@ export const items = {
             pl: 'Aerozolowa puszka używana do malowania graffiti. Pozostawia wyraźne ślady na każdej powierzchni.',
         },
     },
+    cabbleTie: {
+        name: {
+            ru: 'Стяжки',
+            ua: 'Стяжки',
+            en: 'Cable ties',
+            de: 'Kabelbinder',
+            pl: 'Opaski kablowe',
+        },
+        desc: {
+            ru: 'Используются чтобы связывать людей',
+            ua: "Використовуються для зв'язування людей",
+            en: 'Used to restrain people',
+            de: 'Wird verwendet, um Personen zu fesseln',
+            pl: 'Służą do wiązania ludzi',
+        },
+    },
 };

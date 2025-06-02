@@ -445,4 +445,20 @@ export const player = {
         de: 'Tür schließen',
         pl: 'Zamknij drzwi',
     },
+
+    // new
+    unCabbleTie: {
+        ru: 'Снять стяжки',
+        ua: 'Зняти стяжки',
+        en: 'Remove cable ties',
+        de: 'Kabelbinder entfernen',
+        pl: 'Usuń opaski kablowe',
+    },
+    cabbleTie: {
+        ru: 'Надеть стяжки',
+        ua: 'Надіти стяжки',
+        en: 'Put on cable ties',
+        de: 'Kabelbinder anlegen',
+        pl: 'Załóż opaski kablowe',
+    },
 };
