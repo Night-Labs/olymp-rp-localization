@@ -345,4 +345,21 @@ export default {
         de: 'Sie haben einen Militärausweis von {{name}} erhalten',
         pl: 'Otrzymałeś książeczkę wojskową od {{name}}',
     },
+
+    youDontHave: {
+        handcuffs: {
+            ru: 'У вас нет наручников',
+            ua: 'У вас немає наручників',
+            en: "You don't have handcuffs",
+            de: 'Sie haben keine Handschellen',
+            pl: 'Nie masz kajdanek',
+        },
+        cabbleTie: {
+            ru: 'У вас нет стяжек',
+            ua: 'У вас немає стяжок',
+            en: "You don't have cable ties",
+            de: 'Sie haben keine Kabelbinder',
+            pl: 'Nie masz opasek kablowych',
+        },
+    },
 };
