@@ -32,4 +32,14 @@ export const cef = {
             pl: 'Anuluj',
         },
     },
+
+    usersSortList: {
+        services: {
+            ru: 'Сервисы',
+            ua: 'Сервіси',
+            en: 'Services',
+            de: 'Dienstleistungen',
+            pl: 'Usługi',
+        },
+    },
 };

@@ -230,6 +230,7 @@ export default {
                 de: 'Kontakt mit der Nummer {{firstName}} {{lastName}} - {{number}} existiert bereits',
                 pl: 'Kontakt o numerze {{firstName}} {{lastName}} - {{number}} już istnieje',
             },
+
             added: {
                 ru: 'Контакт {{firstName}} {{lastName}} - {{number}} добавлен',
                 ua: 'Контакт {{firstName}} {{lastName}} - {{number}} додано',
@@ -237,6 +238,7 @@ export default {
                 de: 'Kontakt {{firstName}} {{lastName}} - {{number}} hinzugefügt',
                 pl: 'Kontakt {{firstName}} {{lastName}} - {{number}} dodany',
             },
+
             removed: {
                 ru: 'Контакт {{firstName}} {{lastName}} - {{number}} удален',
                 ua: 'Контакт {{firstName}} {{lastName}} - {{number}} видалено',
@@ -244,21 +246,45 @@ export default {
                 de: 'Kontakt {{firstName}} {{lastName}} - {{number}} entfernt',
                 pl: 'Kontakt {{firstName}} {{lastName}} - {{number}} usunięty',
             },
-        },
-        blacklist: {
-            added: {
-                ru: 'Контакт {{number}} заблокирован',
-                ua: 'Контакт {{number}} заблоковано',
-                en: 'Contact {{number}} blocked',
-                de: 'Kontakt {{number}} blockiert',
-                pl: 'Kontakt {{number}} zablokowany',
+
+            edited: {
+                ru: 'Контакт {{firstName}} {{lastName}} - {{number}} изменен',
+                ua: 'Контакт {{firstName}} {{lastName}} - {{number}} змінено',
+                en: 'Contact {{firstName}} {{lastName}} - {{number}} changed',
+                de: 'Kontakt {{firstName}} {{lastName}} - {{number}} geändert',
+                pl: 'Kontakt {{firstName}} {{lastName}} - {{number}} zmieniony',
             },
-            removed: {
-                ru: 'Контакт {{number}} разблокирован',
-                ua: 'Контакт {{number}} розблоковано',
-                en: 'Contact {{number}} unblocked',
-                de: 'Kontakt {{number}} entsperrt',
-                pl: 'Kontakt {{number}} odblokowany',
+
+            max: {
+                ru: 'Вы достигли лимита контактов.',
+                ua: 'Ви досягли ліміту контактів.',
+                en: 'You have reached the contact limit.',
+                de: 'Sie haben das Kontaktlimit erreicht.',
+                pl: 'Osiągnąłeś limit kontaktów.',
+            },
+        },
+        
+        blackList: {
+            max: {
+                ru: 'Вы достигли лимита заблокированных номеров.',
+                ua: 'Ви досягли ліміту заблокованих номерів.',
+                en: 'You have reached the limit of blocked numbers.',
+                de: 'Sie haben das Limit für blockierte Nummern erreicht.',
+                pl: 'Osiągnąłeś limit zablokowanych numerów.',
+            },
+            blocked: {
+                ru: 'Номер {{number}} заблокирован',
+                ua: 'Номер {{number}} заблоковано',
+                en: 'Number {{number}} is blocked',
+                de: 'Nummer {{number}} ist blockiert',
+                pl: 'Numer {{number}} został zablokowany',
+            },
+            unblocked: {
+                ru: 'Номер {{number}} разблокирован',
+                ua: 'Номер {{number}} розблоковано',
+                en: 'Number {{number}} is unblocked',
+                de: 'Nummer {{number}} ist entsperrt',
+                pl: 'Numer {{number}} został odblokowany',
             },
         },
     },
