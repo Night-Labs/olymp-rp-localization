@@ -8,6 +8,7 @@ import ems from './ems';
 import sang from './sang';
 import goverment from './goverment';
 import weazelNews from './weazelNews';
+import fib from './fib';
 
 export default {
     // Gov
@@ -16,6 +17,7 @@ export default {
     sang,
     goverment,
     weazelNews,
+    fib,
     // Gang
     families,
     ballas,

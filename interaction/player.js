@@ -461,4 +461,11 @@ export const player = {
         de: 'Kabelbinder anlegen',
         pl: 'Załóż opaski kablowe',
     },
+    takeMask: {
+        ru: 'Снять маску',
+        ua: 'Зняти маску',
+        en: 'Take off the mask',
+        de: 'Maske abnehmen',
+        pl: 'Zdejmij maskę',
+    },
 };

@@ -224,6 +224,22 @@ export default {
         zh: '包括你需要的一切，运动型电动汽车、无罪巡逻、屋顶上的直升机',
     },
 
+    // FIB
+    lowFIBCarsName: {
+        ru: 'Базовые автомобили',
+        ua: 'Базові автомобілі',
+        en: 'Basic Cars',
+        de: 'Basis-Fahrzeuge',
+        pl: 'Podstawowe samochody',
+        zh: '基础车',
+    },
+    lowFIBCarsDesc: {
+        ru: 'Включает в себя все нужные автомобили для работы',
+        ua: 'Включає в себе всі необхідні автомобілі для роботи',
+        en: 'Includes all the necessary vehicles for work',
+        de: 'Enthält alle benötigten Fahrzeuge für die Arbeit',
+        pl: 'Zawiera wszystkie potrzebne pojazdy do pracy',
+    },
     // army
     basicArmyCarsTitle: {
         ru: 'Базовый транспорт',

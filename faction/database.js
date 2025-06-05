@@ -305,4 +305,20 @@ export default {
         de: 'Sie haben keinen Zugriff auf die Datenbank',
         pl: 'Nie masz dostępu do bazy danych',
     },
+
+    //
+    allLoaded: {
+        ru: 'Больше ничего',
+        ua: 'Більше нічого',
+        en: 'Nothing more',
+        de: 'Nichts weiter',
+        pl: 'Nic więcej',
+    },
+    noResults: {
+        ru: 'Ничего не найдено',
+        ua: 'Нічого не знайдено',
+        en: 'No results found',
+        de: 'Keine Ergebnisse gefunden',
+        pl: 'Nie znaleziono wyników',
+    },
 };
