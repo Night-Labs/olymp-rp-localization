@@ -68,13 +68,37 @@ export default {
             de: 'Dem Benutzer Ihren aktuellen Standort senden?',
             pl: 'Wysłać temu użytkownikowi twoją aktualną lokalizację?',
         },
-        
+
         sendLocationButton: {
             ru: 'Отправить',
             ua: 'Відправити',
             en: 'Send',
             de: 'Senden',
             pl: 'Wyślij',
+        },
+    },
+
+    notification: {
+        noActive: {
+            ru: 'Для этого пополните баланс вашей SIM-карты',
+            ua: 'Для цього поповніть баланс вашої SIM-картки',
+            en: 'To do this, top up your SIM card balance',
+            de: 'Um dies zu tun, laden Sie Ihr SIM-Karten-Guthaben auf',
+            pl: 'Aby to zrobić, doładuj saldo swojej karty SIM',
+        },
+        numberNotFound: {
+            ru: 'Номер не найден',
+            ua: 'Номер не знайдено',
+            en: 'Number not found',
+            de: 'Nummer nicht gefunden',
+            pl: 'Numer nie znaleziony',
+        },
+        numberInBlackList: {
+            ru: 'Этот пользователь заблокировал вас',
+            ua: 'Цей користувач заблокував вас',
+            en: 'This user has blocked you',
+            de: 'Dieser Benutzer hat dich blockiert',
+            pl: 'Ten użytkownik cię zablokował',
         },
     },
 };
