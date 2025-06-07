@@ -52,5 +52,29 @@ export default {
             de: 'Gib deine Nachricht ein',
             pl: 'Wpisz swoją wiadomość',
         },
+
+        position: {
+            ru: 'Геолокация',
+            ua: 'Геолокація',
+            en: 'Geolocation',
+            de: 'Geolokalisierung',
+            pl: 'Geolokalizacja',
+        },
+
+        sendLocationConfirmText: {
+            ru: 'Отправить этому пользователю вашу текущую геолокацию?',
+            ua: 'Відправити цьому користувачеві вашу поточну геолокацію?',
+            en: 'Send this user your current location?',
+            de: 'Dem Benutzer Ihren aktuellen Standort senden?',
+            pl: 'Wysłać temu użytkownikowi twoją aktualną lokalizację?',
+        },
+        
+        sendLocationButton: {
+            ru: 'Отправить',
+            ua: 'Відправити',
+            en: 'Send',
+            de: 'Senden',
+            pl: 'Wyślij',
+        },
     },
 };
