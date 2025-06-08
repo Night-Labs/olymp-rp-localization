@@ -65,6 +65,7 @@ import games from './games/games';
 import flappyBird from './flappyBird';
 import walkieTalkie from './walkieTalkie';
 import elevators from './elevators';
+import shootingRange from './shootingRange';
 
 export default {
     account,
@@ -134,4 +135,5 @@ export default {
     flappyBird,
     walkieTalkie,
     elevators,
+    shootingRange
 };
