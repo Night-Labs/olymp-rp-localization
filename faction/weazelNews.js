@@ -49,6 +49,13 @@ export default {
         pl: 'Odrzuciłeś ogłoszenie obywatela {{name}}',
     },
 
+    phoneMessage: {
+        ru: 'Ожидайте одобрение заявки',
+        ua: 'Очікуйте на схвалення заявки',
+        en: 'Awaiting application approval',
+        de: 'Warten auf Antragsgenehmigung',
+        pl: 'Oczekiwanie na zatwierdzenie wniosku',
+    },
     invalidMessage: {
         ru: 'Текст некорректный',
         ua: 'Текст некоректний',
@@ -190,6 +197,58 @@ export default {
                 de: 'Live-Stream beenden',
                 pl: 'Zatrzymaj transmisję na żywo',
             },
+        },
+    },
+
+    discordAdMessage: {
+        title: {
+            ru: '📢 Weazel News — Новое объявление',
+            ua: '📢 Weazel News — Нове оголошення',
+            en: '📢 Weazel News — New Advertisement',
+            de: '📢 Weazel News — Neue Anzeige',
+            pl: '📢 Weazel News — Nowe ogłoszenie',
+        },
+        contact: {
+            ru: '📱 Контакт',
+            ua: '📱 Контакт',
+            en: '📱 Contact',
+            de: '📱 Kontakt',
+            pl: '📱 Kontakt',
+        },
+        published: {
+            ru: '🕐 Опубликовано',
+            ua: '🕐 Опубліковано',
+            en: '🕐 Published',
+            de: '🕐 Veröffentlicht',
+            pl: '🕐 Opublikowano',
+        },
+        discord: {
+            ru: '👤 Discord',
+            ua: '👤 Discord',
+            en: '👤 Discord',
+            de: '👤 Discord',
+            pl: '👤 Discord',
+        },
+        editedBy: {
+            ru: '👀 Отредактировал',
+            ua: '👀 Відредагував',
+            en: '👀 Edited By',
+            de: '👀 Bearbeitet von',
+            pl: '👀 Edytował',
+        },
+        notSpecified: {
+            ru: 'Не указано',
+            ua: 'Не вказано',
+            en: 'Not specified',
+            de: 'Nicht angegeben',
+            pl: 'Nie podano',
+        },
+        unknown: {
+            ru: 'Неизвестно',
+            ua: 'Невідомо',
+            en: 'Unknown',
+            de: 'Unbekannt',
+            pl: 'Nieznany',
         },
     },
 };
