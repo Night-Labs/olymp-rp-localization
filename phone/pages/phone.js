@@ -263,7 +263,7 @@ export default {
                 pl: 'Osiągnąłeś limit kontaktów.',
             },
         },
-        
+
         blackList: {
             max: {
                 ru: 'Вы достигли лимита заблокированных номеров.',
@@ -285,6 +285,13 @@ export default {
                 en: 'Number {{number}} is unblocked',
                 de: 'Nummer {{number}} ist entsperrt',
                 pl: 'Numer {{number}} został odblokowany',
+            },
+            uBlocked: {
+                ru: 'Этот пользователь вас заблокировал',
+                ua: 'Цей користувач вас заблокував',
+                en: 'This user has blocked you',
+                de: 'Dieser Benutzer hat dich blockiert',
+                pl: 'Ten użytkownik cię zablokował',
             },
         },
     },
