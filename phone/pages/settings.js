@@ -14,7 +14,7 @@ export default {
         de: 'Text eingeben',
         pl: 'Wprowadź tekst',
     },
-    
+
     list: {
         theme: {
             ru: 'Тёмная тема',
@@ -81,6 +81,45 @@ export default {
             en: 'Widgets Opacity',
             de: 'Widgets-Transparenz',
             pl: 'Przezroczystość widżetów',
+        },
+
+        autoUnlock: {
+            ru: 'Авторазблокировка',
+            ua: 'Авторозблокування',
+            en: 'Auto Unlock',
+            de: 'Automatische Entsperrung',
+            pl: 'Automatyczne odblokowanie',
+        },
+    },
+
+    categories: {
+        personalization: {
+            ru: 'Персонализация',
+            ua: 'Персоналізація',
+            en: 'Personalization',
+            de: 'Personalisierung',
+            pl: 'Personalizacja',
+        },
+        sounds: {
+            ru: 'Звуки',
+            ua: 'Звуки',
+            en: 'Sounds',
+            de: 'Sounds',
+            pl: 'Dźwięki',
+        },
+        widgets: {
+            ru: 'Виджеты',
+            ua: 'Віджети',
+            en: 'Widgets',
+            de: 'Widgets',
+            pl: 'Widżety',
+        },
+        lockScreen: {
+            ru: 'Экран блокировки',
+            ua: 'Екран блокування',
+            en: 'Lock Screen',
+            de: 'Sperrbildschirm',
+            pl: 'Ekran blokady',
         },
     },
 
