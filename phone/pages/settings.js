@@ -90,13 +90,37 @@ export default {
             de: 'Automatische Entsperrung',
             pl: 'Automatyczne odblokowanie',
         },
-        
+
         doNotDisturb: {
             ru: 'Не беспокоить',
             ua: 'Не турбувати',
             en: 'Do not disturb',
             de: 'Nicht stören',
             pl: 'Nie przeszkadzać',
+        },
+
+        brightness: {
+            ru: 'Яркость',
+            ua: 'Яскравість',
+            en: 'Brightness',
+            de: 'Helligkeit',
+            pl: 'Jasność',
+        },
+
+        ringtoneVolume: {
+            ru: 'Громкость рингтона',
+            ua: 'Гучність рингтона',
+            en: 'Ringtone Volume',
+            de: 'Klingeltonlautstärke',
+            pl: 'Głośność dzwonka',
+        },
+        
+        notificationVolume: {
+            ru: 'Громкость уведомления',
+            ua: 'Гучність сповіщення',
+            en: 'Notification Volume',
+            de: 'Benachrichtigungslautstärke',
+            pl: 'Głośność powiadomienia',
         },
     },
 
