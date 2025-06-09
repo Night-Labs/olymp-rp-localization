@@ -35,6 +35,14 @@ export default {
         pl: 'Gracz opuścił stan',
     },
 
+    doNotDisturb: {
+        ru: 'У абонента включен режим "Не беспокоить"',
+        ua: 'У абонента ввімкнено режим "Не турбувати"',
+        en: 'The subscriber has "Do Not Disturb" mode enabled',
+        de: 'Der Teilnehmer hat den "Nicht stören"-Modus aktiviert',
+        pl: 'Abonent ma włączony tryb "Nie przeszkadzać"',
+    },
+
     statuses: {
         active: {
             ru: 'Активный звонок',

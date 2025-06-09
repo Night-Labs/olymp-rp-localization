@@ -90,6 +90,14 @@ export default {
             de: 'Automatische Entsperrung',
             pl: 'Automatyczne odblokowanie',
         },
+        
+        doNotDisturb: {
+            ru: 'Не беспокоить',
+            ua: 'Не турбувати',
+            en: 'Do not disturb',
+            de: 'Nicht stören',
+            pl: 'Nie przeszkadzać',
+        },
     },
 
     categories: {
