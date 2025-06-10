@@ -68,7 +68,14 @@ export default {
         de: 'Du hast alle Bedingungen erfüllt und die Kohle aktiviert, deine Belohnung:',
         pl: 'Spełniłeś wszystkie warunki i aktywowałeś węgiel, twoja nagroda:',
     },
-    // 
+    autoHandUp: {
+        ru: 'принуждает вас поднять руки',
+        ua: 'змушує вас підняти руки',
+        en: 'forces you to raise your hands',
+        de: 'zwingt dich, die Hände zu heben',
+        pl: 'zmusza cię do podniesienia rąk',
+    },
+    //
     passport,
     payday,
     aidkit,
