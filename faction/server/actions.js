@@ -362,4 +362,13 @@ export default {
             pl: 'Nie masz opasek kablowych',
         },
     },
+
+    //
+    takeMask: {
+        ru: '{{firstName}} сорвал маску с {{targetName}}',
+        ua: '{{firstName}} зірвав маску з {{targetName}}',
+        en: '{{firstName}} ripped the mask off {{targetName}}',
+        de: '{{firstName}} hat {{targetName}} die Maske vom Gesicht gerissen',
+        pl: '{{firstName}} zerwał maskę z {{targetName}}',
+    },
 };
