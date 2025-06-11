@@ -260,4 +260,18 @@ export const faction = {
         de: '~b~{{name}} hat das Spiel während einer Festnahme verlassen und wurde für {{minutes}} Minuten ins Gefängnis gesteckt',
         pl: '~b~{{name}} opuścił grę podczas aresztowania i został osadzony w więzieniu na {{minutes}} minut',
     },
+    youStartTalkToMegaphone: {
+        ru: 'Вы начали говорить в мегафон',
+        ua: 'Ви почали говорити в мегафон',
+        en: 'You started speaking into the megaphone',
+        de: 'Sie haben begonnen, durch das Megafon zu sprechen',
+        pl: 'Zacząłeś mówić przez megafon',
+    },
+    youStopTalkToMegaphone: {
+        ru: 'Вы перестали говорить в мегафон',
+        ua: 'Ви перестали говорити в мегафон',
+        en: 'You stopped speaking into the megaphone',
+        de: 'Sie haben aufgehört, durch das Megafon zu sprechen',
+        pl: 'Przestałeś mówić przez megafon',
+    },
 };
