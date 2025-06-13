@@ -253,4 +253,25 @@ export const faction = {
         de: 'Du kannst das nicht tun',
         pl: 'Nie możesz tego zrobić',
     },
+    leaveCuffs: {
+        ru: '~b~{{name}} вышел из игры во время задержания и был посажен в тюрму на {{minutes}} минут',
+        ua: "~b~{{name}} вийшов з гри під час затримання і був посаджений до в'язниці на {{minutes}} хвилин",
+        en: '~b~{{name}} left the game during an arrest and was jailed for {{minutes}} minutes',
+        de: '~b~{{name}} hat das Spiel während einer Festnahme verlassen und wurde für {{minutes}} Minuten ins Gefängnis gesteckt',
+        pl: '~b~{{name}} opuścił grę podczas aresztowania i został osadzony w więzieniu na {{minutes}} minut',
+    },
+    youStartTalkToMegaphone: {
+        ru: 'Вы начали говорить в мегафон',
+        ua: 'Ви почали говорити в мегафон',
+        en: 'You started speaking into the megaphone',
+        de: 'Sie haben begonnen, durch das Megafon zu sprechen',
+        pl: 'Zacząłeś mówić przez megafon',
+    },
+    youStopTalkToMegaphone: {
+        ru: 'Вы перестали говорить в мегафон',
+        ua: 'Ви перестали говорити в мегафон',
+        en: 'You stopped speaking into the megaphone',
+        de: 'Sie haben aufgehört, durch das Megafon zu sprechen',
+        pl: 'Przestałeś mówić przez megafon',
+    },
 };

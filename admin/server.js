@@ -310,4 +310,20 @@ export const server = {
         de: 'Du wurdest von einem Administrator aus der Fraktion entfernt',
         pl: 'Zostałeś usunięty z frakcji przez administratora',
     },
+
+    //
+    failedStartRandomEvent: {
+        ru: '~r~[ADMIN] Не удалось запустить рандомный ивент: {{name}} из-за недостаточного кол-ва игроков',
+        ua: '~r~[ADMIN] Не вдалося запустити випадкову подію: {{name}} через недостатню кількість гравців',
+        en: '~r~[ADMIN] Failed to start random event: {{name}} due to insufficient number of players',
+        de: '~r~[ADMIN] Zufälliges Event {{name}} konnte wegen unzureichender Spieleranzahl nicht gestartet werden',
+        pl: '~r~[ADMIN] Nie udało się uruchomić losowego wydarzenia: {{name}} z powodu zbyt małej liczby graczy',
+    },
+    startedRandomEvent: {
+        ru: '~r~[ADMIN] Запущен рандомный ивент {{name}}',
+        ua: '~r~[ADMIN] Запущено випадкову подію {{name}}',
+        en: '~r~[ADMIN] Random event {{name}} started',
+        de: '~r~[ADMIN] Zufälliges Event {{name}} gestartet',
+        pl: '~r~[ADMIN] Uruchomiono losowe wydarzenie {{name}}',
+    },
 };
