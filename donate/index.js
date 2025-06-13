@@ -130,6 +130,30 @@ export default {
             zh: '不',
         },
 
+        cancelButton: {
+            ru: 'Отменить',
+            ua: 'Скасувати',
+            en: 'Cancel',
+            de: 'Abbrechen',
+            pl: 'Anuluj',
+        },
+
+        buyButton: {
+            ru: 'Купить',
+            ua: 'Купити',
+            en: 'Buy',
+            de: 'Kaufen',
+            pl: 'Kup',
+        },
+
+        confirmButton: {
+            ru: 'Подтвердить',
+            ua: 'Підтвердити',
+            en: 'Confirm',
+            de: 'Bestätigen',
+            pl: 'Potwierdź',
+        },
+
         actions: {
             sell: {
                 title: {
@@ -146,6 +170,13 @@ export default {
                     de: 'Möchten Sie {{name}} wirklich für {{price}} Olymp-Coins verkaufen?',
                     pl: 'Czy na pewno chcesz sprzedać {{name}} za {{price}} Olymp-Coins?',
                 },
+                button: {
+                    ru: 'Продать',
+                    ua: 'Продати',
+                    en: 'Sell',
+                    de: 'Verkaufen',
+                    pl: 'Sprzedać',
+                },
             },
             receive: {
                 title: {
@@ -161,6 +192,13 @@ export default {
                     en: 'Do you really want to receive {{name}} from the warehouse?',
                     de: 'Möchten Sie {{name}} wirklich aus dem Lager erhalten?',
                     pl: 'Czy na pewno chcesz odebrać {{name}} z magazynu?',
+                },
+                button: {
+                    ru: 'Получить',
+                    ua: 'Отримати',
+                    en: 'Receive',
+                    de: 'Empfangen',
+                    pl: 'Otrzymać',
                 },
             },
         },

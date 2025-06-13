@@ -100,11 +100,19 @@ export default {
         },
 
         brightness: {
-            ru: 'Яркость',
-            ua: 'Яскравість',
-            en: 'Brightness',
-            de: 'Helligkeit',
-            pl: 'Jasność',
+            ru: 'Яркость экрана',
+            ua: 'Яскравість екрана',
+            en: 'Screen brightness',
+            de: 'Bildschirmhelligkeit',
+            pl: 'Jasność ekranu',
+        },
+        
+        wallpaperBrightness: {
+            ru: 'Яркость обоев',
+            ua: 'Яскравість шпалер',
+            en: 'Wallpaper brightness',
+            de: 'Hintergrundhelligkeit',
+            pl: 'Jasność tapety',
         },
 
         ringtoneVolume: {
@@ -114,7 +122,7 @@ export default {
             de: 'Klingeltonlautstärke',
             pl: 'Głośność dzwonka',
         },
-        
+
         notificationVolume: {
             ru: 'Громкость уведомления',
             ua: 'Гучність сповіщення',

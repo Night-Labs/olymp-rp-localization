@@ -6,6 +6,13 @@ export default {
         de: 'Bitte beenden Sie zuerst den aktuellen Anruf',
         pl: 'Najpierw zakończ bieżące połączenie',
     },
+    theSameNumber: {
+        ru: 'Ты захотел поговорить с... Собой?',
+        ua: 'Ти захотів поговорити з... Собою?',
+        en: 'You wanted to talk to... Yourself?',
+        de: 'Du wolltest mit... Dir selbst reden?',
+        pl: 'Chcesz porozmawiać z... Sobą?',
+    },
     targetBusy: {
         ru: 'Абонент сейчас занят, пожалуйста, позвоните позже',
         ua: 'Абонент зараз зайнятий, будь ласка, зателефонуйте пізніше',

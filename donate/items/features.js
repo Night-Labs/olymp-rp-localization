@@ -135,4 +135,38 @@ export const features = {
             pl: 'Masz już dowód wojskowy',
         },
     },
+
+    uniquePhoneNumber: {
+        name: {
+            ru: 'Уникальный номер телефона',
+            ua: 'Унікальний номер телефону',
+            en: 'Unique phone number',
+            de: 'Einmalige Telefonnummer',
+            pl: 'Unikalny numer telefonu',
+        },
+
+        buyDesc: {
+            ru: 'Введите желаемый номер формата ХХХ-ХХХ-ХХХ (либо короче) <br><br> Цена уникального номера зависит от количества символов <br><br> Обратите внимание, номер будет забронировал ТОЛЬКО после активации купленной сим-карты',
+            ua: 'Введіть бажаний номер у форматі ХХХ-ХХХ-ХХХ (або коротший) <br><br> Ціна унікального номера залежить від кількості символів <br><br> Зверніть увагу, номер буде заброньовано ЛИШЕ після активації придбаної SIM-картки',
+            en: 'Enter the desired number in the format XXX-XXX-XXX (or shorter) <br><br> The price of a unique number depends on the number of characters <br><br> Please note, the number will be reserved ONLY after the purchased SIM card is activated',
+            de: 'Geben Sie die gewünschte Nummer im Format XXX-XXX-XXX (oder kürzer) ein <br><br> Der Preis für eine individuelle Nummer hängt von der Zeichenanzahl ab <br><br> Bitte beachten Sie, die Nummer wird NUR nach der Aktivierung der gekauften SIM-Karte reserviert',
+            pl: 'Wprowadź żądany numer w formacie XXX-XXX-XXX (lub krótszym) <br><br> Cena unikalnego numeru zależy od liczby znaków <br><br> Uwaga, numer zostanie zarezerwowany TYLKO po aktywacji zakupionej karty SIM',
+        },
+
+        placeholder: {
+            ru: 'Введите номер телефона',
+            ua: 'Введіть номер телефону',
+            en: 'Enter phone number',
+            de: 'Telefonnummer eingeben',
+            pl: 'Wprowadź numer telefonu',
+        },
+
+        successReceived: {
+            ru: 'Сим карта с номером {{phoneNumber}} добавлена в ваш инвентарь, активируйте её чтобы забронировать номер телефона',
+            ua: 'Сім карта з номером {{phoneNumber}} додана до вашого інвентарю, активуйте її, щоб забронювати номер телефону',
+            en: 'SIM card with number {{phoneNumber}} has been added to your inventory, activate it to reserve the phone number',
+            de: 'Die SIM-Karte mit der Nummer {{phoneNumber}} wurde Ihrem Inventar hinzugefügt. Aktivieren Sie sie, um die Telefonnummer zu reservieren.',
+            pl: 'Karta SIM o numerze {{phoneNumber}} została dodana do Twojego ekwipunku, aktywuj ją, aby zarezerwować numer telefonu.',
+        },
+    },
 };

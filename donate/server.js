@@ -24,6 +24,22 @@ export const server = {
         zh: '捐助货币不足',
     },
 
+    phoneNumberFormatError: {
+        ru: 'Формат номера телефона указан неверно, номер телефона должен быть от 1 до 9 символов и состоять только из цифр, формата, пример: 123456789',
+        ua: 'Формат номера телефону вказано невірно, номер телефону повинен бути від 1 до 9 символів і складатися тільки з цифр, формату, приклад: 123456789',
+        en: 'Incorrect phone number format, the phone number must be from 1 to 9 characters and consist only of digits, format, example: 123456789',
+        de: 'Falsches Telefonnummerformat, die Telefonnummer muss zwischen 1 und 9 Zeichen lang sein und darf nur aus Ziffern bestehen, Format, Beispiel: 123456789',
+        pl: 'Niepoprawny format numeru telefonu, numer telefonu musi mieć od 1 do 9 znaków i składać się tylko z cyfr, format, przykład: 123456789',
+    },
+
+    phoneNumberExistError: {
+        ru: 'Этот номер телефона уже занят',
+        ua: 'Цей номер телефону вже зайнятий',
+        en: 'This phone number is already taken',
+        de: 'Diese Telefonnummer ist bereits vergeben',
+        pl: 'Ten numer telefonu jest już zajęty',
+    },
+
     donateInventory: {
         ru: 'Донат-инвентарь',
         ua: 'Донат-інвентар',

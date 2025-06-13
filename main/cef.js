@@ -553,6 +553,20 @@ export const cef = {
         de: 'Waffenseriennummer',
         pl: 'Numer seryjny broni',
     },
+    phoneNumber: {
+        ru: 'Номер телефона',
+        ua: 'Номер телефону',
+        en: 'Phone number',
+        de: 'Telefonnummer',
+        pl: 'Numer telefonu',
+    },
+    unknown: {
+        ru: 'Неизвестно',
+        ua: 'Невідомо',
+        en: 'Unknown',
+        de: 'Unbekannt',
+        pl: 'Nieznany',
+    },
     kg: {
         ua: ' кг.',
         en: ' kg.',
