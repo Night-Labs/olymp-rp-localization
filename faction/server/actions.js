@@ -371,4 +371,13 @@ export default {
         de: '{{firstName}} hat {{targetName}} die Maske vom Gesicht gerissen',
         pl: '{{firstName}} zerwał maskę z {{targetName}}',
     },
+
+    //
+    noReanimateId: {
+        ru: 'У вас нет дефибриллятора',
+        ua: 'У вас немає дефібрилятора',
+        en: "You don't have a defibrillator",
+        de: 'Sie haben keinen Defibrillator',
+        pl: 'Nie masz defibrylatora',
+    },
 };

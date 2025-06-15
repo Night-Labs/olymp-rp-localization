@@ -115,6 +115,13 @@ export const player = {
         pl: 'Sprzedać Painaway',
         zh: '卖掉痛苦',
     },
+    sellNufrieren: {
+        ru: 'Продать Nufrieren',
+        ua: 'Продати Nufrieren',
+        en: 'Sell Nufrieren',
+        de: 'Nufrieren verkaufen',
+        pl: 'Sprzedaj Nufrieren',
+    },
 
     takeBlood: {
         ru: 'Взять кровь',

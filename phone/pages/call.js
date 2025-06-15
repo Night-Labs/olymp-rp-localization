@@ -152,6 +152,20 @@ export default {
             de: 'Wählen Sie einen Grund',
             pl: 'Wybierz powód',
         },
+        notifySend: {
+            ru: 'Ожидайте пока ваш запрос примут',
+            ua: 'Очікуйте, поки ваш запит приймуть',
+            en: 'Please wait while your request is being accepted',
+            de: 'Bitte warten Sie, bis Ihre Anfrage angenommen wird',
+            pl: 'Proszę czekać, aż twoje zgłoszenie zostanie zaakceptowane',
+        },
+        cooldown: {
+            ru: 'Вы не давно уже вызывали экстренную службу, подождите немного',
+            ua: 'Ви нещодавно вже викликали екстрену службу, зачекайте трохи',
+            en: 'You have recently called the emergency service, please wait a moment',
+            de: 'Sie haben vor kurzem bereits den Notdienst gerufen, bitte warten Sie einen Moment',
+            pl: 'Niedawno wzywałeś już służby ratunkowe, poczekaj chwilę',
+        },
         reasons: {
             murder: {
                 ru: 'Убийство',
