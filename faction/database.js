@@ -13,6 +13,13 @@ export default {
         de: 'Bürger',
         pl: 'Obywatele',
     },
+    stolenVehicles: {
+        ru: 'Угонные автомобили',
+        ua: 'Викрадені автомобілі',
+        en: 'Stolen Vehicles',
+        de: 'Gestohlene Fahrzeuge',
+        pl: 'Skradzione pojazdy',
+    },
     transport: {
         ru: 'Транспорт',
         ua: 'Транспорт',

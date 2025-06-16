@@ -22,11 +22,11 @@ export default {
             pl: 'Z kasyna',
         },
         damnGoodLuck: {
-            ru: 'Чёёрт я бы тоже пошёл да сука слил все бабки... О, точно! Дай мне 500 баксов и я расскажу тебе весёлую историю с жизни... Пожалуйста мне очень нужны эти деньги',
-            ua: 'Чоорт, я б теж пішов, та, блін, злив усі гроші... О, точно! Дай мені 500 баксів, і я розкажу тобі веселу історію з життя... Будь ласка, мені дуже потрібні ці гроші',
-            en: "Daaamn, I’d go too, but damn, I lost all my cash... Oh, wait! Give me 500 bucks, and I'll tell you a funny life story... Please, I really need this money",
-            de: 'Verdammt, ich wäre auch gegangen, aber scheiße, ich habe mein ganzes Geld verloren... Oh, warte! Gib mir 500 Dollar, und ich erzähle dir eine lustige Lebensgeschichte... Bitte, ich brauche dieses Geld wirklich',
-            pl: 'Chooolera, też bym poszedł, ale, kurde, przegrałem wszystkie pieniądze... O, czekaj! Daj mi 500 dolców, a opowiem ci zabawną historię z życia... Proszę, naprawdę potrzebuję tych pieniędzy',
+            ru: 'Чёёрт я бы тоже пошёл да сука слил все бабки... О, точно! Дай мне {{price}} баксов и я расскажу тебе весёлую историю с жизни... Пожалуйста мне очень нужны эти деньги',
+            ua: 'Чоорт, я б теж пішов, та, блін, злив усі гроші... О, точно! Дай мені {{price}} баксів, і я розкажу тобі веселу історію з життя... Будь ласка, мені дуже потрібні ці гроші',
+            en: "Daaamn, I’d go too, but damn, I lost all my cash... Oh, wait! Give me {{price}} bucks, and I'll tell you a funny life story... Please, I really need this money",
+            de: 'Verdammt, ich wäre auch gegangen, aber scheiße, ich habe mein ganzes Geld verloren... Oh, warte! Gib mir {{price}} Dollar, und ich erzähle dir eine lustige Lebensgeschichte... Bitte, ich brauche dieses Geld wirklich',
+            pl: 'Chooolera, też bym poszedł, ale, kurde, przegrałem wszystkie pieniądze... O, czekaj! Daj mi {{price}} dolców, a opowiem ci zabawną historię z życia... Proszę, naprawdę potrzebuję tych pieniędzy',
         },
         okay: {
             ru: 'Ну хорошо',
@@ -57,11 +57,11 @@ export default {
             pl: 'Żegnaj',
         },
         youReallyDontHaveMoney: {
-            ru: 'Чувак у тебя реально нет жалких 500 баксов мне на историю, кто из нас тут бомж? Ладно иди работай лучше',
-            ua: 'Чувак, у тебе справді немає жалюгідних 500 баксів на історію? Хто з нас тут бомж? Ладно, іди працюй краще',
-            en: 'Dude, you seriously don’t have a lousy 500 bucks for my story? Who’s the real broke one here? Alright, go work instead',
-            de: 'Alter, du hast echt keine läppischen 500 Dollar für meine Geschichte? Wer ist hier eigentlich der Obdachlose? Na gut, geh lieber arbeiten',
-            pl: 'Stary, naprawdę nie masz marne 500 dolców na moją historię? Kto tu jest prawdziwym bezdomnym? Dobra, idź lepiej do roboty',
+            ru: 'Чувак у тебя реально нет жалких {{price}} баксов мне на историю, кто из нас тут бомж? Ладно иди работай лучше',
+            ua: 'Чувак, у тебе справді немає жалюгідних {{price}} баксів на історію? Хто з нас тут бомж? Ладно, іди працюй краще',
+            en: 'Dude, you seriously don’t have a lousy {{price}} bucks for my story? Who’s the real broke one here? Alright, go work instead',
+            de: 'Alter, du hast echt keine läppischen {{price}} Dollar für meine Geschichte? Wer ist hier eigentlich der Obdachlose? Na gut, geh lieber arbeiten',
+            pl: 'Stary, naprawdę nie masz marne {{price}} dolców na moją historię? Kto tu jest prawdziwym bezdomnym? Dobra, idź lepiej do roboty',
         },
         thinking: {
             ru: 'Ща подожди моя старая бошка вспомнит какую то историю',
@@ -136,11 +136,11 @@ export default {
             pl: 'Nie poszczęściło się, nie poszczęściło, tak jak mnie. No nic, może następnym razem. Do zobaczenia!',
         },
         neSlilNice: {
-            ru: 'Поднялся? Повезло мне бы так, я бы сам пошёл щас подниматься но увы без денег пока сижу, не хочешь историю расскажу за 500 баксов? Пожалуйста!',
-            ua: 'Піднявся? Пощастило, мені б так! Я б теж пішов зараз вигравати, але, на жаль, поки що без грошей. Не хочеш, я розповім історію за 500 баксів? Будь ласка!',
-            en: 'Won big? Lucky you! I’d go win some too, but sadly, I’m broke right now. Want to hear a story for 500 bucks? Please!',
-            de: 'Gewonnen? Glück gehabt, ich hätte auch gerne gewonnen, aber leider sitze ich gerade ohne Geld da. Willst du eine Geschichte für 500 Dollar hören? Bitte!',
-            pl: 'Wygrałeś? Szczęściarz! Sam bym teraz poszedł coś wygrać, ale niestety siedzę bez kasy. Może chcesz historię za 500 dolców? Proszę!',
+            ru: 'Поднялся? Повезло мне бы так, я бы сам пошёл щас подниматься но увы без денег пока сижу, не хочешь историю расскажу за {{price}} баксов? Пожалуйста!',
+            ua: 'Піднявся? Пощастило, мені б так! Я б теж пішов зараз вигравати, але, на жаль, поки що без грошей. Не хочеш, я розповім історію за {{price}} баксів? Будь ласка!',
+            en: 'Won big? Lucky you! I’d go win some too, but sadly, I’m broke right now. Want to hear a story for {{price}} bucks? Please!',
+            de: 'Gewonnen? Glück gehabt, ich hätte auch gerne gewonnen, aber leider sitze ich gerade ohne Geld da. Willst du eine Geschichte für {{price}} Dollar hören? Bitte!',
+            pl: 'Wygrałeś? Szczęściarz! Sam bym teraz poszedł coś wygrać, ale niestety siedzę bez kasy. Może chcesz historię za {{price}} dolców? Proszę!',
         },
 
         // Истории собсна

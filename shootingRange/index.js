@@ -220,7 +220,7 @@ export default {
     },
     blip: {
         ru: 'Стрельбище',
-        ua: 'Стрілецький тир',
+        ua: 'Стрiлецький тир',
         en: 'Shooting range',
         de: 'Schießstand',
         pl: 'Strzelnica',
