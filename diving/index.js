@@ -225,4 +225,11 @@ export default {
         de: 'Ihre Flaschen sind bereits voll mit Luft',
         pl: 'Twoje butle są już pełne powietrza',
     },
+    adminDistanceWarning: {
+        ru: "~r~[ADMIN] {{name}} на работе дайвера смог вызвать 'diving.collect' с расстояния {{distance}} м.",
+        ua: "~r~[ADMIN] {{name}} на роботі дайвера зміг викликати 'diving.collect' з відстані {{distance}} м.",
+        en: "~r~[ADMIN] {{name}} as a diver was able to call 'diving.collect' from a distance of {{distance}} m.",
+        de: "~r~[ADMIN] {{name}} konnte als Taucher 'diving.collect' aus einer Entfernung von {{distance}} m aufrufen.",
+        pl: "~r~[ADMIN] {{name}} jako nurek był w stanie wywołać 'diving.collect' z odległości {{distance}} m.",
+    },
 };
