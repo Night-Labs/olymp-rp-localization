@@ -79,6 +79,13 @@ export default {
             de: 'Autodieb',
             pl: 'Złodziej samochodów',
         },
+        diver: {
+            ru: 'Водолаз',
+            ua: 'Водолаз',
+            en: 'Diver',
+            de: 'Taucher',
+            pl: 'Nurek',
+        },
     },
     youAlreadyWorking: {
         ru: 'Вы уже работаете на другой работе, для начала увольтесь с неё',

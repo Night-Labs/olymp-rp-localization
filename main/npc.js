@@ -189,4 +189,19 @@ export const npc = {
         de: 'Chirurg',
         pl: 'Chirurg',
     },
+    finn: {
+        ru: 'Финн',
+        ua: 'Фiнн',
+        en: 'Finn',
+        de: 'Finn',
+        pl: 'Finn',
+        zh: '芬恩',
+    },
+    diver: {
+        ru: 'Главный Дайвер',
+        ua: 'Головний Дайвер',
+        en: 'Chief Diver',
+        de: 'Haupttaucher',
+        pl: 'Główny Nurek',
+    },
 };

@@ -143,4 +143,65 @@ export default {
             pl: 'Dobrze',
         },
     },
+    dialogCantBecauseJobLevel: {
+        helloFindOtherPoint: {
+            ru: 'Извини но эта точка только для водолазов {{level}} уровня, поищи другую себе по уровню',
+            ua: 'Вибач, але ця точка тільки для водолазів {{level}} рівня, пошукай іншу за своїм рівнем',
+            en: 'Sorry, but this spot is only for divers of level {{level}}, try to find another one that matches your level',
+            de: 'Entschuldige, aber dieser Punkt ist nur für Taucher der Stufe {{level}}, suche dir bitte einen anderen passenden Punkt',
+            pl: 'Przepraszam, ale to miejsce jest tylko dla nurków poziomu {{level}}, poszukaj innego odpowiedniego dla siebie',
+        },
+        okay: {
+            ru: 'Хорошо',
+            ua: 'Гаразд',
+            en: 'Okay',
+            de: 'Okay',
+            pl: 'Dobrze',
+        },
+    },
+    //
+    blip: {
+        ru: 'Работа водолаза',
+        ua: 'Робота водолаза',
+        en: "Diver's Job",
+        de: 'Taucherarbeit',
+        pl: 'Praca nurka',
+    },
+    hud: {
+        oxygen: {
+            ru: 'Запас воздуха',
+            ua: 'Запас повiтря',
+            en: 'Oxygen supply',
+            de: 'Sauerstoffvorrat',
+            pl: 'Zapas tlenu',
+        },
+        items: {
+            ru: 'Собрано',
+            ua: 'Зiбрано',
+            en: 'Collected',
+            de: 'Gesammelt',
+            pl: 'Zebrano',
+        },
+    },
+    startJobNotify: {
+        ru: 'Вы начали работу дайвера. Ныряйте в воду и ищите предметы!',
+        ua: 'Ви почали роботу дайвера. Пірнайте у воду та шукайте предмети!',
+        en: 'You started the diver job. Dive into the water and look for items!',
+        de: 'Du hast den Taucherjob begonnen. Tauche ins Wasser und suche nach Gegenständen!',
+        pl: 'Rozpocząłeś pracę nurka. Zanurkuj w wodzie i szukaj przedmiotów!',
+    },
+    youRecoveredOxygen: {
+        ru: 'Вы заправили баллоны воздухом на 100%',
+        ua: 'Ви заправили балони повітрям на 100%',
+        en: 'You refilled the tanks with air to 100%',
+        de: 'Sie haben die Flaschen zu 100 % mit Luft aufgefüllt',
+        pl: 'Napełniłeś butle powietrzem w 100%',
+    },
+    youHaveEnoughOxygen: {
+        ru: 'У вас и так в балонах полно воздуха',
+        ua: 'У вас і так повно повітря в балонах',
+        en: 'Your tanks are already full of air',
+        de: 'Ihre Flaschen sind bereits voll mit Luft',
+        pl: 'Twoje butle są już pełne powietrza',
+    },
 };
