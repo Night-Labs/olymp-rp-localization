@@ -93,6 +93,13 @@ export const cef = {
             de: 'Zusätzliche Dienstleistungen',
             pl: 'Dodatkowe usługi',
         },
+        skins: {
+            ru: 'Скины',
+            ua: 'Скіни',
+            en: 'Skins',
+            de: 'Skins',
+            pl: 'Skórki',
+        },
         warehouse: {
             ru: 'Склад',
             ua: 'Склад',
@@ -319,6 +326,13 @@ export const cef = {
                 en: 'Crown next to your nickname.',
                 de: 'Krone neben deinem Nicknamen.',
                 pl: 'Korona obok twojego nicku.',
+            },
+            dropWeaponOnDeath: {
+                ru: 'Оружие и патроны не будет выпадать при смерти.',
+                ua: 'Зброя та патрони не випадатимуть після смерті.',
+                en: 'Weapon and ammo will not drop on death.',
+                de: 'Waffen und Munition werden beim Tod nicht fallen gelassen.',
+                pl: 'Broń i amunicja nie będą wypadać po śmierci.',
             },
         },
 
@@ -730,6 +744,75 @@ export const cef = {
             de: 'Nur diese Administration ist verantwortlich, Spenden zu akzeptieren, niemand anderes hat das Recht, Spenden zu erhalten und das Verlangen von Phys-Coins zu erzwingen.',
             pl: 'Tylko ta administrator jest odpowiedzialna za akceptowanie darowizn, nikogo nie ma praw do otrzymania darowizn i mozliwosc otrzymania Phys-Coins.',
             zh: '只有这个管理员负责接受礼物，没有人有权接受礼物，也没有可能接受Phys币',
+        },
+    },
+
+    skins: {
+        title: {
+            ru: 'Скины',
+            ua: 'Скіни',
+            en: 'Skins',
+            de: 'Skins',
+            pl: 'Skórki',
+        },
+        text: {
+            ru: 'Надоело носить обычный бронижелет, стандартную винтовку? Хочется выделится? Тогда этот раздел для тебя, подбери подходящий стиль своим шмоткам, пусть в гетто видят твой стиль. Большинство скинов эксклюзивны и получить их можно из кейсов либо сезонных пропусков.',
+            ua: 'Набридло носити звичайний бронежилет, стандартну гвинтівку? Хочеться виділитися? Тоді цей розділ для тебе, підбери відповідний стиль своїм шмоткам, нехай в гетто бачать твій стиль. Більшість скінів ексклюзивні і отримати їх можна з кейсів або сезонних пропусків.',
+            en: 'Tired of wearing a regular body armor, standard rifle? Want to stand out? Then this section is for you, choose the right style for your clothes, let the ghetto see your style. Most skins are exclusive and can be obtained from cases or seasonal passes.',
+            de: 'Haben Sie es satt, eine normale Schutzweste und ein Standardgewehr zu tragen? Möchten Sie auffallen? Dann ist dieser Abschnitt genau das Richtige für Sie. Wählen Sie den passenden Stil für Ihre Kleidung und lassen Sie das Ghetto Ihren Stil sehen. Die meisten Skins sind exklusiv und können aus Cases oder Saisonpässen bezogen werden.',
+            pl: 'Masz dość noszenia zwykłej kamizelki kuloodpornej, standardowego karabinu? Chcesz się wyróżnić? W takim razie ta sekcja jest dla Ciebie, dobierz odpowiedni styl do swoich ciuchów, niech getto zobaczy Twój styl. Większość skórek jest ekskluzywna i można je zdobyć ze skrzynek lub karnetów sezonowych.',
+        },
+
+        types: {
+            armour: {
+                ru: 'Бронижелеты',
+                ua: 'Бронежилети',
+                en: 'Armour',
+                de: 'Schutzwesten',
+                pl: 'Kamizelki kuloodporne',
+            },
+            rifles: {
+                ru: 'Винтовки',
+                ua: 'Гвинтівки',
+                en: 'Rifles',
+                de: 'Gewehre',
+                pl: 'Karabiny',
+            },
+            machineGuns: {
+                ru: 'Пистолеты-пулеметы',
+                ua: 'Пістолети-кулемети',
+                en: 'Submachine Guns',
+                de: 'Maschinenpistolen',
+                pl: 'Pistolety maszynowe',
+            },
+            sniperRifles: {
+                ru: 'Снайперские винтовки',
+                ua: 'Снайперські гвинтівки',
+                en: 'Sniper Rifles',
+                de: 'Scharfschützengewehre',
+                pl: 'Karabiny snajperskie',
+            },
+            shotguns: {
+                ru: 'Дробовики',
+                ua: 'Дробовики',
+                en: 'Shotguns',
+                de: 'Schrotflinten',
+                pl: 'Strzelby',
+            },
+            pistols: {
+                ru: 'Пистолеты',
+                ua: 'Пістолети',
+                en: 'Pistols',
+                de: 'Pistolen',
+                pl: 'Pistolety',
+            },
+            meleeWeapon: {
+                ru: 'Оружие ближнего боя',
+                ua: 'Зброя ближнього бою',
+                en: 'Melee Weapon',
+                de: 'Nahkampfwaffen',
+                pl: 'Broń biała',
+            },
         },
     },
 };
