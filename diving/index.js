@@ -168,6 +168,27 @@ export default {
         pl: 'Praca nurka',
     },
     hud: {
+        title: {
+            ru: 'Работа водолаза',
+            ua: 'Робота водолаза',
+            en: "Diver's job",
+            de: 'Taucherarbeit',
+            pl: 'Praca nurka',
+        },
+        mainTask: {
+            ru: 'Отправляйтесь на поиски предметов на дне океана',
+            ua: 'Вирушайте на пошуки предметів на дні океану',
+            en: 'Embark on a quest for items at the bottom of the ocean',
+            de: 'Begeben Sie sich auf die Suche nach Gegenständen auf dem Meeresgrund',
+            pl: 'Wyrusz na poszukiwanie przedmiotów na dnie oceanu',
+        },
+        earned: {
+            ru: 'Заработано',
+            ua: 'Зароблено',
+            en: 'Earned',
+            de: 'Verdient',
+            pl: 'Zarobione',
+        },
         oxygen: {
             ru: 'Запас воздуха',
             ua: 'Запас повiтря',
