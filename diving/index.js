@@ -232,4 +232,11 @@ export default {
         de: "~r~[ADMIN] {{name}} konnte als Taucher 'diving.collect' aus einer Entfernung von {{distance}} m aufrufen.",
         pl: "~r~[ADMIN] {{name}} jako nurek był w stanie wywołać 'diving.collect' z odległości {{distance}} m.",
     },
+    noJob: {
+        ru: 'Вы не работаете водолазом',
+        ua: 'Ви не працюєте водолазом',
+        en: 'You are not working as a diver',
+        de: 'Sie arbeiten nicht als Taucher',
+        pl: 'Nie pracujesz jako nurek',
+    },
 };

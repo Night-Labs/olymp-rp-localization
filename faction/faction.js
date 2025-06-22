@@ -18,6 +18,7 @@ import speedradar from './speedradar';
 import weazelNews from './weazelNews';
 import surgeon from './surgeon';
 import graffitiWar from './graffitiWar';
+import vehicleImpound from './vehicleImpound'
 
 export const faction = {
     factions,
@@ -38,6 +39,7 @@ export const faction = {
     weazelNews,
     surgeon,
     graffitiWar,
+    vehicleImpound,
     ...cef,
     ...server,
     leader: {
