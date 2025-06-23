@@ -238,6 +238,20 @@ export default {
                     pl: 'Przywrócić',
                 },
             },
+            inGarage: {
+                ru: 'Доставить с гаража',
+                ua: 'Доставити з гаража',
+                en: 'Deliver from garage',
+                de: 'Aus der Garage liefern',
+                pl: 'Dostarcz z garażu',
+            },
+            impounded: {
+                ru: 'Машина находится на штрафстоянке',
+                ua: 'Машина знаходиться на штрафмайданчику',
+                en: 'The car is impounded',
+                de: 'Das Auto ist abgeschleppt worden',
+                pl: 'Samochód znajduje się na parkingu policyjnym',
+            },
         },
         deliveryInProcess: {
             ua: 'Доставка триває',
