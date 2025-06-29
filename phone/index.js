@@ -14,6 +14,7 @@ import forbes from './pages/forbes';
 import online from './pages/online';
 import sim from './pages/sim';
 import widgets from './pages/widgets';
+import game2048 from './pages/game2048';
 
 export default {
     ...cef,
@@ -30,5 +31,6 @@ export default {
     forbes,
     online,
     sim,
-    widgets
+    widgets,
+    game2048,
 };
