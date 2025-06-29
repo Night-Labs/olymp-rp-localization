@@ -111,4 +111,11 @@ export const selector = {
         pl: 'Wygląda na to, że masz {{count}} niewykonanych codziennych zadań, pospiesz się i ukończ je!',
         zh: '看起来你有{{count}}未完成的日常任务，快点完成它们',
     },
+    failedActivateReferralCode: {
+        ru: 'Реферальный код {{code}} не найден, поэтому не был активирован. Вы можете в любой момент ввести другой код в меню.',
+        ua: 'Реферальний код {{code}} не знайдено, тому він не був активований. Ви можете в будь-який момент ввести інший код у меню.',
+        en: 'Referral code {{code}} not found, so it was not activated. You can enter another code in the menu at any time.',
+        de: 'Empfehlungscode {{code}} wurde nicht gefunden und daher nicht aktiviert. Sie können jederzeit einen anderen Code im Menü eingeben.',
+        pl: 'Kod polecający {{code}} nie został znaleziony, więc nie został aktywowany. W każdej chwili możesz wprowadzić inny kod w menu.',
+    },
 };

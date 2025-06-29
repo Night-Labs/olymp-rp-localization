@@ -126,6 +126,13 @@ export const cef = {
                 pl: 'Powtórz hasło',
                 zh: '确认密码',
             },
+            promocode: {
+                ru: "Реферальный код (Необъязательно)",
+                ua: "Реферальний код (Необов'язково)",
+                en: "Referral code (Optional)",
+                de: "Empfehlungscode (Optional)",
+                pl: "Kod polecający (Opcjonalnie)"
+            },
         },
         register: {
             ua: 'Зареєструватися',

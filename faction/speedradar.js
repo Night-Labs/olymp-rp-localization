@@ -9,7 +9,7 @@ export default {
     uCantPlaceHere: {
         ru: 'Вы не можете разместить радар тут',
         ua: 'Ви не можете розмістити радар тут',
-        en: "You can't place a radar here",
+        en: 'You can\'t place a radar here',
         de: 'Du kannst hier kein Radar platzieren',
         pl: 'Nie możesz tutaj umieścić radaru',
     },
@@ -30,7 +30,7 @@ export default {
     alreadyPlaced: {
         ru: 'Нельзя ставить больше одного радара',
         ua: 'Не можна ставити більше одного радара',
-        en: "You can't place more than one radar",
+        en: 'You can\'t place more than one radar',
         de: 'Es kann nicht mehr als ein Radar platziert werden',
         pl: 'Nie można umieścić więcej niż jednego radaru',
     },
@@ -66,11 +66,11 @@ export default {
     },
     inputModal: {
         title: {
-            ru: 'Выберете максимальную скорость, это должна быть цифра от 30 до 300.',
-            ua: 'Виберіть максимальну швидкість, це має бути цифра від 30 до 300.',
-            en: 'Choose the maximum speed, it should be a number from 30 to 300.',
-            de: 'Wählen Sie die maximale Geschwindigkeit, es sollte eine Zahl zwischen 30 und 300 sein.',
-            pl: 'Wybierz maksymalną prędkość, powinna to być liczba od 30 do 300.',
+            ru: 'Выберете максимальную скорость в км/ч, это должна быть цифра от 30 до 300.',
+            ua: 'Виберіть максимальну швидкість у км/год, це має бути число від 30 до 300.',
+            en: `Select the maximum speed in km/h, it must be a number from 30 to 300.`,
+            de: 'Wählen Sie die maximale Geschwindigkeit in km/h, sie muss zwischen 30 und 300 liegen.',
+            pl: 'Wybierz maksymalną prędkość w km/h, musi to być liczba od 30 do 300.',
         },
         placeholder: {
             ru: 'Например 60',

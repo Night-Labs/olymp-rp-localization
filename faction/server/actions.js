@@ -2,7 +2,7 @@ export default {
     processArrestInstruction: {
         ru: 'Чтобы оформить арест игрока, вы должны вести его за собой',
         ua: 'Щоб оформити арешт гравця, ви повинні вести його за собою',
-        en: "To process a player's arrest, you must lead them",
+        en: 'To process a player\'s arrest, you must lead them',
         de: 'Um die Verhaftung eines Spielers zu bearbeiten, müssen Sie ihn führen',
         pl: 'Aby dokonać aresztowania gracza, musisz go prowadzić',
         zh: '为了逮捕，你必须把他带到你身后',
@@ -35,15 +35,15 @@ export default {
     useCabbleTie: {
         ru: '{{firstName}} надел(а) стяжки на руки {{targetName}}',
         ua: '{{firstName}} надів(ла) стяжки на руки {{targetName}}',
-        en: "{{firstName}} put cable ties on {{targetName}}'s hands",
+        en: '{{firstName}} put cable ties on {{targetName}}\'s hands',
         de: '{{firstName}} hat {{targetName}} Kabelbinder an den Händen angebracht',
         pl: '{{firstName}} założył(a) opaski kablowe na ręce {{targetName}}',
     },
     removeCabbleTie: {
         ru: '{{firstName}} снял(а) стяжки с рук {{targetName}}',
         ua: '{{firstName}} зняв(ла) стяжки з рук {{targetName}}',
-        en: "{{firstName}} removed cable ties from {{targetName}}'s hands",
-        de: "{{firstName}} hat die Kabelbinder von {{targetName}}'s Händen entfernt",
+        en: '{{firstName}} removed cable ties from {{targetName}}\'s hands',
+        de: '{{firstName}} hat die Kabelbinder von {{targetName}}\'s Händen entfernt',
         pl: '{{firstName}} zdjął(ęła) opaski kablowe z rąk {{targetName}}',
     },
     //
@@ -206,15 +206,15 @@ export default {
 
     targetNeedToBeRestrainedOrRaiseHand: {
         ru: 'Гражданин должен быть связан или поднять руки вверх',
-        ua: "Громадянин повинен бути зв'язаний або підняти руки вгору",
+        ua: 'Громадянин повинен бути зв\'язаний або підняти руки вгору',
         en: 'The citizen must be restrained or raise their hands up',
         de: 'Der Bürger muss gefesselt sein oder die Hände heben',
         pl: 'Obywatel musi być związany lub podnieść ręce do góry',
     },
     cantRobTeam: {
         ru: 'Бей своих чтобы чужие боялись да? С ограблениями так не выйдет бро',
-        ua: "Б'єш своїх, щоб чужі боялися, так? З пограбуваннями так не вийде, бро",
-        en: "Do you hit your own so that others will be afraid? Well, that won't work with robberies, bro",
+        ua: 'Б\'єш своїх, щоб чужі боялися, так? З пограбуваннями так не вийде, бро',
+        en: 'Do you hit your own so that others will be afraid? Well, that won\'t work with robberies, bro',
         de: 'Schlägst du deine eigenen, damit die anderen Angst haben? So funktioniert das nicht mit Raubüberfällen, Kumpel',
         pl: 'Bijesz swoich, żeby obcy się bali, tak? Z rabunkami tak nie wyjdzie, ziomek',
         zh: '“你为了害怕陌生人而和自己打架，是吗？抢劫不是这样的，兄弟？”',
@@ -242,7 +242,7 @@ export default {
     youDontHaveHandCuffs: {
         ru: 'У вас нет наручников',
         ua: 'У вас немає наручників',
-        en: "You don't have handcuffs",
+        en: 'You don\'t have handcuffs',
         de: 'Du hast keine Handschellen',
         pl: 'Nie masz kajdanek',
         zh: ',“你没有手铐',
@@ -350,14 +350,14 @@ export default {
         handcuffs: {
             ru: 'У вас нет наручников',
             ua: 'У вас немає наручників',
-            en: "You don't have handcuffs",
+            en: 'You don\'t have handcuffs',
             de: 'Sie haben keine Handschellen',
             pl: 'Nie masz kajdanek',
         },
         cabbleTie: {
             ru: 'У вас нет стяжек',
             ua: 'У вас немає стяжок',
-            en: "You don't have cable ties",
+            en: 'You don\'t have cable ties',
             de: 'Sie haben keine Kabelbinder',
             pl: 'Nie masz opasek kablowych',
         },
@@ -376,7 +376,7 @@ export default {
     noReanimateId: {
         ru: 'У вас нет дефибриллятора',
         ua: 'У вас немає дефібрилятора',
-        en: "You don't have a defibrillator",
+        en: 'You don\'t have a defibrillator',
         de: 'Sie haben keinen Defibrillator',
         pl: 'Nie masz defibrylatora',
     },

@@ -49,4 +49,21 @@ export default {
         de: 'Keine verdächtigen Gegenstände gefunden.',
         pl: 'Nie znaleziono żadnych podejrzanych przedmiotów.',
     },
+
+    // check notifies
+    cantFriskCuffs: {
+        ru: 'Вы не можете провести обыск так как на цели нет наручников',
+        ua: 'Ви не можете провести обшук, оскільки на цілі немає наручників',
+        en: 'You can\'t frisk because the target is not handcuffed',
+        de: 'Sie können keine Durchsuchung durchführen, da das Ziel keine Handschellen trägt',
+        pl: 'Nie możesz przeszukać, ponieważ cel nie ma kajdanek',
+    },
+    friskVehicleMoving: {
+        ru: 'Автомобиль должен не двигаться для обыска',
+        ua: 'Автомобіль повинен бути нерухомим для обшуку',
+        en: 'The vehicle must be stationary to frisk',
+        de: 'Das Fahrzeug muss stillstehen, um eine Durchsuchung durchzuführen',
+        pl: 'Pojazd musi być nieruchomy, aby go przeszukać',
+    },
+
 };
