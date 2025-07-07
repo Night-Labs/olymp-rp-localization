@@ -556,6 +556,23 @@ export const cases = {
                 pl: 'W tym pudełku znajduje się unikalna odzież, której nie można kupić w sklepie, oraz inne cenne nagrody. Zbieraj cukierki rozrzucone po całej mapie i wymieniaj je u Świętego Mikołaja na to pudełko! Szczęśliwego Nowego Roku!',
             },
         },
+
+        armourCase: {
+            name: {
+                ru: 'Бронежилеты',
+                ua: 'Бронежилети',
+                en: 'Armour Vests',
+                de: 'Panzerweste',
+                pl: 'Kamizelki kuloodporne',
+            },
+            desc: {
+                ru: 'В этом кейсе вы можете попытать свою удачу выбив уникальный скин для вашего бронежилета.',
+                ua: 'У цьому кейсі ви можете спробувати свою удачу, вибивши унікальний скін для вашого бронежилета.',
+                en: 'In this case, you can try your luck and get a unique skin for your armour vest.',
+                de: 'In diesem Fall können Sie Ihr Glück versuchen und einen einzigartigen Skin für Ihre Panzerweste erhalten.',
+                pl: 'W tym przypadku możesz spróbować szczęścia i zdobyć unikalny skin dla swojej kamizelki kuloodpornej.',
+            },
+        },
     },
 
     openingDesc: {

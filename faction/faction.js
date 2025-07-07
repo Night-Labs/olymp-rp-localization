@@ -18,7 +18,7 @@ import speedradar from './speedradar';
 import weazelNews from './weazelNews';
 import surgeon from './surgeon';
 import graffitiWar from './graffitiWar';
-import vehicleImpound from './vehicleImpound'
+import vehicleImpound from './vehicleImpound';
 
 export const faction = {
     factions,
@@ -49,6 +49,14 @@ export const faction = {
         de: 'Anführer',
         pl: 'Lider',
         zh: '领导者',
+    },
+
+    faction: {
+        ru: 'Фракция',
+        ua: 'Фракція',
+        en: 'Faction',
+        de: 'Fraktion',
+        pl: 'Frakcja',
     },
 
     ranks: {

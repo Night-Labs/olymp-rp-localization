@@ -76,6 +76,14 @@ export const server = {
         zh: '请联系管理',
     },
 
+    alreadyHasSkin: {
+        ru: 'У вас уже есть этот скин',
+        ua: 'У вас вже є цей скін',
+        en: 'You already have this skin',
+        de: 'Du besitzt diesen Skin bereits',
+        pl: 'Masz już tę skórkę',
+    },
+
     receive: {
         // Exp
 
@@ -176,12 +184,22 @@ export const server = {
             pl: '{{item}} {{quantity}} szt. dodano do twojego ekwipunku',
         },
 
+        // Status
         status: {
             ru: 'Активирован {{status}} статус на {{days}} дней',
             ua: 'Активовано {{status}} статус на {{days}} днів',
             en: 'Activated {{status}} status for {{days}} days',
             de: '{{status}} Status für {{days}} Tage aktiviert',
             pl: 'Aktywowano status {{status}} na {{days}} dni',
+        },
+
+        // Разблокирован скин
+        skin: {
+            ru: 'Разблокирован новый скин {{skin}}',
+            ua: 'Розблоковано новий скін {{skin}}',
+            en: 'Unlocked new skin {{skin}}',
+            de: 'Neuer Skin {{skin}} freigeschaltet',
+            pl: 'Odblokowano nową skórkę {{skin}}',
         },
     },
 };

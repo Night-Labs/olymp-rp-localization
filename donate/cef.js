@@ -833,6 +833,14 @@ export const cef = {
             pl: 'Powrót do skinów',
         },
 
+        availableFilter: {
+            ru: 'Только доступные',
+            ua: 'Тільки доступні',
+            en: 'Only available',
+            de: 'Nur verfügbar',
+            pl: 'Tylko dostępne',
+        },
+
         applied: {
             ru: 'Применено',
             ua: 'Застосовано',
