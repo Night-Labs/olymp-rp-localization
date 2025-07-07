@@ -15,6 +15,7 @@ import online from './pages/online';
 import sim from './pages/sim';
 import widgets from './pages/widgets';
 import game2048 from './pages/game2048';
+import prism from './pages/prism';
 
 export default {
     ...cef,
@@ -33,4 +34,5 @@ export default {
     sim,
     widgets,
     game2048,
+    prism,
 };
