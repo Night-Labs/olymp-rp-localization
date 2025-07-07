@@ -23,6 +23,13 @@ export const operations = {
         pl: 'Otrzymałeś transfer z konta {{account}}',
         zh: '您收到账户{{account}}的转账',
     },
+    transferFromSms: {
+        ru: 'Перевод {{amount}}$ от {{account}}. Баланс: {{balance}}$',
+        ua: 'Переказ {{amount}}$ від {{account}}. Баланс: {{balance}}$',
+        en: 'Transfer of {{amount}}$ from {{account}}. Balance: {{balance}}$',
+        de: 'Überweisung von {{amount}}$ von {{account}}. Kontostand: {{balance}}$',
+        pl: 'Przelew {{amount}}$ od {{account}}. Saldo: {{balance}}$',
+    },
     transferTo: {
         ru: 'Вы перевели на счёт {{account}}',
         en: 'You transferred to account {{account}}',
