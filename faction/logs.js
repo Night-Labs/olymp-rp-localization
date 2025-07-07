@@ -78,6 +78,13 @@ export default {
             de: 'Militärtickets',
             pl: 'Bilety wojskowe',
         },
+        licenses: {
+            'ru': 'Лицензии',
+            'ua': 'Ліцензії',
+            'en': 'Licenses',
+            'de': 'Lizenzen',
+            'pl': 'Licencje',
+        },
     },
     //
     invitedPlayer: {
@@ -276,7 +283,7 @@ export default {
     updatedMemberRank: {
         ru: 'Обновил ранг участника {{member}} на {{rank}}',
         ua: 'Оновив ранг учасника {{member}} на {{rank}}',
-        en: "Updated member {{member}}'s rank to {{rank}}",
+        en: 'Updated member {{member}}\'s rank to {{rank}}',
         de: 'Rang von Mitglied {{member}} auf {{rank}} aktualisiert',
         pl: 'Zaktualizowano rangę członka {{member}} na {{rank}}',
     },
@@ -295,5 +302,14 @@ export default {
         en: 'Issued military ticket to {{name}}',
         de: 'Militärausweis an {{name}} ausgegeben',
         pl: 'Wydał bilet wojskowy {{name}}',
+    },
+
+    // sellLicense
+    sellLicense: {
+        'ru': 'Продал лицензию {{name}} за {{price}}$',
+        'ua': 'Продав ліцензію {{name}} за {{price}}$',
+        'en': 'Sold license {{name}} for {{price}}$',
+        'de': 'Lizenz {{name}} für {{price}}$ verkauft',
+        'pl': 'Sprzedano licencję {{name}} za {{price}}$',
     },
 };

@@ -3,6 +3,7 @@ import upgrades from './upgrades';
 import fine from './fine';
 import frisk from './frisk';
 import badge from './badge';
+import sellLicense from './sellLicense';
 
 export const cef = {
     arrest,
@@ -10,6 +11,7 @@ export const cef = {
     fine,
     frisk,
     badge,
+    sellLicense,
 
     tabsName: {
         ru: 'Все доступные действия',

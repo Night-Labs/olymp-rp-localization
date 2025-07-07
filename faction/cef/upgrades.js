@@ -251,7 +251,7 @@ export default {
     basicArmyCarsDesc: {
         ru: 'Включает в себя всё нужное, матовозки, куча транспорта. Больше чем в армии некоторых стран',
         ua: 'Містить усе необхідне: матовозки, купу транспорту. Більше, ніж в армії деяких країн',
-        en: "Includes everything you need: supply trucks, tons of vehicles. More than some countries' armies have",
+        en: 'Includes everything you need: supply trucks, tons of vehicles. More than some countries\' armies have',
         de: 'Enthält alles Notwendige: Versorgungsfahrzeuge, jede Menge Transportmittel. Mehr als manche Armeen haben',
         pl: 'Zawiera wszystko, co potrzebne: ciężarówki zaopatrzeniowe, mnóstwo pojazdów. Więcej niż ma armia niektórych krajów',
     },
@@ -280,7 +280,7 @@ export default {
     mediumGangCarsDesc: {
         ru: 'Включает в себя премиум автомобили такие как BMW M5 F90 и Mercedes-AMG C 63 S. Будете самыми крутыми на районе!',
         ua: 'Включає в себе преміум автомобілі такі як BMW M5 F90 і Mercedes-AMG C 63 S. Будете найкрутішими в районі!',
-        en: "Includes premium cars like BMW M5 F90 and Mercedes-AMG C 63 S. You'll be the coolest in the neighborhood!",
+        en: 'Includes premium cars like BMW M5 F90 and Mercedes-AMG C 63 S. You\'ll be the coolest in the neighborhood!',
         de: 'Umfasst Premium-Autos wie BMW M5 F90 und Mercedes-AMG C 63 S. Ihr werdet die Coolsten in der Nachbarschaft sein!',
         pl: 'Obejmuje samochody premium, takie jak BMW M5 F90 i Mercedes-AMG C 63 S. Będziecie najfajniejsi w okolicy!',
     },
@@ -297,6 +297,22 @@ export default {
         en: 'Off-road vehicles like BMW X5 G05 and Toyota Land Cruiser 200, for trips out of town',
         de: 'Geländewagen wie BMW X5 G05 und Toyota Land Cruiser 200, für Ausflüge aus der Stadt',
         pl: 'Samochody terenowe, takie jak BMW X5 G05 i Toyota Land Cruiser 200, na wyjazdy poza miasto',
+    },
+
+    //gov
+    basicGovCarsTitle: {
+        ru: 'Базовые авто',
+        ua: 'Базові авто',
+        en: 'Basic Cars',
+        de: 'Basisfahrzeuge',
+        pl: 'Podstawowe auta',
+    },
+    basicGovCarsDesc: {
+        ru: 'Базовые автомобили для правительства штата',
+        ua: 'Базові автомобілі для уряду штату',
+        en: 'Basic vehicles for the state government',
+        de: 'Basisfahrzeuge für die Landesregierung',
+        pl: 'Podstawowe pojazdy dla rządu stanu',
     },
 
     // inventory
