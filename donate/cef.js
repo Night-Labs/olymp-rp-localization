@@ -764,7 +764,7 @@ export const cef = {
         },
 
         types: {
-            armour: {
+            armours: {
                 ru: 'Бронижелеты',
                 ua: 'Бронежилети',
                 en: 'Armour',
@@ -813,6 +813,40 @@ export const cef = {
                 de: 'Nahkampfwaffen',
                 pl: 'Broń biała',
             },
+        },
+    },
+
+    skinsSelect: {
+        skinsList: {
+            ru: 'Доступно скинов {{unlocked}} / {{all}}',
+            ua: 'Доступно скінів {{unlocked}} / {{all}}',
+            en: 'Skins available {{unlocked}} / {{all}}',
+            de: 'Verfügbare Skins {{unlocked}} / {{all}}',
+            pl: 'Dostępne skiny {{unlocked}} / {{all}}',
+        },
+
+        back: {
+            ru: 'Вернуться к скинам',
+            ua: 'Повернутися до скінів',
+            en: 'Back to skins',
+            de: 'Zurück zu den Skins',
+            pl: 'Powrót do skinów',
+        },
+
+        applied: {
+            ru: 'Применено',
+            ua: 'Застосовано',
+            en: 'Applied',
+            de: 'Angewendet',
+            pl: 'Zastosowano',
+        },
+
+        apply: {
+            ru: 'Применить',
+            ua: 'Застосувати',
+            en: 'Apply',
+            de: 'Anwenden',
+            pl: 'Zastosuj',
         },
     },
 };
