@@ -66,7 +66,8 @@ import flappyBird from './flappyBird';
 import walkieTalkie from './walkieTalkie';
 import elevators from './elevators';
 import shootingRange from './shootingRange';
-import diving from './diving'
+import diving from './diving';
+import drivingSchool from './drivingSchool';
 
 export default {
     account,
@@ -137,5 +138,6 @@ export default {
     walkieTalkie,
     elevators,
     shootingRange,
-    diving
+    diving,
+    drivingSchool,
 };

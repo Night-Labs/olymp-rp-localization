@@ -204,4 +204,11 @@ export const npc = {
         de: 'Haupttaucher',
         pl: 'Główny Nurek',
     },
+    melissa: {
+        ru: 'Мелисса',
+        ua: 'Мелісса',
+        en: 'Melissa',
+        de: 'Melissa',
+        pl: 'Melissa',
+    },
 };
