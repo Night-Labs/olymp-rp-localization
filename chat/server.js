@@ -53,4 +53,12 @@ export const server = {
         de: '~r~[ADMIN] {{admin}} hat Spieler {{player}} für {{days}} Tage aus dem Grund {{reason}} gesperrt. Spielerstatus: ~g~{{status}}',
         pl: '~r~[ADMIN] {{admin}} zbanował gracza {{player}} na {{days}} dni z powodu {{reason}}. Status gracza: ~g~{{status}}',
     },
+    mutedMessage: {
+        'ru': 'Вы сможете писать в чат только через {{time}}, по причине {{reason}}',
+        'ua': 'Ви зможете писати в чат лише через {{time}}, з причини {{reason}}',
+        'en': 'You will be able to write in the chat only after {{time}}, due to {{reason}}',
+        'de': 'Du kannst erst nach {{time}} im Chat schreiben, wegen {{reason}}',
+        'pl': 'Będziesz mógł pisać na czacie dopiero za {{time}}, z powodu {{reason}}',
+    },
+
 };
