@@ -131,6 +131,14 @@ export default {
         pl: 'Sprzedałeś {{quantity}} przedmiotów za ${{price}}',
     },
 
+    updatePriceIn: {
+        ru: 'Обновление цен через',
+        ua: 'Оновлення цін через',
+        en: 'Update prices via',
+        de: 'Preise aktualisieren über',
+        pl: 'Aktualizacja cen przez',
+    },
+
     types: {
         fishing: {
             ru: 'Рыбы',
