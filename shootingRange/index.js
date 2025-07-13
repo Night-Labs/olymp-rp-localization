@@ -78,7 +78,7 @@ export default {
             ru: 'Тут вы можете по практиковаться в стрельбе',
             ua: 'Тут ви можете потренуватися у стрільбі',
             en: 'Here you can practice shooting',
-            de: 'Hier können Sie das Schießen üben',
+            de: 'Hier kannst du das Schießen Trainieren',
             pl: 'Tutaj możesz poćwiczyć strzelanie',
         },
         session: {
@@ -141,7 +141,7 @@ export default {
             ru: 'Вы',
             ua: 'Ви',
             en: 'You',
-            de: 'Sie',
+            de: 'Du',
             pl: 'Ty',
         },
         timeOptions: {
@@ -179,7 +179,7 @@ export default {
         ru: 'Вы закончили сессию на {{name}}',
         ua: 'Ви завершили сесію на {{name}}',
         en: 'You have finished the session on {{name}}',
-        de: 'Sie haben die Sitzung auf {{name}} beendet',
+        de: 'Du hast die Sitzung auf {{name}} beendet',
         pl: 'Zakończyłeś sesję na {{name}}',
     },
 
@@ -215,7 +215,7 @@ export default {
         ru: 'Вы побили рекорд рейтинга, ваш прошлый рейтинг: {{old}} и новый: {{newRecord}}',
         ua: 'Ви побили рекорд рейтингу, ваш попередній рейтинг: {{old}}, а новий: {{newRecord}}',
         en: 'You broke the rating record, your previous rating was {{old}} and the new one is {{newRecord}}',
-        de: 'Sie haben den Bewertungsrekord gebrochen, Ihre vorherige Bewertung war {{old}} und die neue ist {{newRecord}}',
+        de: 'Du hast dich selbst übertroffen, deine vorherige Bewertung war {{old}} und deine neue ist {{newRecord}}',
         pl: 'Pobito rekord oceny, Twój poprzedni wynik to {{old}}, a nowy to {{newRecord}}',
     },
     blip: {

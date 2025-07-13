@@ -3,14 +3,14 @@ export default {
         ru: 'Так как у вас {{status}} скидка на лицензию {{discount}}%',
         ua: 'Оскільки у вас {{status}} знижка на ліцензію {{discount}}%',
         en: 'Since you have a {{status}} discount on the license of {{discount}}%',
-        de: 'Da Sie einen {{status}} Rabatt auf die Lizenz von {{discount}}% haben',
+        de: 'Da du den Status {{status}} hast, erhälst du {{discount}}% Rabatt auf sämtliche Lizenzen',
         pl: 'Ponieważ masz {{status}} zniżkę na licencję w wysokości {{discount}}%',
     },
     deliveryVehicleDiscountNotify: {
         ru: 'Так как у вас {{status}} скидка на доставку {{discount}}%',
         ua: 'Оскільки у вас {{status}}, знижка на доставку {{discount}}%',
         en: 'Since your status is {{status}}, you get a {{discount}}% delivery discount',
-        de: 'Da Sie den Status {{status}} haben, erhalten Sie {{discount}}% Rabatt auf die Lieferung',
+        de: 'Da du den Status {{status}} hast, erhälst du {{discount}}% Rabatt auf die Lieferung',
         pl: 'Ponieważ masz status {{status}}, otrzymujesz {{discount}}% zniżki na dostawę',
     },
     jobBonusNotify: {

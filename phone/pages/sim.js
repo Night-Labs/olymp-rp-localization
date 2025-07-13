@@ -10,7 +10,7 @@ export default {
         ru: 'Для использования всех сервисов мобильного телефона не забывайте пополнять баланс сим-карты, сделать это можно в любой банке или банкомате.',
         ua: 'Для використання всіх сервісів мобільного телефону не забувайте поповнювати баланс сім-карти, зробити це можна в будь-якому банку або банкоматі.',
         en: "To use all mobile phone services, don't forget to top up your SIM card balance. You can do this at any bank or ATM.",
-        de: 'Um alle Dienste Ihres Mobiltelefons nutzen zu können, vergessen Sie nicht, Ihr SIM-Karten-Guthaben aufzuladen. Sie können dies in jeder Bank oder an einem Geldautomaten tun.',
+        de: 'Um alle Dienste deines Handys nutzen zu können, lade dein SIM-Karten-Guthaben auf. Du kannst dies in jeder Bank oder an einem Geldautomaten tun.',
         pl: 'Aby korzystać ze wszystkich usług telefonu komórkowego, nie zapomnij doładować karty SIM. Można to zrobić w każdym banku lub bankomacie.',
     },
     yourNumber: {
@@ -98,14 +98,14 @@ export default {
         ru: 'SIM-карта активирована! \n Ваш номер: {{number}} \n Приятного использования Olymp Mobile! \n Не забывайте пополнять баланс вашей сим-карты, сделать это можно в любом банке или банкомате.\n Обратите внимание, если не пополнять сим-карту более 1 года (365 дней) - симкарта и номер будут обнулены',
         ua: 'SIM-карта активована! \n Ваш номер: {{number}} \n Приємного користування Olymp Mobile! \n Не забувайте поповнювати баланс вашої SIM-карти, зробити це можна в будь-якому банку або банкоматі.\n Зверніть увагу, якщо не поповнювати SIM-карту понад 1 рік (365 днів) — SIM-карта та номер будуть обнулені',
         en: 'SIM card activated! \n Your number: {{number}} \n Enjoy using Olymp Mobile! \n Don’t forget to top up your SIM card balance; you can do it at any bank or ATM.\n Please note, if the SIM card is not topped up for more than 1 year (365 days), the SIM card and number will be deactivated',
-        de: 'SIM-Karte aktiviert! \n Ihre Nummer: {{number}} \n Viel Spaß mit Olymp Mobile! \n Vergessen Sie nicht, das Guthaben Ihrer SIM-Karte aufzuladen – dies ist in jeder Bank oder an einem Geldautomaten möglich.\n Bitte beachten Sie: Wenn Sie die SIM-Karte länger als 1 Jahr (365 Tage) nicht aufladen, werden SIM-Karte und Nummer deaktiviert',
+        de: 'SIM-Karte aktiviert! \n Deine Nummer: {{number}} \n Viel Spaß mit Olymp Mobile! \n Vergesse nicht, das Guthaben deiner SIM-Karte aufzuladen – dies ist in jeder Bank oder an einem Geldautomaten möglich.\n Bitte beachten : Wenn die SIM-Karte länger als 1 Jahr (365 Tage) nicht aufgeladen wurde, wird die SIM-Karte und Handynummer deaktiviert',
         pl: 'Karta SIM została aktywowana! \n Twój numer: {{number}} \n Miłego korzystania z Olymp Mobile! \n Nie zapomnij doładować salda karty SIM – można to zrobić w każdym banku lub bankomacie.\n Uwaga: jeśli karta SIM nie będzie doładowywana przez ponad 1 rok (365 dni), karta i numer zostaną dezaktywowane',
     },
     activatedTransfer: {
         ru: 'SIM-карта активирована! \n Ваш новый номер: {{number}} \n На новую сим-карту были перенесены следующие данные: Баланс {{balance}}\n Контакты - {{contacts}}\n Чёрный список - {{blackList}}\n Обратите внимание, если не пополнять сим-карту более 1 года (365 дней) - симкарта и номер будут обнулены',
         ua: 'SIM-карта активована! \n Ваш новий номер: {{number}} \n На нову SIM-карту було перенесено такі дані: Баланс {{balance}}\n Контакти - {{contacts}}\n Чорний список - {{blackList}}\n Зверніть увагу, якщо не поповнювати SIM-карту понад 1 рік (365 днів) — SIM-карта та номер будуть обнулені',
         en: 'SIM card activated! \n Your new number: {{number}} \n The following data has been transferred to your new SIM card: Balance {{balance}}\n Contacts - {{contacts}}\n Blacklist - {{blackList}}\n Please note, if the SIM card is not topped up for more than 1 year (365 days), the SIM card and number will be deactivated',
-        de: 'SIM-Karte aktiviert! \n Ihre neue Nummer: {{number}} \n Folgende Daten wurden auf die neue SIM-Karte übertragen: Guthaben {{balance}}\n Kontakte - {{contacts}}\n Sperrliste - {{blackList}}\n Bitte beachten Sie: Wenn Sie die SIM-Karte länger als 1 Jahr (365 Tage) nicht aufladen, werden SIM-Karte und Nummer deaktiviert',
+        de: 'SIM-Karte aktiviert! \n Deine neue Nummer: {{number}} \n Folgende Daten wurden auf die neue SIM-Karte übertragen: Guthaben {{balance}}\n Kontakte - {{contacts}}\n Sperrliste - {{blackList}}\n Bitte beachten : Wenn die SIM-Karte länger als 1 Jahr (365 Tage) nicht aufgeladen wurde, wird die SIM-Karte und Handynummer deaktiviert',
         pl: 'Karta SIM została aktywowana! \n Twój nowy numer: {{number}} \n Na nową kartę SIM przeniesiono następujące dane: Saldo {{balance}}\n Kontakty - {{contacts}}\n Czarna lista - {{blackList}}\n Uwaga: jeśli karta SIM nie będzie doładowywana przez ponad 1 rok (365 dni), karta i numer zostaną dezaktywowane',
     },
 
@@ -121,7 +121,7 @@ export default {
         ru: 'Ваш счёт {{number}} \n Пополнена на {{amount}} Баланс {{balance}}',
         ua: 'Ваш рахунок {{number}} \n Поповнено на {{amount}} Баланс {{balance}}',
         en: 'Your account {{number}} \n Deposited {{amount}} Balance {{balance}}',
-        de: 'Ihr Konto {{number}} \n Einzahlung {{amount}} Guthaben {{balance}}',
+        de: 'Dein Konto {{number}} \n Einzahlung {{amount}} Guthaben {{balance}}',
         pl: 'Twoje konto {{number}} \n Wpłacono {{amount}} Saldo {{balance}}',
     },
 };

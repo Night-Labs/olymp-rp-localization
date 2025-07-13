@@ -40,7 +40,7 @@ export default {
         ru: 'Укажите кол-во которое вы хотите заказать',
         ua: 'Вкажіть кількість, яку хочете замовити',
         en: 'Enter the quantity you want to order',
-        de: 'Geben Sie die gewünschte Bestellmenge an',
+        de: 'Gebe die gewünschte Bestellmenge an',
         pl: 'Podaj ilość, którą chcesz zamówić',
     },
     quantityMinMax: {

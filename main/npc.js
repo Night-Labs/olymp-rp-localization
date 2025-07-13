@@ -123,7 +123,7 @@ export const npc = {
         ru: 'Санта-Клаус',
         ua: 'Санта-Клаус',
         en: 'Santa-Claus',
-        de: 'Santa-Claus',
+        de: 'Santa',
         pl: 'Santa-Claus',
         zh: '圣诞老人',
     },
@@ -201,7 +201,7 @@ export const npc = {
         ru: 'Главный Дайвер',
         ua: 'Головний Дайвер',
         en: 'Chief Diver',
-        de: 'Haupttaucher',
+        de: 'Taucher',
         pl: 'Główny Nurek',
     },
     melissa: {

@@ -28,7 +28,7 @@ export default {
         ru: 'У вас нет лицензии на оружие или она истекла',
         ua: 'У вас немає ліцензії на зброю або вона прострочена',
         en: 'You do not have a weapon license or it has expired',
-        de: 'Sie haben keinen Waffenschein oder er ist abgelaufen',
+        de: 'Du hast keinen Waffenschein oder er ist abgelaufen',
         pl: 'Nie masz licencji na broń lub wygasła',
         zh: '你的持枪证已吊销或已过期',
     },
@@ -50,7 +50,7 @@ export default {
         ru: 'Чтобы сесть нажмите',
         ua: 'Щоб сісти, натисніть',
         en: 'To sit down, press',
-        de: 'Zum Hinsetzen drücken Sie',
+        de: 'Zum Hinsetzen drücke',
         pl: 'Aby usiąść, naciśnij',
     },
     //

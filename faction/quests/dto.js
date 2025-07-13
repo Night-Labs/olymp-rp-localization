@@ -10,7 +10,7 @@ export default {
         ru: 'Поучавствуйте в {{count}} аирдропах',
         ua: 'Візьміть участь у {{count}} аірдропах',
         en: 'Participate in {{count}} airdrops',
-        de: 'Nehmen Sie an {{count}} Airdrops teil',
+        de: 'Nehme an {{count}} Airdrops teil',
         pl: 'Weź udział w {{count}} airdropach',
     },
     robShops: {
@@ -24,7 +24,7 @@ export default {
         ru: 'Сделайте {{count}} автоугонок',
         ua: 'Здійсніть {{count}} викрадень авто',
         en: 'Perform {{count}} carjackings',
-        de: 'Begehen Sie {{count}} Autodiebstähle',
+        de: 'Begehe {{count}} Autodiebstähle',
         pl: 'Dokonaj {{count}} kradzieży samochodów',
     },
     deliverStashes: {
@@ -38,7 +38,7 @@ export default {
         ru: 'Вырастить {{count}} кустов Green на ферме',
         ua: 'Виростити {{count}} кущів Green на фермі',
         en: 'Grow {{count}} Green bushes on the farm',
-        de: '{{count}} Green-Pflanzen auf der Farm anbauen',
+        de: '{{count}} Weed-Pflanzen auf der Farm anbauen',
         pl: 'Wyhoduj {{count}} krzaków Green na farmie',
     },
 };

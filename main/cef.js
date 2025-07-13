@@ -55,7 +55,7 @@ export const cef = {
         ua: 'Створити',
         en: 'Create',
         ru: 'Создать',
-        de: 'Schaffen',
+        de: 'erstellen',
         zh: '创建',
     },
     buy: {
@@ -76,7 +76,7 @@ export const cef = {
         ua: 'Рівень',
         en: 'Level',
         ru: 'Уровень',
-        de: 'Eben',
+        de: 'Level',
         zh: '等级',
     },
     status: {
@@ -127,14 +127,14 @@ export const cef = {
         ua: "Ім'я",
         en: 'firstName',
         ru: 'Имя',
-        de: 'Name',
+        de: 'Vorname',
         zh: '名',
     },
     lastName: {
         ua: 'Прізвище',
         en: 'lastName',
         ru: 'Фамилия',
-        de: 'der Nachname',
+        de: 'Nachname',
         zh: '姓',
     },
     age: {

@@ -19,7 +19,7 @@ const inventory = {
         ru: 'Сейчас вы не можете использовать инвентарь',
         ua: 'Зараз ви не можете використовувати інвентар',
         en: 'You cannot use the inventory right now',
-        de: 'Derzeit können Sie das Inventar nicht verwenden',
+        de: 'Derzeit kannst du das Inventar nicht verwenden',
         pl: 'Nie możesz teraz korzystać z inwentarza',
     },
     
@@ -51,7 +51,7 @@ const inventory = {
         ru: 'Эта одежда не предназначена для пола вашего персонажа',
         ua: 'Цей одяг не призначений для статі вашого персонажа',
         en: 'This clothing is not intended for the gender of your character',
-        de: 'Diese Kleidung ist nicht für das Geschlecht Ihres Charakters vorgesehen',
+        de: 'Diese Kleidung ist nicht für das Geschlecht deines Charakters vorgesehen',
         pl: 'Ta odzież nie jest przeznaczona dla płci twojej postaci',
     },
 

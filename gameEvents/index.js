@@ -78,7 +78,7 @@ export const gameEvents = {
             ru: 'Вы вышли из игровой зоны DM и были исключены.',
             ua: 'Ви вийшли з ігрової зони DM і були виключені.',
             en: 'You have exited the DM game zone and were kicked out.',
-            de: 'Sie haben die DM-Spielzone verlassen und wurden herausgeworfen.',
+            de: 'Du hast die DM-Spielzone verlassen und wurden herausgeworfen.',
             pl: 'Wyszedłeś z strefy gry DM i zostałeś wyłączony.',
             zh: '您已退出DM游戏区并被踢出。',
         },

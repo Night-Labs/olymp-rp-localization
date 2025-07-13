@@ -30,7 +30,7 @@ export const server = {
         ru: 'Произошла ошибка, попробуйте ещё раз',
         ua: 'Виникла помилка, спробуйте ще раз',
         en: 'An error occurred, please try again',
-        de: 'Ein Fehler ist aufgetreten, bitte versuchen Sie es erneut',
+        de: 'Ein Fehler ist aufgetreten, bitte versuche es erneut',
         pl: 'Wystąpił błąd, spróbuj ponownie',
         zh:'发生错误，请再试一次',
     },

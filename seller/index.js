@@ -35,7 +35,7 @@ export default {
         ru: 'Отправил тебе локацию твоей посылки, можешь увидеть в точности на карте. Знай другие игроки недалеко от неё могут попробовать её украсть',
         ua: 'Відправив тобі локацію твоєї посилки, можеш побачити точно на карті. Знай, інші гравці неподалік можуть спробувати її вкрасти',
         en: 'Sent you the location of your package, you can see it precisely on the map. Note that other players nearby may try to steal it',
-        de: 'Ich habe dir den Standort deines Pakets geschickt, du kannst ihn genau auf der Karte sehen. Beachte, dass andere Spieler in der Nähe versuchen könnten, es zu stehlen',
+        de: 'Ich habe dir den Standort deines Pakets geschickt. Beachte, dass Spieler in der Nähe des Pakets versuchen könnten, es zu stehlen',
         pl: 'Wysłałem ci lokalizację twojej paczki, możesz zobaczyć ją dokładnie na mapie. Pamiętaj, że inni gracze w pobliżu mogą spróbować ją ukraść',
     },
     smsToGangs: {
@@ -70,7 +70,7 @@ export default {
         ru: 'Похоже кто-то нашёл вашу посылку раньше вас, анлак...',
         ua: 'Схоже, хтось знайшов вашу посилку раніше за вас, анлак...',
         en: 'Looks like someone found your package before you, unlucky...',
-        de: 'Sieht so aus, als hätte jemand dein Paket vor dir gefunden, Pech gehabt...',
+        de: 'Jemand dein Paket vor dir abgeholt, Pech gehabt...',
         pl: 'Wygląda na to, że ktoś znalazł twoją paczkę przed tobą, pech...',
     },
     alreadyHaveIllegalOrder: {

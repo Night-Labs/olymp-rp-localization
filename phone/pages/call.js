@@ -3,7 +3,7 @@ export default {
         ru: 'Для начала завершите текущий вызов',
         ua: 'Для початку завершіть поточний виклик',
         en: 'Please end the current call first',
-        de: 'Bitte beenden Sie zuerst den aktuellen Anruf',
+        de: 'Bitte beende zuerst den aktuellen Anruf',
         pl: 'Najpierw zakończ bieżące połączenie',
     },
     theSameNumber: {
@@ -17,14 +17,14 @@ export default {
         ru: 'Абонент сейчас занят, пожалуйста, позвоните позже',
         ua: 'Абонент зараз зайнятий, будь ласка, зателефонуйте пізніше',
         en: 'The subscriber is currently busy, please call again later',
-        de: 'Der Teilnehmer ist zurzeit besetzt, bitte rufen Sie später noch einmal an',
+        de: 'Der Teilnehmer ist zurzeit besetzt, bitte rufe später noch einmal an',
         pl: 'Abonent jest teraz zajęty, proszę zadzwonić później',
     },
     noActive: {
         ru: 'Для этого пополните баланс вашей SIM-карты',
         ua: 'Для цього поповніть баланс вашої SIM-картки',
         en: 'To do this, top up your SIM card balance',
-        de: 'Dazu müssen Sie Ihr SIM-Karten-Guthaben aufladen',
+        de: 'Dazu müssst du dein SIM-Karten-Guthaben aufladen',
         pl: 'Aby to zrobić, doładuj saldo karty SIM',
     },
     notFound: {
@@ -38,7 +38,7 @@ export default {
         ru: 'Абонент вышел из штата',
         ua: 'Абонент вийшов зі штату',
         en: 'Player disconnected from the state',
-        de: 'Spieler hat den Staat verlassen',
+        de: 'Bürger hat den Staat verlassen',
         pl: 'Gracz opuścił stan',
     },
 
@@ -86,7 +86,7 @@ export default {
             ru: 'Выберите службу которую хотите вызвать',
             ua: 'Виберіть службу, яку хочете викликати',
             en: 'Choose the service you want to call',
-            de: 'Wählen Sie den Dienst, den Sie anrufen möchten',
+            de: 'Wähle den Dienst, den du anrufen möchten',
             pl: 'Wybierz służbę, którą chcesz wezwać',
         },
         calling: {
@@ -100,7 +100,7 @@ export default {
             ru: 'Вы собираетесь вызвать {{name}}',
             ua: 'Ви збираєтеся викликати {{name}}',
             en: 'You are about to call {{name}}',
-            de: 'Sie sind dabei, {{name}} anzurufen',
+            de: 'Du bist dabei, {{name}} anzurufen',
             pl: 'Zamierzasz wezwać {{name}}',
         },
         reason: {
@@ -149,21 +149,21 @@ export default {
             ru: 'Выберите причину',
             ua: 'Виберіть причину',
             en: 'Choose a reason',
-            de: 'Wählen Sie einen Grund',
+            de: 'Wähle einen Grund',
             pl: 'Wybierz powód',
         },
         notifySend: {
             ru: 'Ожидайте пока ваш запрос примут',
             ua: 'Очікуйте, поки ваш запит приймуть',
             en: 'Please wait while your request is being accepted',
-            de: 'Bitte warten Sie, bis Ihre Anfrage angenommen wird',
+            de: 'Bitte warte bis deine Anfrage angenommen wird',
             pl: 'Proszę czekać, aż twoje zgłoszenie zostanie zaakceptowane',
         },
         cooldown: {
             ru: 'Вы не давно уже вызывали экстренную службу, подождите немного',
             ua: 'Ви нещодавно вже викликали екстрену службу, зачекайте трохи',
             en: 'You have recently called the emergency service, please wait a moment',
-            de: 'Sie haben vor kurzem bereits den Notdienst gerufen, bitte warten Sie einen Moment',
+            de: 'Du hast vor kurzem bereits den Notdienst gerufen, bitte warte einen Moment',
             pl: 'Niedawno wzywałeś już służby ratunkowe, poczekaj chwilę',
         },
         reasons: {

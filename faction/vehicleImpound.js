@@ -17,14 +17,14 @@ export default {
         ru: 'Отвезите это транспортное средство на штрафстоянку',
         ua: 'Відвезіть цей транспортний засіб на штрафмайданчик',
         en: 'Take this vehicle to the impound lot',
-        de: 'Bringen Sie dieses Fahrzeug zum Abschleppplatz',
+        de: 'Bringe dieses Fahrzeug zum Abschleppplatz',
         pl: 'Zawieź ten pojazd na parking policyjny',
     },
     youDropOffVehicleSuccess: {
         ru: 'Вы сдали транспортное средство на штарфстоянку и получили ${{salary}}',
         ua: 'Ви здали транспортний засіб на штрафмайданчик і отримали ${{salary}}',
         en: 'You dropped off the vehicle at the impound lot and received ${{salary}}',
-        de: 'Sie haben das Fahrzeug beim Abschleppplatz abgeliefert und ${{salary}} erhalten',
+        de: 'Du hast das Fahrzeug beim Abschleppplatz abgeliefert und ${{salary}} erhalten',
         pl: 'Oddałeś pojazd na parking policyjny i otrzymałeś ${{salary}}',
     },
     targetVehicleDestroyed: {

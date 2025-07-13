@@ -10,7 +10,7 @@ export default {
         ru: 'Вам требуется соеденить провода одинаковых цветов.',
         ua: "Вам потрібно з'єднати дроти однакових кольорів.",
         en: 'You need to connect wires of the same color.',
-        de: 'Sie müssen Drähte der gleichen Farbe verbinden.',
+        de: 'Du musst Drähte der gleichen Farbe verbinden.',
         pl: 'Musisz połączyć przewody o tych samych kolorach.',
     },
 

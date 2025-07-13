@@ -55,7 +55,7 @@ export default {
         ru: 'Вы не можете провести обыск так как на цели нет наручников',
         ua: 'Ви не можете провести обшук, оскільки на цілі немає наручників',
         en: 'You can\'t frisk because the target is not handcuffed',
-        de: 'Sie können keine Durchsuchung durchführen, da das Ziel keine Handschellen trägt',
+        de: 'Du kannst keine Durchsuchung durchführen, da das Ziel keine Handschellen trägt',
         pl: 'Nie możesz przeszukać, ponieważ cel nie ma kajdanek',
     },
     friskVehicleMoving: {

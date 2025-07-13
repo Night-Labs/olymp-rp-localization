@@ -3,7 +3,7 @@ export default {
         ru: 'У вас нет доступа к этому приложению',
         ua: 'У вас немає доступу до цього застосунку',
         en: 'You do not have access to this application',
-        de: 'Sie haben keinen Zugriff auf diese Anwendung',
+        de: 'Du hast keinen Zugriff auf diese Anwendung',
         pl: 'Nie masz dostępu do tej aplikacji',
     },
 
@@ -107,7 +107,7 @@ export default {
         'ru': 'У вас нет доступа к этому приложению',
         'ua': 'У вас немає доступу до цього застосунку',
         'en': 'You do not have access to this application',
-        'de': 'Sie haben keinen Zugriff auf diese Anwendung',
+        'de': 'Du hast keinen Zugriff auf diese Anwendung',
         'pl': 'Nie masz dostępu do tej aplikacji',
     },
 };

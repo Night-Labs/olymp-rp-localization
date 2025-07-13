@@ -37,14 +37,14 @@ export default {
         ru: 'У вас нет денег на пластическую операцию',
         ua: 'У вас немає грошей на пластичну операцію',
         en: "You don't have enough money for plastic surgery",
-        de: 'Sie haben nicht genug Geld für eine plastische Operation',
+        de: 'Du hast nicht genug Geld für eine plastische Operation',
         pl: 'Nie masz wystarczająco pieniędzy na operację plastyczną',
     },
     success: {
         ru: 'Вы успешно сделали пластическую операцию',
         ua: 'Ви успішно зробили пластичну операцію',
         en: 'You have successfully undergone plastic surgery',
-        de: 'Sie haben erfolgreich eine plastische Operation durchgeführt',
+        de: 'Du hast erfolgreich eine plastische Operation durchgeführt',
         pl: 'Pomyślnie przeszedłeś operację plastyczną',
     },
 };
