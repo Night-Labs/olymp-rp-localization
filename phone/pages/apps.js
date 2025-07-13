@@ -10,7 +10,7 @@ export default {
         ru: 'Навигатор',
         ua: 'Навігатор',
         en: 'Navigator',
-        de: 'Navigator',
+        de: 'Navigation',
         pl: 'Nawigator',
     },
     ads: {

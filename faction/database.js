@@ -52,7 +52,7 @@ export default {
         ru: 'Введите значение',
         ua: 'Введіть значення',
         en: 'Enter a value',
-        de: 'Geben Sie einen Wert ein',
+        de: 'Gebe einen Wert ein',
         pl: 'Wprowadź wartość',
     },
     name: {
@@ -181,7 +181,7 @@ export default {
         ru: 'Выберите уровень розыска',
         ua: 'Оберіть рівень розшуку',
         en: 'Select wanted level',
-        de: 'Wählen Sie die Fahndungsstufe',
+        de: 'Wähle die Fahndungsstufe',
         pl: 'Wybierz poziom poszukiwania',
     },
     wantedLevel0: {
@@ -237,7 +237,7 @@ export default {
         ru: 'Оставьте комментарий...',
         ua: 'Залиште коментар...',
         en: 'Leave a comment...',
-        de: 'Hinterlassen Sie einen Kommentar...',
+        de: 'Hinterlasse einen Kommentar...',
         pl: 'Zostaw komentarz...',
     },
     save: {
@@ -309,7 +309,7 @@ export default {
         ru: 'У вас нет доступа к базе данных',
         ua: 'У вас немає доступу до бази даних',
         en: 'You have no access to the database',
-        de: 'Sie haben keinen Zugriff auf die Datenbank',
+        de: 'Du hast keinen Zugriff auf die Datenbank',
         pl: 'Nie masz dostępu do bazy danych',
     },
 

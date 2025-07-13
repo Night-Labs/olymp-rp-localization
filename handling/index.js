@@ -220,7 +220,7 @@ export default {
             ru: 'Вы действительно хотите приобрести чип за ${{price}}?',
             en: 'Do you really want to purchase a chip for ${{price}}?',
             ua: 'Ви дійсно хочете придбати чип за ${{price}}?',
-            de: 'Möchten Sie wirklich einen Chip für ${{price}} kaufen?',
+            de: 'Möchtest du wirklich einen Chip für ${{price}} kaufen?',
             pl: 'Czy na pewno chcesz kupić chip za ${{price}}?',
           zh:'你真的想以{{price}}美元的价格购买芯片吗？',
         },

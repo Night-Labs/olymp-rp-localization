@@ -76,7 +76,7 @@ export const selector = {
             ru: 'Вы уверены? Ваш персонаж будет навсегда удалён!<br> Для подтверждения введите пароль от аккаунта.',
             ua: 'Ви впевнені? Ваш персонаж буде назавжди видалений!<br> Для підтвердження введіть пароль від аккаунту.',
             en: 'Are you sure? Your character will be permanently deleted!<br> To confirm, enter your account password.',
-            de: 'Sind Sie sicher? Ihr Charakter wird dauerhaft gelöscht!<br> Geben Sie zur Bestätigung Ihr Kontopasswort ein.',
+            de: 'Bist du sicher? Dein Charakter wird dauerhaft gelöscht!<br> Gebe zur Bestätigung dein Kontopasswort ein.',
             pl: 'Czy na pewno? Twoja postać zostanie trwale usunięta!<br> Aby potwierdzić, wprowadź hasło do konta.',
         },
         password: {
@@ -107,7 +107,7 @@ export const selector = {
         ru: 'Похоже у вас есть {{count}} не выполненых ежедневных квестов, скорее пройди их!',
         ua: 'Схоже, у вас є {{count}} невиконаних щоденних квестів, скоріше проходьте їх!',
         en: 'It looks like you have {{count}} unfinished daily quests, hurry up and complete them!',
-        de: 'Es sieht so aus, als hätten Sie {{count}} unerledigte tägliche Quests, beeilen Sie sich und erledigen Sie sie!',
+        de: 'Es sieht so aus, als hättest du {{count}} unerledigte tägliche Quests, beeilen dich und erledige sie!',
         pl: 'Wygląda na to, że masz {{count}} niewykonanych codziennych zadań, pospiesz się i ukończ je!',
         zh: '看起来你有{{count}}未完成的日常任务，快点完成它们',
     },
@@ -115,7 +115,7 @@ export const selector = {
         ru: 'Реферальный код {{code}} не найден, поэтому не был активирован. Вы можете в любой момент ввести другой код в меню.',
         ua: 'Реферальний код {{code}} не знайдено, тому він не був активований. Ви можете в будь-який момент ввести інший код у меню.',
         en: 'Referral code {{code}} not found, so it was not activated. You can enter another code in the menu at any time.',
-        de: 'Empfehlungscode {{code}} wurde nicht gefunden und daher nicht aktiviert. Sie können jederzeit einen anderen Code im Menü eingeben.',
+        de: 'Empfehlungscode {{code}} wurde nicht gefunden und daher nicht aktiviert. Du kannst jederzeit einen anderen Code im Menü eingeben.',
         pl: 'Kod polecający {{code}} nie został znaleziony, więc nie został aktywowany. W każdej chwili możesz wprowadzić inny kod w menu.',
     },
 };

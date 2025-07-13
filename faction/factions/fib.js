@@ -43,7 +43,7 @@ export default {
                 ru: 'Здравствуйте, вы находитесь в офисе FIB, чем могу помочь?',
                 ua: 'Вітаю, ви перебуваєте в офісі FIB, чим я можу допомогти?',
                 en: 'Hello, you are at the FIB office. How can I help you?',
-                de: 'Hallo, Sie befinden sich im FIB-Büro. Wie kann ich Ihnen helfen?',
+                de: 'Hallo, du befindest dich im FIB-Büro. Wie kann ich dir helfen?',
                 pl: 'Witaj, jesteś w biurze FIB. W czym mogę pomóc?',
             },
             nothing: {
@@ -57,7 +57,7 @@ export default {
                 ru: 'Позовите сотрудника',
                 ua: 'Покличте співробітника',
                 en: 'Call an employee',
-                de: 'Rufen Sie einen Mitarbeiter',
+                de: 'Rufe einen Mitarbeiter',
                 pl: 'Wezwij pracownika',
             },
         },

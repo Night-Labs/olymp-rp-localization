@@ -10,7 +10,7 @@ export const cef = {
         ru: 'У вас на выбор есть три работы, от горняка до водителя самосвала и бульдозера, однако только будучи горняком можно найти ценные металлы.',
         ua: 'У вас на вибір є три роботи: від гірника до водія самоскида і бульдозера, проте тільки будучи гірником можна знайти цінні метали.',
         en: 'You have three job options, from a miner to a dump truck and bulldozer driver, but only as a miner can you find valuable metals.',
-        de: 'Sie haben drei Berufsmöglichkeiten: vom Bergmann bis zum Muldenkipper- und Bulldozerfahrer, aber nur als Bergmann können Sie wertvolle Metalle finden.',
+        de: 'Du hast drei Berufsmöglichkeiten: vom Bergmann bis zum Muldenkipper- und Bulldozerfahrer, aber nur als Bergmann kannst du wertvolle Metalle finden.',
         pl: 'Masz do wyboru trzy zawody: od górnika po kierowcę wywrotki i spycharki, ale tylko jako górnik możesz znaleźć cenne metale.',
     },
     yourCurrentProgress: {

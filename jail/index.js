@@ -11,7 +11,7 @@ export default {
         ru: 'Ваш срок заключения истёк, вы свободны',
         ua: "Ваш термін ув'язнення минув, ви вільні",
         en: 'Your sentence has expired, you are free',
-        de: 'Ihre Haftzeit ist abgelaufen, Sie sind frei',
+        de: 'Deine Haftzeit ist abgelaufen, du bist frei',
         pl: 'Twój wyrok się skończył, jesteś wolny',
         zh: '你的刑期结束了，你自由了',
     },

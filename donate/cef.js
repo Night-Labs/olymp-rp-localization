@@ -43,7 +43,7 @@ export const cef = {
             ru: 'Кейсы', // Коробка с игровыми предметами
             ua: 'Кейси', // Коробка з ігровими предметами
             en: 'Cases', // Box with game items
-            de: 'Fälle', // Kiste mit Spielgegenständen
+            de: 'Kisten', // Kiste mit Spielgegenständen
             pl: 'Etui', // Pudełko z przedmiotami do gry
             zh: '箱子”，//装有游戏物品的盒子',
         },
@@ -122,7 +122,7 @@ export const cef = {
             ru: 'Вы можете приобрести игровую валюту за донат-валюту, на игровую валюту вы можете купить машины, одежду, еду, оружие и многое другое',
             ua: 'Ви можете придбати ігрову валюту за донат-валюту, на ігрову валюту ви можете купити автомобілі, одяг, їжу, зброю та багато іншого',
             en: 'You can purchase in-game currency with donation currency; with in-game currency, you can buy cars, clothes, food, weapons, and much more',
-            de: 'Sie können Spielwährung mit Spendenwährung kaufen; mit Spielwährung können Sie Autos, Kleidung, Essen, Waffen und vieles mehr kaufen',
+            de: 'Du kannst Spielwährung mit Olympcoins kaufen; mit Spielwährung können Sie Autos, Kleidung, Essen, Waffen und vieles mehr kaufen',
             pl: 'Możesz kupić walutę w grze za walutę darowizn; za walutę w grze możesz kupować samochody, ubrania, jedzenie, broń i wiele innych',
             zh: '你可以用捐赠的货币购买玩具货币，也可以用玩具货币购买汽车、衣服、食物、武器等',
         },
@@ -139,7 +139,7 @@ export const cef = {
             ru: 'Нужны особые решения? Загляните сюда, чтобы получить доступ к эксклюзивным игровым сервисам.',
             ua: 'Потрібні особливі рішення? Завітайте сюди, щоб отримати доступ до ексклюзивних ігрових сервісів.',
             en: 'Need special solutions? Look here to access exclusive gaming services.',
-            de: 'Benötigen Sie spezielle Lösungen? Schauen Sie hier, um auf exklusive Spieledienste zuzugreifen.',
+            de: 'Benötigest du eine spezielle Lösungen? Schaue hier, um auf exklusive Spieledienste zuzugreifen.',
             pl: 'Potrzebujesz specjalnych rozwiązań? Zajrzyj tutaj, aby uzyskać dostęp do ekskluzywnych usług gamingowych.',
         },
         buy: {
@@ -164,7 +164,7 @@ export const cef = {
             ru: 'Тут ви можете придбати транспорт дешевше ніж в автосалонах, а також преміальний транспорт.',
             ua: 'Тут ви можете придбати транспорт дешевше ніж в автосалонах, а також преміальний транспорт.',
             en: 'Here you can buy cheap transport, but also the premium transport.',
-            de: 'Hier können Sie den tiefpreisigen Transport kaufen, aber auch den Premium-Transport.',
+            de: 'Hier kannst du den tiefpreisigen Transport kaufen, aber auch den Premium-Transport.',
             pl: 'Tutaj może kupić drogi transportu, ale także drogi premium.',
             zh: '在这里，你可以买到比车库便宜的交通工具，也可以买到高档交通工具',
         },
@@ -310,7 +310,7 @@ export const cef = {
                 ru: 'Время для получения ежедневного кейса - 0{{value}}:00.',
                 ua: 'Час для отримання щоденного кейсу - 0{{value}}:00.',
                 en: 'Time for daily case - 0{{value}}:00.',
-                de: 'Zeit für den täglichen Fall - 0{{value}}:00.',
+                de: 'Zeit für die tägliche Kiste - 0{{value}}:00.',
                 pl: 'Czas na codzienny przypadek - 0{{value}}:00.',
             },
             depositBalanceLimit: {
@@ -349,7 +349,7 @@ export const cef = {
                 ru: 'Время действия вашего {{value}} статуса истекло',
                 ua: 'Термін дії вашого {{value}} статусу закінчився',
                 en: 'Your {{value}} status has expired',
-                de: 'Ihre {{value}} Status ist abgelaufen',
+                de: 'Dein {{value}} Status ist abgelaufen',
                 pl: 'Twój status {{value}} wygasł',
             },
         },
@@ -455,7 +455,7 @@ export const cef = {
             ru: 'Лучшая одежда штата здесь, по лучшим ценам!',
             ua: 'Найкращий одяг штату тут, за найкращими цінами!',
             en: 'The best clothes in the state are here, at the best prices!',
-            de: 'Die beste Kleidung des Staates finden Sie hier, zu den besten Preisen!',
+            de: 'Die beste Kleidung des Staates findest du hier, zu den besten Preisen!',
             pl: 'Najlepsze ubrania w stanie są tutaj, w najlepszych cenach!',
             zh: '本州最好的衣服都在这里，价格最优惠！',
         },
@@ -501,7 +501,7 @@ export const cef = {
             ru: 'К сожалению здесь пока ничего нету, но появится как только вы что-то купите или выиграете!',
             ua: "На жаль, тут поки що нічого немає, але з'явиться, щойно ви щось придбаєте або виграєте!",
             en: 'Unfortunately, there is nothing here yet, but it will appear as soon as you buy or win something!',
-            de: 'Leider gibt es hier noch nichts, aber es wird erscheinen, sobald Sie etwas kaufen oder gewinnen!',
+            de: 'Leider gibt es hier noch nichts, aber es wird erscheinen, sobald du etwas kaufst oder gewinnst!',
             pl: 'Niestety, nie ma tu jeszcze nic, ale pojawi się, jak tylko coś kupisz lub wygrasz!',
             zh: '很遗憾，这里还没有任何东西，但只要你买了或赢了什么，它就会出现！',
         },
@@ -668,7 +668,7 @@ export const cef = {
         ru: 'Вы действительно хотите купить {{name}} за {{price}} OlympCoins?',
         ua: 'Ви дійсно хочете купити {{name}} за {{price}} OlympCoins?',
         en: 'Do you really want to buy {{name}} for {{price}} OlympCoins?',
-        de: 'Möchten Sie wirklich {{name}} für {{price}} OlympCoins kaufen?',
+        de: 'Möchtest du wirklich {{name}} für {{price}} OlympCoins kaufen?',
         pl: 'Czy na pewno chcesz kupić {{name}} za {{price}} OlympCoins?',
         zh: '赞助咨询管理',
     },
@@ -696,7 +696,7 @@ export const cef = {
             ru: 'Для доната перейдите на сайт проекта <br> https://olymp-rp.com/donate. <br> (Откройте браузер и перейдите на сайт, если браузер не открылся автоматически)',
             ua: 'Для донату перейдіть на сайт проекту <br> https://olymp-rp.com/donate. <br> (Відкрийте браузер і перейдіть на сайт, якщо браузер не відкрився автоматично)',
             en: 'To donate, go to the project website <br> https://olymp-rp.com/donate. <br> (Open the browser and go to the site if the browser did not open automatically)',
-            de: 'Um zu spenden, besuchen Sie die Projektwebsite <br> https://olymp-rp.com/donate. <br> (Öffnen Sie den Browser und gehen Sie zur Seite, falls der Browser nicht automatisch geöffnet wurde)',
+            de: 'Um zu spenden, besuche  die Projektwebsite <br> https://olymp-rp.com/donate. <br> (Öffne den Browser und gehe zur Seite, falls der Browser nicht automatisch geöffnet wurde)',
             pl: 'Aby przekazać darowiznę, przejdź na stronę projektu <br> https://olymp-rp.com/donate. <br> (Otwórz przeglądarkę i przejdź na stronę, jeśli przeglądarka nie otworzyła się automatycznie)',
             zh: '咨询管理',
         },
@@ -707,7 +707,7 @@ export const cef = {
         //     en: `When you donate to the project, you get Olymp-Coins, which you can use to buy game property.<br><br>At the moment, we accept donations directly in any way convenient for you (Visa/MasterCard, PayPal, Crypto), after which we give you Olymp-Coins at the exchange rate, unfortunately, at the moment we are unable to connect payment systems due to non-compliance with their requirements, but we hope to do so in the future.<br><br> Thanks to your support, we are able to maintain and develop the project.`,
         //     de: `Wenn Sie für das Projekt spenden, erhalten Sie Olymp-Coins, die Sie verwenden können, um Eigentum im Spiel zu kaufen.<br><br>Im Moment akzeptieren wir Spenden direkt in irgendeiner Weise bequem für Sie (Visa / MasterCard, PayPal, Crypto), nach dem wir Sie Olymp-Coins zum Wechselkurs ausgeben, leider sind wir im Moment nicht in der Lage, Zahlungssysteme aufgrund der Nichteinhaltung ihrer Anforderungen zu verbinden, aber wir hoffen, dies in Zukunft zu tun.<br><br> Dank Ihrer Unterstützung sind wir in der Lage, das Projekt zu erhalten und weiterzuentwickeln.`,
         //     pl: `Przekazując darowiznę na rzecz projektu, otrzymujesz Olymp-Coins, które możesz wykorzystać do zakupu nieruchomości w grze.<br><br>W tej chwili akceptujemy darowizny bezpośrednio w dowolny dogodny dla Ciebie sposób (Visa/MasterCard, PayPal, Crypto), po czym wydajemy Ci Olymp-Coins po kursie wymiany, niestety w tej chwili nie jesteśmy w stanie połączyć systemów płatności z powodu niezgodności z ich wymaganiami, ale mamy nadzieję, że zrobimy to w przyszłości.<br><br>Dzięki Twojemu wsparciu jesteśmy w stanie utrzymać i rozwijać projekt.`,
-        zh: '咨询管理',
+       // zh: '咨询管理',
         // },
 
         courseСalculator: {
@@ -740,10 +740,10 @@ export const cef = {
         adminsDesc: {
             ru: 'Только эта администрация ответственна за принятие донатов, никто больше не имеет прав на получение донатов и возможности выдачи Olymp-Coins.',
             ua: 'Тільки ця адміністрація відповідальна за прийняття донатів, ніхто більше не має прав на отримання донатів і можливості видачі Olymp-Coins.',
-            en: 'Only this administration is responsible for accepting donations, nobody else has the right to receive donations and the possibility of receiving Phys-Coins.',
-            de: 'Nur diese Administration ist verantwortlich, Spenden zu akzeptieren, niemand anderes hat das Recht, Spenden zu erhalten und das Verlangen von Phys-Coins zu erzwingen.',
-            pl: 'Tylko ta administrator jest odpowiedzialna za akceptowanie darowizn, nikogo nie ma praw do otrzymania darowizn i mozliwosc otrzymania Phys-Coins.',
-            zh: '只有这个管理员负责接受礼物，没有人有权接受礼物，也没有可能接受Phys币',
+            en: 'Only this administration is responsible for accepting donations, nobody else has the right to receive donations and the possibility of receiving Olymp-Coins.',
+            de: 'Nur diese Administration ist verantwortlich, Spenden zu akzeptieren, niemand anderes hat das Recht, Spenden zu erhalten und das Verlangen von Olymp-Coins zu erzwingen.',
+            pl: 'Tylko ta administrator jest odpowiedzialna za akceptowanie darowizn, nikogo nie ma praw do otrzymania darowizn i mozliwosc otrzymania Olymp-Coins.',
+            zh: '只有这个管理员负责接受礼物，没有人有权接受礼物，也没有可能接受Olymp币',
         },
     },
 
@@ -759,7 +759,7 @@ export const cef = {
             ru: 'Надоело носить обычный бронижелет, стандартную винтовку? Хочется выделится? Тогда этот раздел для тебя, подбери подходящий стиль своим шмоткам, пусть в гетто видят твой стиль. Большинство скинов эксклюзивны и получить их можно из кейсов либо сезонных пропусков.',
             ua: 'Набридло носити звичайний бронежилет, стандартну гвинтівку? Хочеться виділитися? Тоді цей розділ для тебе, підбери відповідний стиль своїм шмоткам, нехай в гетто бачать твій стиль. Більшість скінів ексклюзивні і отримати їх можна з кейсів або сезонних пропусків.',
             en: 'Tired of wearing a regular body armor, standard rifle? Want to stand out? Then this section is for you, choose the right style for your clothes, let the ghetto see your style. Most skins are exclusive and can be obtained from cases or seasonal passes.',
-            de: 'Haben Sie es satt, eine normale Schutzweste und ein Standardgewehr zu tragen? Möchten Sie auffallen? Dann ist dieser Abschnitt genau das Richtige für Sie. Wählen Sie den passenden Stil für Ihre Kleidung und lassen Sie das Ghetto Ihren Stil sehen. Die meisten Skins sind exklusiv und können aus Cases oder Saisonpässen bezogen werden.',
+            de: 'Hst du es satt, eine normale Schutzweste und ein Standardgewehr zu tragen? Möchtest du auffallen? Dann ist dieser Abschnitt genau das Richtige für dich. Wähle den passenden Stil für deine Kleidung und lasse das Ghetto deinen Stil sehen. Die meisten Skins sind exklusiv und können aus Cases oder Saisonpässen bezogen werden.',
             pl: 'Masz dość noszenia zwykłej kamizelki kuloodpornej, standardowego karabinu? Chcesz się wyróżnić? W takim razie ta sekcja jest dla Ciebie, dobierz odpowiedni styl do swoich ciuchów, niech getto zobaczy Twój styl. Większość skórek jest ekskluzywna i można je zdobyć ze skrzynek lub karnetów sezonowych.',
         },
 

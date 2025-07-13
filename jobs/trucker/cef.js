@@ -11,7 +11,7 @@ export const cef = {
         ru: 'Вам нужно будет загружать и разгружать грузовую машину, а также перевозить груз. Вы можете работать вместе с друзьями.',
         ua: 'Вам доведеться завантажувати і розгружати вантажівку, а також перевозити вантаж. Ви можете працювати разом з друзями.',
         en: 'You will need to load and unload the cargo truck, as well as transport the goods. You can work together with friends.',
-        de: 'Sie müssen den Fracht-LKW beladen und entladen sowie die Güter transportieren. Sie können mit Freunden zusammenarbeiten.',
+        de: 'Du musst den Fracht-LKW beladen und entladen sowie die Güter transportieren. Deine Freunde können mit dir zusammenarbeiten.',
         pl: 'Będziesz musiał załadować i rozładować ciężarówkę oraz transportować ładunki. Możesz współpracować z przyjaciółmi.',
         zh: '你需要装载和卸载货车，以及运输货物。你可以和朋友一起工作。',
     },

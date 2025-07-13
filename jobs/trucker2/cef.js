@@ -11,7 +11,7 @@ export const cef = {
         ru: 'Вам нужно будет перевозить трейлеры с различным грузом в разные концы штата. Вы можете выбрать транспорт из доступного и также выполнять дополнительные задания.',
         ua: 'Вам потрібно буде перевозити трейлери з різним вантажем в різні кінці штату. Ви можете вибрати транспорт з доступних а також виконувати додаткові завдання.',
         en: 'You will need to transport trailers with various cargo to different parts of the state. You can choose a vehicle from the available options and also complete additional tasks.',
-        de: 'Sie müssen Anhänger mit verschiedenen Frachten zu verschiedenen Teilen des Bundesstaates transportieren. Sie können ein Fahrzeug aus den verfügbaren Optionen wählen und auch zusätzliche Aufgaben erledigen.',
+        de: 'Du musst Anhänger mit verschiedenen Frachten zu verschiedenen Teilen des Bundesstaates transportieren. Du kannst ein Fahrzeug aus den verfügbaren Optionen wählen und auch zusätzliche Aufgaben erledigen.',
         pl: 'Będziesz musiał przewozić przyczepy z różnym ładunkiem do różnych części stanu. Możesz wybrać pojazd spośród dostępnych opcji i dodatkowo wykonywać dodatkowe zadania.',
         zh: '你需要运送装有不同货物的拖车到州内不同的地方。你可以选择可用的交通工具并完成额外的任务。',
     },

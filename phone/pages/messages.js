@@ -83,7 +83,7 @@ export default {
             ru: 'Для этого пополните баланс вашей SIM-карты',
             ua: 'Для цього поповніть баланс вашої SIM-картки',
             en: 'To do this, top up your SIM card balance',
-            de: 'Um dies zu tun, laden Sie Ihr SIM-Karten-Guthaben auf',
+            de: 'Um dies zu tun, lade deine SIM-Karten-Guthaben auf',
             pl: 'Aby to zrobić, doładuj saldo swojej karty SIM',
         },
         numberNotFound: {

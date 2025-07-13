@@ -45,7 +45,7 @@ export default {
         name: 'Ваше имущество',
         ua: 'Ваше майно',
         en: 'Your property',
-        de: 'Ihr Eigentum',
+        de: 'Dein Eigentum',
         pl: 'Twoja własność',
     },
 

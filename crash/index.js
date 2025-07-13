@@ -3,7 +3,7 @@ export default {
         ru: 'Динамичная игра с риском и выигрышем: взять небольшой <br />выигрыш пораньше или сорвать большой банк.',
         en: 'A dynamic game with risk and reward: take a small <br />win early or break the bank for a big payout.',
         ua: 'Динамічна гра з ризиком та виграшем: взяти <br />невеликий виграш раніше або взяти великий банк.',
-        de: 'Ein dynamisches Spiel mit Risiko und Belohnung: Holen Sie sich einen kleinen Gewinn frühzeitig oder brechen Sie die Bank für einen großen Gewinn.',
+        de: 'Ein dynamisches Spiel mit Risiko und Belohnung: Hole dir einen kleinen Gewinn frühzeitig oder breche die Bank für einen großen Gewinn.',
         pl: 'Dynamiczna gra z ryzykiem i nagrodą: zdobądź małą wygraną wcześnie lub zdobądź duży bank.',
         zh:'一个有风险和回报的动态游戏:拿一个小的<br />早赢或倾家荡产以获得大的回报',
     },

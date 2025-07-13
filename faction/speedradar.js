@@ -69,7 +69,7 @@ export default {
             ru: 'Выберете максимальную скорость в км/ч, это должна быть цифра от 30 до 300.',
             ua: 'Виберіть максимальну швидкість у км/год, це має бути число від 30 до 300.',
             en: `Select the maximum speed in km/h, it must be a number from 30 to 300.`,
-            de: 'Wählen Sie die maximale Geschwindigkeit in km/h, sie muss zwischen 30 und 300 liegen.',
+            de: 'Wähle die maximale Geschwindigkeit in km/h, sie muss zwischen 30 und 300 liegen.',
             pl: 'Wybierz maksymalną prędkość w km/h, musi to być liczba od 30 do 300.',
         },
         placeholder: {

@@ -78,7 +78,7 @@ export const cef = {
             ua: 'Введіть повідомлення',
             en: 'Enter a message',
             ru: 'Введите сообщение',
-            de: 'Geben Sie eine Nachricht ein',
+            de: 'Gebe eine Nachricht ein',
             pl: 'Wprowadź wiadomość',
            zh:'输入消息',
         },
