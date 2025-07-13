@@ -68,6 +68,7 @@ import elevators from './elevators';
 import shootingRange from './shootingRange';
 import diving from './diving';
 import drivingSchool from './drivingSchool';
+import drivingLicenses from './drivingLicenses';
 
 export default {
     account,
@@ -140,4 +141,5 @@ export default {
     shootingRange,
     diving,
     drivingSchool,
+    drivingLicenses,
 };

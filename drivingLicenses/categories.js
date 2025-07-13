@@ -1,0 +1,51 @@
+export const driverLicenses = {
+    A: {
+        ru: 'Мотоциклы',
+        ua: 'Мотоцикли',
+        en: 'Motorcycles',
+        de: 'Motorräder',
+        pl: 'Motocykle',
+    },
+    B: {
+        ru: 'Легковые автомобили',
+        ua: 'Легкові автомобілі',
+        en: 'Passenger cars',
+        de: 'Personenkraftwagen',
+        pl: 'Samochody osobowe',
+    },
+    C: {
+        ru: 'Грузовые автомобили',
+        ua: 'Вантажні автомобілі',
+        en: 'Trucks',
+        de: 'Lastkraftwagen',
+        pl: 'Samochody ciężarowe',
+    },
+    D: {
+        ru: 'Автобусы',
+        ua: 'Автобуси',
+        en: 'Buses',
+        de: 'Busse',
+        pl: 'Autobusy',
+    },
+    W: {
+        ru: 'Водный транспорт',
+        ua: 'Водний транспорт',
+        en: 'Water transport',
+        de: 'Wassertransport',
+        pl: 'Transport wodny',
+    },
+    P: {
+        ru: 'Самолёты',
+        ua: 'Літаки',
+        en: 'Airplanes',
+        de: 'Flugzeuge',
+        pl: 'Samoloty',
+    },
+    H: {
+        ru: 'Вертолёты',
+        ua: 'Гелікоптери',
+        en: 'Helicopters',
+        de: 'Hubschrauber',
+        pl: 'Helikoptery',
+    },
+};

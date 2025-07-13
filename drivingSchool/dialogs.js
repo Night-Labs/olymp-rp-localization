@@ -1,4 +1,4 @@
-import { driverLicenses } from './categories';
+import { driverLicenses } from '../drivingLicenses/categories';
 
 export default {
     categories: driverLicenses,
