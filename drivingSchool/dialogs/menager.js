@@ -1,7 +1,7 @@
-import { driverLicenses } from '../drivingLicenses/categories';
+import { drivingLicensesCategories } from '../../drivingLicenses/categories';
 
 export default {
-    categories: driverLicenses,
+    categories: drivingLicensesCategories,
 
     messages: {
         // Start

@@ -1,7 +1,7 @@
-import { driverLicenses } from './categories';
+import { drivingLicensesCategories } from './categories';
 
 export default {
-    categories: driverLicenses,
+    categories: drivingLicensesCategories,
 
     title: {
         ru: 'Водительское удостоверение',

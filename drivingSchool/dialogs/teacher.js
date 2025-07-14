@@ -1,8 +1,4 @@
-import { driverLicenses } from '../drivingLicenses/categories';
-
 export default {
-    categories: driverLicenses,
-
     messages: {
         // I dont know u
         idkU: {

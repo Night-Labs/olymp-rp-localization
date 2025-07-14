@@ -1,4 +1,4 @@
-export const driverLicenses = {
+export const drivingLicensesCategories = {
     name: {
         A: {
             ru: 'Мотоциклы',

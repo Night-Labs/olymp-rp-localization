@@ -1,9 +1,12 @@
-import menager from './menager';
-import teacher from './teacher';
-import inspection from './inspection';
+import menager from './dialogs/menager';
+import teacher from './dialogs/teacher';
+import inspector from './dialogs/inspector';
+import { drivingLicensesCategories } from '../drivingLicenses/categories';
 
 export default {
+    categories: drivingLicensesCategories,
+
     menager,
     teacher,
-    inspection,
+    inspector,
 };
