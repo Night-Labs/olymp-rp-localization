@@ -65,6 +65,15 @@ export default {
             de: 'Super! Ich habe dem Ausbilder die Informationen über dich und die Kategorie {{category}} weitergeleitet.\n\nIch bin sicher, du weißt bereits, was zu tun ist – trotzdem wünsche ich dir viel Glück!',
             pl: 'Świetnie! Przekazałam instruktorowi informacje o Tobie i kategorii {{category}}.\n\nJestem pewna, że już wiesz, co robić, ale mimo to życzę powodzenia!',
         },
+
+        // Already study
+        alreadyStudying: {
+            ru: 'У вас уже есть активный курс обучению категории {{category}}.\n\nВы можете продолжить его, либо отменить и начать другой если хотите.',
+            ua: 'У вас вже є активний курс навчання категорії {{category}}.\n\nВи можете продовжити його, або скасувати та розпочати інший, якщо бажаєте.',
+            en: 'You already have an active course in the {{category}} category.\n\nYou can continue it, or cancel and start another if you wish.',
+            de: 'Sie haben bereits einen aktiven Kurs in der Kategorie {{category}}.\n\nSie können ihn fortsetzen oder abbrechen und einen anderen beginnen, wenn Sie möchten.',
+            pl: 'Masz już aktywny kurs w kategorii {{category}}.\n\nMożesz go kontynuować lub anulować i rozpocząć inny, jeśli chcesz.',
+        },
     },
 
     buttons: {
@@ -123,6 +132,22 @@ export default {
             en: 'On my way!',
             de: 'Bin schon unterwegs!',
             pl: 'Już biegnę!',
+        },
+
+        cancelCurrentStudy: {
+            ru: 'Отменить текущий курс',
+            ua: 'Відмінити поточний курс',
+            en: 'Cancel current study',
+            de: 'Aktuellen Kurs abbrechen',
+            pl: 'Anuluj bieżący kurs',
+        },
+
+        continueCurrentStudy: {
+            ru: 'Продолжить текущий курс',
+            ua: 'Продовжити поточний курс',
+            en: 'Continue current course',
+            de: 'Aktuellen Kurs fortsetzen',
+            pl: 'Kontynuuj bieżący kurs',
         },
     },
 };

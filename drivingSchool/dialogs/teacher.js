@@ -1,4 +1,15 @@
+import topicsMain from '../topics/main';
+import topicsA from '../topics/A';
+import topicsB from '../topics/B';
+
 export default {
+    // Topics
+    topics: {
+        main: topicsMain,
+        A: topicsA,
+        B: topicsB,
+    },
+
     messages: {
         // I dont know u
         idkU: {
@@ -41,6 +52,24 @@ export default {
             de: 'Leider hast du den Test nicht bestanden. Richtige Antworten: {{correctAnswers}}/{{questions}}\n\nIch empfehle dir, die Theorie noch einmal gründlich zu wiederholen und es erneut zu versuchen.',
             pl: 'Niestety, nie zdałeś testu. Poprawne odpowiedzi: {{correctAnswers}}/{{questions}}\n\nPolecam dokładnie powtórzyć teorię i spróbować ponownie.',
         },
+
+        // Theory
+        theory: {
+            ru: 'Тема: {{theme}}\n\n{{desc}}',
+            ua: 'Тема: {{theme}}\n\n{{desc}}',
+            en: 'Topic: {{theme}}\n\n{{desc}}',
+            de: 'Thema: {{theme}}\n\n{{desc}}',
+            pl: 'Temat: {{theme}}\n\n{{desc}}',
+        },
+
+        // Test
+        test: {
+            ru: 'Тема: {{theme}}\n\nВопрос: {{question}}',
+            ua: 'Тема: {{theme}}\n\nПитання: {{question}}',
+            en: 'Topic: {{theme}}\n\nQuestion: {{question}}',
+            de: 'Thema: {{theme}}\n\nFrage: {{question}}',
+            pl: 'Temat: {{theme}}\n\nPytanie: {{question}}',
+        },
     },
 
     buttons: {
@@ -54,21 +83,39 @@ export default {
         },
 
         // Theory
-        theory: {
-            ru: 'Изучить теорию',
-            ua: 'Вивчити теорію',
-            en: 'Study theory',
-            de: 'Theorie lernen',
-            pl: 'Ucz się teorii',
+        mainTheory: {
+            ru: 'Общая теория',
+            ua: 'Загальна теорія',
+            en: 'General theory',
+            de: 'Allgemeine Theorie',
+            pl: 'Ogólna teoria',
+        },
+
+        // Category theory
+        categoryTheory: {
+            ru: 'Теория категории {{category}}',
+            ua: 'Теорія категорії {{category}}',
+            en: 'Theory of category {{category}}',
+            de: 'Theorie der Kategorie {{category}}',
+            pl: 'Teoria kategorii {{category}}',
+        },
+
+        // End study theory
+        endStudyTheory: {
+            ru: 'Завершить изучение теории',
+            ua: 'Завершити вивчення теорії',
+            en: 'End theory study',
+            de: 'Theoriestudium beenden',
+            pl: 'Zakończyć naukę teorii',
         },
 
         // Test
         startTest: {
-            ru: 'Перейти к практике',
-            ua: 'Перейти до практики',
-            en: 'Go to practice',
-            de: 'Zur Praxis übergehen',
-            pl: 'Przejdź do praktyki',
+            ru: 'Перейти к тесту',
+            ua: 'Перейти до тесту',
+            en: 'Go to test',
+            de: 'Zum Test gehen',
+            pl: 'Przejdź do testu',
         },
 
         // Practice
