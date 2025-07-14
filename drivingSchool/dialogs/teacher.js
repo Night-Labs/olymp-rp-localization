@@ -48,6 +48,15 @@ export default {
     },
 
     buttons: {
+        // I back soon
+        iBackSoon: {
+            ru: 'Понятно, скоро вернусь.',
+            ua: 'Зрозуміло, скоро повернуся.',
+            en: "Understood, I'll be back soon.",
+            de: 'Verstanden, ich bin bald zurück.',
+            pl: 'Rozumiem, zaraz wrócę.',
+        },
+
         // Theory
         theory: {
             ru: 'Изучить теорию',
