@@ -388,25 +388,53 @@ export default {
     topic8: {
         theme: {
             ru: 'Водная этика',
+            ua: 'Водна етика',
+            en: 'Water etiquette',
+            de: 'Wasser-Etikette',
+            pl: 'Etykieta wodna',
         },
         desc: {
             ru: 'На воде, как и на дороге, есть неписаные правила вежливости: не создавать волну рядом с другими, не подрезать, не гнать вблизи.',
+            ua: 'На воді, як і на дорозі, є неписані правила ввічливості: не створювати хвилю поруч з іншими, не підрізати, не гнати поблизу.',
+            en: 'On the water, as on the road, there are unwritten rules of courtesy: do not create a wave near others, do not cut off, do not speed nearby.',
+            de: 'Auf dem Wasser gibt es, wie auf der Straße, ungeschriebene Regeln der Höflichkeit: keine Wellen in der Nähe anderer erzeugen, nicht schneiden, nicht in der Nähe rasen.',
+            pl: 'Na wodzie, podobnie jak na drodze, obowiązują niepisane zasady uprzejmości: nie tworzyć fal w pobliżu innych, nie zajeżdżać drogi, nie pędzić w pobliżu.',
         },
         question: {
             ru: 'Что считается невежливым поведением на воде?',
+            ua: 'Що вважається неввічливою поведінкою на воді?',
+            en: 'What is considered impolite behavior on the water?',
+            de: 'Was gilt als unhöfliches Verhalten auf dem Wasser?',
+            pl: 'Co jest uważane za niegrzeczne zachowanie na wodzie?',
         },
         answers: {
             A: {
                 ru: 'Не поздороваться с рыбаками',
+                ua: 'Не привітатися з рибалками',
+                en: 'Not greeting fishermen',
+                de: 'Fischer nicht grüßen',
+                pl: 'Nie przywitanie się z rybakami',
             },
             B: {
                 ru: 'Не сказать "Йо-хо-хо"',
+                ua: 'Не сказати "Йо-хо-хо"',
+                en: 'Not saying "Yo-ho-ho"',
+                de: 'Nicht "Yo-ho-ho" sagen',
+                pl: 'Nie powiedzenie "Jo-ho-ho"',
             },
             C: {
                 ru: 'Проходить на полной скорости рядом с другими',
+                ua: 'Проходити на повній швидкості поруч з іншими',
+                en: 'Passing at full speed near others',
+                de: 'Mit voller Geschwindigkeit an anderen vorbeifahren',
+                pl: 'Przepływanie z pełną prędkością obok innych',
             },
             D: {
                 ru: 'Не уступать дорогу парусным судам',
+                ua: 'Не поступатися дорогою вітрильним судам',
+                en: 'Not giving way to sailboats',
+                de: 'Segelschiffen keinen Vorrang gewähren',
+                pl: 'Nie ustępowanie drogi żaglówkom',
             },
         },
     },
