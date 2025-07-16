@@ -1,6 +1,11 @@
 import topicsMain from '../topics/main';
 import topicsA from '../topics/A';
 import topicsB from '../topics/B';
+import topicsC from '../topics/C';
+import topicsD from '../topics/D';
+import topicsW from '../topics/W';
+import topicsP from '../topics/P';
+import topicsH from '../topics/H';
 
 export default {
     // Topics
@@ -8,6 +13,11 @@ export default {
         main: topicsMain,
         A: topicsA,
         B: topicsB,
+        C: topicsC,
+        D: topicsD,
+        W: topicsW,
+        P: topicsP,
+        H: topicsH,
     },
 
     messages: {
@@ -38,19 +48,37 @@ export default {
         },
         // Test passed
         testPassed: {
-            ru: 'Поздравляю! Ты прошёл тест. Правильных ответов: {{correctAnswers}}/{{questions}}\n\nТеперь тебе предстоит пройти практический тест, будь внимателен и осторожен, если инструкторша увидит что ты нарушаешь правила окажешься у меня снова!',
-            ua: 'Вітаю! Ти пройшов тест. Правильних відповідей: {{correctAnswers}}/{{questions}}\n\nТепер тобі належить пройти практичний тест. Будь уважним і обережним: якщо інструкторка побачить, що ти порушуєш правила, ти знову повернешся до мене!',
-            en: "Congratulations! You passed the test. Correct answers: {{correctAnswers}}/{{questions}}\n\nNow you have to take the practical test. Be careful and attentive—if the instructor sees you breaking the rules, you'll be back here again!",
-            de: 'Glückwunsch! Du hast den Test bestanden. Richtige Antworten: {{correctAnswers}}/{{questions}}\n\nJetzt steht dir die praktische Prüfung bevor. Sei aufmerksam und vorsichtig – wenn die Fahrlehrerin sieht, dass du die Regeln verletzt, landest du wieder bei mir!',
-            pl: 'Gratulacje! Zdałeś test. Poprawne odpowiedzi: {{correctAnswers}}/{{questions}}\n\nTeraz czeka Cię test praktyczny. Bądź uważny i ostrożny – jeśli instruktorka zobaczy, że łamiesz przepisy, znów trafisz do mnie!',
+            ru: 'Поздравляю! Ты прошёл тест.\nПравильных ответов: {{correctAnswers}}/{{questions}}\n\nТеперь тебе предстоит пройти практический тест, будь внимателен и осторожен, если инструкторша увидит что ты нарушаешь правила окажешься у меня снова!',
+            ua: 'Вітаю! Ти пройшов тест.\nПравильних відповідей: {{correctAnswers}}/{{questions}}\n\nТепер тобі належить пройти практичний тест, будь уважним та обережним, якщо інструкторка побачить, що ти порушуєш правила, опинишся у мене знову!',
+            en: 'Congratulations! You passed the test.\nCorrect answers: {{correctAnswers}}/{{questions}}\n\nNow you have to pass a practical test, be attentive and careful, if the instructor sees that you are breaking the rules, you will end up with me again!',
+            de: 'Herzlichen Glückwunsch! Du hast den Test bestanden.\nRichtige Antworten: {{correctAnswers}}/{{questions}}\n\nJetzt musst du einen praktischen Test bestehen. Sei aufmerksam und vorsichtig, wenn die Ausbilderin sieht, dass du die Regeln brichst, landest du wieder bei mir!',
+            pl: 'Gratulacje! Zdałeś test.\nPrawidłowych odpowiedzi: {{correctAnswers}}/{{questions}}\n\nTeraz musisz przejść test praktyczny, bądź uważny i ostrożny, jeśli instruktorka zobaczy, że łamiesz zasady, znowu do mnie wrócisz!',
         },
         // Test failed
         testFailed: {
-            ru: 'К сожалению ты не прошёл тест. Правильных ответов: {{correctAnswers}}/{{questions}}\n\nРекомендую тебе хорошенько повторить теорию ещё раз а затем попробовать снова.',
-            ua: 'На жаль, ти не пройшов тест. Правильних відповідей: {{correctAnswers}}/{{questions}}\n\nРекомендую добре повторити теорію ще раз, а потім спробувати знову.',
-            en: "Unfortunately, you didn't pass the test. Correct answers: {{correctAnswers}}/{{questions}}\n\nI recommend reviewing the theory thoroughly and trying again.",
-            de: 'Leider hast du den Test nicht bestanden. Richtige Antworten: {{correctAnswers}}/{{questions}}\n\nIch empfehle dir, die Theorie noch einmal gründlich zu wiederholen und es erneut zu versuchen.',
-            pl: 'Niestety, nie zdałeś testu. Poprawne odpowiedzi: {{correctAnswers}}/{{questions}}\n\nPolecam dokładnie powtórzyć teorię i spróbować ponownie.',
+            ru: 'К сожалению ты не прошёл тест.\nПравильных ответов: {{correctAnswers}}/{{questions}}\n\nРекомендую тебе хорошенько повторить теорию ещё раз а затем попробовать снова.',
+            ua: 'На жаль, ти не пройшов тест.\nПравильних відповідей: {{correctAnswers}}/{{questions}}\n\nРекомендую тобі добре повторити теорію ще раз, а потім спробувати знову.',
+            en: 'Unfortunately, you did not pass the test.\nCorrect answers: {{correctAnswers}}/{{questions}}\n\nI recommend you thoroughly review the theory again and then try once more.',
+            de: 'Leider hast du den Test nicht bestanden.\nRichtige Antworten: {{correctAnswers}}/{{questions}}\n\nIch empfehle dir, die Theorie noch einmal gründlich zu wiederholen und es dann erneut zu versuchen.',
+            pl: 'Niestety, nie zdałeś testu.\nPrawidłowych odpowiedzi: {{correctAnswers}}/{{questions}}\n\nZalecam ci dobrze powtórzyć teorię jeszcze раз, a następnie spróbować ponownie.',
+        },
+
+        // Confirm start test
+        confirmStartTestFirstTime: {
+            ru: 'Ты уверен что хочешь начать тест?\n\nУ тебя будет в сумме {{summQuestions}} вопросов, {{mainQuestions}} из которых по основной теории и {{categoryQuestions}} по теории категории {{category}}.\n\nЦена теста: {{price}}',
+            ua: 'Ти впевнений, що хочеш почати тест?\n\nУ тебе буде загалом {{summQuestions}} запитань, {{mainQuestions}} з яких за основною теорією та {{categoryQuestions}} за теорією категорії {{category}}.\n\nЦіна тесту: {{price}}',
+            en: 'Are you sure you want to start the test?\n\nIn total, you will have {{summQuestions}} questions, {{mainQuestions}} of which are on the main theory and {{categoryQuestions}} on the theory of category {{category}}.\n\nTest price: {{price}}',
+            de: 'Bist du sicher, dass du den Test starten möchtest?\n\nDu wirst insgesamt {{summQuestions}} Fragen haben, davon {{mainQuestions}} zur Haupttheorie und {{categoryQuestions}} zur Theorie der Kategorie {{category}}.\n\nTestpreis: {{price}}',
+            pl: 'Czy na pewno chcesz rozpocząć test?\n\nBędziesz mieć łącznie {{summQuestions}} pytań, z czego {{mainQuestions}} dotyczy teorii głównej, a {{categoryQuestions}} teorii kategorii {{category}}.\n\nCena testu: {{price}}',
+        },
+
+        // Confirm start test
+        confirmStartTestRenew: {
+            ru: 'Ты уверен что хочешь начать тест?\n\nТы уже наверное знаешь, но я на всякий случай повторю, у тебя будет в сумме {{summQuestions}} вопросов, {{mainQuestions}} из которых по основной теории и {{categoryQuestions}} по теории категории {{category}}.',
+            ua: 'Ти впевнений, що хочеш почати тест?\n\nТи вже, напевно, знаєш, але я про всяк випадок повторю, у тебе буде загалом {{summQuestions}} запитань, {{mainQuestions}} з яких за основною теорією та {{categoryQuestions}} за теорією категорії {{category}}.',
+            en: "Are you sure you want to start the test?\n\nYou probably already know, but just in case, I'll repeat: you will have a total of {{summQuestions}} questions, {{mainQuestions}} of which are on the main theory and {{categoryQuestions}} on the theory of category {{category}}.",
+            de: 'Bist du sicher, dass du den Test starten möchtest?\n\nDu weißt es wahrscheinlich schon, aber ich wiederhole es für alle Fälle: Du wirst insgesamt {{summQuestions}} Fragen haben, davon {{mainQuestions}} zur Haupttheorie und {{categoryQuestions}} zur Theorie der Kategorie {{category}}.',
+            pl: 'Czy na pewno chcesz rozpocząć test?\n\nPrawdopodobnie już wiesz, ale na wszelki wypadek powtórzę: będziesz mieć łącznie {{summQuestions}} pytań, z czego {{mainQuestions}} dotyczy teorii głównej, a {{categoryQuestions}} teorii kategorii {{category}}.',
         },
 
         // Theory
@@ -64,11 +92,11 @@ export default {
 
         // Test
         test: {
-            ru: 'Тема: {{theme}}\n\nВопрос: {{question}}',
-            ua: 'Тема: {{theme}}\n\nПитання: {{question}}',
-            en: 'Topic: {{theme}}\n\nQuestion: {{question}}',
-            de: 'Thema: {{theme}}\n\nFrage: {{question}}',
-            pl: 'Temat: {{theme}}\n\nPytanie: {{question}}',
+            ru: 'Тема: {{theme}}\n\nВопрос: {{question}}\n\nВарианты ответа:\n{{answers}}\n\nВыбери правильный вариант ответа.',
+            ua: 'Тема: {{theme}}\n\nПитання: {{question}}\n\nВаріанти відповіді:\n{{answers}}\n\nОберіть правильний варіант відповіді.',
+            en: 'Topic: {{theme}}\n\nQuestion: {{question}}\n\nAnswer options:\n{{answers}}\n\nSelect the correct answer.',
+            de: 'Thema: {{theme}}\n\nFrage: {{question}}\n\nAntwortmöglichkeiten:\n{{answers}}\n\nWählen Sie die richtige Antwort.',
+            pl: 'Temat: {{theme}}\n\nPytanie: {{question}}\n\nOpcje odpowiedzi:\n{{answers}}\n\nWybierz prawidłową odpowiedź.',
         },
     },
 
@@ -109,8 +137,8 @@ export default {
             pl: 'Zakończyć naukę teorii',
         },
 
-        // Test
-        startTest: {
+        // Go to test
+        goToTest: {
             ru: 'Перейти к тесту',
             ua: 'Перейти до тесту',
             en: 'Go to test',
@@ -152,5 +180,31 @@ export default {
             de: 'Vielleicht später',
             pl: 'Może później',
         },
+
+        // Confirm test
+        confirmTest: {
+            ru: 'Начать тест',
+            ua: 'Розпочати тест',
+            en: 'Start test',
+            de: 'Test starten',
+            pl: 'Rozpocznij test',
+        },
+
+        // Back to theory
+        backToTheory: {
+            ru: 'Вернуться к изучению теории',
+            ua: 'Повернутися до вивчення теорії',
+            en: 'Back to theory',
+            de: 'Zurück zur Theorie',
+            pl: 'Powrót do nauki teorii',
+        },
+
+        // variant: {
+        //     ru: 'Вариант {{variant}}.',
+        //     ua: 'Варіант {{variant}}.',
+        //     en: 'Variant {{variant}}.',
+        //     de: 'Variante {{variant}}.',
+        //     pl: 'Wariant {{variant}}.',
+        // },
     },
 };
