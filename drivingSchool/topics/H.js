@@ -284,11 +284,11 @@ export default {
             pl: 'Jaki jest bezpieczny sposób lądowania na nierównej powierzchni',
         },
         desc: {
-            ru: 'Вертолёт должен садиться медленно, под небольшим углом, на ту часть, где поверхность ровнее — с последующей коррекцией.',
-            ua: 'Вертоліт повинен сідати повільно, під невеликим кутом, на ту частину, де поверхня рівніша — з подальшою корекцією.',
-            en: 'The helicopter should land slowly, at a slight angle, on the part where the surface is flatter — with subsequent correction.',
+            ru: 'Вертолёт должен садиться медленно, под небольшим углом, на ту часть, где поверхность ровнее - с последующей коррекцией.',
+            ua: 'Вертоліт повинен сідати повільно, під невеликим кутом, на ту частину, де поверхня рівніша - з подальшою корекцією.',
+            en: 'The helicopter should land slowly, at a slight angle, on the part where the surface is flatter - with subsequent correction.',
             de: 'Der Hubschrauber sollte langsam, in einem leichten Winkel, auf dem flacheren Teil der Oberfläche landen – mit anschließender Korrektur.',
-            pl: 'Helikopter powinien lądować powoli, pod niewielkim kątem, na tej części, gdzie powierzchnia jest równiejsza — z późniejszą korektą.',
+            pl: 'Helikopter powinien lądować powoli, pod niewielkim kątem, na tej części, gdzie powierzchnia jest równiejsza - z późniejszą korektą.',
         },
         question: {
             ru: 'Как сесть на наклонённую поверхность?',
@@ -346,11 +346,11 @@ export default {
             pl: 'Tak, jeśli konstrukcja na to pozwala, nie ma przeszkód, a pilot jest pewny precyzji lądowania.',
         },
         question: {
-            ru: 'Как управлять Т/С ?',
-            ua: 'Як керувати Т/З ?',
-            en: 'How to control the vehicle?',
-            de: 'Wie steuert man das Fahrzeug?',
-            pl: 'Jak sterować pojazdem?',
+            ru: 'Допускается ли посадка на крышу?',
+            ua: 'Чи дозволена посадка на дах?',
+            en: 'Is rooftop landing permitted?',
+            de: 'Ist die Landung auf dem Dach erlaubt?',
+            pl: 'Czy lądowanie na dachu jest dozwolone?',
         },
         answers: {
             A: {
@@ -669,9 +669,9 @@ export default {
             pl: 'Czy można latać na niskiej wysokości nad ruchliwą autostradą',
         },
         desc: {
-            ru: 'Полёт на малой высоте над дорогами запрещён — это может испугать водителей и создать ДТП.',
-            ua: 'Політ на малій висоті над дорогами заборонений — це може налякати водіїв та створити ДТП.',
-            en: 'Flying at a low altitude over roads is prohibited — it can scare drivers and cause accidents.',
+            ru: 'Полёт на малой высоте над дорогами запрещён - это может испугать водителей и создать ДТП.',
+            ua: 'Політ на малій висоті над дорогами заборонений - це може налякати водіїв та створити ДТП.',
+            en: 'Flying at a low altitude over roads is prohibited - it can scare drivers and cause accidents.',
             de: 'Das Fliegen in geringer Höhe über Straßen ist verboten – es kann Fahrer erschrecken und Unfälle verursachen.',
             pl: 'Lot na niskiej wysokości nad drogami jest zabroniony – może to przestraszyć kierowców i spowodować wypadek.',
         },
@@ -808,11 +808,11 @@ export default {
                 pl: 'Pomachać',
             },
             C: {
-                ru: 'Посигналить',
-                ua: 'Посигналити',
-                en: 'Signal',
-                de: 'Signalisieren',
-                pl: 'Zasygnalizować',
+                ru: 'Покинуть вертолёт',
+                ua: 'Покинути вертоліт',
+                en: 'Exit helicopter',
+                de: 'Helikopter verlassen',
+                pl: 'Opuść helikopter',
             },
             D: {
                 ru: 'Направится к другому вертолёту для сближения',

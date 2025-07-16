@@ -64,11 +64,11 @@ export default {
             pl: 'Jazda z otwartymi drzwiami',
         },
         desc: {
-            ru: 'Категорически запрещается движение с открытыми дверьми — это угрожает жизни и здоровью пассажиров.',
-            ua: 'Категорично забороняється рух з відкритими дверима — це загрожує життю та здоров’ю пасажирів.',
-            en: 'Driving with open doors is strictly prohibited — it threatens the life and health of passengers.',
+            ru: 'Категорически запрещается движение с открытыми дверьми - это угрожает жизни и здоровью пассажиров.',
+            ua: 'Категорично забороняється рух з відкритими дверима - це загрожує життю та здоров’ю пасажирів.',
+            en: 'Driving with open doors is strictly prohibited - it threatens the life and health of passengers.',
             de: 'Das Fahren mit offenen Türen ist strengstens verboten – dies gefährdet das Leben und die Gesundheit der Fahrgäste.',
-            pl: 'Kategorycznie zabrania się jazdy z otwartymi drzwiami — zagraża to życiu i zdrowiu pasażerów.',
+            pl: 'Kategorycznie zabrania się jazdy z otwartymi drzwiami - zagraża to życiu i zdrowiu pasażerów.',
         },
         question: {
             ru: 'Разрешено ли движение автобуса с открытыми дверьми?',
@@ -119,8 +119,8 @@ export default {
             pl: 'Start z przystanku',
         },
         desc: {
-            ru: 'Прежде чем начать движение с остановки, водитель должен убедиться, что все пассажиры зашли и двери закрыты. Включение поворотника — обязательно.',
-            ua: 'Перш ніж почати рух із зупинки, водій повинен переконатися, що всі пасажири зайшли і двері зачинені. Увімкнення покажчика повороту — обов’язкове.',
+            ru: 'Прежде чем начать движение с остановки, водитель должен убедиться, что все пассажиры зашли и двери закрыты. Включение поворотника - обязательно.',
+            ua: 'Перш ніж почати рух із зупинки, водій повинен переконатися, що всі пасажири зайшли і двері зачинені. Увімкнення покажчика повороту - обов’язкове.',
             en: 'Before starting to move from a stop, the driver must ensure that all passengers have boarded and the doors are closed. Turning on the turn signal is mandatory.',
             de: 'Bevor der Fahrer von einer Haltestelle abfährt, muss er sicherstellen, dass alle Fahrgäste eingestiegen sind und die Türen geschlossen sind. Das Einschalten des Blinkers ist obligatorisch.',
             pl: 'Przed ruszeniem z przystanku, kierowca musi upewnić się, że wszyscy pasażerowie wsiedli i drzwi są zamknięte. Włączenie kierunkowskazu jest obowiązkowe.',
@@ -174,8 +174,8 @@ export default {
             pl: 'Wjazd na chodnik',
         },
         desc: {
-            ru: 'Автобус не имеет права заезжать на тротуар при остановке — только в экстренных ситуациях и при отсутствии пешеходов.',
-            ua: 'Автобус не має права заїжджати на тротуар при зупинці — тільки в екстрених ситуаціях та за відсутності пішоходів.',
+            ru: 'Автобус не имеет права заезжать на тротуар при остановке - только в экстренных ситуациях и при отсутствии пешеходов.',
+            ua: 'Автобус не має права заїжджати на тротуар при зупинці - тільки в екстрених ситуаціях та за відсутності пішоходів.',
             en: 'A bus is not allowed to drive onto the pavement when stopping – only in emergency situations and in the absence of pedestrians.',
             de: 'Ein Bus darf beim Anhalten nicht auf den Gehweg fahren – nur in Notfällen und bei Abwesenheit von Fußgängern.',
             pl: 'Autobus nie ma prawa wjeżdżać na chodnik podczas postoju – tylko w sytuacjach awaryjnych i pod nieobecność pieszych.',
@@ -229,8 +229,8 @@ export default {
             pl: 'Interakcja z pasażerami',
         },
         desc: {
-            ru: 'Водитель не должен вступать в споры, обсуждать маршрут или вести диалоги во время движения. Всё внимание — на дорогу.',
-            ua: 'Водій не повинен вступати в суперечки, обговорювати маршрут або вести діалоги під час руху. Вся увага — на дорогу.',
+            ru: 'Водитель не должен вступать в споры, обсуждать маршрут или вести диалоги во время движения. Всё внимание - на дорогу.',
+            ua: 'Водій не повинен вступати в суперечки, обговорювати маршрут або вести діалоги під час руху. Вся увага - на дорогу.',
             en: 'The driver should not engage in disputes, discuss the route, or hold conversations while driving. All attention should be on the road.',
             de: 'Der Fahrer sollte während der Fahrt keine Streitigkeiten beginnen, die Route besprechen oder Dialoge führen. Die gesamte Aufmerksamkeit sollte auf die Straße gerichtet sein.',
             pl: 'Kierowca nie powinien wdawać się w spory, omawiać trasy ani prowadzić dialogów podczas jazdy. Cała uwaga powinna być skupiona na drodze.',
@@ -394,8 +394,8 @@ export default {
             pl: 'Muzyka w kabinie',
         },
         desc: {
-            ru: 'Музыка не должна мешать водителю управлять автобусом или отвлекать пассажиров. Лучше — нейтральный уровень громкости или вовсе без музыки.',
-            ua: 'Музика не повинна заважати водієві керувати автобусом або відволікати пасажирів. Краще — нейтральний рівень гучності або зовсім без музики.',
+            ru: 'Музыка не должна мешать водителю управлять автобусом или отвлекать пассажиров. Лучше - нейтральный уровень громкости или вовсе без музыки.',
+            ua: 'Музика не повинна заважати водієві керувати автобусом або відволікати пасажирів. Краще - нейтральний рівень гучності або зовсім без музики.',
             en: 'Music should not interfere with the driver operating the bus or distract passengers. It is better to have a neutral volume level or no music at all.',
             de: 'Musik sollte den Fahrer nicht beim Führen des Busses stören oder Fahrgäste ablenken. Besser ist eine neutrale Lautstärke oder gar keine Musik.',
             pl: 'Muzyka nie powinna przeszkadzać kierowcy w prowadzeniu autobusu ani rozpraszać pasażerów. Lepiej jest zachować neutralny poziom głośności lub w ogóle nie odtwarzać muzyki.',
@@ -430,7 +430,7 @@ export default {
                 pl: 'Tak, zwłaszcza z basami',
             },
             D: {
-                ru: 'Нильзя ни в каких случаях',
+                ru: 'Нельзя ни в каких случаях',
                 ua: 'Не можна ні в якому разі',
                 en: 'Not allowed in any case',
                 de: 'In keinem Fall erlaubt',

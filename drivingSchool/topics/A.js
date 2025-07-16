@@ -64,11 +64,11 @@ export default {
             pl: 'Bezpieczna odległość',
         },
         desc: {
-            ru: 'Мотоциклисты должны соблюдать дистанцию — ориентир в 2 секунды до впереди идущего ТС считается безопасным в большинстве ситуаций.',
-            ua: 'Мотоциклісти повинні дотримуватися дистанції — орієнтир у 2 секунди до транспортного засобу, що рухається попереду, вважається безпечним у більшості ситуацій.',
-            en: 'Motorcyclists must maintain a safe distance — a 2-second rule to the vehicle ahead is considered safe in most situations.',
+            ru: 'Мотоциклисты должны соблюдать дистанцию - ориентир в 2 секунды до впереди идущего ТС считается безопасным в большинстве ситуаций.',
+            ua: 'Мотоциклісти повинні дотримуватися дистанції - орієнтир у 2 секунди до транспортного засобу, що рухається попереду, вважається безпечним у більшості ситуацій.',
+            en: 'Motorcyclists must maintain a safe distance - a 2-second rule to the vehicle ahead is considered safe in most situations.',
             de: 'Motorradfahrer müssen einen Sicherheitsabstand einhalten – eine 2-Sekunden-Regel zum vorausfahrenden Fahrzeug gilt in den meisten Situationen als sicher.',
-            pl: 'Motocykliści muszą zachować bezpieczną odległość — zasada 2 sekund do pojazdu jadącego z przodu jest uważana za bezpieczną w większości sytuacji.',
+            pl: 'Motocykliści muszą zachować bezpieczną odległość - zasada 2 sekund do pojazdu jadącego z przodu jest uważana za bezpieczną w większości sytuacji.',
         },
         question: {
             ru: 'Какой безопасной дистанции должен придерживаться мотоциклист ?',
@@ -119,11 +119,11 @@ export default {
             pl: 'Przegląd przed jazdą',
         },
         desc: {
-            ru: 'Перед поездкой важно проверить техническое состояние мотоцикла — тормоза, свет, резину.',
-            ua: 'Перед поїздкою важливо перевірити технічний стан мотоцикла — гальма, світло, гуму.',
-            en: "Before riding, it's important to check the motorcycle's technical condition — brakes, lights, tires.",
+            ru: 'Перед поездкой важно проверить техническое состояние мотоцикла - тормоза, свет, резину.',
+            ua: 'Перед поїздкою важливо перевірити технічний стан мотоцикла - гальма, світло, гуму.',
+            en: "Before riding, it's important to check the motorcycle's technical condition - brakes, lights, tires.",
             de: 'Vor der Fahrt ist es wichtig, den technischen Zustand des Motorrads zu überprüfen – Bremsen, Licht, Reifen.',
-            pl: 'Przed jazdą ważne jest, aby sprawdzić stan techniczny motocykla — hamulce, światła, opony.',
+            pl: 'Przed jazdą ważne jest, aby sprawdzić stan techniczny motocykla - hamulce, światła, opony.',
         },
         question: {
             ru: 'Что должен сделать мотоциклист перед началом движения?',
@@ -174,11 +174,11 @@ export default {
             pl: 'Ścieżki rowerowe',
         },
         desc: {
-            ru: 'Мотоциклы не имеют права передвигаться по велосипедным дорожкам — это зона для ТС без двигателя.',
-            ua: 'Мотоцикли не мають права пересуватися велосипедними доріжками — це зона для ТЗ без двигуна.',
-            en: 'Motorcycles are not allowed to use bike lanes — this is a zone for vehicles without an engine.',
+            ru: 'Мотоциклы не имеют права передвигаться по велосипедным дорожкам - это зона для Т/С без двигателя.',
+            ua: 'Мотоцикли не мають права пересуватися велосипедними доріжками - це зона для Т/З без двигуна.',
+            en: 'Motorcycles are not allowed to use bike lanes - this is a zone for vehicles without an engine.',
             de: 'Motorräder dürfen Fahrradwege nicht benutzen – dies ist eine Zone für Fahrzeuge ohne Motor.',
-            pl: 'Motocykle nie mają prawa poruszać się po ścieżkach rowerowych — to strefa dla pojazdów bez silnika.',
+            pl: 'Motocykle nie mają prawa poruszać się po ścieżkach rowerowych - to strefa dla pojazdów bez silnika.',
         },
         question: {
             ru: 'Можно ли ехать на мотоцикле по велосипедной дорожке?',
@@ -464,11 +464,11 @@ export default {
         },
         answers: {
             A: {
-                ru: 'Отвечать на ходу — так делают все',
-                ua: 'Відповідати на ходу — так роблять усі',
-                en: "Answering on the go — that's what everyone does",
+                ru: 'Отвечать на ходу - так делают все',
+                ua: 'Відповідати на ходу - так роблять усі',
+                en: "Answering on the go - that's what everyone does",
                 de: 'Unterwegs antworten – das machen alle so',
-                pl: 'Odpowiadanie w biegu — tak robią wszyscy',
+                pl: 'Odpowiadanie w biegu - tak robią wszyscy',
             },
             B: {
                 ru: 'Дать сигнал поворотом и говорить кратко',

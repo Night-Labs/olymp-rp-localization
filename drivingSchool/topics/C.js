@@ -9,8 +9,8 @@ export default {
             pl: 'Ładunek i jego mocowanie',
         },
         desc: {
-            ru: 'Груз должен быть надёжно зафиксирован и не создавать угрозу другим участникам движения. Болтающийся груз — риск аварии и потери груза.',
-            ua: 'Вантаж повинен бути надійно зафіксований і не створювати загрозу іншим учасникам руху. Вантаж, що бовтається, — ризик аварії та втрати вантажу.',
+            ru: 'Груз должен быть надёжно зафиксирован и не создавать угрозу другим участникам движения. Болтающийся груз - риск аварии и потери груза.',
+            ua: 'Вантаж повинен бути надійно зафіксований і не створювати загрозу іншим учасникам руху. Вантаж, що бовтається, - ризик аварії та втрати вантажу.',
             en: 'The cargo must be securely fastened and not pose a threat to other road users. Loose cargo is a risk of accident and loss of cargo.',
             de: 'Die Ladung muss sicher befestigt sein und darf keine Gefahr für andere Verkehrsteilnehmer darstellen. Eine lose Ladung birgt das Risiko eines Unfalls und des Verlusts der Ladung.',
             pl: 'Ładunek musi być bezpiecznie zamocowany i nie stwarzać zagrożenia dla innych uczestników ruchu. Luźny ładunek to ryzyko wypadku i utraty ładunku.',
@@ -174,11 +174,11 @@ export default {
             pl: 'Podjazd i zjazd',
         },
         desc: {
-            ru: 'На подъёмах и спусках грузовик ведёт себя иначе — двигатель напрягается, тормоза могут перегреваться.',
-            ua: 'На підйомах і спусках вантажівка поводиться інакше — двигун напружується, гальма можуть перегріватися.',
-            en: 'On ascents and descents, the truck behaves differently — the engine strains, and the brakes can overheat.',
+            ru: 'На подъёмах и спусках грузовик ведёт себя иначе - двигатель напрягается, тормоза могут перегреваться.',
+            ua: 'На підйомах і спусках вантажівка поводиться інакше - двигун напружується, гальма можуть перегріватися.',
+            en: 'On ascents and descents, the truck behaves differently - the engine strains, and the brakes can overheat.',
             de: 'An Steigungen und Gefällen verhält sich der LKW anders – der Motor wird beansprucht, und die Bremsen können überhitzen.',
-            pl: 'Na podjazdach i zjazdach ciężarówka zachowuje się inaczej — silnik jest obciążony, a hamulce mogą się przegrzać.',
+            pl: 'Na podjazdach i zjazdach ciężarówka zachowuje się inaczej - silnik jest obciążony, a hamulce mogą się przegrzać.',
         },
         question: {
             ru: 'Как нужно действовать на крутом спуске?',
