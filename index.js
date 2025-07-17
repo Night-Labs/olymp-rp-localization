@@ -67,6 +67,7 @@ import walkieTalkie from './walkieTalkie';
 import elevators from './elevators';
 import shootingRange from './shootingRange';
 import diving from './diving'
+import prism from './prism'
 
 export default {
     account,
@@ -137,5 +138,6 @@ export default {
     walkieTalkie,
     elevators,
     shootingRange,
-    diving
+    diving,
+    prism
 };
