@@ -5,5 +5,5 @@ import { npc } from './npc';
 export default {
     ...server,
     ...cef,
-    npc
+    npc,
 };
