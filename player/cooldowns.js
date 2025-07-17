@@ -3,7 +3,7 @@ export default {
         ru: 'Вы сможете использовать лечится через {{time}}',
         ua: 'Ви зможете лікуватися через {{time}}',
         en: 'You can heal in {{time}}',
-        de: 'Sie können in {{time}} heilen',
+        de: 'Du kannst dich in {{time}} heilen',
         pl: 'Będziesz mógł się leczyć za {{time}}',
         zh:'你可以在{{time}}中治愈',
     },

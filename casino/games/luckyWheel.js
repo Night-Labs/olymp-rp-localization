@@ -14,8 +14,8 @@ export const luckyWheel = {
         <br><br>Кожен день ви будете отримувати безкоштовний спін після проведення 30 хвилин в грі.`,
         en: `Here you can spin the wheel with prizes and get valuable items such as chips, money, donation currency, or even a car, as well as less valuable prizes like experience or clothing.
         <br><br>Every day, you'll receive a free spin after playing for 30 minutes in the game.`,
-        de: `Hier können Sie das Rad mit Preisen drehen und wertvolle Gegenstände wie Chips, Geld, Spendenwährung oder sogar ein Auto erhalten, sowie weniger wertvolle Preise wie Erfahrung oder Kleidung.
-        <br><br>Jeden Tag erhalten Sie einen kostenlosen Dreh, nachdem Sie 30 Minuten im Spiel gespielt haben.`,
+        de: `Hier kannst di das Rad mit Preisen drehen und wertvolle Gegenstände wie Chips, Geld, Spendenwährung oder sogar ein Auto erhalten, sowie weniger wertvolle Preise wie Erfahrung oder Kleidung.
+        <br><br>Jeden Tag erhälst dz einen kostenlosen Dreh, nachdem du 30 Minuten gespielt hast.`,
         pl: `Tutaj możesz obracać kołem z nagrodami i otrzymywać cenne przedmioty, takie jak żetony, pieniądze, walutę darowizn, a nawet samochód, a także mniej wartościowe nagrody, takie jak doświadczenie lub odzież.
         <br><br>Co dzień otrzymasz darmowy spin po 30 minutach grania w grę.`,
         zh: '在这里，你可以旋转奖品，获得有价值的物品，如筹码，金钱，捐赠货币，甚至是一辆车，以及不太有价值的奖品，如经验或衣服。<br><br>每天在游戏中玩30分钟后，您将获得一次免费旋转',
@@ -65,7 +65,7 @@ export const luckyWheel = {
         ru: 'Вы выиграли - ',
         ua: 'Ви виграли - ',
         en: 'You won - ',
-        de: 'Sie haben gewonnen - ',
+        de: 'Du hast gewonnen - ',
         pl: 'Wygrałeś - ',
         zh: '你赢了-',
     },
@@ -74,7 +74,7 @@ export const luckyWheel = {
         ru: 'Кто-то другой сейчас крутит колесо удачи. Подождите, пожалуйста.',
         ua: 'Хтось інший зараз крутить колесо удачі. Зачекайте, будь ласка.',
         en: 'Someone else is spinning the Wheel of Fortune right now. Please wait.',
-        de: 'Jemand anderes dreht gerade das Glücksrad. Bitte warten Sie.',
+        de: 'Jemand anderes dreht gerade das Glücksrad. Bitte warte.',
         pl: 'Ktoś inny teraz kręci Kołem Fortuny. Proszę czekać.',
         zh: '另一位玩家正在转轮盘,请稍等',
     },
@@ -159,7 +159,7 @@ export const luckyWheel = {
         ru: 'Вы выиграли {{rewardSum}} фишек',
         ua: 'Ви виграли {{rewardSum}} фішок',
         en: 'You won {{rewardSum}} chips',
-        de: 'Sie haben {{rewardSum}} Chips gewonnen',
+        de: 'Du hast {{rewardSum}} Chips gewonnen',
         pl: 'Wygrałeś {{rewardSum}} żetonów',
         zh: '你赢得了{{rewardSum}}筹码',
     },
@@ -167,7 +167,7 @@ export const luckyWheel = {
         ru: 'Вы уже поставили максимум ставок на эту ячейку',
         ua: 'Ви вже поставили максимум ставок на цю клітинку',
         en: 'You have already placed the maximum bet on this cell',
-        de: 'Sie haben bereits den maximalen Einsatz auf diese Zelle gesetzt',
+        de: 'Du hast bereits den maximalen Einsatz auf diese Zelle gesetzt',
         pl: 'Ustawiłeś już maksymalny zakład na tę komórkę',
         zh: '你已经在这个单元格下了最大的赌注',
     },

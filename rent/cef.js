@@ -12,7 +12,7 @@ export const cef = {
         en: `Choose the vehicle you want to rent`,
         ru: `Выберите транспортное средство,<br/> 
         которое хотите арендовать`,
-        de: `Wählen Sie das Fahrzeug aus,<br/> das Sie mieten möchten`,
+        de: `Wähle ein Fahrzeug aus,<br/> das du mieten möchtest`,
         pl: `Wybierz pojazd, który chcesz wynająć`,
         zh:'选择你想租的车',
     },

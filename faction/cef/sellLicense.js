@@ -45,7 +45,7 @@
         ru: 'Укажите цену возобновления',
         ua: 'Вкажіть ціну відновлення',
         en: 'Enter the renewal price',
-        de: 'Geben Sie den Verlängerungspreis ein',
+        de: 'Gebe den Verlängerungspreis ein',
         pl: 'Podaj cenę odnowienia',
     },
 
@@ -85,7 +85,7 @@
         ru: 'У гражданина недостаточно средств',
         ua: 'У громадянина недостатньо коштів',
         en: 'The citizen doesn\'t have enough funds',
-        de: 'Der Bürger hat nicht genügend Mittel',
+        de: 'Der Bürger hat nicht genügend Geld',
         pl: 'Obywatel nie ma wystarczających środków',
     },
 
@@ -97,19 +97,19 @@
         pl: 'Obywatel ma wszystko w porządku z licencjami',
     },
 
-    'successNotifyBuy': {
-        'ru': 'Вы успешно купили лицензию {{name}} за ${{price}}',
-        'ua': 'Ви успішно купили ліцензію {{name}} за ${{price}}',
-        'en': 'You have successfully purchased the {{name}} license for ${{price}}',
-        'de': 'Sie haben die {{name}}-Lizenz erfolgreich für ${{price}} gekauft',
-        'pl': 'Pomyślnie zakupiono licencję {{name}} za ${{price}}',
+    successNotifyBuy: {
+        ru: 'Вы успешно купили лицензию {{name}} за ${{price}}',
+        ua: 'Ви успішно купили ліцензію {{name}} за ${{price}}',
+        en: 'You have successfully purchased the {{name}} license for ${{price}}',
+        de: 'Du hast die {{name}}-Lizenz erfolgreich für ${{price}} gekauft',
+        pl: 'Pomyślnie zakupiono licencję {{name}} za ${{price}}',
     },
-    'successNotifyRenew': {
-        'ru': 'Вы успешно продлили лицензию {{name}} за ${{price}}',
-        'ua': 'Ви успішно продовжили ліцензію {{name}} за ${{price}}',
-        'en': 'You have successfully renewed the {{name}} license for ${{price}}',
-        'de': 'Sie haben die {{name}}-Lizenz erfolgreich für ${{price}} verlängert',
-        'pl': 'Pomyślnie przedłużono licencję {{name}} za ${{price}}',
+    successNotifyRenew: {
+        ru: 'Вы успешно продлили лицензию {{name}} за ${{price}}',
+        ua: 'Ви успішно продовжили ліцензію {{name}} за ${{price}}',
+        en: 'You have successfully renewed the {{name}} license for ${{price}}',
+        de: 'Du hast die {{name}}-Lizenz erfolgreich für ${{price}} verlängert',
+        pl: 'Pomyślnie przedłużono licencję {{name}} za ${{price}}',
     },
 
     labelPriceInfo: {

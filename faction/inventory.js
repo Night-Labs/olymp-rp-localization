@@ -19,7 +19,7 @@ export default {
         ru: 'У вас нет доступа к складу',
         ua: 'У вас немає доступу до складу',
         en: 'You do not have access to the warehouse',
-        de: 'Sie haben keinen Zugriff auf das Lager',
+        de: 'Du hast keinen Zugriff auf das Lager',
         pl: 'Nie masz dostępu do magazynu',
         zh: '您无权访问仓库',
     },

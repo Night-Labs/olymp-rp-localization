@@ -11,14 +11,14 @@ export default {
             ru: 'Постарайтесь приехать первым',
             ua: 'Спробуйте приїхати першим',
             en: 'Try to finish first',
-            de: 'Versuchen Sie, als Erster anzukommen',
+            de: 'Versuche als Erster anzukommen',
             pl: 'Spróbuj przyjechać pierwszy',
         },
         yourCurrentPlace: {
             ru: 'Ваше текущее положение в гонке',
             ua: 'Ваше поточне положення в гонці',
             en: 'Your current position in the race',
-            de: 'Ihre aktuelle Position im Rennen',
+            de: 'Deine aktuelle Position im Rennen',
             pl: 'Twoja obecna pozycja w wyścigu',
         },
         yourLap: {

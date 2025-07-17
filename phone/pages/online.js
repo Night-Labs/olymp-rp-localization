@@ -10,7 +10,7 @@ export default {
         ru: 'Хотите узнать кто из лидеров или других нужных вам персон онлайн? Вы можете увидеть их здесь.',
         ua: 'Хочете дізнатися, хто з лідерів чи інших потрібних вам персон онлайн? Ви можете побачити їх тут.',
         en: 'Want to know which leaders or other people you need are online? You can see them here.',
-        de: 'Möchten Sie wissen, welche Anführer oder andere Personen, die Sie benötigen, online sind? Sie können sie hier sehen.',
+        de: 'Möchtesz du wissen, welche Anführer oder andere Personen, die du benötigst, online sind? Du kannst sie hier sehen.',
         pl: 'Chcesz wiedzieć, którzy liderzy lub inne potrzebne osoby są online? Możesz ich zobaczyć tutaj.',
     },
     leaders: {

@@ -11,7 +11,7 @@ export const cef = {
         ru: 'Выберите маршрут по которому будете ездить',
         ua: 'Виберіть маршрут, по якому будете їздити',
         en: 'Choose the route you will drive',
-        de: 'Wählen Sie die Route, auf der Sie fahren werden',
+        de: 'Wähle die Route, auf der du fahren möchtest',
         pl: 'Wybierz trasę, którą będziesz prowadzić',
         zh: '选择你将驾驶的路线',
     },

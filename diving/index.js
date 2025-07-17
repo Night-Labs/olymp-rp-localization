@@ -215,14 +215,14 @@ export default {
         ru: 'Вы заправили баллоны воздухом на 100%',
         ua: 'Ви заправили балони повітрям на 100%',
         en: 'You refilled the tanks with air to 100%',
-        de: 'Sie haben die Flaschen zu 100 % mit Luft aufgefüllt',
+        de: 'Du hast die Flaschen zu 100 % mit Luft aufgefüllt',
         pl: 'Napełniłeś butle powietrzem w 100%',
     },
     youHaveEnoughOxygen: {
         ru: 'У вас и так в балонах полно воздуха',
         ua: 'У вас і так повно повітря в балонах',
         en: 'Your tanks are already full of air',
-        de: 'Ihre Flaschen sind bereits voll mit Luft',
+        de: 'Deine Flaschen sind bereits voll mit Luft',
         pl: 'Twoje butle są już pełne powietrza',
     },
     adminDistanceWarning: {
@@ -236,7 +236,7 @@ export default {
         ru: 'Вы не работаете водолазом',
         ua: 'Ви не працюєте водолазом',
         en: 'You are not working as a diver',
-        de: 'Sie arbeiten nicht als Taucher',
+        de: 'Du arbeitest nicht als Taucher',
         pl: 'Nie pracujesz jako nurek',
     },
 };

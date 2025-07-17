@@ -10,7 +10,7 @@ export default {
         ru: '~r~Начался ивент "Захват точки", отправляйтесь на красную зону на карте и боритесь за точку и получите награду за это!',
         ua: '~r~Почалася подія "Захоплення точки", вирушайте в червону зону на карті, боріться за точку та отримайте нагороду!',
         en: '~r~The "Point Capture" event has started, head to the red zone on the map, fight for the point and earn a reward!',
-        de: '~r~Das Event "Punkt einnehmen" hat begonnen. Begebt euch zur roten Zone auf der Karte, kämpft um den Punkt und verdient eine Belohnung!',
+        de: '~r~Das Event "Punkt einnehmen" hat begonnen. Begebe dich zur roten Zone auf der Karte, kämpft um den Punkt und verdient eine Belohnung!',
         pl: '~r~Rozpoczęło się wydarzenie "Przejęcie punktu", udaj się do czerwonej strefy na mapie, walcz o punkt i zdobądź nagrodę!',
     },
     eventEnded: {

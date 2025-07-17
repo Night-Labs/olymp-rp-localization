@@ -3,14 +3,14 @@ export default {
         ru: 'Вы починили транспортное средство',
         ua: 'Ви відремонтували транспортний засіб',
         en: 'You repaired the vehicle',
-        de: 'Sie haben das Fahrzeug repariert',
+        de: 'Du hast das Fahrzeug repariert',
         pl: 'Naprawiłeś pojazd',
     },
     youHaveNoRepairkit: {
         ru: 'У вас нет рем. комплекту',
         ua: 'У вас немає рем. комплекту',
         en: 'You have no repair kit',
-        de: 'Sie haben kein Reparaturset',
+        de: 'Du hast kein Reparaturset',
         pl: 'Nie masz zestawu naprawczego',
     },
     tooMuchHp: {
@@ -24,7 +24,7 @@ export default {
         ru: 'Вы использовали аптечку',
         ua: 'Ви використали аптечку',
         en: 'You used a medkit',
-        de: 'Sie haben ein Medkit benutzt',
+        de: 'Du hast ein Medkit benutzt',
         pl: 'Użyłeś apteczki',
     },
     youHaveFullHp: {
@@ -39,7 +39,7 @@ export default {
         ru: 'Вы приняли таблетки Reliefix',
         ua: 'Ви прийняли таблетки Reliefix',
         en: 'You took Reliefix pills',
-        de: 'Sie haben Reliefix-Tabletten eingenommen',
+        de: 'Du hast Reliefix-Tabletten eingenommen',
         pl: 'Zażyłeś tabletki Reliefix',
     },
 
@@ -47,7 +47,7 @@ export default {
         ru: 'Вы приняли таблетки Painaway',
         ua: 'Ви прийняли таблетки Painaway',
         en: 'You took Painaway pills',
-        de: 'Sie haben Painaway-Tabletten eingenommen',
+        de: 'Du hast Painaway-Tabletten eingenommen',
         pl: 'Zażyłeś tabletki Painaway',
     },
 
@@ -55,7 +55,7 @@ export default {
         ru: 'Вы приняли таблетки Nufrieren',
         ua: 'Ви прийняли таблетки Nufrieren',
         en: 'You took Nufrieren pills',
-        de: 'Sie haben Nufrieren-Tabletten eingenommen',
+        de: 'Du hast Nufrieren-Tabletten eingenommen',
         pl: 'Zażyłeś tabletki Nufrieren',
     },
     youTookActivatedCoal: {

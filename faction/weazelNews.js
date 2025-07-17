@@ -38,14 +38,14 @@ export default {
         ru: 'Вы успешно опубликовали объявление и заработали ${{money}}',
         ua: 'Ви успішно опублікували оголошення та заробили ${{money}}',
         en: 'You have successfully published the ad and earned ${{money}}',
-        de: 'Sie haben die Anzeige erfolgreich veröffentlicht und ${{money}} verdient',
+        de: 'Du hast die Anzeige erfolgreich veröffentlicht und ${{money}} verdient',
         pl: 'Pomyślnie opublikowałeś ogłoszenie i zarobiłeś ${{money}}',
     },
     youDeclinedSuccess: {
         ru: 'Вы отклонили объявление гражданина {{name}}',
         ua: 'Ви відхилили оголошення громадянина {{name}}',
         en: 'You have declined the listing of citizen {{name}}',
-        de: 'Sie haben die Anzeige von Bürger {{name}} abgelehnt',
+        de: 'Du hast die Anzeige von Bürger {{name}} abgelehnt',
         pl: 'Odrzuciłeś ogłoszenie obywatela {{name}}',
     },
 
@@ -67,14 +67,14 @@ export default {
         ru: 'На вашем банковском счету недостаточно денег',
         ua: 'На вашому банківському рахунку недостатньо коштів',
         en: 'There is not enough money in your bank account',
-        de: 'Ihr Bankkonto enthält nicht genügend Geld',
+        de: 'Dein Bankkonto enthält nicht genügend Geld',
         pl: 'Na Twoim koncie bankowym brakuje środków',
     },
     cooldown: {
         ru: 'Вы недавно уже отправляли объявление, подождите немного',
         ua: 'Ви нещодавно вже надсилали оголошення, зачекайте трохи',
         en: 'You have recently sent an announcement, please wait a bit',
-        de: 'Sie haben kürzlich bereits eine Anzeige gesendet, bitte warten Sie etwas',
+        de: 'Du hast kürzlich bereits eine Anzeige gesendet, bitte warte etwas',
         pl: 'Niedawno już wysłałeś ogłoszenie, poczekaj chwilę',
     },
     cef: {
@@ -96,7 +96,7 @@ export default {
             ru: 'Отредактируйте текст по всем правилам',
             ua: 'Відредагуйте текст за всіма правилами',
             en: 'Edit the text according to all the rules',
-            de: 'Bearbeiten Sie den Text nach allen Regeln',
+            de: 'Bearbeite den Text nach allen Regeln',
             pl: 'Edytuj tekst zgodnie ze wszystkimi zasadami',
         },
         acceptButton: {

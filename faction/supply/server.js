@@ -45,14 +45,14 @@ export default {
         ru: 'Все заказаные материалы были загружены, теперь вы должны довезти их до пункта назначения',
         ua: 'Усі замовлені матеріали завантажено, тепер ви повинні доставити їх до пункту призначення',
         en: 'All ordered materials have been loaded, now you must deliver them to the destination',
-        de: 'Alle bestellten Materialien wurden geladen, jetzt müssen Sie sie zum Zielort bringen',
+        de: 'Alle bestellten Materialien wurden geladen, jetzt musst du sie zum Zielort bringen',
         pl: 'Wszystkie zamówione materiały zostały załadowane, teraz musisz je dostarczyć do miejsca docelowego',
     },
     goToUnloadingPoint: {
         ru: 'Отправляйтесь на разгрузку',
         ua: 'Вирушайте на розвантаження',
         en: 'Go to the unloading point',
-        de: 'Fahren Sie zum Entladepunkt',
+        de: 'Fahre zum Entladepunkt',
         pl: 'Udaj się do punktu rozładunku',
     },
     unloadingText: {
@@ -80,7 +80,7 @@ export default {
         ru: 'Отвезите этот транспорт на вашу базу',
         ua: 'Відвезіть цей транспорт на вашу базу',
         en: 'Drive this vehicle to your base',
-        de: 'Bringen Sie dieses Fahrzeug zu Ihrer Basis',
+        de: 'Bringe dieses Fahrzeug zu Ihrer Basis',
         pl: 'Zawieź ten pojazd do swojej bazy',
     },
     trackingBlip: {
@@ -94,7 +94,7 @@ export default {
         ru: 'Вы успешно подтвердили эту поставку, соотвествующая фракция выполнит её',
         ua: 'Ви успішно підтвердили цю поставку, відповідна фракція виконає її',
         en: 'You have successfully confirmed this supply, the corresponding faction will fulfill it',
-        de: 'Sie haben diese Lieferung erfolgreich bestätigt, die entsprechende Fraktion wird sie ausführen',
+        de: 'Du hast diese Lieferung erfolgreich bestätigt, die entsprechende Fraktion wird sie ausführen',
         pl: 'Pomyślnie potwierdziłeś tę dostawę, odpowiednia frakcja ją zrealizuje',
     },
     executorHasLowOnline: {

@@ -30,11 +30,11 @@ export default {
                     <br />
                     After that, you will need to go to a shooting range, and only after a shooting test, you will receive the coveted license`,
             de: `
-                Um eine Waffenlizenz zu erhalten, müssen Sie folgendes besitzen: <br />
+                Um eine Waffenlizenz zu erhalten, musst du folgendes besitzen: <br />
                     <span style="color: var(--primary)">- {{money}} $</span><br />
                     <span style="color: var(--primary)">- Mindestens Level {{level}}</span><br />
                     <br />
-                    Danach müssen Sie zu einem Schießstand gehen und erst nach einer Schießprüfung erhalten Sie die begehrte Lizenz`,
+                    Danach musst du zu einem Schießstand gehen und erst nach einer Schießprüfung erhälst du die Lizenz`,
             pl: `
                 Aby uzyskać licencję na broń, musisz posiadać następujące rzeczy: <br />
                     <span style="color: var(--primary)">- {{money}} $</span><br />
@@ -79,7 +79,7 @@ export default {
             ru: `Восстановление лицензии будет стоить вам <br /><span style="color: var(--primary)">$ {{money}}</span>`,
             ua: `Відновлення ліцензії коштуватиме вам <br /><span style="color: var(--primary)">$ {{money}}</span>`,
             en: `The license renewal will cost you <br /><span style="color: var(--primary)">$ {{money}}</span>`,
-            de: `Die Verlängerung des Waffenscheins kostet Sie <br /><span style="color: var(--primary)">$ {{money}}</span>`,
+            de: `Die Verlängerung des Waffenscheins kostet dich <br /><span style="color: var(--primary)">$ {{money}}</span>`,
             pl: `Odnowienie licencji będzie Cię kosztować <br /><span style="color: var(--primary)">$ {{money}}</span>`,
             zh: '许可证的续期需要费用<br/><span style="color:var(--primary)">${{money}}</span>',
         },
@@ -105,7 +105,7 @@ export default {
         ru: 'Вы успешно приобрели лицензию на оружие',
         ua: 'Ви успішно придбали ліцензію на зброю',
         en: 'You have successfully purchased a weapon license',
-        de: 'Sie haben erfolgreich eine Waffenlizenz erworben',
+        de: 'Du hast erfolgreich eine Waffenlizenz erworben',
         pl: 'Pomyślnie kupiłeś licencję na broń',
         zh: '您已成功办理持枪证',
     },
@@ -114,7 +114,7 @@ export default {
         ru: 'Вы успешно возобновили лицензию на оружие',
         ua: 'Ви успішно відновили ліцензію на зброю',
         en: 'You have successfully renewed your weapon license',
-        de: 'Sie haben Ihren Waffenschein erfolgreich verlängert',
+        de: 'Du hast deinen Waffenschein erfolgreich verlängert',
         pl: 'Pomyślnie odnowiłeś licencję na broń',
         zh: '你已经成功更新了你的持枪证',
     },
@@ -123,7 +123,7 @@ export default {
         ru: 'Вы успешно возобновили медицинскую лицензию',
         ua: 'Ви успішно відновили медичну ліцензію',
         en: 'You have successfully renewed your medical license',
-        de: 'Sie haben Ihre medizinische Lizenz erfolgreich erneuert',
+        de: 'du hast deine medizinische Lizenz erfolgreich erneuert',
         pl: 'Pomyślnie odnowiłeś swoją licencję medyczną',
         zh: '您的医疗执照已成功续期',
     },
@@ -131,7 +131,7 @@ export default {
         ru: 'Вы успешно получили медицинскую лицензию',
         ua: 'Ви успішно отримали медичну ліцензію',
         en: 'You have successfully obtained a medical license',
-        de: 'Sie haben erfolgreich eine medizinische Lizenz erhalten',
+        de: 'Du hast erfolgreich eine medizinische Lizenz erhalten',
         pl: 'Pomyślnie uzyskałeś licencję medyczną',
         zh: '您已成功取得医疗执照',
     },
@@ -175,7 +175,7 @@ export default {
         ru: 'На оружие',
         ua: 'На зброю',
         en: 'For Weapon',
-        de: 'Für Waffe',
+        de: 'Für Waffen',
         pl: 'Na broń',
         zh: '武器用品',
     },
@@ -199,7 +199,7 @@ export default {
         ru: 'На рыбалку',
         ua: 'На риболовлю',
         en: 'For Fishing',
-        de: 'Für Angeln',
+        de: 'Fürs Angeln',
         pl: 'Na rybołówstwo',
         zh: '钓鱼用品',
     },
@@ -224,7 +224,7 @@ export default {
         ru: 'Забрать лицензию в {{name}}',
         ua: 'Забрати ліцензію в {{name}}',
         en: 'Take a license at {{name}}',
-        de: 'Holen Sie sich eine Lizenz bei {{name}}',
+        de: 'Hole dir eine Lizenz bei {{name}}',
         pl: 'Zdobądź licencję w {{name}}',
         zh: '取得执照{{name}}',
     },
@@ -233,7 +233,7 @@ export default {
         ru: '{{playerName}} забрал у вас лицензию {{license}}',
         ua: '{{playerName}} забрав у вас ліцензію {{license}}',
         en: '{{playerName}} took your {{license}} license',
-        de: '{{playerName}} hat Ihre Lizenz {{license}} genommen',
+        de: '{{playerName}} hat deine Lizenz {{license}} genommen',
         pl: '{{playerName}} zabrał twoją licencję {{license}}',
         zh: '{{playerName}}拿走了你的{{license}}驾照',
     },
@@ -241,7 +241,7 @@ export default {
         ru: 'Вы забрали лицензию {{license}} в {{playerName}}',
         ua: 'Ви забрали ліцензію {{license}} у {{playerName}}',
         en: 'You took the {{license}} license from {{playerName}}',
-        de: 'Sie haben die Lizenz {{license}} von {{playerName}} genommen',
+        de: 'Du hast die Lizenz {{license}} von {{playerName}} genommen',
         pl: 'Zabrałeś licencję {{license}} od {{playerName}}',
         zh: '您从{{playerName}}获取了{{license}}许可证。',
     },

@@ -57,7 +57,7 @@ export default {
         ru: 'У вас нет блоков Green',
         ua: 'У вас немає блоків Green',
         en: "You don't have green blocks",
-        de: 'Du hast keine grüne Blöcke',
+        de: 'Du hast keine Weed Blöcke',
         pl: 'Nie masz bloków Green',
        zh:'你没有绿块',
     },
