@@ -6,4 +6,11 @@ export default {
     ...server,
     ...cef,
     npc,
+    meters: {
+        'ru': 'м.',
+        'ua': 'м.',
+        'en': 'm',
+        'de': 'm',
+        'pl': 'm',
+    },
 };

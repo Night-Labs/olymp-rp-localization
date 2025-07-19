@@ -42,6 +42,14 @@ export default {
         pl: 'szt.',
     },
 
+    infoText: {
+        "ru": "Все вещи, которые ты изымешь, будут уничтожены на месте",
+        "ua": "Всі речі, які ти вилучиш, будуть знищені на місці",
+        "en": "All the items you remove will be destroyed on the spot",
+        "de": "Alle Sachen, die du beschlagnahmst, werden direkt vor Ort zerstört",
+        "pl": "Wszystkie rzeczy, które usuniesz, zostaną zniszczone na miejscu",
+    },
+
     nothing: {
         ru: 'Не найдено ни одного подозрительного предмета.',
         ua: 'Не знайдено жодного підозрілого предмета.',

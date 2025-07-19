@@ -79,6 +79,23 @@ export default {
         pl: 'Aktywne połączenie',
     },
 
+    completedCall: {
+        'ru': 'Выполнено',
+        'ua': 'Виконано',
+        'en': 'Completed',
+        'de': 'Erledigt',
+        'pl': 'Wykonano',
+    },
+
+    unavailableCall: {
+        'ru': 'Недоступно',
+        'ua': 'Недоступно',
+        'en': 'Unavailable',
+        'de': 'Nicht verfügbar',
+        'pl': 'Niedostępne',
+    },
+
+
     types: {
         call: {
             ru: 'Вызов',

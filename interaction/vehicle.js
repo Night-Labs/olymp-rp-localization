@@ -200,28 +200,28 @@ export const vehicle = {
     'doorsControl-driverFrontDoor': {
         ru: 'Передняя левая дверь',
         ua: 'Передні ліві двері',
-        en: "Driver's Front Door",
+        en: 'Driver\'s Front Door',
         de: 'Fahrertür vorne links',
         pl: 'Przednie lewe drzwi',
     },
     'doorsControl-passengerFrontDoor': {
         ru: 'Передняя правая дверь',
         ua: 'Передні праві двері',
-        en: "Passenger's Front Door",
+        en: 'Passenger\'s Front Door',
         de: 'Beifahrertür vorne rechts',
         pl: 'Przednie prawe drzwi',
     },
     'doorsControl-driverRearDoor': {
         ru: 'Задняя левая дверь',
         ua: 'Задні ліві двері',
-        en: "Driver's Rear Door",
+        en: 'Driver\'s Rear Door',
         de: 'Fahrertür hinten links',
         pl: 'Tylne lewe drzwi',
     },
     'doorsControl-passengerRearDoor': {
         ru: 'Задняя правая дверь',
         ua: 'Задні праві двері',
-        en: "Passenger's Rear Door",
+        en: 'Passenger\'s Rear Door',
         de: 'Beifahrertür hinten rechts',
         pl: 'Tylne prawe drzwi',
     },
@@ -272,4 +272,20 @@ export const vehicle = {
         de: 'Datenbank',
         pl: 'Baza danych',
     },
+
+    evacuationOrder: {
+        "ru": "Вызвать эвакуатор",
+        "ua": "Викликати евакуатор",
+        "en": "Call a tow truck",
+        "de": "Abschleppwagen rufen",
+        "pl": "Wezwij lawetę",
+    },
+
+    cancelEvacuationOrder: {
+        "ru": "Отменить ордер на эвакуацию",
+        "ua": "Скасувати ордер на евакуацію",
+        "en": "Cancel evacuation order",
+        "de": "Evakuierungsbefehl aufheben",
+        "pl": "Anuluj rozkaz ewakuacji",
+    }
 };

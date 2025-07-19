@@ -246,11 +246,11 @@ export default {
                 pl: 'Dostarcz z garażu',
             },
             impounded: {
-                ru: 'Машина находится на штрафстоянке',
-                ua: 'Машина знаходиться на штрафмайданчику',
-                en: 'The car is impounded',
-                de: 'Das Auto ist abgeschleppt worden',
-                pl: 'Samochód znajduje się na parkingu policyjnym',
+                "ru": "Т/С находится на штрафстоянке #{{lotId}}",
+                "ua": "ТЗ знаходиться на штрафмайданчику #{{lotId}}",
+                "en": "The vehicle is impounded at lot #{{lotId}}",
+                "de": "Das Fahrzeug steht auf dem Abschleppplatz #{{lotId}}",
+                "pl": "Pojazd znajduje się na parkingu policyjnym #{{lotId}}",
             },
         },
         deliveryInProcess: {

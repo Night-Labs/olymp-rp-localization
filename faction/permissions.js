@@ -234,4 +234,18 @@ export default {
         de: 'Zugriff auf Livestream-Steuerung',
         pl: 'Dostęp do zarządzania transmisją na żywo',
     },
+    evacuationWork: {
+        "ru": "Работать эвакуаторщиком",
+        "ua": "Працювати евакуаторником",
+        "en": "Work as a tow truck driver",
+        "de": "Als Abschleppfahrer arbeiten",
+        "pl": "Pracować jako kierowca lawety",
+    },
+    evacuationOrder: {
+        "ru": "Выписывать ордеры на эвакуацию",
+        "ua": "Виписувати ордери на евакуацію",
+        "en": "Issue evacuation orders",
+        "de": "Evakuierungsbefehle ausstellen",
+        "pl": "Wystawiać nakazy ewakuacji",
+    },
 };

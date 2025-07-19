@@ -141,7 +141,7 @@ export default {
     elevators,
     shootingRange,
     diving,
-    prism
+    prism,
     drivingSchool,
-    drivingLicenses,
+    drivingLicenses
 };

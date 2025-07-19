@@ -380,4 +380,12 @@ export default {
         de: 'Du hast keinen Defibrillator',
         pl: 'Nie masz defibrylatora',
     },
+
+    noFollowedTarget: {
+        "ru": "Ты никого не ведёшь, чтобы посадить в машину",
+        "ua": "Ти нікого не ведеш, щоб посадити в машину",
+        "en": "You’re not escorting anyone to put in the vehicle",
+        "de": "Du bringst niemanden zum Fahrzeug, den du hineinsetzen könntest",
+        "pl": "Nikogo nie prowadzisz, żeby wsadzić do pojazdu",
+    }
 };

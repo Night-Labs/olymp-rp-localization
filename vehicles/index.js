@@ -207,6 +207,13 @@ export default {
         pl: 'Nie możesz uruchomić tego samochodu',
         zh: '你不能启动这辆车',
     },
+    youCannotTurnOnEngineBecauseEvacuationOrder: {
+        'ru': 'На Т/С выписан ордер на эвакцию сотрудником {{by}}',
+        'ua': 'На ТЗ виписано ордер на евакуацію співробітником {{by}}',
+        'en': 'An evacuation order was issued for the vehicle by {{by}}',
+        'de': 'Für das Fahrzeug wurde ein Abschleppbefehl von {{by}} ausgestellt',
+        'pl': 'Na pojazd został wydany nakaz odholowania przez {{by}}',
+    },
     youCannotTurnOnEngineFuel: {
         ru: 'Вы не можете завести эту машину потому что закончилось топливо',
         ua: 'Ви не можете завести цю машину, тому що закінчилось паливо',
@@ -222,5 +229,12 @@ export default {
         de: 'Du kannst kein Fahrzeug in die Grüne Zone liefern',
         pl: 'Nie wolno dostarczać samochodu do strefy zielonej',
         zh: '不允许将车辆送至绿区',
+    },
+    impounded: {
+        "ru": "Т/С нельзя использовать, так как на него выписан ордер на эвакуацию",
+        "ua": "ТЗ не можна використовувати, оскільки на нього виписано ордер на евакуацію",
+        "en": "You can't use the vehicle because it has an impound order",
+        "de": "Du kannst das Fahrzeug nicht benutzen, da ein Abschleppbefehl dafür vorliegt",
+        "pl": "Nie możesz używać pojazdu, ponieważ został na niego wydany nakaz odholowania",
     },
 };

@@ -284,4 +284,11 @@ export const faction = {
         de: 'Du hast aufgehört, durch das Megafon zu sprechen',
         pl: 'Przestałeś mówić przez megafon',
     },
+    cantSeatFactionGovVehicle: {
+        "ru": "Чтобы использовать рабочий транспорт, ты должен быть на смене",
+        "ua": "Щоб користуватися службовим транспортом, ти повинен бути на зміні",
+        "en": "To use the work vehicle, you need to be on duty",
+        "de": "Um das Dienstfahrzeug zu benutzen, musst du im Dienst sein",
+        "pl": "Aby korzystać z pojazdu służbowego, musisz być na zmianie",
+    }
 };

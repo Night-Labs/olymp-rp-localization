@@ -212,19 +212,26 @@ export const npc = {
             de: 'Melissa',
             pl: 'Melissa',
         },
-        james: {
-            ru: 'Джеймс',
-            ua: 'Джеймс',
-            en: 'James',
-            de: 'James',
-            pl: 'James',
-        },
         mariana: {
             ru: 'Мариана',
             ua: 'Маріана',
             en: 'Mariana',
             de: 'Mariana',
             pl: 'Mariana',
+        },
+        'bobby': {
+            'ru': 'Бобби',
+            'ua': 'Боббі',
+            'en': 'Bobby',
+            'de': 'Bobby',
+            'pl': 'Bobby',
+        },
+        'stanley': {
+            'ru': 'Stanley',
+            'ua': 'Стенлі',
+            'en': 'Stanley',
+            'de': 'Stanley',
+            'pl': 'Stanley',
         },
     },
     roles: {

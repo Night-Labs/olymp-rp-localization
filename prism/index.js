@@ -41,5 +41,26 @@
             'de': 'Sie haben den Einsatz angenommen, fahren Sie dorthin',
             'pl': 'Przyjąłeś zgłoszenie, udaj się na miejsce',
         },
+        'targetLeft': {
+            'ru': 'Цель покинула радиус вызова, вызов отменен',
+            'ua': 'Ціль покинула радіус виклику, виклик скасовано',
+            'en': 'Target left the call radius, call cancelled',
+            'de': 'Ziel hat den Rufradius verlassen, Ruf abgebrochen',
+            'pl': 'Cel opuścił promień wezwania, wezwanie anulowane',
+        },
+        'youLeftZone': {
+            'ru': 'Ты покинули радиус вызова, вызов отменен',
+            'ua': 'Ти покинув радіус виклику, виклик скасовано',
+            'en': 'You left the call radius, call cancelled',
+            'de': 'Du hast den Rufradius verlassen, Ruf abgebrochen',
+            'pl': 'Opuściłeś promień wezwania, wezwanie anulowane',
+        },
+        youArrived: {
+            "ru": "Вы прибыли на место вызова",
+            "ua": "Ти прибув на місце виклику",
+            "en": "You arrived at the call location",
+            "de": "Du bist am Einsatzort angekommen",
+            "pl": "Dotarłeś na miejsce wezwania",
+        },
     },
 };
