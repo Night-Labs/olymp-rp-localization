@@ -278,23 +278,23 @@ export default {
     topic6: {
         theme: {
             ru: 'Перестроение',
-            ua: 'Перелаштування',
+            ua: 'Перестроювання',
             en: 'Lane Change',
             de: 'Fahrspurwechsel',
             pl: 'Zmiana pasa ruchu',
         },
         desc: {
             ru: 'При перестроении водитель обязан убедиться, что манёвр безопасен и не мешает другим и включить поворотник.',
-            ua: "При перелаштуванні водій зобов'язаний переконатися, що маневр безпечний і не заважає іншим, та увімкнути покажчик повороту.",
+            ua: "При перестроюванні водій зобов'язаний переконатися, що маневр безпечний і не заважає іншим, та увімкнути покажчик повороту.",
             en: 'When changing lanes, the driver must ensure that the maneuver is safe, does not impede others, and turn on the turn signal.',
             de: 'Beim Fahrspurwechsel muss der Fahrer sicherstellen, dass das Manöver sicher ist, andere nicht behindert und den Blinker einschalten.',
             pl: 'Podczas zmiany pasa ruchu kierowca jest zobowiązany upewnić się, że manewr jest bezpieczny, nie utrudnia innym i włączyć kierunkowskaz.',
         },
         question: {
             ru: 'Что нужно сделать перед перестроением?',
-            ua: 'Що потрібно зробити перед перебудовою?',
-            en: 'What should be done before changing lanes?',
-            de: 'Was muss vor einem Fahrspurwechsel getan werden?',
+            ua: 'Що потрібно зробити перед перестроюванням?',
+            en: 'What needs to be done before changing lanes?',
+            de: 'Was muss vor dem Spurwechsel getan werden?',
             pl: 'Co należy zrobić przed zmianą pasa ruchu?',
         },
         answers: {

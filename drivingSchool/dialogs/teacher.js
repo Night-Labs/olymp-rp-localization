@@ -63,22 +63,22 @@ export default {
             pl: 'Niestety, nie zdałeś testu.\nPrawidłowych odpowiedzi: {{correctAnswers}}/{{questions}}\n\nZalecam ci dobrze powtórzyć teorię jeszcze раз, a następnie spróbować ponownie.',
         },
 
-        // Confirm start test
+        // Confirm start test first time
         confirmStartTestFirstTime: {
-            ru: 'Ты уверен что хочешь начать тест?\n\nУ тебя будет в сумме {{summQuestions}} вопросов, {{mainQuestions}} из которых по основной теории и {{categoryQuestions}} по теории категории {{category}}.\n\nЦена теста: {{price}}',
-            ua: 'Ти впевнений, що хочеш почати тест?\n\nУ тебе буде загалом {{summQuestions}} запитань, {{mainQuestions}} з яких за основною теорією та {{categoryQuestions}} за теорією категорії {{category}}.\n\nЦіна тесту: {{price}}',
-            en: 'Are you sure you want to start the test?\n\nIn total, you will have {{summQuestions}} questions, {{mainQuestions}} of which are on the main theory and {{categoryQuestions}} on the theory of category {{category}}.\n\nTest price: {{price}}',
-            de: 'Bist du sicher, dass du den Test starten möchtest?\n\nDu wirst insgesamt {{summQuestions}} Fragen haben, davon {{mainQuestions}} zur Haupttheorie und {{categoryQuestions}} zur Theorie der Kategorie {{category}}.\n\nTestpreis: {{price}}',
-            pl: 'Czy na pewno chcesz rozpocząć test?\n\nBędziesz mieć łącznie {{summQuestions}} pytań, z czego {{mainQuestions}} dotyczy teorii głównej, a {{categoryQuestions}} teorii kategorii {{category}}.\n\nCena testu: {{price}}',
+            ru: 'Ты уверен что хочешь начать тест?\n\nУ тебя будет в сумме {{summQuestions}} вопросов, {{mainQuestions}} из которых по общей теории и {{categoryQuestions}} по теории категории {{category}}.\nЕсли ответишь не правильно на {{maxFails}} либо больше вопросов - провалишь тест.\n\nЦена теста: {{price}}',
+            ua: 'Ти впевнений, що хочеш почати тест?\n\nУ тебе буде загалом {{summQuestions}} питань, {{mainQuestions}} з яких за загальною теорією та {{categoryQuestions}} за теорією категорії {{category}}.\nЯкщо відповіси неправильно на {{maxFails}} або більше питань - провалиш тест.\n\nЦіна тесту: {{price}}',
+            en: 'Are you sure you want to start the test?\n\nYou will have a total of {{summQuestions}} questions, {{mainQuestions}} of which are on general theory and {{categoryQuestions}} on the theory of category {{category}}.\nIf you answer {{maxFails}} or more questions incorrectly, you will fail the test.\n\nTest price: {{price}}',
+            de: 'Bist du sicher, dass du den Test starten möchtest?\n\nDu wirst insgesamt {{summQuestions}} Fragen haben, davon {{mainQuestions}} zur allgemeinen Theorie und {{categoryQuestions}} zur Theorie der Kategorie {{category}}.\nWenn du {{maxFails}} oder mehr Fragen falsch beantwortest, fällst du durch den Test.\n\nTestpreis: {{price}}',
+            pl: 'Czy na pewno chcesz rozpocząć test?\n\nBędziesz mieć łącznie {{summQuestions}} pytań, z czego {{mainQuestions}} dotyczy ogólnej teorii, a {{categoryQuestions}} teorii kategorii {{category}}.\nJeśli odpowiesz niepoprawnie na {{maxFails}} lub więcej pytań, oblejesz test.\n\nCena testu: {{price}}',
         },
 
-        // Confirm start test
+        // Confirm start test renew
         confirmStartTestRenew: {
-            ru: 'Ты уверен что хочешь начать тест?\n\nТы уже наверное знаешь, но я на всякий случай повторю, у тебя будет в сумме {{summQuestions}} вопросов, {{mainQuestions}} из которых по основной теории и {{categoryQuestions}} по теории категории {{category}}.',
-            ua: 'Ти впевнений, що хочеш почати тест?\n\nТи вже, напевно, знаєш, але я про всяк випадок повторю, у тебе буде загалом {{summQuestions}} запитань, {{mainQuestions}} з яких за основною теорією та {{categoryQuestions}} за теорією категорії {{category}}.',
-            en: "Are you sure you want to start the test?\n\nYou probably already know, but just in case, I'll repeat: you will have a total of {{summQuestions}} questions, {{mainQuestions}} of which are on the main theory and {{categoryQuestions}} on the theory of category {{category}}.",
-            de: 'Bist du sicher, dass du den Test starten möchtest?\n\nDu weißt es wahrscheinlich schon, aber ich wiederhole es für alle Fälle: Du wirst insgesamt {{summQuestions}} Fragen haben, davon {{mainQuestions}} zur Haupttheorie und {{categoryQuestions}} zur Theorie der Kategorie {{category}}.',
-            pl: 'Czy na pewno chcesz rozpocząć test?\n\nPrawdopodobnie już wiesz, ale na wszelki wypadek powtórzę: będziesz mieć łącznie {{summQuestions}} pytań, z czego {{mainQuestions}} dotyczy teorii głównej, a {{categoryQuestions}} teorii kategorii {{category}}.',
+            ru: 'Ты уверен что хочешь начать тест?\n\nТы уже наверное знаешь, но я на всякий случай повторю, у тебя будет в сумме {{summQuestions}} вопросов, {{mainQuestions}} из которых по основной теории и {{categoryQuestions}} по теории категории {{category}}.\nЕсли ответишь не правильно на {{maxFails}} либо больше вопросов - провалишь тест.',
+            ua: 'Ти впевнений, що хочеш почати тест?\n\nТи вже, напевно, знаєш, але я про всяк випадок повторю, у тебе буде загалом {{summQuestions}} питань, {{mainQuestions}} з яких за основною теорією та {{categoryQuestions}} за теорією категорії {{category}}.\nЯкщо відповіси неправильно на {{maxFails}} або більше питань - провалиш тест.',
+            en: "Are you sure you want to start the test?\n\nYou probably already know, but just in case, I'll repeat: you will have a total of {{summQuestions}} questions, {{mainQuestions}} of which are on main theory and {{categoryQuestions}} on the theory of category {{category}}.\nIf you answer {{maxFails}} or more questions incorrectly, you will fail the test.",
+            de: 'Bist du sicher, dass du den Test starten möchtest?\n\nDu weißt es wahrscheinlich schon, aber nur für den Fall, ich wiederhole es: Du wirst insgesamt {{summQuestions}} Fragen haben, davon {{mainQuestions}} zur Haupttheorie und {{categoryQuestions}} zur Theorie der Kategorie {{category}}.\nWenn du {{maxFails}} oder mehr Fragen falsch beantwortest, fällst du durch den Test.',
+            pl: 'Czy na pewno chcesz rozpocząć test?\n\nPrawdopodobnie już wiesz, ale na wszelki wypadek powtórzę: będziesz mieć łącznie {{summQuestions}} pytań, z czego {{mainQuestions}} dotyczy głównej teorii, a {{categoryQuestions}} teorii kategorii {{category}}.\nJeśli odpowiesz niepoprawnie na {{maxFails}} lub więcej pytań, oblejesz test.',
         },
 
         // Theory
