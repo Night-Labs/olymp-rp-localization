@@ -215,6 +215,34 @@ export default {
         pl: 'Powodzenia następnym razem!',
         zh:'祝你下次好运！',
     },
+    defeatMakesStronger: {
+        "ru": "Поражение лишь закаляет. С каждым разом мы только сильнее.",
+        "ua": "Поразка тільки гартує. З кожним разом ми лише сильніші.",
+        "en": "Defeat only hardens you. Each time, we come back stronger.",
+        "de": "Niederlagen härten ab. Jedes Mal werden wir stärker.",
+        "pl": "Porażka tylko hartuje. Z każdym razem jesteśmy silniejsi.",
+    },
+    almostSetARecord: {
+        "ru": "Поставили рекорд по неудачам. Уже прогресс!",
+        "ua": "Поставили рекорд із невдач. Уже прогрес!",
+        "en": "Set a failure record — that’s progress already!",
+        "de": "Rekord an Misserfolgen aufgestellt – das ist schon Fortschritt!",
+        "pl": "Ustanowiliśmy rekord porażek. To już postęp!",
+    },
+    loseButBeautiful: {
+        "ru": "Проиграли, зато как красиво! Почти как победили.",
+        "ua": "Програли, зате як красиво! Майже як перемога.",
+        "en": "We lost — but oh, how beautifully! Almost felt like a win.",
+        "de": "Verloren – aber wie schön! Fast wie ein Sieg.",
+        "pl": "Przegraliśmy, ale jak pięknie! Prawie jak zwycięstwo.",
+    },
+    fellButRise: {
+        "ru": "Упали? Значит, скоро поднимемся ещё выше.",
+        "ua": "Впали? Значить, скоро піднімемося ще вище.",
+        "en": "Fell down? That means we’re about to rise even higher.",
+        "de": "Gefallen? Dann stehen wir bald noch höher auf.",
+        "pl": "Upadliśmy? To znaczy, że wkrótce wstaniemy jeszcze wyżej.",
+    },
 
     // WIN
     nowTimeForSomeFood: {
@@ -233,5 +261,41 @@ export default {
         de: 'Selbst die Götter des Olymp glaubten an dich',
         pl: 'Nawet bogowie Olimpu wierzyli w ciebie',
         zh:'就连奥林匹斯山的众神也相信你',
+    },
+
+    olympPeakToday: {
+        "ru": "Сегодня вы взошли на вершину Олимпа, надолго ли это?",
+        "ua": "Сьогодні ти піднявся на вершину Олімпу, надовго це?",
+        "en": "Today you’ve reached the peak of Olympus — but how long will it last?",
+        "de": "Heute bist du auf den Olymp gestiegen – aber wie lange bleibt das so?",
+        "pl": "Dziś wspiąłeś się na szczyt Olimpu — ale na jak długo?",
+    },
+    easierToDethrone: {
+        "ru": "Свергнуть соперников проще, чем удержаться на троне — не забывайте об этом.",
+        "ua": "Скинути суперників легше, ніж утриматися на троні — не забувай про це.",
+        "en": "Dethroning rivals is easier than staying on the throne — don’t forget that.",
+        "de": "Gegner zu stürzen ist einfacher, als den Thron zu halten – vergiss das nicht.",
+        "pl": "Obalić rywali jest łatwiej niż utrzymać się na tronie — nie zapominaj o tym.",
+    },
+    victoryIsJustBeginning: {
+        "ru": "Победа — лишь начало. Сможете ли вы остаться наверху?",
+        "ua": "Перемога — лише початок. Чи зможеш ти залишитися нагорі?",
+        "en": "Victory is just the beginning. Can you stay on top?",
+        "de": "Der Sieg ist nur der Anfang. Kannst du dich an der Spitze halten?",
+        "pl": "Zwycięstwo to dopiero początek. Czy zdołasz pozostać na szczycie?",
+    },
+    everyWinIsYourStrength: {
+        "ru": "С каждой победой вы становитесь только сильнее.",
+        "ua": "З кожною перемогою ти стаєш тільки сильнішим.",
+        "en": "With every win, you only grow stronger.",
+        "de": "Mit jedem Sieg wirst du nur stärker.",
+        "pl": "Z każdym zwycięstwem stajesz się silniejszy.",
+    },
+    stepTowardsGlory: {
+        "ru": "Каждая победа — это шаг к настоящей славе. Так держать!",
+        "ua": "Кожна перемога — це крок до справжньої слави. Так тримати!",
+        "en": "Every win is a step toward true glory. Keep it up!",
+        "de": "Jeder Sieg ist ein Schritt zu echtem Ruhm. Weiter so!",
+        "pl": "Każde zwycięstwo to krok ku prawdziwej chwale. Tak trzymaj!",
     },
 };

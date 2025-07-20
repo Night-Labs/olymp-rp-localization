@@ -166,6 +166,13 @@ export default {
             de: 'Du hast vor kurzem bereits den Notdienst gerufen, bitte warte einen Moment',
             pl: 'Niedawno wzywałeś już służby ratunkowe, poczekaj chwilę',
         },
+        sameFaction: {
+            "ru": "Ты не можешь вызвать эту фракцию",
+            "ua": "Ти не можеш викликати цю фракцію",
+            "en": "You can't summon this faction",
+            "de": "Du kannst diese Fraktion nicht herbeirufen",
+            "pl": "Nie możesz przywołać tej frakcji",
+        },
         reasons: {
             murder: {
                 ru: 'Убийство',

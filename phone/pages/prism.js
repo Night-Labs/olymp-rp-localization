@@ -47,6 +47,14 @@ export default {
         pl: 'Komentarz',
     },
 
+    "reason": {
+        "ru": "Причина",
+        "ua": "Причина",
+        "en": "Reason",
+        "de": "Grund",
+        "pl": "Powód"
+    },
+
     accepted: {
         ru: 'Приняли',
         ua: 'Прийняли',
@@ -87,6 +95,14 @@ export default {
         'pl': 'Wykonano',
     },
 
+    "failedCall": {
+        "ru": "Вызов провален",
+        "ua": "Виклик провалено",
+        "en": "Call failed",
+        "de": "Anruf fehlgeschlagen",
+        "pl": "Połączenie nieudane"
+    },
+
     unavailableCall: {
         'ru': 'Недоступно',
         'ua': 'Недоступно',
@@ -95,6 +111,13 @@ export default {
         'pl': 'Niedostępne',
     },
 
+    offlineText:{
+        "ru": "Сейчас вы находитесь в оффлайн режиме и не получаете вызовы и уведомления об вызовах",
+        "ua": "Зараз ти в офлайн-режимі й не отримуєш дзвінки та сповіщення про дзвінки",
+        "en": "You're currently in offline mode and not receiving calls or call notifications",
+        "de": "Du bist gerade im Offline-Modus und bekommst keine Anrufe oder Benachrichtigungen über Anrufe",
+        "pl": "Jesteś teraz w trybie offline i nie otrzymujesz połączeń ani powiadomień o połączeniach",
+    },
 
     types: {
         call: {
@@ -117,6 +140,13 @@ export default {
             en: 'Robbery',
             de: 'Raub',
             pl: 'NapAd',
+        },
+        'death': {
+            'ru': 'Смерть',
+            'ua': 'Смерть',
+            'en': 'Death',
+            'de': 'Tod',
+            'pl': 'Śmierć',
         },
     },
 
