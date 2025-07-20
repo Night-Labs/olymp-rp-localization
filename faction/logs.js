@@ -86,6 +86,77 @@ export default {
             'pl': 'Licencje',
         },
     },
+
+    //
+    moneyOperations: {
+        add: {
+            'pointCaptureWin': {
+                'ru': 'Ваша банда победила в захвате точки и получила ${{money}}',
+                'ua': 'Ваша банда перемогла у захопленні точки й отримала ${{money}}',
+                'en': 'Your gang won the point capture and received ${{money}}',
+                'de': 'Deine Gang hat den Punkt eingenommen und ${{money}} erhalten',
+                'pl': 'Twoja banda wygrała przejęcie punktu i otrzymała ${{money}}',
+            },
+            'acceptedSupplyGoverment': {
+                'ru': 'Одобрение поставки для {{factionName}}, получено: ${{money}}',
+                'ua': 'Постачання для {{factionName}} схвалено, отримано: ${{money}}',
+                'en': 'Supply for {{factionName}} approved, received: ${{money}}',
+                'de': 'Lieferung für {{factionName}} genehmigt, erhalten: ${{money}}',
+                'pl': 'Dostawa dla {{factionName}} zatwierdzona, otrzymano: ${{money}}',
+            },
+            'boughtSurgeonOperation': {
+                'ru': '{{name}} купил операцию по смене внешности у хирурга. Получено: ${{money}}',
+                'ua': '{{name}} придбав операцію зі зміни зовнішності у хірурга. Отримано: ${{money}}',
+                'en': '{{name}} bought a cosmetic surgery from the surgeon. Received: ${{money}}',
+                'de': '{{name}} hat eine Schönheitsoperation beim Chirurgen gekauft. Erhalten: ${{money}}',
+                'pl': '{{name}} kupił operację zmiany wyglądu u chirurga. Otrzymano: ${{money}}',
+            },
+            'takedVehicleFromImpound': {
+                'ru': '{{name}} забрал свою машину с штрафстоянки. Получено: ${{money}}',
+                'ua': '{{name}} забрав свою машину зі штрафмайданчика. Отримано: ${{money}}',
+                'en': '{{name}} took their car from the impound lot. Received: ${{money}}',
+                'de': '{{name}} hat sein Auto vom Abschlepphof geholt. Erhalten: ${{money}}',
+                'pl': '{{name}} odebrał swój samochód z parkingu policyjnego. Otrzymano: ${{money}}',
+            },
+            'boughtAd': {
+                'ru': '{{name}} подал заявку на рекламу. Получено ${{name}}',
+                'ua': '{{name}} подав заявку на рекламу. Отримано ${{name}}',
+                'en': '{{name}} submitted an ad request. Received ${{name}}',
+                'de': '{{name}} hat eine Werbeanfrage gestellt. Erhalten ${{name}}',
+                'pl': '{{name}} złożył wniosek o reklamę. Otrzymano ${{name}}',
+            },
+        },
+        take: {
+            'upgradePayday': {
+                'ru': 'Плата за улучшения {{upgrade}}. -${{money}}',
+                'ua': 'Оплата за покращення {{upgrade}}. -${{money}}',
+                'en': 'Upgrade fee for {{upgrade}}. -${{money}}',
+                'de': 'Upgrade-Gebühr für {{upgrade}}. -${{money}}',
+                'pl': 'Opłata za ulepszenie {{upgrade}}. -${{money}}',
+            },
+            'vehicleImpoundSalary': {
+                'ru': '{{name}} выплата зарплаты эвакуаторищка. -${{money}}',
+                'ua': '{{name}} виплата зарплати евакуаторнику. -${{money}}',
+                'en': '{{name}} tow truck driver salary payout. -${{money}}',
+                'de': '{{name}} Gehaltszahlung für Abschleppfahrer. -${{money}}',
+                'pl': '{{name}} wypłata dla lawetnika. -${{money}}',
+            },
+            'boughtUpgrade': {
+                'ru': 'Покупка улучшения {{upgrade}} -${{money}}',
+                'ua': 'Покупка покращення {{upgrade}} -${{money}}',
+                'en': 'Purchased upgrade {{upgrade}} -${{money}}',
+                'de': 'Upgrade {{upgrade}} gekauft -${{money}}',
+                'pl': 'Zakup ulepszenia {{upgrade}} -${{money}}',
+            },
+            'orderSupply': {
+                'ru': 'Заказ поставки материалов. -${{money}}',
+                'ua': 'Замовлення постачання матеріалів. -${{money}}',
+                'en': 'Ordered material supply. -${{money}}',
+                'de': 'Materiallieferung bestellt. -${{money}}',
+                'pl': 'Zamówienie dostawy materiałów. -${{money}}',
+            },
+        },
+    },
     //
     invitedPlayer: {
         ru: 'Пригласил игрока {{player}}',

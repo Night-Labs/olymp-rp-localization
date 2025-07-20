@@ -259,13 +259,13 @@ export const faction = {
     youCantCallStaffSameFaction: {
         ru: 'Вы не можете сделать это',
         ua: 'Ви не можете цього зробити',
-        en: "You can't do this",
+        en: 'You can\'t do this',
         de: 'Du kannst das nicht tun',
         pl: 'Nie możesz tego zrobić',
     },
     leaveCuffs: {
         ru: '~b~{{name}} вышел из игры во время задержания и был посажен в тюрму на {{minutes}} минут',
-        ua: "~b~{{name}} вийшов з гри під час затримання і був посаджений до в'язниці на {{minutes}} хвилин",
+        ua: '~b~{{name}} вийшов з гри під час затримання і був посаджений до в\'язниці на {{minutes}} хвилин',
         en: '~b~{{name}} left the game during an arrest and was jailed for {{minutes}} minutes',
         de: '~b~{{name}} hat das Spiel während einer Festnahme verlassen und wurde für {{minutes}} Minuten ins Gefängnis gesteckt',
         pl: '~b~{{name}} opuścił grę podczas aresztowania i został osadzony w więzieniu na {{minutes}} minut',
@@ -285,10 +285,17 @@ export const faction = {
         pl: 'Przestałeś mówić przez megafon',
     },
     cantSeatFactionGovVehicle: {
-        "ru": "Чтобы использовать рабочий транспорт, ты должен быть на смене",
-        "ua": "Щоб користуватися службовим транспортом, ти повинен бути на зміні",
-        "en": "To use the work vehicle, you need to be on duty",
-        "de": "Um das Dienstfahrzeug zu benutzen, musst du im Dienst sein",
-        "pl": "Aby korzystać z pojazdu służbowego, musisz być na zmianie",
+        'ru': 'Чтобы использовать рабочий транспорт, ты должен быть на смене',
+        'ua': 'Щоб користуватися службовим транспортом, ти повинен бути на зміні',
+        'en': 'To use the work vehicle, you need to be on duty',
+        'de': 'Um das Dienstfahrzeug zu benutzen, musst du im Dienst sein',
+        'pl': 'Aby korzystać z pojazdu służbowego, musisz być na zmianie',
+    },
+    cantSeatFactionVehicle: {
+        "ru": "Это авто организации {{name}}, ты не можешь в него сесть, так как не состоишь в этой организации",
+        "ua": "Це авто організації {{name}}, ти не можеш сісти в нього, бо не входиш до цієї організації",
+        "en": "This is a {{name}} organization vehicle. You can't enter it because you're not part of this organization",
+        "de": "Das ist ein Fahrzeug der Organisation {{name}}, du kannst nicht einsteigen, da du nicht Teil dieser Organisation bist",
+        "pl": "To jest pojazd organizacji {{name}}, nie możesz do niego wsiąść, ponieważ nie należysz do tej organizacji",
     }
 };
