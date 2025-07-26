@@ -41,4 +41,77 @@ export default {
         de: '{{count}} Weed-Pflanzen auf der Farm anbauen',
         pl: 'Wyhoduj {{count}} krzaków Green na farmie',
     },
+
+    // GOV!!
+    arrestPeople: {
+        'ru': 'Арестовать {{count}} людей',
+        'ua': 'Арештувати {{count}} людей',
+        'en': 'Arrest {{count}} people',
+        'de': '{{count}} Personen verhaften',
+        'pl': 'Aresztuj {{count}} osób',
+    },
+    friskPeople: {
+        'ru': 'Обыскать {{count}} людей на наличие нелегальных предметов',
+        'ua': 'Оглянути {{count}} людей на наявність нелегальних предметів',
+        'en': 'Frisk {{count}} people for illegal items',
+        'de': '{{count}} Personen auf illegale Gegenstände durchsuchen',
+        'pl': 'Przeszukaj {{count}} osób pod kątem nielegalnych przedmiotów',
+    },
+    setSpeedRadar: {
+        'ru': 'Установить {{count}} скоростных радаров',
+        'ua': 'Встановити {{count}} радарів швидкості',
+        'en': 'Set up {{count}} speed radars',
+        'de': '{{count}} Radargeräte aufstellen',
+        'pl': 'Ustaw {{count}} radarów prędkości',
+    },
+    imposeFine: {
+        'ru': 'Выдать {{count}} штрафов за нарушения разным людям',
+        'ua': 'Виписати {{count}} штрафів за порушення різним людям',
+        'en': 'Give out {{count}} tickets for violations to different people',
+        'de': '{{count}} Strafzettel an verschiedene Personen ausstellen',
+        'pl': 'Wystaw {{count}} mandatów za wykroczenia różnym osobom',
+    },
+    giveEvacuationOrder: {
+        'ru': 'Выдать {{count}} ордеров на эвакуацию авто',
+        'ua': 'Виписати {{count}} ордерів на евакуацію авто',
+        'en': 'Issue {{count}} vehicle evacuation orders',
+        'de': '{{count}} Abschleppanweisungen erteilen',
+        'pl': 'Wydaj {{count}} nakazów ewakuacji pojazdów',
+    },
+    //
+    "reanimatePlayer": {
+        "ru": "Реанимировать {{count}} людей",
+        "ua": "Реанімувати {{count}} людей",
+        "en": "Revive {{count}} people",
+        "de": "{{count}} Leute wiederbeleben",
+        "pl": "Reanimuj {{count}} osób",
+    },
+    "sellPills": {
+        "ru": "Продать {{count}} любых таблеток людям",
+        "ua": "Продати {{count}} будь-яких пігулок людям",
+        "en": "Sell {{count}} any pills to people",
+        "de": "{{count}} beliebige Pillen an Leute verkaufen",
+        "pl": "Sprzedaj {{count}} dowolnych tabletek ludziom",
+    },
+    "takeBlood": {
+        "ru": "Взять кровь у {{count}} людей",
+        "ua": "Взяти кров у {{count}} людей",
+        "en": "Take blood from {{count}} people",
+        "de": "Blut von {{count}} Leuten abnehmen",
+        "pl": "Pobierz krew od {{count}} osób",
+    },
+    "checkPlayerHealth": {
+        "ru": "Проверить здоровье у {{count}} людей",
+        "ua": "Перевірити здоров'я у {{count}} людей",
+        "en": "Check health of {{count}} people",
+        "de": "Gesundheit von {{count}} Leuten überprüfen",
+        "pl": "Sprawdź zdrowie u {{count}} osób",
+    },
+    "sellLicense": {
+        "ru": "Продать любую лицензию {{count}} людям",
+        "ua": "Продати будь-яку ліцензію {{count}} людям",
+        "en": "Sell any license to {{count}} people",
+        "de": "Irgendeine Lizenz an {{count}} Leute verkaufen",
+        "pl": "Sprzedaj dowolną licencję {{count}} osobom",
+    }
 };

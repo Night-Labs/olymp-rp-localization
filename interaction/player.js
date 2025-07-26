@@ -139,12 +139,19 @@ export const player = {
         pl: 'Sprzedaj licencję',
     },
 
-    checkPlayer: {
+    checkPlayerDiseases: {
         ru: 'Проверить здоровье игрока',
         ua: 'Перевірити здоров\'я гравця',
         en: 'Check player\'s health',
         de: 'Spielergesundheit überprüfen',
         pl: 'Sprawdź zdrowie gracza',
+    },
+    'healPlayerDiseases': {
+        'ru': 'Вылечить болезни игрока',
+        'ua': 'Вилікувати хвороби гравця',
+        'en': 'Cure player\'s diseases',
+        'de': 'Spielerkrankheiten heilen',
+        'pl': 'Wylecz choroby gracza',
     },
 
     healPlayer: {
@@ -473,5 +480,12 @@ export const player = {
         en: 'Take off the mask',
         de: 'Maske abnehmen',
         pl: 'Zdejmij maskę',
+    },
+    showBadge: {
+        'ru': 'Показать удостоверение',
+        'ua': 'Показати посвідчення',
+        'en': 'Show ID',
+        'de': 'Zeig den Ausweis',
+        'pl': 'Pokaż identyfikator',
     },
 };

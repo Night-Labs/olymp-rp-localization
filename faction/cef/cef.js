@@ -158,7 +158,7 @@ export const cef = {
     nameSurname: {
         ru: 'Имя Фамилия',
         en: 'Name Surname',
-        ua: "Ім'я Прізвище",
+        ua: 'Ім\'я Прізвище',
         de: 'Vorname Nachname',
         pl: 'Imię Nazwisko',
         zh: '姓名',
@@ -203,7 +203,7 @@ export const cef = {
     nameRank: {
         ru: 'Имя/Ранг',
         en: 'Name/Rank',
-        ua: "Ім'я/Ранг",
+        ua: 'Ім\'я/Ранг',
         de: 'Name/Rang',
         pl: 'Nazwa/Ranga',
         zh: '姓名/级别',
@@ -618,5 +618,21 @@ export const cef = {
         en: 'Delete rank',
         de: 'Rang löschen',
         pl: 'Usuń rangę',
+    },
+
+    // Kick modal
+    kickModal: {
+        title: {
+            ru: 'Выгнать игрока',
+        },
+        message: {
+            ru: 'Ты действительно хочешь выгнать игрока {{name}}?',
+        },
+        confirmButton: {
+            ru: 'Выгнать',
+        },
+        cancelButton: {
+            ru: 'Отмена',
+        },
     },
 };

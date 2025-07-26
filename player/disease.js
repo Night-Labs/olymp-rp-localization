@@ -7,6 +7,13 @@ export default {
             de: 'Erkältung',
             pl: 'Przeziębienie',
         },
+        food_poisoning: {
+            "ru": "Пищевое отравление",
+            "ua": "Харчове отруєння",
+            "en": "Food poisoning",
+            "de": "Lebensmittelvergiftung",
+            "pl": "Zatrucie pokarmowe",
+        }
     },
     youHaveCaughtCold: {
         ru: '~b~Похоже вы простудились, примите таблетки или обратитесь в больницу дабы ваше состояние не ухудшилось',

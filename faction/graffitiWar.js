@@ -83,4 +83,11 @@ export default {
         de: 'Der Graffiti-Krieg ist vorbei. Ihr habt den {{place}}. Platz unter allen Gangs belegt und ${{award}} in die Bandenkasse erhalten.',
         pl: 'Wojna o graffiti zakończona. Zajęliście {{place}} miejsce wśród wszystkich gangów i otrzymaliście ${{award}} do wspólnej kasy gangu.',
     },
+    blip: {
+        "ru": "Граффити",
+        "ua": "Графіті",
+        "en": "Graffiti",
+        "de": "Graffiti",
+        "pl": "Graffiti",
+    }
 };
