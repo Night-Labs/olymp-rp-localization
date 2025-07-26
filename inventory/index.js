@@ -154,12 +154,12 @@ const inventory = {
             de: 'Waffe',
             pl: 'Broń',
         },
-        armour: {
-            ru: 'Бронежилет',
-            ua: 'Бронежилет',
-            en: 'Body armor',
-            de: 'Schutzweste',
-            pl: 'Kamizelka kuloodporna',
+        backpack: {
+            ru: 'Рюкзак',
+            ua: 'Рюкзак',
+            en: 'Backpack',
+            de: 'Rucksack',
+            pl: 'Plecak',
         },
         ammo: {
             ru: 'Патроны',
