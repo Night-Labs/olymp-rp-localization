@@ -22,7 +22,7 @@ const inventory = {
         de: 'Derzeit kannst du das Inventar nicht verwenden',
         pl: 'Nie możesz teraz korzystać z inwentarza',
     },
-    
+
     receiveItem: {
         ru: 'Получен предмет',
         ua: 'Отримано предмет',
@@ -83,6 +83,90 @@ const inventory = {
             en: 'Key {{key}} unbound from item {{itemName}}',
             de: 'Taste {{key}} von Gegenstand {{itemName}} gelöst',
             pl: 'Klawisz {{key}} odpięty od przedmiotu {{itemName}}',
+        },
+    },
+
+    type: {
+        ru: 'Тип',
+        ua: 'Тип',
+        en: 'Type',
+        de: 'Typ',
+        pl: 'Typ',
+    },
+
+    clothesAvailableForGender: {
+        title: {
+            ru: 'Одежда для',
+            ua: 'Одяг для',
+            en: 'Clothing for',
+            de: 'Kleidung für',
+            pl: 'Odzież dla',
+        },
+        male: {
+            ru: 'Мужчин',
+            ua: 'Чоловіків',
+            en: 'Men',
+            de: 'Männer',
+            pl: 'Mężczyzn',
+        },
+        female: {
+            ru: 'Женщин',
+            ua: 'Жінок',
+            en: 'Women',
+            de: 'Frauen',
+            pl: 'Kobiet',
+        },
+        shared: {
+            ru: 'Мужчин и Женщин',
+            ua: 'Чоловіків та Жінок',
+            en: 'Men and Women',
+            de: 'Männer und Frauen',
+            pl: 'Mężczyzn i Kobiet',
+        },
+    },
+
+    itemTypes: {
+        item: {
+            ru: 'Предмет',
+            ua: 'Предмет',
+            en: 'Item',
+            de: 'Gegenstand',
+            pl: 'Przedmiot',
+        },
+        eat: {
+            ru: 'Еда',
+            ua: 'Їжа',
+            en: 'Food',
+            de: 'Essen',
+            pl: 'Jedzenie',
+        },
+        clothes: {
+            ru: 'Одежда',
+            ua: 'Одяг',
+            en: 'Clothes',
+            de: 'Kleidung',
+            pl: 'Ubrania',
+        },
+        weapon: {
+            ru: 'Оружие',
+            ua: 'Зброя',
+            en: 'Weapon',
+            de: 'Waffe',
+            pl: 'Broń',
+        },
+        backpack: {
+            ru: 'Рюкзак',
+            ua: 'Рюкзак',
+            en: 'Backpack',
+            de: 'Rucksack',
+            pl: 'Plecak',
+        },
+        ammo: {
+            ru: 'Патроны',
+            ua: 'Набої',
+            en: 'Ammunition',
+            de: 'Munition',
+            pl: 'Amunicja',
         },
     },
 };

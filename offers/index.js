@@ -104,4 +104,12 @@ export default {
         de: 'Bietet dir an, deinen Ausweis vorzuzeigen',
         pl: 'Proponuje ci pokazanie swojej odznaki',
     },
+
+    drivingLicenses: {
+        ru: 'Предлагает посмотреть своё водительское удостоверение',
+        ua: 'Пропонує подивитися своє водійське посвідчення',
+        en: "Offers to show their driver's license",
+        de: 'Bietet an, seinen Führerschein zu zeigen',
+        pl: 'Oferuje pokazanie swojego prawa jazdy',
+    },
 };

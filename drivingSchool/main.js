@@ -23,4 +23,6 @@ export default {
             pl: 'Nauczyciel',
         },
     },
+
+
 };
