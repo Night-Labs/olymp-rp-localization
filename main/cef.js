@@ -547,11 +547,11 @@ export const cef = {
         pl: 'Pojemność magazynka',
     },
     weaponSerialNumber: {
-        ru: 'Серийный номер оружия',
-        ua: 'Серійний номер зброї',
-        en: 'Weapon Serial Number',
-        de: 'Waffenseriennummer',
-        pl: 'Numer seryjny broni',
+        ru: 'С/Н',
+        ua: 'С/Н',
+        en: 'S/N',
+        de: 'S/N',
+        pl: 'S/N',
     },
     phoneNumber: {
         ru: 'Номер телефона',

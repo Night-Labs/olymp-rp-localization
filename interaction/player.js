@@ -141,8 +141,8 @@ export const player = {
 
     checkPlayer: {
         ru: 'Проверить здоровье игрока',
-        ua: 'Перевірити здоров\'я гравця',
-        en: 'Check player\'s health',
+        ua: "Перевірити здоров'я гравця",
+        en: "Check player's health",
         de: 'Spielergesundheit überprüfen',
         pl: 'Sprawdź zdrowie gracza',
     },
@@ -244,6 +244,14 @@ export const player = {
         de: 'Lizenzen ansehen',
         pl: 'Zobacz licencje',
         zh: '查看许可证',
+    },
+
+    viewDrivingLicenses: {
+        ru: 'Посмотреть водительское удостоверение',
+        ua: 'Переглянути водійське посвідчення',
+        en: "View driver's license",
+        de: 'Führerschein anzeigen',
+        pl: 'Wyświetl prawo jazdy',
     },
 
     showLicenses: {
@@ -369,7 +377,7 @@ export const player = {
         },
         five: {
             ru: 'Пять',
-            ua: 'П\'ять',
+            ua: "П'ять",
             en: 'Five',
             de: 'Fünf',
             pl: 'Pięć',

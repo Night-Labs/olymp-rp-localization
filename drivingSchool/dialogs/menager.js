@@ -18,7 +18,7 @@ export default {
             ru: 'Пожалуйста выберите желаемую категорию, чтобы я узнала о вашем статусе владения этой категорией!',
             ua: 'Будь ласка, оберіть бажану категорію, щоб я дізналася про ваш статус володіння цією категорією!',
             en: 'Please select the desired category so I can learn about your ownership status of this category!',
-            de: 'Bitte wählen Sie die gewünschte Kategorie aus, damit ich Ihren Besitzstatus dieser Kategorie erfahren ka\n\n!',
+            de: 'Bitte wähle die gewünschte Kategorie aus, damit ich deinen Besitzstatus dieser Kategorie erfahren kann!',
             pl: 'Proszę wybrać żądaną kategorię, abym mogła dowiedzieć się o Twoim statusie posiadania tej kategorii!',
         },
 
