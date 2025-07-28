@@ -79,39 +79,67 @@ export default {
         'pl': 'Wydaj {{count}} nakazów ewakuacji pojazdów',
     },
     //
-    "reanimatePlayer": {
-        "ru": "Реанимировать {{count}} людей",
-        "ua": "Реанімувати {{count}} людей",
-        "en": "Revive {{count}} people",
-        "de": "{{count}} Leute wiederbeleben",
-        "pl": "Reanimuj {{count}} osób",
+    'reanimatePlayer': {
+        'ru': 'Реанимировать {{count}} людей',
+        'ua': 'Реанімувати {{count}} людей',
+        'en': 'Revive {{count}} people',
+        'de': '{{count}} Leute wiederbeleben',
+        'pl': 'Reanimuj {{count}} osób',
     },
-    "sellPills": {
-        "ru": "Продать {{count}} любых таблеток людям",
-        "ua": "Продати {{count}} будь-яких пігулок людям",
-        "en": "Sell {{count}} any pills to people",
-        "de": "{{count}} beliebige Pillen an Leute verkaufen",
-        "pl": "Sprzedaj {{count}} dowolnych tabletek ludziom",
+    'sellPills': {
+        'ru': 'Продать {{count}} любых таблеток людям',
+        'ua': 'Продати {{count}} будь-яких пігулок людям',
+        'en': 'Sell {{count}} any pills to people',
+        'de': '{{count}} beliebige Pillen an Leute verkaufen',
+        'pl': 'Sprzedaj {{count}} dowolnych tabletek ludziom',
     },
-    "takeBlood": {
-        "ru": "Взять кровь у {{count}} людей",
-        "ua": "Взяти кров у {{count}} людей",
-        "en": "Take blood from {{count}} people",
-        "de": "Blut von {{count}} Leuten abnehmen",
-        "pl": "Pobierz krew od {{count}} osób",
+    'takeBlood': {
+        'ru': 'Взять кровь у {{count}} людей',
+        'ua': 'Взяти кров у {{count}} людей',
+        'en': 'Take blood from {{count}} people',
+        'de': 'Blut von {{count}} Leuten abnehmen',
+        'pl': 'Pobierz krew od {{count}} osób',
     },
-    "checkPlayerHealth": {
-        "ru": "Проверить здоровье у {{count}} людей",
-        "ua": "Перевірити здоров'я у {{count}} людей",
-        "en": "Check health of {{count}} people",
-        "de": "Gesundheit von {{count}} Leuten überprüfen",
-        "pl": "Sprawdź zdrowie u {{count}} osób",
+    'checkPlayerHealth': {
+        'ru': 'Проверить здоровье у {{count}} людей',
+        'ua': 'Перевірити здоров\'я у {{count}} людей',
+        'en': 'Check health of {{count}} people',
+        'de': 'Gesundheit von {{count}} Leuten überprüfen',
+        'pl': 'Sprawdź zdrowie u {{count}} osób',
     },
-    "sellLicense": {
-        "ru": "Продать любую лицензию {{count}} людям",
-        "ua": "Продати будь-яку ліцензію {{count}} людям",
-        "en": "Sell any license to {{count}} people",
-        "de": "Irgendeine Lizenz an {{count}} Leute verkaufen",
-        "pl": "Sprzedaj dowolną licencję {{count}} osobom",
-    }
+    healPlayerDiseases: {
+        'ru': 'Вылечить болезни у {{count}} людей',
+        'ua': 'Вилікувати хвороби у {{count}} людей',
+        'en': 'Heal diseases in {{count}} people',
+        'de': 'Heile Krankheiten bei {{count}} Personen',
+        'pl': 'Wylecz choroby u {{count}} osób',
+    },
+    'sellLicense': {
+        'ru': 'Продать любую лицензию {{count}} людям',
+        'ua': 'Продати будь-яку ліцензію {{count}} людям',
+        'en': 'Sell any license to {{count}} people',
+        'de': 'Irgendeine Lizenz an {{count}} Leute verkaufen',
+        'pl': 'Sprzedaj dowolną licencję {{count}} osobom',
+    },
+    acceptPrismDispatches: {
+        'ru': 'Принять {{count}} вызовов в PRISM',
+        'ua': 'Прийняти {{count}} викликів у PRISM',
+        'en': 'Accept {{count}} dispatches in PRISM',
+        'de': '{{count}} Einsätze in PRISM annehmen',
+        'pl': 'Przyjmij {{count}} zgłoszeń w PRISM',
+    },
+    "publishAd": {
+        "ru": "Смодерируйте и опубликуйте {{count}} реклам",
+        "ua": "Змодеруйте та опублікуйте {{count}} реклам",
+        "en": "Review and publish {{count}} ads",
+        "de": "Moderiere und veröffentliche {{count}} Werbeanzeigen",
+        "pl": "Zmoderuj i opublikuj {{count}} reklam"
+    },
+    "goLive": {
+        "ru": "Выйдите в прямой эфир {{count}} раза за этот день",
+        "ua": "Вийди в прямий ефір {{count}} разів за цей день",
+        "en": "Go live {{count}} times today",
+        "de": "Geh heute {{count}} Mal live",
+        "pl": "Wejdź na żywo {{count}} razy dziś"
+    },
 };

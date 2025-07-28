@@ -199,12 +199,11 @@ export const cef = {
                 zh: '面具',
             },
             cap: {
-                ua: 'Шапки',
-                en: 'Caps',
-                ru: 'Шапки',
-                de: 'Kappen',
-                pl: 'Czapki',
-                zh: '帽子',
+                "ru": "Головной убор",
+                "ua": "Головний убір",
+                "en": "Headwear",
+                "de": "Kopfbedeckung",
+                "pl": "Nakrycie głowy",
             },
             ears: {
                 ua: 'Сережки',
@@ -286,6 +285,13 @@ export const cef = {
                 pl: 'Plecaki',
                 zh: '背包',
             },
+            decal: {
+                "ru": "Нашивки",
+                "ua": "Нашивки",
+                "en": "Patches",
+                "de": "Aufnäher",
+                "pl": "Naszywki",
+            }
         },
     },
     barber: {
@@ -447,14 +453,6 @@ export const cef = {
         de: 'Aus dem Warenkorb entfernen',
         pl: 'Usuń z koszyka',
         zh: '从购物车移除',
-    },
-    price: {
-        ru: 'Цена:',
-        ua: 'Ціна:',
-        en: 'Price:',
-        de: 'Preis:',
-        pl: 'Cena:',
-        zh: '价格:',
     },
 
     sumPrice: {
