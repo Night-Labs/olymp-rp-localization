@@ -118,7 +118,7 @@ export default {
             pl: 'Przedłużyć, zdając test',
         },
 
-        renewForPrice: {
+        renewForMoney: {
             ru: 'Продлить за {{price}}',
             ua: 'Продовжити за {{price}}',
             en: 'Renew for {{price}}',
