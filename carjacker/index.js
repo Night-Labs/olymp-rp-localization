@@ -35,7 +35,7 @@ export default {
     order4: {
         ru: 'Слушай сюда! У нас {{model}} цвета {{color}}, номера {{plate}}. Инфу найдёшь на карте, давай быстрее.',
         ua: 'Слухай сюди! У нас {{model}} кольору {{color}}, номери {{plate}}. Інфу знайдеш на мапі, давай швидше.',
-        en: "Listen up! We've got a {{model}} in {{color}}, plates {{plate}}. Info is on the map, move it.",
+        en: 'Listen up! We\'ve got a {{model}} in {{color}}, plates {{plate}}. Info is on the map, move it.',
         de: 'Hör zu! Wir haben einen {{model}} in Farbe {{color}}, Kennzeichen {{plate}}. Infos findest du auf der Karte, los jetzt.',
         pl: 'Słuchaj! Mamy {{model}} koloru {{color}}, tablice {{plate}}. Info znajdziesz na mapie, rusz się.',
     },
@@ -49,7 +49,7 @@ export default {
     order6: {
         ru: 'У нас тут {{model}} в цвете {{color}}, номера {{plate}}. Всё на карте, двигай.',
         ua: 'У нас тут {{model}} кольору {{color}}, номери {{plate}}. Все є на мапі, рухайся.',
-        en: "We've got a {{model}} in {{color}}, plates {{plate}}. Everything’s on the map, move.",
+        en: 'We\'ve got a {{model}} in {{color}}, plates {{plate}}. Everything’s on the map, move.',
         de: 'Hier ist ein {{model}} in Farbe {{color}}, Kennzeichen {{plate}}. Alles ist auf der Karte, los geht’s.',
         pl: 'Mamy tutaj {{model}} w kolorze {{color}}, tablice {{plate}}. Wszystko jest na mapie, ruszaj.',
     },
@@ -267,7 +267,7 @@ export default {
     noLockPick: {
         ru: 'У вас нет отмычки',
         ua: 'У вас немає відмички',
-        en: "You don't have a lockpick",
+        en: 'You don\'t have a lockpick',
         de: 'Du hast kein Dietrich',
         pl: 'Nie masz wytrychu',
     },
@@ -298,5 +298,28 @@ export default {
         en: 'Stolen vehicle',
         de: 'Gestohlenes Fahrzeug',
         pl: 'Skradziony pojazd',
+    },
+
+    //
+    "timeOutSms": {
+        "ru": "Похоже ты не успел доставить машину во время, ты подвёл нас.",
+        "ua": "Схоже, ти не встиг доставити машину вчасно, ти підвів нас.",
+        "en": "Looks like you didn't deliver the car in time, you let us down.",
+        "de": "Sieht so aus, als hättest du das Auto nicht rechtzeitig geliefert – du hast uns enttäuscht.",
+        "pl": "Wygląda na to, że nie dostarczyłeś auta na czas, zawiodłeś nas.",
+    },
+    "vehicleDeathSms": {
+        "ru": "Машину, которую ты должен был привезти в целости и сохранности, ты каким-то чудом уничтожил, задание провалено",
+        "ua": "Машину, яку ти мав привезти цілою й неушкодженою, ти якимось дивом знищив — завдання провалено.",
+        "en": "The car you were supposed to deliver safe and sound—you somehow destroyed it. Mission failed.",
+        "de": "Das Auto, das du heil liefern solltest, hast du irgendwie zerstört – Auftrag gescheitert.",
+        "pl": "Auto, które miałeś dostarczyć w jednym kawałku, jakoś zniszczyłeś – misja nieudana.",
+    },
+    "evacuationWorkSms": {
+        "ru": "Похоже тебя схватили копы, я тебя не знаю",
+        "ua": "Схоже, тебе впіймали копи, я тебе не знаю.",
+        "en": "Looks like the cops caught you. I don't know you.",
+        "de": "Sieht so aus, als hätten dich die Cops geschnappt. Ich kenn dich nicht.",
+        "pl": "Wygląda na to, że złapali cię gliniarze. Nie znam cię.",
     },
 };

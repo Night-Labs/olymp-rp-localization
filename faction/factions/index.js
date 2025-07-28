@@ -9,6 +9,7 @@ import sang from './sang';
 import goverment from './goverment';
 import weazelNews from './weazelNews';
 import fib from './fib';
+import sheriff from './sheriff';
 
 export default {
     // Gov
@@ -24,4 +25,5 @@ export default {
     vagos,
     bloods,
     marabunta,
+    sheriff
 };

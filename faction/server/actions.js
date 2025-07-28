@@ -382,10 +382,26 @@ export default {
     },
 
     noFollowedTarget: {
-        "ru": "Ты никого не ведёшь, чтобы посадить в машину",
-        "ua": "Ти нікого не ведеш, щоб посадити в машину",
-        "en": "You’re not escorting anyone to put in the vehicle",
-        "de": "Du bringst niemanden zum Fahrzeug, den du hineinsetzen könntest",
-        "pl": "Nikogo nie prowadzisz, żeby wsadzić do pojazdu",
+        'ru': 'Ты никого не ведёшь, чтобы посадить в машину',
+        'ua': 'Ти нікого не ведеш, щоб посадити в машину',
+        'en': 'You’re not escorting anyone to put in the vehicle',
+        'de': 'Du bringst niemanden zum Fahrzeug, den du hineinsetzen könntest',
+        'pl': 'Nikogo nie prowadzisz, żeby wsadzić do pojazdu',
+    },
+
+    //
+    notUnderwearToCheckDiseases: {
+        'ru': 'Чтобы проверить здоровье человека он должен снять всю верхнюю одежду',
+        'ua': 'Щоб перевірити здоров\'я людини, вона повинна зняти весь верхній одяг',
+        'en': 'To check a person\'s health, they need to take off all outer clothing',
+        'de': 'Um die Gesundheit einer Person zu überprüfen, muss sie alle Oberbekleidung ausziehen',
+        'pl': 'Aby sprawdzić zdrowie osoby, musi ona zdjąć całą odzież wierzchnią',
+    },
+    notUnderwearToHealDiseases: {
+        "ru": "Чтобы вылечить человека, он должен снять всю верхнюю одежду",
+        "ua": "Щоб вилікувати людину, вона повинна зняти весь верхній одяг",
+        "en": "To heal a person, they need to take off all outer clothing",
+        "de": "Um eine Person zu heilen, muss sie alle Oberbekleidung ausziehen",
+        "pl": "Aby wyleczyć osobę, musi ona zdjąć całą odzież wierzchnią",
     }
 };

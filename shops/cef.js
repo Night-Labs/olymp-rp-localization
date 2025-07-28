@@ -7,6 +7,13 @@ export const cef = {
         pl: 'Sklep',
         zh: '商店',
     },
+    illegalCaption: {
+        "ru": "Нелегальные товары будут поставляться закладкой",
+        "ua": "Нелегальні товари будуть доставлятися закладкою",
+        "en": "Illegal goods will be delivered via dead drop",
+        "de": "Illegale Waren werden per Totbriefkasten geliefert",
+        "pl": "Nielegalne towary będą dostarczane przez zakopkę",
+    },
     chooseLabels: {
         choose: {
             ua: 'Виберіть',

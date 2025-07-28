@@ -34,6 +34,13 @@ export default {
         de: 'Es kann nicht mehr als ein Radar platziert werden',
         pl: 'Nie można umieścić więcej niż jednego radaru',
     },
+    notYourRadar: {
+        "ru": "Этот радар установил не ты, ты не можешь им пользоваться",
+        "ua": "Цей радар встановив не ти, ти не можеш ним користуватися",
+        "en": "You didn't place this radar, so you can't use it",
+        "de": "Diesen Radar hast du nicht aufgestellt, du kannst ihn nicht benutzen",
+        "pl": "To nie ty ustawiłeś ten radar, nie możesz go używać",
+    },
     controlModal: {
         title: {
             ru: 'Управление скоростным радаром',
@@ -68,7 +75,8 @@ export default {
         title: {
             ru: 'Выберете максимальную скорость в км/ч, это должна быть цифра от 30 до 300.',
             ua: 'Виберіть максимальну швидкість у км/год, це має бути число від 30 до 300.',
-            en: `Select the maximum speed in km/h, it must be a number from 30 to 300.`,
+            en: `Select the maximum speed in km/h, it must be a number
+                 from 30 to 300.`,
             de: 'Wähle die maximale Geschwindigkeit in km/h, sie muss zwischen 30 und 300 liegen.',
             pl: 'Wybierz maksymalną prędkość w km/h, musi to być liczba od 30 do 300.',
         },
