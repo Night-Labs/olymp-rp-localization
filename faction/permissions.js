@@ -248,4 +248,11 @@ export default {
         "de": "Evakuierungsbefehle ausstellen",
         "pl": "Wystawiać nakazy ewakuacji",
     },
+    arrest: {
+        "ru": "Арестовывать",
+        "ua": "Арештовувати",
+        "en": "Arrest",
+        "de": "Verhaften",
+        "pl": "Aresztować",
+    }
 };

@@ -30,12 +30,12 @@ export default {
             pl: 'Na parking',
         },
         goToStreet: {
-            ru: 'На улицу',
-            ua: 'На вулицю',
-            en: 'To the street',
-            de: 'Auf die Straße',
-            pl: 'Na ulicę',
-        },
+            "ru": "Вестибюль",
+            "ua": "Вестибюль",
+            "en": "Lobby",
+            "de": "Lobby",
+            "pl": "Hol",
+        }
     },
     npc: {
         dialog_01: {

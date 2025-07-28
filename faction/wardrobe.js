@@ -87,4 +87,11 @@ export default {
         de: 'Du hast bereits einen Job',
         pl: 'Masz już jakąś pracę',
     },
+    needTopBeforeTShirt: {
+        "ru": "Чтобы надеть нижнюю одежду, надень верхнюю",
+        "ua": "Щоб одягнути нижній одяг, спершу одягни верхній",
+        "en": "To put on bottom clothing, put on the top first",
+        "de": "Um Unterkleidung anzuziehen, zieh zuerst das Oberteil an",
+        "pl": "Aby założyć dolne ubranie, najpierw załóż górne",
+    },
 };
