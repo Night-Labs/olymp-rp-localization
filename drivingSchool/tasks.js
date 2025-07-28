@@ -24,20 +24,11 @@ export default {
         },
 
         fastDelivery: {
-            ru: 'Уложитесь в срок',
-            ua: 'Вкладіться в термін',
-            en: 'Meet the deadline',
-            de: 'Halten Sie die Frist ein',
-            pl: 'Dotrzymaj terminu',
-        },
-
-        timeRemaining: {
-            ru: 'осталось: {{time}}',
-            ua: 'залишилося: {{time}}',
-            en: 'time remaining: {{time}}',
-            de: 'verbleibende Zeit: {{time}}',
-            pl: 'czas pozostały: {{time}}',
-            zh: '剩余时间：{{time}}',
+            ru: 'Осталось времени',
+            ua: 'Залишилося часу',
+            en: 'Time remaining',
+            de: 'Verbleibende Zeit',
+            pl: 'Pozostały czas',
         },
 
         speedLimit: {

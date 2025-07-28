@@ -27,6 +27,15 @@ export default {
             de: 'Herzlichen Glückwunsch zum Bestehen der Prüfung für die Kategorie {{category}}! Die Gültigkeit wurde um 60 Tage verlängert.\n\nKomm gerne wieder zu uns!',
             pl: 'Gratulacje z okazji zdania egzaminu na kategorię {{category}}! Ważność została przedłużona o 60 dni.\n\nZapraszamy ponownie!',
         },
+
+        // Renew license
+        renewLicenseForMoney: {
+            ru: 'Оплата принята, срок действия ваших прав категории {{category}} продлён на 60 дней.\n\nТолько тщщ! Никому не говорите что у нас доступны такие услуги.',
+            ua: 'Оплата прийнята, термін дії ваших прав категорії {{category}} продовжено на 60 днів.\n\nТільки тс-с-с! Нікому не кажіть, що у нас доступні такі послуги.',
+            en: "Payment accepted, your {{category}} license has been extended for 60 days.\n\nJust shhh! Don't tell anyone that we offer such services.",
+            de: 'Zahlung angenommen, Ihre Lizenz der Kategorie {{category}} wurde um 60 Tage verlängert.\n\nNur pssst! Erzählen Sie niemandem, dass wir solche Dienstleistungen anbieten.',
+            pl: 'Płatność przyjęta, ważność Twojego prawa jazdy kategorii {{category}} została przedłużona o 60 dni.\n\nTylko ciii! Nikomu nie mów, że oferujemy takie usługi.',
+        },
     },
     // Buttons
     buttons: {
