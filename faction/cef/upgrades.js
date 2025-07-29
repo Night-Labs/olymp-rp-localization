@@ -18,6 +18,13 @@ export default {
         pl: 'Aktywny',
         zh: '活跃',
     },
+    'unavailable': {
+        'ru': 'Недоступно',
+        'ua': 'Недоступно',
+        'en': 'Unavailable',
+        'de': 'Nicht verfügbar',
+        'pl': 'Niedostępne',
+    },
     activate: {
         ru: 'Активировать',
         ua: 'Активувати',
@@ -183,26 +190,26 @@ export default {
         pl: 'Podstawowe samochody',
         zh: '基础车',
     },
-    "lowSheriffCarsDesc": {
-        "ru": "Базовые автомобили департамента шерифа, подходят для патруля и других целей",
-        "ua": "Базові автомобілі відділу шерифа, підходять для патрулювання та інших цілей",
-        "en": "Basic sheriff department vehicles, suitable for patrol and other purposes",
-        "de": "Einfache Fahrzeuge des Sheriff-Büros, geeignet für Patrouillen und andere Einsätze",
-        "pl": "Podstawowe pojazdy departamentu szeryfa, odpowiednie do patroli i innych celów",
+    'lowSheriffCarsDesc': {
+        'ru': 'Базовые автомобили департамента шерифа, подходят для патруля и других целей',
+        'ua': 'Базові автомобілі відділу шерифа, підходять для патрулювання та інших цілей',
+        'en': 'Basic sheriff department vehicles, suitable for patrol and other purposes',
+        'de': 'Einfache Fahrzeuge des Sheriff-Büros, geeignet für Patrouillen und andere Einsätze',
+        'pl': 'Podstawowe pojazdy departamentu szeryfa, odpowiednie do patroli i innych celów',
     },
-    "mediumSheriffCarsName": {
-        "ru": "Вертолёт",
-        "ua": "Гелікоптер",
-        "en": "Helicopter",
-        "de": "Hubschrauber",
-        "pl": "Helikopter",
+    'mediumSheriffCarsName': {
+        'ru': 'Вертолёт',
+        'ua': 'Гелікоптер',
+        'en': 'Helicopter',
+        'de': 'Hubschrauber',
+        'pl': 'Helikopter',
     },
-    "mediumSheriffCarsDesc": {
-        "ru": "Хороший вертолёт для полётов куда угодно, позволяет преследовать нарушителей и кординировать действия",
-        "ua": "Хороший гелікоптер для польотів куди завгодно, дозволяє переслідувати порушників і координувати дії",
-        "en": "A good helicopter for flying anywhere, allows chasing offenders and coordinating actions",
-        "de": "Ein guter Hubschrauber für Flüge überallhin, ermöglicht das Verfolgen von Straftätern und die Koordination von Einsätzen",
-        "pl": "Dobry helikopter do latania wszędzie, pozwala ścigać przestępców i koordynować działania",
+    'mediumSheriffCarsDesc': {
+        'ru': 'Хороший вертолёт для полётов куда угодно, позволяет преследовать нарушителей и кординировать действия',
+        'ua': 'Хороший гелікоптер для польотів куди завгодно, дозволяє переслідувати порушників і координувати дії',
+        'en': 'A good helicopter for flying anywhere, allows chasing offenders and coordinating actions',
+        'de': 'Ein guter Hubschrauber für Flüge überallhin, ermöglicht das Verfolgen von Straftätern und die Koordination von Einsätzen',
+        'pl': 'Dobry helikopter do latania wszędzie, pozwala ścigać przestępców i koordynować działania',
     },
 
     // LSPD
