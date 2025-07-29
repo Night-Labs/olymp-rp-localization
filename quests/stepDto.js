@@ -1,4 +1,7 @@
+import dailyFactionQuestsDto from './dailyFactionQuestsDto';
+
 export const stepDto = {
+    ...dailyFactionQuestsDto,
     talkWithNpc: {
         ru: 'Поговорите с {{name}}',
         ua: 'Поговоріть з {{name}}',
@@ -572,63 +575,5 @@ export const stepDto = {
         de: 'Jagen Sie {{amount}} beliebige Tiere',
         pl: 'Upoluj {{amount}} dowolnych zwierząt',
         zh: '猎杀{{amount}}任何动物',
-    },
-
-    //
-    plantSeeds: {
-        ru: 'Посадите {{name}} {{count}} раз',
-        ua: 'Посадіть {{name}} {{count}} разів',
-        en: 'Plant {{name}} {{count}} times',
-        de: 'Pflanzen Sie {{name}} {{count}} Mal',
-        pl: 'Zasadź {{name}} {{count}} razy',
-    },
-    growPlants: {
-        ru: 'Выростите "{{name}}" на ферме {{count}} раз',
-        ua: 'Виростіть "{{name}}" на фермі {{count}} разів',
-        en: 'Grow "{{name}}" on the farm {{count}} times',
-        de: 'Züchten Sie "{{name}}" auf dem Bauernhof {{count}} Mal',
-        pl: 'Wyhoduj "{{name}}" na farmie {{count}} razy',
-    },
-    waterAnyPlants: {
-        ru: 'Полейте любые растения на ферме {{count}} раз',
-        ua: 'Полийте будь-які рослини на фермі {{count}} разів',
-        en: 'Water any plants on the farm {{count}} times',
-        de: 'Gießen Sie beliebige Pflanzen auf dem Bauernhof {{count}} Mal',
-        pl: 'Podlej dowolne rośliny na farmie {{count}} razy',
-    },
-    robPlayers: {
-        ru: 'Ограбьте {{count}} людей',
-        ua: 'Пограбуйте {{count}} людей',
-        en: 'Rob {{count}} people',
-        de: 'Überfalle {{count}} Personen',
-        pl: 'Okradnij {{count}} osób',
-    },
-    stealVehicles: {
-        ru: 'Угоните {{count}} автомобилей',
-        ua: 'Вкрадіть {{count}} автомобілів',
-        en: 'Steal {{count}} vehicles',
-        de: 'Stehlen Sie {{count}} Fahrzeuge',
-        pl: 'Ukradnij {{count}} pojazdów',
-    },
-    deliverGreenBlocks: {
-        ru: 'Развезите {{count}} блоков green',
-        ua: 'Розвезіть {{count}} блоків green',
-        en: 'Deliver {{count}} green blocks',
-        de: 'Liefern Sie {{count}} grüne Blöcke',
-        pl: 'Dostarcz {{count}} zielonych bloków',
-    },
-    participateZoneCapture: {
-        ru: 'Примите участие в захвате территории {{count}} раз',
-        ua: 'Візьміть участь у захопленні території {{count}} разів',
-        en: 'Participate in territory capture {{count}} times',
-        de: 'Nehmen Sie {{count}} Mal an der Gebietsübernahme teil',
-        pl: 'Weź udział w przejęciu terytorium {{count}} razy',
-    },
-    killDifferentPlayers: {
-        ru: 'Убейте {{count}} разных игроков',
-        ua: 'Убийте {{count}} різних гравців',
-        en: 'Kill {{count}} different players',
-        de: 'Töten Sie {{count}} verschiedene Spieler',
-        pl: 'Zabij {{count}} różnych graczy',
     },
 };
