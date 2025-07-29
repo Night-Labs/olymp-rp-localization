@@ -1,4 +1,5 @@
 import cef from './cef';
+import { drivingLicensesCategories } from '../drivingLicenses/categories';
 
 export default {
     weaponModal: {
@@ -217,6 +218,7 @@ export default {
         de: 'Jagen',
         pl: 'Na polowanie',
     },
+    ...drivingLicensesCategories.nameId,
 
     //
 

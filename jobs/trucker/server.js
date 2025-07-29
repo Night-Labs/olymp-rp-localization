@@ -17,12 +17,11 @@ export const server = {
             zh: '物品已装载',
         },
         unloaded: {
-            ru: 'Товара разгружено',
-            ua: 'Товар розгружено',
-            en: 'Items unloaded',
-            de: 'Artikel entladen',
-            pl: 'Rozładowane przedmioty',
-            zh: '物品已卸载',
+            "ru": "Товара разгружено",
+            "ua": "Товар розвантажено",
+            "en": "The goods have been unloaded",
+            "de": "Die Ware ist entladen",
+            "pl": "Towar został rozładowany",
         },
     },
     gotJob: {

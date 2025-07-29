@@ -383,4 +383,12 @@ export default {
         'de': 'Lizenz {{name}} für {{price}}$ verkauft',
         'pl': 'Sprzedano licencję {{name}} za {{price}}$',
     },
+
+    takeLicense: {
+        "ru": "Забрал лицензии у {{name}} на {{license}}",
+        "ua": "Забрав ліцензії у {{name}} на {{license}}",
+        "en": "Took licenses from {{name}} for {{license}}",
+        "de": "Lizenzen von {{name}} für {{license}} genommen",
+        "pl": "Zabrałeś licencje od {{name}} na {{license}}",
+    }
 };

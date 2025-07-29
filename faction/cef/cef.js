@@ -201,14 +201,12 @@ export const cef = {
     },
 
     nameRank: {
-        ru: 'Имя/Ранг',
-        en: 'Name/Rank',
-        ua: 'Ім\'я/Ранг',
-        de: 'Name/Rang',
-        pl: 'Nazwa/Ranga',
-        zh: '姓名/级别',
+        "ru": "Имя",
+        "ua": "Ім'я",
+        "en": "Name",
+        "de": "Name",
+        "pl": "Imię",
     },
-
     date: {
         ru: 'Дата',
         en: 'Date',

@@ -95,4 +95,68 @@ export default {
             pl: 'Zrzuty nie spadają bez powodu — weź udział w {{goalCount}} zrzutach. Bądź na miejscu, gdy przesyłka wyląduje, i miej się na baczności — zawsze ktoś się kręci w pobliżu.',
         },
     },
+    "arrestPlayerFactionDailyQuest": {
+        "name": {
+            "ru": "На страже порядка",
+            "ua": "На варті порядку",
+            "en": "Keeping the Peace",
+            "de": "Für Ordnung sorgen",
+            "pl": "Na straży porządku"
+        },
+        "desc": {
+            "ru": "Арестуйте {{goalCount}} людей, нужно поддерживать порядок в штате!",
+            "ua": "Арештуй {{goalCount}} людей, потрібно підтримувати порядок у штаті!",
+            "en": "Arrest {{goalCount}} people, we need to keep order in the state!",
+            "de": "Verhafte {{goalCount}} Leute, wir müssen für Ordnung im Staat sorgen!",
+            "pl": "Aresztuj {{goalCount}} osób, porządek w stanie trzeba utrzymać!"
+        }
+    },
+    "friskPlayerFactionDailyQuest": {
+        "name": {
+            "ru": "Облава начинается",
+            "ua": "Облава починається",
+            "en": "The Raid Begins",
+            "de": "Die Razzia beginnt",
+            "pl": "Nalot się zaczyna",
+        },
+        "desc": {
+            "ru": "Твоя задача проста: обыщи {{goalCount}} человек. Проверяй каждый карман — никогда не знаешь, что за херню прячут эти граждане. Может, наркота, может, пистолет, а может просто тухлый бургер — но без тебя всё это так и останется в тени.",
+            "ua": "Твоє завдання просте: обшукай {{goalCount}} людей. Перевіряй кожну кишеню — ніколи не знаєш, яку хрінь ховають ці громадяни. Може, наркота, може, пістолет, а може просто тухлий бургер — але без тебе все це залишиться в тіні.",
+            "en": "Your task is simple: frisk {{goalCount}} people. Check every pocket — you never know what kind of crap these citizens are hiding. Could be drugs, a gun, or just a rotten burger — but without you, it'll all stay in the dark.",
+            "de": "Deine Aufgabe ist einfach: Durchsuche {{goalCount}} Leute. Kontrolliere jede Tasche – du weißt nie, welchen Scheiß diese Bürger verstecken. Vielleicht Drogen, vielleicht eine Pistole oder einfach nur ein gammliger Burger – aber ohne dich bleibt das alles im Schatten.",
+            "pl": "Twoje zadanie jest proste: przeszukaj {{goalCount}} osób. Sprawdź każdą kieszeń — nigdy nie wiesz, jakiego syfu ci obywatele nie chowają. Może narkotyki, może pistolet, a może po prostu zgniły burger — ale bez ciebie wszystko to zostanie w cieniu.",
+        }
+    },
+    "moderateAdsFactionDailyQuest": {
+        "name": {
+            "ru": "Суровая модерация",
+            "ua": "Сувора модерація",
+            "en": "Hardcore Moderation",
+            "de": "Harte Moderation",
+            "pl": "Twarda moderacja",
+        },
+        "desc": {
+            "ru": "Без тебя тут каждый второй будет спамить свои шавермы и “лучшую машину в штате”. Наведи порядок: модерируй и опубликуй {{goalCount}} объявлений. Не зевай — шлак должен уходить в бан, а нормальные посты лететь в эфир.",
+            "ua": "Без тебе тут кожен другий буде спамити свої шаверми та “найкращу машину в штаті”. Наведи порядок: модеруй та опублікуй {{goalCount}} оголошень. Не зволікай — шлак має йти в бан, а нормальні пости — в ефір.",
+            "en": "Without you, every second person here would spam their shawarma ads and “the best car in the state.” Bring order: moderate and publish {{goalCount}} ads. Don’t slack — trash goes to the ban, solid posts go live.",
+            "de": "Ohne dich würde hier jeder Zweite seine Shawarma oder das „beste Auto im Staat“ spammen. Sorge für Ordnung: moderiere und veröffentliche {{goalCount}} Anzeigen. Nicht trödeln – Müll gehört in den Bann, gute Posts auf Sendung.",
+            "pl": "Bez ciebie co drugi będzie tu spamował swoją kebabownię i „najlepszy samochód w stanie”. Zrób porządek: moderuj i opublikuj {{goalCount}} ogłoszeń. Nie śpij — śmieci do bana, porządne posty w eter.",
+        }
+    },
+    "healDiseasesFactionDailyQuest": {
+        "name": {
+            "ru": "Грязная работа",
+            "ua": "Брудна робота",
+            "en": "Dirty Work",
+            "de": "Drecksarbeit",
+            "pl": "Brudna robota",
+        },
+        "desc": {
+            "ru": "Твоя задача — вылечить {{goalCount}} человек от болячек. Кто-то кашляет, кто-то ноет — лечи всех подряд, не задавай лишних вопросов. Тут никто не будет благодарить, но если не ты, то эти чуваки так и будут разносить свою заразу по штату.",
+            "ua": "Твоє завдання — вилікувати {{goalCount}} людей від болячок. Хтось кашляє, хтось ниє — лікуй усіх підряд, не став зайвих запитань. Тут ніхто не скаже «дякую», але якщо не ти, то ці хлопці так і будуть розносити свою заразу по штату.",
+            "en": "Your task is to cure {{goalCount}} people from their illnesses. Some cough, some whine — treat them all, no questions asked. No one’s gonna thank you, but if you don’t do it, these guys will just keep spreading their plague around the state.",
+            "de": "Deine Aufgabe ist es, {{goalCount}} Leute von ihren Krankheiten zu heilen. Manche husten, andere jammern – behandel einfach alle, ohne Fragen zu stellen. Niemand wird dir danken, aber wenn nicht du, dann schleppen diese Typen ihre Seuche weiter durch den Staat.",
+            "pl": "Twoje zadanie to wyleczyć {{goalCount}} osób z różnych chorób. Jeden kaszle, drugi jęczy — lecz wszystkich jak leci, bez zbędnych pytań. Nikt ci nie podziękuje, ale jeśli nie ty, to ci kolesie będą roznosić zarazę po całym stanie.",
+        }
+    },
 };
