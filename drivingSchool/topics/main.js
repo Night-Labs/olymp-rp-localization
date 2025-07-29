@@ -127,7 +127,7 @@ export default {
         },
         question: {
             ru: 'Как открыть определённую дверь в Т/C ?',
-            ua: 'Як відкрити певну двері в Т/З ?',
+            ua: 'Як відкрити певні двері в Т/З?',
             en: 'How to open a specific door in a vehicle?',
             de: 'Wie öffnet man eine bestimmte Tür in einem Fahrzeug?',
             pl: 'Jak otworzyć konkretne drzwi w pojeździe?',

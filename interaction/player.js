@@ -146,12 +146,12 @@ export const player = {
         de: 'Spielergesundheit überprüfen',
         pl: 'Sprawdź zdrowie gracza',
     },
-    'healPlayerDiseases': {
-        'ru': 'Вылечить болезни игрока',
-        'ua': 'Вилікувати хвороби гравця',
-        'en': 'Cure player\'s diseases',
-        'de': 'Spielerkrankheiten heilen',
-        'pl': 'Wylecz choroby gracza',
+    healPlayerDiseases: {
+        ru: 'Вылечить болезни игрока',
+        ua: 'Вилікувати хвороби гравця',
+        en: "Cure player's diseases",
+        de: 'Spielerkrankheiten heilen',
+        pl: 'Wylecz choroby gracza',
     },
 
     healPlayer: {
@@ -223,6 +223,14 @@ export const player = {
         de: 'Pass zeigen',
         pl: 'Pokaż paszport',
         zh: '出示护照',
+    },
+
+    showDrivingLicenses: {
+        ru: 'Показать водительское удостоверение',
+        ua: 'Показати водійське посвідчення',
+        en: 'Show driving license',
+        de: 'Führerschein anzeigen',
+        pl: 'Pokaż prawo jazdy',
     },
 
     // frisk
@@ -490,10 +498,10 @@ export const player = {
         pl: 'Zdejmij maskę',
     },
     showBadge: {
-        'ru': 'Показать удостоверение',
-        'ua': 'Показати посвідчення',
-        'en': 'Show ID',
-        'de': 'Zeig den Ausweis',
-        'pl': 'Pokaż identyfikator',
+        ru: 'Показать удостоверение',
+        ua: 'Показати посвідчення',
+        en: 'Show ID',
+        de: 'Zeig den Ausweis',
+        pl: 'Pokaż identyfikator',
     },
 };
