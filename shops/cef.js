@@ -8,11 +8,11 @@ export const cef = {
         zh: '商店',
     },
     illegalCaption: {
-        "ru": "Нелегальные товары будут поставляться закладкой",
-        "ua": "Нелегальні товари будуть доставлятися закладкою",
-        "en": "Illegal goods will be delivered via dead drop",
-        "de": "Illegale Waren werden per Totbriefkasten geliefert",
-        "pl": "Nielegalne towary będą dostarczane przez zakopkę",
+        ru: 'Нелегальные товары будут поставляться закладкой',
+        ua: 'Нелегальні товари будуть доставлятися закладкою',
+        en: 'Illegal goods will be delivered via dead drop',
+        de: 'Illegale Waren werden per Totbriefkasten geliefert',
+        pl: 'Nielegalne towary będą dostarczane przez zakopkę',
     },
     chooseLabels: {
         choose: {
@@ -199,11 +199,11 @@ export const cef = {
                 zh: '面具',
             },
             cap: {
-                "ru": "Головной убор",
-                "ua": "Головний убір",
-                "en": "Headwear",
-                "de": "Kopfbedeckung",
-                "pl": "Nakrycie głowy",
+                ru: 'Головной убор',
+                ua: 'Головний убір',
+                en: 'Headwear',
+                de: 'Kopfbedeckung',
+                pl: 'Nakrycie głowy',
             },
             ears: {
                 ua: 'Сережки',
@@ -286,12 +286,12 @@ export const cef = {
                 zh: '背包',
             },
             decal: {
-                "ru": "Нашивки",
-                "ua": "Нашивки",
-                "en": "Patches",
-                "de": "Aufnäher",
-                "pl": "Naszywki",
-            }
+                ru: 'Нашивки',
+                ua: 'Нашивки',
+                en: 'Patches',
+                de: 'Aufnäher',
+                pl: 'Naszywki',
+            },
         },
     },
     barber: {
@@ -497,12 +497,11 @@ export const cef = {
             zh: '重型',
         },
         ammo: {
-            ru: 'Боеприпасы',
-            ua: 'Боєприпаси',
-            en: 'Ammunition',
-            de: 'Munition',
-            pl: 'Amunicja',
-            zh: '弹药',
+            ru: 'Снаряжение',
+            ua: 'Снарядження',
+            en: 'Equipment',
+            de: 'Ausrüstung',
+            pl: 'Wyposażenie',
         },
     },
     items: {

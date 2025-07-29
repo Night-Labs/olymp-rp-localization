@@ -134,11 +134,11 @@ export default {
         },
         answers: {
             A: {
-                ru: 'Через меню сервера',
-                ua: 'Через меню сервера',
-                en: 'Through the server menu',
-                de: 'Über das Servermenü',
-                pl: 'Przez menu serwera',
+                ru: 'Движение вертолёта вбок',
+                ua: 'Рух гелікоптера вбік',
+                en: 'Lateral helicopter movement',
+                de: 'Seitliche Helikopterbewegung',
+                pl: 'Boczny ruch śmigłowca',
             },
             B: {
                 ru: 'Снижение в спирали',
