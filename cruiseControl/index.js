@@ -1,26 +1,23 @@
-export default  {
-    header: {
-        ua: 'Круїз-контроль',
-        en: 'Cruise Control',
+export default {
+    title: {
         ru: 'Круиз-контроль',
-        de: 'Kruiskontrol',
-        pl: 'Kruiskontrol',
-        zh:'定速巡航',
+        ua: 'Круїз-контроль',
+        en: 'Cruise Control',
+        de: 'Tempomat',
+        pl: 'Tempomat',
     },
     enabled: {
-        ru: 'Круиз-контроль активирован',
-        en: 'Cruise control activated',
-        de: 'Tempomat aktiviert',
-        fr: 'Régulateur de vitesse activé',
-        ua: 'Круїз-контроль активовано',
-        zh:'启动定速巡航',
+        ru: 'Включён круиз-контроль на скорость {{speed}} км/ч, для отключения нажмите X.',
+        ua: 'Увімкнено круїз-контроль на швидкість {{speed}} км/год, для вимкнення натисніть X.',
+        en: 'Cruise control enabled at {{speed}} km/h. Press X to disable.',
+        de: 'Tempomat bei {{speed}} km/h aktiviert. Zum Deaktivieren X drücken.',
+        pl: 'Tempomat włączony na {{speed}} km/h. Naciśnij X, aby wyłączyć.',
     },
     disabled: {
-        ru: 'Круиз-контроль отключён',
-        en: 'Cruise control disabled',
-        de: 'Tempomat deaktiviert',
-        fr: 'Régulateur de vitesse désactivé',
-        ua: 'Круїз-контроль вимкнено',
-       zh:'定速巡航失效',
+        ru: 'Круиз-контроль отключён.',
+        ua: 'Круїз-контроль вимкнено.',
+        en: 'Cruise control disabled.',
+        de: 'Tempomat deaktiviert.',
+        pl: 'Tempomat wyłączony.',
     },
 };
