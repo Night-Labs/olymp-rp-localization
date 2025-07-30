@@ -104,6 +104,13 @@ export default {
                 'de': 'Lieferung für {{factionName}} genehmigt, erhalten: ${{money}}',
                 'pl': 'Dostawa dla {{factionName}} zatwierdzona, otrzymano: ${{money}}',
             },
+            'executeSupply': {
+                "ru": "Выполнение поставки для {{factionName}}, получено: ${{money}}",
+                "ua": "Виконання поставки для {{factionName}}, отримано: ${{money}}",
+                "en": "Supply run for {{factionName}} completed, received: ${{money}}",
+                "de": "Lieferung für {{factionName}} abgeschlossen, erhalten: ${{money}}",
+                "pl": "Dostawa dla {{factionName}} zakończona, otrzymano: ${{money}}",
+            },
             'boughtSurgeonOperation': {
                 'ru': '{{name}} купил операцию по смене внешности у хирурга. Получено: ${{money}}',
                 'ua': '{{name}} придбав операцію зі зміни зовнішності у хірурга. Отримано: ${{money}}',
