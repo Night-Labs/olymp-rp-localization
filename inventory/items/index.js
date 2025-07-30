@@ -21,5 +21,5 @@ export const items = {
     ...drugs,
     ...medical,
     ...ores,
-    ...diving,
+    diving,
 };
