@@ -347,4 +347,11 @@ export const faction = {
         'de': 'Kein Zugriff auf die Türsteuerung',
         'pl': 'Brak dostępu do sterowania drzwiami',
     },
+    youInvitedTo: {
+        "ru": "Ты вступил в {{name}}",
+        "ua": "Ти вступив до {{name}}",
+        "en": "You joined {{name}}",
+        "de": "Du bist {{name}} beigetreten",
+        "pl": "Dołączyłeś do {{name}}",
+    },
 };

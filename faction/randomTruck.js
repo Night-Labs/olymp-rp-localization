@@ -48,4 +48,11 @@ export default {
         de: '~r~Der LKW wurde zerstört! Du hast potenzielle Ressourcen verloren...',
         pl: '~r~Ciężarówka została zniszczona! Straciłeś potencjalne zasoby...',
     },
+    blip: {
+        "ru": "Грузовик с материалами",
+        "ua": "Вантажівка з матеріалами",
+        "en": "Truck with supplies",
+        "de": "LKW mit Materialien",
+        "pl": "Ciężarówka z materiałami",
+    }
 };

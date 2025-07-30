@@ -1,4 +1,11 @@
 export default {
+    blip: {
+        "ru": "Война за территорию",
+        "ua": "Війна за територію",
+        "en": "Territory war",
+        "de": "Gebietskrieg",
+        "pl": "Wojna o terytorium",
+    },
     youSuccessDeclareWar: {
         ru: 'Вы успешно объявили войну за территорию',
         ua: 'Ви успішно оголосили війну за територію',
