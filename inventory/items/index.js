@@ -8,6 +8,7 @@ import farm from './farm';
 import drugs from './drugs';
 import medical from './medical';
 import ores from './ores';
+import diving from './diving';
 
 export const items = {
     ...food,
@@ -20,4 +21,5 @@ export const items = {
     ...drugs,
     ...medical,
     ...ores,
+    ...diving,
 };

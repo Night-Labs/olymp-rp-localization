@@ -1,11 +1,11 @@
 export default {
     dialog1: {
         helloMan: {
-            ru: 'Привет! Хочешь работать дайвером? Зарплата норм, работа кайфовая, не профанская.',
-            ua: 'Привіт! Хочеш працювати дайвером? Зарплата норм, робота кайфова, не профанська.',
-            en: 'Hey! Want to work as a diver? The pay is good, the job is awesome, not amateur stuff.',
-            de: 'Hey! Willst du als Taucher arbeiten? Die Bezahlung ist gut, der Job ist cool und nicht amateurhaft.',
-            pl: 'Hej! Chcesz pracować jako nurek? Dobre wynagrodzenie, fajna robota, nie dla amatorów.',
+            "ru": "Привет! Хочешь поработать дайвером? Можно найти кучу крутых находок, а потом продать их скупщику",
+            "ua": "Привіт! Хочеш попрацювати дайвером? Можна знайти купу класних знахідок, а потім продати їх скупнику",
+            "en": "Hey! Want to work as a diver? You can find tons of cool stuff and sell it to the dealer later",
+            "de": "Hey! Willst du als Taucher arbeiten? Du kannst viele coole Funde machen und sie dann dem Händler verkaufen",
+            "pl": "Cześć! Chcesz popracować jako nurek? Możesz znaleźć mnóstwo fajnych rzeczy i sprzedać je handlarzowi",
         },
         go: {
             ru: 'Давай',
@@ -67,11 +67,11 @@ export default {
 
         //
         info: {
-            ru: 'Суть работы проста, мы даем тебе снаряжение ты ныряешь в воду и ищешь полезные вещи, чем больше вещей найдешь тем больше получишь денег. Разве иногда надо выплывать на поверхность наполнять балон воздухом.',
-            ua: 'Суть роботи проста: ми даємо тобі спорядження, ти пірнаєш у воду й шукаєш корисні речі. Чим більше знайдеш — тим більше отримаєш грошей. Іноді треба спливати на поверхню, щоб наповнити балон повітрям.',
-            en: 'The job is simple: we give you the gear, you dive into the water and look for valuable items. The more you find, the more money you get. Occasionally, you’ll need to surface to refill your air tank.',
-            de: 'Die Arbeit ist einfach: Wir geben dir die Ausrüstung, du tauchst ins Wasser und suchst nach nützlichen Dingen. Je mehr du findest, desto mehr Geld bekommst du. Ab und zu musst du auftauchen, um deine Luftflasche aufzufüllen.',
-            pl: 'Praca jest prosta: dajemy ci sprzęt, nurkujesz i szukasz cennych rzeczy. Im więcej znajdziesz, tym więcej zarobisz. Czasami musisz wypłynąć na powierzchnię, żeby napełnić butlę powietrzem.',
+            "ru": "После устройства мы выдаём тебе снаряжение для дайвинга. Ты идёшь плавать на дно морское и искать разные сокровища. Сколько найдёшь — столько и унесёшь с собой. Продать найденное ты можешь у скупщика",
+            "ua": "Після влаштування ми видаємо тобі спорядження для дайвінгу. Ти пірнаєш на морське дно та шукаєш різні скарби. Скільки знайдеш — стільки й забереш із собою. Продати знайдене можна у скупника",
+            "en": "Once you're hired, we’ll give you diving gear. You'll swim down to the sea floor and search for various treasures. Whatever you find, you can take with you. You can sell what you find to the dealer",
+            "de": "Nach der Einstellung geben wir dir Tauchausrüstung. Du tauchst zum Meeresgrund und suchst nach verschiedenen Schätzen. Was du findest, kannst du mitnehmen. Verkaufen kannst du die Funde beim Händler",
+            "pl": "Po zatrudnieniu dostaniesz od nas sprzęt do nurkowania. Schodzisz na dno morskie i szukasz różnych skarbów. Ile znajdziesz — tyle zabierzesz ze sobą. Znalezione rzeczy możesz sprzedać handlarzowi",
         },
         getIt: {
             ru: 'Понял',
@@ -92,11 +92,18 @@ export default {
     },
     dialogLeave: {
         soBye: {
-            ru: 'Ты заработал - ${{salary}} хочешь уже закончить работу?',
-            ua: 'Ти заробив - ${{salary}}, хочеш уже закінчити роботу?',
-            en: "You've earned ${{salary}}, do you want to finish the job now?",
-            de: 'Du hast ${{salary}} verdient, willst du jetzt die Arbeit beenden?',
-            pl: 'Zarobiłeś ${{salary}}, chcesz już zakończyć pracę?',
+            "ru": "Что, уже наплавался? Ну, в общем, ты собрал {{collected}} предметов. Можешь отнести их к скупщику и продать. Заканчиваешь работу?",
+            "ua": "Що, вже наплавався? Ну, загалом, ти зібрав {{collected}} предметів. Можеш віднести їх до скупника й продати. Закінчуєш роботу?",
+            "en": "Done swimming already? Well, you’ve collected {{collected}} items. You can take them to the dealer and sell them. Wrapping up?",
+            "de": "Schon genug geschwommen? Also, du hast {{collected}} Gegenstände gesammelt. Du kannst sie dem Händler bringen und verkaufen. Hörst du auf?",
+            "pl": "Już się napływałeś? No cóż, zebrałeś {{collected}} przedmiotów. Możesz zanieść je do handlarza i sprzedać. Kończysz pracę?",
+        },
+        soByeNoItems: {
+            "ru": "Вроде поплавал, а толку — ничего не нашёл. Ну ладно, бывает. Будешь заканчивать работу?",
+            "ua": "Наче поплавав, а толку — нічого не знайшов. Ну нічого, буває. Будеш закінчувати роботу?",
+            "en": "Swam around, but didn’t find anything. Oh well, it happens. Ready to wrap up?",
+            "de": "Bist zwar geschwommen, aber nichts gefunden. Naja, kommt vor. Willst du aufhören?",
+            "pl": "Niby popływałeś, ale nic nie znalazłeś. No cóż, bywa. Kończysz pracę?",
         },
         yes: {
             ru: 'Да',
@@ -238,5 +245,26 @@ export default {
         en: 'You are not working as a diver',
         de: 'Du arbeitest nicht als Taucher',
         pl: 'Nie pracujesz jako nurek',
+    },
+    "notEnoughSpaceInInventory": {
+        "ru": "Недостаточно места в инвентаре чтобы подобрать это",
+        "ua": "Недостатньо місця в інвентарі, щоб підібрати це",
+        "en": "Not enough space in inventory to pick this up",
+        "de": "Nicht genug Platz im Inventar, um dies aufzuheben",
+        "pl": "Za mało miejsca w ekwipunku, aby to podnieść"
+    },
+    "hintFor1level": {
+        "ru": "Подсказка: Следи за воздухом — если баллоны опустеют, просто пополни их у станции рядом с точкой начала работы.",
+        "ua": "Підказка: Слідкуй за повітрям — якщо балони спорожніють, просто поповни їх на станції біля точки початку роботи.",
+        "en": "Hint: Watch your air — if the tanks run empty, just refill them at the station near the starting point.",
+        "de": "Tipp: Achte auf deine Luft – wenn die Flaschen leer sind, füll sie einfach an der Station beim Startpunkt auf.",
+        "pl": "Podpowiedź: Pilnuj powietrza — jeśli butle się opróżnią, po prostu napełnij je na stacji obok punktu startu.",
+    },
+    "hintLowOxygen": {
+        "ru": "Воздуха кот наплакал. Хочешь сдохнуть на дне — продолжай, а если нет — быстро заправь баллоны!",
+        "ua": "Повітря майже не залишилось. Хочеш здохнути на дні — продовжуй, а якщо ні — швидко заправ балони!",
+        "en": "There’s barely any air left. Wanna die at the bottom? Keep going. If not — go refill your tanks, fast!",
+        "de": "Kaum noch Luft da. Willst du am Grund verrecken? Dann mach weiter. Wenn nicht – füll schnell die Flaschen auf!",
+        "pl": "Prawie nie ma powietrza. Chcesz zdechnąć na dnie? To kontynuuj. Jeśli nie — szybko napełnij butle!",
     },
 };
