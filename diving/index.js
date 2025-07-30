@@ -254,11 +254,11 @@ export default {
         "pl": "Za mało miejsca w ekwipunku, aby to podnieść"
     },
     "hintFor1level": {
-        "ru": "Подсказка: Следи за воздухом — если баллоны опустеют, просто пополни их у станции рядом с точкой начала работы.",
-        "ua": "Підказка: Слідкуй за повітрям — якщо балони спорожніють, просто поповни їх на станції біля точки початку роботи.",
-        "en": "Hint: Watch your air — if the tanks run empty, just refill them at the station near the starting point.",
-        "de": "Tipp: Achte auf deine Luft – wenn die Flaschen leer sind, füll sie einfach an der Station beim Startpunkt auf.",
-        "pl": "Podpowiedź: Pilnuj powietrza — jeśli butle się opróżnią, po prostu napełnij je na stacji obok punktu startu.",
+        "ru": "Подсказка: Тебе нужно плавать по всей поверхности и следить за радаром, на радаре будет отображаться лут, когда ты будешь рядом с ним. Также следи за воздухом в баллонах",
+        "ua": "Підказка: Тобі потрібно плавати по всій поверхні й стежити за радаром — на радарі буде відображатися лут, коли ти будеш поруч із ним. Також слідкуй за повітрям у балонах",
+        "en": "Hint: You need to swim across the whole surface and keep an eye on the radar — loot will appear on it when you're near. Also, watch the air in your tanks",
+        "de": "Tipp: Du musst über die gesamte Oberfläche schwimmen und das Radar im Blick behalten — der Loot wird angezeigt, wenn du in der Nähe bist. Achte auch auf die Luft in deinen Flaschen",
+        "pl": "Podpowiedź: Musisz pływać po całej powierzchni i obserwować radar — loot pojawi się, gdy będziesz blisko. Zwracaj też uwagę na powietrze w butlach",
     },
     "hintLowOxygen": {
         "ru": "Воздуха кот наплакал. Хочешь сдохнуть на дне — продолжай, а если нет — быстро заправь баллоны!",
