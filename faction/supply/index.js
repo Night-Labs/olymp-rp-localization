@@ -18,4 +18,11 @@ export default {
         de: 'Es gab kürzlich eine Lieferung, du musst noch etwas warten',
         pl: 'Dostawa była niedawno, musisz trochę poczekać',
     },
+    "notYourSupply": {
+        "ru": "Тут нельзя разгрузить",
+        "ua": "Тут не можна розвантажити",
+        "en": "Cannot unload here",
+        "de": "Hier kann nicht entladen werden",
+        "pl": "Tutaj nie można rozładować"
+    }
 };
