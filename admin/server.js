@@ -312,18 +312,46 @@ export const server = {
     },
 
     //
-    failedStartRandomEvent: {
-        ru: '~r~[ADMIN] Не удалось запустить рандомный ивент: {{name}} из-за недостаточного кол-ва игроков',
-        ua: '~r~[ADMIN] Не вдалося запустити випадкову подію: {{name}} через недостатню кількість гравців',
-        en: '~r~[ADMIN] Failed to start random event: {{name}} due to insufficient number of players',
-        de: '~r~[ADMIN] Zufälliges Event {{name}} konnte wegen unzureichender Spieleranzahl nicht gestartet werden',
-        pl: '~r~[ADMIN] Nie udało się uruchomić losowego wydarzenia: {{name}} z powodu zbyt małej liczby graczy',
+    "failedStartRandomEvent": {
+        "ru": "~r~[ADMIN] Не удалось запустить рандомный ивент: {{name}} из-за недостаточного кол-ва игроков",
+        "ua": "~r~[ADMIN] Не вдалося запустити випадкову подію: {{name}} через недостатню кількість гравців",
+        "en": "~r~[ADMIN] Failed to start random event: {{name}} due to not enough players",
+        "de": "~r~[ADMIN] Zufälliges Event {{name}} konnte wegen zu weniger Spieler nicht gestartet werden",
+        "pl": "~r~[ADMIN] Nie udało się uruchomić losowego wydarzenia: {{name}} z powodu zbyt małej liczby graczy",
     },
-    startedRandomEvent: {
-        ru: '~r~[ADMIN] Запущен рандомный ивент {{name}}',
-        ua: '~r~[ADMIN] Запущено випадкову подію {{name}}',
-        en: '~r~[ADMIN] Random event {{name}} started',
-        de: '~r~[ADMIN] Zufälliges Event {{name}} gestartet',
-        pl: '~r~[ADMIN] Uruchomiono losowe wydarzenie {{name}}',
+    "startedRandomEvent": {
+        "ru": "~r~[ADMIN] Запущен рандомный ивент {{name}}",
+        "ua": "~r~[ADMIN] Запущено випадкову подію {{name}}",
+        "en": "~r~[ADMIN] Random event {{name}} started",
+        "de": "~r~[ADMIN] Zufälliges Event {{name}} gestartet",
+        "pl": "~r~[ADMIN] Losowe wydarzenie {{name}} uruchomione",
+    },
+    "failedStartEvent": {
+        "ru": "~r~[ADMIN] Не удалось запустить ивент {{name}}",
+        "ua": "~r~[ADMIN] Не вдалося запустити подію {{name}}",
+        "en": "~r~[ADMIN] Failed to start event {{name}}",
+        "de": "~r~[ADMIN] Event {{name}} konnte nicht gestartet werden",
+        "pl": "~r~[ADMIN] Nie udało się uruchomić wydarzenia {{name}}",
+    },
+    "startedEvent": {
+        "ru": "~g~[ADMIN] Запущен ивент {{name}}",
+        "ua": "~g~[ADMIN] Подію {{name}} запущено",
+        "en": "~g~[ADMIN] Event {{name}} started",
+        "de": "~g~[ADMIN] Event {{name}} gestartet",
+        "pl": "~g~[ADMIN] Wydarzenie {{name}} uruchomione",
+    },
+    "noActiveEvent": {
+        "ru": "~y~[ADMIN] Нет активного ивента для остановки",
+        "ua": "~y~[ADMIN] Немає активної події для зупинки",
+        "en": "~y~[ADMIN] No active event to stop",
+        "de": "~y~[ADMIN] Kein aktives Event zum Stoppen vorhanden",
+        "pl": "~y~[ADMIN] Brak aktywnego wydarzenia do zatrzymania",
+    },
+    "stoppedEvent": {
+        "ru": "~g~[ADMIN] Ивент {{name}} успешно остановлен",
+        "ua": "~g~[ADMIN] Подію {{name}} успішно зупинено",
+        "en": "~g~[ADMIN] Event {{name}} successfully stopped",
+        "de": "~g~[ADMIN] Event {{name}} wurde erfolgreich gestoppt",
+        "pl": "~g~[ADMIN] Wydarzenie {{name}} zostało pomyślnie zatrzymane",
     },
 };
