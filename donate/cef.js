@@ -439,6 +439,13 @@ export const cef = {
                 de: 'Für den Steinbruch',
                 pl: 'Do kamieniołomu',
             },
+            diver: {
+                "ru": "Для дайвера",
+                "ua": "Для дайвера",
+                "en": "For the diver",
+                "de": "Für den Taucher",
+                "pl": "Dla nurka",
+            }
         },
     },
     clothes: {

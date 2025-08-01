@@ -34,6 +34,13 @@ export default {
         de: 'Deine Gruppe erfüllt nicht die Anforderungen, um einen Überfall zu beginnen.',
         pl: 'Twoja grupa nie spełnia wymagań do rozpoczęcia napadu.',
     },
+    groupCooldown: {
+        "ru": "Кто-то из вашей группы недавно уже грабил что-то",
+        "ua": "Хтось з твоєї групи нещодавно вже щось грабував",
+        "en": "Someone from your group recently robbed something",
+        "de": "Jemand aus deiner Gruppe hat vor Kurzem schon etwas ausgeraubt",
+        "pl": "Ktoś z twojej grupy niedawno już coś obrabował",
+    },
     alreadyInProgress: {
         ru: 'Этот бизнес уже ограбляют.',
         ua: 'Цей бізнес вже пограбовується.',
