@@ -121,6 +121,13 @@ export const faction = {
         de: 'Der Respawn-Prozess läuft bereits',
         pl: 'Proces respawnu jest już uruchomiony',
     },
+    supplyActiveCantRespawn: {
+        "ru": "Сейчас вы не можете зареспавнить машину, так как идёт поставка",
+        "ua": "Зараз ти не можеш відновити машину, бо триває постачання",
+        "en": "You can't respawn the vehicle right now because a supply is in progress",
+        "de": "Du kannst das Fahrzeug gerade nicht neu erscheinen lassen, da eine Lieferung läuft",
+        "pl": "Nie możesz teraz odrodzić pojazdu, bo trwa dostawa",
+    },
     confiscatedItems: {
         ru: '{{name}} Провёл обыск и конфисковал нелегальные вещи у {{targetName}}',
         ua: '{{name}} Провів обшук і конфіскував нелегальні речі у {{targetName}}',
