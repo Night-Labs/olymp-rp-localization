@@ -29,7 +29,7 @@ export default {
         desc: {
             ru: 'Время яблочного урожая! Собери {{amount}} корзин с яблоками, чтобы приготовить яблочный пирог для всей деревни. Стань героем сезона и получи заслуженную награду!',
             ua: 'Час яблучного врожаю! Збери {{amount}} кошиків з яблуками, щоб приготувати яблучний пиріг для всього села. Стань героєм сезону та отримай заслужену нагороду!',
-            en: "It's apple harvest time! Gather {{amount}} baskets of apples to bake a pie for the whole village. Become the hero of the season and earn a well-deserved reward!",
+            en: 'It\'s apple harvest time! Gather {{amount}} baskets of apples to bake a pie for the whole village. Become the hero of the season and earn a well-deserved reward!',
             de: 'Zeit Äpfel zu ernten! Sammle {{amount}} Körbe voll mit Äpfeln, um einen Kuchen für das ganze Dorf zu backen. Werde zum Helden der Saison und verdiene dir eine wohlverdiente Belohnung!',
             pl: 'Czas na zbiór jabłek! Zbierz {{amount}} koszy jabłek, aby upiec ciasto dla całej wioski. Zostań bohaterem sezonu i zdobądź zasłużoną nagrodę!',
             zh: '苹果收获季节到了!收集{{amount}}篮苹果，为全村烤一个馅饼。成为本赛季的英雄，并获得当之无愧的奖励',
@@ -179,24 +179,6 @@ export default {
             zh: '为什么不试试你的运气和玩老虎机${{amount}}筹码?你有机会赢得大奖，享受游戏的刺激。愿好运站在你这边',
         },
     },
-    playSlotsDailyQuest: {
-        name: {
-            ru: 'Играй в слоты',
-            ua: 'Грай в слоти',
-            en: 'Slot Machine Fun',
-            de: 'Spielautomaten-Spaß',
-            pl: 'Gra na automatach',
-            zh: '老虎机',
-        },
-        desc: {
-            ru: 'Почему бы тебе не испытать удачу и не сыграть в слоты на сумму {{amount}} фишек? У тебя есть шанс выиграть большие призы и насладиться азартом игры. Пусть удача будет на твоей стороне!',
-            ua: 'Чому б тобі не випробувати удачу і не зіграти в слоти на суму {{amount}} фішок? У тебе є шанс виграти великі призи і насолодитися азартом гри. Нехай удача буде на твоєму боці!',
-            en: 'Why not try your luck and play the slots for {{amount}} chips? You have a chance to win big prizes and enjoy the thrill of the game. May luck be on your side!',
-            de: 'Warum versuchst du nicht dein Glück und spielst {{amount}} Chips an den Spielautomaten? Du hast die Chance, große Preise zu gewinnen und den Nervenkitzel des Spiels zu genießen. Möge das Glück auf deiner Seite sein!',
-            pl: 'Dlaczego by nie spróbować szczęścia i zagrać na automatach za {{amount}} żetonów? Masz szansę wygrać wielkie nagrody i cieszyć się dreszczykiem emocji. Niech szczęście będzie po twojej stronie!',
-            zh: '为什么不试试你的运气，玩{{amount}}筹码的老虎机呢?你有机会赢得大奖，享受游戏的刺激。愿好运站在你这边',
-        },
-    },
     shoppingClothesDailyQuest: {
         name: {
             ru: 'Модный шопинг',
@@ -299,7 +281,7 @@ export default {
         desc: {
             ru: 'Готов к рыбацкому вызову? Поймай {{amount}} раз рыбу определенного вида и докажи, что ты настоящий мастер рыбалки! Вперед к берегу за приключениями и заслуженной наградой!',
             ua: 'Готовий до рибальського виклику? Злови {{amount}} разів рибу певного виду і доведи, що ти справжній майстер риболовлі! Вперед до берега за пригодами та заслуженою нагородою!',
-            en: "Ready for a fishing challenge? Catch {{amount}} times a specific type of fish and prove you're a true fishing master! Head to the shore for adventure and a well-deserved reward!",
+            en: 'Ready for a fishing challenge? Catch {{amount}} times a specific type of fish and prove you\'re a true fishing master! Head to the shore for adventure and a well-deserved reward!',
             de: 'Bereit für eine Angelherausforderung? Fange {{amount}} Mal einen bestimmten Fisch und beweise, dass du ein wahrer Angelmeister bist! Auf zum Ufer für Abenteuer und eine wohlverdiente Belohnung!',
             pl: 'Gotowy na wyzwanie wędkarskie? Złap {{amount}} razy rybę określonego gatunku i udowodnij, że jesteś prawdziwym mistrzem wędkowania! Ruszaj na brzeg po przygodę i zasłużoną nagrodę!',
             zh: '准备好挑战钓鱼了吗?捕获{{数量}}倍的特定类型的鱼，并证明你是一个真正的钓鱼大师!前往海岸探险和当之无愧的奖励',
@@ -357,6 +339,296 @@ export default {
             de: 'Deine Pflanzen dürsten nach Aufmerksamkeit! Gieße {{count}} Mal beliebige Pflanzen auf dem Bauernhof und sorge dafür, dass deine Ernte saftig wird. Für deine Fürsorge wartet eine wohlverdiente Belohnung auf dich!',
             pl: 'Twoje rośliny potrzebują uwagi! Podlej {{count}} razy dowolne rośliny na farmie i upewnij się, że plony będą obfite. Zasłużona nagroda czeka na ciebie za opiekę!',
             zh: '你的植物渴望关注！在农场浇水{{count}}次，确保你的收成丰富。你的细心照料将得到应得的回报！',
+        },
+    },
+
+    // Новые квесты с 03/08/2025 august
+    'jobQuarryMinerCollectDailyQuest': {
+        'name': {
+            'ru': 'Шахтёрский улов',
+            'ua': 'Шахтарський улов',
+            'en': 'Miner’s Catch',
+            'de': 'Bergarbeiter-Beute',
+            'pl': 'Wydobywcza zdobycz',
+        },
+        'desc': {
+            'ru': 'Сегодня твоя задача — добыть {{amount}} руды на шахте. Возьми кирку покрепче, отправляйся в забой и покажи, кто тут настоящий добытчик! Чем больше руды — тем выше твоя награда!',
+            'ua': 'Сьогодні твоє завдання — добути {{amount}} руди на шахті. Бери міцніше кайло, вирушай у забій і покажи, хто тут справжній добувач! Чим більше руди — тим вища твоя нагорода!',
+            'en': 'Today your task is to mine {{amount}} ore in the quarry. Grab your strongest pickaxe, head into the pit, and show who the real miner is! The more ore you get, the bigger your reward!',
+            'de': 'Deine Aufgabe heute: Baue {{amount}} Erz im Steinbruch ab. Nimm deine stärkste Spitzhacke, geh in den Stollen und zeig, wer hier der wahre Schürfer ist! Je mehr Erz, desto größer die Belohnung!',
+            'pl': 'Twoje dzisiejsze zadanie to wydobycie {{amount}} rudy w kopalni. Chwyć najmocniejszy kilof, ruszaj w dół i pokaż, kto tu rządzi! Im więcej rudy, tym większa nagroda!',
+        },
+    },
+    'earnQuarryDumperDailyQuest': {
+        'name': {
+            'ru': 'Король самосвала',
+            'ua': 'Король самоскида',
+            'en': 'Dump Truck King',
+            'de': 'König des Kippers',
+            'pl': 'Król wywrotki',
+        },
+        'desc': {
+            'ru': 'Садись за руль здоровенного дампера и заработай {{goal}}$, перевозя руду. Покажи класс, не забудь пристегнуться и не тормози — только вперёд к награде!',
+            'ua': 'Сідай за кермо здоровенного самоскида і зароби {{goal}}$, перевозячи руду. Покажи клас, не забудь пристебнутись і не гальмуй — тільки вперед до нагороди!',
+            'en': 'Get behind the wheel of a massive dumper and earn {{goal}}$ by hauling ore. Show your skills, buckle up, and don’t slow down — just full speed ahead to the reward!',
+            'de': 'Setz dich ans Steuer eines riesigen Kippers und verdiene {{goal}}$, indem du Erz transportierst. Zeig, was du drauf hast, schnall dich an und gib Gas – volle Fahrt voraus zur Belohnung!',
+            'pl': 'Wsiadaj za kierownicę wielkiej wywrotki i zarób {{goal}}$, przewożąc rudę. Pokaż klasę, zapnij pasy i nie zwalniaj — tylko naprzód po nagrodę!',
+        },
+    },
+    'earnQuarryBulldozerDailyQuest': {
+        'name': {
+            'ru': 'Бульдозер-босс',
+            'ua': 'Бульдозер-бос',
+            'en': 'Bulldozer Boss',
+            'de': 'Bulldozer-Boss',
+            'pl': 'Szef buldożera',
+        },
+        'desc': {
+            'ru': 'Врубай двигатель и заработай {{goal}}$, работая на бульдозере в карьере. Разгребай завалы, расчищай путь и собирай заслуженную награду!',
+            'ua': 'Заводь двигун і зароби {{goal}}$, працюючи на бульдозері в кар’єрі. Розгрібай завали, розчищай шлях і забирай заслужену нагороду!',
+            'en': 'Start the engine and earn {{goal}}$ while working with the bulldozer in the quarry. Clear debris, open the way, and collect your well-earned reward!',
+            'de': 'Starte den Motor und verdiene {{goal}}$, während du mit dem Bulldozer im Steinbruch arbeitest. Räume Geröll weg, mach den Weg frei und hol dir deine verdiente Belohnung!',
+            'pl': 'Odpal silnik i zarób {{goal}}$, pracując buldożerem w kamieniołomie. Usuń gruz, oczyść drogę i zgarnij zasłużoną nagrodę!',
+        },
+    },
+    'sellAnythingToBuyerDailyQuest': {
+        'name': {
+            'ru': 'Сделка со скупщиком',
+            'ua': 'Угода зі скупником',
+            'en': 'Deal with the Fence',
+            'de': 'Deal mit dem Hehler',
+            'pl': 'Transakcja z paserem',
+        },
+        'desc': {
+            'ru': 'Зайди к скупщику {{buyerName}} и продай что угодно на сумму {{goal}} $. Не стесняйся — избавляйся от хлама, получай кэш и двигайся к награде!',
+            'ua': 'Зайди до скупника {{buyerName}} і продай що завгодно на суму {{goal}} $. Не соромся — позбувайся мотлоху, отримуй кеш і рухайся до нагороди!',
+            'en': 'Visit the fence {{buyerName}} and sell anything worth {{goal}} $. Don’t hold back — ditch the junk, get the cash, and move toward your reward!',
+            'de': 'Geh zum Hehler {{buyerName}} und verkauf irgendwas im Wert von {{goal}} $. Keine Zurückhaltung — werde den Krempel los, kassiere das Geld und hol dir deine Belohnung!',
+            'pl': 'Odwiedź pasera {{buyerName}} i sprzedaj cokolwiek za {{goal}} $. Nie krępuj się — pozbądź się gratów, zgarnij kasę i rusz po nagrodę!',
+        },
+    },
+    'sellDivingLootToBuyerDailyQuest': {
+        'name': {
+            'ru': 'Морской барыга',
+            'ua': 'Морський барига',
+            'en': 'Sea Hustler',
+            'de': 'Meeres-Schieber',
+            'pl': 'Morski handlarz',
+        },
+        'desc': {
+            'ru': 'Продай скупщику {{buyerName}} всё, что нарыбачил под водой, на сумму {{goal}} $. Ныряй глубже, тащи больше — и не забудь забрать свою награду!',
+            'ua': 'Продай скупнику {{buyerName}} все, що наловив під водою, на суму {{goal}} $. Пірнай глибше, тягни більше — і не забудь забрати свою нагороду!',
+            'en': 'Sell everything you fished up underwater to the fence {{buyerName}} for {{goal}} $. Dive deeper, bring more — and don’t forget your reward!',
+            'de': 'Verkauf dem Hehler {{buyerName}} alles, was du unter Wasser gefischt hast, für {{goal}} $. Tauch tiefer, bring mehr — und vergiss deine Belohnung nicht!',
+            'pl': 'Sprzedaj paserowi {{buyerName}} wszystko, co wyłowiłeś pod wodą, za {{goal}} $. Nurkuj głębiej, przynoś więcej — i nie zapomnij o nagrodzie!',
+        },
+    },
+    'sellMinerLootToBuyerDailyQuest': {
+        'name': {
+            'ru': 'Сбыт руды',
+            'ua': 'Збут руди',
+            'en': 'Ore Dealing',
+            'de': 'Erzhandel',
+            'pl': 'Zbyt rudy',
+        },
+        'desc': {
+            'ru': 'Продай скупщику {{buyerName}} руду, которую добыл на шахте, на сумму {{goal}} $. Не держи богатство при себе — обменивай на кэш и получай награду!',
+            'ua': 'Продай скупнику {{buyerName}} руду, яку добув у шахті, на суму {{goal}} $. Не тримай багатство при собі — міняй на кеш і отримуй нагороду!',
+            'en': 'Sell the ore you mined to the fence {{buyerName}} for {{goal}} $. Don’t hoard your riches — trade for cash and claim your reward!',
+            'de': 'Verkauf das Erz, das du in der Mine abgebaut hast, dem Hehler {{buyerName}} für {{goal}} $. Behalte den Reichtum nicht für dich — tausch ihn gegen Geld und hol dir die Belohnung!',
+            'pl': 'Sprzedaj paserowi {{buyerName}} rudę, którą wydobyłeś w kopalni, za {{goal}} $. Nie trzymaj bogactwa przy sobie — wymień na kasę i zgarnij nagrodę!',
+        },
+    },
+    'sellFishingLootToBuyerDailyQuest': {
+        'name': {
+            'ru': 'Рыбный барыга',
+            'ua': 'Рибний барига',
+            'en': 'Fish Hustler',
+            'de': 'Fisch-Schieber',
+            'pl': 'Rybny handlarz',
+        },
+        'desc': {
+            'ru': 'Сдавай весь свой улов скупщику {{buyerName}} на сумму {{goal}} $. Чем крупнее улов — тем ближе награда. Не сиди на берегу — лови и продавай всё подряд!',
+            'ua': 'Здавай весь свій улов скупнику {{buyerName}} на суму {{goal}} $. Чим більший улов — тим ближче нагорода. Не сиди на березі — лови й продавай усе підряд!',
+            'en': 'Sell your entire catch to the fence {{buyerName}} for {{goal}} $. The bigger the haul, the closer the reward. Don’t sit on the shore — catch and sell it all!',
+            'de': 'Verkauf deinen gesamten Fang dem Hehler {{buyerName}} für {{goal}} $. Je größer der Fang – desto näher die Belohnung. Sitz nicht am Ufer – fang was und verkauf alles!',
+            'pl': 'Sprzedaj cały swój połów paserowi {{buyerName}} za {{goal}} $. Im większy połów — tym bliżej nagroda. Nie siedź na brzegu — łów i sprzedawaj wszystko jak leci!',
+        },
+    },
+    'sellHuntingLootToBuyerDailyQuest': {
+        'name': {
+            'ru': 'Сбыт добычи',
+            'ua': 'Збут здобичі',
+            'en': 'Trophy Trade',
+            'de': 'Beutehandel',
+            'pl': 'Zbyt zdobyczy',
+        },
+        'desc': {
+            'ru': 'Снеси скупщику {{buyerName}} всю охотничью добычу на сумму {{goal}} $. Не оставляй трофеи пылиться — меняй их на деньги и забирай награду!',
+            'ua': 'Занеси скупнику {{buyerName}} всю мисливську здобич на суму {{goal}} $. Не залишай трофеї припадати пилом — міняй їх на гроші й забирай нагороду!',
+            'en': 'Bring all your hunting loot to the fence {{buyerName}} for {{goal}} $. Don’t let your trophies gather dust — trade them for cash and grab your reward!',
+            'de': 'Bring dem Hehler {{buyerName}} deine gesamte Jagdbeute im Wert von {{goal}} $. Lass deine Trophäen nicht verstauben – tausch sie gegen Geld und hol dir deine Belohnung!',
+            'pl': 'Zanieś paserowi {{buyerName}} całą swoją myśliwską zdobycz za {{goal}} $. Nie pozwól trofeom się kurzyć — wymień je na gotówkę i odbierz nagrodę!',
+        },
+    },
+    'reachFlappyBirdRecordDailyQuest': {
+        'name': {
+            'ru': 'Прыжок за рекордом',
+            'ua': 'Стрибок за рекордом',
+            'en': 'Jump for the Record',
+            'de': 'Sprung zum Rekord',
+            'pl': 'Skok po rekord',
+        },
+        'desc': {
+            'ru': 'Побей свой предыдущий рекорд во Flappy Bird. Чем выше летишь — тем слаще победа и награда!',
+            'ua': 'Побий свій попередній рекорд у Flappy Bird. Чим вище летиш — тим солодша перемога й нагорода!',
+            'en': 'Beat your previous record in Flappy Bird. The higher you fly — the sweeter the victory and the reward!',
+            'de': 'Schlag deinen vorherigen Rekord in Flappy Bird. Je höher du fliegst – desto süßer der Sieg und die Belohnung!',
+            'pl': 'Pobij swój poprzedni rekord w Flappy Bird. Im wyżej lecisz — tym słodsze zwycięstwo i nagroda!',
+        },
+    },
+    'sendPhoneSmsDailyQuest': {
+        'name': {
+            'ru': 'Смс-общение',
+            'ua': 'СМС-спілкування',
+            'en': 'SMS Socializing',
+            'de': 'SMS-Kommunikation',
+            'pl': 'SMS-komunikacja',
+        },
+        'desc': {
+            'ru': 'Разошли смс на {{count}} разных номеров. Больше общения — больше движухи, а заодно и награда в кармане!',
+            'ua': 'Надішли смс на {{count}} різних номерів. Більше спілкування — більше двіжу, а ще й нагорода в кишені!',
+            'en': 'Send SMS messages to {{count}} different numbers. The more you connect — the more action, and a reward in your pocket!',
+            'de': 'Verschicke SMS an {{count}} verschiedene Nummern. Mehr Kommunikation – mehr Action und obendrauf eine Belohnung in der Tasche!',
+            'pl': 'Wyślij SMS-y na {{count}} różnych numerów. Więcej kontaktu — więcej akcji, a nagroda sama wpadnie do kieszeni!',
+        },
+    },
+    drinkWiskeyDailyQuest: {
+        'name': {
+            'ru': 'Глоток крепкого',
+            'ua': 'Ковток міцного',
+            'en': 'A Sip of the Strong Stuff',
+            'de': 'Ein Schluck Starkes',
+            'pl': 'Łyk mocnego',
+        },
+        'desc': {
+            'ru': 'Залей в себя виски и почувствуй вкус жизни. Иногда нужно просто расслабиться и поднять бокал за успех — а награда найдёт тебя сама!',
+            'ua': 'Залий у себе віскі й відчуй смак життя. Іноді треба просто розслабитися й підняти келих за успіх — а нагорода знайде тебе сама!',
+            'en': 'Pour yourself some whiskey and taste life. Sometimes you just need to relax and raise a glass to success — and the reward will come to you!',
+            'de': 'Gieß dir einen Whiskey ein und schmeck das Leben. Manchmal muss man sich einfach entspannen und das Glas auf den Erfolg heben – und die Belohnung kommt von selbst!',
+            'pl': 'Wlej w siebie whisky i poczuj smak życia. Czasem trzeba się po prostu zrelaksować i wznieść toast za sukces — a nagroda sama cię znajdzie!',
+        },
+    },
+    eatBurgersDailyQuest: {
+        "name": {
+            "ru": "Бургер-обжора",
+            "ua": "Бургер-обжора",
+            "en": "Burger Glutton",
+            "de": "Burger-Fresser",
+            "pl": "Burgerowy Obżartuch",
+        },
+        "desc": {
+            "ru": "Уплети {{amount}} бургеров за день. Покажи всем, кто тут главный по фастфуду, и заодно забери свою награду!",
+            "ua": "З'їж {{amount}} бургерів за день. Покажи всім, хто тут головний по фастфуду, і забери свою нагороду!",
+            "en": "Devour {{amount}} burgers in a day. Show everyone who's the fast food boss and grab your reward!",
+            "de": "Verschling {{amount}} Burger an einem Tag. Zeig allen, wer hier der Fast-Food-Boss ist, und hol dir deine Belohnung!",
+            "pl": "Wciągnij {{amount}} burgerów w jeden dzień. Pokaż wszystkim, kto tu rządzi fast foodem, i zgarnij nagrodę!",
+        },
+    },
+    callTimeDailyQuest: {
+        "name": {
+            "ru": "Болтун на проводе",
+            "ua": "Базікало на зв'язку",
+            "en": "Chatterbox on the Line",
+            "de": "Plappermaul am Draht",
+            "pl": "Gaduła na linii",
+        },
+        "desc": {
+            "ru": "Проведи в звонках не меньше {{minutes}} минут. Общайся, решай вопросы, базарь ни о чём — главное не молчи! За разговорчивость — награда.",
+            "ua": "Проведи в дзвінках не менше {{minutes}} хвилин. Спілкуйся, вирішуй питання, теревенькай про все — головне не мовчи! За балакучість — нагорода.",
+            "en": "Spend at least {{minutes}} minutes on calls. Chat, solve stuff, ramble about nothing — just don’t stay silent! Chattiness gets you a reward.",
+            "de": "Verbringe mindestens {{minutes}} Minuten in Anrufen. Quatsch, löse Probleme, laber über alles Mögliche – Hauptsache, du schweigst nicht! Für Redseligkeit gibt’s eine Belohnung.",
+            "pl": "Spędź co najmniej {{minutes}} minut na rozmowach. Gadaj, rozwiązuj sprawy, trajkocz o byle czym — byle nie milcz! Za gadatliwość czeka nagroda.",
+        },
+    },
+    repairVehiclesDailyQuest: {
+        "name": {
+            "ru": "Механик дня",
+            "ua": "Механік дня",
+            "en": "Mechanic of the Day",
+            "de": "Mechaniker des Tages",
+            "pl": "Mechanik Dnia",
+        },
+        "desc": {
+            "ru": "Почини {{count}} любых машин с помощью ремкомплекта. Взял ключ, подкрутил — и награда уже в твоих руках!",
+            "ua": "Полагодь {{count}} будь-яких машин за допомогою ремкомплекту. Взяв ключ, підкрутив — і нагорода вже в твоїх руках!",
+            "en": "Repair {{count}} any vehicles using a repair kit. Grab a wrench, tighten a few bolts — and the reward is yours!",
+            "de": "Repariere {{count}} beliebige Fahrzeuge mit einem Reparaturset. Schnapp dir den Schraubenschlüssel, zieh nach — und die Belohnung gehört dir!",
+            "pl": "Napraw {{count}} dowolnych pojazdów za pomocą zestawu naprawczego. Chwyć klucz, dokręć parę śrub — i nagroda jest twoja!",
+        },
+    },
+    medicalCheckupDailyQuest: {
+        "name": {
+            "ru": "Медосмотр",
+            "ua": "Медогляд",
+            "en": "Medical Checkup",
+            "de": "Gesundheitscheck",
+            "pl": "Badania lekarskie",
+        },
+        "desc": {
+            "ru": "Загляни в больницу и пройди медосмотр — проверься на наличие болезней. Здоровье превыше всего, а за заботу о себе — заслуженная награда!",
+            "ua": "Зазирни до лікарні та пройди медогляд — перевірся на наявність хвороб. Здоров’я — перш за все, а за турботу про себе — заслужена нагорода!",
+            "en": "Drop by the hospital and get a checkup — make sure you're disease-free. Health comes first, and self-care earns you a well-deserved reward!",
+            "de": "Schau im Krankenhaus vorbei und mach einen Gesundheitscheck – lass dich auf Krankheiten untersuchen. Gesundheit geht vor, und für Selbstfürsorge gibt’s eine wohlverdiente Belohnung!",
+            "pl": "Wpadnij do szpitala na badania — sprawdź, czy nie masz żadnych chorób. Zdrowie przede wszystkim, a za dbanie o siebie zasłużona nagroda!",
+        },
+    },
+    takeBloodMedicalDailyQuest: {
+        "name": {
+            "ru": "Донор дня",
+            "ua": "Донор дня",
+            "en": "Donor of the Day",
+            "de": "Spender des Tages",
+            "pl": "Dawca Dnia",
+        },
+        "desc": {
+            "ru": "Сдай кровь в больнице и помоги тем, кому она нужна. Хорошее дело не останется без награды!",
+            "ua": "Здай кров у лікарні та допоможи тим, хто її потребує. Добра справа не залишиться без нагороди!",
+            "en": "Donate blood at the hospital and help those in need. A good deed won’t go unrewarded!",
+            "de": "Spende Blut im Krankenhaus und hilf denen, die es brauchen. Eine gute Tat bleibt nicht unbelohnt!",
+            "pl": "Oddaj krew w szpitalu i pomóż tym, którzy jej potrzebują. Dobre uczynki nie pozostają bez nagrody!",
+        },
+    },
+    sellFarmLootToBuyerDailyQuest: {
+        "name": {
+            "ru": "Собрал — продал",
+            "ua": "Зібрав — продав",
+            "en": "Harvest and Sell",
+            "de": "Geerntet und verkauft",
+            "pl": "Zebrane — sprzedane",
+        },
+        "desc": {
+            "ru": "Всё, что вырастил на ферме, неси скупщику {{buyerName}} и продай минимум на {{goal}} $. Не скупись — награда тебя не подведёт!",
+            "ua": "Усе, що виростив на фермі, неси скупнику {{buyerName}} і продай щонайменше на {{goal}} $. Не шкодуй — нагорода не підведе!",
+            "en": "Take everything you grew on the farm to buyer {{buyerName}} and sell it for at least {{goal}} $. Don’t hold back — the reward won’t disappoint!",
+            "de": "Bring alles, was du auf dem Bauernhof angebaut hast, zu {{buyerName}} und verkaufe es für mindestens {{goal}} $. Sei nicht geizig – die Belohnung lohnt sich!",
+            "pl": "Zanieś wszystko, co wyhodowałeś na farmie, do kupca {{buyerName}} i sprzedaj za co najmniej {{goal}} $. Nie żałuj — nagroda cię nie zawiedzie!",
+        },
+    },
+    tuneCarDailyQuest: {
+        "name": {
+            "ru": "Прокачай корыто",
+            "ua": "Прокачай корито",
+            "en": "Pimp Your Ride",
+            "de": "Tuning für die Karre",
+            "pl": "Podrasuj brykę",
+        },
+        "desc": {
+            "ru": "Ввали {{amount}} $ в тюнинг своей машины. Пусть все офигеют от прокачки, а ты получи заслуженную награду!",
+            "ua": "Ввали {{amount}} $ у тюнінг своєї машини. Нехай усі офігєють від прокачки, а ти отримай заслужену нагороду!",
+            "en": "Throw {{amount}} $ into tuning your car. Let everyone be blown away by the upgrades — and you get the reward you deserve!",
+            "de": "Ballere {{amount}} $ ins Tuning deiner Karre. Lass alle staunen über dein Setup – und hol dir deine wohlverdiente Belohnung!",
+            "pl": "Pakuj {{amount}} $ w tuning swojej bryki. Niech wszyscy zbierają szczęki z podłogi — a ty zgarnij zasłużoną nagrodę!",
         },
     },
 };

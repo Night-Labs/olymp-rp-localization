@@ -50,25 +50,38 @@ export const stepDto = {
     getToFarmBuyer: {
         ru: 'Доберитесь до фермерского скупщика',
         ua: 'Доберіться до фермерського скупника',
-        en: "Get to the farmer's buyer",
+        en: 'Get to the farmer\'s buyer',
         de: 'Gehe zum Bauernkäufer',
         pl: 'Dostęp do kupca rolnika',
     },
-    sellItemBuyer: {
-        ru: 'Продайте скупщику {{name}} в количестве {{count}} шт.',
-        ua: 'Продайте скуповувачу {{name}} у кількості {{count}} шт.',
-        en: 'Sell {{count}} of {{name}} to the buyer',
-        de: 'Verkaufe {{count}} von {{name}} an den Käufer',
-        pl: 'Sprzedaj {{count}} sztuk {{name}} kupcowi',
+    'sellToFence': {
+        'ru': 'Продай скупщику {{buyerName}} {{name}} на сумму {{money}} $',
+        'ua': 'Продай скупнику {{buyerName}} {{name}} на суму {{money}} $',
+        'en': 'Sell {{name}} to the fence {{buyerName}} for {{money}} $',
+        'de': 'Verkauf {{name}} an den Hehler {{buyerName}} für {{money}} $',
+        'pl': 'Sprzedaj {{name}} paserowi {{buyerName}} za {{money}} $',
     },
-    sellItemBuyerAll: {
-        ru: 'Продайте скупщику весь {{name}} который у вас есть',
-        ua: 'Продайте скуповувачу весь {{name}}, що у вас є',
-        en: 'Sell all of your {{name}} to the buyer',
-        de: 'Verkaufe alle deine {{name}} an den Käufer',
-        pl: 'Sprzedaj całe {{name}}, które masz, kupcowi',
+    'sellToFenceAny': {
+        'ru': 'Продай скупщику {{buyerName}} любой товар на сумму {{money}} $',
+        'ua': 'Продай скупнику {{buyerName}} будь-який товар на суму {{money}} $',
+        'en': 'Sell any item to the fence {{buyerName}} for {{money}} $',
+        'de': 'Verkauf irgendeinen Gegenstand an den Hehler {{buyerName}} für {{money}} $',
+        'pl': 'Sprzedaj dowolny przedmiot paserowi {{buyerName}} za {{money}} $',
     },
-
+    'sellAllToFence': {
+        'ru': 'Продай скупщику {{buyerName}} весь {{name}} что у тебя есть за раз',
+        'ua': 'Продай скупнику {{buyerName}} весь {{name}}, що в тебе є, за раз',
+        'en': 'Sell all your {{name}} to the fence {{buyerName}} at once',
+        'de': 'Verkauf deinen ganzen {{name}} auf einmal an den Hehler {{buyerName}}',
+        'pl': 'Sprzedaj cały swój {{name}} paserowi {{buyerName}} za jednym razem',
+    },
+    'sellAllToFenceAny': {
+        'ru': 'Продай скупщику {{buyerName}} вообще всё что сможешь одним махом',
+        'ua': 'Продай скупнику {{buyerName}} взагалі все, що зможеш, за один раз',
+        'en': 'Sell absolutely everything you can to the fence {{buyerName}} in one go',
+        'de': 'Verkauf dem Hehler {{buyerName}} alles, was du kannst, auf einmal',
+        'pl': 'Sprzedaj paserowi {{buyerName}} absolut wszystko, co możesz, za jednym zamachem',
+    },
     //
 
     deliveryPizza: {
@@ -575,5 +588,84 @@ export const stepDto = {
         de: 'Jagen Sie {{amount}} beliebige Tiere',
         pl: 'Upoluj {{amount}} dowolnych zwierząt',
         zh: '猎杀{{amount}}任何动物',
+    },
+
+    // Новые квесты с 03/08/2025 august
+    'collectQuarryMiner': {
+        'ru': 'Добудьте {{count}} любой руды работая шахтером на шахте',
+        'ua': 'Добудьте {{count}} будь-якої руди, працюючи шахтарем у шахті',
+        'en': 'Mine {{count}} of any ore while working as a miner in the quarry',
+        'de': 'Baue {{count}} beliebiges Erz ab, während du als Bergarbeiter im Steinbruch arbeitest',
+        'pl': 'Wydobądź {{count}} dowolnej rudy pracując jako górnik w kamieniołomie',
+    },
+    'earnMoneyWorkingDumperInQuarry': {
+        'ru': 'Заработайте {{amount}}$ работая водителем самосвала на шахте',
+        'ua': 'Заробіть {{amount}}$, працюючи водієм самоскида на шахті',
+        'en': 'Earn {{amount}}$ working as a dumper driver in the quarry',
+        'de': 'Verdiene {{amount}}$, indem du als Muldenkipperfahrer im Steinbruch arbeitest',
+        'pl': 'Zarób {{amount}}$ pracując jako kierowca wywrotki w kamieniołomie',
+    },
+    'earnMoneyWorkingBulldozerInQuarry': {
+        'ru': 'Заработайте {{amount}}$ работая водителем бульдозера на шахте',
+        'ua': 'Заробіть {{amount}}$, працюючи водієм бульдозера на шахті',
+        'en': 'Earn {{amount}}$ working as a bulldozer driver in the quarry',
+        'de': 'Verdiene {{amount}}$, indem du als Bulldozerfahrer im Steinbruch arbeitest',
+        'pl': 'Zarób {{amount}}$ pracując jako operator buldożera w kamieniołomie',
+    },
+    'flappyBirdReachRecord': {
+        'ru': 'Побейте свой рекорд в мини игре Flappy Bird',
+        'ua': 'Побий свій рекорд у мінігрі Flappy Bird',
+        'en': 'Beat your record in the Flappy Bird mini-game',
+        'de': 'Schlag deinen Rekord im Flappy Bird Minispiel',
+        'pl': 'Pobij swój rekord w minigrze Flappy Bird',
+    },
+    'sendSmsPlayers': {
+        'ru': 'Отправьте {{count}} смс на разные номера',
+        'ua': 'Надішліть {{count}} смс на різні номери',
+        'en': 'Send {{count}} SMS messages to different numbers',
+        'de': 'Sende {{count}} SMS an verschiedene Nummern',
+        'pl': 'Wyślij {{count}} SMS-ów na różne numery',
+    },
+    drinkWhiskey: {
+        'ru': 'Выпейте {{goal}} бутылок виски',
+        'ua': 'Випий {{goal}} пляшок віскі',
+        'en': 'Drink {{goal}} bottles of whiskey',
+        'de': 'Trink {{goal}} Flaschen Whiskey',
+        'pl': 'Wypij {{goal}} butelek whisky',
+    },
+    eatBurgersCount: {
+        "ru": "Сьешь {{goal}} бургеров",
+        "ua": "З'їж {{goal}} бургерів",
+        "en": "Eat {{goal}} burgers",
+        "de": "Iss {{goal}} Burger",
+        "pl": "Zjedz {{goal}} burgerów",
+    },
+    callTime: {
+        "ru": "Проведи {{minutes}} минут в звонке с кем нибудь",
+        "ua": "Проведи {{minutes}} хвилин у дзвінку з кимось",
+        "en": "Spend {{minutes}} minutes in a call with someone",
+        "de": "Verbringe {{minutes}} Minuten in einem Anruf mit jemandem",
+        "pl": "Spędź {{minutes}} minut na rozmowie z kimś",
+    },
+    repairAnyVehicles: {
+        "ru": "Почини {{count}} любых машин рем. комплектов",
+        "ua": "Полагодь {{count}} будь-яких машин ремкомплектом",
+        "en": "Repair {{count}} any vehicles with a repair kit",
+        "de": "Repariere {{count}} beliebige Fahrzeuge mit einem Reparaturset",
+        "pl": "Napraw {{count}} dowolnych pojazdów za pomocą zestawu naprawczego",
+    },
+    medicalCheckup: {
+        "ru": "Проверься в больнице на наличие болезней",
+        "ua": "Перевірся в лікарні на наявність хвороб",
+        "en": "Get checked at the hospital for any diseases",
+        "de": "Lass dich im Krankenhaus auf Krankheiten untersuchen",
+        "pl": "Zbadaj się w szpitalu pod kątem chorób",
+    },
+    takeBloodMedical: {
+        "ru": "Сдайте кровь в больнице",
+        "ua": "Здай кров у лікарні",
+        "en": "Donate blood at the hospital",
+        "de": "Spende Blut im Krankenhaus",
+        "pl": "Oddaj krew w szpitalu",
     },
 };
