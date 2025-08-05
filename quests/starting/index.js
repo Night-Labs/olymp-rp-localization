@@ -1,3 +1,4 @@
+import npc from './npc';
 import finance from './finance';
 import firstCar from './firstCar';
 import welcome from './welcome';
@@ -15,13 +16,18 @@ import motionIsLife from './motionIsLife'
 import goodbyeBaby from './goodbyeBaby';
 import conventionFromParents from './conventionFromParents'
 import millionairesPath from './millionairesPath';
+import driversLicense from './driversLicense';
+import firstSim from './firstSim';
 
 export default {
+    npc,
     welcome,
     finance,
     firstCar,
+    driversLicense,
     whoAmI,
     funnyFarm,
+    firstSim,
     shopping,
     pathToMastery,
     kingOfMovers,
@@ -33,5 +39,5 @@ export default {
     motionIsLife,
     goodbyeBaby,
     conventionFromParents,
-    millionairesPath
+    millionairesPath,
 };

@@ -233,6 +233,13 @@ export const npc = {
             'de': 'Stanley',
             'pl': 'Stanley',
         },
+        diana: {
+            "ru": "Диана",
+            "ua": "Діана",
+            "en": "Diana",
+            "de": "Diana",
+            "pl": "Diana",
+        },
     },
     roles: {
         menager: {
