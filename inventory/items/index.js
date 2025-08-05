@@ -9,6 +9,7 @@ import drugs from './drugs';
 import medical from './medical';
 import ores from './ores';
 import diving from './diving';
+import treasureHunter from './treasureHunter';
 
 export const items = {
     ...food,
@@ -22,4 +23,5 @@ export const items = {
     ...medical,
     ...ores,
     diving,
+    ...treasureHunter,
 };
