@@ -38,5 +38,34 @@ export default {
             "de": "Später",
             "pl": "Później",
         },
+
+        youLooksGood: {
+            "ru": "Ну вот, сразу видно — человек преобразился! Теперь ты выглядишь как настоящий житель города. Молодец, так держать!",
+            "ua": "О, одразу видно — ти змінився! Тепер виглядаєш як справжній житель міста. Молодець, так тримати!",
+            "en": "Now that’s more like it — you’ve changed! You really look like a true city dweller now. Well done, keep it up!",
+            "de": "Na siehst du, du hast dich verändert! Jetzt siehst du wie ein echter Stadtbewohner aus. Gut gemacht, weiter so!",
+            "pl": "No proszę, od razu widać zmianę! Teraz wyglądasz jak prawdziwy mieszkaniec miasta. Dobra robota, tak trzymaj!",
+        },
+        thankYou: {
+            "ru": "Спасибо",
+            "ua": "Дякую",
+            "en": "Thanks",
+            "de": "Danke",
+            "pl": "Dzięki",
+        },
+        dianaNoMoreQuests: {
+            "ru": "Ну что, дальше я тебе заданий давать не буду — остальные квесты ищи в меню, в разделе квестов. Может, ещё увидимся. Удачи!",
+            "ua": "Ну що ж, більше я тобі завдань не даватиму — решту квестів шукай у меню, в розділі квестів. Можливо, ще побачимось. Удачі!",
+            "en": "Alright, I won’t be giving you any more tasks — find the rest of the quests in the menu under the quests section. Maybe we’ll meet again. Good luck!",
+            "de": "Also gut, von mir bekommst du keine Aufgaben mehr — such die restlichen Quests im Menü unter dem Quest-Bereich. Vielleicht sehen wir uns wieder. Viel Glück!",
+            "pl": "No dobrze, nie dam ci już więcej zadań — reszty questów szukaj w menu, w sekcji z zadaniami. Może jeszcze się spotkamy. Powodzenia!",
+        },
+        bye: {
+            "ru": "Прощай",
+            "ua": "Прощавай",
+            "en": "Farewell",
+            "de": "Leb wohl",
+            "pl": "Żegnaj",
+        },
     },
 };

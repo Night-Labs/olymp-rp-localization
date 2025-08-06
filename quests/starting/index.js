@@ -18,6 +18,7 @@ import conventionFromParents from './conventionFromParents'
 import millionairesPath from './millionairesPath';
 import driversLicense from './driversLicense';
 import firstSim from './firstSim';
+import getOutHunting from './getOutHunting';
 
 export default {
     npc,
@@ -39,5 +40,5 @@ export default {
     motionIsLife,
     goodbyeBaby,
     conventionFromParents,
-    millionairesPath,
+    getOutHunting
 };

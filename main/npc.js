@@ -240,6 +240,21 @@ export const npc = {
             "de": "Diana",
             "pl": "Diana",
         },
+        "bayson": {
+            "ru": "Бэйсон",
+            "ua": "Бейсон",
+            "en": "Bayson",
+            "de": "Bayson",
+            "pl": "Bayson",
+        },
+        "brut": {
+            "ru": "Брут",
+            "ua": "Брут",
+            "en": "Brut",
+            "de": "Brut",
+            "pl": "Brut"
+        },
+
     },
     roles: {
         menager: {

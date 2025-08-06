@@ -48,6 +48,15 @@ export const stepDto = {
             'pl': 'Porozmawiaj z Dianą',
         },
     },
+    buyWeapon: {
+        precisionrifle: {
+            "ru": "Купи прецизионнную винтовку в магазине оружия",
+            "ua": "Купи прецизионнну гвинтівку в магазині зброї",
+            "en": "Buy the precisionnny rifle at the gun store",
+            "de": "Kauf dir das Precisionnny-Gewehr im Waffengeschäft",
+            "pl": "Kup karabin precisionnny w sklepie z bronią",
+        },
+    },
     talkWithNpc: {
         'ru': 'Поговори с {{name}}',
         'ua': 'Поговори з {{name}}',
@@ -244,104 +253,95 @@ export const stepDto = {
 
     //
     buyClothesWorth: {
-        ru: 'Накупите одежды на ${{goal}}',
-        ua: 'Купіть одягу на ${{goal}}',
-        en: 'Buy clothes worth ${{goal}}',
-        de: 'Kaufen Sie Kleidung im Wert von ${{goal}}',
-        pl: 'Kup ubrania za ${{goal}}',
-        zh: '购买价值${{goal}}的衣服',
+        'ru': 'Накупи одежды на ${{goal}}',
+        'ua': 'Купи одягу на ${{goal}}',
+        'en': 'Buy clothes worth ${{goal}}',
+        'de': 'Kauf Kleidung für ${{goal}}',
+        'pl': 'Kup ubrania za ${{goal}}',
     },
 
     buyWeaponsWorth: {
-        ru: 'Накупите оружия на ${{goal}}',
-        ua: 'Накупіть зброї на ${{goal}}',
-        en: 'Buy weapons worth ${{goal}}',
-        de: 'Kaufen Sie Waffen im Wert von ${{goal}}',
-        pl: 'Kup broń za ${{goal}}',
-        zh: '购买价值${{goal}}的武器',
+        'ru': 'Накупи оружия на ${{goal}}',
+        'ua': 'Купи зброї на ${{goal}}',
+        'en': 'Buy weapons worth ${{goal}}',
+        'de': 'Kauf Waffen für ${{goal}}',
+        'pl': 'Kup broń za ${{goal}}',
     },
 
     buyProductsWorth: {
-        ru: 'Накупите продуктов на ${{goal}}',
-        ua: 'Купіть продуктів на ${{goal}}',
-        en: 'Buy products worth ${{goal}}',
-        de: 'Kaufen Sie Produkte im Wert von ${{goal}}',
-        pl: 'Kup produkty za ${{goal}}',
-        zh: '购买价值${{goal}}的产品',
+        'ru': 'Накупи продуктов на ${{goal}}',
+        'ua': 'Купи продуктів на ${{goal}}',
+        'en': 'Buy food worth ${{goal}}',
+        'de': 'Kauf Lebensmittel für ${{goal}}',
+        'pl': 'Kup jedzenie za ${{goal}}',
     },
 
     buyGunsWorth: {
-        ru: 'Накупите оружия на ${{goal}}',
-        ua: 'Купіть зброї на ${{goal}}',
-        en: 'Buy guns worth ${{goal}}',
-        de: 'Kaufen Sie Waffen im Wert von ${{goal}}',
-        pl: 'Kup broń za ${{goal}}',
-        zh: '购买价值${{goal}}的枪支',
+        'ru': 'Накупи оружия на ${{goal}}',
+        'ua': 'Купи зброї на ${{goal}}',
+        'en': 'Buy guns worth ${{goal}}',
+        'de': 'Kauf Schusswaffen für ${{goal}}',
+        'pl': 'Kup broń palną za ${{goal}}',
     },
 
     // УСТРОЙСТВА НА РАБОТЫ ЕБАНЫЕ БЛЯДЬ
 
     deployDelivery: {
-        ru: 'Устройтесь на работу доставщика еды',
-        ua: 'Влаштуйтеся на роботу доставщика їжі',
-        en: 'Get a job as a food delivery person',
-        de: 'Bewerben Sie sich als Lebensmittellieferant',
-        pl: 'Znajdź pracę jako dostawca jedzenia',
-        zh: '找一份送餐员的工作',
+        'ru': 'Устройся на работу доставщика еды',
+        'ua': 'Влаштуйся на роботу доставника їжі',
+        'en': 'Get a job as a food delivery driver',
+        'de': 'Hol dir einen Job als Essenslieferant',
+        'pl': 'Zatrudnij się jako dostawca jedzenia',
     },
 
     leaveJobDelivery: {
-        'ru': 'Увольтесь с работы доставщика еды',
+        'ru': 'Уволься с работы доставщика еды',
         'ua': 'Звільнись з роботи доставника їжі',
         'en': 'Quit your food delivery job',
         'de': 'Kündige deinen Job als Essenslieferant',
-        'pl': 'Zrezygnuj z pracy dostawcy jedzenia',
+        'pl': 'Zrezygnuj z pracy jako dostawca jedzenia',
     },
 
     deployTrucker: {
-        ru: 'Устройтесь на работу грузоперевозчика',
-        ua: 'Влаштуйтеся на роботу вантажоперевізника',
-        en: 'Get a job as a trucker',
-        de: 'Arbeiten Sie als LKW-Fahrer',
-        pl: 'Zostań kierowcą ciężarówki',
-        zh: '找一份卡车司机的工作',
+        'ru': 'Устройся на работу грузоперевозчика',
+        'ua': 'Влаштуйся на роботу вантажоперевізника',
+        'en': 'Get a job as a cargo transporter',
+        'de': 'Hol dir einen Job als Frachtfahrer',
+        'pl': 'Zatrudnij się jako przewoźnik towarów',
     },
+
     deployTrucker2: {
-        ru: 'Устройтесь на работу дальнобойщика',
-        ua: 'Влаштуйтеся на роботу далекобійника',
-        en: 'Get a job as a long-haul trucker',
-        de: 'Arbeiten Sie als Fernfahrer',
-        pl: 'Zostań kierowcą ciężarówki dalekobieżnej',
-        zh: '找一份长途卡车司机的工作',
+        'ru': 'Устройся на работу дальнобойщика',
+        'ua': 'Влаштуйся на роботу далекобійника',
+        'en': 'Get a job as a long-haul trucker',
+        'de': 'Hol dir einen Job als Fernfahrer',
+        'pl': 'Zatrudnij się jako kierowca ciężarówki na długie trasy',
     },
 
     // INVENTORY
     useAnyItem: {
-        ru: 'Используйте любой предмет',
-        ua: 'Використайте будь-який предмет',
-        en: 'Use any item',
-        de: 'Verwenden Sie einen beliebigen Gegenstand',
-        pl: 'Użyj dowolnego przedmiotu',
-        zh: '万能巧手',
+        'ru': 'Используй любой предмет',
+        'ua': 'Використай будь-який предмет',
+        'en': 'Use any item',
+        'de': 'Benutze einen beliebigen Gegenstand',
+        'pl': 'Użyj dowolnego przedmiotu',
     },
 
     eatBurger: {
-        ru: 'Съешьте бургер',
-        ua: 'З’їжте бургер',
-        en: 'Eat a burger',
-        de: 'Essen Sie einen Burger',
-        pl: 'Zjedz burgera',
-        zh: '吃一个汉堡',
+        'ru': 'Съешь бургер',
+        'ua': 'З\'їж бургер',
+        'en': 'Eat a burger',
+        'de': 'Iss einen Burger',
+        'pl': 'Zjedz burgera',
     },
 
     //
     levelUpTo3: {
-        ru: 'Достигните третьего уровня',
-        ua: 'Досягніть третього рівня',
-        en: 'Reach the third level',
-        de: 'Erreichen Sie das dritte Level',
-        pl: 'Osiągnij trzeci poziom',
-        zh: '到达第三层',
+        'ru': 'Достигни третьего уровня',
+        'ua': 'Досягни третього рівня',
+        'en': 'Reach level 3',
+        'de': 'Erreiche Level 3',
+        'pl': 'Osiągnij poziom 3',
     },
 
     //
@@ -733,11 +733,11 @@ export const stepDto = {
         'de': 'Kauf eine SIM-Karte im Supermarkt',
         'pl': 'Kup kartę SIM w supermarkecie',
     },
-    "activateSimCard": {
-        "ru": "Активируй сим-карту",
-        "ua": "Активуй сім-карту",
-        "en": "Activate the SIM card",
-        "de": "Aktiviere die SIM-Karte",
-        "pl": "Aktywuj kartę SIM",
+    'activateSimCard': {
+        'ru': 'Активируй сим-карту',
+        'ua': 'Активуй сім-карту',
+        'en': 'Activate the SIM card',
+        'de': 'Aktiviere die SIM-Karte',
+        'pl': 'Aktywuj kartę SIM',
     },
 };

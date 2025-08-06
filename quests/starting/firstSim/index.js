@@ -6,6 +6,15 @@
         'de': 'Erste SIM-Karte',
         'pl': 'Pierwsza karta SIM',
     },
+    'sms': {
+        "welcome": {
+            "ru": "О я вижу ты активировал сим-карту! Можешь возвращаться ко мне за наградой.",
+            "ua": "О, я бачу, ти активував сім-карту! Можеш повертатися до мене за нагородою.",
+            "en": "Oh, I see you activated the SIM card! You can come back to me for your reward.",
+            "de": "Oh, ich sehe, du hast die SIM-Karte aktiviert! Du kannst für deine Belohnung zu mir zurückkommen.",
+            "pl": "O, widzę, że aktywowałeś kartę SIM! Możesz wrócić do mnie po nagrodę.",
+        },
+    },
     'desc': {
         'ru': 'Без сим-карты ты в этом городе — тень без имени. Оформи свою первую симку, чтобы не быть оторванным от жизни и всегда быть на связи. Дальше будет только интереснее.',
         'ua': 'Без сім-карти ти в цьому місті — тінь без імені. Оформи свою першу сімку, щоб не бути відірваним від життя й завжди бути на зв’язку. Далі буде лише цікавіше.',
