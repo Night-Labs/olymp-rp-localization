@@ -6,6 +6,13 @@ export default {
         de: 'Alle notwendigen Standorte in einer praktischen App immer griffbereit.',
         pl: 'Wszystkie potrzebne lokalizacje w wygodnej aplikacji zawsze pod ręką.',
     },
+    characters: {
+        "ru": "Сюжетные персонажи",
+        "ua": "Сюжетні персонажі",
+        "en": "Story characters",
+        "de": "Handlungscharaktere",
+        "pl": "Postacie fabularne",
+    },
     main: {
         name: 'Основные места',
         ua: 'Основні місця',
