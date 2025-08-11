@@ -10,7 +10,7 @@ export const items = {
         },
         desc: {
             ru: 'Восстанавливает 75 процентов здоровья, при условии что здоровье ниже 25 процентов, также можно использовать для одноразовой реанимации людей',
-            ua: 'Відновлює 75 відсотків здоров\'я за умови, що здоров\'я нижче 25 відсотків, також можна використовувати для одноразової реанімації людей',
+            ua: "Відновлює 75 відсотків здоров'я за умови, що здоров'я нижче 25 відсотків, також можна використовувати для одноразової реанімації людей",
             en: 'Restores 75 percent health if health is below 25 percent, can also be used for one-time revival of people',
             de: 'Stellt 75 Prozent der Gesundheit wieder her, wenn die Gesundheit unter 25 Prozent liegt, kann auch für einmalige Wiederbelebung von Personen verwendet werden',
             pl: 'Przywraca 75 procent zdrowia, jeśli zdrowie jest poniżej 25 procent, może być również używany do jednorazowej reanimacji ludzi',
@@ -156,7 +156,7 @@ export const items = {
         },
         desc: {
             ru: 'Восстанавливают 75 процентов здоровья, невзависимости от текущего здоровья',
-            ua: 'Відновлюють 75 відсотків здоров\'я, незалежно від поточного здоров\'я',
+            ua: "Відновлюють 75 відсотків здоров'я, незалежно від поточного здоров'я",
             en: 'Restores 75 percent of health, regardless of current health',
             de: 'Stellt 75 Prozent der Gesundheit wieder her, unabhängig von der aktuellen Gesundheit',
             pl: 'Przywraca 75 procent zdrowia, niezależnie od obecnego stanu zdrowia',
@@ -174,7 +174,7 @@ export const items = {
         },
         desc: {
             ru: 'Восстанавливают здоровье полностью.',
-            ua: 'Повністю відновлюють здоров\'я.',
+            ua: "Повністю відновлюють здоров'я.",
             en: 'Fully restores health.',
             de: 'Stellt die Gesundheit vollständig wieder her.',
             pl: 'Całkowicie przywraca zdrowie.',
@@ -239,7 +239,7 @@ export const items = {
     bloodBag: {
         name: {
             ru: 'Мешочек с кровью',
-            ua: 'Мішечок з кров\'ю',
+            ua: "Мішечок з кров'ю",
             en: 'Blood bag',
             de: 'Blutbeutel',
             pl: 'Torba z krwią',
@@ -444,10 +444,26 @@ export const items = {
         },
         desc: {
             ru: 'Мощная и надёжная кирка для работы в карьере. Тяжёлый металлический наконечник с лёгкостью разбивает камень, а прочная рукоять выдерживает любые нагрузки. Идеальный инструмент для добычи ресурсов.',
-            ua: 'Потужна та надійна кирка для роботи в кар\'єрі. Важкий металевий наконечник з легкістю розбиває камінь, а міцна рукоятка витримує будь-які навантаження. Ідеальний інструмент для видобутку ресурсів.',
+            ua: "Потужна та надійна кирка для роботи в кар'єрі. Важкий металевий наконечник з легкістю розбиває камінь, а міцна рукоятка витримує будь-які навантаження. Ідеальний інструмент для видобутку ресурсів.",
             en: 'A powerful and reliable pickaxe for quarry work. The heavy metal tip easily breaks stone, and the sturdy handle can withstand any load. The perfect tool for resource extraction.',
             de: 'Eine leistungsstarke und zuverlässige Spitzhacke für Steinbrucharbeiten. Die schwere Metallspitze bricht mühelos Stein, und der robuste Griff hält jeder Belastung stand. Das perfekte Werkzeug für die Rohstoffgewinnung.',
             pl: 'Potężny i niezawodny kilof do pracy w kamieniołomie. Ciężki metalowy grot z łatwością rozbija kamień, a solidny uchwyt wytrzymuje każde obciążenie. Idealne narzędzie do wydobywania zasobów.',
+        },
+    },
+    shovel: {
+        name: {
+            ru: 'Лопата',
+            ua: 'Лопата',
+            en: 'Shovel',
+            de: 'Schaufel',
+            pl: 'Łopata',
+        },
+        desc: {
+            ru: 'Прочная лопата с деревянной ручкой и металлическим закруглённым лезвием, идеально подходящая для копания земли.',
+            ua: "Міцна лопата з дерев'яною ручкою та металевим закругленим лезом, що ідеально підходить для копання землі.",
+            en: 'A durable shovel with a wooden handle and a rounded metal blade, ideal for digging earth.',
+            de: 'Eine robuste Schaufel mit Holzgriff und abgerundeter Metallklinge, ideal zum Graben von Erde.',
+            pl: 'Wytrzymała łopata z drewnianą rączką i zaokrąglonym metalowym ostrzem, idealna do kopania ziemi.',
         },
     },
     lockpick: {
@@ -493,7 +509,7 @@ export const items = {
         desc: {
             ru: 'Устройство для записи происходящего от первого лица персонажа, используется для документирования событий в RP-сценах. Часто применяется сотрудниками госструктур, например, полицией. Запись может быть использована как доказательство в суде или других RP-ситуациях.',
             ua: 'Пристрій для запису подій від першої особи персонажа, використовується для документування подій у RP-сценах. Часто використовується працівниками держструктур, наприклад, поліцією. Запис може бути використаний як доказ у суді або в інших RP-ситуаціях.',
-            en: 'A device for recording events from the character\'s first-person view, used to document situations in RP scenes. Often used by government employees, such as the police. The recording can be used as evidence in court or other RP scenarios.',
+            en: "A device for recording events from the character's first-person view, used to document situations in RP scenes. Often used by government employees, such as the police. The recording can be used as evidence in court or other RP scenarios.",
             de: 'Ein Gerät zur Aufzeichnung von Ereignissen aus der Ich-Perspektive des Charakters, das zur Dokumentation von Situationen in RP-Szenen verwendet wird. Wird häufig von Staatsbediensteten wie der Polizei verwendet. Die Aufzeichnung kann als Beweis vor Gericht oder in anderen RP-Situationen dienen.',
             pl: 'Urządzenie do nagrywania wydarzeń z perspektywy pierwszej osoby postaci, używane do dokumentowania sytuacji w scenach RP. Często wykorzystywane przez pracowników instytucji państwowych, np. policję. Nagranie może posłużyć jako dowód w sądzie lub innych sytuacjach RP.',
         },
@@ -508,7 +524,7 @@ export const items = {
         },
         desc: {
             ru: 'Портативное устройство для голосовой связи. Позволяет подключаться к заданной радиочастоте и общаться с другими игроками на той же волне. Необходима для координации действий в группах.',
-            ua: 'Портативний пристрій для голосового зв\'язку. Дозволяє підключатися до заданої радіочастоти та спілкуватися з іншими гравцями на тій самій хвилі. Необхідний для координації дій у групах.',
+            ua: "Портативний пристрій для голосового зв'язку. Дозволяє підключатися до заданої радіочастоти та спілкуватися з іншими гравцями на тій самій хвилі. Необхідний для координації дій у групах.",
             en: 'A portable device for voice communication. Allows connecting to a specified radio frequency and talking with other players on the same channel. Essential for coordinating actions in groups.',
             de: 'Tragbares Gerät zur Sprachkommunikation. Ermöglicht die Verbindung mit einer bestimmten Funkfrequenz und die Kommunikation mit anderen Spielern auf dem gleichen Kanal. Unverzichtbar für die Koordination in Gruppen.',
             pl: 'Przenośne urządzenie do komunikacji głosowej. Umożliwia łączenie się z określoną częstotliwością radiową i rozmowę z innymi graczami na tym samym kanale. Niezbędne do koordynacji działań w grupach.',
@@ -540,26 +556,26 @@ export const items = {
         },
         desc: {
             ru: 'Используются чтобы связывать людей',
-            ua: 'Використовуються для зв\'язування людей',
+            ua: "Використовуються для зв'язування людей",
             en: 'Used to restrain people',
             de: 'Wird verwendet, um Personen zu fesseln',
             pl: 'Służą do wiązania ludzi',
         },
     },
-    "emi_device": {
-        "name": {
-            "ru": "ЭМИ-глушитель",
-            "ua": "ЕМІ-глушник",
-            "en": "EMI jammer",
-            "de": "EMI-Störsender",
-            "pl": "Zakłócacz EMI",
+    emi_device: {
+        name: {
+            ru: 'ЭМИ-глушитель',
+            ua: 'ЕМІ-глушник',
+            en: 'EMI jammer',
+            de: 'EMI-Störsender',
+            pl: 'Zakłócacz EMI',
         },
-        "desc": {
-            "ru": "Портативное устройство для мгновенного вывода из строя электроники и систем безопасности. Используется криминалитетом для отключения питания на особо охраняемых объектах. Одноразовое, требует особой осторожности при обращении.",
-            "ua": "Портативний пристрій для миттєвого виведення з ладу електроніки та систем безпеки. Використовується криміналітетом для вимкнення живлення на особливо охоронюваних об'єктах. Одноразовий, потребує особливої обережності при використанні.",
-            "en": "A portable device for instantly disabling electronics and security systems. Used by criminals to cut power at heavily guarded sites. Single-use, requires extra caution when handling.",
-            "de": "Ein tragbares Gerät zum sofortigen Ausschalten von Elektronik und Sicherheitssystemen. Wird von Kriminellen verwendet, um die Stromversorgung an streng gesicherten Orten zu unterbrechen. Einweggerät, erfordert besondere Vorsicht im Umgang.",
-            "pl": "Przenośne urządzenie do natychmiastowego unieruchamiania elektroniki i systemów bezpieczeństwa. Używane przez przestępców do odcinania zasilania w silnie strzeżonych miejscach. Jednorazowe, wymaga szczególnej ostrożności podczas użytkowania.",
-        }
-    }
+        desc: {
+            ru: 'Портативное устройство для мгновенного вывода из строя электроники и систем безопасности. Используется криминалитетом для отключения питания на особо охраняемых объектах. Одноразовое, требует особой осторожности при обращении.',
+            ua: "Портативний пристрій для миттєвого виведення з ладу електроніки та систем безпеки. Використовується криміналітетом для вимкнення живлення на особливо охоронюваних об'єктах. Одноразовий, потребує особливої обережності при використанні.",
+            en: 'A portable device for instantly disabling electronics and security systems. Used by criminals to cut power at heavily guarded sites. Single-use, requires extra caution when handling.',
+            de: 'Ein tragbares Gerät zum sofortigen Ausschalten von Elektronik und Sicherheitssystemen. Wird von Kriminellen verwendet, um die Stromversorgung an streng gesicherten Orten zu unterbrechen. Einweggerät, erfordert besondere Vorsicht im Umgang.',
+            pl: 'Przenośne urządzenie do natychmiastowego unieruchamiania elektroniki i systemów bezpieczeństwa. Używane przez przestępców do odcinania zasilania w silnie strzeżonych miejscach. Jednorazowe, wymaga szczególnej ostrożności podczas użytkowania.',
+        },
+    },
 };

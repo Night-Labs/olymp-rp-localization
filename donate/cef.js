@@ -440,12 +440,19 @@ export const cef = {
                 pl: 'Do kamieniołomu',
             },
             diver: {
-                "ru": "Для дайвера",
-                "ua": "Для дайвера",
-                "en": "For the diver",
-                "de": "Für den Taucher",
-                "pl": "Dla nurka",
-            }
+                ru: 'Для дайвера',
+                ua: 'Для дайвера',
+                en: 'For the diver',
+                de: 'Für den Taucher',
+                pl: 'Dla nurka',
+            },
+            treasureHunter: {
+                ru: 'Для искателя сокровищ',
+                ua: 'Для шукача скарбів',
+                en: 'For the treasure hunter',
+                de: 'Für den Schatzsucher',
+                pl: 'Dla poszukiwacza skarbów',
+            },
         },
     },
     clothes: {
@@ -714,7 +721,7 @@ export const cef = {
         //     en: `When you donate to the project, you get Olymp-Coins, which you can use to buy game property.<br><br>At the moment, we accept donations directly in any way convenient for you (Visa/MasterCard, PayPal, Crypto), after which we give you Olymp-Coins at the exchange rate, unfortunately, at the moment we are unable to connect payment systems due to non-compliance with their requirements, but we hope to do so in the future.<br><br> Thanks to your support, we are able to maintain and develop the project.`,
         //     de: `Wenn Sie für das Projekt spenden, erhalten Sie Olymp-Coins, die Sie verwenden können, um Eigentum im Spiel zu kaufen.<br><br>Im Moment akzeptieren wir Spenden direkt in irgendeiner Weise bequem für Sie (Visa / MasterCard, PayPal, Crypto), nach dem wir Sie Olymp-Coins zum Wechselkurs ausgeben, leider sind wir im Moment nicht in der Lage, Zahlungssysteme aufgrund der Nichteinhaltung ihrer Anforderungen zu verbinden, aber wir hoffen, dies in Zukunft zu tun.<br><br> Dank Ihrer Unterstützung sind wir in der Lage, das Projekt zu erhalten und weiterzuentwickeln.`,
         //     pl: `Przekazując darowiznę na rzecz projektu, otrzymujesz Olymp-Coins, które możesz wykorzystać do zakupu nieruchomości w grze.<br><br>W tej chwili akceptujemy darowizny bezpośrednio w dowolny dogodny dla Ciebie sposób (Visa/MasterCard, PayPal, Crypto), po czym wydajemy Ci Olymp-Coins po kursie wymiany, niestety w tej chwili nie jesteśmy w stanie połączyć systemów płatności z powodu niezgodności z ich wymaganiami, ale mamy nadzieję, że zrobimy to w przyszłości.<br><br>Dzięki Twojemu wsparciu jesteśmy w stanie utrzymać i rozwijać projekt.`,
-       // zh: '咨询管理',
+        // zh: '咨询管理',
         // },
 
         courseСalculator: {

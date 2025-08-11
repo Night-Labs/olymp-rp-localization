@@ -5,6 +5,7 @@ import bus from './bus';
 import farm from './farm';
 import hunting from './hunting';
 import { quarry } from './quarry/quarry';
+import treasureHunter from './treasureHunter/treasureHunter';
 
 export default {
     // ТО ЧТО СВЯЗАНО С РАБОТАМИ
@@ -65,6 +66,13 @@ export default {
             pl: 'Wędkarstwo',
             zh: '渔夫',
         },
+        treasureHunter: {
+            ru: 'Искалатель сокровищ',
+            ua: 'Шукач скарбів',
+            en: 'Treasure Hunter',
+            de: 'Schatzsucher',
+            pl: 'Poszukiwacz skarbów',
+        },
         quarry: {
             ru: 'Карьер',
             ua: "Кар'єр",
@@ -104,4 +112,5 @@ export default {
     trucker2,
     hunting,
     quarry,
+    treasureHunter,
 };

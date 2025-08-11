@@ -143,18 +143,26 @@ export const server = {
 
         quarry: {
             ru: 'Получено {{exp}} опыта работы на карьере!',
-            ua: 'Отримано {{exp}} досвіду роботи на кар\'єрі!',
+            ua: "Отримано {{exp}} досвіду роботи на кар'єрі!",
             en: 'Received {{exp}} quarrying experience!',
             de: '{{exp}} Erfahrung im Steinbruch erhalten!',
             pl: 'Otrzymano {{exp}} doświadczenia w pracy w kamieniołomie!',
         },
 
         diver: {
-            'ru': 'Получено {{exp}} опыта работы для дайвера!',
-            'ua': 'Отримано {{exp}} досвіду роботи для дайвера!',
-            'en': '{{exp}} work experience gained for the diver!',
-            'de': '{{exp}} Arbeitserfahrung für den Taucher gesammelt!',
-            'pl': 'Zdobyto {{exp}} doświadczenia zawodowego dla nurka!',
+            ru: 'Получено {{exp}} опыта работы для дайвера!',
+            ua: 'Отримано {{exp}} досвіду роботи для дайвера!',
+            en: '{{exp}} work experience gained for the diver!',
+            de: '{{exp}} Arbeitserfahrung für den Taucher gesammelt!',
+            pl: 'Zdobyto {{exp}} doświadczenia zawodowego dla nurka!',
+        },
+
+        treasureHunter: {
+            ru: 'Получено {{exp}} опыта искателя сокровищ!',
+            ua: 'Отримано {{exp}} досвіду шукача скарбів!',
+            en: 'Gained {{exp}} treasure hunter experience!',
+            de: '{{exp}} Schatzsucher-Erfahrung erhalten!',
+            pl: 'Otrzymano {{exp}} doświadczenia poszukiwacza skarbów!',
         },
 
         currency: {

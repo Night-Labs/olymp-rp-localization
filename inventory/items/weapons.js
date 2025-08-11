@@ -428,11 +428,11 @@ export const weapons = {
                 zh: 'AP手枪',
             },
             desc: {
-                ru: 'Компактное огнестрельное оружие, обычно используется для самообороны или в ближнем бою. AP означает \'бронебойный\'.',
-                ua: 'Компактна вогнепальна зброя, зазвичай використовується для самозахисту або в близькому бою. AP означає \'протиброневий\'.',
-                en: 'A compact firearm, typically used for self-defense or in close combat. AP stands for \'armor-piercing\'.',
-                de: 'Eine kompakte Schusswaffe, die typischerweise zur Selbstverteidigung oder im Nahkampf verwendet wird. AP steht für \'panzerbrechend\'.',
-                pl: 'Kompaktowa broń palna, zwykle używana do samoobrony lub w walce wręcz. AP oznacza \'przebijający pancerz\'.',
+                ru: "Компактное огнестрельное оружие, обычно используется для самообороны или в ближнем бою. AP означает 'бронебойный'.",
+                ua: "Компактна вогнепальна зброя, зазвичай використовується для самозахисту або в близькому бою. AP означає 'протиброневий'.",
+                en: "A compact firearm, typically used for self-defense or in close combat. AP stands for 'armor-piercing'.",
+                de: "Eine kompakte Schusswaffe, die typischerweise zur Selbstverteidigung oder im Nahkampf verwendet wird. AP steht für 'panzerbrechend'.",
+                pl: "Kompaktowa broń palna, zwykle używana do samoobrony lub w walce wręcz. AP oznacza 'przebijający pancerz'.",
                 zh: '种紧凑型枪支，通常用于自卫或附近的战斗。AP代表‘破甲',
             },
         },
@@ -598,22 +598,20 @@ export const weapons = {
                 pl: 'Ulepszona wersja ciężkiego rewolweru, zwykle używana do samoobrony lub w walce wręcz.',
             },
         },
-        doubleactionrevolver: {
+        doubleaction: {
             name: {
-                ru: 'Револьвер Double Action',
-                ua: 'Револьвер Double Action',
-                en: 'Double Action Revolver',
+                ru: 'Самовзводный револьвер',
+                ua: 'Самозвідний револьвер',
+                en: 'Double-action revolver',
                 de: 'Double-Action-Revolver',
-                pl: 'Rewolwer Double Action',
-                zh: '双动左轮手枪',
+                pl: 'Rewolwer podwójnego działania',
             },
             desc: {
-                ru: 'Револьвер, который стреляет при каждом нажатии на спусковой крючок, обычно используется для самообороны или в ближнем бою.',
-                ua: 'Револьвер, який стріляє при кожному натисканні на спусковий гачок, зазвичай використовується для самозахисту або в близькому бою.',
-                en: 'A revolver that fires with each pull of the trigger, typically used for self-defense or in close combat.',
-                de: 'Ein Revolver, der bei jedem Abzug feuert, typischerweise zur Selbstverteidigung oder im Nahkampf verwendet.',
-                pl: 'Rewolwer, który strzela przy każdym pociągnięciu spustu, zwykle używany do samoobrony lub w walce wręcz.',
-                zh: '每次按下下扳机都会射击的左轮手枪通常用于自卫或近身格斗',
+                ru: 'Золотой гравированный револьвер прямо из дикого запада, имеет приятный звук выстрела и отдачу.',
+                ua: 'Золотий гравірований револьвер прямо з дикого заходу, має приємний звук пострілу та віддачу.',
+                en: 'A golden engraved revolver straight from the Wild West, featuring a pleasant firing sound and recoil.',
+                de: 'Ein goldener, gravierter Revolver direkt aus dem Wilden Westen, mit einem angenehmen Schussgeräusch und Rückstoß.',
+                pl: 'Złoty, grawerowany rewolwer prosto z Dzikiego Zachodu, charakteryzujący się przyjemnym dźwiękiem strzału i odrzutem.',
             },
         },
         navyrevolver: {
@@ -829,11 +827,11 @@ export const weapons = {
                 zh: 'Mk II泵式霰弹枪',
             },
             desc: {
-                ru: 'Это оружие, которое говорит: \'Я серьезно\'. Если вы хотите сделать впечатление, ничто не говорит об этом лучше, чем дырка от дробовика.',
-                ua: 'Це зброя, яка говорить: \'Я серйозно\'. Якщо ви хочете справити враження, ніщо не говорить про це краще, ніж дірка від дробовика.',
-                en: 'This is a weapon that says, \'I mean business\'. If you want to make an impression, nothing says it better than a shotgun hole.',
-                de: 'Dies ist eine Waffe, die sagt: \'Ich meine es ernst\'. Wenn Sie einen Eindruck hinterlassen wollen, sagt nichts es besser als ein Schrotflintenloch.',
-                pl: 'To jest broń, która mówi: \'Mówię poważnie\'. Jeśli chcesz zrobić wrażenie, nic nie mówi o tym lepiej niż dziura po strzale z shotguna.',
+                ru: "Это оружие, которое говорит: 'Я серьезно'. Если вы хотите сделать впечатление, ничто не говорит об этом лучше, чем дырка от дробовика.",
+                ua: "Це зброя, яка говорить: 'Я серйозно'. Якщо ви хочете справити враження, ніщо не говорить про це краще, ніж дірка від дробовика.",
+                en: "This is a weapon that says, 'I mean business'. If you want to make an impression, nothing says it better than a shotgun hole.",
+                de: "Dies ist eine Waffe, die sagt: 'Ich meine es ernst'. Wenn Sie einen Eindruck hinterlassen wollen, sagt nichts es besser als ein Schrotflintenloch.",
+                pl: "To jest broń, która mówi: 'Mówię poważnie'. Jeśli chcesz zrobić wrażenie, nic nie mówi o tym lepiej niż dziura po strzale z shotguna.",
                 zh: '这是一种武器，它说，”我是认真的。“如果你想给人留下印象，没有什么比一个裂缝更能说明问题了',
             },
         },
@@ -1321,6 +1319,7 @@ export const weapons = {
                 zh: '可以砸碎某人的脸',
             },
         },
+
         stungun: {
             name: {
                 ru: 'Электрошокер',
@@ -1337,6 +1336,40 @@ export const weapons = {
                 de: 'Eine hochtechnologische nicht-tödliche Waffe, entwickelt, um ein Ziel vorübergehend mit einer elektrischen Entladung zu immobilisieren. Verfügt über ein integriertes Präzisionszielsystem und einen fortschrittlichen Mechanismus für mehrfache Verwendungen.',
                 pl: 'Wysokotechnologiczna broń nieśmiercionośna, zaprojektowana do tymczasowego unieruchomienia celu za pomocą wyładowania elektrycznego. Posiada wbudowany system precyzyjnego celowania i zaawansowany mechanizm umożliwiający wielokrotne użycie.',
                 zh: '一种高科技非致命武器，通过放电暂时固定目标。具有集成的精确靶系统和先进的多用途机制',
+            },
+        },
+
+        stone_hatchet: {
+            name: {
+                ru: 'Каменный топор',
+                ua: 'Камінна сокира',
+                en: 'Stone Hatchet',
+                de: 'Steinbeil',
+                pl: 'Kamienna siekiera',
+            },
+            desc: {
+                ru: 'Грубый, но надёжный каменный топор, созданный для выживания и ближнего боя, способный расколоть и дерево, и череп врага.',
+                ua: "Груба, але надійна кам'яна сокира, створена для виживання та ближнього бою, здатна розколоти як дерево, так і череп ворога.",
+                en: "A crude but reliable stone hatchet, designed for survival and close combat, capable of splitting both wood and an enemy's skull.",
+                de: 'Ein grobes, aber zuverlässiges Steinbeil, das für das Überleben und den Nahkampf entwickelt wurde und sowohl Holz als auch den Schädel eines Feindes spalten kann.',
+                pl: 'Surowy, lecz niezawodny topór kamienny, stworzony do przetrwania i walki wręcz, zdolny rozłupać zarówno drewno, jak i czaszkę wroga.',
+            },
+        },
+
+        gadgetpistol: {
+            name: {
+                ru: 'Пистолет Перико',
+                ua: 'Пістолет Періко',
+                en: 'Perico Pistol',
+                de: 'Perico-Pistole',
+                pl: 'Pistolet Perico',
+            },
+            desc: {
+                ru: 'Позолоченный пистолет с изысканной гравировкой, созданный скорее для показного шика, чем для настоящей перестрелки.',
+                ua: 'Позолочений пістолет з вишуканим гравіюванням, створений скоріше для показного шику, ніж для справжньої перестрілки.',
+                en: 'A gilded pistol with exquisite engraving, designed more for ostentatious display than for an actual shootout.',
+                de: 'Eine vergoldete Pistole mit exquisiter Gravur, die eher für prunkvolle Zurschaustellung als für eine echte Schießerei geschaffen wurde.',
+                pl: 'Pozłacany pistolet z wykwintnym grawerem, stworzony bardziej dla ostentacyjnego blichtru niż do prawdziwej strzelaniny.',
             },
         },
     },
