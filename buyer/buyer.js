@@ -172,12 +172,19 @@ export default {
             de: 'Erze',
             pl: 'Rudy',
         },
-        "diving": {
-            "ru": "Подводных находок",
-            "ua": "Підводних знахідок",
-            "en": "Underwater finds",
-            "de": "Unterwasserfunde",
-            "pl": "Znaleziska podwodne"
-        }
+        diving: {
+            ru: 'Подводных находок',
+            ua: 'Підводних знахідок',
+            en: 'Underwater finds',
+            de: 'Unterwasserfunde',
+            pl: 'Znaleziska podwodne',
+        },
+        antiques: {
+            ru: 'Антиквариата',
+            ua: 'Антикваріату',
+            en: 'Antiques',
+            de: 'Antiquitäten',
+            pl: 'Antyki',
+        },
     },
 };

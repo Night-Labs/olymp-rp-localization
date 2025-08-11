@@ -3,9 +3,9 @@ export default {
         title: {
             ru: 'Ты в штате уже',
             ua: 'Ти в штаті вже',
-            en: 'You are already on staff',
-            de: 'Du bist bereits im Dienst',
-            pl: 'Jesteś już na etacie',
+            en: "You're in the state already",
+            de: 'Du bist im Bundesstaat schon',
+            pl: 'Jesteś w stanie już',
         },
 
         phrases: {

@@ -501,6 +501,14 @@ export const cef = {
                 pl: 'Wytrzymałość',
                 zh: '持久性',
             },
+
+            exclusiveWeapon: {
+                ru: 'Это оружие является эксклюзивным и оно не будет выпадать в случае смерти.',
+                ua: 'Ця зброя є ексклюзивною і вона не буде випадати у випадку смерті.',
+                en: 'This weapon is exclusive and will not drop upon death.',
+                de: 'Diese Waffe ist exklusiv und wird beim Tod nicht fallen gelassen.',
+                pl: 'Ta broń jest ekskluzywna i nie wypadnie po śmierci.',
+            },
         },
         quantityMenu: {
             divide: {

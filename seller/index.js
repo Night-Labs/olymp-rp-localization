@@ -7,6 +7,13 @@ export default {
             de: 'Illegaler Händler',
             pl: 'Nielegalny handlarz',
         },
+        localSeller: {
+            ru: 'Местный торговец',
+            ua: 'Місцевий торговець',
+            en: 'Local seller',
+            de: 'Lokaler Händler',
+            pl: 'Lokalny sprzedawca',
+        },
     },
     categories: {
         misc: {
