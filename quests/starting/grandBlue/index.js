@@ -59,11 +59,11 @@
             pl: 'O-o-okej!',
         },
         afterDive: {
-            ru: 'А, да… Как соберёшь весь лут — возвращайся ко мне. Расскажу тебе одну важную вещь. Только не потеряйся там под водой, ага?',
-            ua: 'А, точно… Як збереш весь лут — повертайся до мене. Розповім тобі одну важливу річ. Тільки не загубись там під водою, добре?',
-            en: 'Ah, yeah… Once you grab all the loot — come back to me. I’ll tell you something important. Just don’t get lost down there, alright?',
-            de: 'Ah, stimmt… Wenn du den ganzen Loot hast — komm zu mir zurück. Ich erzähl dir was Wichtiges. Nur verirr dich nicht da unten, klar?',
-            pl: 'Aaa, tak… Jak już zbierzesz cały loot — wracaj do mnie. Powiem ci coś ważnego. Tylko się tam nie zgub pod wodą, okej?',
+            "ru": "А, да… Как соберёшь весь лут — возвращайся ко мне. Только не потеряйся там под водой, ага?",
+            "ua": "А, так… Як збереш весь лут — повертайся до мене. Тільки не загубись там під водою, гаразд?",
+            "en": "Oh, right… Once you’ve grabbed all the loot, come back to me. Just don’t get lost down there, okay?",
+            "de": "Ach ja… Wenn du den ganzen Loot eingesammelt hast, komm zurück zu mir. Aber verirr dich nicht da unten im Wasser, ja?",
+            "pl": "A, racja… Jak już zbierzesz cały loot, wróć do mnie. Tylko się tam nie zgub pod wodą, dobra?",
         },
         getIt: {
             ru: 'П-понял!',
