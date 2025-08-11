@@ -824,7 +824,7 @@ export const stepDto = {
         "de": "Kündige deinen Job als Taucher",
         "pl": "Zrezygnuj z pracy nurka",
     },
-    collectDivingLoot: {
+    collectDivingStartingQuest: {
         "ru": "Соберите {{count}} подводных находок",
         "ua": "Збери {{count}} підводних знахідок",
         "en": "Collect {{count}} underwater items",
