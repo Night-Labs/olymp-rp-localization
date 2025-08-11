@@ -12,12 +12,15 @@ import generosityWithoutLimits from './generosityWithoutLimits';
 import luxuryAndPower from './luxuryAndPower';
 import gamblingAndLuck from './gamblingAndLuck';
 import gunDeal from './gunDeal';
-import motionIsLife from './motionIsLife'
+import motionIsLife from './motionIsLife';
 import goodbyeBaby from './goodbyeBaby';
-import conventionFromParents from './conventionFromParents'
+import conventionFromParents from './conventionFromParents';
 import millionairesPath from './millionairesPath';
 import driversLicense from './driversLicense';
 import firstSim from './firstSim';
+import getOutHunting from './getOutHunting';
+import goMining from './goMining';
+import grandBlue from './grandBlue';
 
 export default {
     npc,
@@ -39,5 +42,7 @@ export default {
     motionIsLife,
     goodbyeBaby,
     conventionFromParents,
-    millionairesPath,
+    getOutHunting,
+    goMining,
+    grandBlue,
 };

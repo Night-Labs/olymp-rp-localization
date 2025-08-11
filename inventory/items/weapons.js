@@ -249,7 +249,7 @@ export const weapons = {
             },
             desc: {
                 ru: 'Инструмент, используемый для работы с гаечными соединениями.',
-                ua: "Інструмент, що використовується для роботи з гайковими з'єднаннями.",
+                ua: 'Інструмент, що використовується для роботи з гайковими з\'єднаннями.',
                 en: 'A tool used for working with nut and bolt connections.',
                 de: 'Ein Werkzeug, das zum Arbeiten mit Schraubenverbindungen verwendet wird.',
                 pl: 'Narzędzie służące do pracy z połączeniami śrubowymi.',
@@ -267,7 +267,7 @@ export const weapons = {
             },
             desc: {
                 ru: 'Инструмент, используемый в игре в гольф для удара по мячу.',
-                ua: "Інструмент, що використовується в грі в гольф для удару по м'ячу.",
+                ua: 'Інструмент, що використовується в грі в гольф для удару по м\'ячу.',
                 en: 'A tool used in the game of golf to strike the ball.',
                 de: 'Ein Werkzeug, das im Golfspiel zum Schlagen des Balls verwendet wird.',
                 pl: 'Narzędzie używane w grze w golfa do uderzania piłki.',
@@ -847,7 +847,7 @@ export const weapons = {
             desc: {
                 ru: 'Когда одного выстрела недостаточно, этот зверь выстреливает целым потоком. Подходит для тех, кто любит разрушения.',
                 ua: 'Коли одного пострілу недостатньо, цей звір вистрілює цілим потоком. Підходить для тих, хто любить руйнування.',
-                en: "When one shot isn't enough, this beast fires a stream. Suitable for those who love destruction.",
+                en: 'When one shot isn\'t enough, this beast fires a stream. Suitable for those who love destruction.',
                 de: 'Wenn ein Schuss nicht ausreicht, feuert dieses Biest einen Strom ab. Geeignet für diejenigen, die Zerstörung lieben.',
                 pl: 'Gdy jeden strzał nie wystarcza, to bestia strzela strumieniem. Odpowiednie dla tych, którzy kochają zniszczenie.',
                 zh: '一枪不够的时候，这头野兽会射到整条小溪。这是为了那些热爱毁灭的人',
@@ -975,7 +975,7 @@ export const weapons = {
             desc: {
                 ru: 'Это оружие для тех, кто хочет убедиться, что цель упала с первого выстрела. Двуствольное ружье - это классика, которая всегда в моде.',
                 ua: 'Ця зброя для тих, хто хоче переконатися, що ціль впала з першого пострілу. Двоствольна рушниця - це класика, яка завжди в моді.',
-                en: "This is a weapon for those who want to make sure the target goes down with the first shot. The double barrel shotgun is a classic that's always in style.",
+                en: 'This is a weapon for those who want to make sure the target goes down with the first shot. The double barrel shotgun is a classic that\'s always in style.',
                 de: 'Dies ist eine Waffe für diejenigen, die sicherstellen wollen, dass das Ziel mit dem ersten Schuss fällt. Die doppelläufige Schrotflinte ist ein Klassiker, der immer im Trend liegt.',
                 pl: 'To jest broń dla tych, którzy chcą mieć pewność, że cel padnie za pierwszym strzałem. Dwulufowa strzelba to klasyk, który zawsze jest na czasie.',
                 zh: '这是一种武器，适合那些想确保目标在第一枪中就被击落的人。双管霰弹枪是一种经典',
@@ -993,7 +993,7 @@ export const weapons = {
             desc: {
                 ru: 'Когда дела идут плохо, боевое ружье приходит на помощь. Это оружие для тех, кто не боится ближнего боя.',
                 ua: 'Коли справи йдуть погано, бойова рушниця приходить на допомогу. Ця зброя для тих, хто не боїться близького бою.',
-                en: "When things get tough, the combat shotgun comes to the rescue. This is a weapon for those who aren't afraid of close combat.",
+                en: 'When things get tough, the combat shotgun comes to the rescue. This is a weapon for those who aren\'t afraid of close combat.',
                 de: 'Wenn die Dinge hart auf hart kommen, kommt die Kampfschrotflinte zur Rettung. Dies ist eine Waffe für diejenigen, die den Nahkampf nicht scheuen.',
                 pl: 'Gdy sytuacja się komplikuje, na ratunek przychodzi strzelba bojowa. To broń dla tych, którzy nie boją się walki wręcz.',
                 zh: '当情况变得艰难时，战斗霰弹枪会来救援。这是一种适合那些不害怕近距离战斗的人的武器',
@@ -1313,7 +1313,7 @@ export const weapons = {
             desc: {
                 ua: 'Можна знести комусь їбало',
                 ru: 'Можно снести кому то ебало',
-                en: "Can smash someone's face",
+                en: 'Can smash someone\'s face',
                 de: 'Kann jemandem das Gesicht einschlagen',
                 pl: 'Można rozbić komuś twarz',
                 zh: '可以砸碎某人的脸',

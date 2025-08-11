@@ -293,12 +293,11 @@ export const items = {
     },
     handcuffs: {
         name: {
-            ru: 'Наручники',
-            ua: 'Наручники',
-            en: 'Handcuffs',
-            de: 'Handschellen',
-            pl: 'Kajdanki',
-            zh: '手铐',
+            "ru": "Наручники",
+            "ua": "Наручники",
+            "en": "Handcuffs",
+            "de": "Handschellen",
+            "pl": "Kajdanki",
         },
         desc: {
             ru: 'Используются гос. структурами для задержания преступников',

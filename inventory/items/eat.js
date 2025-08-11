@@ -380,4 +380,20 @@ export const food = {
             zh: '甜圈配黑巧克力',
         },
     },
+    oolong_tea: {
+        "name": {
+            "ru": "Улун-ча «Grand Blue»",
+            "ua": "Улун-ча «Grand Blue»",
+            "en": "Grand Blue Oolong Tea",
+            "de": "Grand Blue Oolong-Tee",
+            "pl": "Herbata oolong „Grand Blue”",
+        },
+        "desc": {
+            "ru": "С виду обычный улун, но внутри фирменный коктейль дайверов-алкоголиков. Лайфхак: подожги — если вспыхнуло, «чай» правильный.",
+            "ua": "На вигляд звичайний улун, але всередині фірмовий коктейль дайверів-алкоголіків. Лайфхак: підпали — як спалахне, «чай» справжній.",
+            "en": "Looks like plain oolong, but the bottle hides the divers’ signature booze blend. Pro tip: set it on fire — if it burns, it’s the “real” tea.",
+            "de": "Sieht aus wie gewöhnlicher Oolong, aber innen steckt der legendäre Alkohol-Mix der Taucher. Tipp: Zünde es an – wenn’s brennt, ist es der echte „Tee“.",
+            "pl": "Wygląda jak zwykły oolong, ale w środku jest firmowy koktajl alkoholików-nurków. Pro tip: podpal — jeśli zapłonie, to „prawdziwa” herbata.",
+        },
+    }
 };
