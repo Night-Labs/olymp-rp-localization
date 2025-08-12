@@ -130,12 +130,11 @@ export default {
         zh: '您已经激活了推荐码:{{code}}',
     },
     youActivatedCode: {
-        ru: 'Вы активировали реферальный код: {{code}} и получили {{award}} Olymp-Coins',
-        ua: 'Ви активували реферальний код: {{code}} і отримали {{award}} Olymp-Coins',
-        en: 'You activated the referral code: {{code}} and received {{award}} Olymp-Coins',
-        de: 'Du hast den Empfehlungscode: {{code}} aktiviert und {{award}} Olymp-Coins erhalten',
-        pl: 'Aktywowałeś kod referencyjny: {{code}} i otrzymałeś {{award}} Olymp-Coins',
-        zh: '您激活了推荐代码:{{code}}，并收到{{award}}奥林匹克币',
+        "ru": "Вы активировали реферальный код: {{code}} и получили {{award}} Olymp-Coins и VIP на 7 дней",
+        "ua": "Ти активував реферальний код: {{code}} і отримав {{award}} Olymp-Coins та VIP на 7 днів",
+        "en": "You activated the referral code: {{code}} and got {{award}} Olymp-Coins and VIP for 7 days",
+        "de": "Du hast den Empfehlungscode aktiviert: {{code}} und {{award}} Olymp-Coins sowie VIP für 7 Tage erhalten",
+        "pl": "Aktywowałeś kod polecający: {{code}} i otrzymałeś {{award}} Olymp-Coins oraz VIP na 7 dni",
     },
     youGotAwardForLevel: {
         ru: 'Вы получили {{award}} Olymp-Coins и ${{moneyAward}} за достижение {{level}} уровня',
