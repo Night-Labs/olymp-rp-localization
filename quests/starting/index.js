@@ -21,7 +21,6 @@ import firstSim from './firstSim';
 import getOutHunting from './getOutHunting';
 import goMining from './goMining';
 import grandBlue from './grandBlue';
-
 export default {
     npc,
     welcome,

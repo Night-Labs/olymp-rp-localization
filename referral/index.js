@@ -5,7 +5,7 @@ export default {
         en: 'Referral System',
         de: 'Empfehlungssystem',
         pl: 'System poleceń',
-        zh:'转诊制度',
+        zh: '转诊制度',
     },
     desc: {
         ru: 'Зови друзей, чтобы играть, ведь вместе не только веселее, но и выгоднее!',
@@ -13,7 +13,7 @@ export default {
         en: "Invite friends to play, because together it's not only more fun but also more profitable!",
         de: 'Lade Freunde zum Spielen ein, denn zusammen macht es nicht nur mehr Spaß, sondern ist auch profitabler!',
         pl: 'Zapraszaj przyjaciół do gry, bo razem jest nie tylko weselej, ale i bardziej opłacalnie!',
-        zh:'邀请你的朋友！',
+        zh: '邀请你的朋友！',
     },
     enterRefferalCode: {
         ru: 'Ввести реферальный код',
@@ -21,7 +21,7 @@ export default {
         en: 'Enter Referral Code',
         de: 'Empfehlungscode eingeben',
         pl: 'Wprowadź kod polecający',
-        zh:'输入转介代码', 
+        zh: '输入转介代码',
     },
     youAreReferralOf: {
         ru: 'Вы являетесь рефералом',
@@ -29,7 +29,7 @@ export default {
         en: 'You are a referral of',
         de: 'Du nutzt folgenden Empfehlungscode',
         pl: 'Jesteś poleconym przez',
-        zh:'你是推荐人',
+        zh: '你是推荐人',
     },
     myRefferalCode: {
         ru: 'Мой реферальный код',
@@ -37,7 +37,7 @@ export default {
         en: 'My Referral Code',
         de: 'Mein Empfehlungscode',
         pl: 'Mój kod polecający',
-        zh:'我的推荐代码',
+        zh: '我的推荐代码',
     },
     refferals: {
         ru: 'Рефералов',
@@ -45,7 +45,7 @@ export default {
         en: 'Referrals',
         de: 'Empfehlungen',
         pl: 'Polecenia',
-        zh:'推荐',
+        zh: '推荐',
     },
     earned: {
         ru: 'Заработано',
@@ -53,7 +53,7 @@ export default {
         en: 'Earned',
         de: 'Verdient',
         pl: 'Zarobiono',
-        zh:'已赚得',
+        zh: '已赚得',
     },
     achieveRefferalLevel: {
         ru: 'При достижении рефералом 5 лвл - ваш реферал получает 250 а вы 50 ',
@@ -61,7 +61,7 @@ export default {
         en: 'Upon reaching level 5 by your referral, they get 250 and you get 50 ',
         de: 'Bei Erreichen von Level 5 durch deinen Empfehlungsnehmer erhältst du 50 ',
         pl: 'Po osiągnięciu poziomu 5 przez poleconego, otrzymuje on 250 a Ty 50 ',
-        zh:'当你的推荐达到5级时，他们得到250，你得到50', 
+        zh: '当你的推荐达到5级时，他们得到250，你得到50',
     },
     donateRefferalBonus: {
         ru: 'При донате реферала вы получаете 1% от суммы его доната в ',
@@ -69,7 +69,7 @@ export default {
         en: 'When your referral donates, you get 1% of their donation amount in ',
         de: 'Wenn dein Empfehlungsnehmer spendet, erhälst du 1% des Spendenbetrags in ',
         pl: 'Kiedy Twój polecony przekazuje darowiznę, otrzymujesz 1% od jej kwoty w ',
-        zh:'',
+        zh: '',
     },
     forExampleInput: {
         ru: 'Например: olymp',
@@ -77,7 +77,7 @@ export default {
         en: 'For example: olymp',
         de: 'Zum Beispiel: OLYMP',
         pl: 'Na przykład: olymp',
-        zh:'例如:olymp',
+        zh: '例如:olymp',
     },
     stats: {
         ru: 'Статистика',
@@ -85,7 +85,7 @@ export default {
         en: 'Stats',
         de: 'Statistiken',
         pl: 'Statystyki',
-        zh:'统计', 
+        zh: '统计',
     },
     myReferrals: {
         ru: 'Мои рефералы',
@@ -93,7 +93,7 @@ export default {
         en: 'My Referrals',
         de: 'Meine Empfehlungen',
         pl: 'Moje polecenia',
-        zh:'我的下线情况',
+        zh: '我的下线情况',
     },
     level: {
         ru: 'Уровень',
@@ -101,7 +101,7 @@ export default {
         en: 'Level',
         de: 'Stufe',
         pl: 'Poziom',
-        zh:'级别',
+        zh: '级别',
     },
     date: {
         ru: 'Дата регистрации',
@@ -109,7 +109,7 @@ export default {
         en: 'Registration date',
         de: 'Registrierungsdatum',
         pl: 'Data rejestracji',
-        zh:'注册时间',
+        zh: '注册时间',
     },
 
     //
@@ -119,7 +119,7 @@ export default {
         en: 'Referral code not found',
         de: 'Empfehlungscode nicht gefunden',
         pl: 'Kod polecający nie znaleziony',
-        zh:'找不到转介代码',
+        zh: '找不到转介代码',
     },
     youAlreadyActivatedCode: {
         ru: 'Вы уже активировали реферальный код: {{code}}',
@@ -127,15 +127,14 @@ export default {
         en: 'You have already activated the referral code: {{code}}',
         de: 'Du hast einen Empfehlungscode bereits aktiviert : {{code}}',
         pl: 'Już aktywowałeś kod polecający: {{code}}',
-        zh:'您已经激活了推荐码:{{code}}',
+        zh: '您已经激活了推荐码:{{code}}',
     },
     youActivatedCode: {
-        ru: 'Вы активировали реферальный код: {{code}} и получили {{award}} Olymp-Coins',
-        ua: 'Ви активували реферальний код: {{code}} і отримали {{award}} Olymp-Coins',
-        en: 'You activated the referral code: {{code}} and received {{award}} Olymp-Coins',
-        de: 'Du hast den Empfehlungscode: {{code}} aktiviert und {{award}} Olymp-Coins erhalten',
-        pl: 'Aktywowałeś kod referencyjny: {{code}} i otrzymałeś {{award}} Olymp-Coins',
-        zh:'您激活了推荐代码:{{code}}，并收到{{award}}奥林匹克币',
+        "ru": "Вы активировали реферальный код: {{code}} и получили {{award}} Olymp-Coins и VIP на 7 дней",
+        "ua": "Ти активував реферальний код: {{code}} і отримав {{award}} Olymp-Coins та VIP на 7 днів",
+        "en": "You activated the referral code: {{code}} and got {{award}} Olymp-Coins and VIP for 7 days",
+        "de": "Du hast den Empfehlungscode aktiviert: {{code}} und {{award}} Olymp-Coins sowie VIP für 7 Tage erhalten",
+        "pl": "Aktywowałeś kod polecający: {{code}} i otrzymałeś {{award}} Olymp-Coins oraz VIP na 7 dni",
     },
     youGotAwardForLevel: {
         ru: 'Вы получили {{award}} Olymp-Coins и ${{moneyAward}} за достижение {{level}} уровня',
@@ -143,7 +142,7 @@ export default {
         en: 'You got {{award}} Olymp-Coins and ${{moneyAward}} for reaching level {{level}}',
         de: 'Du hast {{award}} Olymp-Coins und ${{moneyAward}} für das Erreichen von Level {{level}} erhalten',
         pl: 'Otrzymałeś {{award}} Olymp-Coins i ${{moneyAward}} za osiągnięcie poziomu {{level}}',
-        zh:'达到级别{{level}}，你将获得{{award}}赞助币和${{moneyAward}}',
+        zh: '达到级别{{level}}，你将获得{{award}}赞助币和${{moneyAward}}',
     },
     youCantActivateYourself: {
         ru: 'Вы не можете активировать свой собственный реферальный код',
@@ -151,32 +150,29 @@ export default {
         en: 'You cannot activate your own referral code',
         de: 'Du kannst deinen eigenen Empfehlungscode nicht aktivieren',
         pl: 'Nie możesz aktywować własnego kodu polecającego',
-        zh:'您不能激活您自己的推荐代码',
+        zh: '您不能激活您自己的推荐代码',
     },
 
     hint0: {
-        ru: '1. При вводе игроком вашего реферального кода, он становится вашим рефералом и сразу же получает <span style="color: var(--primary)">{{referralAward}} Olymp-Coins и {{referralAwardCash}} </span> для комфортного начала игры',
-        ua: '1. При введенні гравцем вашого реферального коду, він стає вашим рефералом і відразу ж отримує <span style="color: var(--primary)">{{referralAward}} Olymp-Coins та {{referralAwardCash}} </span> для комфортного початку гри',
-        en: '1. When a player enters your referral code, they become your referral and immediately receive <span style="color: var(--primary)">{{referralAward}} Olymp-Coins and {{referralAwardCash}} </span> for a comfortable start in the game',
-        de: '1. Bei erreichen von Level {{level}} erhält der Empfehlungsnehmer <span style="color: var(--primary)">{{referralAward}} Olymp-Coins und {{referralAwardCash}} </span> für einen komfortablen Start ins Spiel',
-        pl: '1. Po wprowadzeniu przez gracza twojego kodu polecającego, staje się twoim poleconym i natychmiast otrzymuje <span style="color: var(--primary)">{{referralAward}} Olymp-Coins i {{referralAwardCash}} </span> na komfortowy początek gry',
-        zh:'当玩家输入你的推荐代码时，他们就会成为你的推荐代码，并立即收到<span style="color: var(- primary)">{{referralAward}}赞助币和{{referralAwardCash}} </span>在游戏中一个舒适的开始',
+        "ru": "1. Если игрок вводит ваш реферальный код, он становится вашим рефералом и сразу получает <span style=\"color: var(--primary)\">{{referralAward}} Olymp-Coins, {{referralAwardCash}} и VIP на 7 дней</span> для комфортного старта",
+        "ua": "1. Якщо гравець вводить твій реферальний код, він стає твоїм рефералом і одразу отримує <span style=\"color: var(--primary)\">{{referralAward}} Olymp-Coins, {{referralAwardCash}} і VIP на 7 днів</span> для комфортного старту",
+        "en": "1. If a player enters your referral code, they become your referral and immediately receive <span style=\"color: var(--primary)\">{{referralAward}} Olymp-Coins, {{referralAwardCash}} and VIP for 7 days</span> to start comfortably",
+        "de": "1. Wenn ein Spieler deinen Empfehlungscode eingibt, wird er dein Referral und erhält sofort <span style=\"color: var(--primary)\">{{referralAward}} Olymp-Coins, {{referralAwardCash}} und VIP für 7 Tage</span> für einen angenehmen Start",
+        "pl": "1. Jeśli gracz wpisze twój kod polecający, zostaje twoim poleconym i natychmiast otrzymuje <span style=\"color: var(--primary)\">{{referralAward}} Olymp-Coins, {{referralAwardCash}} i VIP na 7 dni</span> na komfortowy start",
     },
     hint1: {
-        ru: '2. При достижении рефералом <span style="color: var(--primary)">{{level}} уровня</span> - ваш реферал получает ещё <span style="color: var(--primary)">{{referralAward}} Olymp-Coins </span>а вы <span style="color: var(--primary)">{{yourAward}} Olymp-Coins</span>',
-        ua: '2. При досягненні рефералом <span style="color: var(--primary)">{{level}} рівня</span> - ваш реферал отримує ще <span style="color: var(--primary)">{{referralAward}} Olymp-Coins </span>, а ви <span style="color: var(--primary)">{{yourAward}} Olymp-Coins</span>',
-        en: '2. When your referral reaches <span style="color: var(--primary)">{{level}} level</span> - your referral receives another <span style="color: var(--primary)">{{referralAward}} Olymp-Coins </span> and you get <span style="color: var(--primary)">{{yourAward}} Olymp-Coins</span>',
-        de: '2. Wenn dein Empfehlungsnehmer <span style="color: var(--primary)">{{level}} Level</span> erreicht - erhältst du <span style="color: var(--primary)">{{yourAward}} Olymp-Coins</span>',
-        pl: '2. Po osiągnięciu przez twojego poleconego <span style="color: var(--primary)">{{level}} poziomu</span> - twój polecony otrzymuje kolejne <span style="color: var(--primary)">{{referralAward}} Olymp-Coins </span>, a ty otrzymujesz <span style="color: var(--primary)">{{yourAward}} Olymp-Coins</span>',
-       zh:'当你的推荐达到<span style="color: var(——primary)">{{level}} level</span> -您的推荐人收到另一个<span style="color: var(——primary)">{{referralAward}} 赞助币 </span>得到<span style="color: var(——primary)"> {{yourAward}} 赞助币跨度< / >',
+        "ru": "2. Когда ваш реферал достигает <span style=\"color: var(--primary)\">{{level}} уровня</span> - он получает <span style=\"color: var(--primary)\">{{referralAward}} Olymp-Coins </span>а вы <span style=\"color: var(--primary)\">{{yourAward}} Olymp-Coins</span>",
+        "ua": "2. Коли твій реферал досягає <span style=\"color: var(--primary)\">{{level}} рівня</span> — він отримує <span style=\"color: var(--primary)\">{{referralAward}} Olymp-Coins</span>, а ти <span style=\"color: var(--primary)\">{{yourAward}} Olymp-Coins</span>",
+        "en": "2. When your referral reaches <span style=\"color: var(--primary)\">{{level}} level</span>, they get <span style=\"color: var(--primary)\">{{referralAward}} Olymp-Coins</span> and you get <span style=\"color: var(--primary)\">{{yourAward}} Olymp-Coins</span>",
+        "de": "2. Wenn dein Referral <span style=\"color: var(--primary)\">{{level}} Level</span> erreicht, bekommt er <span style=\"color: var(--primary)\">{{referralAward}} Olymp-Coins</span> und du bekommst <span style=\"color: var(--primary)\">{{yourAward}} Olymp-Coins</span>",
+        "pl": "2. Gdy twój polecony osiąga <span style=\"color: var(--primary)\">{{level}} poziom</span>, on otrzymuje <span style=\"color: var(--primary)\">{{referralAward}} Olymp-Coins</span>, a ty <span style=\"color: var(--primary)\">{{yourAward}} Olymp-Coins</span>",
     },
     hint2: {
-        ru: '3. При донате реферала вы получаете <span style="color: var(--primary)">{{percent}}%</span> от суммы его доната',
-        ua: '3. При донаті реферала ви отримуєте <span style="color: var(--primary)">{{percent}}%</span> від суми його доната',
-        en: '3. When your referral donates, you receive <span style="color: var(--primary)">{{percent}}%</span> of their donation amount',
-        de: '3. Bei einer Spende des Empfehlungsnehmers erhälst du <span style="color: var(--primary)">{{percent}}%</span> des Spendenbetrags',
-        pl: '3. Kiedy Twój polecony dokonuje darowizny, otrzymujesz <span style="color: var(--primary)">{{percent}}%</span> od kwoty jego darowizny',
-        zh:'',
+        "ru": "3. При каждом донате реферала вы получаете <span style=\"color: var(--primary)\">{{percent}}%</span> от суммы его доната",
+        "ua": "3. При кожному донаті реферала ти отримуєш <span style=\"color: var(--primary)\">{{percent}}%</span> від суми його донату",
+        "en": "3. Every time your referral donates, you get <span style=\"color: var(--primary)\">{{percent}}%</span> of their donation amount",
+        "de": "3. Bei jeder Spende deines Referrals bekommst du <span style=\"color: var(--primary)\">{{percent}}%</span> des Spendenbetrags",
+        "pl": "3. Przy każdej dotacji od twojego poleconego otrzymujesz <span style=\"color: var(--primary)\">{{percent}}%</span> kwoty jego dotacji",
     },
 
     //
@@ -187,7 +183,7 @@ export default {
             en: 'Mon',
             de: 'Mo',
             pl: 'Pn',
-            zh:'星期一',
+            zh: '星期一',
         },
         VT: {
             ru: 'Вт',
@@ -195,7 +191,7 @@ export default {
             en: 'Tue',
             de: 'Di',
             pl: 'Wt',
-            zh:'星期二',
+            zh: '星期二',
         },
         SR: {
             ru: 'Ср',
@@ -203,7 +199,7 @@ export default {
             en: 'Wed',
             de: 'Mi',
             pl: 'Śr',
-            zh:'星期三',
+            zh: '星期三',
         },
         CH: {
             ru: 'Чт',
@@ -211,7 +207,7 @@ export default {
             en: 'Thu',
             de: 'Do',
             pl: 'Czw',
-            zh:'星期四',
+            zh: '星期四',
         },
         PT: {
             ru: 'Пт',
@@ -219,7 +215,7 @@ export default {
             en: 'Fri',
             de: 'Fr',
             pl: 'Pt',
-            zh:'星期五',
+            zh: '星期五',
         },
         SB: {
             ru: 'Сб',
@@ -227,7 +223,7 @@ export default {
             en: 'Sat',
             de: 'Sa',
             pl: 'Sb',
-            zh:'星期六',
+            zh: '星期六',
         },
         VS: {
             ru: 'Вс',
@@ -235,7 +231,7 @@ export default {
             en: 'Sun',
             de: 'So',
             pl: 'Nd',
-            zh:'星期日',
+            zh: '星期日',
         },
     },
 };

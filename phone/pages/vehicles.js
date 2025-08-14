@@ -16,6 +16,13 @@ export default {
         zh: '按名称搜索车辆',
     },
     control: {
+        km: {
+            ru: 'км.',
+            ua: 'км.',
+            en: 'km',
+            de: 'km',
+            pl: 'km',
+        },
         engines: {
             electric: {
                 ru: 'Электрический',
@@ -246,11 +253,11 @@ export default {
                 pl: 'Dostarcz z garażu',
             },
             impounded: {
-                "ru": "Т/С находится на штрафстоянке #{{lotId}}",
-                "ua": "ТЗ знаходиться на штрафмайданчику #{{lotId}}",
-                "en": "The vehicle is impounded at lot #{{lotId}}",
-                "de": "Das Fahrzeug steht auf dem Abschleppplatz #{{lotId}}",
-                "pl": "Pojazd znajduje się na parkingu policyjnym #{{lotId}}",
+                ru: 'Т/С находится на штрафстоянке #{{lotId}}',
+                ua: 'ТЗ знаходиться на штрафмайданчику #{{lotId}}',
+                en: 'The vehicle is impounded at lot #{{lotId}}',
+                de: 'Das Fahrzeug steht auf dem Abschleppplatz #{{lotId}}',
+                pl: 'Pojazd znajduje się na parkingu policyjnym #{{lotId}}',
             },
         },
         deliveryInProcess: {

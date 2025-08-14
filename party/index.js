@@ -71,4 +71,18 @@ export default {
         de: 'Wähle den Spieler aus, den du entfernen möchtest',
         pl: 'Wybierz gracza, którego chcesz wyrzucić',
     },
+    youLeftParty: {
+        "ru": "Вы покинули группу",
+        "ua": "Ти покинув групу",
+        "en": "You left the party",
+        "de": "Du hast die Gruppe verlassen",
+        "pl": "Opuściłeś grupę",
+    },
+    playerLeftParty: {
+        "ru": "{{name}} покинул вашу группу",
+        "ua": "{{name}} покинув твою групу",
+        "en": "{{name}} left your party",
+        "de": "{{name}} hat deine Gruppe verlassen",
+        "pl": "{{name}} opuścił twoją grupę",
+    },
 };
