@@ -186,5 +186,12 @@ export default {
             de: 'Antiquitäten',
             pl: 'Antyki',
         },
+        mushrooms: {
+            ru: 'Грибов',
+            ua: 'Грибів',
+            en: 'Mushrooms',
+            de: 'Pilze',
+            pl: 'Grzybów',
+        },
     },
 };
