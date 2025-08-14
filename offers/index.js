@@ -101,7 +101,7 @@ export default {
         ru: 'Предлагает вам показать свое удостоверение',
         ua: 'Пропонує вам показати своє посвідчення',
         en: 'Offers you to show your badge',
-        de: 'Bietet dir an, deinen Ausweis vorzuzeigen',
+        de: 'Bietet dir an, seinen/ihren Ausweis zu zeigen',
         pl: 'Proponuje ci pokazanie swojej odznaki',
     },
 };

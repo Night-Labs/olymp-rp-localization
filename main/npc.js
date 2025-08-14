@@ -179,7 +179,7 @@ export const npc = {
         ru: 'Сливной Виталя',
         ua: 'Зливний Віталя',
         en: 'Drain Vitalya',
-        de: 'Abfluss Vitalya',
+        de: 'Obdachloser Vitalya',
         pl: 'Odpływ Vitalya',
     },
     surgeon: {

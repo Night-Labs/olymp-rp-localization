@@ -38,21 +38,21 @@ export default {
         ru: 'Укажите корректный ID игрока',
         ua: 'Вкажіть правильний ID гравця',
         en: 'Enter the correct player ID',
-        de: 'Gebe die richtige Spieler-ID ein',
+        de: 'Gib die richtige Spieler-ID ein',
         pl: 'Podaj poprawne ID gracza',
     },
     typeCorrectDays: {
         ru: 'Укажите корректное количество дней бана',
         ua: 'Вкажіть правильну кількість днів бана',
         en: 'Enter the correct number of ban days',
-        de: 'Gebe die korrekte Anzahl der Bann-Tage ein',
+        de: 'Gib die korrekte Anzahl der Bann-Tage ein',
         pl: 'Podaj poprawną liczbę dni bana',
     },
     typeCorrectReason: {
         ru: 'Укажите корректную причину бана',
         ua: 'Вкажіть правильну причину бана',
         en: 'Enter the correct ban reason',
-        de: 'Gebe den richtigen Bann-Grund ein',
+        de: 'Gib den richtigen Bann-Grund ein',
         pl: 'Podaj poprawny powód bana',
     },
     playersWithThisIdNotFound: {
@@ -73,7 +73,7 @@ export default {
         ru: 'Вы не можете забанить админа уровня повыше',
         ua: 'Ви не можете забанити адміна вищого рівня',
         en: 'You cannot ban a higher-level admin',
-        de: 'Du kannst keinen höherstufigen Admin bannen',
+        de: 'Du kannst keinen höhergestellten Admin bannen',
         pl: 'Nie możesz zbanować administratora wyższego poziomu',
     },
     justTriedToBanYou: {

@@ -35,7 +35,7 @@ export const server = {
         ru: 'Вы не достали пиццу',
         ua: 'Ви не взяли піцу',
         en: 'You did not get the pizza',
-        de: 'Du hast die Pizza nicht bekommen',
+        de: 'Der Kunde hat die Pizza nicht bekommen.',
         pl: 'Nie dostałeś pizzy',
         zh: '您没有拿到披萨',
     },

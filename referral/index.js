@@ -158,7 +158,7 @@ export default {
         ru: '1. При вводе игроком вашего реферального кода, он становится вашим рефералом и сразу же получает <span style="color: var(--primary)">{{referralAward}} Olymp-Coins и {{referralAwardCash}} </span> для комфортного начала игры',
         ua: '1. При введенні гравцем вашого реферального коду, він стає вашим рефералом і відразу ж отримує <span style="color: var(--primary)">{{referralAward}} Olymp-Coins та {{referralAwardCash}} </span> для комфортного початку гри',
         en: '1. When a player enters your referral code, they become your referral and immediately receive <span style="color: var(--primary)">{{referralAward}} Olymp-Coins and {{referralAwardCash}} </span> for a comfortable start in the game',
-        de: '1. Bei erreichen von Level {{level}} erhält der Empfehlungsnehmer <span style="color: var(--primary)">{{referralAward}} Olymp-Coins und {{referralAwardCash}} </span> für einen komfortablen Start ins Spiel',
+        de: '1. Bei erreichen von Level 5 erhält der Empfehlungsnehmer <span style="color: var(--primary)">{{referralAward}} Olymp-Coins und {{referralAwardCash}} </span> für einen komfortablen Start ins Spiel',
         pl: '1. Po wprowadzeniu przez gracza twojego kodu polecającego, staje się twoim poleconym i natychmiast otrzymuje <span style="color: var(--primary)">{{referralAward}} Olymp-Coins i {{referralAwardCash}} </span> na komfortowy początek gry',
         zh:'当玩家输入你的推荐代码时，他们就会成为你的推荐代码，并立即收到<span style="color: var(- primary)">{{referralAward}}赞助币和{{referralAwardCash}} </span>在游戏中一个舒适的开始',
     },
