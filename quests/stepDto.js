@@ -74,18 +74,41 @@ export const stepDto = {
             pl: 'Dostań się do lokalnego nurka',
         },
         truckerDeploy: {
-            ru: 'Доберитесь до места устройства на работу грузоперевозчиком',
+            ru: 'Доберись до места устройства на работу грузоперевозчиком',
             ua: 'Доберись до місця влаштування на роботу вантажоперевізником',
-            en: 'Get to the job placement location for a trucker',
-            de: 'Geh zum Arbeitsort, um als Lkw-Fahrer anzufangen',
-            pl: 'Dotrzyj na miejsce zatrudnienia jako kierowca ciężarówki',
+            en: 'Get to the place to start working as a cargo hauler',
+            de: 'Geh zum Ort, an dem du als Frachtfahrer anfangen kannst',
+            pl: 'Dojedź na miejsce, by zacząć pracę jako kierowca ciężarówki',
         },
+
         trucker2Deploy: {
-            ru: 'Доберитесь до места устройства на работу дальнобойщиком',
+            ru: 'Доберись до места устройства на работу дальнобойщиком',
             ua: 'Доберись до місця влаштування на роботу далекобійником',
-            en: 'Get to the job placement location for a long-haul trucker',
-            de: 'Geh zum Arbeitsort, um als Fernfahrer anzufangen',
-            pl: 'Dotrzyj na miejsce zatrudnienia jako kierowca dalekobieżny',
+            en: 'Get to the place to start working as a long-haul trucker',
+            de: 'Geh zum Ort, an dem du als Fernfahrer anfangen kannst',
+            pl: 'Dojedź na miejsce, by zacząć pracę jako kierowca dalekobieżny',
+        },
+
+        luxuryCarshop: {
+            ru: 'Отправляйся к люксовому автосалону',
+            ua: 'Вирушай до розкішного автосалону',
+            en: 'Head to the luxury car dealership',
+            de: 'Geh zum Luxusautohaus',
+            pl: 'Udaj się do luksusowego salonu samochodowego',
+        },
+        casino: {
+            ru: 'Доберись до казино',
+            ua: 'Доберись до казино',
+            en: 'Get to the casino',
+            de: 'Geh zum Casino',
+            pl: 'Dojedź do kasyna',
+        },
+        automarket: {
+            ru: 'Доберись до авторынка',
+            ua: 'Доберися до авторинку',
+            en: 'Get to the car market',
+            de: 'Komm zum Automarkt',
+            pl: 'Dojedź na giełdę samochodową',
         },
     },
     talkWith: {
@@ -102,6 +125,13 @@ export const stepDto = {
             en: 'Talk to Iori',
             de: 'Sprich mit Iori',
             pl: 'Porozmawiaj z Iori',
+        },
+        slivnoyVitalya: {
+            ru: 'Поговори со Сливным Виталей',
+            ua: 'Поговори з Зливним Віталієм',
+            en: 'Talk to Broke Vitaly',
+            de: 'Sprich mit Pleite-Vitali',
+            pl: 'Porozmawiaj ze Spłukanym Witalijem',
         },
     },
     buyWeapon: {
@@ -211,21 +241,18 @@ export const stepDto = {
     },
 
     boughtVehicle: {
-        ru: 'Купите любой транспорт',
+        ru: 'Купи любой транспорт',
+        ua: 'Купи будь-який транспорт',
         en: 'Buy any vehicle',
-        ua: 'Купіть будь-який транспорт',
-        de: 'Kaufen Sie ein beliebiges Fahrzeug',
+        de: 'Kauf dir ein beliebiges Fahrzeug',
         pl: 'Kup dowolny pojazd',
-        zh: '购买任何车辆',
     },
-
     buyVehicleMinumumAmount: {
-        ru: 'Купите машину не менее чем за {{cash}}',
-        ua: 'Купіть машину не менше ніж за {{cash}}',
-        en: 'Purchase a vehicle for at least {{cash}}',
-        de: 'Kaufen Sie ein Fahrzeug für mindestens {{cash}}',
-        pl: 'Kup pojazd za co najmniej {{cash}}',
-        zh: '至少用{{cash}}购买一辆车',
+        ru: 'Купи машину не менее чем за {{cash}}',
+        ua: 'Купи машину не менше ніж за {{cash}}',
+        en: 'Buy a car for at least {{cash}}',
+        de: 'Kauf ein Auto für mindestens {{cash}}',
+        pl: 'Kup samochód za co najmniej {{cash}}',
     },
 
     waitTime: {
@@ -886,5 +913,12 @@ export const stepDto = {
         en: 'Renew your category C license to work as a long-haul trucker',
         de: 'Verlängere deinen Führerschein der Klasse C, um als Fernfahrer zu arbeiten',
         pl: 'Przedłuż kategorię C, aby pracować jako kierowca dalekobieżny',
+    },
+    openInteractionOnYourVehicle: {
+        ru: 'Подойдите к вашему Т/С и откройте взаимодействие с вашим Т/С',
+        ua: 'Підійди до свого ТЗ і відкрий взаємодію зі своїм ТЗ',
+        en: 'Go to your vehicle and open interaction with it',
+        de: 'Geh zu deinem Fahrzeug und starte die Interaktion damit',
+        pl: 'Podejdź do swojego pojazdu i rozpocznij interakcję z nim',
     },
 };

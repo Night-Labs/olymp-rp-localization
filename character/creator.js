@@ -16,6 +16,14 @@ export const creator = {
         pl: 'Wprowadziłeś nieprawidłowe dane',
         zh: '输入的数据不正确',
     },
+
+    talkToFreddy: {
+        ru: 'Поговори с Фредди, он поможет освоиться в игре!',
+        ua: 'Поговори з Фредді, він допоможе освоїтися в грі!',
+        en: "Talk to Freddy, he'll help you get the hang of the game!",
+        de: 'Sprich mit Freddy, er hilft dir, dich im Spiel zurechtzufinden!',
+        pl: 'Porozmawiaj z Freddym, on pomoże ci ogarnąć grę!',
+    },
     pages: {
         info: {
             ua: 'Інформація про персонажа',
