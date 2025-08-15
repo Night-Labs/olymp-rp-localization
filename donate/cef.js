@@ -237,11 +237,18 @@ export const cef = {
 
         list: {
             salary: {
-                ru: 'Зарплаты, выплаты и цены у скупщиков увеличены на {{value}}%.',
-                ua: 'Зарплати, виплати та ціни у скупників збільшено на {{value}}%.',
-                en: 'Salaries, payouts, and prices at vendors increased by {{value}}%.',
-                de: 'Gehälter, Auszahlungen und Preise bei Ankäufern um {{value}}% erhöht.',
-                pl: 'Pensje, wypłaty i ceny u skupujących zwiększone o {{value}}%.',
+                ru: 'Зарплаты на работах увеличены на {{value}}%.',
+                ua: 'Зарплати на роботах збільшено на {{value}}%.',
+                en: 'Salaries at jobs have been increased by {{value}}%.',
+                de: 'Gehälter bei Jobs wurden um {{value}}% erhöht.',
+                pl: 'Wynagrodzenia w pracach zostały zwiększone o {{value}}%.',
+            },
+            buyers: {
+                ru: 'Выплаты у скупщиков увеличены на {{value}}%.',
+                ua: 'Виплати у скупників збільшено на {{value}}%.',
+                en: 'Payments from buyers have been increased by {{value}}%.',
+                de: 'Auszahlungen von Aufkäufern wurden um {{value}}% erhöht.',
+                pl: 'Wypłaty od skupujących zostały zwiększone o {{value}}%.',
             },
             exp: {
                 ru: 'Получаемый опыт увеличен на {{value}}%.',
