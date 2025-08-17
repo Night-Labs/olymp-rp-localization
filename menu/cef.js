@@ -713,5 +713,13 @@ export const cef = {
             de: 'Ton von Musikplayern deaktivieren',
             pl: 'Wyłącz dźwięk odtwarzaczy muzyki',
         },
+
+        aspectRatio: {
+            ru: 'Соотношение сторон',
+            ua: 'Співвідношення сторін',
+            en: 'Aspect ratio',
+            de: 'Seitenverhältnis',
+            pl: 'Współczynnik proporcji',
+        },
     },
 };
