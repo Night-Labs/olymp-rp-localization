@@ -189,6 +189,14 @@ export default {
         zh: '最大。玩家数量',
     },
 
+    noPlayersInCapture: {
+        ru: '~r~На захват территории никто не пришёл, поэтому война не состоялась',
+        ua: '~r~На захоп території ніхто не прийшов, тому війна не відбулася',
+        en: '~r~No one came to capture the territory, so the war didn’t happen',
+        de: '~r~Niemand ist zur Gebietseroberung gekommen, also hat der Krieg nicht stattgefunden',
+        pl: '~r~Nikt nie przyszedł na przejęcie terytorium, więc wojna się nie odbyła',
+    },
+
     leaveFromZone: {
         ru: 'Вы покинули зону капта чем нарушили правила поэтому вы были убиты',
         ua: 'Ви покинули зону капта, чим порушили правила, тому вас було вбито',
