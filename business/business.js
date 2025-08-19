@@ -1,4 +1,8 @@
+
+
+import server from './server';
 export default {
+    ...server,
     tabs: {
         info: {
             name: {
