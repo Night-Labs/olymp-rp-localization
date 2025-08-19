@@ -1,5 +1,3 @@
-
-
 import server from './server';
 export default {
     ...server,
@@ -104,11 +102,11 @@ export default {
 
         logs: {
             name: {
-                ru: 'Логи',
-                ua: 'Логи',
-                en: 'Logs',
-                de: 'Protokolle',
-                pl: 'Logi',
+                ru: 'Журнал',
+                ua: 'Журнал',
+                en: 'Journal',
+                de: 'Tagebuch',
+                pl: 'Dziennik',
             },
             message: {
                 ru: 'Сообщение',
