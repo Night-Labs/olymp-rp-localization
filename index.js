@@ -70,6 +70,7 @@ import prism from './prism';
 import diving from './diving';
 import drivingSchool from './drivingSchool';
 import drivingLicenses from './drivingLicenses';
+import business from './business/business';
 
 export default {
     account,
@@ -144,4 +145,5 @@ export default {
     prism,
     drivingSchool,
     drivingLicenses,
+    business,
 };
