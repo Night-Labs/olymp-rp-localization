@@ -75,14 +75,22 @@ export default {
                 pl: 'Średni rachunek',
             },
 
-            buy: {
+            govOwner: {
+                ru: 'Государство',
+                ua: 'Держава',
+                en: 'State',
+                de: 'Staat',
+                pl: 'Państwo',
+            },
+
+            buttonBuy: {
                 ru: 'Купить',
                 ua: 'Купити',
                 en: 'Buy',
                 de: 'Kaufen',
                 pl: 'Kup',
             },
-            sell: {
+            buttonSell: {
                 ru: 'Продать',
                 ua: 'Продати',
                 en: 'Sell',
