@@ -2,13 +2,13 @@ import server from './server';
 export default {
     ...server,
     tabs: {
-        info: {
+        main: {
             name: {
-                ru: 'Информация',
-                ua: 'Інформація',
-                en: 'Information',
-                de: 'Informationen',
-                pl: 'Informacje',
+                ru: 'Главная',
+                ua: 'Головна',
+                en: 'Home',
+                de: 'Startseite',
+                pl: 'Główna',
             },
 
             balance: {
@@ -130,12 +130,12 @@ export default {
                 de: 'Typ',
                 pl: 'Typ',
             },
-            time: {
-                ru: 'Время',
-                ua: 'Час',
-                en: 'Time',
-                de: 'Zeit',
-                pl: 'Czas',
+            date: {
+                ru: 'Дата и время',
+                ua: 'Дата і час',
+                en: 'Date and time',
+                de: 'Datum und Uhrzeit',
+                pl: 'Data i godzina',
             },
         },
 
