@@ -1,5 +1,3 @@
-
-
 import server from './server';
 export default {
     ...server,
@@ -77,14 +75,22 @@ export default {
                 pl: 'Średni rachunek',
             },
 
-            buy: {
+            govOwner: {
+                ru: 'Государство',
+                ua: 'Держава',
+                en: 'State',
+                de: 'Staat',
+                pl: 'Państwo',
+            },
+
+            buttonBuy: {
                 ru: 'Купить',
                 ua: 'Купити',
                 en: 'Buy',
                 de: 'Kaufen',
                 pl: 'Kup',
             },
-            sell: {
+            buttonSell: {
                 ru: 'Продать',
                 ua: 'Продати',
                 en: 'Sell',
@@ -104,11 +110,11 @@ export default {
 
         logs: {
             name: {
-                ru: 'Логи',
-                ua: 'Логи',
-                en: 'Logs',
-                de: 'Protokolle',
-                pl: 'Logi',
+                ru: 'Журнал',
+                ua: 'Журнал',
+                en: 'Journal',
+                de: 'Tagebuch',
+                pl: 'Dziennik',
             },
             message: {
                 ru: 'Сообщение',
