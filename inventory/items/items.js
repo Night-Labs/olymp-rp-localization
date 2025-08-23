@@ -293,11 +293,11 @@ export const items = {
     },
     handcuffs: {
         name: {
-            "ru": "Наручники",
-            "ua": "Наручники",
-            "en": "Handcuffs",
-            "de": "Handschellen",
-            "pl": "Kajdanki",
+            ru: 'Наручники',
+            ua: 'Наручники',
+            en: 'Handcuffs',
+            de: 'Handschellen',
+            pl: 'Kajdanki',
         },
         desc: {
             ru: 'Используются гос. структурами для задержания преступников',
@@ -576,6 +576,22 @@ export const items = {
             en: 'A portable device for instantly disabling electronics and security systems. Used by criminals to cut power at heavily guarded sites. Single-use, requires extra caution when handling.',
             de: 'Ein tragbares Gerät zum sofortigen Ausschalten von Elektronik und Sicherheitssystemen. Wird von Kriminellen verwendet, um die Stromversorgung an streng gesicherten Orten zu unterbrechen. Einweggerät, erfordert besondere Vorsicht im Umgang.',
             pl: 'Przenośne urządzenie do natychmiastowego unieruchamiania elektroniki i systemów bezpieczeństwa. Używane przez przestępców do odcinania zasilania w silnie strzeżonych miejscach. Jednorazowe, wymaga szczególnej ostrożności podczas użytkowania.',
+        },
+    },
+    gardenTrowel: {
+        name: {
+            ru: 'Садовая лопатка',
+            ua: 'Садова лопатка',
+            en: 'Garden trowel',
+            de: 'Gartenschaufel',
+            pl: 'Łopatka ogrodowa',
+        },
+        desc: {
+            ru: 'Компактный и прочный помощник, которым удобно копать, рыхлить землю и пересаживать растения.',
+            ua: 'Компактний і міцний помічник, яким зручно копати, розпушувати землю та пересаджувати рослини.',
+            en: 'A compact and durable helper, convenient for digging, loosening soil, and transplanting plants.',
+            de: 'Ein kompakter und robuster Helfer, praktisch zum Graben, Lockern des Bodens und Umpflanzen von Pflanzen.',
+            pl: 'Kompaktny i wytrzymały pomocnik, wygodny do kopania, spulchniania ziemi i przesadzania roślin.',
         },
     },
 };
