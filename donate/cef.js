@@ -460,6 +460,13 @@ export const cef = {
                 de: 'Für den Schatzsucher',
                 pl: 'Dla poszukiwacza skarbów',
             },
+            mushrooms: {
+                ru: 'Для грибника',
+                ua: 'Для грибника',
+                en: 'For the mushroom picker',
+                de: 'Für Pilzsammler',
+                pl: 'Dla grzybiarza',
+            },
         },
     },
     clothes: {

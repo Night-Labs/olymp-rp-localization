@@ -6,6 +6,7 @@ import farm from './farm';
 import hunting from './hunting';
 import { quarry } from './quarry/quarry';
 import treasureHunter from './treasureHunter/treasureHunter';
+import mushrooms from './mushrooms/mushrooms';
 
 export default {
     // ТО ЧТО СВЯЗАНО С РАБОТАМИ
@@ -94,6 +95,13 @@ export default {
             de: 'Taucher',
             pl: 'Nurek',
         },
+        mushrooms: {
+            ru: 'Грибник',
+            ua: 'Грибник',
+            en: 'Mushroom picker',
+            de: 'Pilzsammler',
+            pl: 'Grzybiarz',
+        },
     },
     youAlreadyWorking: {
         ru: 'Вы уже работаете на другой работе, для начала увольтесь с неё',
@@ -113,4 +121,5 @@ export default {
     hunting,
     quarry,
     treasureHunter,
+    mushrooms,
 };

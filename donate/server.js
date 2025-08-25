@@ -165,6 +165,14 @@ export const server = {
             pl: 'Otrzymano {{exp}} doświadczenia poszukiwacza skarbów!',
         },
 
+        mushrooms: {
+            ru: 'Получено {{exp}} опыта грибника!',
+            ua: 'Отримано {{exp}} досвіду грибника!',
+            en: 'Gained {{exp}} mushrooming experience!',
+            de: '{{exp}} Pilzsammler-Erfahrung gesammelt!',
+            pl: 'Zdobyto {{exp}} doświadczenia grzybiarza!',
+        },
+
         currency: {
             ru: 'Получено ${{currency}}',
             ua: 'Отримано ${{currency}}',
