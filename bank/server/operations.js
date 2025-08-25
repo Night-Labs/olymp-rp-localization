@@ -93,4 +93,11 @@ export const operations = {
         pl: 'Przejęto bankomat #{{id}}',
         zh: '自动取款机#{{id}}',
     },
+    cashCollectionBusiness: {
+        ru: 'Инкассация бизнеса #{{index}}',
+        ua: 'Інкасація бізнесу #{{index}}',
+        en: 'Business cash collection #{{index}}',
+        de: 'Bargeldeinzug des Geschäfts #{{index}}',
+        pl: 'Inkasacja biznesu #{{index}}',
+    },
 };

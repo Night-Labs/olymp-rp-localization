@@ -94,6 +94,55 @@ export default {
         de: 'Du hast ${{cash}} aus der Kasse abgehoben',
         pl: 'Ty wypłaciłeś ${{cash}} z kasy',
     },
+    cashCollectionEnabled: {
+        ru: 'Инкасация включена',
+        ua: 'Інкасація увімкнена',
+        en: 'Cash collection enabled',
+        de: 'Inkasso eingeschaltet',
+        pl: 'Inkasacja włączona',
+    },
+    cashCollectionDisabled: {
+        ru: 'Инкасация выключена',
+        ua: 'Інкасація вимкнена',
+        en: 'Cash collection disabled',
+        de: 'Inkasso ausgeschaltet',
+        pl: 'Inkasacja wyłączona',
+    },
+    autoReplenishmentEnabled: {
+        ru: 'Автозакупка товаров включена',
+        ua: 'Автозакупівля товарів увімкнена',
+        en: 'Auto restocking enabled',
+        de: 'Automatische Warenbeschaffung eingeschaltet',
+        pl: 'Automatyczne uzupełnianie towarów włączone',
+    },
+    autoReplenishmentDisabled: {
+        ru: 'Автозакупка товаров выключена',
+        ua: 'Автозакупівля товарів вимкнена',
+        en: 'Auto restocking disabled',
+        de: 'Automatische Warenbeschaffung ausgeschaltet',
+        pl: 'Automatyczne uzupełnianie towarów wyłączone',
+    },
+    noGoodsInStock: {
+        ru: 'В магазине закончился товар',
+        ua: 'У магазині закінчився товар',
+        en: 'The store is out of stock',
+        de: 'Im Laden ist die Ware ausverkauft',
+        pl: 'W sklepie skończył się towar',
+    },
+    noMoneyInCommercialBalance: {
+        ru: 'У тебя недостаточно денег на коммерческом счёте',
+        ua: 'У тебе недостатньо грошей на комерційному рахунку',
+        en: "You don't have enough money in your commercial account",
+        de: 'Du hast nicht genug Geld auf deinem Geschäftskonto',
+        pl: 'Nie masz wystarczająco pieniędzy na swoim koncie handlowym',
+    },
+    youOrderedGoods: {
+        ru: 'Ты успешно заказал товар на склад',
+        ua: 'Ти успішно замовив товар на склад',
+        en: 'You successfully ordered goods to the warehouse',
+        de: 'Du hast erfolgreich Waren ins Lager bestellt',
+        pl: 'Udało ci się zamówić towar do magazynu',
+    },
     sellModal: {
         title: {
             ru: 'Продажа бизнеса государству',
@@ -152,6 +201,24 @@ export default {
             en: 'Cancel',
             de: 'Abbrechen',
             pl: 'Anuluj',
+        },
+    },
+    orderGoodsModal: {
+        title: {
+            ru: 'Заказ товаров на склад',
+        },
+        message: {
+            ru:
+                'Цена за единицу товара: <span style="color: var(--bank)">{{unitPrice}}</span><br/>' +
+                'Цена за доставку: <span style="color: var(--bank)">{{deliveryPrice}}</span><br/>' +
+                'Итого к оплате: <span style="color: var(--bank)">{{totalPrice}}</span><br/><br/>' +
+                '<span style="color: var(--green)">Товары будут доставлены сразу в хранилище</span>',
+        },
+        confirmButton: {
+            ru: 'Заказать',
+        },
+        cancelButton: {
+            ru: 'Отмена',
         },
     },
 };
