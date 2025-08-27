@@ -100,4 +100,11 @@ export const operations = {
         de: 'Bargeldeinzug des Geschäfts #{{index}}',
         pl: 'Inkasacja biznesu #{{index}}',
     },
+    takeBusinessToGov: {
+        ru: 'Бизнес #{{index}} изъят за неуплату налогов',
+        ua: 'Бізнес #{{index}} вилучено за несплату податків',
+        en: 'Business #{{index}} has been seized for not paying taxes',
+        de: 'Geschäft #{{index}} wurde wegen Nichtzahlung von Steuern beschlagnahmt',
+        pl: 'Biznes #{{index}} został zajęty za niepłacenie podatków',
+    },
 };

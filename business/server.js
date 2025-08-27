@@ -143,6 +143,13 @@ export default {
         de: 'Du hast erfolgreich Waren ins Lager bestellt',
         pl: 'Udało ci się zamówić towar do magazynu',
     },
+    maxBusinessCount: {
+        ru: 'Ты можешь купить максимум {{count}} бизнеса',
+        ua: 'Ти можеш купити максимум {{count}} бізнесів',
+        en: 'You can buy up to {{count}} businesses',
+        de: 'Du kannst höchstens {{count}} Businesses kaufen',
+        pl: 'Możesz kupić maksymalnie {{count}} biznesów',
+    },
     sellModal: {
         title: {
             ru: 'Продажа бизнеса государству',
@@ -206,19 +213,31 @@ export default {
     orderGoodsModal: {
         title: {
             ru: 'Заказ товаров на склад',
+            ua: 'Замовлення товарів на склад',
+            en: 'Order goods to warehouse',
+            de: 'Waren ins Lager bestellen',
+            pl: 'Zamówienie towarów do magazynu',
         },
         message: {
-            ru:
-                'Цена за единицу товара: <span style="color: var(--bank)">{{unitPrice}}</span><br/>' +
-                'Цена за доставку: <span style="color: var(--bank)">{{deliveryPrice}}</span><br/>' +
-                'Итого к оплате: <span style="color: var(--bank)">{{totalPrice}}</span><br/><br/>' +
-                '<span style="color: var(--green)">Товары будут доставлены сразу в хранилище</span>',
+            ru: 'Цена за единицу товара: <span style="color: var(--bank)">{{unitPrice}}</span><br/>Цена за доставку: <span style="color: var(--bank)">{{deliveryPrice}}</span><br/>Итого к оплате: <span style="color: var(--bank)">{{totalPrice}}</span><br/><br/><span style="color: var(--green)">Товары будут доставлены сразу в хранилище</span><br/><span style="color: var(--white-opacity-02)">Списание средств произойдёт с коммерческого счёта</span>',
+            ua: 'Ціна за одиницю товару: <span style="color: var(--bank)">{{unitPrice}}</span><br/>Ціна за доставку: <span style="color: var(--bank)">{{deliveryPrice}}</span><br/>Разом до оплати: <span style="color: var(--bank)">{{totalPrice}}</span><br/><br/><span style="color: var(--green)">Товари будуть доставлені одразу в сховище</span><br/><span style="color: var(--white-opacity-02)">Списання коштів відбудеться з комерційного рахунку</span>',
+            en: 'Price per unit: <span style="color: var(--bank)">{{unitPrice}}</span><br/>Delivery cost: <span style="color: var(--bank)">{{deliveryPrice}}</span><br/>Total to pay: <span style="color: var(--bank)">{{totalPrice}}</span><br/><br/><span style="color: var(--green)">Goods will be delivered directly to the warehouse</span><br/><span style="color: var(--white-opacity-02)">The money will be deducted from the business account</span>',
+            de: 'Preis pro Stück: <span style="color: var(--bank)">{{unitPrice}}</span><br/>Lieferkosten: <span style="color: var(--bank)">{{deliveryPrice}}</span><br/>Gesamt zu zahlen: <span style="color: var(--bank)">{{totalPrice}}</span><br/><br/><span style="color: var(--green)">Die Waren werden direkt ins Lager geliefert</span><br/><span style="color: var(--white-opacity-02)">Der Betrag wird vom Geschäftskonto abgebucht</span>',
+            pl: 'Cena za sztukę: <span style="color: var(--bank)">{{unitPrice}}</span><br/>Koszt dostawy: <span style="color: var(--bank)">{{deliveryPrice}}</span><br/>Razem do zapłaty: <span style="color: var(--bank)">{{totalPrice}}</span><br/><br/><span style="color: var(--green)">Towary zostaną dostarczone bezpośrednio do magazynu</span><br/><span style="color: var(--white-opacity-02)">Środki zostaną pobrane z konta firmowego</span>',
         },
         confirmButton: {
             ru: 'Заказать',
+            ua: 'Замовити',
+            en: 'Order',
+            de: 'Bestellen',
+            pl: 'Zamów',
         },
         cancelButton: {
             ru: 'Отмена',
+            ua: 'Скасувати',
+            en: 'Cancel',
+            de: 'Abbrechen',
+            pl: 'Anuluj',
         },
     },
 };

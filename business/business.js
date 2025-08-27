@@ -174,6 +174,20 @@ export default {
                     de: 'Warenbestellung',
                     pl: 'Zamówienie towaru',
                 },
+                tax_daily: {
+                    ru: 'Аренда',
+                    ua: 'Оренда',
+                    en: 'Rent',
+                    de: 'Miete',
+                    pl: 'Czynsz',
+                },
+                system: {
+                    ru: 'Система',
+                    ua: 'Система',
+                    en: 'System',
+                    de: 'System',
+                    pl: 'System',
+                },
             },
         },
 
@@ -350,11 +364,11 @@ export default {
 
     logs: {
         sale: {
-            ru: 'Продано {{quantity}} товара для {{characterName}} на сумму {{amount}}',
-            ua: 'Продано {{quantity}} товару для {{characterName}} на суму {{amount}}',
-            en: 'Sold {{quantity}} item(s) to {{characterName}} for a total of {{amount}}',
-            de: '{{quantity}} Artikel an {{characterName}} verkauft für insgesamt {{amount}}',
-            pl: 'Sprzedano {{quantity}} przedmiot(ów) dla {{characterName}} za {{amount}}',
+            ru: '{{characterName}} купил {{quantity}} шт. товара на сумму {{gross}}, налог: {{tax}}, в кассу: {{net}}',
+            ua: '{{characterName}} купив {{quantity}} шт. товару на суму {{gross}}, податок: {{tax}}, в касу: {{net}}',
+            en: '{{characterName}} bought {{quantity}} pcs. of goods for {{gross}}, tax: {{tax}}, to cash register: {{net}}',
+            de: '{{characterName}} hat {{quantity}} Stk. Waren für {{gross}} gekauft, Steuer: {{tax}}, in die Kasse: {{net}}',
+            pl: '{{characterName}} kupił {{quantity}} szt. towaru za {{gross}}, podatek: {{tax}}, do kasy: {{net}}',
         },
         markupChanged: {
             ru: 'Наценка товара обновлена: теперь {{markup}}% (раньше было {{oldMarkup}}%)',
@@ -432,6 +446,49 @@ export default {
             en: 'Products ordered for {{deliveryPrice}}$. Added: {{addedGoods}} pcs. Now in stock: {{finalGoods}} pcs.',
             de: 'Waren im Wert von {{deliveryPrice}}$ bestellt. Hinzugefügt: {{addedGoods}} Stk. Jetzt im Lager: {{finalGoods}} Stk.',
             pl: 'Zamówiono towary o wartości {{deliveryPrice}}$. Dodano: {{addedGoods}} szt. Teraz w magazynie: {{finalGoods}} szt.',
+        },
+        takeBusinesToGov: {
+            ru: 'Государство отобрало этот бизнес у {{ownerName}} за неуплату налогов. Ему возмещено 50% стоимости бизнеса.',
+            ua: 'Держава відібрала цей бізнес у {{ownerName}} за несплату податків. Йому відшкодовано 50% вартості бізнесу.',
+            en: 'The government took this business from {{ownerName}} for not paying taxes. He was compensated 50% of the business value.',
+            de: 'Der Staat hat dieses Geschäft {{ownerName}} wegen Steuerhinterziehung weggenommen. Er hat 50% des Geschäftswerts erstattet bekommen.',
+            pl: 'Państwo odebrało ten biznes {{ownerName}} za niepłacenie podatków. Zostało mu zwrócone 50% wartości biznesu.',
+        },
+        businessTax: {
+            ru: 'Оплачена аренда на сумму {{amount}}',
+            ua: 'Оплачена оренда на суму {{amount}}',
+            en: 'Rent paid in the amount of {{amount}}',
+            de: 'Miete in Höhe von {{amount}} bezahlt',
+            pl: 'Opłacono czynsz w wysokości {{amount}}',
+        },
+        boughtBusiness: {
+            ru: 'Владелец бизнеса теперь является {{ownerName}}',
+            ua: 'Власником бізнесу тепер є {{ownerName}}',
+            en: 'The business owner is now {{ownerName}}',
+            de: 'Der Geschäftsinhaber ist jetzt {{ownerName}}',
+            pl: 'Właścicielem biznesu jest teraz {{ownerName}}',
+        },
+        businessSoldToGov: {
+            ru: 'Бизнес был продан государству',
+            ua: 'Бізнес було продано державі',
+            en: 'The business was sold to the government',
+            de: 'Das Geschäft wurde an den Staat verkauft',
+            pl: 'Biznes został sprzedany państwu',
+        },
+        autoReplenishmentSuccess: {
+            ru: 'Автопополнение: {{toOrder}} шт., списано {{net}} (сумма {{gross}}, комиссия {{commission}})',
+            ua: 'Автопоповнення: {{toOrder}} шт., списано {{net}} (сума {{gross}}, комісія {{commission}})',
+            en: 'Auto top-up: {{toOrder}} pcs, charged {{net}} (amount {{gross}}, fee {{commission}})',
+            de: 'Automatische Aufladung: {{toOrder}} Stk., abgebucht {{net}} (Betrag {{gross}}, Gebühr {{commission}})',
+            pl: 'Automatyczne doładowanie: {{toOrder}} szt., pobrano {{net}} (kwota {{gross}}, prowizja {{commission}})',
+        },
+
+        autoReplenishmentFailedNoMoney: {
+            ru: 'Автопополнение не удалось: нет средств на {{net}} ({{toOrder}} шт.)',
+            ua: 'Автопоповнення не вдалося: немає коштів на {{net}} ({{toOrder}} шт.)',
+            en: 'Auto top-up failed: no funds for {{net}} ({{toOrder}} pcs)',
+            de: 'Automatische Aufladung fehlgeschlagen: kein Guthaben für {{net}} ({{toOrder}} Stk.)',
+            pl: 'Automatyczne doładowanie nie powiodło się: brak środków na {{net}} ({{toOrder}} szt.)',
         },
     },
 };
