@@ -491,4 +491,11 @@ export default {
             pl: 'Automatyczne doładowanie nie powiodło się: brak środków na {{net}} ({{toOrder}} szt.)',
         },
     },
+    yourBusiness: {
+        ru: 'Твой бизнес',
+        ua: 'Твій бізнес',
+        en: 'Your business',
+        de: 'Dein Geschäft',
+        pl: 'Twój biznes',
+    },
 };
