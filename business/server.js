@@ -42,6 +42,20 @@ export default {
             de: 'Tankstelle',
             pl: 'Stacja benzynowa',
         },
+        tuningShop: {
+            ru: 'Тюнинг Ателье',
+            ua: 'Тюнінг Ательє',
+            en: 'Tuning Workshop',
+            de: 'Tuning-Werkstatt',
+            pl: 'Warsztat tuningu',
+        },
+        carshop: {
+            ru: 'Автосалон',
+            ua: 'Автосалон',
+            en: 'Car Dealership',
+            de: 'Autohaus',
+            pl: 'Salon samochodowy',
+        },
     },
     businessLabel: {
         owner: {
