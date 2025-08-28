@@ -196,4 +196,18 @@ export const server = {
         de: 'Tattoo-Studio',
         pl: 'Studio Tatuażu',
     },
+    carPartyParking: {
+        ru: 'Паркинг автолюбителей',
+        ua: 'Паркінг автолюбителів',
+        en: "Car Enthusiasts' Parking",
+        de: 'Parkplatz für Autoliebhaber',
+        pl: 'Parking dla miłośników samochodów',
+    },
+    carPartyParkingExit: {
+        ru: 'Выезд из паркинга',
+        ua: 'Виїзд з паркінгу',
+        en: 'Parking exit',
+        de: 'Parkausfahrt',
+        pl: 'Wyjazd z parkingu',
+    },
 };

@@ -130,7 +130,7 @@ export default {
     milkCapMushroom: {
         name: {
             ru: 'Млечник',
-            ua: 'Млечник',
+            ua: 'Хрящ-молочник',
             en: 'Milk-cap',
             de: 'Milchling',
             pl: 'Mleczaj',
