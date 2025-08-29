@@ -487,7 +487,7 @@ export default {
             ru: 'Автопополнение не удалось: нет средств на {{net}} ({{toOrder}} шт.)',
             ua: 'Автопоповнення не вдалося: немає коштів на {{net}} ({{toOrder}} шт.)',
             en: 'Auto top-up failed: no funds for {{net}} ({{toOrder}} pcs)',
-            de: 'Automatische Aufladung fehlgeschlagen: kein Guthaben für {{net}} ({{toOrder}} Stk.)',
+            de: 'Automatische Aufladung fehlgeschlagen: nicht genug Geld für {{net}} ({{toOrder}} Stk.)',
             pl: 'Automatyczne doładowanie nie powiodło się: brak środków na {{net}} ({{toOrder}} szt.)',
         },
     },
