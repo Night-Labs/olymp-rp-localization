@@ -1,3 +1,5 @@
+import keyBinds from './keyBinds';
+
 export const cef = {
     items: {
         main: {
@@ -374,6 +376,21 @@ export const cef = {
             zh: '树干',
         },
 
+        airdrop: {
+            ru: 'Аирдроп',
+            ua: 'Аірдроп',
+            en: 'Airdrop',
+            de: 'Airdrop',
+            pl: 'Airdrop',
+        },
+
+        houseInventory: {
+            ru: 'Склад дома',
+            ua: 'Склад дому',
+            en: 'House storage',
+            de: 'Hauslager',
+            pl: 'Magazyn domu',
+        },
         storage: {
             ru: 'Склад {{faction}}',
             ua: 'Склад {{faction}}',
@@ -618,6 +635,7 @@ export const cef = {
         },
     },
     settings: {
+        keyBinds,
         name: {
             ua: 'Налаштування',
             en: 'Settings',
@@ -704,6 +722,13 @@ export const cef = {
             en: 'Game Settings',
             de: 'Spieleinstellungen',
             pl: 'Ustawienia gry',
+        },
+        keybinds: {
+            ru: 'Назначение клавиш',
+            ua: 'Призначення клавіш',
+            en: 'Keybinds',
+            de: 'Tastenbelegung',
+            pl: 'Przypisanie klawiszy',
         },
 
         disableMusicPlayer: {

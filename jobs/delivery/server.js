@@ -71,4 +71,11 @@ export const server = {
         pl: 'Masz minutę na powrót do swojego pojazdu służbowego',
         zh: '您有一分钟时间返回工作车辆',
     },
+    destinationBlip: {
+        ru: 'Точка доставки',
+        ua: 'Точка доставки',
+        en: 'Delivery point',
+        de: 'Lieferpunkt',
+        pl: 'Punkt dostawy',
+    },
 };

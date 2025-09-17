@@ -23,7 +23,7 @@ import donate from './donate';
 // import { casinoCashier } from './casino/server/cashier';
 import bank from './bank';
 import safetyBelt from './safetyBelt';
-import autoMarket from './autoMarket';
+import scrapyard from './scrapyard';
 import cruiseControl from './cruiseControl';
 import player from './player';
 import chat from './chat';
@@ -98,7 +98,7 @@ export default {
     // casinoCashier,
     bank,
     safetyBelt,
-    autoMarket,
+    scrapyard,
     cruiseControl,
     player,
     chat,
