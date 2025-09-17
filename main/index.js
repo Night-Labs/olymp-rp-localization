@@ -7,10 +7,17 @@ export default {
     ...cef,
     npc,
     meters: {
-        'ru': 'м.',
-        'ua': 'м.',
-        'en': 'm',
-        'de': 'm',
-        'pl': 'm',
+        ru: 'м.',
+        ua: 'м.',
+        en: 'm',
+        de: 'm',
+        pl: 'm',
+    },
+    playing: {
+        ru: 'Играет',
+        ua: 'Грає',
+        en: 'Playing',
+        de: 'Spielt',
+        pl: 'Gra',
     },
 };
