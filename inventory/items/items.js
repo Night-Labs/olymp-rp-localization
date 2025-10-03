@@ -391,7 +391,11 @@ export const items = {
 
     boombox: {
         name: {
+            ru: 'Бумбокс',
+            ua: 'Бумбокс',
             en: 'Boombox',
+            de: 'Boombox',
+            pl: 'Boombox',
         },
 
         desc: {

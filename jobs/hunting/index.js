@@ -47,4 +47,11 @@ export default {
         pl: 'Ktoś inny zajmuje się tym zwierzęciem',
         zh: '有人在处理这个动物',
     },
+    skinAnimal: {
+        ru: 'Освежевать',
+        ua: 'Зняти шкуру',
+        en: 'Skin animal',
+        de: 'Häuten',
+        pl: 'Odrzeć ze skóry',
+    },
 };

@@ -364,4 +364,12 @@ export const server = {
             zh: '已种植',
         },
     },
+
+    progressAction: {
+        ru: 'Посадка растения',
+        ua: 'Посадка рослини',
+        en: 'Planting a plant',
+        de: 'Pflanze einsetzen',
+        pl: 'Sadzenie rośliny',
+    },
 };
