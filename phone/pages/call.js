@@ -167,13 +167,20 @@ export default {
             pl: 'Niedawno wzywałeś już służby ratunkowe, poczekaj chwilę',
         },
         sameFaction: {
-            "ru": "Ты не можешь вызвать эту фракцию",
-            "ua": "Ти не можеш викликати цю фракцію",
-            "en": "You can't summon this faction",
-            "de": "Du kannst diese Fraktion nicht herbeirufen",
-            "pl": "Nie możesz przywołać tej frakcji",
+            ru: 'Ты не можешь вызвать эту фракцию',
+            ua: 'Ти не можеш викликати цю фракцію',
+            en: "You can't summon this faction",
+            de: 'Du kannst diese Fraktion nicht herbeirufen',
+            pl: 'Nie możesz przywołać tej frakcji',
         },
         reasons: {
+            evacuation: {
+                ru: 'Эвакуация ТС',
+                ua: 'Евакуація ТЗ',
+                en: 'Car tow',
+                de: 'Autoabschleppung',
+                pl: 'Holowanie auta',
+            },
             murder: {
                 ru: 'Убийство',
                 ua: 'Вбивство',

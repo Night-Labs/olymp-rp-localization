@@ -144,5 +144,12 @@ export const cef = {
             de: 'Funkgerät',
             pl: 'Radiostacja',
         },
+        megaphone: {
+            ru: 'Мегафон',
+            ua: 'Мегафон',
+            en: 'Megaphone',
+            de: 'Megafon',
+            pl: 'Megafon',
+        },
     },
 };

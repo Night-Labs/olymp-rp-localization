@@ -1,3 +1,5 @@
+import keyBinds from './keyBinds';
+
 export const cef = {
     items: {
         main: {
@@ -374,6 +376,21 @@ export const cef = {
             zh: '树干',
         },
 
+        airdrop: {
+            ru: 'Аирдроп',
+            ua: 'Аірдроп',
+            en: 'Airdrop',
+            de: 'Airdrop',
+            pl: 'Airdrop',
+        },
+
+        houseInventory: {
+            ru: 'Склад дома',
+            ua: 'Склад дому',
+            en: 'House storage',
+            de: 'Hauslager',
+            pl: 'Magazyn domu',
+        },
         storage: {
             ru: 'Склад {{faction}}',
             ua: 'Склад {{faction}}',
@@ -618,6 +635,7 @@ export const cef = {
         },
     },
     settings: {
+        keyBinds,
         name: {
             ua: 'Налаштування',
             en: 'Settings',
@@ -705,6 +723,13 @@ export const cef = {
             de: 'Spieleinstellungen',
             pl: 'Ustawienia gry',
         },
+        keybinds: {
+            ru: 'Назначение клавиш',
+            ua: 'Призначення клавіш',
+            en: 'Keybinds',
+            de: 'Tastenbelegung',
+            pl: 'Przypisanie klawiszy',
+        },
 
         disableMusicPlayer: {
             ru: 'Отключить звук музыкальных плееров',
@@ -720,6 +745,37 @@ export const cef = {
             en: 'Aspect ratio',
             de: 'Seitenverhältnis',
             pl: 'Współczynnik proporcji',
+        },
+
+        //
+
+        avatar: {
+            ru: 'Аватар',
+            ua: 'Аватар',
+            en: 'Avatar',
+            de: 'Avatar',
+            pl: 'Awatar',
+        },
+        avatarDesc: {
+            ru: 'Ты можешь вставить прямую ссылку (URL) на картинку с почти любого фотохостинга (например, Imgur)',
+            ua: 'Ти можеш вставити пряме посилання (URL) на зображення з майже будь-якого фотохостингу (наприклад, Imgur)',
+            en: 'You can paste a direct image URL from almost any image host (e.g., Imgur)',
+            de: 'Du kannst eine direkte Bild-URL von fast jedem Bildhoster einfügen (z. B. Imgur)',
+            pl: 'Możesz wkleić bezpośredni adres URL obrazu z prawie każdego hostingu obrazów (np. Imgur)',
+        },
+        avatarApply: {
+            ru: 'Применить',
+            ua: 'Застосувати',
+            en: 'Apply',
+            de: 'Übernehmen',
+            pl: 'Zastosuj',
+        },
+        disableOtherAvatars: {
+            ru: 'Отображать аватары других игроков',
+            ua: 'Показувати аватари інших гравців',
+            en: 'Show other players’ avatars',
+            de: 'Avatare anderer Spieler anzeigen',
+            pl: 'Wyświetlaj awatary innych graczy',
         },
     },
 };

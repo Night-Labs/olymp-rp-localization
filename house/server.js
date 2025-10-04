@@ -90,6 +90,13 @@ export const server = {
             de: 'Du hast das Haus erfolgreich gekauft',
             pl: 'Pomyślnie zakupiono dom',
         },
+        hasOwner: {
+            ru: 'У дома уже есть владелец',
+            ua: 'У будинку вже є власник',
+            en: 'The house already has an owner',
+            de: 'Das Haus hat schon einen Besitzer',
+            pl: 'Dom ma już właściciela',
+        },
     },
     garage: {
         garage: {
