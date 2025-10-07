@@ -158,7 +158,7 @@ export const cef = {
     nameSurname: {
         ru: 'Имя Фамилия',
         en: 'Name Surname',
-        ua: 'Ім\'я Прізвище',
+        ua: "Ім'я Прізвище",
         de: 'Vorname Nachname',
         pl: 'Imię Nazwisko',
         zh: '姓名',
@@ -201,11 +201,11 @@ export const cef = {
     },
 
     nameRank: {
-        "ru": "Имя",
-        "ua": "Ім'я",
-        "en": "Name",
-        "de": "Name",
-        "pl": "Imię",
+        ru: 'Имя',
+        ua: "Ім'я",
+        en: 'Name',
+        de: 'Name',
+        pl: 'Imię',
     },
     date: {
         ru: 'Дата',
@@ -622,15 +622,31 @@ export const cef = {
     kickModal: {
         title: {
             ru: 'Выгнать игрока',
+            ua: 'Вигнати гравця',
+            en: 'Kick player',
+            de: 'Spieler rauswerfen',
+            pl: 'Wyrzuć gracza',
         },
         message: {
             ru: 'Ты действительно хочешь выгнать игрока {{name}}?',
+            ua: 'Ти справді хочеш вигнати гравця {{name}}?',
+            en: 'Do you really want to kick player {{name}}?',
+            de: 'Willst du den Spieler {{name}} wirklich rauswerfen?',
+            pl: 'Czy naprawdę chcesz wyrzucić gracza {{name}}?',
         },
         confirmButton: {
             ru: 'Выгнать',
+            ua: 'Вигнати',
+            en: 'Kick',
+            de: 'Rauswerfen',
+            pl: 'Wyrzuć',
         },
         cancelButton: {
             ru: 'Отмена',
+            ua: 'Скасувати',
+            en: 'Cancel',
+            de: 'Abbrechen',
+            pl: 'Anuluj',
         },
     },
 };
