@@ -391,13 +391,12 @@ export const cef = {
             de: 'Hauslager',
             pl: 'Magazyn domu',
         },
-        storage: {
-            ru: 'Склад {{faction}}',
-            ua: 'Склад {{faction}}',
-            en: 'Storage {{faction}}',
-            de: 'Lager {{faction}}',
-            pl: 'Magazyn {{faction}}',
-            zh: '存储{{faction}}',
+        faction: {
+            ru: 'Склад фракции',
+            ua: 'Склад фракції',
+            en: 'Faction warehouse',
+            de: 'Fraktionslager',
+            pl: 'Magazyn frakcji',
         },
 
         contextMenu: {
