@@ -41,11 +41,11 @@ export default {
         },
         // Expired license
         selectedCategoryExpiredLicense: {
-            ru: 'Я проверила ваш статус категории {{category}}\n\nУ вас есть права этой категории, но они истекли 14.88.2077, вы можете обновить их абсолютно бесплатно пройдя тест и практику снова, либо пропустить это заплатив {{price}}$',
-            ua: 'Я перевірила ваш статус категорії {{category}}\n\nУ вас є права цієї категорії, але вони закінчилися 14.88.2077, ви можете оновити їх абсолютно безкоштовно, пройшовши тест і практику знову, або пропустити це, заплативши {{price}}$',
-            en: 'I have checked your {{category}} category status.\n\nYou have rights for this category, but they expired on 14.88.2077. You can renew them completely free by taking the test and practice again, or skip this by paying {{price}}$.',
-            de: 'Ich habe deinen Status für die Kategorie {{category}} überprüft.\n\nDu hast Rechte für diese Kategorie, aber diese sind am 14.88.2077 abgelaufen. Du kannst\n\n diese absolut kostenlos erneuern, indem du den Test und die Praxis erneut absolvieren, oder dies überspringen, indem du {{price}}$ bezahlst.',
-            pl: 'Sprawdziłam Twój status w kategorii {{category}}.\n\nPosiadasz uprawnienia do tej kategorii, ale wygasły one 14.88.2077. Możesz je odnowić całkowicie za darmo, ponownie zdając test i praktykę, lub pominąć to, płacąc {{price}}$.',
+            ru: 'Я проверила ваш статус категории {{category}}\n\nУ вас есть права этой категории, но они истекли {{expired}}, вы можете обновить их абсолютно бесплатно пройдя тест и практику снова, либо пропустить это заплатив {{price}}$',
+            ua: 'Я перевірила ваш статус категорії {{category}}\n\nУ вас є права цієї категорії, але вони закінчилися {{expired}}, ви можете оновити їх абсолютно безкоштовно, пройшовши тест і практику знову, або пропустити це, заплативши {{price}}$',
+            en: 'I have checked your {{category}} category status.\n\nYou have rights for this category, but they expired on {{expired}}. You can renew them completely free by taking the test and practice again, or skip this by paying {{price}}$.',
+            de: 'Ich habe deinen Status für die Kategorie {{category}} überprüft.\n\nDu hast Rechte für diese Kategorie, aber diese sind am {{expired}} abgelaufen. Du kannst\n\n diese absolut kostenlos erneuern, indem du den Test und die Praxis erneut absolvieren, oder dies überspringen, indem du {{price}}$ bezahlst.',
+            pl: 'Sprawdziłam Twój status w kategorii {{category}}.\n\nPosiadasz uprawnienia do tej kategorii, ale wygasły one {{expired}}. Możesz je odnowić całkowicie za darmo, ponownie zdając test i praktykę, lub pominąć to, płacąc {{price}}$.',
         },
 
         // Start study first time
