@@ -372,4 +372,12 @@ export const server = {
         de: 'Pflanze einsetzen',
         pl: 'Sadzenie rośliny',
     },
+
+    invalidField: {
+        ru: 'Тут нельзя это сажать',
+        ua: 'Тут не можна це садити',
+        en: "You can't plant this here",
+        de: 'Du kannst das hier nicht pflanzen',
+        pl: 'Nie możesz tego tutaj sadzić',
+    },
 };
