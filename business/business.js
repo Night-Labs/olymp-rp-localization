@@ -454,7 +454,7 @@ export default {
             de: 'Der Staat hat dieses Geschäft {{ownerName}} wegen Steuerhinterziehung weggenommen. Er hat 50% des Geschäftswerts erstattet bekommen.',
             pl: 'Państwo odebrało ten biznes {{ownerName}} za niepłacenie podatków. Zostało mu zwrócone 50% wartości biznesu.',
         },
-        businessTax: {
+        takeRentDaily: {
             ru: 'Оплачена аренда на сумму {{amount}}',
             ua: 'Оплачена оренда на суму {{amount}}',
             en: 'Rent paid in the amount of {{amount}}',
