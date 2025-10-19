@@ -6,6 +6,13 @@ export default {
         de: 'Dieses Geschäft ist derzeit nicht für einen Überfall verfügbar.',
         pl: 'Ten biznes jest obecnie niedostępny do napadu.',
     },
+    cantRobberyOnline: {
+        ru: 'Сейчас нельзя грабить магазины, так как слишком мало онлайна',
+        ua: 'Зараз не можна грабувати магазини, бо занадто мало онлайна',
+        en: "You can't rob stores right now because there's too few players online",
+        de: 'Du kannst gerade keine Läden ausrauben, weil zu wenige Spieler online sind',
+        pl: 'Nie możesz teraz rabować sklepów, bo jest zbyt mało graczy online',
+    },
     shopRecentlyRobbed: {
         ru: 'Этот бизнес недавно был ограблен. Подождите немного.',
         ua: 'Цей бізнес нещодавно був пограбований. Зачекайте трохи.',
