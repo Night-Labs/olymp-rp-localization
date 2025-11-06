@@ -10,12 +10,12 @@ export const stepDto = {
             de: 'Geh zum Fahrzeugverleihpunkt',
             pl: 'Idź do punktu wynajmu pojazdów',
         },
-        pizzeria: {
-            ru: 'Отправляйся в пиццерию',
-            ua: 'Вирушай у піцерію',
-            en: 'Head to the pizzeria',
-            de: 'Geh zur Pizzeria',
-            pl: 'Idź do pizzerii',
+        burgerShot: {
+            ru: 'Отправляйся в Burger Shot',
+            ua: 'Вирушай у Burger Shot',
+            en: 'Head to Burger Shot',
+            de: 'Geh zu Burger Shot',
+            pl: 'Idź do Burger Shot',
         },
         cityhall: {
             ru: 'Отправляйся в мэрию',
@@ -222,13 +222,12 @@ export const stepDto = {
     },
     //
 
-    deliveryPizza: {
-        ru: 'Доставьте {{count}} пицц',
-        ua: 'Доставте {{count}} піцц',
-        en: 'Deliver {{count}} pizzas',
-        de: 'Liefern Sie {{count}} Pizzas',
-        pl: 'Dostarcz {{count}} pizz',
-        zh: '送{{count}}披萨',
+    deliveryGoods: {
+        ru: 'Доставьте {{count}} заказов',
+        ua: 'Достав {{count}} замовлень',
+        en: 'Deliver {{count}} orders',
+        de: 'Liefere {{count}} Bestellungen aus',
+        pl: 'Dostarcz {{count}} zamówień',
     },
 
     goToPosition: {
@@ -372,7 +371,7 @@ export const stepDto = {
     deployDelivery: {
         ru: 'Устройся на работу доставщика еды',
         ua: 'Влаштуйся на роботу доставника їжі',
-        en: 'Get a job as a food delivery driver',
+        en: 'Get a job as a food foodDelivery driver',
         de: 'Hol dir einen Job als Essenslieferant',
         pl: 'Zatrudnij się jako dostawca jedzenia',
     },
@@ -380,7 +379,7 @@ export const stepDto = {
     leaveJobDelivery: {
         ru: 'Уволься с работы доставщика еды',
         ua: 'Звільнись з роботи доставника їжі',
-        en: 'Quit your food delivery job',
+        en: 'Quit your food foodDelivery job',
         de: 'Kündige deinen Job als Essenslieferant',
         pl: 'Zrezygnuj z pracy jako dostawca jedzenia',
     },

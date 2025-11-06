@@ -7,11 +7,11 @@ export default {
         pl: 'Wszystkie potrzebne lokalizacje w wygodnej aplikacji zawsze pod ręką.',
     },
     characters: {
-        "ru": "Сюжетные персонажи",
-        "ua": "Сюжетні персонажі",
-        "en": "Story characters",
-        "de": "Handlungscharaktere",
-        "pl": "Postacie fabularne",
+        ru: 'Сюжетные персонажи',
+        ua: 'Сюжетні персонажі',
+        en: 'Story characters',
+        de: 'Handlungscharaktere',
+        pl: 'Postacie fabularne',
     },
     main: {
         name: 'Основные места',
@@ -163,5 +163,12 @@ export default {
         en: 'Tuning',
         de: 'Tuning',
         pl: 'Tuning',
+    },
+    fastFood: {
+        ru: 'Фастфуд',
+        ua: 'Фастфуд',
+        en: 'Fast food',
+        de: 'Fastfood',
+        pl: 'Fast food',
     },
 };

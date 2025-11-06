@@ -5,7 +5,7 @@ export const server = {
         ru: 'Аренда Т/С',
         de: 'Autovermietung',
         pl: 'Wynajem samochodów',
-        zh:'汽车租赁 ',
+        zh: '汽车租赁 ',
     },
     boatBlip: {
         ru: 'Аренда лодок',
@@ -13,7 +13,14 @@ export const server = {
         en: 'Boat Rental',
         de: 'Bootsverleih',
         pl: 'Wypożyczalnia łodzi',
-        zh:'船只出租',
+        zh: '船只出租',
+    },
+    foodDelivery: {
+        ru: 'Аренда рабочего транспорта',
+        ua: 'Оренда робочого транспорту',
+        en: 'Rental of work transport',
+        de: 'Miete von Arbeitstransport',
+        pl: 'Wynajem pojazdu roboczego',
     },
     youHaveNoMoney: {
         ru: 'У вас недостаточно денег для аренды этого транспортного средства',
@@ -21,7 +28,7 @@ export const server = {
         en: `You don't have enough money to rent this vehicle`,
         de: 'Du hast nicht genug Geld, um dieses Fahrzeug zu mieten',
         pl: 'Nie masz wystarczająco dużo pieniędzy, aby wynająć ten pojazd',
-        zh:'你没有足够的钱来租这辆车',
+        zh: '你没有足够的钱来租这辆车',
     },
     youSuccessfullyRented: {
         ru: 'Вы успешно арендовали транспортное средство за ${{price}}',
@@ -29,7 +36,7 @@ export const server = {
         en: 'You have successfully rented the vehicle for ${{price}}',
         de: 'Du hast das Fahrzeug erfolgreich für ${{price}} gemietet',
         pl: 'Pomyślnie wynająłeś pojazd za ${{price}}',
-        zh:'您已成功以${{price}}的价格租用车辆',
+        zh: '您已成功以${{price}}的价格租用车辆',
     },
     ifYouDontReturnToVehicle: {
         ua: 'Якщо ви не повернетесь до Т/З, воно зникне через {{minutes}} хвилин',
@@ -37,7 +44,7 @@ export const server = {
         ru: 'Если вы не вернётесь в Т/С оно пропадёт через {{minutes}} минуты',
         de: 'Wenn du nicht zum Fahrzeug zurückkehrst, wird es in {{minutes}} Minuten verschwinden',
         pl: 'Jeśli nie wrócisz do pojazdu, zniknie po {{minutes}} minutach',
-        zh:'如果不返回车辆，将在{{minutes}}分钟后消失', 
+        zh: '如果不返回车辆，将在{{minutes}}分钟后消失',
     },
 
     rentalTimeIsOver: {
@@ -46,7 +53,7 @@ export const server = {
         ru: 'Время аренды истекло. Транспортное средство удалено.',
         de: 'Die Mietzeit ist abgelaufen. Das Fahrzeug wurde entfernt.',
         pl: 'Czas wynajmu minął. Pojazd został usunięty.',
-        zh:'租房时代结束了。车辆已被移走',
+        zh: '租房时代结束了。车辆已被移走',
     },
 
     notYourVehicle: {
@@ -55,7 +62,7 @@ export const server = {
         ru: 'Эта машина не принадлежит вам',
         de: 'Dieses Auto gehört nicht dir',
         pl: 'Ten samochód nie należy do ciebie',
-        zh:'这辆车不是你的',
+        zh: '这辆车不是你的',
     },
 
     yourRentalCarHasBeenDestroyed: {
@@ -64,6 +71,6 @@ export const server = {
         ru: 'Ваша арендованная машина была уничтожена',
         de: 'Dein Mietwagen wurde zerstört',
         pl: 'Twój wynajęty samochód został zniszczony',
-        zh:'你租来的车被毁了',
+        zh: '你租来的车被毁了',
     },
 };

@@ -1,6 +1,6 @@
 import trucker from './trucker';
 import { trucker2 } from './trucker2/trucker2';
-import delivery from './delivery';
+import foodDelivery from './delivery';
 import bus from './bus';
 import farm from './farm';
 import hunting from './hunting';
@@ -114,7 +114,7 @@ export default {
 
     // САМИ РАБОТЫ
     trucker,
-    delivery,
+    foodDelivery,
     bus,
     farm,
     trucker2,

@@ -381,19 +381,188 @@ export const food = {
         },
     },
     oolong_tea: {
-        "name": {
-            "ru": "Улун-ча «Grand Blue»",
-            "ua": "Улун-ча «Grand Blue»",
-            "en": "Grand Blue Oolong Tea",
-            "de": "Grand Blue Oolong-Tee",
-            "pl": "Herbata oolong „Grand Blue”",
+        name: {
+            ru: 'Улун-ча «Grand Blue»',
+            ua: 'Улун-ча «Grand Blue»',
+            en: 'Grand Blue Oolong Tea',
+            de: 'Grand Blue Oolong-Tee',
+            pl: 'Herbata oolong „Grand Blue”',
         },
-        "desc": {
-            "ru": "С виду обычный улун, но внутри фирменный коктейль дайверов-алкоголиков. Лайфхак: подожги — если вспыхнуло, «чай» правильный.",
-            "ua": "На вигляд звичайний улун, але всередині фірмовий коктейль дайверів-алкоголіків. Лайфхак: підпали — як спалахне, «чай» справжній.",
-            "en": "Looks like plain oolong, but the bottle hides the divers’ signature booze blend. Pro tip: set it on fire — if it burns, it’s the “real” tea.",
-            "de": "Sieht aus wie gewöhnlicher Oolong, aber innen steckt der legendäre Alkohol-Mix der Taucher. Tipp: Zünde es an – wenn’s brennt, ist es der echte „Tee“.",
-            "pl": "Wygląda jak zwykły oolong, ale w środku jest firmowy koktajl alkoholików-nurków. Pro tip: podpal — jeśli zapłonie, to „prawdziwa” herbata.",
+        desc: {
+            ru: 'С виду обычный улун, но внутри фирменный коктейль дайверов-алкоголиков. Лайфхак: подожги — если вспыхнуло, «чай» правильный.',
+            ua: 'На вигляд звичайний улун, але всередині фірмовий коктейль дайверів-алкоголіків. Лайфхак: підпали — як спалахне, «чай» справжній.',
+            en: 'Looks like plain oolong, but the bottle hides the divers’ signature booze blend. Pro tip: set it on fire — if it burns, it’s the “real” tea.',
+            de: 'Sieht aus wie gewöhnlicher Oolong, aber innen steckt der legendäre Alkohol-Mix der Taucher. Tipp: Zünde es an – wenn’s brennt, ist es der echte „Tee“.',
+            pl: 'Wygląda jak zwykły oolong, ale w środku jest firmowy koktajl alkoholików-nurków. Pro tip: podpal — jeśli zapłonie, to „prawdziwa” herbata.',
         },
-    }
+    },
+    cheeseburger: {
+        name: {
+            ru: 'Чизбургер',
+            ua: 'Чізбургер',
+            en: 'Cheeseburger',
+            de: 'Cheeseburger',
+            pl: 'Cheeseburger',
+        },
+        desc: {
+            ru: 'Классика — сочная котлета, расплавленный сыр и свежая булочка.',
+            ua: 'Класика — соковита котлета, розплавлений сир і свіжа булочка.',
+            en: 'A classic — juicy patty, melted cheese, and a fresh bun.',
+            de: 'Klassiker – saftiges Patty, geschmolzener Käse und frisches Brötchen.',
+            pl: 'Klasyk — soczysty kotlet, roztopiony ser i świeża bułka.',
+        },
+    },
+
+    double_burger: {
+        name: {
+            ru: 'Двойной бургер',
+            ua: 'Подвійний бургер',
+            en: 'Double Burger',
+            de: 'Doppelburger',
+            pl: 'Podwójny burger',
+        },
+        desc: {
+            ru: 'Две котлеты, дважды вкуснее. Для настоящих прожор.',
+            ua: 'Дві котлети, вдвічі смачніше. Для справжніх ненажер.',
+            en: 'Two patties, twice the flavor. For real food lovers.',
+            de: 'Zwei Patties, doppelt so lecker. Für echte Vielfraße.',
+            pl: 'Dwa kotlety, dwa razy smaczniej. Dla prawdziwych żarłoków.',
+        },
+    },
+
+    chicken_burger: {
+        name: {
+            ru: 'Чикенбургер',
+            ua: 'Чікенбургер',
+            en: 'Chicken Burger',
+            de: 'Chicken Burger',
+            pl: 'Chicken Burger',
+        },
+        desc: {
+            ru: 'Куриное мясо, салат и соус в мягкой булочке. Легко и вкусно.',
+            ua: 'Куряче м’ясо, салат і соус у м’якій булочці. Легко й смачно.',
+            en: 'Chicken, lettuce, and sauce in a soft bun. Light and tasty.',
+            de: 'Hähnchenfleisch, Salat und Soße im weichen Brötchen. Leicht und lecker.',
+            pl: 'Kurczak, sałata i sos w miękkiej bułce. Lekko i smacznie.',
+        },
+    },
+
+    fries: {
+        name: {
+            ru: 'Картошка фри',
+            ua: 'Картопля фрі',
+            en: 'French Fries',
+            de: 'Pommes Frites',
+            pl: 'Frytki',
+        },
+        desc: {
+            ru: 'Хрустящая, золотистая и всегда в тему.',
+            ua: 'Хрустка, золотиста і завжди доречна.',
+            en: 'Crispy, golden, and always on point.',
+            de: 'Knusprig, goldbraun und immer passend.',
+            pl: 'Chrupiące, złociste i zawsze na czasie.',
+        },
+    },
+
+    onion_rings: {
+        name: {
+            ru: 'Луковые кольца',
+            ua: 'Цибулеві кільця',
+            en: 'Onion Rings',
+            de: 'Zwiebelringe',
+            pl: 'Krążki cebulowe',
+        },
+        desc: {
+            ru: 'Золотистые кольца лука в панировке. Идеальны к бургеру.',
+            ua: 'Золотисті кільця цибулі в паніровці. Ідеальні до бургера.',
+            en: 'Golden onion rings in crispy breading. Perfect with a burger.',
+            de: 'Goldene Zwiebelringe in knuspriger Panade. Perfekt zum Burger.',
+            pl: 'Złociste krążki cebuli w panierce. Idealne do burgera.',
+        },
+    },
+
+    nuggets: {
+        name: {
+            ru: 'Наггетсы',
+            ua: 'Нагетси',
+            en: 'Nuggets',
+            de: 'Nuggets',
+            pl: 'Nuggetsy',
+        },
+        desc: {
+            ru: 'Маленькие кусочки счастья из сочной курочки.',
+            ua: 'Маленькі шматочки щастя з соковитої курочки.',
+            en: 'Little bites of happiness made from juicy chicken.',
+            de: 'Kleine Stücke Glück aus saftigem Hähnchen.',
+            pl: 'Małe kawałki szczęścia z soczystego kurczaka.',
+        },
+    },
+
+    hotdog: {
+        name: {
+            ru: 'Хот-дог',
+            ua: 'Хот-дог',
+            en: 'Hot Dog',
+            de: 'Hotdog',
+            pl: 'Hot-dog',
+        },
+        desc: {
+            ru: 'Быстро, просто и вкусно. Уличная классика.',
+            ua: 'Швидко, просто і смачно. Вулична класика.',
+            en: 'Fast, simple, and tasty. Street food classic.',
+            de: 'Schnell, einfach und lecker. Straßenklassiker.',
+            pl: 'Szybko, prosto i smacznie. Klasyka street foodu.',
+        },
+    },
+
+    milkshake: {
+        name: {
+            ru: 'Молочный коктейль',
+            ua: 'Молочний коктейль',
+            en: 'Milkshake',
+            de: 'Milchshake',
+            pl: 'Shake mleczny',
+        },
+        desc: {
+            ru: 'Сладкий, холодный и бодрящий. Вернись в детство.',
+            ua: 'Солодкий, холодний і бадьорий. Повертайся в дитинство.',
+            en: 'Sweet, cold, and refreshing. Go back to your childhood.',
+            de: 'Süß, kalt und erfrischend. Geh zurück in deine Kindheit.',
+            pl: 'Słodki, zimny i orzeźwiający. Wróć do dzieciństwa.',
+        },
+    },
+
+    coffee: {
+        name: {
+            ru: 'Кофе',
+            ua: 'Кава',
+            en: 'Coffee',
+            de: 'Kaffee',
+            pl: 'Kawa',
+        },
+        desc: {
+            ru: 'Ароматный кофе для тех, кто ещё не проснулся.',
+            ua: 'Ароматна кава для тих, хто ще не прокинувся.',
+            en: 'Aromatic coffee for those who haven’t woken up yet.',
+            de: 'Aromatischer Kaffee für alle, die noch nicht wach sind.',
+            pl: 'Aromatyczna kawa dla tych, którzy jeszcze się nie obudzili.',
+        },
+    },
+
+    ice_cream: {
+        name: {
+            ru: 'Мороженое',
+            ua: 'Морозиво',
+            en: 'Ice Cream',
+            de: 'Eiscreme',
+            pl: 'Lody',
+        },
+        desc: {
+            ru: 'Пломбир, который растопит твоё сердце.',
+            ua: 'Пломбір, що розтопить твоє серце.',
+            en: 'Ice cream that will melt your heart.',
+            de: 'Eis, das dein Herz schmelzen lässt.',
+            pl: 'Lody, które roztopią twoje serce.',
+        },
+    },
 };
