@@ -39,13 +39,6 @@ export const server = {
         pl: 'Twój pojazd został naprawiony',
         zh: '您的交通工具已修复',
     },
-    rentedVehicle: {
-        ru: 'Вы не можете тюнинговать эту машину, так как она арендованная',
-        ua: 'Ти не можеш тюнінгувати цю машину, бо вона орендована',
-        en: "You can't tune this car because it's rented",
-        de: 'Du kannst dieses Auto nicht tunen, weil es gemietet ist',
-        pl: 'Nie możesz tunować tego auta, bo jest wynajęte',
-    },
     modal: {
         title: {
             ua: 'Відремонтуйте транспорт перед тюнінгом',

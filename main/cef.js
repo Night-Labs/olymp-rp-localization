@@ -310,23 +310,6 @@ export const cef = {
             de: 'Tage',
             zh: '天',
         },
-
-        days1: {
-            ru: 'день',
-            ua: 'день',
-            en: 'day',
-            de: 'Tag',
-            pl: 'dzień',
-            zh: '天',
-        },
-        days3: {
-            ru: 'дней',
-            ua: 'днів',
-            en: 'days',
-            de: 'Tage',
-            pl: 'dni',
-            zh: '天',
-        },
     },
 
     dates: {
