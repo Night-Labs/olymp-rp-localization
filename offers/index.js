@@ -56,12 +56,11 @@ export default {
     //
 
     sellPills: {
-        ru: 'Предлагает вам купить таблетки {{name}} за ${{sum}}',
-        ua: 'Пропонує вам купити таблетки {{name}} за ${{sum}}',
-        en: 'Offers you to buy {{name}} pills for ${{sum}}',
-        de: 'Bietet dir an, {{name}} Tabletten für ${{sum}} zu kaufen',
-        pl: 'Oferuje ci zakup tabletek {{name}} za ${{sum}}',
-        zh: '建议您以${{sum}}的价格购买{{name}}药片',
+        ru: 'Предлагает вам купить {{count}} шт. таблеток {{name}} за ${{sum}}',
+        ua: 'Пропонує тобі купити {{count}} шт. таблеток {{name}} за ${{sum}}',
+        en: 'Offers you to buy {{count}} pcs of {{name}} pills for ${{sum}}',
+        de: 'Bietet dir an, {{count}} Stück {{name}} Tabletten für ${{sum}} zu kaufen',
+        pl: 'Oferuje ci kupno {{count}} sztuk tabletek {{name}} za ${{sum}}',
     },
 
     giveMedicalLisense: {

@@ -19,6 +19,7 @@ import weazelNews from './weazelNews';
 import surgeon from './surgeon';
 import graffitiWar from './graffitiWar';
 import vehicleImpound from './vehicleImpound';
+import lizaSellPills from './lizaSellPills';
 
 export const faction = {
     factions,
@@ -40,6 +41,7 @@ export const faction = {
     surgeon,
     graffitiWar,
     vehicleImpound,
+    lizaSellPills,
     ...cef,
     ...server,
     leader: {

@@ -121,6 +121,50 @@ export default {
             de: 'Eine medizinische Lizenz wird an vielen Orten benötigt, und ein Beispiel ist der Beitritt zu unserer EMS-Fraktion oder zur Polizei',
             pl: 'Licencja medyczna jest potrzebna w wielu miejscach, a jednym z przykładów jest dołączenie do naszej frakcji EMS lub policji',
         },
+
+        // New
+        pills: {
+            ru: 'Я болен, нужны таблетки',
+            ua: 'Я хворий, потрібні пігулки',
+            en: "I'm sick, I need some pills",
+            de: 'Ich bin krank, ich brauche Tabletten',
+            pl: 'Jestem chory, potrzebuję tabletek',
+        },
+        okayICanSellYouPills: {
+            ru: 'Сейчас нет докторов на работе, но я с радостью продам вам таблетки от простуды, сколько вам нужно?',
+            ua: 'Зараз немає лікарів на зміні, але я з радістю продам тобі пігулки від застуди, скільки тобі потрібно?',
+            en: 'There are no doctors on duty right now, but I’ll gladly sell you some cold pills. How many do you need?',
+            de: 'Gerade sind keine Ärzte im Dienst, aber ich verkaufe dir gerne Tabletten gegen Erkältung. Wie viele brauchst du?',
+            pl: 'Teraz nie ma lekarzy w pracy, ale chętnie sprzedam ci tabletki na przeziębienie. Ile potrzebujesz?',
+        },
+        '1pcs': {
+            ru: '1 штука',
+            ua: '1 штука',
+            en: '1 piece',
+            de: '1 Stück',
+            pl: '1 sztuka',
+        },
+        '5pcs': {
+            ru: '5 штук',
+            ua: '5 штук',
+            en: '5 pieces',
+            de: '5 Stück',
+            pl: '5 sztuk',
+        },
+        '10pcs': {
+            ru: '10 штук',
+            ua: '10 штук',
+            en: '10 pieces',
+            de: '10 Stück',
+            pl: '10 sztuk',
+        },
+        nevermind: {
+            ru: 'Уже не нужно',
+            ua: 'Вже не потрібно',
+            en: 'Never mind',
+            de: 'Schon gut',
+            pl: 'Już nie trzeba',
+        },
     },
 
     // Диалог в лаборатории
