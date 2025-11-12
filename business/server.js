@@ -56,6 +56,13 @@ export default {
             de: 'Autohaus',
             pl: 'Salon samochodowy',
         },
+        burgerShot: {
+            ru: 'Burger Shot',
+            ua: 'Burger Shot',
+            en: 'Burger Shot',
+            de: 'Burger Shot',
+            pl: 'Burger Shot',
+        }
     },
     businessLabel: {
         owner: {
