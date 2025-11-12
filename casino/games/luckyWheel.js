@@ -5,20 +5,18 @@ export const luckyWheel = {
         en: "Wheel <span style='color: var(--golden-sunshine)'>of Fortune</span>",
         de: "Rad <span style='color: var(--golden-sunshine)'>des Glücks</span>",
         pl: "Koło <span style='color: var(--golden-sunshine)'>Fortuny</span>",
-        zh: "转盘 <span style='字体:颜色(--golden-sunshine)'>好运</span>",
     },
     desc: {
         ru: `Здесь вы можете прокрутить колесо с призами и получить ценные предметы, такие как фишки, деньги, донат валюту или даже машину, а также менее ценные призы, такие как опыт или одежда.
-        <br><br>Каждый день вы будете получать бесплатную прокрутку после проведения 30 минут в игре.`,
+        <br><br>Каждый день вы будете получать бесплатную прокрутку после проведения 60 минут в игре.`,
         ua: `Тут ви можете прокрутити колесо з призами і отримати цінні речі, такі як фішки, гроші, донат валюту або навіть машину, а також менш цінні призи, такі як досвід або одяг.
-        <br><br>Кожен день ви будете отримувати безкоштовний спін після проведення 30 хвилин в грі.`,
+        <br><br>Кожен день ви будете отримувати безкоштовний спін після проведення 60 хвилин в грі.`,
         en: `Here you can spin the wheel with prizes and get valuable items such as chips, money, donation currency, or even a car, as well as less valuable prizes like experience or clothing.
-        <br><br>Every day, you'll receive a free spin after playing for 30 minutes in the game.`,
+        <br><br>Every day, you'll receive a free spin after playing for 60 minutes in the game.`,
         de: `Hier kannst di das Rad mit Preisen drehen und wertvolle Gegenstände wie Chips, Geld, Spendenwährung oder sogar ein Auto erhalten, sowie weniger wertvolle Preise wie Erfahrung oder Kleidung.
-        <br><br>Jeden Tag erhälst dz einen kostenlosen Dreh, nachdem du 30 Minuten gespielt hast.`,
+        <br><br>Jeden Tag erhälst dz einen kostenlosen Dreh, nachdem du 60 Minuten gespielt hast.`,
         pl: `Tutaj możesz obracać kołem z nagrodami i otrzymywać cenne przedmioty, takie jak żetony, pieniądze, walutę darowizn, a nawet samochód, a także mniej wartościowe nagrody, takie jak doświadczenie lub odzież.
-        <br><br>Co dzień otrzymasz darmowy spin po 30 minutach grania w grę.`,
-        zh: '在这里，你可以旋转奖品，获得有价值的物品，如筹码，金钱，捐赠货币，甚至是一辆车，以及不太有价值的奖品，如经验或衣服。<br><br>每天在游戏中玩30分钟后，您将获得一次免费旋转',
+        <br><br>Co dzień otrzymasz darmowy spin po 60 minutach grania w grę.`,
     },
     start: {
         ru: 'Пуск',

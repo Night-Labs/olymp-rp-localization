@@ -74,7 +74,7 @@ export const server = {
     negativeBalance: {
         ru: 'У вас отрицательный баланс',
         en: 'You have a negative balance.',
-        ua: 'У вас від\'ємний баланс.',
+        ua: "У вас від'ємний баланс.",
         de: 'Du hast einen negativen Kontostand.',
         pl: 'Masz ujemne saldo.',
         zh: '你的结余是负的',
@@ -194,17 +194,26 @@ export const server = {
 
     //
     playerIsTooFarAway: {
-        "ru": "Игрок слишком далеко для этого действия",
-        "ua": "Гравець занадто далеко для цієї дії",
-        "en": "The player is too far away for this action",
-        "de": "Der Spieler ist zu weit weg für diese Aktion",
-        "pl": "Gracz jest za daleko, żeby wykonać tę akcję",
+        ru: 'Игрок слишком далеко для этого действия',
+        ua: 'Гравець занадто далеко для цієї дії',
+        en: 'The player is too far away for this action',
+        de: 'Der Spieler ist zu weit weg für diese Aktion',
+        pl: 'Gracz jest za daleko, żeby wykonać tę akcję',
     },
     vehicleIsTooFarAway: {
-        "ru": "Машина слишком далеко для этого действия",
-        "ua": "Машина занадто далеко для цієї дії",
-        "en": "The vehicle is too far away for this action",
-        "de": "Das Fahrzeug ist zu weit weg für diese Aktion",
-        "pl": "Pojazd jest za daleko, żeby wykonać tę akcję",
+        ru: 'Машина слишком далеко для этого действия',
+        ua: 'Машина занадто далеко для цієї дії',
+        en: 'The vehicle is too far away for this action',
+        de: 'Das Fahrzeug ist zu weit weg für diese Aktion',
+        pl: 'Pojazd jest za daleko, żeby wykonać tę akcję',
+    },
+
+    //
+    cantSellRentedVehicle: {
+        ru: 'Ну попытка не пытка, продать а рендованную машину нельзя',
+        ua: 'Ну, спробував — і досить, але орендовану машину не продати',
+        en: "Well, worth a try, but you can't sell a rented car",
+        de: 'Na ja, ein Versuch war’s wert, aber du kannst kein gemietetes Auto verkaufen',
+        pl: 'No cóż, próba nie zaszkodzi, ale wynajętego auta nie sprzedasz',
     },
 };

@@ -103,12 +103,12 @@ export const stepDto = {
             de: 'Geh zum Casino',
             pl: 'Dojedź do kasyna',
         },
-        automarket: {
-            ru: 'Доберись до авторынка',
-            ua: 'Доберися до авторинку',
-            en: 'Get to the car market',
-            de: 'Komm zum Automarkt',
-            pl: 'Dojedź na giełdę samochodową',
+        scrapyard: {
+            ru: 'Доберись до свалки',
+            ua: 'Доберись до звалища',
+            en: 'Get to the scrapyard',
+            de: 'Geh zum Schrottplatz',
+            pl: 'Dostań się na złomowisko',
         },
     },
     talkWith: {
@@ -371,7 +371,7 @@ export const stepDto = {
     deployDelivery: {
         ru: 'Устройся на работу доставщика еды',
         ua: 'Влаштуйся на роботу доставника їжі',
-        en: 'Get a job as a food foodDelivery driver',
+        en: 'Get a job as a food delivery driver',
         de: 'Hol dir einen Job als Essenslieferant',
         pl: 'Zatrudnij się jako dostawca jedzenia',
     },
@@ -379,7 +379,7 @@ export const stepDto = {
     leaveJobDelivery: {
         ru: 'Уволься с работы доставщика еды',
         ua: 'Звільнись з роботи доставника їжі',
-        en: 'Quit your food foodDelivery job',
+        en: 'Quit your food delivery job',
         de: 'Kündige deinen Job als Essenslieferant',
         pl: 'Zrezygnuj z pracy jako dostawca jedzenia',
     },

@@ -2,7 +2,7 @@ export const cef = {
     name: {
         ru: 'Доставщик еды',
         ua: 'Доставник їжі',
-        en: 'Food foodDelivery person',
+        en: 'Food delivery person',
         de: 'Essenslieferant',
         pl: 'Dostawca jedzenia',
     },

@@ -20,4 +20,11 @@ export default {
         de: 'Spielt',
         pl: 'Gra',
     },
+    rentedVeh: {
+        ru: 'Арендованные',
+        ua: 'Орендовані',
+        en: 'Rented',
+        de: 'Gemietet',
+        pl: 'Wynajęte',
+    },
 };

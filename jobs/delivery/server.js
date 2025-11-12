@@ -2,14 +2,14 @@ export const server = {
     notifyHeader: {
         ru: 'Доставщик еды',
         ua: 'Доставник їжі',
-        en: 'Food foodDelivery',
+        en: 'Food delivery',
         de: 'Essenslieferant',
         pl: 'Dostawca jedzenia',
     },
     youSuccessfulyDeployed: {
         ru: 'Вы успешно устроились на работу доставщика еды',
         ua: 'Ви успішно працевлаштувалися на роботу доставника їжі',
-        en: 'You have successfully been employed as a food foodDelivery driver',
+        en: 'You have successfully been employed as a food delivery driver',
         de: 'Du wurdest erfolgreich als Essenslieferant eingestellt',
         pl: 'Pomyślnie zatrudniłeś się jako dostawca jedzenia',
         zh: '您已成功被聘为食品配送司机',
