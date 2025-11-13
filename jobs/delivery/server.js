@@ -66,11 +66,11 @@ export const server = {
         pl: 'Odbierz zamówienie w "Burger Shot"',
     },
     youPickedUpOrder: {
-        ru: 'Ты взял заказ, вези его на точку',
-        ua: 'Ти взяв замовлення, вези його на точку',
-        en: 'You picked up the order, take it to the spot',
-        de: 'Du hast die Bestellung abgeholt, bring sie zum Punkt',
-        pl: 'Wziąłeś zamówienie, zawieź je na miejsce',
+        ru: 'Ты взял заказ, доставь его на точку',
+        ua: 'Ти взяв замовлення, достав його на точку',
+        en: 'You picked up the order, deliver it to the spot',
+        de: 'Du hast die Bestellung genommen, bring sie zum Punkt',
+        pl: 'Ty wziąłeś zamówienie, dostarcz je na miejscówkę',
     },
     hud: {
         title: {

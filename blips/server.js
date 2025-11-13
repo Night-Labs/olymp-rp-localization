@@ -39,14 +39,6 @@ export const server = {
         pl: 'Barber Shop',
         zh: '理发店',
     },
-    tattooSalon: {
-        ua: 'Тату салон',
-        en: 'Tattoo Shop',
-        ru: 'Тату салон',
-        de: 'Tattoo-Studio',
-        pl: 'Studio tatuażu',
-        zh: '纹身店',
-    },
     trucker: {
         ru: 'Грузоперевозчик',
         ua: 'Вантажоперевiзник',
@@ -182,13 +174,6 @@ export const server = {
         pl: 'Strefa wędkowania',
         zh: '渔区',
     },
-    barberShop: {
-        ru: 'Барбершоп',
-        ua: 'Барбершоп',
-        en: 'Barbershop',
-        de: 'Barbershop',
-        pl: 'Barbershop',
-    },
     tattooSalon: {
         ru: 'Тату-Салон',
         ua: 'Тату-Салон',
@@ -210,4 +195,11 @@ export const server = {
         de: 'Parkausfahrt',
         pl: 'Wyjazd z parkingu',
     },
+    burgerShot: {
+        ru: 'Burger Shot',
+        ua: 'Burger Shot',
+        en: 'Burger Shot',
+        de: 'Burger Shot',
+        pl: 'Burger Shot',
+    }
 };
