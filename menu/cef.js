@@ -632,6 +632,57 @@ export const cef = {
         },
     },
     settings: {
+        keyBindCategories: {
+            general: {
+                ru: 'Основные',
+                ua: 'Основні',
+                en: 'General',
+                de: 'Allgemeines',
+                pl: 'Główne',
+            },
+            character: {
+                ru: 'Персонаж',
+                ua: 'Персонаж',
+                en: 'Character',
+                de: 'Charakter',
+                pl: 'Postać',
+            },
+            vehicle: {
+                ru: 'Транспорт',
+                ua: 'Транспорт',
+                en: 'Vehicle',
+                de: 'Fahrzeug',
+                pl: 'Pojazd',
+            },
+            weapons: {
+                ru: 'Оружие',
+                ua: 'Зброя',
+                en: 'Weapons',
+                de: 'Waffen',
+                pl: 'Broń',
+            },
+            casino: {
+                ru: 'Казино',
+                ua: 'Казино',
+                en: 'Casino',
+                de: 'Casino',
+                pl: 'Kasyno',
+            },
+            gov: {
+                ru: 'Государственные',
+                ua: 'Державні',
+                en: 'Government',
+                de: 'Staatliche',
+                pl: 'Rządowe',
+            },
+            furnitureEditor: {
+                ru: 'Редактор мебели',
+                ua: 'Редактор меблів',
+                en: 'Furniture Editor',
+                de: 'Möbeleditor',
+                pl: 'Edytor mebli',
+            },
+        },
         name: {
             ua: 'Налаштування',
             en: 'Settings',
