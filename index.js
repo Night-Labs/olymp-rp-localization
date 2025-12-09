@@ -71,7 +71,8 @@ import diving from './diving';
 import drivingSchool from './drivingSchool';
 import drivingLicenses from './drivingLicenses';
 import business from './business/business';
-
+import furnitureEditor from './furnitureEditor/furnitureEditor';
+import keyBinds from './keyBinds/keyBinds';
 export default {
     account,
     antispam,
@@ -146,4 +147,6 @@ export default {
     drivingSchool,
     drivingLicenses,
     business,
+    furnitureEditor,
+    keyBinds
 };

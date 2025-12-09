@@ -1,5 +1,3 @@
-import keyBinds from './keyBinds';
-
 export const cef = {
     items: {
         main: {
@@ -634,7 +632,6 @@ export const cef = {
         },
     },
     settings: {
-        keyBinds,
         name: {
             ua: 'Налаштування',
             en: 'Settings',

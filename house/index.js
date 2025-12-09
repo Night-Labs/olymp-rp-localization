@@ -1,4 +1,4 @@
-import { cef } from './cef';
+import cef from './cef';
 import { server } from './server';
 
 export default {

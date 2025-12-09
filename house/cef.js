@@ -1,4 +1,4 @@
-export const cef = {
+const cef = {
     house: {
         ru: 'Дом',
         ua: 'Дім',
@@ -35,7 +35,7 @@ export const cef = {
             de: 'Verbesserungen',
             pl: 'Ulepszenia',
         },
-        houseRenovation: {
+        renovation: {
             ru: 'Ремонт',
             ua: 'Ремонт',
             en: 'Renovation',
@@ -249,6 +249,118 @@ export const cef = {
                     pl: 'Można to oglądać z przyjaciółmi i miło spędzać czas',
                 },
             },
+            workshop: {
+                name: {
+                    ru: 'Мастерская',
+                    ua: 'Майстерня',
+                    en: 'Workshop',
+                    de: 'Werkstatt',
+                    pl: 'Warsztat',
+                },
+                desc: {
+                    ru: 'Можно создавать разные предметы',
+                    ua: 'Можна створювати різні предмети',
+                    en: 'You can craft different items',
+                    de: 'Du kannst verschiedene Gegenstände herstellen',
+                    pl: 'Możesz tworzyć różne przedmioty',
+                },
+            },
+            inventory: {
+                name: {
+                    ru: 'Шкаф',
+                    ua: 'Шафа',
+                    en: 'Cabinet',
+                    de: 'Schrank',
+                    pl: 'Szafa',
+                },
+                desc: {
+                    ru: 'Позволяет хранить различные вещи',
+                    ua: 'Дозволяє зберігати різні речі',
+                    en: 'Allows you to store various items',
+                    de: 'Erlaubt dir, verschiedene Dinge aufzubewahren',
+                    pl: 'Pozwala przechowywać różne rzeczy',
+                },
+            },
+            kitchen: {
+                name: {
+                    ru: 'Кухня',
+                    ua: 'Кухня',
+                    en: 'Kitchen',
+                    de: 'Küche',
+                    pl: 'Kuchnia',
+                },
+                desc: {
+                    ru: 'Позволяет готовить различные блюда',
+                    ua: 'Дозволяє готувати різні страви',
+                    en: 'Allows you to cook various dishes',
+                    de: 'Erlaubt dir, verschiedene Gerichte zu kochen',
+                    pl: 'Pozwala gotować różne potrawy',
+                },
+            },
+            fridge: {
+                name: {
+                    ru: 'Холодильник',
+                    ua: 'Холодильник',
+                    en: 'Fridge',
+                    de: 'Kühlschrank',
+                    pl: 'Lodówka',
+                },
+                desc: {
+                    ru: 'Нужен для хранения некоторой еды',
+                    ua: 'Потрібен для зберігання деякої їжі',
+                    en: 'Needed to store certain food',
+                    de: 'Wird benötigt, um bestimmte Lebensmittel zu lagern',
+                    pl: 'Potrzebny do przechowywania niektórej żywności',
+                },
+            },
+        },
+    },
+    houseInteriors: {
+        budgetGreenInterior: {
+            ru: 'Бюджетный зелёный интерьер',
+        },
+        artLoftInterior: {
+            ru: 'Артовый лофт интерьер',
+        },
+        modernAccentInterior: {
+            ru: 'Современный интерьер с акцентами',
+        },
+        oldBudgetInterior: {
+            ru: 'Старый бюджетный интерьер',
+        },
+        brightModernInterior: {
+            ru: 'Светлый современный интерьер',
+        },
+        wornBudgetHome: {
+            ru: 'Поношенный бюджетный дом',
+        },
+        simpleFamilyHome: {
+            ru: 'Простой семейный дом',
+        },
+        cozyVintageHome: {
+            ru: 'Уютный винтажный дом',
+        },
+        coolToneModern: {
+            ru: 'Современный интерьер в холодных тонах',
+        },
+        coolToneModern2: {
+            ru: 'Современный интерьер в холодных тонах 2',
+        },
+        coolToneModern3: {
+            ru: 'Современный интерьер в холодных тонах 3',
+        },
+        coolToneModern4: {
+            ru: 'Современный интерьер в холодных тонах 4',
+        },
+        darkRedModern: {
+            ru: 'Тёмный красный современный интерьер',
+        },
+        darkRedModern2: {
+            ru: 'Тёмный красный современный интерьер 2',
+        },
+        darkRedModern3: {
+            ru: 'Тёмный красный современный интерьер 3',
         },
     },
 };
+export default cef;
