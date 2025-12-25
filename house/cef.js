@@ -20,6 +20,13 @@ const cef = {
         de: 'Preis',
         pl: 'Cena',
     },
+    noOwner: {
+        ru: 'Государство',
+        ua: 'Держава',
+        en: 'State',
+        de: 'Staat',
+        pl: 'Państwo',
+    },
     tabs: {
         main: {
             ru: 'Главная',
@@ -315,51 +322,76 @@ const cef = {
             },
         },
     },
-    houseInteriors: {
-        budgetGreenInterior: {
-            ru: 'Бюджетный зелёный интерьер',
+    renovation: {
+        furniture: {
+            ru: 'Мебель',
+            ua: 'Меблі',
+            en: 'Furniture',
+            de: 'Möbel',
+            pl: 'Meble',
         },
-        artLoftInterior: {
-            ru: 'Артовый лофт интерьер',
+        placedItems: {
+            ru: 'Расставлено',
+            ua: 'Розставлено',
+            en: 'Placed',
+            de: 'Platziert',
+            pl: 'Rozstawione',
         },
-        modernAccentInterior: {
-            ru: 'Современный интерьер с акцентами',
+        placedItemsSum: {
+            ru: 'На сумму',
+            ua: 'На суму',
+            en: 'Total amount',
+            de: 'Gesamtbetrag',
+            pl: 'Na kwotę',
         },
-        oldBudgetInterior: {
-            ru: 'Старый бюджетный интерьер',
+        editor: {
+            ru: 'Редактор',
+            ua: 'Редактор',
+            en: 'Editor',
+            de: 'Editor',
+            pl: 'Edytor',
         },
-        brightModernInterior: {
-            ru: 'Светлый современный интерьер',
+        reset: {
+            ru: 'Сбросить',
+            ua: 'Скинути',
+            en: 'Reset',
+            de: 'Zurücksetzen',
+            pl: 'Resetuj',
         },
-        wornBudgetHome: {
-            ru: 'Поношенный бюджетный дом',
+        houseLayout: {
+            ru: 'Планировка',
+            ua: 'Планування',
+            en: 'Layout',
+            de: 'Grundriss',
+            pl: 'Układ',
         },
-        simpleFamilyHome: {
-            ru: 'Простой семейный дом',
+        style: {
+            ru: 'Стиль',
+            ua: 'Стиль',
+            en: 'Style',
+            de: 'Stil',
+            pl: 'Styl',
         },
-        cozyVintageHome: {
-            ru: 'Уютный винтажный дом',
+        variant: {
+            ru: 'Вариант',
+            ua: 'Варіант',
+            en: 'Variant',
+            de: 'Variante',
+            pl: 'Wariant',
         },
-        coolToneModern: {
-            ru: 'Современный интерьер в холодных тонах',
+        buy: {
+            ru: 'Купить',
+            ua: 'Купити',
+            en: 'Buy',
+            de: 'Kaufen',
+            pl: 'Kup',
         },
-        coolToneModern2: {
-            ru: 'Современный интерьер в холодных тонах 2',
-        },
-        coolToneModern3: {
-            ru: 'Современный интерьер в холодных тонах 3',
-        },
-        coolToneModern4: {
-            ru: 'Современный интерьер в холодных тонах 4',
-        },
-        darkRedModern: {
-            ru: 'Тёмный красный современный интерьер',
-        },
-        darkRedModern2: {
-            ru: 'Тёмный красный современный интерьер 2',
-        },
-        darkRedModern3: {
-            ru: 'Тёмный красный современный интерьер 3',
+        current: {
+            ru: 'Текущий',
+            ua: 'Поточний',
+            en: 'Current',
+            de: 'Aktuell',
+            pl: 'Aktualny',
         },
     },
 };

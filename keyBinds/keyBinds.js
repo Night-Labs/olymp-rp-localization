@@ -293,6 +293,20 @@ export default {
         de: 'Rechts',
         pl: 'W prawo',
     },
+    'furnitureEditor.mouseCamera': {
+        ru: 'Крутить камерой',
+        ua: 'Крутити камерою',
+        en: 'Rotate the camera',
+        de: 'Die Kamera drehen',
+        pl: 'Obracaj kamerą',
+    },
+    'furnitureEditor.selectObject': {
+        ru: 'Выбрать объект',
+        ua: 'Вибрати об’єкт',
+        en: 'Select an object',
+        de: 'Ein Objekt auswählen',
+        pl: 'Wybierz obiekt',
+    },
     'furnitureEditor.focusObject': {
         ru: 'Фокус на выбранном объекте',
         ua: 'Фокус на вибраному об’єкті',
