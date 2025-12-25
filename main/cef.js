@@ -327,6 +327,31 @@ export const cef = {
             pl: 'dni',
             zh: '天',
         },
+
+        years1: {
+            ru: 'год',
+            ua: 'рік',
+            en: 'year',
+            de: 'Jahr',
+            pl: 'rok',
+            zh: '年',
+        },
+        years2: {
+            ru: 'года',
+            ua: 'роки',
+            en: 'years',
+            de: 'Jahre',
+            pl: 'lata',
+            zh: '年',
+        },
+        years3: {
+            ru: 'лет',
+            ua: 'років',
+            en: 'years',
+            de: 'Jahre',
+            pl: 'lat',
+            zh: '年',
+        },
     },
 
     dates: {

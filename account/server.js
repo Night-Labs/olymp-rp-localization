@@ -73,14 +73,6 @@ export const server = {
         pl: 'Nieprawidłowe dane rejestracji',
         zh: '注册数据无效',
     },
-    banned: {
-        ru: 'Вы заблокированы на {{days}} дней по причине {{reason}}',
-        en: 'You are banned for {{days}} days for {{reason}}',
-        ua: 'Ви заблоковані на {{days}} днів по причині {{reason}}',
-        de: 'Du wurdest gesperrt wegen {{reason}}',
-        pl: 'Zostałeś zablokowany z powodu {{reason}}',
-        zh: '您已被封禁{{days}}封禁原因{{reason}}',
-    },
     invalidCode: {
         ru: 'Код восстановления не найден',
         ua: 'Код відновлення не знайдено',
