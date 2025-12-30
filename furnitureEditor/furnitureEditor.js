@@ -20,4 +20,41 @@ export default {
         de: 'Bewegung',
         pl: 'Przemieszczanie',
     },
+    limit: {
+        ru: 'Лимит',
+        ua: 'Ліміт',
+        en: 'Limit',
+        de: 'Limit',
+        pl: 'Limit',
+    },
+    itemHints: {
+        tv: {
+            ru: 'Позволяет включать YouTube-видео и смотреть их',
+            ua: 'Дозволяє вмикати YouTube-відео та дивитися їх',
+            en: 'Lets you turn on YouTube videos and watch them',
+            de: 'Erlaubt dir, YouTube-Videos einzuschalten und sie anzusehen',
+            pl: 'Pozwala włączać filmy z YouTube i je oglądać',
+        },
+        storage: {
+            ru: 'Позволяет хранить предметы. Вместимость: {{slots}} слотов, до {{maxWeight}} кг.',
+            ua: 'Дозволяє зберігати предмети. Місткість: {{slots}} слотів, до {{maxWeight}} кг.',
+            en: 'Lets you store items. Capacity: {{slots}} slots, up to {{maxWeight}} kg.',
+            de: 'Ermöglicht dir, Gegenstände zu lagern. Kapazität: {{slots}} Slots, bis zu {{maxWeight}} kg.',
+            pl: 'Pozwala ci przechowywać przedmioty. Pojemność: {{slots}} slotów, do {{maxWeight}} kg.',
+        },
+        safe: {
+            ru: 'В сейфе можно хранить до {{maxMoney}}$',
+            ua: 'У сейфі можна зберігати до {{maxMoney}}$',
+            en: 'You can store up to {{maxMoney}}$ in the safe',
+            de: 'Im Safe kannst du bis zu {{maxMoney}}$ aufbewahren',
+            pl: 'W sejfie możesz przechowywać do {{maxMoney}}$',
+        },
+        workshop: {
+            ru: 'Позволяет крафтить предметы, для крафта разных предметов будут нужны чертежи.',
+            ua: 'Дозволяє крафтити предмети, для крафту різних предметів будуть потрібні креслення.',
+            en: 'Lets you craft items; to craft different items, you’ll need blueprints.',
+            de: 'Ermöglicht dir, Gegenstände zu craften; um verschiedene Gegenstände herzustellen, brauchst du Baupläne.',
+            pl: 'Pozwala craftować przedmioty; do craftowania różnych przedmiotów będą potrzebne schematy.',
+        },
+    },
 };

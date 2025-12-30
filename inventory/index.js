@@ -168,6 +168,13 @@ const inventory = {
             de: 'Munition',
             pl: 'Amunicja',
         },
+        blueprint: {
+            ru: 'Чертёж',
+            ua: 'Креслення',
+            en: 'Blueprint',
+            de: 'Bauplan',
+            pl: 'Schemat',
+        },
     },
 };
 

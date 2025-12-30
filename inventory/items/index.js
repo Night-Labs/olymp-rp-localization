@@ -11,6 +11,7 @@ import ores from './ores';
 import diving from './diving';
 import treasureHunter from './treasureHunter';
 import mushrooms from './mushrooms';
+import blueprint from './blueprints';
 
 export const items = {
     ...food,
@@ -24,6 +25,7 @@ export const items = {
     ...medical,
     ...ores,
     diving,
+    blueprint,
     ...treasureHunter,
     ...mushrooms,
 };

@@ -76,6 +76,22 @@ export default {
         pl: 'zmusza cię do podniesienia rąk',
     },
     //
+    youLearnedBlueprint: {
+        ru: 'Вы изучили {{name}}, теперь ты можешь крафтить это в своей мастерской',
+        ua: 'Ти вивчив {{name}}, тепер ти можеш крафтити це у своїй майстерні',
+        en: 'You learned {{name}}, now you can craft it in your workshop',
+        de: 'Du hast {{name}} gelernt, jetzt kannst du es in deiner Werkstatt herstellen',
+        pl: 'Nauczyłeś się {{name}}, teraz możesz wytwarzać to w swoim warsztacie',
+    },
+    youHaveLearnedThisOneBlueprint: {
+        ru: 'Этот чертёж уже изучен, ты можешь его выбросить или продать',
+        ua: 'Цей кресленик уже вивчено, ти можеш його викинути або продати',
+        en: 'This blueprint is already learned, you can throw it away or sell it',
+        de: 'Dieser Bauplan wurde bereits gelernt, du kannst ihn wegwerfen oder verkaufen',
+        pl: 'Ten schemat został już poznany, możesz go wyrzucić lub sprzedać',
+    },
+
+    //
     passport,
     payday,
     aidkit,
