@@ -5,7 +5,7 @@ export default {
         en: 'CRAFT <span>ITEMS</span>',
         de: 'HANDWERK <span>ARTIKEL</span>',
         pl: 'RĘKODZIEŁO <span>PRZEDMIOTY</span>',
-        zh:'手工艺 <span>物品</span>',
+        zh: '手工艺 <span>物品</span>',
     },
     search: {
         ru: 'Поиск',
@@ -14,6 +14,13 @@ export default {
         de: 'Suche',
         pl: 'Szukaj',
         zh: '搜索',
+    },
+    all: {
+        ru: 'Все',
+        ua: 'Усі',
+        en: 'All',
+        de: 'Alle',
+        pl: 'Wszystko',
     },
     infoAboutItem: {
         ru: 'Информация о предмете',
@@ -63,6 +70,11 @@ export default {
         pl: 'Tworzenie...',
         zh: '正在创建...',
     },
+    needWorkshopLevel: {
+        ru: 'Требуется {{requiredWorkshopLvl}} уровень верстака',
+        ua: 'Потрібен {{requiredWorkshopLvl}} рівень верстака',
+        en: 'You need a level {{requiredWorkshopLvl}} workbench',
+        de: 'Du brauchst eine Werkbank der Stufe {{requiredWorkshopLvl}}',
+        pl: 'Potrzebujesz warsztatu na poziomie {{requiredWorkshopLvl}}',
+    },
 };
-
-
