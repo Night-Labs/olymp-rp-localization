@@ -73,6 +73,8 @@ import drivingLicenses from './drivingLicenses';
 import business from './business/business';
 import furnitureEditor from './furnitureEditor/furnitureEditor';
 import keyBinds from './keyBinds/keyBinds';
+import taxi from './taxi/taxi';
+
 export default {
     account,
     antispam,
@@ -148,5 +150,6 @@ export default {
     drivingLicenses,
     business,
     furnitureEditor,
-    keyBinds
+    keyBinds,
+    taxi,
 };
