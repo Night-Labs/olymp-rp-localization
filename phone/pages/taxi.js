@@ -168,21 +168,12 @@ export default {
     },
 
     waitingForDriverSearch: {
-        ru: 'Подождите, пока водитель примет ваш заказ',
-        ua: 'Зачекай, поки водій прийме твоє замовлення',
-        en: 'Wait until the driver accepts your order',
-        de: 'Warte, bis der Fahrer deine Bestellung annimmt',
-        pl: 'Poczekaj, aż kierowca przyjmie twoje zamówienie',
+        ru: 'Подождите, пока водитель примет ваш заказ, водителей в штате: ',
+        ua: 'Зачекайте, поки водій прийме ваше замовлення, водіїв у штаті: ',
+        en: 'Please wait while a driver accepts your order, drivers available: ',
+        de: 'Bitte warten Sie, bis ein Fahrer Ihre Bestellung annimmt, verfügbare Fahrer: ',
+        pl: 'Proszę czekać, aż kierowca przyjmie Twoje zamówienie, dostępnych kierowców: ',
     },
-
-    driversInState: {
-        ru: 'Водителей в штате: ',
-        ua: 'Водіїв у штаті: ',
-        en: 'Drivers on staff: ',
-        de: 'Fahrer im Team: ',
-        pl: 'Kierowców w zespole: ',
-    },
-
     ordersList: {
         ru: 'Список заказов',
         ua: 'Список замовлень',
