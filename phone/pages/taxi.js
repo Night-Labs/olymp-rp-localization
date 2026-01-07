@@ -174,6 +174,7 @@ export default {
         de: 'Bitte warten Sie, bis ein Fahrer Ihre Bestellung annimmt, verfügbare Fahrer: ',
         pl: 'Proszę czekać, aż kierowca przyjmie Twoje zamówienie, dostępnych kierowców: ',
     },
+    
     ordersList: {
         ru: 'Список заказов',
         ua: 'Список замовлень',
