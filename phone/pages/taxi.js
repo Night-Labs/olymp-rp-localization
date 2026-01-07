@@ -286,12 +286,20 @@ export default {
         de: 'Abgeschlossene Aufträge',
         pl: 'Zrealizowane zlecenia',
     },
-    
+
     earndedMoney: {
         ru: 'Заработано денег',
         ua: 'Зароблено грошей',
         en: 'Money earned',
         de: 'Verdientes Geld',
         pl: 'Zarobione pieniądze',
+    },
+
+    uNeedCar: {
+        ru: 'Для того чтобы работать в такси, вам нужно находиться в личном либо арендованном авто на водительском месте.',
+        ua: 'Для того щоб працювати в таксі, вам потрібно перебувати у власному або орендованому авто на водійському місці.',
+        en: "To work as a taxi driver, you need to be in a personal or rented vehicle in the driver's seat.",
+        de: 'Um im Taxi zu arbeiten, müssen Sie sich in einem eigenen oder gemieteten Fahrzeug auf dem Fahrersitz befinden.',
+        pl: 'Aby pracować w taksówce, musisz znajdować się w prywatnym lub wynajętym pojeździe na miejscu kierowcy.',
     },
 };
