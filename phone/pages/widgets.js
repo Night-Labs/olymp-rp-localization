@@ -31,8 +31,8 @@ export default {
                 pl: 'Niezłe! Olimp żyje dzięki takim jak ty.',
             },
             5: {
-                ru: 'Стабильность — залог успеха. Так держать!',
-                ua: 'Стабільність — запорука успіху. Так тримати!',
+                ru: 'Стабильность - залог успеха. Так держать!',
+                ua: 'Стабільність - запорука успіху. Так тримати!',
                 en: 'Stability is the key to success. Keep it up!',
                 de: 'Stabilität ist der Schlüssel zum Erfolg. Weiter so!',
                 pl: 'Stabilność to klucz do sukcesu. Tak trzymać!',
@@ -66,8 +66,8 @@ export default {
                 pl: 'Już prawie doba! Olimp klaszcze na stojąco.',
             },
             23: {
-                ru: '24/7 - не просто слова. Ты — легенда сегодняшнего дня.',
-                ua: '24/7 - не просто слова. Ти — легенда сьогоднішнього дня.',
+                ru: '24/7 - не просто слова. Ты - легенда сегодняшнего дня.',
+                ua: '24/7 - не просто слова. Ти - легенда сьогоднішнього дня.',
                 en: '24/7 - not just words. You are the legend of today.',
                 de: '24/7 - nicht nur Worte. Du bist die Legende von heute.',
                 pl: '24/7 - to nie tylko słowa. Jesteś legendą dzisiejszego dnia.',

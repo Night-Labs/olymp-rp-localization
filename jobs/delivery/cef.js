@@ -7,8 +7,8 @@ export const cef = {
         pl: 'Dostawca jedzenia',
     },
     desc: {
-        ru: 'Ваша задача: доставлять еду на указанные точки любым удобным способом. Можно использовать транспорт или идти пешком. Главное — довезти заказ вовремя и без повреждений.',
-        ua: 'Твоє завдання: доставляти їжу в зазначені місця будь-яким зручним способом. Можна користуватися транспортом або йти пішки. Головне — доставити замовлення вчасно й без пошкоджень.',
+        ru: 'Ваша задача: доставлять еду на указанные точки любым удобным способом. Можно использовать транспорт или идти пешком. Главное - довезти заказ вовремя и без повреждений.',
+        ua: 'Твоє завдання: доставляти їжу в зазначені місця будь-яким зручним способом. Можна користуватися транспортом або йти пішки. Головне - доставити замовлення вчасно й без пошкоджень.',
         en: 'Your task: deliver food to the specified locations in any convenient way. You can use a vehicle or go on foot. The main thing is to deliver the order on time and without damage.',
         de: 'Deine Aufgabe: Bring das Essen auf beliebige Weise zu den angegebenen Orten. Du kannst ein Fahrzeug benutzen oder zu Fuß gehen. Wichtig ist, dass du die Bestellung pünktlich und unbeschädigt ablieferst.',
         pl: 'Twoje zadanie: dostarczaj jedzenie w wyznaczone miejsca w dowolny wygodny sposób. Możesz użyć pojazdu lub iść pieszo. Najważniejsze, żeby dostarczyć zamówienie na czas i bez uszkodzeń.',

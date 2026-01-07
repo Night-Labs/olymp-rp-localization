@@ -41,7 +41,7 @@ export default {
         },
         desc: {
             ru: 'Если во время грозы добраться до горы Чилиад, надеть любую маску, сидеть в скутере Faggio и использовать этот предмет вы получите активируете уголь... Столько что хватит до конца жизни',
-            ua: 'Якщо під час грози дістатися до гори Чиліад, одягти будь-яку маску, сісти на скутер Faggio та використати цей предмет — ви отримаєте активоване вугілля... Стільки, що вистачить на все життя',
+            ua: 'Якщо під час грози дістатися до гори Чиліад, одягти будь-яку маску, сісти на скутер Faggio та використати цей предмет - ви отримаєте активоване вугілля... Стільки, що вистачить на все життя',
             en: "If during a thunderstorm you reach Mount Chiliad, put on any mask, sit on a Faggio scooter, and use this item, you'll activate the charcoal... Enough to last a lifetime",
             de: 'Wenn du während eines Gewitters den Mount Chiliad erreichst, eine beliebige Maske aufsetzt, auf einem Faggio-Roller sitzt und diesen Gegenstand benutzt, aktivierst du die Kohle... So viel, dass es ein Leben lang reicht',
             pl: 'Jeśli podczas burzy dotrzesz na górę Chiliad, założysz dowolną maskę, usiądziesz na skuterze Faggio i użyjesz tego przedmiotu, aktywujesz węgiel... Tyle, że wystarczy do końca życia',

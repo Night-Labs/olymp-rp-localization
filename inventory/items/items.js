@@ -317,8 +317,8 @@ export const items = {
             pl: 'C4',
         },
         desc: {
-            ru: 'C4 — это компактная пластичная взрывчатка, идеально подходящая для подрыва укреплённых целей, например, ящиков аирдропа. Она легко устанавливается на поверхность, активируется с дистанции или по таймеру, и с высокой эффективностью разрушает препятствия, обеспечивая доступ к содержимому.',
-            ua: 'C4 — це компактна пластична вибухівка, ідеально підходяща для підриву укріплених цілей, наприклад, ящиків аірдропу. Вона легко встановлюється на поверхню, активується дистанційно або за таймером, і з високою ефективністю руйнує перешкоди, забезпечуючи доступ до вмісту.',
+            ru: 'C4 - это компактная пластичная взрывчатка, идеально подходящая для подрыва укреплённых целей, например, ящиков аирдропа. Она легко устанавливается на поверхность, активируется с дистанции или по таймеру, и с высокой эффективностью разрушает препятствия, обеспечивая доступ к содержимому.',
+            ua: 'C4 - це компактна пластична вибухівка, ідеально підходяща для підриву укріплених цілей, наприклад, ящиків аірдропу. Вона легко встановлюється на поверхню, активується дистанційно або за таймером, і з високою ефективністю руйнує перешкоди, забезпечуючи доступ до вмісту.',
             en: 'C4 is a compact plastic explosive, ideal for demolishing fortified targets, such as airdrop crates. It easily attaches to surfaces, can be activated remotely or by timer, and efficiently destroys obstacles, granting access to the contents.',
             de: 'C4 ist ein kompakter plastischer Sprengstoff, der sich ideal zum Zerstören befestigter Ziele eignet, wie z.B. Airdrop-Kisten. Es lässt sich leicht an Oberflächen anbringen, wird aus der Ferne oder per Timer aktiviert und zerstört effizient Hindernisse, um Zugang zum Inhalt zu gewähren.',
             pl: 'C4 to kompaktowy materiał wybuchowy, idealny do niszczenia umocnionych celów, takich jak skrzynie zrzutu. Łatwo przylega do powierzchni, może być aktywowany zdalnie lub za pomocą timera i skutecznie niszczy przeszkody, zapewniając dostęp do zawartości.',
@@ -480,7 +480,7 @@ export const items = {
         },
         desc: {
             ru: 'Используется для взлома замка машин и других замков, может сломаться при неудачном взломе будьте внимательны!',
-            ua: 'Використовується для злому замків автомобілів та інших замків, може зламатися при невдалому зломі — будьте уважні!',
+            ua: 'Використовується для злому замків автомобілів та інших замків, може зламатися при невдалому зломі - будьте уважні!',
             en: 'Used to pick car locks and other locks, may break if the attempt fails – be careful!',
             de: 'Wird verwendet, um Autoschlösser und andere Schlösser zu knacken, kann bei einem Fehlversuch brechen – seien Sie vorsichtig!',
             pl: 'Służy do otwierania zamków samochodów i innych zamków, może się złamać przy nieudanej próbie – bądź ostrożny!',

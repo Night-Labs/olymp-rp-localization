@@ -202,11 +202,11 @@ export default {
 
     discordAdMessage: {
         title: {
-            ru: '📢 Weazel News — Новое объявление',
-            ua: '📢 Weazel News — Нове оголошення',
-            en: '📢 Weazel News — New Advertisement',
-            de: '📢 Weazel News — Neue Anzeige',
-            pl: '📢 Weazel News — Nowe ogłoszenie',
+            ru: '📢 Weazel News - Новое объявление',
+            ua: '📢 Weazel News - Нове оголошення',
+            en: '📢 Weazel News - New Advertisement',
+            de: '📢 Weazel News - Neue Anzeige',
+            pl: '📢 Weazel News - Nowe ogłoszenie',
         },
         contact: {
             ru: '📱 Контакт',

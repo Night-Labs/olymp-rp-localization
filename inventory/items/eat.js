@@ -389,11 +389,11 @@ export const food = {
             pl: 'Herbata oolong „Grand Blue”',
         },
         desc: {
-            ru: 'С виду обычный улун, но внутри фирменный коктейль дайверов-алкоголиков. Лайфхак: подожги — если вспыхнуло, «чай» правильный.',
-            ua: 'На вигляд звичайний улун, але всередині фірмовий коктейль дайверів-алкоголіків. Лайфхак: підпали — як спалахне, «чай» справжній.',
-            en: 'Looks like plain oolong, but the bottle hides the divers’ signature booze blend. Pro tip: set it on fire — if it burns, it’s the “real” tea.',
+            ru: 'С виду обычный улун, но внутри фирменный коктейль дайверов-алкоголиков. Лайфхак: подожги - если вспыхнуло, «чай» правильный.',
+            ua: 'На вигляд звичайний улун, але всередині фірмовий коктейль дайверів-алкоголіків. Лайфхак: підпали - як спалахне, «чай» справжній.',
+            en: 'Looks like plain oolong, but the bottle hides the divers’ signature booze blend. Pro tip: set it on fire - if it burns, it’s the “real” tea.',
             de: 'Sieht aus wie gewöhnlicher Oolong, aber innen steckt der legendäre Alkohol-Mix der Taucher. Tipp: Zünde es an – wenn’s brennt, ist es der echte „Tee“.',
-            pl: 'Wygląda jak zwykły oolong, ale w środku jest firmowy koktajl alkoholików-nurków. Pro tip: podpal — jeśli zapłonie, to „prawdziwa” herbata.',
+            pl: 'Wygląda jak zwykły oolong, ale w środku jest firmowy koktajl alkoholików-nurków. Pro tip: podpal - jeśli zapłonie, to „prawdziwa” herbata.',
         },
     },
     cheeseburger: {
@@ -405,11 +405,11 @@ export const food = {
             pl: 'Cheeseburger',
         },
         desc: {
-            ru: 'Классика — сочная котлета, расплавленный сыр и свежая булочка.',
-            ua: 'Класика — соковита котлета, розплавлений сир і свіжа булочка.',
-            en: 'A classic — juicy patty, melted cheese, and a fresh bun.',
+            ru: 'Классика - сочная котлета, расплавленный сыр и свежая булочка.',
+            ua: 'Класика - соковита котлета, розплавлений сир і свіжа булочка.',
+            en: 'A classic - juicy patty, melted cheese, and a fresh bun.',
             de: 'Klassiker – saftiges Patty, geschmolzener Käse und frisches Brötchen.',
-            pl: 'Klasyk — soczysty kotlet, roztopiony ser i świeża bułka.',
+            pl: 'Klasyk - soczysty kotlet, roztopiony ser i świeża bułka.',
         },
     },
 

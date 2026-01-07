@@ -66,8 +66,8 @@ export default {
             pl: 'Dzisiaj będę twoją instruktorką. W samolocie bardzo ważne jest, aby przestrzegać nie tylko ogólnych zasad startu/lądowania itp., ale także ściśle trzymać się swojej trasy, aby uniknąć kolizji z innymi lotami. No to co, polecimy?',
         },
         H: {
-            ru: 'Сегодня я буду твоей инструкторшей, вертолёты — это уже серьёзно. Здесь нельзя просто жать газ и надеяться на авось. Управляй аккуратно, следи за высотой и не забудь, что мы не кошки — второй жизни у нас нет!',
-            ua: 'Сьогодні я буду твоєю інструкторкою, вертольоти — це вже серйозно. Тут не можна просто тиснути газ і сподіватися на щастя. Керуй обережно, стеж за висотою і не забудь, що ми не кішки — другого життя у нас немає!',
+            ru: 'Сегодня я буду твоей инструкторшей, вертолёты - это уже серьёзно. Здесь нельзя просто жать газ и надеяться на авось. Управляй аккуратно, следи за высотой и не забудь, что мы не кошки - второй жизни у нас нет!',
+            ua: 'Сьогодні я буду твоєю інструкторкою, вертольоти - це вже серйозно. Тут не можна просто тиснути газ і сподіватися на щастя. Керуй обережно, стеж за висотою і не забудь, що ми не кішки - другого життя у нас немає!',
             en: "Today I'll be your instructor. Helicopters are serious business. You can't just press the gas and hope for the best here. Fly carefully, watch your altitude, and don't forget that we're not cats – we don't have a second life!",
             de: 'Heute bin ich deine Ausbilderin. Hubschrauber sind eine ernste Angelegenheit. Man kann hier nicht einfach Gas geben und auf gut Glück hoffen. Flieg vorsichtig, achte auf die Höhe und vergiss nicht, dass wir keine Katzen sind – wir haben kein zweites Leben!',
             pl: 'Dziś będę twoją instruktorką. Helikoptery to już poważna sprawa. Nie można tu po prostu naciskać na gaz i liczyć na szczęście. Steruj ostrożnie, pilnuj wysokości i nie zapomnij, że nie jesteśmy kotami – nie mamy drugiego życia!',

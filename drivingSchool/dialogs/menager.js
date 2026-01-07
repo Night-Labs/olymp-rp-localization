@@ -51,10 +51,10 @@ export default {
         // Start study first time
         startStudyFirstTime: {
             ru: 'Отлично! Я передала преподавателю информацию о вас, Категория {{category}}.\n\nДля начала обучения проследуйте в класс находящийся справа от меня, там вас уже ожидает преподаватель, желаю вам удачи!',
-            ua: 'Чудово! Я передала викладачу інформацію про вас, Категорія {{category}}.\n\nДля початку навчання пройдіть до класу, що знаходиться праворуч від мене — там вас уже чекає викладач. Бажаю вам успіхів!',
+            ua: 'Чудово! Я передала викладачу інформацію про вас, Категорія {{category}}.\n\nДля початку навчання пройдіть до класу, що знаходиться праворуч від мене - там вас уже чекає викладач. Бажаю вам успіхів!',
             en: 'Great! I’ve passed your information to the teacher, Category {{category}}.\n\nTo begin your studies, please proceed to the classroom to my right. The teacher is already waiting for you there. Good luck!',
             de: 'Super! Ich habe dem Lehrer die Informationen über Sie weitergegeben, Kategorie {{category}}.\n\nGehen Sie für den Unterrichtsbeginn bitte in das Klassenzimmer rechts von mir. Der Lehrer erwartet Sie dort bereits. Viel Erfolg!',
-            pl: 'Świetnie! Przekazałam nauczycielowi informacje o Tobie, Kategoria {{category}}.\n\nAby rozpocząć naukę, przejdź do sali po mojej prawej stronie — nauczyciel już tam na Ciebie czeka. Powodzenia!',
+            pl: 'Świetnie! Przekazałam nauczycielowi informacje o Tobie, Kategoria {{category}}.\n\nAby rozpocząć naukę, przejdź do sali po mojej prawej stronie - nauczyciel już tam na Ciebie czeka. Powodzenia!',
         },
 
         // Start study renew

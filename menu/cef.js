@@ -950,11 +950,11 @@ export const cef = {
                 pl: 'Taktyczna (z bronią)',
             },
             u_trash: {
-                ru: 'Рабочая — мусорщик',
-                ua: 'Робоча — сміттяр',
-                en: 'Worker — Garbage Collector',
+                ru: 'Рабочая - мусорщик',
+                ua: 'Робоча - сміттяр',
+                en: 'Worker - Garbage Collector',
                 de: 'Arbeiter – Müllmann',
-                pl: 'Pracownik — śmieciarz',
+                pl: 'Pracownik - śmieciarz',
             },
             u_heistLester: {
                 ru: 'Сутулая криминальная',

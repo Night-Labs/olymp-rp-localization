@@ -8,12 +8,12 @@ export default {
             pl: 'Przeziębienie',
         },
         food_poisoning: {
-            "ru": "Пищевое отравление",
-            "ua": "Харчове отруєння",
-            "en": "Food poisoning",
-            "de": "Lebensmittelvergiftung",
-            "pl": "Zatrucie pokarmowe",
-        }
+            ru: 'Пищевое отравление',
+            ua: 'Харчове отруєння',
+            en: 'Food poisoning',
+            de: 'Lebensmittelvergiftung',
+            pl: 'Zatrucie pokarmowe',
+        },
     },
     youHaveCaughtCold: {
         ru: '~b~Похоже вы простудились, примите таблетки или обратитесь в больницу дабы ваше состояние не ухудшилось',
@@ -25,7 +25,7 @@ export default {
     youAreCuredCold: {
         ru: '~b~Вы полностью вылечились от простуды. Больше никакого кашля, слабости и соплей. Можете вздохнуть спокойно, но не забывайте беречь здоровье!',
         ua: '~b~Ви повністю вилікувалися від застуди. Більше ніякого кашлю, слабкості чи нежитю. Можете зітхнути з полегшенням, але бережіть себе!',
-        en: '~b~You have fully recovered from the cold. No more coughing, weakness, or runny nose. Take a deep breath — but don’t forget to stay healthy!',
+        en: '~b~You have fully recovered from the cold. No more coughing, weakness, or runny nose. Take a deep breath - but don’t forget to stay healthy!',
         de: '~b~Du hast dich vollständig von der Erkältung erholt. Kein Husten, keine Schwäche und keine laufende Nase mehr. Atme tief ein – aber achten Sie weiterhin auf Ihre Gesundheit!',
         pl: '~b~Wyleczyłeś się całkowicie z przeziębienia. Koniec z kaszlem, osłabieniem i katarem. Odetchnij z ulgą, ale pamiętaj, by dbać o zdrowie!',
     },
@@ -39,9 +39,9 @@ export default {
     coldIsProgressingConsiderTreatment: {
         ru: '~b~Простуда прогресирует вы начнёте чаще кашлять и терять здоровье, стоит подумать об лечении',
         ua: '~b~Застуда прогресує, ви почнете частіше кашляти та втрачати здоров’я, варто подумати про лікування',
-        en: "~b~The cold is progressing, you'll start coughing more and losing health — consider getting treatment",
+        en: "~b~The cold is progressing, you'll start coughing more and losing health - consider getting treatment",
         de: '~b~Die Erkältung schreitet voran, du wirst häufiger husten und Gesundheit verlieren – denke über eine Behandlung nach',
-        pl: '~b~Przeziębienie postępuje, zaczniesz częściej kaszleć i tracić zdrowie — rozważ leczenie',
+        pl: '~b~Przeziębienie postępuje, zaczniesz częściej kaszleć i tracić zdrowie - rozważ leczenie',
     },
     sufferingFromSevereCold: {
         ru: '~b~Вы чувствуете сильную слабость, ваше здоровье стремительно ухудшается из-за тяжёлой стадии простуды. Немедленно займитесь лечением, иначе последствия могут быть необратимы',

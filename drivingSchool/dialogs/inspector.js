@@ -4,7 +4,7 @@ export default {
         // Busy
         busy: {
             ru: 'Я занята, если вам что-то нужно обратитесь к нашему менеджеру возле входа.',
-            ua: 'Я зайнята, якщо тобі щось потрібно — звернись до нашого менеджера біля входу.',
+            ua: 'Я зайнята, якщо тобі щось потрібно - звернись до нашого менеджера біля входу.',
             en: "I'm busy. If you need anything, please speak to our manager near the entrance.",
             de: 'Ich bin beschäftigt. Wenn du etwas brauchst, wende dich bitte an unseren Manager am Eingang.',
             pl: 'Jestem zajęta. Jeśli czegoś potrzebujesz, zgłoś się do naszego menedżera przy wejściu.',

@@ -319,11 +319,11 @@ export const cef = {
             pl: 'Do odblokowania',
         },
         hint1: {
-            ru: 'Если считаешь блокировку ошибкой — обратись в',
-            ua: 'Якщо вважаєш блокування помилкою — звернися до',
+            ru: 'Если считаешь блокировку ошибкой - обратись в',
+            ua: 'Якщо вважаєш блокування помилкою - звернися до',
             en: 'If you think the ban is a mistake, contact',
             de: 'Wenn du denkst, dass die Sperre ein Fehler ist, melde dich im',
-            pl: 'Jeśli uważasz, że blokada to błąd — skontaktuj się с',
+            pl: 'Jeśli uważasz, że blokada to błąd - skontaktuj się с',
         },
         hint2: {
             ru: 'Discord-сервер',
