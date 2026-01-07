@@ -302,4 +302,12 @@ export default {
         de: 'Um im Taxi zu arbeiten, müssen Sie sich in einem eigenen oder gemieteten Fahrzeug auf dem Fahrersitz befinden.',
         pl: 'Aby pracować w taksówce, musisz znajdować się w prywatnym lub wynajętym pojeździe na miejscu kierowcy.',
     },
+
+    onTheShift: {
+        ru: 'На смене',
+        ua: 'На зміні',
+        en: 'On shift',
+        de: 'Im Dienst',
+        pl: 'Na zmianie',
+    },
 };
