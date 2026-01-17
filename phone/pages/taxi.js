@@ -280,19 +280,18 @@ export default {
     },
 
     completedOrders: {
-        ru: 'Выполнено заказов',
-        ua: 'Виконано замовлень',
-        en: 'Completed orders',
-        de: 'Abgeschlossene Aufträge',
-        pl: 'Zrealizowane zlecenia',
+        ru: 'Выполнено',
+        ua: 'Виконано',
+        en: 'Completed',
+        de: 'Abgeschlossen',
+        pl: 'Wykonano',
     },
-
     earndedMoney: {
-        ru: 'Заработано денег',
-        ua: 'Зароблено грошей',
-        en: 'Money earned',
-        de: 'Verdientes Geld',
-        pl: 'Zarobione pieniądze',
+        ru: 'Заработано',
+        ua: 'Зароблено',
+        en: 'Earned',
+        de: 'Verdient',
+        pl: 'Zarobiono',
     },
 
     uNeedCar: {
