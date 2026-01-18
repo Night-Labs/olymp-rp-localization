@@ -79,12 +79,12 @@ export default {
         pl: 'Liczba pasażerów',
     },
 
-    urgentCall: {
-        ru: 'Срочный вызов',
-        ua: 'Терміновий виклик',
-        en: 'Urgent call',
-        de: 'Dringender Anruf',
-        pl: 'Pilne wezwanie',
+    urgentOrder: {
+        ru: 'Срочно',
+        ua: 'Терміново',
+        en: 'Urgent',
+        de: 'Dringend',
+        pl: 'Pilnie',
     },
 
     cancelOrder: {
@@ -263,7 +263,7 @@ export default {
         pl: 'Punkt docelowy',
     },
 
-    acceptOffer: {
+    acceptOrder: {
         ru: 'Принять вызов',
         ua: 'Прийняти виклик',
         en: 'Accept call',
