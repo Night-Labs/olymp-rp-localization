@@ -279,6 +279,14 @@ export default {
         pl: 'Przyjęte przez innego kierowcę',
     },
 
+    uAcceptedOrder: {
+        ru: 'Вы приняли заказ клиента',
+        ua: 'Ви прийняли замовлення клієнта',
+        en: "You have accepted the customer's order",
+        de: 'Sie haben die Bestellung des Kunden angenommen',
+        pl: 'Przyjąłeś zamówienie klienta',
+    },
+
     completedOrders: {
         ru: 'Выполнено',
         ua: 'Виконано',
@@ -308,5 +316,21 @@ export default {
         en: 'On shift',
         de: 'Im Dienst',
         pl: 'Na zmianie',
+    },
+
+    notSelected: {
+        ru: 'Не выбрано',
+        ua: 'Не вибрано',
+        en: 'Not selected',
+        de: 'Nicht ausgewählt',
+        pl: 'Nie wybrano',
+    },
+
+    destinationNotSelectedDesc: {
+        ru: 'Пожалуйста, выберите точку назначения. Вы можете сделать это, установив маркер на карте через ESC либо на карте выше, нажав в месте назначения ПКМ > "Выбрать".',
+        ua: 'Будь ласка, виберіть точку призначення. Ви можете зробити це, встановивши маркер на карті через ESC або на карті вище, натиснувши в місці призначення ПКМ > "Вибрати".',
+        en: 'Please select a destination point. You can do this by placing a marker on the map via ESC or on the map above by right-clicking the destination and choosing Select.',
+        de: 'Bitte wählen Sie einen Zielpunkt aus. Sie können dies tun, indem Sie über ESC einen Marker auf der Karte setzen oder auf der Karte oben am Zielort mit der rechten Maustaste klicken und „Auswählen“ anklicken.',
+        pl: 'Proszę wybrać punkt docelowy. Możesz to zrobić, ustawiając znacznik na mapie przez ESC lub na mapie powyżej, klikając w miejscu docelowym PPM > „Wybierz”.',
     },
 };
