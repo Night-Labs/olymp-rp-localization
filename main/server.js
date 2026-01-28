@@ -216,4 +216,12 @@ export const server = {
         de: 'Na ja, ein Versuch war’s wert, aber du kannst kein gemietetes Auto verkaufen',
         pl: 'No cóż, próba nie zaszkodzi, ale wynajętego auta nie sprzedasz',
     },
+
+    noRecipes: {
+        ru: 'У вас нет изученных чертежей для крафтов',
+        ua: 'У вас немає вивчених креслень для крафтів',
+        en: 'You have no learned blueprints for crafting',
+        de: 'Du hast keine erlernten Baupläne fürs Crafting',
+        pl: 'Nie masz poznanych schematów do craftingu',
+    },
 };

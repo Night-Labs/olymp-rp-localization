@@ -2,12 +2,32 @@ import cef from './cef';
 import { server } from './server';
 import furniture from './furniture';
 import safe from './safe';
+import upgrade from './upgrade';
+import residents from './residents';
+import tv from './tv';
 
 export default {
     ...cef,
     ...server,
     furniture,
     safe,
+    upgrade,
+    residents,
+    tv,
+    houseResident: {
+        ru: 'Житель дома',
+        ua: 'Мешканець дому',
+        en: 'House resident',
+        de: 'Hausbewohner',
+        pl: 'Mieszkaniec domu',
+    },
+    youHaveKickedRecently: {
+        ru: 'Тебя недавно выгоняли из этого дома',
+        ua: 'Тебе нещодавно виганяли з цього дому',
+        en: 'You were kicked out of this house recently',
+        de: 'Du wurdest kürzlich aus diesem Haus rausgeworfen',
+        pl: 'Niedawno zostałeś wyrzucony z tego domu',
+    },
     sms: {
         confiscatedHouse: {
             ru: 'Ваш дом №{{id}} был конфискован за неуплату. Вам зачислено {{percent}}% от его стоимости на банковский счёт.',

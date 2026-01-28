@@ -149,6 +149,13 @@ export const server = {
                 de: 'Um die Garage zu betreten, drücke',
                 pl: 'Aby wejść do garażu, naciśnij',
             },
+            enterGarageFoot: {
+                ru: 'Зайти в гараж',
+                ua: 'Увійти в гараж',
+                en: 'Enter the garage',
+                de: 'Garage betreten',
+                pl: 'Wejść do garażu',
+            },
         },
         notEnoughPlaces: {
             ua: 'В гаражі недостатньо місця',
@@ -156,6 +163,13 @@ export const server = {
             ru: 'В гараже недостаточно места',
             de: 'Nicht genügend Platz in der Garage',
             pl: 'Za mało miejsca w garażu',
+        },
+        rentVehicle: {
+            ru: 'В гараж нельзя заезжать на арендованных авто',
+            ua: 'У гараж не можна заїжджати на орендованих авто',
+            en: 'You cannot enter the garage with rented vehicles',
+            de: 'Mit gemieteten Fahrzeugen darf man nicht in die Garage fahren',
+            pl: 'Nie można wjeżdżać do garażu wypożyczonymi pojazdami',
         },
         modal: {
             title: {
@@ -187,6 +201,36 @@ export const server = {
                 pl: 'Anuluj',
             },
         },
+        modalNotYourVehicle: {
+            title: {
+                ua: 'Чужий автомобіль',
+                en: 'Foreign vehicle',
+                ru: 'Чужой автомобиль',
+                de: 'Fremdes Fahrzeug',
+                pl: 'Cudzy pojazd',
+            },
+            message: {
+                ru: 'Автомобиль {{name}} принадлежит жителю дома {{ownerName}}. <br /> <br/>Вы не можете на нём выехать.',
+                ua: 'Автомобіль {{name}} належить мешканцю будинку {{ownerName}}. <br /> <br/>Ви не можете на ньому виїхати.',
+                en: 'The vehicle {{name}} belongs to the resident {{ownerName}}. <br /> <br/>You cannot drive it.',
+                de: 'Das Fahrzeug {{name}} gehört dem Hausbewohner {{ownerName}}. <br /> <br/>Sie können damit nicht fahren.',
+                pl: 'Pojazd {{name}} należy do mieszkańca {{ownerName}}. <br /> <br/>Nie możesz nim wyjechać.',
+            },
+            closeButton: {
+                ua: 'Закрити',
+                en: 'Close',
+                ru: 'Закрыть',
+                de: 'Schließen',
+                pl: 'Zamknij',
+            },
+        },
+        upgradeMovedYou: {
+            ru: 'Гараж только что был улучшен, поэтому ты переместился в дом',
+            ua: 'Гараж щойно був покращений, тому ти перемістився в дім',
+            en: 'The garage was just upgraded, so you were moved to the house',
+            de: 'Die Garage wurde gerade verbessert, deshalb bist du ins Haus umgezogen',
+            pl: 'Garaż został właśnie ulepszony, więc zostałeś przeniesiony do domu',
+        },
     },
     blips: {
         house: {
@@ -202,6 +246,13 @@ export const server = {
             en: 'Your house',
             de: 'Dein Haus',
             pl: 'Twój dom',
+        },
+        resident: {
+            ru: 'Подселённый в дом',
+            ua: 'Підселений у будинок',
+            en: 'Lodger in the house',
+            de: 'Untermieter im Haus',
+            pl: 'Lokator w domu',
         },
     },
     exitInspect: {

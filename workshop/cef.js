@@ -7,6 +7,20 @@ export default {
         pl: 'RĘKODZIEŁO <span>PRZEDMIOTY</span>',
         zh: '手工艺 <span>物品</span>',
     },
+    level: {
+        ru: '{{lvl}} уровня',
+        ua: '{{lvl}} рівня',
+        en: '{{lvl}} level',
+        de: 'Stufe {{lvl}}',
+        pl: '{{lvl}} poziomu',
+    },
+    workbench: {
+        ru: 'ВЕРСТАК',
+        ua: 'ВЕРСТАК',
+        en: 'WORKBENCH',
+        de: 'WERKBANK',
+        pl: 'STÓŁ WARSZTATOWY',
+    },
     search: {
         ru: 'Поиск',
         ua: 'Пошук',

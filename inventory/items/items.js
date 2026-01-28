@@ -598,4 +598,55 @@ export const items = {
             pl: 'Kompaktny i wytrzymały pomocnik, wygodny do kopania, spulchniania ziemi i przesadzania roślin.',
         },
     },
+
+    blueprintBottle: {
+        name: {
+            ru: 'Бутылка с листком',
+            ua: 'Пляшка з листком',
+            en: 'Bottle with a note',
+            de: 'Flasche mit einem Zettel',
+            pl: 'Butelka z karteczką',
+        },
+        desc: {
+            ru: 'Бутылка с каким-то листком внутри. Что же там? Вдруг что-то полезное.',
+            ua: 'Пляшка з якимось листком усередині. Що ж там? Раптом щось корисне.',
+            en: 'A bottle with some kind of note inside. What could it be? Maybe something useful.',
+            de: 'Eine Flasche mit einem Zettel darin. Was mag das sein? Vielleicht etwas Nützliches.',
+            pl: 'Butelka z jakąś karteczką w środku. Co tam jest? Może coś przydatnego.',
+        },
+    },
+
+    partsBox: {
+        name: {
+            ru: 'Коробка с запчастями',
+            ua: 'Коробка із запчастинами',
+            en: 'Parts box',
+            de: 'Kiste mit Ersatzteilen',
+            pl: 'Pudełko z częściami',
+        },
+        desc: {
+            ru: 'Коробка с гражданскими механическими компонентами. При использовании выдаёт случайный набор деталей.',
+            ua: 'Коробка з цивільними механічними компонентами. Під час використання видає випадковий набір деталей.',
+            en: 'A box with civilian mechanical components. When used, it gives you a random set of parts.',
+            de: 'Eine Kiste mit zivilen mechanischen Komponenten. Bei Benutzung erhältst du einen zufälligen Satz an Teilen.',
+            pl: 'Pudełko z cywilnymi komponentami mechanicznymi. Po użyciu daje losowy zestaw części.',
+        },
+    },
+
+    electronicsBox: {
+        name: {
+            ru: 'Коробка с электроникой',
+            ua: 'Коробка з електронікою',
+            en: 'Electronics box',
+            de: 'Kiste mit Elektronik',
+            pl: 'Pudełko z elektroniką',
+        },
+        desc: {
+            ru: 'Коробка с электронными компонентами и проводкой. При использовании выдаёт случайный набор электро-деталей.',
+            ua: 'Коробка з електронними компонентами та проводкою. Під час використання видає випадковий набір електродеталей.',
+            en: 'A box with electronic components and wiring. When used, it gives you a random set of electronic parts.',
+            de: 'Eine Kiste mit elektronischen Komponenten und Verkabelung. Bei Benutzung erhältst du einen zufälligen Satz an Elektronikteilen.',
+            pl: 'Pudełko z komponentami elektronicznymi i okablowaniem. Po użyciu daje losowy zestaw części elektronicznych.',
+        },
+    },
 };

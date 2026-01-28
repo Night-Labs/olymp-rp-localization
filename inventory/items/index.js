@@ -12,7 +12,7 @@ import diving from './diving';
 import treasureHunter from './treasureHunter';
 import mushrooms from './mushrooms';
 import blueprint from './blueprints';
-
+import craftComponents from './craftComponents';
 export const items = {
     ...food,
     ...itemsList,
@@ -28,4 +28,5 @@ export const items = {
     blueprint,
     ...treasureHunter,
     ...mushrooms,
+    ...craftComponents,
 };
