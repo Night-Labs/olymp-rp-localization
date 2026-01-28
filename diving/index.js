@@ -1,11 +1,11 @@
 export default {
     dialog1: {
         helloMan: {
-            "ru": "Привет! Хочешь поработать дайвером? Можно найти кучу крутых находок, а потом продать их скупщику",
-            "ua": "Привіт! Хочеш попрацювати дайвером? Можна знайти купу класних знахідок, а потім продати їх скупнику",
-            "en": "Hey! Want to work as a diver? You can find tons of cool stuff and sell it to the dealer later",
-            "de": "Hey! Willst du als Taucher arbeiten? Du kannst viele coole Funde machen und sie dann dem Händler verkaufen",
-            "pl": "Cześć! Chcesz popracować jako nurek? Możesz znaleźć mnóstwo fajnych rzeczy i sprzedać je handlarzowi",
+            ru: 'Привет! Хочешь поработать дайвером? Можно найти кучу крутых находок, а потом продать их скупщику',
+            ua: 'Привіт! Хочеш попрацювати дайвером? Можна знайти купу класних знахідок, а потім продати їх скупнику',
+            en: 'Hey! Want to work as a diver? You can find tons of cool stuff and sell it to the dealer later',
+            de: 'Hey! Willst du als Taucher arbeiten? Du kannst viele coole Funde machen und sie dann dem Händler verkaufen',
+            pl: 'Cześć! Chcesz popracować jako nurek? Możesz znaleźć mnóstwo fajnych rzeczy i sprzedać je handlarzowi',
         },
         go: {
             ru: 'Давай',
@@ -52,10 +52,10 @@ export default {
         },
         bye: {
             ru: 'Ну как передумаешь буду ждать тебя здесь, всегда найдется работа для тебя!',
-            ua: 'Як передумаєш — я чекатиму тебе тут, для тебе завжди знайдеться робота!',
-            en: "If you change your mind, I'll be here — there's always a job for you!",
+            ua: 'Як передумаєш - я чекатиму тебе тут, для тебе завжди знайдеться робота!',
+            en: "If you change your mind, I'll be here - there's always a job for you!",
             de: 'Wenn du es dir anders überlegst, ich warte hier – es gibt immer Arbeit für dich!',
-            pl: 'Jak zmienisz zdanie, będę tu czekać — zawsze znajdzie się dla ciebie praca!',
+            pl: 'Jak zmienisz zdanie, będę tu czekać - zawsze znajdzie się dla ciebie praca!',
         },
         okayBye: {
             ru: 'Хорошо, пока',
@@ -67,11 +67,11 @@ export default {
 
         //
         info: {
-            "ru": "После устройства мы выдаём тебе снаряжение для дайвинга. Ты идёшь плавать на дно морское и искать разные сокровища. Сколько найдёшь — столько и унесёшь с собой. Продать найденное ты можешь у скупщика",
-            "ua": "Після влаштування ми видаємо тобі спорядження для дайвінгу. Ти пірнаєш на морське дно та шукаєш різні скарби. Скільки знайдеш — стільки й забереш із собою. Продати знайдене можна у скупника",
-            "en": "Once you're hired, we’ll give you diving gear. You'll swim down to the sea floor and search for various treasures. Whatever you find, you can take with you. You can sell what you find to the dealer",
-            "de": "Nach der Einstellung geben wir dir Tauchausrüstung. Du tauchst zum Meeresgrund und suchst nach verschiedenen Schätzen. Was du findest, kannst du mitnehmen. Verkaufen kannst du die Funde beim Händler",
-            "pl": "Po zatrudnieniu dostaniesz od nas sprzęt do nurkowania. Schodzisz na dno morskie i szukasz różnych skarbów. Ile znajdziesz — tyle zabierzesz ze sobą. Znalezione rzeczy możesz sprzedać handlarzowi",
+            ru: 'После устройства мы выдаём тебе снаряжение для дайвинга. Ты идёшь плавать на дно морское и искать разные сокровища. Сколько найдёшь - столько и унесёшь с собой. Продать найденное ты можешь у скупщика',
+            ua: 'Після влаштування ми видаємо тобі спорядження для дайвінгу. Ти пірнаєш на морське дно та шукаєш різні скарби. Скільки знайдеш - стільки й забереш із собою. Продати знайдене можна у скупника',
+            en: "Once you're hired, we’ll give you diving gear. You'll swim down to the sea floor and search for various treasures. Whatever you find, you can take with you. You can sell what you find to the dealer",
+            de: 'Nach der Einstellung geben wir dir Tauchausrüstung. Du tauchst zum Meeresgrund und suchst nach verschiedenen Schätzen. Was du findest, kannst du mitnehmen. Verkaufen kannst du die Funde beim Händler',
+            pl: 'Po zatrudnieniu dostaniesz od nas sprzęt do nurkowania. Schodzisz na dno morskie i szukasz różnych skarbów. Ile znajdziesz - tyle zabierzesz ze sobą. Znalezione rzeczy możesz sprzedać handlarzowi',
         },
         getIt: {
             ru: 'Понял',
@@ -84,26 +84,26 @@ export default {
         //
         alreadyJob: {
             ru: 'К сожалению ты уже где-то работаешь, сначала уволься там',
-            ua: 'На жаль, ти вже десь працюєш — спершу звільнись там',
-            en: "Unfortunately, you're already working somewhere else — quit that job first",
+            ua: 'На жаль, ти вже десь працюєш - спершу звільнись там',
+            en: "Unfortunately, you're already working somewhere else - quit that job first",
             de: 'Du arbeitest leider schon irgendwo – kündige dort zuerst',
-            pl: 'Niestety, już gdzieś pracujesz — najpierw się tam zwolnij',
+            pl: 'Niestety, już gdzieś pracujesz - najpierw się tam zwolnij',
         },
     },
     dialogLeave: {
         soBye: {
-            "ru": "Что, уже наплавался? Ну, в общем, ты собрал {{collected}} предметов. Можешь отнести их к скупщику и продать. Заканчиваешь работу?",
-            "ua": "Що, вже наплавався? Ну, загалом, ти зібрав {{collected}} предметів. Можеш віднести їх до скупника й продати. Закінчуєш роботу?",
-            "en": "Done swimming already? Well, you’ve collected {{collected}} items. You can take them to the dealer and sell them. Wrapping up?",
-            "de": "Schon genug geschwommen? Also, du hast {{collected}} Gegenstände gesammelt. Du kannst sie dem Händler bringen und verkaufen. Hörst du auf?",
-            "pl": "Już się napływałeś? No cóż, zebrałeś {{collected}} przedmiotów. Możesz zanieść je do handlarza i sprzedać. Kończysz pracę?",
+            ru: 'Что, уже наплавался? Ну, в общем, ты собрал {{collected}} предметов. Можешь отнести их к скупщику и продать. Заканчиваешь работу?',
+            ua: 'Що, вже наплавався? Ну, загалом, ти зібрав {{collected}} предметів. Можеш віднести їх до скупника й продати. Закінчуєш роботу?',
+            en: 'Done swimming already? Well, you’ve collected {{collected}} items. You can take them to the dealer and sell them. Wrapping up?',
+            de: 'Schon genug geschwommen? Also, du hast {{collected}} Gegenstände gesammelt. Du kannst sie dem Händler bringen und verkaufen. Hörst du auf?',
+            pl: 'Już się napływałeś? No cóż, zebrałeś {{collected}} przedmiotów. Możesz zanieść je do handlarza i sprzedać. Kończysz pracę?',
         },
         soByeNoItems: {
-            "ru": "Вроде поплавал, а толку — ничего не нашёл. Ну ладно, бывает. Будешь заканчивать работу?",
-            "ua": "Наче поплавав, а толку — нічого не знайшов. Ну нічого, буває. Будеш закінчувати роботу?",
-            "en": "Swam around, but didn’t find anything. Oh well, it happens. Ready to wrap up?",
-            "de": "Bist zwar geschwommen, aber nichts gefunden. Naja, kommt vor. Willst du aufhören?",
-            "pl": "Niby popływałeś, ale nic nie znalazłeś. No cóż, bywa. Kończysz pracę?",
+            ru: 'Вроде поплавал, а толку - ничего не нашёл. Ну ладно, бывает. Будешь заканчивать работу?',
+            ua: 'Наче поплавав, а толку - нічого не знайшов. Ну нічого, буває. Будеш закінчувати роботу?',
+            en: 'Swam around, but didn’t find anything. Oh well, it happens. Ready to wrap up?',
+            de: 'Bist zwar geschwommen, aber nichts gefunden. Naja, kommt vor. Willst du aufhören?',
+            pl: 'Niby popływałeś, ale nic nie znalazłeś. No cóż, bywa. Kończysz pracę?',
         },
         yes: {
             ru: 'Да',
@@ -246,25 +246,25 @@ export default {
         de: 'Du arbeitest nicht als Taucher',
         pl: 'Nie pracujesz jako nurek',
     },
-    "notEnoughSpaceInInventory": {
-        "ru": "Недостаточно места в инвентаре чтобы подобрать это",
-        "ua": "Недостатньо місця в інвентарі, щоб підібрати це",
-        "en": "Not enough space in inventory to pick this up",
-        "de": "Nicht genug Platz im Inventar, um dies aufzuheben",
-        "pl": "Za mało miejsca w ekwipunku, aby to podnieść"
+    notEnoughSpaceInInventory: {
+        ru: 'Недостаточно места в инвентаре чтобы подобрать это',
+        ua: 'Недостатньо місця в інвентарі, щоб підібрати це',
+        en: 'Not enough space in inventory to pick this up',
+        de: 'Nicht genug Platz im Inventar, um dies aufzuheben',
+        pl: 'Za mało miejsca w ekwipunku, aby to podnieść',
     },
-    "hintFor1level": {
-        "ru": "Подсказка: Тебе нужно плавать по всей поверхности и следить за радаром, на радаре будет отображаться лут, когда ты будешь рядом с ним. Также следи за воздухом в баллонах",
-        "ua": "Підказка: Тобі потрібно плавати по всій поверхні й стежити за радаром — на радарі буде відображатися лут, коли ти будеш поруч із ним. Також слідкуй за повітрям у балонах",
-        "en": "Hint: You need to swim across the whole surface and keep an eye on the radar — loot will appear on it when you're near. Also, watch the air in your tanks",
-        "de": "Tipp: Du musst über die gesamte Oberfläche schwimmen und das Radar im Blick behalten — der Loot wird angezeigt, wenn du in der Nähe bist. Achte auch auf die Luft in deinen Flaschen",
-        "pl": "Podpowiedź: Musisz pływać po całej powierzchni i obserwować radar — loot pojawi się, gdy będziesz blisko. Zwracaj też uwagę na powietrze w butlach",
+    hintFor1level: {
+        ru: 'Подсказка: Тебе нужно плавать по всей поверхности и следить за радаром, на радаре будет отображаться лут, когда ты будешь рядом с ним. Также следи за воздухом в баллонах',
+        ua: 'Підказка: Тобі потрібно плавати по всій поверхні й стежити за радаром - на радарі буде відображатися лут, коли ти будеш поруч із ним. Також слідкуй за повітрям у балонах',
+        en: "Hint: You need to swim across the whole surface and keep an eye on the radar - loot will appear on it when you're near. Also, watch the air in your tanks",
+        de: 'Tipp: Du musst über die gesamte Oberfläche schwimmen und das Radar im Blick behalten - der Loot wird angezeigt, wenn du in der Nähe bist. Achte auch auf die Luft in deinen Flaschen',
+        pl: 'Podpowiedź: Musisz pływać po całej powierzchni i obserwować radar - loot pojawi się, gdy będziesz blisko. Zwracaj też uwagę na powietrze w butlach',
     },
-    "hintLowOxygen": {
-        "ru": "Воздуха кот наплакал. Хочешь сдохнуть на дне — продолжай, а если нет — быстро заправь баллоны!",
-        "ua": "Повітря майже не залишилось. Хочеш здохнути на дні — продовжуй, а якщо ні — швидко заправ балони!",
-        "en": "There’s barely any air left. Wanna die at the bottom? Keep going. If not — go refill your tanks, fast!",
-        "de": "Kaum noch Luft da. Willst du am Grund verrecken? Dann mach weiter. Wenn nicht – füll schnell die Flaschen auf!",
-        "pl": "Prawie nie ma powietrza. Chcesz zdechnąć na dnie? To kontynuuj. Jeśli nie — szybko napełnij butle!",
+    hintLowOxygen: {
+        ru: 'Воздуха кот наплакал. Хочешь сдохнуть на дне - продолжай, а если нет - быстро заправь баллоны!',
+        ua: 'Повітря майже не залишилось. Хочеш здохнути на дні - продовжуй, а якщо ні - швидко заправ балони!',
+        en: 'There’s barely any air left. Wanna die at the bottom? Keep going. If not - go refill your tanks, fast!',
+        de: 'Kaum noch Luft da. Willst du am Grund verrecken? Dann mach weiter. Wenn nicht – füll schnell die Flaschen auf!',
+        pl: 'Prawie nie ma powietrza. Chcesz zdechnąć na dnie? To kontynuuj. Jeśli nie - szybko napełnij butle!',
     },
 };

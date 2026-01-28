@@ -211,7 +211,7 @@ export const server = {
     //
     cantSellRentedVehicle: {
         ru: 'Ну попытка не пытка, продать а рендованную машину нельзя',
-        ua: 'Ну, спробував — і досить, але орендовану машину не продати',
+        ua: 'Ну, спробував - і досить, але орендовану машину не продати',
         en: "Well, worth a try, but you can't sell a rented car",
         de: 'Na ja, ein Versuch war’s wert, aber du kannst kein gemietetes Auto verkaufen',
         pl: 'No cóż, próba nie zaszkodzi, ale wynajętego auta nie sprzedasz',

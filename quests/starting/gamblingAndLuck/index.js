@@ -33,11 +33,11 @@ export default {
         },
 
         goToCasino: {
-            ru: 'Чё стоишь, брат? Внутри фишки горят, деньги крутятся — один спин, и жизнь уже другая. Давай, иди, пока удача тёплая!',
-            ua: 'Чого стоїш, брате? Усередині фішки горять, гроші крутяться — один спін, і життя вже інше. Давай, йди, поки удача гаряча!',
-            en: 'Why you standing, bro? Chips are hot, money’s spinning — one spin and your life changes. Go on, while luck’s still warm!',
+            ru: 'Чё стоишь, брат? Внутри фишки горят, деньги крутятся - один спин, и жизнь уже другая. Давай, иди, пока удача тёплая!',
+            ua: 'Чого стоїш, брате? Усередині фішки горять, гроші крутяться - один спін, і життя вже інше. Давай, йди, поки удача гаряча!',
+            en: 'Why you standing, bro? Chips are hot, money’s spinning - one spin and your life changes. Go on, while luck’s still warm!',
             de: 'Was stehst du da, Bruder? Drinnen glühen die Chips, das Geld rollt – ein Spin und dein Leben ist anders. Los, geh rein, solange das Glück noch warm ist!',
-            pl: 'Czemu stoisz, bratku? W środku żetony się palą, kasa się kręci — jeden spin i życie inne. Idź, póki szczęście gorące!',
+            pl: 'Czemu stoisz, bratku? W środku żetony się palą, kasa się kręci - jeden spin i życie inne. Idź, póki szczęście gorące!',
         },
 
         okay: {

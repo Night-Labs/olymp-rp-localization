@@ -617,4 +617,11 @@ export const cef = {
         pl: ' kg.',
         zh: 'kg',
     },
+    km: {
+        ru: 'км',
+        ua: 'км',
+        en: 'km',
+        de: 'km',
+        pl: 'km',
+    },
 };

@@ -182,7 +182,7 @@ export default {
         // Атмыв деньги
         noMoneyForLaundry: {
             ru: 'У тебя нет денег для отмыва, как будут возвращайся, буду рад с тобой сотрудничать',
-            ua: "У тебе немає грошей для відмивання, як з'являться — повертайся, буду радий співпраці",
+            ua: "У тебе немає грошей для відмивання, як з'являться - повертайся, буду радий співпраці",
             en: "You don't have money for laundering, come back when you do, I'll be happy to work with you",
             de: 'Du hast kein Geld für die Wäsche, komm zurück, wenn du welches hast, ich freue mich auf die Zusammenarbeit',
             pl: 'Nie masz pieniędzy na pranie, wróć, gdy będziesz miał, z przyjemnością będę z tobą współpracować',

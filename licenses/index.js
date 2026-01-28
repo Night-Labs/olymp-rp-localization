@@ -44,8 +44,8 @@ export default {
                     Po tym musisz udać się na strzelnicę, a po teście strzeleckim otrzymasz upragnioną licencję`,
             zh: `
                要获得武器许可证，您必须具备以下条件:<br />
-                  <span style="color: var(——primary)"</span><br />
-                  <span style="color: var(——primary)"</span><br />
+                  <span style="color: var(--primary)"</span><br />
+                  <span style="color: var(--primary)"</span><br />
                   < br / >
                 在那之后，你需要去射击场，只有在射击测试之后，你才能获得梦寐以求的持枪证`,
         },
