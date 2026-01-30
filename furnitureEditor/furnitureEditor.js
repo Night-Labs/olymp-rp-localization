@@ -77,6 +77,13 @@ export default {
         de: 'Du hast keine Berechtigung, Möbel zu löschen',
         pl: 'Nie masz uprawnień do usuwania mebli',
     },
+    noAccessToKickPlayersInEditor: {
+        ru: 'У вас нет прав, чтобы выгонять игроков из редактора',
+        ua: 'У вас немає прав, щоб виганяти гравців з редактора',
+        en: 'You do not have permission to kick players from the editor',
+        de: 'Du hast keine Berechtigung, Spieler aus dem Editor zu entfernen',
+        pl: 'Nie masz uprawnień do wyrzucania graczy z edytora',
+    },
     //
     leaveModal: {
         title: {
