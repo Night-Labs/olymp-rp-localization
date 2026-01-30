@@ -74,6 +74,7 @@ import business from './business/business';
 import furnitureEditor from './furnitureEditor/furnitureEditor';
 import keyBinds from './keyBinds/keyBinds';
 import taxi from './taxi/taxi';
+import gym from './gym';
 
 export default {
     account,
@@ -152,4 +153,5 @@ export default {
     furnitureEditor,
     keyBinds,
     taxi,
+    gym,
 };
