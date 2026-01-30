@@ -20,6 +20,13 @@ export default {
         de: 'Warte {{time}} vor dem nächsten Training.',
         pl: 'Poczekaj {{time}} przed kolejnym treningiem.',
     },
+    strengthProgress: {
+        ru: 'Сила {{prev}} -> {{gain}}',
+        ua: 'Сила {{prev}} -> {{gain}}',
+        en: 'Strength {{prev}} -> {{gain}}',
+        de: 'Kraft {{prev}} -> {{gain}}',
+        pl: 'Siła {{prev}} -> {{gain}}',
+    },
     minigame: {
         subtitle: {
             ru: 'Нажми SPACE в зелёной зоне',
