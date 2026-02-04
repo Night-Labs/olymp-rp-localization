@@ -201,5 +201,12 @@ export const server = {
         en: 'Burger Shot',
         de: 'Burger Shot',
         pl: 'Burger Shot',
-    }
+    },
+    gym: {
+        ru: 'Тренажерный зал',
+        ua: 'Тренажерний зал',
+        en: 'Gym',
+        de: 'Fitnessstudio',
+        pl: 'Siłownia',
+    },
 };

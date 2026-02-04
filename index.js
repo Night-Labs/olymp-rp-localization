@@ -63,6 +63,7 @@ import xmas from './xmas';
 import musicPlayer from './musicPlayer';
 import games from './games/games';
 import flappyBird from './flappyBird';
+import grandmaster from './grandmaster';
 import walkieTalkie from './walkieTalkie';
 import elevators from './elevators';
 import shootingRange from './shootingRange';
@@ -142,6 +143,7 @@ export default {
     musicPlayer,
     games,
     flappyBird,
+    grandmaster,
     walkieTalkie,
     elevators,
     shootingRange,
