@@ -328,6 +328,13 @@ export default {
         de: 'Fokus auf ausgewähltes Objekt',
         pl: 'Skup się na wybranym obiekcie',
     },
+    'furnitureEditor.focusHome': {
+        ru: 'Камера к старту',
+        ua: 'Камера до старту',
+        en: 'Camera to start',
+        de: 'Kamera zum Start',
+        pl: 'Kamera na start',
+    },
     'furnitureEditor.slowCamera': {
         ru: 'Медленная камера',
         ua: 'Повільна камера',
