@@ -574,6 +574,57 @@ export const server = {
             pl: 'Anuluj',
         },
     },
+    renovationEditorInviteModal: {
+        title: {
+            ru: '{{starterName}} запустил редактор дома',
+            ua: '{{starterName}} запустив редактор дому',
+            en: '{{starterName}} started the house editor',
+            de: '{{starterName}} hat den Haus-Editor gestartet',
+            pl: '{{starterName}} uruchomił edytor domu',
+        },
+        message: {
+            ru: 'Вы хотите войти в редактор или покинуть дом на время ремонта?<br/><br/>Сейчас в редакторе: <b>{{editorPlayers}}</b>',
+            ua: 'Ви хочете увійти в редактор чи покинути дім на час ремонту?<br/><br/>Зараз у редакторі: <b>{{editorPlayers}}</b>',
+            en: 'Do you want to enter the editor or leave the house during renovation?<br/><br/>Currently in editor: <b>{{editorPlayers}}</b>',
+            de: 'Möchtest du den Editor betreten oder das Haus für die Renovierung verlassen?<br/><br/>Aktuell im Editor: <b>{{editorPlayers}}</b>',
+            pl: 'Czy chcesz wejść do edytora czy opuścić dom na czas remontu?<br/><br/>Obecnie w edytorze: <b>{{editorPlayers}}</b>',
+        },
+        enterButton: {
+            ru: 'Войти в редактор',
+            ua: 'Увійти в редактор',
+            en: 'Enter editor',
+            de: 'Editor betreten',
+            pl: 'Wejdź do edytora',
+        },
+        leaveButton: {
+            ru: 'Покинуть дом',
+            ua: 'Покинути дім',
+            en: 'Leave house',
+            de: 'Haus verlassen',
+            pl: 'Opuść dom',
+        },
+        cancelButton: {
+            ru: 'Отмена',
+            ua: 'Скасувати',
+            en: 'Cancel',
+            de: 'Abbrechen',
+            pl: 'Anuluj',
+        },
+        noPlayers: {
+            ru: 'никого',
+            ua: 'нікого',
+            en: 'nobody',
+            de: 'niemand',
+            pl: 'nikogo',
+        },
+        someone: {
+            ru: 'Кто-то',
+            ua: 'Хтось',
+            en: 'Someone',
+            de: 'Jemand',
+            pl: 'Ktoś',
+        },
+    },
 
     resetFurniture: {
         title: {
