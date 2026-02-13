@@ -63,13 +63,13 @@ export const selector = {
         pl: 'Nie jest członkiem',
         zh: '非会员',
     },
-    noAvatarHint: {
-        ru: 'У этого персонажа нет аватарки. Её можно установить в настройках.',
-        ua: 'У цього персонажа немає аватарки. Її можна встановити в налаштуваннях.',
-        en: 'This character has no avatar. You can set it in Settings.',
-        de: 'Dieser Charakter hat kein Avatar. Du kannst es in den Einstellungen setzen.',
-        pl: 'Ta postać nie ma awatara. Możesz go ustawić w ustawieniach.',
-        zh: '该角色没有头像。你可以在设置中设置它。',
+    avatarReminder: {
+        ru: 'Подсказка: аватарку можно установить в настройках меню.',
+        ua: 'Підказка: аватарку можна встановити в налаштуваннях меню.',
+        en: 'Tip: you can set your avatar in menu settings.',
+        de: 'Tipp: Du kannst deinen Avatar in den Menüeinstellungen festlegen.',
+        pl: 'Wskazówka: możesz ustawić awatar w ustawieniach menu.',
+        zh: '提示：你可以在菜单设置中设置头像。',
     },
     modal: {
         title: {
