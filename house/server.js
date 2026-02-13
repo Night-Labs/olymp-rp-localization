@@ -36,6 +36,15 @@ export const server = {
             pl: 'Drzwi są zamknięte',
         },
     },
+    medkit: {
+        interact: {
+            ru: 'Чтобы воспользоваться аптечкой, нажмите',
+            ua: 'Щоб скористатися аптечкою, натисніть',
+            en: 'To use the medkit, press',
+            de: 'Um das Medkit zu benutzen, drücke',
+            pl: 'Aby użyć apteczki, naciśnij',
+        },
+    },
     sell: {
         text: {
             ua: 'Продаж будинку',

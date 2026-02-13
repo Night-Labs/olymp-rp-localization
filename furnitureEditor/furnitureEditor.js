@@ -174,5 +174,12 @@ export default {
             de: 'Ermöglicht dir, Gegenstände zu craften; um verschiedene Gegenstände herzustellen, brauchst du Baupläne.',
             pl: 'Pozwala craftować przedmioty; do craftowania różnych przedmiotów będą potrzebne schematy.',
         },
+        medkit: {
+            ru: 'Позволяет лечиться до 100 HP при взаимодействии.',
+            ua: 'Дозволяє лікуватися до 100 HP при взаємодії.',
+            en: 'Lets you heal up to 100 HP on interaction.',
+            de: 'Erlaubt dir, dich bei Interaktion bis auf 100 HP zu heilen.',
+            pl: 'Pozwala leczyć się do 100 HP podczas interakcji.',
+        },
     },
 };
