@@ -504,4 +504,34 @@ export const player = {
         de: 'Zeig den Ausweis',
         pl: 'Pokaż identyfikator',
     },
+
+    //
+    house: {
+        ru: 'Дом',
+        ua: 'Дім',
+        en: 'House',
+        de: 'Haus',
+        pl: 'Dom',
+    },
+    'house-menu': {
+        ru: 'Меню дома',
+        ua: 'Меню дому',
+        en: 'House menu',
+        de: 'Hausmenü',
+        pl: 'Menu domu',
+    },
+    'house-invite': {
+        ru: 'Подселить',
+        ua: 'Підселити',
+        en: 'Invite to live together',
+        de: 'Mitbewohner einladen',
+        pl: 'Zaprosić do wspólnego mieszkania',
+    },
+    'house-kickPlayer': {
+        ru: 'Выгнать игрока из дома',
+        ua: 'Вигнати гравця з дому',
+        en: 'Kick player out of the house',
+        de: 'Spieler aus dem Haus werfen',
+        pl: 'Wyrzucić gracza z domu',
+    },
 };

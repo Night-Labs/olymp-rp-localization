@@ -48,6 +48,20 @@ export default {
         de: 'Alle bestellten Materialien wurden geladen, jetzt musst du sie zum Zielort bringen',
         pl: 'Wszystkie zamówione materiały zostały załadowane, teraz musisz je dostarczyć do miejsca docelowego',
     },
+    supplyFinished: {
+        ru: 'Поставка завершена',
+        ua: 'Поставку завершено',
+        en: 'Supply completed',
+        de: 'Lieferung abgeschlossen',
+        pl: 'Dostawa zakończona',
+    },
+    supplyCanceledByAdmin: {
+        ru: 'Администратор {{admin}} отменил текущую поставку',
+        ua: 'Адміністратор {{admin}} скасував поточне постачання',
+        en: 'Administrator {{admin}} canceled the current supply',
+        de: 'Administrator {{admin}} hat die aktuelle Lieferung abgebrochen',
+        pl: 'Administrator {{admin}} anulował bieżącą dostawę',
+    },
     goToUnloadingPoint: {
         ru: 'Отправляйтесь на разгрузку',
         ua: 'Вирушайте на розвантаження',

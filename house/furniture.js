@@ -2569,12 +2569,19 @@ export default {
             de: 'Biker-Spind',
             pl: 'Szafka motocyklisty',
         },
-        theCraftersCorner: {
-            ru: 'Уголок мастера',
-            ua: 'Куточок майстра',
-            en: "The Crafter's Corner",
-            de: 'Bastlerecke',
-            pl: 'Kącik rękodzielnika',
+        workbench: {
+            ru: 'Верстак',
+            ua: 'Верстак',
+            en: 'Workbench',
+            de: 'Werkbank',
+            pl: 'Stół warsztatowy',
+        },
+        tableWithTools: {
+            ru: 'Тумбочка с инструментами',
+            ua: 'Тумбочка з інструментами',
+            en: 'Tool cabinet',
+            de: 'Werkzeugschrank',
+            pl: 'Szafka z narzędziami',
         },
         woodenSpeaker: {
             ru: 'Деревянная колонка',

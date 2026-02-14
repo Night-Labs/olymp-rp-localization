@@ -63,6 +63,14 @@ export const selector = {
         pl: 'Nie jest członkiem',
         zh: '非会员',
     },
+    avatarReminder: {
+        ru: 'Подсказка: аватарку можно установить в настройках меню.',
+        ua: 'Підказка: аватарку можна встановити в налаштуваннях меню.',
+        en: 'Tip: you can set your avatar in menu settings.',
+        de: 'Tipp: Du kannst deinen Avatar in den Menüeinstellungen festlegen.',
+        pl: 'Wskazówka: możesz ustawić awatar w ustawieniach menu.',
+        zh: '提示：你可以在菜单设置中设置头像。',
+    },
     modal: {
         title: {
             ua: 'Видалити персонажа {{name}}',

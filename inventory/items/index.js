@@ -11,7 +11,8 @@ import ores from './ores';
 import diving from './diving';
 import treasureHunter from './treasureHunter';
 import mushrooms from './mushrooms';
-
+import blueprint from './blueprints';
+import craftComponents from './craftComponents';
 export const items = {
     ...food,
     ...itemsList,
@@ -24,6 +25,8 @@ export const items = {
     ...medical,
     ...ores,
     diving,
+    blueprint,
     ...treasureHunter,
     ...mushrooms,
+    ...craftComponents,
 };

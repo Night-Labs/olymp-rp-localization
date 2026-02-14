@@ -1,0 +1,51 @@
+export default {
+    header: {
+        ru: 'Телевизор',
+        ua: 'Телевізор',
+        en: 'TV',
+        de: 'Fernseher',
+        pl: 'Telewizor',
+    },
+    subtitle: {
+        ru: 'Управление телевизором',
+        ua: 'Керування телевізором',
+        en: 'TV control',
+        de: 'TV-Steuerung',
+        pl: 'Sterowanie telewizorem',
+    },
+    addVideoToQueue: {
+        ru: 'Добавить видео в очередь',
+        ua: 'Додати відео до черги',
+        en: 'Add video to queue',
+        de: 'Video zur Warteschlange hinzufügen',
+        pl: 'Dodaj wideo do kolejki',
+    },
+    volume: {
+        ru: 'Громкость',
+        ua: 'Гучність',
+        en: 'Volume',
+        de: 'Lautstärke',
+        pl: 'Głośność',
+    },
+    currentVideo: {
+        ru: 'Текущее видео',
+        ua: 'Поточне відео',
+        en: 'Current video',
+        de: 'Aktuelles Video',
+        pl: 'Aktualne wideo',
+    },
+    inQueue: {
+        ru: 'В очереди',
+        ua: 'У черзі',
+        en: 'In queue',
+        de: 'In der Warteschlange',
+        pl: 'W kolejce',
+    },
+    placeholder: {
+        ru: 'Ссылки только на ютуб видео',
+        ua: 'Посилання лише на ютуб-відео',
+        en: 'Only links to YouTube videos',
+        de: 'Nur Links zu YouTube-Videos',
+        pl: 'Tylko linki do filmów z YouTube',
+    },
+};

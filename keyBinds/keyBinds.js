@@ -265,6 +265,20 @@ export default {
         de: 'Rockstar Editor Aufnahme',
         pl: 'Nagrywanie w Rockstar Editor',
     },
+    crouch: {
+        ru: 'Приседать',
+        ua: 'Присідати',
+        en: 'Crouch',
+        de: 'Ducken',
+        pl: 'Kucać',
+    },
+    bigmap: {
+        ru: 'Переключить размер радара',
+        ua: 'Перемкнути розмір радара',
+        en: 'Toggle radar size',
+        de: 'Radargröße umschalten',
+        pl: 'Przełączyć rozmiar radaru',
+    },
     'furnitureEditor.W': {
         ru: 'Вперёд',
         ua: 'Вперед',
@@ -314,6 +328,13 @@ export default {
         de: 'Fokus auf ausgewähltes Objekt',
         pl: 'Skup się na wybranym obiekcie',
     },
+    'furnitureEditor.focusHome': {
+        ru: 'Камера к старту',
+        ua: 'Камера до старту',
+        en: 'Camera to start',
+        de: 'Kamera zum Start',
+        pl: 'Kamera na start',
+    },
     'furnitureEditor.slowCamera': {
         ru: 'Медленная камера',
         ua: 'Повільна камера',
@@ -362,5 +383,33 @@ export default {
         en: 'Hide hints',
         de: 'Hinweise ausblenden',
         pl: 'Ukryj podpowiedzi',
+    },
+    'furnitureEditor.delete': {
+        ru: 'Удалить объект',
+        ua: 'Видалити обʼєкт',
+        en: 'Delete object',
+        de: 'Objekt löschen',
+        pl: 'Usuń obiekt',
+    },
+    'furnitureEditor.duplicate': {
+        ru: 'Дублировать объект',
+        ua: 'Дублювати обʼєкт',
+        en: 'Duplicate object',
+        de: 'Objekt duplizieren',
+        pl: 'Duplikuj obiekt',
+    },
+    'furnitureEditor.undo': {
+        ru: 'Отменить действие',
+        ua: 'Скасувати дію',
+        en: 'Undo action',
+        de: 'Aktion rückgängig machen',
+        pl: 'Cofnij akcję',
+    },
+    'furnitureEditor.redo': {
+        ru: 'Повторить действие',
+        ua: 'Повторити дію',
+        en: 'Redo action',
+        de: 'Aktion wiederholen',
+        pl: 'Ponów akcję',
     },
 };

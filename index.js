@@ -63,6 +63,7 @@ import xmas from './xmas';
 import musicPlayer from './musicPlayer';
 import games from './games/games';
 import flappyBird from './flappyBird';
+import grandmaster from './grandmaster';
 import walkieTalkie from './walkieTalkie';
 import elevators from './elevators';
 import shootingRange from './shootingRange';
@@ -74,6 +75,7 @@ import business from './business/business';
 import furnitureEditor from './furnitureEditor/furnitureEditor';
 import keyBinds from './keyBinds/keyBinds';
 import taxi from './taxi/taxi';
+import gym from './gym';
 
 export default {
     account,
@@ -141,6 +143,7 @@ export default {
     musicPlayer,
     games,
     flappyBird,
+    grandmaster,
     walkieTalkie,
     elevators,
     shootingRange,
@@ -152,4 +155,5 @@ export default {
     furnitureEditor,
     keyBinds,
     taxi,
+    gym,
 };

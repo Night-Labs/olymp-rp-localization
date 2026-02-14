@@ -54,4 +54,11 @@ export default {
         de: 'Häuten',
         pl: 'Odrzeć ze skóry',
     },
+    tooFar: {
+        ru: 'Слишком далеко от туши',
+        ua: 'Занадто далеко від туші',
+        en: 'Too far from the carcass',
+        de: 'Zu weit vom Kadaver',
+        pl: 'Zbyt daleko od tuszy',
+    },
 };

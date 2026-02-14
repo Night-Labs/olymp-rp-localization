@@ -214,13 +214,6 @@ export default {
                     de: 'Derzeit im Lager',
                     pl: 'Obecnie w magazynie',
                 },
-                pricePerUnit: {
-                    ru: 'Цена за единицу',
-                    ua: 'Ціна за одиницю',
-                    en: 'Price per unit',
-                    de: 'Preis pro Einheit',
-                    pl: 'Cena za jednostkę',
-                },
                 pricePerDelivery: {
                     ru: 'Цена за доставку',
                     ua: 'Ціна за доставку',
@@ -364,11 +357,11 @@ export default {
 
     logs: {
         sale: {
-            ru: '{{characterName}} купил {{quantity}} шт. товара на сумму {{gross}}, налог: {{tax}}, в кассу: {{net}}',
-            ua: '{{characterName}} купив {{quantity}} шт. товару на суму {{gross}}, податок: {{tax}}, в касу: {{net}}',
-            en: '{{characterName}} bought {{quantity}} pcs. of goods for {{gross}}, tax: {{tax}}, to cash register: {{net}}',
-            de: '{{characterName}} hat {{quantity}} Stk. Waren für {{gross}} gekauft, Steuer: {{tax}}, in die Kasse: {{net}}',
-            pl: '{{characterName}} kupił {{quantity}} szt. towaru za {{gross}}, podatek: {{tax}}, do kasy: {{net}}',
+            ru: '{{characterName}} купил {{quantity}} шт. на {{gross}} (база {{base}}, прибыль бизнеса {{profit}}, наценка {{markup}})',
+            ua: '{{characterName}} купив {{quantity}} шт. на {{gross}} (база {{base}}, прибуток бізнесу {{profit}}, націнка {{markup}})',
+            en: '{{characterName}} bought {{quantity}} pcs. for {{gross}} (base {{base}}, business profit {{profit}}, markup {{markup}})',
+            de: '{{characterName}} hat {{quantity}} Stk. für {{gross}} gekauft (Basis {{base}}, Geschäftsgewinn {{profit}}, Aufschlag {{markup}})',
+            pl: '{{characterName}} kupił {{quantity}} szt. za {{gross}} (bazowa {{base}}, zysk biznesu {{profit}}, marża {{markup}})',
         },
         markupChanged: {
             ru: 'Наценка товара обновлена: теперь {{markup}}% (раньше было {{oldMarkup}}%)',
@@ -378,11 +371,11 @@ export default {
             pl: 'Marża produktu zaktualizowana: teraz {{markup}}% (wcześniej było {{oldMarkup}}%)',
         },
         orderProducts: {
-            ru: 'Заказано {{amount}} товаров на сумму {{price}}',
-            ua: 'Замовлено {{amount}} товарів на суму {{price}}',
-            en: 'Ordered {{amount}} items for a total of {{price}}',
-            de: '{{amount}} Artikel für insgesamt {{price}} bestellt',
-            pl: 'Zamówiono {{amount}} przedmiotów za {{price}}',
+            ru: 'Оформлена поставка: {{amount}} шт., стоимость доставки {{price}}',
+            ua: 'Оформлено поставку: {{amount}} шт., вартість доставки {{price}}',
+            en: 'Delivery order placed: {{amount}} pcs, delivery cost {{price}}',
+            de: 'Lieferung bestellt: {{amount}} Stk., Lieferkosten {{price}}',
+            pl: 'Złożono dostawę: {{amount}} szt., koszt dostawy {{price}}',
         },
         withdrawMoney: {
             ru: 'Снято {{initialSum}} из кассы. Налог {{tax}}. Итого {{finalAmount}}',
@@ -441,11 +434,11 @@ export default {
             pl: 'Nie udało się zainkasować pieniędzy, na saldzie biznesu nie ma pieniędzy',
         },
         orderProductsSuccess: {
-            ru: 'Заказано товаров на сумму {{deliveryPrice}}$. Добавлено: {{addedGoods}} шт. Теперь на складе: {{finalGoods}} шт.',
-            ua: 'Замовлено товарів на суму {{deliveryPrice}}$. Додано: {{addedGoods}} шт. Тепер на складі: {{finalGoods}} шт.',
-            en: 'Products ordered for {{deliveryPrice}}$. Added: {{addedGoods}} pcs. Now in stock: {{finalGoods}} pcs.',
-            de: 'Waren im Wert von {{deliveryPrice}}$ bestellt. Hinzugefügt: {{addedGoods}} Stk. Jetzt im Lager: {{finalGoods}} Stk.',
-            pl: 'Zamówiono towary o wartości {{deliveryPrice}}$. Dodano: {{addedGoods}} szt. Teraz w magazynie: {{finalGoods}} szt.',
+            ru: 'Оформлена поставка (доставка {{deliveryPrice}}$). Добавлено: {{addedGoods}} шт. Теперь на складе: {{finalGoods}} шт.',
+            ua: 'Оформлено поставку (доставка {{deliveryPrice}}$). Додано: {{addedGoods}} шт. Тепер на складі: {{finalGoods}} шт.',
+            en: 'Delivery placed (delivery fee {{deliveryPrice}}$). Added: {{addedGoods}} pcs. Now in stock: {{finalGoods}} pcs.',
+            de: 'Lieferung bestellt (Liefergebühr {{deliveryPrice}}$). Hinzugefügt: {{addedGoods}} Stk. Jetzt im Lager: {{finalGoods}} Stk.',
+            pl: 'Zamówiono dostawę (opłata {{deliveryPrice}}$). Dodano: {{addedGoods}} szt. Teraz w magazynie: {{finalGoods}} szt.',
         },
         takeBusinesToGov: {
             ru: 'Государство отобрало этот бизнес у {{ownerName}} за неуплату налогов. Ему возмещено 50% стоимости бизнеса.',
@@ -476,11 +469,11 @@ export default {
             pl: 'Biznes został sprzedany państwu',
         },
         autoReplenishmentSuccess: {
-            ru: 'Автопополнение: {{toOrder}} шт., списано {{net}} (сумма {{gross}}, комиссия {{commission}})',
-            ua: 'Автопоповнення: {{toOrder}} шт., списано {{net}} (сума {{gross}}, комісія {{commission}})',
-            en: 'Auto top-up: {{toOrder}} pcs, charged {{net}} (amount {{gross}}, fee {{commission}})',
-            de: 'Automatische Aufladung: {{toOrder}} Stk., abgebucht {{net}} (Betrag {{gross}}, Gebühr {{commission}})',
-            pl: 'Automatyczne doładowanie: {{toOrder}} szt., pobrano {{net}} (kwota {{gross}}, prowizja {{commission}})',
+            ru: 'Автопополнение: {{toOrder}} шт., списано {{net}} (доставка {{gross}}, комиссия {{commission}})',
+            ua: 'Автопоповнення: {{toOrder}} шт., списано {{net}} (доставка {{gross}}, комісія {{commission}})',
+            en: 'Auto top-up: {{toOrder}} pcs, charged {{net}} (delivery {{gross}}, fee {{commission}})',
+            de: 'Automatische Auffüllung: {{toOrder}} Stk., abgebucht {{net}} (Lieferung {{gross}}, Gebühr {{commission}})',
+            pl: 'Automatyczne uzupełnienie: {{toOrder}} szt., pobrano {{net}} (dostawa {{gross}}, prowizja {{commission}})',
         },
 
         autoReplenishmentFailedNoMoney: {

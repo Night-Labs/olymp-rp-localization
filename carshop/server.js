@@ -5,7 +5,7 @@ export const server = {
         en: 'Car dealership',
         de: 'Autohaus',
         pl: 'Salon samochodowy',
-        zh:'汽车经销商',
+        zh: '汽车经销商',
     },
     low: {
         ru: 'Низкого класса',
@@ -13,7 +13,7 @@ export const server = {
         en: 'Low-class',
         de: 'Niedrige Klasse',
         pl: 'Niska klasa',
-       zh:'低级',
+        zh: '低级',
     },
     medium: {
         ru: 'Среднего класса',
@@ -21,7 +21,7 @@ export const server = {
         en: 'Medium-class',
         de: 'Mittelklasse',
         pl: 'Średnia klasa',
-       zh:'中级',
+        zh: '中级',
     },
     luxury: {
         ru: 'Luxury',
@@ -29,7 +29,7 @@ export const server = {
         en: 'Luxury',
         de: 'Luxus',
         pl: 'Luksus',
-       zh:'豪华',
+        zh: '豪华',
     },
     moto: {
         ru: 'Мото',
@@ -37,7 +37,7 @@ export const server = {
         en: 'Motorcycle',
         de: 'Motorrad',
         pl: 'Motocykl',
-       zh:'摩托车',
+        zh: '摩托车',
     },
     boat: {
         ru: 'Водного транспорта',
@@ -45,7 +45,7 @@ export const server = {
         en: 'Watercraft',
         de: 'Wasserfahrzeug',
         pl: 'Pojazd wodny',
-       zh:'船只',
+        zh: '船只',
     },
     helicopter: {
         ru: 'Вертолётов',
@@ -53,7 +53,7 @@ export const server = {
         en: 'Helicopters',
         de: 'Hubschrauber',
         pl: 'Śmigłowców',
-       zh:'直升机',
+        zh: '直升机',
     },
 
     plane: {
@@ -62,7 +62,7 @@ export const server = {
         en: 'Planes',
         de: 'Flugzeuge',
         pl: 'Samolotów',
-       zh:'飞机',
+        zh: '飞机',
     },
     notEnoughtParkingSpaces: {
         ua: 'У вас недостатньо парковочних місць',
@@ -70,7 +70,7 @@ export const server = {
         ru: 'У вас недостаточно парковочных мест',
         de: 'Du hast nicht genügend Parkplätze',
         pl: 'Nie masz wystarczającej ilości miejsc parkingowych',
-       zh:'你没有足够的停车位',
+        zh: '你没有足够的停车位',
     },
     notEnoughtMoney: {
         ua: 'У вас недостатньо коштів для покупки цього автомобіля',
@@ -78,7 +78,7 @@ export const server = {
         ru: 'У вас недостаточно средств для покупки этой машины',
         de: 'Du hast nicht genügend Geld, um dieses Fahrzeug zu kaufen',
         pl: 'Nie masz wystarczająco dużo pieniędzy, aby kupić ten pojazd',
-        zh:'你没有足够的钱买这辆车',
+        zh: '你没有足够的钱买这辆车',
     },
     buyedVehicle: {
         ua: 'Ви успішно придбали {{name}}',
@@ -86,6 +86,6 @@ export const server = {
         ru: 'Вы успешно купили {{name}}',
         de: 'Du hast erfolgreich {{name}} gekauft',
         pl: 'Pomyślnie zakupiono {{name}}',
-       zh:'您已成功购买{{name}}',
+        zh: '您已成功购买{{name}}',
     },
 };
