@@ -279,6 +279,14 @@ export default {
         pl: 'Przyjęte przez innego kierowcę',
     },
 
+    canceled: {
+        ru: 'Отменён',
+        ua: 'Скасовано',
+        en: 'Canceled',
+        de: 'Storniert',
+        pl: 'Anulowano',
+    },
+
     uAcceptedOrder: {
         ru: 'Вы приняли заказ клиента',
         ua: 'Ви прийняли замовлення клієнта',

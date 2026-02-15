@@ -1,4 +1,4 @@
-import trucker from './trucker';
+﻿import trucker from './trucker';
 import { trucker2 } from './trucker2/trucker2';
 import foodDelivery from './delivery';
 import bus from './bus';
@@ -101,6 +101,13 @@ export default {
             en: 'Mushroom picker',
             de: 'Pilzsammler',
             pl: 'Grzybiarz',
+        },
+        taxi: {
+            ru: 'Водитель такси',
+            ua: 'Водій таксі',
+            en: 'Taxi driver',
+            de: 'Taxifahrer',
+            pl: 'Kierowca taksówki',
         },
     },
     youAlreadyWorking: {
