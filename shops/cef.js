@@ -172,6 +172,13 @@ export const cef = {
         de: 'Rouge-Deckkraft',
         pl: 'Przezroczystość różu',
     },
+    lipstickOpacity: {
+        ru: 'Яркость помады',
+        ua: 'Яскравість помади',
+        en: 'Lipstick opacity',
+        de: 'Lippenstift-Deckkraft',
+        pl: 'Przezroczystość szminki',
+    },
     clothes: {
         name: {
             ua: 'одягу',
