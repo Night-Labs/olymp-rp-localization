@@ -127,6 +127,13 @@ export const server = {
             de: 'Das Haus hat schon einen Besitzer',
             pl: 'Dom ma już właściciela',
         },
+        reservedByAnother: {
+            ru: 'Дом сейчас забронирован другим игроком через риелторское агентство',
+            ua: 'Будинок зараз заброньований іншим гравцем через агентство нерухомості',
+            en: 'The house is currently reserved by another player through a real estate agency',
+            de: 'Das Haus ist derzeit von einem anderen Spieler über eine Immobilienagentur reserviert',
+            pl: 'Dom jest obecnie zarezerwowany przez innego gracza za pośrednictwem agencji nieruchomości',
+        },
     },
     garage: {
         garage: {

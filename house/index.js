@@ -38,12 +38,28 @@ export default {
         },
     },
     storage: {
+        interact: {
+            ru: 'Открыть хранилище',
+            ua: 'Відкрити сховище',
+            en: 'Open storage',
+            de: 'Lager öffnen',
+            pl: 'Otwórz magazyn',
+        },
         noAccess: {
             ru: 'У тебя нет доступа',
             ua: 'У тебе немає доступу',
             en: 'You don’t have access',
             de: 'Du hast keinen Zugriff',
             pl: 'Nie masz dostępu',
+        },
+    },
+    workshop: {
+        interact: {
+            ru: 'Открыть мастерскую',
+            ua: 'Відкрити майстерню',
+            en: 'Open workshop',
+            de: 'Werkstatt öffnen',
+            pl: 'Otwórz warsztat',
         },
     },
 };

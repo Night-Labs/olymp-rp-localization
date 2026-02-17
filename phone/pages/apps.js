@@ -6,6 +6,13 @@ export default {
         de: 'Fahrzeuge',
         pl: 'Pojazdy',
     },
+    bank: {
+        ru: 'Банк',
+        ua: 'Банк',
+        en: 'Bank',
+        de: 'Bank',
+        pl: 'Bank',
+    },
     gps: {
         ru: 'Навигатор',
         ua: 'Навігатор',

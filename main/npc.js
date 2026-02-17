@@ -268,6 +268,13 @@ export const npc = {
             'de': 'Iori',
             'pl': 'Iori',
         },
+        realtor: {
+            ru: 'Мелисса',
+            ua: 'Мелісса',
+            en: 'Melissa',
+            de: 'Melissa',
+            pl: 'Melissa',
+        },
     },
     roles: {
         menager: {
@@ -290,6 +297,13 @@ export const npc = {
             en: 'Inspector',
             de: 'Inspektor',
             pl: 'Inspektor',
+        },
+        realtor: {
+            ru: 'Риелтор',
+            ua: 'Рієлтор',
+            en: 'Realtor',
+            de: 'Makler',
+            pl: 'Pośrednik',
         },
     },
 };
