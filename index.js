@@ -69,6 +69,7 @@ import elevators from './elevators';
 import shootingRange from './shootingRange';
 import prism from './prism';
 import diving from './diving';
+import garbage from './garbage';
 import drivingSchool from './drivingSchool';
 import drivingLicenses from './drivingLicenses';
 import business from './business/business';
@@ -150,6 +151,7 @@ export default {
     elevators,
     shootingRange,
     diving,
+    garbage,
     prism,
     drivingSchool,
     drivingLicenses,

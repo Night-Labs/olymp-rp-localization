@@ -28,3 +28,4 @@ export default {
         pl: 'Wynajęte',
     },
 };
+

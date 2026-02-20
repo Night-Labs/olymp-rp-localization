@@ -109,6 +109,13 @@ export default {
             de: 'Taxifahrer',
             pl: 'Kierowca taksówki',
         },
+        garbage: {
+            ru: 'Мусорщик',
+            ua: 'Сміттяр',
+            en: 'Garbage worker',
+            de: 'Mullwerker',
+            pl: 'Smieciarz',
+        },
     },
     youAlreadyWorking: {
         ru: 'Вы уже работаете на другой работе, для начала увольтесь с неё',

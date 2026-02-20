@@ -205,6 +205,13 @@ export const npc = {
             de: 'Taucher',
             pl: 'Główny Nurek',
         },
+        garbageWorker: {
+            ru: 'Старший Смены',
+            ua: 'Старший Зміни',
+            en: 'Shift Foreman',
+            de: 'Schichtleiter',
+            pl: 'Brygadzista',
+        },
         melissa: {
             ru: 'Мелисса',
             ua: 'Мелісса',
