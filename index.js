@@ -76,6 +76,8 @@ import furnitureEditor from './furnitureEditor/furnitureEditor';
 import keyBinds from './keyBinds/keyBinds';
 import taxi from './taxi/taxi';
 import gym from './gym';
+import achievements from './achievements';
+import realtor from './realtor';
 
 export default {
     account,
@@ -156,4 +158,6 @@ export default {
     keyBinds,
     taxi,
     gym,
+    achievements,
+    realtor,
 };

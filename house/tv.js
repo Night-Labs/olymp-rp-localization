@@ -1,4 +1,11 @@
 export default {
+    interact: {
+        ru: 'Управлять телевизором',
+        ua: 'Керувати телевізором',
+        en: 'Control TV',
+        de: 'Fernseher steuern',
+        pl: 'Steruj telewizorem',
+    },
     header: {
         ru: 'Телевизор',
         ua: 'Телевізор',

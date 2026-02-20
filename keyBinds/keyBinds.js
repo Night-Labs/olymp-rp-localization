@@ -55,6 +55,13 @@ export default {
         de: 'Sicherheitsgurt',
         pl: 'Pasy bezpieczeństwa',
     },
+    testDriveExit: {
+        ru: 'Выйти из тест-драйва',
+        ua: 'Вийти з тест-драйву',
+        en: 'Exit test drive',
+        de: 'Probefahrt beenden',
+        pl: 'Zakończ jazdę próbną',
+    },
     fingerPointing: {
         ru: 'Указать пальцем',
         ua: 'Вказати пальцем',
