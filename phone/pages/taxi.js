@@ -271,12 +271,20 @@ export default {
         pl: 'Przyjąć wezwanie',
     },
 
-    acceptedByOtherDriver: {
-        ru: 'Принят другим водителем',
-        ua: 'Прийнято іншим водієм',
-        en: 'Accepted by another driver',
-        de: 'Von einem anderen Fahrer angenommen',
-        pl: 'Przyjęte przez innego kierowcę',
+    accepted: {
+        ru: 'В работе',
+        ua: 'У роботі',
+        en: 'In progress',
+        de: 'In Bearbeitung',
+        pl: 'W trakcie realizacji',
+    },
+
+    completed: {
+        ru: 'Вы заработали {{salary}} за успешное выполнение заказа от {{name}}',
+        ua: 'Ви заробили {{salary}} за успішне виконання замовлення від {{name}}',
+        en: 'You earned {{salary}} for successfully completing the order from {{name}}',
+        de: 'Sie haben {{salary}} für die erfolgreiche Ausführung der Bestellung von {{name}} verdient',
+        pl: 'Otrzymałeś {{salary}} za pomyślne wykonanie zamówienia od {{name}}',
     },
 
     canceled: {
