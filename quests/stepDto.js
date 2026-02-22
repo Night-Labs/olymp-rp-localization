@@ -134,6 +134,29 @@ export const stepDto = {
             pl: 'Porozmawiaj ze Spłukanym Witalijem',
         },
     },
+    getToTalkWith: {
+        diana: {
+            ru: 'Доберитесь до Дианы, чтобы поговорить с ней',
+            ua: 'Доберіться до Діани, щоб поговорити з нею',
+            en: 'Get to Diana to talk to her',
+            de: 'Gehe zu Diana, um mit ihr zu sprechen',
+            pl: 'Dostań się do Diany, aby z nią porozmawiać',
+        },
+        iori: {
+            ru: 'Доберитесь до Иори, чтобы поговорить с ним',
+            ua: 'Доберіться до Іорі, щоб поговорити з ним',
+            en: 'Get to Iori to talk to him',
+            de: 'Gehe zu Iori, um mit ihm zu sprechen',
+            pl: 'Dostań się do Iori, aby z nim porozmawiać',
+        },
+        slivnoyVitalya: {
+            ru: 'Доберитесь до Сливного Витали, чтобы поговорить с ним',
+            ua: 'Доберіться до Зливного Віталія, щоб поговорити з ним',
+            en: 'Get to Broke Vitaly to talk to him',
+            de: 'Gehe zu Pleite-Vitali, um mit ihm zu sprechen',
+            pl: 'Dostań się do Spłukanego Witalija, aby z nim porozmawiać',
+        },
+    },
     buyWeapon: {
         precisionrifle: {
             ru: 'Купи прецизионнную винтовку в магазине оружия',
@@ -149,6 +172,13 @@ export const stepDto = {
         en: 'Talk to {{name}}',
         de: 'Sprich mit {{name}}',
         pl: 'Porozmawiaj z {{name}}',
+    },
+    getToNpcToTalk: {
+        ru: 'Доберитесь до {{name}}, чтобы поговорить с ним',
+        ua: 'Доберіться до {{name}}, щоб поговорити з ним',
+        en: 'Get to {{name}} to talk to them',
+        de: 'Gehe zu {{name}}, um mit ihm zu sprechen',
+        pl: 'Dostań się do {{name}}, aby z nim porozmawiać',
     },
     rentVehicle: {
         ru: 'Арендуй любое транспортное средство',
