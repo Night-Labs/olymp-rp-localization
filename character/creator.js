@@ -18,11 +18,11 @@ export const creator = {
     },
 
     talkToFreddy: {
-        ru: 'Поговори с Фредди, он поможет освоиться в игре!',
-        ua: 'Поговори з Фредді, він допоможе освоїтися в грі!',
-        en: "Talk to Freddy, he'll help you get the hang of the game!",
-        de: 'Sprich mit Freddy, er hilft dir, dich im Spiel zurechtzufinden!',
-        pl: 'Porozmawiaj z Freddym, on pomoże ci ogarnąć grę!',
+        ru: 'Поговори с Майком, он поможет освоиться в игре!',
+        ua: 'Поговори з Майком, він допоможе освоїтися в грі!',
+        en: 'Talk to Mike, he’ll help you get used to the game!',
+        de: 'Sprich mit Mike, er hilft dir, dich im Spiel zurechtzufinden!',
+        pl: 'Porozmawiaj z Mike’iem, pomoże ci odnaleźć się w grze!',
     },
     pages: {
         info: {
