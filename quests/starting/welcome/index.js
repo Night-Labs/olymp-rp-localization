@@ -1,4 +1,3 @@
-import dialogs from './welcome.dialog';
 
 export default {
     name: {
@@ -17,5 +16,4 @@ export default {
         pl: 'Rozpocznij swoją przygodę z wynajmem samochodu i pierwszą pracą. Zostań dostawcą pizzy i zrealizuj pierwsze zamówienia!',
         zh:'从租车和第一份工作开始你的冒险。成为一名披萨送货员，完成你的第一个订单!',
     },
-    dialogs,
 };
