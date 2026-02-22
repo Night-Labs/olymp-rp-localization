@@ -6,6 +6,7 @@ import random from './random';
 import license from './license';
 import daily from './daily';
 import factions from './factions';
+import npc from './npcs';
 
 export default {
     starting,
@@ -15,5 +16,6 @@ export default {
     random,
     stepDto,
     types,
+    npc,
     ...cef,
 };
