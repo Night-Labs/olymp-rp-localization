@@ -1122,6 +1122,13 @@ export const cef = {
             de: 'Ton von Musikplayern deaktivieren',
             pl: 'Wyłącz dźwięk odtwarzaczy muzyki',
         },
+        interactionOutlineEnabled: {
+            ru: 'Подсветка объектов при взаимодействии',
+            ua: 'Підсвітка обʼєктів при взаємодії',
+            en: 'Interaction object outline',
+            de: 'Objektumrandung bei Interaktion',
+            pl: 'Obrys obiektów podczas interakcji',
+        },
 
         aspectRatio: {
             ru: 'Соотношение сторон',

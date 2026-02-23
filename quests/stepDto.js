@@ -950,4 +950,11 @@ export const stepDto = {
         de: 'Geh zu deinem Fahrzeug und starte die Interaktion damit',
         pl: 'Podejdź do swojego pojazdu i rozpocznij interakcję z nim',
     },
+    reachFarmLevel: {
+        ru: 'Достигните {{level}} уровня фермы, собирая апельсины',
+        ua: 'Досягніть {{level}} рівня ферми, збираючи апельсини',
+        en: 'Reach farm level {{level}} by collecting oranges',
+        de: 'Erreiche Farmlevel {{level}}, indem du Orangen sammelst',
+        pl: 'Osiągnij poziom farmy {{level}}, zbierając pomarańcze',
+    },
 };
