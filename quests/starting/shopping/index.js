@@ -54,11 +54,11 @@ export default {
             pl: 'Dzięki',
         },
         dianaNoMoreQuests: {
-            ru: 'Ну что, дальше я тебе заданий давать не буду - остальные квесты ищи в меню, в разделе квестов. Может, ещё увидимся. Удачи!',
-            ua: 'Ну що ж, більше я тобі завдань не даватиму - решту квестів шукай у меню, в розділі квестів. Можливо, ще побачимось. Удачі!',
-            en: 'Alright, I won’t be giving you any more tasks - find the rest of the quests in the menu under the quests section. Maybe we’ll meet again. Good luck!',
-            de: 'Also gut, von mir bekommst du keine Aufgaben mehr - such die restlichen Quests im Menü unter dem Quest-Bereich. Vielleicht sehen wir uns wieder. Viel Glück!',
-            pl: 'No dobrze, nie dam ci już więcej zadań - reszty questów szukaj w menu, w sekcji z zadaniami. Może jeszcze się spotkamy. Powodzenia!',
+            ru: 'Ну что, с моими заданиями на сегодня всё. Теперь дуй обратно к Майку - у него для тебя следующий этап.',
+            ua: 'Ну що ж, з моїми завданнями на сьогодні все. Тепер рушай назад до Майка - у нього для тебе наступний етап.',
+            en: 'Alright, that is all from me for now. Now head back to Mike - he has the next stage for you.',
+            de: 'Also gut, das war es erst mal von mir. Geh jetzt zurück zu Mike - er hat die nächste Etappe für dich.',
+            pl: 'No dobra, ode mnie na dziś to wszystko. Teraz wracaj do Mike’a - ma dla ciebie kolejny etap.',
         },
         bye: {
             ru: 'Прощай',

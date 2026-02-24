@@ -258,12 +258,11 @@ export const server = {
             zh: '肺活量',
         },
         wheelie_ability: {
-            ru: 'Баланс мотоцикла',
-            ua: 'Баланс мотоцикла',
-            en: 'Wheelie ability',
-            de: 'Wheelie-Fähigkeit',
-            pl: 'Umiejętność wheelie',
-            zh: '翘头能力',
+            ru: 'Мастерство вождения',
+            ua: 'Майстерність водіння',
+            en: 'Driving skill',
+            de: 'Fahrkönnen',
+            pl: 'Umiejętność jazdy',
         },
         flying_ability: {
             ru: 'Лётное мастерство',

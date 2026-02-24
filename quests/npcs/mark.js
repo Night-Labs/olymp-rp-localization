@@ -1,0 +1,101 @@
+export default {
+    welcomeToFarm: {
+        farmerNeedsHelp: {
+            ru: 'Здорово! Диана чирканула мне, что ты заглянешь. У меня тут работы - край непочатый, лишние руки как раз кстати будут. Ну что, готов повкалывать?',
+            ua: 'Здоров! Діана черкнула мені, що ти заскочиш. У мене тут роботи - непочатий край, зайві руки якраз стануть у пригоді. Ну що, готовий попрацювати?',
+            en: "Hey! Diana dropped me a line saying you'd swing by. I’ve got a ton of work here - extra hands would really help. So, ready to get to work?",
+            de: 'Hey! Diana hat mir kurz geschrieben, dass du vorbeischaust. Ich habe hier jede Menge Arbeit - zusätzliche Hände wären echt hilfreich. Na, bereit mit anzupacken?',
+            pl: 'Hej! Diana skrobnęła mi, że wpadniesz. Mam tu roboty po uszy - dodatkowe ręce bardzo się przydadzą. No i co, gotów trochę popracować?',
+        },
+        yep: {
+            ru: 'Ага',
+            ua: 'Ага',
+            en: 'Yep',
+            de: 'Ja',
+            pl: 'Aha',
+        },
+        notNow: {
+            ru: 'Не сейчас',
+            ua: 'Не зараз',
+            en: 'Not now',
+            de: 'Nicht jetzt',
+            pl: 'Nie teraz',
+        },
+        orangeHarvestBegin: {
+            ru: 'Отлично. Короче, для начала дуй в сады - там их три штуки - и пособирай апельсины. Как немного натаскаешь, набьёшь руку до второго уровня, и я пущу тебя уже на поля. Ну всё, хорош лясы точить, иди работай.',
+            ua: 'Чудово. Коротше, для початку дуй у сади - їх там три - і позбирай апельсини. Як трохи натаскаєшся, наб’єш руку до другого рівня, і я вже пущу тебе на поля. Ну все, годі теревені правити, іди працюй.',
+            en: 'Great. Anyway, first head to the orchards - there are three of them - and pick some oranges. Once you’ve hauled enough and get the hang of it up to level two, I’ll let you work the fields. Alright, enough chit-chat, go work.',
+            de: 'Super. Also, geh erstmal in die Obstgärten - davon gibt’s drei - und pflück Orangen. Wenn du ein bisschen gesammelt hast und bis Level zwei Routine bekommst, lass ich dich auf die Felder. So, genug gequatscht, geh arbeiten.',
+            pl: 'Świetnie. Dobra, na początek leć do sadów - są tam trzy - i pozbieraj pomarańcze. Jak trochę nazbierasz i wbijesz drugi poziom wprawy, puszczę cię już na pola. Dobra, koniec gadania, idź pracować.',
+        },
+        okay: {
+            ru: 'Ладно',
+            ua: 'Гаразд',
+            en: 'Alright',
+            de: 'Na gut',
+            pl: 'Dobra',
+        },
+    },
+    youCanPotatoField: {
+        potatoPlantingTask: {
+            ru: 'О, гляжу, руку на апельсинах набил - второй уровень, не иначе. Ладно, теперь доверю тебе поле с картошкой. Дуй в ближайший «24/7», купи лейку и пачек двадцать семян. Как закупишься - дуй прямо на это поле передо мной, будем сажать.',
+            ua: 'О, бачу, руку на апельсинах набив - другий рівень, не інакше. Гаразд, тепер довірю тобі поле з картоплею. Дуй у найближчий «24/7», купи лійку і з двадцять пачок насіння. Як закупишся - дуй просто на це поле переді мною, будемо саджати.',
+            en: 'Oh, I see you’ve gotten the hang of those oranges - level two, no less. Alright, now I’ll trust you with the potato field. Head to the nearest 24/7, buy a watering can and about twenty packs of seeds. Once you’re stocked up, come straight to this field in front of me - we’ll start planting.',
+            de: 'Oh, ich sehe, du hast bei den Orangen den Dreh raus - Level zwei, nicht schlecht. Gut, jetzt vertraue ich dir das Kartoffelfeld an. Geh zum nächsten 24/7, kauf eine Gießkanne und etwa zwanzig Packungen Samen. Wenn du alles hast, komm direkt zu diesem Feld vor mir - wir fangen mit dem Pflanzen an.',
+            pl: 'O, widzę, że na pomarańczach nabiłeś już wprawę - drugi poziom, nie inaczej. Dobra, teraz powierzam ci pole z ziemniakami. Leć do najbliższego 24/7, kup konewkę i z dwadzieścia paczek nasion. Jak się zaopatrzysz, przyjdź prosto na to pole przede mną - będziemy sadzić.',
+        },
+        okay: {
+            ru: 'Принято',
+            ua: 'Прийнято',
+            en: 'Got it',
+            de: 'Verstanden',
+            pl: 'Przyjęte',
+        },
+    },
+    prepareInventoryBeforePlanting: {
+        assignItemsToHotkeys: {
+            ru: 'Отлично, закупился как надо. Теперь перед посадкой сделай по-умному: открой инвентарь и назначь лейку с семенами на удобные клавиши быстрого доступа. Так быстрее пойдет работа. И картошку сажай на поле прямо напротив меня.',
+            ua: 'Чудово, закупився як треба. Тепер перед посадкою зроби по-розумному: відкрий інвентар і признач лійку з насінням на зручні клавіші швидкого доступу. Так робота піде швидше. І картоплю саджай на полі просто навпроти мене.',
+            en: 'Good, you bought everything you need. Before planting, do it the smart way: open your inventory and bind the watering can and seeds to convenient hotkeys. It will make the work much faster. And plant the potatoes in the field right in front of me.',
+            de: 'Gut, du hast alles Nötige gekauft. Bevor du pflanzt, mach es clever: Öffne dein Inventar und lege Gießkanne und Samen auf bequeme Schnellzugriffstasten. So geht die Arbeit deutlich schneller. Und pflanze die Kartoffeln auf dem Feld direkt vor mir.',
+            pl: 'Dobrze, kupiłeś wszystko jak trzeba. Zanim zaczniesz sadzić, zrób to z głową: otwórz ekwipunek i przypisz konewkę oraz nasiona do wygodnych klawiszy szybkiego dostępu. Tak robota pójdzie dużo szybciej. I sadź ziemniaki na polu dokładnie naprzeciwko mnie.',
+        },
+        whatAboutWatering: {
+            ru: 'А поливать как?',
+            ua: 'А поливати як?',
+            en: 'And how do I water it?',
+            de: 'Und wie gieße ich das?',
+            pl: 'A jak to podlewać?',
+        },
+        waterPlantsFromTower: {
+            ru: 'Вот это главное не забудь: растения надо поливать время от времени, а не один раз и забыл. Рядом с каждым полем стоит водонапорная башня - там набираешь воду в лейку и дальше работаешь. Посадил, следи за ними и поливай вовремя, потом соберешь урожай.',
+            ua: 'Оце головне не забудь: рослини треба поливати час від часу, а не один раз і забув. Поруч із кожним полем стоїть водонапірна вежа - там набираєш воду в лійку і далі працюєш. Посадив, стеж за ними й поливай вчасно, потім збереш урожай.',
+            en: 'This is the main thing - don’t forget it: plants need to be watered from time to time, not just once. There is a water tower next to each field - fill your watering can there and keep working. Plant them, keep an eye on them, water them in time, then harvest.',
+            de: 'Das Wichtigste - vergiss das nicht: Pflanzen müssen von Zeit zu Zeit gegossen werden, nicht nur einmal. Neben jedem Feld steht ein Wasserturm - dort füllst du deine Gießkanne auf und arbeitest weiter. Pflanz sie, behalte sie im Blick, gieße sie rechtzeitig und ernte dann.',
+            pl: 'Najważniejsze - tego nie zapomnij: rośliny trzeba podlewać co jakiś czas, a nie raz i koniec. Obok każdego pola stoi wieża wodna - tam nabierasz wodę do konewki i pracujesz dalej. Posadź, pilnuj ich, podlewaj na czas, a potem zbierzesz plon.',
+        },
+        okayGoPlant: {
+            ru: 'Понял, иду сажать',
+            ua: 'Зрозумів, іду саджати',
+            en: 'Got it, going to plant',
+            de: 'Verstanden, ich gehe pflanzen',
+            pl: 'Jasne, idę sadzić',
+        },
+    },
+    niceJobMan: {
+        proFarmerSkills: {
+            ru: 'Во, красавчик! Урожай собрал как надо, руки у тебя уже фермерские. На сегодня с тебя хватит - с поля я тебя снимаю. Теперь дуй к скупщику и продай всё, что насобирал, одним заходом. И запомни: у скупщика цена меняется раз в 4 часа, так что иногда выгоднее чутка подождать. Я Диане скажу, что ты не подвел.',
+            ua: 'О, красень! Урожай зібрав як треба, руки в тебе вже фермерські. На сьогодні з тебе досить - з поля я тебе знімаю. Тепер дуй до скупника і продай все, що назбирав, за один раз. І запам’ятай: у скупника ціна змінюється раз на 4 години, тож інколи вигідніше трохи зачекати. Я Діані скажу, що ти не підвів.',
+            en: 'Now that’s what I call work, lad! You gathered the harvest properly - you’ve got a farmer’s hands already. That’s enough for today, I’m taking you off the field. Head to the buyer and sell everything you gathered in one go. And remember: the buyer’s price changes every 4 hours, so sometimes it pays to wait a bit. I’ll tell Diana you didn’t let me down.',
+            de: 'Na also, sauber gemacht! Die Ernte hast du ordentlich eingesammelt - du hast schon echte Bauernhände. Für heute reicht’s, ich nehme dich vom Feld runter. Jetzt geh zum Aufkäufer und verkauf alles, was du gesammelt hast, in einem Rutsch. Und merk dir: Der Preis beim Aufkäufer ändert sich alle 4 Stunden, manchmal lohnt es sich also, kurz zu warten. Ich sage Diana, dass du mich nicht enttäuscht hast.',
+            pl: 'No, i to mi się podoba! Zbiory zebrałeś jak należy - masz już ręce jak prawdziwy farmer. Na dziś wystarczy, zdejmuję cię z pola. Teraz leć do skupującego i sprzedaj wszystko, co nazbierałeś, za jednym razem. I zapamiętaj: cena u skupującego zmienia się co 4 godziny, więc czasem bardziej opłaca się chwilę poczekać. Powiem Dianie, że mnie nie zawiodłeś.',
+        },
+        bye: {
+            ru: 'Бывай',
+            ua: 'Бувай',
+            en: 'See ya',
+            de: 'Mach’s gut',
+            pl: 'Na razie',
+        },
+    },
+};

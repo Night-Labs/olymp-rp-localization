@@ -42,6 +42,14 @@ export const server = {
         pl: 'Zacząłeś obserwować gracza {{name}}, aby wyjść, wpisz /reoff',
         zh: '开始观看玩家{{name}},退出输入/reoff',
     },
+    spectateStartedByLowerAdmin: {
+        ru: '~r~[ADMIN] Администратор {{name}} (lvl {{level}}) начал слежку за вами',
+        ua: '~r~[ADMIN] Адміністратор {{name}} (lvl {{level}}) почав спостереження за вами',
+        en: '~r~[ADMIN] Administrator {{name}} (lvl {{level}}) started spectating you',
+        de: '~r~[ADMIN] Administrator {{name}} (Lvl {{level}}) hat begonnen, dich zu beobachten',
+        pl: '~r~[ADMIN] Administrator {{name}} (lvl {{level}}) rozpoczął obserwację ciebie',
+        zh: '~r~[ADMIN] 管理员{{name}} (lvl {{level}}) 开始监视你',
+    },
     support: {
         replyFrom: {
             ua: '~r~Відповідь від адміністрації від {{admin}}: ~w~{{message}}',

@@ -16,11 +16,11 @@ export default {
     },
     dialog: {
         dianaHello: {
-            ru: 'А, так это ты новичок, о котором мне Фредди рассказывал? Ну что ж, у меня для тебя есть парочка заданий - сможешь немного заработать и освоиться получше.',
-            ua: 'А, то ти новачок, про якого мені розповідав Фредді? Що ж, у мене для тебе є кілька завдань - зможеш трохи заробити і краще освоїтися.',
-            en: "Ah, so you're the newbie Freddy told me about? Well, I’ve got a couple of tasks for you - you can earn a bit and get settled in.",
-            de: 'Ah, du bist also der Neuling, von dem Freddy erzählt hat? Nun, ich habe ein paar Aufgaben für dich – kannst etwas verdienen und dich besser einleben.',
-            pl: 'A więc to ty jesteś nowicjuszem, o którym mówił mi Freddy? Mam dla ciebie kilka zadań - zarobisz trochę i łatwiej się odnajdziesz.',
+            ru: 'А, так это ты новичок, о котором мне Майк рассказывал? Ну что ж, у меня для тебя есть парочка заданий - сможешь немного заработать и освоиться получше.',
+            ua: 'А, то ти новачок, про якого мені розповідав Майк? Що ж, у мене для тебе є кілька завдань - зможеш трохи заробити і краще освоїтися.',
+            en: "Ah, so you're the newbie Mike told me about? Well, I’ve got a couple of tasks for you - you can earn a bit and get settled in.",
+            de: 'Ah, du bist also der Neuling, von dem Mike erzählt hat? Nun, ich habe ein paar Aufgaben für dich - kannst etwas verdienen und dich besser einleben.',
+            pl: 'A więc to ty jesteś nowicjuszem, o którym mówił mi Mike? Mam dla ciebie kilka zadań - zarobisz trochę i łatwiej się odnajdziesz.',
         },
         whatTask: {
             ru: 'Что за задание?',
@@ -40,7 +40,7 @@ export default {
             ru: 'Задание простое: поезжай на ферму, ей владеет мой хороший знакомый. Там всегда нужны руки - сначала пособираешь апельсины, а потом сможешь выращивать что угодно и хорошо заработать. Так что вперёд, покажи себя!',
             ua: 'Завдання просте: поїдь на ферму, нею володіє мій хороший знайомий. Там завжди потрібні руки - спершу позбираєш апельсини, а потім зможеш вирощувати що завгодно і добре заробити. Тож уперед, покажи себе!',
             en: "The task is simple: head to the farm, it's owned by a good friend of mine. They always need help - start by picking oranges, then you’ll be able to grow anything and earn well. So go on, show what you’ve got!",
-            de: 'Die Aufgabe ist einfach: Fahr zur Farm, sie gehört einem guten Freund von mir. Dort werden immer helfende Hände gebraucht – zuerst pflückst du Orangen, später kannst du alles Mögliche anbauen und gut verdienen. Also los, zeig, was du draufhast!',
+            de: 'Die Aufgabe ist einfach: Fahr zur Farm, sie gehört einem guten Freund von mir. Dort werden immer helfende Hände gebraucht - zuerst pflückst du Orangen, später kannst du alles Mögliche anbauen und gut verdienen. Also los, zeig, was du draufhast!',
             pl: 'Zadanie jest proste: jedź na farmę, należy do mojego dobrego znajomego. Zawsze potrzebne są tam ręce do pracy - najpierw zbierzesz pomarańcze, a potem będziesz mógł uprawiać, co chcesz, i dobrze zarobić. Do dzieła, pokaż się z dobrej strony!',
         },
         okay: {
@@ -53,11 +53,11 @@ export default {
 
         //
         dianaFarmQuestComplete: {
-            ru: 'О, ты уже здесь! Знакомый сказал, что ты отлично справился с апельсинами - держи награду. И помни, апельсины - это только начало, на ферме можно заработать куда больше.',
-            ua: 'О, ти вже тут! Знайомий сказав, що ти чудово впорався з апельсинами - тримай нагороду. І пам’ятай, апельсини - це лише початок, на фермі можна заробити значно більше.',
-            en: "Oh, you're back already! My friend said you did great with the oranges - here's your reward. And remember, oranges are just the beginning, there's a lot more to earn on the farm.",
-            de: 'Oh, du bist schon zurück! Mein Freund meinte, du hast die Orangen super erledigt – hier ist deine Belohnung. Und denk dran, Orangen sind nur der Anfang, auf der Farm kannst du viel mehr verdienen.',
-            pl: 'O, już jesteś! Znajomy mówił, że świetnie poradziłeś sobie z pomarańczami - oto twoja nagroda. I pamiętaj, pomarańcze to dopiero początek, na farmie można zarobić o wiele więcej.',
+            ru: 'О, уже вернулся! Старина Джо сказал, что ты отлично отработал: собрал урожай, всё продал скупщику и не схалтурил. Держи награду. Если захочешь, на ферме всегда можно поднять ещё денег.',
+            ua: 'О, уже повернувся! Старий Джо сказав, що ти чудово відпрацював: зібрав урожай, усе продав скупнику й не халтурив. Тримай нагороду. Якщо захочеш, на фермі завжди можна підняти ще грошей.',
+            en: 'Oh, you are back already! Old Joe said you did a solid job: harvested the crop, sold everything to the buyer, and did not slack off. Here is your reward. If you want, you can always earn more money on the farm.',
+            de: 'Oh, schon zurück! Old Joe sagte, du hast sauber gearbeitet: die Ernte eingesammelt, alles an den Aufkäufer verkauft und nicht getrödelt. Hier ist deine Belohnung. Wenn du willst, kannst du auf der Farm immer mehr Geld verdienen.',
+            pl: 'O, już wróciłeś! Stary Joe mówił, że odwaliłeś kawał dobrej roboty: zebrałeś plony, sprzedałeś wszystko skupującemu i nie obijałeś się. Trzymaj nagrodę. Jeśli chcesz, na farmie zawsze da się dorobić więcej.',
         },
         thankYou: {
             ru: 'Спасибо',

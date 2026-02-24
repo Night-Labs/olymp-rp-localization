@@ -1,4 +1,4 @@
-import npc from './npc';
+
 import finance from './finance';
 import firstCar from './firstCar';
 import welcome from './welcome';
@@ -22,7 +22,6 @@ import getOutHunting from './getOutHunting';
 import goMining from './goMining';
 import grandBlue from './grandBlue';
 export default {
-    npc,
     welcome,
     finance,
     firstCar,
