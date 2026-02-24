@@ -3,25 +3,25 @@ export default {
         ru: 'Первая машина',
         ua: 'Перша машина',
         en: 'First car',
-        de: 'Erste Auto',
-        pl: 'Pierwsza maśnia',
+        de: 'Erstes Auto',
+        pl: 'Pierwszy samochód',
         zh: '第一辆汽车',
     },
     desc: {
-        ru: 'Самое время приобрести свою первую машину и почувствовать, что мир теперь у твоих ног! И, кстати, после покупки загляни в телефон. Там ты найдешь кучу прикольных фишек для управления твоим новым четырехколесным другом: отметить на карте, закрыть-открыть и даже призвать её к себе или спрятать. Врум-врум, вперед к приключениям!',
-        en: `It\'s time to get your first car and feel like the world is at your feet! By the way, after your purchase, check your phone. You'll find a bunch of cool features for controlling your new four-wheeled friend: mark it on the map, lock/unlock it, and even summon it to you or hide it. Vroom-vroom, off to adventures!`,
-        ua: 'Час придбати свій перший автомобіль і відчути, що світ тепер до твоїх ніг! До речі, після покупки перевір свій телефон. Там ти знайдеш багато класних фішок щодо керування своїм чотирьохколісним другом: позначити на карті, закрити/відкрити і навіть викликати його до себе або приховати. Врум-врум, нумо до пригод.',
-        de: 'Es ist Zeit, dein erstes Auto zu bekommen und das Gefühl zu haben, die Welt liegt dir zu Füßen! Übrigens, nach dem Kauf, schau auf dein Handy. Du wirst eine Menge cooler Funktionen zum Steuern deines neuen vierrädrigen Freundes finden: Markiere es auf der Karte, schließe es auf/zu und rufe es sogar zu dir oder verstecke es. Vroom-vroom, auf zu Abenteuern!',
-        pl: 'Nadszedł czas, aby zdobyć swoje pierwsze auto i poczuć, że świat leży u twoich stóp! A propos, po zakupie sprawdź swój telefon. Znajdziesz tam mnóstwo fajnych funkcji do sterowania swoim nowym czterokołowym przyjacielem: oznacz go na mapie, zablokuj/odblokuj i nawet przywołaj go do siebie lub schowaj. Vroom-vroom, czas na przygody!',
+        ru: 'Права уже есть, теперь пора брать первую машину. Купи любой автомобиль и освой базовые функции управления личным транспортом через взаимодействие и меню.',
+        en: `You already have your license, so now it is time for your first car. Buy any vehicle and learn the basic personal vehicle controls through interaction and menu actions.`,
+        ua: 'Права вже є, тепер час брати перше авто. Купи будь-який автомобіль і освої базові функції керування особистим транспортом через взаємодію та меню.',
+        de: 'Den Führerschein hast du schon, jetzt ist dein erstes Auto dran. Kauf ein beliebiges Fahrzeug und lerne die grundlegenden Funktionen zur Steuerung deines persönlichen Transports über Interaktion und Menü.',
+        pl: 'Prawo jazdy już masz, więc czas na pierwsze auto. Kup dowolny samochód i opanuj podstawowe funkcje obsługi własnego pojazdu przez interakcję oraz menu.',
         zh: '是时候得到你的第一辆车了，感觉世界就在你的脚下!顺便说一下，在你购买之后，检查你的手机。你会发现一堆很酷的功能来控制你的新四轮朋友:在地图上标记它，锁定/解锁它，甚至召唤它给你或隐藏它。弗鲁姆--弗鲁姆，去冒险吧!',
     },
     dialog: {
         carQuestProposal: {
-            ru: 'Ты уверенно двигаешься. Теперь пришло время покупки твоей первой машины. Готов?',
-            ua: 'Ти впевнено рухаєшся. Тепер час купити свою першу машину. Готовий?',
-            en: 'You’re moving confidently. Now it’s time to buy your first car. Ready?',
-            de: 'Du bist schon ziemlich sicher unterwegs. Jetzt ist es Zeit, dein erstes Auto zu kaufen. Bist du bereit?',
-            pl: 'Pewnie sobie radzisz. Teraz czas na zakup twojego pierwszego auta. Gotowy?',
+            ru: 'Отлично, права ты уже получил. Теперь пришло время взять твою первую машину. Готов?',
+            ua: 'Чудово, права ти вже отримав. Тепер час взяти твоє перше авто. Готовий?',
+            en: 'Great, you already got your license. Now it is time for your first car. Ready?',
+            de: 'Sehr gut, den Führerschein hast du schon. Jetzt ist es Zeit für dein erstes Auto. Bereit?',
+            pl: 'Świetnie, prawo jazdy już masz. Teraz czas na twoje pierwsze auto. Gotowy?',
         },
 
         soundsExciting: {
@@ -69,13 +69,13 @@ export default {
             zh: '记住，汽车不仅仅是一种交通工具，也是你生活方式的一部分。做出明智的选择',
         },
 
-        thanksFreddy: {
-            ru: 'Спасибо, Фредди!',
-            ua: 'Дякую, Фредді!',
-            en: 'Thanks, Freddy!',
-            de: 'Danke, Freddy!',
-            pl: 'Dziękuję, Freddy!',
-            zh: '谢谢,弗莱迪!',
+        thanksMike: {
+            ru: 'Спасибо, Майк!',
+            ua: 'Дякую, Майк!',
+            en: 'Thanks, Mike!',
+            de: 'Danke, Mike!',
+            pl: 'Dziękuję, Mike!',
+            zh: '谢谢,迈克!',
         },
 
         byeMessage: {

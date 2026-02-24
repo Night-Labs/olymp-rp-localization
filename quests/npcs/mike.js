@@ -201,4 +201,20 @@ export default {
             pl: 'Nie dzisiaj',
         },
     },
+    all: {
+        allQuestsCompleted: {
+            ru: 'Ты закрыл все мои задания. Дальше уже выбирай, чем заняться - дел у тебя теперь полно.',
+            ua: 'Ти закрив усі мої завдання. Далі вже сам обирай, чим зайнятися - справ у тебе тепер повно.',
+            en: 'You have completed all my tasks. From here on, pick what to do next - you have plenty of options now.',
+            de: 'Du hast alle meine Aufgaben erledigt. Ab hier such dir selbst aus, was als Nächstes kommt - du hast jetzt genug Optionen.',
+            pl: 'Wykonałeś już wszystkie moje zadania. Dalej sam wybieraj, czym się zająć - masz teraz sporo opcji.',
+        },
+        bye: {
+            ru: 'Понял',
+            ua: 'Зрозумів',
+            en: 'Got it',
+            de: 'Verstanden',
+            pl: 'Rozumiem',
+        },
+    },
 };

@@ -1,13 +1,5 @@
 export const npc = {
     names: {
-        freddy: {
-            ru: 'Фредди',
-            ua: 'Фреддi',
-            en: 'Freddy',
-            de: 'Freddy',
-            pl: 'Freddy',
-            zh: '弗莱迪',
-        },
         james: {
             ru: 'Джеймс',
             ua: 'Джеймс',
@@ -118,6 +110,14 @@ export const npc = {
             de: 'Mark',
             pl: 'Marek',
             zh: '马克',
+        },
+        oldJoe: {
+            ru: 'Старина Джо',
+            ua: 'Старий Джо',
+            en: 'Old Joe',
+            de: 'Alter Joe',
+            pl: 'Stary Joe',
+            zh: '老乔',
         },
         anthony: {
             ru: 'Энтони',

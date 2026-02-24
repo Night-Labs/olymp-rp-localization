@@ -1,25 +1,25 @@
 ﻿export default {
     name: {
-        ru: 'Пора обновить права',
-        ua: 'Час оновити права',
-        en: 'Time to renew your license',
-        de: 'Zeit, deinen Führerschein zu erneuern',
-        pl: 'Czas odnowić prawo jazdy',
+        ru: 'Получение прав',
+        ua: 'Отримання прав',
+        en: 'Getting your license',
+        de: 'Führerschein erhalten',
+        pl: 'Zdobycie prawa jazdy',
     },
     desc: {
-        ru: 'Срок действия твоих прав на исходе. Пора идти в автошколу и получить свежий документ, чтобы не остаться без колёс.',
-        ua: 'Термін дії твоїх прав спливає. Час йти до автошколи та отримати новий документ, щоб не залишитися без коліс.',
-        en: "Your license is about to expire. Time to head to driving school and get a new one before you're stuck without wheels.",
-        de: 'Dein Führerschein läuft bald ab. Zeit, zur Fahrschule zu gehen und einen neuen zu holen, bevor du ohne Räder dastehst.',
-        pl: 'Twoje prawo jazdy wkrótce wygaśnie. Czas iść do szkoły jazdy i zdobyć nowy dokument, żeby nie zostać bez kół.',
+        ru: 'Ты дошёл до этапа, где без прав уже никак. Получи категорию B в автошколе и возвращайся к Майку - дальше будете брать первую машину.',
+        ua: 'Ти дійшов до етапу, де без прав уже ніяк. Отримай категорію B в автошколі та повертайся до Майка - далі будете брати першу машину.',
+        en: 'You reached the point where you need a license. Get category B at driving school and return to Mike - next you will move on to your first car.',
+        de: 'Du bist an dem Punkt angekommen, an dem du ohne Führerschein nicht weiterkommst. Hol dir Klasse B in der Fahrschule und komm zu Mike zurück - als Nächstes geht es um dein erstes Auto.',
+        pl: 'Dotarłeś do etapu, na którym bez prawa jazdy dalej się nie da. Zdobądź kategorię B w szkole jazdy i wróć do Mike’a - potem przejdziecie do pierwszego auta.',
     },
     dialog: {
         helloYouNeedDrivingLicense: {
-            ru: 'Привет! Похоже у тебя скоро истекают права. Без них - штрафы или вообще могут посадить. Дуй в автошколу и обнови права, пока не поздно!',
-            ua: 'Привіт! Схоже, у тебе скоро закінчуються права. Без них - штрафи або взагалі можуть посадити. Біжи в автошколу й онови права, поки не пізно!',
-            en: 'Hey! Looks like your license is about to expire. Without it, you might get fined or even end up in jail. Head to driving school and renew your license before it’s too late!',
-            de: 'Hey! Es sieht so aus, als ob dein Führerschein bald abläuft. Ohne ihn gibt’s Strafen oder du kannst sogar im Knast landen. Ab zur Fahrschule und erneuere deinen Führerschein, solange es noch geht!',
-            pl: 'Cześć! Wygląda na to, że twoje prawo jazdy niedługo straci ważność. Bez niego możesz dostać mandat albo nawet trafić do więzienia. Leć do szkoły jazdy i odśwież prawko, póki możesz!',
+            ru: 'Красава, этап у Дианы закрыл уверенно. Теперь по-взрослому: без категории B за руль лучше не лезть. Дуй в автошколу, закрой экзамен и сразу возвращайся ко мне.',
+            ua: 'Красень, етап у Діани ти закрив впевнено. Тепер по-дорослому: без категорії B за кермо краще не лізти. Рушай в автошколу, закрий іспит і одразу повертайся до мене.',
+            en: 'Nice work, you wrapped Diana’s stage cleanly. Now we do it properly: without category B, getting behind the wheel is a bad idea. Head to driving school, pass the exam, then come straight back to me.',
+            de: 'Stark, Dianas Etappe hast du sauber abgeschlossen. Jetzt machen wir es richtig: Ohne Klasse B solltest du besser nicht ans Steuer. Geh zur Fahrschule, besteh die Prüfung und komm direkt zu mir zurück.',
+            pl: 'Dobra robota, etap u Diany zamknąłeś pewnie. Teraz robimy to porządnie: bez kategorii B lepiej nie siadać za kółko. Leć do szkoły jazdy, zdaj egzamin i od razu wracaj do mnie.',
         },
         okay: {
             ru: 'Хорошо',
@@ -38,11 +38,11 @@
 
         //
         gotDrivingLicense: {
-            ru: 'О, наконец-то ты получил права! Поздравляю, теперь можно смело выезжать на дороги.',
-            ua: 'О, нарешті ти отримав права! Вітаю, тепер можна сміливо виїжджати на дороги.',
-            en: 'Oh, you finally got your license! Congrats, now you can hit the road with confidence.',
-            de: 'Oh, endlich hast du deinen Führerschein! Glückwunsch, jetzt kannst du dich sicher auf die Straße wagen.',
-            pl: 'O, w końcu masz prawo jazdy! Gratulacje, teraz możesz śmiało ruszać na drogę.',
+            ru: 'Вот это уже дело, права на руках. Значит, ты готов к следующему шагу.',
+            ua: 'Оце вже справа, права в тебе на руках. Значить, ти готовий до наступного кроку.',
+            en: 'Now that is proper, you have your license in hand. That means you are ready for the next step.',
+            de: 'So muss das sein, der Führerschein ist in deiner Hand. Das heißt, du bist bereit für den nächsten Schritt.',
+            pl: 'No i to jest robota, prawo jazdy masz w ręku. To znaczy, że jesteś gotów na kolejny krok.',
         },
         yep: {
             ru: 'Ага',
@@ -51,12 +51,26 @@
             de: 'Jep',
             pl: 'No pewnie',
         },
-        goodbyeGoToDiana: {
-            ru: 'Ну что, пора прощаться - рад был помочь! Загляни к моей знакомой Диане, она тебя дальше сориентирует и подкинет парочку интересных заданий.',
-            ua: 'Ну що, час прощатися - радий був допомогти! Зазирни до моєї знайомої Діани, вона далі тебе зорієнтує і підкине кілька цікавих завдань.',
-            en: "Well, time to say goodbye - glad I could help! Drop by my friend Diana, she'll guide you further and hook you up with a few fun tasks.",
-            de: 'Na dann, Zeit sich zu verabschieden – ich habe dir gern geholfen! Schau bei meiner Freundin Diana vorbei, sie zeigt dir den Weg und hat ein paar spannende Aufgaben für dich.',
-            pl: 'No cóż, czas się pożegnać - cieszę się, że mogłem pomóc! Wpadnij do mojej znajomej Diany, ona cię dalej pokieruje i dorzuci kilka ciekawych zadań.',
+        nextStepFirstCar: {
+            ru: 'Темп не сбавляем. Следующий шаг - твоя первая машина. Сейчас коротко объясню, как выбрать её без ошибок.',
+            ua: 'Темп не скидаємо. Наступний крок - твоє перше авто. Зараз коротко поясню, як вибрати його без помилок.',
+            en: 'Keep the pace. Next step is your first car. I will quickly explain how to choose it without mistakes.',
+            de: 'Wir halten das Tempo. Nächster Schritt ist dein erstes Auto. Ich erkläre dir kurz, wie du es ohne Fehler auswählst.',
+            pl: 'Nie zwalniamy tempa. Kolejny krok to twoje pierwsze auto. Krótko wyjaśnię, jak wybrać je bez błędów.',
+        },
+        letsDoIt: {
+            ru: 'Давай, слушаю',
+            ua: 'Давай, слухаю',
+            en: 'Alright, tell me',
+            de: 'Okay, ich höre',
+            pl: 'Dawaj, słucham',
+        },
+        firstCarBriefing: {
+            ru: 'Смотри на три вещи: цена, обслуживание и расход топлива. Не гонись сразу за дорогой игрушкой - возьми практичный вариант, обкатаешься и потом апгрейднешься. И не забудь про телефон: через него можно серьезно управлять личной машиной - метка на карте, закрыть или открыть, вызвать к себе и убрать обратно. Удачи с покупкой.',
+            ua: 'Дивись на три речі: ціна, обслуговування і витрата пального. Не гонися одразу за дорогою іграшкою - візьми практичний варіант, обкатаєшся і потім апгрейднешся. І не забудь про телефон: через нього можна серйозно керувати особистим авто - мітка на мапі, закрити або відкрити, викликати до себе та прибрати назад. Удачі з покупкою.',
+            en: 'Look at three things: price, maintenance, and fuel consumption. Do not chase an expensive toy right away - pick a practical option, get used to driving, and upgrade later. And do not forget the phone: it gives you serious control over your personal vehicle - map marker, lock or unlock, summon it to you, and store it back. Good luck with the purchase.',
+            de: 'Achte auf drei Dinge: Preis, Wartung und Verbrauch. Lauf nicht sofort einer teuren Spielerei hinterher - nimm eine praktische Option, fahr dich ein und upgrade später. Und vergiss das Handy nicht: Darüber kannst du dein persönliches Fahrzeug richtig steuern - Kartenmarkierung, auf- oder zuschließen, zu dir rufen und wieder einparken. Viel Erfolg beim Kauf.',
+            pl: 'Patrz na trzy rzeczy: cenę, utrzymanie i spalanie. Nie leć od razu po drogą zabawkę - weź praktyczną opcję, objeździj się i potem zrobisz upgrade. I nie zapomnij o telefonie: przez niego możesz porządnie sterować własnym autem - znacznik na mapie, zamknij lub otwórz, przywołaj do siebie i schowaj z powrotem. Powodzenia przy zakupie.',
         },
         goodbye: {
             ru: 'Прощай',

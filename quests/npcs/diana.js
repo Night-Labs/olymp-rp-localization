@@ -33,11 +33,11 @@ export default {
     },
     all: {
         allQuestsCompleted: {
-            ru: 'Все мои поручения ты пока выполнил, можешь брать другие квесты в меню в разделе квестов',
-            ua: 'Усі мої доручення ти вже виконав, можеш брати інші квести в меню у розділі квестів',
-            en: "You've completed all my tasks for now, you can pick up other quests in the quests section of the menu",
-            de: 'Du hast alle meine Aufgaben bisher erledigt, du kannst andere Quests im Menü unter dem Quest-Bereich annehmen',
-            pl: 'Wykonałeś już wszystkie moje zadania, możesz brać inne misje w sekcji misji w menu',
+            ru: 'Все мои поручения ты выполнил. Теперь сходи к Майку - он подкинет тебе следующий этап.',
+            ua: 'Усі мої доручення ти виконав. Тепер сходи до Майка - він дасть тобі наступний етап.',
+            en: 'You have completed all my tasks. Now go to Mike - he will give you the next stage.',
+            de: 'Du hast alle meine Aufgaben erledigt. Geh jetzt zu Mike - er gibt dir die nächste Etappe.',
+            pl: 'Wykonałeś już wszystkie moje zadania. Teraz idź do Mike’a - da ci kolejny etap.',
         },
         bye: {
             ru: 'Пока',

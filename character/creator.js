@@ -17,7 +17,7 @@ export const creator = {
         zh: '输入的数据不正确',
     },
 
-    talkToFreddy: {
+    talkToMike: {
         ru: 'Поговори с Майком, он поможет освоиться в игре!',
         ua: 'Поговори з Майком, він допоможе освоїтися в грі!',
         en: 'Talk to Mike, he’ll help you get used to the game!',
