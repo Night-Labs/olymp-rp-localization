@@ -467,6 +467,20 @@ export const cef = {
                 de: 'Für Pilzsammler',
                 pl: 'Dla grzybiarza',
             },
+            garbage: {
+                ru: 'Для мусорщика',
+                ua: 'Для сміттяра',
+                en: 'For garbage collector',
+                de: 'Für Müllmann',
+                pl: 'Dla śmieciarza',
+            },
+            taxi: {
+                ru: 'Для водителя такси',
+                ua: 'Для водія таксі',
+                en: 'For taxi driver',
+                de: 'Für Taxifahrer',
+                pl: 'Dla kierowcy taksówki',
+            },
         },
     },
     clothes: {
