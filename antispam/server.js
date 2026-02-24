@@ -1,18 +1,16 @@
 export const server = {
     title: {
-        ua: 'Стоп',
-        en: 'Stop',
-        ru: 'Стоп',
-        de: 'Stop',
-        pl: 'Stop',
-        zh:'停止',
+        ru: 'Анти-спам',
+        ua: 'Анти-спам',
+        en: 'Anti-spam',
+        de: 'Anti-Spam',
+        pl: 'Anty-spam',
     },
     text: {
-        ua: 'Припини спамити',
-        en: 'Stop spamming',
-        ru: 'Прекрати спамить',
-        de: 'Hör auf zu spammen',
-        pl: 'Przestań spamować',
-        zh:'停止垃圾邮件',
+        ru: 'Пожалуйста, перестань спамить ;)',
+        ua: 'Будь ласка, припини спамити ;)',
+        en: 'Please stop spamming ;)',
+        de: 'Bitte hör auf zu spammen ;)',
+        pl: 'Proszę, przestań spamować ;)',
     },
 };
