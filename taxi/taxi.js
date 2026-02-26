@@ -200,4 +200,28 @@ export default {
         de: 'Ihr Fahrzeug ist nicht für die Arbeit als Taxi geeignet',
         pl: 'Twój pojazd nie nadaje się do pracy w taksówce',
     },
+
+    canNotCreateOrderInVehicle: {
+        ru: 'Вы не можете заказать такси, находясь в транспорте, сначала выйдите из транспорта.',
+        ua: 'Ви не можете замовити таксі, перебуваючи в транспорті, спочатку вийдіть з транспорту.',
+        en: 'You cannot order a taxi while being in a vehicle. Please exit the vehicle first.',
+        de: 'Sie können kein Taxi bestellen, während Sie sich in einem Fahrzeug befinden. Bitte verlassen Sie zuerst das Fahrzeug.',
+        pl: 'Nie możesz zamówić taksówki, będąc w pojeździe. Najpierw opuść pojazd.',
+    },
+
+    canNotCreateOrderFromHere: {
+        ru: 'Вы не можете заказать такси отсюда.',
+        ua: 'Ви не можете замовити таксі звідси.',
+        en: 'You cannot order a taxi from here.',
+        de: 'Sie können von hier aus kein Taxi bestellen.',
+        pl: 'Nie możesz zamówić taksówki stąd.',
+    },
+
+    canNotCreateOderForThisClass: {
+        ru: 'В штате нет водителей данного класса, попробуйте выбрать класс ниже.',
+        ua: 'У штаті немає водіїв цього класу, спробуйте обрати клас нижче.',
+        en: 'There are no drivers of this class available. Please try selecting a lower class.',
+        de: 'Es gibt keine Fahrer dieser Klasse. Bitte wählen Sie eine niedrigere Klasse.',
+        pl: 'Brak kierowców tej klasy. Spróbuj wybrać niższą klasę.',
+    },
 };
