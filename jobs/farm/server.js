@@ -123,6 +123,15 @@ export const server = {
         pl: 'Konewka jest pusta',
         zh: '水壶是空的',
     },
+    alreadyPerformingAction: {
+        ru: 'Вы уже выполняете другое действие',
+        ua: 'Ви вже виконуєте іншу дію',
+        en: 'You are already performing another action',
+        de: 'Du führst bereits eine andere Aktion aus',
+        pl: 'Wykonujesz już inną czynność',
+        ge: 'თქვენ უკვე ასრულებთ სხვა მოქმედებას',
+        zh: '你已经在执行另一个操作',
+    },
     noWaterNeed: {
         ru: 'Растение и так полито',
         ua: 'Рослину вже полито',

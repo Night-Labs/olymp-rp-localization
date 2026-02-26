@@ -69,7 +69,6 @@ export const vehicle = {
         pl: 'Wyrzuć wszystkich',
         zh: '把所有人都踢出去',
     },
-
     refuel: {
         ru: 'Заправить с канистры',
         ua: 'Заправити з каністри',
