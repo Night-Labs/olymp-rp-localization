@@ -173,6 +173,22 @@ export const server = {
             pl: 'Zdobyto {{exp}} doświadczenia grzybiarza!',
         },
 
+        garbage: {
+            ru: 'Получено {{exp}} опыта мусорщика!',
+            ua: 'Отримано {{exp}} досвіду сміттяра!',
+            en: '{{exp}} garbage collector experience received!',
+            de: '{{exp}} Müllmann-Erfahrung erhalten!',
+            pl: 'Otrzymano {{exp}} doświadczenia śmieciarza!',
+        },
+
+        taxi: {
+            ru: 'Получено {{exp}} опыта водителя такси!',
+            ua: 'Отримано {{exp}} досвіду водія таксі!',
+            en: '{{exp}} taxi driver experience received!',
+            de: '{{exp}} Taxifahrer-Erfahrung erhalten!',
+            pl: 'Otrzymano {{exp}} doświadczenia kierowcy taksówki!',
+        },
+
         currency: {
             ru: 'Получено ${{currency}}',
             ua: 'Отримано ${{currency}}',
