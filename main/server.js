@@ -249,6 +249,14 @@ export const server = {
             pl: 'Siła',
             zh: '力量',
         },
+        driving_ability: {
+            ru: 'Мастерство вождения',
+            ua: 'Майстерність водіння',
+            en: 'Driving skill',
+            de: 'Fahrkönnen',
+            pl: 'Umiejętność jazdy',
+            zh: '驾驶能力',
+        },
         lung_capacity: {
             ru: 'Дыхание',
             ua: 'Дихання',
@@ -258,11 +266,12 @@ export const server = {
             zh: '肺活量',
         },
         wheelie_ability: {
-            ru: 'Мастерство вождения',
-            ua: 'Майстерність водіння',
-            en: 'Driving skill',
-            de: 'Fahrkönnen',
-            pl: 'Umiejętność jazdy',
+            ru: 'Баланс мотоцикла (вилли)',
+            ua: 'Баланс мотоцикла (віллі)',
+            en: 'Wheelie control',
+            de: 'Wheelie-Kontrolle',
+            pl: 'Kontrola wheelie',
+            zh: '机车抬头控制',
         },
         flying_ability: {
             ru: 'Лётное мастерство',
