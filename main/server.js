@@ -232,6 +232,7 @@ export const server = {
         pl: 'Osiągnięto nowy poziom umiejętności {{skill}}.',
         zh: '你已达到技能 {{skill}} 的新等级。',
     },
+
     skillNames: {
         stamina: {
             ru: 'Выносливость',

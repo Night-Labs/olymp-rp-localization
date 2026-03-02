@@ -181,6 +181,17 @@ export const cef = {
             pl: 'Nieruchomość',
             zh: '属性',
         },
+
+        propertyList: {
+            house: {
+                ru: 'Дом',
+                ua: 'Будинок',
+                en: 'House',
+                de: 'Haus',
+                pl: 'Dom',
+            },
+        },
+
         mainStatsList: {
             gender: {
                 ua: 'Стать',
@@ -286,6 +297,34 @@ export const cef = {
                 pl: 'Nie',
                 zh: '不',
             },
+            phoneNumber: {
+                ru: 'Номер телефона',
+                ua: 'Номер телефону',
+                en: 'Phone number',
+                de: 'Telefonnummer',
+                pl: 'Numer telefonu',
+            },
+            bank: {
+                ru: 'Номер банковского счета',
+                ua: 'Номер банківського рахунку',
+                en: 'Bank account number',
+                de: 'Bankkontonummer',
+                pl: 'Numer rachunku bankowego',
+            },
+            acquaintances: {
+                ru: 'Знакомые',
+                ua: 'Знайомі',
+                en: 'Acquaintances',
+                de: 'Bekannte',
+                pl: 'Znajomi',
+            },
+            registerDate: {
+                ru: 'Дата регистрации аккаунта',
+                ua: 'Дата реєстрації акаунта',
+                en: 'Account registration date',
+                de: 'Registrierungsdatum des Kontos',
+                pl: 'Data rejestracji konta',
+            },
         },
         categories: {
             all: {
@@ -312,6 +351,74 @@ export const cef = {
                 pl: 'Domki',
                 zh: '房屋',
             },
+        },
+        wanted: {
+            ru: 'Розыск',
+            ua: 'Розшук',
+            en: 'Wanted',
+            de: 'Fahndung',
+            pl: 'Poszukiwany',
+        },
+
+        online: {
+            ru: 'Ваш онлайн',
+            ua: 'Ваш онлайн',
+            en: 'Your online',
+            de: 'Ihr Online-Status',
+            pl: 'Twój status online',
+        },
+
+        jobLevels: {
+            ru: 'Уровни работ',
+            ua: 'Рівні робіт',
+            en: 'Job levels',
+            de: 'Arbeitsebenen',
+            pl: 'Poziomy prac',
+        },
+        skills: {
+            ru: 'Навыки',
+            ua: 'Навички',
+            en: 'Skills',
+            de: 'Fähigkeiten',
+            pl: 'Umiejętności',
+        },
+
+        periodButtons: {
+            daily: {
+                ru: 'День',
+                ua: 'День',
+                en: 'Day',
+                de: 'Tag',
+                pl: 'Dzień',
+            },
+            weekly: {
+                ru: 'Неделя',
+                ua: 'Тиждень',
+                en: 'Week',
+                de: 'Woche',
+                pl: 'Tydzień',
+            },
+            monthly: {
+                ru: 'Месяц',
+                ua: 'Місяць',
+                en: 'Month',
+                de: 'Monat',
+                pl: 'Miesiąc',
+            },
+            total: {
+                ru: 'Всего',
+                ua: 'Всього',
+                en: 'Total',
+                de: 'Gesamt',
+                pl: 'Łącznie',
+            },
+        },
+        bankDeposit: {
+            ru: 'Депозит в банке',
+            ua: 'Банківський депозит',
+            en: 'Bank deposit',
+            de: 'Bankeinlage',
+            pl: 'Depozyt bankowy',
         },
     },
     inventory: {
