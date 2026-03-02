@@ -206,6 +206,14 @@ export const player = {
         pl: 'Ulepić śnieżkę',
         zh: '堆雪',
     },
+    suicide: {
+        ru: 'Суицид',
+        ua: 'Суїцид',
+        en: 'Suicide',
+        de: 'Selbstmord',
+        pl: 'Samobojstwo',
+        zh: '自杀',
+    },
 
     //
     passport: {
