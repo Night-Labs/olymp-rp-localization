@@ -156,6 +156,22 @@ export const cef = {
             pl: 'Oto twoje statystyki',
             zh: '这是你的统计数据',
         },
+        notifyHeader: {
+            ru: 'GPS',
+            ua: 'GPS',
+            en: 'GPS',
+            de: 'GPS',
+            pl: 'GPS',
+            zh: 'GPS',
+        },
+        routeSetNotify: {
+            ru: 'Маршрут проложен',
+            ua: 'Маршрут прокладено',
+            en: 'Route has been set',
+            de: 'Route wurde festgelegt',
+            pl: 'Trasa została wyznaczona',
+            zh: '路线已设置',
+        },
 
         mainStats: {
             ua: 'Загальна статистика',

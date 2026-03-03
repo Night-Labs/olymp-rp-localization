@@ -412,6 +412,14 @@ export const cef = {
             pl: 'Czas do naliczenia odsetek: {{timeLeftToDeposit}}',
             zh: '计息前的剩余时间:{{timeLeftToDeposit}}',
         },
+        timeLeftLabel: {
+            ru: 'Времени до получения процентов',
+            en: 'Time left until interest accrual',
+            ua: 'Часу до отримання відсотків',
+            de: 'Verbleibende Zeit bis zur Zinsgutschrift',
+            pl: 'Czas do naliczenia odsetek',
+            zh: '计息前的剩余时间',
+        },
         payoutReceivedToday: {
             ru: 'Выплата процентов за сегодня уже получена',
             en: 'Today interest payout has already been received',
