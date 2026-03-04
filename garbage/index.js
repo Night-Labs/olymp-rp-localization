@@ -1,11 +1,11 @@
 export default {
     dialogMain: {
         hello: {
-            ru: 'Привет. Нужна простая работа? Можешь собирать мусор и стабильно зарабатывать.',
-            ua: "Привiт. Потрiбна проста робота? Можеш збирати смiття i стабiльно заробляти.",
-            en: 'Hey. Need a simple job? You can collect garbage and earn stable money.',
-            de: 'Hallo. Suchst du einen einfachen Job? Du kannst Mull sammeln und stabiles Geld verdienen.',
-            pl: 'Czesc. Potrzebujesz prostej pracy? Mozesz zbierac smieci i stabilnie zarabiac.',
+            ru: 'Привет. Я главный по смене. Работа простая, собираешь мешки по точкам и стабильно получаешь оплату. Чтобы работать вместе, сначала соберите пати через меню взаимодействия.',
+            ua: 'Привiт. Я головний по змiнi. Робота проста, збираєш мiшки на точках i стабiльно отримуєш оплату. Щоб працювати разом, спочатку зберiть патi через меню взаємодiї.',
+            en: 'Hey. I run this shift. The job is simple: collect bags at marked points and get paid steadily. To work together, first create a party via the interaction menu.',
+            de: 'Hallo. Ich leite diese Schicht. Der Job ist einfach: Sammle Säcke an markierten Punkten und verdiene stabiles Geld. Wenn ihr zusammenarbeiten wollt, erstellt zuerst eine Gruppe im Interaktionsmenü.',
+            pl: 'Czesc. Prowadze te zmiane. Praca jest prosta: zbierasz worki w oznaczonych punktach i regularnie dostajesz wyplate. Zeby pracowac razem, najpierw utworz party przez menu interakcji.',
         },
         start: {
             ru: 'Начать работу',
@@ -21,6 +21,13 @@ export default {
             de: 'Erzahl mir mehr',
             pl: 'Powiedz wiecej',
         },
+        together: {
+            ru: 'Как работать вместе',
+            ua: 'Як працювати разом',
+            en: 'How to work together',
+            de: 'Wie ihr zusammen arbeitet',
+            pl: 'Jak pracować razem',
+        },
         no: {
             ru: 'Не сейчас',
             ua: 'Не зараз',
@@ -29,7 +36,7 @@ export default {
             pl: 'Nie teraz',
         },
         confirmStart: {
-            ru: 'Берешь мешок на точке и относишь к мусоровозу. Готов приступить?',
+            ru: 'Маршрут отмечен. Берешь мешок на точке, несешь к мусоровозу. Когда кузов полный, водитель везет машину на завод на разгрузку. Готов приступить?',
             ua: 'Береш мiшок на точцi та несеш до смiттевоза. Готовий почати?',
             en: 'Pick up a bag at a point and carry it to a garbage truck. Ready to start?',
             de: 'Nimm einen Sack am Punkt auf und bring ihn zum Mullwagen. Bereit zu starten?',
@@ -50,11 +57,18 @@ export default {
             pl: 'Pozniej',
         },
         about: {
-            ru: 'В работе всё просто: бери мешок по маршруту и сдавай его в любой мусоровоз. За каждый мешок получаешь деньги и опыт.',
-            ua: 'У роботi все просто: бери мiшок на маршрутi та здавай його в будь-який смiттєвоз. За кожен мiшок отримаеш грошi та досвiд.',
-            en: 'The job is simple: pick up a bag on route and deliver it to any garbage truck. You get money and experience for each bag.',
-            de: 'Der Job ist einfach: Nimm einen Sack auf der Route und liefere ihn an einen beliebigen Mullwagen. Fur jeden Sack bekommst du Geld und Erfahrung.',
-            pl: 'Praca jest prosta: bierzesz worek na trasie i oddajesz go do dowolnej smieciarki. Za kazdy worek dostajesz pieniadze i doswiadczenie.',
+            ru: 'Слушай порядок. Едете по маршруту, на точке берете мешки и сдаете их в рабочий мусоровоз. Хочешь работать вдвоем, сначала создай пати через меню взаимодействия и пригласи напарника. В совместную смену попадают только игроки из одной группы. Вдвоем быстрее, один подгоняет машину, второй таскает мешки. Сдавать мешки и получать оплату может каждый. Когда кузов заполнится, только водитель разгружает машину на заводе. Смена у группы общая, маршрут тоже общий.',
+            ua: 'Слухай порядок. Iдете за маршрутом, на точцi берете мiшки та здаєте iх у робочий смiттевоз. Хочеш працювати вдвох, спочатку створи патi через меню взаємодiї i запроси напарника. У спiльну змiну потрапляють лише гравцi з однiєї групи. Вдвох швидше, один пiдганяє машину, другий носить мiшки. Здавати мiшки та отримувати оплату може кожен. Коли кузов заповниться, лише водiй розвантажує машину на заводi. Змiна у групи спiльна, маршрут теж спiльний.',
+            en: 'Here is the flow. You follow the route, pick up bags at points, and load them into the work garbage truck. If you want to work as a pair, create a party in the interaction menu and invite your partner. Only players from the same party can join one shared shift. Two players are faster: one positions the truck, the other carries bags. Each player gets paid for the bags they deliver. When the truck is full, only the driver unloads it at the plant. The shift and route are shared for the whole party.',
+            de: 'So läuft es ab. Ihr folgt der Route, nehmt an den Punkten Säcke auf und ladet sie in den Arbeits-Müllwagen. Wenn ihr zu zweit arbeiten wollt, erstellt zuerst eine Gruppe im Interaktionsmenü und ladet euren Partner ein. Nur Spieler aus derselben Gruppe können eine gemeinsame Schicht starten. Zu zweit geht es schneller: Einer positioniert den Wagen, der andere trägt die Säcke. Jeder bekommt Geld für die Säcke, die er abgibt. Ist der Wagen voll, darf nur der Fahrer an der Anlage entladen. Schicht und Route sind für die ganze Gruppe gemeinsam.',
+            pl: 'To dziala tak. Jedziecie trasa, bierzecie worki w punktach i wrzucacie je do roboczej smieciarki. Jesli chcecie pracowac we dwoje, najpierw utworzcie party w menu interakcji i zaproscie partnera. Do jednej wspolnej zmiany moga dolaczyc tylko gracze z tej samej grupy. We dwoje jest szybciej: jedna osoba ustawia auto, druga nosi worki. Kazdy dostaje wyplate za worki, ktore sam odda. Gdy auto sie zapelni, tylko kierowca rozladowuje je w zakladzie. Zmiana i trasa sa wspolne dla calej grupy.',
+        },
+        aboutCoop: {
+            ru: 'Объясняю по шагам. Открываешь меню взаимодействия, создаешь пати и приглашаешь напарника. Когда вы в одной группе, один запускает смену у меня, второй подходит ко мне и присоединяется к его смене. Если вы не в одной группе, совместная смена не запустится.',
+            ua: 'Пояснюю по кроках. Вiдкриваєш меню взаємодiї, створюєш патi та запрошуєш напарника. Коли ви в однiй групi, один запускає змiну у мене, другий пiдходить до мене та приєднується до його змiни. Якщо ви не в однiй групi, спiльна змiна не запуститься.',
+            en: 'Step by step. Open the interaction menu, create a party, and invite your partner. When you are in the same group, one player starts the shift with me, and the second talks to me and joins that shift. If you are not in the same group, the shared shift will not start.',
+            de: 'Schritt für Schritt. Öffnet das Interaktionsmenü, erstellt eine Gruppe und ladet euren Partner ein. Wenn ihr in derselben Gruppe seid, startet einer die Schicht bei mir und der zweite spricht mich an und tritt dieser Schicht bei. Seid ihr nicht in derselben Gruppe, startet die gemeinsame Schicht nicht.',
+            pl: 'Krok po kroku. Otworzcie menu interakcji, utworzcie party i zaproscie partnera. Gdy jestescie w tej samej grupie, jedna osoba uruchamia zmiane u mnie, a druga podchodzi do mnie i dolacza do tej zmiany. Jesli nie jestescie w tej samej grupie, wspolna zmiana sie nie uruchomi.',
         },
         understand: {
             ru: 'Понял',
@@ -64,7 +78,7 @@ export default {
             pl: 'Rozumiem',
         },
         bye: {
-            ru: 'Если передумаешь - подходи.',
+            ru: 'Передумаешь, подходи.',
             ua: 'Якщо передумаеш - пiдходь.',
             en: 'If you change your mind, come back.',
             de: 'Wenn du es dir anders uberlegst, komm zuruck.',
@@ -119,15 +133,15 @@ export default {
     },
     dialogPartyJoin: {
         memberWorking: {
-            ru: 'Человек из вашей группы уже работает мусорщиком. Хотите работать вместе с ним?',
-            ua: 'Людина з вашоi групи вже працюе смiттярем. Хочете працювати разом з ним?',
+            ru: 'Твой напарник из твоей пати уже на смене мусорщиков. Подключишься к его маршруту и будете работать на одном мусоровозе. За свои мешки каждый получает отдельно. Присоединяешься?',
+            ua: 'Твiй напарник iз твоєї патi вже на змiнi смiттярiв. Пiдключишся до його маршруту i будете працювати на одному смiттєвозi. За своi мiшки кожен отримує окремо. Приєднуєшся?',
             en: 'Someone in your party is already working this job. Do you want to work together?',
-            de: 'Jemand aus deiner Gruppe arbeitet bereits in diesem Job. Willst du zusammen arbeiten?',
+            de: 'Jemand aus deiner Gruppe arbeitet bereits in diesem Job. Willst du zusammenarbeiten?',
             pl: 'Ktoś z twojej grupy już pracuje na tej pracy. Chcesz pracować razem z nim?',
         },
         joinYes: {
             ru: 'Да, присоединиться',
-            ua: 'Так, приеднатися',
+            ua: 'Так, приєднатися',
             en: 'Yes, join',
             de: 'Ja, beitreten',
             pl: 'Tak, dołącz',
@@ -200,9 +214,9 @@ export default {
     },
     joinedCoop: {
         ru: 'Вы присоединились к совместной работе мусорщиков.',
-        ua: 'Ви приедналися до спiльноi роботи смiттярiв.',
-        en: 'You joined a cooperative garbage shift.',
-        de: 'Du bist einer kooperativen Müllschicht beigetreten.',
+        ua: 'Ви приєдналися до спiльної роботи смiттярiв.',
+        en: 'You joined a shared garbage shift.',
+        de: 'Du bist einer gemeinsamen Mullschicht beigetreten.',
         pl: 'Dołączyłeś do wspólnej zmiany śmieciarzy.',
     },
     stoppedJob: {
@@ -236,7 +250,7 @@ export default {
     vehicleLocked: {
         ru: 'Это рабочая машина другого сотрудника.',
         ua: 'Це робоча машина iншого працiвника.',
-        en: 'This is another worker`s job vehicle.',
+        en: 'This is another worker\'s job vehicle.',
         de: 'Dies ist das Arbeitsfahrzeug eines anderen Mitarbeiters.',
         pl: 'To pojazd sluzbowy innego pracownika.',
     },
