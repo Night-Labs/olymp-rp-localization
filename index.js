@@ -79,6 +79,7 @@ import taxi from './taxi/taxi';
 import gym from './gym';
 import achievements from './achievements';
 import realtor from './realtor';
+import offcies from './offcies';
 
 export default {
     account,
@@ -162,4 +163,6 @@ export default {
     gym,
     achievements,
     realtor,
+    offcies,
 };
+
