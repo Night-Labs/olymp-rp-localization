@@ -80,6 +80,7 @@ import gym from './gym';
 import achievements from './achievements';
 import realtor from './realtor';
 import offcies from './offcies';
+import organizationRegistration from './organizationRegistration';
 
 export default {
     account,
@@ -164,5 +165,8 @@ export default {
     achievements,
     realtor,
     offcies,
+    organizationRegistration,
 };
+
+
 

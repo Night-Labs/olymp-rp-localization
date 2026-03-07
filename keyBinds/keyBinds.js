@@ -237,6 +237,13 @@ export default {
         de: 'Lichter',
         pl: 'Światła',
     },
+    'vehicle.passengerSeat': {
+        ru: 'Сесть на пассажирское место',
+        ua: 'Сісти на пасажирське місце',
+        en: 'Enter passenger seat',
+        de: 'Auf den Beifahrersitz setzen',
+        pl: 'Usiądź na miejscu pasażera',
+    },
     megaphone: {
         ru: 'Мегафон',
         ua: 'Мегафон',
