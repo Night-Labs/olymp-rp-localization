@@ -1,5 +1,5 @@
-import { settings } from "./settings";
-import { inventory } from "./inventory";
+import { settings } from './settings';
+import { inventory } from './inventory';
 
 export const cef = {
     items: {
@@ -328,6 +328,41 @@ export const cef = {
                 de: 'Registrierungsdatum des Kontos',
                 pl: 'Data rejestracji konta',
             },
+            warn: {
+                ru: 'Варны',
+                ua: 'Попередження',
+                en: 'Warnings',
+                de: 'Verwarnungen',
+                pl: 'Ostrzeżenia',
+            },
+            marriage: {
+                ru: 'Семейное положение',
+                ua: 'Сімейний стан',
+                en: 'Marital status',
+                de: 'Familienstand',
+                pl: 'Stan cywilny',
+            },
+            notMarried: {
+                ru: 'Не в браке',
+                ua: 'Не в шлюбі',
+                en: 'Not married',
+                de: 'Nicht verheiratet',
+                pl: 'Nie w związku małżeńskim',
+            },
+            marriedFemale: {
+                ru: 'Замужем за',
+                ua: 'Заміжня за',
+                en: 'Married to',
+                de: 'Verheiratet mit',
+                pl: 'Zamężna za',
+            },
+            marriedMale: {
+                ru: 'Женат на',
+                ua: 'Одружений з',
+                en: 'Married to',
+                de: 'Verheiratet mit',
+                pl: 'Żonaty z',
+            },
         },
         categories: {
             all: {
@@ -425,6 +460,5 @@ export const cef = {
         },
     },
     inventory,
-    settings
+    settings,
 };
-
