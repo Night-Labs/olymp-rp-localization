@@ -89,6 +89,86 @@ export default {
             zh: '你的目标是挣${{目标}},作为一个卡车司机。行驶数百英里，安全地运送货物。展现你的专业精神，赢得你应得的奖励',
         },
     },
+    taxiJobDailyQuest: {
+        name: {
+            ru: 'Такси на линии',
+            ua: 'Таксі на лінії',
+            en: 'Taxi Shift',
+            de: 'Taxi-Schicht',
+            pl: 'Zmiana taksówkarza',
+        },
+        desc: {
+            ru: 'Пора выйти на смену и заработать ${{goal}}, выполняя заказы в такси. Быстро подбирай клиентов, довози до точки и забирай награду!',
+            ua: 'Час виходити на зміну й заробити ${{goal}}, виконуючи замовлення в таксі. Швидко підбирай клієнтів, довозь до точки та забирай нагороду!',
+            en: 'Time to hit your shift and earn ${{goal}} by completing taxi orders. Pick up clients quickly, deliver them safely, and claim your reward!',
+            de: 'Zeit für deine Schicht: Verdiene ${{goal}}, indem du Taxiaufträge abschließt. Nimm Kunden schnell auf, bring sie sicher ans Ziel und hol dir deine Belohnung!',
+            pl: 'Czas na zmianę: zarób ${{goal}}, realizując kursy taxi. Szybko odbieraj klientów, dowoź ich na miejsce i zgarnij nagrodę!',
+        },
+    },
+    garbageJobDailyQuest: {
+        name: {
+            ru: 'Чистый район',
+            ua: 'Чистий район',
+            en: 'Clean District',
+            de: 'Sauberer Bezirk',
+            pl: 'Czysta dzielnica',
+        },
+        desc: {
+            ru: 'Садись в мусоровоз и заработай ${{goal}}, вывозя мусор по маршруту. Чем чище город - тем ближе награда!',
+            ua: 'Сідай у сміттєвоз і зароби ${{goal}}, вивозячи сміття за маршрутом. Чим чистіше місто - тим ближча нагорода!',
+            en: 'Hop into the garbage truck and earn ${{goal}} by hauling trash along the route. The cleaner the city, the closer the reward!',
+            de: 'Steig in den Müllwagen und verdiene ${{goal}}, indem du Müll auf der Route sammelst. Je sauberer die Stadt, desto näher die Belohnung!',
+            pl: 'Wskakuj do śmieciarki i zarób ${{goal}}, wywożąc odpady po trasie. Im czystsze miasto, tym bliżej nagroda!',
+        },
+    },
+    divingCollectDailyQuest: {
+        name: {
+            ru: 'Подводный сбор',
+            ua: 'Підводний збір',
+            en: 'Underwater Collect',
+            de: 'Unterwasser-Sammlung',
+            pl: 'Podwodny zbiór',
+        },
+        desc: {
+            ru: 'Ныряй глубже и подними {{amount}} подводных находок. Чем больше трофеев достанешь со дна - тем ближе награда!',
+            ua: 'Пірнай глибше та підніми {{amount}} підводних знахідок. Чим більше трофеїв дістанеш із дна - тим ближча нагорода!',
+            en: 'Dive deeper and collect {{amount}} underwater finds. The more treasures you lift from the seabed, the closer your reward!',
+            de: 'Tauche tiefer und sammle {{amount}} Unterwasserfunde. Je mehr Schätze du vom Meeresboden holst, desto näher ist deine Belohnung!',
+            pl: 'Nurkuj głębiej i zbierz {{amount}} podwodnych znalezisk. Im więcej skarbów wyciągniesz z dna, tym bliżej nagroda!',
+        },
+    },
+    mushroomsJobDailyQuest: {
+        name: {
+            ru: 'Грибная тропа',
+            ua: 'Грибна стежка',
+            en: 'Mushroom Trail',
+            de: 'Pilzpfad',
+            pl: 'Grzybowa ścieżka',
+        },
+        desc: {
+            ru: 'Собери {{amount}} грибных точек, работая грибником. Проверь удачные места и забери награду за продуктивный сбор!',
+            ua: 'Збери {{amount}} грибних точок, працюючи грибником. Перевір вдалi місця та забери нагороду за продуктивний збір!',
+            en: 'Collect {{amount}} mushroom spots while working as a mushroom picker. Check the best places and claim your reward for a productive run!',
+            de: 'Sammle {{amount}} Pilzstellen als Pilzsammler. Such die besten Orte ab und hol dir deine Belohnung für eine produktive Tour!',
+            pl: 'Zbierz {{amount}} punktów grzybów, pracując jako grzybiarz. Sprawdź najlepsze miejscówki i odbierz nagrodę za udany zbiór!',
+        },
+    },
+    treasureHunterJobDailyQuest: {
+        name: {
+            ru: 'Охотник за кладами',
+            ua: 'Мисливець за скарбами',
+            en: 'Treasure Seeker',
+            de: 'Schatzjäger',
+            pl: 'Łowca skarbów',
+        },
+        desc: {
+            ru: 'Найди {{amount}} кладов, используя карты сокровищ. Копай точнее, забирай лут и получай награду!',
+            ua: 'Знайди {{amount}} скарбів, використовуючи карти скарбів. Копай точніше, забирай лут і отримуй нагороду!',
+            en: 'Find {{amount}} treasures using treasure maps. Dig precisely, grab the loot, and earn your reward!',
+            de: 'Finde {{amount}} Schätze mit Schatzkarten. Grabe präzise, nimm die Beute mit und sichere dir deine Belohnung!',
+            pl: 'Znajdź {{amount}} skarbów, używając map skarbów. Kop dokładnie, zgarnij łup i odbierz nagrodę!',
+        },
+    },
     spinLuckyWheelDailyQuest: {
         name: {
             ru: 'Испытай удачу',

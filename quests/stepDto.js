@@ -510,6 +510,20 @@ export const stepDto = {
         pl: 'Zarób ${{count}} jako kierowca autobusu',
         zh: '当司机赚${{count}',
     },
+    earnMoneyWorkingTaxi: {
+        ru: 'Заработайте ${{count}} работая таксистом',
+        ua: 'Заробіть ${{count}}, працюючи таксистом',
+        en: 'Earn ${{count}} working as a taxi driver',
+        de: 'Verdienen Sie ${{count}}, indem Sie als Taxifahrer arbeiten',
+        pl: 'Zarób ${{count}}, pracując jako taksówkarz',
+    },
+    earnMoneyWorkingGarbage: {
+        ru: 'Заработайте ${{count}} работая мусорщиком',
+        ua: 'Заробіть ${{count}}, працюючи сміттярем',
+        en: 'Earn ${{count}} working as a garbage collector',
+        de: 'Verdienen Sie ${{count}}, indem Sie als Müllmann arbeiten',
+        pl: 'Zarób ${{count}}, pracując jako śmieciarz',
+    },
 
     meetPlayers: {
         ru: 'Познакомьтесь с {{greetCount}} игроками',
@@ -802,6 +816,27 @@ export const stepDto = {
         en: 'Earn {{amount}}$ working as a bulldozer driver in the quarry',
         de: 'Verdiene {{amount}}$, indem du als Bulldozerfahrer im Steinbruch arbeitest',
         pl: 'Zarób {{amount}}$ pracując jako operator buldożera w kamieniołomie',
+    },
+    collectDivingDailyQuest: {
+        ru: 'Соберите {{count}} подводных находок, работая дайвером',
+        ua: 'Збери {{count}} підводних знахідок, працюючи дайвером',
+        en: 'Collect {{count}} underwater finds while working as a diver',
+        de: 'Sammle {{count}} Unterwasserfunde, während du als Taucher arbeitest',
+        pl: 'Zbierz {{count}} podwodnych znalezisk, pracując jako nurek',
+    },
+    collectMushroomsDailyQuest: {
+        ru: 'Соберите {{count}} грибных точек, работая грибником',
+        ua: 'Збери {{count}} грибних точок, працюючи грибником',
+        en: 'Collect {{count}} mushroom spots while working as a mushroom picker',
+        de: 'Sammle {{count}} Pilzstellen, während du als Pilzsammler arbeitest',
+        pl: 'Zbierz {{count}} punktów grzybów, pracując jako grzybiarz',
+    },
+    findTreasureDailyQuest: {
+        ru: 'Найдите {{count}} кладов, работая кладоискателем',
+        ua: 'Знайди {{count}} скарбів, працюючи шукачем скарбів',
+        en: 'Find {{count}} treasures while working as a treasure hunter',
+        de: 'Finde {{count}} Schätze, während du als Schatzsucher arbeitest',
+        pl: 'Znajdź {{count}} skarbów, pracując jako poszukiwacz skarbów',
     },
     flappyBirdReachRecord: {
         ru: 'Побейте свой рекорд в мини игре Flappy Bird',
