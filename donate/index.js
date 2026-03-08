@@ -91,6 +91,22 @@ export default {
             pl: 'Aktywowałeś kod promocyjny {{promocodeName}} na {{donate}} walutę darowizn',
             zh: '您已激活用于{{捐赠}}捐赠的促销代码',
         },
+        successActivatedDelayed: {
+            ru: 'Вы активировали промокод {{promocodeName}}, отыграйте {{requiredHours}} часов для получения {{donate}} Olymp Coins',
+            ua: 'Ви активували промокод {{promocodeName}}, відіграйте {{requiredHours}} годин для отримання {{donate}} Olymp Coins',
+            en: 'You activated the promo code {{promocodeName}}. Play {{requiredHours}} hours to receive {{donate}} Olymp Coins',
+            de: 'Du hast den Promo-Code {{promocodeName}} aktiviert. Spiele {{requiredHours}} Stunden, um {{donate}} Olymp Coins zu erhalten',
+            pl: 'Aktywowałeś kod promocyjny {{promocodeName}}. Graj {{requiredHours}} godzin, aby otrzymać {{donate}} Olymp Coins',
+            zh: '您已激活促销代码 {{promocodeName}}。游玩 {{requiredHours}} 小时即可获得 {{donate}} Olymp Coins',
+        },
+        successRewardDelayed: {
+            ru: 'Вы отыграли {{requiredHours}} часов и получили награду {{donate}} Olymp Coins за активацию промокода {{promocodeName}}',
+            ua: 'Ви відіграли {{requiredHours}} годин та отримали нагороду {{donate}} Olymp Coins за активацію промокоду {{promocodeName}}',
+            en: 'You played {{requiredHours}} hours and received {{donate}} Olymp Coins for activating the promo code {{promocodeName}}',
+            de: 'Du hast {{requiredHours}} Stunden gespielt und {{donate}} Olymp Coins für die Aktivierung des Promo-Codes {{promocodeName}} erhalten',
+            pl: 'Grałeś {{requiredHours}} godzin i otrzymałeś {{donate}} Olymp Coins za aktywację kodu promocyjnego {{promocodeName}}',
+            zh: '您已游玩 {{requiredHours}} 小时，并因激活促销代码 {{promocodeName}} 获得 {{donate}} Olymp Coins',
+        },
     },
 
     modal: {

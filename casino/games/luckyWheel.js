@@ -50,6 +50,15 @@ export const luckyWheel = {
         pl: 'Obróć teraz',
         zh: '自旋现在',
     },
+
+    readyInCasino: {
+        ru: 'Доступно для прокрутки в казино',
+        ua: 'Доступно для прокрутки в казино',
+        en: 'Available for spinning in the casino',
+        de: 'Zum Drehen im Casino verfügbar',
+        pl: 'Dostępne do kręcenia w kasynie',
+    },
+
     chances: {
         ru: 'Шансы',
         ua: 'Шанси',
