@@ -123,6 +123,14 @@ export default {
                 pl: 'Licencje?',
             },
 
+            createOrganization: {
+                ru: 'Создать организацию',
+                ua: 'Створити організацію',
+                en: 'Create an organization',
+                de: 'Organisation erstellen',
+                pl: 'Utwórz organizację',
+            },
+
             bye: {
                 ru: 'До свидания.',
                 ua: 'Допобачення.',
@@ -137,6 +145,14 @@ export default {
                 en: 'Alright, come back anytime.',
                 de: 'Alles klar, komme jederzeit wieder.',
                 pl: 'Dobrze, wracaj, kiedy tylko chcesz.',
+            },
+
+            alreadyInOrganization: {
+                ru: 'Вы уже состоите в организации {{organizationName}}.',
+                ua: 'Ви вже перебуваєте в організації {{organizationName}}.',
+                en: 'You are already in the organization {{organizationName}}.',
+                de: 'Du bist bereits Mitglied der Organisation {{organizationName}}.',
+                pl: 'Już należysz do organizacji {{organizationName}}.',
             },
 
             licensesExplanation: {
@@ -260,3 +276,4 @@ export default {
         },
     },
 };
+

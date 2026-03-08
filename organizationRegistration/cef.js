@@ -1,0 +1,392 @@
+export const cef = {
+    benefits: {
+        unite: {
+            ru: 'Объединяйся с друзьями и другими игроками чтобы стать сильнее и получить больше возможностей',
+            ua: "Об'єднуйся з друзями та іншими гравцями, щоб стати сильнішим і отримати більше можливостей",
+            en: 'Team up with friends and other players to grow stronger and unlock more opportunities',
+            de: 'Schließe dich mit Freunden und anderen Spielern zusammen, um stärker zu werden und mehr Möglichkeiten zu erhalten',
+            pl: 'Łącz siły z przyjaciółmi i innymi graczami, aby stać się silniejszym i zyskać więcej możliwości',
+        },
+        choosePath: {
+            ru: 'Определите путь вашей организации сами, будет ли ваша организация криминальной либо всё в рамках закона или может всё сразу?',
+            ua: 'Визначте шлях вашої організації самі: чи буде вона кримінальною, чи все в межах закону, а може й усе одразу?',
+            en: 'Choose the path of your organization yourself: criminal, lawful, or perhaps a mix of both',
+            de: 'Bestimmen Sie den Weg Ihrer Organisation selbst: kriminell, gesetzestreu oder vielleicht gleich beides',
+            pl: 'Sami wybierzcie drogę swojej organizacji: przestępczą, legalną albo może od razu obie',
+        },
+        conquer: {
+            ru: 'Завоёвывайте территории в беспощадных войнах с другими организациями за власть и прибыль',
+            ua: 'Завойовуйте території в безжальних війнах з іншими організаціями за владу та прибуток',
+            en: 'Conquer territories in ruthless wars against other organizations for power and profit',
+            de: 'Erobern Sie Gebiete in gnadenlosen Kriegen gegen andere Organisationen um Macht und Profit',
+            pl: 'Zdobywajcie terytoria w bezwzględnych wojnach z innymi organizacjami o władzę i zysk',
+        },
+        contracts: {
+            ru: 'Выполняйте контракты, ежедневные задания и другие активности, будь то ограбления банков и игроков или же законная работа на благо штата',
+            ua: "Виконуйте контракти, щоденні завдання та інші активності, будь то пограбування банків і гравців чи законна робота на благо штату",
+            en: 'Complete contracts, daily tasks, and other activities, from robbing banks and players to lawful work for the state',
+            de: 'Erfüllen Sie Aufträge, tägliche Aufgaben und andere Aktivitäten, von Bank- und Spielerüberfällen bis hin zu legaler Arbeit für den Staat',
+            pl: 'Wykonujcie kontrakty, codzienne zadania i inne aktywności, od napadów na banki i graczy po legalną pracę na rzecz stanu',
+        },
+        transport: {
+            ru: 'Создайте общий автопарк мечты с самым мощным и полезным транспортом в штате',
+            ua: 'Створіть спільний автопарк мрії з найпотужнішим і найкориснішим транспортом у штаті',
+            en: 'Build a shared dream fleet with the most powerful and useful vehicles in the state',
+            de: 'Stellen Sie einen gemeinsamen Traumfuhrpark mit den stärksten und nützlichsten Fahrzeugen im Staat zusammen',
+            pl: 'Stwórzcie wspólną flotę marzeń z najmocniejszymi i najbardziej użytecznymi pojazdami w stanie',
+        },
+    },
+    header: {
+        title: {
+            ru: 'Регистрация организации',
+            ua: 'Реєстрація організації',
+            en: 'Organization Registration',
+            de: 'Organisationsregistrierung',
+            pl: 'Rejestracja organizacji',
+        },
+        step: {
+            ru: 'Шаг {{step}}',
+            ua: 'Крок {{step}}',
+            en: 'Step {{step}}',
+            de: 'Schritt {{step}}',
+            pl: 'Krok {{step}}',
+        },
+    },
+    step1: {
+        subtitle: {
+            ru: 'Выбор штаб-квартиры',
+            ua: 'Вибір штаб-квартири',
+            en: 'Choose Headquarters',
+            de: 'Hauptquartier auswählen',
+            pl: 'Wybór siedziby głównej',
+        },
+        emptyState: {
+            ru: 'На текущий момент у вас отсутствует подходящая жилая недвижимость или офисное помещение, однако вы все еще сохраняете возможность зарегистрировать собственную организацию, чтобы в дальнейшем приобрести необходимый объект недвижимости на ваш выбор.',
+            ua: "Наразі у вас немає відповідної житлової нерухомості або офісного приміщення, однак ви все ще маєте можливість зареєструвати власну організацію, щоб надалі придбати потрібний об'єкт нерухомості на свій вибір.",
+            en: 'At the moment you do not have suitable residential real estate or office space, but you can still register your own organization and later purchase the property you need.',
+            de: 'Derzeit verfügen Sie weder über eine passende Wohnimmobilie noch über ein Büro, aber Sie können trotzdem Ihre eigene Organisation registrieren und später die gewünschte Immobilie erwerben.',
+            pl: 'Obecnie nie posiadasz odpowiedniej nieruchomości mieszkalnej ani biura, ale nadal możesz zarejestrować własną organizację i później kupić potrzebny obiekt według własnego wyboru.',
+        },
+        actions: {
+            next: {
+                ru: 'Дальше',
+                ua: 'Далі',
+                en: 'Next',
+                de: 'Weiter',
+                pl: 'Dalej',
+            },
+        },
+        property: {
+            house: {
+                ru: 'Дом #{{id}}',
+                ua: 'Будинок #{{id}}',
+                en: 'House #{{id}}',
+                de: 'Haus #{{id}}',
+                pl: 'Dom #{{id}}',
+            },
+            garageSlots: {
+                ru: 'Гаражных мест',
+                ua: 'Місць у гаражі',
+                en: 'Garage spaces',
+                de: 'Garagenplätze',
+                pl: 'Miejsca w garażu',
+            },
+            rentPerDay: {
+                ru: 'Арендная плата в день',
+                ua: 'Орендна плата за день',
+                en: 'Daily rent',
+                de: 'Tägliche Miete',
+                pl: 'Czynsz za dzień',
+            },
+        },
+    },
+    step2: {
+        subtitle: {
+            ru: 'Настройте профиль вашей организации',
+            ua: 'Налаштуйте профіль вашої організації',
+            en: 'Set Up Your Organization Profile',
+            de: 'Richten Sie das Profil Ihrer Organisation ein',
+            pl: 'Skonfiguruj profil swojej organizacji',
+        },
+        fields: {
+            nameLabel: {
+                ru: 'Название организации',
+                ua: 'Назва організації',
+                en: 'Organization Name',
+                de: 'Name der Organisation',
+                pl: 'Nazwa organizacji',
+            },
+            namePlaceholder: {
+                ru: 'Название организации',
+                ua: 'Назва організації',
+                en: 'Organization Name',
+                de: 'Name der Organisation',
+                pl: 'Nazwa organizacji',
+            },
+            tagLabel: {
+                ru: 'Тэг организации',
+                ua: 'Тег організації',
+                en: 'Organization Tag',
+                de: 'Organisationstag',
+                pl: 'Tag organizacji',
+            },
+            tagPlaceholder: {
+                ru: 'Тэг',
+                ua: 'Тег',
+                en: 'Tag',
+                de: 'Tag',
+                pl: 'Tag',
+            },
+            logoLabel: {
+                ru: 'Логотип организации',
+                ua: 'Логотип організації',
+                en: 'Organization Logo',
+                de: 'Logo der Organisation',
+                pl: 'Logo organizacji',
+            },
+            name: {
+                required: {
+                    ru: 'Введите название организации.',
+                    ua: 'Введіть назву організації.',
+                    en: 'Enter the organization name.',
+                    de: 'Geben Sie den Namen der Organisation ein.',
+                    pl: 'Wpisz nazwę organizacji.',
+                },
+                tooShort: {
+                    ru: 'Название должно содержать от 4 до 20 символов.',
+                    ua: 'Назва повинна містити від 4 до 20 символів.',
+                    en: 'The name must contain from 4 to 20 characters.',
+                    de: 'Der Name muss 4 bis 20 Zeichen enthalten.',
+                    pl: 'Nazwa musi zawierać od 4 do 20 znaków.',
+                },
+                tooLong: {
+                    ru: 'Название должно содержать от 4 до 20 символов.',
+                    ua: 'Назва повинна містити від 4 до 20 символів.',
+                    en: 'The name must contain from 4 to 20 characters.',
+                    de: 'Der Name muss 4 bis 20 Zeichen enthalten.',
+                    pl: 'Nazwa musi zawierać od 4 do 20 znaków.',
+                },
+                taken: {
+                    ru: 'Организация с таким названием уже существует.',
+                    ua: 'Організація з такою назвою вже існує.',
+                    en: 'An organization with this name already exists.',
+                    de: 'Eine Organisation mit diesem Namen existiert bereits.',
+                    pl: 'Organizacja o tej nazwie już istnieje.',
+                },
+            },
+            tag: {
+                required: {
+                    ru: 'Введите тэг организации.',
+                    ua: 'Введіть тег організації.',
+                    en: 'Enter the organization tag.',
+                    de: 'Geben Sie den Organisationstag ein.',
+                    pl: 'Wpisz tag organizacji.',
+                },
+                tooShort: {
+                    ru: 'Тэг должен содержать от 1 до 4 букв.',
+                    ua: 'Тег повинен містити від 1 до 4 літер.',
+                    en: 'The tag must contain from 1 to 4 letters.',
+                    de: 'Der Tag muss 1 bis 4 Buchstaben enthalten.',
+                    pl: 'Tag musi zawierać od 1 do 4 liter.',
+                },
+                tooLong: {
+                    ru: 'Тэг должен содержать от 1 до 4 букв.',
+                    ua: 'Тег повинен містити від 1 до 4 літер.',
+                    en: 'The tag must contain from 1 to 4 letters.',
+                    de: 'Der Tag muss 1 bis 4 Buchstaben enthalten.',
+                    pl: 'Tag musi zawierać od 1 do 4 liter.',
+                },
+                invalidCharacters: {
+                    ru: 'Тэг должен состоять только из букв.',
+                    ua: 'Тег повинен складатися лише з літер.',
+                    en: 'The tag must contain letters only.',
+                    de: 'Der Tag darf nur aus Buchstaben bestehen.',
+                    pl: 'Tag może zawierać tylko litery.',
+                },
+                taken: {
+                    ru: 'Организация с таким тэгом уже существует.',
+                    ua: 'Організація з таким тегом вже існує.',
+                    en: 'An organization with this tag already exists.',
+                    de: 'Eine Organisation mit diesem Tag existiert bereits.',
+                    pl: 'Organizacja z takim tagiem już istnieje.',
+                },
+            },
+        },
+        logoHint: {
+            ru: '.png .avif .webp до 300 КБ',
+            ua: '.png .avif .webp до 300 КБ',
+            en: '.png .avif .webp up to 300 KB',
+            de: '.png .avif .webp bis zu 300 KB',
+            pl: '.png .avif .webp do 300 KB',
+        },
+        logoSelect: {
+            ru: 'Выбрать логотип',
+            ua: 'Обрати логотип',
+            en: 'Choose logo',
+            de: 'Logo auswählen',
+            pl: 'Wybierz logo',
+        },
+        logoChange: {
+            ru: 'Изменить логотип',
+            ua: 'Змінити логотип',
+            en: 'Change logo',
+            de: 'Logo ändern',
+            pl: 'Zmień logo',
+        },
+        logoErrors: {
+            invalidFormat: {
+                ru: 'Допустимы только PNG, AVIF или WEBP.',
+                ua: 'Доступні лише PNG, AVIF або WEBP.',
+                en: 'Only PNG, AVIF, or WEBP files are allowed.',
+                de: 'Nur PNG-, AVIF- oder WEBP-Dateien sind erlaubt.',
+                pl: 'Dozwolone są tylko pliki PNG, AVIF lub WEBP.',
+            },
+            tooLarge: {
+                ru: 'Размер логотипа не должен превышать 300 КБ.',
+                ua: 'Розмір логотипа не повинен перевищувати 300 КБ.',
+                en: 'The logo size must not exceed 300 KB.',
+                de: 'Die Logo-Datei darf nicht größer als 300 KB sein.',
+                pl: 'Rozmiar logo nie może przekraczać 300 KB.',
+            },
+            invalidPayload: {
+                ru: 'Передайте корректный файл логотипа.',
+                ua: 'Передайте коректний файл логотипа.',
+                en: 'Provide a valid logo file.',
+                de: 'Geben Sie eine gültige Logo-Datei an.',
+                pl: 'Przekaż poprawny plik logo.',
+            },
+            invalidEncoding: {
+                ru: 'Файл логотипа поврежден или передан некорректно.',
+                ua: 'Файл логотипа пошкоджено або передано некоректно.',
+                en: 'The logo file is corrupted or was transferred incorrectly.',
+                de: 'Die Logo-Datei ist beschädigt oder wurde fehlerhaft übertragen.',
+                pl: 'Plik logo jest uszkodzony lub został przesłany nieprawidłowo.',
+            },
+            signatureMismatch: {
+                ru: 'Содержимое файла не соответствует изображению PNG, AVIF или WEBP.',
+                ua: 'Вміст файлу не відповідає зображенню PNG, AVIF або WEBP.',
+                en: 'The file contents do not match a PNG, AVIF, or WEBP image.',
+                de: 'Der Dateiinhalt entspricht keinem PNG-, AVIF- oder WEBP-Bild.',
+                pl: 'Zawartość pliku nie odpowiada obrazowi PNG, AVIF ani WEBP.',
+            },
+            mimeMismatch: {
+                ru: 'MIME-тип файла не совпадает с его реальным форматом.',
+                ua: 'MIME-тип файлу не збігається з його реальним форматом.',
+                en: 'The file MIME type does not match its actual format.',
+                de: 'Der MIME-Typ der Datei stimmt nicht mit dem tatsächlichen Format überein.',
+                pl: 'Typ MIME pliku nie zgadza się z jego rzeczywistym formatem.',
+            },
+            extensionMismatch: {
+                ru: 'Расширение файла не совпадает с его реальным форматом.',
+                ua: 'Розширення файлу не збігається з його реальним форматом.',
+                en: 'The file extension does not match its actual format.',
+                de: 'Die Dateiendung stimmt nicht mit dem tatsächlichen Format überein.',
+                pl: 'Rozszerzenie pliku nie zgadza się z jego rzeczywistym formatem.',
+            },
+            invalidResolution: {
+                ru: 'Логотип должен быть от 64x64 до 1024x1024 и без чрезмерного количества пикселей.',
+                ua: 'Логотип повинен бути від 64x64 до 1024x1024 і без надмірної кількості пікселів.',
+                en: 'The logo must be between 64x64 and 1024x1024 without an excessive pixel count.',
+                de: 'Das Logo muss zwischen 64x64 und 1024x1024 liegen und darf nicht zu viele Pixel haben.',
+                pl: 'Logo musi mieć od 64x64 do 1024x1024 i nie może mieć zbyt wielu pikseli.',
+            },
+            animatedNotAllowed: {
+                ru: 'Анимированные логотипы не допускаются.',
+                ua: 'Анімовані логотипи не допускаються.',
+                en: 'Animated logos are not allowed.',
+                de: 'Animierte Logos sind nicht erlaubt.',
+                pl: 'Animowane logotypy są niedozwolone.',
+            },
+        },
+        payment: {
+            title: {
+                ru: 'Выберите способ оплаты',
+                ua: 'Оберіть спосіб оплати',
+                en: 'Choose a Payment Method',
+                de: 'Wählen Sie eine Zahlungsmethode',
+                pl: 'Wybierz sposób płatności',
+            },
+        },
+        actions: {
+            create: {
+                ru: 'Создать организацию',
+                ua: 'Створити організацію',
+                en: 'Create Organization',
+                de: 'Organisation erstellen',
+                pl: 'Utwórz organizację',
+            },
+            creating: {
+                ru: 'Создание...',
+                ua: 'Створення...',
+                en: 'Creating...',
+                de: 'Wird erstellt...',
+                pl: 'Tworzenie...',
+            },
+        },
+        submit: {
+            success: {
+                ru: 'Организация успешно создана.',
+                ua: 'Організацію успішно створено.',
+                en: 'The organization has been created successfully.',
+                de: 'Die Organisation wurde erfolgreich erstellt.',
+                pl: 'Organizacja została pomyślnie utworzona.',
+            },
+        },
+        submitErrors: {
+            antispam: {
+                ru: 'Слишком много попыток. Подождите немного и попробуйте снова.',
+                ua: 'Занадто багато спроб. Зачекайте трохи та спробуйте ще раз.',
+                en: 'Too many attempts. Wait a bit and try again.',
+                de: 'Zu viele Versuche. Warten Sie kurz und versuchen Sie es erneut.',
+                pl: 'Zbyt wiele prób. Poczekaj chwilę i spróbuj ponownie.',
+            },
+            forbidden: {
+                ru: 'Создание организации сейчас недоступно для этого персонажа.',
+                ua: 'Створення організації зараз недоступне для цього персонажа.',
+                en: 'Organization creation is currently unavailable for this character.',
+                de: 'Die Erstellung einer Organisation ist für diesen Charakter derzeit nicht verfügbar.',
+                pl: 'Tworzenie organizacji jest obecnie niedostępne dla tej postaci.',
+            },
+            alreadyInOrganization: {
+                ru: 'Вы уже состоите в организации и не можете создать новую.',
+                ua: 'Ви вже перебуваєте в організації й не можете створити нову.',
+                en: 'You are already in an organization and cannot create a new one.',
+                de: 'Du bist bereits in einer Organisation und kannst keine neue erstellen.',
+                pl: 'Należysz już do organizacji i nie możesz utworzyć nowej.',
+            },
+            invalidPaymentMethod: {
+                ru: 'Выберите корректный способ оплаты.',
+                ua: 'Оберіть коректний спосіб оплати.',
+                en: 'Choose a valid payment method.',
+                de: 'Wählen Sie eine gültige Zahlungsmethode.',
+                pl: 'Wybierz poprawną metodę płatności.',
+            },
+            unavailable: {
+                ru: 'Не удалось отправить данные организации. Попробуйте снова.',
+                ua: 'Не вдалося надіслати дані організації. Спробуйте ще раз.',
+                en: 'Failed to send organization data. Try again.',
+                de: 'Die Organisationsdaten konnten nicht gesendet werden. Versuchen Sie es erneut.',
+                pl: 'Nie udało się wysłać danych organizacji. Spróbuj ponownie.',
+            },
+            generic: {
+                ru: 'Не удалось создать организацию. Проверьте данные и попробуйте снова.',
+                ua: 'Не вдалося створити організацію. Перевірте дані та спробуйте ще раз.',
+                en: 'Failed to create the organization. Check the data and try again.',
+                de: 'Die Organisation konnte nicht erstellt werden. Prüfen Sie die Daten und versuchen Sie es erneut.',
+                pl: 'Nie udało się utworzyć organizacji. Sprawdź dane i spróbuj ponownie.',
+            },
+        },
+    },
+};
+
+
+
+
+
+
+
+
+
+
+
+
