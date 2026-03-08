@@ -406,6 +406,25 @@ export const items = {
             pl: 'Głośny, wysokiej jakości boombox, idealny na imprezy w gronie przyjaciół',
         },
     },
+    bouquet: {
+        name: {
+            ru: 'Букет',
+            ua: 'Букет',
+            en: 'Bouquet',
+            de: 'Blumenstrauß',
+            pl: 'Bukiet',
+            zh: '花束',
+        },
+
+        desc: {
+            ru: 'Красивый букет цветов, который можно подарить другому игроку.',
+            ua: 'Гарний букет квітів, який можна подарувати іншому гравцеві.',
+            en: 'A beautiful bouquet of flowers that can be gifted to another player.',
+            de: 'Ein schöner Blumenstrauß, den du einem anderen Spieler schenken kannst.',
+            pl: 'Piękny bukiet kwiatów, który możesz podarować innemu graczowi.',
+            zh: '一束漂亮的鲜花，可以送给另一位玩家。',
+        },
+    },
     rolling_paper: {
         name: {
             ru: 'Бумага для самокруток',

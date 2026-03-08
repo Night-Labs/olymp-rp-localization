@@ -109,18 +109,25 @@ export const cef = {
             pl: 'Skonfiguruj profil swojej organizacji',
         },
         fields: {
-            name: {
+            nameLabel: {
                 ru: 'Название организации',
                 ua: 'Назва організації',
                 en: 'Organization Name',
                 de: 'Name der Organisation',
                 pl: 'Nazwa organizacji',
             },
-            tag: {
+            namePlaceholder: {
+                ru: 'Название организации',
+                ua: 'Назва організації',
+                en: 'Organization Name',
+                de: 'Name der Organisation',
+                pl: 'Nazwa organizacji',
+            },
+            tagLabel: {
                 ru: 'Тэг организации',
                 ua: 'Тег організації',
                 en: 'Organization Tag',
-                de: 'Tag der Organisation',
+                de: 'Organisationstag',
                 pl: 'Tag organizacji',
             },
             tagPlaceholder: {
@@ -130,15 +137,13 @@ export const cef = {
                 de: 'Tag',
                 pl: 'Tag',
             },
-            logo: {
+            logoLabel: {
                 ru: 'Логотип организации',
                 ua: 'Логотип організації',
                 en: 'Organization Logo',
                 de: 'Logo der Organisation',
                 pl: 'Logo organizacji',
             },
-        },
-        validation: {
             name: {
                 required: {
                     ru: 'Введите название организации.',
@@ -160,6 +165,13 @@ export const cef = {
                     en: 'The name must contain from 4 to 20 characters.',
                     de: 'Der Name muss 4 bis 20 Zeichen enthalten.',
                     pl: 'Nazwa musi zawierać od 4 do 20 znaków.',
+                },
+                taken: {
+                    ru: 'Организация с таким названием уже существует.',
+                    ua: 'Організація з такою назвою вже існує.',
+                    en: 'An organization with this name already exists.',
+                    de: 'Eine Organisation mit diesem Namen existiert bereits.',
+                    pl: 'Organizacja o tej nazwie już istnieje.',
                 },
             },
             tag: {
@@ -191,14 +203,21 @@ export const cef = {
                     de: 'Der Tag darf nur aus Buchstaben bestehen.',
                     pl: 'Tag może zawierać tylko litery.',
                 },
+                taken: {
+                    ru: 'Организация с таким тэгом уже существует.',
+                    ua: 'Організація з таким тегом вже існує.',
+                    en: 'An organization with this tag already exists.',
+                    de: 'Eine Organisation mit diesem Tag existiert bereits.',
+                    pl: 'Organizacja z takim tagiem już istnieje.',
+                },
             },
         },
         logoHint: {
-            ru: '.png .avif .webp до 1 МБ',
-            ua: '.png .avif .webp до 1 МБ',
-            en: '.png .avif .webp up to 1 MB',
-            de: '.png .avif .webp bis zu 1 MB',
-            pl: '.png .avif .webp do 1 MB',
+            ru: '.png .avif .webp до 300 КБ',
+            ua: '.png .avif .webp до 300 КБ',
+            en: '.png .avif .webp up to 300 KB',
+            de: '.png .avif .webp bis zu 300 KB',
+            pl: '.png .avif .webp do 300 KB',
         },
         logoSelect: {
             ru: 'Выбрать логотип',
@@ -223,11 +242,11 @@ export const cef = {
                 pl: 'Dozwolone są tylko pliki PNG, AVIF lub WEBP.',
             },
             tooLarge: {
-                ru: 'Размер логотипа не должен превышать 1 МБ.',
-                ua: 'Розмір логотипа не повинен перевищувати 1 МБ.',
-                en: 'The logo size must not exceed 1 MB.',
-                de: 'Die Logo-Datei darf nicht größer als 1 MB sein.',
-                pl: 'Rozmiar logo nie może przekraczać 1 MB.',
+                ru: 'Размер логотипа не должен превышать 300 КБ.',
+                ua: 'Розмір логотипа не повинен перевищувати 300 КБ.',
+                en: 'The logo size must not exceed 300 KB.',
+                de: 'Die Logo-Datei darf nicht größer als 300 KB sein.',
+                pl: 'Rozmiar logo nie może przekraczać 300 KB.',
             },
             invalidPayload: {
                 ru: 'Передайте корректный файл логотипа.',
@@ -306,11 +325,11 @@ export const cef = {
         },
         submit: {
             success: {
-                ru: 'Данные организации успешно отправлены на сервер.',
-                ua: 'Дані організації успішно надіслано на сервер.',
-                en: 'Organization data was successfully sent to the server.',
-                de: 'Die Organisationsdaten wurden erfolgreich an den Server gesendet.',
-                pl: 'Dane organizacji zostały pomyślnie wysłane na serwer.',
+                ru: 'Организация успешно создана.',
+                ua: 'Організацію успішно створено.',
+                en: 'The organization has been created successfully.',
+                de: 'Die Organisation wurde erfolgreich erstellt.',
+                pl: 'Organizacja została pomyślnie utworzona.',
             },
         },
         submitErrors: {
@@ -327,6 +346,13 @@ export const cef = {
                 en: 'Organization creation is currently unavailable for this character.',
                 de: 'Die Erstellung einer Organisation ist für diesen Charakter derzeit nicht verfügbar.',
                 pl: 'Tworzenie organizacji jest obecnie niedostępne dla tej postaci.',
+            },
+            alreadyInOrganization: {
+                ru: 'Вы уже состоите в организации и не можете создать новую.',
+                ua: 'Ви вже перебуваєте в організації й не можете створити нову.',
+                en: 'You are already in an organization and cannot create a new one.',
+                de: 'Du bist bereits in einer Organisation und kannst keine neue erstellen.',
+                pl: 'Należysz już do organizacji i nie możesz utworzyć nowej.',
             },
             invalidPaymentMethod: {
                 ru: 'Выберите корректный способ оплаты.',
@@ -352,6 +378,12 @@ export const cef = {
         },
     },
 };
+
+
+
+
+
+
 
 
 
