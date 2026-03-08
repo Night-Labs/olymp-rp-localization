@@ -357,7 +357,7 @@ export const cases = {
                 ru: 'А знали ли вы что недавно на гору Олимп посетили Ферруччо Ламборгини и Энцо Феррари доставив нам контейнер своих уникальных транспортных средств которые имеют под капотом большое количество лошадок.',
                 en: 'Did you know that recently Ferruccio Lamborghini and Enzo Ferrari visited Mount Olymp and delivered us a container of their unique vehicles with a large number of horses under the hood?',
                 zh: '你知道吗，最近在奥林匹斯山上，兰博基尼和恩佐·法拉利向我们运送了一个集装箱，里面装着他们独特的运输工具，里面有大量的马',
-                de: 'Wusstest du, dass kürzlich Ferruccio Lamborghini und Enzo Ferrari den Olymp besucht und uns einen Container mit ihren einzigartigen Fahrzeugen geliefert haben – mit einer großen Anzahl Pferdestärken unter der Haube?'
+                de: 'Wusstest du, dass kürzlich Ferruccio Lamborghini und Enzo Ferrari den Olymp besucht und uns einen Container mit ihren einzigartigen Fahrzeugen geliefert haben – mit einer großen Anzahl Pferdestärken unter der Haube?',
             },
         },
 
@@ -527,6 +527,14 @@ export const cases = {
                 en: 'Left to play',
                 de: 'Verbleibend zu spielen',
                 pl: 'Pozostało do zagrania',
+            },
+
+            received: {
+                ru: 'Получено',
+                ua: 'Отримано',
+                en: 'Received',
+                de: 'Erhalten',
+                pl: 'Otrzymano',
             },
 
             receivedTitle: {
