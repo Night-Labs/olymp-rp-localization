@@ -382,6 +382,22 @@ export const weapons = {
                 zh: '一种长柄重型斧头，用于战斗',
             },
         },
+        parachute: {
+            name: {
+                ru: 'Парашют',
+                ua: 'Парашут',
+                en: 'Parachute',
+                de: 'Fallschirm',
+                pl: 'Spadochron',
+            },
+            desc: {
+                ru: 'Комплект для безопасного прыжка с высоты. Носится отдельно от обычного оружия.',
+                ua: 'Комплект для безпечного стрибка з висоти. Носиться окремо від звичайної зброї.',
+                en: 'A kit for safe jumps from height. Worn separately from regular weapons.',
+                de: 'Ausrüstung für sichere Sprünge aus großer Höhe. Wird getrennt von normalen Waffen getragen.',
+                pl: 'Zestaw do bezpiecznych skoków z wysokości. Noszony oddzielnie od zwykłej broni.',
+            },
+        },
         pistol: {
             name: {
                 ru: 'Пистолет',

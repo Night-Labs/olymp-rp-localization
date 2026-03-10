@@ -1,3 +1,5 @@
+import commands from './commands';
+
 export const server = {
     notifyHeader: {
         ru: 'Администратор',
@@ -6,6 +8,43 @@ export const server = {
         de: 'Admin',
         pl: 'Admin',
         zh: '管理员',
+    },
+    commands: {
+        errors: {
+            invalidBoolean: {
+                ru: 'Некорректное булево значение: {{value}}',
+                ua: 'Некоректне булеве значення: {{value}}',
+                en: 'Invalid boolean value: {{value}}',
+                de: 'Ungültiger boolescher Wert: {{value}}',
+                pl: 'Nieprawidłowa wartość logiczna: {{value}}',
+                zh: '无效的布尔值: {{value}}',
+            },
+            invalidNumber: {
+                ru: 'Некорректное число: {{value}}',
+                ua: 'Некоректне число: {{value}}',
+                en: 'Invalid number: {{value}}',
+                de: 'Ungültige Zahl: {{value}}',
+                pl: 'Nieprawidłowa liczba: {{value}}',
+                zh: '无效数字: {{value}}',
+            },
+            numberTooLarge: {
+                ru: 'Число {{value}} больше допустимого значения {{max}}',
+                ua: 'Число {{value}} більше допустимого значення {{max}}',
+                en: 'Number {{value}} is greater than the allowed maximum {{max}}',
+                de: 'Die Zahl {{value}} ist größer als der erlaubte Maximalwert {{max}}',
+                pl: 'Liczba {{value}} jest większa niż dozwolone maksimum {{max}}',
+                zh: '数字{{value}}大于允许的最大值{{max}}',
+            },
+            numberTooSmall: {
+                ru: 'Число {{value}} меньше допустимого значения {{min}}',
+                ua: 'Число {{value}} менше допустимого значення {{min}}',
+                en: 'Number {{value}} is smaller than the allowed minimum {{min}}',
+                de: 'Die Zahl {{value}} ist kleiner als der erlaubte Minimalwert {{min}}',
+                pl: 'Liczba {{value}} jest mniejsza niż dozwolone minimum {{min}}',
+                zh: '数字{{value}}小于允许的最小值{{min}}',
+            },
+        },
+        ...commands,
     },
     playerNotFound: {
         ua: 'Гравця не знайдено',
