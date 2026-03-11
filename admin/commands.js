@@ -939,6 +939,13 @@ export default {
         de: 'Unsichtbarkeit für Beobachtungsmodus und versteckte Bewegung umschalten.',
         pl: 'Przełącz niewidzialność dla trybu obserwacji i ukrytego poruszania się.',
     },
+    create_referral_code: {
+        ru: 'Создать отдельный реферальный код по имени или тегу без привязки к игроку.',
+        ua: 'Створити окремий реферальний код за назвою або тегом без прив’язки до гравця.',
+        en: 'Create a standalone referral code by name or tag without linking it to a player.',
+        de: 'Einen eigenständigen Referral-Code nach Name oder Tag erstellen, ohne ihn an einen Spieler zu binden.',
+        pl: 'Utwórz niezależny kod polecający według nazwy lub tagu bez przypisywania go do gracza.',
+    },
     set_referral_code: {
         ru: 'Привязать игроку онлайн новый реферальный код в базе Referrals.',
         ua: 'Прив’язати гравцю онлайн новий реферальний код у базі Referrals.',
