@@ -575,6 +575,13 @@ export default {
         de: 'Den Motor des aktuellen Fahrzeugs des Administrators ein- oder ausschalten.',
         pl: 'Przełącz silnik aktualnego pojazdu administratora.',
     },
+    vehicle_invincible: {
+        ru: 'Переключить неуязвимость текущего транспорта администратора.',
+        ua: 'Перемкнути невразливість поточного транспорту адміністратора.',
+        en: "Toggle invincibility for the administrator's current vehicle.",
+        de: 'Die Unverwundbarkeit des aktuellen Fahrzeugs des Administrators ein- oder ausschalten.',
+        pl: 'Przełącz niezniszczalność aktualnego pojazdu administratora.',
+    },
     admin_tools: {
         ru: 'Включить или выключить приватные admin-tools у себя.',
         ua: 'Увімкнути або вимкнути приватні admin-tools у себе.',
@@ -798,6 +805,13 @@ export default {
         en: 'Force process rent for all houses on the server.',
         de: 'Die Miete aller Häuser auf dem Server zwangsweise verarbeiten.',
         pl: 'Przymusowo przetwórz czynsz wszystkich domów na serwerze.',
+    },
+    toggle_house_lock: {
+        ru: 'Открыть или закрыть дом по его ID.',
+        ua: 'Відкрити або закрити будинок за його ID.',
+        en: 'Open or close a house by its ID.',
+        de: 'Ein Haus anhand seiner ID öffnen oder schließen.',
+        pl: 'Otwórz lub zamknij dom po jego ID.',
     },
     taxinpcdebug: {
         ru: 'Включить отладку taxi NPC-точек, телепортироваться между ними и смотреть их статус.',
