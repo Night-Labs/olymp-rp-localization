@@ -215,6 +215,14 @@ export const server = {
             pl: 'Otrzymano {{donate}} Olymp-Coins',
         },
 
+        freeCoinsOnline: {
+            ru: 'Вы получили {{donate}} Olymp-Coins за {{hours}} часа игры',
+            ua: 'Ви отримали {{donate}} Olymp-Coins за {{hours}} години гри',
+            en: 'You received {{donate}} Olymp-Coins for {{hours}} hours of play',
+            de: 'Du hast {{donate}} Olymp-Coins fuer {{hours}} Stunden Spielzeit erhalten',
+            pl: 'Otrzymano {{donate}} Olymp-Coins za {{hours}} godziny gry',
+        },
+
         // inventory item
         item: {
             ru: '{{item}} {{quantity}} шт. добавлен в ваш инвентарь',
