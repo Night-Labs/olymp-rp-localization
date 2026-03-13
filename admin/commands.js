@@ -1072,6 +1072,13 @@ export default {
         de: 'Den Client-Dev-Modus für interne Tests umschalten.',
         pl: 'Przełącz tryb dev klienta do wewnętrznych testów.',
     },
+    referral_add_activation: {
+        ru: 'Добавить в твой реферальный код активацию аккаунта персонажа по его characterId.',
+        ua: 'Додати у твій реферальний код активацію акаунта персонажа за його characterId.',
+        en: 'Add the account activation of a character to your referral code by their characterId.',
+        de: 'Füge deinem Referral-Code die Aktivierung des Kontos eines Charakters anhand seiner characterId hinzu.',
+        pl: 'Dodaj do swojego kodu polecającego aktywację konta postaci według jej characterId.',
+    },
     gizmo: {
         ru: 'Запустить режим точного размещения объекта по имени модели через gizmo.',
         ua: 'Запустити режим точного розміщення об’єкта за назвою моделі через gizmo.',

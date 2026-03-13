@@ -95,6 +95,14 @@ export default {
         pl: 'Moje polecenia',
         zh: '我的下线情况',
     },
+    noReferralsYet: {
+        ru: 'Пока здесь нет рефералов',
+        ua: 'Поки тут немає рефералів',
+        en: 'There are no referrals here yet',
+        de: 'Hier gibt es noch keine Empfehlungen',
+        pl: 'Nie ma tu jeszcze żadnych poleceń',
+        zh: '这里还没有推荐记录',
+    },
     level: {
         ru: 'Уровень',
         ua: 'Рівень',
