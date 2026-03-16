@@ -729,6 +729,14 @@ export default {
         de: 'Donat-Währung einem Charakter anhand seiner static ID gutschreiben, auch wenn er offline ist.',
         pl: 'Dodaj walutę donacyjną postaci po static ID, nawet jeśli jest offline.',
     },
+    give_my_donate: {
+        ru: 'Передать часть своей донат-валюты игроку по static ID.',
+        ua: 'Передати частину своєї донат-валюти гравцю за static ID.',
+        en: 'Transfer part of your donation currency to a player by static ID.',
+        de: 'Einen Teil deiner Donat-Währung einem Spieler per static ID übertragen.',
+        pl: 'Przekaż część swojej waluty donacyjnej graczowi po static ID.',
+        zh: '通过 static ID 将部分捐赠货币转给玩家。',
+    },
     addmoney: {
         ru: 'Выдать игроку наличные или банковские деньги.',
         ua: 'Видати гравцю готівку або банківські гроші.',

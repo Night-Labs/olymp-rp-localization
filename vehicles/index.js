@@ -191,6 +191,13 @@ export default {
         pl: 'Wybierz dom do odholowania',
         zh: '选择要拖车到的房屋',
     },
+    selectGarageTitle: {
+        ua: 'Виберіть гараж',
+        en: 'Select a garage',
+        ru: 'Выберите гараж',
+        de: 'Wähle eine Garage',
+        pl: 'Wybierz garaż',
+    },
     evacuateNoGarageAccess: {
         ua: 'У вас немає доступних будинків з гаражем',
         en: 'You have no accessible houses with a garage',

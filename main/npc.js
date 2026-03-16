@@ -334,5 +334,12 @@ export const npc = {
             de: 'Taxi-Leiter',
             pl: 'Kierownik taksówek',
         },
+        rentRole: {
+            ru: 'Аренда транспорта',
+            ua: 'Оренда транспорту',
+            en: 'Vehicle Rental',
+            de: 'Fahrzeugvermietung',
+            pl: 'Wynajem pojazdów',
+        },
     },
 };
