@@ -42,6 +42,15 @@ export const server = {
         ge: 'მინიმალური დონე ამ ველისთვის: {{level}}',
         zh: '此田地的最低等级: {{level}}',
     },
+    youNeedGetFarmJob: {
+        ru: 'Чтобы использовать семена, нужно устроиться на ферму',
+        ua: 'Щоб використовувати насіння, потрібно влаштуватися на ферму',
+        en: 'To use seeds, you need to get a job on the farm',
+        de: 'Um Samen zu verwenden, musst du einen Job auf der Farm annehmen',
+        pl: 'Aby używać nasion, musisz zatrudnić się na farmie',
+        ge: 'თესლების გამოსაყენებლად ფერმაზე უნდა დასაქმდეთ',
+        zh: '要使用种子，你需要先在农场工作',
+    },
     youCantPlantThere: {
         ru: 'Вы не можете садить здесь',
         ua: 'Ви не можете садити тут',
