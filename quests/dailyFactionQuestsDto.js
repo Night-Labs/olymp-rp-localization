@@ -77,7 +77,7 @@
         "de": "Durchsuche {{count}} Personen",
         "pl": "Przeszukaj {{count}} osób",
     },
-    "moderateAd": {
+    "moderateAds": {
         "ru": "Модерируйте и опубликуйте {{count}} объявлений",
         "ua": "Модеруй і опублікуй {{count}} оголошень",
         "en": "Moderate and publish {{count}} ads",

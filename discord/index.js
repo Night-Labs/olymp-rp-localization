@@ -16,12 +16,12 @@ export default {
         zh:'公交车司机',
     },
     delivery: {
-        ua: 'Працює доставником піци',
-        en: 'Works as a pizza delivery person',
-        ru: 'Работает доставщиком пиццы',
-        de: 'Arbeitet als Pizza-Lieferant',
-        pl: 'Pracuje jako dostawca pizzy',
-        zh:'披萨外卖员',
+        ua: 'Працює курʼєром доставки їжі',
+        en: 'Works as a food delivery courier',
+        ru: 'Работает курьером доставки еды',
+        de: 'Arbeitet als Essenskurier',
+        pl: 'Pracuje jako kurier dostawy jedzenia',
+        zh:'送餐员',
     },
     farm: {
         ua: 'Працює на фермі',
