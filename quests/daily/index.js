@@ -1,20 +1,20 @@
 export default {
     deliveryJobDailyQuest: {
         name: {
-            ru: 'Пора доставить пиццу',
-            ua: 'Час доставити піцу',
-            en: 'Time to Deliver Pizza',
-            de: 'Zeit, Pizza zu liefern',
-            pl: 'Czas dostarczyć pizzę',
-            zh: '是时候送披萨了',
+            ru: 'Время доставки еды',
+            ua: 'Час доставки їжі',
+            en: 'Food Delivery Time',
+            de: 'Zeit für Essenslieferungen',
+            pl: 'Czas na dostawę jedzenia',
+            zh: '是时候送餐了',
         },
         desc: {
-            ru: 'Почему бы сегодня тебе не доставить {{amount}} пицц голодным заказчикам, чем побыстрее! Ещё и получить за это награду сверху, как по мне отличная идея',
-            ua: 'Чому б тобі сьогодні не доставити {{amount}} піц голодним замовникам, якомога швидше! Ще й отримати за це нагороду зверху, як на мене чудова ідея',
-            en: 'Why not deliver {{amount}} pizzas to hungry customers today, as fast as possible! And get a reward on top of that, sounds like a great idea to me',
-            de: 'Warum lieferst du heute nicht {{amount}} Pizzen an hungrige Kunden? Und dafür auch noch eine Belohnung bekommen, klingt für mich nach einer großartigen Idee',
-            pl: 'Dlaczego nie dostarczyć dziś {{amount}} pizz głodnym klientom, jak najszybciej! A do tego jeszcze dostać nagrodę, dla mnie to świetny pomysł',
-            zh: '为什么不今天就把{{amount}}披萨送到饥饿的顾客手中，越快越好!除此之外还能得到奖励，我觉得这主意不错',
+            ru: 'Почему бы сегодня тебе не доставить {{amount}} заказов еды голодным клиентам, да побыстрее? Ещё и получить за это награду сверху, как по мне отличная идея.',
+            ua: 'Чому б тобі сьогодні не доставити {{amount}} замовлень їжі голодним клієнтам, та ще й якнайшвидше? Ще й отримати за це нагороду зверху, як на мене чудова ідея.',
+            en: 'Why not deliver {{amount}} food orders to hungry customers today, as fast as possible? And get an extra reward on top of that. Sounds like a great idea to me.',
+            de: 'Warum lieferst du heute nicht {{amount}} Essensbestellungen an hungrige Kunden, und zwar so schnell wie möglich? Obendrauf gibt es noch eine Belohnung. Klingt nach einer großartigen Idee.',
+            pl: 'Dlaczego nie dostarczyć dziś {{amount}} zamówień jedzenia głodnym klientom, i to jak najszybciej? Do tego jeszcze zgarniesz dodatkową nagrodę. Brzmi jak świetny pomysł.',
+            zh: '不如今天尽快把{{amount}}份餐食订单送到饥饿的顾客手中？而且还能额外获得奖励。我觉得这主意不错。',
         },
     },
     farmJobDailyQuest: {

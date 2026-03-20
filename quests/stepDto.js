@@ -281,11 +281,11 @@ export const stepDto = {
     //
 
     deliveryGoods: {
-        ru: 'Доставьте {{count}} заказов',
-        ua: 'Достав {{count}} замовлень',
-        en: 'Deliver {{count}} orders',
-        de: 'Liefere {{count}} Bestellungen aus',
-        pl: 'Dostarcz {{count}} zamówień',
+        ru: 'Доставьте {{count}} заказов еды',
+        ua: 'Доставте {{count}} замовлень їжі',
+        en: 'Deliver {{count}} food orders',
+        de: 'Liefere {{count}} Essensbestellungen aus',
+        pl: 'Dostarcz {{count}} zamówień jedzenia',
     },
 
     goToPosition: {

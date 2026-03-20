@@ -73,4 +73,33 @@ export const server = {
         pl: 'Twój wynajęty samochód został zniszczony',
         zh: '你租来的车被毁了',
     },
+
+    noRentedVehicles: {
+        ru: 'У вас нет арендованных транспортных средств',
+        ua: 'У вас немає орендованих транспортних засобів',
+        en: 'You have no rented vehicles',
+        de: 'Du hast keine gemieteten Fahrzeuge',
+        pl: 'Nie masz wynajętych pojazdów',
+    },
+    allRentsTerminated: {
+        ru: 'Все аренды расторгнуты. Деньги не возвращаются',
+        ua: 'Усі оренди розірвано. Гроші не повертаються',
+        en: 'All rentals have been terminated. No refunds',
+        de: 'Alle Mietverträge wurden gekündigt. Keine Rückerstattung',
+        pl: 'Wszystkie wynajmy zostały zakończone. Bez zwrotu pieniędzy',
+    },
+    rentTerminated: {
+        ru: 'Аренда {{name}} расторгнута. Деньги не возвращаются',
+        ua: 'Оренду {{name}} розірвано. Гроші не повертаються',
+        en: 'Rental of {{name}} has been terminated. No refunds',
+        de: 'Miete von {{name}} wurde gekündigt. Keine Rückerstattung',
+        pl: 'Wynajem {{name}} został zakończony. Bez zwrotu pieniędzy',
+    },
+    maxRentedVehicles: {
+        ru: 'Вы не можете арендовать больше 3 транспортных средств одновременно',
+        ua: 'Ви не можете орендувати більше 3 транспортних засобів одночасно',
+        en: 'You cannot rent more than 3 vehicles at the same time',
+        de: 'Sie können nicht mehr als 3 Fahrzeuge gleichzeitig mieten',
+        pl: 'Nie możesz wynająć więcej niż 3 pojazdy jednocześnie',
+    },
 };

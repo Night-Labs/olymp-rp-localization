@@ -54,6 +54,32 @@ export const server = {
         pl: 'Gracz nie znaleziony',
         zh: '未找到该玩家',
     },
+    giveMyDonate: {
+        sent: {
+            ru: 'Вы передали {{sum}} Olymp-Coins игроку {{name}}',
+            ua: 'Ви передали {{sum}} Olymp-Coins гравцю {{name}}',
+            en: 'You transferred {{sum}} Olymp-Coins to {{name}}',
+            de: 'Du hast {{sum}} Olymp-Coins an {{name}} übertragen',
+            pl: 'Przekazałeś {{sum}} Olymp-Coins graczowi {{name}}',
+            zh: '你向{{name}}转账{{sum}} Olymp-Coins',
+        },
+        received: {
+            ru: 'Администратор {{admin}} передал вам {{sum}} Olymp-Coins',
+            ua: 'Адміністратор {{admin}} передав вам {{sum}} Olymp-Coins',
+            en: 'Administrator {{admin}} transferred {{sum}} Olymp-Coins to you',
+            de: 'Administrator {{admin}} hat dir {{sum}} Olymp-Coins übertragen',
+            pl: 'Administrator {{admin}} przekazał ci {{sum}} Olymp-Coins',
+            zh: '管理员{{admin}}向你转账{{sum}} Olymp-Coins',
+        },
+        notEnough: {
+            ru: 'Недостаточно донат-валюты для передачи {{sum}} Olymp-Coins',
+            ua: 'Недостатньо донат-валюти для передачі {{sum}} Olymp-Coins',
+            en: 'Not enough donation currency to transfer {{sum}} Olymp-Coins',
+            de: 'Nicht genug Donat-Währung, um {{sum}} Olymp-Coins zu übertragen',
+            pl: 'Za mało waluty donacyjnej, aby przekazać {{sum}} Olymp-Coins',
+            zh: '捐赠货币不足，无法转账{{sum}} Olymp-Coins',
+        },
+    },
     cash: {
         give: {
             ua: 'Ви видали ${{cash}} гравцю {{name}}',
