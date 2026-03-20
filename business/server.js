@@ -63,6 +63,13 @@ export default {
             de: 'Burger Shot',
             pl: 'Burger Shot',
         },
+        carWash: {
+            ru: 'Автомойка',
+            ua: 'Автомийка',
+            en: 'Car Wash',
+            de: 'Autowäsche',
+            pl: 'Myjnia samochodowa',
+        },
     },
     businessLabel: {
         owner: {

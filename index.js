@@ -12,6 +12,7 @@ import inventory from './inventory';
 import items from './inventory/index';
 import jobs from './jobs';
 import carshop from './carshop';
+import carWash from './carWash';
 import testdrive from './testdrive';
 import rent from './rent';
 import appearance from './appearance';
@@ -97,6 +98,7 @@ export default {
     items,
     inventory,
     carshop,
+    carWash,
     testdrive,
     rent,
     appearance,

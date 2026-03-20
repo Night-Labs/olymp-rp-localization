@@ -617,6 +617,20 @@ export default {
         de: 'Den clientseitigen Flugmodus für das Fahrzeug des ausgewählten Spielers für die angegebene Zeit in Millisekunden aktivieren.',
         pl: 'Aktywuj tryb lotu pojazdu po stronie klienta dla wybranego gracza na określony czas w milisekundach.',
     },
+    veh_set_dirt: {
+        ru: 'Установить уровень загрязнения для текущего транспорта администратора.',
+        ua: 'Встановити рівень забруднення для поточного транспорту адміністратора.',
+        en: "Set the dirt level for the administrator's current vehicle.",
+        de: 'Den Verschmutzungsgrad für das aktuelle Fahrzeug des Administrators festlegen.',
+        pl: 'Ustaw poziom zabrudzenia dla aktualnego pojazdu administratora.',
+    },
+    veh_set_color: {
+        ru: 'Установить основной и дополнительный RGB-цвет для текущего транспорта администратора.',
+        ua: 'Встановити основний і додатковий RGB-колір для поточного транспорту адміністратора.',
+        en: "Set the primary and secondary RGB colors for the administrator's current vehicle.",
+        de: 'Die primäre und sekundäre RGB-Farbe für das aktuelle Fahrzeug des Administrators festlegen.',
+        pl: 'Ustaw podstawowy i dodatkowy kolor RGB dla aktualnego pojazdu administratora.',
+    },
     give_item: {
         ru: 'Выдать предмет игроку по static ID с количеством и optional style.',
         ua: 'Видати предмет гравцю за static ID з кількістю та optional style.',
