@@ -565,4 +565,58 @@ export const food = {
             pl: 'Lody, które roztopią twoje serce.',
         },
     },
+    deer_grilled_meat: {
+        name: {
+            ru: 'Жареное мясо оленя',
+            ua: "Смажене м'ясо оленя",
+            en: 'Grilled Deer Meat',
+            de: 'Gegrilltes Hirschfleisch',
+            pl: 'Grillowane mięso jelenia',
+            zh: '烤鹿肉',
+        },
+        desc: {
+            ru: 'Прожаренный кусок оленьего мяса. Качество зависит от того, как за ним следили на гриле.',
+            ua: "Просмажений шматок оленячого м'яса. Якість залежить від того, як за ним стежили на грилі.",
+            en: 'A grilled piece of deer meat. The quality depends on how well it was watched on the grill.',
+            de: 'Ein gegrilltes Stück Hirschfleisch. Die Qualität hängt davon ab, wie gut es auf dem Grill überwacht wurde.',
+            pl: 'Grillowany kawałek mięsa jelenia. Jakość zależy od tego, jak dobrze pilnowano go na grillu.',
+            zh: '一块烤好的鹿肉。品质取决于你在烤架上照看的程度。',
+        },
+    },
+    boar_grilled_meat: {
+        name: {
+            ru: 'Жареное мясо кабана',
+            ua: "Смажене м'ясо кабана",
+            en: 'Grilled Boar Meat',
+            de: 'Gegrilltes Wildschweinfleisch',
+            pl: 'Grillowane mięso dzika',
+            zh: '烤野猪肉',
+        },
+        desc: {
+            ru: 'Прожаренный кусок кабаньего мяса. Хороший грильщик вытягивает из него максимум пользы.',
+            ua: "Просмажений шматок кабанячого м'яса. Хороший кухар витискає з нього максимум користі.",
+            en: 'A grilled piece of boar meat. A good cook gets the most out of it.',
+            de: 'Ein gegrilltes Stück Wildschweinfleisch. Ein guter Grillmeister holt das Maximum daraus heraus.',
+            pl: 'Grillowany kawałek mięsa dzika. Dobry kucharz wyciąga z niego maksimum korzyści.',
+            zh: '一块烤好的野猪肉。好的厨师能把它的价值发挥到最大。',
+        },
+    },
+    rabbit_grilled_meat: {
+        name: {
+            ru: 'Жареное мясо кролика',
+            ua: "Смажене м'ясо кролика",
+            en: 'Grilled Rabbit Meat',
+            de: 'Gegrilltes Kaninchenfleisch',
+            pl: 'Grillowane mięso królika',
+            zh: '烤兔肉',
+        },
+        desc: {
+            ru: 'Лёгкий прожаренный кусок кроличьего мяса. Качество прожарки влияет на итоговую пользу.',
+            ua: "Легкий просмажений шматок кролячого м'яса. Якість прожарювання впливає на підсумкову користь.",
+            en: 'A light grilled piece of rabbit meat. Grilling quality affects the final benefit.',
+            de: 'Ein leichtes gegrilltes Stück Kaninchenfleisch. Die Grillqualität beeinflusst den endgültigen Nutzen.',
+            pl: 'Lekki grillowany kawałek mięsa królika. Jakość grillowania wpływa na końcową korzyść.',
+            zh: '一块较轻的烤兔肉。烧烤质量会影响最终效果。',
+        },
+    },
 };
