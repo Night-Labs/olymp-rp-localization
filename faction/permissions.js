@@ -254,5 +254,12 @@ export default {
         "en": "Arrest",
         "de": "Verhaften",
         "pl": "Aresztować",
-    }
+    },
+    useFactionMaterials: {
+        ru: 'Использовать материалы фракции при крафте',
+        ua: 'Використовувати матеріали фракції при крафті',
+        en: 'Use faction materials for crafting',
+        de: 'Fraktionsmaterialien zum Crafting verwenden',
+        pl: 'Używać materiałów frakcji do craftingu',
+    },
 };
