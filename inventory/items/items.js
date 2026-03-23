@@ -425,6 +425,40 @@ export const items = {
             zh: '一束漂亮的鲜花，可以送给另一位玩家。',
         },
     },
+    grill: {
+        name: {
+            ru: 'Гриль',
+            ua: 'Гриль',
+            en: 'Grill',
+            de: 'Grill',
+            pl: 'Grill',
+        },
+        desc: {
+            ru: 'Переносной гриль для отдыха на природе и жарки мяса.',
+            ua: "Переносний гриль для відпочинку на природі та смаження м'яса.",
+            en: 'A portable grill for outdoor leisure and cooking meat.',
+            de: 'Ein tragbarer Grill für Erholung im Freien und zum Braten von Fleisch.',
+            pl: 'Przenośny grill do wypoczynku na świeżym powietrzu i smażenia mięsa.',
+        },
+    },
+    campingChair: {
+        name: {
+            ru: 'Кемпинговый стул',
+            ua: 'Кемпінговий стілець',
+            en: 'Camping Chair',
+            de: 'Campingstuhl',
+            pl: 'Krzesło kempingowe',
+            zh: '露营椅',
+        },
+        desc: {
+            ru: 'Лёгкий складной стул для отдыха на природе.',
+            ua: 'Легкий складаний стілець для відпочинку на природі.',
+            en: 'A lightweight folding chair for outdoor rest.',
+            de: 'Ein leichter Klappstuhl für Erholung im Freien.',
+            pl: 'Lekki składany stołek do odpoczynku na świeżym powietrzu.',
+            zh: '适合户外休息的轻便折叠椅。',
+        },
+    },
     rolling_paper: {
         name: {
             ru: 'Бумага для самокруток',
@@ -615,6 +649,102 @@ export const items = {
             en: 'A compact and durable helper, convenient for digging, loosening soil, and transplanting plants.',
             de: 'Ein kompakter und robuster Helfer, praktisch zum Graben, Lockern des Bodens und Umpflanzen von Pflanzen.',
             pl: 'Kompaktny i wytrzymały pomocnik, wygodny do kopania, spulchniania ziemi i przesadzania roślin.',
+        },
+    },
+    deer_raw_meat: {
+        name: {
+            ru: 'Сырое мясо оленя',
+            ua: "Сире м'ясо оленя",
+            en: 'Raw deer meat',
+            de: 'Rohes Hirschfleisch',
+            pl: 'Surowe mięso jelenia',
+        },
+        desc: {
+            ru: 'Свежий кусок оленьего мяса. Без нормальной прожарки лучше не рисковать.',
+            ua: "Свіжий шматок оленячого м'яса. Без нормального просмаження краще не ризикувати.",
+            en: 'A fresh piece of deer meat. Better not risk eating it without proper grilling.',
+            de: 'Ein frisches Stück Hirschfleisch. Ohne ordentliches Grillen solltest du es besser nicht riskieren.',
+            pl: 'Świeży kawałek mięsa jelenia. Lepiej nie ryzykować jedzenia bez porządnego grillowania.',
+        },
+    },
+    deer_grilled_meat: {
+        name: {
+            ru: 'Жареное мясо оленя',
+            ua: "Смажене м'ясо оленя",
+            en: 'Grilled deer meat',
+            de: 'Gegrilltes Hirschfleisch',
+            pl: 'Grillowane mięso jelenia',
+        },
+        desc: {
+            ru: 'Прожаренный кусок оленьего мяса. Качество приготовления зависит от того, как за ним следили на гриле.',
+            ua: "Просмажений шматок оленячого м'яса. Якість приготування залежить від того, як за ним стежили на грилі.",
+            en: 'A grilled piece of deer meat. The cooking quality depends on how well it was watched on the grill.',
+            de: 'Ein gegrilltes Stück Hirschfleisch. Die Qualität hängt davon ab, wie gut es auf dem Grill überwacht wurde.',
+            pl: 'Grillowany kawałek mięsa jelenia. Jakość przygotowania zależy od tego, jak dobrze pilnowano go na grillu.',
+        },
+    },
+    boar_meat: {
+        name: {
+            ru: 'Сырое мясо кабана',
+            ua: "Сире м'ясо кабана",
+            en: 'Raw boar meat',
+            de: 'Rohes Wildschweinfleisch',
+            pl: 'Surowe mięso dzika',
+        },
+        desc: {
+            ru: 'Тяжёлый и сытный кусок кабаньего мяса. Перед едой его лучше хорошо прожарить.',
+            ua: "Важкий і ситний шматок кабанячого м'яса. Перед їжею його краще добре просмажити.",
+            en: 'A dense and filling piece of boar meat. Best grilled properly before eating.',
+            de: 'Ein dichtes und sättigendes Stück Wildschweinfleisch. Vor dem Essen am besten ordentlich grillen.',
+            pl: 'Ciężki i sycący kawałek mięsa dzika. Najlepiej dobrze go ugrillować przed jedzeniem.',
+        },
+    },
+    boar_grilled_meat: {
+        name: {
+            ru: 'Жареное мясо кабана',
+            ua: "Смажене м'ясо кабана",
+            en: 'Grilled boar meat',
+            de: 'Gegrilltes Wildschweinfleisch',
+            pl: 'Grillowane mięso dzika',
+        },
+        desc: {
+            ru: 'Прожаренный кусок кабаньего мяса. Хороший грильщик вытягивает из него максимум пользы.',
+            ua: "Просмажений шматок кабанячого м'яса. Хороший кухар витискає з нього максимум користі.",
+            en: 'A grilled piece of boar meat. A good cook can get the most out of it.',
+            de: 'Ein gegrilltes Stück Wildschweinfleisch. Ein guter Grillmeister holt das Maximum daraus heraus.',
+            pl: 'Grillowany kawałek mięsa dzika. Dobry kucharz potrafi wycisnąć z niego maksimum korzyści.',
+        },
+    },
+    rabbit_meat: {
+        name: {
+            ru: 'Сырое мясо кролика',
+            ua: "Сире м'ясо кролика",
+            en: 'Raw rabbit meat',
+            de: 'Rohes Kaninchenfleisch',
+            pl: 'Surowe mięso królika',
+        },
+        desc: {
+            ru: 'Нежный кусок кроличьего мяса. В сыром виде безопаснее его не есть.',
+            ua: "Ніжний шматок кролячого м'яса. У сирому вигляді безпечніше його не їсти.",
+            en: 'A tender piece of rabbit meat. It is safer not to eat it raw.',
+            de: 'Ein zartes Stück Kaninchenfleisch. Roh sollte man es besser nicht essen.',
+            pl: 'Delikatny kawałek mięsa królika. Bezpieczniej nie jeść go na surowo.',
+        },
+    },
+    rabbit_grilled_meat: {
+        name: {
+            ru: 'Жареное мясо кролика',
+            ua: "Смажене м'ясо кролика",
+            en: 'Grilled rabbit meat',
+            de: 'Gegrilltes Kaninchenfleisch',
+            pl: 'Grillowane mięso królika',
+        },
+        desc: {
+            ru: 'Лёгкий прожаренный кусок кроличьего мяса. Качество прожарки влияет на итоговую пользу.',
+            ua: "Легкий просмажений шматок кролячого м'яса. Якість прожарювання впливає на підсумкову користь.",
+            en: 'A light grilled piece of rabbit meat. The grilling quality affects the final benefit.',
+            de: 'Ein leichtes gegrilltes Stück Kaninchenfleisch. Die Grillqualität beeinflusst den endgültigen Nutzen.',
+            pl: 'Lekki grillowany kawałek mięsa królika. Jakość grillowania wpływa na końcową korzyść.',
         },
     },
 

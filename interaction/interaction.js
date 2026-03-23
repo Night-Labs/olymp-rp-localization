@@ -1,5 +1,6 @@
 import { player } from './player';
 import { vehicle } from './vehicle';
+import { object } from './object';
 
 export default {
     name: {
@@ -15,4 +16,6 @@ export default {
     player,
     // Vehicle
     vehicle,
+    // Object
+    object,
 };

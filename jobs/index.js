@@ -7,6 +7,7 @@ import hunting from './hunting';
 import { quarry } from './quarry/quarry';
 import treasureHunter from './treasureHunter/treasureHunter';
 import mushrooms from './mushrooms/mushrooms';
+import towTruck from './towTruck';
 
 export default {
     // ТО ЧТО СВЯЗАНО С РАБОТАМИ
@@ -116,6 +117,13 @@ export default {
             de: 'Mullwerker',
             pl: 'Smieciarz',
         },
+        towTruck: {
+            ru: 'Оператор эвакуатора',
+            ua: 'Оператор евакуатора',
+            en: 'Tow Truck Operator',
+            de: 'Abschleppfahrer',
+            pl: 'Operator lawety',
+        },
     },
     youAlreadyWorking: {
         ru: 'Вы уже работаете на другой работе, для начала увольтесь с неё',
@@ -136,4 +144,5 @@ export default {
     quarry,
     treasureHunter,
     mushrooms,
+    towTruck,
 };

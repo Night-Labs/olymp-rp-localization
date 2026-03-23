@@ -297,6 +297,13 @@ export const npc = {
             pl: 'Henryk',
             zh: '亨利',
         },
+        downtownTowing: {
+            ru: 'Тони',
+            ua: 'Тоні',
+            en: 'Tony',
+            de: 'Tony',
+            pl: 'Tony',
+        },
     },
     roles: {
         menager: {
