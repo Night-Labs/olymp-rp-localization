@@ -533,6 +533,27 @@ export default {
         de: 'Die präzise Platzierung eines Server-Objekts anhand des Modellnamens über Gizmo starten.',
         pl: 'Uruchom precyzyjne rozmieszczanie obiektu serwerowego według nazwy modelu przez gizmo.',
     },
+    create_object_pos_rot: {
+        ru: 'Ð¡Ð¾Ð·Ð´Ð°Ñ‚ÑŒ ÑÐµÑ€Ð²ÐµÑ€Ð½Ñ‹Ð¹ Ð¾Ð±ÑŠÐµÐºÑ‚ Ð¿Ð¾ Ð¼Ð¾Ð´ÐµÐ»Ð¸, ÐºÐ¾Ð¾Ñ€Ð´Ð¸Ð½Ð°Ñ‚Ð°Ð¼ Ð¸ rotation; Ð¿Ñ€ÐµÐ´Ñ‹Ð´ÑƒÑ‰Ð¸Ð¹ Ð¾Ð±ÑŠÐµÐºÑ‚ ÑÑ‚Ð¾Ð¹ ÐºÐ¾Ð¼Ð°Ð½Ð´Ñ‹ Ñƒ Ñ‚ÐµÐ±Ñ Ð±ÑƒÐ´ÐµÑ‚ ÑƒÐ´Ð°Ð»ÐµÐ½.',
+        ua: 'Ð¡Ñ‚Ð²Ð¾Ñ€Ð¸Ñ‚Ð¸ ÑÐµÑ€Ð²ÐµÑ€Ð½Ð¸Ð¹ Ð¾Ð±â€™Ñ”ÐºÑ‚ Ð·Ð° Ð¼Ð¾Ð´ÐµÐ»Ð»ÑŽ, ÐºÐ¾Ð¾Ñ€Ð´Ð¸Ð½Ð°Ñ‚Ð°Ð¼Ð¸ Ñ‚Ð° rotation; Ð¿Ð¾Ð¿ÐµÑ€ÐµÐ´Ð½Ñ–Ð¹ Ð¾Ð±â€™Ñ”ÐºÑ‚ Ñ†Ñ–Ñ”Ñ— ÐºÐ¾Ð¼Ð°Ð½Ð´Ð¸ Ñƒ Ñ‚ÐµÐ±Ðµ Ð±ÑƒÐ´Ðµ Ð²Ð¸Ð´Ð°Ð»ÐµÐ½Ð¾.',
+        en: 'Create a server object by model, position, and rotation; your previous object from this command will be deleted.',
+        de: 'Ein Server-Objekt nach Modell, Position und Rotation erstellen; dein vorheriges Objekt aus diesem Befehl wird gelÃ¶scht.',
+        pl: 'UtwÃ³rz obiekt serwerowy wedÅ‚ug modelu, pozycji i rotacji; poprzedni obiekt z tej komendy zostanie usuniÄ™ty.',
+    },
+    create_object_pos_rot: {
+        ru: 'Create a server object by model, position, and rotation; your previous object from this command will be deleted.',
+        ua: 'Create a server object by model, position, and rotation; your previous object from this command will be deleted.',
+        en: 'Create a server object by model, position, and rotation; your previous object from this command will be deleted.',
+        de: 'Create a server object by model, position, and rotation; your previous object from this command will be deleted.',
+        pl: 'Create a server object by model, position, and rotation; your previous object from this command will be deleted.',
+    },
+    create_particle_pos_rot: {
+        ru: 'Create a looped particle effect by asset, particle name, position, and rotation; your previous particle from this command will be deleted.',
+        ua: 'Create a looped particle effect by asset, particle name, position, and rotation; your previous particle from this command will be deleted.',
+        en: 'Create a looped particle effect by asset, particle name, position, and rotation; your previous particle from this command will be deleted.',
+        de: 'Create a looped particle effect by asset, particle name, position, and rotation; your previous particle from this command will be deleted.',
+        pl: 'Create a looped particle effect by asset, particle name, position, and rotation; your previous particle from this command will be deleted.',
+    },
     spawn_object_done: {
         ru: 'Завершить текущее размещение объекта и подтвердить его спавн.',
         ua: 'Завершити поточне розміщення об’єкта та підтвердити його спавн.',
