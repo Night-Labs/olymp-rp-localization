@@ -359,6 +359,14 @@ export const player = {
         zh: '呼叫',
     },
 
+    giveBonus: {
+        ru: 'Выдать премию',
+        ua: 'Видати премію',
+        en: 'Give Bonus',
+        de: 'Bonus vergeben',
+        pl: 'Przyznać premię',
+    },
+
     issueFine: {
         ru: 'Выписать штраф',
         ua: 'Виписати штраф',

@@ -8,6 +8,13 @@
                 'de': 'Ein Polizist ist am Einsatzort eingetroffen',
                 'pl': 'Policjant przybył na miejsce wezwania',
             },
+            'sheriff': {
+                'ru': 'Сотрудник шерифа прибыл на место вызова',
+                'ua': 'Співробітник шерифа прибув на місце виклику',
+                'en': 'A sheriff deputy has arrived at the scene',
+                'de': 'Ein Sheriff-Deputy ist am Einsatzort eingetroffen',
+                'pl': 'Zastępca szeryfa przybył na miejsce wezwania',
+            },
             'ems': {
                 'ru': 'Медик прибыл на место вызова',
                 'ua': 'Медик прибув на місце виклику',
@@ -23,6 +30,13 @@
                 'en': 'Police officer {{name}} has accepted your call and is on the way',
                 'de': 'Polizeibeamter {{name}} hat Ihren Notruf angenommen und ist unterwegs',
                 'pl': 'Funkcjonariusz policji {{name}} przyjął twoje zgłoszenie i jest w drodze',
+            },
+            'sheriff': {
+                'ru': 'Сотрудник шерифа {{name}} принял ваш вызов и отправился на него',
+                'ua': 'Співробітник шерифа {{name}} прийняв ваш виклик і вирушив на нього',
+                'en': 'Sheriff deputy {{name}} has accepted your call and is on the way',
+                'de': 'Sheriff-Deputy {{name}} hat Ihren Notruf angenommen und ist unterwegs',
+                'pl': 'Zastępca szeryfa {{name}} przyjął twoje zgłoszenie i jest w drodze',
             },
             'ems': {
                 'ru': 'Медик {{name}} принял ваш вызов и отправился на него',
@@ -40,6 +54,13 @@
                 "de": "Einsatz abgebrochen: Der Bürger, der Polizeihilfe brauchte, hat das Spiel verlassen",
                 "pl": "Wezwanie anulowane: obywatel, który potrzebował pomocy policji, opuścił grę",
             },
+            "sheriff": {
+                "ru": "Вызов отменён: гражданин, которому требовалась помощь шерифа, покинул игру",
+                "ua": "Виклик скасовано: громадянин, якому потрібна була допомога шерифа, вийшов з гри",
+                "en": "Call canceled: the citizen who needed sheriff help has left the game",
+                "de": "Einsatz abgebrochen: Der Bürger, der Sheriff-Hilfe brauchte, hat das Spiel verlassen",
+                "pl": "Wezwanie anulowane: obywatel, który potrzebował pomocy szeryfa, opuścił grę",
+            },
             "ems": {
                 "ru": "Вызов отменён: пациент, которому требовалась медицинская помощь, покинул игру",
                 "ua": "Виклик скасовано: пацієнт, якому потрібна була медична допомога, вийшов з гри",
@@ -55,6 +76,13 @@
                 "en": "Call canceled: the citizen who needed police help has died",
                 "de": "Einsatz abgebrochen: Der Bürger, der Polizeihilfe brauchte, ist gestorben",
                 "pl": "Wezwanie anulowane: obywatel, który potrzebował pomocy policji, zginął",
+            },
+            "sheriff": {
+                "ru": "Вызов отменён: гражданин, которому требовалась помощь шерифа, погиб",
+                "ua": "Виклик скасовано: громадянин, якому потрібна була допомога шерифа, загинув",
+                "en": "Call canceled: the citizen who needed sheriff help has died",
+                "de": "Einsatz abgebrochen: Der Bürger, der Sheriff-Hilfe brauchte, ist gestorben",
+                "pl": "Wezwanie anulowane: obywatel, który potrzebował pomocy szeryfa, zginął",
             },
             "ems": {
                 "ru": "Вызов отменён: пациент, которому требовалась медицинская помощь, погиб",
@@ -84,6 +112,13 @@
         },
         "dispatchAcceptedDeath": {
             "lspd": {
+                "ru": "Ты погиб и больше не участвуешь в выполнении вызова",
+                "ua": "Ти загинув і більше не береш участі у виконанні виклику",
+                "en": "You died and are no longer part of the call",
+                "de": "Du bist gestorben und nimmst nicht mehr am Einsatz teil",
+                "pl": "Zginąłeś i nie bierzesz już udziału w wezwaniu",
+            },
+            "sheriff": {
                 "ru": "Ты погиб и больше не участвуешь в выполнении вызова",
                 "ua": "Ти загинув і більше не береш участі у виконанні виклику",
                 "en": "You died and are no longer part of the call",

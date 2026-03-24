@@ -262,4 +262,11 @@ export default {
         de: 'Fraktionsmaterialien zum Crafting verwenden',
         pl: 'Używać materiałów frakcji do craftingu',
     },
+    giveBonus: {
+        ru: 'Выдавать премии',
+        ua: 'Видавати премії',
+        en: 'Give bonuses',
+        de: 'Boni vergeben',
+        pl: 'Przyznawać premie',
+    },
 };

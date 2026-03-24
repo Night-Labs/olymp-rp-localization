@@ -1,4 +1,5 @@
 import arrest from './arrest';
+import bonus from './bonus';
 import upgrades from './upgrades';
 import fine from './fine';
 import frisk from './frisk';
@@ -7,6 +8,7 @@ import sellLicense from './sellLicense';
 
 export const cef = {
     arrest,
+    bonus,
     upgrades,
     fine,
     frisk,

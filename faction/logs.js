@@ -139,6 +139,13 @@ export default {
                 de: 'Für den Sieg im Graffiti-Krieg',
                 pl: 'Za zwycięstwo w wojnie o graffiti',
             },
+            pointCaptureSuppressed: {
+                ru: 'Премия за зачистку точки ${{money}}',
+                ua: 'Премія за зачистку точки ${{money}}',
+                en: 'Reward for clearing the point ${{money}}',
+                de: 'Belohnung für die Säuberung des Punktes ${{money}}',
+                pl: 'Nagroda za oczyszczenie punktu ${{money}}',
+            },
         },
         take: {
             upgradePayday: {
@@ -404,5 +411,13 @@ export default {
         en: 'Took licenses from {{name}} for {{license}}',
         de: 'Lizenzen von {{name}} für {{license}} genommen',
         pl: 'Zabrałeś licencje od {{name}} na {{license}}',
+    },
+
+    gaveBonus: {
+        ru: 'Выдал премию ${{value}} игроку {{name}}. Причина: {{reason}}',
+        ua: 'Видав премію ${{value}} гравцю {{name}}. Причина: {{reason}}',
+        en: 'Gave a ${{value}} bonus to {{name}}. Reason: {{reason}}',
+        de: 'Hat {{name}} einen Bonus von ${{value}} gegeben. Grund: {{reason}}',
+        pl: 'Przyznał premię ${{value}} graczowi {{name}}. Powód: {{reason}}',
     },
 };

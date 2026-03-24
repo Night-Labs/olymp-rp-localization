@@ -14,6 +14,7 @@ import robbery from './robbery';
 import database from './database';
 import quests from './quests';
 import pointCapture from './pointCapture';
+import crimeDm from './crimeDm';
 import speedradar from './speedradar';
 import weazelNews from './weazelNews';
 import surgeon from './surgeon';
@@ -36,6 +37,7 @@ export const faction = {
     database,
     quests,
     pointCapture,
+    crimeDm,
     speedradar,
     weazelNews,
     surgeon,

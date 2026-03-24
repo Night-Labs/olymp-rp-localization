@@ -1,0 +1,88 @@
+export default {
+    title: {
+        ru: 'Выдать премию',
+        ua: 'Видати премію',
+        en: 'Give Bonus',
+        de: 'Bonus vergeben',
+        pl: 'Przyznać premię',
+    },
+    reason: {
+        ru: 'Укажите причину',
+        ua: 'Вкажіть причину',
+        en: 'Specify Reason',
+        de: 'Gebe einen Grund an',
+        pl: 'Podaj powód',
+    },
+    sum: {
+        ru: 'Введите сумму от {{min}} до {{max}}',
+        ua: 'Введіть суму від {{min}} до {{max}}',
+        en: 'Enter Amount from {{min}} to {{max}}',
+        de: 'Gebe einen Betrag zwischen {{min}} und {{max}} ein',
+        pl: 'Wprowadź kwotę od {{min}} do {{max}}',
+    },
+    accept: {
+        ru: 'Подтвердить',
+        ua: 'Підтвердити',
+        en: 'Confirm',
+        de: 'Bestätigen',
+        pl: 'Zatwierdź',
+    },
+    decline: {
+        ru: 'Отмена',
+        ua: 'Скасування',
+        en: 'Cancel',
+        de: 'Abbrechen',
+        pl: 'Anuluj',
+    },
+
+    // Notifications (server-side)
+    successGiver: {
+        ru: 'Вы выдали премию ${{value}} игроку {{name}}',
+        ua: 'Ви видали премію ${{value}} гравцю {{name}}',
+        en: 'You gave a ${{value}} bonus to {{name}}',
+        de: 'Du hast {{name}} einen Bonus von ${{value}} gegeben',
+        pl: 'Przyznałeś premię ${{value}} graczowi {{name}}',
+    },
+    successTarget: {
+        ru: '{{name}} выдал вам премию в размере ${{value}}',
+        ua: '{{name}} видав вам премію у розмірі ${{value}}',
+        en: '{{name}} gave you a bonus of ${{value}}',
+        de: '{{name}} hat dir einen Bonus von ${{value}} gegeben',
+        pl: '{{name}} przyznał ci premię w wysokości ${{value}}',
+    },
+    cantGiveSelf: {
+        ru: 'Нельзя выдать премию самому себе',
+        ua: 'Не можна видати премію самому собі',
+        en: 'You cannot give a bonus to yourself',
+        de: 'Du kannst dir keinen Bonus selbst geben',
+        pl: 'Nie możesz przyznać premii samemu sobie',
+    },
+    targetNotInFaction: {
+        ru: 'Игрок не состоит в вашей фракции',
+        ua: 'Гравець не перебуває у вашій фракції',
+        en: 'The player is not in your faction',
+        de: 'Der Spieler ist nicht in deiner Fraktion',
+        pl: 'Gracz nie jest w twojej frakcji',
+    },
+    cooldown: {
+        ru: 'Вы уже выдавали премию сегодня',
+        ua: 'Ви вже видавали премію сьогодні',
+        en: 'You have already given a bonus today',
+        de: 'Du hast heute bereits einen Bonus vergeben',
+        pl: 'Już dziś przyznałeś premię',
+    },
+    notEnoughBudget: {
+        ru: 'Недостаточно средств в бюджете фракции',
+        ua: 'Недостатньо коштів у бюджеті фракції',
+        en: 'Not enough funds in the faction budget',
+        de: 'Nicht genug Mittel im Fraktionsbudget',
+        pl: 'Niewystarczające środki w budżecie frakcji',
+    },
+    targetNoBank: {
+        ru: 'У игрока нет банковского счёта',
+        ua: 'У гравця немає банківського рахунку',
+        en: 'The player does not have a bank account',
+        de: 'Der Spieler hat kein Bankkonto',
+        pl: 'Gracz nie posiada konta bankowego',
+    },
+};
