@@ -15,6 +15,7 @@ import carshop from './carshop';
 import carWash from './carWash';
 import testdrive from './testdrive';
 import rent from './rent';
+import factionVehicles from './factionVehicles';
 import appearance from './appearance';
 import casino from './casino';
 // import { casinoRoulette } from './casino/server/games/roulette';
@@ -101,6 +102,7 @@ export default {
     carWash,
     testdrive,
     rent,
+    factionVehicles,
     appearance,
     casino,
     // casinoRoulette,

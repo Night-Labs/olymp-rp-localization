@@ -21,6 +21,13 @@ export default {
             de: 'Kann ich eine Frage stellen?',
             pl: 'Czy mogę zadać pytanie?',
         },
+        takeFactionVehicle: {
+            ru: 'Взять машину',
+            ua: 'Взяти машину',
+            en: 'Take a vehicle',
+            de: 'Fahrzeug nehmen',
+            pl: 'Weź pojazd',
+        },
         moneyLaundering: {
             ru: 'Отмыв денег',
             ua: 'Відмивання грошей',
