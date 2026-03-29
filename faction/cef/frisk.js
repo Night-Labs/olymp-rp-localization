@@ -50,6 +50,14 @@ export default {
         "pl": "Wszystkie rzeczy, które usuniesz, zostaną zniszczone na miejscu",
     },
 
+    noSerialNumber: {
+        ru: 'БЕЗ СЕРИЙНОГО НОМЕРА',
+        ua: 'БЕЗ СЕРІЙНОГО НОМЕРА',
+        en: 'NO SERIAL NUMBER',
+        de: 'KEINE SERIENNUMMER',
+        pl: 'BEZ NUMERU SERYJNEGO',
+    },
+
     nothing: {
         ru: 'Не найдено ни одного подозрительного предмета.',
         ua: 'Не знайдено жодного підозрілого предмета.',

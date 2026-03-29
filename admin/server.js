@@ -9,6 +9,14 @@ export const server = {
         pl: 'Admin',
         zh: '管理员',
     },
+    chatGlobalCleared: {
+        ru: 'Глобальный чат очищен у всех игроков онлайн',
+        ua: 'Глобальний чат очищено у всіх гравців онлайн',
+        en: 'Global chat cleared for all online players',
+        de: 'Globaler Chat für alle Online-Spieler geleert',
+        pl: 'Globalny czat został wyczyszczony u wszystkich graczy online',
+        zh: '已为所有在线玩家清空全局聊天',
+    },
     commands: {
         errors: {
             invalidBoolean: {

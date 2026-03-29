@@ -41,4 +41,11 @@ export default {
         de: 'Deine Gang hat das Event "Punkt erobern" gewonnen! Belohnung: ${{reward}} für das Fraktionslager',
         pl: 'Twoja banda wygrała wydarzenie "Przejęcie punktu"! Nagroda: ${{reward}} do skrytki frakcji',
     },
+    suppressedReward: {
+        ru: 'Точка зачищена, в бюджет фракции начислена премия ${{reward}}',
+        ua: 'Точку зачищено, до бюджету фракції нараховано премію ${{reward}}',
+        en: 'Point cleared, faction budget received a bonus of ${{reward}}',
+        de: 'Punkt gesäubert, das Fraktionsbudget erhielt eine Prämie von ${{reward}}',
+        pl: 'Punkt oczyszczony, budżet frakcji otrzymał premię w wysokości ${{reward}}',
+    },
 };

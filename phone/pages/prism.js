@@ -141,6 +141,13 @@ export default {
             de: 'Raub',
             pl: 'NapAd',
         },
+        riot: {
+            ru: 'Беспорядки',
+            ua: 'Заворушення',
+            en: 'Riot',
+            de: 'Unruhen',
+            pl: 'Zamieszki',
+        },
         'death': {
             'ru': 'Смерть',
             'ua': 'Смерть',
@@ -148,6 +155,14 @@ export default {
             'de': 'Tod',
             'pl': 'Śmierć',
         },
+    },
+
+    pointCaptureDispatchTarget: {
+        ru: 'Массовые беспорядки на захвате точки',
+        ua: 'Масові заворушення на захопленні точки',
+        en: 'Mass disturbance at point capture',
+        de: 'Massenunruhen bei der Punkt-Eroberung',
+        pl: 'Masowe zamieszki przy przejęciu punktu',
     },
 
     noAccess: {

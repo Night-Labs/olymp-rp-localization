@@ -7,12 +7,33 @@ export default {
         pl: '!{#2196F3}[Fala rządowa] {{factionName}} {{playerName}}: {{message}}',
         zh:'#2196F3}[政府讲话]{{factionName}{{playerName}:{{message}'
     },
+    depUsage: {
+        ru: '[сообщение] - сообщение в гос. волну',
+        ua: '[повідомлення] - повідомлення в держ. хвилю',
+        en: '[message] - send to the gov wave',
+        de: '[nachricht] - nachricht in die staatswelle',
+        pl: '[wiadomosc] - wiadomosc na fale rzadowa',
+    },
     govBroadcast: {
         ru: '!{#2196F3}{{factionName}} {{playerName}}: {{message}}',
         ua: '!{#2196F3}{{factionName}} {{playerName}}: {{message}}',
         en: '!{#2196F3}{{factionName}} {{playerName}}: {{message}}',
         de: '!{#2196F3}{{factionName}} {{playerName}}: {{message}}',
         pl: '!{#2196F3}{{factionName}} {{playerName}}: {{message}}',
+    },
+    govUsage: {
+        ru: '[сообщение] - государственное объявление',
+        ua: '[повідомлення] - державне оголошення',
+        en: '[message] - government announcement',
+        de: '[nachricht] - staatliche ankundigung',
+        pl: '[wiadomosc] - ogloszenie rzadowe',
+    },
+    fUsage: {
+        ru: '[сообщение] - фракционный чат',
+        ua: '[повідомлення] - фракційний чат',
+        en: '[message] - faction chat',
+        de: '[nachricht] - fraktionschat',
+        pl: '[wiadomosc] - czat frakcji',
     },
     fMessage: {
         ru: '!{#2196F3}[Рация {{factionName}}] {{playerName}}: {{message}}',
@@ -29,6 +50,20 @@ export default {
         de: '!{#2196F3}[Funk {{factionName}}] {{playerName}}: (( {{message}} ))',
         pl: '!{#2196F3}[Radio {{factionName}}] {{playerName}}: (( {{message}} ))',
         zh:'{#2196F3}[无线电{{factionName}]{{playerName}}：（（{{message}}））'
+    },
+    fbUsage: {
+        ru: '[сообщение] - OOC фракционный чат',
+        ua: '[повідомлення] - OOC фракційний чат',
+        en: '[message] - ooc faction chat',
+        de: '[nachricht] - ooc fraktionschat',
+        pl: '[wiadomosc] - ooc czat frakcji',
+    },
+    respawnUsage: {
+        ru: '[фракция] - зареспавнить игрока на спавне фракции',
+        ua: '[фракція] - зареспавнити гравця на спавні фракції',
+        en: '[faction] - respawn player at faction spawn',
+        de: '[fraktion] - spieler am fraktionsspawn respawnen',
+        pl: '[frakcja] - zrespawnuj gracza na spawnie frakcji',
     },
 
     // modal

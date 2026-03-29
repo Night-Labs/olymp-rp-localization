@@ -176,6 +176,13 @@ export default {
         de: 'Den Chatverlauf nur für sich selbst löschen.',
         pl: 'Wyczyść historię czatu tylko u siebie.',
     },
+    clear_chat_global: {
+        ru: 'Очистить историю чата у всех игроков онлайн.',
+        ua: 'Очистити історію чату у всіх гравців онлайн.',
+        en: 'Clear the chat history for all online players.',
+        de: 'Den Chatverlauf bei allen Online-Spielern löschen.',
+        pl: 'Wyczyść historię czatu u wszystkich graczy online.',
+    },
     repair: {
         ru: 'Починить транспорт рядом с собой или транспорт указанного игрока.',
         ua: 'Полагодити транспорт поруч із собою або транспорт вказаного гравця.',

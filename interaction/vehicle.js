@@ -150,6 +150,14 @@ export const vehicle = {
         pl: 'Sprzedaj do GOV.',
         zh: '卖给政府',
     },
+    'transfer-to-faction': {
+        ru: 'Передать во фракцию',
+        ua: 'Передати у фракцію',
+        en: 'Transfer to faction',
+        de: 'An die Fraktion übergeben',
+        pl: 'Przekaż do frakcji',
+        zh: '转交给帮派',
+    },
 
     //
     'drop-anchor': {
@@ -286,5 +294,41 @@ export const vehicle = {
         "en": "Cancel evacuation order",
         "de": "Evakuierungsbefehl aufheben",
         "pl": "Anuluj rozkaz ewakuacji",
-    }
+    },
+
+    flatbed: {
+        ru: 'Эвакуатор',
+        ua: 'Евакуатор',
+        en: 'Tow Truck',
+        de: 'Abschleppwagen',
+        pl: 'Laweta',
+    },
+    'flatbed-lower': {
+        ru: 'Опустить платформу',
+        ua: 'Опустити платформу',
+        en: 'Lower the platform',
+        de: 'Plattform absenken',
+        pl: 'Opuść platformę',
+    },
+    'flatbed-raise': {
+        ru: 'Поднять платформу',
+        ua: 'Підняти платформу',
+        en: 'Raise the platform',
+        de: 'Plattform anheben',
+        pl: 'Podnieś platformę',
+    },
+    'flatbed-hookRope': {
+        ru: 'Зацепить трос',
+        ua: 'Зачепити трос',
+        en: 'Hook the rope',
+        de: 'Seil einhaken',
+        pl: 'Zaczep linę',
+    },
+    'flatbed-unhookRope': {
+        ru: 'Отцепить трос',
+        ua: 'Відчепити трос',
+        en: 'Unhook the rope',
+        de: 'Seil aushaken',
+        pl: 'Odczep linę',
+    },
 };

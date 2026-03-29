@@ -14,6 +14,7 @@ import robbery from './robbery';
 import database from './database';
 import quests from './quests';
 import pointCapture from './pointCapture';
+import crimeDm from './crimeDm';
 import speedradar from './speedradar';
 import weazelNews from './weazelNews';
 import surgeon from './surgeon';
@@ -36,6 +37,7 @@ export const faction = {
     database,
     quests,
     pointCapture,
+    crimeDm,
     speedradar,
     weazelNews,
     surgeon,
@@ -202,6 +204,87 @@ export const faction = {
             pl: 'Anuluj',
         },
     },
+    transportRecycleModal: {
+        title: {
+            ru: 'Утилизация транспорта',
+            ua: 'Утилізація транспорту',
+            en: 'Vehicle recycling',
+            de: 'Fahrzeugentsorgung',
+            pl: 'Utylizacja pojazdu',
+        },
+        message: {
+            ru: 'Вы собираетесь утилизировать <span style="color: white">{{name}}</span> <span style="color: white">({{plate}})</span>.<br/><br/><span style="color: var(--red)">После подтверждения машина будет потеряна навсегда и больше не будет частью фракции.</span>',
+            ua: 'Ви збираєтесь утилізувати <span style="color: white">{{name}}</span> <span style="color: white">({{plate}})</span>.<br/><br/><span style="color: var(--red)">Після підтвердження машина буде втрачена назавжди й більше не буде частиною фракції.</span>',
+            en: 'You are about to recycle <span style="color: white">{{name}}</span> <span style="color: white">({{plate}})</span>.<br/><br/><span style="color: var(--red)">After confirmation, the vehicle will be lost forever and will no longer be part of the faction.</span>',
+            de: 'Du bist dabei, <span style="color: white">{{name}}</span> <span style="color: white">({{plate}})</span> zu entsorgen.<br/><br/><span style="color: var(--red)">Nach der Bestätigung geht das Fahrzeug für immer verloren und ist nicht mehr Teil der Fraktion.</span>',
+            pl: 'Zamierzasz zutylizować <span style="color: white">{{name}}</span> <span style="color: white">({{plate}})</span>.<br/><br/><span style="color: var(--red)">Po potwierdzeniu pojazd zostanie utracony na zawsze i nie będzie już częścią frakcji.</span>',
+        },
+        confirmButton: {
+            ru: 'Утилизировать',
+            ua: 'Утилізувати',
+            en: 'Recycle',
+            de: 'Entsorgen',
+            pl: 'Zutylizuj',
+        },
+        cancelButton: {
+            ru: 'Отмена',
+            ua: 'Скасувати',
+            en: 'Cancel',
+            de: 'Abbrechen',
+            pl: 'Anuluj',
+        },
+    },
+    transferPersonalVehicleModal: {
+        title: {
+            ru: 'Передача транспорта во фракцию',
+            ua: 'Передача транспорту у фракцію',
+            en: 'Transfer vehicle to faction',
+            de: 'Fahrzeug an die Fraktion übergeben',
+            pl: 'Przekazanie pojazdu do frakcji',
+        },
+        message: {
+            ru: 'Вы собираетесь передать <span style="color: white">{{name}}</span> <span style="color: white">({{plate}})</span> во фракцию <span style="color: white">{{factionName}}</span>.<br/><br/><span style="color: var(--red)">После подтверждения машина перестанет быть личной, станет частью автопарка этой фракции и вернуть её обратно как личный транспорт будет нельзя.</span>',
+            ua: 'Ви збираєтесь передати <span style="color: white">{{name}}</span> <span style="color: white">({{plate}})</span> у фракцію <span style="color: white">{{factionName}}</span>.<br/><br/><span style="color: var(--red)">Після підтвердження машина перестане бути особистою, стане частиною автопарку цієї фракції, і повернути її назад як особистий транспорт буде не можна.</span>',
+            en: 'You are about to transfer <span style="color: white">{{name}}</span> <span style="color: white">({{plate}})</span> to the <span style="color: white">{{factionName}}</span> faction.<br/><br/><span style="color: var(--red)">After confirmation, the vehicle will stop being personal, become part of this faction fleet, and it cannot be returned as a personal vehicle.</span>',
+            de: 'Du bist dabei, <span style="color: white">{{name}}</span> <span style="color: white">({{plate}})</span> an die Fraktion <span style="color: white">{{factionName}}</span> zu übergeben.<br/><br/><span style="color: var(--red)">Nach der Bestätigung ist das Fahrzeug nicht mehr privat, wird Teil des Fuhrparks dieser Fraktion und kann nicht als Privatfahrzeug zurückgegeben werden.</span>',
+            pl: 'Zamierzasz przekazać <span style="color: white">{{name}}</span> <span style="color: white">({{plate}})</span> do frakcji <span style="color: white">{{factionName}}</span>.<br/><br/><span style="color: var(--red)">Po potwierdzeniu pojazd przestanie być prywatny, stanie się częścią floty tej frakcji i nie będzie można przywrócić go jako pojazdu osobistego.</span>',
+        },
+        confirmButton: {
+            ru: 'Передать',
+            ua: 'Передати',
+            en: 'Transfer',
+            de: 'Übergeben',
+            pl: 'Przekaż',
+        },
+        cancelButton: {
+            ru: 'Отмена',
+            ua: 'Скасувати',
+            en: 'Cancel',
+            de: 'Abbrechen',
+            pl: 'Anuluj',
+        },
+    },
+    vehicleTransferredToFaction: {
+        ru: 'Транспорт передан во фракцию',
+        ua: 'Транспорт передано у фракцію',
+        en: 'The vehicle has been transferred to the faction',
+        de: 'Das Fahrzeug wurde an die Fraktion übergeben',
+        pl: 'Pojazd został przekazany do frakcji',
+    },
+    vehicleTransferredToFactionReplacedActiveVehicle: {
+        ru: 'Ваш прошлый фракционный транспорт был возвращён в автопарк в пользу нового',
+        ua: 'Ваш попередній фракційний транспорт було повернуто в автопарк на користь нового',
+        en: 'Your previous faction vehicle was returned to the fleet in favor of the new one',
+        de: 'Dein vorheriges Fraktionsfahrzeug wurde zugunsten des neuen in den Fuhrpark zurückgeführt',
+        pl: 'Twój poprzedni pojazd frakcyjny został zwrócony do floty na rzecz nowego',
+    },
+    vehicleTransferredToFactionChat: {
+        ru: '{{name}} передал личный транспорт {{vehicle}} ({{plate}}) во фракцию',
+        ua: '{{name}} передав особистий транспорт {{vehicle}} ({{plate}}) у фракцію',
+        en: '{{name}} transferred a personal vehicle {{vehicle}} ({{plate}}) to the faction',
+        de: '{{name}} hat das Privatfahrzeug {{vehicle}} ({{plate}}) an die Fraktion übergeben',
+        pl: '{{name}} przekazał prywatny pojazd {{vehicle}} ({{plate}}) do frakcji',
+    },
     yourRankDeletedNotifyToPlayer: {
         ru: 'Ваш ранг {{name}} был удален, вам был присвоен ранг {{newRankName}}',
         ua: 'Ваш ранг {{name}} було видалено, вам було присвоєно ранг {{newRankName}}',
@@ -292,6 +375,62 @@ export const faction = {
         en: 'You stopped speaking into the megaphone',
         de: 'Du hast aufgehört, durch das Megafon zu sprechen',
         pl: 'Przestałeś mówić przez megafon',
+    },
+    vehicleTaken: {
+        ru: 'Вы взяли фракционную машину',
+        ua: 'Ви взяли фракційну машину',
+        en: 'You took a faction vehicle',
+        de: 'Du hast ein Fraktionsfahrzeug genommen',
+        pl: 'Wziąłeś pojazd frakcyjny',
+    },
+    vehicleAlreadyTaken: {
+        ru: 'Эта машина уже занята',
+        ua: 'Ця машина вже зайнята',
+        en: 'This vehicle is already taken',
+        de: 'Dieses Fahrzeug ist bereits vergeben',
+        pl: 'Ten pojazd jest już zajęty',
+    },
+    vehicleNotYours: {
+        ru: 'Это не ваша машина',
+        ua: 'Це не ваша машина',
+        en: 'This is not your vehicle',
+        de: 'Das ist nicht dein Fahrzeug',
+        pl: 'To nie twój pojazd',
+    },
+    vehicleReturned: {
+        ru: 'Вы вернули фракционную машину',
+        ua: 'Ви повернули фракційну машину',
+        en: 'You returned the faction vehicle',
+        de: 'Du hast das Fraktionsfahrzeug zurückgegeben',
+        pl: 'Zwróciłeś pojazd frakcyjny',
+    },
+    vehiclePurchased: {
+        ru: 'Транспорт добавлен в автопарк фракции',
+        ua: 'Транспорт додано до автопарку фракції',
+        en: 'The vehicle has been added to the faction fleet',
+        de: 'Das Fahrzeug wurde dem Fuhrpark der Fraktion hinzugefügt',
+        pl: 'Pojazd został dodany do floty frakcji',
+    },
+    vehicleRemoved: {
+        ru: 'Транспорт утилизирован',
+        ua: 'Транспорт утилізовано',
+        en: 'The vehicle has been recycled',
+        de: 'Das Fahrzeug wurde recycelt',
+        pl: 'Pojazd został zutylizowany',
+    },
+    vehicleRemoveUnavailable: {
+        ru: 'Эту машину нельзя утилизировать, пока она нужна фракции',
+        ua: 'Цю машину не можна утилізувати, поки вона потрібна фракції',
+        en: 'This vehicle cannot be recycled while the faction still needs it',
+        de: 'Dieses Fahrzeug kann nicht recycelt werden, solange die Fraktion es noch benötigt',
+        pl: 'Tego pojazdu nie można zutylizować, dopóki frakcja go potrzebuje',
+    },
+    vehicleRankAccessDenied: {
+        ru: 'Ваш ранг слишком низкий для этой машины',
+        ua: 'Ваш ранг занадто низький для цієї машини',
+        en: 'Your rank is too low for this vehicle',
+        de: 'Dein Rang ist für dieses Fahrzeug zu niedrig',
+        pl: 'Twoja ranga jest zbyt niska dla tego pojazdu',
     },
     cantSeatFactionGovVehicle: {
         'ru': 'Чтобы использовать рабочий транспорт, ты должен быть на смене',

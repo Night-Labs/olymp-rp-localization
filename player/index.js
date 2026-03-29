@@ -90,6 +90,36 @@ export default {
         de: 'Dieser Bauplan wurde bereits gelernt, du kannst ihn wegwerfen oder verkaufen',
         pl: 'Ten schemat został już poznany, możesz go wyrzucić lub sprzedać',
     },
+    commands: {
+        supportUsage: {
+            ru: '[сообщение] - связаться с администрацией',
+            ua: '[повідомлення] - зв`язатися з адміністрацією',
+            en: '[message] - contact administration',
+            de: '[nachricht] - administration kontaktieren',
+            pl: '[wiadomosc] - skontaktowac sie z administracja',
+        },
+        exitUsage: {
+            ru: '- выйти из ивента',
+            ua: '- вийти з івенту',
+            en: '- leave the event',
+            de: '- event verlassen',
+            pl: '- opusc wydarzenie',
+        },
+        pingUsage: {
+            ru: '- показать свой пинг',
+            ua: '- показати свій ping',
+            en: '- show your ping',
+            de: '- deinen ping anzeigen',
+            pl: '- pokaz swoj ping',
+        },
+        resetPayoutUsage: {
+            ru: '- сбросить дату выплаты депозита (debug)',
+            ua: '- скинути дату виплати депозиту (debug)',
+            en: '- reset deposit payout date (debug)',
+            de: '- auszahlungsdatum des deposits zurucksetzen (debug)',
+            pl: '- zresetowac date wyplaty depozytu (debug)',
+        },
+    },
 
     //
     passport,
