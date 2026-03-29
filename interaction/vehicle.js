@@ -150,6 +150,14 @@ export const vehicle = {
         pl: 'Sprzedaj do GOV.',
         zh: '卖给政府',
     },
+    'transfer-to-faction': {
+        ru: 'Передать во фракцию',
+        ua: 'Передати у фракцію',
+        en: 'Transfer to faction',
+        de: 'An die Fraktion übergeben',
+        pl: 'Przekaż do frakcji',
+        zh: '转交给帮派',
+    },
 
     //
     'drop-anchor': {
