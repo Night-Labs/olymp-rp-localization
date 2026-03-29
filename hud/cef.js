@@ -122,6 +122,24 @@ export const cef = {
             zh: '通知',
         },
     },
+    copyText: {
+        notifyHeader: {
+            ru: 'Скопировано!',
+            ua: 'Скопійовано!',
+            en: 'Copied!',
+            de: 'Kopiert!',
+            pl: 'Skopiowano!',
+            zh: '已复制！',
+        },
+        notifyText: {
+            ru: 'Текст скопирован в буфер обмена',
+            ua: 'Текст скопійовано в буфер обміну',
+            en: 'The text has been copied to the clipboard',
+            de: 'Der Text wurde in die Zwischenablage kopiert',
+            pl: 'Tekst został skopiowany do schowka',
+            zh: '文本已复制到剪贴板',
+        },
+    },
     voice: {
         main: {
             ua: 'Спільний',

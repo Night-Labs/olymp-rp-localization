@@ -726,6 +726,23 @@ export const cef = {
 
     TopUp: {
         header: {
+            ru: 'Пополнение донат-счёта',
+            ua: 'Поповнення донат-рахунку',
+            en: 'Donation account top-up',
+            de: 'Aufladen des Spendenkontos',
+            pl: 'Doładowanie konta darowizn',
+        },
+        desc: {
+            ru: 'Купить Olymp-Coins можно, перейдя на официальный сайт проекта.<br><br>К сожалению, из-за ограничений некоторых платёжных систем оплата прямо из игры недоступна и требует оплаты через браузер - это может быть браузер на ПК или телефоне.<br><br>Перейти на официальный сайт проекта можно, скопировав ссылку ниже либо отсканировав QR-код с телефона.',
+            ua: 'Придбати Olymp-Coins можна, перейшовши на офіційний сайт проєкту.<br><br>На жаль, через обмеження деяких платіжних систем оплата безпосередньо з гри недоступна та потребує здійснення платежу через браузер - це може бути браузер на ПК або телефоні.<br><br>Перейти на офіційний сайт проєкту можна, скопіювавши посилання нижче або відсканувавши QR-код з телефону.',
+            en: "You can purchase Olymp-Coins by visiting the project's official website.<br><br>Unfortunately, due to restrictions of some payment systems, payment directly from the game is unavailable and requires completing the payment through a browser - this can be a browser on a PC or phone.<br><br>You can go to the official website by copying the link below or scanning the QR code with your phone.",
+            de: 'Olymp-Coins können über die offizielle Website des Projekts erworben werden.<br><br>Leider ist aufgrund von Einschränkungen einiger Zahlungssysteme eine Zahlung direkt im Spiel nicht möglich und erfordert die Durchführung der Zahlung über einen Browser - dies kann ein Browser auf einem PC oder Smartphone sein.<br><br>Sie können die offizielle Website aufrufen, indem Sie den untenstehenden Link kopieren oder den QR-Code mit Ihrem Telefon scannen.',
+            pl: 'Olymp-Coins można kupić, przechodząc na oficjalną stronę projektu.<br><br>Niestety, ze względu na ograniczenia niektórych systemów płatności, płatność bezpośrednio z gry jest niedostępna i wymaga dokonania płatności przez przeglądarkę - może to być przeglądarka na komputerze lub telefonie.<br><br>Na oficjalną stronę projektu można przejść, kopiując poniższy link lub skanując kod QR telefonem.',
+        },
+    },
+
+    TopUpOld: {
+        header: {
             ru: 'Пополнение счёта',
             ua: 'Поповнення рахунку',
             en: 'Top Up',
