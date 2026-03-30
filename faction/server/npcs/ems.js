@@ -3,7 +3,7 @@ export default {
         ru: 'Здравствуйте, если вам нужно в больницу пожалуйста поднимитесь по лифту или войдите с другой стороны',
         ua: 'Здравствуйте, якщо вам потрібно до лікарні, будь ласка, підніміться ліфтом або зайдіть з іншого боку',
         en: 'Hello, if you need to get to the hospital, please take the elevator or enter from the other side',
-        de: 'Hallo, wenn du ins Krankenhaus musst, nehme den Aufzug oder gehe von der anderen Seite hinein',
+        de: 'Hallo, wenn du ins Krankenhaus musst, nimm bitte den Aufzug oder geh von der anderen Seite hinein',
         pl: 'Witaj, jeśli potrzebujesz dostać się do szpitala, skorzystaj z windy lub wejdź z drugiej strony',
     },
     ok: {
@@ -27,7 +27,7 @@ export default {
             ru: 'Приветствую вас в нашем отделении EMS, чем я могу помочь?',
             en: 'Welcome to our EMS department, how can I help?',
             ua: 'Ласкаво просимо до нашого відділення EMS, як я можу допомогти?',
-            de: 'Willkommen in unserer EMS-Abteilung, wie kann ich helfen?',
+            de: 'Willkommen in unserer EMS-Abteilung. Wie kann ich dir helfen?',
             pl: 'Witamy w naszym dziale EMS, jak mogę pomóc?',
             zh: '欢迎来到我们的EMS部门，有什么我能帮忙的吗？',
         },
@@ -66,7 +66,7 @@ export default {
             ru: 'Всё просто, лидер EMS часто проводит набор в персонал фракции EMS, внимательно следите за чатом, и приходите на собеседование',
             en: "It's simple, the EMS leader often recruits for the EMS faction staff, carefully follow the chat, and come for an interview",
             ua: 'Все просто, лідер EMS часто проводить набір до персоналу фракції EMS, уважно слідкуйте за чатом і приходьте на співбесіду',
-            de: 'Es ist einfach, der EMS-Leiter rekrutiert oft Personal für die EMS-Fraktion, folge dem Chat genau und kommen Sie zum Vorstellungsgespräch',
+            de: 'Ganz einfach: Der EMS-Leiter nimmt regelmäßig neue Leute für die EMS-Fraktion auf. Achte auf den Chat und komm zum Vorstellungsgespräch.',
             pl: 'To proste, lider EMS często rekrutuje do personelu frakcji EMS, uważnie obserwuj czat i przyjdź na rozmowę kwalifikacyjną',
             zh: '很简单，EMS负责人经常管理一个EMS人员团队，仔细关注聊天内容，然后来参加会议',
         },
@@ -84,7 +84,7 @@ export default {
             ru: 'Лицензию можно получить у доктора, поищите вокруг себя докторов и спросите у них могут ли они выдавать вам лицензию.',
             en: 'You can get a license from a doctor, look around for doctors and ask them if they can issue you a license.',
             ua: 'Ліцензію можна отримати у лікаря, пошукайте навколо себе лікарів і запитайте у них, чи можуть вони видає вам ліцензію.',
-            de: 'Du kannst eine Lizenz von einem Arzt erhalten, suchen Sie nach Ärzten und fragen Sie sie, ob sie Ihnen eine Lizenz ausstellen können.',
+            de: 'Eine Lizenz kannst du von einem Arzt bekommen. Halte nach Ärzten in deiner Nähe Ausschau und frag sie, ob sie dir eine Lizenz ausstellen können.',
             pl: 'Licencję można uzyskać od lekarza, poszukaj lekarzy wokół siebie i zapytaj ich, czy mogą wydać ci licencję.',
             zh: '你可以从医生那里拿到执照，四处看看医生，问他们是否可以给你执照',
         },
@@ -108,7 +108,7 @@ export default {
             ru: 'Как только вы найдете доктора и скажите ему про получение медецинской лицензии, он осмотрит вас и возьмёт кровь на анализ, после этого вам придётся заплатить ${{money}} для получение этой лицензии',
             ua: 'Як тільки ви знайдете лікаря і скажете йому про отримання медичної ліцензії, він огляне вас і візьме кров на аналіз, після цього вам доведеться заплатити ${{money}} для отримання цієї ліцензії',
             en: 'As soon as you find a doctor and tell him about getting a medical license, he will examine you and take a blood test, after that you will have to pay ${{money}} to get this license',
-            de: 'Sobald Sie einen Arzt finden und ihm von der Erlangung einer medizinischen Lizenz erzählen, wird er Sie untersuchen und einen Bluttest durchführen, danach müssen Sie ${{money}} bezahlen, um diese Lizenz zu erhalten',
+            de: 'Sobald du einen Arzt gefunden hast und ihm sagst, dass du eine medizinische Lizenz erhalten möchtest, wird er dich untersuchen und dir Blut für eine Analyse abnehmen. Danach musst du ${{money}} bezahlen, um diese Lizenz zu erhalten.',
             pl: 'Gdy tylko znajdziesz lekarza i powiesz mu o uzyskaniu licencji medycznej, przeprowadzi badanie i pobierze krew do analizy, po czym będziesz musiał zapłacić ${{money}} za uzyskanie tej licencji',
         },
         getIt: {
@@ -122,7 +122,7 @@ export default {
             ru: 'Медицинская лицензия нужна во многих местах, и один из примеров - это вступление в нашу фракцию EMS или в полицию',
             ua: 'Медична ліцензія потрібна в багатьох місцях, і один з прикладів - це вступ до нашої фракції EMS або в поліцію',
             en: 'A medical license is needed in many places, and one of the examples is joining our EMS faction or the police',
-            de: 'Eine medizinische Lizenz wird an vielen Orten benötigt, und ein Beispiel ist der Beitritt zu unserer EMS-Fraktion oder zur Polizei',
+            de: 'Eine medizinische Lizenz wird an vielen Orten benötigt. Zum Beispiel brauchst du sie für den Beitritt zu unserer EMS-Fraktion oder zur Polizei.',
             pl: 'Licencja medyczna jest potrzebna w wielu miejscach, a jednym z przykładów jest dołączenie do naszej frakcji EMS lub policji',
         },
 
@@ -138,7 +138,7 @@ export default {
             ru: 'Сейчас нет докторов на работе, но я с радостью продам вам таблетки от простуды, сколько вам нужно?',
             ua: 'Зараз немає лікарів на зміні, але я з радістю продам тобі пігулки від застуди, скільки тобі потрібно?',
             en: 'There are no doctors on duty right now, but I’ll gladly sell you some cold pills. How many do you need?',
-            de: 'Gerade sind keine Ärzte im Dienst, aber ich verkaufe dir gerne Tabletten gegen Erkältung. Wie viele brauchst du?',
+            de: 'Gerade sind keine Ärzte im Dienst, aber ich verkaufe dir gern Tabletten gegen Erkältung. Wie viele brauchst du?',
             pl: 'Teraz nie ma lekarzy w pracy, ale chętnie sprzedam ci tabletki na przeziębienie. Ile potrzebujesz?',
         },
         '1pcs': {
@@ -177,7 +177,7 @@ export default {
             ru: 'Привет! Вижу у тебя есть мешочки с кровью, сдай мне их на анализ взамен на награду',
             ua: "Привіт! Бачу у тебе є мішечки з кров'ю, здай мені їх на аналіз в обмін на нагороду",
             en: 'Hello! I see you have blood bags, give them to me for analysis in exchange for a reward',
-            de: 'Hallo! Ich sehe, du hast Blutbeutel, gib sie mir zur Analyse im Austausch gegen eine Belohnung',
+            de: 'Hallo! Ich sehe, du hast Blutbeutel dabei. Gib sie mir zur Analyse und du bekommst eine Belohnung.',
             pl: 'Cześć! Widzę, że masz woreczki z krwią, oddaj mi je na analizę w zamian za nagrodę',
         },
         okay: {
@@ -198,7 +198,7 @@ export default {
             ru: 'Что-ж, у тебя есть {{count}} мешочков с кровью, и твоя награда будет ${{money}}, хорошо?',
             ua: "Що ж, у тебе є {{count}} мішечків з кров'ю, і твоя нагорода буде ${{money}}, добре?",
             en: 'Well, you have {{count}} blood bags, and your reward will be ${{money}}, okay?',
-            de: 'Nun, du hast {{count}} Blutbeutel, und deine Belohnung wird ${{money}} sein, okay?',
+            de: 'Nun, du hast {{count}} Blutbeutel, und deine Belohnung beträgt ${{money}}. Einverstanden?',
             pl: 'Cóż, masz {{count}} woreczki z krwią, a twoja nagroda wyniesie ${{money}}, dobrze?',
         },
         great: {
@@ -228,7 +228,7 @@ export default {
             ru: 'Привет! у меня ты можешь сдать мешочки с кровью взамен на награду, сейчас у тебя их нет, получить ты и можешь у людей которые готовы сдать кровь',
             ua: "Привіт! у мене ти можеш здати мішечки з кров'ю в обмін на нагороду, зараз у тебе їх немає, отримати іх ти можеш у людей, які готові здати кров",
             en: "Hello! Here you can donate blood bags in exchange for a reward, you don't have any now, you can get them from people who are ready to donate blood",
-            de: 'Hallo! Bei mir kannst du Blutbeutel gegen eine Belohnung abgeben, momentan hast du keine, du kannst sie von Leuten bekommen, die bereit sind, Blut zu spenden',
+            de: 'Hallo! Bei mir kannst du Blutbeutel gegen eine Belohnung abgeben. Im Moment hast du keine dabei. Du bekommst sie von Leuten, die bereit sind, Blut zu spenden.',
             pl: 'Cześć! U mnie możesz oddać woreczki z krwią w zamian za nagrodę, teraz nie masz żadnych, możesz je zdobyć od ludzi, którzy są gotowi oddać krew',
         },
         okay: {
@@ -244,7 +244,7 @@ export default {
             ru: 'Похоже ты не работаешь в EMS, тебе тут не место, это лабаратория',
             ua: 'Схоже, ти не працюєш в EMS, тобі тут не місце, це лабораторія',
             en: "It seems you don't work at EMS, you don't belong here, this is a laboratory",
-            de: 'Es scheint, du arbeitest nicht bei EMS, du gehörst hier nicht hin, das ist ein Labor',
+            de: 'Es sieht so aus, als würdest du nicht beim EMS arbeiten. Du gehörst hier nicht hin, das ist ein Labor.',
             pl: 'Wygląda na to, że nie pracujesz w EMS, nie należysz tutaj, to jest laboratorium',
         },
         okay: {

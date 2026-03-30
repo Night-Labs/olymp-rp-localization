@@ -90,14 +90,14 @@ export default {
         'ru': 'Продать {{count}} любых таблеток людям',
         'ua': 'Продати {{count}} будь-яких пігулок людям',
         'en': 'Sell {{count}} any pills to people',
-        'de': '{{count}} beliebige Pillen an Leute verkaufen',
+        'de': 'Verkaufe {{count}} beliebige Tabletten an Personen',
         'pl': 'Sprzedaj {{count}} dowolnych tabletek ludziom',
     },
     'takeBlood': {
         'ru': 'Взять кровь у {{count}} людей',
         'ua': 'Взяти кров у {{count}} людей',
         'en': 'Take blood from {{count}} people',
-        'de': 'Blut von {{count}} Leuten abnehmen',
+        'de': 'Nimm {{count}} Personen Blut ab',
         'pl': 'Pobierz krew od {{count}} osób',
     },
     'checkPlayerHealth': {
@@ -111,14 +111,14 @@ export default {
         'ru': 'Вылечить болезни у {{count}} людей',
         'ua': 'Вилікувати хвороби у {{count}} людей',
         'en': 'Heal diseases in {{count}} people',
-        'de': 'Heile Krankheiten bei {{count}} Personen',
+        'de': 'Heile die Krankheiten von {{count}} Personen',
         'pl': 'Wylecz choroby u {{count}} osób',
     },
     'sellLicense': {
         'ru': 'Продать любую лицензию {{count}} людям',
         'ua': 'Продати будь-яку ліцензію {{count}} людям',
         'en': 'Sell any license to {{count}} people',
-        'de': 'Irgendeine Lizenz an {{count}} Leute verkaufen',
+        'de': 'Verkaufe {{count}} Personen eine beliebige Lizenz',
         'pl': 'Sprzedaj dowolną licencję {{count}} osobom',
     },
     acceptPrismDispatches: {

@@ -191,7 +191,7 @@ export const player = {
         ru: 'Взять кровь',
         ua: 'Взяти кров',
         en: 'Take blood',
-        de: 'Blut nehmen',
+        de: 'Blut abnehmen',
         pl: 'Pobrać krew',
         zh: '抽血',
     },
