@@ -406,6 +406,22 @@ export const items = {
             pl: 'Głośny, wysokiej jakości boombox, idealny na imprezy w gronie przyjaciół',
         },
     },
+    dice: {
+        name: {
+            ru: 'Игральные кости',
+            ua: 'Гральні кості',
+            en: 'Dice',
+            de: 'Würfel',
+            pl: 'Kości do gry',
+        },
+        desc: {
+            ru: 'Набор игральных костей. Нужен, чтобы предлагать другим игрокам игру в кости.',
+            ua: 'Набір гральних кісток. Потрібен, щоб пропонувати іншим гравцям гру в кості.',
+            en: 'A set of dice. Required to offer other players a dice game.',
+            de: 'Ein Satz Würfel. Wird benötigt, um anderen Spielern ein Würfelspiel anzubieten.',
+            pl: 'Zestaw kości do gry. Jest potrzebny, aby proponować innym graczom grę w kości.',
+        },
+    },
     bouquet: {
         name: {
             ru: 'Букет',

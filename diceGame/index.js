@@ -182,6 +182,22 @@ export default {
         pl: 'Jesteście zbyt daleko od siebie',
         zh: '你们离得太远了',
     },
+    youHaveNoDice: {
+        ru: 'У вас нет игральных костей',
+        ua: 'У вас немає гральних кісток',
+        en: 'You do not have dice',
+        de: 'Du hast keine Würfel',
+        pl: 'Nie masz kości do gry',
+        zh: '你没有骰子',
+    },
+    targetHasNoDice: {
+        ru: 'У оппонента нет игральных костей',
+        ua: 'У опонента немає гральних кісток',
+        en: 'Opponent does not have dice',
+        de: 'Der Gegner hat keine Würfel',
+        pl: 'Przeciwnik nie ma kości do gry',
+        zh: '对手没有骰子',
+    },
 
     // Notifications
     header: {
