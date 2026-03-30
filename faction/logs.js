@@ -386,6 +386,13 @@ export default {
         de: 'Hat eine Verwarnung an {{member}} erteilt. (({{warns}}/3))',
         pl: 'Wystawił ostrzeżenie dla {{member}}. (({{warns}}/3))',
     },
+    transferredVehicleToFaction: {
+        ru: 'Передал во фракцию транспорт {{vehicle}} ({{plate}})',
+        ua: 'Передав у фракцію транспорт {{vehicle}} ({{plate}})',
+        en: 'Transferred vehicle {{vehicle}} ({{plate}}) to the faction',
+        de: 'Fahrzeug {{vehicle}} ({{plate}}) an die Fraktion ubergeben',
+        pl: 'Przekazal do frakcji pojazd {{vehicle}} ({{plate}})',
+    },
 
     //
     giveMiltaryTicket: {

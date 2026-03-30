@@ -158,6 +158,14 @@ export const vehicle = {
         pl: 'Przekaż do frakcji',
         zh: '转交给帮派',
     },
+    'faction-despawn': {
+        ru: 'Задеспавнить',
+        ua: 'Задеспавнити',
+        en: 'Despawn',
+        de: 'Despawnen',
+        pl: 'Despawnuj',
+        zh: '回收载具',
+    },
 
     //
     'drop-anchor': {

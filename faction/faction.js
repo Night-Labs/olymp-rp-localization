@@ -390,6 +390,13 @@ export const faction = {
         de: 'Dieses Fahrzeug ist bereits vergeben',
         pl: 'Ten pojazd jest już zajęty',
     },
+    alreadyHaveSpawnedVehicle: {
+        ru: 'За вами уже числится машина',
+        ua: 'За вами вже числиться машина',
+        en: 'You already have a vehicle checked out',
+        de: 'Du hast bereits ein Fahrzeug ausgeliehen',
+        pl: 'Masz już wypożyczony pojazd',
+    },
     vehicleNotYours: {
         ru: 'Это не ваша машина',
         ua: 'Це не ваша машина',

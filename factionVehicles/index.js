@@ -124,4 +124,34 @@ export default {
             pl: 'Zajęte przez: {{name}}',
         },
     },
+    replaceDialog: {
+        title: {
+            ru: 'Уже есть активная машина',
+            ua: 'Вже є активна машина',
+            en: 'You already have a vehicle',
+            de: 'Du hast bereits ein Fahrzeug',
+            pl: 'Masz już pojazd',
+        },
+        message: {
+            ru: 'У вас уже заспавнена фракционная машина <span style="color: white">{{name}}</span> <span style="color: white">({{plate}})</span>.<br/><br/>Если продолжить, текущая машина будет задеспавнена, а вместо неё вы получите новую.',
+            ua: 'У вас вже заспавнена фракційна машина <span style="color: white">{{name}}</span> <span style="color: white">({{plate}})</span>.<br/><br/>Якщо продовжити, поточна машина буде задеспавнена, а замість неї ви отримаєте нову.',
+            en: 'You already have a spawned faction vehicle <span style="color: white">{{name}}</span> <span style="color: white">({{plate}})</span>.<br/><br/>If you continue, the current vehicle will be despawned and replaced with the new one.',
+            de: 'Du hast bereits ein gespawntes Fraktionsfahrzeug <span style="color: white">{{name}}</span> <span style="color: white">({{plate}})</span>.<br/><br/>Wenn du fortfährst, wird das aktuelle Fahrzeug despawnt und durch das neue ersetzt.',
+            pl: 'Masz już zrespawnowany pojazd frakcyjny <span style="color: white">{{name}}</span> <span style="color: white">({{plate}})</span>.<br/><br/>Jeśli kontynuujesz, obecny pojazd zostanie zdespawnowany i zastąpiony nowym.',
+        },
+        confirmButton: {
+            ru: 'Задеспавнить и взять',
+            ua: 'Задеспавнити і взяти',
+            en: 'Despawn and take',
+            de: 'Despawnen und nehmen',
+            pl: 'Despawnuj i weź',
+        },
+        cancelButton: {
+            ru: 'Отмена',
+            ua: 'Скасувати',
+            en: 'Cancel',
+            de: 'Abbrechen',
+            pl: 'Anuluj',
+        },
+    },
 };

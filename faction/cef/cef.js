@@ -332,6 +332,22 @@ export const cef = {
             pl: 'Wolne',
             zh: '空闲',
         },
+        transferredBy: {
+            ru: 'Передал',
+            en: 'Transferred by',
+            ua: 'Передав',
+            de: 'Ubergeben von',
+            pl: 'Przekazal',
+            zh: '移交人',
+        },
+        transferredAt: {
+            ru: 'Когда передал',
+            en: 'Transferred at',
+            ua: 'Коли передав',
+            de: 'Ubergeben am',
+            pl: 'Przekazano',
+            zh: '移交时间',
+        },
         recycle: {
             ru: 'Утилизировать',
             en: 'Recycle',
@@ -516,6 +532,14 @@ export const cef = {
                 de: 'Zugewiesen',
                 pl: 'Przydzielony',
                 zh: '已分配',
+            },
+            assignedTo: {
+                ru: 'Выдана: {{name}}',
+                en: 'Assigned: {{name}}',
+                ua: 'Видана: {{name}}',
+                de: 'Zugewiesen: {{name}}',
+                pl: 'Przydzielony: {{name}}',
+                zh: '已分配：{{name}}',
             },
             service: {
                 ru: 'Сервис',
