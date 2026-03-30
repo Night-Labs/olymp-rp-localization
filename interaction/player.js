@@ -411,6 +411,15 @@ export const player = {
         zh: '卖掉房子',
     },
 
+    diceGame: {
+        ru: 'Сыграть в кости',
+        ua: 'Зіграти в кості',
+        en: 'Play Dice',
+        de: 'Würfel spielen',
+        pl: 'Zagraj w kości',
+        zh: '玩骰子',
+    },
+
     // pairs animations
     pairsAnimations: {
         title: {

@@ -81,6 +81,7 @@ import taxi from './taxi/taxi';
 import gym from './gym';
 import achievements from './achievements';
 import realtor from './realtor';
+import diceGame from './diceGame';
 import offcies from './offcies';
 import organizationRegistration from './organizationRegistration';
 
@@ -168,6 +169,7 @@ export default {
     gym,
     achievements,
     realtor,
+    diceGame,
     offcies,
     organizationRegistration,
 };
