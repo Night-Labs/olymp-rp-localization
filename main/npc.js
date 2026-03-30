@@ -306,6 +306,13 @@ export const npc = {
         },
     },
     roles: {
+        fleetManager: {
+            ru: 'Автопарк',
+            ua: 'Автопарк',
+            en: 'Fleet Manager',
+            de: 'Fuhrparkmanager',
+            pl: 'Zarządca floty',
+        },
         menager: {
             ru: 'Менеджер',
             ua: 'Менеджер',

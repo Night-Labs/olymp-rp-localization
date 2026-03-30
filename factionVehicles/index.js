@@ -1,10 +1,10 @@
 export default {
     title: {
-        ru: 'Транспорт фракции',
-        ua: 'Транспорт фракції',
-        en: 'Faction Vehicles',
-        de: 'Fraktionsfahrzeuge',
-        pl: 'Pojazdy frakcyjne',
+        ru: 'Автопарк',
+        ua: 'Автопарк',
+        en: 'Fleet',
+        de: 'Fuhrpark',
+        pl: 'Flota',
     },
     searchInput: {
         ru: 'Поиск машины по названию',

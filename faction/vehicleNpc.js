@@ -1,0 +1,51 @@
+export default {
+    greeting: {
+        ru: 'Привет, нужна машина из автопарка?',
+        ua: 'Привiт, потрiбна машина з автопарку?',
+        en: 'Hey, need a vehicle from the fleet?',
+        de: 'Hey, brauchst du ein Fahrzeug aus dem Fuhrpark?',
+        pl: 'Hej, potrzebujesz pojazdu z floty?',
+    },
+    takeVehicle: {
+        ru: 'Взять машину',
+        ua: 'Взяти машину',
+        en: 'Take a vehicle',
+        de: 'Fahrzeug nehmen',
+        pl: 'Weź pojazd',
+    },
+    noThanks: {
+        ru: 'Нет, спасибо',
+        ua: 'Нi, дякую',
+        en: 'No, thanks',
+        de: 'Nein, danke',
+        pl: 'Nie, dzięki',
+    },
+    alreadyHaveVehicle: {
+        ru: 'За тобой уже числится машина, хочешь вернуть её и взять другую?',
+        ua: 'За тобою вже числиться машина, хочеш повернути її i взяти iншу?',
+        en: 'You already have a car checked out, wanna return it and take another one?',
+        de: 'Du hast schon ein Auto draußen, willst du es zurückgeben und ein anderes nehmen?',
+        pl: 'Masz już wypisany samochód, chcesz go zwrócić i wziąć inny?',
+    },
+    returnVehicle: {
+        ru: 'Да, верни её',
+        ua: 'Так, поверни її',
+        en: 'Yeah, return it',
+        de: 'Ja, nimm es zurück',
+        pl: 'Tak, zwróć go',
+    },
+    notOnDuty: {
+        ru: 'Ты сейчас не на смене, сначала заступи на службу.',
+        ua: 'Ти зараз не на змiнi, спочатку заступи на службу.',
+        en: 'You are not on duty, start your shift first.',
+        de: 'Du bist nicht im Dienst, beginne zuerst deine Schicht.',
+        pl: 'Nie jesteś na służbie, najpierw rozpocznij zmianę.',
+    },
+    noAccess: {
+        ru: 'Извини, этот автопарк только для сотрудников.',
+        ua: 'Вибач, цей автопарк тiльки для спiвробiтникiв.',
+        en: 'Sorry, this fleet is for employees only.',
+        de: 'Entschuldigung, dieser Fuhrpark ist nur für Mitarbeiter.',
+        pl: 'Przepraszam, ta flota jest tylko dla pracowników.',
+    },
+};

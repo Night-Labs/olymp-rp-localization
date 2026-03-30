@@ -20,6 +20,7 @@ import weazelNews from './weazelNews';
 import surgeon from './surgeon';
 import graffitiWar from './graffitiWar';
 import vehicleImpound from './vehicleImpound';
+import vehicleNpc from './vehicleNpc';
 import lizaSellPills from './lizaSellPills';
 
 export const faction = {
@@ -43,6 +44,7 @@ export const faction = {
     surgeon,
     graffitiWar,
     vehicleImpound,
+    vehicleNpc,
     lizaSellPills,
     ...cef,
     ...server,
@@ -389,6 +391,13 @@ export const faction = {
         en: 'This vehicle is already taken',
         de: 'Dieses Fahrzeug ist bereits vergeben',
         pl: 'Ten pojazd jest już zajęty',
+    },
+    vehicleNeedDuty: {
+        ru: 'Вы должны быть на смене, чтобы взять машину',
+        ua: 'Ви повиннi бути на змiнi, щоб взяти машину',
+        en: 'You must be on duty to take a vehicle',
+        de: 'Du musst im Dienst sein, um ein Fahrzeug zu nehmen',
+        pl: 'Musisz być na służbie, aby wziąć pojazd',
     },
     alreadyHaveSpawnedVehicle: {
         ru: 'За вами уже числится машина',
