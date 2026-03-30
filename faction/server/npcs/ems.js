@@ -16,6 +16,10 @@ export default {
 
     selledBloodBags: {
         ru: 'Вы продали {{amount}} мешочков крови за ${{price}}',
+        ua: 'Ви продали {{amount}} мішечків з кров’ю за ${{price}}',
+        en: 'You sold {{amount}} blood bags for ${{price}}',
+        de: 'Du hast {{amount}} Blutbeutel für ${{price}} verkauft',
+        pl: 'Sprzedałeś {{amount}} woreczków z krwią za ${{price}}',
     },
 
     firstDialog: {

@@ -561,6 +561,13 @@ export default {
         de: 'Create a looped particle effect by asset, particle name, position, and rotation; your previous particle from this command will be deleted.',
         pl: 'Create a looped particle effect by asset, particle name, position, and rotation; your previous particle from this command will be deleted.',
     },
+    create_particle: {
+        ru: 'Создать looped particle effect по dict и имени в текущей позиции игрока; предыдущая частица этой команды будет удалена.',
+        ua: 'Створити looped particle effect за dict і назвою в поточній позиції гравця; попередню частинку цієї команди буде видалено.',
+        en: 'Create a looped particle effect by dict and name at the player current position; your previous particle from this command will be deleted.',
+        de: 'Einen geloopten Partikeleffekt anhand von Dict und Namen an der aktuellen Spielerposition erstellen; dein vorheriger Effekt aus diesem Befehl wird entfernt.',
+        pl: 'Utwórz zapętlony efekt cząsteczkowy według dict i nazwy w bieżącej pozycji gracza; poprzedni efekt z tej komendy zostanie usunięty.',
+    },
     spawn_object_done: {
         ru: 'Завершить текущее размещение объекта и подтвердить его спавн.',
         ua: 'Завершити поточне розміщення об’єкта та підтвердити його спавн.',
