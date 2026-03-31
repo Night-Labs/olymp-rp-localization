@@ -35,7 +35,7 @@ export default {
                     <span style="color: var(--primary)">- {{money}} $</span><br />
                     <span style="color: var(--primary)">- Mindestens Level {{level}}</span><br />
                     <br />
-                    Danach musst du zu einem Schießstand gehen und erst nach einer Schießprüfung erhälst du die Lizenz`,
+                    Danach musst du zu einem Schießstand gehen und erst nach einer Schießprüfung erhältst du die Lizenz`,
             pl: `
                 Aby uzyskać licencję na broń, musisz posiadać następujące rzeczy: <br />
                     <span style="color: var(--primary)">- {{money}} $</span><br />
@@ -124,7 +124,7 @@ export default {
         ru: 'Вы успешно возобновили медицинскую лицензию',
         ua: 'Ви успішно відновили медичну ліцензію',
         en: 'You have successfully renewed your medical license',
-        de: 'du hast deine medizinische Lizenz erfolgreich erneuert',
+        de: 'Du hast deine medizinische Lizenz erfolgreich erneuert',
         pl: 'Pomyślnie odnowiłeś swoją licencję medyczną',
         zh: '您的医疗执照已成功续期',
     },
@@ -235,7 +235,7 @@ export default {
         ru: '{{playerName}} забрал у вас лицензию {{license}}',
         ua: '{{playerName}} забрав у вас ліцензію {{license}}',
         en: '{{playerName}} took your {{license}} license',
-        de: '{{playerName}} hat deine Lizenz {{license}} genommen',
+        de: '{{playerName}} hat dir die Lizenz {{license}} entzogen',
         pl: '{{playerName}} zabrał twoją licencję {{license}}',
         zh: '{{playerName}}拿走了你的{{license}}驾照',
     },
@@ -243,7 +243,7 @@ export default {
         ru: 'Вы забрали лицензию {{license}} в {{playerName}}',
         ua: 'Ви забрали ліцензію {{license}} у {{playerName}}',
         en: 'You took the {{license}} license from {{playerName}}',
-        de: 'Du hast die Lizenz {{license}} von {{playerName}} genommen',
+        de: 'Du hast {{playerName}} die Lizenz {{license}} entzogen',
         pl: 'Zabrałeś licencję {{license}} od {{playerName}}',
         zh: '您从{{playerName}}获取了{{license}}许可证。',
     },

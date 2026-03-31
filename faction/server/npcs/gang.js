@@ -186,6 +186,21 @@ export default {
             pl: 'Zrozumiałem',
         },
 
+        alreadyHaveVehicle: {
+            ru: 'Бро, за тобой уже числится тачка, хочешь вернуть её и взять другую?',
+            ua: 'Бро, за тобою вже числиться тачка, хочеш повернути її і взяти іншу?',
+            en: 'Bro, you already have a car checked out, wanna return it and take another one?',
+            de: 'Bro, du hast schon ein Auto draußen, willst du es zurückgeben und ein anderes nehmen?',
+            pl: 'Bro, masz już wypisany samochód, chcesz go zwrócić i wziąć inny?',
+        },
+        despawnVehicle: {
+            ru: 'Да, верни её',
+            ua: 'Так, поверни її',
+            en: 'Yeah, return it',
+            de: 'Ja, nimm es zurück',
+            pl: 'Tak, zwróć go',
+        },
+
         // Атмыв деньги
         noMoneyForLaundry: {
             ru: 'У тебя нет денег для отмыва, как будут возвращайся, буду рад с тобой сотрудничать',

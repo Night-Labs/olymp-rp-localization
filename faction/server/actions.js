@@ -43,7 +43,7 @@ export default {
         ru: '{{firstName}} снял(а) стяжки с рук {{targetName}}',
         ua: '{{firstName}} зняв(ла) стяжки з рук {{targetName}}',
         en: "{{firstName}} removed cable ties from {{targetName}}'s hands",
-        de: "{{firstName}} hat die Kabelbinder von {{targetName}}'s Händen entfernt",
+        de: '{{firstName}} hat die Kabelbinder von den Händen von {{targetName}} entfernt',
         pl: '{{firstName}} zdjął(ęła) opaski kablowe z rąk {{targetName}}',
     },
     //
@@ -135,7 +135,7 @@ export default {
         ru: '{{firstName}} взял(а) кровь на анализ от {{targetName}}',
         ua: '{{firstName}} взяв(ла) кров на аналіз від {{targetName}}',
         en: '{{firstName}} took a blood test from {{targetName}}',
-        de: '{{firstName}} hat eine Blutprobe von {{targetName}} genommen',
+        de: '{{firstName}} hat {{targetName}} Blut für eine Analyse abgenommen',
         pl: '{{firstName}} pobrał(a) krew do analizy od {{targetName}}',
         zh: '{firstName}}从{targetName}分析中采集了血液，',
     },
@@ -320,7 +320,7 @@ export default {
         ru: 'Вам излечили все болезни',
         ua: 'Вам вилікували всі хвороби',
         en: 'All your diseases have been cured',
-        de: 'Alle Ihre Krankheiten wurden geheilt',
+        de: 'Alle deine Krankheiten wurden geheilt',
         pl: 'Wszystkie twoje choroby zostały wyleczone',
     },
     checkPlayerForDiseasesAction: {
@@ -402,14 +402,14 @@ export default {
         ru: 'Чтобы проверить здоровье человека он должен снять всю верхнюю одежду',
         ua: "Щоб перевірити здоров'я людини, вона повинна зняти весь верхній одяг",
         en: "To check a person's health, they need to take off all outer clothing",
-        de: 'Um die Gesundheit einer Person zu überprüfen, muss sie alle Oberbekleidung ausziehen',
+        de: 'Um die Gesundheit einer Person zu überprüfen, muss sie ihre gesamte Oberbekleidung ausziehen',
         pl: 'Aby sprawdzić zdrowie osoby, musi ona zdjąć całą odzież wierzchnią',
     },
     notUnderwearToHealDiseases: {
         ru: 'Чтобы вылечить человека, он должен снять всю верхнюю одежду',
         ua: 'Щоб вилікувати людину, вона повинна зняти весь верхній одяг',
         en: 'To heal a person, they need to take off all outer clothing',
-        de: 'Um eine Person zu heilen, muss sie alle Oberbekleidung ausziehen',
+        de: 'Um eine Person zu heilen, muss sie ihre gesamte Oberbekleidung ausziehen',
         pl: 'Aby wyleczyć osobę, musi ona zdjąć całą odzież wierzchnią',
     },
 };

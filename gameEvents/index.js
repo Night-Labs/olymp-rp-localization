@@ -90,6 +90,15 @@ export const gameEvents = {
             pl: '{{killer}} zabił {{victim}}',
             zh: '凶手杀死了受害者',
         },
+
+        scoreboardPlayer: {
+            ru: 'Игрок',
+            ua: 'Гравець',
+            en: 'Player',
+            de: 'Spieler',
+            pl: 'Gracz',
+            zh: '玩家',
+        },
     },
     drift,
     hud,

@@ -223,7 +223,7 @@ export default {
         ru: 'Продал таблетки {{type}} на ${{sum}}',
         ua: 'Продав таблетки {{type}} за ${{sum}}',
         en: 'Sold {{type}} pills for ${{sum}}',
-        de: '{{type}} Pillen für ${{sum}} verkauft',
+        de: 'Hat {{type}}-Tabletten für ${{sum}} verkauft',
         pl: 'Sprzedano tabletki {{type}} za ${{sum}}',
         zh: '“以{{type}}美元的价格出售平板电脑',
     },
@@ -231,7 +231,7 @@ export default {
         ru: 'Взял кровь у {{name}}',
         ua: 'Взяв кров у {{name}}',
         en: 'Took blood from {{name}}',
-        de: 'Hat Blut von {{name}} genommen',
+        de: 'Hat {{name}} Blut abgenommen',
         pl: 'Pobrał krew od {{name}}',
         zh: '从{{name}}身上取了血',
     },
@@ -239,7 +239,7 @@ export default {
         ru: 'Сдал кровь в лабаратории на сумму ${{sum}}',
         ua: 'Здав кров в лабораторії на суму ${{sum}}',
         en: 'Donated blood in the laboratory for the amount of ${{sum}}',
-        de: 'Hat Blut im Labor für den Betrag von ${{sum}} gespendet',
+        de: 'Hat Blut im Labor für ${{sum}} abgegeben',
         pl: 'Oddał krew w laboratorium za kwotę ${{sum}}',
         zh: '以{{sum}美元的价格向实验室献血',
     },
@@ -386,6 +386,13 @@ export default {
         de: 'Hat eine Verwarnung an {{member}} erteilt. (({{warns}}/3))',
         pl: 'Wystawił ostrzeżenie dla {{member}}. (({{warns}}/3))',
     },
+    transferredVehicleToFaction: {
+        ru: 'Передал во фракцию транспорт {{vehicle}} ({{plate}})',
+        ua: 'Передав у фракцію транспорт {{vehicle}} ({{plate}})',
+        en: 'Transferred vehicle {{vehicle}} ({{plate}}) to the faction',
+        de: 'Fahrzeug {{vehicle}} ({{plate}}) an die Fraktion übergeben',
+        pl: 'Przekazal do frakcji pojazd {{vehicle}} ({{plate}})',
+    },
 
     //
     giveMiltaryTicket: {
@@ -409,7 +416,7 @@ export default {
         ru: 'Забрал лицензии у {{name}} на {{license}}',
         ua: 'Забрав ліцензії у {{name}} на {{license}}',
         en: 'Took licenses from {{name}} for {{license}}',
-        de: 'Lizenzen von {{name}} für {{license}} genommen',
+        de: 'Hat {{name}} die Lizenz {{license}} entzogen',
         pl: 'Zabrałeś licencje od {{name}} na {{license}}',
     },
 

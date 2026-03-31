@@ -191,7 +191,7 @@ export const player = {
         ru: 'Взять кровь',
         ua: 'Взяти кров',
         en: 'Take blood',
-        de: 'Blut nehmen',
+        de: 'Blut abnehmen',
         pl: 'Pobrać krew',
         zh: '抽血',
     },
@@ -409,6 +409,15 @@ export const player = {
         de: 'Haus verkaufen',
         pl: 'Sprzedać dom',
         zh: '卖掉房子',
+    },
+
+    diceGame: {
+        ru: 'Сыграть в кости',
+        ua: 'Зіграти в кості',
+        en: 'Play Dice',
+        de: 'Würfel spielen',
+        pl: 'Zagraj w kości',
+        zh: '玩骰子',
     },
 
     // pairs animations
