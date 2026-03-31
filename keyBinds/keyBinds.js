@@ -181,6 +181,13 @@ export default {
         de: 'Ladung abwerfen',
         pl: 'Wyrzuć ładunek',
     },
+    'garbage.dropBag': {
+        ru: 'Выкинуть мусор',
+        ua: 'Викинути сміття',
+        en: 'Drop garbage bag',
+        de: 'Mülltüte wegwerfen',
+        pl: 'Wyrzuć worek ze śmieciami',
+    },
     'weapon-heavy': {
         ru: 'Тяжёлое оружие',
         ua: 'Важка зброя',
