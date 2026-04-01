@@ -219,8 +219,6 @@ export default {
         pl: 'Bijesz swoich, żeby obcy się bali, tak? Z rabunkami tak nie wyjdzie, ziomek',
         zh: '“你为了害怕陌生人而和自己打架，是吗？抢劫不是这样的，兄弟？”',
     },
-
-    //
     youHaveNoPillsToSell: {
         ru: 'У вас недостаточно таблеток для продажи',
         ua: 'У вас недостатньо таблеток для продажу',
