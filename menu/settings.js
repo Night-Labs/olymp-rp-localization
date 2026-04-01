@@ -868,6 +868,22 @@ export const settings = {
             pl: 'Niestandardowy kolor',
         },
 
+        // Global Alpha
+        globalAlpha: {
+            ru: 'Общая прозрачность',
+            ua: 'Загальна прозорість',
+            en: 'Global Alpha',
+            de: 'Globale Deckkraft',
+            pl: 'Globalna przezroczystość',
+        },
+        globalAlphaDesc: {
+            ru: 'Множитель прозрачности для всех элементов прицела',
+            ua: 'Множник прозорості для всіх елементів прицілу',
+            en: 'Opacity multiplier for all crosshair elements',
+            de: 'Deckkraft-Multiplikator für alle Fadenkreuz-Elemente',
+            pl: 'Mnożnik przezroczystości dla wszystkich elementów celownika',
+        },
+
         // Outlines
         outlineEnabled: {
             ru: 'Обводка',
@@ -896,6 +912,20 @@ export const settings = {
             en: 'Outline Thickness',
             de: 'Umrissdicke',
             pl: 'Grubość obramowania',
+        },
+        outlineColor: {
+            ru: 'Цвет обводки',
+            ua: 'Колір обведення',
+            en: 'Outline Color',
+            de: 'Umrissfarbe',
+            pl: 'Kolor obramowania',
+        },
+        outlineColorDesc: {
+            ru: 'Цвет обводки вокруг линий и точки прицела',
+            ua: 'Колір обведення навколо ліній та точки прицілу',
+            en: 'Outline color around crosshair lines and dot',
+            de: 'Umrissfarbe um die Fadenkreuzlinien und den Punkt',
+            pl: 'Kolor obramowania wokół linii i punktu celownika',
         },
 
         // Center Dot
@@ -926,6 +956,45 @@ export const settings = {
             en: 'Dot Size',
             de: 'Punktgröße',
             pl: 'Rozmiar punktu',
+        },
+
+        // T-shape
+        tShape: {
+            ru: 'Т-образный прицел',
+            ua: 'Т-подібний приціл',
+            en: 'T-Shape',
+            de: 'T-Form',
+            pl: 'Kształt T',
+        },
+        tShapeDesc: {
+            ru: 'Скрывает верхнюю линию прицела для Т-образной формы',
+            ua: 'Приховує верхню лінію прицілу для Т-подібної форми',
+            en: 'Hides the top crosshair line for a T-shaped crosshair',
+            de: 'Blendet die obere Fadenkreuzlinie für eine T-Form aus',
+            pl: 'Ukrywa górną linię celownika dla kształtu T',
+        },
+
+        // Fade on firing
+        fadeOnFiring: {
+            ru: 'Затухание при стрельбе',
+            ua: 'Затухання при стрільбі',
+            en: 'Fade on Firing',
+            de: 'Ausblenden beim Schießen',
+            pl: 'Zanikanie przy strzale',
+        },
+        fadeOnFiringDesc: {
+            ru: 'Прицел становится полупрозрачным во время стрельбы',
+            ua: 'Приціл стає напівпрозорим під час стрільби',
+            en: 'Crosshair becomes semi-transparent while firing',
+            de: 'Fadenkreuz wird beim Schießen halbtransparent',
+            pl: 'Celownik staje się półprzezroczysty podczas strzelania',
+        },
+        fadeOpacity: {
+            ru: 'Прозрачность при стрельбе',
+            ua: 'Прозорість при стрільбі',
+            en: 'Firing Opacity',
+            de: 'Schuss-Deckkraft',
+            pl: 'Przezroczystość przy strzale',
         },
 
         // Hit highlight
