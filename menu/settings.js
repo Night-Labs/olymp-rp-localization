@@ -458,6 +458,20 @@ export const settings = {
             de: 'Deine Profil- und Avatar-Einstellungen',
             pl: 'Ustawienia profilu i awatara',
         },
+        aim: {
+            ru: 'Настройки прицела, профили и импорт/экспорт кодов',
+            ua: 'Налаштування прицілу, профілі та імпорт/експорт кодів',
+            en: 'Crosshair settings, profiles and code import/export',
+            de: 'Fadenkreuz-Einstellungen, Profile und Code-Import/Export',
+            pl: 'Ustawienia celownika, profile i import/eksport kodów',
+        },
+        sounds: {
+            ru: 'Настройки звуков и воспроизведения музыки в игровом мире',
+            ua: 'Налаштування звуків та відтворення музики у ігровому світі',
+            en: 'Sound settings and music playback in the game world',
+            de: 'Soundeinstellungen und Musikwiedergabe in der Spielwelt',
+            pl: 'Ustawienia dźwięku i odtwarzania muzyki w świecie gry',
+        },
     },
     chooseLanguageDesc: {
         ru: 'Выберите язык интерфейса игры',
