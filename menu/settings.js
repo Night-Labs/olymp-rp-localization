@@ -754,6 +754,48 @@ export const settings = {
 
     //
 
+    accountLogin: {
+        ru: 'Логин',
+        ua: 'Логін',
+        en: 'Login',
+        de: 'Login',
+        pl: 'Login',
+    },
+    accountLoginDesc: {
+        ru: 'Имя вашей учётной записи',
+        ua: "Ім'я вашого облікового запису",
+        en: 'Your account name',
+        de: 'Dein Kontoname',
+        pl: 'Nazwa twojego konta',
+    },
+    accountEmail: {
+        ru: 'Электронная почта',
+        ua: 'Електронна пошта',
+        en: 'Email',
+        de: 'E-Mail',
+        pl: 'E-mail',
+    },
+    accountEmailDesc: {
+        ru: 'Почта, привязанная к вашему аккаунту',
+        ua: 'Пошта, прив\'язана до вашого акаунту',
+        en: 'Email linked to your account',
+        de: 'Mit deinem Konto verknüpfte E-Mail',
+        pl: 'E-mail powiązany z twoim kontem',
+    },
+    accountRegisterDate: {
+        ru: 'Дата регистрации',
+        ua: 'Дата реєстрації',
+        en: 'Registration date',
+        de: 'Registrierungsdatum',
+        pl: 'Data rejestracji',
+    },
+    accountRegisterDateDesc: {
+        ru: 'Дата создания вашего аккаунта',
+        ua: 'Дата створення вашого акаунту',
+        en: 'Date your account was created',
+        de: 'Datum, an dem dein Konto erstellt wurde',
+        pl: 'Data utworzenia twojego konta',
+    },
     avatar: {
         ru: 'Аватар',
         ua: 'Аватар',
@@ -781,6 +823,55 @@ export const settings = {
         en: "Show other players' avatars",
         de: 'Avatare anderer Spieler anzeigen',
         pl: 'Wyświetlaj awatary innych graczy',
+    },
+    changePassword: {
+        ru: 'Смена пароля',
+        ua: 'Зміна пароля',
+        en: 'Change password',
+        de: 'Passwort ändern',
+        pl: 'Zmiana hasła',
+    },
+    changePasswordDesc: {
+        ru: 'Введите текущий пароль и новый пароль для смены',
+        ua: 'Введіть поточний пароль і новий пароль для зміни',
+        en: 'Enter your current password and a new password to change it',
+        de: 'Gib dein aktuelles Passwort und ein neues Passwort ein, um es zu ändern',
+        pl: 'Wprowadź aktualne hasło i nowe hasło, aby je zmienić',
+    },
+    currentPasswordPlaceholder: {
+        ru: 'Текущий пароль',
+        ua: 'Поточний пароль',
+        en: 'Current password',
+        de: 'Aktuelles Passwort',
+        pl: 'Aktualne hasło',
+    },
+    newPasswordPlaceholder: {
+        ru: 'Новый пароль',
+        ua: 'Новий пароль',
+        en: 'New password',
+        de: 'Neues Passwort',
+        pl: 'Nowe hasło',
+    },
+    newPasswordDesc: {
+        ru: 'От 4 до 20 символов: латинские буквы, цифры, _ . -',
+        ua: 'Від 4 до 20 символів: латинські літери, цифри, _ . -',
+        en: '4-20 characters: letters, digits, _ . -',
+        de: '4-20 Zeichen: Buchstaben, Ziffern, _ . -',
+        pl: '4-20 znaków: litery, cyfry, _ . -',
+    },
+    confirmPasswordPlaceholder: {
+        ru: 'Повторите пароль',
+        ua: 'Повторіть пароль',
+        en: 'Confirm password',
+        de: 'Passwort bestätigen',
+        pl: 'Potwierdź hasło',
+    },
+    confirmPasswordDesc: {
+        ru: 'Введите новый пароль ещё раз для подтверждения',
+        ua: 'Введіть новий пароль ще раз для підтвердження',
+        en: 'Re-enter your new password to confirm',
+        de: 'Gib dein neues Passwort zur Bestätigung erneut ein',
+        pl: 'Wprowadź nowe hasło ponownie w celu potwierdzenia',
     },
 
     // Aim (crosshair) settings
@@ -837,14 +928,6 @@ export const settings = {
             de: 'Äußere Linien',
             pl: 'Linie zewnętrzne',
         },
-        sectionAds: {
-            ru: 'Прицеливание (ADS)',
-            ua: 'Прицілювання (ADS)',
-            en: 'Aim Down Sights (ADS)',
-            de: 'Zielvisier (ADS)',
-            pl: 'Celowanie (ADS)',
-        },
-
         // Color
         crosshairColor: {
             ru: 'Цвет прицела',
@@ -1113,36 +1196,6 @@ export const settings = {
             en: 'Offset',
             de: 'Versatz',
             pl: 'Przesunięcie',
-        },
-
-        // ADS
-        adsEnabled: {
-            ru: 'Прицел при ADS',
-            ua: 'Приціл при ADS',
-            en: 'ADS Crosshair',
-            de: 'ADS-Fadenkreuz',
-            pl: 'Celownik ADS',
-        },
-        adsEnabledDesc: {
-            ru: 'Использовать кастомный прицел при прицеливании через прицел оружия',
-            ua: 'Використовувати кастомний приціл при прицілюванні через приціл зброї',
-            en: 'Use custom crosshair when aiming down sights',
-            de: 'Benutzerdefiniertes Fadenkreuz beim Zielen verwenden',
-            pl: 'Użyj niestandardowego celownika podczas celowania przez celownik broni',
-        },
-        adsCopyPrimary: {
-            ru: 'Копировать основной прицел',
-            ua: 'Копіювати основний приціл',
-            en: 'Copy Primary Crosshair',
-            de: 'Primäres Fadenkreuz kopieren',
-            pl: 'Kopiuj główny celownik',
-        },
-        adsCopyPrimaryDesc: {
-            ru: 'ADS прицел будет копировать настройки основного прицела',
-            ua: 'ADS приціл буде копіювати налаштування основного прицілу',
-            en: 'ADS crosshair will copy the primary crosshair settings',
-            de: 'ADS-Fadenkreuz kopiert die Einstellungen des primären Fadenkreuzes',
-            pl: 'Celownik ADS skopiuje ustawienia głównego celownika',
         },
 
         // Right panel buttons

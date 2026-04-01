@@ -427,6 +427,13 @@ export const faction = {
         de: 'Das Fahrzeug wurde dem Fuhrpark der Fraktion hinzugefügt',
         pl: 'Pojazd został dodany do floty frakcji',
     },
+    maxVehiclesReached: {
+        ru: 'Достигнут лимит транспорта для текущего улучшения автопарка',
+        ua: 'Досягнуто ліміт транспорту для поточного покращення автопарку',
+        en: 'The vehicle limit for the current fleet upgrade has been reached',
+        de: 'Das Fahrzeuglimit für die aktuelle Fuhrpark-Verbesserung wurde erreicht',
+        pl: 'Osiągnięto limit pojazdów dla obecnego ulepszenia floty',
+    },
     vehicleRemoved: {
         ru: 'Транспорт утилизирован',
         ua: 'Транспорт утилізовано',

@@ -25,6 +25,22 @@ export const server = {
         pl: 'Nieprawidłowe dane',
         zh: '身份信息不匹配',
     },
+    invalidCurrentPassword: {
+        ua: 'Неправильний поточний пароль',
+        en: 'Current password is incorrect',
+        ru: 'Неверный текущий пароль',
+        de: 'Aktuelles Passwort ist falsch',
+        pl: 'Bieżące hasło jest nieprawidłowe',
+        zh: '当前密码不正确',
+    },
+    samePassword: {
+        ua: 'Новий пароль не може збігатися з поточним',
+        en: 'New password must be different from the current one',
+        ru: 'Новый пароль не может совпадать с текущим',
+        de: 'Das neue Passwort muss sich vom aktuellen unterscheiden',
+        pl: 'Nowe hasło musi się różnić od obecnego',
+        zh: '新密码不能与当前密码相同',
+    },
     waitSpam: {
         ua: 'Зачекайте трохи',
         en: 'Wait a little',
@@ -96,6 +112,13 @@ export const server = {
         de: 'Du hast Ihr Passwort erfolgreich geändert',
         pl: 'Pomyślnie zmieniłeś hasło',
         zh: '密码修改成功',
+    },
+    invalidPasswordFormat: {
+        ru: 'Пароль должен содержать от 4 до 20 символов (латинские буквы, цифры, _ . -)',
+        ua: 'Пароль має містити від 4 до 20 символів (латинські літери, цифри, _ . -)',
+        en: 'Password must be 4-20 characters (letters, digits, _ . -)',
+        de: 'Passwort muss 4-20 Zeichen lang sein (Buchstaben, Ziffern, _ . -)',
+        pl: 'Hasło musi mieć 4-20 znaków (litery, cyfry, _ . -)',
     },
     resetData: {
         ru: 'Сохраненные данные были сброшены в целях безопасности',
