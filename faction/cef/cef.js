@@ -54,7 +54,7 @@ export const cef = {
 
         team: {
             ru: 'Состав',
-            ua: 'Склад',
+            ua: 'Особовий склад',
             en: 'Team',
             de: 'Team',
             pl: 'Zespół',
