@@ -55,4 +55,11 @@ export default {
         de: 'Nur Links zu YouTube-Videos',
         pl: 'Tylko linki do filmów z YouTube',
     },
+    switchedOff: {
+        ru: 'Предыдущий телевизор был выключен',
+        ua: 'Попередній телевізор було вимкнено',
+        en: 'The previous TV has been turned off',
+        de: 'Der vorherige Fernseher wurde ausgeschaltet',
+        pl: 'Poprzedni telewizor został wyłączony',
+    },
 };

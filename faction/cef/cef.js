@@ -524,6 +524,22 @@ export const cef = {
             pl: 'Nieodwracalne dzialanie usuwajace pojazd z floty.',
             zh: '将车辆从车队中移除的不可逆操作。',
         },
+        returnToBase: {
+            ru: 'Вернуть на базу',
+            en: 'Return to base',
+            ua: 'Повернути на базу',
+            de: 'Zur Basis zurückbringen',
+            pl: 'Zwróć na bazę',
+            zh: '返回基地',
+        },
+        returnToBaseHint: {
+            ru: 'Машина будет изъята у текущего водителя и вернётся в автопарк.',
+            en: 'The vehicle will be taken from the current driver and returned to the fleet.',
+            ua: 'Машина буде вилучена у поточного водія і повернеться в автопарк.',
+            de: 'Das Fahrzeug wird dem aktuellen Fahrer entzogen und in den Fuhrpark zurückgebracht.',
+            pl: 'Pojazd zostanie zabrany od aktualnego kierowcy i wróci do floty.',
+            zh: '车辆将从当前驾驶员处收回并返回车队。',
+        },
         statusLabel: {
             ru: 'Статус',
             en: 'Status',

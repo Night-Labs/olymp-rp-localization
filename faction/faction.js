@@ -236,6 +236,36 @@ export const faction = {
             pl: 'Anuluj',
         },
     },
+    transportReturnModal: {
+        title: {
+            ru: 'Возврат транспорта на базу',
+            ua: 'Повернення транспорту на базу',
+            en: 'Return vehicle to base',
+            de: 'Fahrzeug zur Basis zurückbringen',
+            pl: 'Zwrot pojazdu na bazę',
+        },
+        message: {
+            ru: 'Вы собираетесь вернуть <span style="color: white">{{name}}</span> <span style="color: white">({{plate}})</span> на базу.<br/><br/>Машина будет изъята у <span style="color: white">{{takenBy}}</span> и станет снова доступна в автопарке.',
+            ua: 'Ви збираєтесь повернути <span style="color: white">{{name}}</span> <span style="color: white">({{plate}})</span> на базу.<br/><br/>Машина буде вилучена у <span style="color: white">{{takenBy}}</span> і знову стане доступною в автопарку.',
+            en: 'You are about to return <span style="color: white">{{name}}</span> <span style="color: white">({{plate}})</span> to the base.<br/><br/>The vehicle will be taken from <span style="color: white">{{takenBy}}</span> and become available in the fleet again.',
+            de: 'Du bist dabei, <span style="color: white">{{name}}</span> <span style="color: white">({{plate}})</span> zur Basis zurückzubringen.<br/><br/>Das Fahrzeug wird <span style="color: white">{{takenBy}}</span> entzogen und ist wieder im Fuhrpark verfügbar.',
+            pl: 'Zamierzasz zwrócić <span style="color: white">{{name}}</span> <span style="color: white">({{plate}})</span> na bazę.<br/><br/>Pojazd zostanie zabrany od <span style="color: white">{{takenBy}}</span> i będzie ponownie dostępny we flocie.',
+        },
+        confirmButton: {
+            ru: 'Вернуть',
+            ua: 'Повернути',
+            en: 'Return',
+            de: 'Zurückbringen',
+            pl: 'Zwróć',
+        },
+        cancelButton: {
+            ru: 'Отмена',
+            ua: 'Скасувати',
+            en: 'Cancel',
+            de: 'Abbrechen',
+            pl: 'Anuluj',
+        },
+    },
     transferPersonalVehicleModal: {
         title: {
             ru: 'Передача транспорта во фракцию',
@@ -447,6 +477,27 @@ export const faction = {
         en: 'This vehicle cannot be recycled while the faction still needs it',
         de: 'Dieses Fahrzeug kann nicht recycelt werden, solange die Fraktion es noch benötigt',
         pl: 'Tego pojazdu nie można zutylizować, dopóki frakcja go potrzebuje',
+    },
+    returnVehicleRankTooLow: {
+        ru: 'Ваш ранг должен быть выше, чем у того, кто взял эту машину',
+        ua: 'Ваш ранг має бути вищим, ніж у того, хто взяв цю машину',
+        en: 'Your rank must be higher than the rank of the person who took this vehicle',
+        de: 'Dein Rang muss höher sein als der des Spielers, der dieses Fahrzeug genommen hat',
+        pl: 'Twoja ranga musi być wyższa niż ranga osoby, która wzięła ten pojazd',
+    },
+    vehicleReturned: {
+        ru: 'Транспорт возвращён на базу',
+        ua: 'Транспорт повернено на базу',
+        en: 'The vehicle has been returned to base',
+        de: 'Das Fahrzeug wurde zur Basis zurückgebracht',
+        pl: 'Pojazd został zwrócony na bazę',
+    },
+    vehicleReturnedByOther: {
+        ru: '{{name}} вернул вашу фракционную машину на базу',
+        ua: '{{name}} повернув вашу фракційну машину на базу',
+        en: '{{name}} returned your faction vehicle to the base',
+        de: '{{name}} hat dein Fraktionsfahrzeug zur Basis zurückgebracht',
+        pl: '{{name}} zwrócił twój pojazd frakcyjny na bazę',
     },
     vehicleRankAccessDenied: {
         ru: 'Ваш ранг слишком низкий для этой машины',
