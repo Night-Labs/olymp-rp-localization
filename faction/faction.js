@@ -310,6 +310,13 @@ export const faction = {
         de: 'Dein vorheriges Fraktionsfahrzeug wurde zugunsten des neuen in den Fuhrpark zurückgeführt',
         pl: 'Twój poprzedni pojazd frakcyjny został zwrócony do floty na rzecz nowego',
     },
+    cannotTransferAirVehicle: {
+        ru: 'Нельзя передать воздушный транспорт во фракцию',
+        ua: 'Не можна передати повітряний транспорт у фракцію',
+        en: 'You cannot transfer air vehicles to the faction',
+        de: 'Luftfahrzeuge können nicht an die Fraktion übergeben werden',
+        pl: 'Nie można przekazać pojazdów powietrznych do frakcji',
+    },
     vehicleTransferredToFactionChat: {
         ru: '{{name}} передал личный транспорт {{vehicle}} ({{plate}}) во фракцию',
         ua: '{{name}} передав особистий транспорт {{vehicle}} ({{plate}}) у фракцію',
