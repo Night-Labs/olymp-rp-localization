@@ -565,6 +565,24 @@ export const food = {
             pl: 'Lody, które roztopią twoje serce.',
         },
     },
+
+    cookie: {
+        name: {
+            ru: 'Печенье',
+            ua: 'Печиво',
+            en: 'Cookie',
+            de: 'Keks',
+            pl: 'Ciasteczko',
+        },
+        desc: {
+            ru: 'Сладкий хруст и никаких вопросов.',
+            ua: 'Солодкий хрускіт і жодних питань.',
+            en: 'A sweet crunch and no questions asked.',
+            de: 'Süßes Knuspern und keine Fragen.',
+            pl: 'Słodki chrupot i żadnych pytań.',
+        },
+    },
+
     deer_grilled_meat: {
         name: {
             ru: 'Жареное мясо оленя',

@@ -144,6 +144,22 @@ export const items = {
             zh: '吸烟烟草制品',
         },
     },
+    cigar: {
+        name: {
+            ru: 'Сигара',
+            ua: 'Сигара',
+            en: 'Cigar',
+            de: 'Zigarre',
+            pl: 'Cygaro',
+        },
+        desc: {
+            ru: 'Ароматная сигара для ценителей крепкого табака.',
+            ua: 'Ароматна сигара для цінителів міцного тютюну.',
+            en: 'A fragrant cigar for lovers of strong tobacco.',
+            de: 'Eine aromatische Zigarre für Liebhaber von starkem Tabak.',
+            pl: 'Aromatyczne cygaro dla koneserów mocnego tytoniu.',
+        },
+    },
     //
     reliefix: {
         name: {
@@ -886,6 +902,40 @@ export const items = {
             en: 'A bottle with some kind of note inside. What could it be? Maybe something useful.',
             de: 'Eine Flasche mit einem Zettel darin. Was mag das sein? Vielleicht etwas Nützliches.',
             pl: 'Butelka z jakąś karteczką w środku. Co tam jest? Może coś przydatnego.',
+        },
+    },
+
+    gift: {
+        name: {
+            ru: 'Подарок',
+            ua: 'Подарунок',
+            en: 'Gift',
+            de: 'Geschenk',
+            pl: 'Prezent',
+        },
+        desc: {
+            ru: 'Праздничный подарок. Что же внутри?',
+            ua: 'Святковий подарунок. Що ж всередині?',
+            en: 'A festive gift. What could be inside?',
+            de: 'Ein festliches Geschenk. Was wohl drin ist?',
+            pl: 'Świąteczny prezent. Co może być w środku?',
+        },
+    },
+
+    guitar: {
+        name: {
+            ru: 'Гитара',
+            ua: 'Гітара',
+            en: 'Guitar',
+            de: 'Gitarre',
+            pl: 'Gitara',
+        },
+        desc: {
+            ru: 'Акустическая гитара для игры на улице.',
+            ua: 'Акустична гітара для гри на вулиці.',
+            en: 'An acoustic guitar for street playing.',
+            de: 'Eine Akustikgitarre zum Straßenmusizieren.',
+            pl: 'Gitara akustyczna do grania na ulicy.',
         },
     },
 
