@@ -1,4 +1,5 @@
 import recovery from './recovery';
+import accountLogin from './accountLogin';
 
 export const server = {
     loginNotFound: {
@@ -127,7 +128,16 @@ export const server = {
         de: 'Gespeicherte Daten wurden aus Sicherheitsgründen zurückgesetzt',
         pl: 'Zapisane dane zostały zresetowane ze względów bezpieczeństwa',
     },
+    loginSent: {
+        ru: 'Логин был отправлен на вашу почту',
+        ua: 'Логін був надісланий на вашу пошту',
+        en: 'Your login has been sent to your email',
+        de: 'Dein Login wurde an deine E-Mail gesendet',
+        pl: 'Twój login został wysłany na twój e-mail',
+        zh: '账号已发送至你的邮箱',
+    },
     html: {
         recovery,
+        accountLogin,
     },
 };
