@@ -85,6 +85,7 @@ import diceGame from './diceGame';
 import offcies from './offcies';
 import organizationRegistration from './organizationRegistration';
 import tennis from './tennis';
+import trade from './trade';
 
 export default {
     account,
@@ -174,6 +175,7 @@ export default {
     offcies,
     organizationRegistration,
     tennis,
+    trade,
 };
 
 
