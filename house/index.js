@@ -61,5 +61,12 @@ export default {
             de: 'Werkstatt öffnen',
             pl: 'Otwórz warsztat',
         },
+        noAccess: {
+            ru: 'У тебя нет доступа к этой мастерской',
+            ua: 'У тебе немає доступу до цієї майстерні',
+            en: 'You do not have access to this workshop',
+            de: 'Du hast keinen Zugriff auf diese Werkstatt',
+            pl: 'Nie masz dostępu do tego warsztatu',
+        },
     },
 };

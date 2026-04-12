@@ -48,4 +48,11 @@ export default {
         de: 'Entschuldigung, dieser Fuhrpark ist nur für Mitarbeiter.',
         pl: 'Przepraszam, ta flota jest tylko dla pracowników.',
     },
+    pickupBlip: {
+        ru: 'Фракционный автопарк',
+        ua: 'Фракційний автопарк',
+        en: 'Faction Fleet',
+        de: 'Fraktionsfahrzeugpark',
+        pl: 'Flota frakcji',
+    },
 };

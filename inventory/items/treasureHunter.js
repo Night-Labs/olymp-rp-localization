@@ -36,6 +36,16 @@ export default {
         },
     },
 
+    antiquePocketWatches: {
+        name: {
+            ru: 'Старинные карманные часы',
+            ua: 'Старовинний кишеньковий годинник',
+            en: 'Antique Pocket Watches',
+            de: 'Antike Taschenuhren',
+            pl: 'Antyczne zegarki kieszonkowe',
+        },
+    },
+
     antiqueZippoLighter: {
         name: {
             ru: 'Старинная зажигалка Zippo',
@@ -143,6 +153,16 @@ export default {
             en: 'Rusty Horseshoe',
             de: 'Rostiges Hufeisen',
             pl: 'Zardzewiała podkowa',
+        },
+    },
+
+    silverBar500g: {
+        name: {
+            ru: 'Серебряный слиток',
+            ua: 'Срібний зливок',
+            en: 'Silver Bar 500g',
+            de: 'Silberbarren 500g',
+            pl: 'Srebrna sztabka 500g',
         },
     },
 

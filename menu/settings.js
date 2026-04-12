@@ -564,6 +564,13 @@ export const settings = {
         de: 'Zeigt oder versteckt die Avatare anderer Spieler neben ihnen',
         pl: 'Pokazuje lub ukrywa awatary innych graczy obok nich',
     },
+    hideBackpackDesc: {
+        ru: 'Скрывает рюкзак на спине вашего персонажа (только визуально)',
+        ua: 'Приховує рюкзак на спині вашого персонажа (тільки візуально)',
+        en: 'Hides the backpack on your character\'s back (visual only)',
+        de: 'Versteckt den Rucksack auf dem Rücken deines Charakters (nur visuell)',
+        pl: 'Ukrywa plecak na plecach twojej postaci (tylko wizualnie)',
+    },
     showDailyCaseDesc: {
         ru: 'Отображает обратный отсчёт до получения ежедневного кейса на HUD',
         ua: 'Відображає зворотний відлік до отримання щоденного кейсу на HUD',
@@ -991,6 +998,13 @@ export const settings = {
         en: "Show other players' avatars",
         de: 'Avatare anderer Spieler anzeigen',
         pl: 'Wyświetlaj awatary innych graczy',
+    },
+    hideBackpack: {
+        ru: 'Скрыть рюкзак',
+        ua: 'Сховати рюкзак',
+        en: 'Hide backpack',
+        de: 'Rucksack verstecken',
+        pl: 'Ukryj plecak',
     },
     changePassword: {
         ru: 'Смена пароля',
