@@ -599,6 +599,13 @@ export const settings = {
         de: 'Zeigt Steuerungshinweise auf dem Bildschirm an',
         pl: 'Pokazuje wyskakujące wskazówki sterowania na ekranie',
     },
+    showCompassDesc: {
+        ru: 'Отображает компас с направлением камеры в верхней части экрана',
+        ua: 'Відображає компас з напрямком камери у верхній частині екрана',
+        en: 'Displays a compass with camera direction at the top of the screen',
+        de: 'Zeigt einen Kompass mit Kamerarichtung am oberen Bildschirmrand an',
+        pl: 'Wyświetla kompas z kierunkiem kamery na górze ekranu',
+    },
     hudOpacityDesc: {
         ru: 'Регулирует общую прозрачность элементов HUD',
         ua: 'Регулює загальну прозорість елементів HUD',
@@ -768,6 +775,13 @@ export const settings = {
         en: 'Show hints',
         de: 'Hinweise anzeigen',
         pl: 'Pokaż wskazówki',
+    },
+    showCompass: {
+        ru: 'Показывать компас',
+        ua: 'Показувати компас',
+        en: 'Show compass',
+        de: 'Kompass anzeigen',
+        pl: 'Pokaż kompas',
     },
     hudOpacity: {
         ru: 'Прозрачность HUD',
