@@ -7,6 +7,36 @@ export const server = {
         pl: 'Biuro',
     },
     modal: {
+        exit: {
+            title: {
+                ru: 'Выход',
+                ua: 'Вихід',
+                en: 'Exit',
+                de: 'Ausgang',
+                pl: 'Wyjście',
+            },
+            message: {
+                ru: 'Куда вы хотите выйти?',
+                ua: 'Куди ви хочете вийти?',
+                en: 'Where do you want to go?',
+                de: 'Wohin möchten Sie gehen?',
+                pl: 'Dokąd chcesz wyjść?',
+            },
+            street: {
+                ru: 'На улицу',
+                ua: 'На вулицю',
+                en: 'Street',
+                de: 'Zur Straße',
+                pl: 'Na ulicę',
+            },
+            garage: {
+                ru: 'В гараж',
+                ua: 'В гараж',
+                en: 'Garage',
+                de: 'In die Garage',
+                pl: 'Do garażu',
+            },
+        },
         buy: {
             title: {
                 ru: 'Покупка офиса',
@@ -74,6 +104,13 @@ export const server = {
             de: 'Dieses Büro ist bereits gekauft.',
             pl: 'To biuro jest już kupione.',
         },
+        orgAlreadyHasOffice: {
+            ru: 'Ваша организация уже владеет офисом.',
+            ua: 'Ваша організація вже володіє офісом.',
+            en: 'Your organization already owns an office.',
+            de: 'Ihre Organisation besitzt bereits ein Büro.',
+            pl: 'Twoja organizacja już posiada biuro.',
+        },
         notEnoughMoney: {
             ru: 'Недостаточно средств на балансе организации. Необходимо: ${{price}}',
             ua: 'Недостатньо коштів на балансі організації. Потрібно: ${{price}}',
@@ -108,6 +145,20 @@ export const server = {
             en: 'This office belongs to another organization.',
             de: 'Dieses Büro gehört einer anderen Organisation.',
             pl: 'To biuro należy do innej organizacji.',
+        },
+        garageNotPurchased: {
+            ru: 'Гараж не прокачан. Приобретите его в меню офиса.',
+            ua: 'Гараж не прокачаний. Придбайте його в меню офісу.',
+            en: 'Garage not upgraded. Purchase it in the office menu.',
+            de: 'Garage nicht ausgebaut. Kaufen Sie sie im Büromenü.',
+            pl: 'Garaż nie jest ulepszony. Kup go w menu biura.',
+        },
+        garageConfigMissing: {
+            ru: 'Конфигурация гаража не найдена.',
+            ua: 'Конфігурацію гаража не знайдено.',
+            en: 'Garage configuration not found.',
+            de: 'Garagenkonfiguration nicht gefunden.',
+            pl: 'Konfiguracja garażu nie została znaleziona.',
         },
     },
     success: {
