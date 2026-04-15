@@ -410,6 +410,14 @@ export const player = {
         pl: 'Sprzedać dom',
         zh: '卖掉房子',
     },
+    tradeAssets: {
+        ru: 'Обмен имуществом',
+        ua: 'Обмін майном',
+        en: 'Property trade',
+        de: 'Eigentumstausch',
+        pl: 'Wymiana majątku',
+        zh: '财产交换',
+    },
 
     diceGame: {
         ru: 'Сыграть в кости',
