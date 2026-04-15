@@ -304,6 +304,13 @@ export const npc = {
             de: 'Tony',
             pl: 'Tony',
         },
+        officeSecretary: {
+            ru: 'Софи',
+            ua: 'Софі',
+            en: 'Sophie',
+            de: 'Sophie',
+            pl: 'Sophie',
+        },
     },
     roles: {
         fleetManager: {
@@ -354,6 +361,13 @@ export const npc = {
             en: 'Vehicle Rental',
             de: 'Fahrzeugvermietung',
             pl: 'Wynajem pojazdów',
+        },
+        officeSecretary: {
+            ru: 'Секретарь офиса',
+            ua: 'Секретар офісу',
+            en: 'Office Secretary',
+            de: 'Bürosekretärin',
+            pl: 'Sekretarka biura',
         },
     },
 };
