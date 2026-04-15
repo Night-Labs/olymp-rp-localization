@@ -62,6 +62,32 @@ export const server = {
         pl: 'Gracz nie znaleziony',
         zh: '未找到该玩家',
     },
+    mediaLevel: {
+        invalid: {
+            ru: 'Неверный media level. Допустимые значения: {{allowed}}',
+            ua: 'Невірний media level. Допустимі значення: {{allowed}}',
+            en: 'Invalid media level. Allowed values: {{allowed}}',
+            de: 'Ungültiges Media-Level. Erlaubte Werte: {{allowed}}',
+            pl: 'Nieprawidłowy media level. Dozwolone wartości: {{allowed}}',
+            zh: '无效的媒体等级。允许的值: {{allowed}}',
+        },
+        success: {
+            ru: 'Игроку {{name}} установлен media level {{level}}',
+            ua: 'Гравцю {{name}} встановлено media level {{level}}',
+            en: 'Media level {{level}} set for {{name}}',
+            de: 'Media-Level {{level}} für {{name}} gesetzt',
+            pl: 'Media level {{level}} ustawiony dla {{name}}',
+            zh: '已为{{name}}设置媒体等级 {{level}}',
+        },
+        successOffline: {
+            ru: 'Игроку {{name}} установлен media level {{level}} (оффлайн)',
+            ua: 'Гравцю {{name}} встановлено media level {{level}} (офлайн)',
+            en: 'Media level {{level}} set for {{name}} (offline)',
+            de: 'Media-Level {{level}} für {{name}} gesetzt (offline)',
+            pl: 'Media level {{level}} ustawiony dla {{name}} (offline)',
+            zh: '已为{{name}}设置媒体等级 {{level}}（离线）',
+        },
+    },
     giveMyDonate: {
         sent: {
             ru: 'Вы передали {{sum}} Olymp-Coins игроку {{name}}',

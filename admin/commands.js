@@ -1038,6 +1038,13 @@ export default {
         de: 'Einem Spieler anhand der static ID ein neues Admin-Level innerhalb deiner Berechtigungen zuweisen, einschließlich Offline-Charakteren.',
         pl: 'Ustaw nowy poziom administratora dla gracza po static ID w ramach swoich uprawnień, także dla postaci offline.',
     },
+    set_media_level: {
+        ru: 'Выставить игроку по static ID media level (S, A, B, D, none), включая офлайн-персонажей.',
+        ua: 'Встановити гравцю за static ID media level (S, A, B, D, none), включно з офлайн-персонажами.',
+        en: 'Set media level (S, A, B, D, none) for a player by static ID, including offline characters.',
+        de: 'Einem Spieler anhand der static ID ein Media-Level (S, A, B, D, none) zuweisen, einschließlich Offline-Charakteren.',
+        pl: 'Ustaw media level (S, A, B, D, none) dla gracza po static ID, także dla postaci offline.',
+    },
     model: {
         ru: 'Поставить себе новую модель или сменить модель указанному игроку онлайн.',
         ua: 'Встановити собі нову модель або змінити модель зазначеному гравцю онлайн.',
