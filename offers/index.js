@@ -111,4 +111,13 @@ export default {
         de: 'Bietet an, seinen Führerschein zu zeigen',
         pl: 'Oferuje pokazanie swojego prawa jazdy',
     },
+
+    tradeAssets: {
+        ru: 'Предлагает обменяться имуществом',
+        ua: 'Пропонує обмінятися майном',
+        en: 'Offers to trade properties',
+        de: 'Bietet einen Eigentumstausch an',
+        pl: 'Proponuje wymianę majątku',
+        zh: '提议进行财产交换',
+    },
 };

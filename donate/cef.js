@@ -264,6 +264,13 @@ export const cef = {
                 de: '{{value}}% Rabatt auf den Kauf und die Verlängerung aller Lizenzen.',
                 pl: 'Zniżka {{value}}% na zakup i przedłużenie wszystkich licencji.',
             },
+            tradeCommission: {
+                ru: 'Комиссия при обмене имуществом - {{value}}%.',
+                ua: 'Комісія при обміні майном - {{value}}%.',
+                en: 'Commission on asset trade - {{value}}%.',
+                de: 'Provision beim Austausch von Vermögenswerten - {{value}}%.',
+                pl: 'Prowizja przy wymianie majątku - {{value}}%.',
+            },
             commercialBalanceLimit: {
                 ru: 'Увеличение лимитов баланса домов и бизнесов на {{value}}%.',
                 ua: 'Збільшення лімітів балансу будинків та бізнесів на {{value}}%.',
