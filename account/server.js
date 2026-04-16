@@ -42,6 +42,14 @@ export const server = {
         pl: 'Nowe hasło musi się różnić od obecnego',
         zh: '新密码不能与当前密码相同',
     },
+    passwordMismatch: {
+        ua: 'Новий пароль і підтвердження не збігаються',
+        en: 'New password and confirmation do not match',
+        ru: 'Новый пароль и подтверждение не совпадают',
+        de: 'Neues Passwort und Bestätigung stimmen nicht überein',
+        pl: 'Nowe hasło i potwierdzenie nie pasują do siebie',
+        zh: '新密码与确认密码不一致',
+    },
     waitSpam: {
         ua: 'Зачекайте трохи',
         en: 'Wait a little',
