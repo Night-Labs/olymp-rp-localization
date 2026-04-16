@@ -568,7 +568,7 @@ export const cef = {
             ru: 'Открыть',
             ua: 'Відкрити',
             en: 'Open',
-            de: 'Oeffnen',
+            de: 'Öffnen',
             pl: 'Otworz',
             zh: '打开',
         },
