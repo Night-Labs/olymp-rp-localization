@@ -149,7 +149,7 @@ export const features = {
             ru: 'Введите желаемый номер формата ХХХ-ХХХ-ХХХ (либо короче) <br><br> Цена уникального номера зависит от количества символов <br><br> Обратите внимание, номер будет забронировал ТОЛЬКО после активации купленной сим-карты',
             ua: 'Введіть бажаний номер у форматі ХХХ-ХХХ-ХХХ (або коротший) <br><br> Ціна унікального номера залежить від кількості символів <br><br> Зверніть увагу, номер буде заброньовано ЛИШЕ після активації придбаної SIM-картки',
             en: 'Enter the desired number in the format XXX-XXX-XXX (or shorter) <br><br> The price of a unique number depends on the number of characters <br><br> Please note, the number will be reserved ONLY after the purchased SIM card is activated',
-            de: 'Gebe die gewünschte Nummer im Format XXX-XXX-XXX (oder kürzer) ein <br><br> Der Preis für eine individuelle Nummer hängt von der Zeichenanzahl ab <br><br> Bitte beachte die Nummer wird NUR nach der Aktivierung der gekauften SIM-Karte reserviert',
+            de: 'Gib die gewünschte Nummer im Format XXX-XXX-XXX (oder kürzer) ein <br><br> Der Preis für eine individuelle Nummer hängt von der Zeichenanzahl ab <br><br> Bitte beachte die Nummer wird NUR nach der Aktivierung der gekauften SIM-Karte reserviert',
             pl: 'Wprowadź żądany numer w formacie XXX-XXX-XXX (lub krótszym) <br><br> Cena unikalnego numeru zależy od liczby znaków <br><br> Uwaga, numer zostanie zarezerwowany TYLKO po aktywacji zakupionej karty SIM',
         },
 

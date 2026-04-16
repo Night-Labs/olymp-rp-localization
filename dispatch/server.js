@@ -76,7 +76,7 @@ export default {
         ru: 'Вы реанимировали человека по вызову, ваша награда ${{reward}}',
         ua: 'Ви реанімували людину за викликом, ваша нагорода ${{reward}}',
         en: 'You reanimated a person on the call, your reward is ${{reward}}',
-        de: 'Du hast eine Person auf dem Anruf reanimiert, Ihre Belohnung beträgt ${{reward}}',
+        de: 'Du hast eine Person auf dem Anruf reanimiert, deine Belohnung beträgt ${{reward}}',
         pl: 'Ożywiłeś osobę na połączeniu, twoja nagroda to ${{reward}}',
         zh: '你复活了一个人，你的奖励是',
     },

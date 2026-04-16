@@ -589,12 +589,26 @@ export default {
         de: 'Das Serverwetter anhand der Weather-ID einstellen.',
         pl: 'Ustaw pogodę na serwerze według weather ID.',
     },
+    set_local_weather: {
+        ru: 'Установить погоду только для себя по weather ID (или off/reset/clear для возврата к серверной погоде). Опционально transitionSeconds — время перехода в секундах.',
+        ua: 'Встановити погоду лише для себе за weather ID (або off/reset/clear для повернення до серверної погоди). Опційно transitionSeconds — час переходу в секундах.',
+        en: 'Set the weather only for yourself by weather ID (or off/reset/clear to restore the server weather). Optional transitionSeconds — transition time in seconds.',
+        de: 'Nur für dich das Wetter anhand der Weather-ID einstellen (oder off/reset/clear, um das Serverwetter wiederherzustellen). Optional transitionSeconds — Übergangszeit in Sekunden.',
+        pl: 'Ustaw pogodę tylko dla siebie według weather ID (lub off/reset/clear, aby przywrócić pogodę serwera). Opcjonalnie transitionSeconds — czas przejścia w sekundach.',
+    },
     set_time: {
         ru: 'Установить серверное время в формате часы, минуты и секунды.',
         ua: 'Встановити серверний час у форматі години, хвилини та секунди.',
         en: 'Set the server time in hours, minutes, and seconds format.',
         de: 'Die Serverzeit im Format Stunden, Minuten und Sekunden einstellen.',
         pl: 'Ustaw czas serwera w formacie godziny, minuty i sekundy.',
+    },
+    set_local_time: {
+        ru: 'Установить локальное время только для себя в формате часы, минуты и секунды.',
+        ua: 'Встановити локальний час лише для себе у форматі години, хвилини та секунди.',
+        en: 'Set the local time only for yourself in hours, minutes, and seconds format.',
+        de: 'Die lokale Zeit nur für dich im Format Stunden, Minuten und Sekunden einstellen.',
+        pl: 'Ustaw lokalny czas tylko dla siebie w formacie godziny, minuty i sekundy.',
     },
     ped: {
         ru: 'Создать рядом с собой тестового педа по модели или оленя по умолчанию.',
@@ -1038,6 +1052,13 @@ export default {
         de: 'Einem Spieler anhand der static ID ein neues Admin-Level innerhalb deiner Berechtigungen zuweisen, einschließlich Offline-Charakteren.',
         pl: 'Ustaw nowy poziom administratora dla gracza po static ID w ramach swoich uprawnień, także dla postaci offline.',
     },
+    set_media_level: {
+        ru: 'Выставить игроку по static ID media level (S, A, B, D, none), включая офлайн-персонажей.',
+        ua: 'Встановити гравцю за static ID media level (S, A, B, D, none), включно з офлайн-персонажами.',
+        en: 'Set media level (S, A, B, D, none) for a player by static ID, including offline characters.',
+        de: 'Einem Spieler anhand der static ID ein Media-Level (S, A, B, D, none) zuweisen, einschließlich Offline-Charakteren.',
+        pl: 'Ustaw media level (S, A, B, D, none) dla gracza po static ID, także dla postaci offline.',
+    },
     model: {
         ru: 'Поставить себе новую модель или сменить модель указанному игроку онлайн.',
         ua: 'Встановити собі нову модель або змінити модель зазначеному гравцю онлайн.',
@@ -1261,6 +1282,20 @@ export default {
         en: 'Set a temporary skill override in systems/skills until the next reset.',
         de: 'Einen temporären Skill-Override in systems/skills bis zum nächsten Reset setzen.',
         pl: 'Ustaw tymczasowe nadpisanie umiejętności w systems/skills do następnego resetu.',
+    },
+    set_temp_level: {
+        ru: 'Выставить указанному игроку временный уровень персонажа (1-100) без сохранения в базу данных.',
+        ua: 'Встановити вказаному гравцю тимчасовий рівень персонажа (1-100) без збереження в базу даних.',
+        en: 'Set a temporary character level (1-100) for the specified player without saving it to the database.',
+        de: 'Dem angegebenen Spieler ein temporäres Charakterlevel (1-100) setzen, ohne es in der Datenbank zu speichern.',
+        pl: 'Ustaw wskazanemu graczowi tymczasowy poziom postaci (1-100) bez zapisywania do bazy danych.',
+    },
+    set_temp_job_level: {
+        ru: 'Выставить указанному игроку временный уровень работы по jobKey (1-100) без сохранения в базу данных.',
+        ua: 'Встановити вказаному гравцю тимчасовий рівень роботи за jobKey (1-100) без збереження в базу даних.',
+        en: 'Set a temporary job level (1-100) for the specified player by jobKey without saving it to the database.',
+        de: 'Dem angegebenen Spieler ein temporäres Job-Level (1-100) per jobKey setzen, ohne es in der Datenbank zu speichern.',
+        pl: 'Ustaw wskazanemu graczowi tymczasowy poziom pracy po jobKey (1-100) bez zapisywania do bazy danych.',
     },
     gm_win: {
         ru: 'Принудительно завершить текущий матч Grandmaster своей победой.',

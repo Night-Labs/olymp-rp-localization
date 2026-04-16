@@ -110,7 +110,7 @@ export const server = {
         ru: 'Вы успешно изменили пароль',
         ua: 'Ви успішно змінили пароль',
         en: 'You have successfully changed your password',
-        de: 'Du hast Ihr Passwort erfolgreich geändert',
+        de: 'Du hast dein Passwort erfolgreich geändert',
         pl: 'Pomyślnie zmieniłeś hasło',
         zh: '密码修改成功',
     },

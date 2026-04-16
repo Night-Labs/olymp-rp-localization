@@ -84,7 +84,7 @@ export const selector = {
             ru: 'Вы уверены? Ваш персонаж будет навсегда удалён!<br> Для подтверждения введите пароль от аккаунта.',
             ua: 'Ви впевнені? Ваш персонаж буде назавжди видалений!<br> Для підтвердження введіть пароль від аккаунту.',
             en: 'Are you sure? Your character will be permanently deleted!<br> To confirm, enter your account password.',
-            de: 'Bist du sicher? Dein Charakter wird dauerhaft gelöscht!<br> Gebe zur Bestätigung dein Kontopasswort ein.',
+            de: 'Bist du sicher? Dein Charakter wird dauerhaft gelöscht!<br> Gib zur Bestätigung dein Kontopasswort ein.',
             pl: 'Czy na pewno? Twoja postać zostanie trwale usunięta!<br> Aby potwierdzić, wprowadź hasło do konta.',
         },
         password: {

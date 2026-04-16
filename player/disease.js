@@ -19,14 +19,14 @@ export default {
         ru: '~b~Похоже вы простудились, примите таблетки или обратитесь в больницу дабы ваше состояние не ухудшилось',
         ua: '~b~Схоже, ви застудилися, прийміть таблетки або зверніться до лікарні, щоб ваш стан не погіршився',
         en: "~b~It seems you've caught a cold, take some medicine or visit a hospital before your condition worsens",
-        de: '~b~Es sieht so aus, als hättest du dich erkältet. Nehme Medikamente oder gehe ins Krankenhaus, bevor sich dein Zustand verschlechtert',
+        de: '~b~Es sieht so aus, als hättest du dich erkältet. Nimm Medikamente oder geh ins Krankenhaus, bevor sich dein Zustand verschlechtert',
         pl: '~b~Wygląda na to, że się przeziębiłeś, zażyj tabletki lub udaj się do szpitala, zanim twój stan się pogorszy',
     },
     youAreCuredCold: {
         ru: '~b~Вы полностью вылечились от простуды. Больше никакого кашля, слабости и соплей. Можете вздохнуть спокойно, но не забывайте беречь здоровье!',
         ua: '~b~Ви повністю вилікувалися від застуди. Більше ніякого кашлю, слабкості чи нежитю. Можете зітхнути з полегшенням, але бережіть себе!',
         en: '~b~You have fully recovered from the cold. No more coughing, weakness, or runny nose. Take a deep breath - but don’t forget to stay healthy!',
-        de: '~b~Du hast dich vollständig von der Erkältung erholt. Kein Husten, keine Schwäche und keine laufende Nase mehr. Atme tief ein – aber achten Sie weiterhin auf Ihre Gesundheit!',
+        de: '~b~Du hast dich vollständig von der Erkältung erholt. Kein Husten, keine Schwäche und keine laufende Nase mehr. Atme tief ein – aber achte weiterhin auf deine Gesundheit!',
         pl: '~b~Wyleczyłeś się całkowicie z przeziębienia. Koniec z kaszlem, osłabieniem i katarem. Odetchnij z ulgą, ale pamiętaj, by dbać o zdrowie!',
     },
     youHaveMildColdSymptoms: {

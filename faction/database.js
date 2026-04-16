@@ -52,7 +52,7 @@ export default {
         ru: 'Введите значение',
         ua: 'Введіть значення',
         en: 'Enter a value',
-        de: 'Gebe einen Wert ein',
+        de: 'Gib einen Wert ein',
         pl: 'Wprowadź wartość',
     },
     name: {

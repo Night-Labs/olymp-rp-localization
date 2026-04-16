@@ -121,7 +121,7 @@ export default {
         ru: 'Вижу тюнингованную {{model}}, цвет {{color}}, номера {{plate}}. Инфа на карте, время не жди.',
         ua: 'Бачу тюнінговану {{model}}, колір {{color}}, номери {{plate}}. Інфа на мапі, не гай часу.',
         en: 'I see a tuned {{model}}, color {{color}}, plates {{plate}}. Info’s on the map, don’t wait.',
-        de: 'Sehe einen getunten {{model}}, Farbe {{color}}, Kennzeichen {{plate}}. Infos sind auf der Karte, verlier keine Zeit.',
+        de: 'Ich sehe einen getunten {{model}}, Farbe {{color}}, Kennzeichen {{plate}}. Infos sind auf der Karte, verlier keine Zeit.',
         pl: 'Widzę stuningowane {{model}}, kolor {{color}}, tablice {{plate}}. Info jest na mapie, nie czekaj.',
     },
     orderTuned7: {
