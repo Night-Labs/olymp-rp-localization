@@ -77,7 +77,7 @@ export const animations = {
         ru: 'Введите название анимации...',
         ua: 'Введіть назву анімації...',
         en: 'Enter the animation name...',
-        de: 'Gebe den Namen der Animation ein...',
+        de: 'Gib den Namen der Animation ein...',
         pl: 'Wprowadź nazwę animacji...',
        zh:'输入动画名称...',
     },

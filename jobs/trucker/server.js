@@ -60,7 +60,7 @@ export const server = {
         ru: 'Сначала возьмите товар со склада',
         ua: 'Спочатку візьміть товар зі складу',
         en: 'First take the goods from the warehouse',
-        de: 'Nehme zuerst die Waren aus dem Lager',
+        de: 'Nimm zuerst die Waren aus dem Lager',
         pl: 'Najpierw weź towar ze składu',
         zh: '首先从仓库取货',
     },

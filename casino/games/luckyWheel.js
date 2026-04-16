@@ -13,8 +13,8 @@ export const luckyWheel = {
         <br><br>Кожен день ви будете отримувати безкоштовний спін після проведення 60 хвилин в грі.`,
         en: `Here you can spin the wheel with prizes and get valuable items such as chips, money, donation currency, or even a car, as well as less valuable prizes like experience or clothing.
         <br><br>Every day, you'll receive a free spin after playing for 60 minutes in the game.`,
-        de: `Hier kannst di das Rad mit Preisen drehen und wertvolle Gegenstände wie Chips, Geld, Spendenwährung oder sogar ein Auto erhalten, sowie weniger wertvolle Preise wie Erfahrung oder Kleidung.
-        <br><br>Jeden Tag erhälst dz einen kostenlosen Dreh, nachdem du 60 Minuten gespielt hast.`,
+        de: `Hier kannst du das Rad mit Preisen drehen und wertvolle Gegenstände wie Chips, Geld, Spendenwährung oder sogar ein Auto erhalten, sowie weniger wertvolle Preise wie Erfahrung oder Kleidung.
+        <br><br>Jeden Tag erhältst du einen kostenlosen Dreh, nachdem du 60 Minuten gespielt hast.`,
         pl: `Tutaj możesz obracać kołem z nagrodami i otrzymywać cenne przedmioty, takie jak żetony, pieniądze, walutę darowizn, a nawet samochód, a także mniej wartościowe nagrody, takie jak doświadczenie lub odzież.
         <br><br>Co dzień otrzymasz darmowy spin po 60 minutach grania w grę.`,
     },

@@ -45,7 +45,7 @@
         ru: 'Укажите цену возобновления',
         ua: 'Вкажіть ціну відновлення',
         en: 'Enter the renewal price',
-        de: 'Gebe den Verlängerungspreis ein',
+        de: 'Gib den Verlängerungspreis ein',
         pl: 'Podaj cenę odnowienia',
     },
 

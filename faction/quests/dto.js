@@ -10,7 +10,7 @@ export default {
         ru: 'Поучавствуйте в {{count}} аирдропах',
         ua: 'Візьміть участь у {{count}} аірдропах',
         en: 'Participate in {{count}} airdrops',
-        de: 'Nehme an {{count}} Airdrops teil',
+        de: 'Nimm an {{count}} Airdrops teil',
         pl: 'Weź udział w {{count}} airdropach',
     },
     robShops: {

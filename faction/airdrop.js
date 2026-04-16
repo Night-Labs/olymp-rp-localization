@@ -54,7 +54,7 @@ export default {
         ru: 'Вы заложили взрывчатку, ожидайте взрыва',
         ua: 'Ви заклали вибухівку, чекайте вибуху',
         en: 'You planted the explosive, wait for the detonation',
-        de: 'Du hast den Sprengsatz platziert, warten Sie auf die Explosion',
+        de: 'Du hast den Sprengsatz platziert, warte auf die Explosion',
         pl: 'Podłożyłeś ładunek wybuchowy, czekaj na detonację',
     },
     youHaveNoBomb: {

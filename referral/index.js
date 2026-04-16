@@ -67,7 +67,7 @@ export default {
         ru: 'При донате реферала вы получаете 1% от суммы его доната в ',
         ua: 'При донаті реферала ви отримуєте 1% від суми його донату в ',
         en: 'When your referral donates, you get 1% of their donation amount in ',
-        de: 'Wenn dein Empfehlungsnehmer spendet, erhälst du 1% des Spendenbetrags in ',
+        de: 'Wenn dein Empfehlungsnehmer spendet, erhältst du 1% des Spendenbetrags in ',
         pl: 'Kiedy Twój polecony przekazuje darowiznę, otrzymujesz 1% od jej kwoty w ',
         zh: '',
     },
