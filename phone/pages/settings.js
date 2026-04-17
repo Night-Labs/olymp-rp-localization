@@ -23,12 +23,26 @@ export default {
             de: 'Dunkles Thema',
             pl: 'Ciemny motyw',
         },
-        iconsTheme: {
-            ru: 'Тёмные иконки',
-            ua: 'Темні іконки',
-            en: 'Dark icons',
-            de: 'Dunkle Icons',
-            pl: 'Ciemne ikony',
+        iconCustomColor: {
+            ru: 'Кастомный цвет иконок',
+            ua: 'Кастомний колір іконок',
+            en: 'Custom icon color',
+            de: 'Benutzerdefinierte Icon-Farbe',
+            pl: 'Własny kolor ikon',
+        },
+        iconBorderColor: {
+            ru: 'Цвет рамки',
+            ua: 'Колір рамки',
+            en: 'Frame color',
+            de: 'Rahmenfarbe',
+            pl: 'Kolor ramki',
+        },
+        iconSvgColor: {
+            ru: 'Цвет SVG',
+            ua: 'Колір SVG',
+            en: 'SVG color',
+            de: 'SVG-Farbe',
+            pl: 'Kolor SVG',
         },
         ringtone: {
             ru: 'Рингтон вызова',
@@ -81,6 +95,22 @@ export default {
             en: 'Widgets Opacity',
             de: 'Widgets-Transparenz',
             pl: 'Przezroczystość widżetów',
+        },
+
+        widgetsCustomColor: {
+            ru: 'Кастомный цвет виджетов',
+            ua: 'Кастомний колір віджетів',
+            en: 'Custom widgets color',
+            de: 'Benutzerdefinierte Widgets-Farbe',
+            pl: 'Własny kolor widżetów',
+        },
+
+        widgetsColor: {
+            ru: 'Цвет виджетов',
+            ua: 'Колір віджетів',
+            en: 'Widgets color',
+            de: 'Widgets-Farbe',
+            pl: 'Kolor widżetów',
         },
 
         autoUnlock: {
