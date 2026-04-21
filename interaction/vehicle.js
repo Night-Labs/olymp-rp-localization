@@ -1,4 +1,13 @@
 export const vehicle = {
+    vehicleInfo: {
+        ru: 'Информация',
+        ua: 'Інформація',
+        en: 'Information',
+        de: 'Informationen',
+        pl: 'Informacje',
+        zh: '信息',
+    },
+
     trunk: {
         ru: 'Багажник',
         ua: 'Багажник',
