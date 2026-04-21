@@ -44,6 +44,15 @@ export default {
             pl: 'Wezwij pracownika',
         },
 
+        carInsurance: {
+            ru: 'Страхование Т/С',
+            ua: 'Страхування ТЗ',
+            en: 'Vehicle insurance',
+            de: 'Fahrzeugversicherung',
+            pl: 'Ubezpieczenie pojazdu',
+            zh: '汽车保险',
+        },
+
         factionRecruitment: {
             ru: 'Набор в фракцию LSPD проводят лидер и его заместитель. Следите за объявлениями.',
             ua: 'Набір до фракції LSPD проводять лідер та його заступник. Слідкуйте за оголошеннями.',

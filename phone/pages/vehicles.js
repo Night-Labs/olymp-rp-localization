@@ -252,6 +252,14 @@ export default {
                     de: 'Wiederherstellen',
                     pl: 'Przywrócić',
                 },
+                free: {
+                    ru: '(Бесплатно)',
+                    ua: '(Безкоштовно)',
+                    en: '(Free)',
+                    de: '(Kostenlos)',
+                    pl: '(Bezpłatnie)',
+                    zh: '(Free)',
+                },
             },
             inGarage: {
                 ru: 'Доставить с гаража',

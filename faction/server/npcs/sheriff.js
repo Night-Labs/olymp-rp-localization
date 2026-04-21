@@ -44,6 +44,15 @@ export default {
             pl: 'Wezwij pracownika',
         },
 
+        carInsurance: {
+            ru: 'Страхование Т/С',
+            ua: 'Страхування ТЗ',
+            en: 'Vehicle insurance',
+            de: 'Fahrzeugversicherung',
+            pl: 'Ubezpieczenie pojazdu',
+            zh: '汽车保险',
+        },
+
         factionRecruitment: {
             ru: 'Набор в департамент шерифа проводят лидер и его заместитель. Следите за объявлениями.',
             ua: 'Набір до департаменту шерифа проводять лідер та його заступник. Слідкуйте за оголошеннями.',
