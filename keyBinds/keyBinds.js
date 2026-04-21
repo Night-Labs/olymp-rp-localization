@@ -251,6 +251,13 @@ export default {
         de: 'Auf den Beifahrersitz setzen',
         pl: 'Usiądź na miejscu pasażera',
     },
+    'vehicle.passengerWaypoint': {
+        ru: 'Отправить метку водителю',
+        ua: 'Надіслати мітку водію',
+        en: 'Send waypoint to driver',
+        de: 'Wegpunkt an Fahrer senden',
+        pl: 'Wyślij punkt trasy kierowcy',
+    },
     megaphone: {
         ru: 'Мегафон',
         ua: 'Мегафон',
