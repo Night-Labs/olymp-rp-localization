@@ -288,6 +288,14 @@ export const inventory = {
             pl: 'Ilość:',
             zh: '数量:',
         },
+        inputPlaceholder: {
+            ru: 'Количество предметов',
+            ua: 'Кількість предметів',
+            en: 'Item quantity',
+            de: 'Menge eingeben',
+            pl: 'Ilość przedmiotów',
+            zh: '物品数量',
+        },
         pcs: {
             ru: 'шт.',
             ua: 'шт.',

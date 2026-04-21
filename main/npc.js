@@ -311,6 +311,14 @@ export const npc = {
             de: 'Sophie',
             pl: 'Sophie',
         },
+        veronica: {
+            ru: 'Вероника',
+            ua: 'Вероніка',
+            en: 'Veronica',
+            de: 'Veronica',
+            pl: 'Weronika',
+            zh: '维罗尼卡',
+        },
     },
     roles: {
         fleetManager: {
