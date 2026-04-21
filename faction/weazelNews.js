@@ -154,11 +154,11 @@ export default {
 
     liveStream: {
         live: {
-            ru: '<font color="b51d1d">LIVE</font>',
-            ua: '<font color="b51d1d">НАЖИВО</font>',
-            en: '<font color="b51d1d">LIVE</font>',
-            de: '<font color="b51d1d">LIVE</font>',
-            pl: '<font color="b51d1d">NA ŻYWO</font>',
+            ru: '~r~LIVE',
+            ua: '~r~НАЖИВО',
+            en: '~r~LIVE',
+            de: '~r~LIVE',
+            pl: '~r~NA ŻYWO',
         },
         notLive: {
             ru: 'Прямой эфир отключен',
