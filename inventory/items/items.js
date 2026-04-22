@@ -615,22 +615,6 @@ export const items = {
             pl: 'Pozwala zrobić papierosa',
         },
     },
-    ephedrine_pills: {
-        name: {
-            ru: 'Эфедриновые таблетки',
-            ua: 'Ефедринові таблетки',
-            en: 'Ephedrine tablets',
-            de: 'Ephedrin-Tabletten',
-            pl: 'Tabletki efedrynowe',
-        },
-        desc: {
-            ru: 'Могут пригодиться для крафта чего-то нелегального...',
-            ua: 'Можуть стати в пригоді для крафту чогось нелегального...',
-            en: 'Might be useful for crafting something illegal...',
-            de: 'Könnten nützlich sein, um etwas Illegales herzustellen...',
-            pl: 'Mogą przydać się do tworzenia czegoś nielegalnego...',
-        },
-    },
     pickaxe: {
         name: {
             ru: 'Кирка',

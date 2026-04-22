@@ -71,6 +71,13 @@ export default {
         de: 'Bestellen',
         pl: 'Zamówić',
     },
+    cancelOrder: {
+        ru: 'Отменить заказ',
+        ua: 'Скасувати замовлення',
+        en: 'Cancel order',
+        de: 'Bestellung stornieren',
+        pl: 'Anuluj zamówienie',
+    },
     emptyHistory: {
         ru: 'Тут пока ничего нет',
         ua: 'Тут поки нічого немає',
@@ -135,6 +142,13 @@ export default {
                 en: 'Completed',
                 de: 'Abgeschlossen',
                 pl: 'Wykonano',
+            },
+            canceled: {
+                ru: 'Отменён',
+                ua: 'Скасовано',
+                en: 'Canceled',
+                de: 'Abgebrochen',
+                pl: 'Anulowano',
             },
         },
     },
