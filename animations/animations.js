@@ -56,12 +56,48 @@ export const animations = {
     },
 
     favoritName: {
-        ru: 'ИЗБРАННЫЕ',
-        ua: 'ВИБРАНЕ',
-        en: 'FAVORITES',
-        de: 'FAVORITEN',
-        pl: 'ULUBIONE',
+        ru: 'Избранные',
+        ua: 'Вибране',
+        en: 'Favorites',
+        de: 'Favoriten',
+        pl: 'Ulubione',
        zh:'收藏',
+    },
+
+    exclusiveName: {
+        ru: 'Эксклюзивные',
+        ua: 'Ексклюзивні',
+        en: 'Exclusive',
+        de: 'Exklusiv',
+        pl: 'Ekskluzywne',
+       zh:'专属动画',
+    },
+
+    exclusiveDesc: {
+        ru: 'Особые анимации, доступные после разблокировки',
+        ua: 'Особливі анімації, доступні після розблокування',
+        en: 'Special animations available after unlocking',
+        de: 'Besondere Animationen, verfügbar nach der Freischaltung',
+        pl: 'Specjalne animacje dostępne po odblokowaniu',
+       zh:'解锁后可用的特殊动画',
+    },
+
+    lockedHint: {
+        ru: 'Анимация заблокирована',
+        ua: 'Анімація заблокована',
+        en: 'Animation locked',
+        de: 'Animation gesperrt',
+        pl: 'Animacja zablokowana',
+       zh:'动画已锁定',
+    },
+
+    allName: {
+        ru: 'Все анимации',
+        ua: 'Всі анімації',
+        en: 'All animations',
+        de: 'Alle Animationen',
+        pl: 'Wszystkie animacje',
+       zh:'所有动作',
     },
 
     favoriteDesc: {
@@ -71,6 +107,15 @@ export const animations = {
         de: 'Animationen',
         pl: 'animacje',
        zh:'动画',
+    },
+
+    categoryCountLabel: {
+        ru: 'Кол-во анимаций',
+        ua: 'К-сть анімацій',
+        en: 'Animations count',
+        de: 'Anzahl der Animationen',
+        pl: 'Liczba animacji',
+       zh:'动画数量',
     },
 
     input: {

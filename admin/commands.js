@@ -799,6 +799,20 @@ export default {
         de: 'Einen Donator-Skin für einen Spieler anhand seiner Skin-ID freischalten.',
         pl: 'Odblokuj skin donacyjny dla gracza według jego skin ID.',
     },
+    unlock_animation: {
+        ru: 'Разблокировать эксклюзивную анимацию игроку по её ad и an.',
+        ua: 'Розблокувати ексклюзивну анімацію гравцю за її ad та an.',
+        en: 'Unlock an exclusive animation for a player by its ad and an.',
+        de: 'Eine exklusive Animation für einen Spieler anhand von ad und an freischalten.',
+        pl: 'Odblokuj ekskluzywną animację dla gracza według jej ad i an.',
+    },
+    revoke_animation: {
+        ru: 'Отозвать у игрока разблокировку эксклюзивной анимации по её ad и an.',
+        ua: 'Відкликати у гравця розблокування ексклюзивної анімації за її ad та an.',
+        en: 'Revoke an unlocked exclusive animation from a player by its ad and an.',
+        de: 'Eine freigeschaltete exklusive Animation einem Spieler anhand von ad und an entziehen.',
+        pl: 'Odbierz graczowi odblokowaną ekskluzywną animację według jej ad i an.',
+    },
     infinity_inventory: {
         ru: 'Включить или выключить бесконечный инвентарь у администратора.',
         ua: 'Увімкнути або вимкнути нескінченний інвентар у адміністратора.',
