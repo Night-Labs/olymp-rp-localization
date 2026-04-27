@@ -5,6 +5,7 @@ import fine from './fine';
 import frisk from './frisk';
 import badge from './badge';
 import sellLicense from './sellLicense';
+import prisoners from './prisoners';
 
 export const cef = {
     arrest,
@@ -14,6 +15,7 @@ export const cef = {
     frisk,
     badge,
     sellLicense,
+    prisoners,
 
     tabsName: {
         ru: 'Все доступные действия',

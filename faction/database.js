@@ -294,6 +294,13 @@ export default {
             de: 'Verhaftung',
             pl: 'Aresztowanie',
         },
+        release: {
+            ru: 'Освобождение',
+            ua: 'Звільнення',
+            en: 'Release',
+            de: 'Entlassung',
+            pl: 'Zwolnienie',
+        },
     },
     //
     noResults: {

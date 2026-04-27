@@ -410,4 +410,34 @@ export default {
         de: 'Um eine Person zu heilen, muss sie ihre gesamte Oberbekleidung ausziehen',
         pl: 'Aby wyleczyć osobę, musi ona zdjąć całą odzież wierzchnią',
     },
+
+    //
+    releaseReasonInvalid: {
+        ru: 'Укажите причину освобождения (от 3 до 200 символов)',
+        ua: 'Вкажіть причину звільнення (від 3 до 200 символів)',
+        en: 'Specify a release reason (between 3 and 200 characters)',
+        de: 'Gib einen Entlassungsgrund an (zwischen 3 und 200 Zeichen)',
+        pl: 'Podaj powód zwolnienia (od 3 do 200 znaków)',
+    },
+    releaseTooFarFromMarker: {
+        ru: 'Вы должны находиться у маркера ареста, чтобы освободить заключенного',
+        ua: 'Ви повинні знаходитися біля маркера арешту, щоб звільнити в`язня',
+        en: 'You must be at the arrest marker to release a prisoner',
+        de: 'Du musst dich am Verhaftungsmarker befinden, um einen Häftling zu entlassen',
+        pl: 'Musisz znajdować się przy znaczniku aresztowania, aby zwolnić więźnia',
+    },
+    releasePrisonerNotFound: {
+        ru: 'Заключенный не найден или уже освобожден',
+        ua: 'В`язня не знайдено або вже звільнено',
+        en: 'Prisoner not found or already released',
+        de: 'Häftling nicht gefunden oder bereits entlassen',
+        pl: 'Więzień nie został znaleziony lub został już zwolniony',
+    },
+    releaseSuccess: {
+        ru: 'Вы освободили {{name}}',
+        ua: 'Ви звільнили {{name}}',
+        en: 'You released {{name}}',
+        de: 'Du hast {{name}} entlassen',
+        pl: 'Zwolniłeś {{name}}',
+    },
 };
