@@ -905,6 +905,29 @@ export const cef = {
         de: 'Gib den Rangnamen ein',
         pl: 'Wprowadź nazwę rangi',
     },
+    rankNameError: {
+        tooLong: {
+            ru: 'Максимум 30 символов',
+            ua: 'Максимум 30 символів',
+            en: 'Maximum 30 characters',
+            de: 'Maximal 30 Zeichen',
+            pl: 'Maksymalnie 30 znaków',
+        },
+        invalidChars: {
+            ru: 'Допустимы только буквы, пробелы и точки',
+            ua: 'Допустимі лише літери, пробіли та крапки',
+            en: 'Only letters, spaces and dots are allowed',
+            de: 'Nur Buchstaben, Leerzeichen und Punkte sind erlaubt',
+            pl: 'Dozwolone są tylko litery, spacje i kropki',
+        },
+        invalidFormat: {
+            ru: 'Название должно начинаться и заканчиваться буквой',
+            ua: 'Назва має починатися та закінчуватися літерою',
+            en: 'Name must start and end with a letter',
+            de: 'Der Name muss mit einem Buchstaben beginnen und enden',
+            pl: 'Nazwa musi zaczynać się i kończyć literą',
+        },
+    },
     rankSalary: {
         ru: 'Выберите зарплату ранга',
         ua: 'Виберіть зарплату рангу',
