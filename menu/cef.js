@@ -251,14 +251,6 @@ export const cef = {
                 pl: 'Poziom',
                 zh: '等级',
             },
-            bank: {
-                ua: 'У банку',
-                en: 'Bank',
-                ru: 'В банке',
-                de: 'Bank',
-                pl: 'Bank',
-                zh: '银行',
-            },
             exp: {
                 ua: 'EXP',
                 en: 'EXP',
@@ -266,14 +258,6 @@ export const cef = {
                 de: 'EXP',
                 pl: 'EXP',
                 zh: '经验',
-            },
-            warns: {
-                ua: 'Попередження',
-                en: 'Warnings',
-                ru: 'Предупреждения',
-                de: 'Verwarnungen',
-                pl: 'Ostrzeżenia',
-                zh: '警告',
             },
             faction: {
                 ua: 'Організація',
