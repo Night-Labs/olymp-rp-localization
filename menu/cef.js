@@ -94,12 +94,11 @@ export const cef = {
             zh: '我们的服务器是从头开始开发的。它正在积极发展，并将继续发展。我们依靠你的支持',
         },
         changes: {
-            ua: 'Список змін:',
-            en: 'List of changes:',
-            ru: 'Список изменений:',
-            de: 'Liste der Änderungen:',
-            pl: 'Lista zmian:',
-            zh: '变更清单:',
+            ru: 'Последние новости:',
+            ua: 'Останні новини:',
+            en: 'Latest news:',
+            de: 'Neueste Nachrichten:',
+            pl: 'Najnowsze wiadomości:',
         },
         discord: {
             ua: 'Наш Discord',
