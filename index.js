@@ -87,6 +87,7 @@ import offcies from './offcies';
 import organizationRegistration from './organizationRegistration';
 import tennis from './tennis';
 import trade from './trade';
+import battlePass from './battlePass';
 import vehicleInfo from './vehicleInfo';
 import carInsurance from './carInsurance';
 
@@ -180,6 +181,7 @@ export default {
     organizationRegistration,
     tennis,
     trade,
+    battlePass,
     vehicleInfo,
     carInsurance,
 };
