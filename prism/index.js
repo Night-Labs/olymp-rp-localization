@@ -22,6 +22,13 @@
                 'de': 'Ein Sanitäter ist am Einsatzort eingetroffen',
                 'pl': 'Ratownik medyczny przybył na miejsce wezwania',
             },
+            'fib': {
+                'ru': 'Федеральный агент прибыл на место вызова',
+                'ua': 'Федеральний агент прибув на місце виклику',
+                'en': 'A federal agent has arrived at the scene',
+                'de': 'Ein Bundesagent ist am Einsatzort eingetroffen',
+                'pl': 'Agent federalny przybył na miejsce wezwania',
+            },
         },
         accepted: {
             'lspd': {
@@ -45,6 +52,13 @@
                 'de': 'Sanitäter {{name}} hat Ihren Notruf angenommen und ist unterwegs',
                 'pl': 'Ratownik medyczny {{name}} przyjął twoje zgłoszenie i jest w drodze',
             },
+            'fib': {
+                'ru': 'Федеральный агент {{name}} принял ваш вызов и отправился на него',
+                'ua': 'Федеральний агент {{name}} прийняв ваш виклик і вирушив на нього',
+                'en': 'Federal agent {{name}} has accepted your call and is on the way',
+                'de': 'Bundesagent {{name}} hat Ihren Notruf angenommen und ist unterwegs',
+                'pl': 'Agent federalny {{name}} przyjął twoje zgłoszenie i jest w drodze',
+            },
         },
         "dispatchTargetDisconnect": {
             "lspd": {
@@ -67,6 +81,13 @@
                 "en": "Call canceled: the patient who needed medical help has left the game",
                 "de": "Einsatz abgebrochen: Der Patient, der medizinische Hilfe brauchte, hat das Spiel verlassen",
                 "pl": "Wezwanie anulowane: pacjent, który potrzebował pomocy medycznej, opuścił grę",
+            },
+            "fib": {
+                "ru": "Вызов отменён: гражданин, обратившийся к федеральным властям, покинул игру",
+                "ua": "Виклик скасовано: громадянин, який звернувся до федеральних органів, вийшов з гри",
+                "en": "Call canceled: the citizen who contacted the federal agency has left the game",
+                "de": "Einsatz abgebrochen: Der Bürger, der die Bundesbehörde kontaktierte, hat das Spiel verlassen",
+                "pl": "Wezwanie anulowane: obywatel, który skontaktował się z agencją federalną, opuścił grę",
             }
         },
         "dispatchTargetDeath": {
@@ -90,6 +111,13 @@
                 "en": "Call canceled: the patient who needed medical help has died",
                 "de": "Einsatz abgebrochen: Der Patient, der medizinische Hilfe brauchte, ist gestorben",
                 "pl": "Wezwanie anulowane: pacjent, który potrzebował pomocy medycznej, zmarł",
+            },
+            "fib": {
+                "ru": "Вызов отменён: гражданин, обратившийся к федеральным властям, погиб",
+                "ua": "Виклик скасовано: громадянин, який звернувся до федеральних органів, загинув",
+                "en": "Call canceled: the citizen who contacted the federal agency has died",
+                "de": "Einsatz abgebrochen: Der Bürger, der die Bundesbehörde kontaktierte, ist gestorben",
+                "pl": "Wezwanie anulowane: obywatel, który skontaktował się z agencją federalną, zginął",
             }
         },
         "dispatchTargetReanimated": {
@@ -126,6 +154,13 @@
                 "pl": "Zginąłeś i nie bierzesz już udziału w wezwaniu",
             },
             "ems": {
+                "ru": "Ты погиб и больше не участвуешь в выполнении вызова",
+                "ua": "Ти загинув і більше не береш участі у виконанні виклику",
+                "en": "You died and are no longer part of the call",
+                "de": "Du bist gestorben und nimmst nicht mehr am Einsatz teil",
+                "pl": "Zginąłeś i nie bierzesz już udziału w wezwaniu",
+            },
+            "fib": {
                 "ru": "Ты погиб и больше не участвуешь в выполнении вызова",
                 "ua": "Ти загинув і більше не береш участі у виконанні виклику",
                 "en": "You died and are no longer part of the call",

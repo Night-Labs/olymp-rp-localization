@@ -155,6 +155,13 @@ export default {
             'de': 'Tod',
             'pl': 'Śmierć',
         },
+        federal: {
+            ru: 'Федеральный',
+            ua: 'Федеральний',
+            en: 'Federal',
+            de: 'Bundesweit',
+            pl: 'Federalny',
+        },
     },
 
     pointCaptureDispatchTarget: {
