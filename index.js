@@ -40,6 +40,7 @@ import { gameEvents } from './gameEvents';
 import death from './death';
 import offers from './offers';
 import { faction } from './faction/faction';
+import { web } from './web/web';
 import handling from './handling';
 import crash from './crash';
 import jail from './jail';
@@ -133,6 +134,7 @@ export default {
     death,
     offers,
     faction,
+    web,
     crash,
     jail,
     cityhall,

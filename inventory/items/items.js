@@ -126,6 +126,24 @@ export const items = {
             zh: '手机卡',
         },
     },
+    laptop: {
+        name: {
+            ua: 'Ноутбук',
+            en: 'Laptop',
+            ru: 'Ноутбук',
+            de: 'Laptop',
+            pl: 'Laptop',
+            zh: '笔记本电脑',
+        },
+        desc: {
+            ua: `Портативний комп'ютер з доступом до браузера FREEWEB.`,
+            en: 'A portable computer with access to the FREEWEB browser.',
+            ru: 'Портативный компьютер с доступом к браузеру FREEWEB.',
+            de: 'Ein tragbarer Computer mit Zugang zum FREEWEB-Browser.',
+            pl: 'Przenośny komputer z dostępem do przeglądarki FREEWEB.',
+            zh: '一台可使用 FREEWEB 浏览器的便携式计算机。',
+        },
+    },
     cigarettes: {
         name: {
             ua: 'Сигарети',
