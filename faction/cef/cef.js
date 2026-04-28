@@ -5,6 +5,7 @@ import fine from './fine';
 import frisk from './frisk';
 import badge from './badge';
 import sellLicense from './sellLicense';
+import prisoners from './prisoners';
 
 export const cef = {
     arrest,
@@ -14,6 +15,7 @@ export const cef = {
     frisk,
     badge,
     sellLicense,
+    prisoners,
 
     tabsName: {
         ru: 'Все доступные действия',
@@ -135,7 +137,7 @@ export const cef = {
             ru: 'Здесь вы можете управлять рангами вашей организации.',
             en: 'Here you can manage the ranks of your organization.',
             ua: 'Тут ви можете керувати рангами вашої організації.',
-            de: 'Hier kannst du die Ränge Ihrer Organisation verwalten.',
+            de: 'Hier kannst du die Ränge deiner Organisation verwalten.',
             pl: 'Tutaj możesz zarządzać rangami w swojej organizacji.',
             zh: '在这里，您可以管理组织的级别',
         },
@@ -143,7 +145,7 @@ export const cef = {
             ru: 'Здесь собран весь транспорт вашей фракции. Можно быстро найти нужную машину, посмотреть автопарк и добавить новый транспорт.',
             en: 'This section contains all faction transport. You can quickly find a vehicle, browse the fleet, and add new transport.',
             ua: 'Тут зібрано весь транспорт вашої фракції. Можна швидко знайти потрібну машину, переглянути автопарк і додати новий транспорт.',
-            de: 'Hier ist der gesamte Transport deiner Fraktion собран. Du kannst schnell ein Fahrzeug finden, den Fuhrpark ansehen und neuen Transport hinzufügen.',
+            de: 'Hier findest du den gesamten Transport deiner Fraktion. Du kannst schnell ein Fahrzeug finden, den Fuhrpark ansehen und neuen Transport hinzufügen.',
             pl: 'Tutaj znajdziesz caly transport swojej frakcji. Mozesz szybko znalezc potrzebny pojazd, przejrzec flote i dodac nowy transport.',
             zh: '这里汇集了你帮派的全部载具。你可以快速查找车辆、查看车队，并添加新的运输工具。',
         },
@@ -151,7 +153,7 @@ export const cef = {
             ru: 'С помощью этой карты вы можете следить за территориями вашей банды. А также объявлять войну за территории другим бандам.',
             ua: 'За допомогою цієї карти ви можете стежити за територіями вашої банди. А також оголошувати війну за території іншим бандам.',
             en: 'With this map, you can track the territories of your gang. You can also declare war on territories belonging to other gangs.',
-            de: 'Mit dieser Karte kannst du die Gebiete Ihrer Band überwachen. Du kannst auch Krieg gegen Gebiete anderer Banden erklären.',
+            de: 'Mit dieser Karte kannst du die Gebiete deiner Bande überwachen. Du kannst auch Krieg gegen Gebiete anderer Banden erklären.',
             pl: 'Z pomocą tej mapy możesz śledzić terytoria twojej bandy. Możesz także wypowiedzieć wojnę o terytoria należące do innych band.',
             zh: '有了这张地图，你就可以追踪到你帮派的领地。你也可以对属于其他帮派的领土宣战',
         },
@@ -168,7 +170,7 @@ export const cef = {
             ru: 'Тут можно заказывать поставки нужных вашей фракции материалов',
             ua: 'Тут можна замовляти поставки потрібних вашій фракції матеріалів',
             en: 'Here you can order supplies for your faction',
-            de: 'Hier kannst du Lieferungen für Ihre Fraktion bestellen',
+            de: 'Hier kannst du Lieferungen für deine Fraktion bestellen',
             pl: 'Tutaj możesz zamówić materiały dla swojej frakcji',
             zh: '在这里，你可以为你的材料部分订购供应品',
         },
@@ -902,8 +904,31 @@ export const cef = {
         ru: 'Введите название ранга',
         ua: 'Введіть назву рангу',
         en: 'Enter rank name',
-        de: 'Gebe den Rangnamen ein',
+        de: 'Gib den Rangnamen ein',
         pl: 'Wprowadź nazwę rangi',
+    },
+    rankNameError: {
+        tooLong: {
+            ru: 'Максимум 30 символов',
+            ua: 'Максимум 30 символів',
+            en: 'Maximum 30 characters',
+            de: 'Maximal 30 Zeichen',
+            pl: 'Maksymalnie 30 znaków',
+        },
+        invalidChars: {
+            ru: 'Допустимы только буквы, пробелы и точки',
+            ua: 'Допустимі лише літери, пробіли та крапки',
+            en: 'Only letters, spaces and dots are allowed',
+            de: 'Nur Buchstaben, Leerzeichen und Punkte sind erlaubt',
+            pl: 'Dozwolone są tylko litery, spacje i kropki',
+        },
+        invalidFormat: {
+            ru: 'Название должно начинаться и заканчиваться буквой',
+            ua: 'Назва має починатися та закінчуватися літерою',
+            en: 'Name must start and end with a letter',
+            de: 'Der Name muss mit einem Buchstaben beginnen und enden',
+            pl: 'Nazwa musi zaczynać się i kończyć literą',
+        },
     },
     rankSalary: {
         ru: 'Выберите зарплату ранга',

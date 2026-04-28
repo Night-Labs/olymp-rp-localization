@@ -262,6 +262,24 @@ export const inventory = {
                 zh: '拾起',
             },
         },
+        tradeAdd: {
+            header: {
+                ru: 'Добавить предмет',
+                ua: 'Додати предмет',
+                en: 'Add item',
+                de: 'Gegenstand hinzufügen',
+                pl: 'Dodaj przedmiot',
+                zh: '添加物品',
+            },
+            accept: {
+                ru: 'Добавить',
+                ua: 'Додати',
+                en: 'Add',
+                de: 'Hinzufügen',
+                pl: 'Dodaj',
+                zh: '添加',
+            },
+        },
         quantity: {
             ru: 'Количество:',
             ua: 'Кількість:',
@@ -269,6 +287,14 @@ export const inventory = {
             de: 'Menge:',
             pl: 'Ilość:',
             zh: '数量:',
+        },
+        inputPlaceholder: {
+            ru: 'Количество предметов',
+            ua: 'Кількість предметів',
+            en: 'Item quantity',
+            de: 'Menge eingeben',
+            pl: 'Ilość przedmiotów',
+            zh: '物品数量',
         },
         pcs: {
             ru: 'шт.',
@@ -293,6 +319,14 @@ export const inventory = {
             de: 'Alles',
             pl: 'Wszystko',
             zh: '全部',
+        },
+        weightUnit: {
+            ru: 'кг',
+            ua: 'кг',
+            en: 'kg',
+            de: 'kg',
+            pl: 'kg',
+            zh: 'kg',
         },
     },
     slot: {

@@ -40,7 +40,7 @@ export default {
         ru: 'Укажите кол-во которое вы хотите заказать',
         ua: 'Вкажіть кількість, яку хочете замовити',
         en: 'Enter the quantity you want to order',
-        de: 'Gebe die gewünschte Bestellmenge an',
+        de: 'Gib die gewünschte Bestellmenge an',
         pl: 'Podaj ilość, którą chcesz zamówić',
     },
     quantityMinMax: {
@@ -70,6 +70,13 @@ export default {
         en: 'Order',
         de: 'Bestellen',
         pl: 'Zamówić',
+    },
+    cancelOrder: {
+        ru: 'Отменить заказ',
+        ua: 'Скасувати замовлення',
+        en: 'Cancel order',
+        de: 'Bestellung stornieren',
+        pl: 'Anuluj zamówienie',
     },
     emptyHistory: {
         ru: 'Тут пока ничего нет',
@@ -135,6 +142,13 @@ export default {
                 en: 'Completed',
                 de: 'Abgeschlossen',
                 pl: 'Wykonano',
+            },
+            canceled: {
+                ru: 'Отменён',
+                ua: 'Скасовано',
+                en: 'Canceled',
+                de: 'Abgebrochen',
+                pl: 'Anulowano',
             },
         },
     },

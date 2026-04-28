@@ -40,6 +40,7 @@ import { gameEvents } from './gameEvents';
 import death from './death';
 import offers from './offers';
 import { faction } from './faction/faction';
+import { web } from './web/web';
 import handling from './handling';
 import crash from './crash';
 import jail from './jail';
@@ -87,6 +88,8 @@ import organizationRegistration from './organizationRegistration';
 import tennis from './tennis';
 import trade from './trade';
 import battlePass from './battlePass';
+import vehicleInfo from './vehicleInfo';
+import carInsurance from './carInsurance';
 
 export default {
     account,
@@ -132,6 +135,7 @@ export default {
     death,
     offers,
     faction,
+    web,
     crash,
     jail,
     cityhall,
@@ -178,6 +182,8 @@ export default {
     tennis,
     trade,
     battlePass,
+    vehicleInfo,
+    carInsurance,
 };
 
 

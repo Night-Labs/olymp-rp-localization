@@ -126,6 +126,24 @@ export const items = {
             zh: '手机卡',
         },
     },
+    laptop: {
+        name: {
+            ua: 'Ноутбук',
+            en: 'Laptop',
+            ru: 'Ноутбук',
+            de: 'Laptop',
+            pl: 'Laptop',
+            zh: '笔记本电脑',
+        },
+        desc: {
+            ua: `Портативний комп'ютер з доступом до браузера FREEWEB.`,
+            en: 'A portable computer with access to the FREEWEB browser.',
+            ru: 'Портативный компьютер с доступом к браузеру FREEWEB.',
+            de: 'Ein tragbarer Computer mit Zugang zum FREEWEB-Browser.',
+            pl: 'Przenośny komputer z dostępem do przeglądarki FREEWEB.',
+            zh: '一台可使用 FREEWEB 浏览器的便携式计算机。',
+        },
+    },
     cigarettes: {
         name: {
             ua: 'Сигарети',
@@ -613,22 +631,6 @@ export const items = {
             en: 'Allows you to make a cigarette',
             de: 'Ermöglicht das Drehen einer Zigarette',
             pl: 'Pozwala zrobić papierosa',
-        },
-    },
-    ephedrine_pills: {
-        name: {
-            ru: 'Эфедриновые таблетки',
-            ua: 'Ефедринові таблетки',
-            en: 'Ephedrine tablets',
-            de: 'Ephedrin-Tabletten',
-            pl: 'Tabletki efedrynowe',
-        },
-        desc: {
-            ru: 'Могут пригодиться для крафта чего-то нелегального...',
-            ua: 'Можуть стати в пригоді для крафту чогось нелегального...',
-            en: 'Might be useful for crafting something illegal...',
-            de: 'Könnten nützlich sein, um etwas Illegales herzustellen...',
-            pl: 'Mogą przydać się do tworzenia czegoś nielegalnego...',
         },
     },
     pickaxe: {

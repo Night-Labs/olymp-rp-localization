@@ -154,11 +154,11 @@ export default {
 
     liveStream: {
         live: {
-            ru: '<font color="b51d1d">LIVE</font>',
-            ua: '<font color="b51d1d">НАЖИВО</font>',
-            en: '<font color="b51d1d">LIVE</font>',
-            de: '<font color="b51d1d">LIVE</font>',
-            pl: '<font color="b51d1d">NA ŻYWO</font>',
+            ru: '~r~LIVE',
+            ua: '~r~НАЖИВО',
+            en: '~r~LIVE',
+            de: '~r~LIVE',
+            pl: '~r~NA ŻYWO',
         },
         notLive: {
             ru: 'Прямой эфир отключен',
@@ -196,6 +196,60 @@ export default {
                 en: 'Stop Live Stream',
                 de: 'Live-Stream beenden',
                 pl: 'Zatrzymaj transmisję na żywo',
+            },
+        },
+    },
+
+    npc: {
+        dialog_01: {
+            welcome: {
+                ru: 'Добро пожаловать в офис Weazel News. Здесь работает редакция, ведущие и наши корреспонденты. Чем могу помочь?',
+                ua: 'Ласкаво просимо до офісу Weazel News. Тут працює редакція, ведучі та наші кореспонденти. Чим можу допомогти?',
+                en: 'Welcome to the Weazel News office. This is where our editors, anchors and correspondents work. How can I help you?',
+                de: 'Willkommen im Büro von Weazel News. Hier arbeiten unsere Redaktion, Moderatoren und Korrespondenten. Wie kann ich dir helfen?',
+                pl: 'Witamy w biurze Weazel News. Tu pracują nasi redaktorzy, prezenterzy i korespondenci. W czym mogę pomóc?',
+            },
+            howToJoin: {
+                ru: 'Как вступить во фракцию?',
+                ua: 'Як вступити до фракції?',
+                en: 'How do I join the faction?',
+                de: 'Wie trete ich der Fraktion bei?',
+                pl: 'Jak dołączyć do frakcji?',
+            },
+            howToBuyAd: {
+                ru: 'Где купить рекламу?',
+                ua: 'Де купити рекламу?',
+                en: 'Where can I buy advertising?',
+                de: 'Wo kann ich Werbung kaufen?',
+                pl: 'Gdzie kupić reklamę?',
+            },
+            howToJoinAnswer: {
+                ru: 'Набор в штат проводит руководство фракции. Следите за анонсами в чате и сообществах, затем приходите к нам на собеседование.',
+                ua: 'Набір до штату проводить керівництво фракції. Слідкуйте за анонсами в чаті та спільнотах, а потім приходьте до нас на співбесіду.',
+                en: 'Staff recruitment is handled by the faction leadership. Follow the announcements in chat and community channels, then come to us for an interview.',
+                de: 'Die Einstellung übernimmt die Fraktionsleitung. Verfolge die Ankündigungen im Chat und in den Community-Kanälen und komm dann zu uns zum Vorstellungsgespräch.',
+                pl: 'Rekrutacją zajmuje się kierownictwo frakcji. Śledź ogłoszenia na czacie i w społecznościach, a następnie przyjdź do nas na rozmowę.',
+            },
+            howToBuyAdAnswer: {
+                ru: 'Подать объявление можно прямо с телефона: откройте приложение Weazel News, перейдите во вкладку "Опубликовать", составьте текст и оплатите публикацию. После проверки наш сотрудник опубликует объявление.',
+                ua: 'Подати оголошення можна прямо з телефону: відкрийте застосунок Weazel News, перейдіть у вкладку "Опублікувати", складіть текст і оплатіть публікацію. Після перевірки наш співробітник опублікує оголошення.',
+                en: 'You can submit an ad right from your phone: open the Weazel News app, go to the "Publish" tab, write your text and pay for the publication. After review, one of our staff will post it.',
+                de: 'Du kannst eine Anzeige direkt über dein Handy aufgeben: Öffne die Weazel-News-App, gehe zum Reiter "Veröffentlichen", verfasse den Text und bezahle die Veröffentlichung. Nach der Prüfung stellt einer unserer Mitarbeiter sie online.',
+                pl: 'Ogłoszenie możesz wysłać prosto z telefonu: otwórz aplikację Weazel News, przejdź do zakładki "Opublikuj", napisz treść i opłać publikację. Po weryfikacji nasz pracownik opublikuje ogłoszenie.',
+            },
+            okay: {
+                ru: 'Понятно',
+                ua: 'Зрозуміло',
+                en: 'Got it',
+                de: 'Verstanden',
+                pl: 'Rozumiem',
+            },
+            bye: {
+                ru: 'До свидания',
+                ua: 'До побачення',
+                en: 'Goodbye',
+                de: 'Auf Wiedersehen',
+                pl: 'Do widzenia',
             },
         },
     },

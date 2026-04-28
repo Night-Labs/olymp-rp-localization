@@ -1,4 +1,5 @@
 import recovery from './recovery';
+import accountLogin from './accountLogin';
 
 export const server = {
     loginNotFound: {
@@ -40,6 +41,14 @@ export const server = {
         de: 'Das neue Passwort muss sich vom aktuellen unterscheiden',
         pl: 'Nowe hasło musi się różnić od obecnego',
         zh: '新密码不能与当前密码相同',
+    },
+    passwordMismatch: {
+        ua: 'Новий пароль і підтвердження не збігаються',
+        en: 'New password and confirmation do not match',
+        ru: 'Новый пароль и подтверждение не совпадают',
+        de: 'Neues Passwort und Bestätigung stimmen nicht überein',
+        pl: 'Nowe hasło i potwierdzenie nie pasują do siebie',
+        zh: '新密码与确认密码不一致',
     },
     waitSpam: {
         ua: 'Зачекайте трохи',
@@ -109,7 +118,7 @@ export const server = {
         ru: 'Вы успешно изменили пароль',
         ua: 'Ви успішно змінили пароль',
         en: 'You have successfully changed your password',
-        de: 'Du hast Ihr Passwort erfolgreich geändert',
+        de: 'Du hast dein Passwort erfolgreich geändert',
         pl: 'Pomyślnie zmieniłeś hasło',
         zh: '密码修改成功',
     },
@@ -127,7 +136,16 @@ export const server = {
         de: 'Gespeicherte Daten wurden aus Sicherheitsgründen zurückgesetzt',
         pl: 'Zapisane dane zostały zresetowane ze względów bezpieczeństwa',
     },
+    loginSent: {
+        ru: 'Логин был отправлен на вашу почту',
+        ua: 'Логін був надісланий на вашу пошту',
+        en: 'Your login has been sent to your email',
+        de: 'Dein Login wurde an deine E-Mail gesendet',
+        pl: 'Twój login został wysłany na twój e-mail',
+        zh: '账号已发送至你的邮箱',
+    },
     html: {
         recovery,
+        accountLogin,
     },
 };

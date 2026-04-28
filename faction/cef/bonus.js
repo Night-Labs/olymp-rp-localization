@@ -10,14 +10,14 @@ export default {
         ru: 'Укажите причину',
         ua: 'Вкажіть причину',
         en: 'Specify Reason',
-        de: 'Gebe einen Grund an',
+        de: 'Gib einen Grund an',
         pl: 'Podaj powód',
     },
     sum: {
         ru: 'Введите сумму от {{min}} до {{max}}',
         ua: 'Введіть суму від {{min}} до {{max}}',
         en: 'Enter Amount from {{min}} to {{max}}',
-        de: 'Gebe einen Betrag zwischen {{min}} und {{max}} ein',
+        de: 'Gib einen Betrag zwischen {{min}} und {{max}} ein',
         pl: 'Wprowadź kwotę od {{min}} do {{max}}',
     },
     accept: {

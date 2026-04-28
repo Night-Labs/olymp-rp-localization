@@ -94,12 +94,11 @@ export const cef = {
             zh: '我们的服务器是从头开始开发的。它正在积极发展，并将继续发展。我们依靠你的支持',
         },
         changes: {
-            ua: 'Список змін:',
-            en: 'List of changes:',
-            ru: 'Список изменений:',
-            de: 'Liste der Änderungen:',
-            pl: 'Lista zmian:',
-            zh: '变更清单:',
+            ru: 'Последние новости:',
+            ua: 'Останні новини:',
+            en: 'Latest news:',
+            de: 'Neueste Nachrichten:',
+            pl: 'Najnowsze wiadomości:',
         },
         discord: {
             ua: 'Наш Discord',
@@ -252,14 +251,6 @@ export const cef = {
                 pl: 'Poziom',
                 zh: '等级',
             },
-            bank: {
-                ua: 'У банку',
-                en: 'Bank',
-                ru: 'В банке',
-                de: 'Bank',
-                pl: 'Bank',
-                zh: '银行',
-            },
             exp: {
                 ua: 'EXP',
                 en: 'EXP',
@@ -267,14 +258,6 @@ export const cef = {
                 de: 'EXP',
                 pl: 'EXP',
                 zh: '经验',
-            },
-            warns: {
-                ua: 'Попередження',
-                en: 'Warnings',
-                ru: 'Предупреждения',
-                de: 'Verwarnungen',
-                pl: 'Ostrzeżenia',
-                zh: '警告',
             },
             faction: {
                 ua: 'Організація',

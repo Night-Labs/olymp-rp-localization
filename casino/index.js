@@ -104,7 +104,7 @@ export default {
             ru: 'Напитки',
             ua: 'Напої',
             en: 'Drinks',
-            de: 'Getraenke',
+            de: 'Getränke',
             pl: 'Napoży',
             zh:'饮料',
         },

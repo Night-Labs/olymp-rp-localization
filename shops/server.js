@@ -115,4 +115,11 @@ export const server = {
         de: 'Der Laden ist derzeit geschlossen',
         pl: 'Sklep jest obecnie zamknięty',
     },
+    cantUseWhileOnDuty: {
+        ru: 'Нельзя пользоваться, пока вы на смене',
+        ua: 'Не можна користуватися, поки ви на зміні',
+        en: 'You cannot use this while on duty',
+        de: 'Das ist im Dienst nicht möglich',
+        pl: 'Nie możesz z tego korzystać podczas służby',
+    },
 };

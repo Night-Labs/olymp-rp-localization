@@ -11,7 +11,7 @@ export default {
         ru: '~o~[PAYDAY] ~w~Для получения пейдея нужно отыграть минимум {{time}} минут',
         ua: '~o~[PAYDAY] ~w~Для отримання пейдея потрібно відіграти мінімум {{time}} хвилин',
         en: '~o~[PAYDAY] ~w~You need to play for at least {{time}} minutes to receive your payday',
-        de: '~o~[PAYDAY] ~w~Du mmusst mindestens {{time}} Minuten spielen, um dein Gehalt zu erhalten',
+        de: '~o~[PAYDAY] ~w~Du musst mindestens {{time}} Minuten spielen, um dein Gehalt zu erhalten',
         pl: '~o~[PAYDAY] ~w~Musisz grać przez co najmniej {{time}} minut, aby otrzymać wypłatę',
        zh:'~o~[PAYDAY]~w~您需要至少玩{{time}}分钟才能获得发薪日',
     },

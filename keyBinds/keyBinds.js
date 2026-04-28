@@ -237,6 +237,13 @@ export default {
         de: 'Rechter Blinker',
         pl: 'Prawy kierunkowskaz',
     },
+    'indicator.emergency': {
+        ru: 'Аварийная сигнализация',
+        ua: 'Аварійна сигналізація',
+        en: 'Hazard lights',
+        de: 'Warnblinkanlage',
+        pl: 'Światła awaryjne',
+    },
     'vehicle.lights': {
         ru: 'Фары',
         ua: 'Фари',
@@ -250,6 +257,13 @@ export default {
         en: 'Enter passenger seat',
         de: 'Auf den Beifahrersitz setzen',
         pl: 'Usiądź na miejscu pasażera',
+    },
+    'vehicle.passengerWaypoint': {
+        ru: 'Отправить метку водителю',
+        ua: 'Надіслати мітку водію',
+        en: 'Send waypoint to driver',
+        de: 'Wegpunkt an Fahrer senden',
+        pl: 'Wyślij punkt trasy kierowcy',
     },
     megaphone: {
         ru: 'Мегафон',
@@ -278,6 +292,13 @@ export default {
         en: 'Skin an animal',
         de: 'Ein Tier häuten',
         pl: 'Oskórować zwierzę',
+    },
+    sit: {
+        ru: 'Сесть',
+        ua: 'Сісти',
+        en: 'Sit down',
+        de: 'Hinsetzen',
+        pl: 'Usiądź',
     },
     rockstarEditorRecord: {
         ru: 'Запись Rockstar Editor',

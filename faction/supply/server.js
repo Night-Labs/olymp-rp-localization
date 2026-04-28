@@ -104,6 +104,13 @@ export default {
         de: 'Matten-LKW',
         pl: 'Ciężarówka z matami',
     },
+    unloadingBlip: {
+        ru: 'Разгрузка',
+        ua: 'Розвантаження',
+        en: 'Unloading',
+        de: 'Entladung',
+        pl: 'Rozładunek',
+    },
     acceptedSupplyGoverment: {
         ru: 'Вы успешно подтвердили эту поставку, соотвествующая фракция выполнит её',
         ua: 'Ви успішно підтвердили цю поставку, відповідна фракція виконає її',
@@ -145,5 +152,19 @@ export default {
         en: 'A new request for the supply of materials has arrived',
         de: 'Eine neue Anfrage zur Lieferung von Materialien ist eingegangen',
         pl: 'Nadeszło nowe zgłoszenie na dostawę materiałów',
+    },
+    pendingCanceled: {
+        ru: 'Заявка на поставку отменена, средства возвращены на счёт фракции',
+        ua: 'Заявку на поставку скасовано, кошти повернено на рахунок фракції',
+        en: 'Supply request canceled, funds returned to the faction account',
+        de: 'Lieferantrag abgebrochen, Geld auf das Fraktionskonto zurückerstattet',
+        pl: 'Wniosek o dostawę anulowany, środki zwrócone na konto frakcji',
+    },
+    pendingCancelUnavailable: {
+        ru: 'Невозможно отменить эту заявку',
+        ua: 'Неможливо скасувати цю заявку',
+        en: 'Unable to cancel this request',
+        de: 'Diese Anfrage kann nicht storniert werden',
+        pl: 'Nie można anulować tego wniosku',
     },
 };

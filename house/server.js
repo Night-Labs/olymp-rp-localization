@@ -540,6 +540,13 @@ export const server = {
             de: 'Neue Möbel',
             pl: 'Nowe meble',
         },
+        buyDonate: {
+            ru: 'Донат-мебель',
+            ua: 'Донат-меблі',
+            en: 'Donate furniture',
+            de: 'Donate-Möbel',
+            pl: 'Meble za donat',
+        },
         sell: {
             ru: 'Продажа мебели',
             ua: 'Продаж меблів',
@@ -567,6 +574,13 @@ export const server = {
             en: 'Total to pay',
             de: 'Gesamtbetrag',
             pl: 'Suma do zapłaty',
+        },
+        totalDonate: {
+            ru: 'К оплате донатом',
+            ua: 'До оплати донатом',
+            en: 'Donate to pay',
+            de: 'Zu zahlen in Donat',
+            pl: 'Do zapłaty donatem',
         },
         confirm: {
             ru: 'Подтвердить',

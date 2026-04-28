@@ -75,7 +75,7 @@ export const cashier = {
         ru: 'Введите кол-во фишек',
         ua: 'Введіть кількість фішок',
         en: 'Enter the quantity of chips',
-        de: 'Gebe die Anzahl der Chips ein',
+        de: 'Gib die Anzahl der Chips ein',
         pl: 'Wprowadź ilość żetonów',
         zh: '输入筹码数量',
     },

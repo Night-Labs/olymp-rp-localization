@@ -3,7 +3,7 @@ export default {
         ru: 'Возьмите нож в руки',
         ua: 'Візьміть ніж у руки',
         en: 'Take the knife in your hands',
-        de: 'Nehme das Messer in die Hand',
+        de: 'Nimm das Messer in die Hand',
         pl: 'Weź nóż do rąk',
         zh: '把刀拿在手里',
     },
