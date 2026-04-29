@@ -127,6 +127,22 @@ export default {
         pl: 'Pojazd musi być zespawnowany do dostawy',
         zh: '车辆需要为送货生成',
     },
+    deliveryOccupants: {
+        ua: 'У транспорті є пасажири, доставка неможлива',
+        en: 'Someone is using this vehicle, delivery is unavailable',
+        ru: 'В транспорте находятся пассажиры, доставка невозможна',
+        de: 'Jemand benutzt dieses Fahrzeug, Lieferung ist nicht möglich',
+        pl: 'Ktoś korzysta z tego pojazdu, dostawa jest niemożliwa',
+        zh: '有人正在使用此车辆，无法送货',
+    },
+    evacuateOccupants: {
+        ua: 'У транспорті є пасажири, евакуація неможлива',
+        en: 'Someone is using this vehicle, towing is unavailable',
+        ru: 'В транспорте находятся пассажиры, эвакуация невозможна',
+        de: 'Jemand benutzt dieses Fahrzeug, Abschleppen ist nicht möglich',
+        pl: 'Ktoś korzysta z tego pojazdu, ewakuacja jest niemożliwa',
+        zh: '有人正在使用此车辆，无法拖运',
+    },
     noMoneyForDelivery: {
         ua: 'У вас недостатньо грошей для доставки',
         en: 'You do not have enough money for delivery',
