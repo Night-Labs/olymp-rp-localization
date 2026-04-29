@@ -813,6 +813,20 @@ export default {
         de: 'Eine freigeschaltete exklusive Animation einem Spieler anhand von ad und an entziehen.',
         pl: 'Odbierz graczowi odblokowaną ekskluzywną animację według jej ad i an.',
     },
+    unlock_tattoo: {
+        ru: 'Разблокировать эксклюзивную татуировку игроку по её id.',
+        ua: 'Розблокувати ексклюзивне татуювання гравцю за його id.',
+        en: 'Unlock an exclusive tattoo for a player by its id.',
+        de: 'Ein exklusives Tattoo für einen Spieler anhand seiner ID freischalten.',
+        pl: 'Odblokuj ekskluzywny tatuaż dla gracza według jego id.',
+    },
+    revoke_tattoo: {
+        ru: 'Отозвать у игрока разблокировку эксклюзивной татуировки по её id.',
+        ua: 'Відкликати у гравця розблокування ексклюзивного татуювання за його id.',
+        en: 'Revoke an unlocked exclusive tattoo from a player by its id.',
+        de: 'Ein freigeschaltetes exklusives Tattoo einem Spieler anhand seiner ID entziehen.',
+        pl: 'Odbierz graczowi odblokowany ekskluzywny tatuaż według jego id.',
+    },
     infinity_inventory: {
         ru: 'Включить или выключить бесконечный инвентарь у администратора.',
         ua: 'Увімкнути або вимкнути нескінченний інвентар у адміністратора.',

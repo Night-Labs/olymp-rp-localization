@@ -90,6 +90,13 @@ export const server = {
         de: 'Du hast dieses Tattoo bereits',
         pl: 'Masz już ten tatuaż',
     },
+    tattooLockedHint: {
+        ru: 'Эта татуировка эксклюзивна и недоступна для вас',
+        ua: 'Це татуювання ексклюзивне та недоступне для вас',
+        en: 'This tattoo is exclusive and unavailable for you',
+        de: 'Dieses Tattoo ist exklusiv und für dich nicht verfügbar',
+        pl: 'Ten tatuaż jest ekskluzywny i niedostępny dla ciebie',
+    },
     //
     noWeaponLicense: {
         ru: 'Нет лицензии оружия',
