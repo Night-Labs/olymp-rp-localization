@@ -85,6 +85,7 @@ import realtor from './realtor';
 import diceGame from './diceGame';
 import offcies from './offcies';
 import organizationRegistration from './organizationRegistration';
+import organizations from './organizations';
 import tennis from './tennis';
 import trade from './trade';
 import battlePass from './battlePass';
@@ -179,6 +180,7 @@ export default {
     diceGame,
     offcies,
     organizationRegistration,
+    organizations,
     tennis,
     trade,
     battlePass,
