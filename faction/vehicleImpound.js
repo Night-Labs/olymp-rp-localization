@@ -6,6 +6,13 @@ export default {
         de: 'Abschleppplatz',
         pl: 'Parking policyjny',
     },
+    freeLabel: {
+        ru: 'бесплатно',
+        ua: 'безкоштовно',
+        en: 'free',
+        de: 'kostenlos',
+        pl: 'bezpłatnie',
+    },
     youCantAttachThisVehicle: {
         ru: 'У этой машины нет ордера на эвакуацию!',
         ua: 'У цього автомобіля немає ордера на евакуацію!',
@@ -117,6 +124,13 @@ export default {
             en: 'Your car was towed. <br/>To get it back, pay all the fees <br/> Amount due: <span style="color: #3c8025">${{price}}</span>',
             de: 'Dein Auto wurde abgeschleppt. <br/>Um es zurückzubekommen, bezahle alle Gebühren <br/> Zu zahlen: <span style="color: #3c8025">${{price}}</span>',
             pl: 'Twoje auto zostało odholowane. <br/>Aby je odzyskać, zapłać wszystkie opłaty <br/> Do zapłaty: <span style="color: #3c8025">${{price}}</span>',
+        },
+        descFree: {
+            ru: 'Эта машина возвращена вам после ухода из организации. <br/>Забор бесплатный.',
+            ua: 'Ця машина повернута вам після виходу з організації. <br/>Забір безкоштовний.',
+            en: 'This vehicle was returned to you after leaving an organization. <br/>Retrieval is free.',
+            de: 'Dieses Fahrzeug wurde dir nach dem Austritt aus einer Organisation zurückgegeben. <br/>Die Abholung ist kostenlos.',
+            pl: 'Ten pojazd został zwrócony po wyjściu z organizacji. <br/>Odbiór jest bezpłatny.',
         },
         confirmButton: {
             ru: 'Забрать',

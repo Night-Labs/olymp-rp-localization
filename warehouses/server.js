@@ -6,36 +6,6 @@ export const server = {
         de: 'Lager',
         pl: 'Magazyn',
     },
-    names: {
-        port: {
-            ru: 'Портовый склад',
-            ua: 'Портовий склад',
-            en: 'Port Warehouse',
-            de: 'Hafenlager',
-            pl: 'Magazyn portowy',
-        },
-        industrial: {
-            ru: 'Промышленный склад',
-            ua: 'Промисловий склад',
-            en: 'Industrial Warehouse',
-            de: 'Industrielager',
-            pl: 'Magazyn przemysłowy',
-        },
-        sandyShores: {
-            ru: 'Ангар Sandy Shores',
-            ua: 'Ангар Sandy Shores',
-            en: 'Sandy Shores Hangar',
-            de: 'Sandy Shores Hangar',
-            pl: 'Hangar Sandy Shores',
-        },
-        airport: {
-            ru: 'Склад Bilgeco',
-            ua: 'Склад Bilgeco',
-            en: 'Bilgeco Warehouse',
-            de: 'Bilgeco Lager',
-            pl: 'Magazyn Bilgeco',
-        },
-    },
     modal: {
         buy: {
             title: {

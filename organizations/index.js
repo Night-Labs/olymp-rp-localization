@@ -10,6 +10,7 @@ import { progression } from './progression';
 import { contracts } from './contracts';
 import { tree } from './tree';
 import { menu } from './menu';
+import { vehicles } from './vehicles';
 
 export default {
     ranks,
@@ -24,4 +25,5 @@ export default {
     contracts,
     tree,
     menu,
+    vehicles,
 };
