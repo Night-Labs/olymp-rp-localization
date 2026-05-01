@@ -568,6 +568,13 @@ export default {
         de: 'Einen geloopten Partikeleffekt anhand von Dict und Namen an der aktuellen Spielerposition erstellen; dein vorheriger Effekt aus diesem Befehl wird entfernt.',
         pl: 'Utwórz zapętlony efekt cząsteczkowy według dict i nazwy w bieżącej pozycji gracza; poprzedni efekt z tej komendy zostanie usunięty.',
     },
+    loadipl: {
+        ru: 'Загрузить IPL по имени на клиенте текущего игрока.',
+        ua: 'Завантажити IPL за іменем на клієнті поточного гравця.',
+        en: 'Load an IPL by name on the current player client.',
+        de: 'Eine IPL anhand des Namens auf dem Client des aktuellen Spielers laden.',
+        pl: 'Załaduj IPL według nazwy na kliencie bieżącego gracza.',
+    },
     spawn_object_done: {
         ru: 'Завершить текущее размещение объекта и подтвердить его спавн.',
         ua: 'Завершити поточне розміщення об’єкта та підтвердити його спавн.',

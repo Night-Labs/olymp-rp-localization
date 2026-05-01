@@ -311,6 +311,13 @@ export const npc = {
             de: 'Sophie',
             pl: 'Sophie',
         },
+        warehouseManager: {
+            ru: 'Марк',
+            ua: 'Марк',
+            en: 'Mark',
+            de: 'Mark',
+            pl: 'Mark',
+        },
         veronica: {
             ru: 'Вероника',
             ua: 'Вероніка',
@@ -376,6 +383,13 @@ export const npc = {
             en: 'Office Secretary',
             de: 'Bürosekretärin',
             pl: 'Sekretarka biura',
+        },
+        warehouseManager: {
+            ru: 'Управляющий складом',
+            ua: 'Управляючий складом',
+            en: 'Warehouse Manager',
+            de: 'Lagerverwalter',
+            pl: 'Kierownik magazynu',
         },
     },
 };

@@ -84,6 +84,7 @@ import achievements from './achievements';
 import realtor from './realtor';
 import diceGame from './diceGame';
 import offcies from './offcies';
+import warehouses from './warehouses';
 import organizationRegistration from './organizationRegistration';
 import organizations from './organizations';
 import tennis from './tennis';
@@ -179,6 +180,7 @@ export default {
     realtor,
     diceGame,
     offcies,
+    warehouses,
     organizationRegistration,
     organizations,
     tennis,

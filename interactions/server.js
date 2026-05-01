@@ -174,4 +174,32 @@ export const server = {
         pl: 'Aby rozpocząć trening z hantlami, naciśnij',
         zh: '要开始哑铃训练，请按',
     },
+    warehouseLoading: {
+        ru: 'Чтобы получить доступ к складу',
+        ua: 'Щоб отримати доступ до складу',
+        en: 'To access the warehouse',
+        de: 'Um auf das Lager zuzugreifen',
+        pl: 'Aby uzyskać dostęp do magazynu',
+    },
+    warehouseEnter: {
+        ru: 'Чтобы открыть меню склада',
+        ua: 'Щоб відкрити меню складу',
+        en: 'To open the warehouse menu',
+        de: 'Um das Lagermenü zu öffnen',
+        pl: 'Aby otworzyć menu magazynu',
+    },
+    warehouseExit: {
+        ru: 'Чтобы выйти со склада',
+        ua: 'Щоб вийти зі складу',
+        en: 'To exit the warehouse',
+        de: 'Um das Lager zu verlassen',
+        pl: 'Aby wyjść z magazynu',
+    },
+    warehouseStorageOpen: {
+        ru: 'Чтобы открыть хранилище склада',
+        ua: 'Щоб відкрити сховище складу',
+        en: 'To open the warehouse storage',
+        de: 'Um den Lagerspeicher zu öffnen',
+        pl: 'Aby otworzyć schowek magazynu',
+    },
 };
