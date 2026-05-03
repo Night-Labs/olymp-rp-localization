@@ -27,6 +27,14 @@ export const cef = {
             pl: 'Inwentarz',
             zh: '库存',
         },
+        battlepass: {
+            ru: 'Баттл пасс',
+            ua: 'Бойовий пропуск',
+            en: 'Battle Pass',
+            de: 'Battle Pass',
+            pl: 'Karnet bojowy',
+            zh: '战斗通行证',
+        },
         donate: {
             ua: 'Магазин',
             en: 'Shop',
