@@ -68,6 +68,7 @@ import games from './games/games';
 import flappyBird from './flappyBird';
 import grandmaster from './grandmaster';
 import walkieTalkie from './walkieTalkie';
+import drone from './drone';
 import elevators from './elevators';
 import shootingRange from './shootingRange';
 import prism from './prism';
@@ -84,7 +85,9 @@ import achievements from './achievements';
 import realtor from './realtor';
 import diceGame from './diceGame';
 import offcies from './offcies';
+import warehouses from './warehouses';
 import organizationRegistration from './organizationRegistration';
+import organizations from './organizations';
 import tennis from './tennis';
 import trade from './trade';
 import battlePass from './battlePass';
@@ -162,6 +165,7 @@ export default {
     flappyBird,
     grandmaster,
     walkieTalkie,
+    drone,
     elevators,
     shootingRange,
     diving,
@@ -178,7 +182,9 @@ export default {
     realtor,
     diceGame,
     offcies,
+    warehouses,
     organizationRegistration,
+    organizations,
     tennis,
     trade,
     battlePass,

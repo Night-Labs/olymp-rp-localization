@@ -1,10 +1,10 @@
 export const cef = {
-    freeOffices: {
+    freeWarehouses: {
         ru: 'Свободных помещений',
         ua: 'Вільних приміщень',
-        en: 'Available offices',
-        de: 'Freie Büros',
-        pl: 'Wolne biura',
+        en: 'Available warehouses',
+        de: 'Freie Lager',
+        pl: 'Wolne magazyny',
     },
     price: {
         ru: 'Цена',
@@ -41,6 +41,29 @@ export const cef = {
         de: 'Stellplatz',
         pl: 'Lokal',
     },
+    sizeFull: {
+        S: {
+            ru: 'Маленький склад',
+            ua: 'Маленький склад',
+            en: 'Small warehouse',
+            de: 'Kleines Lager',
+            pl: 'Mały magazyn',
+        },
+        M: {
+            ru: 'Средний склад',
+            ua: 'Середній склад',
+            en: 'Medium warehouse',
+            de: 'Mittleres Lager',
+            pl: 'Średni magazyn',
+        },
+        L: {
+            ru: 'Большой склад',
+            ua: 'Великий склад',
+            en: 'Large warehouse',
+            de: 'Großes Lager',
+            pl: 'Duży magazyn',
+        },
+    },
     slotPosition: {
         ru: 'Помещение {{slotId}} из {{total}}',
         ua: 'Приміщення {{slotId}} з {{total}}',
@@ -49,19 +72,26 @@ export const cef = {
         pl: 'Lokal {{slotId}} z {{total}}',
     },
     meta: {
-        floors: {
-            ru: 'Этажность',
-            ua: 'Поверховість',
-            en: 'Floors',
-            de: 'Stockwerke',
-            pl: 'Piętra',
+        dailyTax: {
+            ru: 'Ежедневный налог',
+            ua: 'Щоденний податок',
+            en: 'Daily tax',
+            de: 'Tagessteuer',
+            pl: 'Podatek dzienny',
         },
-        floorsValue: {
-            ru: '{{total}} эт. · офис {{office}}, гараж {{garage}}',
-            ua: '{{total}} пов. · офіс {{office}}, гараж {{garage}}',
-            en: '{{total}} fl. · office {{office}}, garage {{garage}}',
-            de: '{{total}} St. · Büro {{office}}, Garage {{garage}}',
-            pl: '{{total}} pięter · biuro {{office}}, garaż {{garage}}',
+        capacity: {
+            ru: 'Вместимость',
+            ua: 'Місткість',
+            en: 'Capacity',
+            de: 'Kapazität',
+            pl: 'Pojemność',
+        },
+        capacityValue: {
+            ru: '{{slots}} ячеек · {{weight}} т',
+            ua: '{{slots}} комірок · {{weight}} т',
+            en: '{{slots}} slots · {{weight}} t',
+            de: '{{slots}} Plätze · {{weight}} t',
+            pl: '{{slots}} miejsc · {{weight}} t',
         },
         priceCallout: {
             ru: 'Стоимость покупки',
@@ -76,6 +106,36 @@ export const cef = {
             en: 'Sell refund',
             de: 'Rückerstattung beim Verkauf',
             pl: 'Zwrot przy sprzedaży',
+        },
+    },
+    sizeLabel: {
+        ru: 'Размер',
+        ua: 'Розмір',
+        en: 'Size',
+        de: 'Größe',
+        pl: 'Rozmiar',
+    },
+    size: {
+        S: {
+            ru: 'Маленький',
+            ua: 'Маленький',
+            en: 'Small',
+            de: 'Klein',
+            pl: 'Mały',
+        },
+        M: {
+            ru: 'Средний',
+            ua: 'Середній',
+            en: 'Medium',
+            de: 'Mittel',
+            pl: 'Średni',
+        },
+        L: {
+            ru: 'Большой',
+            ua: 'Великий',
+            en: 'Large',
+            de: 'Groß',
+            pl: 'Duży',
         },
     },
     actions: {

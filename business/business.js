@@ -247,12 +247,36 @@ export default {
                     pl: 'Narzut',
                 },
 
+                baseProfit: {
+                    ru: 'Базовая прибыль',
+                    ua: 'Базовий прибуток',
+                    en: 'Base profit',
+                    de: 'Basisgewinn',
+                    pl: 'Zysk bazowy',
+                },
+
+                ownerMarkup: {
+                    ru: 'Ваша наценка',
+                    ua: 'Ваша націнка',
+                    en: 'Your markup',
+                    de: 'Ihr Aufschlag',
+                    pl: 'Twój narzut',
+                },
+
+                total: {
+                    ru: 'Итого для клиента',
+                    ua: 'Разом для клієнта',
+                    en: 'Total for customer',
+                    de: 'Gesamt für Kunden',
+                    pl: 'Razem dla klienta',
+                },
+
                 desc: {
-                    ru: 'Наценка будет применяться к каждому товару, чем выше наценка, тем больше вы заработаете, но помните: конкуренты не спят. Если у вас будет слишком большая наценка, будут ли покупать товар именно у вас?',
-                    ua: "Націнка буде застосовуватися до кожного товару, чим вища націнка, тим більше ви заробите, але пам'ятайте: конкуренти не сплять. Якщо у вас буде занадто велика націнка, чи купуватимуть товар саме у вас?",
-                    en: "The markup will be applied to each product. The higher the markup, the more you will earn, but remember: competitors don't sleep. If your markup is too high, will customers buy the product specifically from you?",
-                    de: 'Der Aufschlag wird auf jedes Produkt angewendet. Je höher der Aufschlag, desto mehr verdienen Sie, aber denken Sie daran: Konkurrenten schlafen nicht. Wenn Ihr Aufschlag zu hoch ist, werden Kunden das Produkt dann speziell bei Ihnen kaufen?',
-                    pl: 'Marża zostanie zastosowana do każdego produktu. Im wyższa marża, tym więcej zarobisz, ale pamiętaj: konkurencja nie śpi. Jeśli Twoja marża będzie zbyt wysoka, czy klienci kupią produkt właśnie u Ciebie?',
+                    ru: 'Базовая прибыль начисляется автоматически с каждой продажи. Поверх неё вы можете выставить свою наценку - но помните: конкуренты не спят, и слишком высокая итоговая цена отпугнёт клиентов.',
+                    ua: "Базовий прибуток нараховується автоматично з кожного продажу. Поверх нього ви можете виставити свою націнку, але пам'ятайте: конкуренти не сплять, і надто висока підсумкова ціна відлякає клієнтів.",
+                    en: "Base profit is credited automatically from every sale. On top of it you can set your own markup, but remember: competitors don't sleep, and a price that is too high will scare customers away.",
+                    de: 'Der Basisgewinn wird automatisch von jedem Verkauf gutgeschrieben. Darauf können Sie Ihren eigenen Aufschlag festlegen, aber denken Sie daran: Konkurrenten schlafen nicht, und ein zu hoher Endpreis schreckt Kunden ab.',
+                    pl: 'Zysk bazowy jest naliczany automatycznie z każdej sprzedaży. Powyżej możesz ustawić własny narzut, ale pamiętaj: konkurencja nie śpi, a zbyt wysoka cena końcowa odstraszy klientów.',
                 },
 
                 buttonApply: {

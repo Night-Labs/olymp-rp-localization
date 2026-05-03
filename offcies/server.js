@@ -67,6 +67,89 @@ export const server = {
                 pl: 'Anuluj',
             },
         },
+        sell: {
+            title: {
+                ru: 'Продажа офиса',
+                ua: 'Продаж офісу',
+                en: 'Sell office',
+                de: 'Büro verkaufen',
+                pl: 'Sprzedaż biura',
+            },
+            message: {
+                ru: 'Продать офис #{{slotId}} в {{building}}? На баланс организации вернётся ${{refund}}.',
+                ua: 'Продати офіс #{{slotId}} в {{building}}? На баланс організації повернеться ${{refund}}.',
+                en: 'Sell office #{{slotId}} in {{building}}? The organization will receive ${{refund}}.',
+                de: 'Büro #{{slotId}} in {{building}} verkaufen? Die Organisation erhält ${{refund}}.',
+                pl: 'Sprzedać biuro #{{slotId}} w {{building}}? Organizacja otrzyma ${{refund}}.',
+            },
+            confirm: {
+                ru: 'Продать',
+                ua: 'Продати',
+                en: 'Sell',
+                de: 'Verkaufen',
+                pl: 'Sprzedaj',
+            },
+            cancel: {
+                ru: 'Отмена',
+                ua: 'Скасувати',
+                en: 'Cancel',
+                de: 'Abbrechen',
+                pl: 'Anuluj',
+            },
+        },
+        info: {
+            title: {
+                ru: 'Офис #{{slotId}}, {{building}}',
+                ua: 'Офіс #{{slotId}}, {{building}}',
+                en: 'Office #{{slotId}}, {{building}}',
+                de: 'Büro #{{slotId}}, {{building}}',
+                pl: 'Biuro #{{slotId}}, {{building}}',
+            },
+            ownerLine: {
+                ru: 'Владелец: <b>{{owner}}</b>',
+                ua: 'Власник: <b>{{owner}}</b>',
+                en: 'Owner: <b>{{owner}}</b>',
+                de: 'Eigentümer: <b>{{owner}}</b>',
+                pl: 'Właściciel: <b>{{owner}}</b>',
+            },
+            unknownOwner: {
+                ru: 'неизвестно',
+                ua: 'невідомо',
+                en: 'unknown',
+                de: 'unbekannt',
+                pl: 'nieznany',
+            },
+            actions: {
+                enter: {
+                    ru: 'Войти в офис',
+                    ua: 'Увійти в офіс',
+                    en: 'Enter office',
+                    de: 'Büro betreten',
+                    pl: 'Wejdź do biura',
+                },
+                enterGarage: {
+                    ru: 'Войти в гараж',
+                    ua: 'Увійти в гараж',
+                    en: 'Enter garage',
+                    de: 'Garage betreten',
+                    pl: 'Wejdź do garażu',
+                },
+                sell: {
+                    ru: 'Продать',
+                    ua: 'Продати',
+                    en: 'Sell',
+                    de: 'Verkaufen',
+                    pl: 'Sprzedaj',
+                },
+            },
+            close: {
+                ru: 'Закрыть',
+                ua: 'Закрити',
+                en: 'Close',
+                de: 'Schließen',
+                pl: 'Zamknij',
+            },
+        },
     },
     errors: {
         invalidData: {
@@ -168,6 +251,13 @@ export const server = {
             en: 'Office #{{slotId}} in {{building}} successfully purchased for ${{price}}',
             de: 'Büro #{{slotId}} in {{building}} erfolgreich gekauft für ${{price}}',
             pl: 'Biuro #{{slotId}} w {{building}} kupione za ${{price}}',
+        },
+        sold: {
+            ru: 'Офис #{{slotId}} в {{building}} продан, возвращено ${{refund}}',
+            ua: 'Офіс #{{slotId}} в {{building}} продано, повернуто ${{refund}}',
+            en: 'Office #{{slotId}} in {{building}} sold, refunded ${{refund}}',
+            de: 'Büro #{{slotId}} in {{building}} verkauft, ${{refund}} erstattet',
+            pl: 'Biuro #{{slotId}} w {{building}} sprzedane, zwrócono ${{refund}}',
         },
     },
 };

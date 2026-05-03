@@ -391,7 +391,7 @@ export const cef = {
             ru: 'Ты не можешь войти в аккаунт до окончания блокировки',
             ua: 'Ти не можеш увійти в акаунт до завершення блокування',
             en: 'You can’t log into your account until the ban ends',
-            de: 'Du kannst dich bis zum Ende der Sperre nicht einloggen',
+            de: 'Du kannst dich bis zum Ende des Banns nicht einloggen',
             pl: 'Nie możesz zalogować się na konto do zakończenia blokady',
         },
         reason: {
@@ -412,21 +412,21 @@ export const cef = {
             ru: 'Дата блокировки',
             ua: 'Дата блокування',
             en: 'Ban date',
-            de: 'Datum der Sperre',
+            de: 'Datum des Banns',
             pl: 'Data blokady',
         },
         untilUnban: {
             ru: 'До разблокировки',
             ua: 'До розблокування',
             en: 'Until unban',
-            de: 'Bis zur Entsperrung',
+            de: 'Bis zur Entbannung',
             pl: 'Do odblokowania',
         },
         hint1: {
             ru: 'Если считаешь блокировку ошибкой - обратись в',
             ua: 'Якщо вважаєш блокування помилкою - звернися до',
             en: 'If you think the ban is a mistake, contact',
-            de: 'Wenn du denkst, dass die Sperre ein Fehler ist, melde dich im',
+            de: 'Wenn du denkst, dass der Bann ein Fehler ist, melde dich im',
             pl: 'Jeśli uważasz, że blokada to błąd - skontaktuj się с',
         },
         hint2: {

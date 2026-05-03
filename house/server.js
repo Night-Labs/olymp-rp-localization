@@ -187,6 +187,13 @@ export const server = {
             de: 'Mit gemieteten Fahrzeugen darf man nicht in die Garage fahren',
             pl: 'Nie można wjeżdżać do garażu wypożyczonymi pojazdami',
         },
+        factionVehicle: {
+            ru: 'В личный гараж нельзя заезжать на фракционных авто',
+            ua: 'У особистий гараж не можна заїжджати на фракційних авто',
+            en: 'You cannot enter a personal garage with faction vehicles',
+            de: 'Mit Fraktionsfahrzeugen darf man nicht in die private Garage fahren',
+            pl: 'Nie można wjeżdżać do prywatnego garażu pojazdami frakcji',
+        },
         modal: {
             title: {
                 ua: 'Виїзд з будинку',

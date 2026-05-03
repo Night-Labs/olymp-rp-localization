@@ -534,6 +534,20 @@ export const player = {
         de: 'Zur Gruppe einladen',
         pl: 'Zaproś do grupy',
     },
+    inviteToOrganization: {
+        ru: 'Пригласить',
+        ua: 'Запросити',
+        en: 'Invite',
+        de: 'Einladen',
+        pl: 'Zaproś',
+    },
+    kickFromOrganization: {
+        ru: 'Исключить',
+        ua: 'Виключити',
+        en: 'Kick',
+        de: 'Entfernen',
+        pl: 'Wyrzuć',
+    },
     leaveParty: {
         ru: 'Покинуть группу',
         ua: 'Покинути групу',
