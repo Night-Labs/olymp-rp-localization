@@ -76,6 +76,52 @@ export const server = {
                 pl: 'Anuluj',
             },
         },
+        info: {
+            title: {
+                ru: 'Склад #{{slotId}}, {{building}}',
+                ua: 'Склад #{{slotId}}, {{building}}',
+                en: 'Warehouse #{{slotId}}, {{building}}',
+                de: 'Lager #{{slotId}}, {{building}}',
+                pl: 'Magazyn #{{slotId}}, {{building}}',
+            },
+            ownerLine: {
+                ru: 'Владелец: <b>{{owner}}</b>',
+                ua: 'Власник: <b>{{owner}}</b>',
+                en: 'Owner: <b>{{owner}}</b>',
+                de: 'Eigentümer: <b>{{owner}}</b>',
+                pl: 'Właściciel: <b>{{owner}}</b>',
+            },
+            unknownOwner: {
+                ru: 'неизвестно',
+                ua: 'невідомо',
+                en: 'unknown',
+                de: 'unbekannt',
+                pl: 'nieznany',
+            },
+            actions: {
+                enter: {
+                    ru: 'Войти',
+                    ua: 'Увійти',
+                    en: 'Enter',
+                    de: 'Betreten',
+                    pl: 'Wejdź',
+                },
+                sell: {
+                    ru: 'Продать',
+                    ua: 'Продати',
+                    en: 'Sell',
+                    de: 'Verkaufen',
+                    pl: 'Sprzedaj',
+                },
+            },
+            close: {
+                ru: 'Закрыть',
+                ua: 'Закрити',
+                en: 'Close',
+                de: 'Schließen',
+                pl: 'Zamknij',
+            },
+        },
     },
     errors: {
         notReady: {

@@ -97,6 +97,59 @@ export const server = {
                 pl: 'Anuluj',
             },
         },
+        info: {
+            title: {
+                ru: 'Офис #{{slotId}}, {{building}}',
+                ua: 'Офіс #{{slotId}}, {{building}}',
+                en: 'Office #{{slotId}}, {{building}}',
+                de: 'Büro #{{slotId}}, {{building}}',
+                pl: 'Biuro #{{slotId}}, {{building}}',
+            },
+            ownerLine: {
+                ru: 'Владелец: <b>{{owner}}</b>',
+                ua: 'Власник: <b>{{owner}}</b>',
+                en: 'Owner: <b>{{owner}}</b>',
+                de: 'Eigentümer: <b>{{owner}}</b>',
+                pl: 'Właściciel: <b>{{owner}}</b>',
+            },
+            unknownOwner: {
+                ru: 'неизвестно',
+                ua: 'невідомо',
+                en: 'unknown',
+                de: 'unbekannt',
+                pl: 'nieznany',
+            },
+            actions: {
+                enter: {
+                    ru: 'Войти в офис',
+                    ua: 'Увійти в офіс',
+                    en: 'Enter office',
+                    de: 'Büro betreten',
+                    pl: 'Wejdź do biura',
+                },
+                enterGarage: {
+                    ru: 'Войти в гараж',
+                    ua: 'Увійти в гараж',
+                    en: 'Enter garage',
+                    de: 'Garage betreten',
+                    pl: 'Wejdź do garażu',
+                },
+                sell: {
+                    ru: 'Продать',
+                    ua: 'Продати',
+                    en: 'Sell',
+                    de: 'Verkaufen',
+                    pl: 'Sprzedaj',
+                },
+            },
+            close: {
+                ru: 'Закрыть',
+                ua: 'Закрити',
+                en: 'Close',
+                de: 'Schließen',
+                pl: 'Zamknij',
+            },
+        },
     },
     errors: {
         invalidData: {
