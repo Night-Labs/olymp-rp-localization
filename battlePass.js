@@ -159,6 +159,20 @@ export default {
                 de: 'Beschleunige den Pass-Fortschritt, indem du zusätzliche Erfahrung für Spielwährung oder Spenden kaufst.',
                 pl: 'Przyspiesz postęp przepustki, kupując dodatkowe doświadczenie za walutę w grze lub donat.',
             },
+            maxLevelTitle: {
+                ru: 'Купить до {{level}} уровня',
+                ua: 'Купити до {{level}} рівня',
+                en: 'Buy up to level {{level}}',
+                de: 'Bis Level {{level}} kaufen',
+                pl: 'Kup do poziomu {{level}}',
+            },
+            maxLevelDescription: {
+                ru: 'Это самое простое и выгодное решение купить все недостающие уровни боевого пропуска',
+                ua: 'Це найпростіше і найвигідніше рішення купити всі відсутні рівні бойового пропуску',
+                en: 'The simplest and best value way to buy every missing battle pass level',
+                de: 'Der einfachste und günstigste Weg, alle fehlenden Battle-Pass-Level zu kaufen',
+                pl: 'Najprostszy i najbardziej opłacalny sposób na zakup wszystkich brakujących poziomów karnetu bojowego',
+            },
         },
         quests: {
             tabName: {
