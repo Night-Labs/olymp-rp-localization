@@ -6,6 +6,15 @@ export const server = {
         de: 'Lager',
         pl: 'Magazyn',
     },
+    blips: {
+        warehouse: {
+            ru: 'Склад',
+            ua: 'Склад',
+            en: 'Warehouse',
+            de: 'Lager',
+            pl: 'Magazyn',
+        },
+    },
     modal: {
         buy: {
             title: {
@@ -28,6 +37,36 @@ export const server = {
                 en: 'Buy',
                 de: 'Kaufen',
                 pl: 'Kup',
+            },
+            cancel: {
+                ru: 'Отмена',
+                ua: 'Скасувати',
+                en: 'Cancel',
+                de: 'Abbrechen',
+                pl: 'Anuluj',
+            },
+        },
+        sell: {
+            title: {
+                ru: 'Продажа склада',
+                ua: 'Продаж складу',
+                en: 'Sell warehouse',
+                de: 'Lager verkaufen',
+                pl: 'Sprzedaż magazynu',
+            },
+            message: {
+                ru: 'Продать склад #{{slotId}} в {{building}}? Содержимое будет автоматически реализовано, на баланс организации вернётся ${{refund}} плюс выручка за товары.',
+                ua: 'Продати склад #{{slotId}} в {{building}}? Вміст буде автоматично реалізовано, на баланс організації повернеться ${{refund}} плюс виручка за товари.',
+                en: 'Sell warehouse #{{slotId}} in {{building}}? Contents will be auto-sold, the organization will receive ${{refund}} plus the goods proceeds.',
+                de: 'Lager #{{slotId}} in {{building}} verkaufen? Der Inhalt wird automatisch verkauft, die Organisation erhält ${{refund}} plus den Warenerlös.',
+                pl: 'Sprzedać magazyn #{{slotId}} w {{building}}? Zawartość zostanie automatycznie sprzedana, organizacja otrzyma ${{refund}} plus przychód z towarów.',
+            },
+            confirm: {
+                ru: 'Продать',
+                ua: 'Продати',
+                en: 'Sell',
+                de: 'Verkaufen',
+                pl: 'Sprzedaj',
             },
             cancel: {
                 ru: 'Отмена',
@@ -145,6 +184,13 @@ export const server = {
             en: 'Warehouse #{{slotId}} in {{building}} successfully purchased for ${{price}}',
             de: 'Lager #{{slotId}} in {{building}} erfolgreich gekauft für ${{price}}',
             pl: 'Magazyn #{{slotId}} w {{building}} kupiony za ${{price}}',
+        },
+        sold: {
+            ru: 'Склад #{{slotId}} в {{building}} продан, возвращено ${{refund}}',
+            ua: 'Склад #{{slotId}} в {{building}} продано, повернуто ${{refund}}',
+            en: 'Warehouse #{{slotId}} in {{building}} sold, refunded ${{refund}}',
+            de: 'Lager #{{slotId}} in {{building}} verkauft, ${{refund}} erstattet',
+            pl: 'Magazyn #{{slotId}} w {{building}} sprzedany, zwrócono ${{refund}}',
         },
     },
 };

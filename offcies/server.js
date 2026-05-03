@@ -67,6 +67,36 @@ export const server = {
                 pl: 'Anuluj',
             },
         },
+        sell: {
+            title: {
+                ru: 'Продажа офиса',
+                ua: 'Продаж офісу',
+                en: 'Sell office',
+                de: 'Büro verkaufen',
+                pl: 'Sprzedaż biura',
+            },
+            message: {
+                ru: 'Продать офис #{{slotId}} в {{building}}? На баланс организации вернётся ${{refund}}.',
+                ua: 'Продати офіс #{{slotId}} в {{building}}? На баланс організації повернеться ${{refund}}.',
+                en: 'Sell office #{{slotId}} in {{building}}? The organization will receive ${{refund}}.',
+                de: 'Büro #{{slotId}} in {{building}} verkaufen? Die Organisation erhält ${{refund}}.',
+                pl: 'Sprzedać biuro #{{slotId}} w {{building}}? Organizacja otrzyma ${{refund}}.',
+            },
+            confirm: {
+                ru: 'Продать',
+                ua: 'Продати',
+                en: 'Sell',
+                de: 'Verkaufen',
+                pl: 'Sprzedaj',
+            },
+            cancel: {
+                ru: 'Отмена',
+                ua: 'Скасувати',
+                en: 'Cancel',
+                de: 'Abbrechen',
+                pl: 'Anuluj',
+            },
+        },
     },
     errors: {
         invalidData: {
@@ -168,6 +198,13 @@ export const server = {
             en: 'Office #{{slotId}} in {{building}} successfully purchased for ${{price}}',
             de: 'Büro #{{slotId}} in {{building}} erfolgreich gekauft für ${{price}}',
             pl: 'Biuro #{{slotId}} w {{building}} kupione za ${{price}}',
+        },
+        sold: {
+            ru: 'Офис #{{slotId}} в {{building}} продан, возвращено ${{refund}}',
+            ua: 'Офіс #{{slotId}} в {{building}} продано, повернуто ${{refund}}',
+            en: 'Office #{{slotId}} in {{building}} sold, refunded ${{refund}}',
+            de: 'Büro #{{slotId}} in {{building}} verkauft, ${{refund}} erstattet',
+            pl: 'Biuro #{{slotId}} w {{building}} sprzedane, zwrócono ${{refund}}',
         },
     },
 };

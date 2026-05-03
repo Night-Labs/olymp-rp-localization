@@ -729,6 +729,86 @@ export const items = {
             pl: 'Przenośne urządzenie do komunikacji głosowej. Umożliwia łączenie się z określoną częstotliwością radiową i rozmowę z innymi graczami na tym samym kanale. Niezbędne do koordynacji działań w grupach.',
         },
     },
+    drone: {
+        name: {
+            ru: 'Гражданский дрон',
+            ua: 'Цивільний дрон',
+            en: 'Civilian Drone',
+            de: 'Zivile Drohne',
+            pl: 'Cywilny dron',
+        },
+        desc: {
+            ru: 'Бытовой квадрокоптер с FPV-камерой. Стабильный полёт, дальность связи до 250 метров.',
+            ua: 'Побутовий квадрокоптер з FPV-камерою. Стабільний політ, дальність зв\'язку до 250 метрів.',
+            en: 'A consumer-grade quadcopter with an FPV camera. Stable flight, signal range up to 250 meters.',
+            de: 'Ein Verbraucher-Quadrocopter mit FPV-Kamera. Stabiler Flug, Signalreichweite bis 250 Meter.',
+            pl: 'Konsumencki quadrokopter z kamerą FPV. Stabilny lot, zasięg sygnału do 250 metrów.',
+        },
+    },
+    sportDrone: {
+        name: {
+            ru: 'Спортивный дрон',
+            ua: 'Спортивний дрон',
+            en: 'Sport Drone',
+            de: 'Sport-Drohne',
+            pl: 'Dron sportowy',
+        },
+        desc: {
+            ru: 'Гоночный квадрокоптер с агрессивным режимом Sport. Резкий отклик и высокая скорость, дальность связи до 450 метров.',
+            ua: 'Гоночний квадрокоптер з агресивним режимом Sport. Різкий відгук і висока швидкість, дальність зв\'язку до 450 метрів.',
+            en: 'A racing quadcopter with an aggressive Sport mode. Sharp response and high speed, signal range up to 450 meters.',
+            de: 'Ein Renn-Quadrocopter mit aggressivem Sport-Modus. Direkte Reaktion und hohe Geschwindigkeit, Signalreichweite bis 450 Meter.',
+            pl: 'Wyścigowy quadrokopter z agresywnym trybem Sport. Ostra reakcja i wysoka prędkość, zasięg sygnału do 450 metrów.',
+        },
+    },
+    policeDrone: {
+        name: {
+            ru: 'Полицейский дрон',
+            ua: 'Поліцейський дрон',
+            en: 'Police Drone',
+            de: 'Polizeidrohne',
+            pl: 'Dron policyjny',
+        },
+        desc: {
+            ru: 'Служебный дрон LSPD с тепловизором и ночным видением. Дальность связи до 500 метров. Доступен только сотрудникам на службе.',
+            ua: 'Службовий дрон LSPD з тепловізором і нічним баченням. Дальність зв\'язку до 500 метрів. Доступний лише співробітникам на службі.',
+            en: 'An LSPD-issue drone with thermal and night vision. Signal range up to 500 meters. Available only to officers on duty.',
+            de: 'Eine Dienstdrohne des LSPD mit Wärmebild- und Nachtsicht. Signalreichweite bis 500 Meter. Nur für Beamte im Dienst verfügbar.',
+            pl: 'Służbowy dron LSPD z termowizją i noktowizją. Zasięg sygnału do 500 metrów. Dostępny tylko dla funkcjonariuszy na służbie.',
+        },
+    },
+    militaryDrone: {
+        name: {
+            ru: 'Военный дрон',
+            ua: 'Військовий дрон',
+            en: 'Military Drone',
+            de: 'Militärdrohne',
+            pl: 'Dron wojskowy',
+        },
+        desc: {
+            ru: 'Тяжёлый разведывательный дрон Национальной Гвардии. Стабильная платформа, тепловизор, дальность связи до 700 метров. Доступен только бойцам на службе.',
+            ua: 'Важкий розвідувальний дрон Національної Гвардії. Стабільна платформа, тепловізор, дальність зв\'язку до 700 метрів. Доступний лише бійцям на службі.',
+            en: 'A heavy reconnaissance drone of the National Guard. Stable platform, thermal vision, signal range up to 700 meters. Available only to soldiers on duty.',
+            de: 'Eine schwere Aufklärungsdrohne der Nationalgarde. Stabile Plattform, Wärmebild, Signalreichweite bis 700 Meter. Nur für Soldaten im Dienst verfügbar.',
+            pl: 'Ciężki dron rozpoznawczy Gwardii Narodowej. Stabilna platforma, termowizja, zasięg sygnału do 700 metrów. Dostępny tylko dla żołnierzy na służbie.',
+        },
+    },
+    fibDrone: {
+        name: {
+            ru: 'Дрон ФИБ',
+            ua: 'Дрон ФБР',
+            en: 'FIB Drone',
+            de: 'FIB-Drohne',
+            pl: 'Dron FIB',
+        },
+        desc: {
+            ru: 'Манёвренный дрон оперативного наблюдения ФИБ. Тепловизор и ночное видение, дальность связи до 600 метров. Доступен только сотрудникам на службе.',
+            ua: 'Маневрений дрон оперативного спостереження ФБР. Тепловізор і нічне бачення, дальність зв\'язку до 600 метрів. Доступний лише співробітникам на службі.',
+            en: 'An agile FIB surveillance drone. Thermal and night vision, signal range up to 600 meters. Available only to agents on duty.',
+            de: 'Eine wendige Überwachungsdrohne des FIB. Wärmebild und Nachtsicht, Signalreichweite bis 600 Meter. Nur für Agenten im Dienst verfügbar.',
+            pl: 'Zwrotny dron obserwacyjny FIB. Termowizja i noktowizja, zasięg sygnału do 600 metrów. Dostępny tylko dla agentów na służbie.',
+        },
+    },
     sprayPaintCan: {
         name: {
             ru: 'Баллончик с краской',

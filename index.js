@@ -68,6 +68,7 @@ import games from './games/games';
 import flappyBird from './flappyBird';
 import grandmaster from './grandmaster';
 import walkieTalkie from './walkieTalkie';
+import drone from './drone';
 import elevators from './elevators';
 import shootingRange from './shootingRange';
 import prism from './prism';
@@ -164,6 +165,7 @@ export default {
     flappyBird,
     grandmaster,
     walkieTalkie,
+    drone,
     elevators,
     shootingRange,
     diving,
