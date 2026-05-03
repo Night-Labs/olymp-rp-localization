@@ -77,7 +77,7 @@ export default {
         ru: 'Работа в такси',
         ua: 'Робота в таксі',
         en: 'Taxi job',
-        de: 'Arbeit im Taxi',
+        de: 'Taxi',
         pl: 'Praca w taksówce',
     },
 
