@@ -10,7 +10,7 @@ export default {
         ru: 'Игроку уже запрещено размещать объекты',
         ua: 'Гравцеві вже заборонено розміщувати обʼєкти',
         en: 'This player is already forbidden from placing objects',
-        de: 'Diesem Spieler ist das Platzieren von Objekten bereits verboten',
+        de: 'Dieser Spieler darf bereits keine Objekte mehr platzieren',
         pl: 'Ten gracz ma już zakaz rozmieszczania obiektów',
     },
     notBanned: {
@@ -24,21 +24,21 @@ export default {
         ru: 'Вы не можете выдать этот запрет администратору уровня выше вас',
         ua: 'Ви не можете видати цю заборону адміністратору вищого рівня',
         en: 'You cannot issue this restriction to a higher-level admin',
-        de: 'Du kannst diese Einschränkung keinem höherstufigen Admin auferlegen',
+        de: 'Du kannst einem Administrator der ein höheres Level als du hast keine Objekt Platzierungen verbieten',
         pl: 'Nie możesz nałożyć tego ograniczenia na administratora wyższego poziomu',
     },
     banned: {
         ru: 'Игроку {{name}} запрещено размещать объекты на {{minutes}} мин.',
         ua: 'Гравцеві {{name}} заборонено розміщувати обʼєкти на {{minutes}} хв.',
         en: 'Player {{name}} is forbidden from placing objects for {{minutes}} min.',
-        de: 'Spieler {{name}} darf für {{minutes}} Min. keine Objekte platzieren.',
+        de: 'Dem Spieler {{name}} ist es für {{minutes}} Minuten verboten, Objekte zu platzieren.',
         pl: 'Gracz {{name}} ma zakaz rozmieszczania obiektów na {{minutes}} min.',
     },
     unbanned: {
         ru: 'Игроку {{name}} снова разрешено размещать объекты',
         ua: 'Гравцеві {{name}} знову дозволено розміщувати обʼєкти',
         en: 'Player {{name}} is allowed to place objects again',
-        de: 'Spieler {{name}} darf wieder Objekte platzieren',
+        de: 'Der Spieler {{name}} darf wieder Objekte platzieren',
         pl: 'Gracz {{name}} może znowu rozmieszczać obiekty',
     },
 };
