@@ -259,7 +259,7 @@ export const server = {
         ru: '~r~Администратор {{name}} посадил игрока {{target}} в деморган на {{time}} минут. Причина: {{reason}}',
         ua: '~r~Адміністратор {{name}} посадив гравця {{target}} в деморган на {{time}} хвилин. Причина: {{reason}}',
         en: '~r~Administrator {{name}} put player {{target}} in demorgan for {{time}} minutes. Reason: {{reason}}',
-        de: '~r~Administrator {{name}} hat {{target}} in den Admin-Knast gesteckt. Grund: {{reason}}',
+        de: '~r~Administrator {{name}} hat Spieler {{target}} für {{time}} Minuten in den Admin-Knast gesperrt. Grund: {{reason}}',
         pl: '~r~Administrator {{name}} umieścił gracza {{target}} w demorganie na {{time}} minut. Powód: {{reason}}',
         zh: '~r~Administrator {{name}}将玩家{{target}}封禁{{time}}分钟.原因:{{reason}} ',
     },
