@@ -12,7 +12,7 @@ export default {
         ua: 'Ви реанімували {{name}} аптечкою',
         en: 'You revived {{name}} with an aid kit',
         de: 'Du hast {{name}} mit einem Medizinkasten geheilt',
-        pl: 'Zostałeś reanimowany z apteczka',
+        pl: 'Reanimowałeś {{name}} apteczką',
         zh: '你用急救箱急救成功了{{name}}',
     },
     playerHasRevivedYou: {

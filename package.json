@@ -1,0 +1,12 @@
+{
+    "name": "olymp-localization",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "test": "node tools/validate-localization.mjs",
+        "validate": "node tools/validate-localization.mjs"
+    },
+    "engines": {
+        "node": ">=20"
+    }
+}

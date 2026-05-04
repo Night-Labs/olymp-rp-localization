@@ -69,7 +69,7 @@ export default {
         en: 'When your referral donates, you get 1% of their donation amount in ',
         de: 'Wenn dein Empfehlungsnehmer spendet, erhältst du 1% des Spendenbetrags in ',
         pl: 'Kiedy Twój polecony przekazuje darowiznę, otrzymujesz 1% od jej kwoty w ',
-        zh: '',
+        zh: '当你的推荐人捐赠时，你会获得其捐赠金额 1% 的 ',
     },
     forExampleInput: {
         ru: 'Например: olymp',
