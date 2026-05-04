@@ -171,7 +171,7 @@ export default {
         ru: 'Работа водолаза',
         ua: 'Робота водолаза',
         en: "Diver's Job",
-        de: 'Taucherarbeit',
+        de: 'Taucher',
         pl: 'Praca nurka',
     },
     hud: {
@@ -179,7 +179,7 @@ export default {
             ru: 'Работа водолаза',
             ua: 'Робота водолаза',
             en: "Diver's job",
-            de: 'Taucherarbeit',
+            de: 'Taucher',
             pl: 'Praca nurka',
         },
         mainTask: {
