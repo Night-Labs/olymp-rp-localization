@@ -1,11 +1,11 @@
 export default {
     startMessage: {
-        ru: '~r~ВНИМАНИЕ! Запущено мероприятие под названием {{name}}. Чтобы участвовать в нём введите /gomp',
-        ua: '~r~УВАГА! Запущено захід під назвою {{name}}. Щоб взяти участь у ньому, введіть /gomp',
-        en: '~r~ATTENTION! An event called {{name}} has started. To participate, enter /gomp',
-        de: '~r~ACHTUNG! Ein Event namens {{name}} hat begonnen. Um teilzunehmen, gib /gomp ein',
-        pl: '~r~UWAGA! Rozpoczęto wydarzenie o nazwie {{name}}. Aby wziąć udział, wpisz /gomp',
-       zh:'~r~注意！活动{{name}}已开启,输入 /gomp 加入',
+        ru: '~r~ВНИМАНИЕ! Запущено мероприятие под названием {{name}}. Чтобы участвовать в нём введите /gomp (доступно для входа {{minutes}} мин.)',
+        ua: '~r~УВАГА! Запущено захід під назвою {{name}}. Щоб взяти участь, введіть /gomp (доступно для входу {{minutes}} хв.)',
+        en: '~r~ATTENTION! An event called {{name}} has started. To participate, enter /gomp (joining open for {{minutes}} min.)',
+        de: '~r~ACHTUNG! Ein Event namens {{name}} hat begonnen. Um teilzunehmen, gib /gomp ein (Beitritt offen für {{minutes}} Min.)',
+        pl: '~r~UWAGA! Rozpoczęto wydarzenie o nazwie {{name}}. Aby wziąć udział, wpisz /gomp (dołączanie otwarte przez {{minutes}} min.)',
+       zh:'~r~注意！活动{{name}}已开启,输入 /gomp 加入(开放加入{{minutes}}分钟)',
     },
     playerJoinMessage: {
         ru: 'Вы присоединились к мероприятию под названием {{name}}, ожидайте указаний администрации. Чтобы покинуть /leavemp',
@@ -110,5 +110,13 @@ export default {
         de: 'Das Event ist noch nicht für Teilnehmer geöffnet',
         pl: 'Wydarzenie nie jest jeszcze otwarte dla uczestników',
        zh:'活动尚未对参与者开放',
+    },
+    joinWindowClosed: {
+        ru: 'Время на вход в мероприятие истекло',
+        ua: 'Час на вхід у захід вичерпано',
+        en: 'The window to join the event has closed',
+        de: 'Das Zeitfenster zum Beitritt ist abgelaufen',
+        pl: 'Czas na dołączenie do wydarzenia minął',
+       zh:'加入活动的时间已结束',
     },
 };
