@@ -8,6 +8,22 @@ export const server = {
             pl: 'mówi',
            zh:'说话',
         },
+        shouts: {
+            ua: 'кричить',
+            en: 'shouts',
+            ru: 'кричит',
+            de: 'schreit',
+            pl: 'krzyczy',
+           zh:'喊叫',
+        },
+        whispers: {
+            ua: 'шепоче',
+            en: 'whispers',
+            ru: 'шепчет',
+            de: 'flüstert',
+            pl: 'szepcze',
+           zh:'低语',
+        },
         info: {
             ua: '[Інформація]',
             en: '[Information]',

@@ -136,6 +136,15 @@ export const animations = {
        zh:'停止动作',
     },
 
+    stopAction: {
+        ru: 'Остановить действие',
+        ua: 'Зупинити дію',
+        en: 'Stop action',
+        de: 'Aktion stoppen',
+        pl: 'Zatrzymaj akcję',
+       zh:'停止动作',
+    },
+
     stopPairsAnimation: {
         ru: 'Остановить парную анимацию',
         ua: 'Зупинити парну анімацію',
