@@ -352,4 +352,13 @@ export default {
         de: 'Nur für Beifahrer verfügbar',
         pl: 'Dostępne tylko dla pasażera',
     },
+    slotLabel: {
+        parked: {
+            ru: 'Припарковано',
+            ua: 'Припарковано',
+            en: 'Parked',
+            de: 'Geparkt',
+            pl: 'Zaparkowane',
+        },
+    },
 };

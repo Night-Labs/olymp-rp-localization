@@ -127,6 +127,66 @@ export const server = {
                 pl: 'Do biura',
             },
         },
+        driveOut: {
+            title: {
+                ru: 'Выезд из гаража',
+                ua: 'Виїзд з гаража',
+                en: 'Drive out',
+                de: 'Aus der Garage fahren',
+                pl: 'Wyjazd z garażu',
+            },
+            message: {
+                ru: 'Вы действительно хотите выехать на {{name}}?',
+                ua: 'Ви дійсно бажаєте виїхати на {{name}}?',
+                en: 'Do you really want to drive out in {{name}}?',
+                de: 'Möchtest du wirklich mit {{name}} ausfahren?',
+                pl: 'Czy na pewno chcesz wyjechać na {{name}}?',
+            },
+            confirmButton: {
+                ru: 'Выехать',
+                ua: 'Виїхати',
+                en: 'Drive out',
+                de: 'Ausfahren',
+                pl: 'Wyjedź',
+            },
+            cancelButton: {
+                ru: 'Отмена',
+                ua: 'Скасувати',
+                en: 'Cancel',
+                de: 'Abbrechen',
+                pl: 'Anuluj',
+            },
+        },
+        garageExit: {
+            title: {
+                ru: 'Выход из гаража',
+                ua: 'Вихід з гаража',
+                en: 'Garage exit',
+                de: 'Ausgang aus der Garage',
+                pl: 'Wyjście z garażu',
+            },
+            message: {
+                ru: 'Куда вы хотите выйти?',
+                ua: 'Куди ви хочете вийти?',
+                en: 'Where do you want to go?',
+                de: 'Wohin möchten Sie gehen?',
+                pl: 'Dokąd chcesz wyjść?',
+            },
+            office: {
+                ru: 'Подняться в офис',
+                ua: 'Піднятися в офіс',
+                en: 'Go up to the office',
+                de: 'Ins Büro hinauffahren',
+                pl: 'Wjedź do biura',
+            },
+            street: {
+                ru: 'Выйти на парковку',
+                ua: 'Вийти на парковку',
+                en: 'Exit to the parking',
+                de: 'Zum Parkplatz hinausgehen',
+                pl: 'Wyjdź na parking',
+            },
+        },
         info: {
             title: {
                 ru: 'Офис #{{slotId}}, {{building}}',
@@ -300,6 +360,13 @@ export const server = {
             en: 'No free slots in the office garage.',
             de: 'Keine freien Plätze in der Bürogarage.',
             pl: 'Brak wolnych miejsc w garażu biura.',
+        },
+        rankTooLow: {
+            ru: 'Ваш ранг недостаточен для управления «{{name}}».',
+            ua: 'Ваш ранг недостатній для керування «{{name}}».',
+            en: 'Your rank is too low to drive «{{name}}».',
+            de: 'Dein Rang reicht nicht aus, um «{{name}}» zu fahren.',
+            pl: 'Twoja ranga jest zbyt niska, aby prowadzić «{{name}}».',
         },
     },
     interactions: {
