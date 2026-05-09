@@ -15,6 +15,20 @@ export default {
         pl: 'Wyszukaj pojazdy po nazwie',
         zh: '按名称搜索车辆',
     },
+    familyBadge: {
+        ru: 'Семья',
+        ua: 'Сім\'я',
+        en: 'Family',
+        de: 'Familie',
+        pl: 'Rodzina',
+    },
+    takenBadge: {
+        ru: 'Занята',
+        ua: 'Зайнята',
+        en: 'Taken',
+        de: 'Belegt',
+        pl: 'Zajęte',
+    },
     control: {
         km: {
             ru: 'км.',
@@ -22,6 +36,27 @@ export default {
             en: 'km',
             de: 'km',
             pl: 'km',
+        },
+        familyBadge: {
+            ru: 'Семья',
+            ua: 'Сім\'я',
+            en: 'Family',
+            de: 'Familie',
+            pl: 'Rodzina',
+        },
+        familyMinRank: {
+            ru: 'Мин. ранг: {{rank}}',
+            ua: 'Мін. ранг: {{rank}}',
+            en: 'Min rank: {{rank}}',
+            de: 'Mind. Rang: {{rank}}',
+            pl: 'Min. ranga: {{rank}}',
+        },
+        familyTakenBy: {
+            ru: 'Машину уже взял {{name}}',
+            ua: 'Машину вже взяв {{name}}',
+            en: 'Vehicle is currently taken by {{name}}',
+            de: 'Fahrzeug ist derzeit bei {{name}}',
+            pl: 'Pojazd jest obecnie u {{name}}',
         },
         engines: {
             electric: {
@@ -267,6 +302,20 @@ export default {
                 en: 'Deliver from garage',
                 de: 'Aus der Garage liefern',
                 pl: 'Dostarcz z garażu',
+            },
+            familyDeliver: {
+                ru: 'Доставить к себе',
+                ua: 'Доставити до себе',
+                en: 'Deliver to me',
+                de: 'Zu mir liefern',
+                pl: 'Dostarcz do mnie',
+            },
+            familyReturn: {
+                ru: 'В гараж',
+                ua: 'В гараж',
+                en: 'To garage',
+                de: 'In die Garage',
+                pl: 'Do garażu',
             },
             impounded: {
                 ru: 'Т/С находится на штрафстоянке #{{lotId}}',

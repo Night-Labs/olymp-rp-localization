@@ -76,6 +76,59 @@ export const cef = {
             zh: '创建',
         },
     },
+    testServerGate: {
+        title: {
+            ru: 'Закрытое тестирование',
+            ua: 'Закрите тестування',
+            en: 'Closed beta',
+            de: 'Geschlossener Test',
+            pl: 'Zamknięte testy',
+        },
+        subtitle: {
+            ru: 'Сервер пока недоступен всем игрокам. Чтобы войти, введите пароль доступа.',
+            ua: 'Сервер поки що недоступний для всіх гравців. Щоб увійти, введіть пароль доступу.',
+            en: 'The server is not yet open to everyone. Enter the access password to continue.',
+            de: 'Der Server ist noch nicht für alle verfügbar. Gib das Zugangspasswort ein, um fortzufahren.',
+            pl: 'Serwer nie jest jeszcze dostępny dla wszystkich. Wprowadź hasło dostępu, aby kontynuować.',
+        },
+        placeholder: {
+            ru: 'Пароль доступа',
+            ua: 'Пароль доступу',
+            en: 'Access password',
+            de: 'Zugangspasswort',
+            pl: 'Hasło dostępu',
+        },
+        hint: {
+            ru: 'Пароль будет сохранён, повторно вводить не придётся.',
+            ua: 'Пароль буде збережено, повторно вводити не доведеться.',
+            en: 'The password will be remembered so you don’t have to enter it again.',
+            de: 'Das Passwort wird gespeichert, du musst es nicht erneut eingeben.',
+            pl: 'Hasło zostanie zapamiętane, nie trzeba będzie wpisywać go ponownie.',
+        },
+        submit: {
+            ru: 'Подтвердить',
+            ua: 'Підтвердити',
+            en: 'Continue',
+            de: 'Bestätigen',
+            pl: 'Potwierdź',
+        },
+        notify: {
+            errorHeader: {
+                ru: 'Ошибка',
+                ua: 'Помилка',
+                en: 'Error',
+                de: 'Fehler',
+                pl: 'Błąd',
+            },
+            errorDesc: {
+                ru: 'Неверный пароль доступа',
+                ua: 'Невірний пароль доступу',
+                en: 'Invalid access password',
+                de: 'Falsches Zugangspasswort',
+                pl: 'Nieprawidłowe hasło dostępu',
+            },
+        },
+    },
     register: {
         title: {
             ua: 'Реєстрація',

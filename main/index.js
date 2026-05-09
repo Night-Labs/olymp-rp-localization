@@ -27,5 +27,12 @@ export default {
         de: 'Gemietet',
         pl: 'Wynajęte',
     },
+    familyVeh: {
+        ru: 'Семейные',
+        ua: 'Сімейні',
+        en: 'Family',
+        de: 'Familie',
+        pl: 'Rodzinne',
+    },
 };
 

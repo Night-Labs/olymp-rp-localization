@@ -8,4 +8,12 @@ export default {
         pl: 'Rozpocząłeś jazdę testową, wyjdź z pojazdu, aby ją zakończyć!',
         zh: '您开始了试驾，请下车以完成试驾！',
     },
+    failed: {
+        ru: 'Ошибка, попробуй ещё раз',
+        ua: 'Помилка, спробуй ще раз',
+        en: 'Error, try again',
+        de: 'Fehler, versuche es erneut',
+        pl: 'Błąd, spróbuj ponownie',
+        zh: '错误，请重试',
+    },
 }

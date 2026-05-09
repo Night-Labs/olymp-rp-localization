@@ -1,5 +1,6 @@
 import { settings } from './settings';
 import { inventory } from './inventory';
+import { macros } from './macros';
 
 export const cef = {
     items: {
@@ -484,4 +485,5 @@ export const cef = {
     },
     inventory,
     settings,
+    macros,
 };

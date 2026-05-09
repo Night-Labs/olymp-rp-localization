@@ -90,5 +90,26 @@ export const vehicles = {
             de: 'Übertragung des Fahrzeugs fehlgeschlagen',
             pl: 'Nie udało się przekazać pojazdu',
         },
+        noAccess: {
+            ru: 'У вас нет доступа к этой машине семьи',
+            ua: 'У вас немає доступу до цієї машини сім\'ї',
+            en: 'You do not have access to this family vehicle',
+            de: 'Du hast keinen Zugriff auf dieses Familienfahrzeug',
+            pl: 'Nie masz dostępu do tego pojazdu rodziny',
+        },
+        takenByOther: {
+            ru: 'Машина уже взята другим членом семьи',
+            ua: 'Машина вже взята іншим членом сім\'ї',
+            en: 'The vehicle is already taken by another family member',
+            de: 'Das Fahrzeug ist bereits von einem anderen Mitglied genommen',
+            pl: 'Pojazd jest już zajęty przez innego członka rodziny',
+        },
+        inGarage: {
+            ru: 'Нельзя вызвать машину пока вы в гараже',
+            ua: 'Не можна викликати машину поки ви в гаражі',
+            en: 'You cannot deliver a vehicle while in a garage',
+            de: 'Du kannst kein Fahrzeug anfordern, während du in einer Garage bist',
+            pl: 'Nie możesz zamówić pojazdu będąc w garażu',
+        },
     },
 };

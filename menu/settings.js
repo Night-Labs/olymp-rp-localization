@@ -24,6 +24,13 @@ export const settings = {
             de: 'Tastenbelegung',
             pl: 'Przypisanie klawiszy',
         },
+        macros: {
+            ru: 'Макросы',
+            ua: 'Макроси',
+            en: 'Macros',
+            de: 'Makros',
+            pl: 'Makra',
+        },
         aim: {
             ru: 'Прицел',
             ua: 'Приціл',
@@ -530,6 +537,13 @@ export const settings = {
             de: 'Passe deine Tastenbelegung an',
             pl: 'Dostosuj swoje przypisania klawiszy',
         },
+        macros: {
+            ru: 'Создавайте профили макросов с цепочками действий и привязками',
+            ua: 'Створюйте профілі макросів із ланцюжками дій та привʼязками',
+            en: 'Build macro profiles with chained actions and key bindings',
+            de: 'Erstelle Makroprofile mit Aktionsketten und Tastenbelegungen',
+            pl: 'Twórz profile makr z łańcuchami akcji i przypisaniami klawiszy',
+        },
         account: {
             ru: 'Настройки вашего профиля и аватара',
             ua: 'Налаштування вашого профілю та аватара',
@@ -684,6 +698,13 @@ export const settings = {
         en: 'Displays FPS counter in the bottom-left corner',
         de: 'Zeigt FPS-Zähler in der unteren linken Ecke an',
         pl: 'Wyświetla licznik FPS w lewym dolnym rogu',
+    },
+    hideCustomMinimapBarsDesc: {
+        ru: 'Скрывает кастомные мини-бары над мини-картой и включает стандартные полоски здоровья и брони',
+        ua: "Приховує кастомні міні-бари над міні-мапою та вмикає стандартні смужки здоров'я і броні",
+        en: 'Hides custom mini-bars above the minimap and enables the default health and armor bars',
+        de: 'Blendet benutzerdefinierte Mini-Balken über der Minimap aus und aktiviert die standardmäßigen Lebens- und Rüstungsbalken',
+        pl: 'Ukrywa niestandardowe mini-paski nad minimapą i włącza domyślne paski zdrowia oraz pancerza',
     },
     showCompassDesc: {
         ru: 'Отображает компас с направлением камеры в верхней части экрана',
@@ -889,6 +910,13 @@ export const settings = {
         en: 'Show FPS',
         de: 'FPS anzeigen',
         pl: 'Pokaż FPS',
+    },
+    hideCustomMinimapBars: {
+        ru: 'Скрывать мини-бары',
+        ua: 'Приховувати міні-бари',
+        en: 'Hide mini-bars',
+        de: 'Mini-Balken ausblenden',
+        pl: 'Ukryj mini-paski',
     },
     showCompass: {
         ru: 'Показывать компас',

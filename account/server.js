@@ -144,6 +144,13 @@ export const server = {
         pl: 'Twój login został wysłany na twój e-mail',
         zh: '账号已发送至你的邮箱',
     },
+    testServerLocked: {
+        ru: 'Сервер пока недоступен всем. Введите пароль доступа.',
+        ua: 'Сервер поки що недоступний усім. Введіть пароль доступу.',
+        en: 'The server is not yet open to everyone. Enter the access password.',
+        de: 'Der Server ist noch nicht für alle verfügbar. Gib das Zugangspasswort ein.',
+        pl: 'Serwer nie jest jeszcze dostępny dla wszystkich. Wprowadź hasło dostępu.',
+    },
     html: {
         recovery,
         accountLogin,
