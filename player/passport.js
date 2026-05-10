@@ -47,6 +47,22 @@ export default {
         pl: 'K',
         zh:'F',
     },
+    spouse: {
+        ru: 'Супруг(а)',
+        ua: 'Подружжя',
+        en: 'Spouse',
+        de: 'Ehepartner',
+        pl: 'Małżonek(a)',
+        zh: '配偶',
+    },
+    notMarried: {
+        ru: 'Не в браке',
+        ua: 'Не в шлюбі',
+        en: 'Not married',
+        de: 'Nicht verheiratet',
+        pl: 'Nie w związku małżeńskim',
+        zh: '未婚',
+    },
     // сообщение что вы успешно получили пасспорт
     successGetPassport: {
         ru: 'Вы успешно получили пасспорт!',

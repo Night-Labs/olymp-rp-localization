@@ -135,6 +135,14 @@ export const npc = {
             pl: 'Santa-Claus',
             zh: '圣诞老人',
         },
+        priest: {
+            ru: 'Отец Гавриил',
+            ua: 'Отець Гавриїл',
+            en: 'Father Gabriel',
+            de: 'Pater Gabriel',
+            pl: 'Ojciec Gabriel',
+            zh: '加百列神父',
+        },
         mary: {
             en: 'Mary',
             ru: 'Мэри',
@@ -328,6 +336,13 @@ export const npc = {
         },
     },
     roles: {
+        priest: {
+            ru: 'Священник',
+            ua: 'Священник',
+            en: 'Priest',
+            de: 'Priester',
+            pl: 'Ksiądz',
+        },
         fleetManager: {
             ru: 'Автопарк',
             ua: 'Автопарк',

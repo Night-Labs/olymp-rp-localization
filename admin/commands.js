@@ -694,6 +694,13 @@ export default {
         de: 'Ein Fahrzeug anhand der Runtime-ID zur Position des Administrators teleportieren.',
         pl: 'Teleportuj pojazd według runtime ID do pozycji administratora.',
     },
+    tp_closest_animal: {
+        ru: 'Телепортировать администратора к ближайшему животному охоты в его измерении.',
+        ua: 'Телепортувати адміністратора до найближчої тварини полювання у його вимірі.',
+        en: 'Teleport the administrator to the closest hunting animal in their dimension.',
+        de: 'Den Administrator zum nächsten Jagdtier in seiner Dimension teleportieren.',
+        pl: 'Teleportuj administratora do najbliższego zwierzęcia łownego w jego wymiarze.',
+    },
     flip_vehicle: {
         ru: 'Поставить транспорт по runtime ID на колёса.',
         ua: 'Поставити транспорт за runtime ID на колеса.',

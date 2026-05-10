@@ -1,0 +1,228 @@
+export default {
+    header: {
+        ru: 'Брак',
+        ua: 'Шлюб',
+        en: 'Marriage',
+        de: 'Ehe',
+        pl: 'Małżeństwo',
+        zh: '婚姻',
+    },
+
+    dialog: {
+        common: {
+            goodbye: {
+                ru: 'До свидания',
+                ua: 'До побачення',
+                en: 'Goodbye',
+                de: 'Auf Wiedersehen',
+                pl: 'Do widzenia',
+                zh: '再见',
+            },
+        },
+
+        single: {
+            message: {
+                ru: 'Мир тебе, дитя моё. Если хочешь связать свою жизнь священными узами брака с тем, кто находится рядом, я проведу обряд. Стоимость церемонии: {{price}}.',
+                ua: 'Мир тобі, дитя моє. Якщо ти бажаєш поєднати своє життя священними узами шлюбу з тим, хто поруч, я проведу обряд. Вартість церемонії: {{price}}.',
+                en: 'Peace be with you, my child. If you wish to bind your life in sacred matrimony with someone nearby, I shall perform the ceremony. Cost: {{price}}.',
+                de: 'Friede sei mit dir, mein Kind. Wenn du dein Leben mit jemandem in der Nähe durch das heilige Band der Ehe verbinden möchtest, werde ich die Zeremonie vollziehen. Kosten: {{price}}.',
+                pl: 'Pokój z tobą, moje dziecko. Jeśli chcesz związać swoje życie świętym węzłem małżeńskim z kimś, kto jest w pobliżu, przeprowadzę ceremonię. Koszt: {{price}}.',
+                zh: '愿平安与你同在，我的孩子。若你愿意与身边之人结为神圣的连理，我将主持婚礼。费用：{{price}}。',
+            },
+            propose: {
+                ru: 'Предложить руку и сердце',
+                ua: 'Запропонувати руку та серце',
+                en: 'Propose',
+                de: 'Antrag machen',
+                pl: 'Oświadczyć się',
+                zh: '求婚',
+            },
+        },
+
+        married: {
+            message: {
+                ru: 'Ты состоишь в браке с {{spouse}}. Если ваши пути разошлись, я могу провести обряд развода. Стоимость: {{price}}.',
+                ua: 'Ти перебуваєш у шлюбі з {{spouse}}. Якщо ваші шляхи розійшлися, я можу провести обряд розлучення. Вартість: {{price}}.',
+                en: 'You are married to {{spouse}}. If your paths have parted, I can perform the divorce. Cost: {{price}}.',
+                de: 'Du bist mit {{spouse}} verheiratet. Wenn eure Wege sich getrennt haben, kann ich die Scheidung vollziehen. Kosten: {{price}}.',
+                pl: 'Jesteś w związku małżeńskim z {{spouse}}. Jeśli wasze drogi się rozeszły, mogę przeprowadzić rozwód. Koszt: {{price}}.',
+                zh: '你与 {{spouse}} 已结为夫妻。如果你们的道路已分开，我可以为你们办理离婚。费用：{{price}}。',
+            },
+            divorce: {
+                ru: 'Развестись',
+                ua: 'Розлучитися',
+                en: 'Divorce',
+                de: 'Scheiden lassen',
+                pl: 'Rozwód',
+                zh: '离婚',
+            },
+        },
+
+        confirmDivorce: {
+            message: {
+                ru: 'Подумай ещё раз, дитя моё. Развод с {{spouse}} обойдётся в {{price}}. Готов ли ты к этому шагу?',
+                ua: 'Подумай ще раз, дитя моє. Розлучення з {{spouse}} коштуватиме {{price}}. Чи готовий ти до цього кроку?',
+                en: 'Think again, my child. Divorcing {{spouse}} will cost {{price}}. Are you ready to take this step?',
+                de: 'Überlege noch einmal, mein Kind. Die Scheidung von {{spouse}} kostet {{price}}. Bist du zu diesem Schritt bereit?',
+                pl: 'Pomyśl jeszcze raz, moje dziecko. Rozwód z {{spouse}} będzie kosztować {{price}}. Czy jesteś gotów na ten krok?',
+                zh: '再考虑一下，我的孩子。与 {{spouse}} 离婚需花费 {{price}}。你准备好迈出这一步了吗？',
+            },
+            confirm: {
+                ru: 'Да, развестись ({{price}})',
+                ua: 'Так, розлучитися ({{price}})',
+                en: 'Yes, divorce ({{price}})',
+                de: 'Ja, scheiden lassen ({{price}})',
+                pl: 'Tak, rozwód ({{price}})',
+                zh: '是的，离婚 ({{price}})',
+            },
+            cancel: {
+                ru: 'Нет, остаться вместе',
+                ua: 'Ні, залишитися разом',
+                en: 'No, stay together',
+                de: 'Nein, zusammenbleiben',
+                pl: 'Nie, pozostać razem',
+                zh: '不，继续在一起',
+            },
+        },
+    },
+
+    modal: {
+        title: {
+            ru: 'Кому предложить руку и сердце?',
+            ua: 'Кому запропонувати руку та серце?',
+            en: 'Who do you want to propose to?',
+            de: 'Wem möchtest du einen Antrag machen?',
+            pl: 'Komu chcesz się oświadczyć?',
+            zh: '你想向谁求婚？',
+        },
+    },
+
+    offer: {
+        text: {
+            ru: 'Предлагает заключить брак за {{price}}',
+            ua: 'Пропонує укласти шлюб за {{price}}',
+            en: 'Offers to marry for {{price}}',
+            de: 'Bietet eine Heirat für {{price}} an',
+            pl: 'Proponuje zawarcie małżeństwa za {{price}}',
+            zh: '提议以 {{price}} 结婚',
+        },
+    },
+
+    broadcast: {
+        married: {
+            ru: '~p~Любовь и согласие! ~w~{{first}} ~p~и ~w~{{second}} ~p~сегодня заключили брак. Поздравляем молодожёнов!',
+            ua: '~p~Любов і злагода! ~w~{{first}} ~p~та ~w~{{second}} ~p~сьогодні уклали шлюб. Вітаємо молодят!',
+            en: '~p~Love and harmony! ~w~{{first}} ~p~and ~w~{{second}} ~p~have tied the knot today. Congratulations to the newlyweds!',
+            de: '~p~Liebe und Eintracht! ~w~{{first}} ~p~und ~w~{{second}} ~p~haben heute geheiratet. Glückwunsch dem Brautpaar!',
+            pl: '~p~Miłość i zgoda! ~w~{{first}} ~p~i ~w~{{second}} ~p~zawarli dziś związek małżeński. Gratulujemy nowożeńcom!',
+            zh: '~p~爱与和谐！~w~{{first}} ~p~和 ~w~{{second}} ~p~今天结为夫妻。祝贺这对新人！',
+        },
+    },
+
+    notify: {
+        alreadyMarried: {
+            ru: 'Вы уже состоите в браке.',
+            ua: 'Ви вже перебуваєте у шлюбі.',
+            en: 'You are already married.',
+            de: 'Du bist bereits verheiratet.',
+            pl: 'Już jesteś w związku małżeńskim.',
+            zh: '你已经结婚了。',
+        },
+        targetAlreadyMarried: {
+            ru: 'Этот человек уже состоит в браке.',
+            ua: 'Ця особа вже перебуває у шлюбі.',
+            en: 'This person is already married.',
+            de: 'Diese Person ist bereits verheiratet.',
+            pl: 'Ta osoba jest już w związku małżeńskim.',
+            zh: '此人已结婚。',
+        },
+        sameSex: {
+            ru: 'Брак возможен только между мужчиной и женщиной.',
+            ua: 'Шлюб можливий лише між чоловіком і жінкою.',
+            en: 'Marriage is only possible between a man and a woman.',
+            de: 'Eine Ehe ist nur zwischen einem Mann und einer Frau möglich.',
+            pl: 'Małżeństwo jest możliwe tylko między mężczyzną a kobietą.',
+            zh: '婚姻只能在男女之间进行。',
+        },
+        noEligibleNearby: {
+            ru: 'Рядом нет подходящих кандидатов противоположного пола.',
+            ua: 'Поруч немає підходящих кандидатів протилежної статі.',
+            en: 'There are no eligible candidates of the opposite sex nearby.',
+            de: 'In der Nähe gibt es keine geeigneten Kandidaten des anderen Geschlechts.',
+            pl: 'W pobliżu nie ma odpowiednich kandydatów przeciwnej płci.',
+            zh: '附近没有合适的异性候选人。',
+        },
+        notEnoughMoneyPropose: {
+            ru: 'Для проведения церемонии нужно {{price}} наличными.',
+            ua: 'Для проведення церемонії потрібно {{price}} готівкою.',
+            en: 'You need {{price}} in cash to perform the ceremony.',
+            de: 'Für die Zeremonie werden {{price}} in bar benötigt.',
+            pl: 'Do przeprowadzenia ceremonii potrzebujesz {{price}} w gotówce.',
+            zh: '举行婚礼需要 {{price}} 现金。',
+        },
+        notEnoughMoneyDivorce: {
+            ru: 'Для развода нужно {{price}} наличными.',
+            ua: 'Для розлучення потрібно {{price}} готівкою.',
+            en: 'You need {{price}} in cash to divorce.',
+            de: 'Für die Scheidung werden {{price}} in bar benötigt.',
+            pl: 'Do rozwodu potrzebujesz {{price}} w gotówce.',
+            zh: '离婚需要 {{price}} 现金。',
+        },
+        notMarried: {
+            ru: 'Вы не состоите в браке.',
+            ua: 'Ви не перебуваєте у шлюбі.',
+            en: 'You are not married.',
+            de: 'Du bist nicht verheiratet.',
+            pl: 'Nie jesteś w związku małżeńskim.',
+            zh: '你未结婚。',
+        },
+        proposalPending: {
+            ru: 'У вас уже есть отправленное предложение. Дождитесь ответа или истечения срока.',
+            ua: 'У вас вже є надіслана пропозиція. Дочекайтеся відповіді або закінчення терміну.',
+            en: 'You already have a pending proposal. Wait for a reply or for it to expire.',
+            de: 'Du hast bereits einen offenen Antrag. Warte auf eine Antwort oder bis er abläuft.',
+            pl: 'Masz już aktywne oświadczyny. Poczekaj na odpowiedź lub na ich wygaśnięcie.',
+            zh: '你已经发出了求婚邀请。请等待回复或邀请失效。',
+        },
+        targetBusy: {
+            ru: 'Этот человек сейчас рассматривает другое предложение.',
+            ua: 'Ця особа зараз розглядає іншу пропозицію.',
+            en: 'This person is already considering another proposal.',
+            de: 'Diese Person prüft gerade einen anderen Antrag.',
+            pl: 'Ta osoba rozważa już inne oświadczyny.',
+            zh: '此人正在考虑其他求婚邀请。',
+        },
+        proposalSent: {
+            ru: 'Предложение отправлено {{name}}.',
+            ua: 'Пропозицію надіслано {{name}}.',
+            en: 'Proposal sent to {{name}}.',
+            de: 'Antrag an {{name}} gesendet.',
+            pl: 'Oświadczyny wysłane do {{name}}.',
+            zh: '已向 {{name}} 求婚。',
+        },
+        married: {
+            ru: 'Поздравляем! Вы заключили брак с {{name}}.',
+            ua: 'Вітаємо! Ви уклали шлюб з {{name}}.',
+            en: 'Congratulations! You are now married to {{name}}.',
+            de: 'Glückwunsch! Du bist nun mit {{name}} verheiratet.',
+            pl: 'Gratulacje! Jesteś teraz w związku małżeńskim z {{name}}.',
+            zh: '恭喜！你已与 {{name}} 结为夫妻。',
+        },
+        divorced: {
+            ru: 'Вы развелись с {{name}}.',
+            ua: 'Ви розлучилися з {{name}}.',
+            en: 'You have divorced {{name}}.',
+            de: 'Du hast dich von {{name}} scheiden lassen.',
+            pl: 'Rozwiodłeś się z {{name}}.',
+            zh: '你已与 {{name}} 离婚。',
+        },
+        divorcedByPartner: {
+            ru: '{{name}} развёлся с вами.',
+            ua: '{{name}} розлучився з вами.',
+            en: '{{name}} has divorced you.',
+            de: '{{name}} hat sich von dir scheiden lassen.',
+            pl: '{{name}} rozwiódł się z tobą.',
+            zh: '{{name}} 已与你离婚。',
+        },
+    },
+};

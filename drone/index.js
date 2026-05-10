@@ -34,6 +34,13 @@ export default {
         de: 'Das kannst du nicht tun, während du eine Drohne steuerst',
         pl: 'Nie możesz tego robić podczas sterowania dronem',
     },
+    disconnectTooFar: {
+        ru: 'Подведите дрон ближе чтобы отключиться',
+        ua: 'Підведіть дрон ближче щоб відключитися',
+        en: 'Bring the drone closer to disconnect',
+        de: 'Bringe die Drohne näher um dich zu trennen',
+        pl: 'Przybliż drona aby się rozłączyć',
+    },
     rthEngaged: {
         ru: 'Автовозврат активирован',
         ua: 'Автоповернення активовано',

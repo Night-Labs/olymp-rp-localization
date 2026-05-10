@@ -93,6 +93,7 @@ import trade from './trade';
 import battlePass from './battlePass';
 import vehicleInfo from './vehicleInfo';
 import carInsurance from './carInsurance';
+import marriage from './marriage';
 
 export default {
     account,
@@ -190,6 +191,7 @@ export default {
     battlePass,
     vehicleInfo,
     carInsurance,
+    marriage,
 };
 
 
