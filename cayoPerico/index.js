@@ -57,4 +57,22 @@ export default {
         pl: 'Powrót do Los Santos',
         zh:'返回自由城',
     },
+    blips: {
+        cayoPerico: {
+            ru: 'Кайо Перико',
+            ua: 'Кайо Перико',
+            en: 'Cayo Perico',
+            de: 'Cayo Perico',
+            pl: 'Cayo Perico',
+            zh: '佩里科岛',
+        },
+        losSantos: {
+            ru: 'Лос Сантос',
+            ua: 'Лос-Сантос',
+            en: 'Los Santos',
+            de: 'Los Santos',
+            pl: 'Los Santos',
+            zh: '洛圣都',
+        },
+    },
 };
