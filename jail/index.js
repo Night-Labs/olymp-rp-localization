@@ -37,4 +37,11 @@ export default {
         de: 'Verbleibende Zeit',
         pl: 'Pozostało czasu',
     },
+    reasonLabel: {
+        ru: 'Причина: {{reason}}',
+        ua: 'Причина: {{reason}}',
+        en: 'Reason: {{reason}}',
+        de: 'Grund: {{reason}}',
+        pl: 'Powód: {{reason}}',
+    },
 };

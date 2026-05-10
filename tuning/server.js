@@ -46,6 +46,13 @@ export const server = {
         de: 'Du kannst dieses Auto nicht tunen, weil es gemietet ist',
         pl: 'Nie możesz tunować tego auta, bo jest wynajęte',
     },
+    blip: {
+        ru: 'Los Santos Customs',
+        ua: 'Los Santos Customs',
+        en: 'Los Santos Customs',
+        de: 'Los Santos Customs',
+        pl: 'Los Santos Customs',
+    },
     modal: {
         title: {
             ua: 'Відремонтуйте транспорт перед тюнінгом',
