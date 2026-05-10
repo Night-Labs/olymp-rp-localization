@@ -71,7 +71,7 @@ export default {
         ru: 'Что дальше?',
         ua: 'Що далі?',
         en: 'What’s next?',
-        de: 'Was дальше?',
+        de: 'Was kommt als Nächstes?',
         pl: 'Co dalej?',
     },
 
@@ -114,7 +114,7 @@ export default {
         de: 'In der App kannst du alle Informationen über den Auftrag und den Kunden einsehen, ihn anrufen oder ihm schreiben sowie die Karte zur Orientierung nutzen. Übrigens, wenn du kein passendes Auto hast, kann ich dir eines vermieten.',
         pl: 'W aplikacji możesz zobaczyć wszystkie informacje o zleceniu i kliencie, zadzwonić lub napisać do niego, a także korzystać z mapy dla wygody. Przy okazji, jeśli nie masz odpowiedniego samochodu — mogę wynająć ci auto.',
     },
-    
+
     wantJob8: {
         ru: 'Спасибо, дальше сам разберусь.',
         ua: 'Дякую, далі сам розберуся.',
