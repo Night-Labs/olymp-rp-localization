@@ -21,7 +21,7 @@ export const server = {
     maxDepositExceeded: {
         ru: 'Превышен максимальный размер депозита',
         en: 'Maximum deposit amount exceeded',
-        de: 'Maximale Einlagengrenze überschritten',
+        de: 'Maximaler Einzahlungsbetrag überschritten',
         fr: 'Montant maximum de dépôt dépassé',
         ua: 'Перевищено максимальний розмір депозиту',
         zh:'超过最高存款额',
@@ -29,7 +29,7 @@ export const server = {
     invalidAmount: {
         ru: 'Введите корректную сумму',
         en: 'Enter a valid amount',
-        de: 'Gib einen korrekten Betrag ein',
+        de: 'Gib einen gültigen Betrag ein',
         fr: 'Entrez un montant valide',
         ua: 'Введіть коректну суму',
         zh: '请输入正确金额',
@@ -37,7 +37,7 @@ export const server = {
     notEnoughWithCommission: {
         ru: 'Недостаточно средств с учетом комиссии',
         en: 'Insufficient funds including commission',
-        de: 'Nicht genug Guthaben inklusive Gebühr',
+        de: 'Guthaben reicht inklusive Gebühren nicht aus',
         fr: "Fonds insuffisants, commission incluse",
         ua: 'Недостатньо коштів з урахуванням комісії',
         zh: '余额不足（含手续费）',
@@ -45,7 +45,7 @@ export const server = {
     targetBalanceLimitExceeded: {
         ru: 'Превышен лимит целевого баланса',
         en: 'Target balance limit exceeded',
-        de: 'Ziellimit überschritten',
+        de: 'Zielkonto-Limit überschritten',
         fr: 'Limite du solde cible dépassée',
         ua: 'Перевищено ліміт цільового балансу',
         zh: '超出目标余额上限',
