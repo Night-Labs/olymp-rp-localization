@@ -24,7 +24,7 @@ export default {
         ru: 'Вы не можете выдать этот запрет администратору уровня выше вас',
         ua: 'Ви не можете видати цю заборону адміністратору вищого рівня',
         en: 'You cannot issue this restriction to a higher-level admin',
-        de: 'Du kannst einem Administrator der ein höheres Level als du hast keine Objekt Platzierungen verbieten',
+        de: 'Du kannst einem Administrator mit einem höheren Level als deinem das Platzieren von Objekten nicht verbieten',
         pl: 'Nie możesz nałożyć tego ograniczenia na administratora wyższego poziomu',
     },
     banned: {
