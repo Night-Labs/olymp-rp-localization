@@ -30,7 +30,7 @@ export default {
             ru: 'Привет! Ищешь работу? Просто нужно украсть машину..',
             ua: 'Привіт! Шукаєш роботу? Просто треба вкрасти автомобіль...',
             en: 'Hey there! Looking for a job? Just need to steal a car, pay well!',
-            de: 'Hallo! Auf der Suche nach Arbeit? Muss nur ein Auto stehlen, gut bezahlen!',
+            de: 'Hey! Suchst du einen Job? Ich brauche jemanden, der ein Auto klaut - zahle gut!',
             pl: 'Cześć! Szukasz pracy? Wystarczy ukraść samochód, płacę dobrze!',
             zh: '嘿!在找工作吗?只需要偷一辆车，我会付一大笔钱',
         },
