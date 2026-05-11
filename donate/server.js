@@ -3,18 +3,20 @@ export const server = {
         ua: 'Створено випадковий промокод ~o~{{promo}} ~w~на ~o~{{sum}} донат валюти ~w~ <br>Він буде діяти рівно ~o~5 хвилин ~w~, встигни ввести його в <br>~g~Меню > Магазин > Промокод',
         en: 'Created a random promo code ~o~{{promo}} ~w~for ~o~{{sum}} donation currency ~w~ <br>It will work for exactly ~o~5 minutes ~w~, hurry up to enter it in <br>~g~Menu > Store > Promo Code',
         ru: 'Создан случайный промокод ~o~{{promo}} ~w~на ~o~{{sum}} донат валюты ~w~ <br>Он будет работать ровно ~o~5 минут ~w~, успей ввести его в <br>~g~Меню > Магазин > Промокод',
-        de: 'Ein zufälliger Promo-Code wurde erstellt ~o~{{promo}} ~w~für ~o~{{sum}} OlympCoins ~w~ <br>Er wird genau ~o~5 Minuten ~w~ funktionieren, beeil dich, ihn einzugeben in <br>~g~Menü > Shop > Promo-Code',
+        de: 'Ein zufälliger Promo-Code wurde erstellt ~o~{{promo}} ~w~für ~o~{{sum}} OlympCoins ~w~ <br>Er ist genau ~o~5 Minuten ~w~ gültig, beeil dich, ihn einzugeben über <br>~g~M > Shop > Promo-Code',
         pl: 'Utworzono losowy kod promocyjny ~o~{{promo}} ~w~dla ~o~{{sum}} waluty donacyjnej ~w~ <br>Będzie działać przez dokładnie ~o~5 minut ~w~, śpiesz się, aby go wprowadzić w <br>~g~Menu > Sklep > Kod promocyjny',
         zh: '随机代码~o~{promo}}~w~关于~o~{sum}}货币捐赠~w~<br>它将同样有效~o~5分钟~w~，请在<br>~g~菜单>杂志>代码中输入它',
     },
+    
     donatStore: {
         ua: 'Донат магазин',
         en: 'Donation store',
         ru: 'Магазин донатов',
-        de: 'Spenden-Shop',
+        de: 'Donations-Shop',
         pl: 'Sklep donacji',
         zh: '捐赠杂志',
     },
+    
     notEnoughDonat: {
         ru: 'Недостаточно донат-валюты',
         ua: 'Недостатньо донат-валюти',
@@ -28,7 +30,7 @@ export const server = {
         ru: 'Формат номера телефона указан неверно, номер телефона должен быть от 1 до 9 символов и состоять только из цифр, формата, пример: 123456789',
         ua: 'Формат номера телефону вказано невірно, номер телефону повинен бути від 1 до 9 символів і складатися тільки з цифр, формату, приклад: 123456789',
         en: 'Incorrect phone number format, the phone number must be from 1 to 9 characters and consist only of digits, format, example: 123456789',
-        de: 'Falsches Telefonnummerformat, die Telefonnummer muss zwischen 1 und 9 Zeichen lang sein und darf nur aus Ziffern bestehen, Format, Beispiel: 123456789',
+        de: 'Falsches Telefonnummernformat. Die Telefonnummer muss zwischen 1 und 9 Zeichen lang sein und darf nur aus Ziffern bestehen. Beispiel: 123456789',
         pl: 'Niepoprawny format numeru telefonu, numer telefonu musi mieć od 1 do 9 znaków i składać się tylko z cyfr, format, przykład: 123456789',
     },
 
@@ -53,7 +55,7 @@ export const server = {
         ru: 'Вы продали {{name}} за {{price}} Olymp-Coins',
         ua: 'Ви продали {{name}} за {{price}} Olymp-Coins',
         en: 'You sold {{name}} for {{price}} Olymp-Coins',
-        de: 'Du hast {{name}} fuer {{price}} Olymp-Coins',
+        de: 'Du hast {{name}} für {{price}} Olymp-Coins verkauft',
         pl: 'Sprzedano {{name}} za {{price}} Olymp-Coins',
         zh: '您需要购买奥林普币',
     },
@@ -62,7 +64,7 @@ export const server = {
         ru: 'Вы купили {{name}} {{quantity}} шт.',
         ua: 'Ви купили {{name}} {{quantity}} шт.',
         en: 'You purchased {{name}} {{quantity}} pcs.',
-        de: 'Du hast {{name}} {{quantity}} pcs. gekauft',
+        de: 'Du hast {{name}} {{quantity}} Stk. gekauft',
         pl: 'Kupiono {{name}} {{quantity}} szt.',
         zh: '您购买了｛｛name｝｝｛｛quantity｝件',
     },
@@ -84,14 +86,14 @@ export const server = {
         pl: 'Masz już tę skórkę',
     },
 
+    //Exp
     receive: {
-        // Exp
 
         expMain: {
             ru: 'Получено {{exp}} опыта!',
             ua: 'Отримано {{exp}} досвіду!',
             en: 'Received {{exp}} experience!',
-            de: 'Erhaltene {{exp}} Erfahrung!',
+            de: '{{exp}} Erfahrung erhalten!',
             pl: 'Otrzymano {{exp}} doswiadczenia!',
             zh: '收到｛｛exp｝｝｝经验！',
         },
@@ -100,7 +102,7 @@ export const server = {
             ru: 'Получено {{exp}} опыта грузоперевозчика!',
             ua: 'Отримано {{exp}} досвіду вантажоперевізника!',
             en: 'Received {{exp}} experience for trucker!',
-            de: 'Erhaltene {{exp}} Erfahrung für Transporteur!',
+            de: '{{exp}} Trucker-Erfahrung erhalten!',
             pl: 'Otrzymano {{exp}} doswiadczenia dla dostawce!',
             zh: '获得了卡车司机的{{exp}}经验',
         },
@@ -109,7 +111,7 @@ export const server = {
             ru: 'Получено {{exp}} опыта дальнобойщика!',
             ua: 'Отримано {{exp}} досвіду далекобійника!',
             en: 'Received {{exp}} experience for trucker!',
-            de: 'Erhaltene {{exp}} Erfahrung für Transporteur!',
+            de: '{{exp}} Fernfahrer-Erfahrung erhalten!',
             pl: 'Otrzymano {{exp}} doswiadczenia dla dostawce!',
             zh: '收到｛｛exp｝｝远程玩家体验！',
         },
@@ -127,7 +129,7 @@ export const server = {
             ru: 'Получено {{exp}} опыта рыбалки!',
             ua: 'Отримано {{exp}} досвіду рибалки!',
             en: 'Received {{exp}} experience for fishing!',
-            de: 'Erhaltene {{exp}} Erfahrung für Angeln!',
+            de: '{{exp}} Angel-Erfahrung erhalten!',
             pl: 'Otrzymano {{exp}} doswiadczenia dla ryb!',
             zh: '有钓鱼经验！',
         },
@@ -136,7 +138,7 @@ export const server = {
             ru: 'Получено {{exp}} опыта охоты!',
             ua: 'Отримано {{exp}} досвіду охоти!',
             en: 'Received {{exp}} experience for hunter!',
-            de: 'Erhaltene {{exp}} Erfahrung für Jaeger!',
+            de: '{{exp}} Jagd-Erfahrung erhalten!',
             pl: 'Otrzymano {{exp}} doswiadczenia dla łowco!',
             zh: '有狩猎经验！',
         },
@@ -153,7 +155,7 @@ export const server = {
             ru: 'Получено {{exp}} опыта работы для дайвера!',
             ua: 'Отримано {{exp}} досвіду роботи для дайвера!',
             en: '{{exp}} work experience gained for the diver!',
-            de: '{{exp}} Arbeitserfahrung für den Taucher gesammelt!',
+            de: '{{exp}} Taucher-Erfahrung erhalten!',
             pl: 'Zdobyto {{exp}} doświadczenia zawodowego dla nurka!',
         },
 
@@ -169,7 +171,7 @@ export const server = {
             ru: 'Получено {{exp}} опыта грибника!',
             ua: 'Отримано {{exp}} досвіду грибника!',
             en: 'Gained {{exp}} mushrooming experience!',
-            de: '{{exp}} Pilzsammler-Erfahrung gesammelt!',
+            de: '{{exp}} Pilzsammler-Erfahrung erhalten!',
             pl: 'Zdobyto {{exp}} doświadczenia grzybiarza!',
         },
 
@@ -193,7 +195,7 @@ export const server = {
             ru: 'Получено ${{currency}}',
             ua: 'Отримано ${{currency}}',
             en: 'Received ${{currency}}',
-            de: 'Erhaltene ${{currency}}',
+            de: '${{currency}} erhalten',
             pl: 'Otrzymano ${{currency}}',
             zh: '收到${{货币}',
         },
@@ -202,7 +204,7 @@ export const server = {
             ru: 'Получено {{vehicle}}',
             ua: 'Отримано {{vehicle}}',
             en: 'Received {{vehicle}}',
-            de: 'Erhaltene {{vehicle}}',
+            de: '{{vehicle}} erhalten',
             pl: 'Otrzymano {{vehicle}}',
             zh: '收到｛｛车辆｝”中',
         },
@@ -219,20 +221,18 @@ export const server = {
             ru: 'Вы получили {{donate}} Olymp-Coins за {{hours}} часа игры',
             ua: 'Ви отримали {{donate}} Olymp-Coins за {{hours}} години гри',
             en: 'You received {{donate}} Olymp-Coins for {{hours}} hours of play',
-            de: 'Du hast {{donate}} Olymp-Coins fuer {{hours}} Stunden Spielzeit erhalten',
+            de: 'Du hast {{donate}} Olymp-Coins für {{hours}} Stunden Spielzeit erhalten!',
             pl: 'Otrzymano {{donate}} Olymp-Coins za {{hours}} godziny gry',
         },
 
-        // inventory item
         item: {
             ru: '{{item}} {{quantity}} шт. добавлен в ваш инвентарь',
             ua: '{{item}} {{quantity}} шт. додано до вашого інвентарю',
             en: '{{item}} {{quantity}} pcs. added to your inventory',
-            de: '{{item}} {{quantity}} Stk. in dein Inventar hinzugefügt',
+            de: '{{item}} {{quantity}} Stk. deinem Inventar hinzugefügt,
             pl: '{{item}} {{quantity}} szt. dodano do twojego ekwipunku',
         },
 
-        // Status
         status: {
             ru: 'Активирован {{status}} статус на {{days}} дней',
             ua: 'Активовано {{status}} статус на {{days}} днів',
@@ -241,7 +241,6 @@ export const server = {
             pl: 'Aktywowano status {{status}} na {{days}} dni',
         },
 
-        // Разблокирован скин
         skin: {
             ru: 'Разблокирован новый скин {{skin}}',
             ua: 'Розблоковано новий скін {{skin}}',
