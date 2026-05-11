@@ -163,7 +163,7 @@ export const server = {
                 ru: 'Ну езди на грязной машине теперь',
                 ua: 'Ну їздь на брудній машині тепер',
                 en: 'Well, drive a dirty car now',
-                de: 'Na gut, fahr jetzt ein schmutziges Auto',
+                de: 'Na dann, fahr halt mit deinem dreckigen Auto',
                 pl: 'No to jeździj teraz brudnym autem',
             },
             p2: {
@@ -184,7 +184,7 @@ export const server = {
                 ru: 'Передумал? Машина остается грязной',
                 ua: 'Передумав? Машина лишається брудною',
                 en: 'Changed your mind, the car stays dirty',
-                de: 'Umentschieden, das Auto bleibt schmutzig',
+                de: 'Doch nicht? Das Auto bleibt schmutzig',
                 pl: 'Zmiana zdania, auto zostaje brudne',
             },
             p5: {
@@ -226,7 +226,7 @@ export const server = {
                 ru: 'Машина вздохнула с грязью',
                 ua: 'Машина зітхнула з брудом',
                 en: 'The car sighed with dirt',
-                de: 'Das Auto seufzte mit Schmutz',
+                de: 'Das Auto bleibt dreckig',
                 pl: 'Auto westchnęło z brudem',
             },
             p11: {
