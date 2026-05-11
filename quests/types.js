@@ -30,4 +30,11 @@ export const types = {
         de: 'Fraktion',
         pl: 'Frakcyjne',
     },
+    side: {
+        ru: 'Побочные',
+        ua: 'Побічні',
+        en: 'Side',
+        de: 'Neben',
+        pl: 'Poboczne',
+    },
 };

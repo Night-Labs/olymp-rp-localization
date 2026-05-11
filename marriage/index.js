@@ -18,6 +18,14 @@ export default {
                 pl: 'Do widzenia',
                 zh: '再见',
             },
+            askPriest: {
+                ru: 'Вижу, что-то вас тревожит, отец...',
+                ua: 'Бачу, щось вас турбує, отче...',
+                en: 'I see something troubles you, father...',
+                de: 'Ich sehe, etwas bedrückt dich, Vater...',
+                pl: 'Widzę, że coś księdza trapi...',
+                zh: '我看您似乎心事重重，神父……',
+            },
         },
 
         single: {
@@ -82,6 +90,126 @@ export default {
                 de: 'Nein, zusammenbleiben',
                 pl: 'Nie, pozostać razem',
                 zh: '不，继续在一起',
+            },
+        },
+
+        priestQuest_intro: {
+            message: {
+                ru: 'Заметно, дитя моё? Тяжко на сердце у старика, и неспроста ты заглянул. Беда у меня. Не такая, с которой к мирянам обращаются, но и Господь, видно, не зря привёл тебя сюда.',
+                ua: 'Помітно, дитя моє? Тяжко на серці у старого, і недарма ти завітав. Біда в мене. Не така, з якою до мирян звертаються, та й Господь, видно, недарма привів тебе сюди.',
+                en: 'Is it that plain to see, my child? A heavy weight lies on this old man\'s heart, and it is no coincidence you have come. I am in trouble. Not the kind one shares with laymen, yet the Lord has brought you here for a reason.',
+                de: 'Sieht man es so deutlich, mein Kind? Ein schweres Gewicht liegt auf dem Herzen dieses alten Mannes, und es ist kein Zufall, dass du gekommen bist. Ich bin in Not. Nicht von der Art, die man mit Laien teilt, doch der Herr hat dich nicht ohne Grund hierher geführt.',
+                pl: 'Aż tak to widać, moje dziecko? Ciężko jest na sercu starego, i nieprzypadkowo zajrzałeś. Mam kłopot. Nie z tych, którymi dzieli się ze świeckimi, lecz Pan, widać, nie bez powodu cię tu przyprowadził.',
+            },
+            ask: {
+                ru: 'Что стряслось, отец?',
+                ua: 'Що сталося, отче?',
+                en: 'What troubles you, father?',
+                de: 'Was bedrückt dich, Vater?',
+                pl: 'Co się stało, ojcze?',
+            },
+            later: {
+                ru: 'В другой раз, отец.',
+                ua: 'Іншим разом, отче.',
+                en: 'Another time, father.',
+                de: 'Ein anderes Mal, Vater.',
+                pl: 'Innym razem, ojcze.',
+            },
+        },
+
+        priestQuest_problem: {
+            message: {
+                ru: 'Была у меня книга. Толстая, в кожаном переплёте, с медной застёжкой. Я записывал в неё то, что прихожане шептали мне в исповедальне. Не для чужих глаз, упаси Бог, для памяти моей одной - чтобы молиться за каждого по имени. Вчера, пока я служил вечерню, кто-то проник в храм и унёс её.',
+                ua: 'Була в мене книга. Товста, у шкіряній оправі, з мідною застібкою. Я записував у неї те, що парафіяни шепотіли мені на сповіді. Не для чужих очей, борони Боже, для пам\'яті моєї однієї - щоб молитися за кожного по імені. Учора, поки я служив вечірню, хтось пробрався до храму і виніс її.',
+                en: 'I had a book. Thick, bound in leather, with a brass clasp. I wrote in it what the parishioners whispered to me at confession. Not for any other eyes, God forbid, only for my own memory - to pray for each soul by name. Yesterday, while I was holding vespers, someone broke into the church and took it.',
+                de: 'Ich hatte ein Buch. Dick, in Leder gebunden, mit einer Messingspange. Ich schrieb darin nieder, was die Gemeindemitglieder mir im Beichtstuhl zuflüsterten. Nicht für fremde Augen, Gott bewahre, allein für mein Gedächtnis - damit ich für jeden bei seinem Namen beten kann. Gestern, während ich die Vesper hielt, brach jemand in die Kirche ein und nahm es mit.',
+                pl: 'Miałem księgę. Grubą, w skórzanej oprawie, z mosiężnym zatrzaskiem. Zapisywałem w niej to, co parafianie szeptali mi przy spowiedzi. Nie dla obcych oczu, broń Boże, jedynie dla mojej pamięci - abym modlił się za każdego po imieniu. Wczoraj, podczas gdy odprawiałem nieszpory, ktoś wtargnął do świątyni i ją zabrał.',
+            },
+            who: {
+                ru: 'Кто мог такое сделать?',
+                ua: 'Хто міг таке зробити?',
+                en: 'Who could have done such a thing?',
+                de: 'Wer könnte so etwas tun?',
+                pl: 'Kto mógł zrobić coś takiego?',
+            },
+            refuse: {
+                ru: 'Я не ввязываюсь в такие дела.',
+                ua: 'Я не лізу в такі справи.',
+                en: 'I do not get involved in such matters.',
+                de: 'Ich mische mich nicht in solche Angelegenheiten ein.',
+                pl: 'Nie wtrącam się w takie sprawy.',
+            },
+        },
+
+        priestQuest_thief: {
+            message: {
+                ru: 'Ни имени, ни лица я не знаю. Знаю одно: если эта книга попадёт в дурные руки - десятки людей лишатся покоя. Семьи разрушатся, дела пойдут под нож, чьи-то могилы выкопают раньше срока. На моей душе будет каждая такая судьба, дитя. Один человек, водитель грузовика из паствы моей, поутру видел чужака с мешком на плече. Тот направлялся на север, в пустыню Гранд-Сенора. Там, у самолётных обломков на шоссе 68, всякое отребье прячет краденое. Книга где-то там, я чую.',
+                ua: 'Ні імені, ні обличчя я не знаю. Знаю одне: якщо ця книга потрапить до лихих рук - десятки людей втратять спокій. Сім\'ї зруйнуються, справи підуть під ніж, чиїсь могили викопають раніше строку. На моїй душі буде кожна така доля, дитя. Один чоловік, водій вантажівки з пастви моєї, зранку бачив чужинця з мішком на плечі. Той прямував на північ, у пустелю Гранд-Сенора. Там, біля уламків літака на шосе 68, всяке покидьки ховають крадене. Книга десь там, я відчуваю.',
+                en: 'Neither name nor face do I know. I know only this: if that book falls into the wrong hands, dozens will lose their peace. Families will be torn apart, businesses cut down, graves dug before their time. Every such fate will weigh on my soul, child. One man, a trucker from my flock, saw a stranger with a sack over his shoulder at dawn. He was heading north, into the Grand Senora Desert. There, by the airplane wrecks along Route 68, all manner of scum hide their loot. The book is there somewhere, I feel it.',
+                de: 'Weder Name noch Gesicht kenne ich. Eines weiß ich nur: Wenn dieses Buch in falsche Hände gerät, verlieren Dutzende Menschen ihren Frieden. Familien zerbrechen, Geschäfte gehen kaputt, manche Gräber werden früher als nötig geschaufelt. Jedes solche Schicksal wird auf meiner Seele lasten, Kind. Ein Mann, ein Lastwagenfahrer aus meiner Gemeinde, sah am Morgen einen Fremden mit einem Sack auf der Schulter. Er ging nach Norden, in die Grand-Senora-Wüste. Dort, bei den Flugzeugwracks an der Route 68, verstecken allerlei Verbrecher ihre Beute. Das Buch ist irgendwo dort, ich fühle es.',
+                pl: 'Ani imienia, ani twarzy nie znam. Wiem jedno: jeśli ta księga trafi w nieodpowiednie ręce - dziesiątki ludzi stracą spokój. Rodziny się rozpadną, interesy pójdą pod nóż, czyjeś groby zostaną wykopane przed czasem. Na mojej duszy będzie każdy taki los, dziecko. Pewien człowiek, kierowca ciężarówki z mojej trzody, widział rano obcego z workiem na ramieniu. Szedł na północ, w pustynię Grand Senora. Tam, przy wrakach samolotów przy szosie 68, wszelaki szumowiny chowają kradzione rzeczy. Księga jest gdzieś tam, czuję to.',
+            },
+            accept: {
+                ru: 'Я найду её, отец.',
+                ua: 'Я знайду її, отче.',
+                en: 'I will find it, father.',
+                de: 'Ich werde es finden, Vater.',
+                pl: 'Znajdę ją, ojcze.',
+            },
+            reward: {
+                ru: 'А что мне за это будет?',
+                ua: 'А що мені за це буде?',
+                en: 'And what is in it for me?',
+                de: 'Und was springt für mich dabei heraus?',
+                pl: 'A co ja z tego będę miał?',
+            },
+            decline: {
+                ru: 'Извини, отец, не моё это.',
+                ua: 'Вибач, отче, не моє це.',
+                en: 'Forgive me, father, this is not my burden.',
+                de: 'Verzeih, Vater, das ist nicht meine Sache.',
+                pl: 'Wybacz, ojcze, to nie moja sprawa.',
+            },
+        },
+
+        priestQuest_reward: {
+            message: {
+                ru: 'Не золото движет тобой, я вижу. И всё же я не приму твой труд даром. В храмовой кассе скоплены скромные пожертвования - все они твои, когда вернёшь книгу. И благословение моё в придачу: оно стоит больше серебра, помяни моё слово.',
+                ua: 'Не золото рухає тобою, я бачу. І все ж я не прийму твою працю задарма. У храмовій касі зібрані скромні пожертви - усі вони твої, коли повернеш книгу. І благословення моє на додачу: воно варте більше срібла, пам\'ятай моє слово.',
+                en: 'It is not gold that drives you, I can see. And yet I will not accept your labor for nothing. In the temple\'s coffers there are humble offerings - all of them are yours when you return the book. And my blessing besides: it is worth more than silver, mark my word.',
+                de: 'Es ist nicht Gold, das dich treibt, das sehe ich. Und doch werde ich deine Mühe nicht umsonst annehmen. In der Kirchenkasse sind bescheidene Spenden gesammelt - sie alle gehören dir, sobald du das Buch zurückbringst. Und mein Segen dazu: er ist mehr wert als Silber, behalte mein Wort.',
+                pl: 'To nie złoto tobą kieruje, widzę. A jednak nie przyjmę twojego trudu za darmo. W skarbcu świątyni zebrane są skromne datki - wszystkie będą twoje, kiedy wrócisz z księgą. I moje błogosławieństwo na dodatek: warte jest więcej niż srebro, zapamiętaj me słowo.',
+            },
+            agree: {
+                ru: 'Хорошо, я согласен.',
+                ua: 'Добре, я згоден.',
+                en: 'Very well, I agree.',
+                de: 'Nun gut, ich bin einverstanden.',
+                pl: 'Dobrze, zgadzam się.',
+            },
+            think: {
+                ru: 'Подумаю.',
+                ua: 'Подумаю.',
+                en: 'I will think on it.',
+                de: 'Ich werde darüber nachdenken.',
+                pl: 'Pomyślę.',
+            },
+        },
+
+        priestQuest_accept: {
+            message: {
+                ru: 'Иди с миром, дитя. И помни: ни единой страницы из той книги не должно увидеть чужое око. Господь укрепит тебя в пути.',
+                ua: 'Іди з миром, дитя. І пам\'ятай: жодної сторінки з тієї книги не повинне побачити чуже око. Господь укріпить тебе в дорозі.',
+                en: 'Go in peace, child. And remember: not a single page of that book must meet another\'s eye. The Lord will strengthen you on the road.',
+                de: 'Geh in Frieden, Kind. Und denke daran: keine einzige Seite dieses Buches darf in fremde Augen fallen. Der Herr wird dich auf dem Weg stärken.',
+                pl: 'Idź w pokoju, dziecko. I pamiętaj: żadna strona tej księgi nie może ujrzeć obcego oka. Pan umocni cię w drodze.',
+            },
+            bless: {
+                ru: 'Благослови, отец.',
+                ua: 'Благослови, отче.',
+                en: 'Bless me, father.',
+                de: 'Segne mich, Vater.',
+                pl: 'Pobłogosław, ojcze.',
             },
         },
     },

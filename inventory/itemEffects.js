@@ -65,6 +65,13 @@ export default {
         de: 'Du hast Aktivkohle eingenommen',
         pl: 'Zażyłeś węgiel aktywowany',
     },
+    youDrankHolyWater: {
+        ru: 'Святая вода очистила вас от хвори и вернула силы',
+        ua: 'Свята вода очистила вас від хвороби та повернула сили',
+        en: 'The holy water cleansed your ailments and restored your strength',
+        de: 'Das Weihwasser hat dich von Krankheiten gereinigt und deine Kräfte zurückgegeben',
+        pl: 'Święcona woda oczyściła cię z chorób i przywróciła siły',
+    },
     // RP
 
     playerTookPills: {
@@ -81,6 +88,14 @@ export default {
         en: '{{name}} used a healing item',
         de: '{{name}} hat einen Heilgegenstand benutzt',
         pl: '{{name}} użył przedmiotu leczniczego',
+    },
+
+    playerDrankHolyWater: {
+        ru: '{{name}} сделал(а) глоток святой воды и осенил(а) себя крестом',
+        ua: '{{name}} зробив(ла) ковток святої води та перехрестив(ла)ся',
+        en: '{{name}} took a sip of holy water and crossed themselves',
+        de: '{{name}} nahm einen Schluck Weihwasser und bekreuzigte sich',
+        pl: '{{name}} wypił(a) łyk święconej wody i przeżegnał(a) się',
     },
 
     repairedVehicleAction: {

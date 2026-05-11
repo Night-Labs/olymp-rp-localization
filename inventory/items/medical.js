@@ -47,4 +47,20 @@ export default {
             pl: 'Jeśli podczas burzy dotrzesz na górę Chiliad, założysz dowolną maskę, usiądziesz na skuterze Faggio i użyjesz tego przedmiotu, aktywujesz węgiel... Tyle, że wystarczy do końca życia',
         },
     },
+    holyWater: {
+        name: {
+            ru: 'Святая вода',
+            ua: 'Свята вода',
+            en: 'Holy Water',
+            de: 'Weihwasser',
+            pl: 'Woda święcona',
+        },
+        desc: {
+            ru: 'Освящённая в храме вода. Один глоток - и тело очищается от любой хвори, а здоровье возвращается сполна. Береги её на чёрный день.',
+            ua: 'Освячена в храмі вода. Один ковток - і тіло очищується від будь-якої хвороби, а здоров\'я повертається повністю. Бережи її на чорний день.',
+            en: 'Water blessed at the temple. A single sip cleanses the body of any ailment and fully restores your health. Save it for a dark day.',
+            de: 'In der Kirche gesegnetes Wasser. Ein Schluck - und der Körper wird von jeder Krankheit befreit, deine Gesundheit voll wiederhergestellt. Heb es für schlechte Tage auf.',
+            pl: 'Woda poświęcona w świątyni. Jeden łyk - i ciało zostaje oczyszczone z każdej choroby, a zdrowie powraca w pełni. Zachowaj ją na czarną godzinę.',
+        },
+    },
 };

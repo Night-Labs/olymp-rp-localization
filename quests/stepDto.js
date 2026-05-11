@@ -110,6 +110,22 @@ export const stepDto = {
             de: 'Geh zum Schrottplatz',
             pl: 'Dostań się na złomowisko',
         },
+        desertJunkyard: {
+            ru: 'Доберись до свалки в пустыне Гранд-Сенора',
+            ua: 'Дістанься до звалища в пустелі Гранд-Сенора',
+            en: 'Get to the junkyard in the Grand Senora Desert',
+            de: 'Erreiche den Schrottplatz in der Grand-Senora-Wüste',
+            pl: 'Dotrzyj na złomowisko na pustyni Grand Senora',
+        },
+    },
+    priestQuest: {
+        search: {
+            ru: 'Обыщи свалку - дневник где-то здесь',
+            ua: 'Обшукай звалище - щоденник десь тут',
+            en: 'Search the yard - the diary is somewhere here',
+            de: 'Durchsuche den Platz - das Tagebuch ist irgendwo hier',
+            pl: 'Przeszukaj złomowisko - dziennik jest gdzieś tu',
+        },
     },
     talkWith: {
         mike: {
@@ -147,6 +163,13 @@ export const stepDto = {
             de: 'Sprich mit Old Joe',
             pl: 'Porozmawiaj ze Starym Joe',
         },
+        priest: {
+            ru: 'Поговори с отцом',
+            ua: 'Поговори з отцем',
+            en: 'Talk to the priest',
+            de: 'Sprich mit dem Priester',
+            pl: 'Porozmawiaj z ojcem',
+        },
     },
     getToTalkWith: {
         mike: {
@@ -183,6 +206,13 @@ export const stepDto = {
             en: 'Reach Old Joe to talk to him',
             de: 'Erreiche Old Joe, um mit ihm zu sprechen',
             pl: 'Dostań się do Starego Joe, aby z nim porozmawiać',
+        },
+        priest: {
+            ru: 'Доберись до отца, чтобы поговорить с ним',
+            ua: 'Дістанься до отця, щоб поговорити з ним',
+            en: 'Reach the priest to talk to him',
+            de: 'Erreiche den Priester, um mit ihm zu sprechen',
+            pl: 'Dotrzyj do ojca, aby z nim porozmawiać',
         },
     },
     buyWeapon: {

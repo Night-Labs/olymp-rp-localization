@@ -7,11 +7,13 @@ import license from './license';
 import daily from './daily';
 import factions from './factions';
 import npc from './npcs';
+import side from './side';
 
 export default {
     starting,
     daily,
     factions,
+    side,
     license,
     random,
     stepDto,
