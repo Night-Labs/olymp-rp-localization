@@ -88,6 +88,40 @@ export const server = {
             zh: '已为{{name}}设置媒体等级 {{level}}（离线）',
         },
     },
+    setName: {
+        invalid: {
+            ru: 'Имя и фамилия должны начинаться с заглавной буквы и содержать только латинские буквы (до 20 символов)',
+            ua: 'Імʼя та прізвище мають починатися з великої літери та містити лише латинські літери (до 20 символів)',
+            en: 'First and last name must start with a capital letter and contain only latin letters (up to 20 chars)',
+            de: 'Vor- und Nachname müssen mit einem Großbuchstaben beginnen und nur lateinische Buchstaben enthalten (bis zu 20 Zeichen)',
+            pl: 'Imię i nazwisko muszą zaczynać się od wielkiej litery i zawierać tylko łacińskie litery (do 20 znaków)',
+            zh: '名字必须以大写字母开头，仅包含拉丁字母（最多20个字符）',
+        },
+        success: {
+            ru: 'Имя игрока изменено на {{name}}',
+            ua: 'Імʼя гравця змінено на {{name}}',
+            en: 'Player name changed to {{name}}',
+            de: 'Spielername geändert zu {{name}}',
+            pl: 'Imię gracza zmienione na {{name}}',
+            zh: '玩家姓名已更改为{{name}}',
+        },
+        successOffline: {
+            ru: 'Имя игрока изменено на {{name}} (оффлайн)',
+            ua: 'Імʼя гравця змінено на {{name}} (офлайн)',
+            en: 'Player name changed to {{name}} (offline)',
+            de: 'Spielername geändert zu {{name}} (offline)',
+            pl: 'Imię gracza zmienione na {{name}} (offline)',
+            zh: '玩家姓名已更改为{{name}}（离线）',
+        },
+        notifyTarget: {
+            ru: 'Администратор изменил ваше имя на {{name}}',
+            ua: 'Адміністратор змінив ваше імʼя на {{name}}',
+            en: 'Administrator changed your name to {{name}}',
+            de: 'Administrator hat deinen Namen zu {{name}} geändert',
+            pl: 'Administrator zmienił twoje imię na {{name}}',
+            zh: '管理员已将你的姓名更改为{{name}}',
+        },
+    },
     giveMyDonate: {
         sent: {
             ru: 'Вы передали {{sum}} Olymp-Coins игроку {{name}}',
