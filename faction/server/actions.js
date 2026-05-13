@@ -321,6 +321,20 @@ export default {
         de: 'Alle deine Krankheiten wurden geheilt',
         pl: 'Wszystkie twoje choroby zostały wyleczone',
     },
+    youHealedPlayer: {
+        ru: 'Вы оказали медицинскую помощь {{name}}, пациент в порядке',
+        ua: 'Ви надали медичну допомогу {{name}}, пацієнт у порядку',
+        en: 'You provided medical assistance to {{name}}, the patient is stable',
+        de: 'Du hast {{name}} medizinisch versorgt, der Patient ist stabil',
+        pl: 'Udzieliłeś pomocy medycznej {{name}}, pacjent jest stabilny',
+    },
+    youWereHealed: {
+        ru: 'Доктор оказал вам медицинскую помощь, вы снова в строю',
+        ua: 'Лікар надав вам медичну допомогу, ви знову в строю',
+        en: 'The doctor patched you up — you’re back on your feet',
+        de: 'Der Arzt hat dich versorgt — du bist wieder auf den Beinen',
+        pl: 'Lekarz cię opatrzył — znów stoisz na nogach',
+    },
     checkPlayerForDiseasesAction: {
         ru: 'Осматривает {{name}} на наличие болезней',
         ua: 'Оглядає {{name}} на наявність хвороб',

@@ -243,7 +243,7 @@ export const cef = {
             ru: 'Не могу войти',
             ua: 'Не можу увійти',
             en: "Can't sign in",
-            de: 'Anmeldung fehlgeschlagen',
+            de: 'Du kannst dich nicht anmelden?',
             pl: 'Nie mogę się zalogować',
             zh: '无法登录',
         },

@@ -142,6 +142,22 @@ export const server = {
         pl: 'Aby rozpocząć wyciskanie na ławce, naciśnij',
         zh: '要开始卧推训练，请按',
     },
+    emsBedStartHealing: {
+        ru: 'Чтобы начать лечение, нажмите',
+        ua: 'Щоб почати лікування, натисніть',
+        en: 'To start healing, press',
+        de: 'Um die Behandlung zu starten, drücke',
+        pl: 'Aby rozpocząć leczenie, naciśnij',
+        zh: '开始治疗，请按',
+    },
+    emsBedStopHealing: {
+        ru: 'Чтобы прекратить лечение, нажмите',
+        ua: 'Щоб припинити лікування, натисніть',
+        en: 'To stop healing, press',
+        de: 'Um die Behandlung zu beenden, drücke',
+        pl: 'Aby przerwać leczenie, naciśnij',
+        zh: '停止治疗，请按',
+    },
     gymChinups: {
         ru: 'Чтобы начать тренировку на турнике, нажмите',
         ua: 'Щоб почати тренування на турніку, натисніть',

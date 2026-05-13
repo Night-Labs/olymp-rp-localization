@@ -236,7 +236,7 @@ export default {
         ru: 'Тихо забанить игрока по static ID, чтобы сообщение увидели только администраторы.',
         ua: 'Тихо забанити гравця за static ID, щоб повідомлення бачили лише адміністратори.',
         en: 'Silently ban a player by static ID so only administrators see the message.',
-        de: 'Einen Spieler anhand seiner static ID bannen, ohne das es Spieler mitbekommen, trozdem ist die Nachicht für Administratoren sichtbar.',
+        de: 'Einen Spieler anhand seiner static ID still bannen, sodass nur Administratoren die Nachricht sehen.',
         pl: 'Cicho zbanuj gracza po static ID, aby wiadomość widzieli tylko administratorzy.',
     },
     unban: {
@@ -652,18 +652,11 @@ export default {
         de: 'Ein Server-Objekt nach Modell, Position und Rotation erstellen; dein vorheriges Objekt aus diesem Befehl wird gelÃ¶scht.',
         pl: 'UtwÃ³rz obiekt serwerowy wedÅ‚ug modelu, pozycji i rotacji; poprzedni obiekt z tej komendy zostanie usuniÄ™ty.',
     },
-    create_object_pos_rot: {
-        ru: 'Create a server object by model, position, and rotation; your previous object from this command will be deleted.',
-        ua: 'Create a server object by model, position, and rotation; your previous object from this command will be deleted.',
-        en: 'Create a server object by model, position, and rotation; your previous object from this command will be deleted.',
-        de: 'Create a server object by model, position, and rotation; your previous object from this command will be deleted.',
-        pl: 'Create a server object by model, position, and rotation; your previous object from this command will be deleted.',
-    },
     create_particle_pos_rot: {
         ru: 'Create a looped particle effect by asset, particle name, position, and rotation; your previous particle from this command will be deleted.',
         ua: 'Create a looped particle effect by asset, particle name, position, and rotation; your previous particle from this command will be deleted.',
         en: 'Create a looped particle effect by asset, particle name, position, and rotation; your previous particle from this command will be deleted.',
-        de: 'Create a looped particle effect by asset, particle name, position, and rotation; your previous particle from this command will be deleted.',
+        de: 'Einen geloopten Partikeleffekt nach Asset, Partikelname, Position und Rotation erstellen; dein vorheriger Effekt aus diesem Befehl wird gelöscht.',
         pl: 'Create a looped particle effect by asset, particle name, position, and rotation; your previous particle from this command will be deleted.',
     },
     create_particle: {
@@ -1205,6 +1198,13 @@ export default {
         en: 'Set media level (S, A, B, D, none) for a player by static ID, including offline characters.',
         de: 'Einem Spieler anhand der static ID ein Media-Level (S, A, B, D, none) zuweisen, einschließlich Offline-Charakteren.',
         pl: 'Ustaw media level (S, A, B, D, none) dla gracza po static ID, także dla postaci offline.',
+    },
+    set_name: {
+        ru: 'Сменить игроку по static ID имя и фамилию персонажа, включая офлайн-персонажей.',
+        ua: 'Змінити гравцю за static ID імʼя та прізвище персонажа, включно з офлайн-персонажами.',
+        en: 'Change a player\'s first and last name by static ID, including offline characters.',
+        de: 'Vor- und Nachnamen eines Spielers anhand der static ID ändern, einschließlich Offline-Charakteren.',
+        pl: 'Zmień imię i nazwisko gracza po static ID, także dla postaci offline.',
     },
     model: {
         ru: 'Поставить себе новую модель или сменить модель указанному игроку онлайн.',

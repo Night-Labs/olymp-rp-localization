@@ -10,7 +10,6 @@ export default {
         pl: 'Czekaj na SMS',
         zh: '请等待短信',
     },
-    // Так называемое разнообразие
     order1: {
         ru: 'Здарова! Сегодня у нас {{model}}, цвет {{color}}, номера {{plate}}. Приблизительные данные у тебя на карте, поторопись.',
         ua: 'Здоров! Сьогодні у нас {{model}}, колір {{color}}, номери {{plate}}. Приблизні дані в тебе на мапі, поспішай.',
@@ -157,7 +156,7 @@ export default {
         ru: 'Отлично! Ты справился с заданием, ты заработал: ${{salary}} + ${{bonus}} бонус за отсутствие повреждений.',
         ua: 'Відмінно! Ти впорався із завданням, ти заробив: ${{salary}} + ${{bonus}} бонус за відсутність пошкоджень.',
         en: 'Great! You completed the task, you earned: ${{salary}} + ${{bonus}} bonus for no damage.',
-        de: 'Großartig! Du hast die Aufgabe geschafft, du hast verdient: ${{salary}} + ${{bonus}} Bonus für keine Schäden.',
+        de: 'Großartig! Du hast die Aufgabe erledigt und verdienst: ${{salary}} + ${{bonus}} Bonus für keine Schäden.',
         pl: 'Świetnie! Udało ci się wykonać zadanie, zarobiłeś: ${{salary}} + ${{bonus}} premia za brak uszkodzeń.',
     },
     dropOffBad: {
@@ -186,14 +185,14 @@ export default {
         ru: 'Внимание! Сообщено про угон автомобиля. Модель: {{model}}, номер: {{plate}}. Просьба усилить бдительность.',
         ua: 'Увага! Повідомлено про викрадення автомобіля. Модель: {{model}}, номер: {{plate}}. Просимо бути пильними.',
         en: 'Attention! A car theft has been reported. Model: {{model}}, plate: {{plate}}. Please stay alert.',
-        de: 'Achtung! Ein Autodiebstahl wurde gemeldet. Modell: {{model}}, Kennzeichen: {{plate}}. Bitte seien Sie wachsam.',
+        de: 'Achtung! Ein Autodiebstahl wurde gemeldet. Modell: {{model}}, Kennzeichen: {{plate}}. Bitte bleibt wachsam.',
         pl: 'Uwaga! Zgłoszono kradzież samochodu. Model: {{model}}, numer rejestracyjny: {{plate}}. Prosimy o czujność.',
     },
     messageForPoliceman: {
         ru: 'Отвезите угнаную машину в специальное место чтобы получить премию!',
         ua: 'Відвезіть викрадену машину в спеціальне місце щоб отримати премію!',
         en: 'Take the stolen car to a special place to get a reward!',
-        de: 'Bringen Sie das gestohlene Auto an einen besonderen Ort, um eine Belohnung zu erhalten!',
+        de: 'Bring das gestohlene Auto an einen besonderen Ort, um eine Belohnung zu erhalten!',
         pl: 'Zawieź skradziony samochód do specjalnego miejsca, aby otrzymać nagrodę!',
         zh: '把偷来的车带到一个特别的地方换钱!',
     },
@@ -227,7 +226,7 @@ export default {
         ru: 'Подождите {{time}}',
         ua: 'Зачекайте {{time}}',
         en: 'Wait {{time}}',
-        de: 'Warten Sie {{time}}',
+        de: 'Warte {{time}}',
         pl: 'Czekaj {{time}}',
         zh: '等待{{time}}',
     },
@@ -239,8 +238,6 @@ export default {
         pl: 'Spróbuj ponownie później',
         zh: '请稍后在尝试',
     },
-
-    //
     header: {
         ru: 'Автоугонщик',
         ua: 'Автовикрадач',
@@ -255,8 +252,6 @@ export default {
         de: 'Verbleibende Zeit',
         pl: 'Pozostało czasu',
     },
-
-    //
     hudAction: {
         ru: 'Начать взлом',
         ua: 'Почати злам',
@@ -268,7 +263,7 @@ export default {
         ru: 'У вас нет отмычки',
         ua: 'У вас немає відмички',
         en: "You don't have a lockpick",
-        de: 'Du hast kein Dietrich',
+        de: 'Du hast keinen Dietrich',
         pl: 'Nie masz wytrychu',
     },
     yourLockpickBroken: {
@@ -299,8 +294,6 @@ export default {
         de: 'Gestohlenes Fahrzeug',
         pl: 'Skradziony pojazd',
     },
-
-    //
     timeOutSms: {
         ru: 'Похоже ты не успел доставить машину во время, ты подвёл нас.',
         ua: 'Схоже, ти не встиг доставити машину вчасно, ти підвів нас.',

@@ -27,6 +27,13 @@ export default {
         de: 'Drohnenakku ist leer',
         pl: 'Bateria drona jest rozładowana',
     },
+    inInterior: {
+        ru: 'Нельзя запускать дрон в помещении',
+        ua: 'Не можна запускати дрон у приміщенні',
+        en: 'You cannot launch a drone indoors',
+        de: 'Du kannst die Drohne nicht in Innenräumen starten',
+        pl: 'Nie możesz uruchomić drona w pomieszczeniu',
+    },
     cantDoWhileFlying: {
         ru: 'Нельзя делать это пока вы управляете дроном',
         ua: 'Не можна робити це, поки ви керуєте дроном',

@@ -94,6 +94,13 @@ export default {
         de: '{{name}} wird dich für ${{sum}} heilen',
         pl: '{{name}} wyleczy cię za ${{sum}}',
     },
+    healPlayer: {
+        ru: '{{name}} предлагает оказать вам медицинскую помощь за ${{sum}}',
+        ua: '{{name}} пропонує надати вам медичну допомогу за ${{sum}}',
+        en: '{{name}} offers to provide you with medical assistance for ${{sum}}',
+        de: '{{name}} bietet dir medizinische Hilfe für ${{sum}} an',
+        pl: '{{name}} oferuje ci pomoc medyczną za ${{sum}}',
+    },
 
     //
     showBadge: {

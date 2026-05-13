@@ -7,6 +7,43 @@ export default {
         pl: 'EMS',
         zh:'EMS',
     },
+    elevator: {
+        title: {
+            ru: 'Лифт EMS',
+            ua: 'Ліфт EMS',
+            en: 'EMS Elevator',
+            de: 'EMS-Aufzug',
+            pl: 'Winda EMS',
+        },
+        goToFirst: {
+            ru: 'Первый этаж',
+            ua: 'Перший поверх',
+            en: 'First floor',
+            de: 'Erstes Stockwerk',
+            pl: 'Pierwsze piętro',
+        },
+        goToSecond: {
+            ru: 'Второй этаж',
+            ua: 'Другий поверх',
+            en: 'Second floor',
+            de: 'Zweites Stockwerk',
+            pl: 'Drugie piętro',
+        },
+        goToThird: {
+            ru: 'Третий этаж',
+            ua: 'Третій поверх',
+            en: 'Third floor',
+            de: 'Drittes Stockwerk',
+            pl: 'Trzecie piętro',
+        },
+        goToFourth: {
+            ru: 'Четвёртый этаж',
+            ua: 'Четвертий поверх',
+            en: 'Fourth floor',
+            de: 'Viertes Stockwerk',
+            pl: 'Czwarte piętro',
+        },
+    },
     ranks: {
         student: {
             ru: 'Студент',

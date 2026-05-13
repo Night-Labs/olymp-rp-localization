@@ -1,4 +1,11 @@
 export const server = {
+    church: {
+        ru: 'Церковь',
+        ua: 'Церква',
+        en: 'Church',
+        de: 'Kirche',
+        pl: 'Kościół',
+    },
     automarket: {
         ua: 'Авторинок',
         en: 'Automarket',
