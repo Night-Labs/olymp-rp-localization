@@ -15,7 +15,7 @@ export default {
         ru: 'Для начала выйди из админки',
         ua: 'Для початку вийди з адмінки',
         en: 'First, get out of the admin panel',
-        de: 'Gehe zuerst aus dem Adminmodus raus',
+        de: 'Verlasse zuerst den Adminmodus',
         pl: 'Najpierw wyjdź z panelu administratora',
     },
 };
