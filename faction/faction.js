@@ -132,6 +132,14 @@ export const faction = {
             pl: 'Przerwałeś leczenie',
             zh: '你停止了治疗',
         },
+        patientArrived: {
+            ru: 'В больницу поступил пациент: {{name}}',
+            ua: 'До лікарні надійшов пацієнт: {{name}}',
+            en: 'New patient at the hospital: {{name}}',
+            de: 'Neuer Patient im Krankenhaus: {{name}}',
+            pl: 'Nowy pacjent w szpitalu: {{name}}',
+            zh: '医院新患者：{{name}}',
+        },
     },
     startedRespawnVehicles: {
         ru: 'Вы запустили респавн всех фракционных машин, он будет через минуту',
