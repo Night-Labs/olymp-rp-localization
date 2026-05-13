@@ -123,7 +123,7 @@ export default {
             ru: 'Купить {{name}} за {{donate}} Olymp-Coins',
             ua: 'Купити {{name}} за {{donate}} Olymp-Coins',
             en: 'Buy {{name}} for {{donate}} Olymp-Coins',
-            de: 'Kaufen {{name}} für {{donate}} Olymp-Coins',
+            de: '{{name}} für {{donate}} Olymp-Coins kaufen',
             pl: 'Kup {{name}} za {{donate}} Olymp-Coins',
             zh: '用捐赠的方式购买Olymp币',
         },
