@@ -31,7 +31,7 @@
         'ru': 'Вы замутили игрока {{name}} на {{minutes}} по причине {{reason}}',
         'ua': 'Ви замутили гравця {{name}} на {{minutes}} хвилин через {{reason}}',
         'en': 'You have muted player {{name}} for {{minutes}} minutes for {{reason}}',
-        'de': '„Du hast den Spieler {{name}} für {{minutes}} Minuten aus folgendem Grund stummgeschaltet: {{reason}}',
+        'de': 'Du hast den Spieler {{name}} für {{minutes}} Minuten aus folgendem Grund stummgeschaltet: {{reason}}',
         'pl': 'Uciszyłeś gracza {{name}} na {{minutes}} minut z powodu {{reason}}',
     },
     mutedOfflineNotify: {
