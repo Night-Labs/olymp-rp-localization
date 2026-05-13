@@ -477,6 +477,14 @@ export const cef = {
         pl: 'Suma cenowa:',
         zh: '总价:',
     },
+    saved: {
+        ru: 'сэкономлено',
+        ua: 'заощаджено',
+        en: 'saved',
+        de: 'gespart',
+        pl: 'zaoszczędzono',
+        zh: '已节省',
+    },
     weapons: {
         name: {
             ru: 'Оружия',

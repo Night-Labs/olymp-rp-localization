@@ -94,6 +94,7 @@ import battlePass from './battlePass';
 import vehicleInfo from './vehicleInfo';
 import carInsurance from './carInsurance';
 import marriage from './marriage';
+import canteen from './canteen';
 
 export default {
     account,
@@ -192,6 +193,7 @@ export default {
     vehicleInfo,
     carInsurance,
     marriage,
+    canteen,
 };
 
 
