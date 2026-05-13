@@ -84,6 +84,14 @@ export const server = {
         pl: 'Masz już tę skórkę',
     },
 
+    alreadyHasTattoo: {
+        ru: 'Эта эксклюзивная тату уже разблокирована',
+        ua: 'Це ексклюзивне тату вже розблоковане',
+        en: 'This exclusive tattoo is already unlocked',
+        de: 'Dieses exklusive Tattoo ist bereits freigeschaltet',
+        pl: 'Ten ekskluzywny tatuaż jest już odblokowany',
+    },
+
     receive: {
         // Exp
 
@@ -248,6 +256,15 @@ export const server = {
             en: 'Unlocked new skin {{skin}}',
             de: 'Neuer Skin {{skin}} freigeschaltet',
             pl: 'Odblokowano nową skórkę {{skin}}',
+        },
+
+        // Разблокирована эксклюзивная тату
+        tattoo: {
+            ru: 'Разблокирована эксклюзивная тату {{tattoo}}',
+            ua: 'Розблоковано ексклюзивне тату {{tattoo}}',
+            en: 'Unlocked exclusive tattoo {{tattoo}}',
+            de: 'Exklusives Tattoo {{tattoo}} freigeschaltet',
+            pl: 'Odblokowano ekskluzywny tatuaż {{tattoo}}',
         },
     },
 };
