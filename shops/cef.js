@@ -137,6 +137,13 @@ export const cef = {
         pl: 'Kupić',
         zh: '购买',
     },
+    locked: {
+        ru: 'Заблокировано',
+        ua: 'Заблоковано',
+        en: 'Locked',
+        de: 'Gesperrt',
+        pl: 'Zablokowane',
+    },
     primaryColor: {
         ru: 'Основной цвет',
         ua: 'Основний колір',
