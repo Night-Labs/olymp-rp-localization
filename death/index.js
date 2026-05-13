@@ -39,12 +39,11 @@ export default {
         ru: 'При выборе этого пункта будет запущен таймер в {{time}} минут, после чего вы попадете в ближайшую больницу',
         ua: 'При виборі цього пункту буде запущений таймер на {{time}} хвилин, після чого ви потрапите до найближчої лікарні',
         en: 'Choosing this option will start a {{time}} minute timer, after which you will be taken to the nearest hospital',
-        de: 'Wenn du diese Option wählst, wird ein {{time}}-Minuten-Timer gestartet, nach dessen Ablauf du ins nächste Krankenhaus gebracht werden',
+        de: 'Wenn du diese Option wählst, wird ein {{time}}-Minuten-Timer gestartet, nach dessen Ablauf du ins nächste Krankenhaus gebracht',
         pl: 'Wybranie tej opcji uruchomi licznik {{time}} minutowy, po którym zostaniesz przetransportowany do najbliższego szpitala',
         zh:'如果你选择了这个，你将在15分钟后被送进最近的医院',
     },
 
-    // TODO ПЕРЕНЕСТИ В factions/ems (просто его нет ещё а там дебаг ещё не сверстал шоб конликфтов не было)
     successfulResuscitation: {
         ru: 'Вы успешно реанимировали игрока {{name}}',
         ua: 'Ви успішно реанімували гравця {{name}}',
