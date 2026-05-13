@@ -41,7 +41,7 @@ export const animations = {
         ru: 'Быстрый доступ',
         ua: 'Швидкий доступ',
         en: 'Fast access',
-        de: 'Schnell Zugriff',
+        de: 'Schnellzugriff',
         pl: 'Szybki dostęp',
        zh:'快捷访问',
     },
