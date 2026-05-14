@@ -1297,6 +1297,28 @@ export const weapons = {
             },
         },
 
+        heavysniper_mk2: {
+            name: {
+                ru: 'Тяжёлая снайперская винтовка Mk II',
+                ua: 'Важка снайперська гвинтівка Mk II',
+                en: 'Heavy Sniper Mk II',
+                de: 'Schweres Scharfschützengewehr Mk II',
+                pl: 'Ciężki karabin snajperski Mk II',
+                zh: 'Mk II重型狙击步枪',
+            },
+        },
+
+        carbinerifle_mk2: {
+            name: {
+                ru: 'Карабин Mk II',
+                ua: 'Карабін Mk II',
+                en: 'Carbine Rifle Mk II',
+                de: 'Karabiner-Gewehr Mk II',
+                pl: 'Karabin szturmowy Mk II',
+                zh: 'Mk II卡宾枪',
+            },
+        },
+
         precisionrifle: {
             name: {
                 ru: 'Прецизионная винтовка',

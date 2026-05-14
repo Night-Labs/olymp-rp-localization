@@ -851,6 +851,13 @@ export const cef = {
                 de: 'Maschinenpistolen',
                 pl: 'Pistolety maszynowe',
             },
+            lightMachineGuns: {
+                ru: 'Пулемёты',
+                ua: 'Кулемети',
+                en: 'Machine Guns',
+                de: 'Maschinengewehre',
+                pl: 'Karabiny maszynowe',
+            },
             sniperRifles: {
                 ru: 'Снайперские винтовки',
                 ua: 'Снайперські гвинтівки',
