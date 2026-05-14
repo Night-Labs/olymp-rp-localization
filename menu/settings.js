@@ -608,6 +608,13 @@ export const settings = {
         de: 'Passt die Lautstärke aller Musikplayer in der Spielwelt an',
         pl: 'Reguluje głośność wszystkich odtwarzaczy muzyki w świecie gry',
     },
+    animationsVolumeDesc: {
+        ru: 'Регулирует громкость звуков танцевальных анимаций - как ваших, так и других игроков рядом',
+        ua: 'Регулює гучність звуків танцювальних анімацій - як ваших, так і інших гравців поруч',
+        en: 'Adjusts the volume of dance animation sounds - both yours and other nearby players',
+        de: 'Passt die Lautstärke der Tanzanimationsgeräusche an - sowohl deiner als auch anderer Spieler in der Nähe',
+        pl: 'Reguluje głośność dźwięków animacji tanecznych - zarówno twoich, jak i innych graczy w pobliżu',
+    },
     playerVoiceVolumeDesc: {
         ru: 'Регулирует громкость обычного голосового чата игроков рядом с вами',
         ua: 'Регулює гучність звичайного голосового чату гравців поруч із вами',
@@ -1087,6 +1094,13 @@ export const settings = {
         en: 'Music Player Volume',
         de: 'Lautstärke der Musikplayer',
         pl: 'Głośność odtwarzaczy muzyki',
+    },
+    animationsVolume: {
+        ru: 'Громкость анимаций',
+        ua: 'Гучність анімацій',
+        en: 'Animations Volume',
+        de: 'Animationen-Lautstärke',
+        pl: 'Głośność animacji',
     },
     playerVoiceVolume: {
         ru: 'Громкость голоса игроков',
