@@ -128,6 +128,68 @@ export default {
             zh: '用捐赠的方式购买Olymp币',
         },
 
+        buyTitle: {
+            ru: 'Покупка предмета',
+            ua: 'Покупка предмету',
+            en: 'Buy item',
+            de: 'Artikel kaufen',
+            pl: 'Zakup przedmiotu',
+            zh: '购买物品',
+        },
+
+        receiveTitle: {
+            ru: 'Получение предмета',
+            ua: 'Отримання предмета',
+            en: 'Receive item',
+            de: 'Artikel erhalten',
+            pl: 'Odbiór przedmiotu',
+            zh: '获得物品',
+        },
+
+        sellTitle: {
+            ru: 'Продажа предмета',
+            ua: 'Продаж предмета',
+            en: 'Sell item',
+            de: 'Artikel verkaufen',
+            pl: 'Sprzedaż przedmiotu',
+            zh: '出售物品',
+        },
+
+        body: {
+            buy: {
+                ru: 'Купить',
+                ua: 'Купити',
+                en: 'Buy',
+                de: 'Kaufen',
+                pl: 'Kup',
+                zh: '购买',
+            },
+            for: {
+                ru: 'за',
+                ua: 'за',
+                en: 'for',
+                de: 'für',
+                pl: 'za',
+                zh: '换',
+            },
+            receive: {
+                ru: 'Получить',
+                ua: 'Отримати',
+                en: 'Receive',
+                de: 'Empfangen',
+                pl: 'Otrzymać',
+                zh: '获得',
+            },
+            sell: {
+                ru: 'Продать',
+                ua: 'Продати',
+                en: 'Sell',
+                de: 'Verkaufen',
+                pl: 'Sprzedać',
+                zh: '出售',
+            },
+        },
+
         yes: {
             ru: 'Да',
             ua: 'Так',
