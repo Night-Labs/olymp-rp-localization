@@ -11,6 +11,7 @@ import { contracts } from './contracts';
 import { tree } from './tree';
 import { menu } from './menu';
 import { vehicles } from './vehicles';
+import { logs } from './logs';
 
 export default {
     ranks,
@@ -26,4 +27,5 @@ export default {
     tree,
     menu,
     vehicles,
+    logs,
 };
