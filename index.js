@@ -95,6 +95,7 @@ import vehicleInfo from './vehicleInfo';
 import carInsurance from './carInsurance';
 import marriage from './marriage';
 import canteen from './canteen';
+import sewingFactory from './sewingFactory';
 
 export default {
     account,
@@ -194,6 +195,7 @@ export default {
     carInsurance,
     marriage,
     canteen,
+    sewingFactory,
 };
 
 

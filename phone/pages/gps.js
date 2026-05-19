@@ -171,4 +171,11 @@ export default {
         de: 'Fastfood',
         pl: 'Fast food',
     },
+    contracts: {
+        ru: 'Контракты',
+        ua: 'Контракти',
+        en: 'Contracts',
+        de: 'Vertraege',
+        pl: 'Kontrakty',
+    },
 };

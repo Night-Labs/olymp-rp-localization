@@ -128,18 +128,18 @@ export default {
 
         // New
         pills: {
-            ru: 'Я болен, нужны таблетки',
-            ua: 'Я хворий, потрібні пігулки',
-            en: "I'm sick, I need some pills",
-            de: 'Ich bin krank, ich brauche Tabletten',
-            pl: 'Jestem chory, potrzebuję tabletek',
+            ru: 'Хочу купить таблетки от простуды',
+            ua: 'Хочу купити пігулки від застуди',
+            en: 'I want to buy some cold pills',
+            de: 'Ich möchte Tabletten gegen Erkältung kaufen',
+            pl: 'Chcę kupić tabletki na przeziębienie',
         },
         okayICanSellYouPills: {
-            ru: 'Сейчас нет докторов на работе, но я с радостью продам вам таблетки от простуды, сколько вам нужно?',
-            ua: 'Зараз немає лікарів на зміні, але я з радістю продам тобі пігулки від застуди, скільки тобі потрібно?',
-            en: 'There are no doctors on duty right now, but I’ll gladly sell you some cold pills. How many do you need?',
-            de: 'Gerade sind keine Ärzte im Dienst, aber ich verkaufe dir gern Tabletten gegen Erkältung. Wie viele brauchst du?',
-            pl: 'Teraz nie ma lekarzy w pracy, ale chętnie sprzedam ci tabletki na przeziębienie. Ile potrzebujesz?',
+            ru: 'Без проблем, продам таблетки от простуды. Только учтите, цена будет втрое выше, чем у наших докторов. Сколько вам нужно?',
+            ua: 'Без проблем, продам пігулки від застуди. Тільки врахуйте, ціна буде втричі вища, ніж у наших лікарів. Скільки тобі потрібно?',
+            en: 'No problem, I can sell you some cold pills. Just note the price will be three times higher than at our doctors. How many do you need?',
+            de: 'Kein Problem, ich verkaufe dir gern Erkältungstabletten. Beachte aber, der Preis ist dreimal so hoch wie bei unseren Ärzten. Wie viele brauchst du?',
+            pl: 'Bez problemu, sprzedam tabletki na przeziębienie. Pamiętaj jednak, cena będzie trzy razy wyższa niż u naszych lekarzy. Ile potrzebujesz?',
         },
         '1pcs': {
             ru: '1 штука',
