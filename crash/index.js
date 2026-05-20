@@ -19,7 +19,7 @@ export default {
         ru: 'Авто-вывод',
         en: 'Auto-withdraw',
         ua: 'Авто-вивід',
-        de: 'Automatischer Auszahlung',
+        de: 'Automatische Auszahlung',
         pl: 'Automatyczne wycofywanie',
         zh:'自动提款',
     },
@@ -45,7 +45,7 @@ export default {
         ua: 'Недоступно',
         de: 'Nicht verfügbar',
         pl: 'Niedostępne',
-        zhz:'不可用',
+        zh:'不可用',
     },
     playersBets: {
         ru: 'Ставки игроков',
