@@ -35,7 +35,7 @@ export default {
         ru: 'Работает грузоперевозчиком',
         ua: 'Працює вантажоперевізником',
         en: 'Works as a freight carrier',
-        de: 'Arbeitet als Frachttransporteur',
+        de: 'Arbeitet als Spediteur',
         pl: 'Pracuje jako przewoźnik towarów',
         zh:'载货的卡车司机',
     },
