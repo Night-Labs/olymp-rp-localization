@@ -3,7 +3,7 @@ export const server = {
         ua: 'Створено випадковий промокод ~o~{{promo}} ~w~на ~o~{{sum}} донат валюти ~w~ <br>Він буде діяти рівно ~o~5 хвилин ~w~, встигни ввести його в <br>~g~Меню > Магазин > Промокод',
         en: 'Created a random promo code ~o~{{promo}} ~w~for ~o~{{sum}} donation currency ~w~ <br>It will work for exactly ~o~5 minutes ~w~, hurry up to enter it in <br>~g~Menu > Store > Promo Code',
         ru: 'Создан случайный промокод ~o~{{promo}} ~w~на ~o~{{sum}} донат валюты ~w~ <br>Он будет работать ровно ~o~5 минут ~w~, успей ввести его в <br>~g~Меню > Магазин > Промокод',
-        de: 'Ein zufälliger Promo-Code wurde erstellt ~o~{{promo}} ~w~für ~o~{{sum}} OlympCoins ~w~ <br>Er ist genau ~o~5 Minuten ~w~ gültig, beeil dich, ihn einzugeben über <br>~g~M > Shop > Promo-Code kannst ihn eingeben',
+        de: 'Ein zufälliger Promo-Code wurde erstellt: ~o~{{promo}} ~w~dieser gibt dir ~o~{{sum}} OlympCoins. ~w~ <br>Er ist genau ~o~5 Minuten ~w~ gültig, beeil dich und gib ihn über <br>~g~M > Shop > Promo-Code ein.',
         pl: 'Utworzono losowy kod promocyjny ~o~{{promo}} ~w~dla ~o~{{sum}} waluty donacyjnej ~w~ <br>Będzie działać przez dokładnie ~o~5 minut ~w~, śpiesz się, aby go wprowadzić w <br>~g~Menu > Sklep > Kod promocyjny',
         zh: '随机代码~o~{promo}}~w~关于~o~{sum}}货币捐赠~w~<br>它将同样有效~o~5分钟~w~，请在<br>~g~菜单>杂志>代码中输入它',
     },
