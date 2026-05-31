@@ -28,7 +28,6 @@ export default {
             de: 'Nein',
             pl: 'Nie',
         },
-        //
         niceSoStartWork: {
             ru: 'Отлично! Сейчас мы дадим тебе нужное снаряжение и можешь идти в плавание',
             ua: 'Чудово! Зараз ми дамо тобі необхідне спорядження, і можеш вирушати в плавання',
@@ -65,7 +64,6 @@ export default {
             pl: 'Dobrze, pa',
         },
 
-        //
         info: {
             ru: 'После устройства мы выдаём тебе снаряжение для дайвинга. Ты идёшь плавать на дно морское и искать разные сокровища. Сколько найдёшь - столько и унесёшь с собой. Продать найденное ты можешь у скупщика',
             ua: 'Після влаштування ми видаємо тобі спорядження для дайвінгу. Ти пірнаєш на морське дно та шукаєш різні скарби. Скільки знайдеш - стільки й забереш із собою. Продати знайдене можна у скупника',
@@ -81,7 +79,6 @@ export default {
             pl: 'Zrozumiałem',
         },
 
-        //
         alreadyJob: {
             ru: 'К сожалению ты уже где-то работаешь, сначала уволься там',
             ua: 'На жаль, ти вже десь працюєш - спершу звільнись там',
@@ -166,7 +163,6 @@ export default {
             pl: 'Dobrze',
         },
     },
-    //
     blip: {
         ru: 'Работа водолаза',
         ua: 'Робота водолаза',
@@ -186,7 +182,7 @@ export default {
             ru: 'Отправляйтесь на поиски предметов на дне океана',
             ua: 'Вирушайте на пошуки предметів на дні океану',
             en: 'Embark on a quest for items at the bottom of the ocean',
-            de: 'Begeben Sie sich auf die Suche nach Gegenständen auf dem Meeresgrund',
+            de: 'Begib dich auf die Suche nach Gegenständen auf dem Meeresgrund',
             pl: 'Wyrusz na poszukiwanie przedmiotów na dnie oceanu',
         },
         earned: {

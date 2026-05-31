@@ -71,7 +71,7 @@ export default {
         pl: 'Osoba, do której dzwoniłeś, została reanimowana, rozmowa jest anulowana.',
         zh: '和你打电话的人改名了，通话自动挂断',
     },
-
+    
     youReanimated: {
         ru: 'Вы реанимировали человека по вызову, ваша награда ${{reward}}',
         ua: 'Ви реанімували людину за викликом, ваша нагорода ${{reward}}',
@@ -87,8 +87,6 @@ export default {
         de: 'Die Person vom Einsatz hat die Einsatzzone verlassen, der Einsatz wurde abgebrochen.',
         pl: 'Osoba wezwana opuściła strefę wezwania, wezwanie zostało anulowane.',
     },
-
-    //
     policeQuit: {
         ru: 'Полицейский, который отправлялся к вам, пропал без вести, к вам будет направлен другой полицейский.',
         ua: 'Поліцейський, який прямував до вас, зник безвісти, до вас буде направлений інший поліцейський.',
@@ -96,6 +94,7 @@ export default {
         de: 'Der Polizist, der zu dir unterwegs war, ist verschwunden. Ein anderer Polizist wird zu dir geschickt.',
         pl: 'Policjant, który zmierzał do ciebie, zaginął. Zostanie wysłany inny policjant.',
     },
+    
     playerDeathPolice: {
         ru: 'Человек по вашему вызову погиб, вызов отменён.',
         ua: 'Людина за вашим викликом загинула, виклик скасовано.',
@@ -107,7 +106,7 @@ export default {
         ru: 'Полицейский прибыл по вашему вызову',
         ua: 'Поліцейський прибув за вашим викликом',
         en: 'The police officer has arrived at your call',
-        de: 'Der Polizist ist an deinem Militärpass eingetroffen',
+        de: 'Der Polizist ist an deinem Standort eingetroffen',
         pl: 'Policjant przybył na twoje wezwanie',
     },
 };

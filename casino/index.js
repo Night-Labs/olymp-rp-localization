@@ -15,7 +15,7 @@ export default {
         ru: 'Баланс:',
         ua: 'Баланс:',
         en: 'Balance:',
-        de: 'Saldo:',
+        de: 'Guthaben:',
         pl: 'Bilans:',
        zh:'余额:',
     },
@@ -105,7 +105,7 @@ export default {
             ua: 'Напої',
             en: 'Drinks',
             de: 'Getränke',
-            pl: 'Napoży',
+            pl: 'Napoje',
             zh:'饮料',
         },
 
