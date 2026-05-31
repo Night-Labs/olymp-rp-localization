@@ -92,6 +92,14 @@ export const server = {
         pl: 'Ten ekskluzywny tatuaż jest już odblokowany',
     },
 
+    alreadyHasAnimation: {
+        ru: 'Эта эксклюзивная анимация уже разблокирована',
+        ua: 'Ця ексклюзивна анімація вже розблокована',
+        en: 'This exclusive animation is already unlocked',
+        de: 'Diese exklusive Animation ist bereits freigeschaltet',
+        pl: 'Ta ekskluzywna animacja jest już odblokowana',
+    },
+
     receive: {
 
         expMain: {
@@ -268,6 +276,14 @@ export const server = {
             en: 'Unlocked exclusive tattoo {{tattoo}}',
             de: 'Exklusives Tattoo {{tattoo}} freigeschaltet',
             pl: 'Odblokowano ekskluzywny tatuaż {{tattoo}}',
+        },
+
+        animation: {
+            ru: 'Разблокирована эксклюзивная анимация {{animation}}',
+            ua: 'Розблоковано ексклюзивну анімацію {{animation}}',
+            en: 'Unlocked exclusive animation {{animation}}',
+            de: 'Exklusive Animation {{animation}} freigeschaltet',
+            pl: 'Odblokowano ekskluzywną animację {{animation}}',
         },
 
         // Получен кейс (например, награда из BP)
