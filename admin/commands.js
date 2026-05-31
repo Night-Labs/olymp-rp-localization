@@ -841,6 +841,13 @@ export default {
         de: 'Einem Spieler anhand seiner static ID einen Gegenstand mit Menge und optionalem Stil geben.',
         pl: 'Daj przedmiot graczowi po static ID z ilością i opcjonalnym stylem.',
     },
+    clear_inventory: {
+        ru: 'Очистить инвентарь игрока: all (по умолчанию), slots, backpack или weapons.',
+        ua: 'Очистити інвентар гравця: all (за замовчуванням), slots, backpack або weapons.',
+        en: 'Clear a player inventory: all (default), slots, backpack or weapons.',
+        de: 'Inventar des Spielers leeren: all (Standard), slots, backpack oder weapons.',
+        pl: 'Wyczyść ekwipunek gracza: all (domyślnie), slots, backpack lub weapons.',
+    },
     give_faction_item: {
         ru: 'Выдать предмет на склад фракции по её ID или имени.',
         ua: 'Видати предмет на склад фракції за її ID або назвою.',
@@ -973,6 +980,13 @@ export default {
         en: 'Add donation currency to a character by static ID, even if they are offline.',
         de: 'Donat-Währung einem Charakter anhand seiner static ID gutschreiben, auch wenn er offline ist.',
         pl: 'Dodaj walutę donacyjną postaci po static ID, nawet jeśli jest offline.',
+    },
+    reset_daily_case: {
+        ru: 'Сбросить дату получения ежедневного кейса игроку по static ID (онлайн или оффлайн).',
+        ua: 'Скинути дату отримання щоденного кейса гравцю за static ID (онлайн або офлайн).',
+        en: 'Reset the daily case receipt date for a player by static ID (online or offline).',
+        de: 'Das Empfangsdatum der täglichen Kiste eines Spielers per static ID zurücksetzen (online oder offline).',
+        pl: 'Zresetuj datę otrzymania codziennej skrzynki gracza po static ID (online lub offline).',
     },
     give_my_donate: {
         ru: 'Передать часть своей донат-валюты игроку по static ID.',

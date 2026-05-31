@@ -150,6 +150,14 @@ export const cases = {
             pl: 'Inne',
             zh: '其他',
         },
+        exclusive: {
+            ru: 'Эксклюзивные',
+            ua: 'Ексклюзивні',
+            en: 'Exclusive',
+            de: 'Exklusiv',
+            pl: 'Ekskluzywne',
+            zh: '独家',
+        },
     },
 
     cases: {
@@ -585,6 +593,23 @@ export const cases = {
                 en: 'In this case, you can try your luck and get a unique skin for your armour vest.',
                 de: 'In dieser Kiste kannst du dein Glück versuchen und einen einzigartigen Skin für deine Panzerweste erhalten.',
                 pl: 'W tym przypadku możesz spróbować szczęścia i zdobyć unikalny skin dla swojej kamizelki kuloodpornej.',
+            },
+        },
+
+        summer2026: {
+            name: {
+                ru: 'Лето 2026',
+                ua: 'Літо 2026',
+                en: 'Summer 2026',
+                de: 'Sommer 2026',
+                pl: 'Lato 2026',
+            },
+            desc: {
+                ru: 'Кейс из первого боевого пропуска на проекте. Внутри собраны эксклюзивные награды Олимпа: уникальная одежда, татуировки, скины оружия и брони, а также танцевальные анимации.',
+                ua: 'Кейс із першого бойового пропуску на проєкті. Усередині зібрані ексклюзивні нагороди Олімпу: унікальний одяг, татуювання, скіни зброї та броні, а також танцювальні анімації.',
+                en: 'A case from the first battle pass on the project. Inside you will find the exclusive rewards of Olymp: unique clothing, tattoos, weapon and armour skins, as well as dance animations.',
+                de: 'Eine Kiste aus dem ersten Battle Pass auf dem Projekt. Darin findest du die exklusiven Belohnungen des Olymps: einzigartige Kleidung, Tattoos, Waffen und Rüstungsskins sowie Tanzanimationen.',
+                pl: 'Skrzynia z pierwszego Battle Pass na projekcie. W środku znajdziesz ekskluzywne nagrody Olimpu: unikalne ubrania, tatuaże, skiny broni i kamizelek oraz animacje taneczne.',
             },
         },
     },

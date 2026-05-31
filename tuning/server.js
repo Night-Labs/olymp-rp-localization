@@ -87,4 +87,38 @@ export const server = {
             zh: '否',
         },
     },
+    adminTempModal: {
+        title: {
+            ru: 'Заехать в LSC',
+            ua: 'Заїхати в LSC',
+            en: 'Enter LSC',
+            de: 'In LSC einfahren',
+            pl: 'Wjedź do LSC',
+            zh: '进入 LSC',
+        },
+        message: {
+            ru: 'Тюнинг этого авто будет временным и не будет сохранён в базу данных.',
+            ua: 'Тюнінг цього авто буде тимчасовим і не збережеться в базу даних.',
+            en: 'Tuning on this vehicle will be temporary and will not be saved to the database.',
+            de: 'Das Tuning dieses Fahrzeugs ist temporär und wird nicht in der Datenbank gespeichert.',
+            pl: 'Tuning tego pojazdu będzie tymczasowy i nie zostanie zapisany w bazie danych.',
+            zh: '此车辆的改装将是临时的，不会保存到数据库。',
+        },
+        confirmButton: {
+            ru: 'Заехать',
+            ua: 'Заїхати',
+            en: 'Enter',
+            de: 'Einfahren',
+            pl: 'Wjedź',
+            zh: '进入',
+        },
+        cancelButton: {
+            ru: 'Отмена',
+            ua: 'Скасувати',
+            en: 'Cancel',
+            de: 'Abbrechen',
+            pl: 'Anuluj',
+            zh: '取消',
+        },
+    },
 };

@@ -223,6 +223,14 @@ export const server = {
             pl: 'Otrzymano {{donate}} Olymp-Coins',
         },
 
+        chips: {
+            ru: 'Получено {{chips}} фишек казино',
+            ua: 'Отримано {{chips}} фішок казино',
+            en: 'Received {{chips}} casino chips',
+            de: '{{chips}} Casino-Chips erhalten',
+            pl: 'Otrzymano {{chips}} żetonów kasyna',
+        },
+
         freeCoinsOnline: {
             ru: 'Вы получили {{donate}} Olymp-Coins за {{hours}} часа игры',
             ua: 'Ви отримали {{donate}} Olymp-Coins за {{hours}} години гри',
@@ -265,6 +273,15 @@ export const server = {
             en: 'Unlocked exclusive tattoo {{tattoo}}',
             de: 'Exklusives Tattoo {{tattoo}} freigeschaltet',
             pl: 'Odblokowano ekskluzywny tatuaż {{tattoo}}',
+        },
+
+        // Получен кейс (например, награда из BP)
+        case: {
+            ru: 'Получен кейс {{name}} {{quantity}} шт.',
+            ua: 'Отримано кейс {{name}} {{quantity}} шт.',
+            en: 'Received case {{name}} {{quantity}} pcs.',
+            de: 'Case {{name}} {{quantity}} pcs. erhalten',
+            pl: 'Otrzymano kejs {{name}} {{quantity}} szt.',
         },
     },
 };

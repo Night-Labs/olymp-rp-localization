@@ -17,6 +17,24 @@ export const items = {
             zh: '它可以恢复75%的健康，前提是只有不到25%的健康也可以用于同时进行人体复苏',
         },
     },
+    armorPlate: {
+        name: {
+            ru: 'Бронепластина',
+            ua: 'Бронепластина',
+            en: 'Armor Plate',
+            de: 'Panzerplatte',
+            pl: 'Płyta pancerza',
+            zh: '装甲板',
+        },
+        desc: {
+            ru: 'Полностью чинит ваш бронежилет при применении',
+            ua: 'Повністю ремонтує ваш бронежилет при застосуванні',
+            en: 'Fully repairs your body armor when used',
+            de: 'Repariert deine Schutzweste vollständig bei Anwendung',
+            pl: 'Całkowicie naprawia twoją kamizelkę kuloodporną po użyciu',
+            zh: '使用时完全修复您的防弹衣',
+        },
+    },
     repairkit: {
         name: {
             ua: 'Ремонтний комплект',

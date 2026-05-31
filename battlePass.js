@@ -356,6 +356,13 @@ export default {
                 de: 'Nicht verfolgen',
                 pl: 'Nie śledź',
             },
+            completed: {
+                ru: 'Выполнено',
+                ua: 'Виконано',
+                en: 'Completed',
+                de: 'Abgeschlossen',
+                pl: 'Ukończone',
+            },
             jobs: {
                 delivery: {
                     title: {
@@ -403,6 +410,22 @@ export default {
                         en: 'Pick {{target}} mushrooms while working as a forager.',
                         de: 'Sammle {{target}} Pilze als Sammler.',
                         pl: 'Zbierz {{target}} grzybów pracując jako zbieracz.',
+                    },
+                },
+                mushroomsSpecies: {
+                    title: {
+                        ru: 'Грибной знаток',
+                        ua: 'Грибний знавець',
+                        en: 'Mushroom expert',
+                        de: 'Pilzkenner',
+                        pl: 'Znawca grzybów',
+                    },
+                    description: {
+                        ru: 'Соберите {{target}} грибов вида «{{item}}».',
+                        ua: 'Зберіть {{target}} грибів виду «{{item}}».',
+                        en: 'Collect {{target}} «{{item}}» mushrooms.',
+                        de: 'Sammle {{target}} Pilze der Art «{{item}}».',
+                        pl: 'Zbierz {{target}} grzybów gatunku «{{item}}».',
                     },
                 },
                 treasure: {
@@ -551,6 +574,22 @@ export default {
                         pl: 'Zarób {{target}}$ prowadząc spychacz w kamieniołomie.',
                     },
                 },
+                foodDelivery: {
+                    title: {
+                        ru: 'Доставщик-профи',
+                        ua: 'Доставник-профі',
+                        en: 'Delivery pro',
+                        de: 'Liefer-Profi',
+                        pl: 'Profesjonalny dostawca',
+                    },
+                    description: {
+                        ru: 'Заработайте ${{target}} на доставке еды.',
+                        ua: 'Заробіть ${{target}} на доставці їжі.',
+                        en: 'Earn ${{target}} delivering food.',
+                        de: 'Verdiene ${{target}} mit Essenslieferung.',
+                        pl: 'Zarób ${{target}} dostarczając jedzenie.',
+                    },
+                },
             },
             buyer: {
                 diving: {
@@ -633,6 +672,38 @@ export default {
                         pl: 'Sprzedaj skupującemu produkty farmerskie na kwotę {{target}}$.',
                     },
                 },
+                mushrooms: {
+                    title: {
+                        ru: 'Грибам рад',
+                        ua: 'Грибам радий',
+                        en: 'Mushroom dealer',
+                        de: 'Pilzhändler',
+                        pl: 'Handlarz grzybów',
+                    },
+                    description: {
+                        ru: 'Продайте скупщику грибов на сумму {{target}}$.',
+                        ua: 'Продайте скупнику грибів на суму {{target}}$.',
+                        en: 'Sell {{target}}$ worth of mushrooms to the buyer.',
+                        de: 'Verkaufe Pilze im Wert von {{target}}$ an den Händler.',
+                        pl: 'Sprzedaj skupującemu grzyby na kwotę {{target}}$.',
+                    },
+                },
+                antiques: {
+                    title: {
+                        ru: 'Охотник за артефактами',
+                        ua: 'Мисливець за артефактами',
+                        en: 'Antiques dealer',
+                        de: 'Antiquitätenhändler',
+                        pl: 'Handlarz antyków',
+                    },
+                    description: {
+                        ru: 'Продайте скупщику антиквариата на сумму {{target}}$.',
+                        ua: 'Продайте скупнику антикваріату на суму {{target}}$.',
+                        en: 'Sell {{target}}$ worth of antiques to the buyer.',
+                        de: 'Verkaufe Antiquitäten im Wert von {{target}}$ an den Händler.',
+                        pl: 'Sprzedaj skupującemu antyki na kwotę {{target}}$.',
+                    },
+                },
             },
             fishing: {
                 any: {
@@ -649,6 +720,22 @@ export default {
                         en: 'Catch {{target}} fish of any kind.',
                         de: 'Fange {{target}} beliebige Fische.',
                         pl: 'Złów {{target}} ryb dowolnego gatunku.',
+                    },
+                },
+                species: {
+                    title: {
+                        ru: 'Рыболов-эксперт',
+                        ua: 'Рибалка-експерт',
+                        en: 'Expert angler',
+                        de: 'Angel-Experte',
+                        pl: 'Wędkarz ekspert',
+                    },
+                    description: {
+                        ru: 'Поймайте {{target}} рыбы вида «{{item}}».',
+                        ua: 'Зловіть {{target}} риби виду «{{item}}».',
+                        en: 'Catch {{target}} «{{item}}» fish.',
+                        de: 'Fange {{target}} Fische der Art «{{item}}».',
+                        pl: 'Złów {{target}} ryb gatunku «{{item}}».',
                     },
                 },
             },
@@ -699,6 +786,38 @@ export default {
                         en: 'Eat a burger {{target}} times.',
                         de: 'Iss {{target}}-mal einen Burger.',
                         pl: 'Zjedz burgera {{target}} razy.',
+                    },
+                },
+                beer: {
+                    title: {
+                        ru: 'Пивной вечер',
+                        ua: 'Пивний вечір',
+                        en: 'Beer night',
+                        de: 'Bierabend',
+                        pl: 'Wieczór z piwem',
+                    },
+                    description: {
+                        ru: 'Выпейте пива {{target}} раз.',
+                        ua: 'Випийте пива {{target}} разів.',
+                        en: 'Drink beer {{target}} times.',
+                        de: 'Trinke {{target}}-mal Bier.',
+                        pl: 'Wypij piwo {{target}} razy.',
+                    },
+                },
+                cola: {
+                    title: {
+                        ru: 'Газировочный марафон',
+                        ua: 'Газований марафон',
+                        en: 'Soda marathon',
+                        de: 'Limo-Marathon',
+                        pl: 'Maraton napojów',
+                    },
+                    description: {
+                        ru: 'Выпейте колы {{target}} раз.',
+                        ua: 'Випийте коли {{target}} разів.',
+                        en: 'Drink cola {{target}} times.',
+                        de: 'Trinke {{target}}-mal Cola.',
+                        pl: 'Wypij colę {{target}} razy.',
                     },
                 },
             },
@@ -755,6 +874,120 @@ export default {
                         pl: 'Wezwij swój pojazd osobisty {{target}} razy.',
                     },
                 },
+                tune: {
+                    title: {
+                        ru: 'Тюнинг-ателье',
+                        ua: 'Тюнінг-ательє',
+                        en: 'Tuning studio',
+                        de: 'Tuning-Studio',
+                        pl: 'Studio tuningu',
+                    },
+                    description: {
+                        ru: 'Затюнингуйте {{target}} автомобилей в автосервисе.',
+                        ua: 'Затюнингуйте {{target}} автомобілів в автосервісі.',
+                        en: 'Tune {{target}} vehicles at the auto service.',
+                        de: 'Tune {{target}} Fahrzeuge in der Werkstatt.',
+                        pl: 'Stuningu {{target}} pojazdów w warsztacie.',
+                    },
+                },
+                wash: {
+                    title: {
+                        ru: 'Забота о любимой',
+                        ua: 'Турбота про улюблену',
+                        en: 'Caring for your beloved',
+                        de: 'Sorge um die Liebste',
+                        pl: 'Troska o ukochaną',
+                    },
+                    description: {
+                        ru: 'Помойте машину {{target}} раз.',
+                        ua: 'Помийте машину {{target}} разів.',
+                        en: 'Wash your car {{target}} times.',
+                        de: 'Wasche dein Auto {{target}}-mal.',
+                        pl: 'Umyj samochód {{target}} razy.',
+                    },
+                },
+                buy: {
+                    title: {
+                        ru: 'Первый автомобиль',
+                        ua: 'Перший автомобіль',
+                        en: 'First car',
+                        de: 'Erstes Auto',
+                        pl: 'Pierwszy samochód',
+                    },
+                    description: {
+                        ru: 'Купите машину в автосалоне.',
+                        ua: 'Купіть авто в автосалоні.',
+                        en: 'Buy a car at the dealership.',
+                        de: 'Kaufe ein Auto im Autohaus.',
+                        pl: 'Kup samochód w salonie.',
+                    },
+                },
+                scrapyard: {
+                    title: {
+                        ru: 'Утилизатор',
+                        ua: 'Утилізатор',
+                        en: 'Scrapper',
+                        de: 'Verschrotter',
+                        pl: 'Złomiarz',
+                    },
+                    description: {
+                        ru: 'Продайте машины в утилизаторе на ${{target}}.',
+                        ua: 'Продайте авто в утилізаторі на ${{target}}.',
+                        en: 'Sell cars at the scrapyard for ${{target}}.',
+                        de: 'Verkaufe Autos auf dem Schrottplatz für ${{target}}.',
+                        pl: 'Sprzedaj auta na złomowisku za ${{target}}.',
+                    },
+                },
+                rental: {
+                    title: {
+                        ru: 'Прокат',
+                        ua: 'Прокат',
+                        en: 'Rental',
+                        de: 'Mietwagen',
+                        pl: 'Wypożyczenie',
+                    },
+                    description: {
+                        ru: 'Арендуйте {{target}} транспортных средств.',
+                        ua: 'Орендуйте {{target}} транспортних засобів.',
+                        en: 'Rent {{target}} vehicles.',
+                        de: 'Miete {{target}} Fahrzeuge.',
+                        pl: 'Wypożycz {{target}} pojazdów.',
+                    },
+                },
+            },
+            license: {
+                any: {
+                    title: {
+                        ru: 'Лицензированный',
+                        ua: 'Ліцензований',
+                        en: 'Licensed',
+                        de: 'Lizenziert',
+                        pl: 'Licencjonowany',
+                    },
+                    description: {
+                        ru: 'Получите {{target}} разных лицензий.',
+                        ua: 'Отримайте {{target}} різних ліцензій.',
+                        en: 'Obtain {{target}} different licenses.',
+                        de: 'Erwirb {{target}} verschiedene Lizenzen.',
+                        pl: 'Zdobądź {{target}} różnych licencji.',
+                    },
+                },
+                weapon: {
+                    title: {
+                        ru: 'Разрешение на ствол',
+                        ua: 'Дозвіл на зброю',
+                        en: 'Gun permit',
+                        de: 'Waffenschein',
+                        pl: 'Pozwolenie na broń',
+                    },
+                    description: {
+                        ru: 'Получите лицензию на оружие.',
+                        ua: 'Отримайте ліцензію на зброю.',
+                        en: 'Obtain a weapon license.',
+                        de: 'Erwirb einen Waffenschein.',
+                        pl: 'Zdobądź licencję na broń.',
+                    },
+                },
             },
             casino: {
                 luckyWheel: {
@@ -787,6 +1020,88 @@ export default {
                         en: 'Place {{target}} chips worth of bets at the roulette.',
                         de: 'Setze Roulette-Einsätze im Wert von {{target}} Chips.',
                         pl: 'Postaw zakłady w ruletce na kwotę {{target}} żetonów.',
+                    },
+                },
+                slots: {
+                    title: {
+                        ru: 'Слот-машинист',
+                        ua: 'Слот-машиніст',
+                        en: 'Slot machinist',
+                        de: 'Slot-Maschinist',
+                        pl: 'Maszynista jednorękich bandytów',
+                    },
+                    description: {
+                        ru: 'Сделайте ставок в слотах на сумму {{target}} фишек.',
+                        ua: 'Зробіть ставок у слотах на суму {{target}} фішок.',
+                        en: 'Place {{target}} chips worth of bets at slot machines.',
+                        de: 'Setze Slot-Einsätze im Wert von {{target}} Chips.',
+                        pl: 'Postaw zakłady na automatach na kwotę {{target}} żetonów.',
+                    },
+                },
+                chips: {
+                    title: {
+                        ru: 'Игрок казино',
+                        ua: 'Гравець казино',
+                        en: 'Casino player',
+                        de: 'Casino-Spieler',
+                        pl: 'Gracz kasyna',
+                    },
+                    description: {
+                        ru: 'Потратьте ${{target}} на фишки в казино.',
+                        ua: 'Витратьте ${{target}} на фішки в казино.',
+                        en: 'Spend ${{target}} on casino chips.',
+                        de: 'Gib ${{target}} für Casino-Chips aus.',
+                        pl: 'Wydaj ${{target}} na żetony w kasynie.',
+                    },
+                },
+                diceWin: {
+                    title: {
+                        ru: 'Костяной куш',
+                        ua: 'Кістяний куш',
+                        en: 'Dice jackpot',
+                        de: 'Würfel-Jackpot',
+                        pl: 'Kościana wygrana',
+                    },
+                    description: {
+                        ru: 'Выиграйте ${{target}} в кости.',
+                        ua: 'Виграйте ${{target}} у кості.',
+                        en: 'Win ${{target}} at dice.',
+                        de: 'Gewinne ${{target}} beim Würfeln.',
+                        pl: 'Wygraj ${{target}} w kości.',
+                    },
+                },
+            },
+            anim: {
+                play: {
+                    title: {
+                        ru: 'Танцор',
+                        ua: 'Танцюрист',
+                        en: 'Performer',
+                        de: 'Darsteller',
+                        pl: 'Tancerz',
+                    },
+                    description: {
+                        ru: 'Исполните {{target}} анимаций.',
+                        ua: 'Виконайте {{target}} анімацій.',
+                        en: 'Perform {{target}} animations.',
+                        de: 'Führe {{target}} Animationen aus.',
+                        pl: 'Wykonaj {{target}} animacji.',
+                    },
+                },
+                favorite: {
+                    title: {
+                        ru: 'Коллекционер эмоций',
+                        ua: 'Колекціонер емоцій',
+                        en: 'Emote collector',
+                        de: 'Emote-Sammler',
+                        pl: 'Kolekcjoner emotek',
+                    },
+                    description: {
+                        ru: 'Добавьте {{target}} анимаций в избранное.',
+                        ua: 'Додайте {{target}} анімацій в обране.',
+                        en: 'Add {{target}} animations to favorites.',
+                        de: 'Füge {{target}} Animationen zu Favoriten hinzu.',
+                        pl: 'Dodaj {{target}} animacji do ulubionych.',
                     },
                 },
             },
@@ -839,6 +1154,22 @@ export default {
                         pl: 'Ustanów nowy rekord we Flappy Bird.',
                     },
                 },
+                callStart: {
+                    title: {
+                        ru: 'На связи',
+                        ua: 'На зв’язку',
+                        en: 'Stay in touch',
+                        de: 'In Verbindung',
+                        pl: 'W kontakcie',
+                    },
+                    description: {
+                        ru: 'Совершите {{target}} звонков.',
+                        ua: 'Здійсніть {{target}} дзвінків.',
+                        en: 'Make {{target}} phone calls.',
+                        de: 'Tätige {{target}} Anrufe.',
+                        pl: 'Wykonaj {{target}} połączeń.',
+                    },
+                },
             },
             service: {
                 repair: {
@@ -889,6 +1220,413 @@ export default {
                         en: 'Donate blood at the doctor’s.',
                         de: 'Spende Blut beim Arzt.',
                         pl: 'Oddaj krew u lekarza.',
+                    },
+                },
+            },
+            bank: {
+                deposit: {
+                    title: {
+                        ru: 'Накопитель',
+                        ua: 'Накопичувач',
+                        en: 'Saver',
+                        de: 'Sparer',
+                        pl: 'Oszczędny',
+                    },
+                    description: {
+                        ru: 'Внесите на счёт суммарно ${{target}}.',
+                        ua: 'Внесіть на рахунок сумарно ${{target}}.',
+                        en: 'Deposit a total of ${{target}} into your bank account.',
+                        de: 'Zahle insgesamt ${{target}} auf dein Bankkonto ein.',
+                        pl: 'Wpłać łącznie ${{target}} na konto bankowe.',
+                    },
+                },
+                withdraw: {
+                    title: {
+                        ru: 'Кассовый день',
+                        ua: 'Касовий день',
+                        en: 'Cash day',
+                        de: 'Auszahlungstag',
+                        pl: 'Dzień wypłaty',
+                    },
+                    description: {
+                        ru: 'Снимите с банковского счёта суммарно ${{target}}.',
+                        ua: 'Зніміть з банківського рахунку сумарно ${{target}}.',
+                        en: 'Withdraw a total of ${{target}} from your bank account.',
+                        de: 'Hebe insgesamt ${{target}} von deinem Bankkonto ab.',
+                        pl: 'Wypłać łącznie ${{target}} z konta bankowego.',
+                    },
+                },
+            },
+            farm: {
+                harvest: {
+                    title: {
+                        ru: 'Сборщик урожая',
+                        ua: 'Збирач урожаю',
+                        en: 'Harvester',
+                        de: 'Erntehelfer',
+                        pl: 'Zbieracz plonów',
+                    },
+                    description: {
+                        ru: 'Соберите {{target}} урожаев с грядок на ферме.',
+                        ua: 'Зберіть {{target}} урожаїв з грядок на фермі.',
+                        en: 'Collect {{target}} plant harvests at the farm.',
+                        de: 'Sammle {{target}} Pflanzen-Ernten auf der Farm.',
+                        pl: 'Zbierz {{target}} plonów na farmie.',
+                    },
+                },
+                plant: {
+                    title: {
+                        ru: 'Юный садовод',
+                        ua: 'Юний садівник',
+                        en: 'Young gardener',
+                        de: 'Junger Gärtner',
+                        pl: 'Młody ogrodnik',
+                    },
+                    description: {
+                        ru: 'Посадите {{target}} растений на ферме.',
+                        ua: 'Посадіть {{target}} рослин на фермі.',
+                        en: 'Plant {{target}} crops at the farm.',
+                        de: 'Pflanze {{target}} Pflanzen auf der Farm.',
+                        pl: 'Zasadź {{target}} roślin na farmie.',
+                    },
+                },
+                collectTree: {
+                    title: {
+                        ru: 'Урожай апельсинов',
+                        ua: 'Урожай апельсинів',
+                        en: 'Orange harvest',
+                        de: 'Orangenernte',
+                        pl: 'Zbiór pomarańczy',
+                    },
+                    description: {
+                        ru: 'Соберите апельсины с деревьев {{target}} раз.',
+                        ua: 'Зберіть апельсини з дерев {{target}} разів.',
+                        en: 'Collect oranges from trees {{target}} times.',
+                        de: 'Sammle {{target}}-mal Orangen von Bäumen.',
+                        pl: 'Zbierz pomarańcze z drzew {{target}} razy.',
+                    },
+                },
+                waterPlants: {
+                    title: {
+                        ru: 'Полив полей',
+                        ua: 'Полив полів',
+                        en: 'Field watering',
+                        de: 'Felder bewässern',
+                        pl: 'Podlewanie pól',
+                    },
+                    description: {
+                        ru: 'Полейте растения на ферме {{target}} раз.',
+                        ua: 'Полийте рослини на фермі {{target}} разів.',
+                        en: 'Water crops at the farm {{target}} times.',
+                        de: 'Bewässere {{target}}-mal Pflanzen auf der Farm.',
+                        pl: 'Podlej rośliny na farmie {{target}} razy.',
+                    },
+                },
+                fillCan: {
+                    title: {
+                        ru: 'Наполни лейку',
+                        ua: 'Наповни лійку',
+                        en: 'Fill the can',
+                        de: 'Gießkanne füllen',
+                        pl: 'Napełnij konewkę',
+                    },
+                    description: {
+                        ru: 'Наполните лейку водой {{target}} раз.',
+                        ua: 'Наповніть лійку водою {{target}} разів.',
+                        en: 'Fill the watering can {{target}} times.',
+                        de: 'Fülle die Gießkanne {{target}}-mal.',
+                        pl: 'Napełnij konewkę {{target}} razy.',
+                    },
+                },
+                plantSpecies: {
+                    title: {
+                        ru: 'Агроном',
+                        ua: 'Агроном',
+                        en: 'Agronomist',
+                        de: 'Agronom',
+                        pl: 'Agronom',
+                    },
+                    description: {
+                        ru: 'Посадите культуру «{{item}}» — {{target}} шт.',
+                        ua: 'Посадіть культуру «{{item}}» — {{target}} шт.',
+                        en: 'Plant the «{{item}}» crop — {{target}} pcs.',
+                        de: 'Pflanze die Kultur «{{item}}» — {{target}} Stk.',
+                        pl: 'Zasadź uprawę «{{item}}» — {{target}} szt.',
+                    },
+                },
+                harvestSpecies: {
+                    title: {
+                        ru: 'Сборщик',
+                        ua: 'Збирач',
+                        en: 'Harvester',
+                        de: 'Erntehelfer',
+                        pl: 'Zbieracz',
+                    },
+                    description: {
+                        ru: 'Соберите урожай «{{item}}» — {{target}} шт.',
+                        ua: 'Зберіть урожай «{{item}}» — {{target}} шт.',
+                        en: 'Harvest the «{{item}}» crop — {{target}} pcs.',
+                        de: 'Ernte die Kultur «{{item}}» — {{target}} Stk.',
+                        pl: 'Zbierz uprawę «{{item}}» — {{target}} szt.',
+                    },
+                },
+            },
+            hunting: {
+                any: {
+                    title: {
+                        ru: 'Свежеватель',
+                        ua: 'Білувальник',
+                        en: 'Skinner',
+                        de: 'Häuter',
+                        pl: 'Oprawiacz',
+                    },
+                    description: {
+                        ru: 'Разделайте {{target}} диких животных на охоте.',
+                        ua: 'Розробіть {{target}} диких тварин на полюванні.',
+                        en: 'Field-dress {{target}} wild animals while hunting.',
+                        de: 'Zerlege {{target}} Wildtiere auf der Jagd.',
+                        pl: 'Oprawcie {{target}} dzikich zwierząt na polowaniu.',
+                    },
+                },
+                species: {
+                    title: {
+                        ru: 'Следопыт',
+                        ua: 'Слідопит',
+                        en: 'Tracker',
+                        de: 'Fährtenleser',
+                        pl: 'Tropiciel',
+                    },
+                    description: {
+                        ru: 'Добудьте {{target}} животных вида «{{item}}».',
+                        ua: 'Здобудьте {{target}} тварин виду «{{item}}».',
+                        en: 'Hunt {{target}} «{{item}}».',
+                        de: 'Erlege {{target}} «{{item}}».',
+                        pl: 'Upoluj {{target}} «{{item}}».',
+                    },
+                },
+                // Имена видов для подстановки {{item}} (звери — ped-модели, не inventory-предметы).
+                // Ключи = точные model-строки из animalsConfig (регистр важен). Резолв server-side:
+                // battlePass.pages.quests.hunting.animals.<model>.name.
+                animals: {
+                    a_c_deer: {
+                        name: { ru: 'Олень', ua: 'Олень', en: 'Deer', de: 'Hirsch', pl: 'Jeleń' },
+                    },
+                    a_c_boar: {
+                        name: { ru: 'Кабан', ua: 'Кабан', en: 'Boar', de: 'Keiler', pl: 'Dzik' },
+                    },
+                    a_c_coyote: {
+                        name: { ru: 'Койот', ua: 'Койот', en: 'Coyote', de: 'Kojote', pl: 'Kojot' },
+                    },
+                    a_c_rabbit_01: {
+                        name: { ru: 'Кролик', ua: 'Кролик', en: 'Rabbit', de: 'Kaninchen', pl: 'Królik' },
+                    },
+                    a_c_mtlion: {
+                        name: { ru: 'Горный лев', ua: 'Гірський лев', en: 'Mountain Lion', de: 'Berglöwe', pl: 'Lew górski' },
+                    },
+                    A_C_Panther: {
+                        name: { ru: 'Пантера', ua: 'Пантера', en: 'Panther', de: 'Panther', pl: 'Pantera' },
+                    },
+                },
+            },
+            shooting: {
+                finish: {
+                    title: {
+                        ru: 'Завсегдатай тира',
+                        ua: 'Завсідник тиру',
+                        en: 'Range regular',
+                        de: 'Schießstand-Stammgast',
+                        pl: 'Bywalec strzelnicy',
+                    },
+                    description: {
+                        ru: 'Завершите {{target}} сеансов на стрельбище.',
+                        ua: 'Завершіть {{target}} сеансів у тирі.',
+                        en: 'Finish {{target}} shooting range sessions.',
+                        de: 'Schließe {{target}} Schießstand-Sitzungen ab.',
+                        pl: 'Ukończ {{target}} sesji na strzelnicy.',
+                    },
+                },
+            },
+            faction: {
+                fine: {
+                    title: { ru: 'Закон и порядок', ua: 'Закон і порядок', en: 'Law and order', de: 'Recht und Ordnung', pl: 'Prawo i porządek' },
+                    description: { ru: 'Выпишите {{target}} штрафов нарушителям.', ua: 'Випишіть {{target}} штрафів порушникам.', en: 'Issue {{target}} fines.', de: 'Stelle {{target}} Bußgelder aus.', pl: 'Wystaw {{target}} mandatów.' },
+                },
+                arrest: {
+                    title: { ru: 'Рука закона', ua: 'Рука закону', en: 'Long arm of the law', de: 'Arm des Gesetzes', pl: 'Ramię sprawiedliwości' },
+                    description: { ru: 'Произведите {{target}} арестов.', ua: 'Здійсніть {{target}} арештів.', en: 'Make {{target}} arrests.', de: 'Nimm {{target}} Festnahmen vor.', pl: 'Dokonaj {{target}} aresztowań.' },
+                },
+                frisk: {
+                    title: { ru: 'Тщательный досмотр', ua: 'Ретельний огляд', en: 'Thorough search', de: 'Gründliche Durchsuchung', pl: 'Dokładna kontrola' },
+                    description: { ru: 'Обыщите {{target}} подозреваемых.', ua: 'Обшукайте {{target}} підозрюваних.', en: 'Frisk {{target}} suspects.', de: 'Durchsuche {{target}} Verdächtige.', pl: 'Przeszukaj {{target}} podejrzanych.' },
+                },
+                radar: {
+                    title: { ru: 'Контроль скорости', ua: 'Контроль швидкості', en: 'Speed control', de: 'Geschwindigkeitskontrolle', pl: 'Kontrola prędkości' },
+                    description: { ru: 'Установите {{target}} радаров контроля скорости.', ua: 'Встановіть {{target}} радарів контролю швидкості.', en: 'Deploy {{target}} speed radars.', de: 'Stelle {{target}} Geschwindigkeitsradare auf.', pl: 'Rozstaw {{target}} radarów prędkości.' },
+                },
+                heal: {
+                    title: { ru: 'Исцелитель', ua: 'Цілитель', en: 'Healer', de: 'Heiler', pl: 'Uzdrowiciel' },
+                    description: { ru: 'Вылечите {{target}} пациентов от болезней.', ua: 'Вилікуйте {{target}} пацієнтів від хвороб.', en: 'Cure diseases for {{target}} patients.', de: 'Heile {{target}} Patienten von Krankheiten.', pl: 'Wylecz {{target}} pacjentów z chorób.' },
+                },
+                checkup: {
+                    title: { ru: 'Дежурный медик', ua: 'Черговий медик', en: 'On-call medic', de: 'Bereitschaftsarzt', pl: 'Medyk dyżurny' },
+                    description: { ru: 'Проведите {{target}} медосмотров.', ua: 'Проведіть {{target}} медоглядів.', en: 'Perform {{target}} medical checkups.', de: 'Führe {{target}} Untersuchungen durch.', pl: 'Przeprowadź {{target}} badań.' },
+                },
+                revive: {
+                    title: { ru: 'Возвращение к жизни', ua: 'Повернення до життя', en: 'Back to life', de: 'Zurück ins Leben', pl: 'Powrót do życia' },
+                    description: { ru: 'Реанимируйте {{target}} пациентов.', ua: 'Реанімуйте {{target}} пацієнтів.', en: 'Revive {{target}} patients.', de: 'Belebe {{target}} Patienten wieder.', pl: 'Reanimuj {{target}} pacjentów.' },
+                },
+                blood: {
+                    title: { ru: 'Донорский пункт', ua: 'Донорський пункт', en: 'Blood bank', de: 'Blutspende', pl: 'Punkt krwiodawstwa' },
+                    description: { ru: 'Возьмите кровь у {{target}} пациентов.', ua: 'Візьміть кров у {{target}} пацієнтів.', en: 'Take blood from {{target}} patients.', de: 'Nimm {{target}} Patienten Blut ab.', pl: 'Pobierz krew od {{target}} pacjentów.' },
+                },
+                pills: {
+                    title: { ru: 'Аптекарь', ua: 'Аптекар', en: 'Pharmacist', de: 'Apotheker', pl: 'Aptekarz' },
+                    description: { ru: 'Продайте {{target}} упаковок таблеток.', ua: 'Продайте {{target}} упаковок таблеток.', en: 'Sell {{target}} packs of pills.', de: 'Verkaufe {{target}} Packungen Tabletten.', pl: 'Sprzedaj {{target}} opakowań tabletek.' },
+                },
+                carjack: {
+                    title: { ru: 'Угонщик', ua: 'Викрадач', en: 'Carjacker', de: 'Autodieb', pl: 'Złodziej samochodów' },
+                    description: { ru: 'Угоните {{target}} автомобилей для банды.', ua: 'Викрадіть {{target}} автомобілів для банди.', en: 'Steal {{target}} vehicles for the gang.', de: 'Stehle {{target}} Fahrzeuge für die Gang.', pl: 'Ukradnij {{target}} pojazdów dla gangu.' },
+                },
+                deliver: {
+                    title: { ru: 'Курьер банды', ua: 'Кур’єр банди', en: 'Gang courier', de: 'Gang-Kurier', pl: 'Kurier gangu' },
+                    description: { ru: 'Разложите {{target}} закладок.', ua: 'Розкладіть {{target}} закладок.', en: 'Plant {{target}} stashes.', de: 'Verstecke {{target}} Stashes.', pl: 'Rozłóż {{target}} skrytek.' },
+                },
+                grow: {
+                    title: { ru: 'Плантатор', ua: 'Плантатор', en: 'Grower', de: 'Pflanzer', pl: 'Plantator' },
+                    description: { ru: 'Вырастите {{target}} кустов зелья.', ua: 'Виростіть {{target}} кущів зілля.', en: 'Grow {{target}} weed bushes.', de: 'Züchte {{target}} Hanfpflanzen.', pl: 'Wyhoduj {{target}} krzaków.' },
+                },
+                rob: {
+                    title: { ru: 'Налётчик', ua: 'Нальотчик', en: 'Robber', de: 'Räuber', pl: 'Rabuś' },
+                    description: { ru: 'Ограбьте {{target}} магазинов.', ua: 'Пограбуйте {{target}} магазинів.', en: 'Rob {{target}} shops.', de: 'Überfalle {{target}} Läden.', pl: 'Obrabuj {{target}} sklepów.' },
+                },
+                capture: {
+                    title: { ru: 'Передел территорий', ua: 'Переділ територій', en: 'Turf war', de: 'Revierkampf', pl: 'Wojna o terytorium' },
+                    description: { ru: 'Захватите {{target}} территорий.', ua: 'Захопіть {{target}} територій.', en: 'Capture {{target}} territories.', de: 'Erobere {{target}} Gebiete.', pl: 'Przejmij {{target}} terytoriów.' },
+                },
+                airdrop: {
+                    title: { ru: 'Охотник за грузом', ua: 'Мисливець за вантажем', en: 'Crate hunter', de: 'Kistenjäger', pl: 'Łowca skrzyń' },
+                    description: { ru: 'Поучаствуйте в {{target}} аирдропах.', ua: 'Візьміть участь у {{target}} аірдропах.', en: 'Participate in {{target}} airdrops.', de: 'Nimm an {{target}} Airdrops teil.', pl: 'Weź udział w {{target}} zrzutach.' },
+                },
+                ad: {
+                    title: { ru: 'Рекламный отдел', ua: 'Рекламний відділ', en: 'Ad department', de: 'Werbeabteilung', pl: 'Dział reklam' },
+                    description: { ru: 'Опубликуйте {{target}} объявлений в Weazel News.', ua: 'Опублікуйте {{target}} оголошень у Weazel News.', en: 'Publish {{target}} ads on Weazel News.', de: 'Veröffentliche {{target}} Anzeigen bei Weazel News.', pl: 'Opublikuj {{target}} ogłoszeń w Weazel News.' },
+                },
+                golive: {
+                    title: { ru: 'В прямом эфире', ua: 'У прямому ефірі', en: 'Live on air', de: 'Live auf Sendung', pl: 'Na żywo' },
+                    description: { ru: 'Проведите {{target}} прямых эфиров.', ua: 'Проведіть {{target}} прямих ефірів.', en: 'Go live {{target}} times.', de: 'Gehe {{target}}-mal live.', pl: 'Wejdź na żywo {{target}} razy.' },
+                },
+            },
+            gym: {
+                exercise: {
+                    title: { ru: 'Качок', ua: 'Качок', en: 'Gym rat', de: 'Fitnessfreak', pl: 'Paker' },
+                    description: { ru: 'Выполните {{target}} упражнений в спортзале.', ua: 'Виконайте {{target}} вправ у спортзалі.', en: 'Complete {{target}} gym exercises.', de: 'Absolviere {{target}} Übungen im Fitnessstudio.', pl: 'Wykonaj {{target}} ćwiczeń na siłowni.' },
+                },
+                hits: {
+                    title: { ru: 'Точное движение', ua: 'Точний рух', en: 'Perfect form', de: 'Perfekte Form', pl: 'Idealna forma' },
+                    description: { ru: 'Совершите {{target}} точных движений в зале.', ua: 'Зробіть {{target}} точних рухів у залі.', en: 'Land {{target}} perfect reps at the gym.', de: 'Lande {{target}} perfekte Wiederholungen.', pl: 'Wykonaj {{target}} celnych powtórzeń.' },
+                },
+            },
+            music: {
+                boombox: {
+                    title: { ru: 'Диджей', ua: 'Діджей', en: 'DJ', de: 'DJ', pl: 'DJ' },
+                    description: { ru: 'Установите бумбокс {{target}} раз.', ua: 'Встановіть бумбокс {{target}} разів.', en: 'Place a boombox {{target}} times.', de: 'Stelle {{target}}-mal eine Boombox auf.', pl: 'Postaw boombox {{target}} razy.' },
+                },
+                play: {
+                    title: { ru: 'Меломан', ua: 'Меломан', en: 'Music lover', de: 'Musikliebhaber', pl: 'Melomaniak' },
+                    description: { ru: 'Включите музыку {{target}} раз.', ua: 'Увімкніть музику {{target}} разів.', en: 'Play music {{target}} times.', de: 'Spiele {{target}}-mal Musik ab.', pl: 'Włącz muzykę {{target}} razy.' },
+                },
+            },
+            game: {
+                flappy: {
+                    title: { ru: 'Полёт нормальный', ua: 'Політ нормальний', en: 'Smooth flight', de: 'Sanfter Flug', pl: 'Lot normalny' },
+                    description: {
+                        ru: 'Наберите минимум {{target}} очков в Flappy Bird.',
+                        ua: 'Наберіть мінімум {{target}} очок у Flappy Bird.',
+                        en: 'Score at least {{target}} points in Flappy Bird.',
+                        de: 'Erziele mindestens {{target}} Punkte in Flappy Bird.',
+                        pl: 'Zdobądź co najmniej {{target}} punktów we Flappy Bird.',
+                    },
+                },
+                2048: {
+                    title: { ru: '2048', ua: '2048', en: '2048', de: '2048', pl: '2048' },
+                    description: {
+                        ru: 'Наберите минимум {{target}} очков в 2048.',
+                        ua: 'Наберіть мінімум {{target}} очок у 2048.',
+                        en: 'Score at least {{target}} points in 2048.',
+                        de: 'Erziele mindestens {{target}} Punkte in 2048.',
+                        pl: 'Zdobądź co najmniej {{target}} punktów w 2048.',
+                    },
+                },
+                chess: {
+                    title: { ru: 'Шах и мат', ua: 'Шах і мат', en: 'Checkmate', de: 'Schachmatt', pl: 'Szach-mat' },
+                    description: {
+                        ru: 'Выиграйте {{target}} партий в шахматы (с игроком или ботом).',
+                        ua: 'Виграйте {{target}} партій у шахи (з гравцем або ботом).',
+                        en: 'Win {{target}} chess games (vs a player or a bot).',
+                        de: 'Gewinne {{target}} Schachpartien (gegen Spieler oder Bot).',
+                        pl: 'Wygraj {{target}} partii szachów (z graczem lub botem).',
+                    },
+                },
+            },
+            trade: {
+                complete: {
+                    title: { ru: 'Меняла', ua: 'Міняйло', en: 'Trader', de: 'Händler', pl: 'Handlarz' },
+                    description: { ru: 'Совершите {{target}} сделок обмена с игроками.', ua: 'Здійсніть {{target}} угод обміну з гравцями.', en: 'Complete {{target}} trades with players.', de: 'Schließe {{target}} Tauschgeschäfte ab.', pl: 'Zawrzyj {{target}} transakcji z graczami.' },
+                },
+                vehicle: {
+                    title: { ru: 'Авто-обмен', ua: 'Авто-обмін', en: 'Vehicle swap', de: 'Fahrzeugtausch', pl: 'Wymiana pojazdu' },
+                    description: { ru: 'Обменяйтесь транспортом в сделке.', ua: 'Обміняйтеся транспортом в угоді.', en: 'Trade a vehicle in a deal.', de: 'Tausche ein Fahrzeug in einem Deal.', pl: 'Wymień pojazd w transakcji.' },
+                },
+                house: {
+                    title: { ru: 'Сделка с недвижимостью', ua: 'Угода з нерухомістю', en: 'Property deal', de: 'Immobiliengeschäft', pl: 'Transakcja nieruchomości' },
+                    description: { ru: 'Обменяйтесь домом в сделке.', ua: 'Обміняйтеся будинком в угоді.', en: 'Trade a house in a deal.', de: 'Tausche ein Haus in einem Deal.', pl: 'Wymień dom w transakcji.' },
+                },
+                business: {
+                    title: { ru: 'Деловой обмен', ua: 'Діловий обмін', en: 'Business deal', de: 'Geschäftsdeal', pl: 'Transakcja biznesowa' },
+                    description: { ru: 'Обменяйтесь бизнесом в сделке.', ua: 'Обміняйтеся бізнесом в угоді.', en: 'Trade a business in a deal.', de: 'Tausche ein Geschäft in einem Deal.', pl: 'Wymień biznes w transakcji.' },
+                },
+                item: {
+                    title: { ru: 'Бартер', ua: 'Бартер', en: 'Barter', de: 'Tauschhandel', pl: 'Barter' },
+                    description: { ru: 'Обменяйтесь предметами в сделке.', ua: 'Обміняйтеся предметами в угоді.', en: 'Trade items in a deal.', de: 'Tausche Gegenstände in einem Deal.', pl: 'Wymień przedmioty w transakcji.' },
+                },
+                commissionGiven: {
+                    title: { ru: 'Не оскудеет рука дающего', ua: 'Не збідніє рука того, хто дає', en: 'The giving hand', de: 'Die gebende Hand', pl: 'Hojna ręka' },
+                    description: {
+                        ru: 'Передайте другому игроку через обмен имущество (деньги, транспорт, бизнесы) на сумму ${{target}}.',
+                        ua: 'Передайте іншому гравцеві через обмін майно (гроші, транспорт, бізнеси) на суму ${{target}}.',
+                        en: 'Give another player property (money, vehicles, businesses) worth ${{target}} via a trade.',
+                        de: 'Übergib einem anderen Spieler im Tausch Eigentum (Geld, Fahrzeuge, Unternehmen) im Wert von ${{target}}.',
+                        pl: 'Przekaż innemu graczowi w wymianie mienie (pieniądze, pojazdy, biznesy) o wartości ${{target}}.',
+                    },
+                },
+            },
+            character: {
+                exp: {
+                    title: { ru: 'Опытный', ua: 'Досвідчений', en: 'Experienced', de: 'Erfahren', pl: 'Doświadczony' },
+                    description: {
+                        ru: 'Заработайте {{target}} опыта персонажа любым способом.',
+                        ua: 'Заробіть {{target}} досвіду персонажа будь-яким способом.',
+                        en: 'Earn {{target}} character experience by any means.',
+                        de: 'Verdiene {{target}} Charaktererfahrung auf beliebige Weise.',
+                        pl: 'Zdobądź {{target}} doświadczenia postaci dowolnym sposobem.',
+                    },
+                },
+            },
+            realty: {
+                buyHouse: {
+                    title: {
+                        ru: 'Новоселье',
+                        ua: 'Новосілля',
+                        en: 'Housewarming',
+                        de: 'Einzugsfeier',
+                        pl: 'Parapetówka',
+                    },
+                    description: {
+                        ru: 'Купите дом у риелтора.',
+                        ua: 'Купіть будинок у ріелтора.',
+                        en: 'Buy a house from a realtor.',
+                        de: 'Kaufe ein Haus beim Makler.',
+                        pl: 'Kup dom u pośrednika nieruchomości.',
                     },
                 },
             },
@@ -1270,6 +2008,13 @@ export default {
             de: 'Ins Lager',
             pl: 'Do magazynu',
         },
+        viewContents: {
+            ru: 'Посмотреть содержимое',
+            ua: 'Переглянути вміст',
+            en: 'View contents',
+            de: 'Inhalt anzeigen',
+            pl: 'Zobacz zawartość',
+        },
         qtyShort: {
             ru: 'шт.',
             ua: 'шт.',
@@ -1311,6 +2056,34 @@ export default {
             en: 'Sell for',
             de: 'Verkaufen für',
             pl: 'Sprzedaj za',
+        },
+        cardRandomTitle: {
+            ru: 'Награда из карточной игры',
+            ua: 'Нагорода з карткової гри',
+            en: 'Card game reward',
+            de: 'Belohnung aus dem Kartenspiel',
+            pl: 'Nagroda z gry karcianej',
+        },
+        cardGame: {
+            ru: 'Карточная игра',
+            ua: 'Карткова гра',
+            en: 'Card game',
+            de: 'Kartenspiel',
+            pl: 'Gra karciana',
+        },
+        cardRandomPrev: {
+            ru: 'Предыдущий приз',
+            ua: 'Попередній приз',
+            en: 'Previous prize',
+            de: 'Vorheriger Preis',
+            pl: 'Poprzednia nagroda',
+        },
+        cardRandomNext: {
+            ru: 'Следующий приз',
+            ua: 'Наступний приз',
+            en: 'Next prize',
+            de: 'Nächster Preis',
+            pl: 'Następna nagroda',
         },
     },
     categories: {

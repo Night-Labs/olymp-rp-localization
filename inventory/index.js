@@ -125,6 +125,26 @@ const inventory = {
         },
     },
 
+    clothesStyle: {
+        title: {
+            ru: 'Стиль одежды',
+            ua: 'Стиль одягу',
+            en: 'Clothing style',
+            de: 'Kleidungsstil',
+            pl: 'Styl ubioru',
+        },
+    },
+
+    itemId: {
+        title: {
+            ru: 'ID',
+            ua: 'ID',
+            en: 'ID',
+            de: 'ID',
+            pl: 'ID',
+        },
+    },
+
     itemTypes: {
         item: {
             ru: 'Предмет',
