@@ -476,6 +476,38 @@ export default {
                         pl: 'Zbierz {{target}} worków śmieci pracując jako śmieciarz.',
                     },
                 },
+                treasureBig: {
+                    title: {
+                        ru: 'Кладоискатель',
+                        ua: 'Шукач скарбів',
+                        en: 'Treasure digger',
+                        de: 'Schatzgräber',
+                        pl: 'Poszukiwacz skarbów',
+                    },
+                    description: {
+                        ru: 'Найдите {{target}} сокровищ на работе кладоискателя.',
+                        ua: 'Знайдіть {{target}} скарбів на роботі шукача скарбів.',
+                        en: 'Find {{target}} treasures while working as a treasure hunter.',
+                        de: 'Finde {{target}} Schätze als Schatzsucher.',
+                        pl: 'Znajdź {{target}} skarbów pracując jako poszukiwacz skarbów.',
+                    },
+                },
+                divingBig: {
+                    title: {
+                        ru: 'Покоритель глубин',
+                        ua: 'Підкорювач глибин',
+                        en: 'Deep diver',
+                        de: 'Tiefseetaucher',
+                        pl: 'Zdobywca głębin',
+                    },
+                    description: {
+                        ru: 'Соберите {{target}} предметов на работе дайвером.',
+                        ua: 'Зберіть {{target}} предметів на роботі дайвером.',
+                        en: 'Collect {{target}} items while working as a diver.',
+                        de: 'Sammle {{target}} Gegenstände als Taucher.',
+                        pl: 'Zbierz {{target}} przedmiotów pracując jako nurek.',
+                    },
+                },
             },
             earn: {
                 trucker: {
@@ -588,6 +620,122 @@ export default {
                         en: 'Earn ${{target}} delivering food.',
                         de: 'Verdiene ${{target}} mit Essenslieferung.',
                         pl: 'Zarób ${{target}} dostarczając jedzenie.',
+                    },
+                },
+                taxiBig: {
+                    title: {
+                        ru: 'Таксист со стажем',
+                        ua: 'Таксист зі стажем',
+                        en: 'Veteran cabbie',
+                        de: 'Erfahrener Taxifahrer',
+                        pl: 'Doświadczony taksówkarz',
+                    },
+                    description: {
+                        ru: 'Заработайте {{target}}$ на работе таксистом.',
+                        ua: 'Заробіть {{target}}$ на роботі таксистом.',
+                        en: 'Earn {{target}}$ working as a taxi driver.',
+                        de: 'Verdiene {{target}}$ als Taxifahrer.',
+                        pl: 'Zarób {{target}}$ pracując jako taksówkarz.',
+                    },
+                },
+                garbageBig: {
+                    title: {
+                        ru: 'Санитар города',
+                        ua: 'Санітар міста',
+                        en: 'City sanitation',
+                        de: 'Stadtreiniger',
+                        pl: 'Sanitariusz miasta',
+                    },
+                    description: {
+                        ru: 'Заработайте {{target}}$ на работе мусорщиком.',
+                        ua: 'Заробіть {{target}}$ на роботі сміттяра.',
+                        en: 'Earn {{target}}$ working as a garbageman.',
+                        de: 'Verdiene {{target}}$ als Müllmann.',
+                        pl: 'Zarób {{target}}$ pracując jako śmieciarz.',
+                    },
+                },
+                truckerBig: {
+                    title: {
+                        ru: 'Большая партия',
+                        ua: 'Велика партія',
+                        en: 'Big haul',
+                        de: 'Große Ladung',
+                        pl: 'Wielki ładunek',
+                    },
+                    description: {
+                        ru: 'Заработайте {{target}}$ на работе дальнобойщика.',
+                        ua: 'Заробіть {{target}}$ на роботі далекобійника.',
+                        en: 'Earn {{target}}$ working as a trucker.',
+                        de: 'Verdiene {{target}}$ als Fernfahrer.',
+                        pl: 'Zarób {{target}}$ pracując jako kierowca ciężarówki.',
+                    },
+                },
+                busBig: {
+                    title: {
+                        ru: 'Опытный автобусник',
+                        ua: 'Досвідчений автобусник',
+                        en: 'Veteran bus driver',
+                        de: 'Erfahrener Busfahrer',
+                        pl: 'Doświadczony kierowca autobusu',
+                    },
+                    description: {
+                        ru: 'Заработайте {{target}}$ водителем автобуса.',
+                        ua: 'Заробіть {{target}}$ водієм автобуса.',
+                        en: 'Earn {{target}}$ as a bus driver.',
+                        de: 'Verdiene {{target}}$ als Busfahrer.',
+                        pl: 'Zarób {{target}}$ jako kierowca autobusu.',
+                    },
+                },
+                foodDeliveryBig: {
+                    title: {
+                        ru: 'Экспресс-курьер',
+                        ua: 'Експрес-кур\'єр',
+                        en: 'Express courier',
+                        de: 'Express-Kurier',
+                        pl: 'Kurier ekspresowy',
+                    },
+                    description: {
+                        ru: 'Заработайте ${{target}} на доставке еды.',
+                        ua: 'Заробіть ${{target}} на доставці їжі.',
+                        en: 'Earn ${{target}} delivering food.',
+                        de: 'Verdiene ${{target}} mit Essenslieferung.',
+                        pl: 'Zarób ${{target}} dostarczając jedzenie.',
+                    },
+                },
+            },
+            fuel: {
+                // fuel.station — medium, прогресс = суммарные литры, залитые на АЗС (target 15–35).
+                station: {
+                    title: {
+                        ru: 'Клиент нефтегазовых компаний',
+                        ua: 'Клієнт нафтогазових компаній',
+                        en: 'Oil & gas customer',
+                        de: 'Tankstellen-Stammkunde',
+                        pl: 'Klient firm naftowych',
+                    },
+                    description: {
+                        ru: 'Заправьте на АЗС суммарно {{target}} л топлива.',
+                        ua: 'Заправте на АЗС загалом {{target}} л пального.',
+                        en: 'Refuel a total of {{target}} L of fuel at gas stations.',
+                        de: 'Tanke an Tankstellen insgesamt {{target}} L Kraftstoff.',
+                        pl: 'Zatankuj łącznie {{target}} l paliwa na stacjach.',
+                    },
+                },
+                // fuel.canister — medium, +1 за дозаправку ТС канистрой/зарядкой (target 1–3).
+                canister: {
+                    title: {
+                        ru: 'Дозаправка',
+                        ua: 'Дозаправлення',
+                        en: 'Topping off',
+                        de: 'Nachtanken',
+                        pl: 'Dotankowanie',
+                    },
+                    description: {
+                        ru: 'Дозаправьте транспорт из канистры {{target}} раз.',
+                        ua: 'Дозаправте транспорт із каністри {{target}} раз.',
+                        en: 'Refuel a vehicle from a canister {{target}} times.',
+                        de: 'Betanke ein Fahrzeug {{target}}-mal aus einem Kanister.',
+                        pl: 'Zatankuj pojazd z kanistra {{target}} razy.',
                     },
                 },
             },
@@ -806,11 +954,11 @@ export default {
                 },
                 cola: {
                     title: {
-                        ru: 'Газировочный марафон',
-                        ua: 'Газований марафон',
-                        en: 'Soda marathon',
-                        de: 'Limo-Marathon',
-                        pl: 'Maraton napojów',
+                        ru: 'Любитель газировки',
+                        ua: 'Любитель газованки',
+                        en: 'Soda lover',
+                        de: 'Limo-Liebhaber',
+                        pl: 'Miłośnik napojów gazowanych',
                     },
                     description: {
                         ru: 'Выпейте колы {{target}} раз.',
@@ -860,11 +1008,11 @@ export default {
             vehicle: {
                 spawn: {
                     title: {
-                        ru: 'Колёсный мастер',
-                        ua: 'Майстер кермa',
-                        en: 'Wheel master',
-                        de: 'Lenkrad-Meister',
-                        pl: 'Mistrz kierownicy',
+                        ru: 'Автоделивери',
+                        ua: 'Автоделівері',
+                        en: 'Auto delivery',
+                        de: 'Auto-Lieferung',
+                        pl: 'Auto-dostawa',
                     },
                     description: {
                         ru: 'Заспавните личный транспорт {{target}} раз.',
@@ -1074,11 +1222,11 @@ export default {
             anim: {
                 play: {
                     title: {
-                        ru: 'Танцор',
-                        ua: 'Танцюрист',
-                        en: 'Performer',
-                        de: 'Darsteller',
-                        pl: 'Tancerz',
+                        ru: 'Вы в танцах',
+                        ua: 'Ви в танцях',
+                        en: 'You\'re dancing',
+                        de: 'Du tanzt',
+                        pl: 'Tańczysz',
                     },
                     description: {
                         ru: 'Исполните {{target}} анимаций.',
@@ -1374,11 +1522,11 @@ export default {
             hunting: {
                 any: {
                     title: {
-                        ru: 'Свежеватель',
-                        ua: 'Білувальник',
-                        en: 'Skinner',
-                        de: 'Häuter',
-                        pl: 'Oprawiacz',
+                        ru: 'Мясник',
+                        ua: 'М\'ясник',
+                        en: 'Butcher',
+                        de: 'Metzger',
+                        pl: 'Rzeźnik',
                     },
                     description: {
                         ru: 'Разделайте {{target}} диких животных на охоте.',
