@@ -8,6 +8,15 @@ export const cef = {
         zh: '关闭窗户',
     },
 
+    exit: {
+        ua: 'Вийти',
+        en: 'Exit',
+        ru: 'Выйти',
+        de: 'Beenden',
+        pl: 'Wyjść',
+        zh: '退出',
+    },
+
     cancel: {
         ua: 'Скасувати',
         en: 'Cancel',

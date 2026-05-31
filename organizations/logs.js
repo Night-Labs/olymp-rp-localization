@@ -87,6 +87,34 @@ export const logs = {
                 de: 'Beschlagnahmung übersprungen: kein HQ gefunden',
                 pl: 'Konfiskata pominięta: brak HQ',
             },
+            renamed: {
+                ru: '{{actor}} переименовал организацию: "{{from}}" → "{{to}}"',
+                ua: '{{actor}} перейменував організацію: "{{from}}" → "{{to}}"',
+                en: '{{actor}} renamed the organization: "{{from}}" → "{{to}}"',
+                de: '{{actor}} hat die Organisation umbenannt: "{{from}}" → "{{to}}"',
+                pl: '{{actor}} zmienił nazwę organizacji: "{{from}}" → "{{to}}"',
+            },
+            tagChanged: {
+                ru: '{{actor}} сменил тэг организации: "{{from}}" → "{{to}}"',
+                ua: '{{actor}} змінив тег організації: "{{from}}" → "{{to}}"',
+                en: '{{actor}} changed organization tag: "{{from}}" → "{{to}}"',
+                de: '{{actor}} hat den Organisations-Tag geändert: "{{from}}" → "{{to}}"',
+                pl: '{{actor}} zmienił tag organizacji: "{{from}}" → "{{to}}"',
+            },
+            colorsChanged: {
+                ru: '{{actor}} обновил цвета организации',
+                ua: '{{actor}} оновив кольори організації',
+                en: '{{actor}} updated organization colors',
+                de: '{{actor}} hat die Organisationsfarben aktualisiert',
+                pl: '{{actor}} zaktualizował kolory organizacji',
+            },
+            logoChanged: {
+                ru: '{{actor}} обновил логотип организации',
+                ua: '{{actor}} оновив логотип організації',
+                en: '{{actor}} updated organization logo',
+                de: '{{actor}} hat das Organisationslogo aktualisiert',
+                pl: '{{actor}} zaktualizował logo organizacji',
+            },
         },
         members: {
             invited: {

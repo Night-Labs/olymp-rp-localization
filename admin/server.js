@@ -88,6 +88,40 @@ export const server = {
             zh: '已为{{name}}设置媒体等级 {{level}}（离线）',
         },
     },
+    screenEvidence: {
+        requested: {
+            ru: 'Запись экрана игрока {{name}} запущена: {{duration}} сек, {{fps}} FPS',
+            ua: 'Запис екрана гравця {{name}} запущено: {{duration}} сек, {{fps}} FPS',
+            en: 'Screen recording started for {{name}}: {{duration}} sec, {{fps}} FPS',
+            de: 'Bildschirmaufnahme für {{name}} gestartet: {{duration}} Sek., {{fps}} FPS',
+            pl: 'Rozpoczęto nagrywanie ekranu gracza {{name}}: {{duration}} s, {{fps}} FPS',
+            zh: '已开始录制{{name}}的屏幕：{{duration}}秒，{{fps}} FPS',
+        },
+        saved: {
+            ru: 'Запись экрана игрока {{name}} сохранена: {{path}}',
+            ua: 'Запис екрана гравця {{name}} збережено: {{path}}',
+            en: 'Screen recording for {{name}} saved: {{path}}',
+            de: 'Bildschirmaufnahme für {{name}} gespeichert: {{path}}',
+            pl: 'Nagranie ekranu gracza {{name}} zapisane: {{path}}',
+            zh: '{{name}}的屏幕录像已保存：{{path}}',
+        },
+        savedWithoutFfmpeg: {
+            ru: 'Запись {{name}} сохранена без обработки ffmpeg: {{path}}. Причина: {{reason}}',
+            ua: 'Запис {{name}} збережено без обробки ffmpeg: {{path}}. Причина: {{reason}}',
+            en: 'Recording for {{name}} saved without ffmpeg processing: {{path}}. Reason: {{reason}}',
+            de: 'Aufnahme für {{name}} ohne ffmpeg-Verarbeitung gespeichert: {{path}}. Grund: {{reason}}',
+            pl: 'Nagranie gracza {{name}} zapisano bez obróbki ffmpeg: {{path}}. Powód: {{reason}}',
+            zh: '{{name}}的录像已保存但未经过ffmpeg处理：{{path}}。原因：{{reason}}',
+        },
+        failed: {
+            ru: 'Не удалось записать экран игрока {{name}}. Причина: {{reason}}',
+            ua: 'Не вдалося записати екран гравця {{name}}. Причина: {{reason}}',
+            en: 'Failed to record {{name}} screen. Reason: {{reason}}',
+            de: 'Bildschirm von {{name}} konnte nicht aufgenommen werden. Grund: {{reason}}',
+            pl: 'Nie udało się nagrać ekranu gracza {{name}}. Powód: {{reason}}',
+            zh: '无法录制{{name}}的屏幕。原因：{{reason}}',
+        },
+    },
     setName: {
         invalid: {
             ru: 'Имя и фамилия должны начинаться с заглавной буквы и содержать только латинские буквы (до 20 символов)',

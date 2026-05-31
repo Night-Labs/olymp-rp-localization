@@ -578,6 +578,20 @@ export const contracts = {
                 pl: 'Uszyc partie ubran w fabryce',
             },
         },
+        // Locale-only entries used by the tree's illegal-jobs branch via
+        // `resolveTreeNodeName`. These are not actual contracts in the catalog yet.
+        courierStank: {
+            name: { ru: 'Курьер STANK', ua: 'Кур\'єр STANK', en: 'STANK courier', de: 'STANK-Kurier', pl: 'Kurier STANK' },
+        },
+        courierZap: {
+            name: { ru: 'Курьер ZAP!', ua: 'Кур\'єр ZAP!', en: 'ZAP! courier', de: 'ZAP!-Kurier', pl: 'Kurier ZAP!' },
+        },
+        courierPoof: {
+            name: { ru: 'Курьер POOF', ua: 'Кур\'єр POOF', en: 'POOF courier', de: 'POOF-Kurier', pl: 'Kurier POOF' },
+        },
+        illegalSupplier: {
+            name: { ru: 'Нелегальный поставщик', ua: 'Нелегальний постачальник', en: 'Illegal supplier', de: 'Illegaler Lieferant', pl: 'Nielegalny dostawca' },
+        },
     },
     blips: {
         meetNpc: {

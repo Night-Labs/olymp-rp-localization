@@ -14,6 +14,7 @@ import { menu } from './menu';
 import { vehicles } from './vehicles';
 import { logs } from './logs';
 import { territories } from './territories';
+import { warsLobby } from './warsLobby';
 
 export default {
     ranks,
@@ -32,4 +33,5 @@ export default {
     vehicles,
     logs,
     territories,
+    wars: warsLobby,
 };

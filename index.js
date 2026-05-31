@@ -51,7 +51,7 @@ import carjacker from './carjacker';
 import colors from './colors';
 import workshop from './workshop';
 import dispatch from './dispatch';
-import greenCourier from './greenCourier';
+import drugCourier from './drugCourier';
 import adminMP from './adminMP';
 import trading from './trading';
 import fishing from './jobs/fishing/fishing';
@@ -96,6 +96,8 @@ import carInsurance from './carInsurance';
 import marriage from './marriage';
 import canteen from './canteen';
 import sewingFactory from './sewingFactory';
+import wars from './wars';
+import effects from './effects';
 
 export default {
     account,
@@ -151,7 +153,7 @@ export default {
     colors,
     workshop,
     dispatch,
-    greenCourier,
+    drugCourier,
     adminMP,
     trading,
     fishing,
@@ -196,6 +198,8 @@ export default {
     marriage,
     canteen,
     sewingFactory,
+    wars,
+    effects,
 };
 
 

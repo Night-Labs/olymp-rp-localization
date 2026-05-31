@@ -178,6 +178,22 @@ export const items = {
             pl: 'Aromatyczne cygaro dla koneserów mocnego tytoniu.',
         },
     },
+    scentBlockSpray: {
+        name: {
+            ru: 'Спрей "Scent Block"',
+            ua: 'Спрей "Scent Block"',
+            en: 'Scent Block Spray',
+            de: 'Scent-Block-Spray',
+            pl: 'Spray "Scent Block"',
+        },
+        desc: {
+            ru: 'Охотничий аэрозоль, маскирующий человеческий запах. После распыления дикие животные перестают тебя замечать на 3 часа. Используют профессиональные охотники в Paleto.',
+            ua: 'Мисливський аерозоль, що маскує людський запах. Після розпилення дикі тварини перестають тебе помічати на 3 години. Використовують професійні мисливці в Paleto.',
+            en: "A hunter's aerosol that masks human scent. After spraying, wild animals stop noticing you for 3 hours. Used by professional hunters in Paleto.",
+            de: 'Ein Jäger-Aerosol, das menschlichen Geruch maskiert. Nach dem Sprühen ignorieren dich Wildtiere 3 Stunden lang. Wird von professionellen Jägern in Paleto verwendet.',
+            pl: 'Myśliwski aerozol maskujący ludzki zapach. Po rozpyleniu dzikie zwierzęta przestają cię zauważać na 3 godziny. Używany przez zawodowych myśliwych w Paleto.',
+        },
+    },
     //
     reliefix: {
         name: {

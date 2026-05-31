@@ -1199,6 +1199,13 @@ export default {
         de: 'Einem Spieler anhand der static ID ein Media-Level (S, A, B, D, none) zuweisen, einschließlich Offline-Charakteren.',
         pl: 'Ustaw media level (S, A, B, D, none) dla gracza po static ID, także dla postaci offline.',
     },
+    screenrec: {
+        ru: 'Записать экран игрока онлайн и сохранить видео на сервере.',
+        ua: 'Записати екран гравця онлайн і зберегти відео на сервері.',
+        en: 'Record an online player screen and save the video on the server.',
+        de: 'Den Bildschirm eines Online-Spielers aufnehmen und das Video auf dem Server speichern.',
+        pl: 'Nagraj ekran gracza online i zapisz wideo na serwerze.',
+    },
     set_name: {
         ru: 'Сменить игроку по static ID имя и фамилию персонажа, включая офлайн-персонажей.',
         ua: 'Змінити гравцю за static ID імʼя та прізвище персонажа, включно з офлайн-персонажами.',
