@@ -143,7 +143,7 @@ export default {
                 ru: 'Хорошо, приходите в любое время.',
                 ua: 'Добре, звертайтесь будь-коли.',
                 en: 'Alright, come back anytime.',
-                de: 'Alles klar, komme jederzeit wieder.',
+                de: 'Alles klar, komm jederzeit wieder.',
                 pl: 'Dobrze, wracaj, kiedy tylko chcesz.',
             },
 
@@ -171,7 +171,6 @@ export default {
                 pl: 'Kupić.',
             },
 
-            //
             whatLicenseUNeed: {
                 ru: 'Какая лицензия вас интересует?',
                 ua: 'Яка ліцензія вас цікавить?',

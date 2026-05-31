@@ -98,6 +98,23 @@ export default {
         },
     },
 
+    emptyRecent: {
+        name: {
+            ru: 'Последние треки',
+            ua: 'Останні треки',
+            en: 'Recent tracks',
+            de: 'Zuletzt gehört',
+            pl: 'Ostatnie utwory',
+        },
+        desc: {
+            ru: 'Здесь будут отображаться последние треки, которые вы слушали',
+            ua: 'Тут відображатимуться останні треки, які ви слухали',
+            en: 'Here you will find the most recently played tracks',
+            de: 'Hier erscheinen die zuletzt abgespielten Titel',
+            pl: 'Tutaj pojawią się ostatnio odtwarzane utwory',
+        },
+    },
+
     startPage: {
         header: {
             ru: 'Добро пожаловать в панеле управления музыкального плеера!',
@@ -186,5 +203,13 @@ export default {
         en: 'The player with id: {{id}} is too close',
         de: 'Der Player mit der ID: {{id}} ist zu nah',
         pl: 'Odtwarzacz z id: {{id}} jest za blisko',
+    },
+
+    mutedInGreenZone: {
+        ru: 'Заглушено в зелёной зоне',
+        ua: 'Приглушено в зеленій зоні',
+        en: 'Muted in green zone',
+        de: 'In der grünen Zone stummgeschaltet',
+        pl: 'Wyciszone w zielonej strefie',
     },
 };

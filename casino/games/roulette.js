@@ -39,7 +39,7 @@ export const roulette = {
         ru: 'Отменить ставку',
         ua: 'Скасувати ставку',
         en: 'Cancel bet',
-        de: 'Wette stornieren',
+        de: 'Einsatz zurücknehmen',
         pl: 'Anuluj zakład',
         zh: '取消选择',
     },
