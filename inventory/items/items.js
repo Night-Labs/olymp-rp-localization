@@ -1,4 +1,40 @@
 export const items = {
+    summerPassToken2025: {
+        name: {
+            ru: 'Жетон пропуска Лето 2025',
+            ua: 'Жетон перепустки Літо 2025',
+            en: 'Summer 2025 Pass Token',
+            de: 'Sommer 2025 Pass-Marke',
+            pl: 'Żeton przepustki Lato 2025',
+            zh: '2025年夏季通行证徽章',
+        },
+        desc: {
+            ru: 'Этот жетон выдавался только тем, кто проходил батл пасс на проекте в сезоне Лето 2025.',
+            ua: 'Цей жетон видавався лише тим, хто проходив батл пас на проекті в сезоні Літо 2025.',
+            en: 'This token was given only to those who completed the battle pass on the project during the Summer 2025 season.',
+            de: 'Diese Marke wurde nur an jene vergeben, die den Battle Pass auf dem Projekt in der Saison Sommer 2025 abgeschlossen haben.',
+            pl: 'Ten żeton był przyznawany tylko tym, którzy ukończyli battle pass na projekcie w sezonie Lato 2025.',
+            zh: '此徽章仅授予在2025年夏季赛季完成项目通行证的玩家。',
+        },
+    },
+    summerPassToken2026: {
+        name: {
+            ru: 'Жетон пропуска Лето 2026',
+            ua: 'Жетон перепустки Літо 2026',
+            en: 'Summer 2026 Pass Token',
+            de: 'Sommer 2026 Pass-Marke',
+            pl: 'Żeton przepustki Lato 2026',
+            zh: '2026年夏季通行证徽章',
+        },
+        desc: {
+            ru: 'Этот жетон выдавался только тем, кто проходил батл пасс на проекте в сезоне Лето 2026.',
+            ua: 'Цей жетон видавався лише тим, хто проходив батл пас на проекті в сезоні Літо 2026.',
+            en: 'This token was given only to those who completed the battle pass on the project during the Summer 2026 season.',
+            de: 'Diese Marke wurde nur an jene vergeben, die den Battle Pass auf dem Projekt in der Saison Sommer 2026 abgeschlossen haben.',
+            pl: 'Ten żeton był przyznawany tylko tym, którzy ukończyli battle pass na projekcie w sezonie Lato 2026.',
+            zh: '此徽章仅授予在2026年夏季赛季完成项目通行证的玩家。',
+        },
+    },
     heal: {
         name: {
             ua: 'Аптечка',
