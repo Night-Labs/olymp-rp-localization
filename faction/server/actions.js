@@ -306,6 +306,14 @@ export default {
         pl: 'Obywatel jest chory: {{values}}',
     },
 
+    medicalCheckupPassed: {
+        ru: 'Медосмотр пройден, вы полностью здоровы!',
+        ua: 'Медогляд пройдено, ви повністю здорові!',
+        en: 'Medical examination passed, you are completely healthy!',
+        de: 'Gesundheitsuntersuchung bestanden, Sie sind völlig gesund!',
+        pl: 'Badanie lekarskie zaliczone, jesteś całkowicie zdrowy!',
+    },
+
     youHealedPlayerDiseases: {
         ru: 'Вы излечили все болезни у {{name}}',
         ua: 'Ви вилікували всі хвороби у {{name}}',
