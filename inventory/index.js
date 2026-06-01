@@ -15,6 +15,14 @@ const inventory = {
         pl: 'Ekwipunek',
     },
 
+    qtyShort: {
+        ru: 'шт.',
+        ua: 'шт.',
+        en: 'pcs',
+        de: 'St.',
+        pl: 'szt.',
+    },
+
     cantUseInventory: {
         ru: 'Сейчас вы не можете использовать инвентарь',
         ua: 'Зараз ви не можете використовувати інвентар',
