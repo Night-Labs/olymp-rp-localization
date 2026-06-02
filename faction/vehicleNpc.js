@@ -52,7 +52,7 @@ export default {
         ru: 'Фракционный автопарк',
         ua: 'Фракційний автопарк',
         en: 'Faction Fleet',
-        de: 'Fraktionsfahrzeugpark',
+        de: 'Fuhrpark',
         pl: 'Flota frakcji',
     },
 };
