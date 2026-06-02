@@ -101,6 +101,20 @@ export default {
                 de: '{{hours}} Stunden',
                 pl: '{{hours}} godzin',
             },
+            xpBonusPrefix: {
+                ru: 'Бонус к опыту',
+                ua: 'Бонус до досвіду',
+                en: 'XP bonus',
+                de: 'EP-Bonus',
+                pl: 'Bonus do doświadczenia',
+            },
+            xpBonusValue: {
+                ru: '{{percent}}%',
+                ua: '{{percent}}%',
+                en: '{{percent}}%',
+                de: '{{percent}}%',
+                pl: '{{percent}}%',
+            },
             startFree: {
                 ru: 'Начать бесплатно',
                 ua: 'Почати безкоштовно',

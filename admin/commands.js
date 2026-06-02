@@ -1171,6 +1171,13 @@ export default {
         de: 'Dir selbst eine Waffe anhand ihres Kurznamens ohne das Präfix weapon_ geben.',
         pl: 'Daj sobie broń po jej short-name bez prefiksu weapon_.',
     },
+    weaponhash: {
+        ru: 'Выдать себе оружие по числовому хешу (десятичный или 0x hex).',
+        ua: 'Видати собі зброю за числовим хешем (десятковий або 0x hex).',
+        en: 'Give yourself a weapon by its numeric hash (decimal or 0x hex).',
+        de: 'Dir selbst eine Waffe anhand ihres numerischen Hashes geben (dezimal oder 0x hex).',
+        pl: 'Daj sobie broń po jej numerycznym haszu (dziesiętny lub 0x hex).',
+    },
     revive: {
         ru: 'Поднять игрока онлайн и сразу восстановить ему 100 HP.',
         ua: 'Підняти гравця онлайн і одразу відновити йому 100 HP.',
