@@ -582,6 +582,15 @@ export const cef = {
             zh: '卖出',
         },
 
+        destroy: {
+            ru: 'Уничтожить',
+            ua: 'Знищити',
+            en: 'Destroy',
+            de: 'Zerstören',
+            pl: 'Zniszcz',
+            zh: '销毁',
+        },
+
         // Filter
         vehicles: {
             ru: 'Транспорт',

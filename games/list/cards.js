@@ -63,4 +63,12 @@ export default {
         pl: 'Odbierz',
         zh: '领取',
     },
+    previewSubtitle: {
+        ru: 'Возможные награды',
+        ua: 'Можливі нагороди',
+        en: 'Possible rewards',
+        de: 'Mögliche Belohnungen',
+        pl: 'Możliwe nagrody',
+        zh: '可能的奖励',
+    },
 };

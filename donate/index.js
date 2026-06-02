@@ -155,6 +155,24 @@ export default {
             zh: '出售物品',
         },
 
+        sellForXpTitle: {
+            ru: 'Продажа за опыт пропуска',
+            ua: 'Продаж за досвід пропуску',
+            en: 'Sell for pass XP',
+            de: 'Für Pass-XP verkaufen',
+            pl: 'Sprzedaż za XP przepustki',
+            zh: '出售换取通行证经验',
+        },
+
+        destroyTitle: {
+            ru: 'Уничтожение предмета',
+            ua: 'Знищення предмета',
+            en: 'Destroy item',
+            de: 'Gegenstand zerstören',
+            pl: 'Zniszczenie przedmiotu',
+            zh: '销毁物品',
+        },
+
         body: {
             buy: {
                 ru: 'Купить',
@@ -172,6 +190,14 @@ export default {
                 pl: 'za',
                 zh: '换',
             },
+            forXp: {
+                ru: 'за опыт',
+                ua: 'за досвід',
+                en: 'for XP',
+                de: 'für XP',
+                pl: 'za XP',
+                zh: '换取经验',
+            },
             receive: {
                 ru: 'Получить',
                 ua: 'Отримати',
@@ -187,6 +213,14 @@ export default {
                 de: 'Verkaufen',
                 pl: 'Sprzedać',
                 zh: '出售',
+            },
+            destroy: {
+                ru: 'Уничтожить',
+                ua: 'Знищити',
+                en: 'Destroy',
+                de: 'Zerstören',
+                pl: 'Zniszczyć',
+                zh: '销毁',
             },
         },
 
@@ -254,6 +288,15 @@ export default {
                     en: 'Sell',
                     de: 'Verkaufen',
                     pl: 'Sprzedać',
+                },
+            },
+            destroy: {
+                button: {
+                    ru: 'Уничтожить',
+                    ua: 'Знищити',
+                    en: 'Destroy',
+                    de: 'Zerstören',
+                    pl: 'Zniszczyć',
                 },
             },
             receive: {

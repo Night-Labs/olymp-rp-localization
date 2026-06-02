@@ -748,6 +748,13 @@ export const settings = {
         de: 'Verwendet ein benutzerdefiniertes Serverlogo anstelle des Standardlogos',
         pl: 'Używa niestandardowego logo serwera zamiast domyślnego',
     },
+    showItemIdsDesc: {
+        ru: 'Отображает внутренний ID предмета в его информации (инвентарь, обмен)',
+        ua: 'Відображає внутрішній ID предмета у його інформації (інвентар, обмін)',
+        en: 'Shows item internal ID in its info (inventory, trade)',
+        de: 'Zeigt die interne ID eines Gegenstands in seiner Info an (Inventar, Handel)',
+        pl: 'Wyświetla wewnętrzne ID przedmiotu w jego informacjach (ekwipunek, wymiana)',
+    },
     chatFontSizeDesc: {
         ru: 'Регулирует размер шрифта сообщений в чате',
         ua: 'Регулює розмір шрифту повідомлень у чаті',
@@ -952,6 +959,13 @@ export const settings = {
         en: 'Custom logo',
         de: 'Benutzerdefiniertes Logo',
         pl: 'Niestandardowe logo',
+    },
+    showItemIds: {
+        ru: 'Показывать ID предметов',
+        ua: 'Показувати ID предметів',
+        en: 'Show item IDs',
+        de: 'Item-IDs anzeigen',
+        pl: 'Pokaż ID przedmiotów',
     },
     chatFontSize: {
         ru: 'Размер шрифта в чате',

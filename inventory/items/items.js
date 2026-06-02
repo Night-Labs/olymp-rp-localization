@@ -1,4 +1,40 @@
 export const items = {
+    summerPassToken2025: {
+        name: {
+            ru: 'Жетон пропуска Лето 2026',
+            ua: 'Жетон перепустки Літо 2026',
+            en: 'Summer 2026 Pass Token',
+            de: 'Sommer 2026 Pass-Marke',
+            pl: 'Żeton przepustki Lato 2026',
+            zh: '2025年夏季通行证徽章',
+        },
+        desc: {
+            ru: 'Этот жетон выдавался только тем, кто проходил батл пасс на проекте в сезоне Лето 2026.',
+            ua: 'Цей жетон видавався лише тим, хто проходив батл пас на проекті в сезоні Літо 2026.',
+            en: 'This token was given only to those who completed the battle pass on the project during the Summer 2026 season.',
+            de: 'Diese Marke wurde nur an jene vergeben, die den Battle Pass auf dem Projekt in der Saison Sommer 2026 abgeschlossen haben.',
+            pl: 'Ten żeton był przyznawany tylko tym, którzy ukończyli battle pass na projekcie w sezonie Lato 2026.',
+            zh: '此徽章仅授予在2025年夏季赛季完成项目通行证的玩家。',
+        },
+    },
+    summerPassToken2026: {
+        name: {
+            ru: 'Жетон пропуска Лето 2026',
+            ua: 'Жетон перепустки Літо 2026',
+            en: 'Summer 2026 Pass Token',
+            de: 'Sommer 2026 Pass-Marke',
+            pl: 'Żeton przepustki Lato 2026',
+            zh: '2026年夏季通行证徽章',
+        },
+        desc: {
+            ru: 'Этот жетон выдавался только тем, кто проходил батл пасс на проекте в сезоне Лето 2026.',
+            ua: 'Цей жетон видавався лише тим, хто проходив батл пас на проекті в сезоні Літо 2026.',
+            en: 'This token was given only to those who completed the battle pass on the project during the Summer 2026 season.',
+            de: 'Diese Marke wurde nur an jene vergeben, die den Battle Pass auf dem Projekt in der Saison Sommer 2026 abgeschlossen haben.',
+            pl: 'Ten żeton był przyznawany tylko tym, którzy ukończyli battle pass na projekcie w sezonie Lato 2026.',
+            zh: '此徽章仅授予在2026年夏季赛季完成项目通行证的玩家。',
+        },
+    },
     heal: {
         name: {
             ua: 'Аптечка',
@@ -15,6 +51,24 @@ export const items = {
             de: 'Stellt 75 Prozent der Gesundheit wieder her, wenn die Gesundheit unter 25 Prozent liegt, kann auch für einmalige Wiederbelebung von Personen verwendet werden',
             pl: 'Przywraca 75 procent zdrowia, jeśli zdrowie jest poniżej 25 procent, może być również używany do jednorazowej reanimacji ludzi',
             zh: '它可以恢复75%的健康，前提是只有不到25%的健康也可以用于同时进行人体复苏',
+        },
+    },
+    armorPlate: {
+        name: {
+            ru: 'Бронепластина',
+            ua: 'Бронепластина',
+            en: 'Armor Plate',
+            de: 'Panzerplatte',
+            pl: 'Płyta pancerza',
+            zh: '装甲板',
+        },
+        desc: {
+            ru: 'Полностью чинит ваш бронежилет при применении',
+            ua: 'Повністю ремонтує ваш бронежилет при застосуванні',
+            en: 'Fully repairs your body armor when used',
+            de: 'Repariert deine Schutzweste vollständig bei Anwendung',
+            pl: 'Całkowicie naprawia twoją kamizelkę kuloodporną po użyciu',
+            zh: '使用时完全修复您的防弹衣',
         },
     },
     repairkit: {

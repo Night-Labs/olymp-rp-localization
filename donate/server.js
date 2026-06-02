@@ -58,6 +58,33 @@ export const server = {
         zh: '您需要购买奥林普币',
     },
 
+    sellForXp: {
+        ru: 'Вы продали {{name}} за {{xp}} опыта пропуска',
+        ua: 'Ви продали {{name}} за {{xp}} досвіду пропуску',
+        en: 'You sold {{name}} for {{xp}} pass XP',
+        de: 'Du hast {{name}} für {{xp}} Pass-XP verkauft',
+        pl: 'Sprzedano {{name}} za {{xp}} XP przepustki',
+        zh: '您以 {{xp}} 通行证经验出售了 {{name}}',
+    },
+
+    sellForXpMaxLevel: {
+        ru: 'Достигнут максимальный уровень пропуска',
+        ua: 'Досягнуто максимальний рівень пропуску',
+        en: 'Pass max level reached',
+        de: 'Maximale Pass-Stufe erreicht',
+        pl: 'Osiągnięto maksymalny poziom przepustki',
+        zh: '已达到通行证最高等级',
+    },
+
+    destroyed: {
+        ru: 'Предмет {{name}} уничтожен',
+        ua: 'Предмет {{name}} знищено',
+        en: 'Item {{name}} destroyed',
+        de: 'Gegenstand {{name}} zerstört',
+        pl: 'Przedmiot {{name}} zniszczony',
+        zh: '物品 {{name}} 已销毁',
+    },
+
     purchaseNotify: {
         ru: 'Вы купили {{name}} {{quantity}} шт.',
         ua: 'Ви купили {{name}} {{quantity}} шт.',
@@ -90,6 +117,14 @@ export const server = {
         en: 'This exclusive tattoo is already unlocked',
         de: 'Dieses exklusive Tattoo ist bereits freigeschaltet',
         pl: 'Ten ekskluzywny tatuaż jest już odblokowany',
+    },
+
+    alreadyHasAnimation: {
+        ru: 'Эта эксклюзивная анимация уже разблокирована',
+        ua: 'Ця ексклюзивна анімація вже розблокована',
+        en: 'This exclusive animation is already unlocked',
+        de: 'Diese exklusive Animation ist bereits freigeschaltet',
+        pl: 'Ta ekskluzywna animacja jest już odblokowana',
     },
 
     receive: {
@@ -222,6 +257,14 @@ export const server = {
             pl: 'Otrzymano {{donate}} Olymp-Coins',
         },
 
+        chips: {
+            ru: 'Получено {{chips}} фишек казино',
+            ua: 'Отримано {{chips}} фішок казино',
+            en: 'Received {{chips}} casino chips',
+            de: '{{chips}} Casino-Chips erhalten',
+            pl: 'Otrzymano {{chips}} żetonów kasyna',
+        },
+
         freeCoinsOnline: {
             ru: 'Вы получили {{donate}} Olymp-Coins за {{hours}} часа игры',
             ua: 'Ви отримали {{donate}} Olymp-Coins за {{hours}} години гри',
@@ -260,6 +303,23 @@ export const server = {
             en: 'Unlocked exclusive tattoo {{tattoo}}',
             de: 'Exklusives Tattoo {{tattoo}} freigeschaltet',
             pl: 'Odblokowano ekskluzywny tatuaż {{tattoo}}',
+        },
+
+        animation: {
+            ru: 'Разблокирована эксклюзивная анимация {{animation}}',
+            ua: 'Розблоковано ексклюзивну анімацію {{animation}}',
+            en: 'Unlocked exclusive animation {{animation}}',
+            de: 'Exklusive Animation {{animation}} freigeschaltet',
+            pl: 'Odblokowano ekskluzywną animację {{animation}}',
+        },
+
+        // Получен кейс (например, награда из BP)
+        case: {
+            ru: 'Получен кейс {{name}} {{quantity}} шт.',
+            ua: 'Отримано кейс {{name}} {{quantity}} шт.',
+            en: 'Received case {{name}} {{quantity}} pcs.',
+            de: 'Case {{name}} {{quantity}} pcs. erhalten',
+            pl: 'Otrzymano kejs {{name}} {{quantity}} szt.',
         },
     },
 };
