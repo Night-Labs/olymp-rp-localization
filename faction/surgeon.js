@@ -44,7 +44,7 @@ export default {
         ru: 'Вы успешно сделали пластическую операцию',
         ua: 'Ви успішно зробили пластичну операцію',
         en: 'You have successfully undergone plastic surgery',
-        de: 'Du hast erfolgreich eine plastische Operation durchgeführt',
+        de: 'Du hast dich erfolgreich einer plastische Operation unterzogen',
         pl: 'Pomyślnie przeszedłeś operację plastyczną',
     },
 };
