@@ -58,6 +58,33 @@ export const server = {
         zh: '您需要购买奥林普币',
     },
 
+    sellForXp: {
+        ru: 'Вы продали {{name}} за {{xp}} опыта пропуска',
+        ua: 'Ви продали {{name}} за {{xp}} досвіду пропуску',
+        en: 'You sold {{name}} for {{xp}} pass XP',
+        de: 'Du hast {{name}} für {{xp}} Pass-XP verkauft',
+        pl: 'Sprzedano {{name}} za {{xp}} XP przepustki',
+        zh: '您以 {{xp}} 通行证经验出售了 {{name}}',
+    },
+
+    sellForXpMaxLevel: {
+        ru: 'Достигнут максимальный уровень пропуска',
+        ua: 'Досягнуто максимальний рівень пропуску',
+        en: 'Pass max level reached',
+        de: 'Maximale Pass-Stufe erreicht',
+        pl: 'Osiągnięto maksymalny poziom przepustki',
+        zh: '已达到通行证最高等级',
+    },
+
+    destroyed: {
+        ru: 'Предмет {{name}} уничтожен',
+        ua: 'Предмет {{name}} знищено',
+        en: 'Item {{name}} destroyed',
+        de: 'Gegenstand {{name}} zerstört',
+        pl: 'Przedmiot {{name}} zniszczony',
+        zh: '物品 {{name}} 已销毁',
+    },
+
     purchaseNotify: {
         ru: 'Вы купили {{name}} {{quantity}} шт.',
         ua: 'Ви купили {{name}} {{quantity}} шт.',
