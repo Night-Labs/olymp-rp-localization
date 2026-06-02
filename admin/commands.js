@@ -974,6 +974,13 @@ export default {
         de: 'Donat-Währung einem Charakter anhand seiner static ID gutschreiben, auch wenn er offline ist.',
         pl: 'Dodaj walutę donacyjną postaci po static ID, nawet jeśli jest offline.',
     },
+    remove_donate: {
+        ru: 'Снять донат-валюту у персонажа по static ID, даже если он оффлайн.',
+        ua: 'Зняти донат-валюту у персонажа за static ID, навіть якщо він офлайн.',
+        en: 'Remove donation currency from a character by static ID, even if they are offline.',
+        de: 'Donat-Währung einem Charakter anhand seiner static ID abziehen, auch wenn er offline ist.',
+        pl: 'Odejmij walutę donacyjną postaci po static ID, nawet jeśli jest offline.',
+    },
     give_my_donate: {
         ru: 'Передать часть своей донат-валюты игроку по static ID.',
         ua: 'Передати частину своєї донат-валюти гравцю за static ID.',
