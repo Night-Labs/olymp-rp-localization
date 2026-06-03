@@ -24,14 +24,14 @@ export default {
         ru: 'Для ограбления вы должны быть в группе!',
         ua: 'Для пограбування ви повинні бути у групі!',
         en: 'You must be in a group to perform a robbery!',
-        de: 'Für einen Überfall musst in einer Gruppe sein!',
+        de: 'Für einen Überfall musst du in einer Gruppe sein!',
         pl: 'Aby dokonać napadu, musisz być w grupie!',
     },
     minParty: {
         ru: 'В группе должно быть минимум {{minCount}} игрока!',
         ua: 'У групі має бути щонайменше {{minCount}} гравця!',
         en: 'There must be at least {{minCount}} players in the group!',
-        de: 'In der Gruppe müssen mindestens {{minCount}} Bürger sein!',
+        de: 'In der Gruppe müssen mindestens {{minCount}} Spieler sein!',
         pl: 'W grupie musi być co najmniej {{minCount}} graczy!',
     },
     groupInvalid: {
