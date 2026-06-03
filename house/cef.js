@@ -32,7 +32,7 @@ const cef = {
             ru: 'Главная',
             ua: 'Головна',
             en: 'Main',
-            de: 'Hauptseite',
+            de: 'Startseite',
             pl: 'Główna',
         },
         upgrades: {
@@ -83,7 +83,7 @@ const cef = {
             ru: 'Мест в гараже',
             ua: 'Місць у гаражі',
             en: 'Parking spots in garage',
-            de: 'Parkplätze in der Garage',
+            de: 'Garagenstellplätze',
             pl: 'Miejsca w garażu',
         },
         places: {
@@ -97,7 +97,7 @@ const cef = {
             ru: 'Можно подселить',
             ua: 'Можна підселити',
             en: 'Can accommodate',
-            de: 'Kann einziehen lassen',
+            de: 'Kann beherbergen',
             pl: 'Można zakwaterować',
         },
         peoples: {
@@ -227,7 +227,7 @@ const cef = {
             ru: 'Осмотреть',
             ua: 'Оглянути',
             en: 'Inspect',
-            de: 'Untersuchen',
+            de: 'Besichtigen',
             pl: 'Obejrzyj',
         },
     },
