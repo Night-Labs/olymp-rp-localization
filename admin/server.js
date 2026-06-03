@@ -182,6 +182,15 @@ export const server = {
             zh: '捐赠货币不足，无法转账{{sum}} Olymp-Coins',
         },
     },
+    removeDonate: {
+        notEnough: {
+            ru: 'У {{name}} недостаточно донат-валюты (баланс: {{balance}} Olymp-Coins)',
+            ua: 'У {{name}} недостатньо донат-валюти (баланс: {{balance}} Olymp-Coins)',
+            en: '{{name}} does not have enough donation currency (balance: {{balance}} Olymp-Coins)',
+            de: '{{name}} hat nicht genug Olymp-Coins (Guthaben: {{balance}} Olymp-Coins)',
+            pl: '{{name}} nie ma wystarczającej waluty donacyjnej (saldo: {{balance}} Olymp-Coins)',
+        },
+    },
     cash: {
         give: {
             ua: 'Ви видали ${{cash}} гравцю {{name}}',

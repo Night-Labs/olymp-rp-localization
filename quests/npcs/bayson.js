@@ -81,18 +81,18 @@ export default {
     },
     nothing: {
         noNewForNowBye: {
-            ru: 'Привет, пока ничего не могу тебе предложить, прощай.',
-            ua: 'Привіт, поки що нічого не можу тобі запропонувати, бувай.',
-            en: "Hey, I can't offer you anything right now, goodbye.",
-            de: "Hi, ich kann dir gerade nichts anbieten, mach's gut.",
-            pl: 'Cześć, na razie nie mam ci nic do zaoferowania, trzymaj się.',
+            ru: 'Тише ступай. Лес шума не любит, да и зверь нынче пуганый. Делать мне с тобой нечего - иди своей дорогой.',
+            ua: 'Тихіше ступай. Ліс шуму не любить, та й звір нині полоханий. Робити мені з тобою нічого - йди своєю дорогою.',
+            en: "Tread quietly. The forest dislikes noise, and the game's skittish these days. I've nothing for you - go on your way.",
+            de: "Tritt leise auf. Der Wald mag keinen Lärm, und das Wild ist dieser Tage scheu. Ich hab nichts für dich - geh deines Weges.",
+            pl: 'Stąpaj cicho. Las nie lubi hałasu, a zwierzyna teraz płochliwa. Nie mam nic dla ciebie - idź swoją drogą.',
         },
         bye: {
-            ru: 'Пока',
+            ru: 'Бывай',
             ua: 'Бувай',
-            en: 'Bye',
-            de: 'Ciao',
-            pl: 'Na razie',
+            en: 'Take care',
+            de: "Mach's gut",
+            pl: 'Bywaj',
         },
     },
     all: {
