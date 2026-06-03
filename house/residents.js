@@ -10,7 +10,7 @@ export default {
         ru: 'Пока ты сам',
         ua: 'Поки ти сам',
         en: 'For now, it’s just you',
-        de: 'Im Moment bist es nur du',
+        de: 'Im Moment bist nur du da',
         pl: 'Na razie jesteś tylko ty',
     },
     residentDateFrom: {
@@ -46,7 +46,7 @@ export default {
             ru: 'Закрывать или открывать дом',
             ua: 'Закривати або відкривати будинок',
             en: 'Lock or unlock the house',
-            de: 'Das Haus abschließen oder öffnen',
+            de: 'Das Haus ab-/aufschließen',
             pl: 'Zamykać lub otwierać dom',
         },
         parkingSlots: {
@@ -60,7 +60,7 @@ export default {
             ru: 'Доступ к шкафам',
             ua: 'Доступ до шаф',
             en: 'Access to cabinets',
-            de: 'Zugriff auf Schränke',
+            de: 'Zugriff zu Schränken',
             pl: 'Dostęp do szafek',
         },
 
@@ -104,7 +104,7 @@ export default {
         ru: 'Выгнать',
         ua: 'Вигнати',
         en: 'Kick out',
-        de: 'Rauswerfen',
+        de: 'Hinauswerfen',
         pl: 'Wyrzuć',
     },
     //
@@ -128,7 +128,7 @@ export default {
         ru: 'Тебя добавили жильцом этого дома.',
         ua: 'Тебе додали мешканцем цього будинку.',
         en: 'You were added as a resident of this house.',
-        de: 'Dich haben sie als Bewohner dieses Hauses hinzugefügt.',
+        de: 'Du wurdest als Bewohner dieses Hauses hinzugefügt.',
         pl: 'Dodano cię jako lokatora tego domu.',
     },
 
