@@ -25,7 +25,7 @@ export default {
         ru: 'Тебя недавно выгоняли из этого дома',
         ua: 'Тебе нещодавно виганяли з цього дому',
         en: 'You were kicked out of this house recently',
-        de: 'Du wurdest kürzlich aus diesem Haus rausgeworfen',
+        de: 'Du wurdest kürzlich aus diesem Haus geworfen',
         pl: 'Niedawno zostałeś wyrzucony z tego domu',
     },
     sms: {
@@ -33,7 +33,7 @@ export default {
             ru: 'Ваш дом №{{id}} был конфискован за неуплату. Вам зачислено {{percent}}% от его стоимости на банковский счёт.',
             ua: 'Ваш будинок №{{id}} було конфісковано за несплату. Вам зараховано {{percent}}% від його вартості на банківський рахунок.',
             en: 'Your house #{{id}} was confiscated for non-payment. {{percent}}% of its value has been credited to your bank account.',
-            de: 'Ihr Haus Nr. {{id}} wurde wegen Nichtzahlung beschlagnahmt. {{percent}} % seines Wertes wurden Ihrem Bankkonto gutgeschrieben.',
+            de: 'Ihr Haus Nr. {{id}} wurde wegen Nichtzahlung beschlagnahmt. {{percent}}% seines Wertes wurden Ihrem Bankkonto gutgeschrieben.',
             pl: 'Pański/Pani dom nr {{id}} został skonfiskowany z powodu braku płatności. {{percent}}% jego wartości zostało przelane na konto bankowe.',
         },
     },
