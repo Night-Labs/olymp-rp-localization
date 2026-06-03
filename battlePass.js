@@ -522,6 +522,56 @@ export default {
                         pl: 'Zbierz {{target}} przedmiotów pracując jako nurek.',
                     },
                 },
+                loader: {
+                    title: {
+                        ru: 'Грузчик',
+                        ua: 'Вантажник',
+                        en: 'Loader',
+                        de: 'Lader',
+                        pl: 'Ładowacz',
+                    },
+                    description: {
+                        ru: 'Отнесите {{target}} ящиков с товаром на работе Грузоперевозчиком или состоя в команде Грузоперевозчика.',
+                        ua: 'Перенесіть {{target}} ящиків з товаром на роботі Вантажоперевізником або перебуваючи в команді Вантажоперевізника.',
+                        en: 'Carry {{target}} cargo crates while working as a Trucker or as a member of a Trucker crew.',
+                        de: 'Trage {{target}} Warenkisten als Spediteur oder als Mitglied eines Spediteur-Teams.',
+                        pl: 'Przenieś {{target}} skrzyń z towarem pracując jako Przewoźnik lub będąc w drużynie Przewoźnika.',
+                    },
+                },
+                taxiOrders: {
+                    title: {
+                        ru: 'Востребованный таксист',
+                        ua: 'Затребуваний таксист',
+                        en: 'In-demand cabbie',
+                        de: 'Gefragter Taxifahrer',
+                        pl: 'Rozchwytywany taksówkarz',
+                    },
+                    description: {
+                        ru: 'Выполните {{target}} заказов от реальных игроков на работе таксистом.',
+                        ua: 'Виконайте {{target}} замовлень від реальних гравців на роботі таксистом.',
+                        en: 'Complete {{target}} orders from real players while working as a taxi driver.',
+                        de: 'Erfülle {{target}} Aufträge von echten Spielern als Taxifahrer.',
+                        pl: 'Wykonaj {{target}} zleceń od prawdziwych graczy pracując jako taksówkarz.',
+                    },
+                },
+            },
+            taxi: {
+                clientRide: {
+                    title: {
+                        ru: 'Клиент таксопарка',
+                        ua: 'Клієнт таксопарку',
+                        en: 'Taxi customer',
+                        de: 'Taxikunde',
+                        pl: 'Klient taksówki',
+                    },
+                    description: {
+                        ru: 'Доберитесь до точки назначения, используя услуги такси.',
+                        ua: 'Дістаньтеся до пункту призначення, скориставшись послугами таксі.',
+                        en: 'Reach your destination using a taxi service.',
+                        de: 'Erreiche dein Ziel mit einem Taxiservice.',
+                        pl: 'Dotrzyj do celu, korzystając z usług taksówki.',
+                    },
+                },
             },
             earn: {
                 trucker: {

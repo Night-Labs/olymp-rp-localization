@@ -610,6 +610,13 @@ export default {
         de: 'Die angegebene Battle-Pass-Aufgabe des Spielers zwangsweise abschließen: Die Aufgabe wird entfernt und die Belohnungs-XP gutgeschrieben.',
         pl: 'Wymuś ukończenie wskazanego zadania przepustki bojowej gracza: zadanie zostaje usunięte, a XP nagrody przyznane.',
     },
+    bp_add_quest: {
+        ru: 'Заменить первое активное задание боевого пропуска той же сложности на задание с указанным questId (без списания и без кулдауна замены).',
+        ua: 'Замінити перше активне завдання бойової перепустки тієї ж складності на завдання з указаним questId (без списання та без кулдауну заміни).',
+        en: "Replace the player's first active battle pass task of the same difficulty with the task of the given questId (no charge, no replace cooldown).",
+        de: 'Die erste aktive Battle-Pass-Aufgabe derselben Schwierigkeit des Spielers durch die Aufgabe mit der angegebenen questId ersetzen (ohne Kosten, ohne Ersetzungs-Cooldown).',
+        pl: 'Zastąp pierwsze aktywne zadanie przepustki bojowej gracza o tej samej trudności zadaniem o podanym questId (bez opłaty i bez cooldownu zamiany).',
+    },
     airdrop: {
         ru: 'Запустить глобальный аирдроп вручную.',
         ua: 'Запустити глобальний аірдроп вручну.',
