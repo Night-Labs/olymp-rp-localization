@@ -3,21 +3,21 @@ export default {
         ru: 'У тебя нет доступа к этому сейфу',
         ua: 'У тебе немає доступу до цього сейфу',
         en: 'You don’t have access to this safe',
-        de: 'Du hast keinen Zugriff auf diesen Safe',
+        de: 'Du hast keinen Zugriff auf diesen Tresor',
         pl: 'Nie masz dostępu do tego sejfu',
     },
     interact: {
         ru: 'Посмотреть в сейф',
         ua: 'Подивитися в сейф',
         en: 'Look into the safe',
-        de: 'In den Safe schauen',
+        de: 'In den Tresor schauen',
         pl: 'Zajrzeć do sejfu',
     },
     notEnoughMoney: {
         ru: 'В сейфе нет столько денег',
         ua: 'У сейфі немає стільки грошей',
         en: 'There isn’t that much money in the safe',
-        de: 'Im Safe ist nicht so viel Geld',
+        de: 'Im Tresor ist nicht so viel Geld',
         pl: 'W sejfie nie ma tyle pieniędzy',
     },
     safe: {
@@ -31,7 +31,7 @@ export default {
         ru: 'Баланс',
         ua: 'Баланс',
         en: 'Balance',
-        de: 'Kontostand',
+        de: 'Guthaben',
         pl: 'Saldo',
     },
     limit: {
