@@ -57,7 +57,7 @@ export const server = {
             ua: 'Ви успішно продали будинок №{{id}} за ${{price}}',
             en: 'You have successfully sold house #{{id}} for ${{price}}',
             ru: 'Вы успешно продали дом №{{id}} за ${{price}}',
-            de: 'Du hast das Haus Nr.{{id}} erfolgreich für ${{price}} verkauft',
+            de: 'Du hast das Haus Nr. {{id}} erfolgreich für ${{price}} verkauft',
             pl: 'Pomyślnie sprzedano dom o numerze {{id}} za ${{price}}',
         },
         modal: {
@@ -110,7 +110,7 @@ export const server = {
             ru: 'Подсказка: Я вижу ты купил дом, не забудь оплатить его в банке иначе он слетит!',
             ua: 'Підказка: Я бачу, ти купив будинок, не забудь оплатити його в банку, інакше він злетить!',
             en: "Hint: I see you bought a house, don't forget to pay for it at the bank, otherwise you'll lose it!",
-            de: 'Hinweis: Ich sehe, dass du ein Haus gekauft hast, vergiss nicht, es bei der Bank zu bezahlen, sonst verlierst du es!',
+            de: 'Hinweis: Ich sehe, dass du ein Haus gekauft hast, vergiss nicht, es bei der Bank zu bezahlen, ansonsten verlierst du es!',
             pl: 'Wskazówka: Widzę, że kupiłeś dom, nie zapomnij zapłacić za niego w banku, inaczej go stracisz!',
         },
         success: {
@@ -251,7 +251,7 @@ export const server = {
             ru: 'Гараж только что был улучшен, поэтому ты переместился в дом',
             ua: 'Гараж щойно був покращений, тому ти перемістився в дім',
             en: 'The garage was just upgraded, so you were moved to the house',
-            de: 'Die Garage wurde gerade verbessert, deshalb bist du ins Haus umgezogen',
+            de: 'Die Garage wurde gerade verbessert, deshalb bist du ins Haus gegangen',
             pl: 'Garaż został właśnie ulepszony, więc zostałeś przeniesiony do domu',
         },
     },
@@ -586,7 +586,7 @@ export const server = {
             ru: 'К оплате донатом',
             ua: 'До оплати донатом',
             en: 'Donate to pay',
-            de: 'Zu zahlen in Donat',
+            de: 'Mit Olymp-Coins zu zahlen',
             pl: 'Do zapłaty donatem',
         },
         confirm: {
@@ -675,7 +675,7 @@ export const server = {
             ru: 'Ты действительно хочешь полностью убрать всю мебель в доме?',
             ua: 'Ти справді хочеш повністю прибрати всі меблі в домі?',
             en: 'Do you really want to completely remove all the furniture in the house?',
-            de: 'Willst du wirklich alle Möbel im Haus vollständig entfernen?',
+            de: 'Möchtest du wirklich alle Möbel im Haus vollständig entfernen?',
             pl: 'Czy na pewno chcesz całkowicie usunąć wszystkie meble z domu?',
         },
         items: {
