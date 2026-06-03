@@ -96,6 +96,24 @@ export const cef = {
         装卸工每箱薪水：<span style="color:var(--white)">$ {{payForLoaders}}</span> <br>`,
     },
 
+    autoTitle: {
+        ru: 'Автоматическая загрузка и разгрузка',
+        ua: 'Автоматичне завантаження та розвантаження',
+        en: 'Automatic loading and unloading',
+        de: 'Automatisches Be- und Entladen',
+        pl: 'Automatyczny załadunek i rozładunek',
+        zh: '自动装卸',
+    },
+
+    autoDesc: {
+        ru: 'При активной опции вам нужно будет лишь подъехать на маркер и ждать разгрузку и загрузку, в то время как при выключенной вам придётся загружать и разгружать грузовик самостоятельно либо с вашими друзьями в пати, за что каждый из грузчиков будет получать дополнительную прибыль',
+        ua: "При активній опції вам потрібно буде лише під'їхати на маркер і чекати розвантаження та завантаження, тоді як при вимкненій вам доведеться завантажувати і розвантажувати вантажівку самостійно або з вашими друзями в паті, за що кожен із вантажників отримуватиме додатковий прибуток",
+        en: 'When the option is on, you only need to drive up to the marker and wait for unloading and loading, while when it is off you will have to load and unload the truck yourself or with your friends in a party, for which each loader will earn extra profit',
+        de: 'Wenn die Option aktiv ist, musst du nur zum Marker fahren und auf das Be- und Entladen warten; ist sie deaktiviert, musst du den LKW selbst oder mit deinen Freunden in einer Party be- und entladen, wofür jeder Lader zusätzlichen Gewinn erhält',
+        pl: 'Gdy opcja jest włączona, wystarczy podjechać do znacznika i poczekać na rozładunek i załadunek, natomiast gdy jest wyłączona, będziesz musiał załadować i rozładować ciężarówkę samodzielnie lub z przyjaciółmi w party, za co każdy z załadunkowców otrzyma dodatkowy zysk',
+        zh: '启用该选项后，你只需驶到标记处等待卸载和装载；关闭后，你需要自己或与队伍中的朋友一起装卸卡车，每位装卸工都会因此获得额外收入',
+    },
+
     levels: {
         courier: {
             name: {
