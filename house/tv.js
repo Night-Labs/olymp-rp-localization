@@ -3,7 +3,7 @@ export default {
         ru: 'Управлять телевизором',
         ua: 'Керувати телевізором',
         en: 'Control TV',
-        de: 'Fernseher steuern',
+        de: 'Fernseher bedienen',
         pl: 'Steruj telewizorem',
     },
     header: {
