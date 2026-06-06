@@ -501,13 +501,14 @@ export const cef = {
             zh: '我的成就',
         },
         subtitle: {
-            ru: 'Делай больше — получай больше!',
-            ua: 'Роби більше — отримуй більше!',
-            en: 'Do more — get more!',
-            de: 'Mach mehr — bekomm mehr!',
-            pl: 'Rób więcej — zyskuj więcej!',
+            ru: 'Делай больше, получай больше!',
+            ua: 'Роби більше, отримуй більше!',
+            en: 'Do more, get more!',
+            de: 'Mach mehr, bekomm mehr!',
+            pl: 'Rób więcej, zyskuj więcej!',
             zh: '做得越多，得到越多！',
         },
+
         counterLabel: {
             ru: 'Достижений',
             ua: 'Досягнень',
@@ -523,6 +524,22 @@ export const cef = {
             de: 'Belohnung',
             pl: 'Nagroda',
             zh: '奖励',
+        },
+        claim: {
+            ru: 'Получить награду',
+            ua: 'Отримати нагороду',
+            en: 'Claim reward',
+            de: 'Belohnung abholen',
+            pl: 'Odbierz nagrodę',
+            zh: '领取奖励',
+        },
+        claimed: {
+            ru: 'Получено',
+            ua: 'Отримано',
+            en: 'Claimed',
+            de: 'Erhalten',
+            pl: 'Odebrano',
+            zh: '已领取',
         },
         tabs: {
             all: {
@@ -565,6 +582,16 @@ export const cef = {
             de: 'Hier gibt es noch keine Erfolge',
             pl: 'Brak osiągnięć',
             zh: '暂无成就',
+        },
+    },
+    reward: {
+        pcs: {
+            ru: 'шт.',
+            ua: 'шт.',
+            en: 'pcs',
+            de: 'Stk.',
+            pl: 'szt.',
+            zh: '个',
         },
     },
     inventory,
