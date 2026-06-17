@@ -435,6 +435,43 @@ export const server = {
         pl: '~r~[OLYMP ADMIN] {{name}} jest zbyt podejrzany, sprawdź go natychmiast! Powód: {{reason}}',
     },
 
+    restoreGangZones: {
+        title: {
+            ru: 'Сброс гангзон',
+            ua: 'Скидання гангзон',
+            en: 'Reset Gang Zones',
+            de: 'Gang-Zonen zurücksetzen',
+            pl: 'Reset stref gangów',
+        },
+        message: {
+            ru: 'Вы точно хотите сбросить все зоны к изначальному состоянию? Текущие владельцы зон будут заменены эталонными.',
+            ua: 'Ви точно хочете скинути всі зони до початкового стану? Поточні власники зон будуть замінені еталонними.',
+            en: 'Are you sure you want to reset all zones to their initial state? The current zone owners will be replaced with the reference ones.',
+            de: 'Möchtest du wirklich alle Zonen auf ihren ursprünglichen Zustand zurücksetzen? Die aktuellen Zonenbesitzer werden durch die Referenzwerte ersetzt.',
+            pl: 'Czy na pewno chcesz zresetować wszystkie strefy do stanu początkowego? Obecni właściciele stref zostaną zastąpieni referencyjnymi.',
+        },
+        confirm: {
+            ru: 'Сбросить',
+            ua: 'Скинути',
+            en: 'Reset',
+            de: 'Zurücksetzen',
+            pl: 'Zresetuj',
+        },
+        cancel: {
+            ru: 'Отмена',
+            ua: 'Скасувати',
+            en: 'Cancel',
+            de: 'Abbrechen',
+            pl: 'Anuluj',
+        },
+        done: {
+            ru: 'Гангзоны сброшены к эталону. Изменено зон: {{count}}',
+            ua: 'Гангзони скинуто до еталону. Змінено зон: {{count}}',
+            en: 'Gang zones reset to reference. Zones changed: {{count}}',
+            de: 'Gang-Zonen auf Referenz zurückgesetzt. Geänderte Zonen: {{count}}',
+            pl: 'Strefy gangów zresetowane do referencji. Zmienione strefy: {{count}}',
+        },
+    },
     freeFactionsTitle: {
         ru: 'Свободные фракции',
         ua: 'Вільні фракції',

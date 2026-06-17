@@ -1535,6 +1535,20 @@ export default {
         de: 'Die aktuelle Position von dir oder deinem Fahrzeug in die Datei savedPositions.json speichern und eine Markierung setzen.',
         pl: 'Zapisz swoją aktualną pozycję lub pozycję pojazdu do pliku savedPositions.json i ustaw znacznik.',
     },
+    dump_zones: {
+        ru: 'Сделать дамп всех гангзон (позиция, владелец, цвет, статус) в файл dist/gangZones.json.',
+        ua: 'Зробити дамп усіх гангзон (позиція, власник, колір, статус) у файл dist/gangZones.json.',
+        en: 'Dump all gang zones (position, owner, color, status) to the dist/gangZones.json file.',
+        de: 'Alle Gang-Zonen (Position, Besitzer, Farbe, Status) in die Datei dist/gangZones.json exportieren.',
+        pl: 'Zrzuć wszystkie strefy gangów (pozycja, właściciel, kolor, status) do pliku dist/gangZones.json.',
+    },
+    restore_gang_zones: {
+        ru: 'Сбросить все гангзоны к изначальному эталонному состоянию (владельцы по умолчанию).',
+        ua: 'Скинути всі гангзони до початкового еталонного стану (власники за замовчуванням).',
+        en: 'Reset all gang zones to their initial reference state (default owners).',
+        de: 'Alle Gang-Zonen auf ihren ursprünglichen Referenzzustand zurücksetzen (Standardbesitzer).',
+        pl: 'Zresetuj wszystkie strefy gangów do początkowego stanu referencyjnego (domyślni właściciele).',
+    },
     infinity: {
         ru: 'Переключить бесконечную неуязвимость себе или выбранному игроку онлайн.',
         ua: 'Перемкнути нескінченну невразливість собі або вибраному гравцю онлайн.',
