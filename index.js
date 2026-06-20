@@ -154,6 +154,7 @@ export default {
     workshop,
     dispatch,
     drugCourier,
+    greenCourier: drugCourier, // alias for backward compatibility (renamed from greenCourier -> drugCourier)
     adminMP,
     trading,
     fishing,
