@@ -3,7 +3,7 @@ export default {
         ru: '~r~Раздобыта информация о грузовике с материалами, он находится в красной зоне на карте. Найдите и угоните его и доставьте на базу, чтобы пополнить склад банды ценными ресурсами!',
         ua: '~r~Отримано інформацію про вантажівку з матеріалами, вона знаходиться в червоній зоні на карті. Знайдіть і викрадіть її та доставте на базу, щоб поповнити склад банди цінними ресурсами!',
         en: "~r~Information about a truck with materials has been obtained, it is located in the red zone on the map. Find and hijack it, then deliver it to the base to replenish your gang's warehouse with valuable resources!",
-        de: '~r~Es wurden Informationen über einen LKW mit Materialien erhalten, der sich in der roten Zone auf der Karte befindet. Finden und kaper  ihn und liefere ihn zur Basis, um das Lager Ihrer Bande mit wertvollen Ressourcen aufzufüllen!',
+        de: '~r~Es wurden Informationen über einen LKW mit Materialien erhalten, der sich in der roten Zone auf der Karte befindet. Finde und kapert ihn und liefere ihn zur Basis, um das Lager deiner Bande mit wertvollen Ressourcen aufzufüllen!',
         pl: '~r~Zdobyto informacje o ciężarówce z materiałami, znajduje się ona w czerwonej strefie na mapie. Znajdź ją, przechwyć i dostarcz na bazę, aby uzupełnić magazyn gangu cennymi zasobami!',
     },
     truckFinded: {
