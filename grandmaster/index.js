@@ -334,14 +334,14 @@ export default {
             ru: 'Введите положительное число',
             ua: 'Введіть додатне число',
             en: 'Enter a positive number',
-            de: 'Geben Sie eine positive Zahl ein',
+            de: 'Geib eine positive Zahl ein',
             pl: 'Wprowadź liczbę dodatnią',
         },
         stakeTooHigh: {
             ru: 'Ставка превышает лимит лиги',
             ua: 'Ставка перевищує ліміт ліги',
             en: 'Stake exceeds league limit',
-            de: 'Einsatz überschreitet Ligalimt',
+            de: 'Einsatz überschreitet Ligalimit',
             pl: 'Stawka przekracza limit ligi',
         },
         cancel: {
@@ -739,7 +739,7 @@ export default {
             ru: 'Введите ник',
             ua: 'Введіть нік',
             en: 'Enter a nickname',
-            de: 'Geben Sie einen Nicknamen ein',
+            de: 'Gib einen Nicknamen ein',
             pl: 'Wprowadź nick',
         },
         length: {
