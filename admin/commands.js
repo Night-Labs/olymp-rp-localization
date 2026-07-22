@@ -169,6 +169,13 @@ export default {
         de: 'Eine Liste der online Spieler mit ihrer static ID, Autorisierung, Dimension und Admin-Level anzeigen.',
         pl: 'Pokaż listę graczy online z ich static ID, autoryzacją, wymiarem i poziomem administratora.',
     },
+    specs: {
+        ru: 'Показать характеристики компьютера игрока: процессор, оперативную память, видеокарту и версию Windows.',
+        ua: "Показати характеристики комп'ютера гравця: процесор, оперативну пам'ять, відеокарту та версію Windows.",
+        en: "Show a player's PC specs: CPU, RAM, GPU and Windows version.",
+        de: 'Die PC-Spezifikationen eines Spielers anzeigen: CPU, RAM, GPU und Windows-Version.',
+        pl: 'Pokaż specyfikację komputera gracza: procesor, pamięć RAM, kartę graficzną i wersję Windows.',
+    },
     clear: {
         ru: 'Очистить историю чата только у себя.',
         ua: 'Очистити історію чату тільки у себе.',
@@ -722,6 +729,13 @@ export default {
         de: 'Die lokale Zeit nur für dich im Format Stunden, Minuten und Sekunden einstellen.',
         pl: 'Ustaw lokalny czas tylko dla siebie w formacie godziny, minuty i sekundy.',
     },
+    reset_local_time: {
+        ru: 'Сбросить локальное время и вернуться к серверному.',
+        ua: 'Скинути локальний час і повернутися до серверного.',
+        en: 'Reset the local time override and follow the server time again.',
+        de: 'Die lokale Zeitüberschreibung zurücksetzen und wieder der Serverzeit folgen.',
+        pl: 'Zresetuj lokalny czas i wróć do czasu serwera.',
+    },
     ped: {
         ru: 'Создать рядом с собой тестового педа по модели или оленя по умолчанию.',
         ua: 'Створити поруч із собою тестового педа за моделлю або оленя за замовчуванням.',
@@ -1142,6 +1156,13 @@ export default {
         en: 'Open or close a house by its ID.',
         de: 'Ein Haus anhand seiner ID öffnen oder schließen.',
         pl: 'Otwórz lub zamknij dom po jego ID.',
+    },
+    tvtest: {
+        ru: 'Заспавнить тестовый телевизор перед собой и запустить на нём видео. /tvtest off — убрать.',
+        ua: 'Заспавнити тестовий телевізор перед собою та запустити на ньому відео. /tvtest off — прибрати.',
+        en: 'Spawn a test TV in front of you and start a video on it. /tvtest off removes it.',
+        de: 'Einen Test-Fernseher vor dir spawnen und ein Video darauf starten. /tvtest off entfernt ihn.',
+        pl: 'Zespawnuj testowy telewizor przed sobą i uruchom na nim wideo. /tvtest off usuwa go.',
     },
     taxinpcdebug: {
         ru: 'Включить отладку taxi NPC-точек, телепортироваться между ними и смотреть их статус.',

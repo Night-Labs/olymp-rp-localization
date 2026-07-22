@@ -62,6 +62,14 @@ export const server = {
         pl: 'Gracz nie znaleziony',
         zh: '未找到该玩家',
     },
+    specsUnavailable: {
+        ua: 'Клієнт {{name}} не відповів на запит характеристик',
+        en: 'Client {{name}} did not respond to the specs request',
+        ru: 'Клиент {{name}} не ответил на запрос характеристик',
+        de: 'Der Client von {{name}} hat nicht auf die Spezifikationsanfrage geantwortet',
+        pl: 'Klient gracza {{name}} nie odpowiedział na zapytanie o specyfikację',
+        zh: '{{name}} 的客户端未响应配置查询',
+    },
     mediaLevel: {
         invalid: {
             ru: 'Неверный media level. Допустимые значения: {{allowed}}',
