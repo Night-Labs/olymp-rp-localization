@@ -664,6 +664,22 @@ export const settings = {
         de: 'Sprachaktivierung',
         pl: 'Aktywacja głosem',
     },
+    // Short labels for the segmented toggle (the full wording is in the hover
+    // description), so both options stay on one line.
+    voiceModePttShort: {
+        ru: 'По клавише',
+        ua: 'За клавішею',
+        en: 'Push-to-Talk',
+        de: 'Taste',
+        pl: 'Klawisz',
+    },
+    voiceModeVaShort: {
+        ru: 'Голосом',
+        ua: 'Голосом',
+        en: 'Voice',
+        de: 'Sprache',
+        pl: 'Głos',
+    },
     voiceVaThreshold: {
         ru: 'Порог срабатывания микрофона',
         ua: 'Поріг спрацьовування мікрофона',
@@ -705,6 +721,27 @@ export const settings = {
         en: 'System Default',
         de: 'Systemstandard',
         pl: 'Domyślny systemowy',
+    },
+    voiceMicHeader: {
+        ru: 'Микрофон',
+        ua: 'Мікрофон',
+        en: 'Microphone',
+        de: 'Mikrofon',
+        pl: 'Mikrofon',
+    },
+    voiceLive: {
+        ru: 'В эфире',
+        ua: 'В ефірі',
+        en: 'Live',
+        de: 'Aktiv',
+        pl: 'Na żywo',
+    },
+    voiceCalibrateHint: {
+        ru: 'Говорите как обычно и поставьте линию чуть ниже уровня голоса',
+        ua: 'Говоріть як зазвичай і поставте лінію трохи нижче рівня голосу',
+        en: 'Speak normally and set the line just below your voice',
+        de: 'Sprich normal und setz die Linie knapp unter deine Stimme',
+        pl: 'Mów normalnie i ustaw linię tuż poniżej poziomu głosu',
     },
     interfaceSoundsDesc: {
         ru: 'Включает или отключает звуки интерфейса и локальные CEF-звуки',
