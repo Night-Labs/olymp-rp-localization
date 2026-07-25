@@ -715,12 +715,26 @@ export default {
         de: 'Die Serverzeit im Format Stunden, Minuten und Sekunden einstellen.',
         pl: 'Ustaw czas serwera w formacie godziny, minuty i sekundy.',
     },
+    reset_time: {
+        ru: 'Снять заморозку серверного времени и вернуть всем игрокам обычный ход времени.',
+        ua: 'Зняти заморозку серверного часу та повернути всім гравцям звичайний хід часу.',
+        en: 'Unfreeze the server time and return every player to the normal time cycle.',
+        de: 'Die Serverzeit entsperren und alle Spieler zum normalen Zeitablauf zurückführen.',
+        pl: 'Odblokuj czas serwera i przywróć wszystkim graczom normalny bieg czasu.',
+    },
     set_local_time: {
         ru: 'Установить локальное время только для себя в формате часы, минуты и секунды.',
         ua: 'Встановити локальний час лише для себе у форматі години, хвилини та секунди.',
         en: 'Set the local time only for yourself in hours, minutes, and seconds format.',
         de: 'Die lokale Zeit nur für dich im Format Stunden, Minuten und Sekunden einstellen.',
         pl: 'Ustaw lokalny czas tylko dla siebie w formacie godziny, minuty i sekundy.',
+    },
+    reset_local_time: {
+        ru: 'Снять локальную заморозку времени и вернуться к серверному времени.',
+        ua: 'Зняти локальну заморозку часу та повернутися до серверного часу.',
+        en: 'Remove your local time override and follow the server time again.',
+        de: 'Die lokale Zeitüberschreibung aufheben und wieder der Serverzeit folgen.',
+        pl: 'Usuń lokalną blokadę czasu i wróć do czasu serwera.',
     },
     ped: {
         ru: 'Создать рядом с собой тестового педа по модели или оленя по умолчанию.',
