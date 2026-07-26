@@ -433,6 +433,13 @@ export default {
         de: 'Ein Objekt auswählen',
         pl: 'Wybierz obiekt',
     },
+    'furnitureEditor.deselect': {
+        ru: 'Снять выделение',
+        ua: 'Зняти виділення',
+        en: 'Deselect object',
+        de: 'Auswahl aufheben',
+        pl: 'Odznacz obiekt',
+    },
     'furnitureEditor.focusObject': {
         ru: 'Фокус на выбранном объекте',
         ua: 'Фокус на вибраному об’єкті',
