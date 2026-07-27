@@ -1563,6 +1563,13 @@ export default {
         de: 'Alle Gang-Zonen (Position, Besitzer, Farbe, Status) in die Datei dist/gangZones.json exportieren.',
         pl: 'Zrzuć wszystkie strefy gangów (pozycja, właściciel, kolor, status) do pliku dist/gangZones.json.',
     },
+    zonespawns: {
+        ru: 'Открыть/закрыть редактор спавнов ghetto-арен: по зонам, обе точки на зону, запись в dist/ghettoSpawns.json на каждое изменение.',
+        ua: 'Відкрити/закрити редактор спавнів ghetto-арен: по зонах, дві точки на зону, запис у dist/ghettoSpawns.json на кожну зміну.',
+        en: 'Open/close the ghetto arena spawn editor: zone by zone, two points per zone, written to dist/ghettoSpawns.json on every change.',
+        de: 'Den Spawn-Editor für Ghetto-Arenen öffnen/schließen: Zone für Zone, zwei Punkte pro Zone, bei jeder Änderung in dist/ghettoSpawns.json geschrieben.',
+        pl: 'Otwórz/zamknij edytor spawnów aren ghetto: strefa po strefie, dwa punkty na strefę, zapis do dist/ghettoSpawns.json przy każdej zmianie.',
+    },
     restore_gang_zones: {
         ru: 'Сбросить все гангзоны к изначальному эталонному состоянию (владельцы по умолчанию).',
         ua: 'Скинути всі гангзони до початкового еталонного стану (власники за замовчуванням).',

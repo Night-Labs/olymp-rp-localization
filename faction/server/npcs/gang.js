@@ -220,6 +220,51 @@ export default {
             de: 'Einverstanden',
             pl: 'Zgoda',
         },
+
+        // Война за территорию. Регистр сводки: связной отчитывается и отправляет,
+        // а не уговаривает — никаких обращений и шуток.
+        goToWar: {
+            ru: 'Война за территорию #{{zone}}',
+            ua: 'Війна за територію #{{zone}}',
+            en: 'Territory war #{{zone}}',
+            de: 'Gebietskrieg #{{zone}}',
+            pl: 'Wojna o terytorium #{{zone}}',
+        },
+        warBriefing: {
+            ru: 'Территория #{{zone}}. {{attacker}} против {{defender}}. Наших на месте: {{staged}} из {{slots}}. У них: {{enemyStaged}}. Начало через {{time}}. Отправляю?',
+            ua: 'Територія #{{zone}}. {{attacker}} проти {{defender}}. Наших на місці: {{staged}} з {{slots}}. У них: {{enemyStaged}}. Початок через {{time}}. Відправляю?',
+            en: 'Territory #{{zone}}. {{attacker}} against {{defender}}. Ours in position: {{staged}} of {{slots}}. Theirs: {{enemyStaged}}. Starts in {{time}}. Send you in?',
+            de: 'Gebiet #{{zone}}. {{attacker}} gegen {{defender}}. Unsere in Stellung: {{staged}} von {{slots}}. Ihre: {{enemyStaged}}. Beginn in {{time}}. Soll ich dich hinschicken?',
+            pl: 'Terytorium #{{zone}}. {{attacker}} przeciw {{defender}}. Naszych na miejscu: {{staged}} z {{slots}}. Ich: {{enemyStaged}}. Początek za {{time}}. Wysyłam?',
+        },
+        warGo: {
+            ru: 'Отправляй',
+            ua: 'Відправляй',
+            en: 'Send me in',
+            de: 'Schick mich hin',
+            pl: 'Wysyłaj',
+        },
+        warLater: {
+            ru: 'Не сейчас',
+            ua: 'Не зараз',
+            en: 'Not now',
+            de: 'Nicht jetzt',
+            pl: 'Nie teraz',
+        },
+        warNoAccess: {
+            ru: 'Тебя туда не отправлю. Не твой уровень.',
+            ua: 'Тебе туди не відправлю. Не твій рівень.',
+            en: "I'm not sending you in. Not your level.",
+            de: 'Ich schicke dich nicht hin. Nicht dein Rang.',
+            pl: 'Nie wyślę cię tam. Nie twój poziom.',
+        },
+        warSlotsFull: {
+            ru: 'Состав набран. Все {{slots}} уже там.',
+            ua: 'Склад набрано. Усі {{slots}} уже там.',
+            en: 'Roster is full. All {{slots}} are already in position.',
+            de: 'Aufstellung ist voll. Alle {{slots}} sind schon vor Ort.',
+            pl: 'Skład zebrany. Wszystkie {{slots}} już na miejscu.',
+        },
     },
     noFaction: {
         getLostNow: {

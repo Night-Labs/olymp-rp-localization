@@ -31,20 +31,18 @@ export default {
         zh: '你宣战的帮派目前正处于被攻击的冷静期',
     },
     youDeclareWar: {
-        ru: '~r~Вы объявили войну за территорию #{{zone}}, бой начнётся через {{time}}, максимальное количество участников с каждой из сторон: {{maxPlayers}}',
-        ua: '~r~Ви оголосили війну за територію #{{zone}}, бій розпочнеться через {{time}}, максимальна кількість учасників з кожної сторони: {{maxPlayers}}',
-        en: '~r~You declared war for territory #{{zone}}, the battle will start in {{time}}, the maximum number of participants from each side: {{maxPlayers}}',
-        de: '~r~Du hast den Krieg um das Gebiet #{{zone}} erklärt, der Kampf beginnt in {{time}}, die maximale Anzahl der Teilnehmer von jeder Seite: {{maxPlayers}}',
-        pl: '~r~Wypowiedziałeś wojnę o terytorium #{{zone}}, bitwa rozpocznie się za {{time}}, maksymalna liczba uczestników z każdej strony: {{maxPlayers}}',
-        zh: '~r~你为领土{{zone}}宣战，战斗将在{{time}}开始，双方参与者的最大数量：{{maxPlayers}}',
+        ru: '~r~Объявлена война за территорию #{{zone}}. Начало через {{time}}. Состав: до {{maxPlayers}} с каждой стороны',
+        ua: '~r~Оголошено війну за територію #{{zone}}. Початок через {{time}}. Склад: до {{maxPlayers}} з кожної сторони',
+        en: '~r~War declared for territory #{{zone}}. Starts in {{time}}. Roster: up to {{maxPlayers}} per side',
+        de: '~r~Krieg um Gebiet #{{zone}} erklärt. Beginn in {{time}}. Aufstellung: bis zu {{maxPlayers}} pro Seite',
+        pl: '~r~Wypowiedziano wojnę o terytorium #{{zone}}. Początek za {{time}}. Skład: do {{maxPlayers}} na stronę',
     },
     declaredWarToYou: {
-        ru: '~r~Вам объявили войну за территорию #{{zone}}, бой начнётся через {{time}}, максимальное количество участников с каждой из сторон: {{maxPlayers}}',
-        ua: '~r~Вам оголосили війну за територію #{{zone}}, бій почнеться через {{time}}, максимальна кількість учасників з кожного боку: {{maxPlayers}}',
-        en: '~r~A war for territory #{{zone}} has been declared against you, the battle will begin in {{time}}, the maximum number of participants from each side: {{maxPlayers}}',
-        de: '~r~Ein Krieg um das Gebiet #{{zone}} wurde gegen dich erklärt, der Kampf beginnt in {{time}}, die maximale Anzahl der Teilnehmer auf jeder Seite: {{maxPlayers}}',
-        pl: '~r~Ogłoszono wojnę o terytorium #{{zone}}, bitwa rozpocznie się za {{time}}, maksymalna liczba uczestników z każdej strony: {{maxPlayers}}',
-        zh: '~r~你已在{{zone}}领土上宣战，战斗将在{{time}}开始，双方最大参与者人数：{{maxPlayers}',
+        ru: '~r~Вам объявлена война за территорию #{{zone}}. Начало через {{time}}. Состав: до {{maxPlayers}} с каждой стороны',
+        ua: '~r~Вам оголошено війну за територію #{{zone}}. Початок через {{time}}. Склад: до {{maxPlayers}} з кожної сторони',
+        en: '~r~War declared against you for territory #{{zone}}. Starts in {{time}}. Roster: up to {{maxPlayers}} per side',
+        de: '~r~Gegen dich wurde Krieg um Gebiet #{{zone}} erklärt. Beginn in {{time}}. Aufstellung: bis zu {{maxPlayers}} pro Seite',
+        pl: '~r~Wypowiedziano ci wojnę o terytorium #{{zone}}. Początek za {{time}}. Skład: do {{maxPlayers}} na stronę',
     },
     toLessMembersToStartWar: {
         ru: 'Для объявления войны необходимо минимум {{count}} человек',
@@ -69,6 +67,62 @@ export default {
         de: '~r~Der Kampf um das Gebiet ist aufgrund unzureichender Spielerzahl auf einer der Seiten gescheitert',
         pl: '~r~Bitwa o terytorium nie powiodła się z powodu niewystarczającej liczby graczy po jednej ze stron',
         zh: '~r~由于一方玩家数量不足，争夺领土的战斗失败了',
+    },
+    comeToNpc: {
+        ru: '~y~Отправка в зону — у связного на базе',
+        ua: '~y~Відправка в зону — у зв’язкового на базі',
+        en: '~y~Transport to the zone - from the contact at the base',
+        de: '~y~Transport in die Zone - beim Kontakt in der Basis',
+        pl: '~y~Transport do strefy - u łącznika w bazie',
+    },
+    youJoinedWar: {
+        ru: 'Вы отправлены в зону #{{zone}}. Ожидайте начала',
+        ua: 'Вас відправлено в зону #{{zone}}. Очікуйте початку',
+        en: 'Sent to zone #{{zone}}. Wait for the start',
+        de: 'In Zone #{{zone}} geschickt. Warte auf den Beginn',
+        pl: 'Wysłano do strefy #{{zone}}. Czekaj na początek',
+    },
+    warAlreadyDeclared: {
+        ru: 'Война за территорию уже идёт',
+        ua: 'Війна за територію вже йде',
+        en: 'A territory war is already in progress',
+        de: 'Ein Gebietskrieg läuft bereits',
+        pl: 'Wojna o terytorium już trwa',
+    },
+    cantDeclareWar: {
+        ru: 'Объявить войну за эту территорию нельзя',
+        ua: 'Оголосити війну за цю територію не можна',
+        en: 'War cannot be declared for this territory',
+        de: 'Für dieses Gebiet kann kein Krieg erklärt werden',
+        pl: 'Nie można wypowiedzieć wojny o to terytorium',
+    },
+    noActiveWar: {
+        ru: 'Сбор на войну не идёт',
+        ua: 'Збір на війну не йде',
+        en: 'No war muster is open',
+        de: 'Es läuft keine Sammlung für einen Krieg',
+        pl: 'Zbiórka na wojnę nie trwa',
+    },
+    noWarAccess: {
+        ru: 'Ваш ранг не допущен к войне за территорию',
+        ua: 'Ваш ранг не допущений до війни за територію',
+        en: 'Your rank is not cleared for the territory war',
+        de: 'Dein Rang ist nicht für den Gebietskrieg zugelassen',
+        pl: 'Twoja ranga nie ma dostępu do wojny o terytorium',
+    },
+    warSlotsFull: {
+        ru: 'Состав уже набран',
+        ua: 'Склад уже набрано',
+        en: 'The roster is already full',
+        de: 'Die Aufstellung ist bereits voll',
+        pl: 'Skład jest już zebrany',
+    },
+    failedJoinWar: {
+        ru: 'Отправить в зону не удалось. Повторите',
+        ua: 'Відправити в зону не вдалося. Повторіть',
+        en: 'Transport to the zone failed. Try again',
+        de: 'Der Transport in die Zone ist fehlgeschlagen. Versuche es erneut',
+        pl: 'Transport do strefy nie udał się. Powtórz',
     },
     toStart: {
         ru: 'До начала:',
@@ -299,7 +353,6 @@ export default {
         pl: 'Teraz czas na jedzenie...',
         zh: '现在该吃点东西了',
     },
-
     evenGodsProudYou: {
         ru: 'Даже боги Олимпа верили в вас',
         ua: 'Навіть боги Олімпу вірили в вас',
@@ -308,7 +361,6 @@ export default {
         pl: 'Nawet bogowie Olimpu wierzyli w ciebie',
         zh: '就连奥林匹斯山的众神也相信你',
     },
-
     olympPeakToday: {
         ru: 'Сегодня вы взошли на вершину Олимпа, надолго ли это?',
         ua: 'Сьогодні ти піднявся на вершину Олімпу, надовго це?',
@@ -343,5 +395,14 @@ export default {
         en: 'Every win is a step toward true glory. Keep it up!',
         de: 'Jeder Sieg ist ein Schritt zu echtem Ruhm. Weiter so!',
         pl: 'Każde zwycięstwo to krok ku prawdziwej chwale. Tak trzymaj!',
+    },
+
+    // DRAW
+    stalemate: {
+        ru: 'Ничья',
+        ua: 'Нічия',
+        en: 'Stalemate',
+        de: 'Unentschieden',
+        pl: 'Remis',
     },
 };

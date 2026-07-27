@@ -1,20 +1,4 @@
 export default {
-    hud: {
-        alive: {
-            ru: 'В живых',
-            ua: 'У живих',
-            en: 'Alive',
-            de: 'Am Leben',
-            pl: 'Żywi',
-        },
-        eliminated: {
-            ru: 'Выбыл',
-            ua: 'Вибув',
-            en: 'Eliminated',
-            de: 'Ausgeschieden',
-            pl: 'Wyeliminowany',
-        },
-    },
     outOfBounds: {
         title: {
             ru: 'Вернитесь в зону боя',
@@ -29,36 +13,6 @@ export default {
             en: 'Otherwise you will die',
             de: 'Andernfalls wirst du sterben',
             pl: 'W przeciwnym razie zginiesz',
-        },
-    },
-    cutscene: {
-        victory: {
-            ru: 'Победа',
-            ua: 'Перемога',
-            en: 'Victory',
-            de: 'Sieg',
-            pl: 'Zwycięstwo',
-        },
-        defeat: {
-            ru: 'Поражение',
-            ua: 'Поразка',
-            en: 'Defeat',
-            de: 'Niederlage',
-            pl: 'Porażka',
-        },
-        draw: {
-            ru: 'Ничья',
-            ua: 'Нічия',
-            en: 'Draw',
-            de: 'Unentschieden',
-            pl: 'Remis',
-        },
-        bannerSubtitle: {
-            ru: 'Бой окончен',
-            ua: 'Бій закінчено',
-            en: 'Battle is over',
-            de: 'Kampf ist vorbei',
-            pl: 'Bitwa zakończona',
         },
     },
 };

@@ -39,6 +39,14 @@ export default {
         pl: 'Nie możesz spawnować pojazdów',
         zh: '你不能生成车辆',
     },
+    spawnFailed: {
+        ua: 'Не вдалося заспавнити транспорт, спробуйте ще раз.',
+        en: 'Failed to spawn the vehicle, please try again.',
+        ru: 'Не удалось заспавнить транспорт, попробуйте ещё раз.',
+        de: 'Das Fahrzeug konnte nicht gespawnt werden, bitte versuche es erneut.',
+        pl: 'Nie udało się zespawnować pojazdu, spróbuj ponownie.',
+        zh: '车辆生成失败，请重试。',
+    },
     youAreSpawned: {
         ua: 'Ви заспавнили {{name}}',
         en: 'You have spawned {{name}}',
@@ -182,6 +190,14 @@ export default {
         de: 'Du hast nicht genug Geld.',
         pl: 'Nie masz wystarczająco pieniędzy.',
         zh: '你没有足够的钱',
+    },
+    restoreFailed: {
+        ua: 'Не вдалося відновити транспорт, гроші повернуто.',
+        en: 'Failed to restore the vehicle, the money has been refunded.',
+        ru: 'Не удалось восстановить транспорт, деньги возвращены.',
+        de: 'Das Fahrzeug konnte nicht wiederhergestellt werden, das Geld wurde zurückerstattet.',
+        pl: 'Nie udało się przywrócić pojazdu, pieniądze zostały zwrócone.',
+        zh: '车辆修复失败，款项已退回。',
     },
     youRestored: {
         ua: 'Ви відновили {{name}}',

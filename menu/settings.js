@@ -806,6 +806,13 @@ export const settings = {
         de: 'Zeigt Steuerungshinweise auf dem Bildschirm an',
         pl: 'Pokazuje wyskakujące wskazówki sterowania na ekranie',
     },
+    showCompassDesc: {
+        ru: 'Показывает полосу компаса с курсом камеры над радаром',
+        ua: 'Показує смугу компаса з курсом камери над радаром',
+        en: 'Shows a compass bar with the camera heading above the radar',
+        de: 'Zeigt eine Kompassleiste mit der Kameraausrichtung über dem Radar an',
+        pl: 'Pokazuje pasek kompasu z kierunkiem kamery nad radarem',
+    },
     netgraphDesc: {
         ru: 'Отображает сетевой график с показателями соединения и производительности',
         ua: "Відображає мережевий графік із показниками з'єднання та продуктивності",
@@ -1024,6 +1031,13 @@ export const settings = {
         en: 'Show hints',
         de: 'Hinweise anzeigen',
         pl: 'Pokaż wskazówki',
+    },
+    showCompass: {
+        ru: 'Показывать компас',
+        ua: 'Показувати компас',
+        en: 'Show compass',
+        de: 'Kompass anzeigen',
+        pl: 'Pokaż kompas',
     },
     netgraph: {
         ru: 'Netgraph',
