@@ -1,4 +1,28 @@
 export default {
+    name: {
+        ru: 'Война за территорию',
+        ua: 'Війна за територію',
+        en: 'Territory war',
+        de: 'Gebietskrieg',
+        pl: 'Wojna o terytorium',
+        zh: '领土战争',
+    },
+    players: {
+        ru: 'Участников',
+        ua: 'Учасникiв',
+        en: 'Participants',
+        de: 'Teilnehmer',
+        pl: 'Uczestników',
+        zh: '参与者',
+    },
+    scoreboardPlayer: {
+        ru: 'Игрок',
+        ua: 'Гравець',
+        en: 'Player',
+        de: 'Spieler',
+        pl: 'Gracz',
+        zh: '玩家',
+    },
     blip: {
         ru: 'Война за территорию',
         ua: 'Війна за територію',
@@ -69,11 +93,11 @@ export default {
         zh: '~r~由于一方玩家数量不足，争夺领土的战斗失败了',
     },
     comeToNpc: {
-        ru: '~y~Отправка в зону — у связного на базе',
-        ua: '~y~Відправка в зону — у зв’язкового на базі',
-        en: '~y~Transport to the zone - from the contact at the base',
-        de: '~y~Transport in die Zone - beim Kontakt in der Basis',
-        pl: '~y~Transport do strefy - u łącznika w bazie',
+        ru: '~y~Принять участие в битве можно у NPC на базе.',
+        ua: '~y~Взяти участь у битві можна у NPC на базі.',
+        en: '~y~You can join the battle at the NPC in your base.',
+        de: '~y~Am Kampf kannst du beim NPC in deiner Basis teilnehmen.',
+        pl: '~y~Do bitwy możesz dołączyć u NPC w swojej bazie.',
     },
     youJoinedWar: {
         ru: 'Вы отправлены в зону #{{zone}}. Ожидайте начала',
