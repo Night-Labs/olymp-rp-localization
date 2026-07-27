@@ -48,6 +48,31 @@ export default {
             pl: 'Zostań',
         },
     },
+    // Панель наблюдателя в нижней части HUD: за кем смотрит выбитый и чем
+    // переключаться. Подписи короткие — место под ними занимает ник.
+    spectator: {
+        label: {
+            ru: 'Наблюдение',
+            ua: 'Спостереження',
+            en: 'Spectating',
+            de: 'Zuschauen',
+            pl: 'Obserwacja',
+        },
+        switch: {
+            ru: 'Сменить игрока',
+            ua: 'Змінити гравця',
+            en: 'Switch player',
+            de: 'Spieler wechseln',
+            pl: 'Zmień gracza',
+        },
+        leave: {
+            ru: 'Покинуть бой',
+            ua: 'Покинути бій',
+            en: 'Leave the fight',
+            de: 'Kampf verlassen',
+            pl: 'Opuść walkę',
+        },
+    },
     outOfBounds: {
         title: {
             ru: 'Вернитесь в зону боя',
