@@ -251,12 +251,19 @@ export default {
             de: 'Nicht jetzt',
             pl: 'Nie teraz',
         },
-        warNoAccess: {
-            ru: 'Тебя туда не отправлю. Не твой уровень.',
-            ua: 'Тебе туди не відправлю. Не твій рівень.',
-            en: "I'm not sending you in. Not your level.",
-            de: 'Ich schicke dich nicht hin. Nicht dein Rang.',
-            pl: 'Nie wyślę cię tam. Nie twój poziom.',
+        warNotInRoster: {
+            ru: 'Тебя в состав не взяли. Иди к своим, пусть впишут.',
+            ua: 'Тебе до складу не взяли. Іди до своїх, хай впишуть.',
+            en: "You're not on the roster. Talk to your people about it.",
+            de: 'Du stehst nicht in der Aufstellung. Rede mit deinen Leuten.',
+            pl: 'Nie ma cię w składzie. Pogadaj ze swoimi.',
+        },
+        warNoRoster: {
+            ru: 'Состав на бой ещё не выбран. Если у тебя есть право — выбери его в меню фракции, в разделе «Карта».',
+            ua: 'Склад на бій ще не обрано. Якщо в тебе є право — обери його в меню фракції, у розділі «Карта».',
+            en: "The roster for the battle hasn't been picked yet. If you have the right to, pick it in the faction menu, Map section.",
+            de: 'Die Aufstellung für den Kampf steht noch nicht. Wenn du das Recht dazu hast, wähle sie im Fraktionsmenü im Bereich „Karte“.',
+            pl: 'Skład na bitwę nie został jeszcze wybrany. Jeśli masz uprawnienia - wybierz go w menu frakcji, w sekcji „Mapa”.',
         },
         warSlotsFull: {
             ru: 'Состав набран. Все {{slots}} уже там.',

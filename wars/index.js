@@ -89,4 +89,97 @@ export default {
             pl: 'W przeciwnym razie zginiesz',
         },
     },
+    // Предмет не проходит по условиям боя, объявленным атакующей стороной.
+    itemBlocked: {
+        header: {
+            ru: 'Условия боя',
+            ua: 'Умови бою',
+            en: 'Battle rules',
+            de: 'Kampfregeln',
+            pl: 'Zasady walki',
+        },
+        desc: {
+            ru: 'По правилам этого капта данный предмет запрещён',
+            ua: 'За правилами цього капту цей предмет заборонений',
+            en: 'Under the rules of this capture, this item is banned',
+            de: 'Nach den Regeln dieser Einnahme ist dieser Gegenstand verboten',
+            pl: 'Zgodnie z zasadami tego przejecia ten przedmiot jest zabroniony',
+        },
+        weapon: {
+            ru: 'По правилам этого капта данное оружие запрещено',
+            ua: 'За правилами цього капту ця зброя заборонена',
+            en: 'Under the rules of this capture, this weapon is banned',
+            de: 'Nach den Regeln dieser Einnahme ist diese Waffe verboten',
+            pl: 'Zgodnie z zasadami tego przejecia ta bron jest zabroniona',
+        },
+        disarmed: {
+            ru: 'Запрещённое снаряжение убрано в инвентарь',
+            ua: 'Заборонене спорядження прибрано в інвентар',
+            en: 'Banned equipment moved to your inventory',
+            de: 'Verbotene Ausruestung wurde ins Inventar gelegt',
+            pl: 'Zabronione wyposazenie trafilo do ekwipunku',
+        },
+        disarmStuck: {
+            ru: 'Освободите слот в инвентаре: запрещённое снаряжение некуда убрать',
+            ua: 'Звільніть слот в інвентарі: заборонене спорядження нікуди прибрати',
+            en: 'Free an inventory slot: there is nowhere to put your banned equipment',
+            de: 'Mach einen Inventarplatz frei: die verbotene Ausruestung kann nirgendwo hin',
+            pl: 'Zwolnij slot w ekwipunku: nie ma gdzie schowac zabronionego wyposazenia',
+        },
+    },
+    // Заголовки слотов оружия в планировщике войны.
+    weaponSlots: {
+        near: {
+            ru: 'Ближнее',
+            ua: 'Ближня',
+            en: 'Melee',
+            de: 'Nahkampf',
+            pl: 'Biała broń',
+        },
+        pistol: {
+            ru: 'Лёгкое',
+            ua: 'Легка',
+            en: 'Light',
+            de: 'Leicht',
+            pl: 'Lekka',
+        },
+        heavy: {
+            ru: 'Тяжёлое',
+            ua: 'Важка',
+            en: 'Heavy',
+            de: 'Schwer',
+            pl: 'Ciężka',
+        },
+    },
+    // Названия групп расходников для планировщика и оверлея объявления.
+    itemGroups: {
+        armor: {
+            ru: 'Бронежилет',
+            ua: 'Бронежилет',
+            en: 'Body armor',
+            de: 'Schutzweste',
+            pl: 'Kamizelka',
+        },
+        heal: {
+            ru: 'Лечение',
+            ua: 'Лікування',
+            en: 'Healing',
+            de: 'Heilung',
+            pl: 'Leczenie',
+        },
+        drugs: {
+            ru: 'Стимуляторы',
+            ua: 'Стимулятори',
+            en: 'Stimulants',
+            de: 'Stimulanzien',
+            pl: 'Stymulanty',
+        },
+        drones: {
+            ru: 'Дроны',
+            ua: 'Дрони',
+            en: 'Drones',
+            de: 'Drohnen',
+            pl: 'Drony',
+        },
+    },
 };

@@ -22,6 +22,8 @@ import graffitiWar from './graffitiWar';
 import vehicleImpound from './vehicleImpound';
 import vehicleNpc from './vehicleNpc';
 import lizaSellPills from './lizaSellPills';
+import warHistory from './warHistory';
+import warPlanner from './warPlanner';
 
 export const faction = {
     factions,
@@ -30,6 +32,8 @@ export const faction = {
     wardrobe,
     inventory,
     logs,
+    warHistory,
+    warPlanner,
     airdrop,
     supply,
     plants,

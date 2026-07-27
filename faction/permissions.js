@@ -164,13 +164,13 @@ export default {
         pl: 'Rozpocząć wojnę o terytorium',
         zh: '在领土上发动战争',
     },
-    goToCaptureWar: {
-        ru: 'Участвовать в войне за территорию',
-        ua: 'Брати участь у війні за територію',
-        en: 'Participate in the territory war',
-        de: 'Am Territoriumskrieg teilnehmen',
-        pl: 'Uczestniczyć w wojnie o terytorium',
-        zh: '在“参与领土战争”中',
+    editWarRoster: {
+        ru: 'Отбирать состав на войну',
+        ua: 'Відбирати склад на війну',
+        en: 'Pick the war roster',
+        de: 'Kriegsaufstellung wählen',
+        pl: 'Wybierać skład na wojnę',
+        zh: '挑选参战名单',
     },
     takeLicense: {
         ru: 'Забирать лицензии',

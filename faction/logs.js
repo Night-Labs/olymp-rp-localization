@@ -317,6 +317,13 @@ export default {
         pl: 'Wypowiedziano wojnę o terytorium #{{zone}}',
         zh: '对领土宣战',
     },
+    pickedWarRoster: {
+        ru: 'Отобрал состав на войну за территорию #{{zone}}: {{count}} чел.',
+        ua: 'Відібрав склад на війну за територію #{{zone}}: {{count}} осіб',
+        en: 'Picked the roster for the war for territory #{{zone}}: {{count}} players',
+        de: 'Aufstellung für den Krieg um Gebiet #{{zone}} gewählt: {{count}} Spieler',
+        pl: 'Wybrał skład na wojnę o terytorium #{{zone}}: {{count}} graczy',
+    },
     startedWar: {
         ru: 'Началась война за территорию #{{zone}}.',
         ua: 'Розпочалася війна за територію #{{zone}}.',
