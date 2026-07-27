@@ -108,6 +108,20 @@ export default {
                 de: '{{hours}} Stunden',
                 pl: '{{hours}} godzin',
             },
+            freeXpPrefix: {
+                ru: 'Бесплатный опыт каждые',
+                ua: 'Безкоштовний досвід кожні',
+                en: 'Free XP every',
+                de: 'Gratis-EP alle',
+                pl: 'Darmowe doświadczenie co',
+            },
+            freeXpValue: {
+                ru: '{{hours}} часов игры',
+                ua: '{{hours}} годин гри',
+                en: '{{hours}} hours played',
+                de: '{{hours}} Stunden Spielzeit',
+                pl: '{{hours}} godzin gry',
+            },
             xpBonusPrefix: {
                 ru: 'Бонус к опыту',
                 ua: 'Бонус до досвіду',
