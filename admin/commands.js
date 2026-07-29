@@ -988,6 +988,13 @@ export default {
         de: 'Den Dienststatus in der aktuellen Fraktion umschalten.',
         pl: 'Przełącz wyjście na służbę w aktualnej frakcji.',
     },
+    create_animal: {
+        ru: 'Заспавнить животное из системы охоты рядом с собой. Без аргумента - случайное животное.',
+        ua: 'Заспавнити тварину з системи полювання поруч із собою. Без аргументу - випадкова тварина.',
+        en: 'Spawn a hunting animal at your position. Without an argument - a random animal.',
+        de: 'Ein Jagdtier an deiner Position spawnen. Ohne Argument - ein zufälliges Tier.',
+        pl: 'Zespawnuj zwierzę z systemu polowania obok siebie. Bez argumentu - losowe zwierzę.',
+    },
     create_promo: {
         ru: 'Создать промокод с донат-валютой и optional ограничениями по часам и сроку жизни.',
         ua: 'Створити промокод з донат-валютою та optional обмеженнями за годинами і строком життя.',

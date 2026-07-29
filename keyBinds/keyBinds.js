@@ -41,13 +41,6 @@ export default {
         de: 'Sprachchat',
         pl: 'Czat głosowy',
     },
-    reloadVoice: {
-        ru: 'Перезагрузка голосового чата',
-        ua: 'Перезавантаження голосового чату',
-        en: 'Reload voice chat',
-        de: 'Neustart des Sprachchats',
-        pl: 'Przeładowanie czatu głosowego',
-    },
     seatBelt: {
         ru: 'Ремень безопасности',
         ua: 'Пас безпеки',
