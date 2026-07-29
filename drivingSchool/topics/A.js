@@ -67,7 +67,7 @@ export default {
             ru: 'Мотоциклисты должны соблюдать дистанцию - ориентир в 2 секунды до впереди идущего ТС считается безопасным в большинстве ситуаций.',
             ua: 'Мотоциклісти повинні дотримуватися дистанції - орієнтир у 2 секунди до транспортного засобу, що рухається попереду, вважається безпечним у більшості ситуацій.',
             en: 'Motorcyclists must maintain a safe distance - a 2-second rule to the vehicle ahead is considered safe in most situations.',
-            de: 'Motorradfahrer müssen einen Sicherheitsabstand einhalten – eine 2-Sekunden-Regel zum vorausfahrenden Fahrzeug gilt in den meisten Situationen als sicher.',
+            de: 'Motorradfahrer müssen einen Sicherheitsabstand einhalten - eine 2-Sekunden-Regel zum vorausfahrenden Fahrzeug gilt in den meisten Situationen als sicher.',
             pl: 'Motocykliści muszą zachować bezpieczną odległość - zasada 2 sekund do pojazdu jadącego z przodu jest uważana za bezpieczną w większości sytuacji.',
         },
         question: {
@@ -122,7 +122,7 @@ export default {
             ru: 'Перед поездкой важно проверить техническое состояние мотоцикла - тормоза, свет, резину.',
             ua: 'Перед поїздкою важливо перевірити технічний стан мотоцикла - гальма, світло, гуму.',
             en: "Before riding, it's important to check the motorcycle's technical condition - brakes, lights, tires.",
-            de: 'Vor der Fahrt ist es wichtig, den technischen Zustand des Motorrads zu überprüfen – Bremsen, Licht, Reifen.',
+            de: 'Vor der Fahrt ist es wichtig, den technischen Zustand des Motorrads zu überprüfen - Bremsen, Licht, Reifen.',
             pl: 'Przed jazdą ważne jest, aby sprawdzić stan techniczny motocykla - hamulce, światła, opony.',
         },
         question: {
@@ -177,7 +177,7 @@ export default {
             ru: 'Мотоциклы не имеют права передвигаться по велосипедным дорожкам - это зона для Т/С без двигателя.',
             ua: 'Мотоцикли не мають права пересуватися велосипедними доріжками - це зона для Т/З без двигуна.',
             en: 'Motorcycles are not allowed to use bike lanes - this is a zone for vehicles without an engine.',
-            de: 'Motorräder dürfen Fahrradwege nicht benutzen – dies ist eine Zone für Fahrzeuge ohne Motor.',
+            de: 'Motorräder dürfen Fahrradwege nicht benutzen - dies ist eine Zone für Fahrzeuge ohne Motor.',
             pl: 'Motocykle nie mają prawa poruszać się po ścieżkach rowerowych - to strefa dla pojazdów bez silnika.',
         },
         question: {
@@ -450,7 +450,7 @@ export default {
         },
         desc: {
             ru: 'Разговаривать по телефону время движения на мотоцикле - это опасно. Перед использованием телефона рекомендуется полностью остановиться в безопасном месте.',
-            ua: 'Розмовляти по телефону під час руху на мотоциклі – це небезпечно. Перед використанням телефону рекомендується повністю зупинитися в безпечному місці.',
+            ua: 'Розмовляти по телефону під час руху на мотоциклі - це небезпечно. Перед використанням телефону рекомендується повністю зупинитися в безпечному місці.',
             en: 'Talking on the phone while riding a motorcycle is dangerous. Before using the phone, it is recommended to stop completely in a safe place.',
             de: 'Telefonieren während der Motorradfahrt ist gefährlich. Bevor Sie das Telefon benutzen, wird empfohlen, an einem sicheren Ort vollständig anzuhalten.',
             pl: 'Rozmawianie przez telefon podczas jazdy motocyklem jest niebezpieczne. Przed użyciem telefonu zaleca się całkowite zatrzymanie się w bezpiecznym miejscu.',
@@ -467,7 +467,7 @@ export default {
                 ru: 'Отвечать на ходу - так делают все',
                 ua: 'Відповідати на ходу - так роблять усі',
                 en: "Answering on the go - that's what everyone does",
-                de: 'Unterwegs antworten – das machen alle so',
+                de: 'Unterwegs antworten - das machen alle so',
                 pl: 'Odpowiadanie w biegu - tak robią wszyscy',
             },
             B: {

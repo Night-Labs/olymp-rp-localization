@@ -38,11 +38,11 @@ export default {
             pl: 'Później',
         },
         waitingForYourCall: {
-            ru: 'Ну, как хочешь. Если понадобятся задания — обращайся, я на связи.',
-            ua: 'Ну, як хочеш. Якщо знадобляться завдання — звертайся, я на зв’язку.',
-            en: 'Well, as you wish. If you need any tasks, reach out — I’m available.',
-            de: 'Nun gut, wie du willst. Wenn du Aufgaben brauchst, melde dich — ich bin erreichbar.',
-            pl: 'No cóż, jak chcesz. Jeśli będziesz potrzebować zadań, odezwij się — jestem dostępny.',
+            ru: 'Ну, как хочешь. Если понадобятся задания - обращайся, я на связи.',
+            ua: "Ну, як хочеш. Якщо знадобляться завдання - звертайся, я на зв'язку.",
+            en: 'Well, as you wish. If you need any tasks, reach out - I’m available.',
+            de: 'Nun gut, wie du willst. Wenn du Aufgaben brauchst, melde dich - ich bin erreichbar.',
+            pl: 'No cóż, jak chcesz. Jeśli będziesz potrzebować zadań, odezwij się - jestem dostępny.',
         },
         okayGood: {
             ru: 'Хорошо',
@@ -53,7 +53,7 @@ export default {
         },
         burgerShotJob: {
             ru: 'Отлично. В общем, если кратко: в местном Burger Shot сейчас жёсткий дефицит курьеров. Арендуй какой-нибудь транспорт, езжай туда и развези немного заказов. Заодно поднимешь начальный капитал.',
-            ua: 'Чудово. Якщо коротко: у місцевому Burger Shot зараз жорсткий дефіцит кур’єрів. Орендуй якийсь транспорт, їдь туди та розвези кілька замовлень. Заодно піднімеш стартовий капітал.',
+            ua: "Чудово. Якщо коротко: у місцевому Burger Shot зараз жорсткий дефіцит кур'єрів. Орендуй якийсь транспорт, їдь туди та розвези кілька замовлень. Заодно піднімеш стартовий капітал.",
             en: 'Great. Long story short: the local Burger Shot is currently facing a severe shortage of couriers. Rent some kind of transport, head there, and deliver a few orders. You’ll also earn some starting capital.',
             de: 'Großartig. Kurz gesagt: Beim örtlichen Burger Shot gibt es derzeit einen starken Mangel an Kurieren. Miete dir ein Fahrzeug, fahr dorthin und liefere ein paar Bestellungen aus. Dabei verdienst du dir auch dein Startkapital.',
             pl: 'Świetnie. W skrócie: w lokalnym Burger Shot jest teraz poważny niedobór kurierów. Wynajmij jakiś środek transportu, jedź tam i rozwieź kilka zamówień. Przy okazji zarobisz kapitał na start.',
@@ -76,9 +76,9 @@ export default {
         bossIsHappy: {
             ru: 'Слушай, мне звонил начальник из Burger Shot: говорит, он в восторге от твоей работы! Красава, держи сверху заслуженную награду.',
             ua: 'Слухай, мені телефонував начальник з Burger Shot: каже, він у захваті від твоєї роботи! Красень, тримай зверху заслужену нагороду.',
-            en: 'Listen, the boss from Burger Shot called me — says he’s thrilled with your work! Nice job, here’s a well-deserved bonus on top.',
-            de: 'Hör zu, der Chef von Burger Shot hat mich angerufen — er ist begeistert von deiner Arbeit! Stark gemacht, hier ist eine wohlverdiente Zusatzbelohnung.',
-            pl: 'Słuchaj, dzwonił do mnie szef z Burger Shot — mówi, że jest zachwycony twoją pracą! Dobra robota, trzymaj zasłużoną premię na dokładkę.',
+            en: 'Listen, the boss from Burger Shot called me - says he’s thrilled with your work! Nice job, here’s a well-deserved bonus on top.',
+            de: 'Hör zu, der Chef von Burger Shot hat mich angerufen - er ist begeistert von deiner Arbeit! Stark gemacht, hier ist eine wohlverdiente Zusatzbelohnung.',
+            pl: 'Słuchaj, dzwonił do mnie szef z Burger Shot - mówi, że jest zachwycony twoją pracą! Dobra robota, trzymaj zasłużoną premię na dokładkę.',
         },
         thanks: {
             ru: 'Спасибо',
@@ -114,9 +114,9 @@ export default {
         passportReceived: {
             ru: 'Получил? Ну вот, теперь ты человек с документами. Не теряй его, в этом штате без этого пластика ты реально никто. Готов двигаться дальше?',
             ua: 'Отримав? Ну ось, тепер ти людина з документами. Не втрачай його, у цьому штаті без цього пластику ти реально ніхто. Готовий рухатися далі?',
-            en: 'Got it? Well, now you’re a person with documents. Don’t lose it — in this state, without that piece of plastic, you’re basically nobody. Ready to move on?',
-            de: 'Bekommen? Na also, jetzt bist du eine Person mit Papieren. Verlier ihn nicht — in diesem Staat bist du ohne dieses Stück Plastik praktisch niemand. Bereit, weiterzumachen?',
-            pl: 'Odebrałeś? No i proszę, teraz jesteś człowiekiem z dokumentami. Nie zgub go — w tym stanie bez tego kawałka plastiku jesteś praktycznie nikim. Gotowy ruszać dalej?',
+            en: 'Got it? Well, now you’re a person with documents. Don’t lose it - in this state, without that piece of plastic, you’re basically nobody. Ready to move on?',
+            de: 'Bekommen? Na also, jetzt bist du eine Person mit Papieren. Verlier ihn nicht - in diesem Staat bist du ohne dieses Stück Plastik praktisch niemand. Bereit, weiterzumachen?',
+            pl: 'Odebrałeś? No i proszę, teraz jesteś człowiekiem z dokumentami. Nie zgub go - w tym stanie bez tego kawałka plastiku jesteś praktycznie nikim. Gotowy ruszać dalej?',
         },
         ofCoruse: {
             ru: 'Конечно',
@@ -130,9 +130,9 @@ export default {
         openBankAccount: {
             ru: 'Что ж, не хочешь приступить к следующему заданию? У тебя всё ещё не открыт банковский счёт, надо бы это исправить.',
             ua: 'Що ж, не хочеш взятися за наступне завдання? У тебе досі не відкритий банківський рахунок, треба це виправити.',
-            en: 'So, want to move on to the next task? You still don’t have a bank account opened — we should fix that.',
-            de: 'Nun, möchtest du mit der nächsten Aufgabe beginnen? Du hast immer noch kein Bankkonto eröffnet — das sollten wir ändern.',
-            pl: 'No więc, chcesz przejść do kolejnego zadania? Nadal nie masz otwartego konta bankowego — trzeba to naprawić.',
+            en: 'So, want to move on to the next task? You still don’t have a bank account opened - we should fix that.',
+            de: 'Nun, möchtest du mit der nächsten Aufgabe beginnen? Du hast immer noch kein Bankkonto eröffnet - das sollten wir ändern.',
+            pl: 'No więc, chcesz przejść do kolejnego zadania? Nadal nie masz otwartego konta bankowego - trzeba to naprawić.',
         },
         go: {
             ru: 'Давай',
@@ -149,8 +149,8 @@ export default {
             pl: 'Później',
         },
         visitBankBranch: {
-            ru: 'В общем, дуй в отделение банка, открывай счёт и проведи пару операций. Всё элементарно. Как закончишь — возвращайся ко мне за наградой.',
-            ua: 'Загалом, рушай у відділення банку, відкрий рахунок і проведи кілька операцій. Усе елементарно. Як закінчиш — повертайся до мене по нагороду.',
+            ru: 'В общем, дуй в отделение банка, открывай счёт и проведи пару операций. Всё элементарно. Как закончишь - возвращайся ко мне за наградой.',
+            ua: 'Загалом, рушай у відділення банку, відкрий рахунок і проведи кілька операцій. Усе елементарно. Як закінчиш - повертайся до мене по нагороду.',
             en: 'Alright, head to a bank branch, open an account, and complete a couple of transactions. It’s simple. When you’re done, come back to me for your reward.',
             de: 'Also, geh zu einer Bankfiliale, eröffne ein Konto und führe ein paar Transaktionen durch. Alles ganz einfach. Wenn du fertig bist, komm zu mir zurück, um deine Belohnung abzuholen.',
             pl: 'Dobra, idź do oddziału banku, otwórz konto i wykonaj kilka operacji. To nic trudnego. Gdy skończysz, wróć do mnie po nagrodę.',
@@ -166,9 +166,9 @@ export default {
         takeYourReward: {
             ru: 'Вижу, ты справился. Хорош, вот твоя награда. В общем, забирай заслуженное.',
             ua: 'Бачу, ти впорався. Молодець, ось твоя нагорода. Загалом, забирай заслужене.',
-            en: 'I see you handled it. Nice work — here’s your reward. Go ahead and take what you’ve earned.',
-            de: 'Ich sehe, du hast es geschafft. Gut gemacht — hier ist deine Belohnung. Nimm dir, was du dir verdient hast.',
-            pl: 'Widzę, że sobie poradziłeś. Dobra robota — oto twoja nagroda. Odbierz to, na co zasłużyłeś.',
+            en: 'I see you handled it. Nice work - here’s your reward. Go ahead and take what you’ve earned.',
+            de: 'Ich sehe, du hast es geschafft. Gut gemacht - hier ist deine Belohnung. Nimm dir, was du dir verdient hast.',
+            pl: 'Widzę, że sobie poradziłeś. Dobra robota - oto twoja nagroda. Odbierz to, na co zasłużyłeś.',
         },
         thanks: {
             ru: 'Спасибо',
@@ -182,9 +182,9 @@ export default {
         meetWithDiana: {
             ru: 'Слушай, дуй к моей знакомой Диане. У неё как раз есть для тебя одно интересное дельце, скучать не придётся.',
             ua: 'Слухай, рушай до моєї знайомої Діани. У неї якраз є для тебе одна цікава справа, нудьгувати не доведеться.',
-            en: 'Listen, head over to my friend Diana. She’s got an interesting little job for you — you won’t be bored.',
-            de: 'Hör zu, geh zu meiner Bekannten Diana. Sie hat da eine interessante kleine Aufgabe für dich — langweilig wird es nicht.',
-            pl: 'Słuchaj, idź do mojej znajomej Diany. Ma dla ciebie ciekawą sprawę — nudzić się nie będziesz.',
+            en: 'Listen, head over to my friend Diana. She’s got an interesting little job for you - you won’t be bored.',
+            de: 'Hör zu, geh zu meiner Bekannten Diana. Sie hat da eine interessante kleine Aufgabe für dich - langweilig wird es nicht.',
+            pl: 'Słuchaj, idź do mojej znajomej Diany. Ma dla ciebie ciekawą sprawę - nudzić się nie będziesz.',
         },
         okay: {
             ru: 'Хорошо',

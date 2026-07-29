@@ -847,7 +847,7 @@ export const list = {
             },
             giveFive: {
                 ru: 'Дай пять!',
-                ua: 'Дай п’ять!',
+                ua: "Дай п'ять!",
                 en: 'Give me five!',
                 de: 'Gib mir fünf!',
                 pl: 'Daj piątkę!',

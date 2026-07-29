@@ -370,6 +370,20 @@ export const server = {
         },
     },
     interactions: {
+        officeEntry: {
+            ru: 'Офис',
+            ua: 'Офіс',
+            en: 'Office',
+            de: 'Büro',
+            pl: 'Biuro',
+        },
+        officeExit: {
+            ru: 'Выход',
+            ua: 'Вихід',
+            en: 'Exit',
+            de: 'Ausgang',
+            pl: 'Wyjście',
+        },
         enterGarage: {
             ru: 'Заехать в гараж',
             ua: 'Заїхати в гараж',

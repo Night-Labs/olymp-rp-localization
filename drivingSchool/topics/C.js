@@ -177,7 +177,7 @@ export default {
             ru: 'На подъёмах и спусках грузовик ведёт себя иначе - двигатель напрягается, тормоза могут перегреваться.',
             ua: 'На підйомах і спусках вантажівка поводиться інакше - двигун напружується, гальма можуть перегріватися.',
             en: 'On ascents and descents, the truck behaves differently - the engine strains, and the brakes can overheat.',
-            de: 'An Steigungen und Gefällen verhält sich der LKW anders – der Motor wird beansprucht, und die Bremsen können überhitzen.',
+            de: 'An Steigungen und Gefällen verhält sich der LKW anders - der Motor wird beansprucht, und die Bremsen können überhitzen.',
             pl: 'Na podjazdach i zjazdach ciężarówka zachowuje się inaczej - silnik jest obciążony, a hamulce mogą się przegrzać.',
         },
         question: {
@@ -397,8 +397,8 @@ export default {
             ru: 'Грузовики имеют обширные мёртвые зоны - особенно по бокам и сзади. Нельзя полагаться только на зеркала.',
             ua: 'Вантажівки мають великі мертві зони - особливо з боків та ззаду. Не можна покладатися лише на дзеркала.',
             en: 'Trucks have extensive blind spots - especially on the sides and at the rear. One cannot rely solely on mirrors.',
-            de: 'Lastwagen haben ausgedehnte tote Winkel – besonders an den Seiten und hinten. Man kann sich nicht nur auf Spiegel verlassen.',
-            pl: 'Ciężarówki mają rozległe martwe pola – zwłaszcza po bokach i z tyłu. Nie można polegać wyłącznie na lusterkach.',
+            de: 'Lastwagen haben ausgedehnte tote Winkel - besonders an den Seiten und hinten. Man kann sich nicht nur auf Spiegel verlassen.',
+            pl: 'Ciężarówki mają rozległe martwe pola - zwłaszcza po bokach i z tyłu. Nie można polegać wyłącznie na lusterkach.',
         },
         question: {
             ru: 'Что такое "мёртвая зона" у грузовика?',

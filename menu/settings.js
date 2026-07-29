@@ -369,7 +369,7 @@ export const settings = {
             ru: 'Рабочая - мусорщик',
             ua: 'Робоча - сміттяр',
             en: 'Worker - Garbage Collector',
-            de: 'Arbeiter – Müllmann',
+            de: 'Arbeiter - Müllmann',
             pl: 'Pracownik - śmieciarz',
         },
         u_heistLester: {
@@ -502,7 +502,7 @@ export const settings = {
         },
         drunk: {
             ru: 'Пьяное',
-            ua: 'Пʼяне',
+            ua: "П'яне",
             en: 'Drunk',
             de: 'Betrunken',
             pl: 'Pijany',
@@ -539,7 +539,7 @@ export const settings = {
         },
         macros: {
             ru: 'Создавайте профили макросов с цепочками действий и привязками',
-            ua: 'Створюйте профілі макросів із ланцюжками дій та привʼязками',
+            ua: "Створюйте профілі макросів із ланцюжками дій та прив'язками",
             en: 'Build macro profiles with chained actions and key bindings',
             de: 'Erstelle Makroprofile mit Aktionsketten und Tastenbelegungen',
             pl: 'Twórz profile makr z łańcuchami akcji i przypisaniami klawiszy',
@@ -582,7 +582,7 @@ export const settings = {
     },
     drunkEffectsDesc: {
         ru: 'Включает или отключает экранные эффекты опьянения и пьяную походку для вашего персонажа',
-        ua: 'Вмикає або вимикає екранні ефекти спʼяніння та пʼяну ходу для вашого персонажа',
+        ua: "Вмикає або вимикає екранні ефекти сп'яніння та п'яну ходу для вашого персонажа",
         en: 'Enables or disables drunken screen effects and drunk walk style for your character',
         de: 'Aktiviert oder deaktiviert Trunkenheits-Bildeffekte und den betrunkenen Gangstil für deinen Charakter',
         pl: 'Włącza lub wyłącza ekranowe efekty upojenia i pijany chód dla twojej postaci',
@@ -1117,11 +1117,11 @@ export const settings = {
         pl: 'Format czasu 24-godzinny',
     },
     chatTimeFormat24hDesc: {
-        ru: 'Включено — 24-часовой формат (15:45:12). Выключено — 12-часовой с AM/PM (03:45:12 PM)',
-        ua: 'Увімкнено — 24-годинний формат (15:45:12). Вимкнено — 12-годинний з AM/PM (03:45:12 PM)',
-        en: 'Enabled — 24-hour format (15:45:12). Disabled — 12-hour with AM/PM (03:45:12 PM)',
-        de: 'Aktiviert — 24-Stunden-Format (15:45:12). Deaktiviert — 12-Stunden mit AM/PM (03:45:12 PM)',
-        pl: 'Włączone — format 24-godzinny (15:45:12). Wyłączone — 12-godzinny z AM/PM (03:45:12 PM)',
+        ru: 'Включено - 24-часовой формат (15:45:12). Выключено - 12-часовой с AM/PM (03:45:12 PM)',
+        ua: 'Увімкнено - 24-годинний формат (15:45:12). Вимкнено - 12-годинний з AM/PM (03:45:12 PM)',
+        en: 'Enabled - 24-hour format (15:45:12). Disabled - 12-hour with AM/PM (03:45:12 PM)',
+        de: 'Aktiviert - 24-Stunden-Format (15:45:12). Deaktiviert - 12-Stunden mit AM/PM (03:45:12 PM)',
+        pl: 'Włączone - format 24-godzinny (15:45:12). Wyłączone - 12-godzinny z AM/PM (03:45:12 PM)',
     },
     chatOpacity: {
         ru: 'Прозрачность чата',
@@ -1281,14 +1281,14 @@ export const settings = {
     },
     interactionOutlineEnabled: {
         ru: 'Подсветка объектов при взаимодействии',
-        ua: 'Підсвітка обʼєктів при взаємодії',
+        ua: "Підсвітка об'єктів при взаємодії",
         en: 'Interaction object outline',
         de: 'Objektumrandung bei Interaktion',
         pl: 'Obrys obiektów podczas interakcji',
     },
     drunkEffects: {
         ru: 'Эффекты опьянения',
-        ua: 'Ефекти спʼяніння',
+        ua: "Ефекти сп'яніння",
         en: 'Drunk Effects',
         de: 'Trunkenheitseffekte',
         pl: 'Efekty upojenia',

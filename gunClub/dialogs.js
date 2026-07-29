@@ -109,11 +109,11 @@ export default {
         },
 
         browseInvitation: {
-            ru: 'Не стесняйся, осмотрись. Если возникнут вопросы – я здесь.',
-            ua: 'Не соромся, розглянься. Якщо виникнуть питання – я тут.',
-            en: "Feel free to look around. If you have any questions – I'm here.",
-            de: 'Fühl dich frei, dich umzusehen. Wenn du Fragen hast – ich bin hier.',
-            pl: 'Zapraszam do rozejrzenia się. Jeśli masz jakieś pytania – jestem tutaj.',
+            ru: 'Не стесняйся, осмотрись. Если возникнут вопросы - я здесь.',
+            ua: 'Не соромся, розглянься. Якщо виникнуть питання - я тут.',
+            en: "Feel free to look around. If you have any questions - I'm here.",
+            de: 'Fühl dich frei, dich umzusehen. Wenn du Fragen hast - ich bin hier.',
+            pl: 'Zapraszam do rozejrzenia się. Jeśli masz jakieś pytania - jestem tutaj.',
             zh: '随意四处看看。如果你有任何问题，我在这里。',
         },
 

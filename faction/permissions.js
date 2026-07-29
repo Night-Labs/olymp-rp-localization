@@ -37,6 +37,13 @@ export default {
         de: 'Türen schließen/öffnen',
         pl: 'Zamykać/Otwierać drzwi',
     },
+    controlMilitaryGates: {
+        ru: 'Управлять воротами КПП',
+        ua: 'Керувати воротами КПП',
+        en: 'Operate checkpoint gates',
+        de: 'Kontrollpunkt-Tore bedienen',
+        pl: 'Sterować bramami punktu kontrolnego',
+    },
     warehouse: {
         ru: 'Доступ к складу',
         ua: 'Доступ до складу',
@@ -201,6 +208,13 @@ export default {
         en: 'Access to the database',
         de: 'Zugriff auf die Datenbank',
         pl: 'Dostęp do bazy danych',
+    },
+    armyTicket: {
+        ru: 'Выдавать военный билет',
+        ua: 'Видавати військовий квиток',
+        en: 'Issue military ID',
+        de: 'Wehrpass ausstellen',
+        pl: 'Wydawać książeczkę wojskową',
     },
     giveWarns: {
         ru: 'Выдавать выговоры',

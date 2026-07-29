@@ -421,7 +421,7 @@ export default {
     },
     'furnitureEditor.selectObject': {
         ru: 'Выбрать объект',
-        ua: 'Вибрати об’єкт',
+        ua: "Вибрати об'єкт",
         en: 'Select an object',
         de: 'Ein Objekt auswählen',
         pl: 'Wybierz obiekt',
@@ -435,7 +435,7 @@ export default {
     },
     'furnitureEditor.focusObject': {
         ru: 'Фокус на выбранном объекте',
-        ua: 'Фокус на вибраному об’єкті',
+        ua: "Фокус на вибраному об'єкті",
         en: 'Focus on selected object',
         de: 'Fokus auf ausgewähltes Objekt',
         pl: 'Skup się na wybranym obiekcie',
@@ -477,14 +477,14 @@ export default {
     },
     'furnitureEditor.rotateMode': {
         ru: 'Режим поворота объекта',
-        ua: 'Режим повороту об’єкта',
+        ua: "Режим повороту об'єкта",
         en: 'Object rotation mode',
         de: 'Objektdrehmodus',
         pl: 'Tryb obracania obiektu',
     },
     'furnitureEditor.translateMode': {
         ru: 'Режим перемещения объекта',
-        ua: 'Режим переміщення об’єкта',
+        ua: "Режим переміщення об'єкта",
         en: 'Object movement mode',
         de: 'Objektverschiebungsmodus',
         pl: 'Tryb przesuwania obiektu',
@@ -498,14 +498,14 @@ export default {
     },
     'furnitureEditor.delete': {
         ru: 'Удалить объект',
-        ua: 'Видалити обʼєкт',
+        ua: "Видалити об'єкт",
         en: 'Delete object',
         de: 'Objekt löschen',
         pl: 'Usuń obiekt',
     },
     'furnitureEditor.duplicate': {
         ru: 'Дублировать объект',
-        ua: 'Дублювати обʼєкт',
+        ua: "Дублювати об'єкт",
         en: 'Duplicate object',
         de: 'Objekt duplizieren',
         pl: 'Duplikuj obiekt',

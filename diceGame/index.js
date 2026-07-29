@@ -11,12 +11,12 @@ export default {
 
     // Modal
     modalTitle: {
-        ru: 'Игра в кости — ставка',
-        ua: 'Гра в кості — ставка',
-        en: 'Dice Game — Bet',
-        de: 'Würfelspiel — Einsatz',
-        pl: 'Gra w kości — Zakład',
-        zh: '骰子游戏 — 下注',
+        ru: 'Игра в кости - ставка',
+        ua: 'Гра в кості - ставка',
+        en: 'Dice Game - Bet',
+        de: 'Würfelspiel - Einsatz',
+        pl: 'Gra w kości - Zakład',
+        zh: '骰子游戏 - 下注',
     },
     modalPlaceholder: {
         ru: 'Введите сумму ставки',
@@ -43,12 +43,12 @@ export default {
         zh: '取消',
     },
     roundsTitle: {
-        ru: 'Игра в кости — раунды',
-        ua: 'Гра в кості — раунди',
-        en: 'Dice Game — Rounds',
-        de: 'Würfelspiel — Runden',
-        pl: 'Gra w kości — Rundy',
-        zh: '骰子游戏 — 回合',
+        ru: 'Игра в кости - раунды',
+        ua: 'Гра в кості - раунди',
+        en: 'Dice Game - Rounds',
+        de: 'Würfelspiel - Runden',
+        pl: 'Gra w kości - Rundy',
+        zh: '骰子游戏 - 回合',
     },
     playerFallback: {
         ru: 'Игрок',

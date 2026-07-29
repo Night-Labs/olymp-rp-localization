@@ -15,6 +15,8 @@ import { vehicles } from './vehicles';
 import { logs } from './logs';
 import { territories } from './territories';
 import { warsLobby } from './warsLobby';
+import { warPlanner } from './warPlanner';
+import { pickBan, battlefields } from './pickBan';
 
 export default {
     ranks,
@@ -33,5 +35,5 @@ export default {
     vehicles,
     logs,
     territories,
-    wars: warsLobby,
+    wars: { ...warsLobby, planner: warPlanner, pickBan, battlefields },
 };

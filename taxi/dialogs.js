@@ -1,10 +1,10 @@
 export default {
     welcome: {
         ru: 'Привет, я {{name}} - {{role}}. Дай угадаю… пришёл исполнить мечту и стать таксистом?',
-        ua: 'Привіт, я {{name}} — {{role}}. Дай вгадаю… прийшов здійснити мрію та стати таксистом?',
-        en: "Hi, I'm {{name}} — {{role}}. Let me guess… you came to fulfill your dream and become a taxi driver?",
-        de: 'Hallo, ich bin {{name}} — {{role}}. Lass mich raten… du bist gekommen, um dir deinen Traum zu erfüllen und Taxifahrer zu werden?',
-        pl: 'Cześć, jestem {{name}} — {{role}}. Daj zgadnę… przyszedłeś spełnić marzenie i zostać taksówkarzem?',
+        ua: 'Привіт, я {{name}} - {{role}}. Дай вгадаю… прийшов здійснити мрію та стати таксистом?',
+        en: "Hi, I'm {{name}} - {{role}}. Let me guess… you came to fulfill your dream and become a taxi driver?",
+        de: 'Hallo, ich bin {{name}} - {{role}}. Lass mich raten… du bist gekommen, um dir deinen Traum zu erfüllen und Taxifahrer zu werden?',
+        pl: 'Cześć, jestem {{name}} - {{role}}. Daj zgadnę… przyszedłeś spełnić marzenie i zostać taksówkarzem?',
     },
     wantJob1: {
         ru: 'Да, я хочу работать в такси!',
@@ -15,10 +15,10 @@ export default {
     },
     message2: {
         ru: 'Да-Да, понимаю. Даже если у тебя свой бизнес, куча денег и ты уже серьёзный человек - иногда просто хочется покататься на любимой машине. А у нас ты можешь делать это с пользой для города и ещё зарабатывать хорошие деньги. Нам всегда нужны толковые водители.',
-        ua: 'Так-так, розумію. Навіть якщо в тебе свій бізнес, купа грошей і ти вже серйозна людина — інколи просто хочеться покататися на улюбленій машині. А в нас ти можеш робити це з користю для міста й ще заробляти хороші гроші. Нам завжди потрібні тямущі водії.',
-        en: "Yeah, I get it. Even if you have your own business, lots of money, and you're already a serious person — sometimes you just want to take your favorite car for a ride. And with us, you can do it for the benefit of the city and earn good money at the same time. We always need competent drivers.",
-        de: 'Ja, ich verstehe. Selbst wenn du dein eigenes Unternehmen hast, viel Geld und schon eine ernsthafte Person bist — manchmal möchte man einfach mit seinem Lieblingsauto fahren. Bei uns kannst du das zum Nutzen der Stadt tun und dabei noch gutes Geld verdienen. Wir brauchen immer zuverlässige Fahrer.',
-        pl: 'Tak, rozumiem. Nawet jeśli masz własny biznes, dużo pieniędzy i jesteś już poważną osobą — czasem po prostu chce się pojeździć swoim ulubionym samochodem. U nas możesz robić to z korzyścią dla miasta i jeszcze dobrze zarabiać. Zawsze potrzebujemy ogarniętych kierowców.',
+        ua: 'Так-так, розумію. Навіть якщо в тебе свій бізнес, купа грошей і ти вже серйозна людина - інколи просто хочеться покататися на улюбленій машині. А в нас ти можеш робити це з користю для міста й ще заробляти хороші гроші. Нам завжди потрібні тямущі водії.',
+        en: "Yeah, I get it. Even if you have your own business, lots of money, and you're already a serious person - sometimes you just want to take your favorite car for a ride. And with us, you can do it for the benefit of the city and earn good money at the same time. We always need competent drivers.",
+        de: 'Ja, ich verstehe. Selbst wenn du dein eigenes Unternehmen hast, viel Geld und schon eine ernsthafte Person bist - manchmal möchte man einfach mit seinem Lieblingsauto fahren. Bei uns kannst du das zum Nutzen der Stadt tun und dabei noch gutes Geld verdienen. Wir brauchen immer zuverlässige Fahrer.',
+        pl: 'Tak, rozumiem. Nawet jeśli masz własny biznes, dużo pieniędzy i jesteś już poważną osobą - czasem po prostu chce się pojeździć swoim ulubionym samochodem. U nas możesz robić to z korzyścią dla miasta i jeszcze dobrze zarabiać. Zawsze potrzebujemy ogarniętych kierowców.',
     },
 
     wantJob2: {
@@ -92,11 +92,11 @@ export default {
     },
 
     message7: {
-        ru: 'Когда будешь готов — нажимай «Начать смену». После этого сразу появится список заказов. Если заказов от игроков не будет, система автоматически выдаст заказы от NPC, так что без работы ты не останешься.',
-        ua: 'Коли будеш готовий — натискай «Почати зміну». Після цього одразу з’явиться список замовлень. Якщо замовлень від гравців не буде, система автоматично видасть замовлення від NPC, тож без роботи ти не залишишся.',
+        ru: 'Когда будешь готов - нажимай «Начать смену». После этого сразу появится список заказов. Если заказов от игроков не будет, система автоматически выдаст заказы от NPC, так что без работы ты не останешься.',
+        ua: "Коли будеш готовий - натискай «Почати зміну». Після цього одразу з'явиться список замовлень. Якщо замовлень від гравців не буде, система автоматично видасть замовлення від NPC, тож без роботи ти не залишишся.",
         en: 'When you’re ready, press “Start shift.” After that, a list of orders will appear immediately. If there are no orders from players, the system will automatically assign NPC orders, so you won’t be left without work.',
         de: 'Wenn du bereit bist, klicke auf „Schicht starten“. Danach erscheint sofort eine Liste mit Aufträgen. Wenn es keine Aufträge von Spielern gibt, vergibt das System automatisch NPC-Aufträge, sodass du nicht ohne Arbeit bleibst.',
-        pl: 'Gdy będziesz gotowy — naciśnij „Rozpocznij zmianę”. Następnie od razu pojawi się lista zleceń. Jeśli nie będzie zleceń od graczy, system automatycznie przydzieli zlecenia od NPC, więc nie zostaniesz bez pracy.',
+        pl: 'Gdy będziesz gotowy - naciśnij „Rozpocznij zmianę”. Następnie od razu pojawi się lista zleceń. Jeśli nie będzie zleceń od graczy, system automatycznie przydzieli zlecenia od NPC, więc nie zostaniesz bez pracy.',
     },
 
     wantJob7: {
@@ -108,11 +108,11 @@ export default {
     },
 
     message8: {
-        ru: 'В приложении ты можешь посмотреть всю информацию о заказе и клиенте, позвонить или написать ему, а также пользоваться картой для удобства. Кстати, если у тебя нет подходящей машины — я могу сдать тебе авто в аренду.',
-        ua: 'У застосунку ти можеш переглянути всю інформацію про замовлення та клієнта, зателефонувати або написати йому, а також користуватися картою для зручності. До речі, якщо в тебе немає підходящої машини — я можу здати тобі авто в оренду.',
+        ru: 'В приложении ты можешь посмотреть всю информацию о заказе и клиенте, позвонить или написать ему, а также пользоваться картой для удобства. Кстати, если у тебя нет подходящей машины - я могу сдать тебе авто в аренду.',
+        ua: 'У застосунку ти можеш переглянути всю інформацію про замовлення та клієнта, зателефонувати або написати йому, а також користуватися картою для зручності. До речі, якщо в тебе немає підходящої машини - я можу здати тобі авто в оренду.',
         en: 'In the app, you can view all the information about the order and the client, call or message them, and use the map for convenience. By the way, if you don’t have a suitable car, I can rent one to you.',
         de: 'In der App kannst du alle Informationen über den Auftrag und den Kunden einsehen, ihn anrufen oder ihm schreiben sowie die Karte zur Orientierung nutzen. Übrigens, wenn du kein passendes Auto hast, kann ich dir eines vermieten.',
-        pl: 'W aplikacji możesz zobaczyć wszystkie informacje o zleceniu i kliencie, zadzwonić lub napisać do niego, a także korzystać z mapy dla wygody. Przy okazji, jeśli nie masz odpowiedniego samochodu — mogę wynająć ci auto.',
+        pl: 'W aplikacji możesz zobaczyć wszystkie informacje o zleceniu i kliencie, zadzwonić lub napisać do niego, a także korzystać z mapy dla wygody. Przy okazji, jeśli nie masz odpowiedniego samochodu - mogę wynająć ci auto.',
     },
 
     wantJob8: {
@@ -138,11 +138,11 @@ export default {
         pl: 'Nie chcę tu pracować.',
     },
     goodbye: {
-        ru: 'Ну, раз не хочешь — дело твоё, но если передумаешь — приходи, расскажу, что тут да как.',
-        ua: 'Ну, якщо не хочеш — справа твоя, але якщо передумаєш — приходь, розповім, що тут і як.',
-        en: 'Well, if you don’t want to — that’s your choice, but if you change your mind, come back and I’ll tell you how things work here.',
-        de: 'Nun, wenn du nicht willst — deine Entscheidung, aber wenn du es dir anders überlegst, komm vorbei und ich erkläre dir, wie hier alles läuft.',
-        pl: 'Cóż, jeśli nie chcesz — to twoja sprawa, ale jeśli zmienisz zdanie, wpadnij, opowiem ci, jak tu wszystko działa.',
+        ru: 'Ну, раз не хочешь - дело твоё, но если передумаешь - приходи, расскажу, что тут да как.',
+        ua: 'Ну, якщо не хочеш - справа твоя, але якщо передумаєш - приходь, розповім, що тут і як.',
+        en: 'Well, if you don’t want to - that’s your choice, but if you change your mind, come back and I’ll tell you how things work here.',
+        de: 'Nun, wenn du nicht willst - deine Entscheidung, aber wenn du es dir anders überlegst, komm vorbei und ich erkläre dir, wie hier alles läuft.',
+        pl: 'Cóż, jeśli nie chcesz - to twoja sprawa, ale jeśli zmienisz zdanie, wpadnij, opowiem ci, jak tu wszystko działa.',
     },
     aga: {
         ru: 'Ага',

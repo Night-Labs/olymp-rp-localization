@@ -397,7 +397,7 @@ export default {
             ru: 'Сигнал поворота включается заранее - за 3-5 секунд до манёвра. Это предупреждает других водителей.',
             ua: 'Сигнал повороту вмикається заздалегідь - за 3-5 секунд до маневру. Це попереджає інших водіїв.',
             en: 'The turn signal is activated in advance - 3-5 seconds before the maneuver. This warns other drivers.',
-            de: 'Der Fahrtrichtungsanzeiger wird im Voraus eingeschaltet – 3-5 Sekunden vor dem Manöver. Dies warnt andere Fahrer.',
+            de: 'Der Fahrtrichtungsanzeiger wird im Voraus eingeschaltet - 3-5 Sekunden vor dem Manöver. Dies warnt andere Fahrer.',
             pl: 'Kierunkowskaz włącza się z wyprzedzeniem - 3-5 sekund przed manewrem. Ostrzega to innych kierowców.',
         },
         question: {

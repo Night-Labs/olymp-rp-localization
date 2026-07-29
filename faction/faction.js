@@ -114,7 +114,7 @@ export const faction = {
         },
         bedHealed: {
             ru: 'Вы полностью восстановили здоровье',
-            ua: 'Ви повністю відновили здоров’я',
+            ua: "Ви повністю відновили здоров'я",
             en: 'You have fully restored your health',
             de: 'Du hast deine Gesundheit vollständig wiederhergestellt',
             pl: 'W pełni odzyskałeś zdrowie',

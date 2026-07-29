@@ -81,7 +81,7 @@ export const object = {
     },
     selectReadyMeatToTake: {
         ru: 'Выберите готовое мясо',
-        ua: 'Оберіть готове мʼясо',
+        ua: "Оберіть готове м'ясо",
         en: 'Choose ready meat',
         de: 'Wähle fertiges Fleisch',
         pl: 'Wybierz gotowe mięso',
@@ -89,7 +89,7 @@ export const object = {
     },
     selectReadyMeatToBuy: {
         ru: 'Выберите мясо для покупки',
-        ua: 'Оберіть мʼясо для покупки',
+        ua: "Оберіть м'ясо для покупки",
         en: 'Choose meat to buy',
         de: 'Wähle Fleisch zum Kaufen',
         pl: 'Wybierz mięso do kupienia',
@@ -153,7 +153,7 @@ export const object = {
     },
     tooManyOwnPlacedObjects: {
         ru: 'Вы уже разместили слишком много объектов',
-        ua: 'Ви вже розмістили занадто багато обʼєктів',
+        ua: "Ви вже розмістили занадто багато об'єктів",
         en: 'You have already placed too many objects',
         de: 'Du hast bereits zu viele Objekte platziert',
         pl: 'Umieściłeś już zbyt wiele obiektów',
@@ -161,7 +161,7 @@ export const object = {
     },
     tooManyObjectsNearby: {
         ru: 'Рядом уже слишком много объектов: максимум {{limit}} в радиусе {{radius}} м',
-        ua: 'Поруч уже занадто багато обʼєктів: максимум {{limit}} у радіусі {{radius}} м',
+        ua: "Поруч уже занадто багато об'єктів: максимум {{limit}} у радіусі {{radius}} м",
         en: 'There are already too many objects nearby: maximum {{limit}} within {{radius}} m',
         de: 'In der Nähe gibt es bereits zu viele Objekte: maximal {{limit}} im Radius von {{radius}} m',
         pl: 'W pobliżu jest już zbyt wiele obiektów: maksymalnie {{limit}} w promieniu {{radius}} m',
@@ -169,7 +169,7 @@ export const object = {
     },
     tooManyOwnObjectsNearby: {
         ru: 'Вы уже разместили слишком много своих объектов в этом месте: максимум {{limit}} в радиусе {{radius}} м',
-        ua: 'Ви вже розмістили занадто багато своїх обʼєктів у цьому місці: максимум {{limit}} у радіусі {{radius}} м',
+        ua: "Ви вже розмістили занадто багато своїх об'єктів у цьому місці: максимум {{limit}} у радіусі {{radius}} м",
         en: 'You have already placed too many of your own objects here: maximum {{limit}} within {{radius}} m',
         de: 'Du hast hier bereits zu viele eigene Objekte platziert: maximal {{limit}} im Radius von {{radius}} m',
         pl: 'Umieściłeś już tutaj zbyt wiele własnych obiektów: maksymalnie {{limit}} w promieniu {{radius}} m',
@@ -177,7 +177,7 @@ export const object = {
     },
     tooManySimilarObjectsNearby: {
         ru: 'Рядом уже слишком много объектов {{label}}: максимум {{limit}} в радиусе {{radius}} м',
-        ua: 'Поруч уже занадто багато обʼєктів {{label}}: максимум {{limit}} у радіусі {{radius}} м',
+        ua: "Поруч уже занадто багато об'єктів {{label}}: максимум {{limit}} у радіусі {{radius}} м",
         en: 'There are already too many nearby {{label}} objects: maximum {{limit}} within {{radius}} m',
         de: 'In der Nähe gibt es bereits zu viele {{label}}-Objekte: maximal {{limit}} im Radius von {{radius}} m',
         pl: 'W pobliżu jest już zbyt wiele obiektów {{label}}: maksymalnie {{limit}} w promieniu {{radius}} m',
@@ -185,7 +185,7 @@ export const object = {
     },
     placementBlocked: {
         ru: 'Вам запрещено размещать объекты ещё {{time}}',
-        ua: 'Вам заборонено розміщувати обʼєкти ще {{time}}',
+        ua: "Вам заборонено розміщувати об'єкти ще {{time}}",
         en: 'You are forbidden from placing objects for another {{time}}',
         de: 'Dir ist das Platzieren von Objekten noch für {{time}} verboten',
         pl: 'Masz zakaz rozmieszczania obiektów jeszcze przez {{time}}',
@@ -193,7 +193,7 @@ export const object = {
     },
     placementBannedByAdmin: {
         ru: 'Администратор запретил вам размещать объекты на {{minutes}} мин.',
-        ua: 'Адміністратор заборонив вам розміщувати обʼєкти на {{minutes}} хв.',
+        ua: "Адміністратор заборонив вам розміщувати об'єкти на {{minutes}} хв.",
         en: 'An administrator has forbidden you from placing objects for {{minutes}} min.',
         de: 'Ein Administrator hat dir das Platzieren von Objekten für {{minutes}} Min. verboten.',
         pl: 'Administrator zabronił ci rozmieszczania obiektów na {{minutes}} min.',
@@ -201,7 +201,7 @@ export const object = {
     },
     placementBanRemovedByAdmin: {
         ru: 'Администратор снова разрешил вам размещать объекты',
-        ua: 'Адміністратор знову дозволив вам розміщувати обʼєкти',
+        ua: "Адміністратор знову дозволив вам розміщувати об'єкти",
         en: 'An administrator has allowed you to place objects again',
         de: 'Ein Administrator hat dir das Platzieren von Objekten wieder erlaubt',
         pl: 'Administrator ponownie pozwolił ci rozmieszczać obiekty',

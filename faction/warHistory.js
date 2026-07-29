@@ -114,8 +114,8 @@ export default {
         pl: 'Bez walki',
     },
     noShowNote: {
-        ru: 'Капт закончился неявкой — боя не было',
-        ua: 'Капт закінчився неявкою — бою не було',
+        ru: 'Капт закончился неявкой - боя не было',
+        ua: 'Капт закінчився неявкою - бою не було',
         en: 'The capture ended in a no-show, so no fight took place',
         de: 'Die Einnahme endete ohne Antreten, es gab keinen Kampf',
         pl: 'Przejęcie zakończyło się brakiem stawienia się, walki nie było',

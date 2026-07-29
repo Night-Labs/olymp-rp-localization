@@ -37,7 +37,7 @@ export default {
     //
     objectLocked: {
         ru: 'Объект выделен другим игроком',
-        ua: 'Обʼєкт виділено іншим гравцем',
+        ua: "Об'єкт виділено іншим гравцем",
         en: 'The object is selected by another player',
         de: 'Das Objekt wurde von einem anderen Spieler ausgewählt',
         pl: 'Obiekt jest zaznaczony przez innego gracza',

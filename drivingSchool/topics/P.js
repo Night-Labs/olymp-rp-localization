@@ -342,7 +342,7 @@ export default {
             ru: 'Резкие манёвры на малой высоте опасны - это может привести к потере подъёмной силы и сваливанию.',
             ua: 'Різкі маневри на малій висоті небезпечні - це може призвести до втрати підйомної сили та звалювання.',
             en: 'Sharp maneuvers at low altitude are dangerous - this can lead to loss of lift and a stall.',
-            de: 'Scharfe Manöver in geringer Höhe sind gefährlich – dies kann zu einem Verlust des Auftriebs und einem Strömungsabriss führen.',
+            de: 'Scharfe Manöver in geringer Höhe sind gefährlich - dies kann zu einem Verlust des Auftriebs und einem Strömungsabriss führen.',
             pl: 'Gwałtowne manewry na niskiej wysokości są niebezpieczne - może to doprowadzić do utraty siły nośnej i przeciągnięcia.',
         },
         question: {

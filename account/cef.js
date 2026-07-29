@@ -266,7 +266,7 @@ export const cef = {
             },
             desc: {
                 ru: 'Сбросить пароль через код, отправленный на привязанную почту',
-                ua: 'Скинути пароль через код, надісланий на прив’язану пошту',
+                ua: "Скинути пароль через код, надісланий на прив'язану пошту",
                 en: 'Reset your password using a code sent to the linked email',
                 de: 'Setze dein Passwort über einen Code zurück, der an die verknüpfte E-Mail gesendet wird',
                 pl: 'Zresetuj hasło za pomocą kodu wysłanego na powiązany e-mail',
@@ -284,7 +284,7 @@ export const cef = {
             },
             desc: {
                 ru: 'Получить логин аккаунта на привязанную почту',
-                ua: 'Отримати логін акаунта на прив’язану пошту',
+                ua: "Отримати логін акаунта на прив'язану пошту",
                 en: 'Get your account login sent to the linked email',
                 de: 'Lasse dir deinen Benutzernamen an die verknüpfte E-Mail senden',
                 pl: 'Otrzymaj login konta na powiązany e-mail',
@@ -311,7 +311,7 @@ export const cef = {
         },
         subtitle: {
             ru: 'Введите email, привязанный к аккаунту, и мы вышлем на него ваш логин',
-            ua: 'Введіть email, прив’язаний до акаунта, і ми надішлемо на нього ваш логін',
+            ua: "Введіть email, прив'язаний до акаунта, і ми надішлемо на нього ваш логін",
             en: 'Enter the email linked to your account and we’ll send your login to it',
             de: 'Gib die mit deinem Konto verknüpfte E-Mail ein und wir senden dir deinen Login zu',
             pl: 'Wpisz e-mail powiązany z kontem, a wyślemy na niego twój login',

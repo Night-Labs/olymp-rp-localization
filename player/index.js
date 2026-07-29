@@ -93,7 +93,7 @@ export default {
     commands: {
         supportUsage: {
             ru: '[сообщение] - связаться с администрацией',
-            ua: '[повідомлення] - зв`язатися з адміністрацією',
+            ua: "[повідомлення] - зв'язатися з адміністрацією",
             en: '[message] - contact administration',
             de: '[nachricht] - administration kontaktieren',
             pl: '[wiadomosc] - skontaktowac sie z administracja',

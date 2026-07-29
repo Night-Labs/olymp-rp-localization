@@ -347,7 +347,7 @@ export const cef = {
             },
             blush: {
                 ru: 'Румяна',
-                ua: 'Рум’яна',
+                ua: "Рум'яна",
                 en: 'Blush',
                 de: 'Rouge',
                 pl: 'Róż',

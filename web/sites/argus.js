@@ -8,12 +8,12 @@ export default {
         zh: 'ARGUS · 联邦情报网络',
     },
     searchTitle: {
-        ru: 'ARGUS — Федеральная информационная сеть',
-        ua: 'ARGUS — Федеральна інформаційна мережа',
-        en: 'ARGUS — Federal Intelligence Network',
-        de: 'ARGUS — Föderales Nachrichtennetzwerk',
-        pl: 'ARGUS — Federalna sieć wywiadowcza',
-        zh: 'ARGUS — 联邦情报网络',
+        ru: 'ARGUS - Федеральная информационная сеть',
+        ua: 'ARGUS - Федеральна інформаційна мережа',
+        en: 'ARGUS - Federal Intelligence Network',
+        de: 'ARGUS - Föderales Nachrichtennetzwerk',
+        pl: 'ARGUS - Federalna sieć wywiadowcza',
+        zh: 'ARGUS - 联邦情报网络',
     },
     searchSnippet: {
         ru: 'Официальная база данных LSPD, FIB и Sheriff. Записи граждан, реестр транспорта, архив дел.',

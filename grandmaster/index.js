@@ -718,10 +718,10 @@ export default {
         },
         help: {
             ru: '3-20 символов (A-Z, 0-9, _)',
-            ua: '3–20 символів (A-Z, 0-9, _)',
-            en: '3–20 characters (A-Z, 0-9, _)',
-            de: '3–20 Zeichen (A-Z, 0-9, _)',
-            pl: '3–20 znaków (A-Z, 0-9, _)',
+            ua: '3-20 символів (A-Z, 0-9, _)',
+            en: '3-20 characters (A-Z, 0-9, _)',
+            de: '3-20 Zeichen (A-Z, 0-9, _)',
+            pl: '3-20 znaków (A-Z, 0-9, _)',
         },
         freeNote: {
             ru: 'Первый выбор ника бесплатный.',

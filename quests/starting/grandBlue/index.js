@@ -10,7 +10,7 @@
         ru: 'Встреться с Иори, легендарным дайвером. Возьми у него задание и попробуй себя в роли дайвера - исследуй глубины у дамбы Land Act.',
         ua: 'Зустрінься з Іорі, легендарним дайвером. Візьми у нього завдання і спробуй себе в ролі дайвера - досліди глибини біля дамби Land Act.',
         en: 'Meet Iori, the legendary diver. Get a job from him and try being a diver - explore the depths near the Land Act Dam.',
-        de: 'Triff dich mit Iori, dem legendären Taucher. Hol dir einen Auftrag von ihm und versuch dich als Taucher – erkunde die Tiefen am Land Act-Damm.',
+        de: 'Triff dich mit Iori, dem legendären Taucher. Hol dir einen Auftrag von ihm und versuch dich als Taucher - erkunde die Tiefen am Land Act-Damm.',
         pl: 'Spotkaj się z Iorim, legendarnym nurkiem. Weź od niego zadanie i spróbuj swoich sił jako nurek - zbadaj głębiny przy tamie Land Act.',
     },
     smsFromDiana: {
@@ -30,7 +30,7 @@
         },
         okay: {
             ru: 'Окей щас выпью',
-            ua: 'Окей, зараз вип’ю',
+            ua: "Окей, зараз вип'ю",
             en: 'Okay, I’ll drink it now',
             de: 'Okay, ich trink’s jetzt',
             pl: 'Okej, zaraz wypiję',

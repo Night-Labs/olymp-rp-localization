@@ -91,7 +91,7 @@ export default {
         },
         desc: {
             ru: 'Здесь появятся треки, которые вы оценили, нажав на сердечко, для быстрого доступа',
-            ua: 'Тут з’являться треки, які ви оцінили, натиснувши на сердечко, для швидкого доступу',
+            ua: "Тут з'являться треки, які ви оцінили, натиснувши на сердечко, для швидкого доступу",
             en: 'Here you will find tracks you liked by clicking the heart for quick access',
             de: 'Hier erscheinen Tracks, die du mit einem Herz markiert hast, für schnellen Zugriff',
             pl: 'Tutaj pojawią się utwory, które polubiłeś, klikając serduszko, dla szybkiego dostępu',

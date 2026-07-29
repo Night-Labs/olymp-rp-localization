@@ -19,7 +19,7 @@ export default {
     dialog: {
         dianaTakeCareOfYourself: {
             ru: 'Теперь займись собой: купи новую одежду, потом загляни в супермаркет за едой и обязательно перекуси. Не забывай - голодный и в старых шмотках далеко не уедешь!',
-            ua: 'Тепер подбай про себе: купи новий одяг, потім зайди до супермаркету за їжею і обов’язково перекуси. Не забувай - голодний і в старому одязі далеко не заїдеш!',
+            ua: "Тепер подбай про себе: купи новий одяг, потім зайди до супермаркету за їжею і обов'язково перекуси. Не забувай - голодний і в старому одязі далеко не заїдеш!",
             en: "Now take care of yourself: buy some new clothes, then drop by the supermarket for some food and be sure to have a snack. Remember - if you're hungry and wearing old clothes, you won't get far!",
             de: 'Kümmer dich jetzt um dich selbst: Kauf dir neue Klamotten, geh dann im Supermarkt Essen holen und iss auf jeden Fall etwas. Denk dran - hungrig und in alten Klamotten kommst du nicht weit!',
             pl: 'Zadbaj teraz o siebie: kup nowe ubrania, potem wpadnij do supermarketu po jedzenie i koniecznie coś przekąś. Pamiętaj - głodny i w starych ciuchach daleko nie zajdziesz!',

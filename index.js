@@ -98,6 +98,7 @@ import canteen from './canteen';
 import sewingFactory from './sewingFactory';
 import wars from './wars';
 import effects from './effects';
+import militaryGates from './militaryGates';
 
 export default {
     account,
@@ -201,6 +202,7 @@ export default {
     sewingFactory,
     wars,
     effects,
+    militaryGates,
 };
 
 

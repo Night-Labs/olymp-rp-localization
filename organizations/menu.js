@@ -1273,8 +1273,8 @@ export const menu = {
             pl: 'Pedzel',
         },
         brushHint: {
-            ru: '(клик — смена цвета, клик по квадрату — перекраска)',
-            ua: '(клік — зміна кольору, клік по квадрату — перефарбування)',
+            ru: '(клик - смена цвета, клик по квадрату - перекраска)',
+            ua: '(клік - зміна кольору, клік по квадрату - перефарбування)',
             en: '(click to cycle, click cell to paint)',
             de: '(klick zum Wechseln, klick Feld zum Faerben)',
             pl: '(klik aby zmienic, klik pole aby pomalowac)',
@@ -1731,11 +1731,11 @@ export const menu = {
                 pl: 'Mapa',
             },
             peacefulCaptureNote: {
-                ru: 'Мирный захват — без участников',
-                ua: 'Мирне захоплення — без учасників',
-                en: 'Peaceful capture — no participants',
-                de: 'Friedliche Eroberung — ohne Teilnehmer',
-                pl: 'Spokojne przejecie — bez uczestnikow',
+                ru: 'Мирный захват - без участников',
+                ua: 'Мирне захоплення - без учасників',
+                en: 'Peaceful capture - no participants',
+                de: 'Friedliche Eroberung - ohne Teilnehmer',
+                pl: 'Spokojne przejecie - bez uczestnikow',
             },
             cols: {
                 kills: {
@@ -1821,11 +1821,11 @@ export const menu = {
                 pl: 'Wplyw na dzien',
             },
             empty: {
-                ru: 'Нет источников Влияния — захватывайте квадраты',
-                ua: 'Немає джерел Впливу — захоплюйте квадрати',
-                en: 'No Influence sources yet — claim squares',
-                de: 'Noch keine Einfluss-Quellen — Felder erobern',
-                pl: 'Brak zrodel Wplywu — przejmuj pola',
+                ru: 'Нет источников Влияния - захватывайте квадраты',
+                ua: 'Немає джерел Впливу - захоплюйте квадрати',
+                en: 'No Influence sources yet - claim squares',
+                de: 'Noch keine Einfluss-Quellen - Felder erobern',
+                pl: 'Brak zrodel Wplywu - przejmuj pola',
             },
         },
         tooltip: {

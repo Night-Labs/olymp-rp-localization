@@ -339,9 +339,9 @@ export default {
     youWereHealed: {
         ru: 'Доктор оказал вам медицинскую помощь, вы снова в строю',
         ua: 'Лікар надав вам медичну допомогу, ви знову в строю',
-        en: 'The doctor patched you up — you’re back on your feet',
-        de: 'Der Arzt hat dich versorgt — du bist wieder auf den Beinen',
-        pl: 'Lekarz cię opatrzył — znów stoisz na nogach',
+        en: 'The doctor patched you up - you’re back on your feet',
+        de: 'Der Arzt hat dich versorgt - du bist wieder auf den Beinen',
+        pl: 'Lekarz cię opatrzył - znów stoisz na nogach',
     },
     checkPlayerForDiseasesAction: {
         ru: 'Осматривает {{name}} на наличие болезней',
@@ -443,14 +443,14 @@ export default {
     },
     releaseTooFarFromMarker: {
         ru: 'Вы должны находиться у маркера ареста, чтобы освободить заключенного',
-        ua: 'Ви повинні знаходитися біля маркера арешту, щоб звільнити в`язня',
+        ua: "Ви повинні знаходитися біля маркера арешту, щоб звільнити в'язня",
         en: 'You must be at the arrest marker to release a prisoner',
         de: 'Du musst dich am Verhaftungsmarker befinden, um einen Häftling zu entlassen',
         pl: 'Musisz znajdować się przy znaczniku aresztowania, aby zwolnić więźnia',
     },
     releasePrisonerNotFound: {
         ru: 'Заключенный не найден или уже освобожден',
-        ua: 'В`язня не знайдено або вже звільнено',
+        ua: "В'язня не знайдено або вже звільнено",
         en: 'Prisoner not found or already released',
         de: 'Häftling nicht gefunden oder bereits entlassen',
         pl: 'Więzień nie został znaleziony lub został już zwolniony',

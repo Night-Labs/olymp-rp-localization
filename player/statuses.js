@@ -17,7 +17,7 @@ export default {
         ru: '{{status}} - бонус к зарплате ${{bonus}}',
         ua: '{{status}} - бонус до зарплати ${{bonus}}',
         en: '{{status}} - salary bonus ${{bonus}}',
-        de: '{{status}} – Gehaltsbonus ${{bonus}}',
-        pl: '{{status}} – premia do pensji ${{bonus}}',
+        de: '{{status}} - Gehaltsbonus ${{bonus}}',
+        pl: '{{status}} - premia do pensji ${{bonus}}',
     },
 };

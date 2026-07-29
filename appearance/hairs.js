@@ -380,7 +380,7 @@ export const hairs = {
         },
         banditBand: {
             ru: 'Бандит с повязкой',
-            ua: 'Бандит із пов’язкою',
+            ua: "Бандит із пов'язкою",
             en: 'Bandit with headband',
             de: 'Bandit mit Stirnband',
             pl: 'Bandyta z opaską',
@@ -485,7 +485,7 @@ export const hairs = {
         },
         voluminousCurls: {
             ru: 'Пышные кудри',
-            ua: 'Об’ємні кучері',
+            ua: "Об'ємні кучері",
             en: 'Voluminous curls',
             de: 'Voluminöse Locken',
             pl: 'Bujne loki',
@@ -604,7 +604,7 @@ export const hairs = {
         },
         undercutVolume: {
             ru: 'Андеркат с объёмом',
-            ua: 'Андеркот з об’ємом',
+            ua: "Андеркот з об'ємом",
             en: 'Undercut with volume',
             de: 'Undercut mit Volumen',
             pl: 'Undercut z objętością',
@@ -618,7 +618,7 @@ export const hairs = {
         },
         classicVolume: {
             ru: 'Классика с объёмом',
-            ua: 'Класика з об’ємом',
+            ua: "Класика з об'ємом",
             en: 'Classic with volume',
             de: 'Klassik mit Volumen',
             pl: 'Klasyka z objętością',
@@ -942,7 +942,7 @@ export const hairs = {
         },
         voluminousWaves: {
             ru: 'Объёмные волнистые',
-            ua: 'Об’ємні хвилясті',
+            ua: "Об'ємні хвилясті",
             en: 'Voluminous waves',
             de: 'Voluminöse Wellen',
             pl: 'Objętościowe fale',
@@ -1012,7 +1012,7 @@ export const hairs = {
         },
         voluminousWaves2: {
             ru: 'Объёмные волны',
-            ua: 'Об’ємні хвилі',
+            ua: "Об'ємні хвилі",
             en: 'Voluminous waves',
             de: 'Voluminöse Wellen',
             pl: 'Objętościowe fale',
@@ -1082,7 +1082,7 @@ export const hairs = {
         },
         softWaves: {
             ru: 'Мягкие волны',
-            ua: 'М’які хвилі',
+            ua: "М'які хвилі",
             en: 'Soft waves',
             de: 'Sanfte Wellen',
             pl: 'Miękkie fale',
@@ -1103,7 +1103,7 @@ export const hairs = {
         },
         looseWithVolume: {
             ru: 'Распущенные с объёмом',
-            ua: 'Розпущене об’ємне волосся',
+            ua: "Розпущене об'ємне волосся",
             en: 'Loose with volume',
             de: 'Offen mit Volumen',
             pl: 'Rozpuszczone z objętością',

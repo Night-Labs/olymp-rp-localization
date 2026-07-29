@@ -497,14 +497,14 @@ export default {
         ru: 'Поставили рекорд по неудачам. Уже прогресс!',
         ua: 'Поставили рекорд із невдач. Уже прогрес!',
         en: 'Set a failure record - that’s progress already!',
-        de: 'Rekord an Misserfolgen aufgestellt – das ist schon Fortschritt!',
+        de: 'Rekord an Misserfolgen aufgestellt - das ist schon Fortschritt!',
         pl: 'Ustanowiliśmy rekord porażek. To już postęp!',
     },
     loseButBeautiful: {
         ru: 'Проиграли, зато как красиво! Почти как победили.',
         ua: 'Програли, зате як красиво! Майже як перемога.',
         en: 'We lost - but oh, how beautifully! Almost felt like a win.',
-        de: 'Verloren – aber wie schön! Fast wie ein Sieg.',
+        de: 'Verloren - aber wie schön! Fast wie ein Sieg.',
         pl: 'Przegraliśmy, ale jak pięknie! Prawie jak zwycięstwo.',
     },
     fellButRise: {
@@ -536,14 +536,14 @@ export default {
         ru: 'Сегодня вы взошли на вершину Олимпа, надолго ли это?',
         ua: 'Сьогодні ти піднявся на вершину Олімпу, надовго це?',
         en: 'Today you’ve reached the peak of Olympus - but how long will it last?',
-        de: 'Heute bist du auf den Olymp gestiegen – aber wie lange bleibt das so?',
+        de: 'Heute bist du auf den Olymp gestiegen - aber wie lange bleibt das so?',
         pl: 'Dziś wspiąłeś się na szczyt Olimpu - ale na jak długo?',
     },
     easierToDethrone: {
         ru: 'Свергнуть соперников проще, чем удержаться на троне - не забывайте об этом.',
         ua: 'Скинути суперників легше, ніж утриматися на троні - не забувай про це.',
         en: 'Dethroning rivals is easier than staying on the throne - don’t forget that.',
-        de: 'Gegner zu stürzen ist einfacher, als den Thron zu halten – vergiss das nicht.',
+        de: 'Gegner zu stürzen ist einfacher, als den Thron zu halten - vergiss das nicht.',
         pl: 'Obalić rywali jest łatwiej niż utrzymać się na tronie - nie zapominaj o tym.',
     },
     victoryIsJustBeginning: {

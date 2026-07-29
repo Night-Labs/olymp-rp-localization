@@ -133,7 +133,7 @@ export const server = {
     setName: {
         invalid: {
             ru: 'Имя и фамилия должны начинаться с заглавной буквы и содержать только латинские буквы (до 20 символов)',
-            ua: 'Імʼя та прізвище мають починатися з великої літери та містити лише латинські літери (до 20 символів)',
+            ua: "Ім'я та прізвище мають починатися з великої літери та містити лише латинські літери (до 20 символів)",
             en: 'First and last name must start with a capital letter and contain only latin letters (up to 20 chars)',
             de: 'Vor- und Nachname müssen mit einem Großbuchstaben beginnen und nur lateinische Buchstaben enthalten (bis zu 20 Zeichen)',
             pl: 'Imię i nazwisko muszą zaczynać się od wielkiej litery i zawierać tylko łacińskie litery (do 20 znaków)',
@@ -141,7 +141,7 @@ export const server = {
         },
         success: {
             ru: 'Имя игрока изменено на {{name}}',
-            ua: 'Імʼя гравця змінено на {{name}}',
+            ua: "Ім'я гравця змінено на {{name}}",
             en: 'Player name changed to {{name}}',
             de: 'Spielername geändert zu {{name}}',
             pl: 'Imię gracza zmienione na {{name}}',
@@ -149,7 +149,7 @@ export const server = {
         },
         successOffline: {
             ru: 'Имя игрока изменено на {{name}} (оффлайн)',
-            ua: 'Імʼя гравця змінено на {{name}} (офлайн)',
+            ua: "Ім'я гравця змінено на {{name}} (офлайн)",
             en: 'Player name changed to {{name}} (offline)',
             de: 'Spielername geändert zu {{name}} (offline)',
             pl: 'Imię gracza zmienione na {{name}} (offline)',
@@ -157,7 +157,7 @@ export const server = {
         },
         notifyTarget: {
             ru: 'Администратор изменил ваше имя на {{name}}',
-            ua: 'Адміністратор змінив ваше імʼя на {{name}}',
+            ua: "Адміністратор змінив ваше ім'я на {{name}}",
             en: 'Administrator changed your name to {{name}}',
             de: 'Administrator hat deinen Namen zu {{name}} geändert',
             pl: 'Administrator zmienił twoje imię na {{name}}',
@@ -590,7 +590,7 @@ export const server = {
         },
         failedSpawn: {
             ru: 'Не удалось создать объект {{model}}',
-            ua: 'Не вдалося створити обʼєкт {{model}}',
+            ua: "Не вдалося створити об'єкт {{model}}",
             en: 'Failed to spawn object {{model}}',
             de: 'Objekt {{model}} konnte nicht gespawnt werden',
             pl: 'Nie udało się stworzyć obiektu {{model}}',
@@ -606,7 +606,7 @@ export const server = {
         },
         failedStartPlacement: {
             ru: 'Не удалось начать размещение объекта {{model}}',
-            ua: 'Не вдалося почати розміщення обʼєкта {{model}}',
+            ua: "Не вдалося почати розміщення об'єкта {{model}}",
             en: 'Failed to start placement for object {{model}}',
             de: 'Platzierung des Objekts {{model}} konnte nicht gestartet werden',
             pl: 'Nie udało się rozpocząć rozmieszczania obiektu {{model}}',
@@ -614,7 +614,7 @@ export const server = {
         },
         tooManyOwnPlacedObjects: {
             ru: 'Вы уже разместили слишком много объектов',
-            ua: 'Ви вже розмістили занадто багато обʼєктів',
+            ua: "Ви вже розмістили занадто багато об'єктів",
             en: 'You have already placed too many objects',
             de: 'Du hast bereits zu viele Objekte platziert',
             pl: 'Umieściłeś już zbyt wiele obiektów',
@@ -622,7 +622,7 @@ export const server = {
         },
         tooManyObjectsNearby: {
             ru: 'Рядом уже слишком много объектов: максимум {{limit}} в радиусе {{radius}} м',
-            ua: 'Поруч уже занадто багато обʼєктів: максимум {{limit}} у радіусі {{radius}} м',
+            ua: "Поруч уже занадто багато об'єктів: максимум {{limit}} у радіусі {{radius}} м",
             en: 'There are already too many objects nearby: maximum {{limit}} within {{radius}} m',
             de: 'Es befinden sich bereits zu viele Objekte in der Nähe: maximal {{limit}} innerhalb von {{radius}} m',
             pl: 'W pobliżu jest już zbyt wiele obiektów: maksymalnie {{limit}} w promieniu {{radius}} m',
@@ -630,7 +630,7 @@ export const server = {
         },
         tooManyOwnObjectsNearby: {
             ru: 'Вы уже разместили слишком много своих объектов в этом месте: максимум {{limit}} в радиусе {{radius}} м',
-            ua: 'Ви вже розмістили занадто багато своїх обʼєктів у цьому місці: максимум {{limit}} у радіусі {{radius}} м',
+            ua: "Ви вже розмістили занадто багато своїх об'єктів у цьому місці: максимум {{limit}} у радіусі {{radius}} м",
             en: 'You have already placed too many of your own objects here: maximum {{limit}} within {{radius}} m',
             de: 'Du hast hier bereits zu viele eigene Objekte platziert: maximal {{limit}} innerhalb von {{radius}} m',
             pl: 'Umieściłeś już tutaj zbyt wiele własnych obiektów: maksymalnie {{limit}} w promieniu {{radius}} m',
@@ -638,7 +638,7 @@ export const server = {
         },
         tooManySimilarObjectsNearby: {
             ru: 'Рядом уже слишком много объектов {{model}}: максимум {{limit}} в радиусе {{radius}} м',
-            ua: 'Поруч уже занадто багато обʼєктів {{model}}: максимум {{limit}} у радіусі {{radius}} м',
+            ua: "Поруч уже занадто багато об'єктів {{model}}: максимум {{limit}} у радіусі {{radius}} м",
             en: 'There are already too many nearby {{model}} objects: maximum {{limit}} within {{radius}} m',
             de: 'Es befinden sich bereits zu viele {{model}}-Objekte in der Nähe: maximal {{limit}} innerhalb von {{radius}} m',
             pl: 'W pobliżu jest już zbyt wiele obiektów {{model}}: maksymalnie {{limit}} w promieniu {{radius}} m',
@@ -683,6 +683,22 @@ export const server = {
             de: 'Objekt gelöscht: {{id}}',
             pl: 'Obiekt usunięto: {{id}}',
             zh: '对象已删除：{{id}}',
+        },
+        cleared: {
+            ru: 'Удалено объектов админов в измерении {{dimension}}: {{count}}',
+            ua: "Видалено об'єктів адміністрації у вимірі {{dimension}}: {{count}}",
+            en: 'Admin objects deleted in dimension {{dimension}}: {{count}}',
+            de: 'Gelöschte Admin-Objekte in Dimension {{dimension}}: {{count}}',
+            pl: 'Usunięto obiektów administracji w wymiarze {{dimension}}: {{count}}',
+            zh: '维度{{dimension}}中已删除的管理员对象：{{count}}',
+        },
+        clearedAll: {
+            ru: 'Удалено объектов админов во всех измерениях: {{count}}',
+            ua: "Видалено об'єктів адміністрації в усіх вимірах: {{count}}",
+            en: 'Admin objects deleted in every dimension: {{count}}',
+            de: 'Gelöschte Admin-Objekte in allen Dimensionen: {{count}}',
+            pl: 'Usunięto obiektów administracji we wszystkich wymiarach: {{count}}',
+            zh: '所有维度中已删除的管理员对象：{{count}}',
         },
     },
 };

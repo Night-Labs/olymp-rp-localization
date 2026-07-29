@@ -11,12 +11,12 @@ export default {
     dialog: {
         intro: {
             message: {
-                ru: 'Застрахуйте своё транспортное средство и забудьте про счета за восстановление после уничтожения — всё покроет страховка. Приятным бонусом: ремонт застрахованного транспортного средства в LSC также будет бесплатным.',
-                ua: 'Застрахуйте свій транспортний засіб і забудьте про рахунки за відновлення після знищення — все покриє страховка. Приємним бонусом: ремонт застрахованого транспортного засобу в LSC також буде безкоштовним.',
-                en: 'Insure your vehicle and forget about restoration bills after destruction — insurance covers it all. As a bonus, repair of an insured vehicle at LSC is also free.',
-                de: 'Versichere dein Fahrzeug und vergiss die Reparaturrechnungen nach einer Zerstörung — die Versicherung deckt alles ab. Als netter Bonus ist die Reparatur eines versicherten Fahrzeugs bei LSC ebenfalls kostenlos.',
-                pl: 'Ubezpiecz swój pojazd i zapomnij o rachunkach za renowację po zniszczeniu — ubezpieczenie pokryje wszystko. Miły bonus: naprawa ubezpieczonego pojazdu w LSC również będzie bezpłatna.',
-                zh: '为您的车辆投保，忘掉毁坏后的修复账单吧——保险将覆盖一切。额外福利：投保车辆在LSC的维修也将免费。',
+                ru: 'Застрахуйте своё транспортное средство и забудьте про счета за восстановление после уничтожения - всё покроет страховка. Приятным бонусом: ремонт застрахованного транспортного средства в LSC также будет бесплатным.',
+                ua: 'Застрахуйте свій транспортний засіб і забудьте про рахунки за відновлення після знищення - все покриє страховка. Приємним бонусом: ремонт застрахованого транспортного засобу в LSC також буде безкоштовним.',
+                en: 'Insure your vehicle and forget about restoration bills after destruction - insurance covers it all. As a bonus, repair of an insured vehicle at LSC is also free.',
+                de: 'Versichere dein Fahrzeug und vergiss die Reparaturrechnungen nach einer Zerstörung - die Versicherung deckt alles ab. Als netter Bonus ist die Reparatur eines versicherten Fahrzeugs bei LSC ebenfalls kostenlos.',
+                pl: 'Ubezpiecz swój pojazd i zapomnij o rachunkach za renowację po zniszczeniu - ubezpieczenie pokryje wszystko. Miły bonus: naprawa ubezpieczonego pojazdu w LSC również będzie bezpłatna.',
+                zh: '为您的车辆投保，忘掉毁坏后的修复账单吧--保险将覆盖一切。额外福利：投保车辆在LSC的维修也将免费。',
             },
             buy: {
                 ru: 'Купить страховку',
@@ -121,12 +121,12 @@ export default {
                 zh: '未找到车辆。',
             },
             period: {
-                ru: '{{days}} дней — {{price}}',
-                ua: '{{days}} днів — {{price}}',
-                en: '{{days}} days — {{price}}',
-                de: '{{days}} Tage — {{price}}',
-                pl: '{{days}} dni — {{price}}',
-                zh: '{{days}} 天 — {{price}}',
+                ru: '{{days}} дней - {{price}}',
+                ua: '{{days}} днів - {{price}}',
+                en: '{{days}} days - {{price}}',
+                de: '{{days}} Tage - {{price}}',
+                pl: '{{days}} dni - {{price}}',
+                zh: '{{days}} 天 - {{price}}',
             },
             back: {
                 ru: 'Вернуться',

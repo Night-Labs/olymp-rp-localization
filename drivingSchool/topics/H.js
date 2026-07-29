@@ -287,7 +287,7 @@ export default {
             ru: 'Вертолёт должен садиться медленно, под небольшим углом, на ту часть, где поверхность ровнее - с последующей коррекцией.',
             ua: 'Вертоліт повинен сідати повільно, під невеликим кутом, на ту частину, де поверхня рівніша - з подальшою корекцією.',
             en: 'The helicopter should land slowly, at a slight angle, on the part where the surface is flatter - with subsequent correction.',
-            de: 'Der Hubschrauber sollte langsam, in einem leichten Winkel, auf dem flacheren Teil der Oberfläche landen – mit anschließender Korrektur.',
+            de: 'Der Hubschrauber sollte langsam, in einem leichten Winkel, auf dem flacheren Teil der Oberfläche landen - mit anschließender Korrektur.',
             pl: 'Helikopter powinien lądować powoli, pod niewielkim kątem, na tej części, gdzie powierzchnia jest równiejsza - z późniejszą korektą.',
         },
         question: {
@@ -672,8 +672,8 @@ export default {
             ru: 'Полёт на малой высоте над дорогами запрещён - это может испугать водителей и создать ДТП.',
             ua: 'Політ на малій висоті над дорогами заборонений - це може налякати водіїв та створити ДТП.',
             en: 'Flying at a low altitude over roads is prohibited - it can scare drivers and cause accidents.',
-            de: 'Das Fliegen in geringer Höhe über Straßen ist verboten – es kann Fahrer erschrecken und Unfälle verursachen.',
-            pl: 'Lot na niskiej wysokości nad drogami jest zabroniony – może to przestraszyć kierowców i spowodować wypadek.',
+            de: 'Das Fliegen in geringer Höhe über Straßen ist verboten - es kann Fahrer erschrecken und Unfälle verursachen.',
+            pl: 'Lot na niskiej wysokości nad drogami jest zabroniony - może to przestraszyć kierowców i spowodować wypadek.',
         },
         question: {
             ru: 'Разрешён ли низкий полёт над шоссе?',

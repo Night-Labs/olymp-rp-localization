@@ -13,6 +13,20 @@ export default {
         de: 'Nichts, danke',
         pl: 'Nic, dziękuję',
     },
+    joinTerritoryAttack: {
+        ru: 'Отправиться на бой за {{cell}} ({{staged}}/{{slots}})',
+        ua: 'Вирушити на бій за {{cell}} ({{staged}}/{{slots}})',
+        en: 'Join the battle for {{cell}} ({{staged}}/{{slots}})',
+        de: 'Zum Kampf um {{cell}} aufbrechen ({{staged}}/{{slots}})',
+        pl: 'Wyrusz do walki o {{cell}} ({{staged}}/{{slots}})',
+    },
+    joinTerritoryDefense: {
+        ru: 'Отправиться на защиту {{cell}} ({{staged}}/{{slots}})',
+        ua: 'Вирушити на захист {{cell}} ({{staged}}/{{slots}})',
+        en: 'Join the defense of {{cell}} ({{staged}}/{{slots}})',
+        de: 'Zur Verteidigung von {{cell}} aufbrechen ({{staged}}/{{slots}})',
+        pl: 'Wyrusz na obrone {{cell}} ({{staged}}/{{slots}})',
+    },
     enterWarLobby: {
         ru: 'Перейти в лобби капта - {{cell}}',
         ua: 'Перейти в лобі бою - {{cell}}',

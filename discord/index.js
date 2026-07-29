@@ -16,7 +16,7 @@ export default {
         zh:'公交车司机',
     },
     delivery: {
-        ua: 'Працює курʼєром доставки їжі',
+        ua: "Працює кур'єром доставки їжі",
         en: 'Works as a food delivery courier',
         ru: 'Работает курьером доставки еды',
         de: 'Arbeitet als Essenskurier',

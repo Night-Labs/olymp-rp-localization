@@ -46,8 +46,8 @@ export default {
     },
 
     reallyWhy: {
-        ru: 'Ну и пусть! Не хочешь помочь – не надо. Подумаешь, бутылка пива... Еще встретимся, знай!',
-        ua: 'Ну й хай! Не хочеш допомогти – не треба. Подумаєш, пляшка пива... Ще зустрінемося, знай!',
+        ru: 'Ну и пусть! Не хочешь помочь - не надо. Подумаешь, бутылка пива... Еще встретимся, знай!',
+        ua: 'Ну й хай! Не хочеш допомогти - не треба. Подумаєш, пляшка пива... Ще зустрінемося, знай!',
         en: `Whatever! If you don't want to help, fine. It's just a bottle of beer... We'll meet again, you'll see!`,
         de: 'Wie auch immer! Wenn du nicht helfen willst, dann eben nicht. Nur eine Flasche Bier... Wir werden uns wiedersehen, das wirst du sehen!',
         pl: 'No co z tego! Jeśli nie chcesz pomóc, trudno. To tylko butelka piwa... Jeszcze się spotkamy, zobaczysz!',
