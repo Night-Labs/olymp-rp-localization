@@ -13,6 +13,13 @@ export default {
         de: 'Nichts, danke',
         pl: 'Nic, dziękuję',
     },
+    customize: {
+        ru: 'Кастомизировать помещение',
+        ua: 'Кастомізувати приміщення',
+        en: 'Customize the premises',
+        de: 'Räumlichkeiten anpassen',
+        pl: 'Dostosuj lokal',
+    },
     joinTerritoryAttack: {
         ru: 'Отправиться на бой за {{cell}} ({{staged}}/{{slots}})',
         ua: 'Вирушити на бій за {{cell}} ({{staged}}/{{slots}})',

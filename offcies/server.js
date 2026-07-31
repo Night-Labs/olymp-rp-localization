@@ -305,6 +305,13 @@ export const server = {
             de: 'Bürokauf fehlgeschlagen. Betrag wurde erstattet.',
             pl: 'Nie udało się kupić biura. Środki zostały zwrócone.',
         },
+        customizationFailed: {
+            ru: 'Не удалось сохранить изменения. Средства возвращены.',
+            ua: 'Не вдалося зберегти зміни. Кошти повернуто.',
+            en: 'Failed to save the change. Funds have been refunded.',
+            de: 'Änderung konnte nicht gespeichert werden. Betrag wurde erstattet.',
+            pl: 'Nie udało się zapisać zmiany. Środki zostały zwrócone.',
+        },
         notPurchased: {
             ru: 'Этот офис не куплен.',
             ua: 'Цей офіс не куплено.',
@@ -427,6 +434,13 @@ export const server = {
             en: 'Office #{{slotId}} in {{building}} sold, refunded ${{refund}}',
             de: 'Büro #{{slotId}} in {{building}} verkauft, ${{refund}} erstattet',
             pl: 'Biuro #{{slotId}} w {{building}} sprzedane, zwrócono ${{refund}}',
+        },
+        customized: {
+            ru: 'Изменения применены, списано ${{price}}',
+            ua: 'Зміни застосовано, списано ${{price}}',
+            en: 'Change applied, ${{price}} charged',
+            de: 'Änderung übernommen, ${{price}} abgebucht',
+            pl: 'Zmiana zastosowana, pobrano ${{price}}',
         },
     },
 };

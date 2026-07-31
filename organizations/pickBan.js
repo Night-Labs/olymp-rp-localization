@@ -139,4 +139,40 @@ export const battlefields = {
             pl: 'Tartak',
         },
     },
+    humaneLabs: {
+        name: {
+            ru: 'Humane Labs',
+            ua: 'Humane Labs',
+            en: 'Humane Labs',
+            de: 'Humane Labs',
+            pl: 'Humane Labs',
+        },
+    },
+    windmills: {
+        name: {
+            ru: 'Windmills',
+            ua: 'Windmills',
+            en: 'Windmills',
+            de: 'Windmills',
+            pl: 'Windmills',
+        },
+    },
+    oldDock: {
+        name: {
+            ru: 'Old Dock',
+            ua: 'Old Dock',
+            en: 'Old Dock',
+            de: 'Old Dock',
+            pl: 'Old Dock',
+        },
+    },
+    kortzCenter: {
+        name: {
+            ru: 'Kortz Center',
+            ua: 'Kortz Center',
+            en: 'Kortz Center',
+            de: 'Kortz Center',
+            pl: 'Kortz Center',
+        },
+    },
 };
