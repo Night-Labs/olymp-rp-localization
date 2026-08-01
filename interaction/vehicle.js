@@ -214,6 +214,35 @@ export const vehicle = {
         },
     },
 
+    siren: {
+        ru: 'Сирена',
+        ua: 'Сирена',
+        en: 'Siren',
+        de: 'Sirene',
+        pl: 'Syrena',
+    },
+    'siren-sound': {
+        ru: 'Включить сирену со звуком',
+        ua: 'Увімкнути сирену зі звуком',
+        en: 'Turn on the siren with sound',
+        de: 'Sirene mit Ton einschalten',
+        pl: 'Włącz syrenę z dźwiękiem',
+    },
+    'siren-lights': {
+        ru: 'Включить сирену без звука',
+        ua: 'Увімкнути сирену без звуку',
+        en: 'Turn on the siren without sound',
+        de: 'Sirene ohne Ton einschalten',
+        pl: 'Włącz syrenę bez dźwięku',
+    },
+    'siren-off': {
+        ru: 'Выключить сирену',
+        ua: 'Вимкнути сирену',
+        en: 'Turn off the siren',
+        de: 'Sirene ausschalten',
+        pl: 'Wyłącz syrenę',
+    },
+
     doorsControl: {
         ru: 'Управление дверьми',
         ua: 'Керування дверима',

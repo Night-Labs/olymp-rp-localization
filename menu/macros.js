@@ -5,6 +5,8 @@ export const macros = {
     profileNamePlaceholder: { ru: 'Название профиля', ua: 'Назва профілю', en: 'Profile name', de: 'Profilname', pl: 'Nazwa profilu' },
     macroNamePlaceholder: { ru: 'Название макроса', ua: 'Назва макроса', en: 'Macro name', de: 'Makroname', pl: 'Nazwa makra' },
     macroFallbackName: { ru: 'Без названия', ua: 'Без назви', en: 'Untitled', de: 'Unbenannt', pl: 'Bez nazwy' },
+    defaultMacroName: { ru: 'Новый макрос', ua: 'Новий макрос', en: 'New macro', de: 'Neues Makro', pl: 'Nowe makro' },
+    defaultProfileName: { ru: 'Профиль {{index}}', ua: 'Профіль {{index}}', en: 'Profile {{index}}', de: 'Profil {{index}}', pl: 'Profil {{index}}' },
     createNewMacro: { ru: 'Создать новый макрос', ua: 'Створити новий макрос', en: 'Create new macro', de: 'Neues Makro', pl: 'Utwórz makro' },
     emptyProfile: { ru: 'В этом профиле ещё нет макросов', ua: 'У цьому профілі ще немає макросів', en: 'No macros in this profile yet', de: 'Noch keine Makros in diesem Profil', pl: 'Brak makr w tym profilu' },
     noProfile: { ru: 'Нет активного профиля. Создайте новый.', ua: 'Немає активного профілю. Створіть новий.', en: 'No active profile. Create one.', de: 'Kein aktives Profil. Erstelle eines.', pl: 'Brak aktywnego profilu. Utwórz nowy.' },
@@ -100,6 +102,9 @@ export const macros = {
         'vehicle.lights': { ru: 'Фары', ua: 'Фари', en: 'Lights toggle', de: 'Lichter schalten', pl: 'Światła' },
         'vehicle.lock': { ru: 'Замок', ua: 'Замок', en: 'Lock toggle', de: 'Schloss', pl: 'Zamek' },
         'vehicle.siren': { ru: 'Сирена', ua: 'Сирена', en: 'Siren toggle', de: 'Sirene', pl: 'Syrena' },
+        'vehicle.sirenSound': { ru: 'Сирена со звуком', ua: 'Сирена зі звуком', en: 'Siren with sound', de: 'Sirene mit Ton', pl: 'Syrena z dźwiękiem' },
+        'vehicle.sirenLights': { ru: 'Сирена без звука', ua: 'Сирена без звуку', en: 'Siren without sound', de: 'Sirene ohne Ton', pl: 'Syrena bez dźwięku' },
+        'vehicle.sirenOff': { ru: 'Выключить сирену', ua: 'Вимкнути сирену', en: 'Siren off', de: 'Sirene aus', pl: 'Wyłącz syrenę' },
         'vehicle.trunk': { ru: 'Багажник', ua: 'Багажник', en: 'Trunk toggle', de: 'Kofferraum', pl: 'Bagażnik' },
 
         'documents.showBadge': { ru: 'Показать жетон', ua: 'Показати жетон', en: 'Show badge', de: 'Marke zeigen', pl: 'Pokazać odznakę' },
