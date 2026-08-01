@@ -23,6 +23,13 @@ export const progression = {
             de: 'Ausrichtung von {{orgName}} geändert zu {{direction}}',
             pl: 'Kierunek organizacji {{orgName}} zmieniony na {{direction}}',
         },
+        branchSwitched: {
+            ru: 'Организация перешла на {{branch}} путь. Потеряно репутации: {{reputation}}, сброшено улучшений: {{nodes}} (без возврата средств).',
+            ua: 'Організація перейшла на {{branch}} шлях. Втрачено репутації: {{reputation}}, скинуто покращень: {{nodes}} (без повернення коштів).',
+            en: 'The organization switched to the {{branch}} path. Reputation lost: {{reputation}}, upgrades forfeited: {{nodes}} (no refund).',
+            de: 'Die Organisation ist auf den {{branch}} Weg gewechselt. Verlorener Ruf: {{reputation}}, verfallene Upgrades: {{nodes}} (keine Rueckerstattung).',
+            pl: 'Organizacja przeszla na {{branch}} sciezke. Utracona reputacja: {{reputation}}, przepadle ulepszenia: {{nodes}} (bez zwrotu).',
+        },
     },
     direction: {
         crime_hardcore: {
