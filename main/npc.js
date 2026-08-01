@@ -290,6 +290,13 @@ export const npc = {
             de: 'Iori',
             pl: 'Iori',
         },
+        hao: {
+            ru: 'Хао',
+            ua: 'Хао',
+            en: 'Hao',
+            de: 'Hao',
+            pl: 'Hao',
+        },
         realtor: {
             ru: 'Мелисса',
             ua: 'Мелісса',
@@ -318,6 +325,13 @@ export const npc = {
             en: 'Sophie',
             de: 'Sophie',
             pl: 'Sophie',
+        },
+        officeSecretaryMale: {
+            ru: 'Даниэль',
+            ua: 'Даніель',
+            en: 'Daniel',
+            de: 'Daniel',
+            pl: 'Daniel',
         },
         warehouseManager: {
             ru: 'Марк',
@@ -398,6 +412,13 @@ export const npc = {
             en: 'Office Secretary',
             de: 'Bürosekretärin',
             pl: 'Sekretarka biura',
+        },
+        officeSecretaryMale: {
+            ru: 'Секретарь офиса',
+            ua: 'Секретар офісу',
+            en: 'Office Secretary',
+            de: 'Bürosekretär',
+            pl: 'Sekretarz biura',
         },
         warehouseManager: {
             ru: 'Управляющий складом',

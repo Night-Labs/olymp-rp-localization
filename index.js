@@ -99,6 +99,8 @@ import sewingFactory from './sewingFactory';
 import wars from './wars';
 import effects from './effects';
 import militaryGates from './militaryGates';
+import signEditor from './signEditor';
+import funicular from './funicular';
 
 export default {
     account,
@@ -203,6 +205,8 @@ export default {
     wars,
     effects,
     militaryGates,
+    signEditor,
+    funicular,
 };
 
 

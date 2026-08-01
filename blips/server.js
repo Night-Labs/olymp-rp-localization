@@ -6,6 +6,13 @@ export const server = {
         de: 'Kirche',
         pl: 'Kościół',
     },
+    funicular: {
+        ru: 'Канатная дорога',
+        ua: 'Канатна дорога',
+        en: 'Cable car',
+        de: 'Seilbahn',
+        pl: 'Kolej linowa',
+    },
     automarket: {
         ua: 'Авторинок',
         en: 'Automarket',

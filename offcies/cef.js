@@ -14,6 +14,36 @@ export const cef = {
             de: '{{building}} · Einheit {{slotId}}',
             pl: '{{building}} · lokal {{slotId}}',
         },
+        groups: {
+            premises: {
+                ru: 'Помещение',
+                ua: 'Приміщення',
+                en: 'Premises',
+                de: 'Räumlichkeiten',
+                pl: 'Lokal',
+            },
+            signage: {
+                ru: 'Вывеска',
+                ua: 'Вивіска',
+                en: 'Signage',
+                de: 'Schild',
+                pl: 'Szyld',
+            },
+            garage: {
+                ru: 'Гараж',
+                ua: 'Гараж',
+                en: 'Garage',
+                de: 'Garage',
+                pl: 'Garaż',
+            },
+        },
+        unit: {
+            ru: 'Помещение {{slotId}}',
+            ua: 'Приміщення {{slotId}}',
+            en: 'Unit {{slotId}}',
+            de: 'Einheit {{slotId}}',
+            pl: 'Lokal {{slotId}}',
+        },
         sections: {
             interior: {
                 ru: 'Интерьер офиса',
@@ -22,19 +52,19 @@ export const cef = {
                 de: 'Büro-Interieur',
                 pl: 'Wnętrze biura',
             },
-            signageFont: {
-                ru: 'Шрифт вывески',
-                ua: 'Шрифт вивіски',
-                en: 'Signage font',
-                de: 'Schild-Schriftart',
-                pl: 'Czcionka szyldu',
+            signage: {
+                ru: 'Вывеска',
+                ua: 'Вивіска',
+                en: 'Signage',
+                de: 'Schild',
+                pl: 'Szyld',
             },
-            signageColour: {
-                ru: 'Цвет вывески',
-                ua: 'Колір вивіски',
-                en: 'Signage colour',
-                de: 'Schild-Farbe',
-                pl: 'Kolor szyldu',
+            vault: {
+                ru: 'Сейф',
+                ua: 'Сейф',
+                en: 'Safe',
+                de: 'Tresor',
+                pl: 'Sejf',
             },
             personnel: {
                 ru: 'Секретарь',
@@ -102,6 +132,22 @@ export const cef = {
             de: 'Variante {{index}}',
             pl: 'Wariant {{index}}',
         },
+        vault: {
+            installed: {
+                ru: 'Установлен',
+                ua: 'Встановлено',
+                en: 'Installed',
+                de: 'Installiert',
+                pl: 'Zainstalowany',
+            },
+            missing: {
+                ru: 'Не установлен',
+                ua: 'Не встановлено',
+                en: 'Not installed',
+                de: 'Nicht installiert',
+                pl: 'Nie zainstalowany',
+            },
+        },
         personnel: {
             female: {
                 ru: 'Девушка',
@@ -118,19 +164,16 @@ export const cef = {
                 pl: 'Mężczyzna',
             },
         },
-        defaultFont: {
-            ru: 'Стандартный',
-            ua: 'Стандартний',
-            en: 'Default',
-            de: 'Standard',
-            pl: 'Domyślna',
-        },
-        colour: {
-            ru: 'Цвет {{index}}',
-            ua: 'Колір {{index}}',
-            en: 'Colour {{index}}',
-            de: 'Farbe {{index}}',
-            pl: 'Kolor {{index}}',
+        // Остальные строки редактора живут в модуле `signEditor`: сам редактор
+        // переиспользуемый и про офисы не знает.
+        editor: {
+            layers: {
+                ru: 'Слоёв: {{count}}',
+                ua: 'Шарів: {{count}}',
+                en: 'Layers: {{count}}',
+                de: 'Ebenen: {{count}}',
+                pl: 'Warstw: {{count}}',
+            },
         },
         installed: {
             ru: 'Установлено',
@@ -159,6 +202,52 @@ export const cef = {
             en: 'The organization balance is short',
             de: 'Das Organisationskonto reicht nicht aus',
             pl: 'Na koncie organizacji brakuje środków',
+        },
+    },
+    // Окно сейфа общее с домовым (systems/Safe), поэтому набор ключей повторяет
+    // house.safe один в один.
+    vault: {
+        safe: {
+            ru: 'Сейф офиса',
+            ua: 'Сейф офісу',
+            en: 'Office safe',
+            de: 'Bürotresor',
+            pl: 'Sejf biura',
+        },
+        balance: {
+            ru: 'Баланс',
+            ua: 'Баланс',
+            en: 'Balance',
+            de: 'Guthaben',
+            pl: 'Saldo',
+        },
+        limit: {
+            ru: 'Лимит',
+            ua: 'Ліміт',
+            en: 'Limit',
+            de: 'Limit',
+            pl: 'Limit',
+        },
+        take: {
+            ru: 'Взять',
+            ua: 'Взяти',
+            en: 'Take',
+            de: 'Nehmen',
+            pl: 'Weź',
+        },
+        put: {
+            ru: 'Положить',
+            ua: 'Покласти',
+            en: 'Put',
+            de: 'Hineinlegen',
+            pl: 'Włóż',
+        },
+        placeholder: {
+            ru: 'Введите сумму',
+            ua: 'Введи суму',
+            en: 'Enter the amount',
+            de: 'Gib den Betrag ein',
+            pl: 'Wpisz kwotę',
         },
     },
     freeOffices: {

@@ -291,6 +291,34 @@ export const server = {
             de: 'Nicht genügend Mittel auf dem Organisationskonto. Erforderlich: ${{price}}',
             pl: 'Niewystarczające środki na koncie organizacji. Wymagane: ${{price}}',
         },
+        vaultNoAccess: {
+            ru: 'У вас нет доступа к сейфу офиса.',
+            ua: 'У вас немає доступу до сейфа офісу.',
+            en: 'You have no access to the office safe.',
+            de: 'Sie haben keinen Zugriff auf den Bürotresor.',
+            pl: 'Nie masz dostępu do sejfu biura.',
+        },
+        vaultLimit: {
+            ru: 'В сейфе офиса нельзя хранить больше ${{limit}}.',
+            ua: 'У сейфі офісу не можна зберігати більше ${{limit}}.',
+            en: 'The office safe cannot hold more than ${{limit}}.',
+            de: 'Der Bürotresor fasst nicht mehr als ${{limit}}.',
+            pl: 'Sejf biura nie pomieści więcej niż ${{limit}}.',
+        },
+        vaultNotEnoughCash: {
+            ru: 'У вас нет столько наличных.',
+            ua: 'У вас немає стільки готівки.',
+            en: 'You do not have that much cash.',
+            de: 'So viel Bargeld haben Sie nicht.',
+            pl: 'Nie masz tyle gotówki.',
+        },
+        vaultNotEnoughMoney: {
+            ru: 'В сейфе офиса нет столько денег.',
+            ua: 'У сейфі офісу немає стільки грошей.',
+            en: 'There is not that much money in the office safe.',
+            de: 'So viel Geld ist nicht im Bürotresor.',
+            pl: 'W sejfie biura nie ma tyle pieniędzy.',
+        },
         takeFailed: {
             ru: 'Не удалось списать средства с баланса организации.',
             ua: 'Не вдалося списати кошти з балансу організації.',
@@ -390,6 +418,13 @@ export const server = {
             en: 'Exit',
             de: 'Ausgang',
             pl: 'Wyjście',
+        },
+        vault: {
+            ru: 'Открыть сейф',
+            ua: 'Відкрити сейф',
+            en: 'Open the safe',
+            de: 'Tresor öffnen',
+            pl: 'Otwórz sejf',
         },
         enterGarage: {
             ru: 'Заехать в гараж',
