@@ -29,6 +29,13 @@ export const server = {
         de: 'Du hast eine neue Bestellung im Wert von ${{salary}} bekommen',
         pl: 'Otrzymałeś nowe zamówienie o wartości ${{salary}}',
     },
+    didntTakeOrder: {
+        ru: 'Сначала заберите заказ',
+        ua: 'Спочатку заберіть замовлення',
+        en: 'Pick up the order first',
+        de: 'Hole zuerst die Bestellung ab',
+        pl: 'Najpierw odbierz zamówienie',
+    },
     tooFast: {
         ru: 'Слишком быстро, повторите попытку',
         ua: 'Занадто швидко, повторіть спробу',

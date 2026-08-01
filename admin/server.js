@@ -62,6 +62,22 @@ export const server = {
         pl: 'Gracz nie znaleziony',
         zh: '未找到该玩家',
     },
+    playerNotJailed: {
+        ua: 'Гравець не перебуває у в\'язниці',
+        en: 'The player is not in jail',
+        ru: 'Игрок не находится в тюрьме',
+        de: 'Der Spieler ist nicht im Gefängnis',
+        pl: 'Gracz nie przebywa w więzieniu',
+        zh: '该玩家不在监狱中',
+    },
+    self: {
+        ua: 'Ви не можете зробити це із самим собою',
+        en: 'You cannot do this to yourself',
+        ru: 'Вы не можете сделать это с самим собой',
+        de: 'Du kannst das nicht mit dir selbst machen',
+        pl: 'Nie możesz zrobić tego samemu sobie',
+        zh: '你不能对自己执行此操作',
+    },
     specsUnavailable: {
         ua: 'Клієнт {{name}} не відповів на запит характеристик',
         en: 'Client {{name}} did not respond to the specs request',

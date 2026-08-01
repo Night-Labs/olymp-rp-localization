@@ -82,6 +82,22 @@ export const server = {
         pl: 'Możesz mieć tylko jedno konto',
         zh: '一人最多只能拥有一个账户',
     },
+    recoveryDataNotFound: {
+        ua: 'Акаунт з такою поштою не знайдено',
+        en: 'No account was found with this email',
+        ru: 'Аккаунт с такой почтой не найден',
+        de: 'Es wurde kein Konto mit dieser E-Mail gefunden',
+        pl: 'Nie znaleziono konta z tym adresem e-mail',
+        zh: '未找到使用该邮箱的账户',
+    },
+    hwidRequired: {
+        ua: 'Не вдалося підтвердити ваш пристрій. Перезапустіть лаунчер і спробуйте ще раз',
+        en: 'Your device could not be verified. Restart the launcher and try again',
+        ru: 'Не удалось подтвердить ваше устройство. Перезапустите лаунчер и попробуйте снова',
+        de: 'Dein Gerät konnte nicht verifiziert werden. Starte den Launcher neu und versuche es erneut',
+        pl: 'Nie udało się zweryfikować twojego urządzenia. Uruchom ponownie launcher i spróbuj jeszcze raz',
+        zh: '无法验证你的设备。请重启启动器后重试',
+    },
     loginEmailInUse: {
         ua: 'Логін або E-Mail вже використовуються. Спробуйте інші дані',
         en: 'Login or E-Mail is already in use. Try different data',

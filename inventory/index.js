@@ -47,6 +47,14 @@ const inventory = {
         pl: 'Brak miejsca',
     },
 
+    slotsNotEqual: {
+        ru: 'Инвентарь изменился, откройте его заново',
+        ua: 'Інвентар змінився, відкрийте його заново',
+        en: 'Your inventory has changed, open it again',
+        de: 'Dein Inventar hat sich geändert, öffne es erneut',
+        pl: 'Twój ekwipunek się zmienił, otwórz go ponownie',
+    },
+
     clothesFailedHeader: {
         ru: 'Не удалось надеть одежду',
         ua: 'Не вдалося одягнути одяг',

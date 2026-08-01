@@ -168,5 +168,13 @@ export const features = {
             de: 'Die SIM-Karte mit der Nummer {{phoneNumber}} wurde deinem Inventar hinzugefügt. Aktiviere sie, um die Telefonnummer zu reservieren.',
             pl: 'Karta SIM o numerze {{phoneNumber}} została dodana do Twojego ekwipunku, aktywuj ją, aby zarezerwować numer telefonu.',
         },
+
+        error: {
+            ru: 'Недостаточно места в инвентаре для сим-карты',
+            ua: 'Недостатньо місця в інвентарі для сім-карти',
+            en: 'Not enough inventory space for the SIM card',
+            de: 'Nicht genug Platz im Inventar für die SIM-Karte',
+            pl: 'Za mało miejsca w ekwipunku na kartę SIM',
+        },
     },
 };

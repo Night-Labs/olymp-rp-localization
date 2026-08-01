@@ -104,6 +104,14 @@ export const faction = {
         zh: '权利不足',
     },
     ems: {
+        name: {
+            ru: 'Больница',
+            ua: 'Лікарня',
+            en: 'Hospital',
+            de: 'Krankenhaus',
+            pl: 'Szpital',
+            zh: '医院',
+        },
         bedOccupied: {
             ru: 'Койка уже занята',
             ua: 'Ліжко вже зайняте',

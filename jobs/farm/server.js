@@ -142,6 +142,15 @@ export const server = {
         pl: 'Nie możesz tam sadzić',
         zh: '你不能在这里种植',
     },
+    itemNotFound: {
+        ru: 'Предмет не найден в инвентаре',
+        ua: 'Предмет не знайдено в інвентарі',
+        en: 'The item was not found in your inventory',
+        de: 'Der Gegenstand wurde nicht in deinem Inventar gefunden',
+        pl: 'Nie znaleziono przedmiotu w ekwipunku',
+        ge: 'ნივთი ინვენტარში ვერ მოიძებნა',
+        zh: '背包中未找到该物品',
+    },
     thatSeedsNot: {
         ru: 'На этом поле можно садить только: {{seeds}}',
         ua: 'На цьому полі можна садити тільки: {{seeds}}',

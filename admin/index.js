@@ -3,6 +3,7 @@ import { cef } from './cef';
 import replays from './replays';
 import { server } from './server';
 import mute from './mute';
+import weaponBan from './weaponBan';
 import objectPlacementBan from './objectPlacementBan';
 export default {
     ...cef,
@@ -10,6 +11,7 @@ export default {
     replays,
     ban,
     mute,
+    weaponBan,
     objectPlacementBan,
     getOut: {
         ru: 'Для начала выйди из админки',
