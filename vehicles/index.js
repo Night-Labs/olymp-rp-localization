@@ -143,6 +143,14 @@ export default {
         pl: 'Ktoś korzysta z tego pojazdu, dostawa jest niemożliwa',
         zh: '有人正在使用此车辆，无法送货',
     },
+    deliveryVehicleIsNearby: {
+        ua: 'Транспорт вже поруч з вами, доставка не потрібна',
+        en: 'The vehicle is already next to you, no delivery needed',
+        ru: 'Транспорт уже рядом с вами, доставка не требуется',
+        de: 'Das Fahrzeug steht bereits neben dir, keine Lieferung nötig',
+        pl: 'Pojazd jest już obok ciebie, dostawa nie jest potrzebna',
+        zh: '车辆已经在你附近，无需送货',
+    },
     evacuateOccupants: {
         ua: 'У транспорті є пасажири, евакуація неможлива',
         en: 'Someone is using this vehicle, towing is unavailable',
