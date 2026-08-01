@@ -1185,6 +1185,13 @@ export default {
         de: 'Ein Haus anhand seiner ID öffnen oder schließen.',
         pl: 'Otwórz lub zamknij dom po jego ID.',
     },
+    battleground: {
+        ru: 'Тестовая синяя зона: круглая стена радиусом 100 м вокруг вас, каждую секунду сжимается на 15%. /battleground <радиус> - задать свой, /battleground off - убрать.',
+        ua: 'Тестова синя зона: кругла стіна радіусом 100 м навколо вас, щосекунди стискається на 15%. /battleground <радіус> - задати свій, /battleground off - прибрати.',
+        en: 'Test blue zone: a 100 m circular wall around you that shrinks 15% every second. /battleground <radius> sets your own, /battleground off removes it.',
+        de: 'Test-Blauzone: eine kreisförmige Wand mit 100 m Radius um dich, die jede Sekunde um 15% schrumpft. /battleground <Radius> setzt einen eigenen, /battleground off entfernt sie.',
+        pl: 'Testowa niebieska strefa: okrągła ściana o promieniu 100 m wokół ciebie, kurcząca się o 15% co sekundę. /battleground <promień> ustawia własny, /battleground off usuwa ją.',
+    },
     tvtest: {
         ru: 'Заспавнить тестовый телевизор перед собой и запустить на нём видео. /tvtest off - убрать.',
         ua: 'Заспавнити тестовий телевізор перед собою та запустити на ньому відео. /tvtest off - прибрати.',
