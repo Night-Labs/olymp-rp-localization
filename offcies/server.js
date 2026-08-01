@@ -347,6 +347,13 @@ export const server = {
             de: 'Dieses Büro ist nicht gekauft.',
             pl: 'To biuro nie jest kupione.',
         },
+        closedForVisitors: {
+            ru: 'Офис закрыт для посетителей.',
+            ua: 'Офіс зачинено для відвідувачів.',
+            en: 'The office is closed to visitors.',
+            de: 'Das Büro ist für Besucher geschlossen.',
+            pl: 'Biuro jest zamknięte dla odwiedzających.',
+        },
         notYourOrg: {
             ru: 'Этот офис принадлежит другой организации.',
             ua: 'Цей офіс належить іншій організації.',
@@ -469,6 +476,20 @@ export const server = {
             en: 'Office #{{slotId}} in {{building}} sold, refunded ${{refund}}',
             de: 'Büro #{{slotId}} in {{building}} verkauft, ${{refund}} erstattet',
             pl: 'Biuro #{{slotId}} w {{building}} sprzedane, zwrócono ${{refund}}',
+        },
+        visitorsAllowed: {
+            ru: 'Офис открыт для посетителей',
+            ua: 'Офіс відкрито для відвідувачів',
+            en: 'The office is now open to visitors',
+            de: 'Das Büro ist jetzt für Besucher geöffnet',
+            pl: 'Biuro jest teraz otwarte dla odwiedzających',
+        },
+        visitorsForbidden: {
+            ru: 'Офис закрыт для посетителей',
+            ua: 'Офіс зачинено для відвідувачів',
+            en: 'The office is now closed to visitors',
+            de: 'Das Büro ist jetzt für Besucher geschlossen',
+            pl: 'Biuro jest teraz zamknięte dla odwiedzających',
         },
         customized: {
             ru: 'Изменения применены, списано ${{price}}',

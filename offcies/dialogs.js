@@ -13,6 +13,20 @@ export default {
         de: 'Nichts, danke',
         pl: 'Nic, dziękuję',
     },
+    allowVisitors: {
+        ru: 'Открыть офис для посетителей',
+        ua: 'Відкрити офіс для відвідувачів',
+        en: 'Open the office to visitors',
+        de: 'Büro für Besucher öffnen',
+        pl: 'Otwórz biuro dla odwiedzających',
+    },
+    forbidVisitors: {
+        ru: 'Закрыть офис для посетителей',
+        ua: 'Закрити офіс для відвідувачів',
+        en: 'Close the office to visitors',
+        de: 'Büro für Besucher schließen',
+        pl: 'Zamknij biuro dla odwiedzających',
+    },
     customize: {
         ru: 'Кастомизировать помещение',
         ua: 'Кастомізувати приміщення',

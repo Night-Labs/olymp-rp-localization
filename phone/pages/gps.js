@@ -171,6 +171,27 @@ export default {
         de: 'Fastfood',
         pl: 'Fast food',
     },
+    organization: {
+        ru: 'Организация',
+        ua: 'Організація',
+        en: 'Organization',
+        de: 'Organisation',
+        pl: 'Organizacja',
+    },
+    warehouses: {
+        ru: 'Склады',
+        ua: 'Склади',
+        en: 'Warehouses',
+        de: 'Lagerhallen',
+        pl: 'Magazyny',
+    },
+    offices: {
+        ru: 'Офисы',
+        ua: 'Офіси',
+        en: 'Offices',
+        de: 'Büros',
+        pl: 'Biura',
+    },
     contracts: {
         ru: 'Контракты',
         ua: 'Контракти',
