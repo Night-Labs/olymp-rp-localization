@@ -595,6 +595,22 @@ export const server = {
         "de": "~g~[ADMIN] Event {{name}} wurde erfolgreich gestoppt",
         "pl": "~g~[ADMIN] Wydarzenie {{name}} zostało pomyślnie zatrzymane",
     },
+    farmField: {
+        updated: {
+            ru: 'Поле #{{field}}: посажено {{planted}}/{{max}}',
+            ua: 'Поле #{{field}}: посаджено {{planted}}/{{max}}',
+            en: 'Field #{{field}}: planted {{planted}}/{{max}}',
+            de: 'Feld #{{field}}: gepflanzt {{planted}}/{{max}}',
+            pl: 'Pole #{{field}}: zasadzono {{planted}}/{{max}}',
+        },
+        notOnField: {
+            ru: 'Встаньте на поле фермера, чтобы изменить его',
+            ua: 'Станьте на поле фермера, щоб змінити його',
+            en: 'Stand on a farm field to change it',
+            de: 'Stell dich auf ein Farmfeld, um es zu ändern',
+            pl: 'Stań na polu farmera, aby je zmienić',
+        },
+    },
     object: {
         header: {
             ru: 'Объект',

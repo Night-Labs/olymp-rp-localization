@@ -34,6 +34,15 @@ export const vehicle = {
         pl: 'Odtwarzacz',
     },
 
+    passengers: {
+        ru: 'Пассажиры',
+        ua: 'Пасажири',
+        en: 'Passengers',
+        de: 'Mitfahrer',
+        pl: 'Pasażerowie',
+        zh: '乘客',
+    },
+
     lock: {
         ru: 'Закрыть',
         ua: 'Закрити',

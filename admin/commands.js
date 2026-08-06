@@ -303,11 +303,11 @@ export default {
         pl: 'Zrespawnuj wszystkie wolne pojazdy farmy.',
     },
     set_cultivated: {
-        ru: 'Пометить текущее поле фермера как уже обработанное.',
-        ua: 'Позначити поточне поле фермера як уже оброблене.',
-        en: 'Mark the current farmer field as already cultivated.',
-        de: 'Das aktuelle Feld des Farmers als bereits bearbeitet markieren.',
-        pl: 'Oznacz aktualne pole farmera jako już uprawione.',
+        ru: 'Задать счётчик посадок текущего поля фермера: без аргумента - вспахано (0), максимум - поле ждёт тракториста.',
+        ua: 'Задати лічильник посадок поточного поля фермера: без аргументу - зоране (0), максимум - поле чекає тракториста.',
+        en: 'Set the planted counter of the current farm field: no argument means cultivated (0), the maximum means it awaits a tractor.',
+        de: 'Den Pflanzenzähler des aktuellen Farmfeldes setzen: ohne Argument bearbeitet (0), das Maximum lässt es auf einen Traktor warten.',
+        pl: 'Ustaw licznik nasadzeń aktualnego pola farmera: bez argumentu zaorane (0), maksimum oznacza oczekiwanie na traktorzystę.',
     },
     faction_invite: {
         ru: 'Добавить игрока по static ID во фракцию и выдать ему минимальный ранг этой фракции.',
@@ -680,6 +680,13 @@ export default {
         de: 'Einen geloopten Partikeleffekt anhand von Dict und Namen an der aktuellen Spielerposition erstellen; dein vorheriger Effekt aus diesem Befehl wird entfernt.',
         pl: 'Utwórz zapętlony efekt cząsteczkowy według dict i nazwy w bieżącej pozycji gracza; poprzedni efekt z tej komendy zostanie usunięty.',
     },
+    test_chest: {
+        ru: 'Проиграть сцену кладоискателя (копание и вскрытие ящика) без предмета-лопаты и наград.',
+        ua: 'Програти сцену шукача скарбів (копання та відкриття ящика) без предмета-лопати та нагород.',
+        en: 'Play the treasure hunter scene (dig and open the stash box) without the shovel item or rewards.',
+        de: 'Die Schatzsucher-Szene (Graben und Kiste öffnen) ohne Schaufel-Gegenstand oder Belohnungen abspielen.',
+        pl: 'Odtwórz scenę poszukiwacza skarbów (kopanie i otwieranie skrzynki) bez łopaty i nagród.',
+    },
     loadipl: {
         ru: 'Загрузить IPL по имени на клиенте текущего игрока.',
         ua: 'Завантажити IPL за іменем на клієнті поточного гравця.',
@@ -1001,6 +1008,13 @@ export default {
         en: 'Toggle going on duty in the current faction.',
         de: 'Den Dienststatus in der aktuellen Fraktion umschalten.',
         pl: 'Przełącz wyjście na służbę w aktualnej frakcji.',
+    },
+    scatter_birds: {
+        ru: 'Спугнуть всех птиц охоты в радиусе N метров: они улетают насовсем, их точки заселятся заново через несколько минут.',
+        ua: 'Сполохати всіх птахів полювання в радіусі N метрів: вони відлітають назавжди, їхні точки заселяться знову за кілька хвилин.',
+        en: 'Scare off every hunting bird within N metres. They leave for good; their points repopulate in a few minutes.',
+        de: 'Alle Jagdvögel im Umkreis von N Metern aufscheuchen. Sie fliegen endgültig davon; ihre Punkte werden nach einigen Minuten neu besetzt.',
+        pl: 'Spłosz wszystkie ptaki łowieckie w promieniu N metrów. Odlatują na dobre, a ich punkty zapełnią się ponownie po kilku minutach.',
     },
     create_animal: {
         ru: 'Заспавнить животное из системы охоты рядом с собой. Без аргумента - случайное животное.',

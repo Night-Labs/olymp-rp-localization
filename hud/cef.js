@@ -107,6 +107,14 @@ export const cef = {
                 pl: 'Departament',
                 zh: '部门',
             },
+            gov: {
+                ua: 'Держ. оголошення',
+                en: 'Gov. announcement',
+                ru: 'Гос. объявление',
+                de: 'Staatl. Ankündigung',
+                pl: 'Ogłoszenie rządowe',
+                zh: '政府公告',
+            },
             party: {
                 ua: 'Група',
                 en: 'Party',

@@ -142,6 +142,22 @@ export const server = {
         pl: 'Aby rozpocząć wyciskanie na ławce, naciśnij',
         zh: '要开始卧推训练，请按',
     },
+    contractStationSeat: {
+        ru: 'Чтобы занять рабочее место, нажмите',
+        ua: 'Щоб зайняти робоче місце, натисніть',
+        en: 'To take this workplace, press',
+        de: 'Um diesen Arbeitsplatz zu belegen, drücke',
+        pl: 'Aby zajac to stanowisko, naciśnij',
+        zh: '要占用该工位，请按',
+    },
+    contractStationSeatOccupied: {
+        ru: 'Место занято',
+        ua: 'Місце зайняте',
+        en: 'Workplace taken',
+        de: 'Arbeitsplatz belegt',
+        pl: 'Stanowisko zajete',
+        zh: '工位已被占用',
+    },
     emsBedStartHealing: {
         ru: 'Чтобы начать лечение, нажмите',
         ua: 'Щоб почати лікування, натисніть',

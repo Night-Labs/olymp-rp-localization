@@ -1470,5 +1470,12 @@ export const contracts = {
             de: 'Warte, bis die aktuelle Aktion abgeschlossen ist.',
             pl: 'Poczekaj na zakonczenie obecnej akcji.',
         },
+        seatOccupied: {
+            ru: 'За этим станком уже работают. Займите свободный.',
+            ua: 'За цим верстатом вже працюють. Займіть вільний.',
+            en: 'Somebody is already working at this machine. Take a free one.',
+            de: 'An dieser Maschine arbeitet bereits jemand. Nimm eine freie.',
+            pl: 'Przy tej maszynie ktos juz pracuje. Zajmij wolna.',
+        },
     },
 };

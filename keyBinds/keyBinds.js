@@ -489,6 +489,13 @@ export default {
         de: 'Objektverschiebungsmodus',
         pl: 'Tryb przesuwania obiektu',
     },
+    'furnitureEditor.axisSpace': {
+        ru: 'Оси: локальные / мировые',
+        ua: 'Осі: локальні / світові',
+        en: 'Axes: local / world',
+        de: 'Achsen: lokal / global',
+        pl: 'Osie: lokalne / globalne',
+    },
     'furnitureEditor.hideHints': {
         ru: 'Скрыть подсказки',
         ua: 'Сховати підказки',
