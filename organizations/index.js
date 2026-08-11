@@ -9,6 +9,8 @@ import { payday } from './payday';
 import { progression } from './progression';
 import { contracts } from './contracts';
 import { contractNpcs } from './contractNpcs';
+import { contractDialogs } from './contractDialogs';
+import { sideJobs } from './sideJobs';
 import { tree } from './tree';
 import { menu } from './menu';
 import { vehicles } from './vehicles';
@@ -30,6 +32,8 @@ export default {
     progression,
     contracts,
     contractNpcs,
+    contractDialogs,
+    sideJobs,
     tree,
     menu,
     vehicles,

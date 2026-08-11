@@ -12,6 +12,14 @@ import towTruck from './towTruck';
 export default {
     // ТО ЧТО СВЯЗАНО С РАБОТАМИ
     list: {
+        // Not a job - the label a requirement uses when it accepts any job at a given rank.
+        any: {
+            ru: 'Любая работа',
+            ua: 'Будь-яка робота',
+            en: 'Any job',
+            de: 'Beliebiger Job',
+            pl: 'Dowolna praca',
+        },
         trucker: {
             ru: 'Грузоперевозчик',
             ua: 'Вантажоперевізник',

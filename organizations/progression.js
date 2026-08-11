@@ -16,56 +16,14 @@ export const progression = {
             de: 'Organisation {{orgName}} hat Stufe {{level}} erreicht (war {{previousLevel}})',
             pl: 'Organizacja {{orgName}} osiągnęła poziom {{level}} (poprzedni {{previousLevel}})',
         },
-        directionChanged: {
-            ru: 'Направление организации {{orgName}} изменилось на {{direction}}',
-            ua: 'Напрямок організації {{orgName}} змінився на {{direction}}',
-            en: 'Direction of {{orgName}} changed to {{direction}}',
-            de: 'Ausrichtung von {{orgName}} geändert zu {{direction}}',
-            pl: 'Kierunek organizacji {{orgName}} zmieniony na {{direction}}',
-        },
-        branchSwitched: {
-            ru: 'Организация перешла на {{branch}} путь. Потеряно репутации: {{reputation}}, сброшено улучшений: {{nodes}} (без возврата средств).',
-            ua: 'Організація перейшла на {{branch}} шлях. Втрачено репутації: {{reputation}}, скинуто покращень: {{nodes}} (без повернення коштів).',
-            en: 'The organization switched to the {{branch}} path. Reputation lost: {{reputation}}, upgrades forfeited: {{nodes}} (no refund).',
-            de: 'Die Organisation ist auf den {{branch}} Weg gewechselt. Verlorener Ruf: {{reputation}}, verfallene Upgrades: {{nodes}} (keine Rueckerstattung).',
-            pl: 'Organizacja przeszla na {{branch}} sciezke. Utracona reputacja: {{reputation}}, przepadle ulepszenia: {{nodes}} (bez zwrotu).',
-        },
     },
-    direction: {
-        crime_hardcore: {
-            ru: 'Крайм (хардкор)',
-            ua: 'Крайм (хардкор)',
-            en: 'Crime (hardcore)',
-            de: 'Crime (hardcore)',
-            pl: 'Crime (hardcore)',
-        },
-        crime: {
-            ru: 'Крайм',
-            ua: 'Крайм',
-            en: 'Crime',
-            de: 'Crime',
-            pl: 'Crime',
-        },
-        neutral: {
-            ru: 'Нейтральный',
-            ua: 'Нейтральний',
-            en: 'Neutral',
-            de: 'Neutral',
-            pl: 'Neutralny',
-        },
-        legal: {
-            ru: 'Легальный',
-            ua: 'Легальний',
-            en: 'Legal',
-            de: 'Legal',
-            pl: 'Legalny',
-        },
-        legal_elite: {
-            ru: 'Легальный (elite)',
-            ua: 'Легальний (elite)',
-            en: 'Legal (elite)',
-            de: 'Legal (elite)',
-            pl: 'Legalny (elite)',
+    warning: {
+        legalReputationBurned: {
+            ru: 'Теневой заказ ударил по чистому имени {{orgName}}: доверие -{{amount}} (осталось {{legal}}).',
+            ua: 'Тіньове замовлення вдарило по чистому імені {{orgName}}: довіра -{{amount}} (залишилось {{legal}}).',
+            en: 'The shadow job cost {{orgName}} its clean face: trust -{{amount}} ({{legal}} left).',
+            de: 'Der inoffizielle Auftrag hat den sauberen Namen von {{orgName}} gekostet: Vertrauen -{{amount}} ({{legal}} uebrig).',
+            pl: 'Nieoficjalne zlecenie uderzylo w czyste imie {{orgName}}: zaufanie -{{amount}} (zostalo {{legal}}).',
         },
     },
 };

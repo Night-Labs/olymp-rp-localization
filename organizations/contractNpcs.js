@@ -20,6 +20,13 @@ export const contractNpcs = {
         de: 'Big Joe Mendez',
         pl: 'Big Joe Mendez',
     },
+    dice: {
+        ru: 'Дайс',
+        ua: 'Дайс',
+        en: 'Dice',
+        de: 'Dice',
+        pl: 'Dice',
+    },
     shadow: {
         ru: 'Шэдоу',
         ua: 'Шедоу',
@@ -68,5 +75,12 @@ export const contractNpcs = {
         en: 'Adriana Calloway',
         de: 'Adriana Calloway',
         pl: 'Adriana Calloway',
+    },
+    otis_bradley: {
+        ru: 'Отис Брэдли',
+        ua: 'Отіс Бредлі',
+        en: 'Otis Bradley',
+        de: 'Otis Bradley',
+        pl: 'Otis Bradley',
     },
 };

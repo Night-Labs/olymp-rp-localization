@@ -13,6 +13,7 @@ import treasureHunter from './treasureHunter';
 import mushrooms from './mushrooms';
 import blueprint from './blueprints';
 import craftComponents from './craftComponents';
+import forgery from './forgery';
 export const items = {
     ...food,
     ...itemsList,
@@ -29,4 +30,5 @@ export const items = {
     ...treasureHunter,
     ...mushrooms,
     ...craftComponents,
+    ...forgery,
 };

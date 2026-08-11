@@ -111,6 +111,13 @@ export default {
         de: 'Genauigkeit {{acc}}%',
         pl: 'Dokładność {{acc}}%',
     },
+    stampDoneSubBonus: {
+        ru: 'Точность {{acc}}% · зачтено вдвойне',
+        ua: 'Точність {{acc}}% · зараховано вдвічі',
+        en: 'Accuracy {{acc}}% · counts double',
+        de: 'Genauigkeit {{acc}}% · zählt doppelt',
+        pl: 'Dokładność {{acc}}% · liczy się podwójnie',
+    },
     stampFail: {
         ru: 'Брак',
         ua: 'Брак',

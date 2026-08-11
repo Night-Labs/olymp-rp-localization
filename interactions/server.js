@@ -150,13 +150,21 @@ export const server = {
         pl: 'Aby zajac to stanowisko, naciśnij',
         zh: '要占用该工位，请按',
     },
-    contractStationSeatOccupied: {
-        ru: 'Место занято',
-        ua: 'Місце зайняте',
-        en: 'Workplace taken',
-        de: 'Arbeitsplatz belegt',
-        pl: 'Stanowisko zajete',
-        zh: '工位已被占用',
+    contractDeliverBatch: {
+        ru: 'Чтобы сдать партию заказчику, нажмите',
+        ua: 'Щоб здати партію замовнику, натисніть',
+        en: 'To hand the batch over to the client, press',
+        de: 'Um die Charge beim Kunden abzugeben, drücke',
+        pl: 'Aby zdac partie zleceniodawcy, naciśnij',
+        zh: '要向客户交付这批货，请按',
+    },
+    contractHandIn: {
+        ru: 'Чтобы сдать товар по контракту, нажмите',
+        ua: 'Щоб здати товар за контрактом, натисніть',
+        en: 'To hand in the contract goods, press',
+        de: 'Um die Vertragsware abzugeben, drücke',
+        pl: 'Aby zdac towar z kontraktu, naciśnij',
+        zh: '要交付合约货物，请按',
     },
     emsBedStartHealing: {
         ru: 'Чтобы начать лечение, нажмите',

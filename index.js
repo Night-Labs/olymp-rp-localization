@@ -88,6 +88,7 @@ import offcies from './offcies';
 import warehouses from './warehouses';
 import organizationRegistration from './organizationRegistration';
 import organizations from './organizations';
+import factories from './factories';
 import tennis from './tennis';
 import trade from './trade';
 import battlePass from './battlePass';
@@ -194,6 +195,7 @@ export default {
     warehouses,
     organizationRegistration,
     organizations,
+    factories,
     tennis,
     trade,
     battlePass,

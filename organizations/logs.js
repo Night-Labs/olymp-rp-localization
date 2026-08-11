@@ -49,8 +49,45 @@ export const logs = {
             de: 'Verträge',
             pl: 'Kontrakty',
         },
+        factories: {
+            ru: 'Предприятия',
+            ua: 'Підприємства',
+            en: 'Factories',
+            de: 'Betriebe',
+            pl: 'Zaklady',
+        },
     },
     entries: {
+        factories: {
+            produced: {
+                ru: '{{factory}} #{{number}}: произведено {{quantity}} x {{item}}',
+                ua: '{{factory}} #{{number}}: вироблено {{quantity}} x {{item}}',
+                en: '{{factory}} #{{number}}: produced {{quantity}} x {{item}}',
+                de: '{{factory}} #{{number}}: {{quantity}} x {{item}} produziert',
+                pl: '{{factory}} #{{number}}: wyprodukowano {{quantity}} x {{item}}',
+            },
+            stoppedNoMaterials: {
+                ru: '{{factory}} #{{number}}: производство встало — на складе нет сырья',
+                ua: '{{factory}} #{{number}}: виробництво стало — на складі немає сировини',
+                en: '{{factory}} #{{number}}: production halted — no materials in the warehouse',
+                de: '{{factory}} #{{number}}: Produktion gestoppt — kein Rohstoff im Lager',
+                pl: '{{factory}} #{{number}}: produkcja wstrzymana — brak surowca w magazynie',
+            },
+            stoppedNoWarehouse: {
+                ru: '{{factory}} #{{number}}: производство встало — у организации нет склада',
+                ua: '{{factory}} #{{number}}: виробництво стало — в організації немає складу',
+                en: '{{factory}} #{{number}}: production halted — the organization has no warehouse',
+                de: '{{factory}} #{{number}}: Produktion gestoppt — die Organisation hat kein Lager',
+                pl: '{{factory}} #{{number}}: produkcja wstrzymana — organizacja nie ma magazynu',
+            },
+            stoppedStorageFull: {
+                ru: '{{factory}} #{{number}}: производство встало — на складе нет места',
+                ua: '{{factory}} #{{number}}: виробництво стало — на складі немає місця',
+                en: '{{factory}} #{{number}}: production halted — the warehouse is full',
+                de: '{{factory}} #{{number}}: Produktion gestoppt — das Lager ist voll',
+                pl: '{{factory}} #{{number}}: produkcja wstrzymana — magazyn jest pelny',
+            },
+        },
         lifecycle: {
             created: {
                 ru: '{{actor}} основал организацию "{{name}}" [{{tag}}]',

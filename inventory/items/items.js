@@ -444,6 +444,22 @@ export const items = {
             pl: 'uniwersalny materiał potrzebny do tworzenia różnych przedmiotów.',
         },
     },
+    sewnGarment: {
+        name: {
+            ru: 'Пошитое изделие',
+            ua: 'Пошитий виріб',
+            en: 'Sewn garment',
+            de: 'Genähtes Kleidungsstück',
+            pl: 'Uszyty wyrób',
+        },
+        desc: {
+            ru: 'Готовое изделие с потока ателье. Принимает только заказчик контракта организации.',
+            ua: 'Готовий виріб з потоку ательє. Приймає лише замовник контракту організації.',
+            en: 'A finished piece off the atelier floor. Only the organization contract client takes it.',
+            de: 'Ein fertiges Stück aus der Atelier-Fertigung. Nur der Auftraggeber des Organisationsvertrags nimmt es an.',
+            pl: 'Gotowy wyrób z linii atelier. Przyjmuje go wyłącznie zleceniodawca kontraktu organizacji.',
+        },
+    },
     chipset: {
         name: {
             ru: 'Набор микросхем',

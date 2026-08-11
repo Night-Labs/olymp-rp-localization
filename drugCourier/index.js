@@ -39,6 +39,22 @@ export default {
         pl: 'To była ostatnia paczka. Zarobione: ${{money}}',
     },
 
+    suppliedPlanted: {
+        ru: 'Посылка на месте. Осталось: {{left}}',
+        ua: 'Посилка на місці. Залишилось: {{left}}',
+        en: 'Package is down. Left: {{left}}',
+        de: 'Paket liegt. Verbleibend: {{left}}',
+        pl: 'Paczka na miejscu. Zostalo: {{left}}',
+    },
+
+    suppliedThatWasLast: {
+        ru: 'Это была последняя посылка из партии.',
+        ua: 'Це була остання посилка з партії.',
+        en: 'That was the last package of the batch.',
+        de: 'Das war das letzte Paket der Charge.',
+        pl: 'To byla ostatnia paczka z partii.',
+    },
+
     deliveryPoint: {
         ru: 'Точка доставки',
         ua: 'Точка доставки',
