@@ -21,6 +21,29 @@ export const server = {
             de: 'nach draußen gehen',
             pl: 'wyjść na zewnątrz',
         },
+        panel: {
+            ru: 'открыть управление производством',
+            ua: 'відкрити керування виробництвом',
+            en: 'open production controls',
+            de: 'Produktionssteuerung öffnen',
+            pl: 'otworzyc zarzadzanie produkcja',
+        },
+    },
+    supply: {
+        loaded: {
+            ru: 'Загружено {{cycles}} циклов сырья. Запас: {{total}} (~{{hours}} ч работы)',
+            ua: 'Завантажено {{cycles}} циклів сировини. Запас: {{total}} (~{{hours}} год роботи)',
+            en: 'Loaded {{cycles}} cycles of materials. Stock: {{total}} (~{{hours}} h of work)',
+            de: '{{cycles}} Zyklen Rohstoff geladen. Vorrat: {{total}} (~{{hours}} Std. Arbeit)',
+            pl: 'Zaladowano {{cycles}} cykli surowca. Zapas: {{total}} (~{{hours}} h pracy)',
+        },
+        alreadyFull: {
+            ru: 'Линия уже заправлена полностью',
+            ua: 'Лінія вже заправлена повністю',
+            en: 'The line is already fully loaded',
+            de: 'Die Linie ist bereits voll beladen',
+            pl: 'Linia jest juz w pelni zaladowana',
+        },
     },
     errors: {
         noOrganization: {
@@ -51,12 +74,40 @@ export const server = {
             de: 'Dieses Geschäft ist keinem Gebiet zugeordnet',
             pl: 'Ten biznes nie jest powiązany z terytorium',
         },
+        noRecipe: {
+            ru: 'Это производство ещё не запущено',
+            ua: 'Це виробництво ще не запущено',
+            en: 'This production line is not running yet',
+            de: 'Diese Produktion läuft noch nicht',
+            pl: 'Ta produkcja nie zostala jeszcze uruchomiona',
+        },
+        noWarehouse: {
+            ru: 'У вашей организации нет склада',
+            ua: 'У вашої організації немає складу',
+            en: 'Your organization has no warehouse',
+            de: 'Deine Organisation hat kein Lager',
+            pl: 'Twoja organizacja nie ma magazynu',
+        },
+        noMaterials: {
+            ru: 'На складе организации нет полного набора сырья',
+            ua: 'На складі організації немає повного набору сировини',
+            en: 'The organization warehouse has no complete set of materials',
+            de: 'Im Lager der Organisation fehlt ein vollständiger Rohstoffsatz',
+            pl: 'W magazynie organizacji brakuje pelnego zestawu surowca',
+        },
         lostControl: {
             ru: 'Ваша организация потеряла контроль над территорией этого бизнеса',
             ua: 'Ваша організація втратила контроль над територією цього бізнесу',
             en: 'Your organization has lost control of this business territory',
             de: 'Deine Organisation hat die Kontrolle über dieses Gebiet verloren',
             pl: 'Twoja organizacja straciła kontrolę nad terytorium tego biznesu',
+        },
+        weaponsBlocked: {
+            ru: 'В помещении нельзя брать оружие в руки',
+            ua: 'У приміщенні не можна брати зброю до рук',
+            en: 'Weapons cannot be drawn inside the premises',
+            de: 'In den Räumlichkeiten dürfen keine Waffen gezogen werden',
+            pl: 'W lokalu nie można wyciągać broni',
         },
     },
 };

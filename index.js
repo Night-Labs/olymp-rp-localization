@@ -37,6 +37,7 @@ import phone from './phone';
 import { animations } from './animations/animations';
 import randomQuests from './randomQuests';
 import { gameEvents } from './gameEvents';
+import { contraband } from './contraband';
 import death from './death';
 import offers from './offers';
 import { faction } from './faction/faction';
@@ -143,6 +144,7 @@ export default {
     animations,
     randomQuests,
     gameEvents,
+    contraband,
     handling,
     death,
     offers,

@@ -65,6 +65,14 @@ export const inventory = {
         pl: 'Airdrop',
     },
 
+    contrabandCrate: {
+        ru: 'Ящик контрабанды',
+        ua: 'Ящик контрабанди',
+        en: 'Contraband crate',
+        de: 'Schmuggelkiste',
+        pl: 'Skrzynia kontrabandy',
+    },
+
     houseInventory: {
         ru: 'Склад дома',
         ua: 'Склад дому',

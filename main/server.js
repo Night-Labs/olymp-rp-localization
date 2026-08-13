@@ -354,5 +354,13 @@ export const server = {
             pl: 'Skradanie',
             zh: '潜行',
         },
+        detective: {
+            ru: 'Сыщик',
+            ua: 'Нишпорка',
+            en: 'Detective',
+            de: 'Spürsinn',
+            pl: 'Śledczy',
+            zh: '搜查',
+        },
     },
 };

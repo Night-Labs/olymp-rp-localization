@@ -88,6 +88,21 @@ export default {
         pl: 'Masz aktywną paczkę, odbierz ją jak najszybciej',
     },
 
+    buybackDone: {
+        ru: 'Вы продали {{quantity}} предметов за ${{price}}',
+        ua: 'Ви продали {{quantity}} предметів за ${{price}}',
+        en: 'You sold {{quantity}} items for ${{price}}',
+        de: 'Du hast {{quantity}} Gegenstände für ${{price}} verkauft',
+        pl: 'Sprzedałeś {{quantity}} przedmiotów za ${{price}}',
+    },
+    youNotHaveItem: {
+        ru: 'У вас недостаточно этого товара',
+        ua: 'У вас недостатньо цього товару',
+        en: 'You do not have enough of this item',
+        de: 'Du hast nicht genug von diesem Artikel',
+        pl: 'Nie masz wystarczająco tego towaru',
+    },
+
     productIsOutOfStock: {
         ru: 'Товар "{{name}}" закончился или недостаточно в наличии.',
         ua: 'Товар "{{name}}" закінчився або недостатньо в наявності.',
