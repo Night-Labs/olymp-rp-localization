@@ -436,6 +436,87 @@ export const cef = {
             de: 'Fähigkeiten',
             pl: 'Umiejętności',
         },
+        condition: {
+            ru: 'Состояние',
+            ua: 'Стан',
+            en: 'Condition',
+            de: 'Zustand',
+            pl: 'Stan',
+        },
+        vitals: {
+            health: {
+                ru: 'Здоровье',
+                ua: "Здоров'я",
+                en: 'Health',
+                de: 'Gesundheit',
+                pl: 'Zdrowie',
+            },
+            armour: {
+                ru: 'Броня',
+                ua: 'Броня',
+                en: 'Armour',
+                de: 'Rüstung',
+                pl: 'Pancerz',
+            },
+            hunger: {
+                ru: 'Сытость',
+                ua: 'Ситість',
+                en: 'Satiety',
+                de: 'Sättigung',
+                pl: 'Sytość',
+            },
+            thirst: {
+                ru: 'Вода',
+                ua: 'Вода',
+                en: 'Hydration',
+                de: 'Wasser',
+                pl: 'Woda',
+            },
+            energy: {
+                ru: 'Выносливость',
+                ua: 'Витривалість',
+                en: 'Stamina',
+                de: 'Ausdauer',
+                pl: 'Wytrzymałość',
+            },
+        },
+        diseasesTitle: {
+            ru: 'Заболевания',
+            ua: 'Захворювання',
+            en: 'Illnesses',
+            de: 'Krankheiten',
+            pl: 'Choroby',
+        },
+        noDiseases: {
+            ru: 'Вы полностью здоровы',
+            ua: 'Ви цілком здорові',
+            en: 'You are perfectly healthy',
+            de: 'Du bist vollkommen gesund',
+            pl: 'Jesteś całkowicie zdrowy',
+        },
+        severity: {
+            mild: {
+                ru: 'Лёгкая стадия',
+                ua: 'Легка стадія',
+                en: 'Mild stage',
+                de: 'Leichtes Stadium',
+                pl: 'Łagodne stadium',
+            },
+            moderate: {
+                ru: 'Умеренная стадия',
+                ua: 'Помірна стадія',
+                en: 'Moderate stage',
+                de: 'Mittleres Stadium',
+                pl: 'Umiarkowane stadium',
+            },
+            severe: {
+                ru: 'Тяжёлая стадия',
+                ua: 'Важка стадія',
+                en: 'Severe stage',
+                de: 'Schweres Stadium',
+                pl: 'Ciężkie stadium',
+            },
+        },
 
         periodButtons: {
             daily: {

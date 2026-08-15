@@ -1234,6 +1234,13 @@ export default {
         de: 'Einen Test-Fernseher vor dir spawnen und ein Video darauf starten. /tvtest off entfernt ihn.',
         pl: 'Zespawnuj testowy telewizor przed sobą i uruchom na nim wideo. /tvtest off usuwa go.',
     },
+    progress_test: {
+        ru: 'Проверка полос прогресса в HUD: запускает полосу погрузки и перекрывает её полосой брони. Режимы: finish, cancel, expire.',
+        ua: 'Перевірка смуг прогресу в HUD: запускає смугу завантаження та перекриває її смугою броні. Режими: finish, cancel, expire.',
+        en: 'HUD progress bar check: starts a loading bar and covers it with an armour bar. Modes: finish, cancel, expire.',
+        de: 'HUD-Fortschrittsbalken-Test: startet einen Ladebalken und überdeckt ihn mit einem Rüstungsbalken. Modi: finish, cancel, expire.',
+        pl: 'Test pasków postępu HUD: uruchamia pasek ładowania i przykrywa go paskiem kamizelki. Tryby: finish, cancel, expire.',
+    },
     taxinpcdebug: {
         ru: 'Включить отладку taxi NPC-точек, телепортироваться между ними и смотреть их статус.',
         ua: 'Увімкнути налагодження taxi NPC-точок, телепортуватися між ними та переглядати їх статус.',
