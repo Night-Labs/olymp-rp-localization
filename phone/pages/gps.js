@@ -185,6 +185,13 @@ export default {
         de: 'Lagerhallen',
         pl: 'Magazyny',
     },
+    myWarehouses: {
+        ru: 'Мой склад',
+        ua: 'Мій склад',
+        en: 'My warehouse',
+        de: 'Mein Lager',
+        pl: 'Mój magazyn',
+    },
     offices: {
         ru: 'Офисы',
         ua: 'Офіси',

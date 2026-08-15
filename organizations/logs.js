@@ -67,11 +67,18 @@ export const logs = {
                 pl: '{{factory}} #{{number}}: wyprodukowano {{quantity}} x {{item}}',
             },
             supplied: {
-                ru: '{{factory}} #{{number}}: линия заправлена на {{cycles}} циклов (запас: {{total}})',
-                ua: '{{factory}} #{{number}}: лінію заправлено на {{cycles}} циклів (запас: {{total}})',
-                en: '{{factory}} #{{number}}: line loaded with {{cycles}} cycles (stock: {{total}})',
-                de: '{{factory}} #{{number}}: Linie mit {{cycles}} Zyklen beladen (Vorrat: {{total}})',
-                pl: '{{factory}} #{{number}}: linia zaladowana na {{cycles}} cykli (zapas: {{total}})',
+                ru: '{{factory}} #{{number}}: линия заправлена на {{cycles}} циклов {{item}} (запас: {{total}})',
+                ua: '{{factory}} #{{number}}: лінію заправлено на {{cycles}} циклів {{item}} (запас: {{total}})',
+                en: '{{factory}} #{{number}}: line loaded with {{cycles}} cycles of {{item}} (stock: {{total}})',
+                de: '{{factory}} #{{number}}: Linie mit {{cycles}} Zyklen {{item}} beladen (Vorrat: {{total}})',
+                pl: '{{factory}} #{{number}}: linia zaladowana na {{cycles}} cykli {{item}} (zapas: {{total}})',
+            },
+            productChanged: {
+                ru: '{{factory}} #{{number}}: линия переведена на {{item}}, возвращено сырьё {{cycles}} циклов',
+                ua: '{{factory}} #{{number}}: лінію переведено на {{item}}, повернуто сировину {{cycles}} циклів',
+                en: '{{factory}} #{{number}}: line switched to {{item}}, materials for {{cycles}} cycles returned',
+                de: '{{factory}} #{{number}}: Linie auf {{item}} umgestellt, Rohstoff für {{cycles}} Zyklen zurückgegeben',
+                pl: '{{factory}} #{{number}}: linia przestawiona na {{item}}, zwrocono surowiec na {{cycles}} cykli',
             },
             stoppedNoMaterials: {
                 ru: '{{factory}} #{{number}}: производство встало — линия не заправлена сырьём',
@@ -116,6 +123,13 @@ export const logs = {
                 en: '{{actor}} disbanded the organization (members: {{members}}, balance: ${{balance}})',
                 de: '{{actor}} hat die Organisation aufgelöst (Mitglieder: {{members}}, Restguthaben: ${{balance}})',
                 pl: '{{actor}} rozwiązał organizację (członków: {{members}}, saldo: ${{balance}})',
+            },
+            warehouseReturned: {
+                ru: '{{actor}} вернул склад {{building}} #{{number}} владельцу ({{owner}})',
+                ua: '{{actor}} повернув склад {{building}} #{{number}} власнику ({{owner}})',
+                en: '{{actor}} returned warehouse {{building}} #{{number}} to its owner ({{owner}})',
+                de: '{{actor}} hat Lager {{building}} #{{number}} an den Eigentümer zurückgegeben ({{owner}})',
+                pl: '{{actor}} zwrócił magazyn {{building}} #{{number}} właścicielowi ({{owner}})',
             },
             confiscated: {
                 ru: 'HQ #{{hqId}} конфискован за долги. Компенсация лидеру: ${{refund}} + остаток ${{leftover}}',

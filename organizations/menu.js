@@ -964,6 +964,64 @@ export const menu = {
                 pl: 'Brak biura',
             },
         },
+        warehousePremise: {
+            title: {
+                ru: 'Склад',
+                ua: 'Склад',
+                en: 'Warehouse',
+                de: 'Lager',
+                pl: 'Magazyn',
+            },
+            chests: {
+                ru: 'Сундуки',
+                ua: 'Скрині',
+                en: 'Chests',
+                de: 'Truhen',
+                pl: 'Skrzynie',
+            },
+            load: {
+                ru: 'Занято ячеек',
+                ua: 'Зайнято комірок',
+                en: 'Slots used',
+                de: 'Belegte Plaetze',
+                pl: 'Zajete miejsca',
+            },
+            owner: {
+                ru: 'Передал организации',
+                ua: 'Передав організації',
+                en: 'Handed over by',
+                de: 'Uebergeben von',
+                pl: 'Przekazal',
+            },
+            return: {
+                ru: 'Вернуть владельцу',
+                ua: 'Повернути власнику',
+                en: 'Hand back to the owner',
+                de: 'An den Eigentuemer zurueckgeben',
+                pl: 'Zwroc wlascicielowi',
+            },
+            returnWarning: {
+                ru: 'Склад со всем содержимым вернётся прежнему владельцу. Налог начнёт платить он, организация потеряет доступ.',
+                ua: 'Склад з усім вмістом повернеться колишньому власнику. Податок почне платити він, організація втратить доступ.',
+                en: 'The warehouse and everything in it goes back to the former owner. They start paying the tax and the organization loses access.',
+                de: 'Das Lager samt Inhalt geht an den frueheren Eigentuemer zurueck. Er zahlt dann die Steuer, die Organisation verliert den Zugang.',
+                pl: 'Magazyn wraz z zawartoscia wroci do poprzedniego wlasciciela. To on zacznie placic podatek, a organizacja straci dostep.',
+            },
+            returnConfirm: {
+                ru: 'Вернуть',
+                ua: 'Повернути',
+                en: 'Hand back',
+                de: 'Zurueckgeben',
+                pl: 'Zwroc',
+            },
+            returnCancel: {
+                ru: 'Отмена',
+                ua: 'Скасувати',
+                en: 'Cancel',
+                de: 'Abbrechen',
+                pl: 'Anuluj',
+            },
+        },
         warehouse: {
             title: {
                 ru: 'Коллеги',
@@ -2799,6 +2857,13 @@ export const menu = {
                     en: 'Name is too long',
                     de: 'Name ist zu lang',
                     pl: 'Nazwa jest zbyt dluga',
+                },
+                invalidCharacters: {
+                    ru: 'Только буквы, цифры и знаки препинания',
+                    ua: 'Лише літери, цифри та розділові знаки',
+                    en: 'Letters, digits and punctuation only',
+                    de: 'Nur Buchstaben, Ziffern und Satzzeichen',
+                    pl: 'Tylko litery, cyfry i znaki interpunkcyjne',
                 },
                 invalidName: {
                     ru: 'Недопустимое название',

@@ -44,6 +44,20 @@ export const server = {
             de: 'Die Linie ist bereits voll beladen',
             pl: 'Linia jest juz w pelni zaladowana',
         },
+        switched: {
+            ru: 'Линия переведена на производство: {{item}}',
+            ua: 'Лінію переведено на виробництво: {{item}}',
+            en: 'The line has been switched to: {{item}}',
+            de: 'Die Linie wurde umgestellt auf: {{item}}',
+            pl: 'Linia zostala przestawiona na: {{item}}',
+        },
+        switchedRefund: {
+            ru: 'Линия переведена на производство: {{item}}. На склад возвращено сырьё {{cycles}} циклов',
+            ua: 'Лінію переведено на виробництво: {{item}}. На склад повернуто сировину {{cycles}} циклів',
+            en: 'The line has been switched to: {{item}}. Materials for {{cycles}} cycles returned to the warehouse',
+            de: 'Die Linie wurde umgestellt auf: {{item}}. Rohstoff für {{cycles}} Zyklen ging ins Lager zurück',
+            pl: 'Linia zostala przestawiona na: {{item}}. Surowiec na {{cycles}} cykli wrocil do magazynu',
+        },
     },
     errors: {
         noOrganization: {
@@ -74,12 +88,12 @@ export const server = {
             de: 'Dieses Geschäft ist keinem Gebiet zugeordnet',
             pl: 'Ten biznes nie jest powiązany z terytorium',
         },
-        noRecipe: {
-            ru: 'Это производство ещё не запущено',
-            ua: 'Це виробництво ще не запущено',
-            en: 'This production line is not running yet',
-            de: 'Diese Produktion läuft noch nicht',
-            pl: 'Ta produkcja nie zostala jeszcze uruchomiona',
+        refundNoSpace: {
+            ru: 'На складе нет места под сырьё, которое вернётся с линии',
+            ua: 'На складі немає місця під сировину, яка повернеться з лінії',
+            en: 'The warehouse has no room for the materials coming back from the line',
+            de: 'Im Lager ist kein Platz für den Rohstoff, der von der Linie zurückkommt',
+            pl: 'W magazynie nie ma miejsca na surowiec wracajacy z linii',
         },
         noWarehouse: {
             ru: 'У вашей организации нет склада',
