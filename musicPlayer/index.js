@@ -23,6 +23,14 @@ export default {
         pl: 'Link do utworu i jego nazwa zostały skopiowane do schowka',
     },
 
+    trackUnavailable: {
+        ru: 'Этот трек недоступен для воспроизведения',
+        ua: 'Цей трек недоступний для відтворення',
+        en: 'This track is not available for playback',
+        de: 'Dieser Track ist nicht abspielbar',
+        pl: 'Ten utwór jest niedostępny do odtwarzania',
+    },
+
     notAvailableForNow: {
         ru: 'Эта функция пока что недоступна',
         ua: 'Ця функція поки що недоступна',
