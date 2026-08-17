@@ -434,5 +434,12 @@ export const npc = {
             de: 'Lagerverwalter',
             pl: 'Kierownik magazynu',
         },
+        allInLegend: {
+            ru: 'Легенда олл-ина',
+            ua: 'Легенда олл-іну',
+            en: 'All-In Legend',
+            de: 'All-in-Legende',
+            pl: 'Legenda all-ina',
+        },
     },
 };

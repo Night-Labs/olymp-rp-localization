@@ -87,6 +87,7 @@ import realtor from './realtor';
 import diceGame from './diceGame';
 import offcies from './offcies';
 import warehouses from './warehouses';
+import sections from './sections';
 import organizationRegistration from './organizationRegistration';
 import organizations from './organizations';
 import factories from './factories';
@@ -103,6 +104,7 @@ import effects from './effects';
 import militaryGates from './militaryGates';
 import signEditor from './signEditor';
 import funicular from './funicular';
+import ping from './ping';
 
 export default {
     account,
@@ -195,6 +197,7 @@ export default {
     diceGame,
     offcies,
     warehouses,
+    sections,
     organizationRegistration,
     organizations,
     factories,
@@ -211,6 +214,7 @@ export default {
     militaryGates,
     signEditor,
     funicular,
+    ping,
 };
 
 

@@ -49,11 +49,11 @@ export default {
         },
 
         report: {
-            ru: 'Сейчас, гляну в бумаги.\n\nМест занято: {{usedSlots}} из {{maxSlots}}\nВес: {{usedWeight}} из {{maxWeight}} кг\nЯщиков: {{chests}} из {{chestLimit}}\nПомещение за вами: {{days}} дн.\nЧаще всего тут лежит: {{topItem}}',
-            ua: 'Зараз, гляну в папери.\n\nМісць зайнято: {{usedSlots}} з {{maxSlots}}\nВага: {{usedWeight}} з {{maxWeight}} кг\nЯщиків: {{chests}} з {{chestLimit}}\nПриміщення за вами: {{days}} дн.\nНайчастіше тут лежить: {{topItem}}',
-            en: 'One moment, let me check the papers.\n\nSlots used: {{usedSlots}} of {{maxSlots}}\nWeight: {{usedWeight}} of {{maxWeight}} kg\nChests: {{chests}} of {{chestLimit}}\nHeld by you for: {{days}} days\nMost of what sits here: {{topItem}}',
-            de: 'Moment, ich schaue in die Papiere.\n\nBelegte Plätze: {{usedSlots}} von {{maxSlots}}\nGewicht: {{usedWeight}} von {{maxWeight}} kg\nKisten: {{chests}} von {{chestLimit}}\nIn Ihrem Besitz seit: {{days}} Tagen\nAm meisten liegt hier: {{topItem}}',
-            pl: 'Chwila, zajrzę do papierów.\n\nZajęte miejsca: {{usedSlots}} z {{maxSlots}}\nWaga: {{usedWeight}} z {{maxWeight}} kg\nSkrzyń: {{chests}} z {{chestLimit}}\nW twoich rękach od: {{days}} dni\nNajwięcej leży tu: {{topItem}}',
+            ru: 'Сейчас, гляну в бумаги.\n\nСлотов занято: {{usedSlots}} из {{maxSlots}}\nВес: {{usedWeight}} из {{maxWeight}} кг\nСекций: {{sections}} из {{sectionLimit}}\nПомещение за вами: {{days}} дн.\nЧаще всего тут лежит: {{topItem}}',
+            ua: 'Зараз, гляну в папери.\n\nСлотів зайнято: {{usedSlots}} з {{maxSlots}}\nВага: {{usedWeight}} з {{maxWeight}} кг\nСекцій: {{sections}} з {{sectionLimit}}\nПриміщення за вами: {{days}} дн.\nНайчастіше тут лежить: {{topItem}}',
+            en: 'One moment, let me check the papers.\n\nSlots used: {{usedSlots}} of {{maxSlots}}\nWeight: {{usedWeight}} of {{maxWeight}} kg\nSections: {{sections}} of {{sectionLimit}}\nHeld by you for: {{days}} days\nMost of what sits here: {{topItem}}',
+            de: 'Moment, ich schaue in die Papiere.\n\nBelegte Slots: {{usedSlots}} von {{maxSlots}}\nGewicht: {{usedWeight}} von {{maxWeight}} kg\nSektionen: {{sections}} von {{sectionLimit}}\nIn Ihrem Besitz seit: {{days}} Tagen\nAm meisten liegt hier: {{topItem}}',
+            pl: 'Chwila, zajrzę do papierów.\n\nZajęte sloty: {{usedSlots}} z {{maxSlots}}\nWaga: {{usedWeight}} z {{maxWeight}} kg\nSekcji: {{sections}} z {{sectionLimit}}\nW twoich rękach od: {{days}} dni\nNajwięcej leży tu: {{topItem}}',
         },
 
         journal: {
