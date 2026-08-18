@@ -1,5 +1,3 @@
-import drift from './drift';
-import hud from './hud';
 import race from './race';
 
 export const gameEvents = {
@@ -100,7 +98,5 @@ export const gameEvents = {
             zh: '玩家',
         },
     },
-    drift,
-    hud,
     race,
 };

@@ -1,4 +1,5 @@
 import passport from './passport';
+import signature from './signature';
 import payday from './payday';
 import aidkit from './aidkit';
 import cooldowns from './cooldowns';
@@ -123,6 +124,7 @@ export default {
 
     //
     passport,
+    signature,
     payday,
     aidkit,
     cooldowns,

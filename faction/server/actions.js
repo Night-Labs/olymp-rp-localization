@@ -462,4 +462,21 @@ export default {
         de: 'Du hast {{name}} entlassen',
         pl: 'Zwolniłeś {{name}}',
     },
+
+    checkedOwnBadge: {
+        ru: '{{firstName}} достал(а) своё удостоверение и осмотрел(а) его',
+        ua: '{{firstName}} дістав(ла) своє посвідчення і оглянув(ла) його',
+        en: '{{firstName}} took out their ID and looked it over',
+        de: '{{firstName}} holte den eigenen Ausweis hervor und sah ihn sich an',
+        pl: '{{firstName}} wyjął(ęła) swój identyfikator i przyjrzał(a) mu się',
+        zh: '{{firstName}}拿出自己的证件查看了一下',
+    },
+    showedBadge: {
+        ru: '{{firstName}} показал(а) своё удостоверение {{targetName}}',
+        ua: '{{firstName}} показав(ла) своє посвідчення {{targetName}}',
+        en: '{{firstName}} showed their ID to {{targetName}}',
+        de: '{{firstName}} zeigte {{targetName}} den eigenen Ausweis',
+        pl: '{{firstName}} pokazał(a) swój identyfikator {{targetName}}',
+        zh: '{{firstName}}向{{targetName}}出示了自己的证件',
+    },
 };

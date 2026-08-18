@@ -99,6 +99,30 @@ export default {
             },
         },
         dialog2: {
+            noSignature: {
+                ru: 'У вас до сих пор нет образца подписи в реестре. Поставим его сейчас?',
+                ua: 'У вас досі немає зразка підпису в реєстрі. Поставимо його зараз?',
+                en: 'We still have no signature specimen for you on file. Shall we take it now?',
+                de: 'Wir haben noch keine Unterschriftsprobe von dir im Register. Sollen wir das jetzt erledigen?',
+                pl: 'Wciąż nie mamy twojego wzoru podpisu w rejestrze. Złożymy go teraz?',
+            },
+
+            drawSignature: {
+                ru: 'Поставить подпись',
+                ua: 'Поставити підпис',
+                en: 'Sign now',
+                de: 'Jetzt unterschreiben',
+                pl: 'Złożyć podpis',
+            },
+
+            later: {
+                ru: 'В другой раз',
+                ua: 'Іншим разом',
+                en: 'Another time',
+                de: 'Ein anderes Mal',
+                pl: 'Innym razem',
+            },
+
             cityHallGreeting: {
                 ru: 'Добро пожаловать в мэрию! Чем могу помочь?',
                 ua: 'Ласкаво просимо до мерії! Чим можу допомогти?',

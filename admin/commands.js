@@ -1199,6 +1199,20 @@ export default {
         de: 'Ein Haus anhand seiner ID öffnen oder schließen.',
         pl: 'Otwórz lub zamknij dom po jego ID.',
     },
+    startRace: {
+        ru: 'Запустить гонку по маршруту GTA. /startRace <id> - все игроки за рулём выходят на стартовую решётку. Без id или с неизвестным id выводит список доступных маршрутов.',
+        ua: 'Запустити гонку за маршрутом GTA. /startRace <id> - усі гравці за кермом виходять на стартову решітку. Без id або з невідомим id виводить список доступних маршрутів.',
+        en: 'Start a race on a GTA route. /startRace <id> puts every player behind a wheel on the starting grid. An unknown or missing id prints the list of available routes.',
+        de: 'Ein Rennen auf einer GTA-Strecke starten. /startRace <id> stellt jeden Spieler am Steuer in die Startaufstellung. Eine unbekannte oder fehlende ID gibt die Liste der Strecken aus.',
+        pl: 'Rozpocznij wyścig na trasie z GTA. /startRace <id> ustawia każdego gracza za kierownicą na polu startowym. Nieznane lub brakujące id wypisuje listę tras.',
+    },
+    stopRace: {
+        ru: 'Прервать все запущенные игровые события и вернуть участников на прежние места.',
+        ua: 'Перервати всі запущені ігрові події та повернути учасників на попередні місця.',
+        en: 'Abort every running game event and put the participants back where they were.',
+        de: 'Alle laufenden Spielevents abbrechen und die Teilnehmer dorthin zurücksetzen, wo sie waren.',
+        pl: 'Przerwij wszystkie trwające wydarzenia i przywróć uczestników na poprzednie miejsca.',
+    },
     battleground: {
         ru: 'Тестовая синяя зона: круглая стена радиусом 100 м вокруг вас, каждую секунду сжимается на 15%. /battleground <радиус> - задать свой, /battleground off - убрать.',
         ua: 'Тестова синя зона: кругла стіна радіусом 100 м навколо вас, щосекунди стискається на 15%. /battleground <радіус> - задати свій, /battleground off - прибрати.',

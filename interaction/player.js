@@ -615,6 +615,13 @@ export const player = {
         de: 'Zeig den Ausweis',
         pl: 'Pokaż identyfikator',
     },
+    viewBadge: {
+        ru: 'Посмотреть своё удостоверение',
+        ua: 'Переглянути своє посвідчення',
+        en: 'View your ID',
+        de: 'Eigenen Ausweis ansehen',
+        pl: 'Zobacz swój identyfikator',
+    },
 
     //
     house: {
@@ -644,5 +651,55 @@ export const player = {
         en: 'Kick player out of the house',
         de: 'Spieler aus dem Haus werfen',
         pl: 'Wyrzucić gracza z domu',
+    },
+
+    // RP-действия при показе документов
+    checkedOwnPassport: {
+        ru: '{{firstName}} достал(а) свой паспорт и осмотрел(а) его',
+        ua: '{{firstName}} дістав(ла) свій паспорт і оглянув(ла) його',
+        en: '{{firstName}} took out their passport and looked it over',
+        de: '{{firstName}} holte den eigenen Pass hervor und sah ihn sich an',
+        pl: '{{firstName}} wyjął(ęła) swój paszport i przyjrzał(a) mu się',
+        zh: '{{firstName}}拿出自己的护照查看了一下',
+    },
+    showedPassport: {
+        ru: '{{firstName}} показал(а) свой паспорт {{targetName}}',
+        ua: '{{firstName}} показав(ла) свій паспорт {{targetName}}',
+        en: '{{firstName}} showed their passport to {{targetName}}',
+        de: '{{firstName}} zeigte {{targetName}} den eigenen Pass',
+        pl: '{{firstName}} pokazał(a) swój paszport {{targetName}}',
+        zh: '{{firstName}}向{{targetName}}出示了自己的护照',
+    },
+    checkedOwnLicenses: {
+        ru: '{{firstName}} достал(а) свои лицензии и осмотрел(а) их',
+        ua: '{{firstName}} дістав(ла) свої ліцензії і оглянув(ла) їх',
+        en: '{{firstName}} took out their licenses and looked them over',
+        de: '{{firstName}} holte die eigenen Lizenzen hervor und sah sie sich an',
+        pl: '{{firstName}} wyjął(ęła) swoje licencje i przyjrzał(a) im się',
+        zh: '{{firstName}}拿出自己的执照查看了一下',
+    },
+    showedLicenses: {
+        ru: '{{firstName}} показал(а) свои лицензии {{targetName}}',
+        ua: '{{firstName}} показав(ла) свої ліцензії {{targetName}}',
+        en: '{{firstName}} showed their licenses to {{targetName}}',
+        de: '{{firstName}} zeigte {{targetName}} die eigenen Lizenzen',
+        pl: '{{firstName}} pokazał(a) swoje licencje {{targetName}}',
+        zh: '{{firstName}}向{{targetName}}出示了自己的执照',
+    },
+    checkedOwnDrivingLicenses: {
+        ru: '{{firstName}} достал(а) свои водительские права и осмотрел(а) их',
+        ua: '{{firstName}} дістав(ла) своє водійське посвідчення і оглянув(ла) його',
+        en: '{{firstName}} took out their driver license and looked it over',
+        de: '{{firstName}} holte den eigenen Führerschein hervor und sah ihn sich an',
+        pl: '{{firstName}} wyjął(ęła) swoje prawo jazdy i przyjrzał(a) mu się',
+        zh: '{{firstName}}拿出自己的驾驶证查看了一下',
+    },
+    showedDrivingLicenses: {
+        ru: '{{firstName}} показал(а) свои водительские права {{targetName}}',
+        ua: '{{firstName}} показав(ла) своє водійське посвідчення {{targetName}}',
+        en: '{{firstName}} showed their driver license to {{targetName}}',
+        de: '{{firstName}} zeigte {{targetName}} den eigenen Führerschein',
+        pl: '{{firstName}} pokazał(a) swoje prawo jazdy {{targetName}}',
+        zh: '{{firstName}}向{{targetName}}出示了自己的驾驶证',
     },
 };
