@@ -1,4 +1,13 @@
 export default {
+    cantWhileDead: {
+        ru: 'Вы не можете сделать это, пока мертвы',
+        ua: 'Ви не можете зробити це, поки мертві',
+        en: 'You cannot do this while dead',
+        de: 'Das kannst du nicht tun, solange du tot bist',
+        pl: 'Nie możesz tego zrobić, będąc martwym',
+        zh: '你死亡时无法这样做',
+    },
+
     continueFight: {
         ru: 'Продолжать бороться',
         ua: 'Продовжувати боротьбу',

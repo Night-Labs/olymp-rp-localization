@@ -167,6 +167,13 @@ export default {
         de: 'Cursor',
         pl: 'Kursor',
     },
+    ping: {
+        ru: 'Метка (пинг)',
+        ua: 'Мітка (пінг)',
+        en: 'Ping marker',
+        de: 'Markierung (Ping)',
+        pl: 'Znacznik (ping)',
+    },
     'trucker.dropBox': {
         ru: 'Выкинуть груз',
         ua: 'Викинути вантаж',
