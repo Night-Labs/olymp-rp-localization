@@ -39,6 +39,14 @@ const inventory = {
         pl: 'Przedmiot otrzymany',
     },
 
+    weaponBroken: {
+        ru: 'Ваше оружие сломалось от износа',
+        ua: 'Ваша зброя зламалася від зносу',
+        en: 'Your weapon broke from wear',
+        de: 'Deine Waffe ist durch Verschleiß zerbrochen',
+        pl: 'Twoja broń zepsuła się od zużycia',
+    },
+
     notEnoughSpace: {
         ru: 'Недостаточно места',
         ua: 'Недостатньо місця',

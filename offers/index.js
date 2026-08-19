@@ -53,6 +53,15 @@ export default {
         zh: '查看他们的许可证',
     },
 
+    lawyerLicense: {
+        ru: 'Предлагает посмотреть свою лицензию адвоката',
+        ua: 'Запрошує переглянути свою ліцензію адвоката',
+        en: 'Invites to view their lawyer license',
+        de: 'Lädt dazu ein, die eigene Anwaltslizenz anzusehen',
+        pl: 'Zaprasza do obejrzenia swojej licencji adwokackiej',
+        zh: '邀请查看他们的律师执照',
+    },
+
     //
 
     sellPills: {

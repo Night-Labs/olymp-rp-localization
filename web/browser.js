@@ -1,27 +1,11 @@
 export default {
-    tabHome: {
-        ru: 'Главная · FREEWEB',
-        ua: 'Головна · FREEWEB',
-        en: 'Home · FREEWEB',
-        de: 'Start · FREEWEB',
-        pl: 'Strona główna · FREEWEB',
-        zh: '首页 · FREEWEB',
-    },
-    tabSearch: {
-        ru: 'Поиск · FREEWEB',
-        ua: 'Пошук · FREEWEB',
-        en: 'Search · FREEWEB',
-        de: 'Suche · FREEWEB',
-        pl: 'Wyszukiwanie · FREEWEB',
-        zh: '搜索 · FREEWEB',
-    },
     tabNotFound: {
-        ru: 'Страница не найдена · FREEWEB',
-        ua: 'Сторінку не знайдено · FREEWEB',
-        en: 'Page not found · FREEWEB',
-        de: 'Seite nicht gefunden · FREEWEB',
-        pl: 'Strona nie znaleziona · FREEWEB',
-        zh: '页面未找到 · FREEWEB',
+        ru: 'Страница не найдена',
+        ua: 'Сторінку не знайдено',
+        en: 'Page not found',
+        de: 'Seite nicht gefunden',
+        pl: 'Strona nie znaleziona',
+        zh: '页面未找到',
     },
     back: {
         ru: 'Назад',

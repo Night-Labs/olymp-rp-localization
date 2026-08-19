@@ -1,11 +1,11 @@
 export default {
     depBroadcast: {
-        ru: '!{#FFFF00}[Гос.волна] {{factionName}} {{playerName}}: {{message}}',
-        ua: '!{#FFFF00}[Держ.хвиля] {{factionName}} {{playerName}}: {{message}}',
-        en: '!{#FFFF00}[Gov.wave] {{factionName}} {{playerName}}: {{message}}',
-        de: '!{#FFFF00}[Staatswelle] {{factionName}} {{playerName}}: {{message}}',
-        pl: '!{#FFFF00}[Fala rządowa] {{factionName}} {{playerName}}: {{message}}',
-        zh:'!{#FFFF00}[政府讲话]{{factionName}{{playerName}:{{message}'
+        ru: '!{#FFFF00}[Департамент] {{factionName}} {{playerName}}: {{message}}',
+        ua: '!{#FFFF00}[Департамент] {{factionName}} {{playerName}}: {{message}}',
+        en: '!{#FFFF00}[Department] {{factionName}} {{playerName}}: {{message}}',
+        de: '!{#FFFF00}[Abteilung] {{factionName}} {{playerName}}: {{message}}',
+        pl: '!{#FFFF00}[Departament] {{factionName}} {{playerName}}: {{message}}',
+        zh:'!{#FFFF00}[部门]{{factionName}{{playerName}:{{message}'
     },
     govBroadcast: {
         ru: '!{#2196F3}{{factionName}} {{playerName}}: {{message}}',

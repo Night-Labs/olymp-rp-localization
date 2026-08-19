@@ -190,12 +190,12 @@ export const items = {
             zh: '笔记本电脑',
         },
         desc: {
-            ua: `Портативний комп'ютер з доступом до браузера FREEWEB.`,
-            en: 'A portable computer with access to the FREEWEB browser.',
-            ru: 'Портативный компьютер с доступом к браузеру FREEWEB.',
-            de: 'Ein tragbarer Computer mit Zugang zum FREEWEB-Browser.',
-            pl: 'Przenośny komputer z dostępem do przeglądarki FREEWEB.',
-            zh: '一台可使用 FREEWEB 浏览器的便携式计算机。',
+            ua: `Портативний комп'ютер з доступом до браузера HOOLI.`,
+            en: 'A portable computer with access to the HOOLI browser.',
+            ru: 'Портативный компьютер с доступом к браузеру HOOLI.',
+            de: 'Ein tragbarer Computer mit Zugang zum HOOLI-Browser.',
+            pl: 'Przenośny komputer z dostępem do przeglądarki HOOLI.',
+            zh: '一台可使用 HOOLI 浏览器的便携式计算机。',
         },
     },
     cigarettes: {

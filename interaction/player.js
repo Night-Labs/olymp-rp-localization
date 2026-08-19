@@ -341,6 +341,15 @@ export const player = {
         pl: 'Wyświetl prawo jazdy',
     },
 
+    viewLawyerLicense: {
+        ru: 'Посмотреть лицензию адвоката',
+        ua: 'Переглянути ліцензію адвоката',
+        en: 'View lawyer license',
+        de: 'Anwaltslizenz ansehen',
+        pl: 'Zobacz licencję adwokacką',
+        zh: '查看律师执照',
+    },
+
     showLicenses: {
         ru: 'Показать лицензии',
         ua: 'Показати ліцензії',
@@ -348,6 +357,15 @@ export const player = {
         de: 'Lizenzen anzeigen',
         pl: 'Pokaż licencje',
         zh: '出示许可证',
+    },
+
+    showLawyerLicense: {
+        ru: 'Показать лицензию адвоката',
+        ua: 'Показати ліцензію адвоката',
+        en: 'Show lawyer license',
+        de: 'Anwaltslizenz vorzeigen',
+        pl: 'Pokaż licencję adwokacką',
+        zh: '出示律师执照',
     },
 
     dispatches: {
@@ -685,6 +703,22 @@ export const player = {
         de: '{{firstName}} zeigte {{targetName}} die eigenen Lizenzen',
         pl: '{{firstName}} pokazał(a) swoje licencje {{targetName}}',
         zh: '{{firstName}}向{{targetName}}出示了自己的执照',
+    },
+    checkedOwnLawyerLicense: {
+        ru: '{{firstName}} достал(а) свою лицензию адвоката и осмотрел(а) её',
+        ua: '{{firstName}} дістав(ла) свою ліцензію адвоката і оглянув(ла) її',
+        en: '{{firstName}} took out their lawyer license and looked it over',
+        de: '{{firstName}} holte die eigene Anwaltslizenz hervor und sah sie sich an',
+        pl: '{{firstName}} wyjął(ęła) swoją licencję adwokacką i przyjrzał(a) się jej',
+        zh: '{{firstName}}拿出自己的律师执照查看了一下',
+    },
+    showedLawyerLicense: {
+        ru: '{{firstName}} показал(а) свою лицензию адвоката {{targetName}}',
+        ua: '{{firstName}} показав(ла) свою ліцензію адвоката {{targetName}}',
+        en: '{{firstName}} showed their lawyer license to {{targetName}}',
+        de: '{{firstName}} zeigte {{targetName}} die eigene Anwaltslizenz',
+        pl: '{{firstName}} pokazał(a) swoją licencję adwokacką {{targetName}}',
+        zh: '{{firstName}}向{{targetName}}出示了自己的律师执照',
     },
     checkedOwnDrivingLicenses: {
         ru: '{{firstName}} достал(а) свои водительские права и осмотрел(а) их',

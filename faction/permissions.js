@@ -283,4 +283,11 @@ export default {
         de: 'Boni vergeben',
         pl: 'Przyznawać premie',
     },
+    wardrobe: {
+        ru: 'Настраивать доступ к униформе',
+        ua: 'Налаштовувати доступ до уніформи',
+        en: 'Manage uniform access',
+        de: 'Uniformzugriff verwalten',
+        pl: 'Zarządzać dostępem do mundurów',
+    },
 };

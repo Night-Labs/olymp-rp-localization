@@ -1,4 +1,5 @@
 import passport from './passport';
+import lawyerLicense from './lawyerLicense';
 import signature from './signature';
 import payday from './payday';
 import aidkit from './aidkit';
@@ -124,6 +125,7 @@ export default {
 
     //
     passport,
+    lawyerLicense,
     signature,
     payday,
     aidkit,

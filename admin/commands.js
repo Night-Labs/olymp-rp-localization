@@ -232,6 +232,20 @@ export default {
         de: 'Geld von allen Unternehmen zwangsweise einsammeln und dies in den Business-Logs protokollieren.',
         pl: 'Przymusowo zbierz gotówkę ze wszystkich biznesów i zapisz to w logach biznesu.',
     },
+    reset_business_owner: {
+        ru: 'Сбросить владельца бизнеса по его ID (бизнес переходит государству).',
+        ua: 'Скинути власника бізнесу за його ID (бізнес переходить державі).',
+        en: 'Reset the owner of a business by its ID (the business goes to the government).',
+        de: 'Den Besitzer eines Unternehmens anhand seiner ID zurücksetzen (das Unternehmen geht an den Staat).',
+        pl: 'Zresetuj właściciela biznesu po jego ID (biznes przechodzi na własność państwa).',
+    },
+    reset_house_owner: {
+        ru: 'Сбросить владельца дома по его ID (жильцы, бронь и гараж очищаются).',
+        ua: 'Скинути власника будинку за його ID (мешканці, бронь і гараж очищаються).',
+        en: 'Reset the owner of a house by its ID (residents, reservation, and garage are cleared).',
+        de: 'Den Besitzer eines Hauses anhand seiner ID zurücksetzen (Bewohner, Reservierung und Garage werden geleert).',
+        pl: 'Zresetuj właściciela domu po jego ID (mieszkańcy, rezerwacja i garaż zostaną wyczyszczone).',
+    },
     ban: {
         ru: 'Забанить игрока по static ID на указанное количество дней с обязательной причиной.',
         ua: "Забанити гравця за static ID на вказану кількість днів з обов'язковою причиною.",

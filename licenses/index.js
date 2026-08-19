@@ -218,6 +218,14 @@ export default {
         de: 'Jagen',
         pl: 'Na polowanie',
     },
+    lawyer: {
+        ru: 'Адвокатская',
+        ua: 'Адвокатська',
+        en: 'Lawyer',
+        de: 'Anwaltslizenz',
+        pl: 'Adwokacka',
+        zh: '律师执照',
+    },
     ...drivingLicensesCategories.nameId,
 
     //
