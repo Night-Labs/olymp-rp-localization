@@ -106,6 +106,20 @@ export default {
         de: 'In Zone #{{zone}} geschickt. Warte auf den Beginn',
         pl: 'Wysłano do strefy #{{zone}}. Czekaj na początek',
     },
+    warTimeChanged: {
+        ru: '~y~Время битвы за территорию #{{zone}} изменено администрацией. Начало через {{time}}',
+        ua: '~y~Час битви за територію #{{zone}} змінено адміністрацією. Початок через {{time}}',
+        en: '~y~The start time of the battle for territory #{{zone}} was changed by the administration. Starts in {{time}}',
+        de: '~y~Die Startzeit des Kampfes um Gebiet #{{zone}} wurde von der Administration geändert. Beginn in {{time}}',
+        pl: '~y~Czas bitwy o terytorium #{{zone}} został zmieniony przez administrację. Początek za {{time}}',
+    },
+    warCancelled: {
+        ru: '~r~Битва за территорию #{{zone}} отменена администрацией',
+        ua: '~r~Битву за територію #{{zone}} скасовано адміністрацією',
+        en: '~r~The battle for territory #{{zone}} was cancelled by the administration',
+        de: '~r~Der Kampf um Gebiet #{{zone}} wurde von der Administration abgesagt',
+        pl: '~r~Bitwa o terytorium #{{zone}} została odwołana przez administrację',
+    },
     warAlreadyDeclared: {
         ru: 'Война за территорию уже идёт',
         ua: 'Війна за територію вже йде',

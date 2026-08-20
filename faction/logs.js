@@ -176,6 +176,13 @@ export default {
                 de: 'Lieferung von Materialien bestellt. -${{money}}',
                 pl: 'Zamówiono dostawę materiałów. -${{money}}',
             },
+            restoreVehicle: {
+                ru: 'Восстановление транспорта {{vehicle}} ({{plate}}). -${{money}}',
+                ua: 'Відновлення транспорту {{vehicle}} ({{plate}}). -${{money}}',
+                en: 'Restored vehicle {{vehicle}} ({{plate}}). -${{money}}',
+                de: 'Fahrzeug {{vehicle}} ({{plate}}) wiederhergestellt. -${{money}}',
+                pl: 'Odbudowa pojazdu {{vehicle}} ({{plate}}). -${{money}}',
+            },
         },
     },
     //

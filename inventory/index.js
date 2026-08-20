@@ -79,6 +79,14 @@ const inventory = {
         pl: 'Ta odzież nie jest przeznaczona dla płci twojej postaci',
     },
 
+    backpackIntoItself: {
+        ru: 'Ты дурачёк?',
+        ua: 'Ти дурник?',
+        en: 'Are you dumb?',
+        de: 'Bist du dumm?',
+        pl: 'Głupi jesteś?',
+    },
+
     bind: {
         keyNotAvailable: {
             ru: 'Эта клавиша недоступна для привязки к предмету.',

@@ -927,6 +927,22 @@ export const items = {
             pl: 'Służą do wiązania ludzi',
         },
     },
+    headBag: {
+        name: {
+            ru: 'Мешок',
+            ua: 'Мішок',
+            en: 'Bag',
+            de: 'Sack',
+            pl: 'Worek',
+        },
+        desc: {
+            ru: 'Надевается на голову, чтобы человек не видел, куда его ведут',
+            ua: 'Надягається на голову, щоб людина не бачила, куди її ведуть',
+            en: 'Put over the head so the person cannot see where they are taken',
+            de: 'Wird über den Kopf gezogen, damit die Person nicht sieht, wohin sie gebracht wird',
+            pl: 'Zakładany na głowę, aby osoba nie widziała, dokąd jest prowadzona',
+        },
+    },
     emi_device: {
         name: {
             ru: 'ЭМИ-глушитель',

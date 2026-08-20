@@ -46,6 +46,34 @@ export default {
         de: '{{firstName}} hat die Kabelbinder von den Händen von {{targetName}} entfernt',
         pl: '{{firstName}} zdjął(ęła) opaski kablowe z rąk {{targetName}}',
     },
+    useHeadBag: {
+        ru: '{{firstName}} надел(а) мешок на голову {{targetName}}',
+        ua: '{{firstName}} надів(ла) мішок на голову {{targetName}}',
+        en: "{{firstName}} put a bag over {{targetName}}'s head",
+        de: '{{firstName}} hat {{targetName}} einen Sack über den Kopf gezogen',
+        pl: '{{firstName}} założył(a) worek na głowę {{targetName}}',
+    },
+    removeHeadBag: {
+        ru: '{{firstName}} снял(а) мешок с головы {{targetName}}',
+        ua: '{{firstName}} зняв(ла) мішок з голови {{targetName}}',
+        en: "{{firstName}} removed the bag from {{targetName}}'s head",
+        de: '{{firstName}} hat {{targetName}} den Sack vom Kopf genommen',
+        pl: '{{firstName}} zdjął(ęła) worek z głowy {{targetName}}',
+    },
+    bagPutOnYourHead: {
+        ru: 'На вас надели мешок на голову',
+        ua: 'На вас надягли мішок на голову',
+        en: 'A bag has been put over your head',
+        de: 'Dir wurde ein Sack über den Kopf gezogen',
+        pl: 'Założono ci worek na głowę',
+    },
+    bagRemovedFromYourHead: {
+        ru: 'С вас сняли мешок',
+        ua: 'З вас зняли мішок',
+        en: 'The bag has been removed from your head',
+        de: 'Der Sack wurde dir vom Kopf genommen',
+        pl: 'Zdjęto ci worek z głowy',
+    },
     //
     startedLead: {
         ru: '{{firstName}} начал(а) вести за собой {{targetName}}',
@@ -389,6 +417,13 @@ export default {
             de: 'Du hast keine Kabelbinder',
             pl: 'Nie masz opasek kablowych',
         },
+        headBag: {
+            ru: 'У вас нет мешка',
+            ua: 'У вас немає мішка',
+            en: "You don't have a bag",
+            de: 'Du hast keinen Sack',
+            pl: 'Nie masz worka',
+        },
     },
 
     //
@@ -407,6 +442,14 @@ export default {
         en: "You don't have a defibrillator",
         de: 'Du hast keinen Defibrillator',
         pl: 'Nie masz defibrylatora',
+    },
+
+    noFreeSeats: {
+        ru: 'В машине нет свободных мест',
+        ua: 'У машині немає вільних місць',
+        en: 'There are no free seats in the vehicle',
+        de: 'Im Fahrzeug sind keine freien Plätze',
+        pl: 'W pojeździe nie ma wolnych miejsc',
     },
 
     noFollowedTarget: {

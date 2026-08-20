@@ -372,6 +372,13 @@ export default {
         de: 'Den aktuellen Capture-Krieg zwangsweise beenden und den Gewinner in den Logs vermerken.',
         pl: 'Przymusowo zakończ aktualną wojnę o capture i zapisz zwycięzcę w logach.',
     },
+    war_timer: {
+        ru: 'Изменить время до начала объявленного каптура в минутах; 0 начинает бой сразу.',
+        ua: 'Змінити час до початку оголошеного каптура у хвилинах; 0 починає бій одразу.',
+        en: 'Change the time until the declared capture starts, in minutes; 0 starts the battle immediately.',
+        de: 'Die Zeit bis zum Start des erklärten Captures in Minuten ändern; 0 startet den Kampf sofort.',
+        pl: 'Zmień czas do rozpoczęcia ogłoszonego capture w minutach; 0 rozpoczyna walkę natychmiast.',
+    },
     reset_capture_cooldown: {
         ru: 'Сбросить кулдаун на начало следующего каптура для указанной фракции.',
         ua: 'Скинути кулдаун на початок наступного каптура для вказаної фракції.',
@@ -1415,6 +1422,20 @@ export default {
         en: 'Remove handcuffs from an online player.',
         de: 'Einem Online-Spieler die Handschellen abnehmen.',
         pl: 'Zdejmij kajdanki z gracza online.',
+    },
+    bag: {
+        ru: 'Надеть мешок на голову игроку онлайн.',
+        ua: 'Надіти мішок на голову гравцю онлайн.',
+        en: 'Put a bag over the head of an online player.',
+        de: 'Einem Online-Spieler einen Sack über den Kopf ziehen.',
+        pl: 'Załóż worek na głowę graczowi online.',
+    },
+    unbag: {
+        ru: 'Снять мешок с головы игрока онлайн.',
+        ua: 'Зняти мішок з голови гравця онлайн.',
+        en: 'Remove the bag from the head of an online player.',
+        de: 'Einem Online-Spieler den Sack vom Kopf nehmen.',
+        pl: 'Zdejmij worek z głowy gracza online.',
     },
     check_player_ping: {
         ru: 'Показать ping выбранного игрока или свой собственный, если ID не указан.',

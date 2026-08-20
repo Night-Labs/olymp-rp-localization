@@ -619,6 +619,20 @@ export const player = {
         de: 'Kabelbinder anlegen',
         pl: 'Załóż opaski kablowe',
     },
+    headBag: {
+        ru: 'Надеть мешок на голову',
+        ua: 'Надіти мішок на голову',
+        en: 'Put a bag over the head',
+        de: 'Sack über den Kopf ziehen',
+        pl: 'Założyć worek na głowę',
+    },
+    unHeadBag: {
+        ru: 'Снять мешок с головы',
+        ua: 'Зняти мішок з голови',
+        en: 'Remove the bag from the head',
+        de: 'Sack vom Kopf nehmen',
+        pl: 'Zdjąć worek z głowy',
+    },
     takeMask: {
         ru: 'Снять маску',
         ua: 'Зняти маску',
