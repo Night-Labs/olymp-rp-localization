@@ -63,6 +63,14 @@ export default {
         pl: 'Podpis zapisany',
         zh: '签名已保存',
     },
+    reset: {
+        ru: 'Администратор сбросил ваш образец подписи',
+        ua: 'Адміністратор скинув ваш зразок підпису',
+        en: 'An administrator has reset your signature specimen',
+        de: 'Ein Administrator hat deine Unterschriftsprobe zurückgesetzt',
+        pl: 'Administrator zresetował twój wzór podpisu',
+        zh: '管理员已重置你的签名样本',
+    },
     invalid: {
         ru: 'Не удалось сохранить подпись, попробуйте ещё раз',
         ua: 'Не вдалося зберегти підпис, спробуйте ще раз',

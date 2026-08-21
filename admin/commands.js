@@ -1619,6 +1619,13 @@ export default {
         de: 'Einen temporären Skill-Override in systems/skills bis zum nächsten Reset setzen.',
         pl: 'Ustaw tymczasowe nadpisanie umiejętności w systems/skills do następnego resetu.',
     },
+    reset_signature: {
+        ru: 'Сбросить образец подписи указанного игрока.',
+        ua: 'Скинути зразок підпису вказаного гравця.',
+        en: 'Reset the signature specimen of the specified player.',
+        de: 'Die Unterschriftsprobe des angegebenen Spielers zurücksetzen.',
+        pl: 'Zresetuj wzór podpisu wskazanego gracza.',
+    },
     set_temp_level: {
         ru: 'Выставить указанному игроку временный уровень персонажа (1-100) без сохранения в базу данных.',
         ua: 'Встановити вказаному гравцю тимчасовий рівень персонажа (1-100) без збереження в базу даних.',

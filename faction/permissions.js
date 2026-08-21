@@ -241,6 +241,13 @@ export default {
         de: 'Anzeigen moderieren',
         pl: 'Moderuj ogłoszenia',
     },
+    moderateAdsOffDuty: {
+        ru: 'Модерировать объявления вне рабочей смены',
+        ua: 'Модерувати оголошення поза робочою зміною',
+        en: 'Moderate ads while off duty',
+        de: 'Anzeigen außerhalb des Dienstes moderieren',
+        pl: 'Moderować ogłoszenia poza zmianą',
+    },
     controlLiveStreams: {
         ru: 'Доступ к управлению прямым эфиром',
         ua: 'Доступ до керування прямим ефіром',
