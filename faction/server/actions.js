@@ -357,6 +357,38 @@ export default {
         de: 'Alle deine Krankheiten wurden geheilt',
         pl: 'Wszystkie twoje choroby zostały wyleczone',
     },
+    playerAddictionLevel: {
+        ru: 'Наркотическая зависимость гражданина: {{value}}/100',
+        ua: 'Наркотична залежність громадянина: {{value}}/100',
+        en: "Citizen's drug addiction: {{value}}/100",
+        de: 'Drogensucht des Bürgers: {{value}}/100',
+        pl: 'Uzależnienie obywatela od narkotyków: {{value}}/100',
+    },
+
+    playerHasNoAddiction: {
+        ru: 'У гражданина нет наркотической зависимости',
+        ua: 'У громадянина немає наркотичної залежності',
+        en: 'The citizen has no drug addiction',
+        de: 'Der Bürger hat keine Drogensucht',
+        pl: 'Obywatel nie jest uzależniony od narkotyków',
+    },
+
+    youDetoxedPlayer: {
+        ru: 'Вы сняли наркотическую зависимость у {{name}}',
+        ua: 'Ви зняли наркотичну залежність у {{name}}',
+        en: 'You treated the drug addiction of {{name}}',
+        de: 'Du hast die Drogensucht von {{name}} behandelt',
+        pl: 'Wyleczyłeś uzależnienie od narkotyków u {{name}}',
+    },
+
+    youWereDetoxed: {
+        ru: 'Вам сняли наркотическую зависимость',
+        ua: 'Вам зняли наркотичну залежність',
+        en: 'Your drug addiction has been treated',
+        de: 'Deine Drogensucht wurde behandelt',
+        pl: 'Twoje uzależnienie od narkotyków zostało wyleczone',
+    },
+
     youHealedPlayer: {
         ru: 'Вы оказали медицинскую помощь {{name}}, пациент в порядке',
         ua: 'Ви надали медичну допомогу {{name}}, пацієнт у порядку',

@@ -76,6 +76,8 @@ import prism from './prism';
 import diving from './diving';
 import garbage from './garbage';
 import drivingSchool from './drivingSchool';
+import drugs from './drugs';
+import modifiers from './modifiers';
 import drivingLicenses from './drivingLicenses';
 import business from './business/business';
 import furnitureEditor from './furnitureEditor/furnitureEditor';
@@ -186,6 +188,8 @@ export default {
     garbage,
     prism,
     drivingSchool,
+    drugs,
+    modifiers,
     drivingLicenses,
     business,
     furnitureEditor,

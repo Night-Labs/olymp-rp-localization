@@ -103,6 +103,13 @@ export default {
         de: '{{name}} wird dich für ${{sum}} heilen',
         pl: '{{name}} wyleczy cię za ${{sum}}',
     },
+    detox: {
+        ru: '{{name}} предлагает снять вам наркотическую зависимость за ${{sum}}',
+        ua: '{{name}} пропонує зняти вам наркотичну залежність за ${{sum}}',
+        en: '{{name}} offers to treat your drug addiction for ${{sum}}',
+        de: '{{name}} bietet an, deine Drogensucht für ${{sum}} zu behandeln',
+        pl: '{{name}} oferuje leczenie Twojego uzależnienia od narkotyków za ${{sum}}',
+    },
     healPlayer: {
         ru: '{{name}} предлагает оказать вам медицинскую помощь за ${{sum}}',
         ua: '{{name}} пропонує надати вам медичну допомогу за ${{sum}}',

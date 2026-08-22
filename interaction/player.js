@@ -218,6 +218,14 @@ export const player = {
         pl: 'Wylecz choroby gracza',
     },
 
+    detoxPlayer: {
+        ru: 'Снять наркозависимость',
+        ua: 'Зняти наркозалежність',
+        en: 'Treat drug addiction',
+        de: 'Drogensucht behandeln',
+        pl: 'Wylecz uzależnienie',
+    },
+
     healPlayer: {
         ru: 'Вылечить игрока',
         ua: 'Вилікувати гравця',

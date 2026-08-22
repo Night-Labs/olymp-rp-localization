@@ -1,4 +1,25 @@
 export default {
+    testbuffs: {
+        ru: 'Выдать несколько случайных баффов для проверки вкладки «Эффекты».',
+        ua: 'Видати кілька випадкових бафів для перевірки вкладки «Ефекти»',
+        en: 'Grant several random buffs to test the Effects tab',
+        de: 'Mehrere zufällige Buffs vergeben, um den Effekte-Tab zu testen',
+        pl: 'Przyznaj kilka losowych buffów, aby przetestować zakładkę Efekty',
+    },
+    clearbuffs: {
+        ru: 'Снять все тестовые баффы, не трогая настоящие.',
+        ua: 'Зняти всі тестові бафи, не чіпаючи справжні',
+        en: 'Remove every test buff, leaving real ones alone',
+        de: 'Alle Test-Buffs entfernen, echte bleiben bestehen',
+        pl: 'Usuń wszystkie testowe buffy, zostawiając prawdziwe',
+    },
+    buffs: {
+        ru: 'Показать активные баффы и итоговые значения статов.',
+        ua: 'Показати активні бафи та підсумкові значення статів',
+        en: 'Show active buffs and the composed stat values',
+        de: 'Aktive Buffs und die zusammengesetzten Statuswerte anzeigen',
+        pl: 'Pokaż aktywne buffy i złożone wartości statystyk',
+    },
     admin: {
         ru: 'Войти в режим администратора или выйти из него.',
         ua: 'Увійти або вийти з режиму адміністратора',

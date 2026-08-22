@@ -443,6 +443,13 @@ export const cef = {
             de: 'Zustand',
             pl: 'Stan',
         },
+        effects: {
+            ru: 'Эффекты',
+            ua: 'Ефекти',
+            en: 'Effects',
+            de: 'Effekte',
+            pl: 'Efekty',
+        },
         vitals: {
             health: {
                 ru: 'Здоровье',
@@ -479,6 +486,20 @@ export const cef = {
                 de: 'Ausdauer',
                 pl: 'Wytrzymałość',
             },
+        },
+        noModifiers: {
+            ru: 'Нет активных эффектов',
+            ua: 'Немає активних ефектів',
+            en: 'No active effects',
+            de: 'Keine aktiven Effekte',
+            pl: 'Brak aktywnych efektów',
+        },
+        permanentEffect: {
+            ru: 'Постоянно',
+            ua: 'Постійно',
+            en: 'Permanent',
+            de: 'Dauerhaft',
+            pl: 'Na stałe',
         },
         diseasesTitle: {
             ru: 'Заболевания',
