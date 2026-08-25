@@ -188,6 +188,13 @@ export default {
         de: 'Mülltüte wegwerfen',
         pl: 'Wyrzuć worek ze śmieciami',
     },
+    'burglar.dropItem': {
+        ru: 'Поставить краденое',
+        ua: 'Поставити крадене',
+        en: 'Put down stolen item',
+        de: 'Diebesgut abstellen',
+        pl: 'Odłóż skradziony przedmiot',
+    },
     'weapon-heavy': {
         ru: 'Тяжёлое оружие',
         ua: 'Важка зброя',

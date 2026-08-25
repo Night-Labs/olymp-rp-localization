@@ -55,6 +55,14 @@ const inventory = {
         pl: 'Brak miejsca',
     },
 
+    itemNotAccepted: {
+        ru: 'Это сюда не кладут',
+        ua: 'Це сюди не кладуть',
+        en: 'This container does not take that',
+        de: 'Dieser Behälter nimmt das nicht',
+        pl: 'Tego się tu nie wkłada',
+    },
+
     slotsNotEqual: {
         ru: 'Инвентарь изменился, откройте его заново',
         ua: 'Інвентар змінився, відкрийте його заново',

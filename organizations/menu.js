@@ -419,6 +419,13 @@ export const menu = {
             de: 'Mitglieder der Organisation',
             pl: 'Czlonkowie organizacji',
         },
+        reqFactory: {
+            ru: 'Предприятие под контролем',
+            ua: 'Підприємство під контролем',
+            en: 'Controlled facility',
+            de: 'Kontrollierter Betrieb',
+            pl: 'Kontrolowany zaklad',
+        },
         reqHqWarehouse: {
             ru: 'Семейный склад',
             ua: 'Сімейний склад',

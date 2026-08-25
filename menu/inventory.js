@@ -31,6 +31,14 @@ export const inventory = {
         pl: 'Otoczenie',
         zh: '环境',
     },
+    requirementsCoverage: {
+        ua: 'вистачає на {{count}} циклів',
+        en: 'covers {{count}} cycles',
+        ru: 'хватает на {{count}} циклов',
+        de: 'reicht für {{count}} Zyklen',
+        pl: 'wystarczy na {{count}} cykli',
+        zh: '足够 {{count}} 个周期',
+    },
     weapons: {
         ua: 'Ваша зброя',
         en: 'Your Weapons',
@@ -46,6 +54,15 @@ export const inventory = {
         de: 'kg',
         pl: 'kg',
         zh: 'kg',
+    },
+
+    backpack: {
+        ru: 'Рюкзак',
+        ua: 'Рюкзак',
+        en: 'Backpack',
+        de: 'Rucksack',
+        pl: 'Plecak',
+        zh: '背包',
     },
 
     trunk: {

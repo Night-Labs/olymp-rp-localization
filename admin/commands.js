@@ -20,6 +20,20 @@ export default {
         de: 'Aktive Buffs und die zusammengesetzten Statuswerte anzeigen',
         pl: 'Pokaż aktywne buffy i złożone wartości statystyk',
     },
+    factory_cycle: {
+        ru: 'Отмотать часы производства подпольного цеха на N циклов и прогнать его немедленно.',
+        ua: 'Відмотати годинник виробництва підпільного цеху на N циклів і прогнати його негайно',
+        en: 'Rewind an underground factory production clock by N cycles and run it at once',
+        de: 'Die Produktionsuhr einer Untergrundwerkstatt um N Zyklen zurückdrehen und sofort ausführen',
+        pl: 'Cofnij zegar produkcji podziemnego zakładu o N cykli i uruchom go od razu',
+    },
+    burglary: {
+        ru: 'Начать тестовое дело домушника: отметить дом на карте. Аргумент - id интерьера или stop.',
+        ua: 'Почати тестову справу домушника: відзначити будинок на карті. Аргумент - id інтер’єру або stop',
+        en: 'Start a test burglary run and mark the house on the map. The argument is an interior id or stop',
+        de: 'Einen Test-Einbruch starten und das Haus auf der Karte markieren. Das Argument ist eine Interieur-ID oder stop',
+        pl: 'Rozpocznij testową robotę włamywacza i oznacz dom na mapie. Argument to id wnętrza lub stop',
+    },
     admin: {
         ru: 'Войти в режим администратора или выйти из него.',
         ua: 'Увійти або вийти з режиму адміністратора',

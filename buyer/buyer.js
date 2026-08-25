@@ -105,6 +105,31 @@ export default {
         zh: '买家现在不再需要这个物品了',
     },
 
+    outOfCash: {
+        ru: 'У скупщика закончились наличные, следующий завоз в новом окне цен',
+        ua: 'У скупника закінчилася готівка, наступне завезення у новому вікні цін',
+        en: 'The buyer is out of cash, the next delivery comes with the new price window',
+        de: 'Der Käufer hat kein Bargeld mehr, der Nachschub kommt mit dem neuen Preisfenster',
+        pl: 'Kupujący nie ma już gotówki, kolejna dostawa w nowym oknie cen',
+    },
+
+    gates: {
+        organizationOnly: {
+            ru: 'Этот скупщик работает только с организациями',
+            ua: 'Цей скупник працює лише з організаціями',
+            en: 'This buyer only deals with organizations',
+            de: 'Dieser Käufer handelt nur mit Organisationen',
+            pl: 'Ten kupujący współpracuje tylko z organizacjami',
+        },
+        busy: {
+            ru: 'Сначала закончите текущую работу',
+            ua: 'Спочатку закінчіть поточну роботу',
+            en: 'Finish what you are doing first',
+            de: 'Beende zuerst deine aktuelle Arbeit',
+            pl: 'Najpierw zakończ obecną pracę',
+        },
+    },
+
     youNotHaveItem: {
         ru: 'У вас недостаточно этого товара',
         ua: 'У вас недостатньо цього товару',
@@ -192,6 +217,13 @@ export default {
             en: 'Mushrooms',
             de: 'Pilze',
             pl: 'Grzybów',
+        },
+        bishop: {
+            ru: 'Бишоп',
+            ua: 'Бішоп',
+            en: 'Bishop',
+            de: 'Bishop',
+            pl: 'Bishop',
         },
     },
 };

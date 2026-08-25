@@ -8,6 +8,7 @@ import { quarry } from './quarry/quarry';
 import treasureHunter from './treasureHunter/treasureHunter';
 import mushrooms from './mushrooms/mushrooms';
 import towTruck from './towTruck';
+import burglar from './burglar/burglar';
 
 export default {
     // ТО ЧТО СВЯЗАНО С РАБОТАМИ
@@ -153,4 +154,5 @@ export default {
     treasureHunter,
     mushrooms,
     towTruck,
+    burglar,
 };
