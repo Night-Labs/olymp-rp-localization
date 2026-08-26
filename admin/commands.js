@@ -1969,4 +1969,18 @@ export default {
         de: 'Schmuggelkisten auf allen Punkten (oder einer Zone) mit Blips spawnen. off - entfernen.',
         pl: 'Zespawnuj skrzynie kontrabandy na wszystkich punktach (lub jednej strefie) z blipami. off - usun.',
     },
+    safe_hacking: {
+        ru: 'Открыть мини-игру взлома сейфа. Аргумент - количество чисел в комбинации (2-5, по умолчанию 3).',
+        ua: 'Відкрити міні-гру зламу сейфа. Аргумент - кількість чисел у комбінації (2-5, за замовчуванням 3).',
+        en: 'Open the safe cracking minigame. The argument is the amount of numbers in the combination (2-5, 3 by default).',
+        de: 'Das Tresorknack-Minispiel oeffnen. Das Argument ist die Anzahl der Zahlen in der Kombination (2-5, Standard 3).',
+        pl: 'Otworz minigre otwierania sejfu. Argument to liczba cyfr w kombinacji (2-5, domyslnie 3).',
+    },
+    breach_matrix: {
+        ru: 'Открыть мини-игру взлома кодовой панели. Аргумент - сложность (1-5, по умолчанию 2).',
+        ua: 'Відкрити міні-гру зламу кодової панелі. Аргумент - складність (1-5, за замовчуванням 2).',
+        en: 'Open the code panel breach minigame. The argument is the difficulty (1-5, 2 by default).',
+        de: 'Das Codefeld-Minispiel oeffnen. Das Argument ist die Schwierigkeit (1-5, Standard 2).',
+        pl: 'Otworz minigre lamania panelu kodowego. Argument to poziom trudnosci (1-5, domyslnie 2).',
+    },
 };

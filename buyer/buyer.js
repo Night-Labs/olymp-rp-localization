@@ -225,5 +225,12 @@ export default {
             de: 'Bishop',
             pl: 'Bishop',
         },
+        fence: {
+            ru: 'Краденого',
+            ua: 'Краденого',
+            en: 'Stolen goods',
+            de: 'Diebesgut',
+            pl: 'Kradzionych rzeczy',
+        },
     },
 };

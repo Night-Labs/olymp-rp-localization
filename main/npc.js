@@ -1,5 +1,12 @@
 export const npc = {
     names: {
+        ray: {
+            ru: 'Рэй',
+            ua: 'Рей',
+            en: 'Ray',
+            de: 'Ray',
+            pl: 'Ray',
+        },
         dice: {
             ru: 'Дайс',
             ua: 'Дайс',

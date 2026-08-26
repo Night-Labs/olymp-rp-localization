@@ -61,6 +61,14 @@ export const vehicle = {
         zh: '解锁',
     },
 
+    'burglar-loadTrunk': {
+        ru: 'Положить в багажник',
+        ua: 'Покласти в багажник',
+        en: 'Put in the trunk',
+        de: 'In den Kofferraum legen',
+        pl: 'Włożyć do bagażnika',
+    },
+
     'trunk-open': {
         ru: 'Открыть багажник для остальных',
         ua: 'Відкрити багажник для інших',
