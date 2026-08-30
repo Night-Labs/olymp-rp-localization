@@ -69,6 +69,14 @@ export const vehicle = {
         pl: 'Włożyć do bagażnika',
     },
 
+    'contracts-loadTrunk': {
+        ru: 'Погрузить ящик контракта',
+        ua: 'Завантажити ящик контракту',
+        en: 'Load the contract crate',
+        de: 'Vertragskiste einladen',
+        pl: 'Zaladuj skrzynie kontraktu',
+    },
+
     'trunk-open': {
         ru: 'Открыть багажник для остальных',
         ua: 'Відкрити багажник для інших',

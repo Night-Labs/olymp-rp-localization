@@ -831,6 +831,13 @@ export const contracts = {
             de: 'Charge angenommen: {{units}} Einheiten auf den Vertrag angerechnet.',
             pl: 'Partia przyjeta: zaliczono {{units}} jedn. do kontraktu.',
         },
+        crateLoaded: {
+            ru: 'Ящик в багажнике. Можно грузить следующий.',
+            ua: 'Ящик у багажнику. Можна вантажити наступний.',
+            en: 'Crate is in the boot. Go get the next one.',
+            de: 'Kiste liegt im Kofferraum. Hol die naechste.',
+            pl: 'Skrzynia w bagazniku. Mozesz brac kolejna.',
+        },
     },
     info: {
         partyRecovered: {
@@ -875,6 +882,13 @@ export const contracts = {
             de: 'Du hast die Ladung. Bring sie zur Abgabestelle auf der Karte.',
             pl: 'Masz lup. Wiez go do punktu zdania na mapie.',
         },
+        loadIntoTrunk: {
+            ru: 'Ящик у вас в руках. Положите его в багажник машины - за рулём с ним не поехать.',
+            ua: 'Ящик у вас у руках. Покладіть його в багажник машини - за кермом з ним не поїхати.',
+            en: 'The crate is in your hands. Put it in a car boot - you cannot drive holding it.',
+            de: 'Die Kiste ist in deinen Haenden. Leg sie in einen Kofferraum - damit faehrst du nicht.',
+            pl: 'Trzymasz skrzynie. Wloz ja do bagaznika - z nia nie poprowadzisz auta.',
+        },
         needPickupFirst: {
             ru: 'Сначала заберите груз с точки погрузки.',
             ua: 'Спершу заберіть вантаж з точки завантаження.',
@@ -905,6 +919,27 @@ export const contracts = {
         },
     },
     errors: {
+        noTrunk: {
+            ru: 'У этой машины нет багажника для груза.',
+            ua: 'У цієї машини немає багажника для вантажу.',
+            en: 'This car has no boot for the load.',
+            de: 'Dieses Auto hat keinen Kofferraum fuer die Ladung.',
+            pl: 'To auto nie ma bagaznika na ladunek.',
+        },
+        noTrunkAccess: {
+            ru: 'Багажник этой машины для вас закрыт.',
+            ua: 'Багажник цієї машини для вас зачинений.',
+            en: 'This car keeps its boot shut to you.',
+            de: 'Der Kofferraum dieses Autos bleibt fuer dich zu.',
+            pl: 'Bagaznik tego auta jest dla ciebie zamkniety.',
+        },
+        trunkFull: {
+            ru: 'Багажник полный - ящик туда не влезет.',
+            ua: 'Багажник повний - ящик туди не влізе.',
+            en: 'The boot is full - the crate will not fit.',
+            de: 'Der Kofferraum ist voll - die Kiste passt nicht.',
+            pl: 'Bagaznik jest pelny - skrzynia sie nie zmiesci.',
+        },
         notInGame: {
             ru: 'Сначала войдите в игру.',
             ua: 'Спочатку увійдіть у гру.',
@@ -1183,6 +1218,20 @@ export const contracts = {
             en: 'Somebody is already working at this machine. Take a free one.',
             de: 'An dieser Maschine arbeitet bereits jemand. Nimm eine freie.',
             pl: 'Przy tej maszynie ktos juz pracuje. Zajmij wolna.',
+        },
+        'pointClosed.freightTrainStanding': {
+            ru: 'Поезда на платформе нет. Состав встаёт здесь на пятнадцать минут каждый час - грузить можно только тогда.',
+            ua: 'Поїзда на платформі немає. Состав стає тут на п\'ятнадцять хвилин щогодини - вантажити можна лише тоді.',
+            en: 'No train at the platform. The consist stands here fifteen minutes every hour, and that is the only time it can be unloaded.',
+            de: 'Kein Zug an der Rampe. Der Zug steht hier fuenfzehn Minuten pro Stunde - nur dann kann abgeladen werden.',
+            pl: 'Na rampie nie ma pociagu. Sklad stoi tu pietnascie minut na godzine i tylko wtedy mozna rozladowywac.',
+        },
+        allCratesTaken: {
+            ru: 'Весь груз по контракту {{contract}} уже разобран. Везите его заказчику.',
+            ua: 'Весь вантаж за контрактом {{contract}} уже розібрано. Везіть його замовнику.',
+            en: 'Every crate of {{contract}} is already lifted. Run the load to the client.',
+            de: 'Jede Kiste von {{contract}} ist schon aufgenommen. Bring die Ladung zum Kunden.',
+            pl: 'Caly ladunek kontraktu {{contract}} jest juz rozebrany. Wieziecie go zleceniodawcy.',
         },
         batchReadyToDeliver: {
             ru: 'По контракту {{contract}} изготовлено всё. Везите партию заказчику.',

@@ -15,12 +15,84 @@ export default {
         pl: 'Oznaczony dom',
     },
 
-    targetMarked: {
-        ru: 'Дом отмечен на карте: {{label}}, до него {{distance}} м',
-        ua: 'Будинок відзначений на карті: {{label}}, до нього {{distance}} м',
-        en: 'The house is marked on the map: {{label}}, {{distance}} m away',
-        de: 'Das Haus ist auf der Karte markiert: {{label}}, {{distance}} m entfernt',
-        pl: 'Dom jest oznaczony na mapie: {{label}}, odległość {{distance}} m',
+    waitSms: {
+        ru: 'Жди СМС с адресом',
+        ua: 'Чекай СМС з адресою',
+        en: 'Wait for the address by SMS',
+        de: 'Warte auf die Adresse per SMS',
+        pl: 'Czekaj na adres SMS-em',
+    },
+
+    offer1: {
+        ru: 'Адрес скинул, метка на карте. Хозяев нет, дальше сам.',
+        ua: 'Адресу скинув, мітка на мапі. Господарів немає, далі сам.',
+        en: 'Address sent, the mark is on your map. Nobody home, the rest is on you.',
+        de: 'Adresse ist raus, die Markierung ist auf deiner Karte. Niemand zu Hause, der Rest liegt bei dir.',
+        pl: 'Adres poszedł, znacznik masz na mapie. Nikogo nie ma w domu, reszta na tobie.',
+    },
+
+    offer2: {
+        ru: 'Точка на карте. Что внутри - разберёшься на месте, я туда не ходил.',
+        ua: 'Точка на мапі. Що всередині - розберешся на місці, я туди не ходив.',
+        en: 'The spot is on your map. What is inside you will find out there, I have not been in.',
+        de: 'Der Punkt ist auf deiner Karte. Was drin ist, siehst du vor Ort, ich war nicht drin.',
+        pl: 'Punkt masz na mapie. Co jest w środku, sprawdzisz na miejscu, mnie tam nie było.',
+    },
+
+    offer3: {
+        ru: 'Работа есть, адрес у тебя. Тихо зашёл, тихо вышел.',
+        ua: 'Робота є, адреса в тебе. Тихо зайшов, тихо вийшов.',
+        en: 'There is a job, you have the address. In quiet, out quiet.',
+        de: 'Es gibt Arbeit, die Adresse hast du. Leise rein, leise raus.',
+        pl: 'Jest robota, adres masz. Cicho wchodzisz, cicho wychodzisz.',
+    },
+
+    offer4: {
+        ru: 'Держи адрес. Подробностей не жди, их у меня нет.',
+        ua: 'Тримай адресу. Подробиць не чекай, їх у мене немає.',
+        en: 'Here is the address. Do not wait for details, I have none.',
+        de: 'Hier ist die Adresse. Warte nicht auf Details, ich habe keine.',
+        pl: 'Masz adres. Na szczegóły nie licz, nie mam ich.',
+    },
+
+    crewReady: {
+        ru: 'На дело идёте вместе, {{count}}. Шума больше - времени в доме меньше.',
+        ua: 'На справу йдете разом, {{count}}. Шуму більше - часу в будинку менше.',
+        en: 'You are going in together, {{count}} of you. More noise means less time inside.',
+        de: 'Ihr geht zu {{count}}. rein. Mehr Lärm heißt weniger Zeit im Haus.',
+        pl: 'Idziecie razem, {{count}}. Więcej hałasu to mniej czasu w domu.',
+    },
+
+    crewSkipped: {
+        ru: '{{name}} на дело не идёт',
+        ua: '{{name}} на справу не йде',
+        en: '{{name}} is not coming along',
+        de: '{{name}} kommt nicht mit',
+        pl: '{{name}} nie idzie z wami',
+    },
+
+    crewFull: {
+        ru: 'На одно дело берут не больше {{max}} человек',
+        ua: 'На одну справу беруть не більше {{max}} осіб',
+        en: 'No more than {{max}} people go in on one job',
+        de: 'Höchstens {{max}} Leute gehen bei einem Auftrag rein',
+        pl: 'Na jedną robotę wchodzi najwyżej {{max}} osób',
+    },
+
+    crewBusy: {
+        ru: 'Ты уже на деле',
+        ua: 'Ти вже на справі',
+        en: 'You are already on a job',
+        de: 'Du bist schon auf einem Auftrag',
+        pl: 'Jesteś już na robocie',
+    },
+
+    crewCooldown: {
+        ru: 'После прошлого дела прошло слишком мало времени',
+        ua: 'Після минулої справи минуло замало часу',
+        en: 'Too little time has passed since your last job',
+        de: 'Seit deinem letzten Auftrag ist zu wenig Zeit vergangen',
+        pl: 'Od ostatniej roboty minęło za mało czasu',
     },
 
     enterHouse: {
@@ -136,27 +208,27 @@ export default {
     },
 
     alarmDisabled: {
-        ru: 'Сигнализация отключена. В запасе ещё {{minutes}} мин.',
-        ua: 'Сигналізація вимкнена. У запасі ще {{minutes}} хв.',
-        en: 'The alarm is dead. {{minutes}} min left to work with',
-        de: 'Die Alarmanlage ist tot. Noch {{minutes}} Min. Zeit',
-        pl: 'Alarm wyłączony. Zostało jeszcze {{minutes}} min.',
+        ru: 'Сигнализация отключена. В запасе ещё {{time}}.',
+        ua: 'Сигналізація вимкнена. У запасі ще {{time}}.',
+        en: 'The alarm is dead. {{time}} left to work with',
+        de: 'Die Alarmanlage ist tot. Noch {{time}} Zeit',
+        pl: 'Alarm wyłączony. Zostało jeszcze {{time}}.',
     },
 
     alarmTriggered: {
-        ru: 'Сигнализация сработала, полиция уже едет',
-        ua: 'Сигналізація спрацювала, поліція вже їде',
-        en: 'The alarm went off, the police are on their way',
-        de: 'Der Alarm ist losgegangen, die Polizei ist unterwegs',
-        pl: 'Alarm się włączył, policja już jedzie',
+        ru: 'Сигнализация сработала, полиция уже едет. К скупщику не суйся, пока не утихнет',
+        ua: 'Сигналізація спрацювала, поліція вже їде. До скупника не потикайся, поки не вщухне',
+        en: 'The alarm went off, the police are on their way. Do not go near the fence until it goes quiet',
+        de: 'Der Alarm ist losgegangen, die Polizei ist unterwegs. Gehen Sie nicht zum Hehler, bevor es ruhig ist',
+        pl: 'Alarm się włączył, policja już jedzie. Nie pchaj się do pasera, dopóki nie ucichnie',
     },
 
     timeUp: {
-        ru: 'Время вышло, пора уходить',
-        ua: 'Час вийшов, час іти',
-        en: 'Time is up, get out',
-        de: 'Die Zeit ist um, verschwinden Sie',
-        pl: 'Czas minął, pora się zbierać',
+        ru: 'Время вышло, пора уходить. К скупщику не суйся, пока не утихнет',
+        ua: 'Час вийшов, час іти. До скупника не потикайся, поки не вщухне',
+        en: 'Time is up, get out. Do not go near the fence until it goes quiet',
+        de: 'Die Zeit ist um, verschwinden Sie. Gehen Sie nicht zum Hehler, bevor es ruhig ist',
+        pl: 'Czas minął, pora się zbierać. Nie pchaj się do pasera, dopóki nie ucichnie',
     },
 
     lootTimer: {
@@ -165,6 +237,22 @@ export default {
         en: 'Time in the house',
         de: 'Zeit im Haus',
         pl: 'Czas w domu',
+    },
+
+    leaveTimer: {
+        ru: 'Уходи из дома',
+        ua: 'Йди з будинку',
+        en: 'Get out of the house',
+        de: 'Raus aus dem Haus',
+        pl: 'Wychodź z domu',
+    },
+
+    leaveWindow: {
+        ru: 'Адрес уже у полиции. {{seconds}} сек, потом уходишь в любом случае',
+        ua: 'Адреса вже в поліції. {{seconds}} сек, потім ідеш у будь-якому разі',
+        en: 'The police have the address. {{seconds}} sec, then you are out either way',
+        de: 'Die Polizei hat die Adresse. {{seconds}} Sek., dann bist du so oder so draußen',
+        pl: 'Policja ma adres. {{seconds}} sek., potem i tak wychodzisz',
     },
 
     escapeTimer: {
@@ -199,12 +287,36 @@ export default {
         pl: 'W sejfie było {{money}}',
     },
 
+    searchDresser: {
+        ru: 'Обыскать тайник',
+        ua: 'Обшукати схованку',
+        en: 'Search the stash',
+        de: 'Versteck durchsuchen',
+        pl: 'Przeszukać skrytkę',
+    },
+
+    dresserEmpty: {
+        ru: 'В тайнике пусто',
+        ua: 'У схованці порожньо',
+        en: 'The stash is empty',
+        de: 'Das Versteck ist leer',
+        pl: 'Skrytka jest pusta',
+    },
+
     policeAlert: {
-        ru: 'Сигнализация: проникновение в дом, {{address}}',
-        ua: 'Сигналізація: проникнення в будинок, {{address}}',
-        en: 'Alarm: break-in reported, {{address}}',
-        de: 'Alarm: Einbruch gemeldet, {{address}}',
-        pl: 'Alarm: zgłoszono włamanie, {{address}}',
+        ru: 'Сигнализация: проникновение в дом, {{address}}. Подозреваемых: {{count}}',
+        ua: 'Сигналізація: проникнення в будинок, {{address}}. Підозрюваних: {{count}}',
+        en: 'Alarm: break-in reported, {{address}}. Suspects: {{count}}',
+        de: 'Alarm: Einbruch gemeldet, {{address}}. Verdächtige: {{count}}',
+        pl: 'Alarm: zgłoszono włamanie, {{address}}. Podejrzani: {{count}}',
+    },
+
+    houseBlip: {
+        ru: 'Ограбление дома',
+        ua: 'Пограбування будинку',
+        en: 'House break-in',
+        de: 'Einbruch im Haus',
+        pl: 'Włamanie do domu',
     },
 
     suspectBlip: {
@@ -213,6 +325,30 @@ export default {
         en: 'Burglar',
         de: 'Einbrecher',
         pl: 'Włamywacz',
+    },
+
+    busted: {
+        ru: 'Тебя взяли. Всё, что было в багажнике, изъято',
+        ua: 'Тебе взяли. Усе, що було в багажнику, вилучено',
+        en: 'You have been taken. Everything in the boot is seized',
+        de: 'Du wurdest hochgenommen. Alles im Kofferraum ist beschlagnahmt',
+        pl: 'Zgarnęli cię. Wszystko z bagażnika zostało zajęte',
+    },
+
+    bustReward: {
+        ru: 'Задержание домушника. Премия: {{money}}',
+        ua: 'Затримання домушника. Премія: {{money}}',
+        en: 'Burglar detained. Bonus: {{money}}',
+        de: 'Einbrecher festgenommen. Prämie: {{money}}',
+        pl: 'Włamywacz zatrzymany. Premia: {{money}}',
+    },
+
+    policeBusted: {
+        ru: 'Домушник {{name}} задержан. Изъято предметов: {{count}}',
+        ua: 'Домушник {{name}} затриманий. Вилучено предметів: {{count}}',
+        en: 'Burglar {{name}} detained. Items seized: {{count}}',
+        de: 'Einbrecher {{name}} festgenommen. Beschlagnahmte Gegenstände: {{count}}',
+        pl: 'Włamywacz {{name}} zatrzymany. Zajęte przedmioty: {{count}}',
     },
 
     cooldown: {
@@ -229,14 +365,6 @@ export default {
         en: 'You already have an address',
         de: 'Sie haben bereits eine Adresse',
         pl: 'Masz już adres',
-    },
-
-    dropOnlyInside: {
-        ru: 'На улице вещь можно только погрузить в багажник',
-        ua: 'На вулиці річ можна лише завантажити в багажник',
-        en: 'Outside, the only place to put it is the trunk',
-        de: 'Draußen kann es nur in den Kofferraum',
-        pl: 'Na zewnątrz można ją tylko włożyć do bagażnika',
     },
 
     loadedIntoTrunk: {
@@ -261,6 +389,14 @@ export default {
         en: 'This vehicle has no trunk',
         de: 'Dieses Fahrzeug hat keinen Kofferraum',
         pl: 'Ten pojazd nie ma bagażnika',
+    },
+
+    lootLocked: {
+        ru: 'Пока копы ищут вас, краденое из багажника не достать',
+        ua: 'Поки копи шукають вас, крадене з багажника не дістати',
+        en: 'While the police are looking for you, the loot stays in the trunk',
+        de: 'Solange die Polizei nach Ihnen sucht, bleibt die Beute im Kofferraum',
+        pl: 'Dopóki policja cię szuka, łup zostaje w bagażniku',
     },
 
     notYourVehicle: {
@@ -315,12 +451,12 @@ export default {
                 de: 'Nein',
                 pl: 'Nie',
             },
-            addressIsOnYourMap: {
-                ru: 'Адрес у тебя на карте. Работай тихо.',
-                ua: 'Адреса в тебе на мапі. Працюй тихо.',
-                en: 'The address is on your map. Keep it quiet.',
-                de: 'Die Adresse ist auf deiner Karte. Mach es leise.',
-                pl: 'Adres masz na mapie. Rób to cicho.',
+            addressBySms: {
+                ru: 'Скину адрес смской, пары минут не займёт. Работай тихо.',
+                ua: 'Скину адресу смскою, пари хвилин не займе. Працюй тихо.',
+                en: 'I will text you the address, it will not take long. Keep it quiet.',
+                de: 'Ich schicke dir die Adresse per SMS, dauert nicht lange. Mach es leise.',
+                pl: 'Wyślę adres SMS-em, to chwila. Rób to cicho.',
             },
             okay: {
                 ru: 'Понял',
@@ -328,22 +464,6 @@ export default {
                 en: 'Got it',
                 de: 'Verstanden',
                 pl: 'Jasne',
-            },
-        },
-        already: {
-            youAreWorkingAlready: {
-                ru: 'Я тебе уже дал адрес. Иди работай.',
-                ua: 'Я тобі вже дав адресу. Іди працюй.',
-                en: 'I already gave you an address. Go work it.',
-                de: 'Ich habe dir schon eine Adresse gegeben. Los, arbeite.',
-                pl: 'Już dałem ci adres. Idź do roboty.',
-            },
-            ahYes: {
-                ru: 'А, точно',
-                ua: 'А, точно',
-                en: 'Ah, right',
-                de: 'Ah, stimmt',
-                pl: 'A, właśnie',
             },
         },
         cooldown: {
@@ -360,29 +480,6 @@ export default {
                 en: 'Fine',
                 de: 'Gut',
                 pl: 'Dobra',
-            },
-        },
-        gov: {
-            notForYou: {
-                ru: 'С тобой мне говорить не о чем. Иди отсюда.',
-                ua: 'З тобою мені говорити нема про що. Іди звідси.',
-                en: 'Nothing to talk about with you. Get lost.',
-                de: 'Mit dir habe ich nichts zu bereden. Verschwinde.',
-                pl: 'Nie mam z tobą o czym gadać. Spadaj.',
-            },
-            sorry: {
-                ru: 'Извини',
-                ua: 'Вибач',
-                en: 'Sorry',
-                de: 'Entschuldigung',
-                pl: 'Przepraszam',
-            },
-            fuckYou: {
-                ru: 'Сам иди',
-                ua: 'Сам іди',
-                en: 'You get lost',
-                de: 'Verschwinde selbst',
-                pl: 'Sam spadaj',
             },
         },
     },

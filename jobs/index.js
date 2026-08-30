@@ -98,6 +98,13 @@ export default {
             de: 'Autodieb',
             pl: 'Złodziej samochodów',
         },
+        burglar: {
+            ru: 'Домушник',
+            ua: 'Домушник',
+            en: 'Burglar',
+            de: 'Einbrecher',
+            pl: 'Włamywacz',
+        },
         diver: {
             ru: 'Водолаз',
             ua: 'Водолаз',
@@ -125,6 +132,13 @@ export default {
             en: 'Garbage worker',
             de: 'Mullwerker',
             pl: 'Smieciarz',
+        },
+        airCargo: {
+            ru: 'Авиагрузчик',
+            ua: 'Авіавантажник',
+            en: 'Air Cargo Loader',
+            de: 'Luftfracht-Verlader',
+            pl: 'Ładowacz lotniczy',
         },
         towTruck: {
             ru: 'Оператор эвакуатора',

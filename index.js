@@ -75,6 +75,7 @@ import shootingRange from './shootingRange';
 import prism from './prism';
 import diving from './diving';
 import garbage from './garbage';
+import airCargo from './airCargo';
 import drivingSchool from './drivingSchool';
 import drugs from './drugs';
 import modifiers from './modifiers';
@@ -106,6 +107,7 @@ import effects from './effects';
 import militaryGates from './militaryGates';
 import signEditor from './signEditor';
 import funicular from './funicular';
+import freightTrain from './freightTrain';
 import ping from './ping';
 
 export default {
@@ -186,6 +188,7 @@ export default {
     shootingRange,
     diving,
     garbage,
+    airCargo,
     prism,
     drivingSchool,
     drugs,
@@ -218,6 +221,7 @@ export default {
     militaryGates,
     signEditor,
     funicular,
+    freightTrain,
     ping,
 };
 

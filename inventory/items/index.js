@@ -15,6 +15,7 @@ import blueprint from './blueprints';
 import craftComponents from './craftComponents';
 import forgery from './forgery';
 import burglar from './burglar';
+import cargo from './cargo';
 export const items = {
     ...food,
     ...itemsList,
@@ -33,4 +34,5 @@ export const items = {
     ...craftComponents,
     ...forgery,
     burglar,
+    cargo,
 };

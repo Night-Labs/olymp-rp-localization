@@ -1,12 +1,5 @@
 export const npc = {
     names: {
-        ray: {
-            ru: 'Рэй',
-            ua: 'Рей',
-            en: 'Ray',
-            de: 'Ray',
-            pl: 'Ray',
-        },
         dice: {
             ru: 'Дайс',
             ua: 'Дайс',
@@ -234,6 +227,13 @@ export const npc = {
             de: 'Taucher',
             pl: 'Główny Nurek',
         },
+        airCargoForeman: {
+            ru: 'Сменный Терминала',
+            ua: 'Змінний Термінала',
+            en: 'Terminal Foreman',
+            de: 'Terminal-Vorarbeiter',
+            pl: 'Brygadzista Terminala',
+        },
         garbageWorker: {
             ru: 'Старший Смены',
             ua: 'Старший Зміни',
@@ -354,6 +354,13 @@ export const npc = {
             de: 'Mark',
             pl: 'Mark',
         },
+        duke: {
+            ru: 'Дюк',
+            ua: 'Дюк',
+            en: 'Duke',
+            de: 'Duke',
+            pl: 'Duke',
+        },
         veronica: {
             ru: 'Вероника',
             ua: 'Вероніка',
@@ -440,6 +447,13 @@ export const npc = {
             en: 'Warehouse Manager',
             de: 'Lagerverwalter',
             pl: 'Kierownik magazynu',
+        },
+        fence: {
+            ru: 'Скупщик краденого',
+            ua: 'Скупник краденого',
+            en: 'Fence',
+            de: 'Hehler',
+            pl: 'Paser',
         },
         allInLegend: {
             ru: 'Легенда олл-ина',

@@ -61,6 +61,24 @@ export default {
         zh: '你的',
     },
 
+    useTrunk: {
+        ru: 'Продавать из багажника машины рядом',
+        ua: 'Продавати з багажника машини поруч',
+        en: 'Sell from the trunk of a car nearby',
+        de: 'Auch aus dem Kofferraum eines Autos in der Nähe verkaufen',
+        pl: 'Sprzedawaj też z bagażnika auta obok',
+        zh: '一并出售附近车辆后备箱内的物品',
+    },
+
+    noTrunkNearby: {
+        ru: 'машины рядом нет',
+        ua: 'машини поруч немає',
+        en: 'no car nearby',
+        de: 'kein Auto in der Nähe',
+        pl: 'brak auta w pobliżu',
+        zh: '附近没有车辆',
+    },
+
     enterAmount: {
         ru: 'Введите количество',
         ua: 'Введіть кількість',
@@ -162,6 +180,53 @@ export default {
         en: 'Update prices via',
         de: 'Preise aktualisieren über',
         pl: 'Aktualizacja cen przez',
+    },
+
+    dialogs: {
+        fence: {
+            welcome: {
+                ru: 'Ну, что привёз? Разгружай, только быстро',
+                ua: 'Ну, що привіз? Розвантажуй, тільки швидко',
+                en: 'So what did you bring? Unload it, and make it quick',
+                de: 'Na, was hast du dabei? Lad ab, aber zügig',
+                pl: 'No i co przywiozłeś? Rozładuj, tylko szybko',
+            },
+            open: {
+                ru: 'Показать товар',
+                ua: 'Показати товар',
+                en: 'Show the goods',
+                de: 'Ware zeigen',
+                pl: 'Pokaż towar',
+            },
+            leave: {
+                ru: 'В другой раз',
+                ua: 'Іншого разу',
+                en: 'Another time',
+                de: 'Ein andermal',
+                pl: 'Innym razem',
+            },
+            tail: {
+                ru: 'Ты приехал ко мне прямо с дела? За тобой мог быть хвост. Всё, я тебя не знаю - {{time}}. Груз держи в багажнике, с ним ничего не случится',
+                ua: "Ти приїхав до мене просто зі справи? За тобою міг бути хвіст. Усе, я тебе не знаю - {{time}}. Вантаж тримай у багажнику, з ним нічого не станеться",
+                en: 'You drove here straight from the job? You could have had a tail. That is it, I do not know you for {{time}}. Keep the goods in the boot, nothing will happen to them',
+                de: 'Du kommst direkt vom Ding zu mir? Dir könnte jemand gefolgt sein. Das war es, ich kenne dich {{time}} lang nicht. Lass die Ware im Kofferraum, ihr passiert nichts',
+                pl: 'Przyjechałeś do mnie prosto z roboty? Mogłeś mieć ogon. Koniec, nie znam cię przez {{time}}. Towar trzymaj w bagażniku, nic mu się nie stanie',
+            },
+            banned: {
+                ru: 'Не сейчас. Приходи через {{time}}',
+                ua: 'Не зараз. Приходь через {{time}}',
+                en: 'Not now. Come back in {{time}}',
+                de: 'Nicht jetzt. Komm in {{time}} wieder',
+                pl: 'Nie teraz. Wróć za {{time}}',
+            },
+            ok: {
+                ru: 'Понял',
+                ua: 'Зрозумів',
+                en: 'Got it',
+                de: 'Verstanden',
+                pl: 'Jasne',
+            },
+        },
     },
 
     types: {

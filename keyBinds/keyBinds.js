@@ -188,6 +188,20 @@ export default {
         de: 'Mülltüte wegwerfen',
         pl: 'Wyrzuć worek ze śmieciami',
     },
+    'airCargo.forkUp': {
+        ru: 'Поднять вилы погрузчика',
+        ua: 'Підняти вила навантажувача',
+        en: 'Raise forklift forks',
+        de: 'Gabelstaplergabeln heben',
+        pl: 'Podnieś widły wózka',
+    },
+    'airCargo.forkDown': {
+        ru: 'Опустить вилы погрузчика',
+        ua: 'Опустити вила навантажувача',
+        en: 'Lower forklift forks',
+        de: 'Gabelstaplergabeln senken',
+        pl: 'Opuść widły wózka',
+    },
     'burglar.dropItem': {
         ru: 'Поставить краденое',
         ua: 'Поставити крадене',

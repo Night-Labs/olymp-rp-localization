@@ -159,22 +159,6 @@ export const burglarItems = {
             pl: 'Ciężka, kanciasta i prawie nic niewarta. Takie rzeczy bierze się z czystej chciwości.',
         },
     },
-    cashRegister: {
-        name: {
-            ru: 'Кассовый аппарат',
-            ua: 'Касовий апарат',
-            en: 'Cash register',
-            de: 'Registrierkasse',
-            pl: 'Kasa fiskalna',
-        },
-        desc: {
-            ru: 'Ящик выдвинут, лотки пустые, на чеке так и осталось "sale $2.99". Непонятно, что он вообще делал в жилой квартире.',
-            ua: 'Шухляда висунута, лотки порожні, на чеку так і залишилося "sale $2.99". Незрозуміло, що він взагалі робив у житловій квартирі.',
-            en: 'The drawer is out, the trays are empty and the receipt still reads "sale $2.99". What it was doing in a flat is anyone\'s guess.',
-            de: 'Die Lade steht offen, die Fächer sind leer, auf dem Bon steht noch "sale $2.99". Was sie in einer Wohnung zu suchen hatte, bleibt offen.',
-            pl: 'Szuflada wysunięta, przegródki puste, na paragonie wciąż "sale $2.99". Co to robiło w mieszkaniu, nie wiadomo.',
-        },
-    },
     fan: {
         name: {
             ru: 'Напольный вентилятор',
@@ -269,6 +253,198 @@ export const burglarItems = {
             en: 'Five hardbacks, not one of them ever opened. A second-hand dealer pays little but asks nothing.',
             de: 'Fünf gebundene Bände, keiner je aufgeschlagen. Der Antiquar zahlt wenig, fragt dafür nichts.',
             pl: 'Pięć tomów w twardej oprawie, żadnego nie otwarto. Antykwariusz da niewiele, za to o nic nie zapyta.',
+        },
+    },
+    microwave: {
+        name: {
+            ru: 'Микроволновка',
+            ua: 'Мікрохвильовка',
+            en: 'Microwave oven',
+            de: 'Mikrowelle',
+            pl: 'Kuchenka mikrofalowa',
+        },
+        desc: {
+            ru: 'Снята прямо с кухонной тумбы, вилка так и болтается сзади. Внутри чья-то вчерашняя тарелка.',
+            ua: 'Знята просто з кухонної тумби, вилка так і теліпається позаду. Усередині чиясь учорашня тарілка.',
+            en: "Lifted straight off the counter with the plug still swinging behind it. Somebody's dinner is still inside.",
+            de: 'Direkt von der Arbeitsplatte gehoben, der Stecker baumelt noch hinterher. Drinnen steht noch jemandes Abendessen.',
+            pl: 'Zdjęta wprost z blatu, wtyczka wciąż dynda z tyłu. W środku czyjaś wczorajsza kolacja.',
+        },
+    },
+    toolBox: {
+        name: {
+            ru: 'Ящик с инструментами',
+            ua: 'Ящик з інструментами',
+            en: 'Toolbox',
+            de: 'Werkzeugkasten',
+            pl: 'Skrzynka z narzędziami',
+        },
+        desc: {
+            ru: 'Тяжёлый и гремит на каждом шаге. Хозяин собирал его годами, скупщик оценит за пять секунд.',
+            ua: "Важкий і гримить на кожному кроці. Господар збирав його роками, скупник оцінить за п'ять секунд.",
+            en: 'Heavy, and it rattles at every step. The owner spent years filling it; the fence values it in five seconds.',
+            de: 'Schwer, und bei jedem Schritt klappert es. Der Besitzer hat ihn jahrelang gefüllt, der Hehler schätzt ihn in fünf Sekunden.',
+            pl: 'Ciężka i grzechocze przy każdym kroku. Właściciel kompletował ją latami, paser wyceni w pięć sekund.',
+        },
+    },
+    coolerBox: {
+        name: {
+            ru: 'Термобокс',
+            ua: 'Термобокс',
+            en: 'Cool box',
+            de: 'Kühlbox',
+            pl: 'Lodówka turystyczna',
+        },
+        desc: {
+            ru: 'Пластиковый ящик с плотной крышкой, внутри ещё холодно. Что в нём лежало, лучше не выяснять.',
+            ua: "Пластикова скриня зі щільною кришкою, всередині ще холодно. Що в ній лежало, краще не з'ясовувати.",
+            en: 'A plastic box with a tight lid, still cold inside. Better not to work out what it was keeping cold.',
+            de: 'Eine Plastikbox mit dichtem Deckel, innen noch kalt. Was darin lag, erfragt man besser nicht.',
+            pl: 'Plastikowa skrzynia ze szczelną pokrywą, w środku wciąż zimno. Lepiej nie dociekać, co w niej trzymano.',
+        },
+    },
+    paperBox: {
+        name: {
+            ru: 'Коробка бумаги',
+            ua: 'Коробка паперу',
+            en: 'Box of copy paper',
+            de: 'Karton Kopierpapier',
+            pl: 'Karton papieru',
+        },
+        desc: {
+            ru: 'Нераспечатанная пачка офисной бумаги. Тащат такое только от безысходности, зато никто не хватится.',
+            ua: 'Нерозпечатана пачка офісного паперу. Тягнуть таке лише з безвиході, зате ніхто не схопиться.',
+            en: 'An unopened case of copy paper. You only carry this out when nothing better is left, but nobody ever reports it missing.',
+            de: 'Ein ungeöffneter Karton Kopierpapier. Das nimmt man nur mit, wenn nichts Besseres bleibt, dafür vermisst es niemand.',
+            pl: 'Nieotwarta ryza papieru do drukarki. Bierze się to z bezradności, za to nikt tego nie zgłosi.',
+        },
+    },
+    woodenCrate: {
+        name: {
+            ru: 'Заколоченный ящик',
+            ua: 'Забитий ящик',
+            en: 'Nailed-down crate',
+            de: 'Zugenagelte Kiste',
+            pl: 'Zabita skrzynia',
+        },
+        desc: {
+            ru: 'Сколочен на совесть, штамп на боку затёрт. Внутри что-то есть, но вскрывать некогда.',
+            ua: 'Збитий на совість, штамп збоку затертий. Усередині щось є, але розкривати ніколи.',
+            en: 'Nailed shut properly, the stencil on the side worn off. Something is in there, but there is no time to find out what.',
+            de: 'Ordentlich zugenagelt, die Schablone an der Seite abgerieben. Da ist etwas drin, aber keine Zeit nachzusehen.',
+            pl: 'Solidnie zabita gwoździami, szablon z boku starty. Coś w niej jest, ale nie ma kiedy sprawdzać.',
+        },
+    },
+    clothesCrate: {
+        name: {
+            ru: 'Ящик с одеждой',
+            ua: 'Ящик з одягом',
+            en: 'Crate of clothes',
+            de: 'Kiste mit Kleidung',
+            pl: 'Skrzynia z ubraniami',
+        },
+        desc: {
+            ru: 'Пластиковый контейнер, из-под крышки торчит рукав. Тряпьё как тряпьё, но на вес берут и такое.',
+            ua: "Пластиковий контейнер, з-під кришки стирчить рукав. Ганчір'я як ганчір'я, але на вагу беруть і таке.",
+            en: 'A plastic crate with a sleeve poking out from under the lid. Rags are rags, but they get bought by weight.',
+            de: 'Eine Plastikkiste, unter dem Deckel schaut ein Ärmel hervor. Lumpen bleiben Lumpen, doch auch die gehen nach Gewicht weg.',
+            pl: 'Plastikowa skrzynia, spod pokrywy wystaje rękaw. Szmaty jak szmaty, ale i takie idą na wagę.',
+        },
+    },
+    suitcase: {
+        name: {
+            ru: 'Чемодан',
+            ua: 'Валіза',
+            en: 'Suitcase',
+            de: 'Koffer',
+            pl: 'Walizka',
+        },
+        desc: {
+            ru: 'Мягкий чемодан с биркой аэропорта, так и не снятой. Судя по весу, разбирать его после отпуска не стали.',
+            ua: 'М\'яка валіза з биркою аеропорту, так і не знятою. Судячи з ваги, розбирати її після відпустки не стали.',
+            en: 'A soft suitcase with the airport tag still on it. By the weight, nobody unpacked it after the holiday.',
+            de: 'Ein weicher Koffer, der Flughafenanhänger hängt noch dran. Dem Gewicht nach hat ihn nach dem Urlaub niemand ausgepackt.',
+            pl: 'Miękka walizka z wciąż przyczepioną przywieszką z lotniska. Sądząc po wadze, nikt jej po urlopie nie rozpakował.',
+        },
+    },
+    sportsBag: {
+        name: {
+            ru: 'Спортивная сумка',
+            ua: 'Спортивна сумка',
+            en: 'Sports holdall',
+            de: 'Sporttasche',
+            pl: 'Torba sportowa',
+        },
+        desc: {
+            ru: 'Красная сумка из-под кровати. Внутри форма, кроссовки и что-то тяжёлое на самом дне.',
+            ua: 'Червона сумка з-під ліжка. Усередині форма, кросівки і щось важке на самому дні.',
+            en: 'A red holdall from under the bed. Kit, trainers, and something heavy right at the bottom.',
+            de: 'Eine rote Sporttasche unter dem Bett hervor. Trikot, Turnschuhe und ganz unten etwas Schweres.',
+            pl: 'Czerwona torba spod łóżka. W środku strój, buty i coś ciężkiego na samym dnie.',
+        },
+    },
+    vinylBag: {
+        name: {
+            ru: 'Сумка с винилом',
+            ua: 'Сумка з вінілом',
+            en: 'Bag of records',
+            de: 'Plattentasche',
+            pl: 'Torba z winylami',
+        },
+        desc: {
+            ru: 'Сумка диджея, набитая пластинками. Половина тиража давно не переиздавалась, и на этом можно поднять.',
+            ua: 'Сумка діджея, напхана платівками. Половина накладу давно не перевидавалася, і на цьому можна підняти.',
+            en: 'A DJ bag packed with records. Half the pressings have never been reissued, and that is where the money is.',
+            de: 'Eine DJ-Tasche voller Platten. Die Hälfte der Pressungen wurde nie neu aufgelegt, und genau daran verdient man.',
+            pl: 'Torba didżeja wypchana płytami. Połowa tłoczeń nigdy nie doczekała się wznowienia i właśnie na tym się zarabia.',
+        },
+    },
+    golfBag: {
+        name: {
+            ru: 'Сумка для гольфа',
+            ua: 'Сумка для гольфу',
+            en: 'Golf bag',
+            de: 'Golfbag',
+            pl: 'Torba golfowa',
+        },
+        desc: {
+            ru: 'Полный набор клюшек в розовом чехле. Смотрится в этой квартире так же неуместно, как и на плече у вора.',
+            ua: 'Повний набір ключок у рожевому чохлі. Виглядає в цій квартирі так само недоречно, як і на плечі у злодія.',
+            en: "A full set of clubs in a pink bag. It looks as out of place in this flat as it does on a burglar's shoulder.",
+            de: 'Ein kompletter Satz Schläger in einem rosa Bag. In dieser Wohnung wirkt er so fehl am Platz wie auf der Schulter eines Einbrechers.',
+            pl: 'Pełny zestaw kijów w różowym pokrowcu. W tym mieszkaniu wygląda równie nie na miejscu, co na ramieniu włamywacza.',
+        },
+    },
+    weaponsBag: {
+        name: {
+            ru: 'Сумка с оружием',
+            ua: 'Сумка зі зброєю',
+            en: 'Bag of guns',
+            de: 'Waffentasche',
+            pl: 'Torba z bronią',
+        },
+        desc: {
+            ru: 'Из приоткрытой молнии торчит ствол. Хозяин такой пропажи в полицию не пойдёт, но искать будет сам.',
+            ua: 'З привідкритої блискавки стирчить ствол. Господар такої пропажі в поліцію не піде, але шукати буде сам.',
+            en: 'A barrel sticking out of the half-open zip. The owner will not be calling the police about this one, but he will come looking himself.',
+            de: 'Aus dem halb offenen Reißverschluss ragt ein Lauf. Wegen so etwas ruft der Besitzer nicht die Polizei, er sucht selbst.',
+            pl: 'Z na wpół rozsuniętego zamka wystaje lufa. Właściciel z taką stratą na policję nie pójdzie, ale sam zacznie szukać.',
+        },
+    },
+    organCooler: {
+        name: {
+            ru: 'Контейнер для органов',
+            ua: 'Контейнер для органів',
+            en: 'Organ transport cooler',
+            de: 'Organtransportbox',
+            pl: 'Pojemnik transportowy na organy',
+        },
+        desc: {
+            ru: 'Медицинский термоконтейнер с надписью "human organ for transport". Что он делает в жилой квартире, лучше не спрашивать, а скупщик и не спросит.',
+            ua: 'Медичний термоконтейнер з написом "human organ for transport". Що він робить у житловій квартирі, краще не питати, а скупник і не спитає.',
+            en: 'A medical cooler stencilled "human organ for transport". What it is doing in somebody\'s flat is not a question to ask, and the fence will not ask it either.',
+            de: 'Eine medizinische Kühlbox mit dem Aufdruck "human organ for transport". Was sie in einer Wohnung zu suchen hat, fragt man besser nicht, und der Hehler fragt es auch nicht.',
+            pl: 'Medyczny pojemnik chłodzący z napisem "human organ for transport". Co robi w czyimś mieszkaniu, lepiej nie pytać, a paser i tak nie zapyta.',
         },
     },
 };
