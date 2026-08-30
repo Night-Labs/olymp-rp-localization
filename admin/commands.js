@@ -2221,4 +2221,11 @@ export default {
         de: 'Die Luftfracht-Schicht antreten oder beenden, ohne zum NPC zu laufen.',
         pl: 'Zatrudnij sie jako ladowacz lotniczy albo zakoncz zmiane bez podchodzenia do NPC.',
     },
+    chatcolors: {
+        ru: 'Показать образцы всех цветов и сообщений чата. Аргумент - раздел (palette/ic/channels/ads/org/system/all).',
+        ua: 'Показати зразки всіх кольорів і повідомлень чату. Аргумент - розділ (palette/ic/channels/ads/org/system/all).',
+        en: 'Show samples of every chat color and message. The argument is a section (palette/ic/channels/ads/org/system/all).',
+        de: 'Beispiele aller Chatfarben und Nachrichten anzeigen. Das Argument ist ein Abschnitt (palette/ic/channels/ads/org/system/all).',
+        pl: 'Pokaz probki wszystkich kolorow i wiadomosci czatu. Argument to sekcja (palette/ic/channels/ads/org/system/all).',
+    },
 };

@@ -95,11 +95,11 @@ export const server = {
     },
 
     donated: {
-        ru: '!{#ffffff}Спасибо за ваш донат проекту! <br> Вам начислено !{#fdd431}{{donateSum}} Olymp-Coins !{#ffffff}ваш баланс: !{#fdd431}{{balance}} Olymp-Coins',
-        ua: '!{#ffffff}Дякуємо за ваш донат проекту! <br> Вам нараховано !{#fdd431}{{donateSum}} Olymp-Coins !{#ffffff}ваш баланс: !{#fdd431}{{balance}} Olymp-Coins',
-        en: '!{#ffffff}Thank you for your donation to the project! <br> You have been credited with !{#fdd431}{{donateSum}} Olymp-Coins !{#ffffff}your balance: !{#fdd431}{{balance}} Olymp-Coins',
-        de: '!{#ffffff}Danke für deine Spende an das Projekt! <br> Dir wurden !{#fdd431}{{donateSum}} Olymp-Coins gutgeschrieben !{#ffffff}Dein Kontostand: !{#fdd431}{{balance}} Olymp-Coins',
-        pl: '!{#ffffff}Dziękujemy za darowiznę na rzecz projektu! <br> Zostało Ci przyznane !{#fdd431}{{donateSum}} Olymp-Coins !{#ffffff}twój stan konta: !{#fdd431}{{balance}} Olymp-Coins',
+        ru: '~w~Спасибо за ваш донат проекту! <br> Вам начислено ~o~{{donateSum}} Olymp-Coins ~w~ваш баланс: ~o~{{balance}} Olymp-Coins',
+        ua: '~w~Дякуємо за ваш донат проекту! <br> Вам нараховано ~o~{{donateSum}} Olymp-Coins ~w~ваш баланс: ~o~{{balance}} Olymp-Coins',
+        en: '~w~Thank you for your donation to the project! <br> You have been credited with ~o~{{donateSum}} Olymp-Coins ~w~your balance: ~o~{{balance}} Olymp-Coins',
+        de: '~w~Danke für deine Spende an das Projekt! <br> Dir wurden ~o~{{donateSum}} Olymp-Coins gutgeschrieben ~w~Dein Kontostand: ~o~{{balance}} Olymp-Coins',
+        pl: '~w~Dziękujemy za darowiznę na rzecz projektu! <br> Zostało Ci przyznane ~o~{{donateSum}} Olymp-Coins ~w~twój stan konta: ~o~{{balance}} Olymp-Coins',
         zh: '请联系管理',
     },
 

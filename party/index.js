@@ -86,10 +86,10 @@ export default {
         "pl": "{{name}} opuścił twoją grupę",
     },
     chatMessage: {
-        ru: '!{#FF9F43}[Группа] {{playerName}}: {{message}}',
-        ua: '!{#FF9F43}[Група] {{playerName}}: {{message}}',
-        en: '!{#FF9F43}[Party] {{playerName}}: {{message}}',
-        de: '!{#FF9F43}[Gruppe] {{playerName}}: {{message}}',
-        pl: '!{#FF9F43}[Grupa] {{playerName}}: {{message}}',
+        ru: '~t~[Группа] {{playerName}}: {{message}}',
+        ua: '~t~[Група] {{playerName}}: {{message}}',
+        en: '~t~[Party] {{playerName}}: {{message}}',
+        de: '~t~[Gruppe] {{playerName}}: {{message}}',
+        pl: '~t~[Grupa] {{playerName}}: {{message}}',
     },
 };

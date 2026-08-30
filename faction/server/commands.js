@@ -1,18 +1,18 @@
 export default {
     depBroadcast: {
-        ru: '!{#FFFF00}[Департамент] {{factionName}} {{playerName}}: {{message}}',
-        ua: '!{#FFFF00}[Департамент] {{factionName}} {{playerName}}: {{message}}',
-        en: '!{#FFFF00}[Department] {{factionName}} {{playerName}}: {{message}}',
-        de: '!{#FFFF00}[Abteilung] {{factionName}} {{playerName}}: {{message}}',
-        pl: '!{#FFFF00}[Departament] {{factionName}} {{playerName}}: {{message}}',
-        zh:'!{#FFFF00}[部门]{{factionName}{{playerName}:{{message}'
+        ru: '~c~[Департамент] {{factionName}} {{playerName}}: {{message}}',
+        ua: '~c~[Департамент] {{factionName}} {{playerName}}: {{message}}',
+        en: '~c~[Department] {{factionName}} {{playerName}}: {{message}}',
+        de: '~c~[Abteilung] {{factionName}} {{playerName}}: {{message}}',
+        pl: '~c~[Departament] {{factionName}} {{playerName}}: {{message}}',
+        zh: '~c~[部门] {{factionName}} {{playerName}}: {{message}}'
     },
     govBroadcast: {
-        ru: '!{#2196F3}{{factionName}} {{playerName}}: {{message}}',
-        ua: '!{#2196F3}{{factionName}} {{playerName}}: {{message}}',
-        en: '!{#2196F3}{{factionName}} {{playerName}}: {{message}}',
-        de: '!{#2196F3}{{factionName}} {{playerName}}: {{message}}',
-        pl: '!{#2196F3}{{factionName}} {{playerName}}: {{message}}',
+        ru: '~b~{{factionName}} {{playerName}}: {{message}}',
+        ua: '~b~{{factionName}} {{playerName}}: {{message}}',
+        en: '~b~{{factionName}} {{playerName}}: {{message}}',
+        de: '~b~{{factionName}} {{playerName}}: {{message}}',
+        pl: '~b~{{factionName}} {{playerName}}: {{message}}',
     },
     fUsage: {
         ru: '[сообщение] - фракционный чат',
@@ -22,20 +22,20 @@ export default {
         pl: '[wiadomosc] - czat frakcji',
     },
     fMessage: {
-        ru: '!{#2196F3}[Рация {{factionName}}] {{playerName}}: {{message}}',
-        ua: '!{#2196F3}[Рація {{factionName}}] {{playerName}}: {{message}}',
-        en: '!{#2196F3}[Radio {{factionName}}] {{playerName}}: {{message}}',
-        de: '!{#2196F3}[Funkgerät {{factionName}}] {{playerName}}: {{message}}',
-        pl: '!{#2196F3}[Radio {{factionName}}] {{playerName}}: {{message}}',
-       zh:'#2196F3}[无线电{{factionName}]{{playerName}:{{message}'
+        ru: '~b~[Рация {{factionName}}] {{playerName}}: {{message}}',
+        ua: '~b~[Рація {{factionName}}] {{playerName}}: {{message}}',
+        en: '~b~[Radio {{factionName}}] {{playerName}}: {{message}}',
+        de: '~b~[Funkgerät {{factionName}}] {{playerName}}: {{message}}',
+        pl: '~b~[Radio {{factionName}}] {{playerName}}: {{message}}',
+       zh: '~b~[无线电 {{factionName}}] {{playerName}}: {{message}}'
     },
     fbMessage: {
-        ru: '!{#2196F3}[Рация {{factionName}}] {{playerName}}: (( {{message}} ))',
-        ua: '!{#2196F3}[Рація {{factionName}}] {{playerName}}: (( {{message}} ))',
-        en: '!{#2196F3}[Radio {{factionName}}] {{playerName}}: (( {{message}} ))',
-        de: '!{#2196F3}[Funk {{factionName}}] {{playerName}}: (( {{message}} ))',
-        pl: '!{#2196F3}[Radio {{factionName}}] {{playerName}}: (( {{message}} ))',
-        zh:'{#2196F3}[无线电{{factionName}]{{playerName}}：（（{{message}}））'
+        ru: '~b~[Рация {{factionName}}] {{playerName}}: (( {{message}} ))',
+        ua: '~b~[Рація {{factionName}}] {{playerName}}: (( {{message}} ))',
+        en: '~b~[Radio {{factionName}}] {{playerName}}: (( {{message}} ))',
+        de: '~b~[Funk {{factionName}}] {{playerName}}: (( {{message}} ))',
+        pl: '~b~[Radio {{factionName}}] {{playerName}}: (( {{message}} ))',
+        zh: '~b~[无线电 {{factionName}}] {{playerName}}：（（{{message}}））'
     },
     fbUsage: {
         ru: '[сообщение] - OOC фракционный чат',
@@ -88,12 +88,12 @@ export default {
         },
     },
     adMessage: {
-        ru: '!{#20a832}[Реклама] {{message}}. Отправитель: {{playerName}}',
-        ua: '!{#20a832}[Реклама] {{message}}. Відправник: {{playerName}}',
-        en: '!{#20a832}[Advertisement] {{message}}. Sender: {{playerName}}',
-        de: '!{#20a832}[Werbung] {{message}}. Absender: {{playerName}}',
-        pl: '!{#20a832}[Reklama] {{message}}. Nadawca: {{playerName}}',
-        zh:',{#20a832}[广告]{{消息}}。发件人：｛｛playerName｝｝'
+        ru: '~g~[Реклама] {{message}}. Отправитель: {{playerName}}',
+        ua: '~g~[Реклама] {{message}}. Відправник: {{playerName}}',
+        en: '~g~[Advertisement] {{message}}. Sender: {{playerName}}',
+        de: '~g~[Werbung] {{message}}. Absender: {{playerName}}',
+        pl: '~g~[Reklama] {{message}}. Nadawca: {{playerName}}',
+        zh: '~g~[广告] {{message}}。发件人: {{playerName}}'
     },
     youHaveAdTimeout: {
         ru: 'Вы уже отправляли рекламу банды',

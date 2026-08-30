@@ -1,11 +1,11 @@
 export const server = {
     admin: {
-        ua: '!{#FF5757}Адміністратор {{admin}} {{message}}',
-        en: '!{#FF5757}Administrator {{admin}} {{message}}',
-        ru: '!{#FF5757}Администратор {{admin}} {{message}}',
-        de: '!{#FF5757}Administrator {{admin}} {{message}}',
-        pl: '!{#FF5757}Administrator {{admin}} {{message}}',
-        zh: '!{#FF5757}管理员 {{admin}} {{message}}',
+        ua: '~r~Адміністратор {{admin}} {{message}}',
+        en: '~r~Administrator {{admin}} {{message}}',
+        ru: '~r~Администратор {{admin}} {{message}}',
+        de: '~r~Administrator {{admin}} {{message}}',
+        pl: '~r~Administrator {{admin}} {{message}}',
+        zh: '~r~管理员 {{admin}} {{message}}',
     },
     youHaveBeenTeleportedByAdmin: {
         ru: 'Вы были телепортированы адинистратором {{name}}',
