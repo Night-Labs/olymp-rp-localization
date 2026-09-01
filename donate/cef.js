@@ -93,6 +93,13 @@ export const cef = {
             de: 'Zusätzliche Dienstleistungen',
             pl: 'Dodatkowe usługi',
         },
+        tuning: {
+            ru: 'Тюнинг',
+            ua: 'Тюнінг',
+            en: 'Tuning',
+            de: 'Tuning',
+            pl: 'Tuning',
+        },
         skins: {
             ru: 'Скины',
             ua: 'Скіни',

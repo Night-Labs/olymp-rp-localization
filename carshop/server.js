@@ -80,6 +80,17 @@ export const server = {
         pl: 'Nie masz wystarczająco dużo pieniędzy, aby kupić ten pojazd',
         zh: '你没有足够的钱买这辆车',
     },
+    // The payment sheet's line (modules/payment).
+    payment: {
+        description: {
+            ru: 'Покупка {{name}} в автосалоне',
+            ua: 'Купівля {{name}} в автосалоні',
+            en: 'Buying {{name}} at the dealership',
+            de: 'Kauf von {{name}} im Autohaus',
+            pl: 'Zakup {{name}} w salonie',
+            zh: '在汽车经销店购买 {{name}}',
+        },
+    },
     buyedVehicle: {
         ua: 'Ви успішно придбали {{name}}',
         en: 'You have successfully purchased the {{name}}',

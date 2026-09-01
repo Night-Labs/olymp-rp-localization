@@ -98,6 +98,14 @@ export const server = {
         pl: 'Nieprawidłowe dane rejestracji',
         zh: '注册数据无效',
     },
+    hwidRequired: {
+        ua: 'Не вдалося підтвердити ваше обладнання. Перезапустіть гру через лаунчер і спробуйте ще раз',
+        en: 'Could not verify your hardware. Restart the game through the launcher and try again',
+        ru: 'Не удалось подтвердить ваше оборудование. Перезапустите игру через лаунчер и попробуйте снова',
+        de: 'Deine Hardware konnte nicht verifiziert werden. Starte das Spiel über den Launcher neu und versuche es erneut',
+        pl: 'Nie udało się zweryfikować twojego sprzętu. Uruchom grę ponownie przez launcher i spróbuj jeszcze raz',
+        zh: '无法验证你的硬件。请通过启动器重启游戏后再试',
+    },
     invalidCode: {
         ru: 'Код восстановления не найден',
         ua: 'Код відновлення не знайдено',

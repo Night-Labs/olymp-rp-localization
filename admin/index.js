@@ -4,6 +4,7 @@ import replays from './replays';
 import { server } from './server';
 import mute from './mute';
 import objectPlacementBan from './objectPlacementBan';
+import musicPlayer from './musicPlayer';
 export default {
     ...cef,
     ...server,
@@ -11,6 +12,7 @@ export default {
     ban,
     mute,
     objectPlacementBan,
+    musicPlayer,
     getOut: {
         ru: 'Для начала выйди из админки',
         ua: 'Для початку вийди з адмінки',

@@ -80,6 +80,25 @@ export const cashier = {
         zh: '输入筹码数量',
     },
 
+    // The payment sheet's line (modules/payment).
+    payment: {
+        description: {
+            ru: 'Покупка {{chips}} фишек в кассе казино',
+            ua: 'Купівля {{chips}} фішок у касі казино',
+            en: 'Buying {{chips}} chips at the casino cashier',
+            de: 'Kauf von {{chips}} Chips an der Casino-Kasse',
+            pl: 'Zakup {{chips}} żetonów w kasie kasyna',
+            zh: '在赌场收银台购买 {{chips}} 筹码',
+        },
+    },
+    buyFailed: {
+        ru: 'Не удалось выдать фишки, деньги возвращены',
+        ua: 'Не вдалося видати фішки, гроші повернено',
+        en: 'The chips could not be handed over, your money is back',
+        de: 'Die Chips konnten nicht ausgegeben werden, dein Geld ist zurück',
+        pl: 'Nie udało się wydać żetonów, pieniądze zwrócone',
+        zh: '筹码发放失败，款项已退回',
+    },
     cashier: {
         ru: 'Касса',
         ua: 'Каса',

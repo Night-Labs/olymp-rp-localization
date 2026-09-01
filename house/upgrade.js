@@ -1,4 +1,14 @@
 export default {
+    // The payment sheet's line (modules/payment).
+    payment: {
+        description: {
+            ru: '{{type}} до {{level}} ур. в доме #{{houseId}}',
+            ua: '{{type}} до {{level}} рів. у будинку #{{houseId}}',
+            en: '{{type}} to level {{level}} in house #{{houseId}}',
+            de: '{{type}} auf Stufe {{level}} in Haus #{{houseId}}',
+            pl: '{{type}} do poziomu {{level}} w domu #{{houseId}}',
+        },
+    },
     type: {
         workshop: {
             name: {

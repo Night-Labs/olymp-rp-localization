@@ -1,0 +1,42 @@
+export default {
+    title: {
+        ru: 'Дрифт-режим',
+        ua: 'Дрифт-режим',
+        en: 'Drift mode',
+        de: 'Driftmodus',
+        pl: 'Tryb driftu',
+        zh: '漂移模式',
+    },
+    enabled: {
+        ru: 'Дрифт-режим включён',
+        ua: 'Дрифт-режим увімкнено',
+        en: 'Drift mode on',
+        de: 'Driftmodus an',
+        pl: 'Tryb driftu włączony',
+        zh: '漂移模式已开启',
+    },
+    disabled: {
+        ru: 'Дрифт-режим выключен',
+        ua: 'Дрифт-режим вимкнено',
+        en: 'Drift mode off',
+        de: 'Driftmodus aus',
+        pl: 'Tryb driftu wyłączony',
+        zh: '漂移模式已关闭',
+    },
+    notOwner: {
+        ru: 'Это не ваша машина',
+        ua: 'Це не ваша машина',
+        en: 'This is not your vehicle',
+        de: 'Das ist nicht dein Fahrzeug',
+        pl: 'To nie twój pojazd',
+        zh: '这不是你的车',
+    },
+    notInstalled: {
+        ru: 'На этой машине нет дрифт-режима',
+        ua: 'На цій машині немає дрифт-режиму',
+        en: 'This vehicle has no drift mode installed',
+        de: 'Dieses Fahrzeug hat keinen Driftmodus',
+        pl: 'Ten pojazd nie ma trybu driftu',
+        zh: '这辆车没有安装漂移模式',
+    },
+};

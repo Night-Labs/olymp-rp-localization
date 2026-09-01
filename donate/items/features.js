@@ -169,4 +169,46 @@ export const features = {
             pl: 'Karta SIM o numerze {{phoneNumber}} została dodana do Twojego ekwipunku, aktywuj ją, aby zarezerwować numer telefonu.',
         },
     },
+
+    uniqueNumberPlate: {
+        name: {
+            ru: 'Уникальный номер',
+            ua: 'Унікальний номер',
+            en: 'Unique number plate',
+            de: 'Einzigartiges Kennzeichen',
+            pl: 'Unikalna tablica rejestracyjna',
+        },
+
+        buyDesc: {
+            ru: 'Введите желаемый номер от 2 до 8 символов: латинские буквы и цифры <br><br> Цена зависит от длины номера и от красоты комбинации: повторы, последовательности и одинаковые символы стоят дороже <br><br> Обратите внимание, номер будет закреплён за вами ТОЛЬКО после получения предмета со склада',
+            ua: 'Введіть бажаний номер від 2 до 8 символів: латинські літери та цифри <br><br> Ціна залежить від довжини номера та від краси комбінації: повтори, послідовності та однакові символи коштують дорожче <br><br> Зверніть увагу, номер буде закріплено за вами ЛИШЕ після отримання предмета зі складу',
+            en: 'Enter the desired number, 2 to 8 characters: Latin letters and digits <br><br> The price depends on the length and on how rare the combination is: repeats, sequences and identical characters cost more <br><br> Please note, the number is reserved for you ONLY after you receive the item from the warehouse',
+            de: 'Gib das gewünschte Kennzeichen mit 2 bis 8 Zeichen ein: lateinische Buchstaben und Ziffern <br><br> Der Preis hängt von der Länge und von der Seltenheit der Kombination ab: Wiederholungen, Folgen und identische Zeichen kosten mehr <br><br> Bitte beachte, das Kennzeichen wird NUR dann für dich reserviert, wenn du den Gegenstand aus dem Lager erhältst',
+            pl: 'Wprowadź żądany numer o długości od 2 do 8 znaków: łacińskie litery i cyfry <br><br> Cena zależy od długości numeru i od rzadkości kombinacji: powtórzenia, sekwencje i identyczne znaki kosztują więcej <br><br> Uwaga, numer zostanie zarezerwowany dla Ciebie TYLKO po odebraniu przedmiotu z magazynu',
+        },
+
+        placeholder: {
+            ru: 'Введите номер',
+            ua: 'Введіть номер',
+            en: 'Enter plate number',
+            de: 'Kennzeichen eingeben',
+            pl: 'Wprowadź numer',
+        },
+
+        successReceived: {
+            ru: 'Номер {{number}} оформлен на вас и добавлен в ваш инвентарь',
+            ua: 'Номер {{number}} оформлено на вас та додано до вашого інвентарю',
+            en: 'Plate {{number}} is registered to you and added to your inventory',
+            de: 'Das Kennzeichen {{number}} ist auf dich registriert und wurde deinem Inventar hinzugefügt',
+            pl: 'Numer {{number}} został zarejestrowany na Ciebie i dodany do Twojego ekwipunku',
+        },
+
+        errorNoSpace: {
+            ru: 'Недостаточно места в инвентаре',
+            ua: 'Недостатньо місця в інвентарі',
+            en: 'Not enough space in your inventory',
+            de: 'Nicht genug Platz im Inventar',
+            pl: 'Za mało miejsca w ekwipunku',
+        },
+    },
 };
