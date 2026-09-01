@@ -454,6 +454,13 @@ export const menu = {
             de: 'Job-Rang',
             pl: 'Ranga pracy',
         },
+        reqSideJob: {
+            ru: 'Подработка семьи',
+            ua: "Підробіток сім'ї",
+            en: 'Family side job',
+            de: 'Nebenjob der Familie',
+            pl: 'Praca dorywcza rodziny',
+        },
         reqJobRankValue: {
             ru: '{{job}}, ранг {{rank}}',
             ua: '{{job}}, ранг {{rank}}',
@@ -925,6 +932,100 @@ export const menu = {
         },
     },
     property: {
+        // Attaching a house as the HQ from this tab (`menu/propertyActions.ts`). Until it
+        // existed the only chance to give a family a base was the creation window.
+        errors: {
+            notInOrganization: {
+                ru: 'Вы не состоите в организации.',
+                ua: 'Ви не перебуваєте в організації.',
+                en: 'You are not in an organization.',
+                de: 'Du bist in keiner Organisation.',
+                pl: 'Nie należysz do organizacji.',
+            },
+            hqNotAllowed: {
+                ru: 'Дом организации привязывает только лидер.',
+                ua: "Будинок організації прив'язує лише лідер.",
+                en: 'Only the leader can set the family house.',
+                de: 'Nur der Anführer kann das Familienhaus festlegen.',
+                pl: 'Tylko lider może przypisać dom rodziny.',
+            },
+            hqAlreadySet: {
+                ru: 'У организации уже есть дом.',
+                ua: 'В організації вже є будинок.',
+                en: 'The organization already has a house.',
+                de: 'Die Organisation hat bereits ein Haus.',
+                pl: 'Organizacja ma już dom.',
+            },
+            hqInvalidHouse: {
+                ru: 'Этот дом не подходит: он не ваш или уже привязан.',
+                ua: "Цей будинок не підходить: він не ваш або вже прив'язаний.",
+                en: 'That house will not do: it is not yours, or already linked.',
+                de: 'Dieses Haus geht nicht: nicht deins oder schon vergeben.',
+                pl: 'Ten dom nie pasuje: nie jest twój albo już przypisany.',
+            },
+            hqGarageTooSmall: {
+                ru: 'В гараже нужно минимум {{required}} мест.',
+                ua: 'У гаражі потрібно щонайменше {{required}} місць.',
+                en: 'The garage needs at least {{required}} slots.',
+                de: 'Die Garage braucht mindestens {{required}} Plätze.',
+                pl: 'Garaż musi mieć co najmniej {{required}} miejsc.',
+            },
+        },
+        success: {
+            hqAttached: {
+                ru: 'Дом #{{houseId}} стал домом организации.',
+                ua: 'Будинок #{{houseId}} став будинком організації.',
+                en: 'House #{{houseId}} is now the family house.',
+                de: 'Haus #{{houseId}} ist jetzt das Familienhaus.',
+                pl: 'Dom #{{houseId}} jest teraz domem rodziny.',
+            },
+        },
+        // The offer, before the family owns anything: the leader's own house, one step from
+        // becoming the base. Copy says what the button does and what it costs from then on.
+        hqCandidate: {
+            title: {
+                ru: 'Ваш дом',
+                ua: 'Ваш будинок',
+                en: 'Your house',
+                de: 'Dein Haus',
+                pl: 'Twój dom',
+            },
+            rent: {
+                ru: 'Аренда в сутки',
+                ua: 'Оренда на добу',
+                en: 'Rent per day',
+                de: 'Miete pro Tag',
+                pl: 'Czynsz na dobę',
+            },
+            action: {
+                ru: 'Сделать домом организации',
+                ua: 'Зробити будинком організації',
+                en: 'Make it the family house',
+                de: 'Zum Familienhaus machen',
+                pl: 'Uczyń domem rodziny',
+            },
+            confirm: {
+                ru: 'Сделать домом',
+                ua: 'Зробити будинком',
+                en: 'Make it the house',
+                de: 'Zum Haus machen',
+                pl: 'Uczyń domem',
+            },
+            cancel: {
+                ru: 'Отмена',
+                ua: 'Скасувати',
+                en: 'Cancel',
+                de: 'Abbrechen',
+                pl: 'Anuluj',
+            },
+            warning: {
+                ru: 'Дом перейдёт организации: личное владение снимется, аренду с этого дня платит казна. Вернуть дом себе нельзя.',
+                ua: 'Будинок перейде організації: особисте володіння знімається, оренду з цього дня платить казна. Повернути будинок собі не можна.',
+                en: 'The house goes to the organization: you stop owning it, and the treasury pays the rent from that day. There is no way to take it back.',
+                de: 'Das Haus geht an die Organisation: dein Besitz endet, ab dem Tag zahlt die Kasse die Miete. Zurückholen geht nicht.',
+                pl: 'Dom przechodzi do organizacji: przestajesz być właścicielem, a od tego dnia czynsz płaci kasa. Nie da się go odzyskać.',
+            },
+        },
         hq: {
             title: {
                 ru: 'Семейный дом',
@@ -2033,6 +2134,34 @@ export const menu = {
                 de: 'Kontrolle',
                 pl: 'Kontrola',
             },
+            attacks: {
+                ru: 'Атаки',
+                ua: 'Атаки',
+                en: 'Attacks',
+                de: 'Angriffe',
+                pl: 'Ataki',
+            },
+            defenses: {
+                ru: 'Защиты',
+                ua: 'Захисти',
+                en: 'Defenses',
+                de: 'Verteidigungen',
+                pl: 'Obrony',
+            },
+            rechargeIn: {
+                ru: '+1 через {time}',
+                ua: '+1 через {time}',
+                en: '+1 in {time}',
+                de: '+1 in {time}',
+                pl: '+1 za {time}',
+            },
+            full: {
+                ru: 'Заполнено',
+                ua: 'Заповнено',
+                en: 'Full',
+                de: 'Voll',
+                pl: 'Pelne',
+            },
         },
         history: {
             button: {
@@ -2292,6 +2421,36 @@ export const menu = {
                 de: 'Kontrolle',
                 pl: 'Kontrola',
             },
+            state: {
+                ru: 'Состояние',
+                ua: 'Стан',
+                en: 'State',
+                de: 'Zustand',
+                pl: 'Stan',
+            },
+            effects: {
+                underAttack: {
+                    ru: 'Назначен бой',
+                    ua: 'Призначено бій',
+                    en: 'Battle scheduled',
+                    de: 'Kampf angesetzt',
+                    pl: 'Zaplanowana walka',
+                },
+                fortified: {
+                    ru: 'Укреплён',
+                    ua: 'Укріплений',
+                    en: 'Fortified',
+                    de: 'Befestigt',
+                    pl: 'Umocniony',
+                },
+                sabotaged: {
+                    ru: 'Диверсия: дохода нет',
+                    ua: 'Диверсія: доходу немає',
+                    en: 'Sabotaged: no income',
+                    de: 'Sabotiert: kein Ertrag',
+                    pl: 'Sabotaz: brak dochodu',
+                },
+            },
             neutral: {
                 ru: 'нейтральный',
                 ua: 'нейтральний',
@@ -2322,8 +2481,57 @@ export const menu = {
                 de: 'Einnehmen',
                 pl: 'Przejmij',
             },
+            fortify: {
+                ru: 'Укрепить',
+                ua: 'Укріпити',
+                en: 'Fortify',
+                de: 'Befestigen',
+                pl: 'Umocnij',
+            },
+            sabotage: {
+                ru: 'Диверсия',
+                ua: 'Диверсія',
+                en: 'Sabotage',
+                de: 'Sabotage',
+                pl: 'Sabotaz',
+            },
+            costsAttack: {
+                ru: 'Стоит 1 атаку',
+                ua: 'Коштує 1 атаку',
+                en: 'Costs 1 attack',
+                de: 'Kostet 1 Angriff',
+                pl: 'Kosztuje 1 atak',
+            },
+            noAttacksLeft: {
+                ru: 'Нет доступных атак',
+                ua: 'Немає доступних атак',
+                en: 'No attacks left',
+                de: 'Keine Angriffe uebrig',
+                pl: 'Brak atakow',
+            },
+            targetFortified: {
+                ru: 'Квадрат укреплён',
+                ua: 'Квадрат укріплений',
+                en: 'Square is fortified',
+                de: 'Feld ist befestigt',
+                pl: 'Pole jest umocnione',
+            },
+            onCooldown: {
+                ru: 'Перезарядка: {hours} ч',
+                ua: 'Перезарядка: {hours} год',
+                en: 'Cooldown: {hours} h',
+                de: 'Abklingzeit: {hours} Std',
+                pl: 'Odnowienie: {hours} godz',
+            },
         },
         requirements: {
+            adjacent_own: {
+                ru: 'Квадрат должен граничить с вашей территорией',
+                ua: 'Квадрат має межувати з вашою територією',
+                en: 'The square must border your territory',
+                de: 'Das Feld muss an dein Gebiet grenzen',
+                pl: 'Pole musi graniczyc z twoim terytorium',
+            },
             plainCells_20: {
                 ru: 'Обычные квадраты (20)',
                 ua: 'Звичайні квадрати (20)',

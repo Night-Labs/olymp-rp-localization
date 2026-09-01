@@ -194,6 +194,13 @@ export const server = {
             de: 'Mit Fraktionsfahrzeugen darf man nicht in die private Garage fahren',
             pl: 'Nie można wjeżdżać do prywatnego garażu pojazdami frakcji',
         },
+        hqPersonalVehicle: {
+            ru: 'Личный транспорт в гараже штаба может держать только лидер организации',
+            ua: 'Особистий транспорт у гаражі штабу може тримати лише лідер організації',
+            en: 'Only the organization leader may keep a personal vehicle in the HQ garage',
+            de: 'Nur der Anführer der Organisation darf ein privates Fahrzeug in der HQ-Garage abstellen',
+            pl: 'Tylko lider organizacji może trzymać prywatny pojazd w garażu kwatery głównej',
+        },
         modal: {
             title: {
                 ua: 'Виїзд з будинку',
@@ -276,6 +283,13 @@ export const server = {
             en: 'Lodger in the house',
             de: 'Untermieter im Haus',
             pl: 'Lokator w domu',
+        },
+        organization: {
+            ru: 'Штаб организации',
+            ua: 'Штаб організації',
+            en: 'Organization HQ',
+            de: 'Hauptquartier der Organisation',
+            pl: 'Kwatera organizacji',
         },
     },
     exitInspect: {
@@ -561,6 +575,13 @@ export const server = {
             de: 'Möbelverkauf',
             pl: 'Sprzedaż mebli',
         },
+        sellToOrganization: {
+            ru: 'Продажа мебели (на счёт организации)',
+            ua: 'Продаж меблів (на рахунок організації)',
+            en: 'Furniture sale (to the organization account)',
+            de: 'Möbelverkauf (auf das Organisationskonto)',
+            pl: 'Sprzedaż mebli (na konto organizacji)',
+        },
         moved: {
             ru: 'Перемещено предметов',
             ua: 'Переміщено предметів',
@@ -588,6 +609,13 @@ export const server = {
             en: 'Donate to pay',
             de: 'Mit Olymp-Coins zu zahlen',
             pl: 'Do zapłaty donatem',
+        },
+        totalToOrganization: {
+            ru: 'На счёт организации',
+            ua: 'На рахунок організації',
+            en: 'To the organization account',
+            de: 'Auf das Organisationskonto',
+            pl: 'Na konto organizacji',
         },
         confirm: {
             ru: 'Подтвердить',
@@ -706,6 +734,13 @@ export const server = {
             de: 'Gesamtrückerstattung',
             pl: 'Łączny zwrot',
         },
+        refundToOrganization: {
+            ru: 'Итого на счёт организации {{orgName}}',
+            ua: 'Разом на рахунок організації {{orgName}}',
+            en: 'Total to the {{orgName}} organization account',
+            de: 'Gesamtbetrag auf das Organisationskonto {{orgName}}',
+            pl: 'Łącznie na konto organizacji {{orgName}}',
+        },
         confirm: {
             ru: 'Сбросить мебель',
             ua: 'Скинути меблі',
@@ -726,6 +761,13 @@ export const server = {
             en: 'All furniture was successfully sold and removed from the house.',
             de: 'Alle Möbel wurden erfolgreich verkauft und aus dem Haus entfernt.',
             pl: 'Wszystkie meble zostały pomyślnie sprzedane i usunięte z domu.',
+        },
+        successToOrganization: {
+            ru: 'Вся мебель продана и удалена из штаба. ${{amount}} зачислено на счёт организации.',
+            ua: 'Усі меблі продані та видалені зі штабу. ${{amount}} зараховано на рахунок організації.',
+            en: 'All furniture was sold and removed from the HQ. ${{amount}} was credited to the organization account.',
+            de: 'Alle Möbel wurden verkauft und aus dem Hauptquartier entfernt. ${{amount}} wurden dem Organisationskonto gutgeschrieben.',
+            pl: 'Wszystkie meble zostały sprzedane i usunięte z kwatery. ${{amount}} zostało przelane na konto organizacji.',
         },
     },
     noFurnitureToReset: {

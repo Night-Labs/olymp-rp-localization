@@ -767,6 +767,38 @@ export const items = {
             pl: 'Służy do otwierania zamków samochodów i innych zamków, może się złamać przy nieudanej próbie - bądź ostrożny!',
         },
     },
+    fleeca_card: {
+        name: {
+            ru: 'Карта допуска Fleeca',
+            ua: 'Картка допуску Fleeca',
+            en: 'Fleeca Access Card',
+            de: 'Fleeca-Zugangskarte',
+            pl: 'Karta dostępu Fleeca',
+        },
+        desc: {
+            ru: 'Служебная карта сотрудника банка. Открывает панель у двери хранилища, но сама по себе замок не снимает - нужен ещё взломщик.',
+            ua: 'Службова картка працівника банку. Відкриває панель біля дверей сховища, але сама по собі замок не знімає - потрібен ще зламувач.',
+            en: 'A bank employee pass. It opens the panel beside the vault door, but on its own it will not release the lock - a hacking device is still needed.',
+            de: 'Ein Mitarbeiterausweis der Bank. Er oeffnet das Panel neben der Tresortuer, loest das Schloss aber nicht allein - dazu braucht es noch ein Hacking-Geraet.',
+            pl: 'Przepustka pracownika banku. Otwiera panel przy drzwiach skarbca, ale sama nie zwalnia zamka - potrzebne jest jeszcze urządzenie hakujące.',
+        },
+    },
+    vault_hacker: {
+        name: {
+            ru: 'Взломщик хранилища',
+            ua: 'Зламувач сховища',
+            en: 'Vault Hacking Device',
+            de: 'Tresor-Hacking-Geraet',
+            pl: 'Urządzenie hakujące do skarbca',
+        },
+        desc: {
+            ru: 'Портативный взломщик банковских замков. Работает только вместе с картой допуска и сгорает после одного вскрытия.',
+            ua: 'Портативний зламувач банківських замків. Працює лише разом із карткою допуску та згоряє після одного вскриття.',
+            en: 'A portable bank lock cracker. It only works together with an access card and burns out after a single job.',
+            de: 'Ein tragbarer Knacker fuer Bankschloesser. Er funktioniert nur zusammen mit einer Zugangskarte und brennt nach einem Einsatz durch.',
+            pl: 'Przenośny łamacz zamków bankowych. Działa tylko razem z kartą dostępu i wypala się po jednym użyciu.',
+        },
+    },
     speedradar: {
         name: {
             ru: 'Скоростной радар',

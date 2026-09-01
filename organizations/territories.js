@@ -1,6 +1,6 @@
 export const territories = {
     // Оповещения о войне в чат. Всплывающее окно видит только нажавший кнопку,
-    // а знать о бое должна вся организация — особенно обороняющаяся.
+    // а знать о бое должна вся организация - особенно обороняющаяся.
     chat: {
         declaredAttacker: {
             ru: '~g~[Территории] ~w~Ваша организация объявила атаку на квадрат {{cell}} (владелец: {{org}}). Начало в {{time}}.',
@@ -78,6 +78,27 @@ export const territories = {
             en: '~o~[Territories] ~w~The roster for square {{cell}} is picked: {{count}} people.',
             de: '~o~[Territorien] ~w~Die Aufstellung fuer Sektor {{cell}} steht: {{count}} Personen.',
             pl: '~o~[Terytoria] ~w~Sklad na walke o kwadrat {{cell}} wybrany: {{count}} osob.',
+        },
+        fortified: {
+            ru: '~g~[Территории] ~w~Квадрат {{cell}} укреплён: его нельзя атаковать {{hours}} ч.',
+            ua: '~g~[Території] ~w~Квадрат {{cell}} укріплено: його не можна атакувати {{hours}} год.',
+            en: '~g~[Territories] ~w~Square {{cell}} is fortified: it cannot be attacked for {{hours}} h.',
+            de: '~g~[Territorien] ~w~Sektor {{cell}} ist befestigt: fuer {{hours}} Std nicht angreifbar.',
+            pl: '~g~[Terytoria] ~w~Kwadrat {{cell}} umocniony: nie mozna go atakowac przez {{hours}} godz.',
+        },
+        sabotageDone: {
+            ru: '~o~[Территории] ~w~Диверсия на квадрате {{cell}} ({{org}}): он не приносит дохода {{hours}} ч.',
+            ua: '~o~[Території] ~w~Диверсія на квадраті {{cell}} ({{org}}): він не приносить доходу {{hours}} год.',
+            en: '~o~[Territories] ~w~Sabotage on square {{cell}} ({{org}}): it earns nothing for {{hours}} h.',
+            de: '~o~[Territorien] ~w~Sabotage auf Sektor {{cell}} ({{org}}): {{hours}} Std ohne Ertrag.',
+            pl: '~o~[Terytoria] ~w~Sabotaz na kwadracie {{cell}} ({{org}}): przez {{hours}} godz nie przynosi dochodu.',
+        },
+        sabotageReceived: {
+            ru: '~r~[Территории] ~w~На вашем квадрате {{cell}} диверсия: он не приносит дохода {{hours}} ч.',
+            ua: '~r~[Території] ~w~На вашому квадраті {{cell}} диверсія: він не приносить доходу {{hours}} год.',
+            en: '~r~[Territories] ~w~Sabotage on your square {{cell}}: it earns nothing for {{hours}} h.',
+            de: '~r~[Territorien] ~w~Sabotage auf deinem Sektor {{cell}}: {{hours}} Std ohne Ertrag.',
+            pl: '~r~[Terytoria] ~w~Sabotaz na twoim kwadracie {{cell}}: przez {{hours}} godz nie przynosi dochodu.',
         },
         youAreInRoster: {
             ru: '~g~[Территории] ~w~Вы в составе на бой за квадрат {{cell}}. Сбор - у секретаря офиса.',
@@ -251,12 +272,75 @@ export const territories = {
                 de: 'Eroberung in {{minutes}} Min. verfuegbar',
                 pl: 'Przejecie dostepne za {{minutes}} min',
             },
-            warNotImplemented: {
-                ru: 'Война за занятый квадрат в разработке. Скоро будет доступна',
-                ua: 'Війна за зайнятий квадрат у розробці. Невдовзі буде доступна',
-                en: 'War over occupied squares is in development',
-                de: 'Krieg um besetzte Felder ist in Entwicklung',
-                pl: 'Wojna o zajete pola jest w opracowaniu',
+            useScheduler: {
+                ru: 'Занятый квадрат берут только боем: назначьте атаку в планировщике',
+                ua: 'Зайнятий квадрат беруть лише боєм: призначте атаку в планувальнику',
+                en: 'An occupied square is taken by force: schedule an attack in the planner',
+                de: 'Ein besetztes Feld nimmt man nur im Kampf: plane den Angriff im Planer',
+                pl: 'Zajete pole zdobywa sie walka: zaplanuj atak w planerze',
+            },
+            noAttacksLeft: {
+                ru: 'Атаки закончились. Следующая через {{hours}} ч',
+                ua: 'Атаки скінчилися. Наступна через {{hours}} год',
+                en: 'No attacks left. The next one in {{hours}} h',
+                de: 'Keine Angriffe mehr. Der naechste in {{hours}} Std',
+                pl: 'Brak atakow. Nastepny za {{hours}} godz',
+            },
+            targetOutOfDefenses: {
+                ru: 'У этой организации не осталось защит. Атака будет доступна через {{hours}} ч',
+                ua: 'У цієї організації не залишилося захистів. Атака буде доступна через {{hours}} год',
+                en: 'This organization has no defenses left. The attack opens in {{hours}} h',
+                de: 'Diese Organisation hat keine Verteidigungen mehr. Angriff in {{hours}} Std moeglich',
+                pl: 'Ta organizacja nie ma juz obron. Atak bedzie mozliwy za {{hours}} godz',
+            },
+            targetFortified: {
+                ru: 'Квадрат укреплён: атаковать его сейчас нельзя',
+                ua: 'Квадрат укріплений: атакувати його зараз не можна',
+                en: 'The square is fortified and cannot be attacked right now',
+                de: 'Das Feld ist befestigt und kann jetzt nicht angegriffen werden',
+                pl: 'Pole jest umocnione i teraz nie mozna go zaatakowac',
+            },
+            notOwnCell: {
+                ru: 'Это не ваш квадрат',
+                ua: 'Це не ваш квадрат',
+                en: 'This square is not yours',
+                de: 'Dieses Feld gehoert dir nicht',
+                pl: 'To nie jest twoje pole',
+            },
+            notEnemyCell: {
+                ru: 'Диверсия ставится только на чужой квадрат',
+                ua: 'Диверсія ставиться лише на чужий квадрат',
+                en: 'Sabotage only goes on a rival square',
+                de: 'Sabotage geht nur auf ein fremdes Feld',
+                pl: 'Sabotaz zaklada sie tylko na obce pole',
+            },
+            notAdjacent: {
+                ru: 'Квадрат не граничит с вашей территорией',
+                ua: 'Квадрат не межує з вашою територією',
+                en: 'The square does not border your territory',
+                de: 'Das Feld grenzt nicht an dein Gebiet',
+                pl: 'Pole nie graniczy z twoim terytorium',
+            },
+            effectActive: {
+                ru: 'На квадрате уже действует эффект',
+                ua: 'На квадраті вже діє ефект',
+                en: 'The square already has an active effect',
+                de: 'Auf dem Feld liegt bereits ein Effekt',
+                pl: 'Na polu dziala juz efekt',
+            },
+            fortifyCooldown: {
+                ru: 'Укрепление будет доступно через {{hours}} ч',
+                ua: 'Укріплення буде доступне через {{hours}} год',
+                en: 'Fortify will be available in {{hours}} h',
+                de: 'Befestigen ist in {{hours}} Std verfuegbar',
+                pl: 'Umocnienie bedzie dostepne za {{hours}} godz',
+            },
+            sabotageCooldown: {
+                ru: 'Диверсия будет доступна через {{hours}} ч',
+                ua: 'Диверсія буде доступна через {{hours}} год',
+                en: 'Sabotage will be available in {{hours}} h',
+                de: 'Sabotage ist in {{hours}} Std verfuegbar',
+                pl: 'Sabotaz bedzie dostepny za {{hours}} godz',
             },
             invalidPayload: {
                 ru: 'Некорректные данные планирования',
@@ -320,13 +404,6 @@ export const territories = {
                 en: 'Square is already under attack or scheduled',
                 de: 'Feld wird bereits angegriffen oder ist geplant',
                 pl: 'Pole jest juz atakowane lub zaplanowane',
-            },
-            alreadyScheduledByMe: {
-                ru: 'У вашей организации уже есть запланированный бой',
-                ua: 'У вашої організації вже є запланований бій',
-                en: 'Your organization already has a scheduled battle',
-                de: 'Deine Organisation hat bereits einen geplanten Kampf',
-                pl: 'Twoja organizacja ma juz zaplanowana walke',
             },
             notInRoster: {
                 ru: 'Вы не в составе на этот бой',

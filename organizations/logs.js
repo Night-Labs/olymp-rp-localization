@@ -173,6 +173,13 @@ export const logs = {
                 de: '{{actor}} hat Lager {{building}} #{{number}} an den Eigentümer zurückgegeben ({{owner}})',
                 pl: '{{actor}} zwrócił magazyn {{building}} #{{number}} właścicielowi ({{owner}})',
             },
+            hqAttached: {
+                ru: '{{actor}} сделал дом #{{houseId}} домом организации',
+                ua: '{{actor}} зробив будинок #{{houseId}} будинком організації',
+                en: '{{actor}} made house #{{houseId}} the family house',
+                de: '{{actor}} hat Haus #{{houseId}} zum Familienhaus gemacht',
+                pl: '{{actor}} uczynił dom #{{houseId}} domem rodziny',
+            },
             confiscated: {
                 ru: 'HQ #{{hqId}} конфискован за долги. Компенсация лидеру: ${{refund}} + остаток ${{leftover}}',
                 ua: 'HQ #{{hqId}} конфісковано за борги. Компенсація лідеру: ${{refund}} + залишок ${{leftover}}',

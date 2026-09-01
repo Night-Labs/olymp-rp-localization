@@ -34,6 +34,13 @@ export default {
         de: 'Jemand schneidet diesen Container bereits auf.',
         pl: 'Ktoś już rozcina ten kontener.',
     },
+    raidIncoming: {
+        ru: 'Товарный поезд встанет через {{minutes}} мин. Отметка на карте.',
+        ua: 'Вантажний потяг зупиниться через {{minutes}} хв. Позначка на карті.',
+        en: 'The freight train stops in {{minutes}} min. It is marked on your map.',
+        de: 'Der Güterzug hält in {{minutes}} Min. Er ist auf deiner Karte markiert.',
+        pl: 'Pociąg towarowy zatrzyma się za {{minutes}} min. Oznaczenie jest na mapie.',
+    },
     cutInterrupted: {
         ru: 'Резка прервана.',
         ua: 'Різання перервано.',

@@ -93,6 +93,7 @@ import warehouses from './warehouses';
 import sections from './sections';
 import organizationRegistration from './organizationRegistration';
 import organizations from './organizations';
+import bankRobbery from './bankRobbery';
 import factories from './factories';
 import tennis from './tennis';
 import trade from './trade';
@@ -207,6 +208,7 @@ export default {
     sections,
     organizationRegistration,
     organizations,
+    bankRobbery,
     factories,
     tennis,
     trade,

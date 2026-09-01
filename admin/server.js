@@ -629,6 +629,13 @@ export const server = {
         "de": "~g~[ADMIN] Event {{name}} wurde gestartet",
         "pl": "~g~[ADMIN] Wydarzenie {{name}} uruchomione",
     },
+    "startedEventByAdmin": {
+        "ru": "~g~[ADMIN] {{admin}} запустил ивент {{name}}",
+        "ua": "~g~[ADMIN] {{admin}} запустив подію {{name}}",
+        "en": "~g~[ADMIN] {{admin}} started event {{name}}",
+        "de": "~g~[ADMIN] {{admin}} hat das Event {{name}} gestartet",
+        "pl": "~g~[ADMIN] {{admin}} uruchomił wydarzenie {{name}}",
+    },
     "noActiveEvent": {
         "ru": "~y~[ADMIN] Нет активного ивента для остановки",
         "ua": "~y~[ADMIN] Немає активної події для зупинки",

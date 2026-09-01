@@ -32,27 +32,27 @@ export const contraband = {
     },
 
     announce: {
-        ru: '~o~>> ~w~Контрабанда: ящики завезли в район {{zones}}. Вскрыть их можно через {{minutes}} мин.',
-        ua: '~o~>> ~w~Контрабанда: ящики завезли в район {{zones}}. Розкрити їх можна через {{minutes}} хв.',
-        en: '~o~>> ~w~Contraband: crates dropped in {{zones}}. They can be cracked in {{minutes}} min.',
-        de: '~o~>> ~w~Schmuggelware: Kisten in {{zones}} abgesetzt. Aufbrechen in {{minutes}} Min. moeglich.',
-        pl: '~o~>> ~w~Kontrabanda: skrzynie zrzucone w {{zones}}. Mozna je otworzyc za {{minutes}} min.',
+        ru: '~o~› ~w~Контрабанда: ящики завезли в район {{zones}}. Вскрыть их можно через {{minutes}} мин.',
+        ua: '~o~› ~w~Контрабанда: ящики завезли в район {{zones}}. Розкрити їх можна через {{minutes}} хв.',
+        en: '~o~› ~w~Contraband: crates dropped in {{zones}}. They can be cracked in {{minutes}} min.',
+        de: '~o~› ~w~Schmuggelware: Kisten in {{zones}} abgesetzt. Aufbrechen in {{minutes}} Min. moeglich.',
+        pl: '~o~› ~w~Kontrabanda: skrzynie zrzucone w {{zones}}. Mozna je otworzyc za {{minutes}} min.',
     },
 
     start: {
-        ru: '~o~>> ~w~Контрабанда: ящики можно вскрывать — {{zones}}',
-        ua: '~o~>> ~w~Контрабанда: ящики можна розкривати — {{zones}}',
-        en: '~o~>> ~w~Contraband: the crates are open for cracking — {{zones}}',
-        de: '~o~>> ~w~Schmuggelware: Die Kisten koennen aufgebrochen werden — {{zones}}',
-        pl: '~o~>> ~w~Kontrabanda: skrzynie mozna otwierac — {{zones}}',
+        ru: '~o~› ~w~Контрабанда: ящики можно вскрывать — {{zones}}',
+        ua: '~o~› ~w~Контрабанда: ящики можна розкривати — {{zones}}',
+        en: '~o~› ~w~Contraband: the crates are open for cracking — {{zones}}',
+        de: '~o~› ~w~Schmuggelware: Die Kisten koennen aufgebrochen werden — {{zones}}',
+        pl: '~o~› ~w~Kontrabanda: skrzynie mozna otwierac — {{zones}}',
     },
 
     end: {
-        ru: '~o~>> ~w~Контрабанда: событие завершено, несобранное пропало',
-        ua: '~o~>> ~w~Контрабанда: подію завершено, незібране зникло',
-        en: '~o~>> ~w~Contraband: the event is over, everything left behind is gone',
-        de: '~o~>> ~w~Schmuggelware: Das Event ist vorbei, alles Zurueckgelassene ist weg',
-        pl: '~o~>> ~w~Kontrabanda: wydarzenie zakonczone, niezebrane przepadlo',
+        ru: '~o~› ~w~Контрабанда: событие завершено, несобранное пропало',
+        ua: '~o~› ~w~Контрабанда: подію завершено, незібране зникло',
+        en: '~o~› ~w~Contraband: the event is over, everything left behind is gone',
+        de: '~o~› ~w~Schmuggelware: Das Event ist vorbei, alles Zurueckgelassene ist weg',
+        pl: '~o~› ~w~Kontrabanda: wydarzenie zakonczone, niezebrane przepadlo',
     },
 
     crate: {

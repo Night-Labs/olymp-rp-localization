@@ -47,6 +47,13 @@ const inventory = {
         pl: 'Twoja broń zepsuła się od zużycia',
     },
 
+    handsBusy: {
+        ru: 'Сначала освободите руки',
+        ua: 'Спершу звільніть руки',
+        en: 'Free your hands first',
+        de: 'Mach zuerst die Haende frei',
+        pl: 'Najpierw zwolnij rece',
+    },
     notEnoughSpace: {
         ru: 'Недостаточно места',
         ua: 'Недостатньо місця',

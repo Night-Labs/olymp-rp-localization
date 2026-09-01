@@ -192,6 +192,14 @@ export const vehicle = {
         pl: 'Przekaż do frakcji',
         zh: '转交给帮派',
     },
+    'transfer-to-organization': {
+        ru: 'Передать в семью',
+        ua: 'Передати у сім\'ю',
+        en: 'Transfer to organization',
+        de: 'An die Organisation übergeben',
+        pl: 'Przekaż do organizacji',
+        zh: '转交给家族',
+    },
     'faction-despawn': {
         ru: 'Задеспавнить',
         ua: 'Задеспавнити',
