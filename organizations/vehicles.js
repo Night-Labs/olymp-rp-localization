@@ -7,6 +7,27 @@ export const vehicles = {
             de: 'Familientransport',
             pl: 'Transport rodzinny',
         },
+        willArrive: {
+            ru: 'Машина «{{vehicle}}» прибудет через {{time}} секунд!',
+            ua: 'Машина «{{vehicle}}» прибуде через {{time}} секунд!',
+            en: 'Vehicle «{{vehicle}}» will arrive in {{time}} seconds!',
+            de: 'Fahrzeug «{{vehicle}}» trifft in {{time}} Sekunden ein!',
+            pl: 'Pojazd «{{vehicle}}» przybędzie za {{time}} sekund!',
+        },
+        hasArrived: {
+            ru: 'Машина «{{vehicle}}» доставлена, с вас снято ${{price}}',
+            ua: 'Машина «{{vehicle}}» доставлена, з вас списано ${{price}}',
+            en: 'Vehicle «{{vehicle}}» has arrived, you have been charged ${{price}}',
+            de: 'Fahrzeug «{{vehicle}}» wurde geliefert, es wurden {{price}} $ abgebucht',
+            pl: 'Pojazd «{{vehicle}}» dostarczony, pobrano {{price}} $',
+        },
+        destroyed: {
+            ru: 'Машина «{{vehicle}}» уничтожена',
+            ua: 'Машина «{{vehicle}}» знищена',
+            en: 'Vehicle «{{vehicle}}» has been destroyed',
+            de: 'Fahrzeug «{{vehicle}}» wurde zerstört',
+            pl: 'Pojazd «{{vehicle}}» został zniszczony',
+        },
     },
     transferModal: {
         title: {
@@ -96,6 +117,13 @@ export const vehicles = {
             en: 'Failed to transfer the vehicle',
             de: 'Übertragung des Fahrzeugs fehlgeschlagen',
             pl: 'Nie udało się przekazać pojazdu',
+        },
+        noFreeSlot: {
+            ru: 'В гаражах организации нет свободного места для этой машины',
+            ua: 'У гаражах організації немає вільного місця для цієї машини',
+            en: 'The organization has no free parking slot for this vehicle',
+            de: 'Die Organisation hat keinen freien Stellplatz für dieses Fahrzeug',
+            pl: 'Organizacja nie ma wolnego miejsca parkingowego dla tego pojazdu',
         },
         returnNotAllowed: {
             ru: 'Возвращать транспорт владельцу может только лидер организации',

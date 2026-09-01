@@ -183,6 +183,13 @@ export const server = {
                 pl: 'Wejść do garażu',
             },
         },
+        weaponsBlocked: {
+            ru: 'В гараже нельзя брать оружие в руки',
+            ua: 'У гаражі не можна брати зброю до рук',
+            en: 'Weapons cannot be drawn inside the garage',
+            de: 'In der Garage dürfen keine Waffen gezogen werden',
+            pl: 'W garażu nie można wyciągać broni',
+        },
         notEnoughPlaces: {
             ua: 'В гаражі недостатньо місця',
             en: 'Not enough space in the garage',

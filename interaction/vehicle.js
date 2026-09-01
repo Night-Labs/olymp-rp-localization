@@ -283,12 +283,12 @@ export const vehicle = {
         zh: '转交给帮派',
     },
     'transfer-to-organization': {
-        ru: 'Передать в семью',
-        ua: 'Передати у сім\'ю',
-        en: 'Transfer to organization',
-        de: 'An die Organisation übergeben',
-        pl: 'Przekaż do organizacji',
-        zh: '转交给家族',
+        ru: 'Передать в {{name}}',
+        ua: 'Передати у {{name}}',
+        en: 'Transfer to {{name}}',
+        de: 'An {{name}} übergeben',
+        pl: 'Przekaż do {{name}}',
+        zh: '转交给{{name}}',
     },
     'remove-plate': {
         ru: 'Снять номер',

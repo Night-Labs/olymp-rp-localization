@@ -66,8 +66,8 @@ export default {
             zh: '最低位置已保存',
         },
         autoOn: {
-            ru: 'Авторежим включён: при глушении двигателя кузов опустится, при запуске — поднимется',
-            ua: 'Авторежим увімкнено: коли двигун глушиться, кузов опуститься, під час запуску — підніметься',
+            ru: 'Авторежим включён: при глушении двигателя кузов опустится, при запуске - поднимется',
+            ua: 'Авторежим увімкнено: коли двигун глушиться, кузов опуститься, під час запуску - підніметься',
             en: 'Auto mode on: the body settles when the engine stops and rises when it starts',
             de: 'Automodus an: Die Karosserie senkt sich beim Abstellen des Motors und hebt sich beim Start',
             pl: 'Tryb auto włączony: nadwozie opada po zgaszeniu silnika i unosi się po uruchomieniu',
@@ -533,12 +533,12 @@ export default {
         pl: 'Dostępne tylko dla pasażera',
     },
     slotLabel: {
-        parked: {
-            ru: 'Припарковано',
-            ua: 'Припарковано',
-            en: 'Parked',
-            de: 'Geparkt',
-            pl: 'Zaparkowane',
+        takenOut: {
+            ru: 'На выезде',
+            ua: 'На виїзді',
+            en: 'Taken out',
+            de: 'Unterwegs',
+            pl: 'W drodze',
         },
     },
 };

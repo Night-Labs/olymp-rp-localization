@@ -40,11 +40,11 @@ export const contraband = {
     },
 
     start: {
-        ru: '~o~› ~w~Контрабанда: ящики можно вскрывать — {{zones}}',
-        ua: '~o~› ~w~Контрабанда: ящики можна розкривати — {{zones}}',
-        en: '~o~› ~w~Contraband: the crates are open for cracking — {{zones}}',
-        de: '~o~› ~w~Schmuggelware: Die Kisten koennen aufgebrochen werden — {{zones}}',
-        pl: '~o~› ~w~Kontrabanda: skrzynie mozna otwierac — {{zones}}',
+        ru: '~o~› ~w~Контрабанда: ящики можно вскрывать - {{zones}}',
+        ua: '~o~› ~w~Контрабанда: ящики можна розкривати - {{zones}}',
+        en: '~o~› ~w~Contraband: the crates are open for cracking - {{zones}}',
+        de: '~o~› ~w~Schmuggelware: Die Kisten koennen aufgebrochen werden - {{zones}}',
+        pl: '~o~› ~w~Kontrabanda: skrzynie mozna otwierac - {{zones}}',
     },
 
     end: {
