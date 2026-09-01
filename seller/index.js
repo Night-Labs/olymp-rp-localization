@@ -1,4 +1,21 @@
 export default {
+    // The payment sheet's line (modules/payment), keyed by the seller's own id.
+    payment: {
+        illegalSeller: {
+            ru: 'Покупка у нелегального торговца',
+            ua: 'Купівля у нелегального торговця',
+            en: 'Purchase from the illegal trader',
+            de: 'Einkauf beim illegalen Händler',
+            pl: 'Zakup u nielegalnego handlarza',
+        },
+        localSeller: {
+            ru: 'Покупка у местного торговца',
+            ua: 'Купівля у місцевого торговця',
+            en: 'Purchase from the local trader',
+            de: 'Einkauf beim örtlichen Händler',
+            pl: 'Zakup u miejscowego handlarza',
+        },
+    },
     types: {
         illegalSeller: {
             ru: 'Нелегальный торговец',

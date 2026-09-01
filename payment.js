@@ -1,0 +1,75 @@
+// Payment sheet (server modules/payment, page systems/payment): the bill and the ways to pay it.
+export default {
+    title: {
+        ru: 'Оплата покупки',
+        ua: 'Оплата покупки',
+        en: 'Payment',
+        de: 'Bezahlung',
+        pl: 'Płatność',
+    },
+    toPay: {
+        ru: 'К оплате',
+        ua: 'До сплати',
+        en: 'Total due',
+        de: 'Zu zahlen',
+        pl: 'Do zapłaty',
+    },
+    chooseMethod: {
+        ru: 'Выберите способ оплаты',
+        ua: 'Оберіть спосіб оплати',
+        en: 'Choose a payment method',
+        de: 'Zahlungsart wählen',
+        pl: 'Wybierz sposób płatności',
+    },
+    methods: {
+        cash: {
+            ru: 'Наличные деньги',
+            ua: 'Готівка',
+            en: 'Cash',
+            de: 'Bargeld',
+            pl: 'Gotówka',
+        },
+        bank: {
+            ru: 'Банковский счёт',
+            ua: 'Банківський рахунок',
+            en: 'Bank account',
+            de: 'Bankkonto',
+            pl: 'Konto bankowe',
+        },
+        coins: {
+            ru: 'Olymp-Coins',
+            ua: 'Olymp-Coins',
+            en: 'Olymp-Coins',
+            de: 'Olymp-Coins',
+            pl: 'Olymp-Coins',
+        },
+    },
+    pay: {
+        ru: 'Оплатить',
+        ua: 'Сплатити',
+        en: 'Pay',
+        de: 'Bezahlen',
+        pl: 'Zapłać',
+    },
+    notEnough: {
+        ru: 'Недостаточно средств',
+        ua: 'Недостатньо коштів',
+        en: 'Not enough funds',
+        de: 'Nicht genug Guthaben',
+        pl: 'Za mało środków',
+    },
+    processing: {
+        ru: 'Обработка платежа...',
+        ua: 'Обробка платежу...',
+        en: 'Processing payment...',
+        de: 'Zahlung wird verarbeitet...',
+        pl: 'Przetwarzanie płatności...',
+    },
+    success: {
+        ru: 'Оплата успешна',
+        ua: 'Оплата успішна',
+        en: 'Payment successful',
+        de: 'Zahlung erfolgreich',
+        pl: 'Płatność udana',
+    },
+};

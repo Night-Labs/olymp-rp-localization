@@ -55,6 +55,13 @@ export const settings = {
             de: 'Allgemeines',
             pl: 'Główne',
         },
+        interaction: {
+            ru: 'Взаимодействие',
+            ua: 'Взаємодія',
+            en: 'Interaction',
+            de: 'Interaktion',
+            pl: 'Interakcja',
+        },
         character: {
             ru: 'Персонаж',
             ua: 'Персонаж',
@@ -1492,6 +1499,27 @@ export const settings = {
         en: 'HUD',
         de: 'HUD',
         pl: 'Interfejs',
+    },
+    sectionSpeedometer: {
+        ru: 'Спидометр',
+        ua: 'Спідометр',
+        en: 'Speedometer',
+        de: 'Tacho',
+        pl: 'Prędkościomierz',
+    },
+    showChipInSpeedometer: {
+        ru: 'Показывать текущий чип',
+        ua: 'Показувати поточний чіп',
+        en: 'Show the current chip',
+        de: 'Aktuellen Chip anzeigen',
+        pl: 'Pokazuj aktualny chip',
+    },
+    showChipInSpeedometerDesc: {
+        ru: 'Чип, на котором едет машина, в спидометре. Только для машин с модулем Dynamic Drive.',
+        ua: 'Чіп, на якому їде машина, у спідометрі. Тільки для машин з модулем Dynamic Drive.',
+        en: 'The chip the car is running, on the speedometer. Only for cars with the Dynamic Drive module.',
+        de: 'Der Chip, mit dem das Auto fährt, auf dem Tacho. Nur für Autos mit Dynamic-Drive-Modul.',
+        pl: 'Chip, na którym jedzie auto, na prędkościomierzu. Tylko dla aut z modułem Dynamic Drive.',
     },
     sectionChat: {
         ru: 'Чат',

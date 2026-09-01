@@ -27,6 +27,8 @@ import bank from './bank';
 import safetyBelt from './safetyBelt';
 import scrapyard from './scrapyard';
 import cruiseControl from './cruiseControl';
+import autopilot from './autopilot';
+import driftMode from './driftMode';
 import player from './player';
 import chat from './chat';
 import interaction from './interaction/interaction';
@@ -105,6 +107,9 @@ import canteen from './canteen';
 import sewingFactory from './sewingFactory';
 import wars from './wars';
 import effects from './effects';
+import numberPlates from './numberPlates';
+import vehicleKeys from './vehicleKeys';
+import payment from './payment';
 import militaryGates from './militaryGates';
 import signEditor from './signEditor';
 import funicular from './funicular';
@@ -141,6 +146,8 @@ export default {
     safetyBelt,
     scrapyard,
     cruiseControl,
+    autopilot,
+    driftMode,
     player,
     chat,
     admin,
@@ -195,6 +202,9 @@ export default {
     drugs,
     modifiers,
     drivingLicenses,
+    numberPlates,
+    vehicleKeys,
+    payment,
     business,
     furnitureEditor,
     keyBinds,

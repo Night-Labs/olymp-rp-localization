@@ -40,6 +40,22 @@ export const server = {
         pl: 'Ten numer telefonu jest już zajęty',
     },
 
+    numberPlateFormatError: {
+        ru: 'Формат номера указан неверно: номер должен быть от 2 до 8 символов и состоять только из латинских букв и цифр, пример: AB123',
+        ua: 'Формат номера вказано невірно: номер повинен бути від 2 до 8 символів і складатися тільки з латинських літер та цифр, приклад: AB123',
+        en: 'Incorrect plate format: the number must be 2 to 8 characters long and consist only of Latin letters and digits, example: AB123',
+        de: 'Falsches Kennzeichenformat: Das Kennzeichen muss 2 bis 8 Zeichen lang sein und darf nur aus lateinischen Buchstaben und Ziffern bestehen. Beispiel: AB123',
+        pl: 'Niepoprawny format numeru: numer musi mieć od 2 do 8 znaków i składać się tylko z łacińskich liter i cyfr, przykład: AB123',
+    },
+
+    numberPlateExistError: {
+        ru: 'Этот номер уже занят',
+        ua: 'Цей номер вже зайнятий',
+        en: 'This plate number is already taken',
+        de: 'Dieses Kennzeichen ist bereits vergeben',
+        pl: 'Ten numer jest już zajęty',
+    },
+
     donateInventory: {
         ru: 'Донат-инвентарь',
         ua: 'Донат-інвентар',
@@ -128,6 +144,15 @@ export const server = {
     },
 
     receive: {
+
+        tuningInWorkshop: {
+            ru: 'Этот предмет устанавливается в тюнинг-ателье и сгорает там при установке',
+            ua: 'Цей предмет встановлюється в тюнінг-ательє і згорає там при встановленні',
+            en: 'This item is installed at the tuning workshop and is used up there',
+            de: 'Dieser Gegenstand wird in der Tuning-Werkstatt eingebaut und dort verbraucht',
+            pl: 'Ten przedmiot montuje się w warsztacie tuningowym i tam jest zużywany',
+            zh: '此物品在改装工作室安装，安装时消耗',
+        },
 
         expMain: {
             ru: 'Получено {{exp}} опыта!',

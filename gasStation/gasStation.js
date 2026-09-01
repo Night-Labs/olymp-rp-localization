@@ -8,6 +8,26 @@ export const gasStation = {
         zh:'加油站',
     },
 
+    // The payment sheet's line (modules/payment): what is being paid for and where.
+    payment: {
+        leftPump: {
+            ru: 'Вы больше не у колонки',
+            ua: 'Ви більше не біля колонки',
+            en: 'You are no longer at the pump',
+            de: 'Du bist nicht mehr an der Zapfsäule',
+            pl: 'Nie jesteś już przy dystrybutorze',
+            zh: '您已不在加油机旁',
+        },
+        description: {
+            ru: 'Покупка на АЗС #{{number}}',
+            ua: 'Купівля на АЗС #{{number}}',
+            en: 'Purchase at gas station #{{number}}',
+            de: 'Einkauf an Tankstelle #{{number}}',
+            pl: 'Zakup na stacji #{{number}}',
+            zh: '在加油站 #{{number}} 消费',
+        },
+    },
+
     fuel: {
         ru: 'Топливо',
         ua: 'Паливо',

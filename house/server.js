@@ -91,6 +91,16 @@ export const server = {
             },
         },
     },
+    // The payment sheet's line (modules/payment).
+    payment: {
+        description: {
+            ua: 'Купівля будинку #{{houseId}}',
+            en: 'Buying house #{{houseId}}',
+            ru: 'Покупка дома #{{houseId}}',
+            de: 'Kauf von Haus #{{houseId}}',
+            pl: 'Zakup domu #{{houseId}}',
+        },
+    },
     buy: {
         maxHouse: {
             ua: 'Ви можете придбати не більше ніж три будинки',
@@ -300,6 +310,23 @@ export const server = {
         pl: 'Wyjść z oględzin domu',
     },
     renovationModal: {
+        // The payment sheet's line (modules/payment).
+        payment: {
+            interior: {
+                ru: 'Смена интерьера в доме #{{houseId}}',
+                ua: 'Зміна інтерʼєру в будинку #{{houseId}}',
+                en: 'Changing the interior of house #{{houseId}}',
+                de: 'Wechsel der Einrichtung in Haus #{{houseId}}',
+                pl: 'Zmiana wnętrza w domu #{{houseId}}',
+            },
+            variation: {
+                ru: 'Смена расцветки в доме #{{houseId}}',
+                ua: 'Зміна забарвлення в будинку #{{houseId}}',
+                en: 'Changing the colour scheme of house #{{houseId}}',
+                de: 'Wechsel der Farbgebung in Haus #{{houseId}}',
+                pl: 'Zmiana kolorystyki w domu #{{houseId}}',
+            },
+        },
         confirm: {
             ru: 'Подтвердить',
             ua: 'Підтвердити',
@@ -533,6 +560,37 @@ export const server = {
         },
     },
     furnitureEditorModal: {
+        // The payment sheet's line (modules/payment): which house, and what the order is made of.
+        payment: {
+            description: {
+                ru: 'Покупка мебели в дом #{{houseId}}',
+                ua: 'Купівля меблів у будинок #{{houseId}}',
+                en: 'Buying furniture for house #{{houseId}}',
+                de: 'Möbelkauf für Haus #{{houseId}}',
+                pl: 'Zakup mebli do domu #{{houseId}}',
+            },
+            newCount: {
+                ru: 'Новой мебели: {{count}}',
+                ua: 'Нових меблів: {{count}}',
+                en: 'New furniture: {{count}}',
+                de: 'Neue Möbel: {{count}}',
+                pl: 'Nowych mebli: {{count}}',
+            },
+            donateCount: {
+                ru: 'Донат мебели: {{count}}',
+                ua: 'Донат меблів: {{count}}',
+                en: 'Donate furniture: {{count}}',
+                de: 'Donate-Möbel: {{count}}',
+                pl: 'Mebli donate: {{count}}',
+            },
+            changed: {
+                ru: 'Заказ изменился, откройте оплату заново',
+                ua: 'Замовлення змінилося, відкрийте оплату заново',
+                en: 'The order has changed, open the payment again',
+                de: 'Die Bestellung hat sich geändert, öffne die Zahlung erneut',
+                pl: 'Zamówienie się zmieniło, otwórz płatność ponownie',
+            },
+        },
         title: {
             ru: 'Редактор мебели',
             ua: 'Редактор меблів',

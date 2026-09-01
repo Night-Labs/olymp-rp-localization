@@ -30,6 +30,17 @@ export const server = {
         pl: 'Nie masz wystarczająco dużo pieniędzy, aby wynająć ten pojazd',
         zh: '你没有足够的钱来租这辆车',
     },
+    // The payment sheet's line (modules/payment).
+    payment: {
+        description: {
+            ru: 'Аренда {{name}} на {{minutes}} мин.',
+            ua: 'Оренда {{name}} на {{minutes}} хв.',
+            en: 'Renting {{name}} for {{minutes}} min',
+            de: 'Miete von {{name}} für {{minutes}} Min.',
+            pl: 'Wynajem {{name}} na {{minutes}} min',
+            zh: '租用 {{name}} {{minutes}} 分钟',
+        },
+    },
     youSuccessfullyRented: {
         ru: 'Вы успешно арендовали транспортное средство за ${{price}}',
         ua: 'Ви успішно орендували транспортний засіб за ${{price}}',

@@ -83,6 +83,16 @@ export default {
         },
     },
     server: {
+        // The payment sheet's line (modules/payment).
+        payment: {
+            description: {
+                ru: 'Бронирование дома #{{houseId}} на {{hours}} ч.',
+                ua: 'Бронювання будинку #{{houseId}} на {{hours}} год.',
+                en: 'Reserving house #{{houseId}} for {{hours}} h',
+                de: 'Reservierung von Haus #{{houseId}} für {{hours}} Std.',
+                pl: 'Rezerwacja domu #{{houseId}} na {{hours}} godz.',
+            },
+        },
         houseUnavailable: {
             ru: 'Дом уже недоступен',
             ua: 'Будинок уже недоступний',

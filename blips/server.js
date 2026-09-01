@@ -1,4 +1,11 @@
 export const server = {
+    localPlayer: {
+        ru: 'Вы',
+        ua: 'Ви',
+        en: 'You',
+        de: 'Du',
+        pl: 'Ty',
+    },
     church: {
         ru: 'Церковь',
         ua: 'Церква',

@@ -13,6 +13,16 @@ export const server = {
         de: 'Um das Auto zu waschen',
         pl: 'Aby umyć auto',
     },
+    // The payment sheet's line (modules/payment): what is being paid for and where.
+    payment: {
+        description: {
+            ru: 'Мойка автомобиля на автомойке #{{number}}',
+            ua: 'Мийка автомобіля на автомийці #{{number}}',
+            en: 'Car wash at wash #{{number}}',
+            de: 'Autowäsche in Waschanlage #{{number}}',
+            pl: 'Mycie auta w myjni #{{number}}',
+        },
+    },
     modal: {
         title: {
             ru: 'Автомойка',
@@ -44,6 +54,13 @@ export const server = {
         },
     },
     notify: {
+        cannotStart: {
+            ru: 'Сейчас помыть авто не получится',
+            ua: 'Зараз помити авто не вийде',
+            en: 'The wash cannot start right now',
+            de: 'Die Wäsche kann gerade nicht starten',
+            pl: 'Nie można teraz umyć auta',
+        },
         cleaned: {
             ru: 'Ваше авто помыто',
             ua: 'Ваше авто помите',

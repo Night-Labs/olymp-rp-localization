@@ -90,14 +90,6 @@ export const server = {
         pl: 'Nie znaleziono konta z tym adresem e-mail',
         zh: '未找到使用该邮箱的账户',
     },
-    hwidRequired: {
-        ua: 'Не вдалося підтвердити ваш пристрій. Перезапустіть лаунчер і спробуйте ще раз',
-        en: 'Your device could not be verified. Restart the launcher and try again',
-        ru: 'Не удалось подтвердить ваше устройство. Перезапустите лаунчер и попробуйте снова',
-        de: 'Dein Gerät konnte nicht verifiziert werden. Starte den Launcher neu und versuche es erneut',
-        pl: 'Nie udało się zweryfikować twojego urządzenia. Uruchom ponownie launcher i spróbuj jeszcze raz',
-        zh: '无法验证你的设备。请重启启动器后重试',
-    },
     loginEmailInUse: {
         ua: 'Логін або E-Mail вже використовуються. Спробуйте інші дані',
         en: 'Login or E-Mail is already in use. Try different data',
@@ -113,6 +105,14 @@ export const server = {
         de: 'Ungültige Registrierungsdaten',
         pl: 'Nieprawidłowe dane rejestracji',
         zh: '注册数据无效',
+    },
+    hwidRequired: {
+        ua: 'Не вдалося підтвердити ваше обладнання. Перезапустіть гру через лаунчер і спробуйте ще раз',
+        en: 'Could not verify your hardware. Restart the game through the launcher and try again',
+        ru: 'Не удалось подтвердить ваше оборудование. Перезапустите игру через лаунчер и попробуйте снова',
+        de: 'Deine Hardware konnte nicht verifiziert werden. Starte das Spiel über den Launcher neu und versuche es erneut',
+        pl: 'Nie udało się zweryfikować twojego sprzętu. Uruchom grę ponownie przez launcher i spróbuj jeszcze raz',
+        zh: '无法验证你的硬件。请通过启动器重启游戏后再试',
     },
     invalidCode: {
         ru: 'Код восстановления не найден',

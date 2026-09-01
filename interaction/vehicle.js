@@ -61,6 +61,78 @@ export const vehicle = {
         zh: '解锁',
     },
 
+    airSuspension: {
+        ru: 'Пневмоподвеска',
+        ua: 'Пневмопідвіска',
+        en: 'Air suspension',
+        de: 'Luftfederung',
+        pl: 'Zawieszenie pneumatyczne',
+        zh: '空气悬挂',
+    },
+
+    'airSuspension-setup': {
+        ru: 'Настройка',
+        ua: 'Налаштування',
+        en: 'Setup',
+        de: 'Einstellung',
+        pl: 'Ustawienia',
+        zh: '设置',
+    },
+
+    'airSuspension-down': {
+        ru: 'Нижнее положение',
+        ua: 'Нижнє положення',
+        en: 'Lower position',
+        de: 'Untere Position',
+        pl: 'Pozycja dolna',
+        zh: '最低位置',
+    },
+
+    'airSuspension-up': {
+        ru: 'Верхнее положение',
+        ua: 'Верхнє положення',
+        en: 'Upper position',
+        de: 'Obere Position',
+        pl: 'Pozycja górna',
+        zh: '最高位置',
+    },
+
+    'airSuspension-auto-on': {
+        ru: 'Включить авторежим',
+        ua: 'Увімкнути авторежим',
+        en: 'Enable auto mode',
+        de: 'Automodus einschalten',
+        pl: 'Włącz tryb auto',
+        zh: '开启自动模式',
+    },
+
+    'airSuspension-auto-off': {
+        ru: 'Выключить авторежим',
+        ua: 'Вимкнути авторежим',
+        en: 'Disable auto mode',
+        de: 'Automodus ausschalten',
+        pl: 'Wyłącz tryb auto',
+        zh: '关闭自动模式',
+    },
+
+    autopilot: {
+        ru: 'Автопилот: ехать к метке',
+        ua: 'Автопілот: їхати до мітки',
+        en: 'Autopilot: drive to waypoint',
+        de: 'Autopilot: zum Wegpunkt fahren',
+        pl: 'Autopilot: jedź do punktu trasy',
+        zh: '自动驾驶：前往路径点',
+    },
+
+    'autopilot-off': {
+        ru: 'Отключить автопилот',
+        ua: 'Вимкнути автопілот',
+        en: 'Disengage autopilot',
+        de: 'Autopilot deaktivieren',
+        pl: 'Wyłącz autopilota',
+        zh: '关闭自动驾驶',
+    },
+
     'burglar-loadTrunk': {
         ru: 'Положить в багажник',
         ua: 'Покласти в багажник',
@@ -93,6 +165,24 @@ export const vehicle = {
         de: 'Kofferraum für andere schließen',
         pl: 'Zamknij bagażnik dla innych',
         zh: '为他人关闭后备箱',
+    },
+
+    'interiorLight-on': {
+        ru: 'Включить свет в салоне',
+        ua: 'Увімкнути світло в салоні',
+        en: 'Turn on the cabin light',
+        de: 'Innenbeleuchtung einschalten',
+        pl: 'Włącz oświetlenie kabiny',
+        zh: '打开车内照明',
+    },
+
+    'interiorLight-off': {
+        ru: 'Выключить свет в салоне',
+        ua: 'Вимкнути світло в салоні',
+        en: 'Turn off the cabin light',
+        de: 'Innenbeleuchtung ausschalten',
+        pl: 'Wyłącz oświetlenie kabiny',
+        zh: '关闭车内照明',
     },
 
     'kick-all': {
@@ -199,6 +289,22 @@ export const vehicle = {
         de: 'An die Organisation übergeben',
         pl: 'Przekaż do organizacji',
         zh: '转交给家族',
+    },
+    'remove-plate': {
+        ru: 'Снять номер',
+        ua: 'Зняти номер',
+        en: 'Remove plate',
+        de: 'Kennzeichen abnehmen',
+        pl: 'Zdejmij tablicę',
+        zh: '拆下车牌',
+    },
+    'install-plate': {
+        ru: 'Установить номер',
+        ua: 'Встановити номер',
+        en: 'Mount plate',
+        de: 'Kennzeichen montieren',
+        pl: 'Zamontuj tablicę',
+        zh: '安装车牌',
     },
     'faction-despawn': {
         ru: 'Задеспавнить',
@@ -317,6 +423,76 @@ export const vehicle = {
         en: 'Hood',
         de: 'Motorhaube',
         pl: 'Maska',
+    },
+    'doorsControl-driverFrontDoor-open': {
+        ru: 'Открыть переднюю левую дверь',
+        ua: 'Відкрити передні ліві двері',
+        en: 'Open the front left door',
+        de: 'Vordere linke Tür öffnen',
+        pl: 'Otwórz przednie lewe drzwi',
+    },
+    'doorsControl-driverFrontDoor-close': {
+        ru: 'Закрыть переднюю левую дверь',
+        ua: 'Закрити передні ліві двері',
+        en: 'Close the front left door',
+        de: 'Vordere linke Tür schließen',
+        pl: 'Zamknij przednie lewe drzwi',
+    },
+    'doorsControl-passengerFrontDoor-open': {
+        ru: 'Открыть переднюю правую дверь',
+        ua: 'Відкрити передні праві двері',
+        en: 'Open the front right door',
+        de: 'Vordere rechte Tür öffnen',
+        pl: 'Otwórz przednie prawe drzwi',
+    },
+    'doorsControl-passengerFrontDoor-close': {
+        ru: 'Закрыть переднюю правую дверь',
+        ua: 'Закрити передні праві двері',
+        en: 'Close the front right door',
+        de: 'Vordere rechte Tür schließen',
+        pl: 'Zamknij przednie prawe drzwi',
+    },
+    'doorsControl-driverRearDoor-open': {
+        ru: 'Открыть заднюю левую дверь',
+        ua: 'Відкрити задні ліві двері',
+        en: 'Open the rear left door',
+        de: 'Hintere linke Tür öffnen',
+        pl: 'Otwórz tylne lewe drzwi',
+    },
+    'doorsControl-driverRearDoor-close': {
+        ru: 'Закрыть заднюю левую дверь',
+        ua: 'Закрити задні ліві двері',
+        en: 'Close the rear left door',
+        de: 'Hintere linke Tür schließen',
+        pl: 'Zamknij tylne lewe drzwi',
+    },
+    'doorsControl-passengerRearDoor-open': {
+        ru: 'Открыть заднюю правую дверь',
+        ua: 'Відкрити задні праві двері',
+        en: 'Open the rear right door',
+        de: 'Hintere rechte Tür öffnen',
+        pl: 'Otwórz tylne prawe drzwi',
+    },
+    'doorsControl-passengerRearDoor-close': {
+        ru: 'Закрыть заднюю правую дверь',
+        ua: 'Закрити задні праві двері',
+        en: 'Close the rear right door',
+        de: 'Hintere rechte Tür schließen',
+        pl: 'Zamknij tylne prawe drzwi',
+    },
+    'doorsControl-hood-open': {
+        ru: 'Открыть капот',
+        ua: 'Відкрити капот',
+        en: 'Open the hood',
+        de: 'Motorhaube öffnen',
+        pl: 'Otwórz maskę',
+    },
+    'doorsControl-hood-close': {
+        ru: 'Закрыть капот',
+        ua: 'Закрити капот',
+        en: 'Close the hood',
+        de: 'Motorhaube schließen',
+        pl: 'Zamknij maskę',
     },
 
     //

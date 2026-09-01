@@ -133,5 +133,13 @@ export const cef = {
             pl: 'Jazda próbna',
             zh: '试驾',
         },
+        tuning: {
+            ua: 'Тюнінг',
+            en: 'Tuning',
+            ru: 'Тюнинг',
+            de: 'Tuning',
+            pl: 'Tuning',
+            zh: '改装',
+        },
     },
 };

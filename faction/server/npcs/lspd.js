@@ -53,6 +53,15 @@ export default {
             zh: '汽车保险',
         },
 
+        numberPlates: {
+            ru: 'Номера Т/С',
+            ua: 'Номери Т/З',
+            en: 'Vehicle plates',
+            de: 'Kennzeichen',
+            pl: 'Tablice rejestracyjne',
+            zh: '车牌',
+        },
+
         factionRecruitment: {
             ru: 'Набор в фракцию LSPD проводят лидер и его заместитель. Следите за объявлениями.',
             ua: 'Набір до фракції LSPD проводять лідер та його заступник. Слідкуйте за оголошеннями.',

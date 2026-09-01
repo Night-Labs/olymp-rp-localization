@@ -420,6 +420,22 @@ export const server = {
         pl: 'Taki pojazd nie istnieje',
         zh: '车辆不存在',
     },
+    vehicleGiven: {
+        ru: 'Игроку {{name}} выдан транспорт {{vehicle}}',
+        ua: 'Гравцю {{name}} видано транспорт {{vehicle}}',
+        en: 'Vehicle {{vehicle}} has been given to {{name}}',
+        de: 'Fahrzeug {{vehicle}} wurde an {{name}} vergeben',
+        pl: 'Pojazd {{vehicle}} został wydany graczowi {{name}}',
+        zh: '已向{{name}}发放载具{{vehicle}}',
+    },
+    vehicleReceived: {
+        ru: 'Администратор выдал вам транспорт {{vehicle}}',
+        ua: 'Адміністратор видав вам транспорт {{vehicle}}',
+        en: 'An administrator has given you the vehicle {{vehicle}}',
+        de: 'Ein Administrator hat dir das Fahrzeug {{vehicle}} gegeben',
+        pl: 'Administrator wydał ci pojazd {{vehicle}}',
+        zh: '管理员向你发放了载具{{vehicle}}',
+    },
     businessNotFound: {
         ru: 'Бизнес {{id}} не найден',
         ua: 'Бізнес {{id}} не знайдено',

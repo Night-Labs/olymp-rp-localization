@@ -180,6 +180,43 @@ export const items = {
             zh: '手机卡',
         },
     },
+    licensePlate: {
+        name: {
+            ua: 'Номерний знак',
+            en: 'License plate',
+            ru: 'Номерной знак',
+            de: 'Kennzeichen',
+            pl: 'Tablica rejestracyjna',
+            zh: '车牌',
+        },
+        desc: {
+            ua: 'Реєстраційний знак транспортного засобу',
+            en: 'Vehicle registration plate',
+            ru: 'Регистрационный знак транспортного средства',
+            de: 'Fahrzeugkennzeichen',
+            pl: 'Tablica rejestracyjna pojazdu',
+            zh: '车辆登记牌',
+        },
+    },
+    // The vehicle's name and plate are appended from the item's data: "Key Sultan RS (ABC1234)".
+    vehicleKey: {
+        name: {
+            ua: 'Ключ',
+            en: 'Key',
+            ru: 'Ключ',
+            de: 'Schlüssel',
+            pl: 'Klucz',
+            zh: '钥匙',
+        },
+        desc: {
+            ua: 'Ключ від транспорту: відкриває, заводить і викликає його з телефону. Перестає підходити після заміни замків',
+            en: 'A vehicle key: unlocks, starts and calls the vehicle from the phone. Stops fitting once the locks are changed',
+            ru: 'Ключ от транспорта: открывает, заводит и вызывает его с телефона. Перестаёт подходить после смены замков',
+            de: 'Fahrzeugschlüssel: öffnet, startet und ruft das Fahrzeug per Telefon. Passt nach einem Schlosswechsel nicht mehr',
+            pl: 'Klucz do pojazdu: otwiera, odpala i wzywa go z telefonu. Przestaje pasować po wymianie zamków',
+            zh: '车钥匙：可开锁、启动并用手机召唤车辆。更换门锁后失效',
+        },
+    },
     laptop: {
         name: {
             ua: 'Ноутбук',

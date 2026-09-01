@@ -91,6 +91,17 @@ export default {
     },
 
     bar: {
+        // The payment sheet's line (modules/payment).
+        payment: {
+            description: {
+                ru: 'Заказ в баре казино',
+                ua: 'Замовлення в барі казино',
+                en: 'Order at the casino bar',
+                de: 'Bestellung an der Casino-Bar',
+                pl: 'Zamówienie w barze kasyna',
+                zh: '在赌场酒吧点单',
+            },
+        },
         name: {
             ru: 'Бар',
             ua: 'Бар',
