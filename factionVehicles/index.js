@@ -107,6 +107,13 @@ export default {
             de: 'Besetzt',
             pl: 'Zajęty',
         },
+        destroyed: {
+            ru: 'Уничтожена',
+            ua: 'Знищена',
+            en: 'Destroyed',
+            de: 'Zerstört',
+            pl: 'Zniszczony',
+        },
     },
     buttons: {
         take: {
@@ -123,6 +130,20 @@ export default {
             de: 'Besetzt von: {{name}}',
             pl: 'Zajęte przez: {{name}}',
         },
+        restore: {
+            ru: 'Восстановить за ${{price}}',
+            ua: 'Відновити за ${{price}}',
+            en: 'Restore for ${{price}}',
+            de: 'Für ${{price}} wiederherstellen',
+            pl: 'Odbuduj za ${{price}}',
+        },
+    },
+    balance: {
+        ru: 'Касса фракции: ${{money}}',
+        ua: 'Каса фракції: ${{money}}',
+        en: 'Faction treasury: ${{money}}',
+        de: 'Fraktionskasse: ${{money}}',
+        pl: 'Kasa frakcji: ${{money}}',
     },
     replaceDialog: {
         title: {

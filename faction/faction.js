@@ -22,6 +22,8 @@ import graffitiWar from './graffitiWar';
 import vehicleImpound from './vehicleImpound';
 import vehicleNpc from './vehicleNpc';
 import lizaSellPills from './lizaSellPills';
+import warHistory from './warHistory';
+import warPlanner from './warPlanner';
 
 export const faction = {
     factions,
@@ -30,6 +32,8 @@ export const faction = {
     wardrobe,
     inventory,
     logs,
+    warHistory,
+    warPlanner,
     airdrop,
     supply,
     plants,
@@ -100,6 +104,14 @@ export const faction = {
         zh: '权利不足',
     },
     ems: {
+        name: {
+            ru: 'Больница',
+            ua: 'Лікарня',
+            en: 'Hospital',
+            de: 'Krankenhaus',
+            pl: 'Szpital',
+            zh: '医院',
+        },
         bedOccupied: {
             ru: 'Койка уже занята',
             ua: 'Ліжко вже зайняте',
@@ -110,7 +122,7 @@ export const faction = {
         },
         bedHealed: {
             ru: 'Вы полностью восстановили здоровье',
-            ua: 'Ви повністю відновили здоров’я',
+            ua: "Ви повністю відновили здоров'я",
             en: 'You have fully restored your health',
             de: 'Du hast deine Gesundheit vollständig wiederhergestellt',
             pl: 'W pełni odzyskałeś zdrowie',
@@ -547,6 +559,34 @@ export const faction = {
         en: '{{name}} returned your faction vehicle to the base',
         de: '{{name}} hat dein Fraktionsfahrzeug zur Basis zurückgebracht',
         pl: '{{name}} zwrócił twój pojazd frakcyjny na bazę',
+    },
+    vehicleIsDestroyed: {
+        ru: 'Машина уничтожена, её нужно восстановить',
+        ua: 'Машина знищена, її потрібно відновити',
+        en: 'The vehicle is destroyed and has to be restored first',
+        de: 'Das Fahrzeug ist zerstört und muss zuerst wiederhergestellt werden',
+        pl: 'Pojazd jest zniszczony i najpierw trzeba go odbudować',
+    },
+    vehicleIsNotDestroyed: {
+        ru: 'Эта машина цела, восстанавливать нечего',
+        ua: 'Ця машина ціла, відновлювати нічого',
+        en: 'This vehicle is intact, there is nothing to restore',
+        de: 'Dieses Fahrzeug ist intakt, es gibt nichts wiederherzustellen',
+        pl: 'Ten pojazd jest sprawny, nie ma czego odbudowywać',
+    },
+    noMoneyForVehicleRestore: {
+        ru: 'В кассе фракции недостаточно денег на восстановление',
+        ua: 'У касі фракції недостатньо грошей на відновлення',
+        en: 'The faction treasury does not have enough money for the restoration',
+        de: 'In der Fraktionskasse ist nicht genug Geld für die Wiederherstellung',
+        pl: 'W kasie frakcji brakuje pieniędzy na odbudowę',
+    },
+    vehicleRestored: {
+        ru: 'Транспорт {{name}} восстановлен за счёт фракции',
+        ua: 'Транспорт {{name}} відновлено за рахунок фракції',
+        en: 'The vehicle {{name}} has been restored at the faction expense',
+        de: 'Das Fahrzeug {{name}} wurde auf Kosten der Fraktion wiederhergestellt',
+        pl: 'Pojazd {{name}} został odbudowany na koszt frakcji',
     },
     vehicleRankAccessDenied: {
         ru: 'Ваш ранг слишком низкий для этой машины',

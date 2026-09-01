@@ -135,6 +135,13 @@ export const permissions = {
             de: 'Bürotresor',
             pl: 'Sejf biura',
         },
+        openOffice: {
+            ru: 'Открывать офис для посетителей',
+            ua: 'Відкривати офіс для відвідувачів',
+            en: 'Open office to visitors',
+            de: 'Büro für Besucher öffnen',
+            pl: 'Otwierać biuro dla odwiedzających',
+        },
         warehouseAccess: {
             ru: 'Полный доступ к складу',
             ua: 'Повний доступ до складу',

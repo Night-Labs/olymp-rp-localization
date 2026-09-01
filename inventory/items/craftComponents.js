@@ -70,14 +70,14 @@ export default {
     tool_handle: {
         name: {
             ru: 'Рукоять инструмента',
-            ua: 'Руківʼя інструмента',
+            ua: "Руків'я інструмента",
             en: 'Tool handle',
             de: 'Werkzeuggriff',
             pl: 'Rękojeść narzędzia',
         },
         desc: {
             ru: 'Заготовка рукояти для ручного инструмента. Используется при создании кирок, лопат и прочего.',
-            ua: 'Заготовка руківʼя для ручного інструмента. Використовується під час створення кайл, лопат та іншого.',
+            ua: "Заготовка руків'я для ручного інструмента. Використовується під час створення кайл, лопат та іншого.",
             en: 'A handle blank for hand tools. Used when crafting pickaxes, shovels, and more.',
             de: 'Ein Rohling für einen Handwerkzeuggriff. Wird beim Herstellen von Spitzhacken, Schaufeln und mehr verwendet.',
             pl: 'Półfabrykat rękojeści do narzędzi ręcznych. Używany przy tworzeniu kilofów, łopat i innych.',

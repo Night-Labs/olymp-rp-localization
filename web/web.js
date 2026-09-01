@@ -1,13 +1,9 @@
-import freeweb from './freeweb';
-import home from './home';
-import search from './search';
+import browser from './browser';
 import notFound from './notFound';
 import sites from './sites';
 
 export const web = {
-    freeweb,
-    home,
-    search,
+    browser,
     notFound,
     sites,
 };

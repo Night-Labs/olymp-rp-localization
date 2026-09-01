@@ -82,6 +82,14 @@ export const server = {
         pl: 'Możesz mieć tylko jedno konto',
         zh: '一人最多只能拥有一个账户',
     },
+    recoveryDataNotFound: {
+        ua: 'Акаунт з такою поштою не знайдено',
+        en: 'No account was found with this email',
+        ru: 'Аккаунт с такой почтой не найден',
+        de: 'Es wurde kein Konto mit dieser E-Mail gefunden',
+        pl: 'Nie znaleziono konta z tym adresem e-mail',
+        zh: '未找到使用该邮箱的账户',
+    },
     loginEmailInUse: {
         ua: 'Логін або E-Mail вже використовуються. Спробуйте інші дані',
         en: 'Login or E-Mail is already in use. Try different data',

@@ -49,6 +49,14 @@ export const server = {
         pl: 'Pomyślnie wynająłeś pojazd za ${{price}}',
         zh: '您已成功以${{price}}的价格租用车辆',
     },
+    rentFailed: {
+        ru: 'Не удалось выдать транспортное средство, деньги возвращены',
+        ua: 'Не вдалося видати транспортний засіб, гроші повернуто',
+        en: 'Failed to deliver the vehicle, the money has been refunded',
+        de: 'Das Fahrzeug konnte nicht ausgegeben werden, das Geld wurde zurückerstattet',
+        pl: 'Nie udało się wydać pojazdu, pieniądze zostały zwrócone',
+        zh: '车辆发放失败，款项已退回',
+    },
     ifYouDontReturnToVehicle: {
         ua: 'Якщо ви не повернетесь до Т/З, воно зникне через {{minutes}} хвилин',
         en: 'If you do not return to the vehicle, it will disappear after {{minutes}} minutes',

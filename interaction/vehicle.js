@@ -34,6 +34,15 @@ export const vehicle = {
         pl: 'Odtwarzacz',
     },
 
+    passengers: {
+        ru: 'Пассажиры',
+        ua: 'Пасажири',
+        en: 'Passengers',
+        de: 'Mitfahrer',
+        pl: 'Pasażerowie',
+        zh: '乘客',
+    },
+
     lock: {
         ru: 'Закрыть',
         ua: 'Закрити',
@@ -122,6 +131,22 @@ export const vehicle = {
         de: 'Autopilot deaktivieren',
         pl: 'Wyłącz autopilota',
         zh: '关闭自动驾驶',
+    },
+
+    'burglar-loadTrunk': {
+        ru: 'Положить в багажник',
+        ua: 'Покласти в багажник',
+        en: 'Put in the trunk',
+        de: 'In den Kofferraum legen',
+        pl: 'Włożyć do bagażnika',
+    },
+
+    'contracts-loadTrunk': {
+        ru: 'Погрузить ящик контракта',
+        ua: 'Завантажити ящик контракту',
+        en: 'Load the contract crate',
+        de: 'Vertragskiste einladen',
+        pl: 'Zaladuj skrzynie kontraktu',
     },
 
     'trunk-open': {
@@ -318,6 +343,35 @@ export const vehicle = {
             pl: 'Zamknąłeś bagażnik.',
             zh: '你关上了后备箱',
         },
+    },
+
+    siren: {
+        ru: 'Сирена',
+        ua: 'Сирена',
+        en: 'Siren',
+        de: 'Sirene',
+        pl: 'Syrena',
+    },
+    'siren-sound': {
+        ru: 'Включить сирену со звуком',
+        ua: 'Увімкнути сирену зі звуком',
+        en: 'Turn on the siren with sound',
+        de: 'Sirene mit Ton einschalten',
+        pl: 'Włącz syrenę z dźwiękiem',
+    },
+    'siren-lights': {
+        ru: 'Включить сирену без звука',
+        ua: 'Увімкнути сирену без звуку',
+        en: 'Turn on the siren without sound',
+        de: 'Sirene ohne Ton einschalten',
+        pl: 'Włącz syrenę bez dźwięku',
+    },
+    'siren-off': {
+        ru: 'Выключить сирену',
+        ua: 'Вимкнути сирену',
+        en: 'Turn off the siren',
+        de: 'Sirene ausschalten',
+        pl: 'Wyłącz syrenę',
     },
 
     doorsControl: {

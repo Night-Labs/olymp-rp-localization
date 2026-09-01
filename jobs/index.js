@@ -8,10 +8,19 @@ import { quarry } from './quarry/quarry';
 import treasureHunter from './treasureHunter/treasureHunter';
 import mushrooms from './mushrooms/mushrooms';
 import towTruck from './towTruck';
+import burglar from './burglar/burglar';
 
 export default {
     // ТО ЧТО СВЯЗАНО С РАБОТАМИ
     list: {
+        // Not a job - the label a requirement uses when it accepts any job at a given rank.
+        any: {
+            ru: 'Любая работа',
+            ua: 'Будь-яка робота',
+            en: 'Any job',
+            de: 'Beliebiger Job',
+            pl: 'Dowolna praca',
+        },
         trucker: {
             ru: 'Грузоперевозчик',
             ua: 'Вантажоперевізник',
@@ -89,6 +98,13 @@ export default {
             de: 'Autodieb',
             pl: 'Złodziej samochodów',
         },
+        burglar: {
+            ru: 'Домушник',
+            ua: 'Домушник',
+            en: 'Burglar',
+            de: 'Einbrecher',
+            pl: 'Włamywacz',
+        },
         diver: {
             ru: 'Водолаз',
             ua: 'Водолаз',
@@ -116,6 +132,13 @@ export default {
             en: 'Garbage worker',
             de: 'Mullwerker',
             pl: 'Smieciarz',
+        },
+        airCargo: {
+            ru: 'Авиагрузчик',
+            ua: 'Авіавантажник',
+            en: 'Air Cargo Loader',
+            de: 'Luftfracht-Verlader',
+            pl: 'Ładowacz lotniczy',
         },
         towTruck: {
             ru: 'Оператор эвакуатора',
@@ -145,4 +168,5 @@ export default {
     treasureHunter,
     mushrooms,
     towTruck,
+    burglar,
 };

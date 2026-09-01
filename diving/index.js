@@ -53,7 +53,7 @@ export default {
             ru: 'Ну как передумаешь буду ждать тебя здесь, всегда найдется работа для тебя!',
             ua: 'Як передумаєш - я чекатиму тебе тут, для тебе завжди знайдеться робота!',
             en: "If you change your mind, I'll be here - there's always a job for you!",
-            de: 'Wenn du es dir anders überlegst, ich warte hier – es gibt immer Arbeit für dich!',
+            de: 'Wenn du es dir anders überlegst, ich warte hier - es gibt immer Arbeit für dich!',
             pl: 'Jak zmienisz zdanie, będę tu czekać - zawsze znajdzie się dla ciebie praca!',
         },
         okayBye: {
@@ -83,7 +83,7 @@ export default {
             ru: 'К сожалению ты уже где-то работаешь, сначала уволься там',
             ua: 'На жаль, ти вже десь працюєш - спершу звільнись там',
             en: "Unfortunately, you're already working somewhere else - quit that job first",
-            de: 'Du arbeitest leider schon irgendwo – kündige dort zuerst',
+            de: 'Du arbeitest leider schon irgendwo - kündige dort zuerst',
             pl: 'Niestety, już gdzieś pracujesz - najpierw się tam zwolnij',
         },
     },
@@ -260,7 +260,7 @@ export default {
         ru: 'Воздуха кот наплакал. Хочешь сдохнуть на дне - продолжай, а если нет - быстро заправь баллоны!',
         ua: 'Повітря майже не залишилось. Хочеш здохнути на дні - продовжуй, а якщо ні - швидко заправ балони!',
         en: 'There’s barely any air left. Wanna die at the bottom? Keep going. If not - go refill your tanks, fast!',
-        de: 'Kaum noch Luft da. Willst du am Grund verrecken? Dann mach weiter. Wenn nicht – füll schnell die Flaschen auf!',
+        de: 'Kaum noch Luft da. Willst du am Grund verrecken? Dann mach weiter. Wenn nicht - füll schnell die Flaschen auf!',
         pl: 'Prawie nie ma powietrza. Chcesz zdechnąć na dnie? To kontynuuj. Jeśli nie - szybko napełnij butle!',
     },
 };

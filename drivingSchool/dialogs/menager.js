@@ -62,7 +62,7 @@ export default {
             ru: 'Отлично! Я передала преподавателю информацию о вас, Категории {{category}}.\n\nУверенна вы уже знаете что делать, однако желаю вам удачи!',
             ua: 'Чудово! Я передала викладачеві інформацію про вас, Категорія {{category}}.\n\nВпевнена, ви вже знаєте, що робити, але бажаю вам успіху!',
             en: "Great! I've passed your information to the instructor for Category {{category}}.\n\nI'm sure you already know what to do, but I still wish you good luck!",
-            de: 'Super! Ich habe dem Ausbilder die Informationen über dich und die Kategorie {{category}} weitergeleitet.\n\nIch bin sicher, du weißt bereits, was zu tun ist – trotzdem wünsche ich dir viel Glück!',
+            de: 'Super! Ich habe dem Ausbilder die Informationen über dich und die Kategorie {{category}} weitergeleitet.\n\nIch bin sicher, du weißt bereits, was zu tun ist - trotzdem wünsche ich dir viel Glück!',
             pl: 'Świetnie! Przekazałam instruktorowi informacje o Tobie i kategorii {{category}}.\n\nJestem pewna, że już wiesz, co robić, ale mimo to życzę powodzenia!',
         },
 

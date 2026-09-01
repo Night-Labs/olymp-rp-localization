@@ -11,7 +11,7 @@ export const cef = {
         desc: {
             ua: 'Наш банк успішно обслуговує клієнтів вже десять років, надаючи їм якісні фінансові послуги. Ми пишаємося задоволеними клієнтами, які залишаються з нами протягом всього цього часу. Нашим пріоритетом є задоволеність наших клієнтів, і ми намагаємося забезпечити їм високий рівень обслуговування. Дякуємо всім за довіру, яку ви виявляєте нам вже довгі роки!',
             en: 'Our bank has been successfully serving customers for ten years, providing them with quality financial services. We take pride in satisfied customers who have stayed with us throughout this time. Our priority is customer satisfaction, and we strive to provide them with a high level of service. Thank you all for the trust you have shown us for many years!',
-            ru: 'Наш банк успешно обслуживает клиентов уже десять лет, предоставляя им качественные финансовые услуги. Мы гордимся довольными клиентами, которые остаются с нами на протяжении всего этого времени. Наш приоритет – удовлетворенность наших клиентов, и мы стараемся обеспечить им высокий уровень обслуживания. Спасибо всем за доверие, которое вы оказываете нам уже долгие годы!',
+            ru: 'Наш банк успешно обслуживает клиентов уже десять лет, предоставляя им качественные финансовые услуги. Мы гордимся довольными клиентами, которые остаются с нами на протяжении всего этого времени. Наш приоритет - удовлетворенность наших клиентов, и мы стараемся обеспечить им высокий уровень обслуживания. Спасибо всем за доверие, которое вы оказываете нам уже долгие годы!',
             de: 'Unsere Bank bedient Kunden seit zehn Jahren erfolgreich und bietet ihnen qualitativ hochwertige Finanzdienstleistungen. Wir sind stolz auf zufriedene Kunden, die uns während dieser Zeit treu geblieben sind. Unsere Priorität ist die Kundenzufriedenheit, und wir bemühen uns, ihnen einen hohen Servicestandard zu bieten. Vielen Dank an alle für das Vertrauen, das du uns über viele Jahre entgegengebracht hast!',
             pl: 'Nasz bank od dziesięciu lat skutecznie obsługuje klientów, świadcząc dla nich usługi finansowe najwyższej jakości. Jesteśmy dumni z zadowolonych klientów, którzy pozostali z nami przez cały ten czas. Naszym priorytetem jest zadowolenie klientów, i dążymy do zapewnienia im wysokiego poziomu obsługi. Dziękujemy wszystkim za zaufanie, jakie nam wykazaliście przez wiele lat!',
             zh: '本行成立十年来，一直以优质的服务深受大家喜爱，感谢大家多年来对我们的信任!',
@@ -768,7 +768,7 @@ export const cef = {
     transfers: {
         commentPlaceholder: {
             ru: 'Комментарий (необязательно)',
-            ua: 'Коментар (необов’язково)',
+            ua: "Коментар (необов'язково)",
             en: 'Comment (optional)',
             de: 'Kommentar (optional)',
             pl: 'Komentarz (opcjonalnie)',
@@ -776,7 +776,7 @@ export const cef = {
         },
         friendsHint: {
             ru: 'Начните вводить имя друга или номер счёта',
-            ua: 'Почніть вводити імʼя друга або номер рахунку',
+            ua: "Почніть вводити ім'я друга або номер рахунку",
             en: 'Start typing a friend name or account number',
             de: 'Tippe einen Freundnamen oder Kontonummer ein',
             pl: 'Zacznij wpisywać imię znajomego lub numer konta',

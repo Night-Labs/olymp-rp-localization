@@ -224,7 +224,7 @@ export const warsLobby = {
         },
         pickBan: {
             title: {
-                ru: 'Выбор карты — банами',
+                ru: 'Выбор карты - банами',
                 ua: 'Вибір карти - банами',
                 en: 'Map selection by bans',
                 de: 'Kartenauswahl durch Bans',
@@ -553,21 +553,21 @@ export const warsLobby = {
         notify: {
             attackerNoShow: {
                 ru: 'Атакующие не явились на бой за {{target}}. Защита удержала клетку.',
-                ua: 'Атакуючі не зʼявилися на бій за {{target}}. Захист утримав клітинку.',
+                ua: "Атакуючі не з'явилися на бій за {{target}}. Захист утримав клітинку.",
                 en: 'Attackers did not show up for {{target}}. Defenders kept the cell.',
                 de: 'Angreifer sind nicht zum Kampf um {{target}} erschienen. Verteidigung behaelt die Zelle.',
                 pl: 'Atakujacy nie pojawili sie na walce o {{target}}. Obrona utrzymala pole.',
             },
             defenderNoShow: {
                 ru: 'Защита не явилась на бой за {{target}}. Клетка переходит атакующим.',
-                ua: 'Захист не зʼявився на бій за {{target}}. Клітинка переходить атакуючим.',
+                ua: "Захист не з'явився на бій за {{target}}. Клітинка переходить атакуючим.",
                 en: 'Defenders did not show up for {{target}}. Cell goes to the attackers.',
                 de: 'Verteidiger sind nicht zum Kampf um {{target}} erschienen. Zelle geht an die Angreifer.',
                 pl: 'Obrona nie pojawila sie na walce o {{target}}. Pole przechodzi do atakujacych.',
             },
             bothNoShow: {
                 ru: 'Никто не явился на бой за {{target}}. Клетка остаётся за владельцем.',
-                ua: 'Ніхто не зʼявився на бій за {{target}}. Клітинка залишається у власника.',
+                ua: "Ніхто не з'явився на бій за {{target}}. Клітинка залишається у власника.",
                 en: 'Nobody showed up for {{target}}. Cell stays with its owner.',
                 de: 'Niemand ist zum Kampf um {{target}} erschienen. Zelle bleibt beim Besitzer.',
                 pl: 'Nikt nie pojawil sie na walce o {{target}}. Pole zostaje przy wlascicielu.',
@@ -612,9 +612,9 @@ export const warsLobby = {
         },
         npc: {
             enterWarLobby: {
-                ru: 'Перейти в лобби — {{cell}}',
+                ru: 'Перейти в лобби - {{cell}}',
                 ua: 'Перейти в лобі - {{cell}}',
-                en: 'Enter war lobby — {{cell}}',
+                en: 'Enter war lobby - {{cell}}',
                 de: 'Lobby betreten - {{cell}}',
                 pl: 'Wejdz do lobby - {{cell}}',
             },

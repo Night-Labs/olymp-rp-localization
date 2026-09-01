@@ -87,11 +87,11 @@ export const cef = {
             pl: 'Pojemność',
         },
         capacityValue: {
-            ru: '{{slots}} ячеек · {{weight}} т',
-            ua: '{{slots}} комірок · {{weight}} т',
+            ru: '{{slots}} слотов · {{weight}} т',
+            ua: '{{slots}} слотів · {{weight}} т',
             en: '{{slots}} slots · {{weight}} t',
-            de: '{{slots}} Plätze · {{weight}} t',
-            pl: '{{slots}} miejsc · {{weight}} t',
+            de: '{{slots}} Slots · {{weight}} t',
+            pl: '{{slots}} slotów · {{weight}} t',
         },
         priceCallout: {
             ru: 'Стоимость покупки',

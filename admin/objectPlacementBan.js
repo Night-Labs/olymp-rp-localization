@@ -8,14 +8,14 @@ export default {
     },
     alreadyBanned: {
         ru: 'Игроку уже запрещено размещать объекты',
-        ua: 'Гравцеві вже заборонено розміщувати обʼєкти',
+        ua: "Гравцеві вже заборонено розміщувати об'єкти",
         en: 'This player is already forbidden from placing objects',
         de: 'Dieser Spieler darf bereits keine Objekte mehr platzieren',
         pl: 'Ten gracz ma już zakaz rozmieszczania obiektów',
     },
     notBanned: {
         ru: 'Этому игроку не запрещено размещать объекты',
-        ua: 'Цьому гравцеві не заборонено розміщувати обʼєкти',
+        ua: "Цьому гравцеві не заборонено розміщувати об'єкти",
         en: 'This player is not forbidden from placing objects',
         de: 'Diesem Spieler ist das Platzieren von Objekten nicht verboten',
         pl: 'Ten gracz nie ma zakazu rozmieszczania obiektów',
@@ -29,14 +29,14 @@ export default {
     },
     banned: {
         ru: 'Игроку {{name}} запрещено размещать объекты на {{minutes}} мин.',
-        ua: 'Гравцеві {{name}} заборонено розміщувати обʼєкти на {{minutes}} хв.',
+        ua: "Гравцеві {{name}} заборонено розміщувати об'єкти на {{minutes}} хв.",
         en: 'Player {{name}} is forbidden from placing objects for {{minutes}} min.',
         de: 'Dem Spieler {{name}} ist es für {{minutes}} Minuten verboten, Objekte zu platzieren.',
         pl: 'Gracz {{name}} ma zakaz rozmieszczania obiektów na {{minutes}} min.',
     },
     unbanned: {
         ru: 'Игроку {{name}} снова разрешено размещать объекты',
-        ua: 'Гравцеві {{name}} знову дозволено розміщувати обʼєкти',
+        ua: "Гравцеві {{name}} знову дозволено розміщувати об'єкти",
         en: 'Player {{name}} is allowed to place objects again',
         de: 'Der Spieler {{name}} darf wieder Objekte platzieren',
         pl: 'Gracz {{name}} może znowu rozmieszczać obiekty',

@@ -82,6 +82,14 @@ export default {
             zh: '自动模式已关闭',
         },
     },
+    rentExpired: {
+        ua: 'Термін оренди транспорту закінчився',
+        en: 'The vehicle rental has expired',
+        ru: 'Срок аренды транспорта истёк',
+        de: 'Die Mietzeit des Fahrzeugs ist abgelaufen',
+        pl: 'Wynajem pojazdu wygasł',
+        zh: '车辆租期已到期',
+    },
     youCantInGarage: {
         ua: 'Ви не можете зробити це в гаражі',
         en: 'You cannot do this in the garage',
@@ -250,6 +258,14 @@ export default {
         pl: 'Ktoś korzysta z tego pojazdu, dostawa jest niemożliwa',
         zh: '有人正在使用此车辆，无法送货',
     },
+    deliveryVehicleIsNearby: {
+        ua: 'Транспорт вже поруч з вами, доставка не потрібна',
+        en: 'The vehicle is already next to you, no delivery needed',
+        ru: 'Транспорт уже рядом с вами, доставка не требуется',
+        de: 'Das Fahrzeug steht bereits neben dir, keine Lieferung nötig',
+        pl: 'Pojazd jest już obok ciebie, dostawa nie jest potrzebna',
+        zh: '车辆已经在你附近，无需送货',
+    },
     evacuateOccupants: {
         ua: 'У транспорті є пасажири, евакуація неможлива',
         en: 'Someone is using this vehicle, towing is unavailable',
@@ -338,6 +354,14 @@ export default {
         de: 'Du hast nicht genug Geld.',
         pl: 'Nie masz wystarczająco pieniędzy.',
         zh: '你没有足够的钱',
+    },
+    restoreFailed: {
+        ua: 'Не вдалося відновити транспорт, гроші повернуто.',
+        en: 'Failed to restore the vehicle, the money has been refunded.',
+        ru: 'Не удалось восстановить транспорт, деньги возвращены.',
+        de: 'Das Fahrzeug konnte nicht wiederhergestellt werden, das Geld wurde zurückerstattet.',
+        pl: 'Nie udało się przywrócić pojazdu, pieniądze zostały zwrócone.',
+        zh: '车辆修复失败，款项已退回。',
     },
     youRestored: {
         ua: 'Ви відновили {{name}}',

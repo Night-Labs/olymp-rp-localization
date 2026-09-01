@@ -166,7 +166,7 @@ export default {
             },
             noShowcase: {
                 ru: 'Скоро здесь появятся награды',
-                ua: 'Скоро тут з’являться нагороди',
+                ua: "Скоро тут з'являться нагороди",
                 en: 'Rewards coming soon',
                 de: 'Bald gibt es hier Belohnungen',
                 pl: 'Wkrótce pojawią się nagrody',
@@ -489,7 +489,7 @@ export default {
                     },
                     description: {
                         ru: 'Добудьте {{target}} руды на работе шахтёра в карьере.',
-                        ua: 'Видобудьте {{target}} руди на роботі шахтаря в кар’єрі.',
+                        ua: "Видобудьте {{target}} руди на роботі шахтаря в кар'єрі.",
                         en: 'Mine {{target}} ore while working as a quarry miner.',
                         de: 'Baue {{target}} Erz als Steinbruch-Bergmann ab.',
                         pl: 'Wydobądź {{target}} rudy pracując jako górnik w kamieniołomie.',
@@ -662,14 +662,14 @@ export default {
                 quarryDumper: {
                     title: {
                         ru: 'Карьерный самосвал',
-                        ua: 'Кар’єрний самоскид',
+                        ua: "Кар'єрний самоскид",
                         en: 'Quarry dumper',
                         de: 'Steinbruch-Kipper',
                         pl: 'Wywrotka w kamieniołomie',
                     },
                     description: {
                         ru: 'Заработайте {{target}}$ на самосвале в карьере.',
-                        ua: 'Заробіть {{target}}$ на самоскиді в кар’єрі.',
+                        ua: "Заробіть {{target}}$ на самоскиді в кар'єрі.",
                         en: 'Earn {{target}}$ driving a dumper at the quarry.',
                         de: 'Verdiene {{target}}$ am Kipper im Steinbruch.',
                         pl: 'Zarób {{target}}$ prowadząc wywrotkę w kamieniołomie.',
@@ -678,14 +678,14 @@ export default {
                 quarryBulldozer: {
                     title: {
                         ru: 'Карьерный бульдозер',
-                        ua: 'Кар’єрний бульдозер',
+                        ua: "Кар'єрний бульдозер",
                         en: 'Quarry bulldozer',
                         de: 'Steinbruch-Bulldozer',
                         pl: 'Spychacz w kamieniołomie',
                     },
                     description: {
                         ru: 'Заработайте {{target}}$ на бульдозере в карьере.',
-                        ua: 'Заробіть {{target}}$ на бульдозері в кар’єрі.',
+                        ua: "Заробіть {{target}}$ на бульдозері в кар'єрі.",
                         en: 'Earn {{target}}$ driving a bulldozer at the quarry.',
                         de: 'Verdiene {{target}}$ am Bulldozer im Steinbruch.',
                         pl: 'Zarób {{target}}$ prowadząc spychacz w kamieniołomie.',
@@ -876,14 +876,14 @@ export default {
                 hunting: {
                     title: {
                         ru: 'Скупщик мяса',
-                        ua: 'Скупник м’яса',
+                        ua: "Скупник м'яса",
                         en: 'Meat buyer',
                         de: 'Fleisch-Käufer',
                         pl: 'Skup mięsa',
                     },
                     description: {
                         ru: 'Продайте скупщику мяса на сумму {{target}}$.',
-                        ua: 'Продайте скупнику м’яса на суму {{target}}$.',
+                        ua: "Продайте скупнику м'яса на суму {{target}}$.",
                         en: 'Sell {{target}}$ worth of meat to the buyer.',
                         de: 'Verkaufe Fleisch im Wert von {{target}}$ an den Händler.',
                         pl: 'Sprzedaj skupującemu mięso na kwotę {{target}}$.',
@@ -1015,7 +1015,7 @@ export default {
                     },
                     description: {
                         ru: 'Съешьте бургер {{target}} раз.',
-                        ua: 'З’їжте бургер {{target}} разів.',
+                        ua: "З'їжте бургер {{target}} разів.",
                         en: 'Eat a burger {{target}} times.',
                         de: 'Iss {{target}}-mal einen Burger.',
                         pl: 'Zjedz burgera {{target}} razy.',
@@ -1390,7 +1390,7 @@ export default {
                 callStart: {
                     title: {
                         ru: 'На связи',
-                        ua: 'На зв’язку',
+                        ua: "На зв'язку",
                         en: 'Stay in touch',
                         de: 'In Verbindung',
                         pl: 'W kontakcie',
@@ -1580,11 +1580,11 @@ export default {
                         pl: 'Agronom',
                     },
                     description: {
-                        ru: 'Посадите культуру «{{item}}» — {{target}} шт.',
-                        ua: 'Посадіть культуру «{{item}}» — {{target}} шт.',
-                        en: 'Plant the «{{item}}» crop — {{target}} pcs.',
-                        de: 'Pflanze die Kultur «{{item}}» — {{target}} Stk.',
-                        pl: 'Zasadź uprawę «{{item}}» — {{target}} szt.',
+                        ru: 'Посадите культуру «{{item}}» - {{target}} шт.',
+                        ua: 'Посадіть культуру «{{item}}» - {{target}} шт.',
+                        en: 'Plant the «{{item}}» crop - {{target}} pcs.',
+                        de: 'Pflanze die Kultur «{{item}}» - {{target}} Stk.',
+                        pl: 'Zasadź uprawę «{{item}}» - {{target}} szt.',
                     },
                 },
                 harvestSpecies: {
@@ -1596,11 +1596,11 @@ export default {
                         pl: 'Zbieracz',
                     },
                     description: {
-                        ru: 'Соберите урожай «{{item}}» — {{target}} шт.',
-                        ua: 'Зберіть урожай «{{item}}» — {{target}} шт.',
-                        en: 'Harvest the «{{item}}» crop — {{target}} pcs.',
-                        de: 'Ernte die Kultur «{{item}}» — {{target}} Stk.',
-                        pl: 'Zbierz uprawę «{{item}}» — {{target}} szt.',
+                        ru: 'Соберите урожай «{{item}}» - {{target}} шт.',
+                        ua: 'Зберіть урожай «{{item}}» - {{target}} шт.',
+                        en: 'Harvest the «{{item}}» crop - {{target}} pcs.',
+                        de: 'Ernte die Kultur «{{item}}» - {{target}} Stk.',
+                        pl: 'Zbierz uprawę «{{item}}» - {{target}} szt.',
                     },
                 },
             },
@@ -1721,7 +1721,7 @@ export default {
                     description: { ru: 'Угоните {{target}} автомобилей для банды.', ua: 'Викрадіть {{target}} автомобілів для банди.', en: 'Steal {{target}} vehicles for the gang.', de: 'Stehle {{target}} Fahrzeuge für die Gang.', pl: 'Ukradnij {{target}} pojazdów dla gangu.' },
                 },
                 deliver: {
-                    title: { ru: 'Курьер банды', ua: 'Кур’єр банди', en: 'Gang courier', de: 'Gang-Kurier', pl: 'Kurier gangu' },
+                    title: { ru: 'Курьер банды', ua: "Кур'єр банди", en: 'Gang courier', de: 'Gang-Kurier', pl: 'Kurier gangu' },
                     description: { ru: 'Разложите {{target}} закладок.', ua: 'Розкладіть {{target}} закладок.', en: 'Plant {{target}} stashes.', de: 'Verstecke {{target}} Stashes.', pl: 'Rozłóż {{target}} skrytek.' },
                 },
                 grow: {
@@ -2126,11 +2126,11 @@ export default {
             pl: 'Ta nagroda została już odebrana',
         },
         alreadyOwnedSell: {
-            ru: 'Эта косметика у вас уже есть — обменяйте награду на опыт пропуска',
-            ua: 'Ця косметика у вас вже є — обміняйте нагороду на досвід пропуску',
-            en: 'You already own this cosmetic — exchange the reward for Battle Pass XP',
-            de: 'Du besitzt diese Kosmetik bereits — tausche die Belohnung gegen Battle-Pass-XP',
-            pl: 'Masz już tę kosmetykę — wymień nagrodę na XP karnetu',
+            ru: 'Эта косметика у вас уже есть - обменяйте награду на опыт пропуска',
+            ua: 'Ця косметика у вас вже є - обміняйте нагороду на досвід пропуску',
+            en: 'You already own this cosmetic - exchange the reward for Battle Pass XP',
+            de: 'Du besitzt diese Kosmetik bereits - tausche die Belohnung gegen Battle-Pass-XP',
+            pl: 'Masz już tę kosmetykę - wymień nagrodę na XP karnetu',
         },
         alreadyOwnedSkin: {
             ru: 'У вас уже разблокирован этот скин',

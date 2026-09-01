@@ -85,6 +85,14 @@ export const operations = {
         pl: 'Wybrano dom #{{id}}',
         zh: '被占用房屋#{{id}}',
     },
+    takeWarehouse: {
+        ru: 'Изъят склад',
+        ua: 'Вилучено склад',
+        en: 'Warehouse seized',
+        de: 'Lager beschlagnahmt',
+        pl: 'Magazyn zajęty',
+        zh: '仓库被没收',
+    },
     takeAtm: {
         ru: 'Отобран банкомат #{{id}}',
         ua: 'Відібрано банкомат #{{id}}',

@@ -227,12 +227,12 @@ export const items = {
             zh: '笔记本电脑',
         },
         desc: {
-            ua: `Портативний комп'ютер з доступом до браузера FREEWEB.`,
-            en: 'A portable computer with access to the FREEWEB browser.',
-            ru: 'Портативный компьютер с доступом к браузеру FREEWEB.',
-            de: 'Ein tragbarer Computer mit Zugang zum FREEWEB-Browser.',
-            pl: 'Przenośny komputer z dostępem do przeglądarki FREEWEB.',
-            zh: '一台可使用 FREEWEB 浏览器的便携式计算机。',
+            ua: `Портативний комп'ютер з доступом до браузера HOOLI.`,
+            en: 'A portable computer with access to the HOOLI browser.',
+            ru: 'Портативный компьютер с доступом к браузеру HOOLI.',
+            de: 'Ein tragbarer Computer mit Zugang zum HOOLI-Browser.',
+            pl: 'Przenośny komputer z dostępem do przeglądarki HOOLI.',
+            zh: '一台可使用 HOOLI 浏览器的便携式计算机。',
         },
     },
     cigarettes: {
@@ -479,6 +479,22 @@ export const items = {
             en: 'a versatile material necessary for crafting various items.',
             de: 'ein vielseitiges Material, das für das Herstellen verschiedener Gegenstände benötigt wird.',
             pl: 'uniwersalny materiał potrzebny do tworzenia różnych przedmiotów.',
+        },
+    },
+    sewnGarment: {
+        name: {
+            ru: 'Пошитое изделие',
+            ua: 'Пошитий виріб',
+            en: 'Sewn garment',
+            de: 'Genähtes Kleidungsstück',
+            pl: 'Uszyty wyrób',
+        },
+        desc: {
+            ru: 'Готовое изделие с потока ателье. Принимает только заказчик контракта организации.',
+            ua: 'Готовий виріб з потоку ательє. Приймає лише замовник контракту організації.',
+            en: 'A finished piece off the atelier floor. Only the organization contract client takes it.',
+            de: 'Ein fertiges Stück aus der Atelier-Fertigung. Nur der Auftraggeber des Organisationsvertrags nimmt es an.',
+            pl: 'Gotowy wyrób z linii atelier. Przyjmuje go wyłącznie zleceniodawca kontraktu organizacji.',
         },
     },
     chipset: {
@@ -783,9 +799,9 @@ export const items = {
         desc: {
             ru: 'Используется для взлома замка машин и других замков, может сломаться при неудачном взломе будьте внимательны!',
             ua: 'Використовується для злому замків автомобілів та інших замків, може зламатися при невдалому зломі - будьте уважні!',
-            en: 'Used to pick car locks and other locks, may break if the attempt fails – be careful!',
-            de: 'Wird verwendet, um Autoschlösser und andere Schlösser zu knacken, kann bei einem Fehlversuch brechen – seien Sie vorsichtig!',
-            pl: 'Służy do otwierania zamków samochodów i innych zamków, może się złamać przy nieudanej próbie – bądź ostrożny!',
+            en: 'Used to pick car locks and other locks, may break if the attempt fails - be careful!',
+            de: 'Wird verwendet, um Autoschlösser und andere Schlösser zu knacken, kann bei einem Fehlversuch brechen - seien Sie vorsichtig!',
+            pl: 'Służy do otwierania zamków samochodów i innych zamków, może się złamać przy nieudanej próbie - bądź ostrożny!',
         },
     },
     speedradar: {
@@ -946,6 +962,22 @@ export const items = {
             en: 'Used to restrain people',
             de: 'Wird verwendet, um Personen zu fesseln',
             pl: 'Służą do wiązania ludzi',
+        },
+    },
+    headBag: {
+        name: {
+            ru: 'Мешок',
+            ua: 'Мішок',
+            en: 'Bag',
+            de: 'Sack',
+            pl: 'Worek',
+        },
+        desc: {
+            ru: 'Надевается на голову, чтобы человек не видел, куда его ведут',
+            ua: 'Надягається на голову, щоб людина не бачила, куди її ведуть',
+            en: 'Put over the head so the person cannot see where they are taken',
+            de: 'Wird über den Kopf gezogen, damit die Person nicht sieht, wohin sie gebracht wird',
+            pl: 'Zakładany na głowę, aby osoba nie widziała, dokąd jest prowadzona',
         },
     },
     emi_device: {

@@ -120,7 +120,7 @@ export default {
         },
         desc: {
             ru: 'Находясь в катере, пассажиры должны оставаться на местах. Прыжки с лодки на ходу, вставание и бег по палубе - это опасно.',
-            ua: 'Перебуваючи в катері, пасажири повинні залишатися на місцях. Стрибки з човна на ходу, вставання та біг по палубі – це небезпечно.',
+            ua: 'Перебуваючи в катері, пасажири повинні залишатися на місцях. Стрибки з човна на ходу, вставання та біг по палубі - це небезпечно.',
             en: 'While on the boat, passengers must remain seated. Jumping from the moving boat, standing up, and running on deck are dangerous.',
             de: 'Im Boot müssen Passagiere auf ihren Plätzen bleiben. Das Springen vom fahrenden Boot, Aufstehen und Rennen auf dem Deck sind gefährlich.',
             pl: 'Będąc na łodzi, pasażerowie muszą pozostać na swoich miejscach. Skakanie z płynącej łodzi, wstawanie i bieganie po pokładzie są niebezpieczne.',
@@ -287,7 +287,7 @@ export default {
             ru: 'Катер необходимо парковать только в специально отведённых местах - пирсы, доки, буи. Случайная парковка у пляжа может помешать отдыху или спровоцировать аварию.',
             ua: 'Катер необхідно паркувати лише у спеціально відведених місцях - пірси, доки, буї. Випадкове паркування біля пляжу може завадити відпочинку або спровокувати аварію.',
             en: 'The boat must be moored only in specially designated areas - piers, docks, buoys. Random mooring near the beach can interfere with recreation or cause an accident.',
-            de: 'Das Boot muss nur an speziell ausgewiesenen Stellen vertäut werden – an Piers, Docks, Bojen. Zufälliges Vertäuen in Strandnähe kann die Erholung stören oder einen Unfall verursachen.',
+            de: 'Das Boot muss nur an speziell ausgewiesenen Stellen vertäut werden - an Piers, Docks, Bojen. Zufälliges Vertäuen in Strandnähe kann die Erholung stören oder einen Unfall verursachen.',
             pl: 'Łódź należy cumować tylko w specjalnie wyznaczonych miejscach - przy pomostach, dokach, bojkach. Przypadkowe cumowanie w pobliżu plaży może przeszkodzić w wypoczynku lub spowodować wypadek.',
         },
         question: {
@@ -342,7 +342,7 @@ export default {
             ru: 'В шторм и при сильном ветре лучше отказаться от выхода на воду - лодку может опрокинуть или унести далеко от берега.',
             ua: 'У шторм та при сильному вітрі краще відмовитися від виходу на воду - човен може перекинути або віднести далеко від берега.',
             en: "In a storm and strong winds, it's better to avoid going out on the water - the boat can capsize or be carried far from the shore.",
-            de: 'Bei Sturm und starkem Wind ist es besser, auf das Hinausfahren aufs Wasser zu verzichten – das Boot kann kentern oder weit vom Ufer abgetrieben werden.',
+            de: 'Bei Sturm und starkem Wind ist es besser, auf das Hinausfahren aufs Wasser zu verzichten - das Boot kann kentern oder weit vom Ufer abgetrieben werden.',
             pl: 'Podczas burzy i silnego wiatru lepiej zrezygnować z wyjścia na wodę - łódź może się przewrócić lub zostać zniesiona daleko od brzegu.',
         },
         question: {
@@ -773,7 +773,7 @@ export default {
     topic15: {
         theme: {
             ru: 'Разрешено ли кататься в состоянии алкогольного опьянения?',
-            ua: 'Чи дозволено керувати судном у стані алкогольного сп’яніння?',
+            ua: "Чи дозволено керувати судном у стані алкогольного сп'яніння?",
             en: 'Is it allowed to operate a vessel while intoxicated?',
             de: 'Ist es erlaubt, ein Boot unter Alkoholeinfluss zu steuern?',
             pl: 'Czy dozwolone jest prowadzenie jednostki pływającej pod wpływem alkoholu?',

@@ -39,6 +39,7 @@ import phone from './phone';
 import { animations } from './animations/animations';
 import randomQuests from './randomQuests';
 import { gameEvents } from './gameEvents';
+import { contraband } from './contraband';
 import death from './death';
 import offers from './offers';
 import { faction } from './faction/faction';
@@ -76,7 +77,10 @@ import shootingRange from './shootingRange';
 import prism from './prism';
 import diving from './diving';
 import garbage from './garbage';
+import airCargo from './airCargo';
 import drivingSchool from './drivingSchool';
+import drugs from './drugs';
+import modifiers from './modifiers';
 import drivingLicenses from './drivingLicenses';
 import business from './business/business';
 import furnitureEditor from './furnitureEditor/furnitureEditor';
@@ -88,8 +92,10 @@ import realtor from './realtor';
 import diceGame from './diceGame';
 import offcies from './offcies';
 import warehouses from './warehouses';
+import sections from './sections';
 import organizationRegistration from './organizationRegistration';
 import organizations from './organizations';
+import factories from './factories';
 import tennis from './tennis';
 import trade from './trade';
 import battlePass from './battlePass';
@@ -103,6 +109,11 @@ import effects from './effects';
 import numberPlates from './numberPlates';
 import vehicleKeys from './vehicleKeys';
 import payment from './payment';
+import militaryGates from './militaryGates';
+import signEditor from './signEditor';
+import funicular from './funicular';
+import freightTrain from './freightTrain';
+import ping from './ping';
 
 export default {
     account,
@@ -146,6 +157,7 @@ export default {
     animations,
     randomQuests,
     gameEvents,
+    contraband,
     handling,
     death,
     offers,
@@ -183,8 +195,11 @@ export default {
     shootingRange,
     diving,
     garbage,
+    airCargo,
     prism,
     drivingSchool,
+    drugs,
+    modifiers,
     drivingLicenses,
     numberPlates,
     vehicleKeys,
@@ -199,8 +214,10 @@ export default {
     diceGame,
     offcies,
     warehouses,
+    sections,
     organizationRegistration,
     organizations,
+    factories,
     tennis,
     trade,
     battlePass,
@@ -211,6 +228,11 @@ export default {
     sewingFactory,
     wars,
     effects,
+    militaryGates,
+    signEditor,
+    funicular,
+    freightTrain,
+    ping,
 };
 
 

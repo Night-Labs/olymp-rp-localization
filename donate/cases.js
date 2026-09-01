@@ -231,7 +231,7 @@ export const cases = {
                 ru: 'Осознание любви к мотоциклам приходит не сразу, попробуй проехаться, и ты на всю жизнь окунулся в двухколесную культуру адреналина. Помни: 2 колеса возят душу, 4 колеса возят тушу.',
                 ua: "Усвідомлення любові до мотоциклів приходить не одразу,спробуй проїхатись, і ти на все життя поринув у двоколісну культуру адреналіну. Пам'ятай: 2 колеса возять душу, 4 колеса возять тушу.",
                 en: "Realizing a love for motorcycles doesn't come immediately, try a ride and you're plunged into a two-wheeled adrenaline culture for life. Remember: 2 wheels carry the soul, 4 wheels carry the carcass.",
-                de: 'Das Gefühl fürs Motorradfahren lässt sich nicht sofort erklären – du musst es erleben. Setz dich drauf, fahr los, und es kann dein ganzes Leben verändern. Denk daran: Zwei Räder bewegen die Seele, vier Räder nur den Körper.',
+                de: 'Das Gefühl fürs Motorradfahren lässt sich nicht sofort erklären - du musst es erleben. Setz dich drauf, fahr los, und es kann dein ganzes Leben verändern. Denk daran: Zwei Räder bewegen die Seele, vier Räder nur den Körper.',
                 pl: 'Zrealizowanie miłosności do motocykli nie zaczyna się, sproboj jechć i znowu wchodze w twoję zycie. Znajdziesz: 2 kości prowadzą duch, 4 kości prowadzą głowe.',
                 zh: '对摩托车的热爱不会立即得到认可，试着通过，你的一生都在两轮肾上腺素文化中度过。记住，两轮驱动灵魂，四轮驱动淋浴',
             },
@@ -365,7 +365,7 @@ export const cases = {
                 ru: 'А знали ли вы что недавно на гору Олимп посетили Ферруччо Ламборгини и Энцо Феррари доставив нам контейнер своих уникальных транспортных средств которые имеют под капотом большое количество лошадок.',
                 en: 'Did you know that recently Ferruccio Lamborghini and Enzo Ferrari visited Mount Olymp and delivered us a container of their unique vehicles with a large number of horses under the hood?',
                 zh: '你知道吗，最近在奥林匹斯山上，兰博基尼和恩佐·法拉利向我们运送了一个集装箱，里面装着他们独特的运输工具，里面有大量的马',
-                de: 'Wusstest du, dass kürzlich Ferruccio Lamborghini und Enzo Ferrari den Olymp besucht und uns einen Container mit ihren einzigartigen Fahrzeugen geliefert haben – mit einer großen Anzahl Pferdestärken unter der Haube?',
+                de: 'Wusstest du, dass kürzlich Ferruccio Lamborghini und Enzo Ferrari den Olymp besucht und uns einen Container mit ihren einzigartigen Fahrzeugen geliefert haben - mit einer großen Anzahl Pferdestärken unter der Haube?',
             },
         },
 

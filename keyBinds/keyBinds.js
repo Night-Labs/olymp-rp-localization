@@ -97,13 +97,6 @@ export default {
         de: 'Sprachchat',
         pl: 'Czat głosowy',
     },
-    reloadVoice: {
-        ru: 'Перезагрузка голосового чата',
-        ua: 'Перезавантаження голосового чату',
-        en: 'Reload voice chat',
-        de: 'Neustart des Sprachchats',
-        pl: 'Przeładowanie czatu głosowego',
-    },
     seatBelt: {
         ru: 'Ремень безопасности',
         ua: 'Пас безпеки',
@@ -230,6 +223,13 @@ export default {
         de: 'Cursor',
         pl: 'Kursor',
     },
+    ping: {
+        ru: 'Метка (пинг)',
+        ua: 'Мітка (пінг)',
+        en: 'Ping marker',
+        de: 'Markierung (Ping)',
+        pl: 'Znacznik (ping)',
+    },
     'trucker.dropBox': {
         ru: 'Выкинуть груз',
         ua: 'Викинути вантаж',
@@ -243,6 +243,27 @@ export default {
         en: 'Drop garbage bag',
         de: 'Mülltüte wegwerfen',
         pl: 'Wyrzuć worek ze śmieciami',
+    },
+    'airCargo.forkUp': {
+        ru: 'Поднять вилы погрузчика',
+        ua: 'Підняти вила навантажувача',
+        en: 'Raise forklift forks',
+        de: 'Gabelstaplergabeln heben',
+        pl: 'Podnieś widły wózka',
+    },
+    'airCargo.forkDown': {
+        ru: 'Опустить вилы погрузчика',
+        ua: 'Опустити вила навантажувача',
+        en: 'Lower forklift forks',
+        de: 'Gabelstaplergabeln senken',
+        pl: 'Opuść widły wózka',
+    },
+    'burglar.dropItem': {
+        ru: 'Поставить краденое',
+        ua: 'Поставити крадене',
+        en: 'Put down stolen item',
+        de: 'Diebesgut abstellen',
+        pl: 'Odłóż skradziony przedmiot',
     },
     'weapon-heavy': {
         ru: 'Тяжёлое оружие',
@@ -540,7 +561,7 @@ export default {
     },
     'furnitureEditor.selectObject': {
         ru: 'Выбрать объект',
-        ua: 'Вибрати об’єкт',
+        ua: "Вибрати об'єкт",
         en: 'Select an object',
         de: 'Ein Objekt auswählen',
         pl: 'Wybierz obiekt',
@@ -554,7 +575,7 @@ export default {
     },
     'furnitureEditor.focusObject': {
         ru: 'Фокус на выбранном объекте',
-        ua: 'Фокус на вибраному об’єкті',
+        ua: "Фокус на вибраному об'єкті",
         en: 'Focus on selected object',
         de: 'Fokus auf ausgewähltes Objekt',
         pl: 'Skup się na wybranym obiekcie',
@@ -596,17 +617,24 @@ export default {
     },
     'furnitureEditor.rotateMode': {
         ru: 'Режим поворота объекта',
-        ua: 'Режим повороту об’єкта',
+        ua: "Режим повороту об'єкта",
         en: 'Object rotation mode',
         de: 'Objektdrehmodus',
         pl: 'Tryb obracania obiektu',
     },
     'furnitureEditor.translateMode': {
         ru: 'Режим перемещения объекта',
-        ua: 'Режим переміщення об’єкта',
+        ua: "Режим переміщення об'єкта",
         en: 'Object movement mode',
         de: 'Objektverschiebungsmodus',
         pl: 'Tryb przesuwania obiektu',
+    },
+    'furnitureEditor.axisSpace': {
+        ru: 'Оси: локальные / мировые',
+        ua: 'Осі: локальні / світові',
+        en: 'Axes: local / world',
+        de: 'Achsen: lokal / global',
+        pl: 'Osie: lokalne / globalne',
     },
     'furnitureEditor.hideHints': {
         ru: 'Скрыть подсказки',
@@ -617,14 +645,14 @@ export default {
     },
     'furnitureEditor.delete': {
         ru: 'Удалить объект',
-        ua: 'Видалити обʼєкт',
+        ua: "Видалити об'єкт",
         en: 'Delete object',
         de: 'Objekt löschen',
         pl: 'Usuń obiekt',
     },
     'furnitureEditor.duplicate': {
         ru: 'Дублировать объект',
-        ua: 'Дублювати обʼєкт',
+        ua: "Дублювати об'єкт",
         en: 'Duplicate object',
         de: 'Objekt duplizieren',
         pl: 'Duplikuj obiekt',

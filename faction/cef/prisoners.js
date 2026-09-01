@@ -1,21 +1,21 @@
 export default {
     title: {
         ru: 'ЗАКЛЮЧЕННЫЕ',
-        ua: 'УВ`ЯЗНЕНІ',
+        ua: "УВ'ЯЗНЕНІ",
         en: 'PRISONERS',
         de: 'GEFANGENE',
         pl: 'WIĘŹNIOWIE',
     },
     empty: {
         ru: 'В этой тюрьме нет заключенных',
-        ua: 'У цій в`язниці немає ув`язнених',
+        ua: "У цій в'язниці немає ув'язнених",
         en: 'There are no prisoners in this jail',
         de: 'In diesem Gefängnis gibt es keine Häftlinge',
         pl: 'W tym więzieniu nie ma więźniów',
     },
     columnName: {
         ru: 'Имя',
-        ua: 'Ім`я',
+        ua: "Ім'я",
         en: 'Name',
         de: 'Name',
         pl: 'Imię',
@@ -57,7 +57,7 @@ export default {
     },
     modalTitle: {
         ru: 'Освобождение заключенного',
-        ua: 'Звільнення ув`язненого',
+        ua: "Звільнення ув'язненого",
         en: 'Release prisoner',
         de: 'Häftling entlassen',
         pl: 'Zwolnienie więźnia',
@@ -71,7 +71,7 @@ export default {
     },
     infoName: {
         ru: 'Имя',
-        ua: 'Ім`я',
+        ua: "Ім'я",
         en: 'Name',
         de: 'Name',
         pl: 'Imię',

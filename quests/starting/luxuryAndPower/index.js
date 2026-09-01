@@ -8,7 +8,7 @@ export default {
         zh:'奢华与权力',
     },
     desc: {
-        ru: 'Пришло время показать всем, на что ты способен. Инвестируй в шикарное авто, чтобы все знали: ты здесь, чтобы оставить след. А после покупки – пора добавить ей мощности и стиля в автоателье. Подними ставки и стань настоящим королём дорог!',
+        ru: 'Пришло время показать всем, на что ты способен. Инвестируй в шикарное авто, чтобы все знали: ты здесь, чтобы оставить след. А после покупки - пора добавить ей мощности и стиля в автоателье. Подними ставки и стань настоящим королём дорог!',
         ua: 'Настав час показати всім, на що ти здатний. Інвестуй в розкішне авто, щоб всі знали: ти тут, щоб залишити слід. А після покупки - час додати йому потужності та стилю в автоательє. Підвищ ставки і стань справжнім королем доріг.',
         en: `It's time to show everyone what you're capable of. Invest in a luxurious car so everyone knows: you're here to make a mark. After the purchase, it's time to boost its power and style in a car studio. Raise the stakes and become the true king of the roads!`,
         de: 'Es ist Zeit, allen zu zeigen, wozu du fähig bist. Investieren in ein luxuriöses Auto, damit jeder weiß: Du bist hier, um Spuren zu hinterlassen. Nach dem Kauf ist es Zeit, ihm im der Tuning-Werkstatt mehr Kraft und Stil zu verleihen. Erhöhe die Einsätze und werde zum wahren König der Straßen!',

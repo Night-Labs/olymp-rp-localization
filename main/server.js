@@ -143,6 +143,22 @@ export const server = {
         pl: 'Dla tego zadania twój poziom powinien wynosić {{level}}',
         zh: '对于这项工作，你的等级应该是{{level}}',
     },
+    incorrectProduct: {
+        ua: 'Некоректний товар',
+        en: 'Invalid product',
+        ru: 'Некорректный товар',
+        de: 'Ungültige Ware',
+        pl: 'Nieprawidłowy towar',
+        zh: '商品无效',
+    },
+    vehicleTooFar: {
+        ua: 'Транспорт занадто далеко',
+        en: 'The vehicle is too far away',
+        ru: 'Транспорт слишком далеко',
+        de: 'Das Fahrzeug ist zu weit entfernt',
+        pl: 'Pojazd jest za daleko',
+        zh: '车辆距离太远',
+    },
     strangerMale: {
         ru: 'Незнакомец',
         ua: 'Незнайомець',
@@ -337,6 +353,14 @@ export const server = {
             de: 'Schleichen',
             pl: 'Skradanie',
             zh: '潜行',
+        },
+        detective: {
+            ru: 'Сыщик',
+            ua: 'Нишпорка',
+            en: 'Detective',
+            de: 'Spürsinn',
+            pl: 'Śledczy',
+            zh: '搜查',
         },
     },
 };

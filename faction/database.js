@@ -62,6 +62,27 @@ export default {
         de: 'enter drücken',
         pl: 'naciśnij enter',
     },
+    searchHelp: {
+        ru: 'имя, ID, телефон или гос. номер',
+        ua: "ім'я, ID, телефон або держ. номер",
+        en: 'name, ID, phone or plate',
+        de: 'Name, ID, Telefon oder Kennzeichen',
+        pl: 'imię, ID, telefon lub tablica',
+    },
+    searching: {
+        ru: 'идёт поиск...',
+        ua: 'триває пошук...',
+        en: 'searching...',
+        de: 'suche...',
+        pl: 'wyszukiwanie...',
+    },
+    clearSearch: {
+        ru: 'Очистить фильтр',
+        ua: 'Очистити фільтр',
+        en: 'Clear filter',
+        de: 'Filter leeren',
+        pl: 'Wyczyść filtr',
+    },
     records: {
         ru: 'записей',
         ua: 'записів',
@@ -340,6 +361,13 @@ export default {
         de: 'Kennzeichen',
         pl: 'Tablica rejestracyjna',
     },
+    registered: {
+        ru: 'Регистрация',
+        ua: 'Реєстрація',
+        en: 'Registered',
+        de: 'Registriert',
+        pl: 'Rejestracja',
+    },
 
     //
     caseTypes: {
@@ -397,5 +425,12 @@ export default {
         en: 'No results found',
         de: 'Keine Ergebnisse gefunden',
         pl: 'Nie znaleziono wyników',
+    },
+    noResultsFor: {
+        ru: 'Ничего не найдено по запросу: {{query}}',
+        ua: 'Нічого не знайдено за запитом: {{query}}',
+        en: 'No records match: {{query}}',
+        de: 'Keine Datensätze passen zu: {{query}}',
+        pl: 'Brak rekordów dla: {{query}}',
     },
 };

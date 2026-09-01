@@ -26,7 +26,7 @@ export default {
         ru: '~b~Вы полностью вылечились от простуды. Больше никакого кашля, слабости и соплей. Можете вздохнуть спокойно, но не забывайте беречь здоровье!',
         ua: '~b~Ви повністю вилікувалися від застуди. Більше ніякого кашлю, слабкості чи нежитю. Можете зітхнути з полегшенням, але бережіть себе!',
         en: '~b~You have fully recovered from the cold. No more coughing, weakness, or runny nose. Take a deep breath - but don’t forget to stay healthy!',
-        de: '~b~Du hast dich vollständig von der Erkältung erholt. Kein Husten, keine Schwäche und keine laufende Nase mehr. Atme tief ein – aber achte weiterhin auf deine Gesundheit!',
+        de: '~b~Du hast dich vollständig von der Erkältung erholt. Kein Husten, keine Schwäche und keine laufende Nase mehr. Atme tief ein - aber achte weiterhin auf deine Gesundheit!',
         pl: '~b~Wyleczyłeś się całkowicie z przeziębienia. Koniec z kaszlem, osłabieniem i katarem. Odetchnij z ulgą, ale pamiętaj, by dbać o zdrowie!',
     },
     youHaveMildColdSymptoms: {
@@ -38,14 +38,14 @@ export default {
     },
     coldIsProgressingConsiderTreatment: {
         ru: '~b~Простуда прогресирует вы начнёте чаще кашлять и терять здоровье, стоит подумать об лечении',
-        ua: '~b~Застуда прогресує, ви почнете частіше кашляти та втрачати здоров’я, варто подумати про лікування',
+        ua: "~b~Застуда прогресує, ви почнете частіше кашляти та втрачати здоров'я, варто подумати про лікування",
         en: "~b~The cold is progressing, you'll start coughing more and losing health - consider getting treatment",
-        de: '~b~Die Erkältung schreitet voran, du wirst häufiger husten und Gesundheit verlieren – denke über eine Behandlung nach',
+        de: '~b~Die Erkältung schreitet voran, du wirst häufiger husten und Gesundheit verlieren - denke über eine Behandlung nach',
         pl: '~b~Przeziębienie postępuje, zaczniesz częściej kaszleć i tracić zdrowie - rozważ leczenie',
     },
     sufferingFromSevereCold: {
         ru: '~b~Вы чувствуете сильную слабость, ваше здоровье стремительно ухудшается из-за тяжёлой стадии простуды. Немедленно займитесь лечением, иначе последствия могут быть необратимы',
-        ua: '~b~Ви відчуваєте сильну слабкість, ваше здоров’я стрімко погіршується через тяжку стадію застуди. Негайно займіться лікуванням, інакше наслідки можуть бути незворотними',
+        ua: "~b~Ви відчуваєте сильну слабкість, ваше здоров'я стрімко погіршується через тяжку стадію застуди. Негайно займіться лікуванням, інакше наслідки можуть бути незворотними",
         en: '~b~You feel very weak, your health is rapidly deteriorating due to the severe stage of the cold. Seek treatment immediately or the consequences may be irreversible',
         de: '~b~Du fühlen dich sehr schwach, deine Gesundheit verschlechtert sich aufgrund des schweren Erkältungsstadiums rapide. Beginne sofort mit der Behandlung.',
         pl: '~b~Czujesz się bardzo osłabiony, twoje zdrowie gwałtownie się pogarsza z powodu zaawansowanego stadium przeziębienia. Natychmiast rozpocznij leczenie, inaczej skutki mogą być nieodwracalne',

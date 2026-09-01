@@ -504,8 +504,8 @@ export const tattoos = {
         pl: 'Zielone jest dobre',
     },
     course_home: {
-        ru: 'Курс – домой',
-        ua: 'Курс – додому',
+        ru: 'Курс - домой',
+        ua: 'Курс - додому',
         en: 'Course Home',
         de: 'Kurs nach Hause',
         pl: 'Kurs na dom',

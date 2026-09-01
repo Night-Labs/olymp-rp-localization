@@ -1,4 +1,30 @@
 export default {
+    cop: {
+        smellABadgeOnYou: {
+            ru: 'О, да у нас тут легавый нарисовался. От тебя участком за версту несёт. Вали к своим жетонам, пока я добрый.',
+            ua: 'О, та в нас тут лягавий намалювався. Від тебе відділком за версту тхне. Вали до своїх жетонів, поки я добрий.',
+            en: `Well, look at that - a badge came sniffing. I can smell the precinct on you from a mile off. Crawl back to your station while I'm still in a good mood.`,
+            de: 'Sieh an, ein Bulle schnüffelt hier rum. Ich rieche die Wache an dir schon aus einem Kilometer. Verpiss dich zurück zu deiner Marke, solange ich noch gut gelaunt bin.',
+            pl: 'No proszę, pała się przywlokła. Czuć od ciebie komisariat na kilometr. Spierdalaj na swój posterunek, póki jestem w dobrym humorze.',
+            zh: '哟，条子来了。隔着一条街都能闻到你身上的警局味儿。趁我心情还好，滚回你的分局去。',
+        },
+        justPassing: {
+            ru: 'Я просто мимо шёл',
+            ua: 'Я просто повз ішов',
+            en: 'I was just passing by',
+            de: 'Ich war nur auf der Durchreise',
+            pl: 'Tylko przechodziłem',
+            zh: '我只是路过',
+        },
+        watchYourMouth: {
+            ru: 'Следи за языком',
+            ua: 'Стеж за язиком',
+            en: 'Watch your mouth',
+            de: 'Pass auf, was du sagst',
+            pl: 'Uważaj na słowa',
+            zh: '说话注意点',
+        },
+    },
     gov: {
         dontUnderstandWhyHereLeave: {
             ru: 'Я не понял нахуй, ты что здесь делаешь? Брысь отсюда!',
@@ -49,6 +75,14 @@ export default {
             de: 'Los',
             pl: 'Idź',
             zh: '走',
+        },
+        burglary: {
+            ru: 'А по домам?',
+            ua: 'А по будинках?',
+            en: 'What about houses?',
+            de: 'Und Häuser?',
+            pl: 'A domy?',
+            zh: '那入室呢?',
         },
         //
         readyGoSendCoordinatesCarDetails: {

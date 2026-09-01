@@ -215,6 +215,13 @@ export const cef = {
                     de: 'Der Name muss 4 bis 20 Zeichen enthalten.',
                     pl: 'Nazwa musi zawierać od 4 do 20 znaków.',
                 },
+                invalidCharacters: {
+                    ru: 'В названии только буквы, цифры и знаки препинания.',
+                    ua: 'У назві лише літери, цифри та розділові знаки.',
+                    en: 'The name may contain letters, digits and punctuation only.',
+                    de: 'Der Name darf nur Buchstaben, Ziffern und Satzzeichen enthalten.',
+                    pl: 'Nazwa może zawierać tylko litery, cyfry i znaki interpunkcyjne.',
+                },
                 taken: {
                     ru: 'Организация с таким названием уже существует.',
                     ua: 'Організація з такою назвою вже існує.',

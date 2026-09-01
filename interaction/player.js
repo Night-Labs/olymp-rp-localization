@@ -218,6 +218,14 @@ export const player = {
         pl: 'Wylecz choroby gracza',
     },
 
+    detoxPlayer: {
+        ru: 'Снять наркозависимость',
+        ua: 'Зняти наркозалежність',
+        en: 'Treat drug addiction',
+        de: 'Drogensucht behandeln',
+        pl: 'Wylecz uzależnienie',
+    },
+
     healPlayer: {
         ru: 'Вылечить игрока',
         ua: 'Вилікувати гравця',
@@ -341,6 +349,15 @@ export const player = {
         pl: 'Wyświetl prawo jazdy',
     },
 
+    viewLawyerLicense: {
+        ru: 'Посмотреть лицензию адвоката',
+        ua: 'Переглянути ліцензію адвоката',
+        en: 'View lawyer license',
+        de: 'Anwaltslizenz ansehen',
+        pl: 'Zobacz licencję adwokacką',
+        zh: '查看律师执照',
+    },
+
     showLicenses: {
         ru: 'Показать лицензии',
         ua: 'Показати ліцензії',
@@ -348,6 +365,15 @@ export const player = {
         de: 'Lizenzen anzeigen',
         pl: 'Pokaż licencje',
         zh: '出示许可证',
+    },
+
+    showLawyerLicense: {
+        ru: 'Показать лицензию адвоката',
+        ua: 'Показати ліцензію адвоката',
+        en: 'Show lawyer license',
+        de: 'Anwaltslizenz vorzeigen',
+        pl: 'Pokaż licencję adwokacką',
+        zh: '出示律师执照',
     },
 
     dispatches: {
@@ -601,6 +627,20 @@ export const player = {
         de: 'Kabelbinder anlegen',
         pl: 'Załóż opaski kablowe',
     },
+    headBag: {
+        ru: 'Надеть мешок на голову',
+        ua: 'Надіти мішок на голову',
+        en: 'Put a bag over the head',
+        de: 'Sack über den Kopf ziehen',
+        pl: 'Założyć worek na głowę',
+    },
+    unHeadBag: {
+        ru: 'Снять мешок с головы',
+        ua: 'Зняти мішок з голови',
+        en: 'Remove the bag from the head',
+        de: 'Sack vom Kopf nehmen',
+        pl: 'Zdjąć worek z głowy',
+    },
     takeMask: {
         ru: 'Снять маску',
         ua: 'Зняти маску',
@@ -614,6 +654,13 @@ export const player = {
         en: 'Show ID',
         de: 'Zeig den Ausweis',
         pl: 'Pokaż identyfikator',
+    },
+    viewBadge: {
+        ru: 'Посмотреть своё удостоверение',
+        ua: 'Переглянути своє посвідчення',
+        en: 'View your ID',
+        de: 'Eigenen Ausweis ansehen',
+        pl: 'Zobacz swój identyfikator',
     },
 
     //
@@ -644,5 +691,71 @@ export const player = {
         en: 'Kick player out of the house',
         de: 'Spieler aus dem Haus werfen',
         pl: 'Wyrzucić gracza z domu',
+    },
+
+    // RP-действия при показе документов
+    checkedOwnPassport: {
+        ru: '{{firstName}} достал(а) свой паспорт и осмотрел(а) его',
+        ua: '{{firstName}} дістав(ла) свій паспорт і оглянув(ла) його',
+        en: '{{firstName}} took out their passport and looked it over',
+        de: '{{firstName}} holte den eigenen Pass hervor und sah ihn sich an',
+        pl: '{{firstName}} wyjął(ęła) swój paszport i przyjrzał(a) mu się',
+        zh: '{{firstName}}拿出自己的护照查看了一下',
+    },
+    showedPassport: {
+        ru: '{{firstName}} показал(а) свой паспорт {{targetName}}',
+        ua: '{{firstName}} показав(ла) свій паспорт {{targetName}}',
+        en: '{{firstName}} showed their passport to {{targetName}}',
+        de: '{{firstName}} zeigte {{targetName}} den eigenen Pass',
+        pl: '{{firstName}} pokazał(a) swój paszport {{targetName}}',
+        zh: '{{firstName}}向{{targetName}}出示了自己的护照',
+    },
+    checkedOwnLicenses: {
+        ru: '{{firstName}} достал(а) свои лицензии и осмотрел(а) их',
+        ua: '{{firstName}} дістав(ла) свої ліцензії і оглянув(ла) їх',
+        en: '{{firstName}} took out their licenses and looked them over',
+        de: '{{firstName}} holte die eigenen Lizenzen hervor und sah sie sich an',
+        pl: '{{firstName}} wyjął(ęła) swoje licencje i przyjrzał(a) im się',
+        zh: '{{firstName}}拿出自己的执照查看了一下',
+    },
+    showedLicenses: {
+        ru: '{{firstName}} показал(а) свои лицензии {{targetName}}',
+        ua: '{{firstName}} показав(ла) свої ліцензії {{targetName}}',
+        en: '{{firstName}} showed their licenses to {{targetName}}',
+        de: '{{firstName}} zeigte {{targetName}} die eigenen Lizenzen',
+        pl: '{{firstName}} pokazał(a) swoje licencje {{targetName}}',
+        zh: '{{firstName}}向{{targetName}}出示了自己的执照',
+    },
+    checkedOwnLawyerLicense: {
+        ru: '{{firstName}} достал(а) свою лицензию адвоката и осмотрел(а) её',
+        ua: '{{firstName}} дістав(ла) свою ліцензію адвоката і оглянув(ла) її',
+        en: '{{firstName}} took out their lawyer license and looked it over',
+        de: '{{firstName}} holte die eigene Anwaltslizenz hervor und sah sie sich an',
+        pl: '{{firstName}} wyjął(ęła) swoją licencję adwokacką i przyjrzał(a) się jej',
+        zh: '{{firstName}}拿出自己的律师执照查看了一下',
+    },
+    showedLawyerLicense: {
+        ru: '{{firstName}} показал(а) свою лицензию адвоката {{targetName}}',
+        ua: '{{firstName}} показав(ла) свою ліцензію адвоката {{targetName}}',
+        en: '{{firstName}} showed their lawyer license to {{targetName}}',
+        de: '{{firstName}} zeigte {{targetName}} die eigene Anwaltslizenz',
+        pl: '{{firstName}} pokazał(a) swoją licencję adwokacką {{targetName}}',
+        zh: '{{firstName}}向{{targetName}}出示了自己的律师执照',
+    },
+    checkedOwnDrivingLicenses: {
+        ru: '{{firstName}} достал(а) свои водительские права и осмотрел(а) их',
+        ua: '{{firstName}} дістав(ла) своє водійське посвідчення і оглянув(ла) його',
+        en: '{{firstName}} took out their driver license and looked it over',
+        de: '{{firstName}} holte den eigenen Führerschein hervor und sah ihn sich an',
+        pl: '{{firstName}} wyjął(ęła) swoje prawo jazdy i przyjrzał(a) mu się',
+        zh: '{{firstName}}拿出自己的驾驶证查看了一下',
+    },
+    showedDrivingLicenses: {
+        ru: '{{firstName}} показал(а) свои водительские права {{targetName}}',
+        ua: '{{firstName}} показав(ла) своє водійське посвідчення {{targetName}}',
+        en: '{{firstName}} showed their driver license to {{targetName}}',
+        de: '{{firstName}} zeigte {{targetName}} den eigenen Führerschein',
+        pl: '{{firstName}} pokazał(a) swoje prawo jazdy {{targetName}}',
+        zh: '{{firstName}}向{{targetName}}出示了自己的驾驶证',
     },
 };

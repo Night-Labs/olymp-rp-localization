@@ -298,15 +298,15 @@ export default {
         ru: 'Похоже ты не успел доставить машину во время, ты подвёл нас.',
         ua: 'Схоже, ти не встиг доставити машину вчасно, ти підвів нас.',
         en: "Looks like you didn't deliver the car in time, you let us down.",
-        de: 'Sieht so aus, als hättest du das Auto nicht rechtzeitig geliefert – du hast uns enttäuscht.',
+        de: 'Sieht so aus, als hättest du das Auto nicht rechtzeitig geliefert - du hast uns enttäuscht.',
         pl: 'Wygląda na to, że nie dostarczyłeś auta na czas, zawiodłeś nas.',
     },
     vehicleDeathSms: {
         ru: 'Машину, которую ты должен был привезти в целости и сохранности, ты каким-то чудом уничтожил, задание провалено',
         ua: 'Машину, яку ти мав привезти цілою й неушкодженою, ти якимось дивом знищив - завдання провалено.',
         en: 'The car you were supposed to deliver safe and sound-you somehow destroyed it. Mission failed.',
-        de: 'Das Auto, das du heil liefern solltest, hast du irgendwie zerstört – Auftrag gescheitert.',
-        pl: 'Auto, które miałeś dostarczyć w jednym kawałku, jakoś zniszczyłeś – misja nieudana.',
+        de: 'Das Auto, das du heil liefern solltest, hast du irgendwie zerstört - Auftrag gescheitert.',
+        pl: 'Auto, które miałeś dostarczyć w jednym kawałku, jakoś zniszczyłeś - misja nieudana.',
     },
     evacuationWorkSms: {
         ru: 'Похоже тебя схватили копы, я тебя не знаю',

@@ -661,7 +661,7 @@ export default {
         },
         5: {
             ru: 'Пять сетов',
-            ua: 'П’ять сетів',
+            ua: "П'ять сетів",
             en: 'Best of 5 sets',
             de: 'Best of 5 Sätze',
             pl: 'Do trzech wygranych setów',

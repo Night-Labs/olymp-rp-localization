@@ -176,6 +176,13 @@ export default {
                 de: 'Lieferung von Materialien bestellt. -${{money}}',
                 pl: 'Zamówiono dostawę materiałów. -${{money}}',
             },
+            restoreVehicle: {
+                ru: 'Восстановление транспорта {{vehicle}} ({{plate}}). -${{money}}',
+                ua: 'Відновлення транспорту {{vehicle}} ({{plate}}). -${{money}}',
+                en: 'Restored vehicle {{vehicle}} ({{plate}}). -${{money}}',
+                de: 'Fahrzeug {{vehicle}} ({{plate}}) wiederhergestellt. -${{money}}',
+                pl: 'Odbudowa pojazdu {{vehicle}} ({{plate}}). -${{money}}',
+            },
         },
     },
     //
@@ -316,6 +323,13 @@ export default {
         de: 'Krieg um Gebiet #{{zone}} erklärt. ',
         pl: 'Wypowiedziano wojnę o terytorium #{{zone}}',
         zh: '对领土宣战',
+    },
+    pickedWarRoster: {
+        ru: 'Отобрал состав на войну за территорию #{{zone}}: {{count}} чел.',
+        ua: 'Відібрав склад на війну за територію #{{zone}}: {{count}} осіб',
+        en: 'Picked the roster for the war for territory #{{zone}}: {{count}} players',
+        de: 'Aufstellung für den Krieg um Gebiet #{{zone}} gewählt: {{count}} Spieler',
+        pl: 'Wybrał skład na wojnę o terytorium #{{zone}}: {{count}} graczy',
     },
     startedWar: {
         ru: 'Началась война за территорию #{{zone}}.',

@@ -17,7 +17,7 @@ export default {
 
     disclaimer: {
         ru: 'Downtown Cab Co. не несёт никакой ответственности за утрату или кражу личных вещей, причинение вреда fizическому или психическому здоровью, а также за несчастные случаи и иные непредвиденные инциденты, произошедшие во время поездки.',
-        ua: 'Downtown Cab Co. не несе жодної відповідальності за втрату або крадіжку особистих речей, завдання шкоди фізичному чи психічному здоров’ю, а також за нещасні випадки та інші непередбачені інциденти, що сталися під час поїздки.',
+        ua: "Downtown Cab Co. не несе жодної відповідальності за втрату або крадіжку особистих речей, завдання шкоди фізичному чи психічному здоров'ю, а також за нещасні випадки та інші непередбачені інциденти, що сталися під час поїздки.",
         en: 'Downtown Cab Co. takes no responsibility for loss or theft of personal belongings, damage to physical or mental health, as well as accidents or any other unforeseen incidents that may happen during the ride.',
         de: 'Downtown Cab Co. übernimmt keine Verantwortung für Verlust oder Diebstahl persönlicher Gegenstände, Schäden an der körperlichen oder psychischen Gesundheit sowie für Unfälle oder andere unvorhergesehene Vorfälle während der Fahrt.',
         pl: 'Downtown Cab Co. nie ponosi żadnej odpowiedzialności za utratę lub kradzież rzeczy osobistych, szkody na zdrowiu fizycznym lub psychicznym, a także za wypadki i inne nieprzewidziane zdarzenia, które miały miejsce podczas przejazdu.',

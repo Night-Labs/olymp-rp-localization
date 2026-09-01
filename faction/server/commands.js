@@ -1,18 +1,11 @@
 export default {
     depBroadcast: {
-        ru: '!{#2196F3}[Гос.волна] {{factionName}} {{playerName}}: {{message}}',
-        ua: '!{#2196F3}[Держ.хвиля] {{factionName}} {{playerName}}: {{message}}',
-        en: '!{#2196F3}[Gov.wave] {{factionName}} {{playerName}}: {{message}}',
-        de: '!{#2196F3}[Staatswelle] {{factionName}} {{playerName}}: {{message}}',
-        pl: '!{#2196F3}[Fala rządowa] {{factionName}} {{playerName}}: {{message}}',
-        zh:'#2196F3}[政府讲话]{{factionName}{{playerName}:{{message}'
-    },
-    depUsage: {
-        ru: '[сообщение] - сообщение в гос. волну',
-        ua: '[повідомлення] - повідомлення в держ. хвилю',
-        en: '[message] - send to the gov wave',
-        de: '[nachricht] - nachricht in die staatswelle',
-        pl: '[wiadomosc] - wiadomosc na fale rzadowa',
+        ru: '!{#FFFF00}[Департамент] {{factionName}} {{playerName}}: {{message}}',
+        ua: '!{#FFFF00}[Департамент] {{factionName}} {{playerName}}: {{message}}',
+        en: '!{#FFFF00}[Department] {{factionName}} {{playerName}}: {{message}}',
+        de: '!{#FFFF00}[Abteilung] {{factionName}} {{playerName}}: {{message}}',
+        pl: '!{#FFFF00}[Departament] {{factionName}} {{playerName}}: {{message}}',
+        zh:'!{#FFFF00}[部门]{{factionName}{{playerName}:{{message}'
     },
     govBroadcast: {
         ru: '!{#2196F3}{{factionName}} {{playerName}}: {{message}}',
@@ -20,13 +13,6 @@ export default {
         en: '!{#2196F3}{{factionName}} {{playerName}}: {{message}}',
         de: '!{#2196F3}{{factionName}} {{playerName}}: {{message}}',
         pl: '!{#2196F3}{{factionName}} {{playerName}}: {{message}}',
-    },
-    govUsage: {
-        ru: '[сообщение] - государственное объявление',
-        ua: '[повідомлення] - державне оголошення',
-        en: '[message] - government announcement',
-        de: '[nachricht] - staatliche ankundigung',
-        pl: '[wiadomosc] - ogloszenie rzadowe',
     },
     fUsage: {
         ru: '[сообщение] - фракционный чат',

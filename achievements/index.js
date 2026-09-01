@@ -455,10 +455,10 @@ export default {
 
     // ─── Скупщики ───
     buyer_meat: {
-        name: { ru: 'Скупщики мяса', ua: 'Скупники м’яса', en: 'Meat Buyers', de: 'Fleisch-Aufkaeufer', pl: 'Skupcy Miesa' },
+        name: { ru: 'Скупщики мяса', ua: "Скупники м'яса", en: 'Meat Buyers', de: 'Fleisch-Aufkaeufer', pl: 'Skupcy Miesa' },
         desc: {
             ru: 'Продайте скупщику мяса товаров на {{value}}$',
-            ua: 'Продайте скупнику м’яса товарів на {{value}}$',
+            ua: "Продайте скупнику м'яса товарів на {{value}}$",
             en: 'Sell ${{value}} worth of goods to the meat buyer',
             de: 'Verkaufe Waren fuer {{value}}$ an den Fleisch-Aufkaeufer',
             pl: 'Sprzedaj towary za {{value}}$ skupowi miesa',

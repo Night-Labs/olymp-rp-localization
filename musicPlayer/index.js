@@ -23,6 +23,14 @@ export default {
         pl: 'Link do utworu i jego nazwa zostały skopiowane do schowka',
     },
 
+    trackUnavailable: {
+        ru: 'Этот трек недоступен для воспроизведения',
+        ua: 'Цей трек недоступний для відтворення',
+        en: 'This track is not available for playback',
+        de: 'Dieser Track ist nicht abspielbar',
+        pl: 'Ten utwór jest niedostępny do odtwarzania',
+    },
+
     notAvailableForNow: {
         ru: 'Эта функция пока что недоступна',
         ua: 'Ця функція поки що недоступна',
@@ -91,7 +99,7 @@ export default {
         },
         desc: {
             ru: 'Здесь появятся треки, которые вы оценили, нажав на сердечко, для быстрого доступа',
-            ua: 'Тут з’являться треки, які ви оцінили, натиснувши на сердечко, для швидкого доступу',
+            ua: "Тут з'являться треки, які ви оцінили, натиснувши на сердечко, для швидкого доступу",
             en: 'Here you will find tracks you liked by clicking the heart for quick access',
             de: 'Hier erscheinen Tracks, die du mit einem Herz markiert hast, für schnellen Zugriff',
             pl: 'Tutaj pojawią się utwory, które polubiłeś, klikając serduszko, dla szybkiego dostępu',

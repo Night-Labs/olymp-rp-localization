@@ -53,6 +53,15 @@ export default {
         zh: '查看他们的许可证',
     },
 
+    lawyerLicense: {
+        ru: 'Предлагает посмотреть свою лицензию адвоката',
+        ua: 'Запрошує переглянути свою ліцензію адвоката',
+        en: 'Invites to view their lawyer license',
+        de: 'Lädt dazu ein, die eigene Anwaltslizenz anzusehen',
+        pl: 'Zaprasza do obejrzenia swojej licencji adwokackiej',
+        zh: '邀请查看他们的律师执照',
+    },
+
     //
 
     sellPills: {
@@ -93,6 +102,13 @@ export default {
         en: '{{name}} will heal you for ${{sum}}',
         de: '{{name}} wird dich für ${{sum}} heilen',
         pl: '{{name}} wyleczy cię za ${{sum}}',
+    },
+    detox: {
+        ru: '{{name}} предлагает снять вам наркотическую зависимость за ${{sum}}',
+        ua: '{{name}} пропонує зняти вам наркотичну залежність за ${{sum}}',
+        en: '{{name}} offers to treat your drug addiction for ${{sum}}',
+        de: '{{name}} bietet an, deine Drogensucht für ${{sum}} zu behandeln',
+        pl: '{{name}} oferuje leczenie Twojego uzależnienia od narkotyków za ${{sum}}',
     },
     healPlayer: {
         ru: '{{name}} предлагает оказать вам медицинскую помощь за ${{sum}}',

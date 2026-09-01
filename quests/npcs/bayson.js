@@ -54,7 +54,7 @@ export default {
             ru: 'Всё просто: будь внимателен, держи винтовку наготове и стреляй в голову - тогда и трофей будет, и сам жив останешься.',
             ua: 'Все просто: будь уважний, тримай гвинтівку напоготові й стріляй у голову - тоді і трофей буде, і сам живим залишишся.',
             en: "It's simple: stay alert, keep your rifle ready, and aim for the head - you'll get a trophy and you'll stay alive.",
-            de: 'Ganz einfach: Sei aufmerksam, halte dein Gewehr bereit und schieß auf den Kopf – dann hast du die Trophäe und bleibst selbst am Leben.',
+            de: 'Ganz einfach: Sei aufmerksam, halte dein Gewehr bereit und schieß auf den Kopf - dann hast du die Trophäe und bleibst selbst am Leben.',
             pl: 'To proste: bądź czujny, trzymaj karabin w pogotowiu i celuj w głowę - wtedy będziesz mieć trofeum i sam przeżyjesz.',
         },
         rifleBestReason: {

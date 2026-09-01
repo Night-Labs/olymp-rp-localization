@@ -1,5 +1,12 @@
 export const npc = {
     names: {
+        dice: {
+            ru: 'Дайс',
+            ua: 'Дайс',
+            en: 'Dice',
+            de: 'Dice',
+            pl: 'Dice',
+        },
         james: {
             ru: 'Джеймс',
             ua: 'Джеймс',
@@ -220,6 +227,13 @@ export const npc = {
             de: 'Taucher',
             pl: 'Główny Nurek',
         },
+        airCargoForeman: {
+            ru: 'Сменный Терминала',
+            ua: 'Змінний Термінала',
+            en: 'Terminal Foreman',
+            de: 'Terminal-Vorarbeiter',
+            pl: 'Brygadzista Terminala',
+        },
         garbageWorker: {
             ru: 'Старший Смены',
             ua: 'Старший Зміни',
@@ -290,6 +304,13 @@ export const npc = {
             de: 'Iori',
             pl: 'Iori',
         },
+        hao: {
+            ru: 'Хао',
+            ua: 'Хао',
+            en: 'Hao',
+            de: 'Hao',
+            pl: 'Hao',
+        },
         realtor: {
             ru: 'Мелисса',
             ua: 'Мелісса',
@@ -319,12 +340,26 @@ export const npc = {
             de: 'Sophie',
             pl: 'Sophie',
         },
+        officeSecretaryMale: {
+            ru: 'Даниэль',
+            ua: 'Даніель',
+            en: 'Daniel',
+            de: 'Daniel',
+            pl: 'Daniel',
+        },
         warehouseManager: {
             ru: 'Марк',
             ua: 'Марк',
             en: 'Mark',
             de: 'Mark',
             pl: 'Mark',
+        },
+        duke: {
+            ru: 'Дюк',
+            ua: 'Дюк',
+            en: 'Duke',
+            de: 'Duke',
+            pl: 'Duke',
         },
         veronica: {
             ru: 'Вероника',
@@ -399,12 +434,33 @@ export const npc = {
             de: 'Bürosekretärin',
             pl: 'Sekretarka biura',
         },
+        officeSecretaryMale: {
+            ru: 'Секретарь офиса',
+            ua: 'Секретар офісу',
+            en: 'Office Secretary',
+            de: 'Bürosekretär',
+            pl: 'Sekretarz biura',
+        },
         warehouseManager: {
             ru: 'Управляющий складом',
             ua: 'Управляючий складом',
             en: 'Warehouse Manager',
             de: 'Lagerverwalter',
             pl: 'Kierownik magazynu',
+        },
+        fence: {
+            ru: 'Скупщик краденого',
+            ua: 'Скупник краденого',
+            en: 'Fence',
+            de: 'Hehler',
+            pl: 'Paser',
+        },
+        allInLegend: {
+            ru: 'Легенда олл-ина',
+            ua: 'Легенда олл-іну',
+            en: 'All-In Legend',
+            de: 'All-in-Legende',
+            pl: 'Legenda all-ina',
         },
     },
 };

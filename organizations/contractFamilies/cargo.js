@@ -1,0 +1,223 @@
+export const cargoList = {
+    // ------------------------------------------------------------------- legal
+    cargoWarehouse: {
+        name: {
+            ru: 'Товар со склада',
+            ua: 'Товар зі складу',
+            en: 'Warehouse Freight',
+            de: 'Lagerfracht',
+            pl: 'Towar z magazynu',
+        },
+        description: {
+            ru: 'Склад в Сайпресс-Флэтс забит под потолок, а почта в Вайнвуде ждёт посылки со вчерашнего дня. {{rolledGoal}} коробок: каждую берёте на руки, кладёте в багажник и везёте на отделение. Идите бригадой - вдвоём вы это до ночи не растащите.',
+            ua: 'Склад у Сайпресс-Флетс забитий під стелю, а пошта у Вайнвуді чекає посилки з учора. {{rolledGoal}} коробок: кожну берете на руки, кладете в багажник і везете до відділення. Ідіть бригадою - удвох ви це до ночі не розтягнете.',
+            en: 'The Cypress Flats warehouse is packed to the roof and the Vinewood post office has been waiting since yesterday. {{rolledGoal}} boxes: every one goes in your hands, into a boot, and out to the counter. Go as a crew - two men will not shift this before dark.',
+            de: 'Das Lagerhaus in Cypress Flats ist bis unters Dach voll und das Postamt in Vinewood wartet seit gestern. {{rolledGoal}} Kisten: jede in die Haende, in den Kofferraum und raus zum Schalter. Fahrt als Crew - zu zweit schafft ihr das bis zum Abend nicht.',
+            pl: 'Magazyn w Cypress Flats jest zapchany po sufit, a poczta w Vinewood czeka od wczoraj. {{rolledGoal}} kartonow: kazdy bierzesz na rece, wkladasz do bagaznika i wieziesz na poczte. Jedzcie ekipa - we dwoch nie wyniesiecie tego do nocy.',
+        },
+        objective: {
+            ru: 'Перевезти {{rolledGoal}} коробок со склада на почту',
+            ua: 'Перевезти {{rolledGoal}} коробок зі складу на пошту',
+            en: 'Haul {{rolledGoal}} boxes from the warehouse to the post office',
+            de: '{{rolledGoal}} Kisten vom Lager zum Postamt fahren',
+            pl: 'Przewiezc {{rolledGoal}} kartonow z magazynu na poczte',
+        },
+    },
+    cargoTrain: {
+        name: {
+            ru: 'Товар с поезда',
+            ua: 'Товар з поїзда',
+            en: 'Rail Freight',
+            de: 'Bahnfracht',
+            pl: 'Towar z pociagu',
+        },
+        description: {
+            ru: 'Состав встаёт на платформе у карьера пятнадцать минут в час, и корм снимают только пока он там. {{rolledGoal}} мешков на руках до багажника, дальше на ферму в Грейпсид. Ушёл поезд - ждите следующего, так что бригадой и без раскачки.',
+            ua: 'Состав стає на платформі біля кар\'єру п\'ятнадцять хвилин на годину, і корм знімають лише поки він там. {{rolledGoal}} мішків на руках до багажника, далі на ферму в Грейпсид. Пішов поїзд - чекайте наступного, тож бригадою і без розгойдування.',
+            en: 'The consist stands at the quarry platform fifteen minutes in the hour, and the feed comes off only while it is there. {{rolledGoal}} sacks carried to a boot, then out to the Grapeseed farm. Miss the window and you wait for the next one, so bring the crew and do not dawdle.',
+            de: 'Der Zug steht fuenfzehn Minuten pro Stunde an der Rampe am Steinbruch, und das Futter kommt nur in dieser Zeit herunter. {{rolledGoal}} Saecke von Hand in den Kofferraum, dann raus zur Farm in Grapeseed. Fenster verpasst, naechste Stunde gewartet - also mit der Crew und ohne Trodeln.',
+            pl: 'Sklad stoi na rampie przy kamieniolomie pietnascie minut na godzine i pasze zdejmuje sie tylko w tym czasie. {{rolledGoal}} workow na rekach do bagaznika, potem na farme w Grapeseed. Przegapisz okno - czekasz na kolejne, wiec ekipa i bez ociagania.',
+        },
+        objective: {
+            ru: 'Снять с поезда {{rolledGoal}} мешков комбикорма и отвезти на ферму Грейпсид',
+            ua: 'Зняти з поїзда {{rolledGoal}} мішків комбікорму і відвезти на ферму Грейпсид',
+            en: 'Take {{rolledGoal}} sacks of feed off the train and run them to the Grapeseed farm',
+            de: '{{rolledGoal}} Saecke Futter vom Zug holen und zur Farm Grapeseed bringen',
+            pl: 'Zdjac z pociagu {{rolledGoal}} workow paszy i zawiezc na farme Grapeseed',
+        },
+    },
+    cargoPlane: {
+        name: {
+            ru: 'Товар с самолёта',
+            ua: 'Товар з літака',
+            en: 'Air Freight',
+            de: 'Luftfracht',
+            pl: 'Towar z samolotu',
+        },
+        description: {
+            ru: 'Борт разгружают на грузовом перроне аэропорта, кейсы идут ко мне на склад в Сайпресс-Флэтс. {{rolledGoal}} кейсов: с площадки на руки, в багажник и до склада. Ни один не должен уехать не туда - за этот груз я отвечаю лично.',
+            ua: 'Борт розвантажують на вантажному пероні аеропорту, кейси йдуть до мене на склад у Сайпресс-Флетс. {{rolledGoal}} кейсів: з майданчика на руки, в багажник і до складу. Жоден не повинен поїхати не туди - за цей вантаж я відповідаю особисто.',
+            en: 'They are stripping the plane on the airport freight apron and the cases come to my warehouse in Cypress Flats. {{rolledGoal}} cases: off the pad into your hands, into a boot, out to the warehouse. Not one goes anywhere else - I answer for this load personally.',
+            de: 'Die Maschine wird auf dem Frachtvorfeld entladen, die Koffer gehen in mein Lager in Cypress Flats. {{rolledGoal}} Koffer: vom Feld in die Haende, in den Kofferraum und ab ins Lager. Keiner faehrt woandershin - fuer diese Ladung hafte ich persoenlich.',
+            pl: 'Samolot rozladowuja na plycie cargo lotniska, a walizki jada do mojego magazynu w Cypress Flats. {{rolledGoal}} walizek: z plyty na rece, do bagaznika i do magazynu. Ani jedna nie pojedzie gdzie indziej - za ten ladunek odpowiadam osobiscie.',
+        },
+        objective: {
+            ru: 'Перевезти {{rolledGoal}} кейсов с борта на склад',
+            ua: 'Перевезти {{rolledGoal}} кейсів з борту на склад',
+            en: 'Move {{rolledGoal}} cases from the plane to the warehouse',
+            de: '{{rolledGoal}} Koffer vom Flieger ins Lager fahren',
+            pl: 'Przewiezc {{rolledGoal}} walizek z samolotu do magazynu',
+        },
+    },
+
+    // ------------------------------------------------------------------- crime
+    blackContainers: {
+        name: {
+            ru: 'Неизвестные контейнеры',
+            ua: 'Невідомі контейнери',
+            en: 'Unmarked Containers',
+            de: 'Unbekannte Container',
+            pl: 'Nieznane kontenery',
+        },
+        description: {
+            ru: 'На Элизиан пришли контейнеры без единой бумажки - разбирайте ящик за ящиком и везите в цех на Рокфорд-Хиллз. {{rolledGoal}} ящиков, все пятеро на погрузке, и фарами у ворот не свети.',
+            ua: 'На Елізіан прийшли контейнери без жодного папірця - розбирайте ящик за ящиком і везіть у цех на Рокфорд-Хіллз. {{rolledGoal}} ящиків, усі п\'ятеро на завантаженні, і фарами біля воріт не світи.',
+            en: 'Containers landed on Elysian without a single sheet of paper - take them out crate by crate and run them to the shop in Rockford Hills. {{rolledGoal}} crates, all five of you on the loading, and keep your headlights off the gate.',
+            de: 'Auf Elysian stehen Container ohne ein einziges Papier - Kiste fuer Kiste ausraeumen und ab in die Werkstatt in Rockford Hills. {{rolledGoal}} Kisten, alle fuenf beim Beladen, und leuchtet nicht mit den Scheinwerfern aufs Tor.',
+            pl: 'Na Elysian przyszly kontenery bez jednej kartki - wynoscie skrzynia po skrzyni i wieziecie do warsztatu na Rockford Hills. {{rolledGoal}} skrzyn, cala piatka przy zaladunku i nie swiec reflektorami na brame.',
+        },
+        objective: {
+            ru: 'Вывезти {{rolledGoal}} ящиков из контейнеров в цех',
+            ua: 'Вивезти {{rolledGoal}} ящиків із контейнерів у цех',
+            en: 'Move {{rolledGoal}} crates from the containers to the shop',
+            de: '{{rolledGoal}} Kisten aus den Containern in die Werkstatt bringen',
+            pl: 'Wywiezc {{rolledGoal}} skrzyn z kontenerow do warsztatu',
+        },
+    },
+    blackChem: {
+        name: {
+            ru: 'Незаконное предприятие',
+            ua: 'Незаконне підприємство',
+            en: 'Illicit Enterprise',
+            de: 'Illegaler Betrieb',
+            pl: 'Nielegalne przedsiebiorstwo',
+        },
+        description: {
+            ru: 'Химия для лабы идёт через подставное предприятие в Гранд-Сенора. {{rolledGoal}} ящиков: не бить, крышки не открывать, в аварию не попадать. Одна течь - и везти будет уже некому.',
+            ua: 'Хімія для лабораторії йде через підставне підприємство в Гранд-Сенора. {{rolledGoal}} ящиків: не бити, кришки не відкривати, в аварію не потрапляти. Один витік - і везти вже буде нікому.',
+            en: 'The lab precursor moves through the front company in Grand Senora. {{rolledGoal}} crates: do not knock them, do not crack the lids, do not crash. One leak and there is nobody left to drive.',
+            de: 'Der Laborstoff laeuft ueber die Scheinfirma in Grand Senora. {{rolledGoal}} Kisten: nicht stossen, Deckel nicht oeffnen, keinen Unfall bauen. Ein Leck und es faehrt keiner mehr.',
+            pl: 'Chemia do labki idzie przez firme-przykrywke w Grand Senora. {{rolledGoal}} skrzyn: nie obijac, wiek nie otwierac, nie rozwalic sie. Jeden wyciek i nie bedzie komu wiezc.',
+        },
+        objective: {
+            ru: 'Доставить {{rolledGoal}} ящиков химии на предприятие',
+            ua: 'Доставити {{rolledGoal}} ящиків хімії на підприємство',
+            en: 'Deliver {{rolledGoal}} crates of chemicals to the enterprise',
+            de: '{{rolledGoal}} Kisten Chemie zum Betrieb liefern',
+            pl: 'Dostarczyc {{rolledGoal}} skrzyn chemii do przedsiebiorstwa',
+        },
+    },
+    blackShip: {
+        name: {
+            ru: 'Нелегальное судно',
+            ua: 'Нелегальне судно',
+            en: 'Contraband Vessel',
+            de: 'Illegales Schiff',
+            pl: 'Nielegalny statek',
+        },
+        description: {
+            ru: 'С судна снимают взрывчатку, и она нужна на подземном заводе, а не в порту. {{rolledGoal}} ящиков, колонной, без резких торможений. Кто уронит ящик - хоронить будет нечего.',
+            ua: 'Із судна знімають вибухівку, і вона потрібна на підземному заводі, а не в порту. {{rolledGoal}} ящиків, колоною, без різких гальмувань. Хто впустить ящик - ховати буде нічого.',
+            en: 'They are pulling explosives off the hull, and they belong at the underground plant, not on the dock. {{rolledGoal}} crates, in convoy, no hard braking. Drop a crate and there will be nothing left to bury.',
+            de: 'Vom Rumpf wird Sprengstoff geholt, und der gehoert in die unterirdische Fabrik, nicht auf den Kai. {{rolledGoal}} Kisten, im Konvoi, kein hartes Bremsen. Wer eine Kiste fallen laesst, den muss keiner mehr begraben.',
+            pl: 'Z kadluba sciagaja materialy wybuchowe i maja trafic do podziemnej fabryki, nie na nabrzeze. {{rolledGoal}} skrzyn, w kolumnie, bez ostrego hamowania. Kto upusci skrzynie, tego nie bedzie co chowac.',
+        },
+        objective: {
+            ru: 'Довезти {{rolledGoal}} ящиков со взрывчаткой на завод',
+            ua: 'Довезти {{rolledGoal}} ящиків із вибухівкою на завод',
+            en: 'Get {{rolledGoal}} crates of explosives to the plant',
+            de: '{{rolledGoal}} Kisten Sprengstoff zur Fabrik bringen',
+            pl: 'Dowiezc {{rolledGoal}} skrzyn materialow wybuchowych do fabryki',
+        },
+    },
+};
+
+export const cargoBlips = {
+    cargoCypressWarehouse: {
+        ru: 'Склад в Сайпресс-Флэтс',
+        ua: 'Склад у Сайпресс-Флетс',
+        en: 'Cypress Flats warehouse',
+        de: 'Lagerhaus Cypress Flats',
+        pl: 'Magazyn Cypress Flats',
+    },
+    cargoVinewoodPost: {
+        ru: 'Почтовое отделение Вайнвуда',
+        ua: 'Поштове відділення Вайнвуда',
+        en: 'Vinewood post office',
+        de: 'Postamt Vinewood',
+        pl: 'Poczta Vinewood',
+    },
+    cargoQuarrySiding: {
+        ru: 'Грузовая платформа у карьера',
+        ua: 'Вантажна платформа біля кар\'єру',
+        en: 'Quarry freight platform',
+        de: 'Frachtrampe am Steinbruch',
+        pl: 'Rampa towarowa przy kamieniolomie',
+    },
+    cargoGrapeseedFarm: {
+        ru: 'Ферма Грейпсид',
+        ua: 'Ферма Грейпсид',
+        en: 'Grapeseed farm',
+        de: 'Farm Grapeseed',
+        pl: 'Farma Grapeseed',
+    },
+    cargoAirportFreight: {
+        ru: 'Грузовой терминал аэропорта',
+        ua: 'Вантажний термінал аеропорту',
+        en: 'Airport freight terminal',
+        de: 'Frachtterminal des Flughafens',
+        pl: 'Terminal cargo lotniska',
+    },
+    blackElysianContainers: {
+        ru: 'Контейнеры на Элизиан-Айленд',
+        ua: 'Контейнери на Елізіан-Айленд',
+        en: 'Elysian Island containers',
+        de: 'Container auf Elysian Island',
+        pl: 'Kontenery na Elysian Island',
+    },
+    blackRockfordShop: {
+        ru: 'Подпольный цех в Рокфорд-Хиллз',
+        ua: 'Підпільний цех у Рокфорд-Хіллз',
+        en: 'Rockford Hills underground shop',
+        de: 'Untergrundwerkstatt Rockford Hills',
+        pl: 'Podziemny warsztat Rockford Hills',
+    },
+    blackChemDepot: {
+        ru: 'Химический склад Восточного Лос-Сантоса',
+        ua: 'Хімічний склад Східного Лос-Сантоса',
+        en: 'East Los Santos chemical depot',
+        de: 'Chemielager Ost-Los-Santos',
+        pl: 'Sklad chemiczny we wschodnim Los Santos',
+    },
+    blackFrontCompany: {
+        ru: 'Подставное предприятие в Гранд-Сенора',
+        ua: 'Підставне підприємство в Гранд-Сенора',
+        en: 'Grand Senora front company',
+        de: 'Scheinfirma in Grand Senora',
+        pl: 'Firma-przykrywka w Grand Senora',
+    },
+    blackShipBerth: {
+        ru: 'Причал нелегального судна',
+        ua: 'Причал нелегального судна',
+        en: 'Contraband vessel berth',
+        de: 'Liegeplatz des Schmuggelschiffs',
+        pl: 'Nabrzeze nielegalnego statku',
+    },
+    blackWeaponsPlant: {
+        ru: 'Подземный оружейный завод',
+        ua: 'Підземний збройовий завод',
+        en: 'Underground weapons plant',
+        de: 'Unterirdische Waffenfabrik',
+        pl: 'Podziemna fabryka broni',
+    },
+};

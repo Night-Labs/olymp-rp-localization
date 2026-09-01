@@ -142,6 +142,15 @@ export const server = {
         pl: 'Nie możesz tam sadzić',
         zh: '你不能在这里种植',
     },
+    itemNotFound: {
+        ru: 'Предмет не найден в инвентаре',
+        ua: 'Предмет не знайдено в інвентарі',
+        en: 'The item was not found in your inventory',
+        de: 'Der Gegenstand wurde nicht in deinem Inventar gefunden',
+        pl: 'Nie znaleziono przedmiotu w ekwipunku',
+        ge: 'ნივთი ინვენტარში ვერ მოიძებნა',
+        zh: '背包中未找到该物品',
+    },
     thatSeedsNot: {
         ru: 'На этом поле можно садить только: {{seeds}}',
         ua: 'На цьому полі можна садити тільки: {{seeds}}',
@@ -340,6 +349,34 @@ export const server = {
         ge: 'თქვენ დაასრულეთ ამ ველის დამუშავება, ახლა ის მზადაა მცენარეების დასარგავად. თქვენ გამოიმუშავეთ: ${{salary}}',
         zh: '你已完成耕作这块田地，现在它适合种植作物。你赚了: ${{salary}}',
     },
+    cultivationLost: {
+        ru: 'Культивация прервана: сядьте в трактор с культиватором и заезжайте на поле заново',
+        ua: 'Культивацію перервано: сядьте в трактор з культиватором і заїжджайте на поле знову',
+        en: 'Cultivation interrupted: get back in a tractor with a cultivator and drive into the field again',
+        de: 'Bearbeitung abgebrochen: Setz dich wieder in einen Traktor mit Grubber und fahre erneut auf das Feld',
+        pl: 'Uprawa przerwana: wsiądź do traktora z kultywatorem i wjedź na pole ponownie',
+        ge: 'კულტივირება შეწყდა: დაბრუნდით ტრაქტორში კულტივატორით და თავიდან შედით მინდორზე',
+        zh: '耕作中断：请重新坐上带中耕机的拖拉机并再次驶入田地',
+    },
+    fieldAlreadyCultivated: {
+        ru: 'Это поле уже вспахал другой тракторист',
+        ua: 'Це поле вже зорав інший тракторист',
+        en: 'Another tractor driver has already cultivated this field',
+        de: 'Ein anderer Traktorfahrer hat dieses Feld bereits bearbeitet',
+        pl: 'To pole zostało już zaorane przez innego traktorzystę',
+        ge: 'ეს მინდორი უკვე დაამუშავა სხვა ტრაქტორისტმა',
+        zh: '这块田地已被其他拖拉机驾驶员耕作过',
+    },
+    cultivationNotFinished: {
+        ru: 'Нужно проехать весь маршрут до последнего чекпоинта',
+        ua: 'Потрібно проїхати весь маршрут до останнього чекпоінта',
+        en: 'You have to drive the whole route to the last checkpoint',
+        de: 'Du musst die gesamte Route bis zum letzten Checkpoint abfahren',
+        pl: 'Musisz przejechać całą trasę do ostatniego punktu kontrolnego',
+        ge: 'საჭიროა მთელი მარშრუტის გავლა ბოლო საკონტროლო წერტილამდე',
+        zh: '你必须行驶完整条路线直到最后一个检查点',
+    },
+
     // returnToTractor: {
     //     ru: 'Вернитесь к трактору иначе '
     // }

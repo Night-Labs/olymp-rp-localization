@@ -3,6 +3,7 @@ import { cef } from './cef';
 import replays from './replays';
 import { server } from './server';
 import mute from './mute';
+import weaponBan from './weaponBan';
 import objectPlacementBan from './objectPlacementBan';
 import musicPlayer from './musicPlayer';
 export default {
@@ -11,6 +12,7 @@ export default {
     replays,
     ban,
     mute,
+    weaponBan,
     objectPlacementBan,
     musicPlayer,
     getOut: {

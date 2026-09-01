@@ -1,0 +1,226 @@
+export default {
+    paper_t1: {
+        name: {
+            ru: 'Бумага I',
+            ua: 'Папір I',
+            en: 'Paper I',
+            de: 'Papier I',
+            pl: 'Papier I',
+        },
+        desc: {
+            ru: 'Обычная офисная бумага. Годится разве что на подарочные карты.',
+            ua: 'Звичайний офісний папір. Годиться хіба що на подарункові картки.',
+            en: 'Plain office paper. Good for little more than gift cards.',
+            de: 'Gewöhnliches Büropapier. Taugt kaum für mehr als Geschenkkarten.',
+            pl: 'Zwykły papier biurowy. Nadaje się co najwyżej na karty podarunkowe.',
+        },
+    },
+    paper_t2: {
+        name: {
+            ru: 'Бумага II',
+            ua: 'Папір II',
+            en: 'Paper II',
+            de: 'Papier II',
+            pl: 'Papier II',
+        },
+        desc: {
+            ru: 'Плотная бумага с водяным знаком. Из такой делают бланки.',
+            ua: 'Щільний папір із водяним знаком. З такого роблять бланки.',
+            en: 'Heavy watermarked stock. The kind official forms are printed on.',
+            de: 'Schweres Papier mit Wasserzeichen. Daraus werden Formulare gemacht.',
+            pl: 'Gruby papier ze znakiem wodnym. Z takiego robi się formularze.',
+        },
+    },
+    paper_t3: {
+        name: {
+            ru: 'Бумага III',
+            ua: 'Папір III',
+            en: 'Paper III',
+            de: 'Papier III',
+            pl: 'Papier III',
+        },
+        desc: {
+            ru: 'Хлопковая бумага с защитной нитью. За такую дают срок.',
+            ua: 'Бавовняний папір із захисною ниткою. За такий дають строк.',
+            en: 'Cotton stock with a security thread. Holding it is already a sentence.',
+            de: 'Baumwollpapier mit Sicherheitsfaden. Dafür gibt es Haft.',
+            pl: 'Papier bawełniany z nicią zabezpieczającą. Za taki dają wyrok.',
+        },
+    },
+    ink_t1: {
+        name: {
+            ru: 'Краска I',
+            ua: 'Фарба I',
+            en: 'Ink I',
+            de: 'Farbe I',
+            pl: 'Farba I',
+        },
+        desc: {
+            ru: 'Обычная типографская краска.',
+            ua: 'Звичайна друкарська фарба.',
+            en: 'Ordinary printing ink.',
+            de: 'Gewöhnliche Druckfarbe.',
+            pl: 'Zwykła farba drukarska.',
+        },
+    },
+    ink_t2: {
+        name: {
+            ru: 'Краска II',
+            ua: 'Фарба II',
+            en: 'Ink II',
+            de: 'Farbe II',
+            pl: 'Farba II',
+        },
+        desc: {
+            ru: 'Стойкая краска, не выцветает под ультрафиолетом.',
+            ua: 'Стійка фарба, не вицвітає під ультрафіолетом.',
+            en: 'Fade-proof ink that holds up under UV.',
+            de: 'Beständige Farbe, verblasst nicht unter UV-Licht.',
+            pl: 'Trwała farba, nie blaknie pod ultrafioletem.',
+        },
+    },
+    ink_t3: {
+        name: {
+            ru: 'Краска III',
+            ua: 'Фарба III',
+            en: 'Ink III',
+            de: 'Farbe III',
+            pl: 'Farba III',
+        },
+        desc: {
+            ru: 'Магнитная краска с переменным цветом. Только для купюр.',
+            ua: 'Магнітна фарба зі змінним кольором. Тільки для купюр.',
+            en: 'Magnetic colour-shifting ink. Banknotes only.',
+            de: 'Magnetische Farbwechsel-Tinte. Nur für Banknoten.',
+            pl: 'Magnetyczna farba zmieniająca kolor. Wyłącznie do banknotów.',
+        },
+    },
+    forged_id_pack: {
+        name: {
+            ru: 'Пачка удостоверений',
+            ua: 'Пачка посвідчень',
+            en: 'Batch of forged IDs',
+            de: 'Bündel gefälschter Ausweise',
+            pl: 'Plik podrobionych dowodów',
+        },
+        desc: {
+            ru: 'Ламинированные пустышки на чужие имена. Берут только пачкой.',
+            ua: 'Ламіновані пустушки на чужі імена. Беруть лише пачкою.',
+            en: "Laminated blanks in other people's names. Only ever bought by the batch.",
+            de: 'Laminierte Blankoausweise auf fremde Namen. Nur bündelweise gefragt.',
+            pl: 'Laminowane blankiety na cudze nazwiska. Kupowane wyłącznie w paczce.',
+        },
+    },
+    shell_company_file: {
+        name: {
+            ru: 'Дело подставной фирмы',
+            ua: 'Справа підставної фірми',
+            en: 'Shell company file',
+            de: 'Akte einer Scheinfirma',
+            pl: 'Teczka firmy słupa',
+        },
+        desc: {
+            ru: 'Устав, печать и директор, которого не существует.',
+            ua: 'Статут, печатка і директор, якого не існує.',
+            en: 'Articles, a seal, and a director who does not exist.',
+            de: 'Satzung, Siegel und ein Direktor, den es nicht gibt.',
+            pl: 'Statut, pieczęć i dyrektor, który nie istnieje.',
+        },
+    },
+    notarial_dossier: {
+        name: {
+            ru: 'Нотариальное досье',
+            ua: 'Нотаріальне досьє',
+            en: 'Notarised dossier',
+            de: 'Notarielle Akte',
+            pl: 'Teczka notarialna',
+        },
+        desc: {
+            ru: 'Заверенная папка на гербовых бланках. Сверять её будет некому.',
+            ua: 'Завірена тека на гербових бланках. Звіряти її буде нікому.',
+            en: 'A certified folder on embossed forms. Nobody will be around to check it.',
+            de: 'Eine beglaubigte Mappe auf Wappenformularen. Prüfen wird sie niemand.',
+            pl: 'Poświadczona teczka na drukach urzędowych. Nikt jej nie sprawdzi.',
+        },
+    },
+    offshore_portfolio: {
+        name: {
+            ru: 'Офшорный портфель',
+            ua: 'Офшорний портфель',
+            en: 'Offshore portfolio',
+            de: 'Offshore-Portfolio',
+            pl: 'Portfel offshore',
+        },
+        desc: {
+            ru: 'Бумаги на цепочку фирм в трёх юрисдикциях. Самая дорогая работа цеха.',
+            ua: 'Папери на ланцюг фірм у трьох юрисдикціях. Найдорожча робота цеху.',
+            en: "Paperwork for a chain of companies across three jurisdictions. The shop's priciest job.",
+            de: 'Unterlagen für eine Firmenkette in drei Jurisdiktionen. Die teuerste Arbeit der Werkstatt.',
+            pl: 'Papiery na łańcuch spółek w trzech jurysdykcjach. Najdroższa robota zakładu.',
+        },
+    },
+    counterfeit_usd: {
+        name: {
+            ru: 'Фальшивые доллары',
+            ua: 'Фальшиві долари',
+            en: 'Counterfeit dollars',
+            de: 'Falsche Dollar',
+            pl: 'Fałszywe dolary',
+        },
+        desc: {
+            ru: 'Свежая пачка. Пахнет краской и статьёй.',
+            ua: 'Свіжа пачка. Пахне фарбою і статтею.',
+            en: 'A fresh stack. Smells of ink and prison time.',
+            de: 'Ein frischer Stapel. Riecht nach Farbe und Knast.',
+            pl: 'Świeża paczka. Pachnie farbą i wyrokiem.',
+        },
+    },
+    counterfeit_eur: {
+        name: {
+            ru: 'Фальшивые евро',
+            ua: 'Фальшиві євро',
+            en: 'Counterfeit euros',
+            de: 'Falsche Euro',
+            pl: 'Fałszywe euro',
+        },
+        desc: {
+            ru: 'Голограмма почти на месте. Под лампой лучше не проверять.',
+            ua: 'Голограма майже на місці. Під лампою краще не перевіряти.',
+            en: 'The hologram is almost right. Best not to check it under a lamp.',
+            de: 'Das Hologramm sitzt fast. Unter der Lampe lieber nicht pruefen.',
+            pl: 'Hologram prawie na miejscu. Lepiej nie sprawdzać pod lampą.',
+        },
+    },
+    counterfeit_gbp: {
+        name: {
+            ru: 'Фальшивые фунты',
+            ua: 'Фальшиві фунти',
+            en: 'Counterfeit pounds',
+            de: 'Falsche Pfund',
+            pl: 'Fałszywe funty',
+        },
+        desc: {
+            ru: 'Полимер, а не бумага. Возни втрое больше, спрос тоже.',
+            ua: 'Полімер, а не папір. Мороки втричі більше, попит теж.',
+            en: 'Polymer, not paper. Three times the trouble, three times the demand.',
+            de: 'Polymer statt Papier. Dreimal so viel Aufwand, dreimal so viel Nachfrage.',
+            pl: 'Polimer, nie papier. Trzy razy więcej roboty, popyt tak samo.',
+        },
+    },
+    counterfeit_chf: {
+        name: {
+            ru: 'Фальшивые франки',
+            ua: 'Фальшиві франки',
+            en: 'Counterfeit francs',
+            de: 'Falsche Franken',
+            pl: 'Fałszywe franki',
+        },
+        desc: {
+            ru: 'Самая сложная банкнота в мире. Цех делает её медленнее всего.',
+            ua: 'Найскладніша банкнота у світі. Цех робить її найповільніше.',
+            en: 'The hardest banknote in the world. The slowest thing the shop prints.',
+            de: 'Die schwierigste Banknote der Welt. Das Langsamste, was die Werkstatt druckt.',
+            pl: 'Najtrudniejszy banknot świata. Zakład drukuje go najwolniej.',
+        },
+    },
+};

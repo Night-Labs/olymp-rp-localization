@@ -179,11 +179,11 @@ export default {
                 pl: 'Powiedz mi więcej',
             },
             info: {
-                ru: 'Мы занимаемся эвакуацией автомобилей. Ты садишься в эвакуатор, получаешь заказы и отвозишь машины на штрафстоянку. Если полиция выпишет ордер — ты забираешь реальные машины, а если заказов нет — возишь брошенные авто. Платим за каждую доставку.',
-                ua: "Ми займаємося евакуацією автомобілів. Ти сідаєш в евакуатор, отримуєш замовлення і відвозиш машини на штрафмайданчик. Якщо поліція випише ордер — ти забираєш реальні машини, а якщо замовлень нема — возиш покинуті авто. Платимо за кожну доставку.",
-                en: "We handle vehicle towing. You hop in the tow truck, get orders and deliver cars to impound lots. If police issue an evacuation order — you pick up real vehicles, otherwise you tow abandoned cars. We pay per delivery.",
-                de: 'Wir kümmern uns um das Abschleppen von Fahrzeugen. Du steigst in den Abschleppwagen, bekommst Aufträge und lieferst Autos zum Abschleppplatz. Wenn die Polizei einen Befehl ausstellt — holst du echte Fahrzeuge ab, sonst schleppst du verlassene Autos ab. Bezahlung pro Lieferung.',
-                pl: 'Zajmujemy się holowaniem pojazdów. Wsiadasz do lawety, dostajesz zlecenia i dostarczasz auta na parking policyjny. Jeśli policja wystawi nakaz — zabierasz prawdziwe pojazdy, a jeśli zleceń nie ma — wozisz porzucone auta. Płacimy za każdą dostawę.',
+                ru: 'Мы занимаемся эвакуацией автомобилей. Ты садишься в эвакуатор, получаешь заказы и отвозишь машины на штрафстоянку. Если полиция выпишет ордер - ты забираешь реальные машины, а если заказов нет - возишь брошенные авто. Платим за каждую доставку.',
+                ua: "Ми займаємося евакуацією автомобілів. Ти сідаєш в евакуатор, отримуєш замовлення і відвозиш машини на штрафмайданчик. Якщо поліція випише ордер - ти забираєш реальні машини, а якщо замовлень нема - возиш покинуті авто. Платимо за кожну доставку.",
+                en: "We handle vehicle towing. You hop in the tow truck, get orders and deliver cars to impound lots. If police issue an evacuation order - you pick up real vehicles, otherwise you tow abandoned cars. We pay per delivery.",
+                de: 'Wir kümmern uns um das Abschleppen von Fahrzeugen. Du steigst in den Abschleppwagen, bekommst Aufträge und lieferst Autos zum Abschleppplatz. Wenn die Polizei einen Befehl ausstellt - holst du echte Fahrzeuge ab, sonst schleppst du verlassene Autos ab. Bezahlung pro Lieferung.',
+                pl: 'Zajmujemy się holowaniem pojazdów. Wsiadasz do lawety, dostajesz zlecenia i dostarczasz auta na parking policyjny. Jeśli policja wystawi nakaz - zabierasz prawdziwe pojazdy, a jeśli zleceń nie ma - wozisz porzucone auta. Płacimy za każdą dostawę.',
             },
             yes: {
                 ru: 'Давай, устраиваюсь!',

@@ -65,9 +65,9 @@ export default {
         },
         desc: {
             ru: 'Категорически запрещается движение с открытыми дверьми - это угрожает жизни и здоровью пассажиров.',
-            ua: 'Категорично забороняється рух з відкритими дверима - це загрожує життю та здоров’ю пасажирів.',
+            ua: "Категорично забороняється рух з відкритими дверима - це загрожує життю та здоров'ю пасажирів.",
             en: 'Driving with open doors is strictly prohibited - it threatens the life and health of passengers.',
-            de: 'Das Fahren mit offenen Türen ist strengstens verboten – dies gefährdet das Leben und die Gesundheit der Fahrgäste.',
+            de: 'Das Fahren mit offenen Türen ist strengstens verboten - dies gefährdet das Leben und die Gesundheit der Fahrgäste.',
             pl: 'Kategorycznie zabrania się jazdy z otwartymi drzwiami - zagraża to życiu i zdrowiu pasażerów.',
         },
         question: {
@@ -120,7 +120,7 @@ export default {
         },
         desc: {
             ru: 'Прежде чем начать движение с остановки, водитель должен убедиться, что все пассажиры зашли и двери закрыты. Включение поворотника - обязательно.',
-            ua: 'Перш ніж почати рух із зупинки, водій повинен переконатися, що всі пасажири зайшли і двері зачинені. Увімкнення покажчика повороту - обов’язкове.',
+            ua: "Перш ніж почати рух із зупинки, водій повинен переконатися, що всі пасажири зайшли і двері зачинені. Увімкнення покажчика повороту - обов'язкове.",
             en: 'Before starting to move from a stop, the driver must ensure that all passengers have boarded and the doors are closed. Turning on the turn signal is mandatory.',
             de: 'Bevor der Fahrer von einer Haltestelle abfährt, muss er sicherstellen, dass alle Fahrgäste eingestiegen sind und die Türen geschlossen sind. Das Einschalten des Blinkers ist obligatorisch.',
             pl: 'Przed ruszeniem z przystanku, kierowca musi upewnić się, że wszyscy pasażerowie wsiedli i drzwi są zamknięte. Włączenie kierunkowskazu jest obowiązkowe.',
@@ -144,8 +144,8 @@ export default {
                 ru: 'Просто тронуться - все же видят, что автобус едет',
                 ua: 'Просто рушити - всі ж бачать, що автобус їде',
                 en: 'Just start moving - everyone sees the bus is moving anyway',
-                de: 'Einfach losfahren – jeder sieht ja, dass der Bus fährt',
-                pl: 'Po prostu ruszyć – przecież wszyscy widzą, że autobus jedzie',
+                de: 'Einfach losfahren - jeder sieht ja, dass der Bus fährt',
+                pl: 'Po prostu ruszyć - przecież wszyscy widzą, że autobus jedzie',
             },
             C: {
                 ru: 'Закрыть двери, убедиться в безопасности и включить поворотник',
@@ -176,9 +176,9 @@ export default {
         desc: {
             ru: 'Автобус не имеет права заезжать на тротуар при остановке - только в экстренных ситуациях и при отсутствии пешеходов.',
             ua: 'Автобус не має права заїжджати на тротуар при зупинці - тільки в екстрених ситуаціях та за відсутності пішоходів.',
-            en: 'A bus is not allowed to drive onto the pavement when stopping – only in emergency situations and in the absence of pedestrians.',
-            de: 'Ein Bus darf beim Anhalten nicht auf den Gehweg fahren – nur in Notfällen und bei Abwesenheit von Fußgängern.',
-            pl: 'Autobus nie ma prawa wjeżdżać na chodnik podczas postoju – tylko w sytuacjach awaryjnych i pod nieobecność pieszych.',
+            en: 'A bus is not allowed to drive onto the pavement when stopping - only in emergency situations and in the absence of pedestrians.',
+            de: 'Ein Bus darf beim Anhalten nicht auf den Gehweg fahren - nur in Notfällen und bei Abwesenheit von Fußgängern.',
+            pl: 'Autobus nie ma prawa wjeżdżać na chodnik podczas postoju - tylko w sytuacjach awaryjnych i pod nieobecność pieszych.',
         },
         question: {
             ru: 'Можно ли автобусу заезжать на тротуар для посадки пассажиров?',

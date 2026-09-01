@@ -1,11 +1,11 @@
 export const beards = {
-    shavedStubble: {
-        ua: 'Брита щетина',
-        en: 'Shaved Stubble',
-        ru: 'Бритая щетина',
+    cleanShaven: {
+        ua: 'Без бороди',
+        en: 'Clean Shaven',
+        ru: 'Без бороды',
         de: 'Glattrasiert',
-        pl: 'Gładko ogolone zarosty',
-       zh:'剃须茬',
+        pl: 'Gładko ogolony',
+        zh: '无胡须',
     },
     
     lightStubble: {
@@ -243,10 +243,28 @@ export const beards = {
     
     hampstead: {
         ua: 'Хемпстед',
-        en: 'Hampstead',
-        ru: 'Хампстед',
+        en: 'The Hampstead',
+        ru: 'Хэмпстед',
         de: 'Hampstead',
         pl: 'Hampstead',
         zh:'汉普斯特德',
+    },
+
+    ambrose: {
+        ua: 'Амброуз',
+        en: 'The Ambrose',
+        ru: 'Амброуз',
+        de: 'Ambrose',
+        pl: 'Ambrose',
+        zh: '安布罗斯',
+    },
+
+    lincolnCurtain: {
+        ua: 'Борода Лінкольна',
+        en: 'Lincoln Curtain',
+        ru: 'Борода Линкольна',
+        de: 'Lincoln-Bart',
+        pl: 'Broda Lincolna',
+        zh: '林肯胡',
     },
 };

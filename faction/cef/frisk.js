@@ -1,4 +1,18 @@
 export default {
+    invalidTarget: {
+        ru: 'Обыскать можно только игрока или транспорт',
+        ua: 'Обшукати можна лише гравця або транспорт',
+        en: 'You can only search a player or a vehicle',
+        de: 'Du kannst nur Spieler oder Fahrzeuge durchsuchen',
+        pl: 'Możesz przeszukać tylko gracza lub pojazd',
+    },
+    tooFar: {
+        ru: 'Слишком далеко для обыска',
+        ua: 'Занадто далеко для обшуку',
+        en: 'Too far away to search',
+        de: 'Zu weit entfernt zum Durchsuchen',
+        pl: 'Za daleko, aby przeszukać',
+    },
     search: {
         ru: 'Обыск',
         ua: 'Обшук',

@@ -46,6 +46,34 @@ export default {
         de: '{{firstName}} hat die Kabelbinder von den Händen von {{targetName}} entfernt',
         pl: '{{firstName}} zdjął(ęła) opaski kablowe z rąk {{targetName}}',
     },
+    useHeadBag: {
+        ru: '{{firstName}} надел(а) мешок на голову {{targetName}}',
+        ua: '{{firstName}} надів(ла) мішок на голову {{targetName}}',
+        en: "{{firstName}} put a bag over {{targetName}}'s head",
+        de: '{{firstName}} hat {{targetName}} einen Sack über den Kopf gezogen',
+        pl: '{{firstName}} założył(a) worek na głowę {{targetName}}',
+    },
+    removeHeadBag: {
+        ru: '{{firstName}} снял(а) мешок с головы {{targetName}}',
+        ua: '{{firstName}} зняв(ла) мішок з голови {{targetName}}',
+        en: "{{firstName}} removed the bag from {{targetName}}'s head",
+        de: '{{firstName}} hat {{targetName}} den Sack vom Kopf genommen',
+        pl: '{{firstName}} zdjął(ęła) worek z głowy {{targetName}}',
+    },
+    bagPutOnYourHead: {
+        ru: 'На вас надели мешок на голову',
+        ua: 'На вас надягли мішок на голову',
+        en: 'A bag has been put over your head',
+        de: 'Dir wurde ein Sack über den Kopf gezogen',
+        pl: 'Założono ci worek na głowę',
+    },
+    bagRemovedFromYourHead: {
+        ru: 'С вас сняли мешок',
+        ua: 'З вас зняли мішок',
+        en: 'The bag has been removed from your head',
+        de: 'Der Sack wurde dir vom Kopf genommen',
+        pl: 'Zdjęto ci worek z głowy',
+    },
     //
     startedLead: {
         ru: '{{firstName}} начал(а) вести за собой {{targetName}}',
@@ -329,6 +357,38 @@ export default {
         de: 'Alle deine Krankheiten wurden geheilt',
         pl: 'Wszystkie twoje choroby zostały wyleczone',
     },
+    playerAddictionLevel: {
+        ru: 'Наркотическая зависимость гражданина: {{value}}/100',
+        ua: 'Наркотична залежність громадянина: {{value}}/100',
+        en: "Citizen's drug addiction: {{value}}/100",
+        de: 'Drogensucht des Bürgers: {{value}}/100',
+        pl: 'Uzależnienie obywatela od narkotyków: {{value}}/100',
+    },
+
+    playerHasNoAddiction: {
+        ru: 'У гражданина нет наркотической зависимости',
+        ua: 'У громадянина немає наркотичної залежності',
+        en: 'The citizen has no drug addiction',
+        de: 'Der Bürger hat keine Drogensucht',
+        pl: 'Obywatel nie jest uzależniony od narkotyków',
+    },
+
+    youDetoxedPlayer: {
+        ru: 'Вы сняли наркотическую зависимость у {{name}}',
+        ua: 'Ви зняли наркотичну залежність у {{name}}',
+        en: 'You treated the drug addiction of {{name}}',
+        de: 'Du hast die Drogensucht von {{name}} behandelt',
+        pl: 'Wyleczyłeś uzależnienie od narkotyków u {{name}}',
+    },
+
+    youWereDetoxed: {
+        ru: 'Вам сняли наркотическую зависимость',
+        ua: 'Вам зняли наркотичну залежність',
+        en: 'Your drug addiction has been treated',
+        de: 'Deine Drogensucht wurde behandelt',
+        pl: 'Twoje uzależnienie od narkotyków zostało wyleczone',
+    },
+
     youHealedPlayer: {
         ru: 'Вы оказали медицинскую помощь {{name}}, пациент в порядке',
         ua: 'Ви надали медичну допомогу {{name}}, пацієнт у порядку',
@@ -339,9 +399,9 @@ export default {
     youWereHealed: {
         ru: 'Доктор оказал вам медицинскую помощь, вы снова в строю',
         ua: 'Лікар надав вам медичну допомогу, ви знову в строю',
-        en: 'The doctor patched you up — you’re back on your feet',
-        de: 'Der Arzt hat dich versorgt — du bist wieder auf den Beinen',
-        pl: 'Lekarz cię opatrzył — znów stoisz na nogach',
+        en: 'The doctor patched you up - you’re back on your feet',
+        de: 'Der Arzt hat dich versorgt - du bist wieder auf den Beinen',
+        pl: 'Lekarz cię opatrzył - znów stoisz na nogach',
     },
     checkPlayerForDiseasesAction: {
         ru: 'Осматривает {{name}} на наличие болезней',
@@ -389,6 +449,13 @@ export default {
             de: 'Du hast keine Kabelbinder',
             pl: 'Nie masz opasek kablowych',
         },
+        headBag: {
+            ru: 'У вас нет мешка',
+            ua: 'У вас немає мішка',
+            en: "You don't have a bag",
+            de: 'Du hast keinen Sack',
+            pl: 'Nie masz worka',
+        },
     },
 
     //
@@ -407,6 +474,14 @@ export default {
         en: "You don't have a defibrillator",
         de: 'Du hast keinen Defibrillator',
         pl: 'Nie masz defibrylatora',
+    },
+
+    noFreeSeats: {
+        ru: 'В машине нет свободных мест',
+        ua: 'У машині немає вільних місць',
+        en: 'There are no free seats in the vehicle',
+        de: 'Im Fahrzeug sind keine freien Plätze',
+        pl: 'W pojeździe nie ma wolnych miejsc',
     },
 
     noFollowedTarget: {
@@ -443,14 +518,14 @@ export default {
     },
     releaseTooFarFromMarker: {
         ru: 'Вы должны находиться у маркера ареста, чтобы освободить заключенного',
-        ua: 'Ви повинні знаходитися біля маркера арешту, щоб звільнити в`язня',
+        ua: "Ви повинні знаходитися біля маркера арешту, щоб звільнити в'язня",
         en: 'You must be at the arrest marker to release a prisoner',
         de: 'Du musst dich am Verhaftungsmarker befinden, um einen Häftling zu entlassen',
         pl: 'Musisz znajdować się przy znaczniku aresztowania, aby zwolnić więźnia',
     },
     releasePrisonerNotFound: {
         ru: 'Заключенный не найден или уже освобожден',
-        ua: 'В`язня не знайдено або вже звільнено',
+        ua: "В'язня не знайдено або вже звільнено",
         en: 'Prisoner not found or already released',
         de: 'Häftling nicht gefunden oder bereits entlassen',
         pl: 'Więzień nie został znaleziony lub został już zwolniony',
@@ -461,5 +536,22 @@ export default {
         en: 'You released {{name}}',
         de: 'Du hast {{name}} entlassen',
         pl: 'Zwolniłeś {{name}}',
+    },
+
+    checkedOwnBadge: {
+        ru: '{{firstName}} достал(а) своё удостоверение и осмотрел(а) его',
+        ua: '{{firstName}} дістав(ла) своє посвідчення і оглянув(ла) його',
+        en: '{{firstName}} took out their ID and looked it over',
+        de: '{{firstName}} holte den eigenen Ausweis hervor und sah ihn sich an',
+        pl: '{{firstName}} wyjął(ęła) swój identyfikator i przyjrzał(a) mu się',
+        zh: '{{firstName}}拿出自己的证件查看了一下',
+    },
+    showedBadge: {
+        ru: '{{firstName}} показал(а) своё удостоверение {{targetName}}',
+        ua: '{{firstName}} показав(ла) своє посвідчення {{targetName}}',
+        en: '{{firstName}} showed their ID to {{targetName}}',
+        de: '{{firstName}} zeigte {{targetName}} den eigenen Ausweis',
+        pl: '{{firstName}} pokazał(a) swój identyfikator {{targetName}}',
+        zh: '{{firstName}}向{{targetName}}出示了自己的证件',
     },
 };

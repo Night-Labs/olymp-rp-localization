@@ -230,7 +230,7 @@ export default {
         },
         desc: {
             ru: 'Ремень безопасности важнейшая часть начала движения на любом Т/C, он снижает урон от столкновений а так же снижает вероятность вылета через лобовое стекло при столкновении, для того чтобы пристегнуть ремень безопасности используйте клавишу J',
-            ua: 'Пасок безпеки – найважливіша частина початку руху на будь-якому ТЗ, він знижує шкоду від зіткнень, а також зменшує ймовірність вильоту через лобове скло при зіткненні. Щоб пристебнути пасок безпеки, використовуйте клавішу J.',
+            ua: 'Пасок безпеки - найважливіша частина початку руху на будь-якому ТЗ, він знижує шкоду від зіткнень, а також зменшує ймовірність вильоту через лобове скло при зіткненні. Щоб пристебнути пасок безпеки, використовуйте клавішу J.',
             en: 'The seat belt is the most important part of starting to drive any vehicle. It reduces damage from collisions and also decreases the likelihood of being ejected through the windshield during a collision. To fasten the seat belt, use the J key.',
             de: 'Der Sicherheitsgurt ist der wichtigste Teil vor Fahrtantritt in jedem Fahrzeug. Er reduziert Schäden bei Kollisionen und verringert auch die Wahrscheinlichkeit, bei einem Aufprall durch die Windschutzscheibe geschleudert zu werden. Um den Sicherheitsgurt anzulegen, verwenden Sie die Taste J.',
             pl: 'Pas bezpieczeństwa jest najważniejszym elementem przed rozpoczęciem jazdy dowolnym pojazdem. Zmniejsza on obrażenia w wyniku kolizji, a także zmniejsza prawdopodobieństwo wypadnięcia przez przednią szybę podczas zderzenia. Aby zapiąć pas bezpieczeństwa, użyj klawisza J.',
@@ -507,8 +507,8 @@ export default {
             ru: 'Если вдруг ваше личное Т/С будет каким-либо образом уничтожено, не волнуйтесь - вы всегда сможете восстановить его через Телефон > Транспорт за символическую плату. После восстановления на нём не будет ни царапинки.',
             ua: 'Якщо раптом ваш особистий Т/З буде якимось чином знищено, не хвилюйтесь - ви завжди зможете відновити його через Телефон > Транспорт за символічну плату. Після відновлення на ньому не буде жодної подряпини.',
             en: "If your personal vehicle is destroyed in any way, don't worry - you can always restore it via Phone > Transport for a nominal fee. After restoration, it will be without a scratch.",
-            de: 'Sollte Ihr persönliches Fahrzeug auf irgendeine Weise zerstört werden, machen Sie sich keine Sorgen – Sie können es jederzeit über Telefon > Transport gegen eine geringe Gebühr wiederherstellen. Nach der Wiederherstellung wird es keinen einzigen Kratzer haben.',
-            pl: 'Jeśli Twój osobisty pojazd zostanie w jakikolwiek sposób zniszczony, nie martw się – zawsze możesz go odzyskać przez Telefon > Transport za symboliczną opłatą. Po odzyskaniu nie będzie na nim ani jednej rysy.',
+            de: 'Sollte Ihr persönliches Fahrzeug auf irgendeine Weise zerstört werden, machen Sie sich keine Sorgen - Sie können es jederzeit über Telefon > Transport gegen eine geringe Gebühr wiederherstellen. Nach der Wiederherstellung wird es keinen einzigen Kratzer haben.',
+            pl: 'Jeśli Twój osobisty pojazd zostanie w jakikolwiek sposób zniszczony, nie martw się - zawsze możesz go odzyskać przez Telefon > Transport za symboliczną opłatą. Po odzyskaniu nie będzie na nim ani jednej rysy.',
         },
         question: {
             ru: 'Что будет если личное Т/С будет уничтожено ?',

@@ -37,6 +37,13 @@ export default {
         de: 'Türen schließen/öffnen',
         pl: 'Zamykać/Otwierać drzwi',
     },
+    controlMilitaryGates: {
+        ru: 'Управлять воротами КПП',
+        ua: 'Керувати воротами КПП',
+        en: 'Operate checkpoint gates',
+        de: 'Kontrollpunkt-Tore bedienen',
+        pl: 'Sterować bramami punktu kontrolnego',
+    },
     warehouse: {
         ru: 'Доступ к складу',
         ua: 'Доступ до складу',
@@ -164,13 +171,13 @@ export default {
         pl: 'Rozpocząć wojnę o terytorium',
         zh: '在领土上发动战争',
     },
-    goToCaptureWar: {
-        ru: 'Участвовать в войне за территорию',
-        ua: 'Брати участь у війні за територію',
-        en: 'Participate in the territory war',
-        de: 'Am Territoriumskrieg teilnehmen',
-        pl: 'Uczestniczyć w wojnie o terytorium',
-        zh: '在“参与领土战争”中',
+    editWarRoster: {
+        ru: 'Отбирать состав на войну',
+        ua: 'Відбирати склад на війну',
+        en: 'Pick the war roster',
+        de: 'Kriegsaufstellung wählen',
+        pl: 'Wybierać skład na wojnę',
+        zh: '挑选参战名单',
     },
     takeLicense: {
         ru: 'Забирать лицензии',
@@ -202,6 +209,13 @@ export default {
         de: 'Zugriff auf die Datenbank',
         pl: 'Dostęp do bazy danych',
     },
+    armyTicket: {
+        ru: 'Выдавать военный билет',
+        ua: 'Видавати військовий квиток',
+        en: 'Issue military ID',
+        de: 'Wehrpass ausstellen',
+        pl: 'Wydawać książeczkę wojskową',
+    },
     giveWarns: {
         ru: 'Выдавать выговоры',
         ua: 'Видавати догани',
@@ -226,6 +240,13 @@ export default {
         en: 'Moderate ads',
         de: 'Anzeigen moderieren',
         pl: 'Moderuj ogłoszenia',
+    },
+    moderateAdsOffDuty: {
+        ru: 'Модерировать объявления вне рабочей смены',
+        ua: 'Модерувати оголошення поза робочою зміною',
+        en: 'Moderate ads while off duty',
+        de: 'Anzeigen außerhalb des Dienstes moderieren',
+        pl: 'Moderować ogłoszenia poza zmianą',
     },
     controlLiveStreams: {
         ru: 'Доступ к управлению прямым эфиром',
@@ -268,5 +289,12 @@ export default {
         en: 'Give bonuses',
         de: 'Boni vergeben',
         pl: 'Przyznawać premie',
+    },
+    wardrobe: {
+        ru: 'Настраивать доступ к униформе',
+        ua: 'Налаштовувати доступ до уніформи',
+        en: 'Manage uniform access',
+        de: 'Uniformzugriff verwalten',
+        pl: 'Zarządzać dostępem do mundurów',
     },
 };

@@ -39,12 +39,36 @@ const inventory = {
         pl: 'Przedmiot otrzymany',
     },
 
+    weaponBroken: {
+        ru: 'Ваше оружие сломалось от износа',
+        ua: 'Ваша зброя зламалася від зносу',
+        en: 'Your weapon broke from wear',
+        de: 'Deine Waffe ist durch Verschleiß zerbrochen',
+        pl: 'Twoja broń zepsuła się od zużycia',
+    },
+
     notEnoughSpace: {
         ru: 'Недостаточно места',
         ua: 'Недостатньо місця',
         en: 'Not enough space',
         de: 'Nicht genug Platz',
         pl: 'Brak miejsca',
+    },
+
+    itemNotAccepted: {
+        ru: 'Это сюда не кладут',
+        ua: 'Це сюди не кладуть',
+        en: 'This container does not take that',
+        de: 'Dieser Behälter nimmt das nicht',
+        pl: 'Tego się tu nie wkłada',
+    },
+
+    slotsNotEqual: {
+        ru: 'Инвентарь изменился, откройте его заново',
+        ua: 'Інвентар змінився, відкрийте його заново',
+        en: 'Your inventory has changed, open it again',
+        de: 'Dein Inventar hat sich geändert, öffne es erneut',
+        pl: 'Twój ekwipunek się zmienił, otwórz go ponownie',
     },
 
     clothesFailedHeader: {
@@ -61,6 +85,14 @@ const inventory = {
         en: 'This clothing is not intended for the gender of your character',
         de: 'Diese Kleidung ist nicht für das Geschlecht deines Charakters vorgesehen',
         pl: 'Ta odzież nie jest przeznaczona dla płci twojej postaci',
+    },
+
+    backpackIntoItself: {
+        ru: 'Ты дурачёк?',
+        ua: 'Ти дурник?',
+        en: 'Are you dumb?',
+        de: 'Bist du dumm?',
+        pl: 'Głupi jesteś?',
     },
 
     bind: {
