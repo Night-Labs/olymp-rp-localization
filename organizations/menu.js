@@ -208,11 +208,11 @@ export const menu = {
             pl: 'Wszystkie kierunki',
         },
         untilReset: {
-            ru: 'До следующего контракта',
-            ua: 'До наступного контракту',
-            en: 'Until next contract',
-            de: 'Bis zum naechsten Vertrag',
-            pl: 'Do nastepnego kontraktu',
+            ru: 'До обновления набора',
+            ua: 'До оновлення набору',
+            en: 'Until the roster is rolled',
+            de: 'Bis zur neuen Vertragsliste',
+            pl: 'Do odswiezenia zestawu',
         },
         insufficient: {
             ru: 'Недостаточно средств на балансе',
@@ -355,20 +355,6 @@ export const menu = {
             en: 'Family',
             de: 'Familie',
             pl: 'Rodzinny',
-        },
-        lanePersonal: {
-            ru: 'Личный контракт',
-            ua: 'Особистий контракт',
-            en: 'Personal contract',
-            de: 'Persoenlicher Vertrag',
-            pl: 'Kontrakt osobisty',
-        },
-        laneFamily: {
-            ru: 'Контракт семьи',
-            ua: 'Контракт сім\'ї',
-            en: 'Family contract',
-            de: 'Familienvertrag',
-            pl: 'Kontrakt rodziny',
         },
         abandonBare: {
             ru: 'Отказаться',
@@ -524,6 +510,13 @@ export const menu = {
                 en: 'Not enough members online',
                 de: 'Zu wenige Mitglieder online',
                 pl: 'Za malo czlonkow online',
+            },
+            notOffered: {
+                ru: 'Нет в наборе',
+                ua: 'Немає в наборі',
+                en: 'Not on the roster',
+                de: 'Nicht auf der Liste',
+                pl: 'Poza zestawem',
             },
             notEnoughOrgMembers: {
                 ru: 'Мало людей в организации',

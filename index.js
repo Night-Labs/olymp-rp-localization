@@ -78,6 +78,7 @@ import prism from './prism';
 import diving from './diving';
 import garbage from './garbage';
 import airCargo from './airCargo';
+import cashCollector from './cashCollector';
 import drivingSchool from './drivingSchool';
 import drugs from './drugs';
 import modifiers from './modifiers';
@@ -197,6 +198,7 @@ export default {
     diving,
     garbage,
     airCargo,
+    cashCollector,
     prism,
     drivingSchool,
     drugs,

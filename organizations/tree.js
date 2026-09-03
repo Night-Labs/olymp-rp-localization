@@ -42,6 +42,7 @@ const STATIC_NODES = {
         pl: 'Nieoficjalne dorywcze',
     },
     robBusiness: { ru: 'Ограбление бизнеса', ua: 'Пограбування бізнесу', en: 'Business robbery', de: 'Geschaeftsueberfaelle', pl: 'Napady na biznesy' },
+    robCashVan: { ru: 'Ограбление инкассации', ua: 'Пограбування інкасації', en: 'Cash van robbery', de: 'Geldtransporter-Ueberfall', pl: 'Napad na konwoj' },
 };
 
 // Only purchasable nodes need a hand-written description: category labels are not clickable
@@ -67,6 +68,13 @@ const STATIC_DESCRIPTIONS = {
         en: 'Members can crack the tills of player-owned businesses.',
         de: 'Mitglieder koennen die Kassen von Spieler-Geschaeften knacken.',
         pl: 'Czlonkowie moga rozbijac kasy biznesow graczy.',
+    },
+    robCashVan: {
+        ru: 'Участники смогут останавливать броневики Gruppe 6 и забирать груз. Добыча зависит от того, сколько денег осталось в фургоне.',
+        ua: 'Учасники зможуть зупиняти броньовики Gruppe 6 і забирати вантаж. Здобич залежить від того, скільки грошей лишилося у фургоні.',
+        en: 'Members can stop Gruppe 6 armoured vans and take the load. The haul depends on how much money is still in the van.',
+        de: 'Mitglieder koennen Panzerwagen von Gruppe 6 stoppen und die Ladung nehmen. Die Beute haengt davon ab, wie viel Geld noch im Wagen ist.',
+        pl: 'Czlonkowie moga zatrzymywac furgony Gruppe 6 i zabierac ladunek. Lup zalezy od tego, ile pieniedzy zostalo w furgonie.',
     },
 };
 

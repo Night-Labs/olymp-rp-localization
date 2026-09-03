@@ -214,6 +214,22 @@ export const server = {
         pl: 'Aby rozpocząć trening z hantlami, naciśnij',
         zh: '要开始哑铃训练，请按',
     },
+    cashCollectorLoad: {
+        ru: 'Чтобы загрузить броневик деньгами',
+        ua: 'Щоб завантажити броньовик грошима',
+        en: 'To load the van with cash',
+        de: 'Um den Panzerwagen mit Geld zu beladen',
+        pl: 'Aby zaladowac furgon gotowka',
+        zh: '要给运钞车装载现金，请按',
+    },
+    cashCollectorAtm: {
+        ru: 'Чтобы загрузить банкомат',
+        ua: 'Щоб завантажити банкомат',
+        en: 'To refill the ATM',
+        de: 'Um den Geldautomaten zu befüllen',
+        pl: 'Aby napelnic bankomat',
+        zh: '要给自动取款机装钞，请按',
+    },
     warehouseLoading: {
         ru: 'Чтобы получить доступ к складу',
         ua: 'Щоб отримати доступ до складу',

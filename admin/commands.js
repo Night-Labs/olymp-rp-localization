@@ -2274,6 +2274,13 @@ export default {
         de: 'Alle Vertrags-Abklingzeiten der Organisation löschen, einschließlich der persönlichen ihrer Mitglieder.',
         pl: 'Wyczyść wszystkie cooldowny kontraktów organizacji, łącznie z osobistymi cooldownami członków.',
     },
+    org_contract_roll: {
+        ru: 'Перебросить набор контрактов организации, не дожидаясь рестарта.',
+        ua: 'Перекинути набір контрактів організації, не чекаючи на рестарт.',
+        en: 'Roll the organization a new contract roster without waiting for the restart.',
+        de: 'Der Organisation eine neue Vertragsliste auswuerfeln, ohne auf den Neustart zu warten.',
+        pl: 'Wylosuj organizacji nowy zestaw kontraktow bez czekania na restart.',
+    },
     org_rep: {
         ru: 'Задать репутацию организации по шкале (legal = доверие, crime = авторитет) точным значением, минуя дневной лимит.',
         ua: 'Задати репутацію організації за шкалою (legal = довіра, crime = авторитет) точним значенням, оминаючи денний ліміт.',

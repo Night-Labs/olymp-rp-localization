@@ -147,6 +147,13 @@ export default {
             de: 'Abschleppfahrer',
             pl: 'Operator lawety',
         },
+        cashCollector: {
+            ru: 'Инкассатор Gruppe 6',
+            ua: 'Інкасатор Gruppe 6',
+            en: 'Gruppe 6 Collector',
+            de: 'Gruppe 6 Geldbote',
+            pl: 'Konwojent Gruppe 6',
+        },
     },
     youAlreadyWorking: {
         ru: 'Вы уже работаете на другой работе, для начала увольтесь с неё',

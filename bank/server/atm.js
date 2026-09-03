@@ -15,6 +15,14 @@ export const atm = {
         pl: 'Założyłeś konto bankomatu',
         zh:'你买了一台自动取款机',
     },
+    underService: {
+        ru: 'Банкомат обслуживает инкассатор, дождитесь окончания',
+        ua: 'Банкомат обслуговує інкасатор, дочекайтеся завершення',
+        en: 'A cash collector is servicing this ATM, wait until they are done',
+        de: 'Ein Werttransporteur wartet diesen ATM, warte bis er fertig ist',
+        pl: 'Konwojent obsługuje ten bankomat, poczekaj aż skończy',
+        zh: '运钞员正在维护这台自动取款机，请稍候',
+    },
     notOwner: {
         ru: 'Вы не являетесь владельцем этого банкомата',
         ua: 'Ви не є власником цього банкомату',

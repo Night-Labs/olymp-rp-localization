@@ -149,6 +149,14 @@ export const vehicle = {
         pl: 'Zaladuj skrzynie kontraktu',
     },
 
+    'cashCollector-rob': {
+        ru: 'Вскрыть броневик',
+        ua: 'Розкрити броньовик',
+        en: 'Crack the armoured van',
+        de: 'Panzerwagen aufbrechen',
+        pl: 'Rozbic furgon',
+    },
+
     'trunk-open': {
         ru: 'Открыть багажник для остальных',
         ua: 'Відкрити багажник для інших',

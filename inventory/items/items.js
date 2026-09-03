@@ -1209,6 +1209,23 @@ export const items = {
         },
     },
 
+    cuttingTorch: {
+        name: {
+            ru: 'Газовый резак',
+            ua: 'Газовий різак',
+            en: 'Cutting torch',
+            de: 'Schneidbrenner',
+            pl: 'Palnik do cięcia',
+        },
+        desc: {
+            ru: 'Портативный резак с баллоном. Режет замки грузовых контейнеров, хватает на три вскрытия.',
+            ua: 'Портативний різак з балоном. Ріже замки вантажних контейнерів, вистачає на три розкриття.',
+            en: 'A portable torch with its own gas bottle. It cuts freight container locks and lasts three openings.',
+            de: 'Ein tragbarer Brenner mit eigener Gasflasche. Er schneidet Schlösser von Frachtcontainern auf und reicht für drei Öffnungen.',
+            pl: 'Przenośny palnik z własną butlą. Przecina zamki kontenerów towarowych, starcza na trzy otwarcia.',
+        },
+    },
+
     electronicsBox: {
         name: {
             ru: 'Коробка с электроникой',

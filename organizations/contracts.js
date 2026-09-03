@@ -13,11 +13,11 @@ export const contracts = {
         },
     },
     usage: {
-        ru: 'Использование: /contract <list|take|take_family|status|abandon> [id]',
-        ua: 'Використання: /contract <list|take|take_family|status|abandon> [id]',
-        en: 'Usage: /contract <list|take|take_family|status|abandon> [id]',
-        de: 'Verwendung: /contract <list|take|take_family|status|abandon> [id]',
-        pl: 'Użycie: /contract <list|take|take_family|status|abandon> [id]',
+        ru: 'Использование: /contract <list|take|status|abandon> [id]',
+        ua: 'Використання: /contract <list|take|status|abandon> [id]',
+        en: 'Usage: /contract <list|take|status|abandon> [id]',
+        de: 'Verwendung: /contract <list|take|status|abandon> [id]',
+        pl: 'Użycie: /contract <list|take|status|abandon> [id]',
     },
     tracks: {
         legal: {
@@ -140,11 +140,11 @@ export const contracts = {
             pl: 'Dostępne kontrakty (reputacja: zaufanie {{legal}}, autorytet {{crime}}):',
         },
         footer: {
-            ru: 'Возьмите: /contract take <id> или /contract take_family <id>',
-            ua: 'Візьміть: /contract take <id> або /contract take_family <id>',
-            en: 'Take: /contract take <id> or /contract take_family <id>',
-            de: 'Annehmen: /contract take <id> oder /contract take_family <id>',
-            pl: 'Weź: /contract take <id> lub /contract take_family <id>',
+            ru: 'Возьмите: /contract take <id>',
+            ua: 'Візьміть: /contract take <id>',
+            en: 'Take: /contract take <id>',
+            de: 'Annehmen: /contract take <id>',
+            pl: 'Weź: /contract take <id>',
         },
         entry: {
             ru: '~g~[{{id}}] {{name}} - {{track}}{{personalLine}}{{familyLine}}',
@@ -1098,20 +1098,6 @@ export const contracts = {
             de: 'Vertrags-ID angeben: /contract take <id>',
             pl: 'Podaj id kontraktu: /contract take <id>',
         },
-        notSupportedAsPersonal: {
-            ru: 'Этот контракт можно брать только как семейный.',
-            ua: 'Цей контракт можна брати тільки як сімейний.',
-            en: 'This contract is family-only.',
-            de: 'Dieser Vertrag ist nur für Familien.',
-            pl: 'Ten kontrakt jest tylko rodzinny.',
-        },
-        notSupportedAsFamily: {
-            ru: 'Этот контракт можно брать только лично.',
-            ua: 'Цей контракт можна брати тільки особисто.',
-            en: 'This contract is personal-only.',
-            de: 'Dieser Vertrag ist nur persönlich.',
-            pl: 'Ten kontrakt jest tylko osobisty.',
-        },
         noPermissionPersonal: {
             ru: 'Ваш ранг не имеет права брать личные контракты.',
             ua: 'Ваш ранг не має права брати особисті контракти.',
@@ -1265,6 +1251,13 @@ export const contracts = {
             en: 'The organization has not opened the side job this contract rides.',
             de: 'Die Organisation hat den Nebenjob, auf dem dieser Vertrag läuft, nicht freigeschaltet.',
             pl: 'Organizacja nie otworzyła dorywczej pracy, na której opiera się ten kontrakt.',
+        },
+        notOffered: {
+            ru: 'Этого контракта нет в текущем наборе - набор обновится после рестарта.',
+            ua: 'Цього контракту немає в поточному наборі - набір оновиться після рестарту.',
+            en: 'This contract is not on the current roster - the roster is rolled again after the restart.',
+            de: 'Dieser Vertrag steht nicht auf der aktuellen Liste - die Liste wird nach dem Neustart neu gewuerfelt.',
+            pl: 'Tego kontraktu nie ma w aktualnym zestawie - zestaw odswiezy sie po restarcie.',
         },
         onCooldown: {
             ru: 'Контракт на перезарядке - он вернётся через какое-то время после сдачи.',

@@ -94,6 +94,48 @@ const inventory = {
         pl: 'Ta odzież nie jest przeznaczona dla płci twojej postaci',
     },
 
+    // Служебная выдача: предмет выдан на смену и остаётся у игрока в руках и на теле,
+    // но не является его имуществом (shared/systems/inventory/serviceIssue).
+    serviceIssue: {
+        blocked: {
+            ru: 'Служебное имущество нельзя выбросить, передать или убрать в хранилище',
+            ua: 'Службове майно не можна викинути, передати або покласти у сховище',
+            en: 'Issued gear cannot be dropped, handed over or put into storage',
+            de: 'Dienstausrüstung kann nicht fallen gelassen, übergeben oder eingelagert werden',
+            pl: 'Sprzetu sluzbowego nie mozna wyrzucic, przekazac ani schowac do magazynu',
+        },
+        stamp: {
+            ru: 'Служебное',
+            ua: 'Службове',
+            en: 'Issued',
+            de: 'Dienstlich',
+            pl: 'Sluzbowe',
+        },
+        note: {
+            ru: 'Служебное имущество. Выдано на смену: его нельзя выбросить, продать или передать, и оно будет сдано по окончании работы.',
+            ua: 'Службове майно. Видано на зміну: його не можна викинути, продати чи передати, і воно буде здане після закінчення роботи.',
+            en: 'Issued gear. Signed out for the shift: it cannot be dropped, sold or handed over, and it goes back when the work ends.',
+            de: 'Dienstausrüstung. Für die Schicht ausgegeben: sie kann nicht fallen gelassen, verkauft oder übergeben werden und wird nach der Arbeit zurückgegeben.',
+            pl: 'Sprzet sluzbowy. Wydany na zmiane: nie mozna go wyrzucic, sprzedac ani przekazac, a po pracy zostanie zdany.',
+        },
+        issuedBy: {
+            ru: 'Выдал',
+            ua: 'Видав',
+            en: 'Issued by',
+            de: 'Ausgegeben von',
+            pl: 'Wydal',
+        },
+        issuers: {
+            cashCollector: {
+                ru: 'Gruppe 6',
+                ua: 'Gruppe 6',
+                en: 'Gruppe 6',
+                de: 'Gruppe 6',
+                pl: 'Gruppe 6',
+            },
+        },
+    },
+
     backpackIntoItself: {
         ru: 'Ты дурачёк?',
         ua: 'Ти дурник?',
