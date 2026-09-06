@@ -1084,12 +1084,12 @@ export const cef = {
         },
 
         stage2Desc: {
-            ru: 'Прошивка на пределе: отдача выше, но и ошибок машина больше не прощает.',
-            ua: 'Прошивка на межі: віддача вища, але й помилок машина більше не пробачає.',
-            en: 'A map at the limit: more power, and far less forgiveness for mistakes.',
-            de: 'Eine Abstimmung am Limit: mehr Leistung, aber deutlich weniger Fehlerverzeihung.',
-            pl: 'Mapa na granicy: więcej mocy, ale auto wybacza znacznie mniej.',
-            zh: '极限调校：动力更强，但对失误的容忍度也更低。',
+            ru: 'Серьёзная прошивка: заметно быстрее, и на дороге стоит увереннее прежнего.',
+            ua: 'Серйозна прошивка: помітно швидше, і на дорозі стоїть упевненіше, ніж було.',
+            en: 'A serious map: noticeably quicker, and steadier on the road than before.',
+            de: 'Eine ernste Abstimmung: spürbar schneller und dabei satter auf der Straße als zuvor.',
+            pl: 'Poważna mapa: wyraźnie szybciej, a na drodze trzyma się pewniej niż wcześniej.',
+            zh: '进阶调校：明显更快，路面上也比先前更稳。',
         },
 
         stage1: {
@@ -1102,12 +1102,12 @@ export const cef = {
         },
 
         stage1Desc: {
-            ru: 'Мягкая прошивка: чуть больше отдачи без потери в управляемости.',
-            ua: 'М’яка прошивка: трохи більше віддачі без втрати в керованості.',
-            en: 'A mild map: a bit more power with no loss of control.',
-            de: 'Eine sanfte Abstimmung: etwas mehr Leistung ohne Verlust an Kontrolle.',
-            pl: 'Łagodna mapa: trochę więcej mocy bez utraty kontroli.',
-            zh: '温和调校：动力略增，操控不减。',
+            ru: 'Мягкая прошивка: чуть больше тяги, и сцепления с тормозами под неё.',
+            ua: 'М’яка прошивка: трохи більше тяги, і зчеплення з гальмами під неї.',
+            en: 'A mild map: a little more pull, and the grip and brakes to carry it.',
+            de: 'Eine sanfte Abstimmung: etwas mehr Zug, dazu Grip und Bremsen dafür.',
+            pl: 'Łagodna mapa: trochę więcej ciągu, a do tego przyczepność i hamulce.',
+            zh: '温和调校：动力略增，抓地与制动同步跟上。',
         },
 
         stage3: {
@@ -1120,12 +1120,12 @@ export const cef = {
         },
 
         stage3Desc: {
-            ru: 'Гоночная прошивка: всё, что мотор может отдать, и ничего сверх безопасности.',
-            ua: 'Гоночна прошивка: усе, що мотор може віддати, і нічого понад безпеку.',
-            en: 'A race map: everything the engine has to give, with nothing left for safety.',
-            de: 'Eine Rennabstimmung: alles, was der Motor hergibt, und nichts mehr für die Sicherheit.',
-            pl: 'Mapa wyścigowa: wszystko, co silnik ma do dania, i nic w zapasie na bezpieczeństwo.',
-            zh: '赛道调校：榨干引擎的一切，不留任何安全余量。',
+            ru: 'Гоночная прошивка: всё, что мотор может отдать, и шасси, которое это держит.',
+            ua: 'Гоночна прошивка: усе, що мотор може віддати, і шасі, яке це тримає.',
+            en: 'A race map: everything the engine has to give, and a chassis that holds it.',
+            de: 'Eine Rennabstimmung: alles, was der Motor hergibt, und ein Fahrwerk, das es hält.',
+            pl: 'Mapa wyścigowa: wszystko, co silnik ma do dania, i podwozie, które to utrzyma.',
+            zh: '赛道调校：榨干引擎的一切，底盘也稳稳接得住。',
         },
 
         drift: {
@@ -2427,6 +2427,22 @@ export const cef = {
             zh: '油箱容量增加25%，减少加油次数。',
         },
 
+        strobe: {
+            ru: 'Стробоскопы',
+            ua: 'Стробоскопи',
+            en: 'Strobe kit',
+            de: 'Stroboskope',
+            pl: 'Stroboskopy',
+            zh: '爆闪灯',
+        },
+        strobeDesc: {
+            ru: 'Одиннадцать режимов мигания фарами из меню взаимодействия: от простого чередования до полицейских красно-синих и радужных. Ставится только на машину с ксеноном - без него движок не даёт фарам цвет.',
+            ua: 'Одинадцять режимів блимання фарами з меню взаємодії: від простого чергування до поліцейських червоно-синіх і райдужних. Ставиться лише на машину з ксеноном - без нього рушій не дає фарам колір.',
+            en: 'Eleven headlight flash patterns from the interaction menu, from plain alternation to red-and-blue patrol and rainbow. Fits only a vehicle with xenon lights - without them the engine gives the headlights no colour.',
+            de: 'Elf Blinkmuster der Scheinwerfer aus dem Interaktionsmenü: von einfachem Wechsel über Rot-Blau bis Regenbogen. Nur für Fahrzeuge mit Xenonlicht - ohne das gibt die Engine den Scheinwerfern keine Farbe.',
+            pl: 'Jedenaście trybów migania reflektorów z menu interakcji: od prostego naprzemiennego po policyjne czerwono-niebieskie i tęczę. Montaż tylko na aucie z ksenonami - bez nich silnik nie nadaje reflektorom koloru.',
+            zh: '交互菜单中的十一种大灯闪烁模式：从简单交替到红蓝警灯和彩虹。仅可安装在带氙气大灯的车上——没有氙气，引擎不会给大灯上色。',
+        },
         airSuspension: {
             ru: 'Пневмоподвеска',
             ua: 'Пневмопідвіска',
@@ -2436,12 +2452,12 @@ export const cef = {
             zh: '空气悬挂',
         },
         airSuspensionDesc: {
-            ru: 'Высота кузова на выбор: от -6 до +3 см через меню взаимодействия и телефон, с сохраняемыми верхним и нижним положениями и авторежимом.',
-            ua: 'Висота кузова на вибір: від -6 до +3 см через меню взаємодії та телефон, зі збережуваними верхнім і нижнім положеннями та авторежимом.',
-            en: 'Body height on demand: -6 to +3 cm from the interaction menu and the phone, with saved upper and lower positions and an auto mode.',
-            de: 'Karosseriehöhe nach Wunsch: -6 bis +3 cm über das Interaktionsmenü und das Handy, mit gespeicherten oberen und unteren Positionen und Automodus.',
-            pl: 'Wysokość nadwozia na żądanie: od -6 do +3 cm z menu interakcji i telefonu, z zapisanymi pozycjami górną i dolną oraz trybem auto.',
-            zh: '车身高度随心调节：通过互动菜单和手机在-6到+3厘米之间调整，可保存最高和最低位置，并支持自动模式。',
+            ru: 'Высота кузова на выбор: от -8 до +5 см через меню взаимодействия и телефон, с сохраняемыми верхним и нижним положениями и авторежимом.',
+            ua: 'Висота кузова на вибір: від -8 до +5 см через меню взаємодії та телефон, зі збережуваними верхнім і нижнім положеннями та авторежимом.',
+            en: 'Body height on demand: -8 to +5 cm from the interaction menu and the phone, with saved upper and lower positions and an auto mode.',
+            de: 'Karosseriehöhe nach Wunsch: -8 bis +5 cm über das Interaktionsmenü und das Handy, mit gespeicherten oberen und unteren Positionen und Automodus.',
+            pl: 'Wysokość nadwozia na żądanie: od -8 do +5 cm z menu interakcji i telefonu, z zapisanymi pozycjami górną i dolną oraz trybem auto.',
+            zh: '车身高度随心调节：通过互动菜单和手机在-8到+5厘米之间调整，可保存最高和最低位置，并支持自动模式。',
         },
 
         radar: {
