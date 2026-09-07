@@ -22,6 +22,29 @@ export const workList = {
             pl: 'Rozwieźć zamówienia z jedzeniem: {{rolledGoal}}',
         },
     },
+    cashRun: {
+        name: {
+            ru: 'Инкассация',
+            ua: 'Інкасація',
+            en: 'Cash run',
+            de: 'Geldtransport',
+            pl: 'Konwój gotówki',
+        },
+        description: {
+            ru: 'Банк подписал с нами договор на обслуживание банкоматов, а людей у Gruppe 6 в смену не хватает. Оформись у диспетчера в депо, загрузи броневик в кассовом центре и обслужи банкоматы по маршруту. Точка депо в навигаторе, оплата по закрытию наряда.',
+            ua: 'Банк підписав з нами договір на обслуговування банкоматів, а людей у Gruppe 6 на зміну бракує. Оформись у диспетчера в депо, завантаж броньовик у касовому центрі та обслужи банкомати за маршрутом. Точка депо в навігаторі, оплата після закриття наряду.',
+            en: 'The bank signed a machine-servicing contract with us and Gruppe 6 is short of hands for the shift. Sign on with the depot dispatcher, load the van at a cash centre and service the machines along the route. The depot is marked in your navigator, we pay when the order is closed.',
+            de: 'Die Bank hat einen Wartungsvertrag für ihre Automaten mit uns unterschrieben, und Gruppe 6 fehlen Leute für die Schicht. Melde dich beim Disponenten im Depot, belade den Transporter im Kassenzentrum und bediene die Automaten entlang der Route. Das Depot ist im Navi markiert, gezahlt wird beim Abschluss des Auftrags.',
+            pl: 'Bank podpisał z nami umowę na obsługę bankomatów, a Gruppe 6 brakuje ludzi na zmianę. Zamelduj się u dyspozytora w bazie, załaduj furgon w centrum gotówkowym i obsłuż bankomaty na trasie. Baza jest zaznaczona w nawigacji, płacimy po zamknięciu zlecenia.',
+        },
+        objective: {
+            ru: 'Обслужить банкоматы: {{rolledGoal}} шт.',
+            ua: 'Обслужити банкомати: {{rolledGoal}} шт.',
+            en: 'Service the machines: {{rolledGoal}}',
+            de: '{{rolledGoal}} Automaten bedienen',
+            pl: 'Obsłużyć bankomaty: {{rolledGoal}} szt.',
+        },
+    },
     chopShop: {
         name: {
             ru: 'Заказ на угон',
@@ -56,6 +79,13 @@ export const workBlips = {
         en: 'Food dispatch counter',
         de: 'Essensausgabe',
         pl: 'Punkt wydawania jedzenia',
+    },
+    cashCollectorHub: {
+        ru: 'Депо инкассации',
+        ua: 'Депо інкасації',
+        en: 'Cash collection depot',
+        de: 'Geldtransport-Depot',
+        pl: 'Baza konwojów gotówki',
     },
     carjackerHub: {
         ru: 'Заказчик угона',

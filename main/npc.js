@@ -376,6 +376,13 @@ export const npc = {
             pl: 'Weronika',
             zh: '维罗尼卡',
         },
+        walter: {
+            ru: 'Уолтер',
+            ua: 'Волтер',
+            en: 'Walter',
+            de: 'Walter',
+            pl: 'Walter',
+        },
     },
     roles: {
         priest: {
@@ -468,6 +475,13 @@ export const npc = {
             en: 'All-In Legend',
             de: 'All-in-Legende',
             pl: 'Legenda all-ina',
+        },
+        trader: {
+            ru: 'Торговец',
+            ua: 'Торговець',
+            en: 'Trader',
+            de: 'Händler',
+            pl: 'Handlarz',
         },
     },
 };

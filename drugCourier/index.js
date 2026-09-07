@@ -63,6 +63,14 @@ export default {
         pl: 'Punkt odbioru',
     },
 
+    plantStash: {
+        ru: 'Чтобы оставить закладку',
+        ua: 'Щоб залишити закладку',
+        en: 'To leave the stash',
+        de: 'Um das Versteck abzulegen',
+        pl: 'Aby zostawić skrytkę',
+    },
+
     youDontHaveItem: {
         ru: 'У вас нет {{drug}}',
         ua: 'У вас немає {{drug}}',

@@ -37,4 +37,11 @@ export const types = {
         de: 'Neben',
         pl: 'Poboczne',
     },
+    random: {
+        ru: 'Случайные',
+        ua: 'Випадкові',
+        en: 'Random',
+        de: 'Zufällig',
+        pl: 'Losowe',
+    },
 };

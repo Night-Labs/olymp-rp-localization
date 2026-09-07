@@ -1,5 +1,28 @@
 export const cargoList = {
     // ------------------------------------------------------------------- legal
+    cargoMeat: {
+        name: {
+            ru: 'Мясо с комбината',
+            ua: 'М\'ясо з комбінату',
+            en: 'Meat Freight',
+            de: 'Fleischfracht',
+            pl: 'Towar z zakładów mięsnych',
+        },
+        description: {
+            ru: 'Комбинат в Палето снимает с холодильной линии больше, чем успевает развозить, а покупатели все в городе. {{rolledGoal}} ящиков: каждый берёшь на руки, кладёшь в багажник и везёшь по адресу, который дам вместе с заказом. Адрес каждый раз другой, так что смотри в навигатор, а не по памяти. Приезжай на фургоне: в багажник седана влезет пара ящиков, и ты будешь мотаться туда-обратно до утра. Работа на одного.',
+            ua: 'Комбінат у Палето знімає з холодильної лінії більше, ніж встигає розвозити, а покупці всі в місті. {{rolledGoal}} ящиків: кожен береш на руки, кладеш у багажник і везеш за адресою, яку дам разом із замовленням. Адреса щоразу інша, тож дивись у навігатор, а не по пам\'яті. Приїзди фургоном: у багажник седана влізе пара ящиків, і ти мотатимешся туди-сюди до ранку. Робота на одного.',
+            en: 'The Paleto plant pulls more off the chill line than it can get out the gate, and every buyer is down in the city. {{rolledGoal}} crates: every one goes in your hands, into a boot, and out to the address I hand you with the order. It is a different address every time, so read the navigator instead of going from memory. Bring a van: a sedan boot takes two crates and you will be driving back and forth until morning. One man is enough.',
+            de: 'Das Werk in Paleto holt mehr von der Kuehllinie, als es ausfahren kann, und die Kunden sitzen alle unten in der Stadt. {{rolledGoal}} Kisten: jede in die Haende, in den Kofferraum und raus zu der Adresse, die ich dir mit dem Auftrag gebe. Die Adresse ist jedes Mal eine andere, also schau ins Navi und nicht ins Gedaechtnis. Nimm einen Transporter: in einen Kofferraum passen zwei Kisten, und du faehrst bis zum Morgen hin und her. Einer reicht.',
+            pl: 'Zakład w Paleto zdejmuje z linii chłodniczej więcej, niż zdąży rozwieźć, a odbiorcy siedzą w mieście. {{rolledGoal}} skrzyń: każdą bierzesz na ręce, wkładasz do bagażnika i wieziesz pod adres, który dostaniesz razem ze zleceniem. Adres za każdym razem inny, więc patrz w nawigację, a nie z pamięci. Weź vana: do bagażnika sedana wejdą dwie skrzynie i będziesz jeździł tam i z powrotem do rana. Robota dla jednego.',
+        },
+        objective: {
+            ru: 'Вывезти {{rolledGoal}} ящиков мяса с комбината по указанному адресу',
+            ua: 'Вивезти {{rolledGoal}} ящиків м\'яса з комбінату за вказаною адресою',
+            en: 'Run {{rolledGoal}} crates of meat from the plant to the given address',
+            de: '{{rolledGoal}} Kisten Fleisch vom Werk zur genannten Adresse fahren',
+            pl: 'Wywieźć {{rolledGoal}} skrzyń mięsa z zakładu pod wskazany adres',
+        },
+    },
     cargoWarehouse: {
         name: {
             ru: 'Товар со склада',
@@ -143,6 +166,13 @@ export const cargoList = {
 };
 
 export const cargoBlips = {
+    cargoMeatPlant: {
+        ru: 'Мясокомбинат',
+        ua: 'М\'ясокомбінат',
+        en: 'Meat plant',
+        de: 'Fleischwerk',
+        pl: 'Zakład mięsny',
+    },
     cargoCypressWarehouse: {
         ru: 'Склад в Сайпресс-Флэтс',
         ua: 'Склад у Сайпрес-Флетс',

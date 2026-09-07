@@ -94,6 +94,13 @@ export const cef = {
                 de: 'Etagen-Nummerierung',
                 pl: 'Numeracja pięter',
             },
+            garageLevels: {
+                ru: 'Уровни гаража',
+                ua: 'Рівні гаража',
+                en: 'Garage levels',
+                de: 'Garagen-Ebenen',
+                pl: 'Poziomy garażu',
+            },
         },
         shots: {
             lounge: {
@@ -117,12 +124,15 @@ export const cef = {
                 de: 'Konferenzraum',
                 pl: 'Sala konferencyjna',
             },
+            // The number on the wall is the number of the office GARAGE (up to three of
+            // them), not of a floor inside it: `1A`, `2A` and `3A` in the Dynasty 8 shots
+            // are one and the same wall.
             floor: {
-                ru: 'Этаж {{level}}',
-                ua: 'Поверх {{level}}',
-                en: 'Floor {{level}}',
-                de: 'Etage {{level}}',
-                pl: 'Piętro {{level}}',
+                ru: 'Гараж {{level}}',
+                ua: 'Гараж {{level}}',
+                en: 'Garage {{level}}',
+                de: 'Garage {{level}}',
+                pl: 'Garaż {{level}}',
             },
         },
         option: {
@@ -131,6 +141,13 @@ export const cef = {
             en: 'Option {{index}}',
             de: 'Variante {{index}}',
             pl: 'Wariant {{index}}',
+        },
+        garageLevel: {
+            ru: 'Гараж {{level}}, +{{slots}} мест',
+            ua: 'Гараж {{level}}, +{{slots}} місць',
+            en: 'Garage {{level}}, +{{slots}} spaces',
+            de: 'Garage {{level}}, +{{slots}} Plätze',
+            pl: 'Garaż {{level}}, +{{slots}} miejsc',
         },
         vault: {
             installed: {
@@ -174,6 +191,13 @@ export const cef = {
                 de: 'Ebenen: {{count}}',
                 pl: 'Warstw: {{count}}',
             },
+        },
+        back: {
+            ru: 'К остальным разделам',
+            ua: 'До інших розділів',
+            en: 'Back to the other sections',
+            de: 'Zurück zu den anderen Bereichen',
+            pl: 'Do pozostałych sekcji',
         },
         installed: {
             ru: 'Установлено',

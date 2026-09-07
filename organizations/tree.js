@@ -264,7 +264,7 @@ export const tree = {
     },
     branches: {
         legal: { ru: 'Официальная', ua: 'Офіційна', en: 'Official', de: 'Offiziell', pl: 'Oficjalna' },
-        neutral: { ru: 'Смешанная', ua: 'Змішана', en: 'Mixed', de: 'Gemischt', pl: 'Mieszana' },
+        core: { ru: 'Структура', ua: 'Структура', en: 'Structure', de: 'Struktur', pl: 'Struktura' },
         crime: { ru: 'Теневая', ua: 'Тіньова', en: 'Shadow', de: 'Inoffiziell', pl: 'Nieoficjalna' },
     },
     legend: {
@@ -486,7 +486,7 @@ export const tree = {
         effect: { ru: 'Эффект', ua: 'Ефект', en: 'Effect', de: 'Effekt', pl: 'Efekt' },
         requirements: { ru: 'Требования', ua: 'Вимоги', en: 'Requirements', de: 'Anforderungen', pl: 'Wymagania' },
         prereqs: { ru: 'Сначала купить', ua: 'Спершу купити', en: 'Buy first', de: 'Zuerst kaufen', pl: 'Najpierw kup' },
-        orgLevel: { ru: 'Уровень орги', ua: 'Рівень орги', en: 'Org level', de: 'Org-Stufe', pl: 'Poziom org' },
+        orgLevel: { ru: 'Уровень организации', ua: 'Рівень організації', en: 'Organization level', de: 'Organisationsstufe', pl: 'Poziom organizacji' },
         members: { ru: 'Участников', ua: 'Учасників', en: 'Members', de: 'Mitglieder', pl: 'Członków' },
         reputation: { ru: 'Репутация', ua: 'Репутація', en: 'Reputation', de: 'Reputation', pl: 'Reputacja' },
         money: { ru: 'Казна', ua: 'Казна', en: 'Treasury', de: 'Kasse', pl: 'Skarbiec' },

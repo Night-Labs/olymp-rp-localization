@@ -1,5 +1,11 @@
 import beer from './beer';
+import busker from './busker';
+import common from './common';
+import hitchhiker from './hitchhiker';
 
 export default {
-    beer
-}
+    common,
+    beer,
+    busker,
+    hitchhiker,
+};
