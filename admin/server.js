@@ -560,6 +560,44 @@ export const server = {
             pl: 'Strefy gangów zresetowane do referencji. Zmienione strefy: {{count}}',
         },
     },
+
+    resetGangZones: {
+        title: {
+            ru: 'Перезапись сетки гангзон',
+            ua: 'Перезапис сітки гангзон',
+            en: 'Rewrite Gang Zone Grid',
+            de: 'Gang-Zonen-Raster überschreiben',
+            pl: 'Nadpisanie siatki stref gangów',
+        },
+        message: {
+            ru: 'Сетка зон будет полностью переписана из конфига сборки: клетки, которых в нём нет, будут удалены, остальные встанут на позиции конфига с эталонными владельцами. Все текущие захваты пропадут.',
+            ua: 'Сітку зон буде повністю переписано з конфіга збірки: клітинки, яких у ньому немає, буде видалено, решта стане на позиції конфіга з еталонними власниками. Усі поточні захоплення зникнуть.',
+            en: 'The zone grid will be rewritten from the build config: cells missing from it are deleted, the rest move to their config position with the reference owner. Every current capture is lost.',
+            de: 'Das Zonenraster wird aus der Build-Konfiguration neu geschrieben: fehlende Zellen werden gelöscht, der Rest wandert auf seine Konfigurationsposition mit dem Referenzbesitzer. Alle aktuellen Eroberungen gehen verloren.',
+            pl: 'Siatka stref zostanie przepisana z konfiguracji buildu: brakujące w niej komórki zostaną usunięte, reszta trafi na pozycje z konfiguracji z referencyjnymi właścicielami. Wszystkie obecne przejęcia przepadną.',
+        },
+        confirm: {
+            ru: 'Переписать',
+            ua: 'Переписати',
+            en: 'Rewrite',
+            de: 'Überschreiben',
+            pl: 'Nadpisz',
+        },
+        cancel: {
+            ru: 'Отмена',
+            ua: 'Скасувати',
+            en: 'Cancel',
+            de: 'Abbrechen',
+            pl: 'Anuluj',
+        },
+        done: {
+            ru: 'Сетка гангзон переписана из конфига. Создано: {{created}}, оставлено: {{kept}}, удалено: {{removed}}',
+            ua: 'Сітку гангзон переписано з конфіга. Створено: {{created}}, залишено: {{kept}}, видалено: {{removed}}',
+            en: 'Gang zone grid rewritten from config. Created: {{created}}, kept: {{kept}}, removed: {{removed}}',
+            de: 'Gang-Zonen-Raster aus der Konfiguration neu geschrieben. Erstellt: {{created}}, behalten: {{kept}}, entfernt: {{removed}}',
+            pl: 'Siatka stref gangów przepisana z konfiguracji. Utworzono: {{created}}, zachowano: {{kept}}, usunięto: {{removed}}',
+        },
+    },
     freeFactionsTitle: {
         ru: 'Свободные фракции',
         ua: 'Вільні фракції',
