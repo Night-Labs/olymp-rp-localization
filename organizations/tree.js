@@ -80,8 +80,12 @@ const STATIC_DESCRIPTIONS = {
 
 // Sentence fragments the tree assembles into a node description (`tree/labels.ts`). Every
 // piece is a finished sentence: a node uses the ones that apply to it and drops the rest, so
-// a row that has no payout or no task list simply says one sentence less. The numbers come
-// from the contract and side-job catalogs, never from this file.
+// a row that has no payout simply says one sentence less. The numbers come from the contract
+// and side-job catalogs, never from this file.
+//
+// A tree node stays SHORT: who starts offering the order, the one-line objective, what it
+// pays. The goods and the amounts belong to the contract card in the Contracts tab - the
+// order you actually activate is where the task is spelled out.
 //
 // `name` is the fallback title for a node that carries no display metadata - contract and
 // job rows compose their title from `contracts.list.<id>.name` at resolve time instead.
@@ -108,77 +112,53 @@ const SHARED = {
     },
     contractUnlock: {
         name: { ru: 'Открыть заказ', ua: 'Відкрити замовлення', en: 'Unlock order', de: 'Auftrag freischalten', pl: 'Odblokuj zlecenie' },
-        // Who starts offering the order, and where it shows up. `*NoClient` is for the few
-        // contracts that carry no client of their own.
+        // Who starts offering the order. The tab it appears in is not named: the player is
+        // standing in that very menu, and the node already costs three sentences.
+        // `*NoClient` is for the few contracts that carry no client of their own.
         family: {
-            ru: '{{npc}} начнёт давать этот заказ семье во вкладке «Контракты».',
-            ua: '{{npc}} почне давати це замовлення сім\'ї у вкладці «Контракти».',
-            en: '{{npc}} starts offering this order to the family in the Contracts tab.',
-            de: '{{npc}} bietet diesen Auftrag der Familie im Tab "Vertraege" an.',
-            pl: '{{npc}} zacznie dawac to zlecenie rodzinie w zakladce "Kontrakty".',
+            ru: '{{npc}} начнёт давать этот заказ семье.',
+            ua: '{{npc}} почне давати це замовлення сім\'ї.',
+            en: '{{npc}} starts offering this order to the family.',
+            de: '{{npc}} bietet diesen Auftrag der Familie an.',
+            pl: '{{npc}} zacznie dawac to zlecenie rodzinie.',
         },
         personal: {
-            ru: '{{npc}} начнёт давать этот заказ участникам во вкладке «Контракты».',
-            ua: '{{npc}} почне давати це замовлення учасникам у вкладці «Контракти».',
-            en: '{{npc}} starts offering this order to members in the Contracts tab.',
-            de: '{{npc}} bietet diesen Auftrag den Mitgliedern im Tab "Vertraege" an.',
-            pl: '{{npc}} zacznie dawac to zlecenie czlonkom w zakladce "Kontrakty".',
+            ru: '{{npc}} начнёт давать этот заказ участникам.',
+            ua: '{{npc}} почне давати це замовлення учасникам.',
+            en: '{{npc}} starts offering this order to members.',
+            de: '{{npc}} bietet diesen Auftrag den Mitgliedern an.',
+            pl: '{{npc}} zacznie dawac to zlecenie czlonkom.',
         },
         familyNoClient: {
-            ru: 'Заказ появится у семьи во вкладке «Контракты».',
-            ua: 'Замовлення з\'явиться у сім\'ї у вкладці «Контракти».',
-            en: 'The order shows up for the family in the Contracts tab.',
-            de: 'Der Auftrag erscheint fuer die Familie im Tab "Vertraege".',
-            pl: 'Zlecenie pojawi sie u rodziny w zakladce "Kontrakty".',
+            ru: 'Заказ появится у семьи.',
+            ua: 'Замовлення з\'явиться у сім\'ї.',
+            en: 'The order shows up for the family.',
+            de: 'Der Auftrag erscheint fuer die Familie.',
+            pl: 'Zlecenie pojawi sie u rodziny.',
         },
         personalNoClient: {
-            ru: 'Заказ появится у участников во вкладке «Контракты».',
-            ua: 'Замовлення з\'явиться в учасників у вкладці «Контракти».',
-            en: 'The order shows up for members in the Contracts tab.',
-            de: 'Der Auftrag erscheint fuer die Mitglieder im Tab "Vertraege".',
-            pl: 'Zlecenie pojawi sie u czlonkow w zakladce "Kontrakty".',
+            ru: 'Заказ появится у участников.',
+            ua: 'Замовлення з\'явиться в учасників.',
+            en: 'The order shows up for members.',
+            de: 'Der Auftrag erscheint fuer die Mitglieder.',
+            pl: 'Zlecenie pojawi sie u czlonkow.',
         },
     },
-    // The task list of an order, and one line of it. Kept as separate keys so a language can
-    // put the amount where it belongs instead of always after the name. Languages whose unit
-    // ends in a full stop ("шт.", "szt.") close the sentence with it, so their `order` carries
-    // no period of its own.
-    order: {
-        ru: 'Нужно: {{list}}',
-        ua: 'Потрібно: {{list}}',
-        en: 'Bring: {{list}}.',
-        de: 'Benoetigt: {{list}}.',
-        pl: 'Potrzeba: {{list}}',
-    },
-    orderItem: {
-        ru: '{{name}} {{count}} шт.',
-        ua: '{{name}} {{count}} шт.',
-        en: '{{name}} x{{count}}',
-        de: '{{name}} x{{count}}',
-        pl: '{{name}} {{count}} szt.',
-    },
-    // Goods counted in units of face value (`countedAsMoney`): the amount is a sum, not a
-    // piece count. The currency is already in the item's own name, so no sign is added.
-    orderItemMoney: {
-        ru: '{{name}} на сумму {{count}}',
-        ua: '{{name}} на суму {{count}}',
-        en: '{{name}} worth {{count}}',
-        de: '{{name}} im Wert von {{count}}',
-        pl: '{{name}} na kwote {{count}}',
-    },
+    // The pay of a node is a scale, not an invoice: the amounts are rounded in `tree/labels.ts`
+    // and a rung quotes only what it ADDS. The exact figure is on the contract card.
     payout: {
-        ru: 'Платят {{payout}}.',
-        ua: 'Платять {{payout}}.',
-        en: 'It pays {{payout}}.',
-        de: 'Zahlt {{payout}}.',
-        pl: 'Placa {{payout}}.',
+        ru: 'Платят около {{payout}}.',
+        ua: 'Платять близько {{payout}}.',
+        en: 'It pays around {{payout}}.',
+        de: 'Zahlt rund {{payout}}.',
+        pl: 'Placa okolo {{payout}}.',
     },
     payoutUpgrade: {
-        ru: 'Платят {{payout}} вместо {{previous}}.',
-        ua: 'Платять {{payout}} замість {{previous}}.',
-        en: 'It pays {{payout}} instead of {{previous}}.',
-        de: 'Zahlt {{payout}} statt {{previous}}.',
-        pl: 'Placa {{payout}} zamiast {{previous}}.',
+        ru: 'Платят около {{payout}}, примерно на {{delta}} больше.',
+        ua: 'Платять близько {{payout}}, приблизно на {{delta}} більше.',
+        en: 'It pays around {{payout}}, about {{delta}} more.',
+        de: 'Zahlt rund {{payout}}, etwa {{delta}} mehr.',
+        pl: 'Placa okolo {{payout}}, o okolo {{delta}} wiecej.',
     },
     jobTier: {
         name: { ru: 'Уровень работы', ua: 'Рівень роботи', en: 'Job tier', de: 'Jobstufe', pl: 'Poziom pracy' },
@@ -208,18 +188,18 @@ const SHARED = {
         pl: 'Dzialka rodziny: +{{percent}}% do wyplaty.',
     },
     dropPay: {
-        ru: 'Платят {{pay}} за закладку.',
-        ua: 'Платять {{pay}} за закладку.',
-        en: 'It pays {{pay}} per drop.',
-        de: 'Zahlt {{pay}} pro Ablage.',
-        pl: 'Placa {{pay}} za podrzut.',
+        ru: 'Платят около {{pay}} за закладку.',
+        ua: 'Платять близько {{pay}} за закладку.',
+        en: 'It pays around {{pay}} per drop.',
+        de: 'Zahlt rund {{pay}} pro Ablage.',
+        pl: 'Placa okolo {{pay}} za podrzut.',
     },
     dropPayUpgrade: {
-        ru: 'Платят {{pay}} за закладку вместо {{previous}}.',
-        ua: 'Платять {{pay}} за закладку замість {{previous}}.',
-        en: 'It pays {{pay}} per drop instead of {{previous}}.',
-        de: 'Zahlt {{pay}} pro Ablage statt {{previous}}.',
-        pl: 'Placa {{pay}} za podrzut zamiast {{previous}}.',
+        ru: 'Платят около {{pay}} за закладку, примерно на {{delta}} больше.',
+        ua: 'Платять близько {{pay}} за закладку, приблизно на {{delta}} більше.',
+        en: 'It pays around {{pay}} per drop, about {{delta}} more.',
+        de: 'Zahlt rund {{pay}} pro Ablage, etwa {{delta}} mehr.',
+        pl: 'Placa okolo {{pay}} za podrzut, o okolo {{delta}} wiecej.',
     },
 };
 

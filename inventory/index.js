@@ -284,6 +284,20 @@ const inventory = {
             de: 'Bauplan',
             pl: 'Schemat',
         },
+        drink: {
+            ru: 'Напиток',
+            ua: 'Напій',
+            en: 'Drink',
+            de: 'Getränk',
+            pl: 'Napój',
+        },
+        document: {
+            ru: 'Документ',
+            ua: 'Документ',
+            en: 'Document',
+            de: 'Dokument',
+            pl: 'Dokument',
+        },
     },
 
     itemCategories: {

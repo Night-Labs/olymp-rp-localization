@@ -87,12 +87,14 @@ export const cef = {
                 de: 'Garagen-Beleuchtung',
                 pl: 'Oświetlenie garażu',
             },
+            // The sign carries the garage's own number in the building, not a floor: all
+            // three garages put it on the same wall, and only its style is bought.
             garageNumbering: {
-                ru: 'Нумерация этажей',
-                ua: 'Нумерація поверхів',
-                en: 'Floor numbering',
-                de: 'Etagen-Nummerierung',
-                pl: 'Numeracja pięter',
+                ru: 'Номер гаража',
+                ua: 'Номер гаража',
+                en: 'Garage number',
+                de: 'Garagennummer',
+                pl: 'Numer garażu',
             },
             garageLevels: {
                 ru: 'Уровни гаража',
@@ -123,16 +125,6 @@ export const cef = {
                 en: 'Boardroom',
                 de: 'Konferenzraum',
                 pl: 'Sala konferencyjna',
-            },
-            // The number on the wall is the number of the office GARAGE (up to three of
-            // them), not of a floor inside it: `1A`, `2A` and `3A` in the Dynasty 8 shots
-            // are one and the same wall.
-            floor: {
-                ru: 'Гараж {{level}}',
-                ua: 'Гараж {{level}}',
-                en: 'Garage {{level}}',
-                de: 'Garage {{level}}',
-                pl: 'Garaż {{level}}',
             },
         },
         option: {
@@ -206,12 +198,26 @@ export const cef = {
             de: 'Installiert',
             pl: 'Zainstalowane',
         },
+        walkIn: {
+            ru: 'Зайти осмотреть',
+            ua: 'Зайти оглянути',
+            en: 'Walk in',
+            de: 'Hineingehen',
+            pl: 'Wejdź i zobacz',
+        },
+        walkInHere: {
+            ru: 'Вы стоите в нём',
+            ua: 'Ви стоїте в ньому',
+            en: 'You are standing in it',
+            de: 'Du stehst darin',
+            pl: 'Właśnie w nim stoisz',
+        },
         apply: {
-            ru: 'Установить за {{price}}',
-            ua: 'Встановити за {{price}}',
-            en: 'Install for {{price}}',
-            de: 'Für {{price}} installieren',
-            pl: 'Zainstaluj za {{price}}',
+            ru: 'Установить',
+            ua: 'Встановити',
+            en: 'Install',
+            de: 'Installieren',
+            pl: 'Zainstaluj',
         },
         balance: {
             ru: 'Счёт организации',
@@ -219,6 +225,13 @@ export const cef = {
             en: 'Organization balance',
             de: 'Organisationskonto',
             pl: 'Konto organizacji',
+        },
+        cost: {
+            ru: 'Стоимость',
+            ua: 'Вартість',
+            en: 'Cost',
+            de: 'Kosten',
+            pl: 'Koszt',
         },
         notEnough: {
             ru: 'На счету организации не хватает денег',

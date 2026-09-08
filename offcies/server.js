@@ -529,4 +529,13 @@ export const server = {
             pl: 'Zmiana zastosowana, pobrano ${{price}}',
         },
     },
+    info: {
+        previewStarted: {
+            ru: 'Осмотритесь. ESC - вернуться к выбору интерьера.',
+            ua: 'Огляньтеся. ESC - повернутися до вибору інтер’єру.',
+            en: 'Look around. ESC takes you back to the interior picker.',
+            de: 'Sieh dich um. ESC bringt dich zurück zur Interieur-Auswahl.',
+            pl: 'Rozejrzyj się. ESC wraca do wyboru wnętrza.',
+        },
+    },
 };

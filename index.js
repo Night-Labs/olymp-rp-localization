@@ -106,6 +106,7 @@ import carInsurance from './carInsurance';
 import marriage from './marriage';
 import canteen from './canteen';
 import sewingFactory from './sewingFactory';
+import laundromat from './laundromat';
 import wars from './wars';
 import effects from './effects';
 import numberPlates from './numberPlates';
@@ -230,6 +231,7 @@ export default {
     marriage,
     canteen,
     sewingFactory,
+    laundromat,
     wars,
     effects,
     militaryGates,
