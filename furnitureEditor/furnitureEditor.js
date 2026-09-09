@@ -181,5 +181,12 @@ export default {
             de: 'Erlaubt dir, dich bei Interaktion bis auf 100 HP zu heilen.',
             pl: 'Pozwala leczyć się do 100 HP podczas interakcji.',
         },
+        signboard: {
+            ru: 'Плашку можно расписать самому в редакторе, как вывеску офиса.',
+            ua: 'Табличку можна розписати самому в редакторі, як вивіску офісу.',
+            en: 'You can draw on the plaque yourself in the editor, the way an office draws its signage.',
+            de: 'Das Schild kannst du im Editor selbst gestalten, wie ein Büro sein Aushängeschild.',
+            pl: 'Tabliczkę możesz zaprojektować sam w edytorze, tak jak szyld biura.',
+        },
     },
 };

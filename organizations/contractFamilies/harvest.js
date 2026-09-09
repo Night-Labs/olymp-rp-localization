@@ -266,11 +266,11 @@ export const harvestList = {
             pl: 'Grower',
         },
         description: {
-            ru: 'Товар начинается с куста, а куст сам себя не поднимет. Засадите делянку, дождитесь, пока пойдёт, и привезите сырые кусты STANK на точку - считаю на месте, лишних вопросов не задаю. Возьмёте заказ выше - кустов будет больше.',
-            ua: 'Товар починається з куща, а кущ сам себе не підніме. Засадіть ділянку, дочекайтеся, поки піде, і привезіть сирі кущі STANK на точку - рахую на місці, зайвих питань не ставлю. Візьмете замовлення вище - кущів буде більше.',
-            en: 'The product starts with a bush, and a bush does not raise itself. Plant a patch, let it come up and bring the raw STANK bushes to the point - I count on the spot and ask nothing else. Take the order a rung higher and there will be more bushes.',
-            de: 'Die Ware fängt beim Busch an, und ein Busch zieht sich nicht selbst groß. Bepflanzt eine Parzelle, lasst sie hochkommen und bringt die rohen STANK-Büsche zum Punkt - ich zähle vor Ort und frage nichts weiter. Nehmt den Auftrag eine Stufe höher, dann werden es mehr Büsche.',
-            pl: 'Towar zaczyna się od krzaka, a krzak sam się nie wychowa. Obsadzcie działkę, poczekajcie aż wzejdzie i przywieźcie surowe krzaki STANK na punkt - liczę na miejscu i o nic nie pytam. Wezmiecie zlecenie stopień wyżej, będzie więcej krzaków.',
+            ru: 'Товар начинается с куста, а куст сам себя не поднимет. Засадите делянку и привезите сырые кусты STANK на точку - считаю на месте, лишних вопросов не задаю.',
+            ua: 'Товар починається з куща, а кущ сам себе не підніме. Засадіть ділянку і привезіть сирі кущі STANK на точку - рахую на місці, зайвих питань не ставлю.',
+            en: 'The product starts with a bush, and a bush does not raise itself. Plant a patch and bring the raw STANK bushes to the point - I count on the spot and ask nothing else.',
+            de: 'Die Ware fängt beim Busch an, und ein Busch zieht sich nicht selbst groß. Bepflanzt eine Parzelle und bringt die rohen STANK-Büsche zum Punkt - ich zähle vor Ort und frage nichts weiter.',
+            pl: 'Towar zaczyna się od krzaka, a krzak sam się nie wychowa. Obsadźcie działkę i przywieźcie surowe krzaki STANK na punkt - liczę na miejscu i o nic nie pytam.',
         },
         objective: {
             ru: 'Вырастить кусты STANK и сдать на точку',

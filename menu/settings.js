@@ -785,6 +785,13 @@ export const settings = {
         de: 'Entfernt den Rucksack vom Rücken deines Charakters nur auf deinem Bildschirm. Andere Spieler sehen ihn weiterhin, die Inventarkapazität bleibt unverändert',
         pl: 'Usuwa plecak z pleców twojej postaci tylko na twoim ekranie. Inni gracze nadal go widzą, a pojemność ekwipunku się nie zmienia',
     },
+    manualLadderClimbDesc: {
+        ru: 'Персонаж больше не залезает на лестницу сам: подъём и спуск начинаются только по клавише взаимодействия, когда вы стоите у лестницы',
+        ua: 'Персонаж більше не залазить на драбину сам: підйом і спуск починаються лише по клавіші взаємодії, коли ви стоїте біля драбини',
+        en: 'Your character no longer mounts ladders on his own: climbing up and down starts only on the interaction key while you stand at a ladder',
+        de: 'Dein Charakter steigt nicht mehr von selbst auf Leitern: Hinauf und hinunter geht es nur noch mit der Interaktionstaste, wenn du an einer Leiter stehst',
+        pl: 'Twoja postać nie wchodzi już na drabinę sama: wspinaczka i schodzenie zaczynają się tylko po naciśnięciu klawisza interakcji przy drabinie',
+    },
     showDailyCaseDesc: {
         ru: 'Отображает обратный отсчёт до получения ежедневного кейса на HUD',
         ua: 'Відображає зворотний відлік до отримання щоденного кейсу на HUD',
@@ -1429,6 +1436,13 @@ export const settings = {
         en: 'Hide backpack',
         de: 'Rucksack verstecken',
         pl: 'Ukryj plecak',
+    },
+    manualLadderClimb: {
+        ru: 'Подъём по лестнице по клавише',
+        ua: 'Підйом драбиною по клавіші',
+        en: 'Climb ladders on key press',
+        de: 'Leitern per Tastendruck erklimmen',
+        pl: 'Wspinaczka po drabinie na klawisz',
     },
     changePassword: {
         ru: 'Смена пароля',

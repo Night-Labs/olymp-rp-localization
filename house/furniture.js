@@ -24367,5 +24367,12 @@ export default {
             de: 'Offener grauer Safe 2',
             pl: 'Otwarty szary sejf 2',
         },
+        signBoardPlaque: {
+            ru: 'Настенная плашка',
+            ua: 'Настінна табличка',
+            en: 'Name Plaque',
+            de: 'Namensschild',
+            pl: 'Tabliczka ścienna',
+        },
     },
 };

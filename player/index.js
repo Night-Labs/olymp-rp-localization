@@ -55,6 +55,20 @@ export default {
         de: 'Zum Hinsetzen drücke',
         pl: 'Aby usiąść, naciśnij',
     },
+    ladderClimbUp: {
+        ru: 'Залезть',
+        ua: 'Залізти',
+        en: 'Climb up',
+        de: 'Hochklettern',
+        pl: 'Wejdź',
+    },
+    ladderClimbDown: {
+        ru: 'Спуститься',
+        ua: 'Спуститися',
+        en: 'Climb down',
+        de: 'Runterklettern',
+        pl: 'Zejdź',
+    },
     //
     couldntActivateCoal: {
         ru: 'Вы не смогли активировать уголь...',

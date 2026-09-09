@@ -15,6 +15,13 @@ export default {
         pl: 'Aby prowadzić gracza, najpierw załóż na niego kajdanki',
         zh: '要领导一名球员，先给他们戴上手铐',
     },
+    youAreRestrained: {
+        ru: 'Вы не можете этого сделать, пока связаны',
+        ua: "Ви не можете цього зробити, поки зв'язані",
+        en: 'You cannot do this while restrained',
+        de: 'Du kannst das nicht tun, solange du gefesselt bist',
+        pl: 'Nie możesz tego zrobić, gdy jesteś skrępowany',
+    },
     //
     useHandCuffs: {
         ru: '{{firstName}} надел(а) наручники на {{targetName}}',

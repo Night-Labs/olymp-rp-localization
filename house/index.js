@@ -5,6 +5,7 @@ import safe from './safe';
 import upgrade from './upgrade';
 import residents from './residents';
 import tv from './tv';
+import signBoard from './signBoard';
 
 export default {
     ...cef,
@@ -14,6 +15,7 @@ export default {
     upgrade,
     residents,
     tv,
+    signBoard,
     houseResident: {
         ru: 'Житель дома',
         ua: 'Мешканець дому',

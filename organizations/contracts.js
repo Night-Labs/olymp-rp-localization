@@ -523,11 +523,11 @@ export const contracts = {
                 pl: 'Detal',
             },
             description: {
-                ru: 'Первая работа, за которую в семье берутся всерьёз. Товар не ваш и варить его не надо - Дайс стоит на своём углу и выдаёт партию любому, кто пришёл от вас. Ваше дело - развезти партию и не попасться. Адресов в партии - {{rolledGoal}}. Платят за партию, а не за посылку.',
-                ua: 'Перша робота, за яку в сім\'ї беруться всерйоз. Товар не ваш і варити його не треба - Дайс стоїть на своєму розі й видає партію будь-кому, хто прийшов від вас. Ваша справа - розвезти партію і не попастися. Адрес у партії - {{rolledGoal}}. Платять за партію, а не за посилку.',
-                en: 'The first job a family takes seriously. The product is not yours and nobody has to cook it - Dice stands on his corner and hands a batch to anyone who comes from you. Your part is to work the batch and not get caught. Addresses in the batch - {{rolledGoal}}. The batch is paid for, the single package is not.',
-                de: 'Der erste Job, den eine Familie ernst nimmt. Die Ware gehört nicht euch und muss auch nicht gekocht werden - Dice steht an seiner Ecke und gibt jedem eine Charge, der von euch kommt. Euer Teil ist die Charge, ohne aufzufliegen. Adressen in der Charge - {{rolledGoal}}. Bezahlt wird die Charge, nicht das einzelne Paket.',
-                pl: 'Pierwsza robota, która rodzina bierze na poważnie. Towar nie jest wasz i nikt go nie musi warzyć - Dice stoi na swoim rogu i wydaje partię każdemu, kto przyjdzie od was. Wasza część to rozwieźć partię i nie wpaść. Adresów w partii - {{rolledGoal}}. Płaci się za partię, nie za pojedynczą paczkę.',
+                ru: 'Варить ничего не надо, товар мой. Возьми партию, разложи по адресам и не попадись. Адресов в заказе - {{rolledGoal}}, плачу за весь заказ.',
+                ua: 'Варити нічого не треба, товар мій. Візьми партію, розклади за адресами і не попадись. Адрес у замовленні - {{rolledGoal}}, плачу за все замовлення.',
+                en: 'Nothing to cook, the product is mine. Take a batch, work the addresses and do not get caught. Addresses in the order - {{rolledGoal}}, I pay for the lot.',
+                de: 'Nichts zu kochen, die Ware ist meine. Nimm eine Charge, arbeite die Adressen ab und flieg nicht auf. Adressen im Auftrag - {{rolledGoal}}, bezahlt wird der ganze Auftrag.',
+                pl: 'Nic nie trzeba warzyć, towar jest mój. Bierz partię, rozłóż pod adresami i nie wpadnij. Adresów w zleceniu - {{rolledGoal}}, płacę za całość.',
             },
             objective: {
                 ru: 'Взять партию у Дайса и разложить по адресам',
@@ -546,11 +546,11 @@ export const contracts = {
                 pl: 'Manufaktura',
             },
             description: {
-                ru: 'Хозяйка мануфактуры подписалась под срочным заказом и одна его не вытянет. Садись за швейный станок на фабрике, отшей форму и отвези готовую партию заказчику - {{subjectName}}. Комплектов в заказе - {{rolledGoal}}. Платят за привезённое, а не за отшитое.',
-                ua: 'Господиня мануфактури підписалася під терміновим замовленням і сама його не витягне. Сідай за швейний верстат на фабриці, поший форму і відвези готову партію замовнику - {{subjectName}}. Комплектів у замовленні - {{rolledGoal}}. Платять за привезене, а не за пошите.',
-                en: 'The manufactory owner signed off on a rush order she cannot fill alone. Take a sewing station at the factory, run off the uniforms and drive the finished batch to the client - {{subjectName}}. Sets in the order - {{rolledGoal}}. You are paid for what arrives, not for what you sew.',
-                de: 'Die Chefin der Manufaktur hat einen Eilauftrag unterschrieben, den sie allein nicht schafft. Setz dich an eine Nähmaschine in der Fabrik, fertige die Uniformen und bring die fertige Charge zum Kunden - {{subjectName}}. Sätze im Auftrag - {{rolledGoal}}. Bezahlt wird, was ankommt, nicht was genäht wird.',
-                pl: 'Właścicielka manufaktury wzięła pilne zlecenie, którego sama nie udźwignie. Siadaj do maszyny w fabryce, uszyj mundury i zawieź gotową partię zleceniodawcy - {{subjectName}}. Kompletów w zleceniu - {{rolledGoal}}. Płacą za dostarczone, nie za uszyte.',
+                ru: 'Взяла срочный заказ и одна не вытяну. Садись за станок, отшей форму и отвези заказчику - {{subjectName}}. Комплектов - {{rolledGoal}}, платят за привезённое.',
+                ua: 'Взяла термінове замовлення і сама не витягну. Сідай за верстат, поший форму і відвези замовнику - {{subjectName}}. Комплектів - {{rolledGoal}}, платять за привезене.',
+                en: 'I took a rush order and cannot fill it alone. Take a station, run off the uniforms and drive them to the client - {{subjectName}}. Sets - {{rolledGoal}}, paid on delivery.',
+                de: 'Ich habe einen Eilauftrag angenommen und schaffe ihn nicht allein. Setz dich an die Maschine, näh die Uniformen und bring sie zum Kunden - {{subjectName}}. Sätze - {{rolledGoal}}, bezahlt wird Geliefertes.',
+                pl: 'Wzięłam pilne zlecenie i sama go nie udźwignę. Siadaj do maszyny, uszyj mundury i zawieź je zleceniodawcy - {{subjectName}}. Kompletów - {{rolledGoal}}, płacą za dostarczone.',
             },
             objective: {
                 ru: 'Отшить комплекты формы и сдать заказчику',
@@ -563,11 +563,11 @@ export const contracts = {
         illegalSupplier: {
             name: { ru: 'Нелегальный поставщик', ua: 'Нелегальний постачальник', en: 'Illegal supplier', de: 'Illegaler Lieferant', pl: 'Nielegalny dostawca' },
             description: {
-                ru: 'Товар фасуют на месте руками, партия за партией. Партий в заказе - {{rolledGoal}}. Но склад мне нужен не там, где вы его собрали: закончите - грузите и везите на приёмку. Оплата по факту разгрузки.',
-                ua: 'Товар фасують на місці руками, партія за партією. Партій у замовленні - {{rolledGoal}}. Але склад мені потрібен не там, де ви його зібрали: закінчите - вантажте і везіть на приймання. Оплата за фактом розвантаження.',
-                en: 'The product gets packed on site by hand, batch after batch. Batches in the order - {{rolledGoal}}. But I do not want the stock sitting where you built it: when you are done, load up and drive it to the receiving point. You get paid on unloading.',
-                de: 'Die Ware wird vor Ort von Hand verpackt, Charge um Charge. Chargen im Auftrag - {{rolledGoal}}. Aber das Lager soll nicht dort stehen, wo ihr es zusammengestellt habt: fertig, aufladen und zur Annahmestelle fahren. Bezahlt wird beim Abladen.',
-                pl: 'Towar pakuje się na miejscu ręcznie, partia za partią. Partii w zleceniu - {{rolledGoal}}. Ale magazyn ma nie stać tam, gdzie go złożyliście: koniec roboty, ładujcie i wieźcie na odbiór. Płacą przy rozładunku.',
+                ru: 'Товар фасуют на месте, руками, партия за партией - партий в заказе {{rolledGoal}}. Готовое на точке не оставляйте: грузите и везите на приёмку.',
+                ua: 'Товар фасують на місці, руками, партія за партією - партій у замовленні {{rolledGoal}}. Готове на точці не лишайте: вантажте і везіть на приймання.',
+                en: 'The product gets packed on site by hand, batch after batch - {{rolledGoal}} in the order. Do not leave it standing there: load up and drive it to the receiving point.',
+                de: 'Die Ware wird vor Ort von Hand verpackt, Charge um Charge - {{rolledGoal}} im Auftrag. Lasst sie nicht dort stehen: aufladen und zur Annahme fahren.',
+                pl: 'Towar pakuje się na miejscu ręcznie, partia za partią - partii w zleceniu {{rolledGoal}}. Nie zostawiajcie go na miejscu: ładujcie i wieźcie na odbiór.',
             },
             objective: {
                 ru: 'Расфасовать партии и сдать на приёмке',
@@ -586,11 +586,11 @@ export const contracts = {
                 pl: 'Pralnia',
             },
             description: {
-                ru: 'Новые вывески меня не интересуют, меня интересует, кто доводит партию до конца. Прачечная на Ла-Меса моя, машины стоят пустые. Отработайте смену вдвоём, партию за партией, и привезите отмытое на приёмку. Довезёте - будем разговаривать дальше.',
-                ua: 'Нові вивіски мене не цікавлять, мене цікавить, хто доводить партію до кінця. Пральня на Ла-Меса моя, машини стоять порожні. Відпрацюйте зміну вдвох, партія за партією, і привезіть відмите на приймання. Довезете - будемо говорити далі.',
-                en: 'New names on the street do not interest me. Who takes a batch all the way does. The laundromat on La Mesa is mine and the machines are standing empty. Work a shift there, the two of you, batch after batch, then drive the clean stack to the counter. Get it there, and we keep talking.',
-                de: 'Neue Namen auf der Straße interessieren mich nicht. Wer eine Charge bis zum Ende bringt, schon. Der Waschsalon in La Mesa gehört mir und die Maschinen stehen leer. Fahrt dort zu zweit eine Schicht, Charge für Charge, und bringt das saubere Bündel zur Annahme. Bringt es hin, dann reden wir weiter.',
-                pl: 'Nowe szyldy mnie nie interesują, interesuje mnie, kto doprowadza partię do końca. Pralnia na La Mesa jest moja, a maszyny stoją puste. Odróbcie tam zmianę we dwóch, partia za partią, i przywieźcie czysty plik na odbiór. Dowieziecie, to pogadamy dalej.',
+                ru: 'Прачечная на Ла-Меса моя, машины стоят пустые. Отработайте смену вдвоём и привезите отмытое на приёмку. Довезёте - поговорим дальше.',
+                ua: 'Пральня на Ла-Меса моя, машини стоять порожні. Відпрацюйте зміну вдвох і привезіть відмите на приймання. Довезете - поговоримо далі.',
+                en: 'The laundromat on La Mesa is mine and the machines stand empty. Work a shift there, the two of you, and drive the clean stack to the counter. Get it there and we keep talking.',
+                de: 'Der Waschsalon in La Mesa gehört mir und die Maschinen stehen leer. Fahrt zu zweit eine Schicht und bringt das saubere Bündel zur Annahme. Kommt es an, reden wir weiter.',
+                pl: 'Pralnia na La Mesa jest moja, a maszyny stoją puste. Odróbcie zmianę we dwóch i przywieźcie czysty plik na odbiór. Dowieziecie - pogadamy dalej.',
             },
             objective: {
                 ru: 'Отмыть партии в прачечной и сдать на приёмке',
@@ -600,15 +600,16 @@ export const contracts = {
                 pl: 'Wyprać partie w pralni i zdać na odbiorze',
             },
             // Per rung (`LAUNDROMAT_TIERS`). Args: rolledGoal (batches), inputAmount (per batch),
-            // inputTotal (whole order), inputName (the item). Tier I (`house`) reads the keys above.
+            // inputTotal (whole order), inputName (the item). The briefs quote only the first two -
+            // the total is the product of them and the objective line carries the count as well.
             tiers: {
                 house: {
                     description: {
-                        ru: 'Новые вывески меня не интересуют, меня интересует, кто доводит партию до конца. Прачечная на Ла-Меса моя, машины стоят пустые. Отработайте смену вдвоём, партию за партией, и привезите отмытое на приёмку. Довезёте - будем разговаривать дальше.',
-                        ua: 'Нові вивіски мене не цікавлять, мене цікавить, хто доводить партію до кінця. Пральня на Ла-Меса моя, машини стоять порожні. Відпрацюйте зміну вдвох, партія за партією, і привезіть відмите на приймання. Довезете - будемо говорити далі.',
-                        en: 'New names on the street do not interest me. Who takes a batch all the way does. The laundromat on La Mesa is mine and the machines are standing empty. Work a shift there, the two of you, batch after batch, then drive the clean stack to the counter. Get it there, and we keep talking.',
-                        de: 'Neue Namen auf der Straße interessieren mich nicht. Wer eine Charge bis zum Ende bringt, schon. Der Waschsalon in La Mesa gehört mir und die Maschinen stehen leer. Fahrt dort zu zweit eine Schicht, Charge für Charge, und bringt das saubere Bündel zur Annahme. Bringt es hin, dann reden wir weiter.',
-                        pl: 'Nowe szyldy mnie nie interesują, interesuje mnie, kto doprowadza partię do końca. Pralnia na La Mesa jest moja, a maszyny stoją puste. Odróbcie tam zmianę we dwóch, partia za partią, i przywieźcie czysty plik na odbiór. Dowieziecie, to pogadamy dalej.',
+                        ru: 'Машины стоят пустые, наличка моя. Отработайте смену вдвоём - партий {{rolledGoal}} - и привезите отмытое на Гроув-стрит.',
+                        ua: 'Машини стоять порожні, готівка моя. Відпрацюйте зміну вдвох - партій {{rolledGoal}} - і привезіть відмите на Ґроув-стріт.',
+                        en: 'The machines stand empty and the cash is mine. Work a shift, the two of you - {{rolledGoal}} batches - and bring the clean stack to Grove Street.',
+                        de: 'Die Maschinen stehen leer, das Geld ist meins. Fahrt zu zweit eine Schicht - {{rolledGoal}} Chargen - und bringt das Saubere zur Grove Street.',
+                        pl: 'Maszyny stoją puste, gotówka jest moja. Odróbcie zmianę we dwóch - partii {{rolledGoal}} - i przywieźcie czyste na Grove Street.',
                     },
                     objective: {
                         ru: 'Отмыть {{rolledGoal}} партий в прачечной и сдать на приёмке',
@@ -620,11 +621,11 @@ export const contracts = {
                 },
                 dirty: {
                     description: {
-                        ru: 'Твои грабежи - твоя забота, пока бумага не лежит у меня в кассе. Приносите свою грязную наличку: {{inputAmount}} на партию, {{rolledGoal}} партий, итого {{inputTotal}}. Что не свелось под книгу, то осталось в барабане. Чистые пачки везите на точку в Дэвисе.',
-                        ua: 'Твої грабежі - твій клопіт, поки папір не лежить у мене в касі. Приносьте свою брудну готівку: {{inputAmount}} на партію, {{rolledGoal}} партій, разом {{inputTotal}}. Що не зійшлося під книгу, те лишилося в барабані. Чисті пачки везіть на точку в Девісі.',
-                        en: 'Your robberies are your business until the paper is in my till. Bring your own dirty cash: {{inputAmount}} a batch, {{rolledGoal}} batches, {{inputTotal}} all told. Whatever does not balance against the books stays in the drum. Drive the clean stacks to the counter in Davis.',
-                        de: 'Eure Überfälle sind eure Sache, bis das Papier in meiner Kasse liegt. Bringt euer eigenes schmutziges Geld: {{inputAmount}} pro Charge, {{rolledGoal}} Chargen, insgesamt {{inputTotal}}. Was nicht mit den Büchern aufgeht, bleibt in der Trommel. Die sauberen Bündel fahrt ihr zur Annahme in Davis.',
-                        pl: 'Wasze napady to wasza sprawa, dopóki papier nie leży w mojej kasie. Przynieście własną brudną gotówkę: {{inputAmount}} na partię, {{rolledGoal}} partii, razem {{inputTotal}}. Co nie zejdzie się z księgą, zostaje w bębnie. Czyste pliki wieźcie na punkt w Davis.',
+                        ru: 'Несите свою грязную наличку: {{inputAmount}} на партию, {{rolledGoal}} партий. Что не свелось под книгу - осталось в барабане. Чистое везите в Дэвис.',
+                        ua: 'Несіть свою брудну готівку: {{inputAmount}} на партію, {{rolledGoal}} партій. Що не зійшлося під книгу - лишилося в барабані. Чисте везіть у Девіс.',
+                        en: 'Bring your own dirty cash: {{inputAmount}} a batch, {{rolledGoal}} batches. Whatever does not balance stays in the drum. Drive the clean stacks to Davis.',
+                        de: 'Bringt euer eigenes schmutziges Geld: {{inputAmount}} pro Charge, {{rolledGoal}} Chargen. Was nicht aufgeht, bleibt in der Trommel. Das Saubere fahrt ihr nach Davis.',
+                        pl: 'Przynieście własną brudną gotówkę: {{inputAmount}} na partię, {{rolledGoal}} partii. Co się nie zejdzie, zostaje w bębnie. Czyste wieźcie do Davis.',
                     },
                     objective: {
                         ru: 'Заложить {{inputName}} в машины, отмыть {{rolledGoal}} партий и сдать в Дэвисе',
@@ -636,11 +637,11 @@ export const contracts = {
                 },
                 usd: {
                     description: {
-                        ru: 'Ваш пресс печатает, а скупщик даёт сорок центов с доллара. Я даю больше, потому что не перепродаю бумагу, а провожу её через выручку. {{inputAmount}} {{inputName}} на партию, {{rolledGoal}} партий. Испорченная партия остаётся в машине. Пачки везите ко мне в порт.',
-                        ua: 'Ваш прес друкує, а скупник дає сорок центів з долара. Я даю більше, бо не перепродаю папір, а проводжу його через виторг. {{inputAmount}} {{inputName}} на партію, {{rolledGoal}} партій. Зіпсована партія лишається в машині. Пачки везіть до мене в порт.',
-                        en: 'Your press prints and the fence pays forty cents on the dollar. I pay more, because I do not resell the paper - I put it through the takings. {{inputAmount}} {{inputName}} a batch, {{rolledGoal}} batches. A scrapped batch stays in the machine. Bring the stacks to me at the port.',
-                        de: 'Eure Presse druckt und der Hehler zahlt vierzig Cent pro Dollar. Ich zahle mehr, weil ich das Papier nicht weiterverkaufe, sondern durch die Einnahmen laufen lasse. {{inputAmount}} {{inputName}} pro Charge, {{rolledGoal}} Chargen. Eine verdorbene Charge bleibt in der Maschine. Bringt die Bündel zu mir in den Hafen.',
-                        pl: 'Wasza prasa drukuje, a paser daje czterdzieści centów za dolara. Ja daję więcej, bo nie odsprzedaję papieru, tylko przepuszczam go przez utarg. {{inputAmount}} {{inputName}} na partię, {{rolledGoal}} partii. Zepsuta partia zostaje w maszynie. Pliki wieźcie do mnie do portu.',
+                        ru: 'Скупщик даёт сорок центов, я больше: я эту бумагу не перепродаю, а провожу через кассу. {{inputAmount}} на партию, {{rolledGoal}} партий. Везите ко мне в порт.',
+                        ua: 'Скупник дає сорок центів, я більше: я цей папір не перепродаю, а проводжу через касу. {{inputAmount}} на партію, {{rolledGoal}} партій. Везіть до мене в порт.',
+                        en: 'The fence pays forty cents, I pay more: I put this paper through the till instead of reselling it. {{inputAmount}} a batch, {{rolledGoal}} batches. Bring it to me at the port.',
+                        de: 'Der Hehler zahlt vierzig Cent, ich mehr: dieses Papier verkaufe ich nicht weiter, es läuft durch die Kasse. {{inputAmount}} pro Charge, {{rolledGoal}} Chargen. Bringt es zu mir in den Hafen.',
+                        pl: 'Paser daje czterdzieści centów, ja więcej: tego papieru nie odsprzedaję, przepuszczam go przez kasę. {{inputAmount}} na partię, {{rolledGoal}} partii. Wieźcie do mnie do portu.',
                     },
                     objective: {
                         ru: 'Отмыть {{rolledGoal}} партий из {{inputName}} и сдать Шэдоу в порту',
@@ -652,11 +653,11 @@ export const contracts = {
                 },
                 eur: {
                     description: {
-                        ru: 'Евро идут через кассу тяжелее: у машин другой ход, а в книге купюры покрупнее. {{inputAmount}} на партию, {{rolledGoal}} партий, всего {{inputTotal}}. Отмытое везите в пустыню, на точку у Гранд-Сеноры.',
-                        ua: 'Євро йдуть через касу важче: у машин інший хід, а в книзі купюри більші. {{inputAmount}} на партію, {{rolledGoal}} партій, разом {{inputTotal}}. Відмите везіть у пустелю, на точку біля Гранд-Сенори.',
-                        en: 'Euros go through the till harder: the machines run differently and the books are written in bigger notes. {{inputAmount}} a batch, {{rolledGoal}} batches, {{inputTotal}} all told. Drive the clean stacks out to the desert, the point by Grand Senora.',
-                        de: 'Euro laufen schwerer durch die Kasse: die Maschinen laufen anders, und in den Büchern stehen größere Scheine. {{inputAmount}} pro Charge, {{rolledGoal}} Chargen, insgesamt {{inputTotal}}. Das Gewaschene fahrt ihr in die Wüste, zum Punkt bei Grand Senora.',
-                        pl: 'Euro idą przez kasę ciężej: maszyny chodzą inaczej, a w księdze są większe nominały. {{inputAmount}} na partię, {{rolledGoal}} partii, razem {{inputTotal}}. Wyprane wieźcie na pustynię, na punkt przy Grand Senora.',
+                        ru: 'Евро идут через кассу тяжелее: в книге купюры покрупнее. {{inputAmount}} на партию, {{rolledGoal}} партий. Отмытое везите к Гранд-Сеноре.',
+                        ua: 'Євро йдуть через касу важче: у книзі купюри більші. {{inputAmount}} на партію, {{rolledGoal}} партій. Відмите везіть до Гранд-Сенори.',
+                        en: 'Euros go through the till harder: the books are written in bigger notes. {{inputAmount}} a batch, {{rolledGoal}} batches. Drive the clean stacks out to Grand Senora.',
+                        de: 'Euro laufen schwerer durch die Kasse: in den Büchern stehen größere Scheine. {{inputAmount}} pro Charge, {{rolledGoal}} Chargen. Das Gewaschene fahrt ihr nach Grand Senora.',
+                        pl: 'Euro idą przez kasę ciężej: w księdze są większe nominały. {{inputAmount}} na partię, {{rolledGoal}} partii. Wyprane wieźcie pod Grand Senora.',
                     },
                     objective: {
                         ru: 'Отмыть {{rolledGoal}} партий из {{inputName}} и сдать у Гранд-Сеноры',
@@ -668,11 +669,11 @@ export const contracts = {
                 },
                 gbp: {
                     description: {
-                        ru: 'Фунты. Ничего крупнее полтинника, так что считать придётся дольше, а ошибок я прощаю меньше. {{inputAmount}} на партию, {{rolledGoal}} партий. Чистое отдадите Риперу на холмах.',
-                        ua: 'Фунти. Нічого більшого за півсотні, тож рахувати доведеться довше, а помилок я прощаю менше. {{inputAmount}} на партію, {{rolledGoal}} партій. Чисте віддасте Ріперу на пагорбах.',
-                        en: 'Pounds. Nothing above a fifty, so the count takes longer and I forgive fewer mistakes. {{inputAmount}} a batch, {{rolledGoal}} batches. The clean stacks go to Reaper up in the hills.',
-                        de: 'Pfund. Nichts über einem Fünfziger, also dauert das Zählen länger, und ich verzeihe weniger Fehler. {{inputAmount}} pro Charge, {{rolledGoal}} Chargen. Das Saubere gebt ihr Reaper oben in den Hügeln.',
-                        pl: 'Funty. Nic powyżej pięćdziesiątki, więc liczenie trwa dłużej, a błędów wybaczam mniej. {{inputAmount}} na partię, {{rolledGoal}} partii. Czyste oddacie Reaperowi na wzgórzach.',
+                        ru: 'Фунты. Ничего крупнее полтинника, считать дольше, ошибок прощаю меньше. {{inputAmount}} на партию, {{rolledGoal}} партий. Чистое отдадите Риперу на холмах.',
+                        ua: 'Фунти. Нічого більшого за півсотні, рахувати довше, помилок прощаю менше. {{inputAmount}} на партію, {{rolledGoal}} партій. Чисте віддасте Ріперу на пагорбах.',
+                        en: 'Pounds. Nothing above a fifty, so the count runs longer and I forgive less. {{inputAmount}} a batch, {{rolledGoal}} batches. The clean stacks go to Reaper in the hills.',
+                        de: 'Pfund. Nichts über einem Fünfziger, das Zählen dauert länger und ich verzeihe weniger. {{inputAmount}} pro Charge, {{rolledGoal}} Chargen. Das Saubere geht an Reaper in den Hügeln.',
+                        pl: 'Funty. Nic powyżej pięćdziesiątki, liczenie trwa dłużej, a błędów wybaczam mniej. {{inputAmount}} na partię, {{rolledGoal}} partii. Czyste oddacie Reaperowi na wzgórzach.',
                     },
                     objective: {
                         ru: 'Отмыть {{rolledGoal}} партий из {{inputName}} и сдать Риперу',
@@ -684,11 +685,11 @@ export const contracts = {
                 },
                 chf: {
                     description: {
-                        ru: 'Франки. Лучшая бумага, которую печатает ваш пресс, и самая злая лента. {{inputAmount}} на партию, {{rolledGoal}} партий, {{inputTotal}} всего. Один прогон в брак - и пачка остаётся в барабане. Привозите на побережье в Чумаш, лично.',
-                        ua: 'Франки. Найкращий папір, який друкує ваш прес, і найзліша стрічка. {{inputAmount}} на партію, {{rolledGoal}} партій, {{inputTotal}} разом. Один прогін у брак - і пачка лишається в барабані. Привозьте на узбережжя в Чумаш, особисто.',
-                        en: 'Francs. The best paper your press prints, and the meanest belt. {{inputAmount}} a batch, {{rolledGoal}} batches, {{inputTotal}} all told. One run scrapped and the stack stays in the drum. Bring it to the coast at Chumash, in person.',
-                        de: 'Franken. Das beste Papier, das eure Presse druckt, und das gemeinste Band. {{inputAmount}} pro Charge, {{rolledGoal}} Chargen, insgesamt {{inputTotal}}. Ein Durchlauf Ausschuss, und das Bündel bleibt in der Trommel. Bringt es an die Küste bei Chumash, persönlich.',
-                        pl: 'Franki. Najlepszy papier, jaki drukuje wasza prasa, i najbardziej wredna taśma. {{inputAmount}} na partię, {{rolledGoal}} partii, {{inputTotal}} razem. Jeden przebieg na straty i plik zostaje w bębnie. Przywieźcie na wybrzeże do Chumash, osobiście.',
+                        ru: 'Франки - лучшая бумага вашего пресса и самая злая лента. {{inputAmount}} на партию, {{rolledGoal}} партий. Брак остаётся в барабане. Привозите в Чумаш, лично.',
+                        ua: 'Франки - найкращий папір вашого пресу і найзліша стрічка. {{inputAmount}} на партію, {{rolledGoal}} партій. Брак лишається в барабані. Привозьте в Чумаш, особисто.',
+                        en: 'Francs. The best paper your press prints and the meanest belt. {{inputAmount}} a batch, {{rolledGoal}} batches. A scrapped run stays in the drum. Bring it to Chumash, in person.',
+                        de: 'Franken. Das beste Papier eurer Presse und das gemeinste Band. {{inputAmount}} pro Charge, {{rolledGoal}} Chargen. Ausschuss bleibt in der Trommel. Bringt es persönlich nach Chumash.',
+                        pl: 'Franki. Najlepszy papier waszej prasy i najbardziej wredna taśma. {{inputAmount}} na partię, {{rolledGoal}} partii. Brak zostaje w bębnie. Przywieźcie do Chumash, osobiście.',
                     },
                     objective: {
                         ru: 'Отмыть {{rolledGoal}} партий из {{inputName}} и сдать на побережье Чумаш',
@@ -702,12 +703,40 @@ export const contracts = {
         },
     },
     hud: {
-        loaded: {
-            ru: 'Загружено в машину',
-            ua: 'Завантажено в машину',
-            en: 'Loaded in the car',
-            de: 'Im Auto geladen',
-            pl: 'Zaladowane do auta',
+        delivered: {
+            ru: 'Сдано',
+            ua: 'Здано',
+            en: 'Handed in',
+            de: 'Abgegeben',
+            pl: 'Zdano',
+        },
+        inTransit: {
+            ru: 'В пути',
+            ua: 'В дорозі',
+            en: 'In transit',
+            de: 'Unterwegs',
+            pl: 'W drodze',
+        },
+        onHand: {
+            ru: 'У тебя на руках',
+            ua: 'У тебе на руках',
+            en: 'On you',
+            de: 'Bei dir',
+            pl: 'Przy tobie',
+        },
+        toProduce: {
+            ru: 'Осталось произвести',
+            ua: 'Залишилось виробити',
+            en: 'Left to produce',
+            de: 'Noch zu produzieren',
+            pl: 'Zostalo do wyprodukowania',
+        },
+        objective: {
+            ru: '{{item}}',
+            ua: '{{item}}',
+            en: '{{item}}',
+            de: '{{item}}',
+            pl: '{{item}}',
         },
         available: {
             ru: 'Осталось на точке',
