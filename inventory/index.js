@@ -39,6 +39,16 @@ const inventory = {
         pl: 'Przedmiot otrzymany',
     },
 
+    dismantle: {
+        notWorn: {
+            ru: 'Разобрать можно только сильно изношенное снаряжение',
+            ua: 'Розібрати можна лише сильно зношене спорядження',
+            en: 'Only badly worn gear can be dismantled',
+            de: 'Nur stark abgenutzte Ausrüstung kann zerlegt werden',
+            pl: 'Rozłożyć można tylko mocno zużyty sprzęt',
+        },
+    },
+
     weaponBroken: {
         ru: 'Ваше оружие сломалось от износа',
         ua: 'Ваша зброя зламалася від зносу',

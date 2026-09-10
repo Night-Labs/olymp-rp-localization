@@ -72,6 +72,7 @@ import flappyBird from './flappyBird';
 import grandmaster from './grandmaster';
 import walkieTalkie from './walkieTalkie';
 import drone from './drone';
+import photoCamera from './photoCamera';
 import elevators from './elevators';
 import shootingRange from './shootingRange';
 import prism from './prism';
@@ -113,7 +114,7 @@ import numberPlates from './numberPlates';
 import vehicleKeys from './vehicleKeys';
 import payment from './payment';
 import militaryGates from './militaryGates';
-import signEditor from './signEditor';
+import designEditor from './designEditor';
 import funicular from './funicular';
 import freightTrain from './freightTrain';
 import ping from './ping';
@@ -194,6 +195,7 @@ export default {
     grandmaster,
     walkieTalkie,
     drone,
+    photoCamera,
     elevators,
     shootingRange,
     diving,
@@ -235,7 +237,7 @@ export default {
     wars,
     effects,
     militaryGates,
-    signEditor,
+    designEditor,
     funicular,
     freightTrain,
     ping,

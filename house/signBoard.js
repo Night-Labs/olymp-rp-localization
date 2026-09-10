@@ -27,6 +27,28 @@ export default {
         de: 'Die Tafel konnte nicht gespeichert werden',
         pl: 'Nie udało się zapisać tablicy',
     },
+    // The payment sheet's line (modules/payment).
+    payment: {
+        ru: 'Оформление доски в доме #{{houseId}}',
+        ua: 'Оформлення дошки в будинку #{{houseId}}',
+        en: 'Board design in house #{{houseId}}',
+        de: 'Tafelgestaltung in Haus #{{houseId}}',
+        pl: 'Projekt tablicy w domu #{{houseId}}',
+    },
+    paid: {
+        ru: 'Доска сохранена, списано ${{price}}',
+        ua: 'Дошку збережено, списано ${{price}}',
+        en: 'Board saved, ${{price}} charged',
+        de: 'Tafel gespeichert, ${{price}} abgebucht',
+        pl: 'Tablica zapisana, pobrano ${{price}}',
+    },
+    savePrice: {
+        ru: 'Сохранить за ${{price}}',
+        ua: 'Зберегти за ${{price}}',
+        en: 'Save for ${{price}}',
+        de: 'Für ${{price}} speichern',
+        pl: 'Zapisz za ${{price}}',
+    },
     title: {
         ru: 'Доска',
         ua: 'Дошка',

@@ -948,6 +948,22 @@ export const items = {
             pl: 'Instrukcja użytkowania: Stań w miejscu, w którym chcesz umieścić radar, obróć się w kierunku, w którym ma być skierowany, i użyj przedmiotu. Wybierz minimalną prędkość.',
         },
     },
+    camera: {
+        name: {
+            ru: 'Фотоаппарат',
+            ua: 'Фотоапарат',
+            en: 'Camera',
+            de: 'Kamera',
+            pl: 'Aparat',
+        },
+        desc: {
+            ru: 'Зеркальный фотоаппарат. Примени, чтобы поднять его к лицу: игра уйдёт в режим съёмки, колесо мыши меняет фокусное расстояние, ЛКМ спускает затвор.',
+            ua: 'Дзеркальний фотоапарат. Застосуй, щоб піднести його до обличчя: гра перейде в режим зйомки, колесо миші змінює фокусну відстань, ЛКМ спускає затвор.',
+            en: 'A reflex camera. Use it to raise it to your face: the game goes into shooting mode, the mouse wheel changes the focal length and the left button releases the shutter.',
+            de: 'Eine Spiegelreflexkamera. Benutze sie, um sie ans Gesicht zu heben: das Spiel wechselt in den Aufnahmemodus, das Mausrad ändert die Brennweite und die linke Maustaste löst aus.',
+            pl: 'Lustrzanka. Użyj, aby unieść ją do twarzy: gra przechodzi w tryb fotografowania, kółko myszy zmienia ogniskową, a lewy przycisk zwalnia migawkę.',
+        },
+    },
     bodycamera: {
         name: {
             ru: 'Нагрудная камера',

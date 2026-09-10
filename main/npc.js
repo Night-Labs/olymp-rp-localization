@@ -347,6 +347,13 @@ export const npc = {
             de: 'Sophie',
             pl: 'Sophie',
         },
+        houseConcierge: {
+            ru: 'Виктор',
+            ua: 'Віктор',
+            en: 'Victor',
+            de: 'Victor',
+            pl: 'Wiktor',
+        },
         officeSecretaryMale: {
             ru: 'Даниэль',
             ua: 'Даніель',
@@ -447,6 +454,13 @@ export const npc = {
             en: 'Office Secretary',
             de: 'Bürosekretärin',
             pl: 'Sekretarka biura',
+        },
+        houseConcierge: {
+            ru: 'Консьерж',
+            ua: 'Консьєрж',
+            en: 'Concierge',
+            de: 'Concierge',
+            pl: 'Konsjerż',
         },
         officeSecretaryMale: {
             ru: 'Секретарь офиса',

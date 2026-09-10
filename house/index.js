@@ -6,6 +6,7 @@ import upgrade from './upgrade';
 import residents from './residents';
 import tv from './tv';
 import signBoard from './signBoard';
+import concierge from './concierge';
 
 export default {
     ...cef,
@@ -16,6 +17,7 @@ export default {
     residents,
     tv,
     signBoard,
+    concierge,
     houseResident: {
         ru: 'Житель дома',
         ua: 'Мешканець дому',

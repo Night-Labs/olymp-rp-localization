@@ -104,6 +104,13 @@ export const settings = {
             de: 'Möbeleditor',
             pl: 'Edytor mebli',
         },
+        photo: {
+            ru: 'Фотоаппарат',
+            ua: 'Фотоапарат',
+            en: 'Camera',
+            de: 'Kamera',
+            pl: 'Aparat',
+        },
     },
     walkingStyles: {
         default: {

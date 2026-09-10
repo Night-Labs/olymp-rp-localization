@@ -215,6 +215,14 @@ export const inventory = {
             pl: 'Upuść',
             zh: '下降',
         },
+        dismantle: {
+            ru: 'Разобрать',
+            ua: 'Розібрати',
+            en: 'Dismantle',
+            de: 'Zerlegen',
+            pl: 'Rozłóż',
+            zh: '拆解',
+        },
         durability: {
             ru: 'Прочность',
             ua: 'Міцність',

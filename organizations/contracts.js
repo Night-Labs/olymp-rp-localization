@@ -1,6 +1,7 @@
 import { harvestList, harvestBlips } from './contractFamilies/harvest';
 import { cargoList, cargoBlips } from './contractFamilies/cargo';
 import { workList, workBlips } from './contractFamilies/work';
+import { pressList } from './contractFamilies/press';
 
 export const contracts = {
     notify: {
@@ -125,6 +126,7 @@ export const contracts = {
         ...harvestList,
         ...cargoList,
         ...workList,
+        ...pressList,
         header: {
             ru: 'Доступные контракты (репутация: доверие {{legal}}, авторитет {{crime}}):',
             ua: 'Доступні контракти (репутація: довіра {{legal}}, авторитет {{crime}}):',
@@ -724,6 +726,20 @@ export const contracts = {
             de: 'Bei dir',
             pl: 'Przy tobie',
         },
+        photosOnHand: {
+            ru: 'Снимков в камере',
+            ua: 'Знімків у камері',
+            en: 'Frames in the camera',
+            de: 'Aufnahmen in der Kamera',
+            pl: 'Zdjęć w aparacie',
+        },
+        spotsLeftIn: {
+            ru: 'Осталось точек - {{area}}',
+            ua: 'Залишилось точок - {{area}}',
+            en: 'Marks left - {{area}}',
+            de: 'Punkte übrig - {{area}}',
+            pl: 'Pozostało miejsc - {{area}}',
+        },
         toProduce: {
             ru: 'Осталось произвести',
             ua: 'Залишилось виробити',
@@ -754,6 +770,220 @@ export const contracts = {
             en: 'Drop the crate',
             de: 'Kiste wegwerfen',
             pl: 'Wyrzuć skrzynię',
+        },
+    },
+
+    // Lines the camera viewfinder prints under the frame while a photo order is running.
+    photo: {
+        accepted: {
+            ru: 'Снято: {{spot}}',
+            ua: 'Знято: {{spot}}',
+            en: 'Got it: {{spot}}',
+            de: 'Im Kasten: {{spot}}',
+            pl: 'Jest: {{spot}}',
+        },
+        status: {
+            done: {
+                ru: 'Эта точка уже снята',
+                ua: 'Ця точка вже знята',
+                en: 'This spot is already shot',
+                de: 'Dieser Punkt ist schon im Kasten',
+                pl: 'To miejsce jest już sfotografowane',
+            },
+        },
+        // The notification after a frame the desk will pay for. The viewfinder says it too, but
+        // the camera comes down the moment the shot is taken and the count has to survive that.
+        notify: {
+            shotReady: {
+                ru: 'Снимок готов: {{spot}}. В камере кадров: {{shots}}, точек осталось: {{left}}. Плёнку сдают в Weazel News',
+                ua: 'Знімок готовий: {{spot}}. У камері кадрів: {{shots}}, точок залишилось: {{left}}. Плівку здають у Weazel News',
+                en: 'Frame ready: {{spot}}. {{shots}} in the camera, {{left}} marks left. The film goes to Weazel News',
+                de: 'Aufnahme im Kasten: {{spot}}. {{shots}} in der Kamera, {{left}} Punkte übrig. Der Film geht zu Weazel News',
+                pl: 'Zdjęcie gotowe: {{spot}}. W aparacie {{shots}}, pozostało miejsc: {{left}}. Film oddaje się w Weazel News',
+            },
+        },
+        errors: {
+            tooClose: {
+                ru: 'Слишком близко - отойди на {{distance}} м',
+                ua: 'Занадто близько - відійди на {{distance}} м',
+                en: 'Too close - back off to {{distance}} m',
+                de: 'Zu nah - geh auf {{distance}} m zurück',
+                pl: 'Za blisko - odejdź na {{distance}} m',
+            },
+            tooFar: {
+                ru: 'Слишком далеко - подойди ближе {{distance}} м',
+                ua: 'Занадто далеко - підійди ближче {{distance}} м',
+                en: 'Too far - get within {{distance}} m',
+                de: 'Zu weit - komm auf {{distance}} m heran',
+                pl: 'Za daleko - podejdź bliżej niż {{distance}} m',
+            },
+            alreadyShot: {
+                ru: 'Этот вид уже сдан',
+                ua: 'Цей вид уже здано',
+                en: 'That view is already filed',
+                de: 'Diese Ansicht ist schon abgegeben',
+                pl: 'Ten widok jest już oddany',
+            },
+            subjectMissed: {
+                ru: 'Нужного вида нет в кадре',
+                ua: 'Потрібного виду немає в кадрі',
+                en: 'The subject is out of frame',
+                de: 'Das Motiv ist nicht im Bild',
+                pl: 'Motyw jest poza kadrem',
+            },
+            framePlayer: {
+                ru: 'В кадре человек',
+                ua: 'У кадрі людина',
+                en: 'Someone is in the shot',
+                de: 'Jemand steht im Bild',
+                pl: 'Ktoś jest w kadrze',
+            },
+            frameVehicle: {
+                ru: 'В кадре машина',
+                ua: 'У кадрі машина',
+                en: 'A car is in the shot',
+                de: 'Ein Auto steht im Bild',
+                pl: 'Samochód jest w kadrze',
+            },
+            framePed: {
+                ru: 'В кадре посторонний',
+                ua: 'У кадрі стороння особа',
+                en: 'A bystander is in the shot',
+                de: 'Ein Passant steht im Bild',
+                pl: 'Ktoś obcy jest w kadrze',
+            },
+            needMembers: {
+                ru: 'Рядом должна быть семья',
+                ua: 'Поруч має бути сім\'я',
+                en: 'The family has to be here',
+                de: 'Die Familie muss dabei sein',
+                pl: 'Rodzina musi tu być',
+            },
+        },
+    },
+
+    // The zones the photo marks live in - a mark carries no name of its own, it is named after
+    // its district. Values are the game's own region names (`files/locations/<lang>.json`), keyed
+    // by the popzone label the coordinate falls in (`.claude/skills/gta-data`, `whereis.js`).
+    photoZones: {
+        lago: {
+            ru: 'Лаго-Занкудо',
+            ua: 'Лаго-Занкудо',
+            en: 'Lago Zancudo',
+            de: 'Lago Zancudo',
+            pl: 'Lago Zancudo',
+        },
+        zancudo: {
+            ru: 'Река Занкудо',
+            ua: 'Річка Занкудо',
+            en: 'Zancudo River',
+            de: 'Zancudo River',
+            pl: 'Rzeka Zancudo',
+        },
+        cmsw: {
+            ru: 'Заповедник горы Чилиад',
+            ua: 'Заповідник гори Чіліад',
+            en: 'Chiliad Mountain State Wilderness',
+            de: 'Chiliad-Mountain-Naturschutzgebiet',
+            pl: 'Park krajobrazowy Góry Chiliad',
+        },
+        paleto: {
+            ru: 'Палето-Бэй',
+            ua: 'Палето-Бей',
+            en: 'Paleto Bay',
+            de: 'Paleto Bay',
+            pl: 'Paleto Bay',
+        },
+        desrt: {
+            ru: 'Пустыня Гранд-Сенора',
+            ua: 'Пустеля Гранд-Сенора',
+            en: 'Grand Senora Desert',
+            de: 'Grand-Senora-Wüste',
+            pl: 'Pustynia Grand Senora',
+        },
+        palfor: {
+            ru: 'Лес Палето',
+            ua: 'Ліс Палето',
+            en: 'Paleto Forest',
+            de: 'Paleto Forest',
+            pl: 'Las Paleto',
+        },
+        oceana: {
+            ru: 'Тихий океан',
+            ua: 'Тихий океан',
+            en: 'Pacific Ocean',
+            de: 'Pazifik',
+            pl: 'Ocean Spokojny',
+        },
+        mtchil: {
+            ru: 'Гора Чилиад',
+            ua: 'Гора Чіліад',
+            en: 'Mount Chiliad',
+            de: 'Mount Chiliad',
+            pl: 'Góra Chiliad',
+        },
+        grapes: {
+            ru: 'Грейпсид',
+            ua: 'Грейпсід',
+            en: 'Grapeseed',
+            de: 'Grapeseed',
+            pl: 'Grapeseed',
+        },
+        tongvah: {
+            ru: 'Тонгва-Хиллз',
+            ua: 'Тонгва-Гіллз',
+            en: 'Tongva Hills',
+            de: 'Tongva Hills',
+            pl: 'Tongva Hills',
+        },
+        mtgordo: {
+            ru: 'Гора Гордо',
+            ua: 'Гора Гордо',
+            en: 'Mount Gordo',
+            de: 'Mount Gordo',
+            pl: 'Góra Gordo',
+        },
+        sanchia: {
+            ru: 'Сан-Шаньский горный хребет',
+            ua: 'Сан-Шаньський хребет',
+            en: 'San Chianski Mountain Range',
+            de: 'San-Chianski-Bergkette',
+            pl: 'Masyw górski San Chianski',
+        },
+        windf: {
+            ru: 'Ветряная ферма Ron Alternates',
+            ua: 'Вітрова ферма Ron Alternates',
+            en: 'Ron Alternates Wind Farm',
+            de: 'Ron-Alternates-Windpark',
+            pl: 'Farma wiatrowa Ron Alternates',
+        },
+        palcov: {
+            ru: 'Бухта Палето',
+            ua: 'Бухта Палето',
+            en: 'Paleto Cove',
+            de: 'Paleto Cove',
+            pl: 'Zatoka Paleto',
+        },
+        zquar: {
+            ru: 'Дэвис-Кварц',
+            ua: 'Девіс-Кварц',
+            en: 'Davis Quartz',
+            de: 'Davis Quartz',
+            pl: 'Davis Quartz',
+        },
+        chu: {
+            ru: 'Чумаш',
+            ua: 'Чумаш',
+            en: 'Chumash',
+            de: 'Chumash',
+            pl: 'Chumash',
+        },
+        bhamca: {
+            ru: 'Каньон Бэнхэм',
+            ua: 'Каньйон Бенгем',
+            en: 'Banham Canyon',
+            de: 'Banham Canyon',
+            pl: 'Kanion Banham',
         },
     },
 
@@ -806,6 +1036,14 @@ export const contracts = {
             en: "Dice's corner",
             de: 'Dice-Ecke',
             pl: 'Róg Dice',
+        },
+        // Where the film of a photo order is handed in - the Weazel News picture desk.
+        pictureDesk: {
+            ru: 'Фотослужба Weazel News',
+            ua: 'Фотослужба Weazel News',
+            en: 'Weazel News picture desk',
+            de: 'Bildredaktion von Weazel News',
+            pl: 'Dział zdjęć Weazel News',
         },
         // These read as a prefix, not as a standalone label: the runner composes them into
         // "<point> - <contract> <tier>" for the map legend and the GPS list.
@@ -1101,6 +1339,15 @@ export const contracts = {
         },
     },
     success: {
+        // A photo order is a district rather than a list of named places, so the one thing the
+        // taker has to hear is where they are driving.
+        photoTaken: {
+            ru: 'Контракт {{contract}} принят: {{goal}} снимков, район - {{area}}.',
+            ua: 'Контракт {{contract}} прийнятий: {{goal}} знімків, район - {{area}}.',
+            en: 'Contract {{contract}} taken: {{goal}} pictures around {{area}}.',
+            de: 'Vertrag {{contract}} angenommen: {{goal}} Aufnahmen im Gebiet {{area}}.',
+            pl: 'Kontrakt {{contract}} przyjęty: {{goal}} zdjęć, rejon - {{area}}.',
+        },
         taken: {
             ru: 'Контракт {{contract}} принят. Цель: {{goal}}.',
             ua: 'Контракт {{contract}} прийнятий. Мета: {{goal}}.',
@@ -1142,6 +1389,13 @@ export const contracts = {
             en: 'Batch accepted: {{units}} units counted toward the contract.',
             de: 'Charge angenommen: {{units}} Einheiten auf den Vertrag angerechnet.',
             pl: 'Partia przyjęta: zaliczono {{units}} jedn. do kontraktu.',
+        },
+        photosDelivered: {
+            ru: 'Фотослужба приняла снимков: {{units}}. Зачтено в контракт.',
+            ua: 'Фотослужба прийняла знімків: {{units}}. Зараховано в контракт.',
+            en: 'The picture desk took {{units}} frames. Counted toward the contract.',
+            de: 'Die Bildredaktion hat {{units}} Aufnahmen genommen. Auf den Vertrag angerechnet.',
+            pl: 'Dział zdjęć przyjął {{units}} zdjęć. Zaliczono do kontraktu.',
         },
         crateLoaded: {
             ru: 'Ящик в багажнике. Можно грузить следующий.',
