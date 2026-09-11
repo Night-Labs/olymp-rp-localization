@@ -118,6 +118,7 @@ import designEditor from './designEditor';
 import funicular from './funicular';
 import freightTrain from './freightTrain';
 import ping from './ping';
+import weaponAttachments from './weaponAttachments';
 
 export default {
     account,
@@ -241,6 +242,7 @@ export default {
     funicular,
     freightTrain,
     ping,
+    weaponAttachments,
 };
 
 

@@ -18,12 +18,12 @@ export default {
     },
 
     timeUntilDeath: {
-        ru: 'Время до смерти',
-        ua: 'Час до смерті',
-        en: 'Time until death',
-        de: 'Zeit bis zum Tod',
-        pl: 'Czas do śmierci',
-        zh:'你死亡了',
+        ru: 'До смерти',
+        ua: 'До смерті',
+        en: 'Until death',
+        de: 'Bis zum Tod',
+        pl: 'Do śmierci',
+        zh: '距离死亡',
     },
 
     giveUp: {
@@ -33,6 +33,78 @@ export default {
         de: 'Aufgeben',
         pl: 'Poddaj się',
         zh:'放弃',
+    },
+
+    fight: {
+        ru: 'Бороться',
+        ua: 'Боротися',
+        en: 'Fight',
+        de: 'Kämpfen',
+        pl: 'Walcz',
+        zh: '战斗',
+    },
+
+    youDied: {
+        ru: 'Вы умерли',
+        ua: 'Ви померли',
+        en: 'You died',
+        de: 'Du bist gestorben',
+        pl: 'Zginąłeś',
+        zh: '你死了',
+    },
+
+    cause: {
+        ru: 'Причина',
+        ua: 'Причина',
+        en: 'Cause',
+        de: 'Ursache',
+        pl: 'Przyczyna',
+        zh: '原因',
+    },
+
+    killer: {
+        ru: 'Убийца',
+        ua: 'Вбивця',
+        en: 'Killer',
+        de: 'Mörder',
+        pl: 'Zabójca',
+        zh: '凶手',
+    },
+
+    distance: {
+        ru: 'Расстояние',
+        ua: 'Відстань',
+        en: 'Distance',
+        de: 'Entfernung',
+        pl: 'Odległość',
+        zh: '距离',
+    },
+
+    distanceValue: {
+        ru: '{{value}} м.',
+        ua: '{{value}} м.',
+        en: '{{value}} m',
+        de: '{{value}} m',
+        pl: '{{value}} m',
+        zh: '{{value}} 米',
+    },
+
+    weapon: {
+        ru: 'Оружие',
+        ua: 'Зброя',
+        en: 'Weapon',
+        de: 'Waffe',
+        pl: 'Broń',
+        zh: '武器',
+    },
+
+    causeRunOver: {
+        ru: 'Задавили машиной',
+        ua: 'Задавили машиною',
+        en: 'Run over by a car',
+        de: 'Von einem Auto überfahren',
+        pl: 'Przejechany przez samochód',
+        zh: '被车撞死',
     },
 
     timerExplanationContinue: {

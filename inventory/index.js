@@ -80,6 +80,30 @@ const inventory = {
         pl: 'Tego się tu nie wkłada',
     },
 
+    attachments: {
+        doesNotFit: {
+            ru: 'Этот обвес на это оружие не ставится',
+            ua: 'Цей обвіс на цю зброю не ставиться',
+            en: 'This part does not fit this weapon',
+            de: 'Dieser Aufsatz passt nicht auf diese Waffe',
+            pl: 'Ten dodatek nie pasuje do tej broni',
+        },
+        wrongSlot: {
+            ru: 'Этот обвес ставится в другой слот',
+            ua: 'Цей обвіс ставиться в інший слот',
+            en: 'This part goes into a different slot',
+            de: 'Dieser Aufsatz gehört in einen anderen Steckplatz',
+            pl: 'Ten dodatek montuje się w innym gnieździe',
+        },
+        fromPocketsOnly: {
+            ru: 'Обвес ставится только из карманов',
+            ua: 'Обвіс ставиться лише з кишень',
+            en: 'Parts are fitted from the pockets only',
+            de: 'Aufsätze werden nur aus den Taschen angebracht',
+            pl: 'Dodatki montuje się tylko z kieszeni',
+        },
+    },
+
     slotsNotEqual: {
         ru: 'Инвентарь изменился, откройте его заново',
         ua: 'Інвентар змінився, відкрийте його заново',

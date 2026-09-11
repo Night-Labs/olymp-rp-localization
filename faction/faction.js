@@ -651,6 +651,20 @@ export const faction = {
         'de': 'Du hast nicht genug Rechte, um eine Fahndung zu vergeben',
         'pl': 'Nie masz wystarczających uprawnień, by nadać poziom poszukiwania',
     },
+    attorneyAppealHeader: {
+        'ru': 'Адвокат',
+        'ua': 'Адвокат',
+        'en': 'Attorney',
+        'de': 'Anwalt',
+        'pl': 'Adwokat',
+    },
+    attorneyAppeal: {
+        'ru': 'Адвокат добился пересмотра дела: {{name}}, розыск {{from}} -> {{to}}',
+        'ua': 'Адвокат добився перегляду справи: {{name}}, розшук {{from}} -> {{to}}',
+        'en': 'An attorney had the case reviewed: {{name}}, wanted level {{from}} -> {{to}}',
+        'de': 'Ein Anwalt hat eine Neubewertung erreicht: {{name}}, Fahndung {{from}} -> {{to}}',
+        'pl': 'Adwokat doprowadził do rewizji sprawy: {{name}}, poziom poszukiwania {{from}} -> {{to}}',
+    },
     noAccessToDoors: {
         'ru': 'Нет доступа управлению дверьми',
         'ua': 'Немає доступу до керування дверима',

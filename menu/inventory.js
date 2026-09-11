@@ -223,6 +223,14 @@ export const inventory = {
             pl: 'Rozłóż',
             zh: '拆解',
         },
+        attachments: {
+            ru: 'Обвесы',
+            ua: 'Обвіси',
+            en: 'Attachments',
+            de: 'Aufsätze',
+            pl: 'Dodatki',
+            zh: '配件',
+        },
         durability: {
             ru: 'Прочность',
             ua: 'Міцність',
@@ -238,6 +246,15 @@ export const inventory = {
             en: 'This weapon is exclusive and will not drop upon death.',
             de: 'Diese Waffe ist exklusiv und wird beim Tod nicht fallen gelassen.',
             pl: 'Ta broń jest ekskluzywna i nie wypadnie po śmierci.',
+        },
+    },
+    attachments: {
+        title: {
+            ru: 'Обвесы',
+            ua: 'Обвіси',
+            en: 'Attachments',
+            de: 'Aufsätze',
+            pl: 'Dodatki',
         },
     },
     quantityMenu: {

@@ -392,6 +392,13 @@ export default {
             de: 'Entlassung',
             pl: 'Zwolnienie',
         },
+        attorney: {
+            ru: 'Адвокат',
+            ua: 'Адвокат',
+            en: 'Attorney',
+            de: 'Anwalt',
+            pl: 'Adwokat',
+        },
     },
     //
     noResults: {
