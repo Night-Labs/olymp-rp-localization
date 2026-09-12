@@ -95,13 +95,6 @@ const inventory = {
             de: 'Dieser Aufsatz gehört in einen anderen Steckplatz',
             pl: 'Ten dodatek montuje się w innym gnieździe',
         },
-        fromPocketsOnly: {
-            ru: 'Обвес ставится только из карманов',
-            ua: 'Обвіс ставиться лише з кишень',
-            en: 'Parts are fitted from the pockets only',
-            de: 'Aufsätze werden nur aus den Taschen angebracht',
-            pl: 'Dodatki montuje się tylko z kieszeni',
-        },
     },
 
     slotsNotEqual: {
