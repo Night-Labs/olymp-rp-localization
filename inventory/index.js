@@ -95,6 +95,13 @@ const inventory = {
             de: 'Dieser Aufsatz gehört in einen anderen Steckplatz',
             pl: 'Ten dodatek montuje się w innym gnieździe',
         },
+        broken: {
+            ru: 'Обвес {{name}} сломался от износа',
+            ua: 'Обвіс {{name}} зламався від зносу',
+            en: 'Your {{name}} broke from wear',
+            de: 'Dein {{name}} ist durch Verschleiß zerbrochen',
+            pl: 'Dodatek {{name}} zepsuł się od zużycia',
+        },
     },
 
     slotsNotEqual: {
