@@ -761,6 +761,15 @@ export const contracts = {
             de: 'Am Beladepunkt uebrig',
             pl: 'Zostalo na punkcie',
         },
+        // The line a runner-less contract adds to the block of the job it rides: the order's own
+        // name, with its count. Nothing but the name - the block around it belongs to the job.
+        contract: {
+            ru: '{{contract}}',
+            ua: '{{contract}}',
+            en: '{{contract}}',
+            de: '{{contract}}',
+            pl: '{{contract}}',
+        },
     },
 
     actions: {
@@ -1377,11 +1386,18 @@ export const contracts = {
             pl: 'Kontrakt {{contract}} wykonany! Nagroda zaliczona.',
         },
         completedFamily: {
-            ru: 'Семейный контракт {{contract}} выполнен! Казна получила награду.',
-            ua: 'Сімейний контракт {{contract}} виконано! Казна отримала винагороду.',
-            en: 'Family contract {{contract}} completed! Treasury received the reward.',
-            de: 'Familienvertrag {{contract}} abgeschlossen! Die Kasse erhielt die Belohnung.',
-            pl: 'Kontrakt rodzinny {{contract}} wykonany! Skarbiec otrzymał nagrodę.',
+            ru: 'Семейный контракт {{contract}} выполнен! Награда зачислена на баланс организации.',
+            ua: 'Сімейний контракт {{contract}} виконано! Винагороду зараховано на баланс організації.',
+            en: 'Family contract {{contract}} completed! The reward went to the organization balance.',
+            de: 'Familienvertrag {{contract}} abgeschlossen! Die Belohnung ging auf das Organisationsguthaben.',
+            pl: 'Kontrakt rodzinny {{contract}} wykonany! Nagroda trafiła na bilans organizacji.',
+        },
+        completedFamilyShared: {
+            ru: 'Семейный контракт {{contract}} выполнен! Участники получили {{share}}% награды по вкладу.',
+            ua: 'Сімейний контракт {{contract}} виконано! Учасники отримали {{share}}% винагороди за внеском.',
+            en: 'Family contract {{contract}} completed! Members received {{share}}% of the reward by contribution.',
+            de: 'Familienvertrag {{contract}} abgeschlossen! Die Mitglieder erhielten {{share}}% der Belohnung nach Beitrag.',
+            pl: 'Kontrakt rodzinny {{contract}} wykonany! Członkowie otrzymali {{share}}% nagrody według wkładu.',
         },
         batchDelivered: {
             ru: 'Партия принята: {{units}} ед. зачтено в контракт.',
@@ -1633,11 +1649,11 @@ export const contracts = {
             pl: 'Za mało gotówki, aby aktywować kontrakt.',
         },
         notEnoughOrgMoneyToActivate: {
-            ru: 'В казне организации недостаточно денег для активации контракта.',
-            ua: 'У казні організації недостатньо грошей для активації контракту.',
-            en: 'The organization treasury cannot cover the contract activation.',
-            de: 'Die Organisationskasse kann die Vertragsaktivierung nicht decken.',
-            pl: 'Kasa organizacji nie pokryje aktywacji kontraktu.',
+            ru: 'На балансе организации недостаточно денег для активации контракта.',
+            ua: 'На балансі організації недостатньо грошей для активації контракту.',
+            en: 'The organization balance cannot cover the contract activation.',
+            de: 'Das Organisationsguthaben reicht nicht für die Vertragsaktivierung.',
+            pl: 'Bilans organizacji nie pokryje aktywacji kontraktu.',
         },
         characterLevelTooLow: {
             ru: 'Ваш уровень персонажа слишком низкий для этого контракта.',
@@ -1758,11 +1774,11 @@ export const contracts = {
             pl: 'Partia poszła na straty. {{amount}} {{itemName}} zostało w bębnie.',
         },
         needMembersNearby: {
-            ru: 'Для сдачи нужно {{required}} членов организации рядом (в радиусе {{radius}} м). Груз остался при вас.',
-            ua: 'Для здачі потрібно {{required}} членів організації поруч (у радіусі {{radius}} м). Вантаж залишився при вас.',
-            en: 'You need {{required}} organization members nearby (within {{radius}} m) to hand this over. You kept the cargo.',
-            de: 'Für die Übergabe braucht ihr {{required}} Mitglieder in der Nähe (im Umkreis von {{radius}} m). Die Ladung bleibt bei dir.',
-            pl: 'Do zdania potrzeba {{required}} członków organizacji w pobliżu (w promieniu {{radius}} m). Ładunek został przy tobie.',
+            ru: 'Работать по контракту {{contract}} нужно вместе: рядом должно быть {{required}} членов организации (в радиусе {{radius}} м). Сдавать груз можно и в одиночку.',
+            ua: 'Працювати за контрактом {{contract}} потрібно разом: поруч має бути {{required}} членів організації (у радіусі {{radius}} м). Здавати вантаж можна й самому.',
+            en: 'Working the {{contract}} contract takes a crew: {{required}} organization members within {{radius}} m. Handing the load in can be done alone.',
+            de: 'Am Auftrag {{contract}} wird gemeinsam gearbeitet: {{required}} Mitglieder im Umkreis von {{radius}} m. Die Abgabe geht auch allein.',
+            pl: 'Przy kontrakcie {{contract}} pracuje się razem: {{required}} członków organizacji w promieniu {{radius}} m. Zdać ładunek można samemu.',
         },
         maxPerPlayerReached: {
             ru: 'По контракту {{contract}} с одного игрока принимаем максимум {{cap}} единиц. Передайте остаток партнёрам.',

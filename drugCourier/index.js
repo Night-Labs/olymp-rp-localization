@@ -71,6 +71,14 @@ export default {
         pl: 'Aby zostawić skrytkę',
     },
 
+    batchNoSpace: {
+        ru: 'В карманах нет места для партии товара',
+        ua: 'У кишенях немає місця для партії товару',
+        en: 'There is no room in your pockets for the batch',
+        de: 'In deinen Taschen ist kein Platz für die Charge',
+        pl: 'W kieszeniach nie ma miejsca na partie towaru',
+    },
+
     youDontHaveItem: {
         ru: 'У вас нет {{drug}}',
         ua: 'У вас немає {{drug}}',

@@ -138,6 +138,13 @@ const inventory = {
             de: 'Dienstausrüstung kann nicht fallen gelassen, übergeben oder eingelagert werden',
             pl: 'Sprzetu sluzbowego nie mozna wyrzucic, przekazac ani schowac do magazynu',
         },
+        blockedUse: {
+            ru: 'Это не ваше имущество, его нельзя расходовать на себя',
+            ua: 'Це не ваше майно, його не можна витрачати на себе',
+            en: 'This is not your property, you cannot spend it on yourself',
+            de: 'Das ist nicht dein Eigentum, du kannst es nicht für dich verbrauchen',
+            pl: 'To nie jest twoja wlasnosc, nie mozesz jej zuzyc na siebie',
+        },
         stamp: {
             ru: 'Служебное',
             ua: 'Службове',
@@ -166,6 +173,13 @@ const inventory = {
                 en: 'Gruppe 6',
                 de: 'Gruppe 6',
                 pl: 'Gruppe 6',
+            },
+            stashContract: {
+                ru: 'Dice',
+                ua: 'Dice',
+                en: 'Dice',
+                de: 'Dice',
+                pl: 'Dice',
             },
         },
     },

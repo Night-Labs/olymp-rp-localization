@@ -1,7 +1,7 @@
 export default {
     // Заголовок и шапка доски по TAB. Общие для доменов: доска есть на каждой
     // войне, а свой заголовок задаёт только тот домен, которому нейтрального
-    // мало (гетто-войны — через `faction.gangWar`).
+    // мало (гетто-войны - через `faction.gangWar`).
     name: {
         ru: 'Война',
         ua: 'Війна',
@@ -44,39 +44,8 @@ export default {
             pl: 'Porażka',
         },
     },
-    // ESC в режиме наблюдателя: выбитый может уйти на базу, не дожидаясь эндинга.
-    leaveModal: {
-        title: {
-            ru: 'Покинуть битву за территорию',
-            ua: 'Покинути битву за територію',
-            en: 'Leave the territory battle',
-            de: 'Den Kampf um das Gebiet verlassen',
-            pl: 'Opuścić bitwę o terytorium',
-        },
-        message: {
-            ru: 'Вы вернётесь на базу своей банды. Вернуться в бой уже не получится.',
-            ua: 'Ви повернетеся на базу своєї банди. Повернутися в бій уже не вийде.',
-            en: 'You will return to your gang base. There is no way back into the fight.',
-            de: 'Du kehrst zur Basis deiner Gang zurück. Zurück in den Kampf geht es nicht mehr.',
-            pl: 'Wrócisz do bazy swojego gangu. Powrót do walki nie będzie już możliwy.',
-        },
-        confirm: {
-            ru: 'Выйти',
-            ua: 'Вийти',
-            en: 'Leave',
-            de: 'Verlassen',
-            pl: 'Wyjdź',
-        },
-        cancel: {
-            ru: 'Остаться',
-            ua: 'Залишитися',
-            en: 'Stay',
-            de: 'Bleiben',
-            pl: 'Zostań',
-        },
-    },
     // Панель наблюдателя в нижней части HUD: за кем смотрит выбитый и чем
-    // переключаться. Подписи короткие — место под ними занимает ник.
+    // переключаться. Подписи короткие - место под ними занимает ник.
     spectator: {
         label: {
             ru: 'Наблюдение',
@@ -92,12 +61,29 @@ export default {
             de: 'Spieler wechseln',
             pl: 'Zmień gracza',
         },
-        leave: {
-            ru: 'Покинуть бой',
-            ua: 'Покинути бій',
-            en: 'Leave the fight',
-            de: 'Kampf verlassen',
-            pl: 'Opuść walkę',
+        // ESC takes the spectator back to the death screen.
+        back: {
+            ru: 'Назад',
+            ua: 'Назад',
+            en: 'Back',
+            de: 'Zurück',
+            pl: 'Wstecz',
+        },
+        // "Spectate" on the death screen when no ally of the side is alive any more.
+        nobody: {
+            ru: 'Наблюдать не за кем: живых союзников не осталось',
+            ua: 'Немає за ким спостерігати: живих союзників не лишилося',
+            en: 'Nobody to spectate: no allies are left alive',
+            de: 'Niemand zum Zuschauen: kein Verbündeter ist mehr am Leben',
+            pl: 'Nie ma kogo obserwować: nie został żaden żywy sojusznik',
+        },
+        // "Spectate" before the fight has started: the allies are not in it yet.
+        notStarted: {
+            ru: 'Бой ещё не начался: наблюдать пока не за кем',
+            ua: 'Бій ще не почався: поки немає за ким спостерігати',
+            en: 'The fight has not started yet: nobody to spectate',
+            de: 'Der Kampf hat noch nicht begonnen: niemand zum Zuschauen',
+            pl: 'Walka jeszcze się nie zaczęła: nie ma kogo obserwować',
         },
     },
     outOfBounds: {

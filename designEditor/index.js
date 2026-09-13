@@ -1049,4 +1049,34 @@ export default {
             pl: 'Usuń prowadnice',
         },
     },
+    exit: {
+        title: {
+            ru: 'Выйти из редактора?',
+            ua: 'Вийти з редактора?',
+            en: 'Leave the editor?',
+            de: 'Editor verlassen?',
+            pl: 'Wyjść z edytora?',
+        },
+        message: {
+            ru: 'Несохранённые изменения будут потеряны.',
+            ua: 'Незбережені зміни буде втрачено.',
+            en: 'Unsaved changes will be lost.',
+            de: 'Nicht gespeicherte Änderungen gehen verloren.',
+            pl: 'Niezapisane zmiany zostaną utracone.',
+        },
+        confirm: {
+            ru: 'Выйти',
+            ua: 'Вийти',
+            en: 'Leave',
+            de: 'Verlassen',
+            pl: 'Wyjdź',
+        },
+        cancel: {
+            ru: 'Остаться',
+            ua: 'Залишитися',
+            en: 'Stay',
+            de: 'Bleiben',
+            pl: 'Zostań',
+        },
+    },
 };

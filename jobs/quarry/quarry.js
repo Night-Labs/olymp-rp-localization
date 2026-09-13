@@ -68,6 +68,51 @@ export const quarry = {
         zh: '你的工作车辆',
     },
 
+    hud: {
+        mine: {
+            ru: 'Добывайте руду на точках карьера',
+            ua: 'Видобувайте руду на точках кар\'єру',
+            en: 'Mine ore at the quarry points',
+            de: 'Baue Erz an den Punkten im Steinbruch ab',
+            pl: 'Wydobywaj rudę w punktach kamieniołomu',
+        },
+        goToLoading: {
+            ru: 'Отправляйтесь к точке загрузки',
+            ua: 'Вирушайте до точки завантаження',
+            en: 'Head to the loading point',
+            de: 'Fahre zum Ladepunkt',
+            pl: 'Jedź do punktu załadunku',
+        },
+        goToUnloading: {
+            ru: 'Отвезите груз к точке разгрузки',
+            ua: 'Відвезіть вантаж до точки розвантаження',
+            en: 'Take the load to the unloading point',
+            de: 'Bringe die Ladung zum Entladepunkt',
+            pl: 'Zawieź ładunek do punktu rozładunku',
+        },
+        ores: {
+            ru: 'Добыто руды',
+            ua: 'Видобуто руди',
+            en: 'Ore mined',
+            de: 'Erz abgebaut',
+            pl: 'Wydobyto rudy',
+        },
+        runs: {
+            ru: 'Рейсов',
+            ua: 'Рейсів',
+            en: 'Runs',
+            de: 'Fahrten',
+            pl: 'Kursy',
+        },
+        earned: {
+            ru: 'Заработано',
+            ua: 'Зароблено',
+            en: 'Earned',
+            de: 'Verdient',
+            pl: 'Zarobiono',
+        },
+    },
+
     miner: {
         name: {
             ru: 'Горняк',

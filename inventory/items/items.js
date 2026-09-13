@@ -421,6 +421,24 @@ export const items = {
             zh: '一种从死亡边缘夺走生命的重要复苏装置”',
         },
     },
+    selfReviveKit: {
+        name: {
+            ru: 'Набор самореанимации',
+            ua: 'Набір самореанімації',
+            en: 'Self-revive kit',
+            de: 'Selbstreanimations-Set',
+            pl: 'Zestaw do samoreanimacji',
+            zh: '自我复苏套装',
+        },
+        desc: {
+            ru: 'Редчайший армейский комплект: автоинъектор с адреналином и кровоостанавливающее средство. Если вы при смерти, позволяет подняться на ноги самостоятельно, не дожидаясь медиков. Одноразовый.',
+            ua: 'Найрідкісніший армійський комплект: автоінжектор з адреналіном і кровоспинний засіб. Якщо ви при смерті, дозволяє піднятися на ноги самостійно, не чекаючи медиків. Одноразовий.',
+            en: 'An extremely rare military kit: an adrenaline auto-injector and a hemostatic agent. When you are dying, it lets you get back on your feet on your own without waiting for medics. Single use.',
+            de: 'Ein äußerst seltenes Militär-Set: ein Adrenalin-Autoinjektor und ein blutstillendes Mittel. Wenn du im Sterben liegst, kommst du damit selbst wieder auf die Beine, ohne auf Sanitäter zu warten. Einmalig verwendbar.',
+            pl: 'Niezwykle rzadki wojskowy zestaw: autostrzykawka z adrenaliną i środek hamujący krwawienie. Gdy umierasz, pozwala samodzielnie stanąć na nogi bez czekania na medyków. Jednorazowy.',
+            zh: '极其稀有的军用套装：肾上腺素自动注射器和止血剂。当你濒临死亡时，可以不等医护人员自行站起来。一次性使用。',
+        },
+    },
     materials: {
         name: {
             ru: 'Материалы',

@@ -282,11 +282,11 @@ export const cef = {
         pl: 'Kup za ${{price}}',
     },
     upgradeNoMoney: {
-        ru: 'Не хватает в казне',
-        ua: 'Не вистачає в казні',
-        en: 'Treasury too low',
-        de: 'Kasse zu leer',
-        pl: 'Za malo w kasie',
+        ru: 'Не хватает на балансе',
+        ua: 'Не вистачає на балансі',
+        en: 'Balance too low',
+        de: 'Guthaben zu niedrig',
+        pl: 'Za malo na bilansie',
     },
     upgradeStepOwned: {
         ru: 'Куплено',
@@ -359,11 +359,11 @@ export const cef = {
         pl: 'Przyjedzie za {{time}}',
     },
     wholesaleHint: {
-        ru: 'Деньги уходят в казну организации',
-        ua: 'Гроші йдуть у казну організації',
-        en: 'The money goes to the organization treasury',
-        de: 'Das Geld geht in die Organisationskasse',
-        pl: 'Pieniadze trafiaja do kasy organizacji',
+        ru: 'Деньги уходят на баланс организации',
+        ua: 'Гроші йдуть на баланс організації',
+        en: 'The money goes to the organization balance',
+        de: 'Das Geld geht auf das Organisationsguthaben',
+        pl: 'Pieniadze trafiaja na bilans organizacji',
     },
     blocked: {
         noSupplies: {

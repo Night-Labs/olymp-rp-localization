@@ -74,6 +74,14 @@ export const server = {
         pl: 'Komentarz zawiera niedozwolone znaki',
         zh: '备注含有非法字符',
     },
+    branchClosed: {
+        ru: 'Отделение банка закрыто с {{from}} до {{to}}. Воспользуйтесь банкоматом или мобильным банкингом',
+        ua: 'Відділення банку зачинене з {{from}} до {{to}}. Скористайтеся банкоматом або мобільним банкінгом',
+        en: 'The branch is closed from {{from}} to {{to}}. Use an ATM or mobile banking',
+        de: 'Die Filiale ist von {{from}} bis {{to}} geschlossen. Nutze einen Geldautomaten oder das Mobile Banking',
+        pl: 'Oddział jest zamknięty od {{from}} do {{to}}. Skorzystaj z bankomatu lub bankowości mobilnej',
+        zh: '银行网点在 {{from}} 至 {{to}} 期间关闭，请使用自动取款机或手机银行',
+    },
     transferToSelf: {
         ru: 'Нельзя перевести самому себе',
         ua: 'Не можна переказати самому собі',

@@ -10,11 +10,11 @@ export const taxCycle = {
     },
     debt: {
         started: {
-            ru: 'На казне организации {{orgName}} не хватило ${{rent}} на ежедневный налог. У вас 72 часа на погашение долга, иначе HQ будет конфискован',
-            ua: 'У казні організації {{orgName}} не вистачило ${{rent}} на щоденний податок. У вас 72 години на погашення боргу, інакше HQ буде конфісковано',
-            en: 'The treasury of {{orgName}} is short ${{rent}} for daily tax. You have 72 hours to repay before the HQ is confiscated',
-            de: 'In der Kasse von {{orgName}} fehlen ${{rent}} für die Tagessteuer. Du hast 72 Stunden zur Tilgung, sonst wird das HQ beschlagnahmt',
-            pl: 'W skarbcu organizacji {{orgName}} brakuje ${{rent}} na dzienny podatek. Masz 72 godziny na spłatę, inaczej HQ zostanie skonfiskowany',
+            ru: 'На балансе организации {{orgName}} не хватило ${{rent}} на ежедневный налог. У вас 72 часа на погашение долга, иначе HQ будет конфискован',
+            ua: 'На балансі організації {{orgName}} не вистачило ${{rent}} на щоденний податок. У вас 72 години на погашення боргу, інакше HQ буде конфісковано',
+            en: 'The balance of {{orgName}} is short ${{rent}} for daily tax. You have 72 hours to repay before the HQ is confiscated',
+            de: 'Dem Organisationsguthaben von {{orgName}} fehlen ${{rent}} für die Tagessteuer. Du hast 72 Stunden zur Tilgung, sonst wird das HQ beschlagnahmt',
+            pl: 'Na bilansie organizacji {{orgName}} brakuje ${{rent}} na dzienny podatek. Masz 72 godziny na spłatę, inaczej HQ zostanie skonfiskowany',
         },
         reminder: {
             ru: 'Долг по налогу {{orgName}} не погашен. Осталось {{hoursLeft}}ч до конфискации HQ. Требуется ${{rent}}',
@@ -47,11 +47,11 @@ export const taxCycle = {
             pl: 'HQ {{orgName}} skonfiskowane. ${{amount}} zapisano na koncie bankowym',
         },
         sms: {
-            ru: 'HQ вашей организации {{orgName}} конфискован за неуплату налога. Возвращено {{percent}}% от стоимости + остаток казны',
-            ua: 'HQ вашої організації {{orgName}} конфісковано за несплату податку. Повернуто {{percent}}% від вартості + залишок казни',
-            en: 'HQ of your organization {{orgName}} confiscated for unpaid tax. {{percent}}% refund + treasury leftover credited',
+            ru: 'HQ вашей организации {{orgName}} конфискован за неуплату налога. Возвращено {{percent}}% от стоимости + остаток баланса организации',
+            ua: 'HQ вашої організації {{orgName}} конфісковано за несплату податку. Повернуто {{percent}}% від вартості + залишок балансу організації',
+            en: 'HQ of your organization {{orgName}} confiscated for unpaid tax. {{percent}}% refund + remaining organization balance credited',
             de: 'HQ deiner Organisation {{orgName}} wegen unbezahlter Steuern beschlagnahmt. {{percent}}% Erstattung + Restguthaben gutgeschrieben',
-            pl: 'HQ twojej organizacji {{orgName}} skonfiskowane za nieopłacony podatek. Zwrócono {{percent}}% wartości + saldo skarbca',
+            pl: 'HQ twojej organizacji {{orgName}} skonfiskowane za nieopłacony podatek. Zwrócono {{percent}}% wartości + pozostały bilans organizacji',
         },
     },
 };

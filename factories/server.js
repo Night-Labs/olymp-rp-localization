@@ -128,11 +128,11 @@ export const server = {
     },
     wholesale: {
         sold: {
-            ru: 'Оптовик забрал партию. В казну организации: ${{money}}',
-            ua: 'Оптовик забрав партію. У казну організації: ${{money}}',
-            en: 'The wholesaler took the batch. To the organization treasury: ${{money}}',
-            de: 'Der Großhändler nahm die Partie mit. In die Organisationskasse: ${{money}}',
-            pl: 'Hurtownik zabral partie. Do kasy organizacji: ${{money}}',
+            ru: 'Оптовик забрал партию. На баланс организации: ${{money}}',
+            ua: 'Оптовик забрав партію. На баланс організації: ${{money}}',
+            en: 'The wholesaler took the batch. To the organization balance: ${{money}}',
+            de: 'Der Großhändler nahm die Partie mit. Auf das Organisationsguthaben: ${{money}}',
+            pl: 'Hurtownik zabral partie. Na bilans organizacji: ${{money}}',
         },
         cooldown: {
             ru: 'Оптовик приедет через {{time}}',
@@ -279,11 +279,11 @@ export const server = {
             pl: 'Twoja ranga nie ma dostepu do tej akcji',
         },
         orgNoMoney: {
-            ru: 'В казне организации недостаточно денег',
-            ua: 'У казні організації недостатньо грошей',
-            en: 'The organization treasury has not enough money',
-            de: 'In der Organisationskasse ist zu wenig Geld',
-            pl: 'W kasie organizacji jest za malo pieniedzy',
+            ru: 'На балансе организации недостаточно денег',
+            ua: 'На балансі організації недостатньо грошей',
+            en: 'The organization balance has not enough money',
+            de: 'Das Organisationsguthaben reicht nicht aus',
+            pl: 'Na bilansie organizacji jest za malo pieniedzy',
         },
         weaponsBlocked: {
             ru: 'В помещении нельзя брать оружие в руки',
