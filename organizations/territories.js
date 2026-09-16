@@ -356,12 +356,12 @@ export const territories = {
                 de: 'Diese Organisation ist immun gegen Sabotage',
                 pl: 'Ta organizacja jest odporna na sabotaz',
             },
-            sabotageNoMoney: {
-                ru: 'На балансе организации нет {{amount}} на диверсию',
-                ua: 'На балансі організації немає {{amount}} на диверсію',
-                en: 'The organization balance is short of {{amount}} for the sabotage',
-                de: 'Dem Organisationsguthaben fehlen {{amount}} fuer die Sabotage',
-                pl: 'Na bilansie organizacji brakuje {{amount}} na sabotaz',
+            sabotageNoSource: {
+                ru: 'Диверсию может устроить только организация, которая держит Истребитель',
+                ua: 'Диверсію може влаштувати лише організація, яка тримає Винищувач',
+                en: 'Only the organization holding the Fighter jet can sabotage',
+                de: 'Nur die Organisation, die den Kampfjet haelt, kann sabotieren',
+                pl: 'Sabotaz moze zrobic tylko organizacja, ktora trzyma Mysliwiec',
             },
             captureCooldown: {
                 ru: 'Захват доступен через {{minutes}} мин онлайна организации',

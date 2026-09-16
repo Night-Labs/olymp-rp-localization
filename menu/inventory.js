@@ -47,6 +47,14 @@ export const inventory = {
         pl: 'Twoje bronie',
         zh: '你的武器',
     },
+    searchedWeapons: {
+        ua: 'Зброя',
+        en: 'Weapons',
+        ru: 'Оружие',
+        de: 'Waffen',
+        pl: 'Bronie',
+        zh: '武器',
+    },
     weight: {
         ua: 'кг',
         en: 'kg',
@@ -206,6 +214,14 @@ export const inventory = {
             de: 'Teilen',
             pl: 'Podziel',
             zh: '差异',
+        },
+        take: {
+            ru: 'Изъять',
+            ua: 'Вилучити',
+            en: 'Take',
+            de: 'Abnehmen',
+            pl: 'Zabierz',
+            zh: '没收',
         },
         drop: {
             ru: 'Выбросить',

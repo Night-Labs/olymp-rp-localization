@@ -55,6 +55,14 @@ export default {
         pl: 'To byla ostatnia paczka z partii.',
     },
 
+    suppliedReturned: {
+        ru: 'Вы вернули остаток партии. Сделанные закладки остаются засчитанными.',
+        ua: 'Ви повернули залишок партії. Зроблені закладки залишаються зарахованими.',
+        en: 'You handed the rest of the batch back. The drops you made still count.',
+        de: 'Du hast den Rest der Charge zurückgegeben. Deine Ablagen zählen weiterhin.',
+        pl: 'Oddałeś resztę partii. Zrobione skrytki nadal się liczą.',
+    },
+
     deliveryPoint: {
         ru: 'Точка доставки',
         ua: 'Точка доставки',

@@ -416,6 +416,13 @@ export const logs = {
                 de: '{{actor}} hat den Auftrag "{{contract}}" ({{type}}) abgebrochen',
                 pl: '{{actor}} porzucił kontrakt "{{contract}}" ({{type}})',
             },
+            cancelled: {
+                ru: '{{actor}} отменил контракт "{{contract}}" участника {{owner}}',
+                ua: '{{actor}} скасував контракт "{{contract}}" учасника {{owner}}',
+                en: '{{actor}} cancelled the contract "{{contract}}" of {{owner}}',
+                de: '{{actor}} hat den Auftrag "{{contract}}" von {{owner}} abgebrochen',
+                pl: '{{actor}} anulował kontrakt "{{contract}}" członka {{owner}}',
+            },
             failed: {
                 ru: 'Контракт "{{contract}}" ({{type}}) провален: {{reason}}',
                 ua: 'Контракт "{{contract}}" ({{type}}) провалено: {{reason}}',

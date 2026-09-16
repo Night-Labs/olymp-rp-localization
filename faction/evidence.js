@@ -1,0 +1,75 @@
+// The evidence room: the NPC that takes in what a search seized (systems/factions/evidence).
+export default {
+    header: {
+        ru: 'Хранилище улик',
+        ua: 'Сховище речових доказів',
+        en: 'Evidence room',
+        de: 'Asservatenkammer',
+        pl: 'Magazyn dowodów rzeczowych',
+    },
+    nothing: {
+        ru: 'У вас нет изъятых предметов',
+        ua: 'У вас немає вилучених предметів',
+        en: 'You are not carrying any seized items',
+        de: 'Du trägst keine beschlagnahmten Gegenstände bei dir',
+        pl: 'Nie masz przy sobie zatrzymanych przedmiotów',
+    },
+    handedIn: {
+        ru: 'Сдано улик: {{count}}. Премия ${{premium}} зачислена на банковский счёт',
+        ua: 'Здано речових доказів: {{count}}. Премію ${{premium}} зараховано на банківський рахунок',
+        en: 'Evidence handed in: {{count}}. A ${{premium}} premium has been paid to your bank account',
+        de: 'Abgegebene Beweismittel: {{count}}. Eine Prämie von ${{premium}} wurde auf dein Bankkonto überwiesen',
+        pl: 'Oddano dowodów rzeczowych: {{count}}. Premia ${{premium}} trafiła na twoje konto bankowe',
+    },
+    failed: {
+        ru: 'Не удалось выплатить премию. Улики остались у вас, попробуйте ещё раз',
+        ua: 'Не вдалося виплатити премію. Речові докази залишилися у вас, спробуйте ще раз',
+        en: 'The premium could not be paid. The evidence is still with you, try again',
+        de: 'Die Prämie konnte nicht ausgezahlt werden. Die Beweismittel sind noch bei dir, versuch es erneut',
+        pl: 'Nie udało się wypłacić premii. Dowody zostały u ciebie, spróbuj ponownie',
+    },
+    handedInNoPremium: {
+        ru: 'Сдано улик: {{count}}. Премия положена только сотрудникам государственных структур',
+        ua: 'Здано речових доказів: {{count}}. Премія належить лише співробітникам державних структур',
+        en: 'Evidence handed in: {{count}}. The premium is paid to government employees only',
+        de: 'Abgegebene Beweismittel: {{count}}. Die Prämie erhalten nur Mitarbeiter staatlicher Behörden',
+        pl: 'Oddano dowodów rzeczowych: {{count}}. Premia przysługuje tylko pracownikom służb państwowych',
+    },
+    dialog: {
+        greeting: {
+            ru: 'Изъятое при обыске сдаёте? Опишу, опечатаю и уберу в хранилище.',
+            ua: 'Вилучене під час обшуку здаєте? Опишу, опечатаю і приберу до сховища.',
+            en: 'Handing in what you seized? I will log it, seal it and put it in the locker.',
+            de: 'Gibst du Beschlagnahmtes ab? Ich erfasse es, versiegle es und lagere es ein.',
+            pl: 'Oddajesz to, co zatrzymałeś? Spiszę, zaplombuję i odłożę do magazynu.',
+        },
+        handIn: {
+            ru: 'Сдать улики',
+            ua: 'Здати речові докази',
+            en: 'Hand in evidence',
+            de: 'Beweismittel abgeben',
+            pl: 'Oddaj dowody rzeczowe',
+        },
+        later: {
+            ru: 'Позже',
+            ua: 'Пізніше',
+            en: 'Later',
+            de: 'Später',
+            pl: 'Później',
+        },
+        empty: {
+            ru: 'У вас с собой ничего изъятого. Будут улики, приходите.',
+            ua: 'У вас із собою нічого вилученого. Будуть речові докази, приходьте.',
+            en: 'You have nothing seized on you. Come back when you have evidence.',
+            de: 'Du hast nichts Beschlagnahmtes dabei. Komm wieder, wenn du Beweismittel hast.',
+            pl: 'Nie masz przy sobie nic zatrzymanego. Wróć, gdy będziesz mieć dowody rzeczowe.',
+        },
+        bye: {
+            ru: 'Понял',
+            ua: 'Зрозумів',
+            en: 'Got it',
+            de: 'Verstanden',
+            pl: 'Rozumiem',
+        },
+    },
+};

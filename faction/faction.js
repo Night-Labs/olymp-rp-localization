@@ -21,6 +21,7 @@ import surgeon from './surgeon';
 import graffitiWar from './graffitiWar';
 import vehicleImpound from './vehicleImpound';
 import vehicleNpc from './vehicleNpc';
+import evidence from './evidence';
 import lizaSellPills from './lizaSellPills';
 import warHistory from './warHistory';
 import warPlanner from './warPlanner';
@@ -49,6 +50,7 @@ export const faction = {
     graffitiWar,
     vehicleImpound,
     vehicleNpc,
+    evidence,
     lizaSellPills,
     ...cef,
     ...server,
@@ -188,19 +190,19 @@ export const faction = {
         "de": "Du kannst das Fahrzeug gerade nicht neu erscheinen lassen, da eine Lieferung läuft",
         "pl": "Nie możesz teraz odrodzić pojazdu, bo trwa dostawa",
     },
-    confiscatedItems: {
-        ru: '{{name}} Провёл обыск и конфисковал нелегальные вещи у {{targetName}}',
-        ua: '{{name}} Провів обшук і конфіскував нелегальні речі у {{targetName}}',
-        en: '{{name}} conducted a search and confiscated illegal items from {{targetName}}',
-        de: '{{name}} führte eine Durchsuchung durch und beschlagnahmte illegale Gegenstände bei {{targetName}}',
-        pl: '{{name}} przeprowadził rewizję i skonfiskował nielegalne przedmioty od {{targetName}}',
+    friskStarted: {
+        ru: '{{name}} проводит обыск {{targetName}}',
+        ua: '{{name}} проводить обшук {{targetName}}',
+        en: '{{name}} is searching {{targetName}}',
+        de: '{{name}} durchsucht {{targetName}}',
+        pl: '{{name}} przeszukuje {{targetName}}',
     },
-    confiscatedWeapons: {
-        ru: '{{name}} Провёл обыск и конфисковал всё оружие у {{targetName}}',
-        ua: '{{name}} Провів обшук і конфіскував всю зброю у {{targetName}}',
-        en: '{{name}} conducted a search and confiscated all weapons from {{targetName}}',
-        de: '{{name}} führte eine Durchsuchung durch und beschlagnahmte alle Waffen bei {{targetName}}',
-        pl: '{{name}} przeprowadził rewizję i skonfiskował całą broń od {{targetName}}',
+    friskTook: {
+        ru: '{{name}} изъял(а) у {{targetName}}: {{item}}',
+        ua: '{{name}} вилучив(ла) у {{targetName}}: {{item}}',
+        en: '{{name}} took from {{targetName}}: {{item}}',
+        de: '{{name}} hat {{targetName}} abgenommen: {{item}}',
+        pl: '{{name}} zabrał(a) od {{targetName}}: {{item}}',
     },
     createdRankNotify: {
         ru: 'Вы создали ранг {{name}}',

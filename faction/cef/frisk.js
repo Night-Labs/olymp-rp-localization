@@ -13,71 +13,12 @@ export default {
         de: 'Zu weit entfernt zum Durchsuchen',
         pl: 'Za daleko, aby przeszukać',
     },
-    search: {
-        ru: 'Обыск',
-        ua: 'Обшук',
-        en: 'Search',
-        de: 'Durchsuchen',
-        pl: 'Przeszukanie',
-    },
-    all_suspicious_items: {
-        ru: 'Все подозрительные вещи:',
-        ua: 'Усі підозрілі речі:',
-        en: 'All suspicious items:',
-        de: 'Alle verdächtigen Gegenstände:',
-        pl: 'Wszystkie podejrzane przedmioty:',
-    },
-    documents: {
-        ru: 'Документы',
-        ua: 'Документи',
-        en: 'Documents',
-        de: 'Dokumente',
-        pl: 'Dokumenty',
-    },
-    confiscate_weapons: {
-        ru: 'Изъять оружие',
-        ua: 'Вилучити зброю',
-        en: 'Confiscate weapons',
-        de: 'Waffen beschlagnahmen',
-        pl: 'Skonfiskować broń',
-    },
-    confiscate_items: {
-        ru: 'Изъять вещи',
-        ua: 'Вилучити речі',
-        en: 'Confiscate items',
-        de: 'Gegenstände beschlagnahmen',
-        pl: 'Skonfiskować rzeczy',
-    },
-    pcs: {
-        ru: 'шт.',
-        ua: 'шт.',
-        en: 'pcs',
-        de: 'Stk.',
-        pl: 'szt.',
-    },
-
-    infoText: {
-        "ru": "Все вещи, которые ты изымешь, будут уничтожены на месте",
-        "ua": "Всі речі, які ти вилучиш, будуть знищені на місці",
-        "en": "All the items you remove will be destroyed on the spot",
-        "de": "Alle Sachen, die du beschlagnahmst, werden direkt vor Ort zerstört",
-        "pl": "Wszystkie rzeczy, które usuniesz, zostaną zniszczone na miejscu",
-    },
-
-    noSerialNumber: {
-        ru: 'БЕЗ СЕРИЙНОГО НОМЕРА',
-        ua: 'БЕЗ СЕРІЙНОГО НОМЕРА',
-        en: 'NO SERIAL NUMBER',
-        de: 'KEINE SERIENNUMMER',
-        pl: 'BEZ NUMERU SERYJNEGO',
-    },
-
-    nothing: {
-        ru: 'Не найдено ни одного подозрительного предмета.',
-        ua: 'Не знайдено жодного підозрілого предмета.',
-        en: 'No suspicious items found.',
-        de: 'Keine verdächtigen Gegenstände gefunden.',
-        pl: 'Nie znaleziono żadnych podejrzanych przedmiotów.',
+    noTrunk: {
+        ru: 'У этого транспорта нет багажника',
+        ua: 'У цього транспорту немає багажника',
+        en: 'This vehicle has no trunk',
+        de: 'Dieses Fahrzeug hat keinen Kofferraum',
+        pl: 'Ten pojazd nie ma bagażnika',
     },
 
     // check notifies

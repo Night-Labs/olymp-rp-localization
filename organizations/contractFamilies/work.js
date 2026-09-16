@@ -83,11 +83,11 @@ export const workBlips = {
     // Job-hook contracts own no route, so the only point they publish is where the job itself
     // is started. These name a real place and stand alone in the GPS list.
     foodDeliveryHub: {
-        ru: 'Стойка развоза еды',
-        ua: 'Стійка розвезення їжі',
-        en: 'Food dispatch counter',
-        de: 'Essensausgabe',
-        pl: 'Punkt wydawania jedzenia',
+        ru: 'Диспетчер доставки еды',
+        ua: 'Диспетчер доставки їжі',
+        en: 'Food delivery dispatcher',
+        de: 'Disponent für Essenslieferungen',
+        pl: 'Dyspozytor dostaw jedzenia',
     },
     cashCollectorHub: {
         ru: 'Депо инкассации',

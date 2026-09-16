@@ -234,6 +234,13 @@ export const npc = {
             de: 'Terminal-Vorarbeiter',
             pl: 'Brygadzista Terminala',
         },
+        evidenceClerk: {
+            ru: 'Инспектор по вещдокам',
+            ua: 'Інспектор з речових доказів',
+            en: 'Evidence Clerk',
+            de: 'Asservatenverwalter',
+            pl: 'Magazynier dowodów rzeczowych',
+        },
         cashCollectorDispatcher: {
             ru: 'Диспетчер Gruppe 6',
             ua: 'Диспетчер Gruppe 6',

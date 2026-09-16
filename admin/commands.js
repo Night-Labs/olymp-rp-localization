@@ -1495,6 +1495,13 @@ export default {
         de: 'Ein freigeschaltetes exklusives Tattoo einem Spieler anhand seiner ID entziehen.',
         pl: 'Odbierz graczowi odblokowany ekskluzywny tatuaż według jego id.',
     },
+    search_inventory: {
+        ru: 'Открыть инвентарь игрока: одежда, оружие, карманы и рюкзаки, с возможностью изъять предметы.',
+        ua: 'Відкрити інвентар гравця: одяг, зброя, кишені та рюкзаки, з можливістю вилучити предмети.',
+        en: 'Open a player inventory: clothes, weapons, pockets and backpacks, with the option to take items.',
+        de: 'Inventar eines Spielers öffnen: Kleidung, Waffen, Taschen und Rucksäcke, mit der Möglichkeit, Gegenstände abzunehmen.',
+        pl: 'Otwórz ekwipunek gracza: ubrania, broń, kieszenie i plecaki, z możliwością zabrania przedmiotów.',
+    },
     infinity_inventory: {
         ru: 'Включить или выключить бесконечный инвентарь у администратора.',
         ua: 'Увімкнути або вимкнути нескінченний інвентар у адміністратора.',
@@ -2195,6 +2202,13 @@ export default {
         en: 'Open the gang zone grid editor on the world map: paint cells per gang, shift the whole grid, save to dist/gangZones.json.',
         de: 'Den Rastereditor für Gang-Zonen auf der Weltkarte öffnen: Zellen pro Gang einfärben, das gesamte Raster verschieben, in dist/gangZones.json speichern.',
         pl: 'Otwórz edytor siatki stref gangów na mapie świata: malowanie kwadratów według gangów, przesuwanie całej siatki, zapis do dist/gangZones.json.',
+    },
+    map: {
+        ru: 'Открыть карту мира с маршрутами по дорогам: от игрока до GPS-метки и закреплённые пары A -> B.',
+        ua: 'Відкрити карту світу з маршрутами по дорогах: від гравця до GPS-мітки та закріплені пари A -> B.',
+        en: 'Open the world map with road routes drawn on it: from the player to the GPS waypoint, plus pinned A -> B pairs.',
+        de: 'Die Weltkarte mit Straßenrouten öffnen: vom Spieler zum GPS-Wegpunkt sowie angeheftete A -> B Paare.',
+        pl: 'Otwórz mapę świata z trasami po drogach: od gracza do punktu GPS oraz przypięte pary A -> B.',
     },
     restore_gang_zones: {
         ru: 'Сбросить все гангзоны к изначальному эталонному состоянию (владельцы по умолчанию).',

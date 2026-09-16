@@ -59,6 +59,20 @@ export const contractDialogs = {
                 de: 'Ich komme mit der Ware wieder',
                 pl: 'Wrócę z towarem',
             },
+            batchReturnCooldown: {
+                ru: 'Ты только что вернул мне партию. Новую не раньше чем через {{minutes}} мин.',
+                ua: 'Ти щойно повернув мені партію. Нову не раніше ніж за {{minutes}} хв.',
+                en: 'You just handed a batch back. No new one for another {{minutes}} min.',
+                de: 'Du hast mir gerade eine Charge zurückgegeben. Eine neue gibt es frühestens in {{minutes}} Min.',
+                pl: 'Dopiero co oddałeś mi partię. Nowej nie dostaniesz przez {{minutes}} min.',
+            },
+            willComeBack: {
+                ru: 'Зайду позже',
+                ua: 'Зайду пізніше',
+                en: "I'll come back later",
+                de: 'Ich komme später wieder',
+                pl: 'Wpadnę później',
+            },
             notNow: {
                 ru: 'Не сейчас',
                 ua: 'Не зараз',
@@ -90,6 +104,13 @@ export const contractDialogs = {
                 en: 'Your hands are already full. Finish up and come back.',
                 de: 'Deine Hände sind schon voll. Mach fertig und komm wieder.',
                 pl: 'Masz już zajęte ręce. Skończ i wracaj.',
+            },
+            returnTheBatch: {
+                ru: 'Забери остаток партии',
+                ua: 'Забери залишок партії',
+                en: 'Take the rest of the batch back',
+                de: 'Nimm den Rest der Charge zurück',
+                pl: 'Zabierz resztę partii',
             },
             gotIt: {
                 ru: 'Понял',

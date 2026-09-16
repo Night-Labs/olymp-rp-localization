@@ -762,13 +762,13 @@ export const contracts = {
             pl: 'Zostalo na punkcie',
         },
         // The line a runner-less contract adds to the block of the job it rides: the order's own
-        // name, with its count. Nothing but the name - the block around it belongs to the job.
+        // name, with its count, marked as the contract so it does not read as one of the job's lines.
         contract: {
-            ru: '{{contract}}',
-            ua: '{{contract}}',
-            en: '{{contract}}',
-            de: '{{contract}}',
-            pl: '{{contract}}',
+            ru: 'Контракт: {{contract}}',
+            ua: 'Контракт: {{contract}}',
+            en: 'Contract: {{contract}}',
+            de: 'Vertrag: {{contract}}',
+            pl: 'Kontrakt: {{contract}}',
         },
     },
 
@@ -1378,6 +1378,13 @@ export const contracts = {
             de: 'Vertrag {{contract}} abgebrochen.',
             pl: 'Kontrakt {{contract}} anulowany.',
         },
+        memberRunCancelled: {
+            ru: 'Контракт {{contract}} участника {{owner}} отменён. Его может взять другой участник.',
+            ua: 'Контракт {{contract}} учасника {{owner}} скасовано. Його може взяти інший учасник.',
+            en: "{{owner}}'s run of {{contract}} is cancelled. Another member can take it now.",
+            de: 'Der Auftrag {{contract}} von {{owner}} ist abgebrochen. Ein anderes Mitglied kann ihn jetzt annehmen.',
+            pl: 'Kontrakt {{contract}} członka {{owner}} anulowany. Może go teraz wziąć inny członek.',
+        },
         completedPersonal: {
             ru: 'Контракт {{contract}} выполнен! Награда зачислена.',
             ua: 'Контракт {{contract}} виконано! Винагороду зараховано.',
@@ -1725,6 +1732,27 @@ export const contracts = {
             de: 'Die Organisation nimmt bereits einen Vertrag an, versuche es erneut.',
             pl: 'Organizacja właśnie bierze kontrakt, spróbuj ponownie.',
         },
+        refusedToday: {
+            ru: 'Вы уже отказались от этого контракта в текущем наборе. Он снова станет доступен вам после рестарта.',
+            ua: 'Ви вже відмовилися від цього контракту в поточному наборі. Він знову стане доступним вам після рестарту.',
+            en: 'You already gave this contract up on the current roster. It opens to you again after the restart.',
+            de: 'Du hast diesen Vertrag auf der aktuellen Liste schon aufgegeben. Nach dem Neustart steht er dir wieder offen.',
+            pl: 'Już porzuciłeś ten kontrakt w obecnym zestawie. Znów będzie dla ciebie dostępny po restarcie.',
+        },
+        treeNodeLocked: {
+            ru: 'Организация не открыла в дереве возможность, без которой этот заказ не выполнить.',
+            ua: 'Організація не відкрила в дереві можливість, без якої це замовлення не виконати.',
+            en: 'The organization has not bought the tree perk this order cannot be filled without.',
+            de: 'Die Organisation hat die Baum-Fähigkeit nicht gekauft, ohne die dieser Auftrag nicht zu erfüllen ist.',
+            pl: 'Organizacja nie kupiła w drzewie umiejętności, bez której tego zlecenia nie da się wykonać.',
+        },
+        onlyLeaderCanCancel: {
+            ru: 'Отменить контракт другого участника может только лидер.',
+            ua: 'Скасувати контракт іншого учасника може тільки лідер.',
+            en: "Only the leader can cancel another member's contract.",
+            de: 'Nur der Leader kann den Vertrag eines anderen Mitglieds abbrechen.',
+            pl: 'Tylko lider może anulować kontrakt innego członka.',
+        },
         alreadyRunningInOrg: {
             ru: 'Этот контракт уже выполняет другой участник организации.',
             ua: 'Цей контракт уже виконує інший учасник організації.',
@@ -1763,9 +1791,46 @@ export const contracts = {
                 de: 'Vertragszeit abgelaufen',
                 pl: 'czas kontraktu wygasł',
             },
+            lifetime: {
+                ru: 'заказ устарел: контракт действует не дольше двух ежедневных рестартов',
+                ua: 'замовлення застаріло: контракт діє не довше двох щоденних рестартів',
+                en: 'the order went stale: a contract lasts no longer than two daily restarts',
+                de: 'der Auftrag ist verfallen: ein Vertrag hält höchstens zwei tägliche Neustarts',
+                pl: 'zlecenie się przedawniło: kontrakt trwa najwyżej dwa codzienne restarty',
+            },
+            robbed: {
+                ru: 'инкассатора ограбили на маршруте',
+                ua: 'інкасатора пограбували на маршруті',
+                en: 'the collector was robbed on the route',
+                de: 'der Geldtransporter wurde auf der Route ausgeraubt',
+                pl: 'konwojent został obrabowany na trasie',
+            },
+        },
+    },
+    returns: {
+        returned: {
+            ru: 'Товары, сданные по незавершённому контракту, возвращены вам.',
+            ua: 'Товари, здані за незавершеним контрактом, повернуто вам.',
+            en: 'The goods you handed in on an unfinished contract were returned to you.',
+            de: 'Die Waren, die du für einen nicht erfüllten Vertrag abgegeben hast, wurden dir zurückgegeben.',
+            pl: 'Towary oddane w ramach niedokończonego kontraktu zostały ci zwrócone.',
+        },
+        noRoom: {
+            ru: 'Часть товаров по незавершённому контракту не поместилась. Освободите место - они вернутся автоматически.',
+            ua: 'Частина товарів за незавершеним контрактом не помістилася. Звільніть місце - вони повернуться автоматично.',
+            en: 'Some goods from an unfinished contract did not fit. Free up space - they come back on their own.',
+            de: 'Ein Teil der Waren aus einem nicht erfüllten Vertrag passte nicht. Mach Platz - sie kommen von selbst zurück.',
+            pl: 'Część towarów z niedokończonego kontraktu się nie zmieściła. Zwolnij miejsce - wrócą same.',
         },
     },
     warning: {
+        cancelledByLeader: {
+            ru: 'Лидер отменил ваш контракт {{contract}}. Сданные по нему товары возвращаются вам.',
+            ua: 'Лідер скасував ваш контракт {{contract}}. Здані за ним товари повертаються вам.',
+            en: 'The leader cancelled your contract {{contract}}. The goods you handed in on it come back to you.',
+            de: 'Der Leader hat deinen Vertrag {{contract}} abgebrochen. Die dafür abgegebenen Waren gehen an dich zurück.',
+            pl: 'Lider anulował twój kontrakt {{contract}}. Oddane w jego ramach towary wracają do ciebie.',
+        },
         stationInputLost: {
             ru: 'Партия ушла в брак. {{amount}} {{itemName}} остались в барабане.',
             ua: 'Партія пішла в брак. {{amount}} {{itemName}} лишилися в барабані.',
