@@ -69,6 +69,20 @@ export default {
         de: 'Runterklettern',
         pl: 'Zejdź',
     },
+    petCat: {
+        ru: 'Погладить кота',
+        ua: 'Погладити кота',
+        en: 'Pet the cat',
+        de: 'Die Katze streicheln',
+        pl: 'Pogłaszcz kota',
+    },
+    petDog: {
+        ru: 'Погладить собаку',
+        ua: 'Погладити собаку',
+        en: 'Pet the dog',
+        de: 'Den Hund streicheln',
+        pl: 'Pogłaszcz psa',
+    },
     //
     couldntActivateCoal: {
         ru: 'Вы не смогли активировать уголь...',

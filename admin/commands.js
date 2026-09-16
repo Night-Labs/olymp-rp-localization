@@ -935,6 +935,13 @@ export default {
         de: 'Eine globale Nachricht im Namen der Administration an alle Spieler senden.',
         pl: 'Wyślij globalną wiadomość od administracji do wszystkich graczy.',
     },
+    spawn_street_animal: {
+        ru: 'Заспавнить уличное животное перед собой (в своём измерении). model - модель или короткое имя (cat, husky, pug...); без него спавнятся все сразу в ряд.',
+        ua: 'Заспавнити вуличну тварину перед собою (у своєму вимірі). model - модель або коротке ім\'я (cat, husky, pug...); без нього спавняться всі одразу в ряд.',
+        en: 'Spawn a street animal in front of you (in your dimension). model - a model or short name (cat, husky, pug...); without it every animal spawns in a row.',
+        de: 'Ein Straßentier vor dir spawnen (in deiner Dimension). model - Modell oder Kurzname (cat, husky, pug...); ohne ihn spawnen alle Tiere in einer Reihe.',
+        pl: 'Zespawnuj uliczne zwierzę przed sobą (w swoim wymiarze). model - model lub krótka nazwa (cat, husky, pug...); bez niej wszystkie zwierzęta pojawiają się w rzędzie.',
+    },
     spawn_object: {
         ru: 'Запустить точное размещение серверного объекта по имени модели через gizmo.',
         ua: "Запустити точне розміщення серверного об'єкта за назвою моделі через gizmo.",
@@ -2069,6 +2076,13 @@ export default {
         en: 'Toggle client dev mode for internal testing.',
         de: 'Den Client-Dev-Modus für interne Tests umschalten.',
         pl: 'Przełącz tryb dev klienta do wewnętrznych testów.',
+    },
+    unfriend: {
+        ru: 'Убрать игрока из друзей (знакомство снимается у обоих).',
+        ua: 'Прибрати гравця з друзів (знайомство знімається в обох).',
+        en: 'Remove a player from your friends (the acquaintance is removed on both sides).',
+        de: 'Einen Spieler aus deinen Freunden entfernen (die Bekanntschaft wird auf beiden Seiten aufgehoben).',
+        pl: 'Usuń gracza ze znajomych (znajomość zostaje usunięta u obu stron).',
     },
     referral_add_activation: {
         ru: 'Добавить в твой реферальный код активацию аккаунта персонажа по его characterId.',

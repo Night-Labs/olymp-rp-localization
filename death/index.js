@@ -422,6 +422,14 @@ export default {
             pl: 'Zemsta kota',
             zh: '猫的复仇',
         },
+        dog: {
+            ru: 'Месть собаки',
+            ua: 'Помста собаки',
+            en: "Dog's revenge",
+            de: 'Rache des Hundes',
+            pl: 'Zemsta psa',
+            zh: '狗的复仇',
+        },
         bloodDonation: {
             ru: 'Сдача крови',
             ua: 'Здача крові',
@@ -451,8 +459,8 @@ export default {
     // Keys are DeathAnimal (shared/systems/death): the species shown as the killer.
     animals: {
         boar: {
-            ru: 'Кабан',
-            ua: 'Кабан',
+            ru: 'Кэба',
+            ua: 'Кеба',
             en: 'Boar',
             de: 'Keiler',
             pl: 'Dzik',

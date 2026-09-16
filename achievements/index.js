@@ -168,6 +168,16 @@ export default {
             pl: 'Spedz {{value}} godzin w grze',
         },
     },
+    playtime_touch_what: {
+        name: { ru: 'Трогать что?', ua: 'Торкатися чого?', en: 'Touch What?', de: 'Was anfassen?', pl: 'Dotknac czego?' },
+        desc: {
+            ru: 'Проведите {{value}} часов в игре',
+            ua: 'Проведіть {{value}} годин у грі',
+            en: 'Spend {{value}} hours in game',
+            de: 'Verbringe {{value}} Stunden im Spiel',
+            pl: 'Spedz {{value}} godzin w grze',
+        },
+    },
 
     // ─── Деньги ───
     iron_paycheck: {
@@ -366,6 +376,26 @@ export default {
             en: 'Skin {{value}} animals',
             de: 'Haeute {{value}} Tiere',
             pl: 'Oprawdz {{value}} zwierzat',
+        },
+    },
+    cat_whisperer: {
+        name: { ru: 'Кошачий шёпот', ua: 'Котячий шепіт', en: 'Cat Whisperer', de: 'Katzenfluesterer', pl: 'Zaklinacz Kotow' },
+        desc: {
+            ru: 'Погладьте {{value}} уличных котов, каждый засчитывается раз за рестарт',
+            ua: 'Погладьте {{value}} вуличних котів, кожен зараховується раз за рестарт',
+            en: 'Pet {{value}} street cats, each one counts once per restart',
+            de: 'Streichle {{value}} Strassenkatzen, jede zaehlt einmal pro Neustart',
+            pl: 'Poglaszcz {{value}} ulicznych kotow, kazdy liczy sie raz na restart',
+        },
+    },
+    good_boy: {
+        name: { ru: 'Кто хороший мальчик?', ua: 'Хто гарний хлопчик?', en: "Who's a Good Boy?", de: 'Wer ist ein braver Hund?', pl: 'Kto tu jest grzecznym psem?' },
+        desc: {
+            ru: 'Погладьте {{value}} уличных собак, каждая засчитывается раз за рестарт',
+            ua: 'Погладьте {{value}} вуличних собак, кожна зараховується раз за рестарт',
+            en: 'Pet {{value}} street dogs, each one counts once per restart',
+            de: 'Streichle {{value}} Strassenhunde, jeder zaehlt einmal pro Neustart',
+            pl: 'Poglaszcz {{value}} ulicznych psow, kazdy liczy sie raz na restart',
         },
     },
     trader: {
