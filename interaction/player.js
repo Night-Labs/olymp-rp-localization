@@ -7,6 +7,14 @@ export const player = {
         pl: 'Poznaj się',
         zh: '见面',
     },
+    shareNumber: {
+        ru: 'Обменяться номерами',
+        ua: 'Обмінятися номерами',
+        en: 'Exchange numbers',
+        de: 'Nummern austauschen',
+        pl: 'Wymienić się numerami',
+        zh: '交换号码',
+    },
     giveMoney: {
         ru: 'Передать деньги',
         ua: 'Передати гроші',

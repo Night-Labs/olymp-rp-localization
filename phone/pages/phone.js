@@ -262,6 +262,38 @@ export default {
                 de: 'Du hast das Kontaktlimit erreicht.',
                 pl: 'Osiągnąłeś limit kontaktów.',
             },
+
+            noSim: {
+                ru: 'У вас нет SIM-карты',
+                ua: 'У вас немає SIM-картки',
+                en: "You don't have a SIM card",
+                de: 'Du hast keine SIM-Karte',
+                pl: 'Nie masz karty SIM',
+            },
+
+            targetNoSim: {
+                ru: 'У этого человека нет SIM-карты',
+                ua: 'У цієї людини немає SIM-картки',
+                en: "This person doesn't have a SIM card",
+                de: 'Diese Person hat keine SIM-Karte',
+                pl: 'Ta osoba nie ma karty SIM',
+            },
+
+            targetMax: {
+                ru: 'У этого человека закончилось место в контактах',
+                ua: 'У цієї людини закінчилося місце в контактах',
+                en: "This person's contact list is full",
+                de: 'Die Kontaktliste dieser Person ist voll',
+                pl: 'Lista kontaktów tej osoby jest pełna',
+            },
+
+            alreadyExchanged: {
+                ru: 'Вы уже обменялись номерами',
+                ua: 'Ви вже обмінялися номерами',
+                en: 'You have already exchanged numbers',
+                de: 'Ihr habt bereits Nummern ausgetauscht',
+                pl: 'Już wymieniliście się numerami',
+            },
         },
 
         blackList: {
