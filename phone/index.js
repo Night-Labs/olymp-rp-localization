@@ -18,6 +18,8 @@ import game2048 from './pages/game2048';
 import prism from './pages/prism';
 import taxi from './pages/taxi';
 import bank from './pages/bank';
+import camera from './pages/camera';
+import gallery from './pages/gallery';
 
 export default {
     ...cef,
@@ -39,4 +41,6 @@ export default {
     prism,
     taxi,
     bank,
+    camera,
+    gallery,
 };

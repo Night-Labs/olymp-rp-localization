@@ -482,6 +482,27 @@ export default {
         de: 'Kamera: herauszoomen',
         pl: 'Aparat: oddal',
     },
+    'photo.flip': {
+        ru: 'Камера телефона: сменить объектив',
+        ua: 'Камера телефона: змінити об’єктив',
+        en: 'Phone camera: switch lens',
+        de: 'Handykamera: Objektiv wechseln',
+        pl: 'Aparat w telefonie: zmień obiektyw',
+    },
+    'photo.filterPrev': {
+        ru: 'Камера телефона: предыдущий фильтр',
+        ua: 'Камера телефона: попередній фільтр',
+        en: 'Phone camera: previous filter',
+        de: 'Handykamera: vorheriger Filter',
+        pl: 'Aparat w telefonie: poprzedni filtr',
+    },
+    'photo.filterNext': {
+        ru: 'Камера телефона: следующий фильтр',
+        ua: 'Камера телефона: наступний фільтр',
+        en: 'Phone camera: next filter',
+        de: 'Handykamera: nächster Filter',
+        pl: 'Aparat w telefonie: następny filtr',
+    },
     'drone.cycleMode': {
         ru: 'Дрон: переключить режим полёта',
         ua: 'Дрон: перемкнути режим польоту',
