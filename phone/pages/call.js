@@ -232,6 +232,20 @@ export default {
             de: 'Du kannst diese Fraktion nicht herbeirufen',
             pl: 'Nie możesz przywołać tej frakcji',
         },
+        callFirst: {
+            ru: 'Позвоните в 911 ещё раз, чтобы отправить вызов',
+            ua: 'Зателефонуйте в 911 ще раз, щоб надіслати виклик',
+            en: 'Call 911 again to send the request',
+            de: 'Ruf erneut 911 an, um die Anfrage zu senden',
+            pl: 'Zadzwoń ponownie pod 911, aby wysłać zgłoszenie',
+        },
+        invalidComment: {
+            ru: 'Комментарий содержит недопустимые символы',
+            ua: 'Коментар містить неприпустимі символи',
+            en: 'The comment contains invalid characters',
+            de: 'Der Kommentar enthält ungültige Zeichen',
+            pl: 'Komentarz zawiera niedozwolone znaki',
+        },
         reasons: {
             evacuation: {
                 ru: 'Эвакуация ТС',
