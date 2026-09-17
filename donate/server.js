@@ -1,10 +1,10 @@
 export const server = {
     createdRandomPromo: {
-        ua: 'Створено випадковий промокод ~o~{{promo}} ~w~на ~o~{{sum}} донат валюти ~w~ <br>Він буде діяти рівно ~o~5 хвилин ~w~, встигни ввести його в <br>~g~Меню > Магазин > Промокод',
-        en: 'Created a random promo code ~o~{{promo}} ~w~for ~o~{{sum}} donation currency ~w~ <br>It will work for exactly ~o~5 minutes ~w~, hurry up to enter it in <br>~g~Menu > Store > Promo Code',
-        ru: 'Создан случайный промокод ~o~{{promo}} ~w~на ~o~{{sum}} донат валюты ~w~ <br>Он будет работать ровно ~o~5 минут ~w~, успей ввести его в <br>~g~Меню > Магазин > Промокод',
-        de: 'Ein zufälliger Promo-Code wurde erstellt: ~o~{{promo}} ~w~dieser gibt dir ~o~{{sum}} OlympCoins. ~w~ <br>Er ist genau ~o~5 Minuten ~w~ gültig, beeil dich und gib ihn über <br>~g~Menü > Shop > Promo-Code ein.',
-        pl: 'Utworzono losowy kod promocyjny ~o~{{promo}} ~w~dla ~o~{{sum}} waluty donacyjnej ~w~ <br>Będzie działać przez dokładnie ~o~5 minut ~w~, śpiesz się, aby go wprowadzić w <br>~g~Menu > Sklep > Kod promocyjny',
+        ua: 'Створено випадковий промокод ~o~{{promo}} ~w~на ~o~{{sum}} донат валюти ~w~ <br>Він буде діяти рівно ~o~5 хвилин ~w~, встигни ввести його в <br>~g~Меню › Магазин › Промокод',
+        en: 'Created a random promo code ~o~{{promo}} ~w~for ~o~{{sum}} donation currency ~w~ <br>It will work for exactly ~o~5 minutes ~w~, hurry up to enter it in <br>~g~Menu › Store › Promo Code',
+        ru: 'Создан случайный промокод ~o~{{promo}} ~w~на ~o~{{sum}} донат валюты ~w~ <br>Он будет работать ровно ~o~5 минут ~w~, успей ввести его в <br>~g~Меню › Магазин › Промокод',
+        de: 'Ein zufälliger Promo-Code wurde erstellt: ~o~{{promo}} ~w~dieser gibt dir ~o~{{sum}} OlympCoins. ~w~ <br>Er ist genau ~o~5 Minuten ~w~ gültig, beeil dich und gib ihn über <br>~g~Menü › Shop › Promo-Code ein.',
+        pl: 'Utworzono losowy kod promocyjny ~o~{{promo}} ~w~dla ~o~{{sum}} waluty donacyjnej ~w~ <br>Będzie działać przez dokładnie ~o~5 minut ~w~, śpiesz się, aby go wprowadzić w <br>~g~Menu › Sklep › Kod promocyjny',
         zh: '随机代码~o~{promo}}~w~关于~o~{sum}}货币捐赠~w~<br>它将同样有效~o~5分钟~w~，请在<br>~g~菜单>杂志>代码中输入它',
     },
     donatStore: {
@@ -111,11 +111,11 @@ export const server = {
     },
 
     donated: {
-        ru: '!{#ffffff}Спасибо за ваш донат проекту! <br> Вам начислено !{#fdd431}{{donateSum}} Olymp-Coins !{#ffffff}ваш баланс: !{#fdd431}{{balance}} Olymp-Coins',
-        ua: '!{#ffffff}Дякуємо за ваш донат проекту! <br> Вам нараховано !{#fdd431}{{donateSum}} Olymp-Coins !{#ffffff}ваш баланс: !{#fdd431}{{balance}} Olymp-Coins',
-        en: '!{#ffffff}Thank you for your donation to the project! <br> You have been credited with !{#fdd431}{{donateSum}} Olymp-Coins !{#ffffff}your balance: !{#fdd431}{{balance}} Olymp-Coins',
-        de: '!{#ffffff}Danke für deine Spende an das Projekt! <br> Dir wurden !{#fdd431}{{donateSum}} Olymp-Coins gutgeschrieben !{#ffffff}Dein Kontostand: !{#fdd431}{{balance}} Olymp-Coins',
-        pl: '!{#ffffff}Dziękujemy za darowiznę na rzecz projektu! <br> Zostało Ci przyznane !{#fdd431}{{donateSum}} Olymp-Coins !{#ffffff}twój stan konta: !{#fdd431}{{balance}} Olymp-Coins',
+        ru: '~w~Спасибо за ваш донат проекту! <br> Вам начислено ~o~{{donateSum}} Olymp-Coins ~w~ваш баланс: ~o~{{balance}} Olymp-Coins',
+        ua: '~w~Дякуємо за ваш донат проекту! <br> Вам нараховано ~o~{{donateSum}} Olymp-Coins ~w~ваш баланс: ~o~{{balance}} Olymp-Coins',
+        en: '~w~Thank you for your donation to the project! <br> You have been credited with ~o~{{donateSum}} Olymp-Coins ~w~your balance: ~o~{{balance}} Olymp-Coins',
+        de: '~w~Danke für deine Spende an das Projekt! <br> Dir wurden ~o~{{donateSum}} Olymp-Coins gutgeschrieben ~w~Dein Kontostand: ~o~{{balance}} Olymp-Coins',
+        pl: '~w~Dziękujemy za darowiznę na rzecz projektu! <br> Zostało Ci przyznane ~o~{{donateSum}} Olymp-Coins ~w~twój stan konta: ~o~{{balance}} Olymp-Coins',
         zh: '请联系管理',
     },
 

@@ -1,10 +1,10 @@
 export default {
     messageForPolicemans: {
-        ru: '!{#3571cc} Только что машина превысила скорость на {{speed}} км/ч. Модель: {{name}} Номера: {{plate}} Скорость: {{totalSpeed}} км/ч',
-        ua: '!{#3571cc} Щойно машина перевищила швидкість на {{speed}} км/год. Модель: {{name}} Номери: {{plate}} Швидкість: {{totalSpeed}} км/год',
-        en: '!{#3571cc} A car has just exceeded the speed limit by {{speed}} km/h. Model: {{name}} License plate: {{plate}} Speed: {{totalSpeed}} km/h',
-        de: '!{#3571cc} Gerade hat ein Auto die Geschwindigkeitsbegrenzung um {{speed}} km/h überschritten. Modell: {{name}} Kennzeichen: {{plate}} Geschwindigkeit: {{totalSpeed}} km/h',
-        pl: '!{#3571cc} Właśnie samochód przekroczył prędkość o {{speed}} km/h. Model: {{name}} Numer rejestracyjny: {{plate}} Prędkość: {{totalSpeed}} km/h',
+        ru: '~b~ Только что машина превысила скорость на {{speed}} км/ч. Модель: {{name}} Номера: {{plate}} Скорость: {{totalSpeed}} км/ч',
+        ua: '~b~ Щойно машина перевищила швидкість на {{speed}} км/год. Модель: {{name}} Номери: {{plate}} Швидкість: {{totalSpeed}} км/год',
+        en: '~b~ A car has just exceeded the speed limit by {{speed}} km/h. Model: {{name}} License plate: {{plate}} Speed: {{totalSpeed}} km/h',
+        de: '~b~ Gerade hat ein Auto die Geschwindigkeitsbegrenzung um {{speed}} km/h überschritten. Modell: {{name}} Kennzeichen: {{plate}} Geschwindigkeit: {{totalSpeed}} km/h',
+        pl: '~b~ Właśnie samochód przekroczył prędkość o {{speed}} km/h. Model: {{name}} Numer rejestracyjny: {{plate}} Prędkość: {{totalSpeed}} km/h',
     },
     uCantPlaceHere: {
         ru: 'Вы не можете разместить радар тут',

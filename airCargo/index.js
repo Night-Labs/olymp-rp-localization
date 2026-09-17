@@ -229,6 +229,36 @@ export default {
             pl: 'Dobrze',
         },
     },
+    mark: {
+        align: {
+            ru: 'Выровняйте ящик по разметке',
+            ua: 'Вирівняйте ящик по розмітці',
+            en: 'Line the crate up with the mark',
+            de: 'Richte die Kiste an der Markierung aus',
+            pl: 'Ustaw skrzynie rowno z oznaczeniem',
+        },
+        lower: {
+            ru: 'Опустите вилы',
+            ua: 'Опустіть вила',
+            en: 'Lower the forks',
+            de: 'Senke die Gabeln',
+            pl: 'Opusc widly',
+        },
+        clear: {
+            ru: 'Отъезжайте от ящика',
+            ua: "Від'їжджайте від ящика",
+            en: 'Back the forklift away',
+            de: 'Fahr mit dem Stapler weg',
+            pl: 'Odjedz wozkiem od skrzyni',
+        },
+        return: {
+            ru: 'Вернитесь к ящику',
+            ua: 'Поверніться до ящика',
+            en: 'Come back to the crate',
+            de: 'Komm zurück zur Kiste',
+            pl: 'Wroc do skrzyni',
+        },
+    },
     hud: {
         title: {
             ru: 'Авиагрузчик',

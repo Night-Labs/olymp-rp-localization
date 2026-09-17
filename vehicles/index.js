@@ -569,12 +569,12 @@ export default {
         pl: 'Dostępne tylko dla pasażera',
     },
     slotLabel: {
-        parked: {
-            ru: 'Припарковано',
-            ua: 'Припарковано',
-            en: 'Parked',
-            de: 'Geparkt',
-            pl: 'Zaparkowane',
+        takenOut: {
+            ru: 'На выезде',
+            ua: 'На виїзді',
+            en: 'Taken out',
+            de: 'Unterwegs',
+            pl: 'W drodze',
         },
     },
 };

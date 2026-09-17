@@ -80,12 +80,12 @@ export const faction = {
         },
     },
     radio: {
-        ru: '!{#2196F3}[Рация {{factionName}}] {{message}}',
-        ua: '!{#2196F3}[Рація {{factionName}}] {{message}}',
-        en: '!{#2196F3}[Radio {{factionName}}] {{message}}',
-        de: '!{#2196F3}[Funk {{factionName}}] {{message}}',
-        pl: '!{#2196F3}[Radio {{factionName}}] {{message}}',
-        zh: '{#2196F3}[无线电{{factionName}]{{message}',
+        ru: '~b~[Рация {{factionName}}] {{message}}',
+        ua: '~b~[Рація {{factionName}}] {{message}}',
+        en: '~b~[Radio {{factionName}}] {{message}}',
+        de: '~b~[Funk {{factionName}}] {{message}}',
+        pl: '~b~[Radio {{factionName}}] {{message}}',
+        zh: '~b~[无线电 {{factionName}}] {{message}}',
     },
     noMoney: {
         ru: 'У вашей организации недостаточно денег',

@@ -14,13 +14,6 @@ export const server = {
         pl: 'Magazyn',
     },
     blips: {
-        warehouse: {
-            ru: 'Склад',
-            ua: 'Склад',
-            en: 'Warehouse',
-            de: 'Lager',
-            pl: 'Magazyn',
-        },
         warehouseOwned: {
             ru: 'Мой склад',
             ua: 'Мій склад',

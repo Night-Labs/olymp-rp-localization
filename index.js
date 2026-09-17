@@ -78,6 +78,7 @@ import prism from './prism';
 import diving from './diving';
 import garbage from './garbage';
 import airCargo from './airCargo';
+import cashCollector from './cashCollector';
 import drivingSchool from './drivingSchool';
 import drugs from './drugs';
 import modifiers from './modifiers';
@@ -95,6 +96,7 @@ import warehouses from './warehouses';
 import sections from './sections';
 import organizationRegistration from './organizationRegistration';
 import organizations from './organizations';
+import bankRobbery from './bankRobbery';
 import factories from './factories';
 import tennis from './tennis';
 import trade from './trade';
@@ -196,6 +198,7 @@ export default {
     diving,
     garbage,
     airCargo,
+    cashCollector,
     prism,
     drivingSchool,
     drugs,
@@ -217,6 +220,7 @@ export default {
     sections,
     organizationRegistration,
     organizations,
+    bankRobbery,
     factories,
     tennis,
     trade,

@@ -234,6 +234,13 @@ export const npc = {
             de: 'Terminal-Vorarbeiter',
             pl: 'Brygadzista Terminala',
         },
+        cashCollectorDispatcher: {
+            ru: 'Диспетчер Gruppe 6',
+            ua: 'Диспетчер Gruppe 6',
+            en: 'Gruppe 6 Dispatcher',
+            de: 'Gruppe 6 Disponent',
+            pl: 'Dyspozytor Gruppe 6',
+        },
         garbageWorker: {
             ru: 'Старший Смены',
             ua: 'Старший Зміни',

@@ -34,6 +34,20 @@ export default {
         de: 'Jemand schneidet diesen Container bereits auf.',
         pl: 'Ktoś już rozcina ten kontener.',
     },
+    raidIncoming: {
+        ru: '~y~[Товарный поезд] ~w~Встанет через ~y~{{minutes}} мин~w~. Отметка на карте.',
+        ua: '~y~[Товарний потяг] ~w~Зупиниться через ~y~{{minutes}} хв~w~. Позначка на карті.',
+        en: '~y~[Freight train] ~w~Stops in ~y~{{minutes}} min~w~. It is marked on your map.',
+        de: '~y~[Güterzug] ~w~Hält in ~y~{{minutes}} Min~w~. Er ist auf deiner Karte markiert.',
+        pl: '~y~[Pociąg towarowy] ~w~Zatrzyma się za ~y~{{minutes}} min~w~. Oznaczenie jest na mapie.',
+    },
+    noTorch: {
+        ru: 'Нужен газовый резак.',
+        ua: 'Потрібен газовий різак.',
+        en: 'You need a cutting torch.',
+        de: 'Du brauchst einen Schneidbrenner.',
+        pl: 'Potrzebujesz palnika do cięcia.',
+    },
     cutInterrupted: {
         ru: 'Резка прервана.',
         ua: 'Різання перервано.',

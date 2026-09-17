@@ -21,6 +21,13 @@ export default {
         de: 'Hausbewohner',
         pl: 'Mieszkaniec domu',
     },
+    houseOrganization: {
+        ru: 'Штаб организации',
+        ua: 'Штаб організації',
+        en: 'Organization HQ',
+        de: 'Hauptquartier der Organisation',
+        pl: 'Kwatera organizacji',
+    },
     youHaveKickedRecently: {
         ru: 'Тебя недавно выгоняли из этого дома',
         ua: 'Тебе нещодавно виганяли з цього дому',

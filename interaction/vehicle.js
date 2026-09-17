@@ -472,6 +472,14 @@ export const vehicle = {
         pl: 'Zaladuj skrzynie kontraktu',
     },
 
+    'cashCollector-rob': {
+        ru: 'Вскрыть броневик',
+        ua: 'Розкрити броньовик',
+        en: 'Crack the armoured van',
+        de: 'Panzerwagen aufbrechen',
+        pl: 'Rozbic furgon',
+    },
+
     'trunk-open': {
         ru: 'Открыть багажник для остальных',
         ua: 'Відкрити багажник для інших',
@@ -604,6 +612,14 @@ export const vehicle = {
         de: 'An die Fraktion übergeben',
         pl: 'Przekaż do frakcji',
         zh: '转交给帮派',
+    },
+    'transfer-to-organization': {
+        ru: 'Передать в {{name}}',
+        ua: 'Передати у {{name}}',
+        en: 'Transfer to {{name}}',
+        de: 'An {{name}} übergeben',
+        pl: 'Przekaż do {{name}}',
+        zh: '转交给{{name}}',
     },
     'remove-plate': {
         ru: 'Снять номер',

@@ -176,6 +176,13 @@ export default {
                 de: 'Lieferung von Materialien bestellt. -${{money}}',
                 pl: 'Zamówiono dostawę materiałów. -${{money}}',
             },
+            adminTake: {
+                ru: 'Администрация изъяла средства из бюджета. -${{money}}',
+                ua: 'Адміністрація вилучила кошти з бюджету. -${{money}}',
+                en: 'The administration withdrew funds from the budget. -${{money}}',
+                de: 'Die Administration hat Mittel aus dem Budget entnommen. -${{money}}',
+                pl: 'Administracja pobrała środki z budżetu. -${{money}}',
+            },
             restoreVehicle: {
                 ru: 'Восстановление транспорта {{vehicle}} ({{plate}}). -${{money}}',
                 ua: 'Відновлення транспорту {{vehicle}} ({{plate}}). -${{money}}',
