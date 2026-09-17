@@ -117,6 +117,7 @@ import militaryGates from './militaryGates';
 import designEditor from './designEditor';
 import funicular from './funicular';
 import freightTrain from './freightTrain';
+import fortAttack from './fortAttack';
 import ping from './ping';
 import weaponAttachments from './weaponAttachments';
 
@@ -241,6 +242,7 @@ export default {
     designEditor,
     funicular,
     freightTrain,
+    fortAttack,
     ping,
     weaponAttachments,
 };

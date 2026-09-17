@@ -50,6 +50,14 @@ export default {
         pl: 'Abonent ma włączony tryb "Nie przeszkadzać"',
     },
 
+    missedNotify: {
+        ru: 'Пропущенный вызов',
+        ua: 'Пропущений виклик',
+        en: 'Missed call',
+        de: 'Verpasster Anruf',
+        pl: 'Nieodebrane połączenie',
+    },
+
     attorney: {
         noWanted: {
             ru: 'Соул: за тобой ничего не висит, приятель. Позвони, когда будет.',

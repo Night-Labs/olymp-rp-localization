@@ -29,6 +29,13 @@ export const server = {
         de: 'Du hast eine neue Bestellung im Wert von ${{salary}} bekommen',
         pl: 'Otrzymałeś nowe zamówienie o wartości ${{salary}}',
     },
+    youBeenAssignedOrders: {
+        ru: 'Вам поступили новые заказы ({{count}} шт.) на сумму ${{salary}}',
+        ua: 'Тобі надійшли нові замовлення ({{count}} шт.) на суму ${{salary}}',
+        en: 'You got new orders ({{count}}) worth ${{salary}}',
+        de: 'Du hast neue Bestellungen ({{count}}) im Wert von ${{salary}} bekommen',
+        pl: 'Otrzymałeś nowe zamówienia ({{count}} szt.) o wartości ${{salary}}',
+    },
     didntTakeOrder: {
         ru: 'Сначала заберите заказ',
         ua: 'Спочатку заберіть замовлення',
@@ -79,6 +86,13 @@ export const server = {
         de: 'Du hast die Bestellung genommen, bring sie zum Punkt',
         pl: 'Ty wziąłeś zamówienie, dostarcz je na miejscówkę',
     },
+    youPickedUpOrders: {
+        ru: 'Ты сложил в сумку заказы ({{count}} шт.), развези их по адресам',
+        ua: 'Ти склав у сумку замовлення ({{count}} шт.), розвези їх за адресами',
+        en: 'You packed {{count}} orders into the bag, deliver them to the addresses',
+        de: 'Du hast {{count}} Bestellungen in die Tasche gepackt, liefere sie an die Adressen',
+        pl: 'Spakowałeś do torby zamówienia ({{count}} szt.), rozwieź je pod adresy',
+    },
     hud: {
         title: {
             ru: 'Доставщик еды',
@@ -94,12 +108,33 @@ export const server = {
             de: 'Hol die Bestellung bei "Burger Shot" ab',
             pl: 'Odbierz zamówienie w "Burger Shot"',
         },
+        takeOrders: {
+            ru: 'Заберите заказы в "Burger Shot"',
+            ua: 'Забери замовлення в "Burger Shot"',
+            en: 'Pick up the orders at "Burger Shot"',
+            de: 'Hol die Bestellungen bei "Burger Shot" ab',
+            pl: 'Odbierz zamówienia w "Burger Shot"',
+        },
         deliverTo: {
             ru: 'Доставьте заказ на точку',
             ua: 'Достав замовлення на точку',
             en: 'Deliver the order to the spot',
             de: 'Liefere die Bestellung zum Punkt',
             pl: 'Dostarcz zamówienie na miejsce',
+        },
+        deliverToMany: {
+            ru: 'Развезите заказы по адресам',
+            ua: 'Розвезіть замовлення за адресами',
+            en: 'Deliver the orders to the addresses',
+            de: 'Liefere die Bestellungen an die Adressen',
+            pl: 'Rozwieź zamówienia pod adresy',
+        },
+        inBag: {
+            ru: 'Заказов в сумке',
+            ua: 'Замовлень у сумці',
+            en: 'Orders in the bag',
+            de: 'Bestellungen in der Tasche',
+            pl: 'Zamówień w torbie',
         },
         delivered: {
             ru: 'Доставлено',

@@ -179,6 +179,14 @@ export default {
         pl: 'Wybierać skład na wojnę',
         zh: '挑选参战名单',
     },
+    startFortAttack: {
+        ru: 'Нападать на Форт-Занкудо (ЭМИ)',
+        ua: 'Нападати на Форт-Занкудо (ЕМІ)',
+        en: 'Attack Fort Zancudo (EMP)',
+        de: 'Fort Zancudo angreifen (EMP)',
+        pl: 'Atakować Fort Zancudo (EMP)',
+        zh: '袭击赞库多堡 (EMP)',
+    },
     takeLicense: {
         ru: 'Забирать лицензии',
         ua: 'Забирати ліцензії',
@@ -289,6 +297,13 @@ export default {
         en: 'Give bonuses',
         de: 'Boni vergeben',
         pl: 'Przyznawać premie',
+    },
+    giveRankBonus: {
+        ru: 'Выдавать премии рангу',
+        ua: 'Видавати премії рангу',
+        en: 'Give bonuses to a rank',
+        de: 'Boni an einen Rang vergeben',
+        pl: 'Przyznawać premie randze',
     },
     wardrobe: {
         ru: 'Настраивать доступ к униформе',

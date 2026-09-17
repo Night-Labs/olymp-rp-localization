@@ -47,6 +47,13 @@ export default {
             de: 'Letzte Anrufe',
             pl: 'Ostatnie połączenia',
         },
+        noAnswer: {
+            ru: 'Нет ответа',
+            ua: 'Немає відповіді',
+            en: 'No answer',
+            de: 'Keine Antwort',
+            pl: 'Brak odpowiedzi',
+        },
     },
 
     contacts: {
