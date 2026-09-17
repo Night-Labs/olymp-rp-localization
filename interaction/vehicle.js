@@ -124,6 +124,80 @@ export const vehicle = {
         zh: '爆闪灯',
     },
 
+    // Dynamic Drive: подменю со сменой чипа. Названия чипов те же, что в ателье
+    // (tuning.chips.*) — это бренды, одинаковые во всех языках.
+    dynamicDrive: {
+        ru: 'Dynamic Drive Chip',
+        ua: 'Dynamic Drive Chip',
+        en: 'Dynamic Drive Chip',
+        de: 'Dynamic Drive Chip',
+        pl: 'Dynamic Drive Chip',
+        zh: 'Dynamic Drive Chip',
+    },
+
+    'dynamicDrive-chip-standard': {
+        ru: 'Standard',
+        ua: 'Standard',
+        en: 'Standard',
+        de: 'Standard',
+        pl: 'Standard',
+        zh: 'Standard',
+    },
+
+    'dynamicDrive-chip-stage1': {
+        ru: 'Stage 1',
+        ua: 'Stage 1',
+        en: 'Stage 1',
+        de: 'Stage 1',
+        pl: 'Stage 1',
+        zh: 'Stage 1',
+    },
+
+    'dynamicDrive-chip-stage2': {
+        ru: 'Stage 2',
+        ua: 'Stage 2',
+        en: 'Stage 2',
+        de: 'Stage 2',
+        pl: 'Stage 2',
+        zh: 'Stage 2',
+    },
+
+    'dynamicDrive-chip-stage3': {
+        ru: 'Stage 3',
+        ua: 'Stage 3',
+        en: 'Stage 3',
+        de: 'Stage 3',
+        pl: 'Stage 3',
+        zh: 'Stage 3',
+    },
+
+    'dynamicDrive-chip-drift': {
+        ru: 'Drift',
+        ua: 'Drift',
+        en: 'Drift',
+        de: 'Drift',
+        pl: 'Drift',
+        zh: 'Drift',
+    },
+
+    'dynamicDrive-chip-awd': {
+        ru: 'All-wheel drive',
+        ua: 'All-wheel drive',
+        en: 'All-wheel drive',
+        de: 'All-wheel drive',
+        pl: 'All-wheel drive',
+        zh: 'All-wheel drive',
+    },
+
+    'dynamicDrive-chip-rwd': {
+        ru: 'Rear-wheel drive',
+        ua: 'Rear-wheel drive',
+        en: 'Rear-wheel drive',
+        de: 'Rear-wheel drive',
+        pl: 'Rear-wheel drive',
+        zh: 'Rear-wheel drive',
+    },
+
     'strobe-mode-doubleBurst': {
         ru: 'Дуплет',
         ua: 'Дуплет',

@@ -74,12 +74,12 @@ export default {
         zh: '贴纸原型：将测试图片贴到你正在看的车辆车身上。',
     },
     nika: {
-        ru: 'Ника: два компаньона-телохранителя. start / end / kill <id> / forget <id> / mode <0-2> / ammo <тип|off> / anim.',
-        ua: 'Ніка: два компаньйони-охоронці. start / end / kill <id> / forget <id> / mode <0-2> / ammo <тип|off> / anim.',
-        en: 'Nika: two bodyguard companions. start / end / kill <id> / forget <id> / mode <0-2> / ammo <type|off> / anim.',
-        de: 'Nika: zwei Leibwächter-Begleiter. start / end / kill <id> / forget <id> / mode <0-2> / ammo <Typ|off> / anim.',
-        pl: 'Nika: dwie towarzyszki-ochroniarki. start / end / kill <id> / forget <id> / mode <0-2> / ammo <typ|off> / anim.',
-        zh: '妮卡：两名护卫同伴。start / end / kill <id> / forget <id> / mode <0-2> / ammo <类型|off> / anim。',
+        ru: 'Ника: два компаньона-телохранителя. start / end / kill <id> / forget <id> / mode <0-2> / ammo <тип|off> / anim / fly [on|off].',
+        ua: 'Ніка: два компаньйони-охоронці. start / end / kill <id> / forget <id> / mode <0-2> / ammo <тип|off> / anim / fly [on|off].',
+        en: 'Nika: two bodyguard companions. start / end / kill <id> / forget <id> / mode <0-2> / ammo <type|off> / anim / fly [on|off].',
+        de: 'Nika: zwei Leibwächter-Begleiter. start / end / kill <id> / forget <id> / mode <0-2> / ammo <Typ|off> / anim / fly [on|off].',
+        pl: 'Nika: dwie towarzyszki-ochroniarki. start / end / kill <id> / forget <id> / mode <0-2> / ammo <typ|off> / anim / fly [on|off].',
+        zh: '妮卡：两名护卫同伴。start / end / kill <id> / forget <id> / mode <0-2> / ammo <类型|off> / anim / fly [on|off]。',
     },
     ahelp: {
         ru: 'Показать список доступных админ-команд с их назначением.',
@@ -1341,6 +1341,13 @@ export default {
         en: 'Give a daily case to the selected player.',
         de: 'Dem ausgewählten Spieler eine tägliche Kiste geben.',
         pl: 'Daj dzienną skrzynkę wybranemu graczowi.',
+    },
+    give_donate_item: {
+        ru: 'Выдать донат-предмет на донат-склад игрока по ID предмета, с количеством (по умолчанию 1).',
+        ua: 'Видати донат-предмет на донат-склад гравця за ID предмета, з кількістю (за замовчуванням 1).',
+        en: 'Give a donate item to a player donate warehouse by item ID, with quantity (1 by default).',
+        de: 'Einen Spendengegenstand anhand der Gegenstands-ID mit Menge (Standard 1) ins Spendenlager des Spielers legen.',
+        pl: 'Daj przedmiot donate do magazynu donate gracza po ID przedmiotu, z ilością (domyślnie 1).',
     },
     unlock_skin: {
         ru: 'Разблокировать донат-скин игроку по его skin ID.',
