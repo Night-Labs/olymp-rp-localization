@@ -145,6 +145,15 @@ export const server = {
 
     receive: {
 
+        adminGrant: {
+            ru: 'На донат-склад добавлено: {{name}} {{quantity}} шт.',
+            ua: 'На донат-склад додано: {{name}} {{quantity}} шт.',
+            en: 'Added to the donate warehouse: {{name}} {{quantity}} pcs.',
+            de: 'Dem Spendenlager hinzugefügt: {{name}} {{quantity}} Stk.',
+            pl: 'Dodano do magazynu donate: {{name}} {{quantity}} szt.',
+            zh: '已添加到捐赠仓库：{{name}} {{quantity}} 件',
+        },
+
         tuningInWorkshop: {
             ru: 'Этот предмет устанавливается в тюнинг-ателье и сгорает там при установке',
             ua: 'Цей предмет встановлюється в тюнінг-ательє і згорає там при встановленні',

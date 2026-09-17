@@ -115,6 +115,403 @@ export const vehicle = {
         zh: '关闭自动模式',
     },
 
+    'strobe': {
+        ru: 'Стробоскопы',
+        ua: 'Стробоскопи',
+        en: 'Strobe kit',
+        de: 'Stroboskope',
+        pl: 'Stroboskopy',
+        zh: '爆闪灯',
+    },
+
+    // Dynamic Drive: подменю со сменой чипа. Названия чипов те же, что в ателье
+    // (tuning.chips.*) — это бренды, одинаковые во всех языках.
+    dynamicDrive: {
+        ru: 'Dynamic Drive Chip',
+        ua: 'Dynamic Drive Chip',
+        en: 'Dynamic Drive Chip',
+        de: 'Dynamic Drive Chip',
+        pl: 'Dynamic Drive Chip',
+        zh: 'Dynamic Drive Chip',
+    },
+
+    'dynamicDrive-chip-standard': {
+        ru: 'Standard',
+        ua: 'Standard',
+        en: 'Standard',
+        de: 'Standard',
+        pl: 'Standard',
+        zh: 'Standard',
+    },
+
+    'dynamicDrive-chip-stage1': {
+        ru: 'Stage 1',
+        ua: 'Stage 1',
+        en: 'Stage 1',
+        de: 'Stage 1',
+        pl: 'Stage 1',
+        zh: 'Stage 1',
+    },
+
+    'dynamicDrive-chip-stage2': {
+        ru: 'Stage 2',
+        ua: 'Stage 2',
+        en: 'Stage 2',
+        de: 'Stage 2',
+        pl: 'Stage 2',
+        zh: 'Stage 2',
+    },
+
+    'dynamicDrive-chip-stage3': {
+        ru: 'Stage 3',
+        ua: 'Stage 3',
+        en: 'Stage 3',
+        de: 'Stage 3',
+        pl: 'Stage 3',
+        zh: 'Stage 3',
+    },
+
+    'dynamicDrive-chip-drift': {
+        ru: 'Drift',
+        ua: 'Drift',
+        en: 'Drift',
+        de: 'Drift',
+        pl: 'Drift',
+        zh: 'Drift',
+    },
+
+    'dynamicDrive-chip-awd': {
+        ru: 'All-wheel drive',
+        ua: 'All-wheel drive',
+        en: 'All-wheel drive',
+        de: 'All-wheel drive',
+        pl: 'All-wheel drive',
+        zh: 'All-wheel drive',
+    },
+
+    'dynamicDrive-chip-rwd': {
+        ru: 'Rear-wheel drive',
+        ua: 'Rear-wheel drive',
+        en: 'Rear-wheel drive',
+        de: 'Rear-wheel drive',
+        pl: 'Rear-wheel drive',
+        zh: 'Rear-wheel drive',
+    },
+
+    'strobe-mode-doubleBurst': {
+        ru: 'Дуплет',
+        ua: 'Дуплет',
+        en: 'Double burst',
+        de: 'Doppelsalve',
+        pl: 'Dublet',
+        zh: '双联闪',
+    },
+
+    'strobe-mode-off-doubleBurst': {
+        ru: 'Отключить режим "Дуплет"',
+        ua: 'Вимкнути режим "Дуплет"',
+        en: 'Stop the "Double burst" mode',
+        de: 'Modus "Doppelsalve" beenden',
+        pl: 'Wyłącz tryb "Dublet"',
+        zh: '关闭"双联闪"模式',
+    },
+
+    'strobe-mode-alternate': {
+        ru: 'Чередование',
+        ua: 'Чергування',
+        en: 'Alternating',
+        de: 'Wechselblitz',
+        pl: 'Naprzemienne',
+        zh: '交替闪烁',
+    },
+
+    'strobe-mode-off-alternate': {
+        ru: 'Отключить режим "Чередование"',
+        ua: 'Вимкнути режим "Чергування"',
+        en: 'Stop the "Alternating" mode',
+        de: 'Modus "Wechselblitz" beenden',
+        pl: 'Wyłącz tryb "Naprzemienne"',
+        zh: '关闭"交替闪烁"模式',
+    },
+
+    'strobe-mode-sweep': {
+        ru: 'Перелив',
+        ua: 'Перелив',
+        en: 'Sweep',
+        de: 'Überblendung',
+        pl: 'Przelewanie',
+        zh: '流光',
+    },
+
+    'strobe-mode-off-sweep': {
+        ru: 'Отключить режим "Перелив"',
+        ua: 'Вимкнути режим "Перелив"',
+        en: 'Stop the "Sweep" mode',
+        de: 'Modus "Überblendung" beenden',
+        pl: 'Wyłącz tryb "Przelewanie"',
+        zh: '关闭"流光"模式',
+    },
+
+    'strobe-mode-slowFast': {
+        ru: 'Разгон',
+        ua: 'Розгін',
+        en: 'Build-up',
+        de: 'Steigerung',
+        pl: 'Rozpędzanie',
+        zh: '渐快',
+    },
+
+    'strobe-mode-off-slowFast': {
+        ru: 'Отключить режим "Разгон"',
+        ua: 'Вимкнути режим "Розгін"',
+        en: 'Stop the "Build-up" mode',
+        de: 'Modus "Steigerung" beenden',
+        pl: 'Wyłącz tryb "Rozpędzanie"',
+        zh: '关闭"渐快"模式',
+    },
+
+    'strobe-mode-doubleTap': {
+        ru: 'Двойная вспышка',
+        ua: 'Подвійний спалах',
+        en: 'Double tap',
+        de: 'Doppelschlag',
+        pl: 'Podwójny błysk',
+        zh: '双击闪',
+    },
+
+    'strobe-mode-off-doubleTap': {
+        ru: 'Отключить режим "Двойная вспышка"',
+        ua: 'Вимкнути режим "Подвійний спалах"',
+        en: 'Stop the "Double tap" mode',
+        de: 'Modus "Doppelschlag" beenden',
+        pl: 'Wyłącz tryb "Podwójny błysk"',
+        zh: '关闭"双击闪"模式',
+    },
+
+    'strobe-mode-police': {
+        ru: 'Патруль',
+        ua: 'Патруль',
+        en: 'Patrol',
+        de: 'Streife',
+        pl: 'Patrol',
+        zh: '巡逻',
+    },
+
+    'strobe-mode-off-police': {
+        ru: 'Отключить режим "Патруль"',
+        ua: 'Вимкнути режим "Патруль"',
+        en: 'Stop the "Patrol" mode',
+        de: 'Modus "Streife" beenden',
+        pl: 'Wyłącz tryb "Patrol"',
+        zh: '关闭"巡逻"模式',
+    },
+
+    'strobe-mode-policeAlert': {
+        ru: 'Тревога',
+        ua: 'Тривога',
+        en: 'Alert',
+        de: 'Alarm',
+        pl: 'Alarm',
+        zh: '警报',
+    },
+
+    'strobe-mode-off-policeAlert': {
+        ru: 'Отключить режим "Тревога"',
+        ua: 'Вимкнути режим "Тривога"',
+        en: 'Stop the "Alert" mode',
+        de: 'Modus "Alarm" beenden',
+        pl: 'Wyłącz tryb "Alarm"',
+        zh: '关闭"警报"模式',
+    },
+
+    'strobe-mode-policeIntercept': {
+        ru: 'Перехват',
+        ua: 'Перехоплення',
+        en: 'Intercept',
+        de: 'Abfangen',
+        pl: 'Przechwycenie',
+        zh: '拦截',
+    },
+
+    'strobe-mode-off-policeIntercept': {
+        ru: 'Отключить режим "Перехват"',
+        ua: 'Вимкнути режим "Перехоплення"',
+        en: 'Stop the "Intercept" mode',
+        de: 'Modus "Abfangen" beenden',
+        pl: 'Wyłącz tryb "Przechwycenie"',
+        zh: '关闭"拦截"模式',
+    },
+
+    'strobe-mode-swell': {
+        ru: 'Разгорание',
+        ua: 'Розгорання',
+        en: 'Swell',
+        de: 'Anschwellen',
+        pl: 'Narastanie',
+        zh: '渐亮',
+    },
+
+    'strobe-mode-off-swell': {
+        ru: 'Отключить режим "Разгорание"',
+        ua: 'Вимкнути режим "Розгорання"',
+        en: 'Stop the "Swell" mode',
+        de: 'Modus "Anschwellen" beenden',
+        pl: 'Wyłącz tryb "Narastanie"',
+        zh: '关闭"渐亮"模式',
+    },
+
+    'strobe-mode-rgbStrobe': {
+        ru: 'Радуга: строб',
+        ua: 'Веселка: строб',
+        en: 'Rainbow: strobe',
+        de: 'Regenbogen: Strobo',
+        pl: 'Tęcza: stroboskop',
+        zh: '彩虹：频闪',
+    },
+
+    'strobe-mode-off-rgbStrobe': {
+        ru: 'Отключить режим "Радуга: строб"',
+        ua: 'Вимкнути режим "Веселка: строб"',
+        en: 'Stop the "Rainbow: strobe" mode',
+        de: 'Modus "Regenbogen: Strobo" beenden',
+        pl: 'Wyłącz tryb "Tęcza: stroboskop"',
+        zh: '关闭"彩虹：频闪"模式',
+    },
+
+    'strobe-mode-rgbSweep': {
+        ru: 'Радуга: перелив',
+        ua: 'Веселка: перелив',
+        en: 'Rainbow: sweep',
+        de: 'Regenbogen: Überblendung',
+        pl: 'Tęcza: przelewanie',
+        zh: '彩虹：流光',
+    },
+
+    'strobe-mode-off-rgbSweep': {
+        ru: 'Отключить режим "Радуга: перелив"',
+        ua: 'Вимкнути режим "Веселка: перелив"',
+        en: 'Stop the "Rainbow: sweep" mode',
+        de: 'Modus "Regenbogen: Überblendung" beenden',
+        pl: 'Wyłącz tryb "Tęcza: przelewanie"',
+        zh: '关闭"彩虹：流光"模式',
+    },
+
+    'strobe-mode-rgbPulse': {
+        ru: 'Радуга: вспышки',
+        ua: 'Веселка: спалахи',
+        en: 'Rainbow: pulses',
+        de: 'Regenbogen: Impulse',
+        pl: 'Tęcza: błyski',
+        zh: '彩虹：脉冲',
+    },
+
+    'strobe-mode-off-rgbPulse': {
+        ru: 'Отключить режим "Радуга: вспышки"',
+        ua: 'Вимкнути режим "Веселка: спалахи"',
+        en: 'Stop the "Rainbow: pulses" mode',
+        de: 'Modus "Regenbogen: Impulse" beenden',
+        pl: 'Wyłącz tryb "Tęcza: błyski"',
+        zh: '关闭"彩虹：脉冲"模式',
+    },
+
+    'strobe-mode-music': {
+        ru: 'Под музыку',
+        ua: 'Під музику',
+        en: 'To the music',
+        de: 'Nach der Musik',
+        pl: 'Do muzyki',
+        zh: '随音乐',
+    },
+
+    'strobe-mode-off-music': {
+        ru: 'Отключить режим "Под музыку"',
+        ua: 'Вимкнути режим "Під музику"',
+        en: 'Stop the "To the music" mode',
+        de: 'Modus "Nach der Musik" beenden',
+        pl: 'Wyłącz tryb "Do muzyki"',
+        zh: '关闭"随音乐"模式',
+    },
+    'airSuspension-modes': {
+        ru: 'Режимы',
+        ua: 'Режими',
+        en: 'Modes',
+        de: 'Modi',
+        pl: 'Tryby',
+        zh: '模式',
+    },
+
+    'airSuspension-mode-bounce': {
+        ru: 'Подпрыгивание',
+        ua: 'Підстрибування',
+        en: 'Bouncing',
+        de: 'Hüpfen',
+        pl: 'Podskakiwanie',
+        zh: '弹跳',
+    },
+
+    'airSuspension-mode-off-bounce': {
+        ru: 'Отключить режим "Подпрыгивание"',
+        ua: 'Вимкнути режим "Підстрибування"',
+        en: 'Stop the "Bouncing" mode',
+        de: 'Modus "Hüpfen" beenden',
+        pl: 'Wyłącz tryb "Podskakiwanie"',
+        zh: '关闭"弹跳"模式',
+    },
+
+    'airSuspension-mode-roll': {
+        ru: 'Перекачивание',
+        ua: 'Перекачування',
+        en: 'Rocking',
+        de: 'Schaukeln',
+        pl: 'Kołysanie',
+        zh: '左右摇摆',
+    },
+
+    'airSuspension-mode-off-roll': {
+        ru: 'Отключить режим "Перекачивание"',
+        ua: 'Вимкнути режим "Перекачування"',
+        en: 'Stop the "Rocking" mode',
+        de: 'Modus "Schaukeln" beenden',
+        pl: 'Wyłącz tryb "Kołysanie"',
+        zh: '关闭"左右摇摆"模式',
+    },
+
+    'airSuspension-mode-pitch': {
+        ru: 'Качели',
+        ua: 'Гойдалка',
+        en: 'See-saw',
+        de: 'Wippe',
+        pl: 'Huśtawka',
+        zh: '前后跷跷板',
+    },
+
+    'airSuspension-mode-off-pitch': {
+        ru: 'Отключить режим "Качели"',
+        ua: 'Вимкнути режим "Гойдалка"',
+        en: 'Stop the "See-saw" mode',
+        de: 'Modus "Wippe" beenden',
+        pl: 'Wyłącz tryb "Huśtawka"',
+        zh: '关闭"前后跷跷板"模式',
+    },
+
+    'airSuspension-mode-circle': {
+        ru: 'Волна',
+        ua: 'Хвиля',
+        en: 'Wave',
+        de: 'Welle',
+        pl: 'Fala',
+        zh: '环绕波浪',
+    },
+
+    'airSuspension-mode-off-circle': {
+        ru: 'Отключить режим "Волна"',
+        ua: 'Вимкнути режим "Хвиля"',
+        en: 'Stop the "Wave" mode',
+        de: 'Modus "Welle" beenden',
+        pl: 'Wyłącz tryb "Fala"',
+        zh: '关闭"环绕波浪"模式',
+    },
+
     autopilot: {
         ru: 'Автопилот: ехать к метке',
         ua: 'Автопілот: їхати до мітки',

@@ -992,6 +992,220 @@ export const cef = {
         zh: '为您的汽车风格选择完美的轮毂',
     },
 
+    olympWheels: {
+        ru: 'Olymp Design',
+        ua: 'Olymp Design',
+        en: 'Olymp Design',
+        de: 'Olymp Design',
+        pl: 'Olymp Design',
+        zh: 'Olymp Design',
+    },
+
+    olympWheelsDesc: {
+        ru: 'Уникальные кастомные диски, сделанные на заказ тюнинг-ателье.',
+        ua: 'Унікальні кастомні диски, зроблені на замовлення тюнінг-ательє.',
+        en: 'Unique custom rims, made to order by the tuning shop.',
+        de: 'Einzigartige Custom-Felgen, auf Bestellung vom Tuning-Atelier gefertigt.',
+        pl: 'Unikalne felgi custom, wykonane na zamówienie przez atelier tuningowe.',
+        zh: '独一无二的定制轮毂，由改装工作室专门订制。',
+    },
+
+    // Tabs inside the Olymp Design showcase: the player's warehouse wheels, then the four tire profiles.
+    olympWheelTabs: {
+        mine: {
+            ru: 'Мои диски',
+            ua: 'Мої диски',
+            en: 'My wheels',
+            de: 'Meine Felgen',
+            pl: 'Moje felgi',
+            zh: '我的轮毂',
+        },
+
+        mineDesc: {
+            ru: 'Диски с вашего донат-склада, которых ещё нет на этой машине.',
+            ua: 'Диски з вашого донат-складу, яких ще немає на цьому авто.',
+            en: 'Wheels from your donate warehouse that this car does not have yet.',
+            de: 'Felgen aus deinem Spendenlager, die dieses Auto noch nicht hat.',
+            pl: 'Felgi z twojego magazynu donate, których to auto jeszcze nie ma.',
+            zh: '捐赠仓库中这辆车还没有的轮毂。',
+        },
+
+        low: {
+            ru: 'Низкопрофильная резина',
+            ua: 'Низькопрофільна гума',
+            en: 'Low-profile tires',
+            de: 'Niederquerschnittsreifen',
+            pl: 'Opony niskoprofilowe',
+            zh: '低扁平比轮胎',
+        },
+
+        lowDesc: {
+            ru: 'Крупный обод и тонкая боковина шины.',
+            ua: 'Великий обід і тонка боковина шини.',
+            en: 'A large rim with a thin tire sidewall.',
+            de: 'Große Felge mit flacher Reifenflanke.',
+            pl: 'Duża obręcz i cienki bok opony.',
+            zh: '大轮辋，轮胎侧壁薄。',
+        },
+
+        mid: {
+            ru: 'Обычная резина',
+            ua: 'Звичайна гума',
+            en: 'Standard tires',
+            de: 'Standardreifen',
+            pl: 'Opony standardowe',
+            zh: '标准轮胎',
+        },
+
+        midDesc: {
+            ru: 'Обод и боковина шины в привычной пропорции.',
+            ua: 'Обід і боковина шини у звичній пропорції.',
+            en: 'Rim and tire sidewall in the usual proportion.',
+            de: 'Felge und Reifenflanke im üblichen Verhältnis.',
+            pl: 'Obręcz i bok opony w zwykłych proporcjach.',
+            zh: '轮辋与轮胎侧壁比例常规。',
+        },
+
+        high: {
+            ru: 'Толстая резина',
+            ua: 'Товста гума',
+            en: 'Thick tires',
+            de: 'Dicke Reifen',
+            pl: 'Grube opony',
+            zh: '厚轮胎',
+        },
+
+        highDesc: {
+            ru: 'Обод поменьше и высокая боковина шины.',
+            ua: 'Менший обід і висока боковина шини.',
+            en: 'A smaller rim with a tall tire sidewall.',
+            de: 'Kleinere Felge mit hoher Reifenflanke.',
+            pl: 'Mniejsza obręcz i wysoki bok opony.',
+            zh: '较小轮辋，轮胎侧壁高。',
+        },
+
+        offroad: {
+            ru: 'Внедорожная резина',
+            ua: 'Позашляхова гума',
+            en: 'Off-road tires',
+            de: 'Geländereifen',
+            pl: 'Opony terenowe',
+            zh: '越野轮胎',
+        },
+
+        offroadDesc: {
+            ru: 'Самый маленький обод и самая высокая шина.',
+            ua: 'Найменший обід і найвища шина.',
+            en: 'The smallest rim with the tallest tire.',
+            de: 'Kleinste Felge mit dem höchsten Reifen.',
+            pl: 'Najmniejsza obręcz i najwyższa opona.',
+            zh: '最小的轮辋，最高的轮胎。',
+        },
+    },
+
+    // Отделка кастомного диска. Подпись в витрине собирается из имени модели и
+    // этого ключа: "Hellwheel, хром" (client/systems/businesses/LSC).
+    wheelFinish: {
+        chrome: {
+            ru: 'хром',
+            ua: 'хром',
+            en: 'chrome',
+            de: 'Chrom',
+            pl: 'chrom',
+            zh: '镀铬',
+        },
+
+        paint: {
+            ru: 'покраска',
+            ua: 'фарбування',
+            en: 'paint',
+            de: 'Lack',
+            pl: 'lakier',
+            zh: '喷漆',
+        },
+
+        led: {
+            ru: 'неон',
+            ua: 'неон',
+            en: 'neon',
+            de: 'Neon',
+            pl: 'neon',
+            zh: '霓虹',
+        },
+
+        chromePaint: {
+            ru: 'хром + покраска',
+            ua: 'хром + фарбування',
+            en: 'chrome + paint',
+            de: 'Chrom + Lack',
+            pl: 'chrom + lakier',
+            zh: '镀铬 + 喷漆',
+        },
+
+        antichrome: {
+            ru: 'антихром',
+            ua: 'антихром',
+            en: 'anti-chrome',
+            de: 'Anti-Chrom',
+            pl: 'antychrom',
+            zh: '哑铬',
+        },
+
+        antichromePaint: {
+            ru: 'антихром + покраска',
+            ua: 'антихром + фарбування',
+            en: 'anti-chrome + paint',
+            de: 'Anti-Chrom + Lack',
+            pl: 'antychrom + lakier',
+            zh: '哑铬 + 喷漆',
+        },
+
+        antichromeChrome: {
+            ru: 'антихром + хром',
+            ua: 'антихром + хром',
+            en: 'anti-chrome + chrome',
+            de: 'Anti-Chrom + Chrom',
+            pl: 'antychrom + chrom',
+            zh: '哑铬 + 镀铬',
+        },
+
+        carbon: {
+            ru: 'карбон',
+            ua: 'карбон',
+            en: 'carbon',
+            de: 'Carbon',
+            pl: 'karbon',
+            zh: '碳纤维',
+        },
+
+        carbonPaint: {
+            ru: 'карбон + покраска',
+            ua: 'карбон + фарбування',
+            en: 'carbon + paint',
+            de: 'Carbon + Lack',
+            pl: 'karbon + lakier',
+            zh: '碳纤维 + 喷漆',
+        },
+
+        fcarbon: {
+            ru: 'кованый карбон',
+            ua: 'кований карбон',
+            en: 'forged carbon',
+            de: 'Schmiedecarbon',
+            pl: 'kuty karbon',
+            zh: '锻造碳纤维',
+        },
+
+        fcarbonPaint: {
+            ru: 'кованый карбон + покраска',
+            ua: 'кований карбон + фарбування',
+            en: 'forged carbon + paint',
+            de: 'Schmiedecarbon + Lack',
+            pl: 'kuty karbon + lakier',
+            zh: '锻造碳纤维 + 喷漆',
+        },
+    },
+
     wheelIndexRear: {
         ru: 'Заднее колесо',
         ua: 'Заднє колесо',
@@ -1084,12 +1298,12 @@ export const cef = {
         },
 
         stage2Desc: {
-            ru: 'Прошивка на пределе: отдача выше, но и ошибок машина больше не прощает.',
-            ua: 'Прошивка на межі: віддача вища, але й помилок машина більше не пробачає.',
-            en: 'A map at the limit: more power, and far less forgiveness for mistakes.',
-            de: 'Eine Abstimmung am Limit: mehr Leistung, aber deutlich weniger Fehlerverzeihung.',
-            pl: 'Mapa na granicy: więcej mocy, ale auto wybacza znacznie mniej.',
-            zh: '极限调校：动力更强，但对失误的容忍度也更低。',
+            ru: 'Серьёзная прошивка: заметно быстрее, и на дороге стоит увереннее прежнего.',
+            ua: 'Серйозна прошивка: помітно швидше, і на дорозі стоїть упевненіше, ніж було.',
+            en: 'A serious map: noticeably quicker, and steadier on the road than before.',
+            de: 'Eine ernste Abstimmung: spürbar schneller und dabei satter auf der Straße als zuvor.',
+            pl: 'Poważna mapa: wyraźnie szybciej, a na drodze trzyma się pewniej niż wcześniej.',
+            zh: '进阶调校：明显更快，路面上也比先前更稳。',
         },
 
         stage1: {
@@ -1102,12 +1316,12 @@ export const cef = {
         },
 
         stage1Desc: {
-            ru: 'Мягкая прошивка: чуть больше отдачи без потери в управляемости.',
-            ua: 'М’яка прошивка: трохи більше віддачі без втрати в керованості.',
-            en: 'A mild map: a bit more power with no loss of control.',
-            de: 'Eine sanfte Abstimmung: etwas mehr Leistung ohne Verlust an Kontrolle.',
-            pl: 'Łagodna mapa: trochę więcej mocy bez utraty kontroli.',
-            zh: '温和调校：动力略增，操控不减。',
+            ru: 'Мягкая прошивка: чуть больше тяги, и сцепления с тормозами под неё.',
+            ua: 'М’яка прошивка: трохи більше тяги, і зчеплення з гальмами під неї.',
+            en: 'A mild map: a little more pull, and the grip and brakes to carry it.',
+            de: 'Eine sanfte Abstimmung: etwas mehr Zug, dazu Grip und Bremsen dafür.',
+            pl: 'Łagodna mapa: trochę więcej ciągu, a do tego przyczepność i hamulce.',
+            zh: '温和调校：动力略增，抓地与制动同步跟上。',
         },
 
         stage3: {
@@ -1120,12 +1334,12 @@ export const cef = {
         },
 
         stage3Desc: {
-            ru: 'Гоночная прошивка: всё, что мотор может отдать, и ничего сверх безопасности.',
-            ua: 'Гоночна прошивка: усе, що мотор може віддати, і нічого понад безпеку.',
-            en: 'A race map: everything the engine has to give, with nothing left for safety.',
-            de: 'Eine Rennabstimmung: alles, was der Motor hergibt, und nichts mehr für die Sicherheit.',
-            pl: 'Mapa wyścigowa: wszystko, co silnik ma do dania, i nic w zapasie na bezpieczeństwo.',
-            zh: '赛道调校：榨干引擎的一切，不留任何安全余量。',
+            ru: 'Гоночная прошивка: всё, что мотор может отдать, и шасси, которое это держит.',
+            ua: 'Гоночна прошивка: усе, що мотор може віддати, і шасі, яке це тримає.',
+            en: 'A race map: everything the engine has to give, and a chassis that holds it.',
+            de: 'Eine Rennabstimmung: alles, was der Motor hergibt, und ein Fahrwerk, das es hält.',
+            pl: 'Mapa wyścigowa: wszystko, co silnik ma do dania, i podwozie, które to utrzyma.',
+            zh: '赛道调校：榨干引擎的一切，底盘也稳稳接得住。',
         },
 
         drift: {
@@ -1471,38 +1685,7 @@ export const cef = {
         },
 
         categories: {
-            geometry: {
-                ru: 'Геометрия',
-                ua: 'Геометрія',
-                en: 'Geometry',
-                de: 'Geometrie',
-                pl: 'Geometria',
-                zh: '几何图形',
-            },
-            gradient: {
-                ru: 'Градиенты',
-                ua: 'Градієнти',
-                en: 'Gradients',
-                de: 'Farbverläufe',
-                pl: 'Gradienty',
-                zh: '渐变',
-            },
-            patterns: {
-                ru: 'Паттерны',
-                ua: 'Патерни',
-                en: 'Patterns',
-                de: 'Muster',
-                pl: 'Wzory',
-                zh: '图案',
-            },
-            effects: {
-                ru: 'Эффекты',
-                ua: 'Ефекти',
-                en: 'Effects',
-                de: 'Effekte',
-                pl: 'Efekty',
-                zh: '效果',
-            },
+            // Sticker categories are named in the vinyl catalog (configs/vehicles/vinylStickers.json), not here.
             drift: {
                 ru: 'Дрифт',
                 ua: 'Дрифт',
@@ -1534,30 +1717,6 @@ export const cef = {
                 de: 'Flaggen',
                 pl: 'Flagi',
                 zh: '旗帜',
-            },
-            anime: {
-                ru: 'Аниме',
-                ua: 'Аніме',
-                en: 'Anime',
-                de: 'Anime',
-                pl: 'Anime',
-                zh: '动漫',
-            },
-            sticker: {
-                ru: 'Стикеры',
-                ua: 'Стікери',
-                en: 'Stickers',
-                de: 'Aufkleber',
-                pl: 'Naklejki',
-                zh: '贴纸',
-            },
-            material: {
-                ru: 'Материалы',
-                ua: 'Матеріали',
-                en: 'Materials',
-                de: 'Materialien',
-                pl: 'Materiały',
-                zh: '材质',
             },
             text: {
                 ru: 'Текст',
@@ -1842,6 +2001,14 @@ export const cef = {
             pl: 'Ostrzeżenie',
             zh: '警告',
         },
+        lockedInstalled: {
+            ua: 'Встановлено не розблоковані елементи.',
+            en: 'Parts that are not unlocked are installed.',
+            ru: 'Установлены не разблокированные элементы.',
+            de: 'Nicht freigeschaltete Teile sind eingebaut.',
+            pl: 'Zamontowano nieodblokowane elementy.',
+            zh: '已安装未解锁的部件。',
+        },
         noSave: {
             ua: 'Тюнінг цього транспорту не буде збережений у базу даних, оскільки цей транспорт не є особистим або фракційним.',
             en: 'Tuning of this vehicle will not be saved to the database, because this vehicle is neither personal nor faction-owned.',
@@ -2104,6 +2271,106 @@ export const cef = {
         zh: '安装',
     },
 
+    // A locked part: not for sale here, or paid from the warehouse item or with coins.
+    lockedOnly: {
+        ua: 'Тільки з донат-складу',
+        en: 'Warehouse item only',
+        ru: 'Только с донат-склада',
+        de: 'Nur aus dem Spendenlager',
+        pl: 'Tylko z magazynu donate',
+        zh: '仅限捐赠仓库物品',
+    },
+
+    // Installing a part that cannot be bought yet: it stays for the preview and the test drive only.
+    lockedInstall: {
+        title: {
+            ua: 'Цей елемент не розблоковано',
+            en: 'This part is not unlocked',
+            ru: 'Этот элемент не разблокирован',
+            de: 'Dieses Teil ist nicht freigeschaltet',
+            pl: 'Ten element nie jest odblokowany',
+            zh: '此部件尚未解锁',
+        },
+        message: {
+            ua: 'Цей елемент ще не розблоковано. Ви можете встановити його для попереднього перегляду та тест-драйву, але зберегти назавжди його можна буде лише після розблокування.',
+            en: 'This part is not unlocked yet. You can install it for a preview and a test drive, but you can keep it for good only once it is unlocked.',
+            ru: 'Этот элемент ещё не разблокирован. Вы можете установить его для предпросмотра и тест-драйва, но сохранить навсегда его можно будет только после разблокировки.',
+            de: 'Dieses Teil ist noch nicht freigeschaltet. Du kannst es für eine Vorschau und eine Probefahrt einbauen, dauerhaft behalten kannst du es aber erst nach der Freischaltung.',
+            pl: 'Ten element nie jest jeszcze odblokowany. Możesz go zamontować do podglądu i jazdy próbnej, ale zachować na stałe będzie można go dopiero po odblokowaniu.',
+            zh: '此部件尚未解锁。您可以安装它进行预览和试驾，但只有解锁后才能永久保留。',
+        },
+        confirm: {
+            ua: 'Встановити',
+            en: 'Install',
+            ru: 'Установить',
+            de: 'Einbauen',
+            pl: 'Zamontuj',
+            zh: '安装',
+        },
+        cancel: {
+            ua: 'Скасувати',
+            en: 'Cancel',
+            ru: 'Отмена',
+            de: 'Abbrechen',
+            pl: 'Anuluj',
+            zh: '取消',
+        },
+    },
+
+    // Paying for an order that holds parts that cannot be bought.
+    lockedInCart: {
+        title: {
+            ua: 'Встановлено не розблоковані елементи',
+            en: 'Parts that are not unlocked are installed',
+            ru: 'Установлены не разблокированные элементы',
+            de: 'Nicht freigeschaltete Teile sind eingebaut',
+            pl: 'Zamontowano nieodblokowane elementy',
+            zh: '已安装未解锁的部件',
+        },
+        message: {
+            ua: 'Ви не можете купити тюнінг, поки в ньому є не розблоковані елементи.',
+            en: 'You cannot buy the tuning while it holds parts that are not unlocked.',
+            ru: 'Вы не можете купить тюнинг, пока в нём находятся не разблокированные элементы.',
+            de: 'Du kannst das Tuning nicht kaufen, solange nicht freigeschaltete Teile darin sind.',
+            pl: 'Nie możesz kupić tuningu, dopóki są w nim nieodblokowane elementy.',
+            zh: '改装中包含未解锁的部件时无法购买。',
+        },
+        confirm: {
+            ua: 'Зняти заблоковані елементи',
+            en: 'Remove the locked parts',
+            ru: 'Снять заблокированные элементы',
+            de: 'Gesperrte Teile entfernen',
+            pl: 'Zdejmij zablokowane elementy',
+            zh: '移除锁定的部件',
+        },
+        cancel: {
+            ua: 'Скасувати',
+            en: 'Cancel',
+            ru: 'Отмена',
+            de: 'Abbrechen',
+            pl: 'Anuluj',
+            zh: '取消',
+        },
+    },
+
+    notForSale: {
+        ua: 'Немає у продажу',
+        en: 'Not for sale',
+        ru: 'Нет в продаже',
+        de: 'Nicht im Verkauf',
+        pl: 'Niedostępne w sprzedaży',
+        zh: '暂不出售',
+    },
+
+    fromWarehouse: {
+        ua: 'Зі складу',
+        en: 'From the warehouse',
+        ru: 'Со склада',
+        de: 'Aus dem Lager',
+        pl: 'Z magazynu',
+        zh: '来自仓库',
+    },
+
     maxLevel: {
         ua: 'Максимальний рівень',
         en: 'Maximum level',
@@ -2356,6 +2623,23 @@ export const cef = {
             zh: '音乐播放器在车辆周围的传播范围明显更远。',
         },
 
+        autoBelt: {
+            ru: 'Автоматические ремни',
+            ua: 'Автоматичні ремені',
+            en: 'Automatic seatbelts',
+            de: 'Automatische Gurte',
+            pl: 'Automatyczne pasy',
+            zh: '自动安全带',
+        },
+        autoBeltDesc: {
+            ru: 'Все, кто садится в машину, пристёгиваются сами - нажимать {{key}} больше не нужно. Отстегнуться той же клавишей можно как обычно.',
+            ua: 'Усі, хто сідає в машину, пристібаються самі - натискати {{key}} більше не потрібно. Відстебнутися тією ж клавішею можна як завжди.',
+            en: 'Everyone who gets in is belted up on their own - no need to press {{key}} any more. Taking the belt off with the same key works as always.',
+            de: 'Alle, die einsteigen, schnallen sich von selbst an - {{key}} muss nicht mehr gedrückt werden. Abschnallen mit derselben Taste geht wie gewohnt.',
+            pl: 'Każdy, kto wsiada, zapina pasy sam - nie trzeba już naciskać {{key}}. Odpięcie tym samym klawiszem działa jak zawsze.',
+            zh: '任何人上车都会自动系好安全带，无需再按 {{key}}。用同一按键解开安全带一如既往。',
+        },
+
         driftMode: {
             ru: 'Дрифт-режим',
             ua: 'Дрифт-режим',
@@ -2427,6 +2711,22 @@ export const cef = {
             zh: '油箱容量增加25%，减少加油次数。',
         },
 
+        strobe: {
+            ru: 'Стробоскопы',
+            ua: 'Стробоскопи',
+            en: 'Strobe kit',
+            de: 'Stroboskope',
+            pl: 'Stroboskopy',
+            zh: '爆闪灯',
+        },
+        strobeDesc: {
+            ru: 'Одиннадцать режимов мигания фарами из меню взаимодействия: от простого чередования до полицейских красно-синих и радужных. Ставится только на машину с ксеноном - без него движок не даёт фарам цвет.',
+            ua: 'Одинадцять режимів блимання фарами з меню взаємодії: від простого чергування до поліцейських червоно-синіх і райдужних. Ставиться лише на машину з ксеноном - без нього рушій не дає фарам колір.',
+            en: 'Eleven headlight flash patterns from the interaction menu, from plain alternation to red-and-blue patrol and rainbow. Fits only a vehicle with xenon lights - without them the engine gives the headlights no colour.',
+            de: 'Elf Blinkmuster der Scheinwerfer aus dem Interaktionsmenü: von einfachem Wechsel über Rot-Blau bis Regenbogen. Nur für Fahrzeuge mit Xenonlicht - ohne das gibt die Engine den Scheinwerfern keine Farbe.',
+            pl: 'Jedenaście trybów migania reflektorów z menu interakcji: od prostego naprzemiennego po policyjne czerwono-niebieskie i tęczę. Montaż tylko na aucie z ksenonami - bez nich silnik nie nadaje reflektorom koloru.',
+            zh: '交互菜单中的十一种大灯闪烁模式：从简单交替到红蓝警灯和彩虹。仅可安装在带氙气大灯的车上——没有氙气，引擎不会给大灯上色。',
+        },
         airSuspension: {
             ru: 'Пневмоподвеска',
             ua: 'Пневмопідвіска',
@@ -2436,12 +2736,12 @@ export const cef = {
             zh: '空气悬挂',
         },
         airSuspensionDesc: {
-            ru: 'Высота кузова на выбор: от -6 до +3 см через меню взаимодействия и телефон, с сохраняемыми верхним и нижним положениями и авторежимом.',
-            ua: 'Висота кузова на вибір: від -6 до +3 см через меню взаємодії та телефон, зі збережуваними верхнім і нижнім положеннями та авторежимом.',
-            en: 'Body height on demand: -6 to +3 cm from the interaction menu and the phone, with saved upper and lower positions and an auto mode.',
-            de: 'Karosseriehöhe nach Wunsch: -6 bis +3 cm über das Interaktionsmenü und das Handy, mit gespeicherten oberen und unteren Positionen und Automodus.',
-            pl: 'Wysokość nadwozia na żądanie: od -6 do +3 cm z menu interakcji i telefonu, z zapisanymi pozycjami górną i dolną oraz trybem auto.',
-            zh: '车身高度随心调节：通过互动菜单和手机在-6到+3厘米之间调整，可保存最高和最低位置，并支持自动模式。',
+            ru: 'Высота кузова на выбор: от -8 до +5 см через меню взаимодействия и телефон, с сохраняемыми верхним и нижним положениями и авторежимом.',
+            ua: 'Висота кузова на вибір: від -8 до +5 см через меню взаємодії та телефон, зі збережуваними верхнім і нижнім положеннями та авторежимом.',
+            en: 'Body height on demand: -8 to +5 cm from the interaction menu and the phone, with saved upper and lower positions and an auto mode.',
+            de: 'Karosseriehöhe nach Wunsch: -8 bis +5 cm über das Interaktionsmenü und das Handy, mit gespeicherten oberen und unteren Positionen und Automodus.',
+            pl: 'Wysokość nadwozia na żądanie: od -8 do +5 cm z menu interakcji i telefonu, z zapisanymi pozycjami górną i dolną oraz trybem auto.',
+            zh: '车身高度随心调节：通过互动菜单和手机在-8到+5厘米之间调整，可保存最高和最低位置，并支持自动模式。',
         },
 
         radar: {
@@ -2550,6 +2850,15 @@ export const cef = {
             de: 'Ebene zurückholen',
             pl: 'Przywróć warstwę',
             zh: '恢复图层',
+        },
+
+        paySource: {
+            ua: 'Склад / коїни',
+            en: 'Warehouse / coins',
+            ru: 'Склад / коины',
+            de: 'Lager / Coins',
+            pl: 'Magazyn / coiny',
+            zh: '仓库 / 金币',
         },
 
         inCart: {

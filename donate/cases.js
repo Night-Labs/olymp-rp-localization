@@ -495,6 +495,26 @@ export const cases = {
             },
         },
 
+        tuner: {
+            name: {
+                ru: 'Тюнер',
+                ua: 'Тюнер',
+                en: 'Tuner',
+                de: 'Tuner',
+                pl: 'Tuner',
+                zh: '改装师',
+            },
+
+            desc: {
+                ru: 'Кейс для тех, кто собирает машину под себя. Внутри - обвесы, чипы Stage 1, 2, 3 и Drift и диски Olymp Design, которых нет в продаже в ателье: многие из них можно получить только отсюда. Выпавший предмет ждёт на донат-складе и ставится в тюнинг-ателье. Обвес подходит своей модели, чип - машине с чип-тюнингом, диск - любой машине.',
+                ua: 'Кейс для тих, хто збирає авто під себе. Всередині - обвіси, чипи Stage 1, 2, 3 та Drift і диски Olymp Design, яких немає у продажу в ательє: багато з них можна отримати лише звідси. Предмет, що випав, чекає на донат-складі та встановлюється в тюнінг-ательє. Обвіс підходить своїй моделі, чип - авто з чип-тюнінгом, диск - будь-якому авто.',
+                en: 'A case for those who build a car their own way. Inside are body kits, Stage 1, 2, 3 and Drift chips and Olymp Design wheels the workshop does not sell: many of them come only from here. A prize waits in the donate warehouse and is installed at the tuning workshop. A body kit fits its own model, a chip fits a car with chip tuning, a wheel fits any car.',
+                de: 'Eine Kiste für alle, die ihr Auto nach eigenem Geschmack aufbauen. Darin stecken Bodykits, Chips Stage 1, 2, 3 und Drift und Olymp-Design-Felgen, die die Werkstatt nicht verkauft: Viele davon gibt es nur hier. Ein Gewinn wartet im Spendenlager und wird in der Tuning-Werkstatt eingebaut. Ein Bodykit passt zu seinem Modell, ein Chip zu einem Auto mit Chiptuning, eine Felge auf jedes Auto.',
+                pl: 'Skrzynka dla tych, którzy budują auto po swojemu. W środku body kity, chipy Stage 1, 2, 3 i Drift oraz felgi Olymp Design, których warsztat nie sprzedaje: wiele z nich zdobędziesz tylko tutaj. Wygrany przedmiot czeka w magazynie donate i montuje się go w warsztacie tuningowym. Body kit pasuje do swojego modelu, chip - do auta z chip tuningiem, felga - do każdego auta.',
+                zh: '为按自己想法打造座驾的玩家准备的箱子。里面有车身套件、Stage 1、2、3 和 Drift 芯片，以及改装店不出售的 Olymp Design 轮毂：其中许多只能从这里获得。抽到的物品存放在捐赠仓库，在改装店安装。车身套件适用于对应车型，芯片适用于支持芯片改装的车辆，轮毂适用于任何车辆。',
+            },
+        },
+
         autoExpert: {
             name: {
                 ru: 'Автоэксперт',

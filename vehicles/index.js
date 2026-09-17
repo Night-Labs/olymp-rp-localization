@@ -7,6 +7,26 @@ export default {
         pl: 'Pojazdy',
         zh: '交通工具',
     },
+    // Strobe kit (workshop extra): the refusals the server sends when a pattern is asked for
+    // from somewhere it cannot be started.
+    strobe: {
+        notOwner: {
+            ru: 'Это не ваша машина',
+            ua: 'Це не ваша машина',
+            en: 'This is not your vehicle',
+            de: 'Das ist nicht dein Fahrzeug',
+            pl: 'To nie twój pojazd',
+            zh: '这不是你的车',
+        },
+        notInstalled: {
+            ru: 'На этой машине нет стробоскопов',
+            ua: 'На цій машині немає стробоскопів',
+            en: 'This vehicle has no strobe kit installed',
+            de: 'Dieses Fahrzeug hat keine Stroboskope',
+            pl: 'Ten pojazd nie ma stroboskopów',
+            zh: '这辆车没有安装爆闪灯',
+        },
+    },
     // Пневмоподвеска (дополнение ателье): уведомления сервера и окно настройки.
     airSuspension: {
         title: {
@@ -24,6 +44,22 @@ export default {
             de: 'cm',
             pl: 'cm',
             zh: '厘米',
+        },
+        valueUp: {
+            ru: 'Верхнее значение',
+            ua: 'Верхнє значення',
+            en: 'Upper value',
+            de: 'Oberer Wert',
+            pl: 'Wartość górna',
+            zh: '最高值',
+        },
+        valueDown: {
+            ru: 'Нижнее значение',
+            ua: 'Нижнє значення',
+            en: 'Lower value',
+            de: 'Unterer Wert',
+            pl: 'Wartość dolna',
+            zh: '最低值',
         },
         saveUp: {
             ru: 'Сохранить как верхнее положение',
@@ -66,12 +102,12 @@ export default {
             zh: '最低位置已保存',
         },
         autoOn: {
-            ru: 'Авторежим включён: при глушении двигателя кузов опустится, при запуске - поднимется',
-            ua: 'Авторежим увімкнено: коли двигун глушиться, кузов опуститься, під час запуску - підніметься',
-            en: 'Auto mode on: the body settles when the engine stops and rises when it starts',
-            de: 'Automodus an: Die Karosserie senkt sich beim Abstellen des Motors und hebt sich beim Start',
-            pl: 'Tryb auto włączony: nadwozie opada po zgaszeniu silnika i unosi się po uruchomieniu',
-            zh: '自动模式已开启：熄火时车身下降，启动时车身升起',
+            ru: 'Авторежим включён: при глушении двигателя кузов уйдёт в нижнее положение, при запуске — в верхнее',
+            ua: 'Авторежим увімкнено: коли двигун глушиться, кузов піде в нижнє положення, під час запуску — у верхнє',
+            en: 'Auto mode on: the body goes to the lower position when the engine stops and to the upper one when it starts',
+            de: 'Automodus an: Die Karosserie geht beim Abstellen des Motors in die untere Position und beim Start in die obere',
+            pl: 'Tryb auto włączony: nadwozie przechodzi do pozycji dolnej po zgaszeniu silnika i do górnej po uruchomieniu',
+            zh: '自动模式已开启：熄火时车身降至最低位置，启动时升至最高位置',
         },
         autoOff: {
             ru: 'Авторежим выключен',
