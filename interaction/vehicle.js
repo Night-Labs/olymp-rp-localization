@@ -991,4 +991,11 @@ export const vehicle = {
         de: 'Seil aushaken',
         pl: 'Odczep linę',
     },
+    flatbedWinchStopped: {
+        ru: 'Лебёдка не может подтянуть машину, трос отцеплен',
+        ua: 'Лебідка не може підтягнути машину, трос відчеплено',
+        en: 'The winch cannot pull the vehicle in, the rope is unhooked',
+        de: 'Die Winde kann das Fahrzeug nicht heranziehen, das Seil wurde ausgehakt',
+        pl: 'Wyciągarka nie może dociągnąć pojazdu, lina została odczepiona',
+    },
 };

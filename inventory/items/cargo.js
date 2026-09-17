@@ -47,6 +47,22 @@ export const cargoItems = {
             pl: 'Metalowa walizka z samolotu, plomba cala. Zleceniodawca odpowiada za nia osobiscie i tak samo rozlicza.',
         },
     },
+    meat: {
+        name: {
+            ru: 'Ящик с мясом',
+            ua: 'Ящик з м\'ясом',
+            en: 'Crate of meat',
+            de: 'Kiste mit Fleisch',
+            pl: 'Skrzynia z miesem',
+        },
+        desc: {
+            ru: 'Обрешётка с холодильной линии комбината. Внутри лёд и плёнка, снаружи иней, и на солнце ей делать нечего.',
+            ua: 'Обрешітка з холодильної лінії комбінату. Всередині лід і плівка, зовні іній, і на сонці їй робити нічого.',
+            en: 'A slatted crate off the plant chill line. Ice and film inside, frost outside, and no business sitting in the sun.',
+            de: 'Eine Lattenkiste von der Kuehllinie des Werks. Innen Eis und Folie, aussen Reif, und in der Sonne hat sie nichts verloren.',
+            pl: 'Azurowa skrzynia z linii chlodniczej zakladu. W srodku lod i folia, na zewnatrz szron, a na sloncu nie ma czego szukac.',
+        },
+    },
     unmarked: {
         name: {
             ru: 'Ящик без маркировки',

@@ -471,6 +471,14 @@ export default {
             pl: 'Dom mieszkańca #{{id}}',
             zh: '住户房屋 #{{id}}',
         },
+        organization: {
+            ua: 'Сімейний будинок #{{id}}',
+            en: 'Family house #{{id}}',
+            ru: 'Семейный дом #{{id}}',
+            de: 'Familienhaus #{{id}}',
+            pl: 'Dom rodziny #{{id}}',
+            zh: '家族房屋 #{{id}}',
+        },
     },
     youHaveNoMoney: {
         ua: 'У вас немає достатньо грошей для евакуації',

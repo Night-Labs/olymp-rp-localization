@@ -41,6 +41,20 @@ export default {
         de: 'Minute',
         pl: 'Minuta',
     },
+    now: {
+        ru: 'сейчас',
+        ua: 'зараз',
+        en: 'now',
+        de: 'jetzt',
+        pl: 'teraz',
+    },
+    startsIn: {
+        ru: 'через',
+        ua: 'через',
+        en: 'in',
+        de: 'in',
+        pl: 'za',
+    },
     slots: {
         ru: 'Состав',
         ua: 'Ростер',

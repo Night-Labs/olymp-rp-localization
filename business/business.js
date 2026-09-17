@@ -181,6 +181,13 @@ export default {
                     de: 'Miete',
                     pl: 'Czynsz',
                 },
+                territoryLevy: {
+                    ru: 'Сбор за территорию',
+                    ua: 'Збір за територію',
+                    en: 'Territory levy',
+                    de: 'Gebietsabgabe',
+                    pl: 'Oplata terytorialna',
+                },
                 system: {
                     ru: 'Система',
                     ua: 'Система',
@@ -386,6 +393,13 @@ export default {
             en: '{{characterName}} bought {{quantity}} pcs. for {{gross}} (base {{base}}, business profit {{profit}}, markup {{markup}})',
             de: '{{characterName}} hat {{quantity}} Stk. für {{gross}} gekauft (Basis {{base}}, Geschäftsgewinn {{profit}}, Aufschlag {{markup}})',
             pl: '{{characterName}} kupił {{quantity}} szt. za {{gross}} (bazowa {{base}}, zysk biznesu {{profit}}, marża {{markup}})',
+        },
+        territoryLevy: {
+            ru: 'Сбор за территорию: {{amount}} ({{percent}}) удержано в пользу организации {{org}}',
+            ua: 'Збір за територію: {{amount}} ({{percent}}) утримано на користь організації {{org}}',
+            en: 'Territory levy: {{amount}} ({{percent}}) withheld for organization {{org}}',
+            de: 'Gebietsabgabe: {{amount}} ({{percent}}) an die Organisation {{org}} abgefuehrt',
+            pl: 'Oplata terytorialna: {{amount}} ({{percent}}) na rzecz organizacji {{org}}',
         },
         markupChanged: {
             ru: 'Наценка товара обновлена: теперь {{markup}}% (раньше было {{oldMarkup}}%)',

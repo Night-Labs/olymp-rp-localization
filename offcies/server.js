@@ -186,6 +186,36 @@ export const server = {
                 de: 'Zum Parkplatz hinausgehen',
                 pl: 'Wyjdź na parking',
             },
+            other: {
+                ru: 'Перейти в гараж {{number}} ({{taken}}/{{total}})',
+                ua: 'Перейти в гараж {{number}} ({{taken}}/{{total}})',
+                en: 'Go to garage {{number}} ({{taken}}/{{total}})',
+                de: 'Zur Garage {{number}} ({{taken}}/{{total}})',
+                pl: 'Przejdź do garażu {{number}} ({{taken}}/{{total}})',
+            },
+        },
+        garagePick: {
+            title: {
+                ru: 'Гараж офиса',
+                ua: 'Гараж офісу',
+                en: 'Office garage',
+                de: 'Bürogarage',
+                pl: 'Garaż biura',
+            },
+            message: {
+                ru: 'В какой гараж?',
+                ua: 'У який гараж?',
+                en: 'Which garage?',
+                de: 'In welche Garage?',
+                pl: 'Do którego garażu?',
+            },
+            item: {
+                ru: 'Гараж {{number}} ({{taken}}/{{total}})',
+                ua: 'Гараж {{number}} ({{taken}}/{{total}})',
+                en: 'Garage {{number}} ({{taken}}/{{total}})',
+                de: 'Garage {{number}} ({{taken}}/{{total}})',
+                pl: 'Garaż {{number}} ({{taken}}/{{total}})',
+            },
         },
         info: {
             title: {
@@ -497,6 +527,15 @@ export const server = {
             en: 'Change applied, ${{price}} charged',
             de: 'Änderung übernommen, ${{price}} abgebucht',
             pl: 'Zmiana zastosowana, pobrano ${{price}}',
+        },
+    },
+    info: {
+        previewStarted: {
+            ru: 'Осмотритесь. ESC - вернуться к выбору интерьера.',
+            ua: 'Огляньтеся. ESC - повернутися до вибору інтер’єру.',
+            en: 'Look around. ESC takes you back to the interior picker.',
+            de: 'Sieh dich um. ESC bringt dich zurück zur Interieur-Auswahl.',
+            pl: 'Rozejrzyj się. ESC wraca do wyboru wnętrza.',
         },
     },
 };

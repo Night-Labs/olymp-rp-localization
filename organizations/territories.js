@@ -1,4 +1,15 @@
 export const territories = {
+    // Подсказка у промысловой клетки: вывозить добычу приходит человек, и
+    // подсказка висит на самой точке промысла.
+    harvest: {
+        prompt: {
+            ru: 'Забрать добычу',
+            ua: 'Забрати здобич',
+            en: 'Collect the harvest',
+            de: 'Ertrag einsammeln',
+            pl: 'Zabrac zbior',
+        },
+    },
     // Оповещения о войне в чат. Всплывающее окно видит только нажавший кнопку,
     // а знать о бое должна вся организация - особенно обороняющаяся.
     chat: {
@@ -79,12 +90,33 @@ export const territories = {
             de: '~o~[Territorien] ~w~Die Aufstellung fuer Sektor {{cell}} steht: {{count}} Personen.',
             pl: '~o~[Terytoria] ~w~Sklad na walke o kwadrat {{cell}} wybrany: {{count}} osob.',
         },
+        surchargeWarning: {
+            ru: '~o~[Территории] ~w~Надбавка за территории не оплачена ({{amount}}). Через сутки организация начнёт терять по квадрату в день.',
+            ua: '~o~[Території] ~w~Надбавку за території не сплачено ({{amount}}). За добу організація почне втрачати по квадрату на день.',
+            en: '~o~[Territories] ~w~The territory surcharge is unpaid ({{amount}}). In a day the organization starts losing a square per day.',
+            de: '~o~[Territorien] ~w~Der Gebietszuschlag ist offen ({{amount}}). In einem Tag verliert die Organisation taeglich ein Feld.',
+            pl: '~o~[Terytoria] ~w~Doplata za terytoria nieoplacona ({{amount}}). Za dobe organizacja zacznie tracic po polu dziennie.',
+        },
+        surchargeShed: {
+            ru: '~r~[Территории] ~w~Квадрат {{cell}} отпущен: организация не тянет надбавку за территории.',
+            ua: '~r~[Території] ~w~Квадрат {{cell}} відпущено: організація не тягне надбавку за території.',
+            en: '~r~[Territories] ~w~Square {{cell}} released: the organization cannot afford the territory surcharge.',
+            de: '~r~[Territorien] ~w~Sektor {{cell}} abgegeben: der Gebietszuschlag ist nicht tragbar.',
+            pl: '~r~[Terytoria] ~w~Kwadrat {{cell}} oddany: organizacji nie stac na doplate za terytoria.',
+        },
         fortified: {
-            ru: '~g~[Территории] ~w~Квадрат {{cell}} укреплён: его нельзя атаковать {{hours}} ч.',
-            ua: '~g~[Території] ~w~Квадрат {{cell}} укріплено: його не можна атакувати {{hours}} год.',
-            en: '~g~[Territories] ~w~Square {{cell}} is fortified: it cannot be attacked for {{hours}} h.',
-            de: '~g~[Territorien] ~w~Sektor {{cell}} ist befestigt: fuer {{hours}} Std nicht angreifbar.',
-            pl: '~g~[Terytoria] ~w~Kwadrat {{cell}} umocniony: nie mozna go atakowac przez {{hours}} godz.',
+            ru: '~g~[Территории] ~w~Квадрат {{cell}} укреплён на предстоящий бой: оборона выбирает карту первой.',
+            ua: '~g~[Території] ~w~Квадрат {{cell}} укріплено на майбутній бій: оборона обирає карту першою.',
+            en: '~g~[Territories] ~w~Square {{cell}} is fortified for the coming battle: the defence picks the map first.',
+            de: '~g~[Territorien] ~w~Sektor {{cell}} ist fuer den kommenden Kampf befestigt: die Verteidigung waehlt die Karte zuerst.',
+            pl: '~g~[Terytoria] ~w~Kwadrat {{cell}} umocniony na nadchodzaca walke: obrona wybiera mape pierwsza.',
+        },
+        fortifiedEnemy: {
+            ru: '~o~[Территории] ~w~Организация {{org}} укрепила квадрат {{cell}}: бой будет тяжелее.',
+            ua: '~o~[Території] ~w~Організація {{org}} укріпила квадрат {{cell}}: бій буде важчим.',
+            en: '~o~[Territories] ~w~{{org}} has fortified square {{cell}}: the battle will cost more.',
+            de: '~o~[Territorien] ~w~{{org}} hat Sektor {{cell}} befestigt: der Kampf wird teurer.',
+            pl: '~o~[Terytoria] ~w~{{org}} umocnila kwadrat {{cell}}: walka bedzie trudniejsza.',
         },
         sabotageDone: {
             ru: '~o~[Территории] ~w~Диверсия на квадрате {{cell}} ({{org}}): он не приносит дохода {{hours}} ч.',
@@ -244,6 +276,23 @@ export const territories = {
                 de: 'Feld nicht gefunden',
                 pl: 'Pole nie znalezione',
             },
+            // Отказ по требованию захвата. Раньше в тело уведомления уходила голая
+            // подпись правила («Обычные квадраты (20)»), которая не сообщала ни что
+            // это отказ, ни насколько организация до него не дотянула.
+            requirementNotMet: {
+                ru: 'Не выполнено требование: {{requirement}}',
+                ua: 'Не виконано вимогу: {{requirement}}',
+                en: 'Requirement not met: {{requirement}}',
+                de: 'Voraussetzung nicht erfuellt: {{requirement}}',
+                pl: 'Niespelnione wymaganie: {{requirement}}',
+            },
+            requirementProgress: {
+                ru: 'Не выполнено требование: {{requirement}} - {{have}} из {{need}}',
+                ua: 'Не виконано вимогу: {{requirement}} - {{have}} з {{need}}',
+                en: 'Requirement not met: {{requirement}} - {{have}} of {{need}}',
+                de: 'Voraussetzung nicht erfuellt: {{requirement}} - {{have}} von {{need}}',
+                pl: 'Niespelnione wymaganie: {{requirement}} - {{have}} z {{need}}',
+            },
             alreadyUnderAttack: {
                 ru: 'Квадрат уже находится под атакой',
                 ua: 'Квадрат уже атакують',
@@ -265,12 +314,61 @@ export const territories = {
                 de: 'Organisation nicht gefunden',
                 pl: 'Nie znaleziono organizacji',
             },
+            notWarTime: {
+                ru: 'Бои идут только в военный день, с {{from}} до {{to}}',
+                ua: 'Бої відбуваються лише у воєнний день, з {{from}} до {{to}}',
+                en: 'Battles happen only on a war day, between {{from}} and {{to}}',
+                de: 'Kaempfe finden nur an einem Kriegstag statt, von {{from}} bis {{to}}',
+                pl: 'Walki odbywaja sie tylko w dniu wojny, od {{from}} do {{to}}',
+            },
+            declarationsClosed: {
+                ru: 'Объявления на ближайший военный день уже закрыты',
+                ua: 'Оголошення на найближчий воєнний день уже закриті',
+                en: 'Declarations for the upcoming war day are closed',
+                de: 'Ansagen fuer den kommenden Kriegstag sind geschlossen',
+                pl: 'Zgloszenia na najblizszy dzien wojny sa zamkniete',
+            },
+            noTacticalLeft: {
+                ru: 'Тактические действия на этот военный день закончились',
+                ua: 'Тактичні дії на цей воєнний день скінчилися',
+                en: 'No tactical actions left for this war day',
+                de: 'Keine taktischen Aktionen mehr fuer diesen Kriegstag',
+                pl: 'Brak akcji taktycznych na ten dzien wojny',
+            },
+            fortifyNoWar: {
+                ru: 'Укреплять нечего: на квадрат не объявлен бой',
+                ua: 'Укріплювати нічого: на квадрат не оголошено бій',
+                en: 'Nothing to fortify: no battle is declared on this square',
+                de: 'Nichts zu befestigen: auf dieses Feld ist kein Kampf angesagt',
+                pl: 'Nie ma czego umacniac: na to pole nie ogloszono walki',
+            },
+            fortifyAlready: {
+                ru: 'Квадрат уже укреплён на этот бой',
+                ua: 'Квадрат уже укріплений на цей бій',
+                en: 'The square is already fortified for this battle',
+                de: 'Das Feld ist fuer diesen Kampf bereits befestigt',
+                pl: 'Pole jest juz umocnione na te walke',
+            },
+            sabotageImmune: {
+                ru: 'Клетки этой организации защищены от диверсий',
+                ua: 'Клітини цієї організації захищені від диверсій',
+                en: 'This organization is immune to sabotage',
+                de: 'Diese Organisation ist immun gegen Sabotage',
+                pl: 'Ta organizacja jest odporna na sabotaz',
+            },
+            sabotageNoMoney: {
+                ru: 'В казне нет {{amount}} на диверсию',
+                ua: 'У скарбниці немає {{amount}} на диверсію',
+                en: 'The treasury is short of {{amount}} for the sabotage',
+                de: 'In der Kasse fehlen {{amount}} fuer die Sabotage',
+                pl: 'W skarbcu brakuje {{amount}} na sabotaz',
+            },
             captureCooldown: {
-                ru: 'Захват доступен через {{minutes}} мин',
-                ua: 'Захоплення доступне через {{minutes}} хв',
-                en: 'Capture available in {{minutes}} min',
-                de: 'Eroberung in {{minutes}} Min. verfuegbar',
-                pl: 'Przejecie dostepne za {{minutes}} min',
+                ru: 'Захват доступен через {{minutes}} мин онлайна организации',
+                ua: 'Захоплення доступне через {{minutes}} хв онлайну організації',
+                en: 'Capture available after {{minutes}} more min of organization online time',
+                de: 'Eroberung nach weiteren {{minutes}} Min. Online-Zeit der Organisation',
+                pl: 'Przejecie dostepne po {{minutes}} min online organizacji',
             },
             useScheduler: {
                 ru: 'Занятый квадрат берут только боем: назначьте атаку в планировщике',
@@ -506,6 +604,40 @@ export const territories = {
                 en: 'Square {{cell}} captured peacefully',
                 de: 'Feld {{cell}} friedlich erobert',
                 pl: 'Pole {{cell}} przejete pokojowo',
+            },
+        },
+        rating: {
+            weeklyReward: {
+                ru: '{{place}} место в недельном рейтинге территорий: {{amount}} в казну',
+                ua: '{{place}} місце в тижневому рейтингу територій: {{amount}} до скарбниці',
+                en: 'Place {{place}} in the weekly territory rating: {{amount}} to the treasury',
+                de: 'Platz {{place}} in der Wochenwertung der Gebiete: {{amount}} in die Kasse',
+                pl: '{{place}} miejsce w tygodniowym rankingu terytoriow: {{amount}} do skarbca',
+            },
+        },
+        surcharge: {
+            warning: {
+                ru: 'Надбавка за территории не оплачена ({{amount}}). Через сутки организация начнёт терять по квадрату в день',
+                ua: 'Надбавку за території не сплачено ({{amount}}). За добу організація почне втрачати по квадрату на день',
+                en: 'The territory surcharge is unpaid ({{amount}}). In a day the organization starts losing a square per day',
+                de: 'Der Gebietszuschlag ist offen ({{amount}}). In einem Tag verliert die Organisation taeglich ein Feld',
+                pl: 'Doplata za terytoria nieoplacona ({{amount}}). Za dobe organizacja zacznie tracic po polu dziennie',
+            },
+        },
+        harvest: {
+            collected: {
+                ru: 'С квадрата {{cell}} собрано {{quantity}} шт.',
+                ua: 'З квадрата {{cell}} зібрано {{quantity}} шт.',
+                en: 'Collected {{quantity}} pcs from square {{cell}}',
+                de: 'Von Feld {{cell}} {{quantity}} Stk. eingesammelt',
+                pl: 'Zebrano {{quantity}} szt. z pola {{cell}}',
+            },
+            empty: {
+                ru: 'Собирать пока нечего',
+                ua: 'Збирати поки нічого',
+                en: 'Nothing to collect yet',
+                de: 'Noch nichts einzusammeln',
+                pl: 'Nie ma jeszcze czego zbierac',
             },
         },
         attack: {

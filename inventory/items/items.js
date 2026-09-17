@@ -285,6 +285,86 @@ export const items = {
             pl: 'Myśliwski aerozol maskujący ludzki zapach. Po rozpyleniu dzikie zwierzęta przestają cię zauważać na 3 godziny. Używany przez zawodowych myśliwych w Paleto.',
         },
     },
+    roadThermos: {
+        name: {
+            ru: 'Дорожный термос',
+            ua: 'Дорожній термос',
+            en: 'Road Thermos',
+            de: 'Reisethermoskanne',
+            pl: 'Termos podróżny',
+        },
+        desc: {
+            ru: 'Помятый термос с горячим кофе. 40 минут выносливость тратится медленнее, бег быстрее, и простуда не пристанет.',
+            ua: 'Пом’ятий термос із гарячою кавою. 40 хвилин витривалість витрачається повільніше, біг швидший, і застуда не пристане.',
+            en: 'A dented thermos of hot coffee. For 40 minutes stamina drains slower, you run faster and you will not catch a cold.',
+            de: 'Eine verbeulte Thermoskanne mit heißem Kaffee. 40 Minuten sinkt die Ausdauer langsamer, du rennst schneller und erkältest dich nicht.',
+            pl: 'Wgnieciony termos z gorącą kawą. Przez 40 minut wytrzymałość spada wolniej, biegniesz szybciej i nie przeziębisz się.',
+        },
+    },
+    rabbitFoot: {
+        name: {
+            ru: 'Заячья лапка',
+            ua: 'Заяча лапка',
+            en: "Rabbit's Foot",
+            de: 'Hasenpfote',
+            pl: 'Zajęcza łapka',
+        },
+        desc: {
+            ru: 'Потёртый талисман на кольце. 2 часа грибы, руда и клады отдают на один предмет больше, а в сундуках чаще попадаются ящики.',
+            ua: 'Потертий талісман на кільці. 2 години гриби, руда та скарби віддають на один предмет більше, а в скринях частіше трапляються ящики.',
+            en: 'A worn charm on a ring. For 2 hours mushrooms, ore and treasure give one more item, and chests hold boxes more often.',
+            de: 'Ein abgegriffener Talisman am Ring. 2 Stunden geben Pilze, Erz und Schätze einen Gegenstand mehr, und Kisten enthalten öfter Boxen.',
+            pl: 'Wytarty talizman na kółku. Przez 2 godziny grzyby, ruda i skarby dają jeden przedmiot więcej, a w skrzyniach częściej są paczki.',
+        },
+    },
+    luckyPick: {
+        name: {
+            ru: 'Медиатор на шнурке',
+            ua: 'Медіатор на шнурку',
+            en: 'Lucky Pick',
+            de: 'Glücksplektrum',
+            pl: 'Szczęśliwa kostka',
+        },
+        desc: {
+            ru: 'Стёртый медиатор уличного музыканта. 90 минут опыт персонажа идёт на 15% быстрее.',
+            ua: 'Стертий медіатор вуличного музиканта. 90 хвилин досвід персонажа йде на 15% швидше.',
+            en: "A street musician's worn pick. For 90 minutes character experience comes 15% faster.",
+            de: 'Das abgespielte Plektrum eines Strassenmusikers. 90 Minuten steigt die Charaktererfahrung 15% schneller.',
+            pl: 'Zużyta kostka ulicznego muzyka. Przez 90 minut doświadczenie postaci rośnie o 15% szybciej.',
+        },
+    },
+    dashboardCharm: {
+        name: {
+            ru: 'Оберег на присоске',
+            ua: 'Оберіг на присосці',
+            en: 'Dashboard Charm',
+            de: 'Armaturenbrett-Talisman',
+            pl: 'Talizman na przyssawce',
+        },
+        desc: {
+            ru: 'Медальон путешественника на присоске. 2 часа машина под вашим управлением тратит на 30% меньше топлива.',
+            ua: 'Медальйон мандрівника на присосці. 2 години машина під вашим керуванням витрачає на 30% менше пального.',
+            en: "A traveler's medallion on a suction cup. For 2 hours a vehicle you drive burns 30% less fuel.",
+            de: 'Ein Reisemedaillon am Saugnapf. 2 Stunden verbraucht ein Fahrzeug, das du fährst, 30% weniger Kraftstoff.',
+            pl: 'Medalion podróżnika na przyssawce. Przez 2 godziny pojazd, którym jedziesz, spala o 30% mniej paliwa.',
+        },
+    },
+    mechanicCard: {
+        name: {
+            ru: 'Визитка автомастера',
+            ua: 'Візитка автомайстра',
+            en: "Mechanic's Card",
+            de: 'Visitenkarte des Mechanikers',
+            pl: 'Wizytówka mechanika',
+        },
+        desc: {
+            ru: 'Мятая визитка в масляных пятнах. 3 часа ремонт и тюнинг в мастерской стоят на 25% дешевле.',
+            ua: 'Зім’ята візитка в масляних плямах. 3 години ремонт і тюнінг у майстерні коштують на 25% дешевше.',
+            en: 'A crumpled card covered in grease. For 3 hours repairs and tuning at the workshop cost 25% less.',
+            de: 'Eine zerknitterte, ölverschmierte Karte. 3 Stunden kosten Reparatur und Tuning in der Werkstatt 25% weniger.',
+            pl: 'Pognieciona wizytówka w plamach smaru. Przez 3 godziny naprawa i tuning w warsztacie kosztują o 25% mniej.',
+        },
+    },
     //
     reliefix: {
         name: {
@@ -495,6 +575,22 @@ export const items = {
             en: 'A finished piece off the atelier floor. Only the organization contract client takes it.',
             de: 'Ein fertiges Stück aus der Atelier-Fertigung. Nur der Auftraggeber des Organisationsvertrags nimmt es an.',
             pl: 'Gotowy wyrób z linii atelier. Przyjmuje go wyłącznie zleceniodawca kontraktu organizacji.',
+        },
+    },
+    laundered_cash: {
+        name: {
+            ru: 'Отмытая пачка',
+            ua: 'Відмита пачка',
+            en: 'Laundered stack',
+            de: 'Gewaschenes Bündel',
+            pl: 'Wyprany plik',
+        },
+        desc: {
+            ru: 'Пачка чистых денег из прачечной. Принимает только заказчик контракта организации.',
+            ua: 'Пачка чистих грошей із пральні. Приймає лише замовник контракту організації.',
+            en: 'A stack of clean money out of the laundromat. Only the organization contract client takes it.',
+            de: 'Ein Bündel sauberes Geld aus dem Waschsalon. Nur der Auftraggeber des Organisationsvertrags nimmt es an.',
+            pl: 'Plik czystych pieniędzy z pralni. Przyjmuje go wyłącznie zleceniodawca kontraktu organizacji.',
         },
     },
     chipset: {

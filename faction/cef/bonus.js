@@ -78,6 +78,13 @@ export default {
         de: 'Nicht genug Mittel im Fraktionsbudget',
         pl: 'Niewystarczające środki w budżecie frakcji',
     },
+    invalidData: {
+        ru: 'Проверьте сумму и причину премии',
+        ua: 'Перевірте суму та причину премії',
+        en: 'Check the bonus amount and reason',
+        de: 'Prüfe Betrag und Grund des Bonus',
+        pl: 'Sprawdź kwotę i powód premii',
+    },
     targetNoBank: {
         ru: 'У игрока нет банковского счёта',
         ua: 'У гравця немає банківського рахунку',

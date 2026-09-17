@@ -1,6 +1,6 @@
 /**
  * Планировщик войны со стороны организации. Ключи повторяют контракт общего
- * компонента (`webviews/src/components/warPlanner`) — тот же набор, что у банд
+ * компонента (`webviews/src/components/warPlanner`) - тот же набор, что у банд
  * в `faction/warPlanner.js`, но своими словами: у организаций квадрат, а не
  * зона, и атака, а не капт.
  */
@@ -49,6 +49,20 @@ export const warPlanner = {
         de: 'Sektor',
         pl: 'Kwadrat',
     },
+    prizeLevel: {
+        ru: 'влияния за уровень {{level}}',
+        ua: 'впливу за рівень {{level}}',
+        en: 'influence at level {{level}}',
+        de: 'Einfluss auf Stufe {{level}}',
+        pl: 'wplywow za poziom {{level}}',
+    },
+    prizeFortified: {
+        ru: 'квадрат укреплён',
+        ua: 'квадрат укріплений',
+        en: 'fortified',
+        de: 'befestigt',
+        pl: 'umocnione',
+    },
     hour: {
         ru: 'Час',
         ua: 'Година',
@@ -62,6 +76,20 @@ export const warPlanner = {
         en: 'Minute',
         de: 'Minute',
         pl: 'Minuta',
+    },
+    now: {
+        ru: 'сейчас',
+        ua: 'зараз',
+        en: 'now',
+        de: 'jetzt',
+        pl: 'teraz',
+    },
+    startsIn: {
+        ru: 'через',
+        ua: 'через',
+        en: 'in',
+        de: 'in',
+        pl: 'za',
     },
     slots: {
         ru: 'Состав',
@@ -106,6 +134,27 @@ export const warPlanner = {
             en: 'That start time is no longer available',
             de: 'Diese Startzeit ist nicht mehr verfuegbar',
             pl: 'Ta godzina rozpoczecia jest juz niedostepna',
+        },
+        notWarTime: {
+            ru: 'Время вне окна боёв',
+            ua: 'Час поза вікном боїв',
+            en: 'Outside the battle window',
+            de: 'Ausserhalb des Kampffensters',
+            pl: 'Poza oknem walk',
+        },
+        declarationsClosed: {
+            ru: 'Объявления сейчас закрыты',
+            ua: 'Оголошення зараз закриті',
+            en: 'Declarations are closed right now',
+            de: 'Ansagen sind derzeit geschlossen',
+            pl: 'Zgloszenia sa teraz zamkniete',
+        },
+        leadTooShort: {
+            ru: 'Слишком скоро: бой назначают заранее',
+            ua: 'Занадто скоро: бій призначають заздалегідь',
+            en: 'Too soon: a battle needs notice',
+            de: 'Zu frueh: ein Kampf braucht Vorlauf',
+            pl: 'Za wczesnie: walka wymaga wyprzedzenia',
         },
     },
     allowedItems: {

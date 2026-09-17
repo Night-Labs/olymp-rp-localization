@@ -505,6 +505,105 @@ export default {
         },
     },
 
+    buyer_ores: {
+        name: { ru: 'Рудная жила', ua: 'Рудна жила', en: 'Mother Lode', de: 'Erzader', pl: 'Zyla Rudy' },
+        desc: {
+            ru: 'Продайте руды скупщику на {{value}}$',
+            ua: 'Продайте руди скупнику на {{value}}$',
+            en: 'Sell ${{value}} worth of ore to the buyer',
+            de: 'Verkaufe Erz fuer {{value}}$ an den Aufkaeufer',
+            pl: 'Sprzedaj rude za {{value}}$ skupowi',
+        },
+    },
+    buyer_fence: {
+        name: { ru: 'Свой человек в пустыне', ua: 'Своя людина в пустелі', en: 'Friend in the Desert', de: 'Freund in der Wueste', pl: 'Swoj Czlowiek na Pustyni' },
+        desc: {
+            ru: 'Сдайте барыге краденого на {{value}}$',
+            ua: 'Здайте баригі краденого на {{value}}$',
+            en: 'Move ${{value}} worth of stolen goods through the fence',
+            de: 'Setze Diebesgut fuer {{value}}$ beim Hehler um',
+            pl: 'Sprzedaj paserowi lup za {{value}}$',
+        },
+    },
+
+    // ─── Взлом домов ───
+    burglar_haul: {
+        name: { ru: 'Восемь ходок', ua: 'Вісім ходок', en: 'Eight Trips', de: 'Acht Gaenge', pl: 'Osiem Kursow' },
+        desc: {
+            ru: 'Вынесите {{value}} предметов из одного дома за один заход',
+            ua: 'Винесіть {{value}} предметів з одного будинку за один захід',
+            en: 'Carry {{value}} pieces out of one house in a single run',
+            de: 'Trage {{value}} Stuecke in einem einzigen Zug aus einem Haus',
+            pl: 'Wynies {{value}} przedmiotow z jednego domu za jednym razem',
+        },
+    },
+    burglar_busted_full: {
+        name: { ru: 'Хозяин вернулся', ua: 'Господар повернувся', en: 'The Owner Came Home', de: 'Der Besitzer Kam Heim', pl: 'Wlasciciel Wrocil' },
+        desc: {
+            ru: 'Попадитесь полиции, когда в багажнике уже лежит {{value}} предметов',
+            ua: 'Попадіться поліції, коли в багажнику вже лежить {{value}} предметів',
+            en: 'Get caught by the police with {{value}} pieces already in the boot',
+            de: 'Lass dich mit {{value}} Stuecken im Kofferraum von der Polizei schnappen',
+            pl: 'Daj sie zlapac policji, majac juz {{value}} przedmiotow w bagazniku',
+        },
+    },
+    police_night_shift: {
+        name: { ru: 'Ночная смена', ua: 'Нічна зміна', en: 'Night Shift', de: 'Nachtschicht', pl: 'Nocna Zmiana' },
+        desc: {
+            ru: 'Задержите {{value}} взломщиков на выезде',
+            ua: 'Затримайте {{value}} зламників на виїзді',
+            en: 'Bust {{value}} burglars on the call',
+            de: 'Schnapp {{value}} Einbrecher im Einsatz',
+            pl: 'Zatrzymaj {{value}} wlamywaczy na interwencji',
+        },
+    },
+
+    // ─── Контрабанда ───
+    contraband_first_hand: {
+        name: { ru: 'Первая рука', ua: 'Перша рука', en: 'First Hand', de: 'Erste Hand', pl: 'Pierwsza Reka' },
+        desc: {
+            ru: 'Вскройте первый ящик зоны {{value}} раз',
+            ua: 'Розкрийте перший ящик зони {{value}} разів',
+            en: 'Crack the first crate of the zone {{value}} times',
+            de: 'Knacke {{value}} Mal die erste Kiste der Zone',
+            pl: 'Otworz pierwsza skrzynie w strefie {{value}} razy',
+        },
+    },
+    contraband_sweep: {
+        name: { ru: 'Подчистую', ua: 'Дочиста', en: 'Clean Sweep', de: 'Reiner Tisch', pl: 'Do Czysta' },
+        desc: {
+            ru: 'Вскройте {{value}} ящика за один завоз контрабанды',
+            ua: 'Розкрийте {{value}} ящики за одне завезення контрабанди',
+            en: 'Crack {{value}} crates during a single contraband event',
+            de: 'Knacke {{value}} Kisten waehrend eines Schmuggel-Events',
+            pl: 'Otworz {{value}} skrzynie podczas jednego zwozu kontrabandy',
+        },
+    },
+
+    // ─── Авиагрузчик ───
+    aircargo_full_hold: {
+        name: { ru: 'Один за весь борт', ua: 'Один за весь борт', en: 'The Whole Hold', de: 'Der Ganze Frachtraum', pl: 'Caly Ladunek' },
+        desc: {
+            ru: 'Выгрузите {{value}} ящиков за один прилёт самолёта',
+            ua: 'Вивантажте {{value}} ящиків за один приліт літака',
+            en: 'Unload {{value}} crates during a single aircraft turnaround',
+            de: 'Entlade {{value}} Kisten waehrend eines einzigen Flugzeugstopps',
+            pl: 'Rozladuj {{value}} skrzyn podczas jednego postoju samolotu',
+        },
+    },
+
+    // ─── Инкассация ───
+    cashcollector_route_master: {
+        name: { ru: 'Хозяин маршрута', ua: 'Господар маршруту', en: 'Master of the Route', de: 'Herr der Route', pl: 'Pan Trasy' },
+        desc: {
+            ru: 'Обслужите {{value}} банкоматов, работая инкассатором',
+            ua: 'Обслужіть {{value}} банкоматів, працюючи інкасатором',
+            en: 'Service {{value}} ATMs working as a cash collector',
+            de: 'Befuelle {{value}} Geldautomaten als Geldtransporter',
+            pl: 'Obsluz {{value}} bankomatow, pracujac jako konwojent',
+        },
+    },
+
     notify: {
         header: { ru: 'Достижения', ua: 'Досягнення', en: 'Achievements', de: 'Erfolge', pl: 'Osiągnięcia' },
         claimed: { ru: 'Награда получена', ua: 'Нагороду отримано', en: 'Reward claimed', de: 'Belohnung erhalten', pl: 'Nagroda odebrana' },

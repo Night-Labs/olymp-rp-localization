@@ -711,4 +711,100 @@ export default {
             pl: 'Pakuj {{amount}} $ w tuning swojej bryki. Niech wszyscy zbierają szczęki z podłogi - a ty zgarnij zasłużoną nagrodę!',
         },
     },
+    airCargoCratesDailyQuest: {
+        name: {
+            ru: 'Борт не ждёт',
+            ua: 'Борт не чекає',
+            en: 'The Plane Waits for No One',
+            de: 'Der Flieger wartet nicht',
+            pl: 'Samolot nie czeka',
+        },
+        desc: {
+            ru: 'Выгрузи {{amount}} ящиков из трюма. Самолёт улетит по расписанию, успеешь ты или нет - так что не тяни с погрузчиком!',
+            ua: 'Вивантаж {{amount}} ящиків із трюму. Літак полетить за розкладом, встигнеш ти чи ні - тож не тягни з навантажувачем!',
+            en: 'Unload {{amount}} crates from the hold. The plane leaves on schedule whether you made it or not - so keep that forklift moving!',
+            de: 'Entlade {{amount}} Kisten aus dem Frachtraum. Der Flieger startet nach Plan, ob du fertig bist oder nicht - also ran an den Gabelstapler!',
+            pl: 'Rozładuj {{amount}} skrzyń z ładowni. Samolot odleci o czasie, zdążysz czy nie - więc nie ociągaj się z wózkiem!',
+        },
+    },
+    airCargoEarnDailyQuest: {
+        name: {
+            ru: 'Смена на перроне',
+            ua: 'Зміна на пероні',
+            en: 'A Shift on the Apron',
+            de: 'Schicht auf dem Vorfeld',
+            pl: 'Zmiana na płycie',
+        },
+        desc: {
+            ru: 'Заработай {{goal}} $ на разгрузке грузовых бортов. Отстоял смену честно - получи своё сверху!',
+            ua: 'Зароби {{goal}} $ на розвантаженні вантажних бортів. Відстояв зміну чесно - отримай своє зверху!',
+            en: 'Earn {{goal}} $ unloading cargo planes. Put in an honest shift and take your cut on top!',
+            de: 'Verdiene {{goal}} $ beim Entladen von Frachtmaschinen. Steh die Schicht ehrlich durch und hol dir was obendrauf!',
+            pl: 'Zarób {{goal}} $ na rozładunku samolotów towarowych. Odstój uczciwą zmianę i zgarnij coś ekstra!',
+        },
+    },
+    crackContrabandCratesDailyQuest: {
+        name: {
+            ru: 'Чужой груз',
+            ua: 'Чужий вантаж',
+            en: 'Cargo That Is Not Yours',
+            de: 'Fremde Fracht',
+            pl: 'Cudzy ładunek',
+        },
+        desc: {
+            ru: 'Вскрой {{count}} ящиков контрабанды. Ящик достаётся тому, кто добрался первым, так что не зевай - и не лови пулю на вскрытии!',
+            ua: 'Розкрий {{count}} ящиків контрабанди. Ящик дістається тому, хто дістався першим, тож не позіхай - і не злови кулю на розкритті!',
+            en: 'Crack {{count}} contraband crates. A crate goes to whoever got there first, so do not dawdle - and do not catch a bullet mid-crack!',
+            de: 'Knacke {{count}} Schmuggelkisten. Eine Kiste gehört dem, der zuerst da war - also trödel nicht und fang dir keine Kugel beim Aufbrechen!',
+            pl: 'Otwórz {{count}} skrzyń z kontrabandą. Skrzynia należy do tego, kto dotarł pierwszy, więc nie ociągaj się - i nie oberwij kulką przy otwieraniu!',
+        },
+    },
+    cashCollectorAtmsDailyQuest: {
+        name: {
+            ru: 'Броневик по маршруту',
+            ua: 'Броньовик за маршрутом',
+            en: 'The Van on the Route',
+            de: 'Der Panzerwagen auf Tour',
+            pl: 'Furgon na trasie',
+        },
+        desc: {
+            ru: 'Загрузи броневик в кассовом центре и обслужи {{amount}} банкоматов. Город без наличных долго не живёт - а гангстеры уже слышат, как ты подъезжаешь.',
+            ua: 'Завантаж броньовик у касовому центрі й обслужи {{amount}} банкоматів. Місто без готівки довго не живе - а гангстери вже чують, як ти під\'їжджаєш.',
+            en: 'Load the van at the cash centre and service {{amount}} ATMs. A city does not last long without cash - and the gangs can already hear you pulling up.',
+            de: 'Belade den Panzerwagen im Geldzentrum und befülle {{amount}} Geldautomaten. Ohne Bargeld hält die Stadt nicht lange durch - und die Gangs hören dich schon vorfahren.',
+            pl: 'Załaduj furgon w centrum gotówkowym i obsłuż {{amount}} bankomatów. Miasto bez gotówki długo nie pociągnie - a gangi już słyszą, jak podjeżdżasz.',
+        },
+    },
+    burglaryRunsDailyQuest: {
+        name: {
+            ru: 'Тихий вечер',
+            ua: 'Тихий вечір',
+            en: 'A Quiet Evening',
+            de: 'Ein ruhiger Abend',
+            pl: 'Cichy wieczór',
+        },
+        desc: {
+            ru: 'Проведи {{amount}} заходов по домам и уйди от полиции с товаром. Взяли на выезде - заход не считается!',
+            ua: 'Проведи {{amount}} заходів по будинках і піди від поліції з товаром. Взяли на виїзді - захід не рахується!',
+            en: 'Pull off {{amount}} house jobs and lose the police with the goods still on you. Get busted and the run does not count!',
+            de: 'Zieh {{amount}} Hauseinbrüche durch und häng die Polizei mit der Ware ab. Wirst du geschnappt, zählt der Zug nicht!',
+            pl: 'Zrób {{amount}} skoków na domy i zgub policję z łupem. Dasz się złapać - kurs się nie liczy!',
+        },
+    },
+    sellFenceLootToBuyerDailyQuest: {
+        name: {
+            ru: 'Сбыт краденого',
+            ua: 'Збут краденого',
+            en: 'Moving the Goods',
+            de: 'Ware absetzen',
+            pl: 'Zbyt kradzionego',
+        },
+        desc: {
+            ru: 'Сдай скупщику {{buyerName}} добычу на {{goal}} $. Он сидит в пустыне и берёт всё, что вынесли из чужих домов - вопросов не задаёт.',
+            ua: 'Здай скупнику {{buyerName}} здобич на {{goal}} $. Він сидить у пустелі й бере все, що винесли з чужих будинків - питань не ставить.',
+            en: 'Move {{goal}} $ worth of loot through the fence {{buyerName}}. He sits out in the desert and takes anything carried out of a house that is not yours - no questions.',
+            de: 'Setz Beute für {{goal}} $ beim Hehler {{buyerName}} ab. Er sitzt draußen in der Wüste und nimmt alles, was aus fremden Häusern getragen wurde - ohne Fragen.',
+            pl: 'Opchnij paserowi {{buyerName}} łup za {{goal}} $. Siedzi na pustyni i bierze wszystko, co wyniesiono z cudzych domów - bez pytań.',
+        },
+    },
 };

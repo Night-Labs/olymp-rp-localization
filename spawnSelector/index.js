@@ -13,6 +13,53 @@ export default {
         de: 'Ausgangspunkt',
         pl: 'Punkt wyjścia',
     },
+    // Name of the last exit place in the point card: instead of "Exit point" the player
+    // sees where exactly they are coming back to.
+    places: {
+        casino: {
+            ru: 'Казино',
+            ua: 'Казино',
+            en: 'Casino',
+            de: 'Kasino',
+            pl: 'Kasyno',
+        },
+        house: {
+            ru: 'Дом #{{id}}',
+            ua: 'Будинок #{{id}}',
+            en: 'House #{{id}}',
+            de: 'Haus #{{id}}',
+            pl: 'Dom #{{id}}',
+        },
+        houseGarage: {
+            ru: 'Гараж дома #{{id}}',
+            ua: 'Гараж будинку #{{id}}',
+            en: 'Garage of house #{{id}}',
+            de: 'Garage von Haus #{{id}}',
+            pl: 'Garaż domu #{{id}}',
+        },
+        office: {
+            ru: 'Офис {{slotId}}, {{building}}',
+            ua: 'Офіс {{slotId}}, {{building}}',
+            en: 'Office {{slotId}}, {{building}}',
+            de: 'Büro {{slotId}}, {{building}}',
+            pl: 'Biuro {{slotId}}, {{building}}',
+        },
+        officeGarage: {
+            ru: 'Гараж {{garage}}, {{building}}',
+            ua: 'Гараж {{garage}}, {{building}}',
+            en: 'Garage {{garage}}, {{building}}',
+            de: 'Garage {{garage}}, {{building}}',
+            pl: 'Garaż {{garage}}, {{building}}',
+        },
+        warehouse: {
+            ru: 'Склад {{slotId}}, {{building}}',
+            ua: 'Склад {{slotId}}, {{building}}',
+            en: 'Warehouse {{slotId}}, {{building}}',
+            de: 'Lager {{slotId}}, {{building}}',
+            pl: 'Magazyn {{slotId}}, {{building}}',
+        },
+    },
+
     inActiveTextDefault: {
         ru: 'В настоящее время это невозможно',
         ua: 'На данний час це неможливо',

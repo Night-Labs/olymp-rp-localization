@@ -20,6 +20,13 @@ export default {
         de: 'Spielt',
         pl: 'Gra',
     },
+    favoriteVeh: {
+        ru: 'Избранные',
+        ua: 'Обрані',
+        en: 'Favorites',
+        de: 'Favoriten',
+        pl: 'Ulubione',
+    },
     rentedVeh: {
         ru: 'Арендованные',
         ua: 'Орендовані',

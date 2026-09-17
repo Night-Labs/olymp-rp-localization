@@ -11,11 +11,11 @@ export default {
     dialogs: {
         main: {
             welcome: {
-                ru: 'Добрый день. Я помогу подобрать свободный дом по всему штату. Что вас интересует?',
-                ua: 'Добрий день. Я допоможу підібрати вільний будинок по всьому штату. Що вас цікавить?',
-                en: 'Good day. I can help you find available houses across the state. What are you looking for?',
-                de: 'Guten Tag. Ich helfe Ihnen, freie Häuser im ganzen Bundesstaat zu finden. Was interessiert Sie?',
-                pl: 'Dzień dobry. Pomogę dobrać wolny dom w całym stanie. Czego szukasz?',
+                ru: 'Добрый день. Я помогу подобрать свободный дом или складское помещение по всему штату. Что вас интересует?',
+                ua: 'Добрий день. Я допоможу підібрати вільний будинок або складське приміщення по всьому штату. Що вас цікавить?',
+                en: 'Good day. I can help you find an available house or a warehouse unit across the state. What are you looking for?',
+                de: 'Guten Tag. Ich helfe Ihnen, ein freies Haus oder eine Lagereinheit im ganzen Bundesstaat zu finden. Was interessiert Sie?',
+                pl: 'Dzień dobry. Pomogę dobrać wolny dom lub lokal magazynowy w całym stanie. Czego szukasz?',
             },
             showOffers: {
                 ru: 'Покажите доступные предложения',
@@ -46,11 +46,11 @@ export default {
                 pl: 'Moje rezerwacje',
             },
             howItWorksReply: {
-                ru: 'Агентство OLYMP ESTATE помогает вам с поиском подходящих домов и оформлением брони на выбранный объект. На карте отмечены свободные варианты: выберите дом и срок брони (1, 3 или 6 часов). Одновременно можно держать не более {{max}} активных броней. Окончательное решение о покупке и само оформление покупки вы принимаете самостоятельно, на своё усмотрение.',
-                ua: "Агентство OLYMP ESTATE допомагає вам із пошуком відповідних будинків і оформленням броні на обраний об'єкт. На мапі позначені вільні варіанти: оберіть будинок і строк броні (1, 3 або 6 годин). Одночасно можна мати не більше {{max}} активних бронювань. Остаточне рішення про покупку та саме оформлення покупки ви приймаєте самостійно, на власний розсуд.",
-                en: 'OLYMP ESTATE helps you find suitable houses and place a reservation on the selected property. Available options are marked on the map: choose a house and reservation duration (1, 3, or 6 hours). You can keep up to {{max}} active reservations at the same time. The final purchase decision and the purchase process itself are entirely up to you.',
-                de: 'Die Agentur OLYMP ESTATE unterstützt Sie bei der Suche nach passenden Häusern und bei der Reservierung des gewählten Objekts. Freie Optionen sind auf der Karte markiert: Wählen Sie ein Haus und die Reservierungsdauer (1, 3 oder 6 Stunden). Gleichzeitig sind maximal {{max}} aktive Reservierungen möglich. Die endgültige Kaufentscheidung und der Kaufabschluss liegen vollständig bei Ihnen.',
-                pl: 'Agencja OLYMP ESTATE pomaga w znalezieniu odpowiednich domów i zarezerwowaniu wybranego obiektu. Dostępne opcje są oznaczone na mapie: wybierz dom oraz czas rezerwacji (1, 3 lub 6 godzin). Jednocześnie możesz mieć maksymalnie {{max}} aktywne rezerwacje. Ostateczna decyzja o zakupie i samo sfinalizowanie zakupu należą wyłącznie do Ciebie.',
+                ru: 'Агентство OLYMP ESTATE помогает вам с поиском подходящих домов и оформлением брони на выбранный объект. На карте отмечены свободные варианты: выберите дом и срок брони (1, 3 или 6 часов). Одновременно можно держать не более {{max}} активных броней. Окончательное решение о покупке и само оформление покупки вы принимаете самостоятельно, на своё усмотрение. Склады вынесены на отдельную вкладку: выбираете здание, выбираете номер помещения и оплачиваете прямо здесь - один склад на человека.',
+                ua: "Агентство OLYMP ESTATE допомагає вам із пошуком відповідних будинків і оформленням броні на обраний об'єкт. На мапі позначені вільні варіанти: оберіть будинок і строк броні (1, 3 або 6 годин). Одночасно можна мати не більше {{max}} активних бронювань. Остаточне рішення про покупку та саме оформлення покупки ви приймаєте самостійно, на власний розсуд. Склади винесені на окрему вкладку: обираєте будівлю, обираєте номер приміщення та оплачуєте просто тут - один склад на людину.",
+                en: 'OLYMP ESTATE helps you find suitable houses and place a reservation on the selected property. Available options are marked on the map: choose a house and reservation duration (1, 3, or 6 hours). You can keep up to {{max}} active reservations at the same time. The final purchase decision and the purchase process itself are entirely up to you. Warehouses are on a separate tab: pick a building, pick a unit number, and pay right here - one warehouse per person.',
+                de: 'Die Agentur OLYMP ESTATE unterstützt Sie bei der Suche nach passenden Häusern und bei der Reservierung des gewählten Objekts. Freie Optionen sind auf der Karte markiert: Wählen Sie ein Haus und die Reservierungsdauer (1, 3 oder 6 Stunden). Gleichzeitig sind maximal {{max}} aktive Reservierungen möglich. Die endgültige Kaufentscheidung und der Kaufabschluss liegen vollständig bei Ihnen. Lager stehen auf einem eigenen Reiter: Gebäude wählen, Einheitennummer wählen und direkt hier bezahlen - ein Lager pro Person.',
+                pl: 'Agencja OLYMP ESTATE pomaga w znalezieniu odpowiednich domów i zarezerwowaniu wybranego obiektu. Dostępne opcje są oznaczone na mapie: wybierz dom oraz czas rezerwacji (1, 3 lub 6 godzin). Jednocześnie możesz mieć maksymalnie {{max}} aktywne rezerwacje. Ostateczna decyzja o zakupie i samo sfinalizowanie zakupu należą wyłącznie do Ciebie. Magazyny są na osobnej zakładce: wybierasz budynek, wybierasz numer lokalu i płacisz od razu tutaj - jeden magazyn na osobę.',
             },
             myReservationsReply: {
                 ru: 'Ваши активные брони: {{count}}/{{max}}.\nВыберите дом из списка кнопок ниже, чтобы проложить маршрут.',
@@ -135,6 +135,13 @@ export default {
             de: 'Dieses Haus ist bereits von Ihnen reserviert.',
             pl: 'Ten dom jest już zarezerwowany przez Ciebie.',
         },
+        warehouseRouteSet: {
+            ru: 'Маршрут проложен к складу: {{building}}',
+            ua: 'Маршрут прокладено до складу: {{building}}',
+            en: 'Route set to the warehouse: {{building}}',
+            de: 'Route zum Lager gesetzt: {{building}}',
+            pl: 'Trasa wyznaczona do magazynu: {{building}}',
+        },
     },
     cef: {
         title: {
@@ -157,6 +164,110 @@ export default {
             en: 'Houses found',
             de: 'Gefundene Häuser',
             pl: 'Znalezione domy',
+        },
+        warehousesFound: {
+            ru: 'Найдено складов',
+            ua: 'Знайдено складів',
+            en: 'Warehouses found',
+            de: 'Gefundene Lager',
+            pl: 'Znalezione magazyny',
+        },
+        priceFrom: {
+            ru: 'от',
+            ua: 'від',
+            en: 'from',
+            de: 'ab',
+            pl: 'od',
+        },
+        priceTo: {
+            ru: 'до',
+            ua: 'до',
+            en: 'to',
+            de: 'bis',
+            pl: 'do',
+        },
+        modes: {
+            houses: {
+                ru: 'Дома',
+                ua: 'Будинки',
+                en: 'Houses',
+                de: 'Häuser',
+                pl: 'Domy',
+            },
+            warehouses: {
+                ru: 'Склады',
+                ua: 'Склади',
+                en: 'Warehouses',
+                de: 'Lager',
+                pl: 'Magazyny',
+            },
+        },
+        warehouse: {
+            fields: {
+                building: {
+                    ru: 'Здание',
+                    ua: 'Будівля',
+                    en: 'Building',
+                    de: 'Gebäude',
+                    pl: 'Budynek',
+                },
+                size: {
+                    ru: 'Размер',
+                    ua: 'Розмір',
+                    en: 'Size',
+                    de: 'Größe',
+                    pl: 'Rozmiar',
+                },
+                free: {
+                    ru: 'Свободно помещений',
+                    ua: 'Вільно приміщень',
+                    en: 'Available units',
+                    de: 'Freie Einheiten',
+                    pl: 'Wolne lokale',
+                },
+                tax: {
+                    ru: 'Налог в сутки',
+                    ua: 'Податок на добу',
+                    en: 'Daily tax',
+                    de: 'Tagessteuer',
+                    pl: 'Podatek dzienny',
+                },
+                price: {
+                    ru: 'Цена помещения',
+                    ua: 'Ціна приміщення',
+                    en: 'Unit price',
+                    de: 'Preis der Einheit',
+                    pl: 'Cena lokalu',
+                },
+            },
+            selectPremise: {
+                ru: 'Выбрать помещение',
+                ua: 'Обрати приміщення',
+                en: 'Choose a unit',
+                de: 'Einheit wählen',
+                pl: 'Wybierz lokal',
+            },
+            alreadyYours: {
+                ru: 'Вы уже держите здесь склад',
+                ua: 'Ви вже тримаєте тут склад',
+                en: 'You already hold a unit here',
+                de: 'Sie halten hier bereits eine Einheit',
+                pl: 'Masz już tu lokal',
+            },
+            limitReached: {
+                ru: 'У вас уже есть склад',
+                ua: 'У вас уже є склад',
+                en: 'You already own a warehouse',
+                de: 'Sie besitzen bereits ein Lager',
+                pl: 'Masz już magazyn',
+            },
+            noFreePremises: {
+                ru: 'Свободных помещений нет',
+                ua: 'Вільних приміщень немає',
+                en: 'No units available',
+                de: 'Keine freien Einheiten',
+                pl: 'Brak wolnych lokali',
+            },
         },
         empty: {
             ru: 'Свободные дома сейчас отсутствуют',

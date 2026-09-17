@@ -16,6 +16,40 @@ export default {
             pl: 'Zakup u miejscowego handlarza',
         },
     },
+    // Разговор перед витриной. Открывается только тогда, когда игроку есть что предложить -
+    // иначе торговец сразу показывает прилавок.
+    dialogs: {
+        localSeller: {
+            welcome: {
+                ru: 'Здорово. Ты по делу или так, поглазеть? Показать товар или сам что-то принёс?',
+                ua: 'Вітаю. Ти у справі чи так, роздивитися? Показати товар чи сам щось приніс?',
+                en: 'Afternoon. Here on business, or just looking? Want to see the goods, or did you bring something?',
+                de: 'Tag. Geschäftlich hier oder nur zum Schauen? Soll ich die Ware zeigen, oder hast du selbst etwas dabei?',
+                pl: 'Dzień dobry. W interesach czy tak, popatrzeć? Pokazać towar, czy sam coś przyniosłeś?',
+            },
+            buy: {
+                ru: 'Покажи товар',
+                ua: 'Покажи товар',
+                en: 'Show me the goods',
+                de: 'Zeig mir die Ware',
+                pl: 'Pokaż towar',
+            },
+            sell: {
+                ru: 'У меня есть что продать',
+                ua: 'У мене є що продати',
+                en: 'I have something to sell',
+                de: 'Ich habe etwas zu verkaufen',
+                pl: 'Mam coś do sprzedania',
+            },
+            leave: {
+                ru: 'В другой раз',
+                ua: 'Іншого разу',
+                en: 'Another time',
+                de: 'Ein andermal',
+                pl: 'Innym razem',
+            },
+        },
+    },
     types: {
         illegalSeller: {
             ru: 'Нелегальный торговец',

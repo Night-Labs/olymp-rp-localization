@@ -87,12 +87,21 @@ export const cef = {
                 de: 'Garagen-Beleuchtung',
                 pl: 'Oświetlenie garażu',
             },
+            // The sign carries the garage's own number in the building, not a floor: all
+            // three garages put it on the same wall, and only its style is bought.
             garageNumbering: {
-                ru: 'Нумерация этажей',
-                ua: 'Нумерація поверхів',
-                en: 'Floor numbering',
-                de: 'Etagen-Nummerierung',
-                pl: 'Numeracja pięter',
+                ru: 'Номер гаража',
+                ua: 'Номер гаража',
+                en: 'Garage number',
+                de: 'Garagennummer',
+                pl: 'Numer garażu',
+            },
+            garageLevels: {
+                ru: 'Уровни гаража',
+                ua: 'Рівні гаража',
+                en: 'Garage levels',
+                de: 'Garagen-Ebenen',
+                pl: 'Poziomy garażu',
             },
         },
         shots: {
@@ -117,13 +126,6 @@ export const cef = {
                 de: 'Konferenzraum',
                 pl: 'Sala konferencyjna',
             },
-            floor: {
-                ru: 'Этаж {{level}}',
-                ua: 'Поверх {{level}}',
-                en: 'Floor {{level}}',
-                de: 'Etage {{level}}',
-                pl: 'Piętro {{level}}',
-            },
         },
         option: {
             ru: 'Вариант {{index}}',
@@ -131,6 +133,13 @@ export const cef = {
             en: 'Option {{index}}',
             de: 'Variante {{index}}',
             pl: 'Wariant {{index}}',
+        },
+        garageLevel: {
+            ru: 'Гараж {{level}}, +{{slots}} мест',
+            ua: 'Гараж {{level}}, +{{slots}} місць',
+            en: 'Garage {{level}}, +{{slots}} spaces',
+            de: 'Garage {{level}}, +{{slots}} Plätze',
+            pl: 'Garaż {{level}}, +{{slots}} miejsc',
         },
         vault: {
             installed: {
@@ -175,6 +184,13 @@ export const cef = {
                 pl: 'Warstw: {{count}}',
             },
         },
+        back: {
+            ru: 'К остальным разделам',
+            ua: 'До інших розділів',
+            en: 'Back to the other sections',
+            de: 'Zurück zu den anderen Bereichen',
+            pl: 'Do pozostałych sekcji',
+        },
         installed: {
             ru: 'Установлено',
             ua: 'Встановлено',
@@ -182,12 +198,26 @@ export const cef = {
             de: 'Installiert',
             pl: 'Zainstalowane',
         },
+        walkIn: {
+            ru: 'Зайти осмотреть',
+            ua: 'Зайти оглянути',
+            en: 'Walk in',
+            de: 'Hineingehen',
+            pl: 'Wejdź i zobacz',
+        },
+        walkInHere: {
+            ru: 'Вы стоите в нём',
+            ua: 'Ви стоїте в ньому',
+            en: 'You are standing in it',
+            de: 'Du stehst darin',
+            pl: 'Właśnie w nim stoisz',
+        },
         apply: {
-            ru: 'Установить за {{price}}',
-            ua: 'Встановити за {{price}}',
-            en: 'Install for {{price}}',
-            de: 'Für {{price}} installieren',
-            pl: 'Zainstaluj za {{price}}',
+            ru: 'Установить',
+            ua: 'Встановити',
+            en: 'Install',
+            de: 'Installieren',
+            pl: 'Zainstaluj',
         },
         balance: {
             ru: 'Счёт организации',
@@ -195,6 +225,13 @@ export const cef = {
             en: 'Organization balance',
             de: 'Organisationskonto',
             pl: 'Konto organizacji',
+        },
+        cost: {
+            ru: 'Стоимость',
+            ua: 'Вартість',
+            en: 'Cost',
+            de: 'Kosten',
+            pl: 'Koszt',
         },
         notEnough: {
             ru: 'На счету организации не хватает денег',

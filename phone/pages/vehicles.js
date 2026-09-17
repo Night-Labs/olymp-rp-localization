@@ -29,6 +29,13 @@ export default {
         de: 'Belegt',
         pl: 'Zajęte',
     },
+    tooManyFavorites: {
+        ru: 'В избранном уже {{max}} машин',
+        ua: 'В обраному вже {{max}} машин',
+        en: 'Favorites already hold {{max}} vehicles',
+        de: 'Favoriten enthalten bereits {{max}} Fahrzeuge',
+        pl: 'W ulubionych jest już {{max}} pojazdów',
+    },
     control: {
         km: {
             ru: 'км.',
