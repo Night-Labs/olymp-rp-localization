@@ -139,6 +139,14 @@ export default {
             de: 'Mach einen Inventarplatz frei: die verbotene Ausruestung kann nirgendwo hin',
             pl: 'Zwolnij slot w ekwipunku: nie ma gdzie schowac zabronionego wyposazenia',
         },
+        // Restraints, a head bag, a carry, a trade: nothing of the kind with or on a war participant.
+        playerAction: {
+            ru: 'Во время войны это действие недоступно',
+            ua: 'Під час війни ця дія недоступна',
+            en: 'This action is not available during a war',
+            de: 'Während eines Krieges ist diese Aktion nicht verfügbar',
+            pl: 'Podczas wojny ta akcja jest niedostępna',
+        },
     },
     // Заголовки слотов оружия в планировщике войны.
     weaponSlots: {
