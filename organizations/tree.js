@@ -447,13 +447,6 @@ export const tree = {
             de: 'Organisationsguthaben nicht ausreichend: ${{current}}/${{required}}.',
             pl: 'Niewystarczajacy bilans organizacji: ${{current}}/${{required}}.',
         },
-        furnitureLocked: {
-            ru: 'Объект «{{furniture}}» ещё не куплен в дереве улучшений.',
-            ua: 'Об\'єкт «{{furniture}}» ще не куплено в дереві покращень.',
-            en: 'Object "{{furniture}}" has not been bought in the upgrade tree yet.',
-            de: 'Objekt "{{furniture}}" wurde im Upgrade-Baum noch nicht gekauft.',
-            pl: 'Obiekt "{{furniture}}" nie zostal jeszcze kupiony w drzewie ulepszen.',
-        },
     },
     panel: {
         selectNode: {
