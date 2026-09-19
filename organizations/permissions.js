@@ -79,6 +79,13 @@ export const permissions = {
             de: 'Bank verwalten',
             pl: 'Zarządzanie bankiem',
         },
+        giveRankPayout: {
+            ru: 'Выплаты рангам',
+            ua: 'Виплати рангам',
+            en: 'Rank payouts',
+            de: 'Rangauszahlungen',
+            pl: 'Wypłaty dla rang',
+        },
         viewFullStats: {
             ru: 'Видеть полную статистику',
             ua: 'Бачити повну статистику',
