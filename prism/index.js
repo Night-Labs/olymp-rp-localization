@@ -257,11 +257,11 @@
             "pl": "Nie masz prawa jazdy, żeby pracować jako kierowca lawety",
         },
         needDeathItem: {
-            "ru": "Чтобы принять этот вызов у тебя должна быть хотя бы одна аптечка или Defibrocharge",
-            "ua": "Щоб прийняти цей виклик, у тебе має бути хоча б одна аптечка або Defibrocharge",
-            "en": "To accept this call, you need to have at least one medkit or a Defibrocharge",
-            "de": "Um diesen Einsatz anzunehmen, musst du mindestens ein Medikit oder ein Defibrocharge haben",
-            "pl": "Aby przyjąć to zgłoszenie, musisz mieć przynajmniej jedną apteczkę lub Defibrocharge",
+            "ru": "Чтобы принять этот вызов, у тебя должна быть хотя бы одна аптечка или реанимационный комплект",
+            "ua": "Щоб прийняти цей виклик, у тебе має бути хоча б одна аптечка або реанімаційний комплект",
+            "en": "To accept this call, you need to have at least one medkit or a resuscitation kit",
+            "de": "Um diesen Einsatz anzunehmen, musst du mindestens ein Medikit oder einen Reanimationskoffer haben",
+            "pl": "Aby przyjąć to zgłoszenie, musisz mieć przynajmniej jedną apteczkę lub zestaw reanimacyjny",
         },
     },
 };

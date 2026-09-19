@@ -476,11 +476,11 @@ export default {
 
     //
     noReanimateId: {
-        ru: 'У вас нет дефибриллятора',
-        ua: 'У вас немає дефібрилятора',
-        en: "You don't have a defibrillator",
-        de: 'Du hast keinen Defibrillator',
-        pl: 'Nie masz defibrylatora',
+        ru: 'У вас нет реанимационного комплекта',
+        ua: 'У вас немає реанімаційного комплекту',
+        en: "You don't have a resuscitation kit",
+        de: 'Du hast keinen Reanimationskoffer',
+        pl: 'Nie masz zestawu reanimacyjnego',
     },
 
     noFreeSeats: {

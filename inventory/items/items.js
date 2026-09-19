@@ -405,20 +405,20 @@ export const items = {
 
     defibrocharge: {
         name: {
-            ua: 'Дефібрилятор "DefibroCharge"',
-            en: 'Defibrillator "DefibroCharge"',
-            ru: 'Дефибриллятор "DefibroCharge"',
-            de: 'Defibrillator "DefibroCharge"',
-            pl: 'Defibrylator "DefibroCharge"',
-            zh: '除颤监护仪',
+            ua: 'Реанімаційний комплект',
+            en: 'Resuscitation kit',
+            ru: 'Реанимационный комплект',
+            de: 'Reanimationskoffer',
+            pl: 'Zestaw reanimacyjny',
+            zh: '复苏急救箱',
         },
         desc: {
-            ua: 'Життєво необхідний прилад для невідкладної реанімації, що повертає на межі життя та смерті',
-            en: 'A vital resuscitation device that snatches lives back from the brink of death',
-            ru: 'Жизненно необходимое устройство для экстренной реанимации, возвращающее на грань жизни и смерти',
-            de: 'Ein lebenswichtiges Reanimationsgerät, das Leben an der Schwelle zum Tod zurückholt',
-            pl: 'Niezbędne urządzenie resuscytacyjne, które odzyskuje życie z granicy śmierci',
-            zh: '一种从死亡边缘夺走生命的重要复苏装置”',
+            ua: 'Укладка бригади швидкої допомоги: компактний дефібрилятор, мішок Амбу та адреналін. Дозволяє повернути до життя постраждалого. Витрачається з кожною реанімацією.',
+            en: 'An ambulance crew kit: a compact defibrillator, a bag valve mask and adrenaline. Brings a casualty back to life. Wears down with every resuscitation.',
+            ru: 'Укладка бригады скорой помощи: компактный дефибриллятор, мешок Амбу и адреналин. Позволяет вернуть к жизни пострадавшего. Расходуется с каждой реанимацией.',
+            de: 'Ausrüstung des Rettungsdienstes: ein kompakter Defibrillator, ein Beatmungsbeutel und Adrenalin. Holt einen Verletzten ins Leben zurück. Verbraucht sich mit jeder Reanimation.',
+            pl: 'Wyposażenie zespołu ratownictwa medycznego: kompaktowy defibrylator, worek samorozprężalny i adrenalina. Pozwala przywrócić do życia poszkodowanego. Zużywa się z każdą reanimacją.',
+            zh: '急救队的装备：便携式除颤器、简易呼吸器和肾上腺素。可以救回伤员。每次复苏都会消耗。',
         },
     },
     selfReviveKit: {
