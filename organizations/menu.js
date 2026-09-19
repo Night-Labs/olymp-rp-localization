@@ -2908,11 +2908,20 @@ export const menu = {
                 },
             },
             overLimit: {
-                ru: 'Квадрат сверх лимита: организация не сможет вернуть его после потери',
-                ua: 'Квадрат понад ліміт: організація не зможе повернути його після втрати',
-                en: 'Over the limit: its owner will not be able to retake it once lost',
-                de: 'Ueber dem Limit: der Besitzer kann es nach einem Verlust nicht zurueckholen',
-                pl: 'Ponad limit: wlasciciel nie odzyska go po utracie',
+                own: {
+                    ru: 'Лишний квадрат: у вашей организации уже есть другой такого типа. Он продолжает работать, но если его отобьют, захватить его обратно не получится.',
+                    ua: "Зайвий квадрат: у вашої організації вже є інший такого типу. Він продовжує працювати, але якщо його відіб'ють, захопити його назад не вийде.",
+                    en: 'Extra square: your organization already holds another one of this type. It keeps working, but once it is taken you will not be able to retake it.',
+                    de: 'Ueberzaehliges Feld: deine Organisation haelt bereits ein anderes dieses Typs. Es arbeitet weiter, aber geht es verloren, kannst du es nicht zurueckerobern.',
+                    pl: 'Nadmiarowe pole: twoja organizacja ma juz inne pole tego typu. Dziala dalej, ale po utracie nie da sie go odbic.',
+                },
+                enemy: {
+                    ru: 'У владельца уже есть другой квадрат такого типа. Если отбить этот, вернуть его он не сможет.',
+                    ua: 'Власник уже має інший квадрат такого типу. Якщо відбити цей, повернути його він не зможе.',
+                    en: 'The owner already holds another square of this type. Take this one and they will not be able to get it back.',
+                    de: 'Der Besitzer haelt bereits ein anderes Feld dieses Typs. Nimmst du dieses ein, kann er es nicht zurueckholen.',
+                    pl: 'Wlasciciel ma juz inne pole tego typu. Jesli odbijesz to, nie odzyska go.',
+                },
             },
             profit: {
                 ru: 'Прибыль',
@@ -3001,11 +3010,11 @@ export const menu = {
                 pl: 'neutralny',
             },
             singletonHint: {
-                ru: 'Можно контролировать не больше {{max}} квадратов данного типа.',
-                ua: 'Можна контролювати не більше {{max}} квадратів цього типу.',
-                en: 'You may control at most {{max}} squares of this type.',
-                de: 'Du kannst hoechstens {{max}} Felder dieses Typs halten.',
-                pl: 'Mozna kontrolowac maks. {{max}} pol tego typu.',
+                ru: 'Организация может держать только один квадрат такого типа: второй захватить не получится.',
+                ua: 'Організація може тримати лише один квадрат такого типу: другий захопити не вийде.',
+                en: 'An organization can hold only one square of this type: a second one cannot be taken.',
+                de: 'Eine Organisation kann nur ein Feld dieses Typs halten: ein zweites laesst sich nicht einnehmen.',
+                pl: 'Organizacja moze miec tylko jedno pole tego typu: drugiego nie da sie przejac.',
             },
         },
         actions: {

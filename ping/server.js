@@ -1,10 +1,10 @@
 export const server = {
     blip: {
-        ru: 'Метка "{{name}}"',
-        ua: 'Мітка "{{name}}"',
-        en: 'Ping "{{name}}"',
-        de: 'Markierung "{{name}}"',
-        pl: 'Znacznik "{{name}}"',
+        ru: '{{type}} "{{name}}"',
+        ua: '{{type}} "{{name}}"',
+        en: '{{type}} "{{name}}"',
+        de: '{{type}} "{{name}}"',
+        pl: '{{type}} "{{name}}"',
     },
     recharging: {
         ru: 'Метки перезаряжаются, подожди {{seconds}} сек.',

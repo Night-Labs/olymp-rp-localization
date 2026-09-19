@@ -781,6 +781,20 @@ export default {
         de: 'Den Administrator zu den Koordinaten des aktiven MP teleportieren, ohne die normale Dimension zu verlassen.',
         pl: 'Teleportuj administratora na współrzędne aktywnego MP, pozostając w normalnym wymiarze.',
     },
+    temp_weapon: {
+        ru: 'Выдать временное оружие всем игрокам в радиусе (м) в вашем измерении: /temp_weapon pistol 30. Бесконечные патроны, не попадает в инвентарь, исчезает при смерти, выходе из MP, /endmp и /temp_weapon_clear.',
+        ua: 'Видати тимчасову зброю всім гравцям у радіусі (м) у вашому вимірі: /temp_weapon pistol 30. Нескінченні набої, не потрапляє до інвентарю, зникає після смерті, виходу з MP, /endmp та /temp_weapon_clear.',
+        en: 'Give a temporary weapon to every player within the radius (m) in your dimension: /temp_weapon pistol 30. Infinite ammo, never enters the inventory, removed on death, on leaving the MP, on /endmp and by /temp_weapon_clear.',
+        de: 'Allen Spielern im Radius (m) in deiner Dimension eine temporäre Waffe geben: /temp_weapon pistol 30. Unendliche Munition, landet nicht im Inventar, verschwindet beim Tod, beim Verlassen des MP, bei /endmp und durch /temp_weapon_clear.',
+        pl: 'Wydaj tymczasową broń wszystkim graczom w promieniu (m) w twoim wymiarze: /temp_weapon pistol 30. Nieskończona amunicja, nie trafia do ekwipunku, znika po śmierci, wyjściu z MP, /endmp i przez /temp_weapon_clear.',
+    },
+    temp_weapon_clear: {
+        ru: 'Изъять временное оружие мероприятия у игроков в радиусе (м). Без радиуса - у всех игроков на сервере.',
+        ua: 'Вилучити тимчасову зброю заходу у гравців у радіусі (м). Без радіусу - у всіх гравців на сервері.',
+        en: 'Take temporary event weapons back from players within the radius (m). Without a radius - from every player on the server.',
+        de: 'Temporäre Event-Waffen von Spielern im Radius (m) einziehen. Ohne Radius - von allen Spielern auf dem Server.',
+        pl: 'Odbierz tymczasową broń z wydarzenia graczom w promieniu (m). Bez promienia - wszystkim graczom na serwerze.',
+    },
     achievements_state: {
         ru: 'Показать состояние достижений игрока: количество завершённых, метрики и список completed ID.',
         ua: 'Показати стан досягнень гравця: кількість завершених, метрики та список completed ID.',
@@ -1237,11 +1251,11 @@ export default {
         pl: 'Test odcięcia zasilania Fort Zancudo bez eventu: dźwięk, po delay ms migotanie i ciemność. Z delay - zawsze wyłącz, bez argumentu - przełącz.',
     },
     fztest: {
-        ru: 'Сразу обесточить Форт-Занкудо для банды (по умолчанию своей) без проверок.',
-        ua: 'Одразу знеструмити Форт-Занкудо для банди (за замовчуванням своєї) без перевірок.',
-        en: 'Black out Fort Zancudo right away for a gang (your own by default), skipping every check.',
-        de: 'Fort Zancudo sofort für eine Gang (standardmäßig die eigene) ohne Prüfungen abschalten.',
-        pl: 'Od razu odciąć prąd w Fort Zancudo dla gangu (domyślnie własnego) bez sprawdzeń.',
+        ru: 'Сразу обесточить Форт-Занкудо для банд через запятую, до трёх, первая инициатор (по умолчанию своя) без проверок.',
+        ua: 'Одразу знеструмити Форт-Занкудо для банд через кому, до трьох, перша ініціатор (за замовчуванням своя) без перевірок.',
+        en: 'Black out Fort Zancudo right away for up to three comma-separated gangs, the first one initiating (your own by default), skipping every check.',
+        de: 'Fort Zancudo sofort für bis zu drei Gangs (durch Komma getrennt, die erste greift an, standardmäßig die eigene) ohne Prüfungen abschalten.',
+        pl: 'Od razu odciąć prąd w Fort Zancudo dla maksymalnie trzech gangów po przecinku, pierwszy inicjuje (domyślnie własny), bez sprawdzeń.',
     },
     trainwarpraid: {
         ru: 'Телепортировать грузовой поезд на точку ограбления и сразу открыть ивент.',
@@ -2797,6 +2811,13 @@ export default {
         en: 'Show the territory war window in force: when it opens and closes, until when declarations are accepted and the lead a battle needs.',
         de: 'Das geltende Territorienkriegsfenster anzeigen: Beginn und Ende, bis wann Ansagen angenommen werden und welchen Vorlauf ein Kampf braucht.',
         pl: 'Pokaz obowiazujace okno wojen o terytoria: poczatek i koniec, do kiedy przyjmowane sa zgloszenia oraz zapas czasu do walki.',
+    },
+    orgwars_test: {
+        ru: 'Включить или выключить тестовый режим захвата территорий организаций: снимает требования к атаке, лимиты атак и защит, кулдаун захвата и ограничения саботажа, открывает окно войн без запаса времени. Аргумент - длительность в часах (по умолчанию 4).',
+        ua: 'Увімкнути або вимкнути тестовий режим захоплення територій організацій: знімає вимоги до атаки, ліміти атак і захистів, кулдаун захоплення та обмеження саботажу, відкриває вікно війн без запасу часу. Аргумент - тривалість у годинах (за замовчуванням 4).',
+        en: 'Toggle the organization territory capture test mode: lifts the attack requirements, the attack and defense charges, the capture cooldown and the sabotage limits, and opens a war window with no lead. Argument: duration in hours (4 by default).',
+        de: 'Testmodus fuer die Territorieneroberung der Organisationen ein- oder ausschalten: hebt Angriffsvoraussetzungen, Angriffs- und Verteidigungsladungen, die Eroberungsabklingzeit und die Sabotagegrenzen auf und oeffnet ein Kriegsfenster ohne Vorlauf. Argument: Dauer in Stunden (Standard 4).',
+        pl: 'Wlacz lub wylacz tryb testowy przejmowania terytoriow organizacji: znosi wymagania ataku, limity atakow i obron, cooldown przejecia i ograniczenia sabotazu oraz otwiera okno wojen bez zapasu czasu. Argument: czas trwania w godzinach (domyslnie 4).',
     },
     encounter: {
         ru: 'Заспавнить случайного NPC по id и телепортироваться к нему, минуя таймеры. Аргументы: id персонажа, list - список, off - убрать всех.',

@@ -348,12 +348,12 @@ export const cef = {
                 de: 'Krone neben deinem Nicknamen.',
                 pl: 'Korona obok twojego nicku.',
             },
-            dropWeaponOnDeath: {
-                ru: 'Оружие и патроны не будет выпадать при смерти.',
-                ua: 'Зброя та патрони не випадатимуть після смерті.',
-                en: 'Weapon and ammo will not drop on death.',
-                de: 'Waffen und Munition werden beim Tod nicht fallen gelassen.',
-                pl: 'Broń i amunicja nie będą wypadać po śmierci.',
+            keepWeaponOnDeathChance: {
+                ru: 'Шанс {{value}}%, что оружие и патроны не выпадут при смерти.',
+                ua: 'Шанс {{value}}%, що зброя та патрони не випадуть після смерті.',
+                en: '{{value}}% chance that your weapon and ammo will not drop on death.',
+                de: '{{value}}% Chance, dass Waffe und Munition beim Tod nicht fallen gelassen werden.',
+                pl: '{{value}}% szans, że broń i amunicja nie wypadną po śmierci.',
             },
         },
 

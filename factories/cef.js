@@ -232,20 +232,6 @@ export const cef = {
             pl: 'zaladunek',
         },
     },
-    heatLabel: {
-        ru: 'Нагрев',
-        ua: 'Нагрів',
-        en: 'Heat',
-        de: 'Hitze',
-        pl: 'Nagrzanie',
-    },
-    heatExposed: {
-        ru: 'Засветилось',
-        ua: 'Засвітилося',
-        en: 'Exposed',
-        de: 'Aufgeflogen',
-        pl: 'Ujawnione',
-    },
     upgradesTitle: {
         ru: 'Модернизация',
         ua: 'Модернізація',
@@ -324,8 +310,8 @@ export const cef = {
         pl: 'Przepada razem z polem',
     },
     upgradeResetNote: {
-        ru: 'Уровни держатся, пока точка за вами. Потеряете её — модернизация обнулится, деньги не вернутся, а захватчику здание достанется пустым.',
-        ua: 'Рівні тримаються, доки точка за вами. Втратите її — модернізація обнулиться, гроші не повернуться, а загарбнику будівля дістанеться порожньою.',
+        ru: 'Уровни держатся, пока точка за вами. Потеряете её, и модернизация обнулится, деньги не вернутся, а захватчику здание достанется пустым.',
+        ua: 'Рівні тримаються, доки точка за вами. Втратите її, і модернізація обнулиться, гроші не повернуться, а загарбнику будівля дістанеться порожньою.',
         en: 'Levels last only while you hold the point. Lose it and the upgrades wipe, the money is gone, and the captor takes an empty building.',
         de: 'Die Stufen halten nur, solange ihr den Punkt haltet. Geht er verloren, wird der Ausbau zurückgesetzt, das Geld ist weg und der Eroberer bekommt ein leeres Gebäude.',
         pl: 'Poziomy trzymaja sie tylko dopoki macie punkt. Stracicie go i modernizacja sie wyzeruje, pieniadze przepadna, a zdobywca dostanie puste budynki.',

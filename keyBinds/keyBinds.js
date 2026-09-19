@@ -286,6 +286,13 @@ export default {
         de: 'Nahkampfwaffe',
         pl: 'Broń biała',
     },
+    shoulderSwap: {
+        ru: 'Сменить плечо при прицеливании',
+        ua: 'Змінити плече під час прицілювання',
+        en: 'Swap aiming shoulder',
+        de: 'Zielschulter wechseln',
+        pl: 'Zmień ramię przy celowaniu',
+    },
     'casino.slots.spinButton': {
         ru: 'Слоты - крутить кнопкой',
         ua: 'Слоти - крутити кнопкою',
