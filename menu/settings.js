@@ -821,11 +821,11 @@ export const settings = {
         pl: 'Pokazuje lub ukrywa okno czatu gry na HUD',
     },
     showHintsDesc: {
-        ru: 'Показывает всплывающие подсказки по управлению на экране',
-        ua: 'Показує спливаючі підказки щодо керування на екрані',
-        en: 'Shows on-screen control hint popups',
-        de: 'Zeigt Steuerungshinweise auf dem Bildschirm an',
-        pl: 'Pokazuje wyskakujące wskazówki sterowania na ekranie',
+        ru: 'Показывает подсказки по управлению и карточки с советами для новичков',
+        ua: 'Показує підказки щодо керування та картки з порадами для новачків',
+        en: 'Shows control hints and tip cards for newcomers',
+        de: 'Zeigt Steuerungshinweise und Tippkarten für Neulinge an',
+        pl: 'Pokazuje wskazówki sterowania i karty z poradami dla nowych graczy',
     },
     showCompassDesc: {
         ru: 'Показывает полосу компаса с курсом камеры над радаром',

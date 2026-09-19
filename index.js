@@ -3,6 +3,7 @@ import character from './character';
 import antispam from './antispam';
 import main from './main';
 import hud from './hud';
+import helpCards from './helpCards';
 import house from './house';
 import blips from './blips';
 import vehicles from './vehicles';
@@ -127,6 +128,7 @@ export default {
     character,
     main,
     hud,
+    helpCards,
     house,
     blips,
     vehicles,

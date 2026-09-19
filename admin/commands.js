@@ -1867,6 +1867,13 @@ export default {
         de: 'HUD-Fortschrittsbalken-Test: startet einen Ladebalken und überdeckt ihn mit einem Rüstungsbalken. Modi: finish, cancel, expire.',
         pl: 'Test pasków postępu HUD: uruchamia pasek ładowania i przykrywa go paskiem kamizelki. Tryby: finish, cancel, expire.',
     },
+    help_card: {
+        ru: 'Показать себе подсказку для новичков по id (по умолчанию firstSteps), второй аргумент - длительность в секундах. /help_card reset - забыть показанные подсказки.',
+        ua: 'Показати собі підказку для новачків за id (за замовчуванням firstSteps), другий аргумент - тривалість у секундах. /help_card reset - забути показані підказки.',
+        en: 'Show yourself a new player help card by id (firstSteps by default), the second argument is the duration in seconds. /help_card reset forgets the cards already shown.',
+        de: 'Dir selbst eine Neulingskarte nach ID anzeigen (standardmäßig firstSteps), das zweite Argument ist die Dauer in Sekunden. /help_card reset vergisst bereits gezeigte Karten.',
+        pl: 'Pokaż sobie kartę wskazówki dla nowych graczy według id (domyślnie firstSteps), drugi argument to czas w sekundach. /help_card reset zapomina już pokazane karty.',
+    },
     taxinpcdebug: {
         ru: 'Включить отладку taxi NPC-точек, телепортироваться между ними и смотреть их статус.',
         ua: 'Увімкнути налагодження taxi NPC-точок, телепортуватися між ними та переглядати їх статус.',
