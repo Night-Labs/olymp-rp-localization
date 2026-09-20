@@ -20,6 +20,7 @@ import taxi from './pages/taxi';
 import bank from './pages/bank';
 import camera from './pages/camera';
 import gallery from './pages/gallery';
+import calculator from './pages/calculator';
 
 export default {
     ...cef,
@@ -43,4 +44,5 @@ export default {
     bank,
     camera,
     gallery,
+    calculator,
 };
