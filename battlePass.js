@@ -2425,6 +2425,58 @@ export default {
             de: 'Funktion',
             pl: 'Funkcja',
         },
+        tattoos: {
+            ru: 'Татуировка',
+            ua: 'Татуювання',
+            en: 'Tattoo',
+            de: 'Tattoo',
+            pl: 'Tatuaż',
+        },
+        tuning: {
+            ru: 'Тюнинг',
+            ua: 'Тюнінг',
+            en: 'Tuning',
+            de: 'Tuning',
+            pl: 'Tuning',
+        },
+        // Keyed by the locked component kind (TLockedKind) a tuning item unlocks.
+        tuningKinds: {
+            modKit: {
+                ru: 'Обвес',
+                ua: 'Обвіс',
+                en: 'Body kit',
+                de: 'Bodykit',
+                pl: 'Body kit',
+            },
+            wheel: {
+                ru: 'Колёса',
+                ua: 'Колеса',
+                en: 'Wheels',
+                de: 'Räder',
+                pl: 'Koła',
+            },
+            chip: {
+                ru: 'Чип-тюнинг',
+                ua: 'Чіп-тюнінг',
+                en: 'Chip tuning',
+                de: 'Chiptuning',
+                pl: 'Chip tuning',
+            },
+            vinyl: {
+                ru: 'Винил',
+                ua: 'Вініл',
+                en: 'Vinyl',
+                de: 'Vinyl',
+                pl: 'Winyl',
+            },
+        },
+        chips: {
+            ru: 'Фишки',
+            ua: 'Фішки',
+            en: 'Chips',
+            de: 'Chips',
+            pl: 'Żetony',
+        },
         weapon: {
             ru: 'Оружие',
             ua: 'Зброя',

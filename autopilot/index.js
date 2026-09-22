@@ -23,6 +23,14 @@ export default {
         pl: 'Najpierw uruchom silnik',
         zh: '请先启动发动机',
     },
+    atWork: {
+        ru: 'Функция автопилота недоступна на работе так как находится в бета-версии и не прошла сертификация безопасности',
+        ua: 'Функція автопілота недоступна на роботі, оскільки перебуває у бета-версії та не пройшла сертифікацію безпеки',
+        en: 'Autopilot is unavailable while on duty: it is still in beta and has not passed safety certification',
+        de: 'Der Autopilot ist im Dienst nicht verfügbar: er ist noch in der Beta und hat die Sicherheitszertifizierung nicht bestanden',
+        pl: 'Autopilot jest niedostępny w pracy: jest w wersji beta i nie przeszedł certyfikacji bezpieczeństwa',
+        zh: '工作期间无法使用自动驾驶：该功能仍处于测试阶段，尚未通过安全认证',
+    },
     notOwner: {
         ru: 'Автопилот работает только на вашем личном транспорте',
         ua: 'Автопілот працює лише на вашому особистому транспорті',

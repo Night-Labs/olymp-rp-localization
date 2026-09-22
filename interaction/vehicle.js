@@ -414,6 +414,24 @@ export const vehicle = {
         zh: '关闭"彩虹：脉冲"模式',
     },
 
+    'strobe-mode-rgbWave': {
+        ru: 'Радуга: волна',
+        ua: 'Веселка: хвиля',
+        en: 'Rainbow: wave',
+        de: 'Regenbogen: Welle',
+        pl: 'Tęcza: fala',
+        zh: '彩虹：流波',
+    },
+
+    'strobe-mode-off-rgbWave': {
+        ru: 'Отключить режим "Радуга: волна"',
+        ua: 'Вимкнути режим "Веселка: хвиля"',
+        en: 'Stop the "Rainbow: wave" mode',
+        de: 'Modus "Regenbogen: Welle" beenden',
+        pl: 'Wyłącz tryb "Tęcza: fala"',
+        zh: '关闭"彩虹：流波"模式',
+    },
+
     'strobe-mode-music': {
         ru: 'Под музыку',
         ua: 'Під музику',
