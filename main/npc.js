@@ -276,6 +276,13 @@ export const npc = {
             de: 'Bobby',
             pl: 'Bobby',
         },
+        roy: {
+            ru: 'Рой',
+            ua: 'Рой',
+            en: 'Roy',
+            de: 'Roy',
+            pl: 'Roy',
+        },
         stanley: {
             ru: 'Stanley',
             ua: 'Стенлі',

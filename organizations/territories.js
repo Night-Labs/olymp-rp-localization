@@ -482,6 +482,13 @@ export const territories = {
                 de: 'Ungueltige Teilnehmerliste',
                 pl: 'Nieprawidlowa lista uczestnikow',
             },
+            rosterTooSmall: {
+                ru: 'В составе должно быть не меньше {{count}} участников',
+                ua: 'У складі має бути щонайменше {{count}} учасників',
+                en: 'A roster needs at least {{count}} members',
+                de: 'Ein Aufgebot braucht mindestens {{count}} Mitglieder',
+                pl: 'Sklad musi miec co najmniej {{count}} czlonkow',
+            },
             invalidLoadout: {
                 ru: 'Некорректный набор снаряжения',
                 ua: 'Некоректний набір спорядження',

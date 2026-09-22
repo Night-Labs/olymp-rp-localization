@@ -1,4 +1,14 @@
 export const player = {
+    // Категории колеса взаимодействия
+    playerDocuments: {
+        ru: 'Документы',
+        ua: 'Документи',
+        en: 'Documents',
+        de: 'Dokumente',
+        pl: 'Dokumenty',
+        zh: '证件',
+    },
+
     acquaintance: {
         ru: 'Познакомиться',
         ua: 'Познайомитися',

@@ -1,4 +1,50 @@
 export const vehicle = {
+    // Категории колеса взаимодействия
+    vehicleControl: {
+        ru: 'Управление',
+        ua: 'Керування',
+        en: 'Controls',
+        de: 'Steuerung',
+        pl: 'Sterowanie',
+        zh: '控制',
+    },
+
+    vehicleCabin: {
+        ru: 'Салон',
+        ua: 'Салон',
+        en: 'Cabin',
+        de: 'Innenraum',
+        pl: 'Kabina',
+        zh: '车内',
+    },
+
+    vehicleTuning: {
+        ru: 'Оснащение',
+        ua: 'Оснащення',
+        en: 'Equipment',
+        de: 'Ausstattung',
+        pl: 'Wyposażenie',
+        zh: '装备',
+    },
+
+    vehicleService: {
+        ru: 'Обслуживание',
+        ua: 'Обслуговування',
+        en: 'Service',
+        de: 'Wartung',
+        pl: 'Serwis',
+        zh: '维护',
+    },
+
+    vehicleTransfer: {
+        ru: 'Передача',
+        ua: 'Передача',
+        en: 'Transfer',
+        de: 'Übergabe',
+        pl: 'Przekazanie',
+        zh: '转让',
+    },
+
     vehicleInfo: {
         ru: 'Информация',
         ua: 'Інформація',
@@ -125,7 +171,7 @@ export const vehicle = {
     },
 
     // Dynamic Drive: подменю со сменой чипа. Названия чипов те же, что в ателье
-    // (tuning.chips.*) — это бренды, одинаковые во всех языках.
+    // (tuning.chips.*) - это бренды, одинаковые во всех языках.
     dynamicDrive: {
         ru: 'Dynamic Drive Chip',
         ua: 'Dynamic Drive Chip',

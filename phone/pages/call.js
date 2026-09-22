@@ -117,6 +117,30 @@ export default {
         },
     },
 
+    actions: {
+        mute: {
+            ru: 'Микрофон',
+            ua: 'Мікрофон',
+            en: 'Microphone',
+            de: 'Mikrofon',
+            pl: 'Mikrofon',
+        },
+        muted: {
+            ru: 'Выключен',
+            ua: 'Вимкнено',
+            en: 'Muted',
+            de: 'Stumm',
+            pl: 'Wyciszony',
+        },
+        message: {
+            ru: 'Сообщение',
+            ua: 'Повідомлення',
+            en: 'Message',
+            de: 'Nachricht',
+            pl: 'Wiadomość',
+        },
+    },
+
     statuses: {
         active: {
             ru: 'Активный звонок',

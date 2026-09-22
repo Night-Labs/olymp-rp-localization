@@ -6,6 +6,13 @@ export default {
         de: 'Abschleppplatz',
         pl: 'Parking policyjny',
     },
+    airBlip: {
+        ru: 'Авиационная штрафстоянка',
+        ua: 'Авіаційний штрафмайданчик',
+        en: 'Aircraft Impound Lot',
+        de: 'Luftfahrzeug-Abschleppplatz',
+        pl: 'Parking dla statków powietrznych',
+    },
     freeLabel: {
         ru: 'бесплатно',
         ua: 'безкоштовно',
@@ -55,6 +62,13 @@ export default {
         de: 'Du hast dein Fahrzeug vom Abschleppplatz abgeholt',
         pl: 'Odebrałeś swój pojazd z parkingu policyjnego',
     },
+    youTakedVehicleAir: {
+        ru: 'Вы забрали ваш воздушный транспорт со штрафстоянки',
+        ua: 'Ти забрав свій повітряний транспорт зі штрафмайданчика',
+        en: 'You retrieved your aircraft from the impound lot',
+        de: 'Du hast dein Luftfahrzeug vom Abschleppplatz abgeholt',
+        pl: 'Odebrałeś swój statek powietrzny z parkingu policyjnego',
+    },
     evacuationLabel: {
         ru: 'Т/С будет эвакуировано через',
         ua: 'Т/З буде евакуйовано через',
@@ -100,6 +114,36 @@ export default {
                 pl: 'Żegnaj',
             },
         },
+        air: {
+            helloMessage: {
+                ru: 'Здравствуйте! Я диспетчер авиационной штрафстоянки, чем могу помочь?',
+                ua: 'Вітаю! Я диспетчер авіаційного штрафмайданчика, чим можу допомогти?',
+                en: 'Hi there! I run this aircraft impound lot. How can I help you?',
+                de: 'Hallo! Ich leite diesen Luftfahrzeug-Abschleppplatz. Wie kann ich dir helfen?',
+                pl: 'Cześć! Prowadzę ten parking dla statków powietrznych. Jak mogę ci pomóc?',
+            },
+            takeVehicles: {
+                ru: 'Забрать транспорт',
+                ua: 'Забрати транспорт',
+                en: 'Pick up the aircraft',
+                de: 'Luftfahrzeug abholen',
+                pl: 'Odebrać statek powietrzny',
+            },
+            noVehiclesInImpound: {
+                ru: 'Похоже, вашего воздушного транспорта здесь нет, так что ничем не могу помочь',
+                ua: 'Схоже, твого повітряного транспорту тут немає, тож я нічим не можу допомогти',
+                en: "Looks like none of your aircraft is here, so I can't help you",
+                de: 'Sieht so aus, als wäre keines deiner Luftfahrzeuge hier, also kann ich dir nicht helfen',
+                pl: 'Wygląda na to, że nie ma tu żadnego twojego statku powietrznego, więc nie mogę ci pomóc',
+            },
+            bye: {
+                ru: 'Прощайте',
+                ua: 'Прощавайте',
+                en: 'Goodbye',
+                de: 'Leb wohl',
+                pl: 'Żegnaj',
+            },
+        },
     },
     modalSelect: {
         title: {
@@ -108,6 +152,13 @@ export default {
             en: 'You can retrieve these cars',
             de: 'Du kannst diese Autos abholen',
             pl: 'Możesz odebrać te auta',
+        },
+        titleAir: {
+            ru: 'Вы можете забрать этот транспорт',
+            ua: 'Ти можеш забрати цей транспорт',
+            en: 'You can retrieve this aircraft',
+            de: 'Du kannst diese Luftfahrzeuge abholen',
+            pl: 'Możesz odebrać te statki powietrzne',
         },
     },
     modal: {
@@ -124,6 +175,13 @@ export default {
             en: 'Your car was towed. <br/>To get it back, pay all the fees <br/> Amount due: <span style="color: #3c8025">${{price}}</span>',
             de: 'Dein Auto wurde abgeschleppt. <br/>Um es zurückzubekommen, bezahle alle Gebühren <br/> Zu zahlen: <span style="color: #3c8025">${{price}}</span>',
             pl: 'Twoje auto zostało odholowane. <br/>Aby je odzyskać, zapłać wszystkie opłaty <br/> Do zapłaty: <span style="color: #3c8025">${{price}}</span>',
+        },
+        descAir: {
+            ru: 'Ваш воздушный транспорт был эвакуирован. <br/>Для возврата оплатите все сборы <br/> К оплате: <span style="color: #3c8025">${{price}}</span>',
+            ua: 'Твій повітряний транспорт було евакуйовано. <br/>Щоб його повернути, оплати всі збори <br/> До сплати: <span style="color: #3c8025">${{price}}</span>',
+            en: 'Your aircraft was impounded. <br/>To get it back, pay all the fees <br/> Amount due: <span style="color: #3c8025">${{price}}</span>',
+            de: 'Dein Luftfahrzeug wurde abgeschleppt. <br/>Um es zurückzubekommen, bezahle alle Gebühren <br/> Zu zahlen: <span style="color: #3c8025">${{price}}</span>',
+            pl: 'Twój statek powietrzny został odholowany. <br/>Aby go odzyskać, zapłać wszystkie opłaty <br/> Do zapłaty: <span style="color: #3c8025">${{price}}</span>',
         },
         descFree: {
             ru: 'Эта машина возвращена вам после ухода из организации. <br/>Забор бесплатный.',

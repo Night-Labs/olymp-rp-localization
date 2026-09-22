@@ -50,11 +50,37 @@ const inventory = {
     },
 
     weaponBroken: {
-        ru: 'Ваше оружие сломалось от износа',
-        ua: 'Ваша зброя зламалася від зносу',
-        en: 'Your weapon broke from wear',
-        de: 'Deine Waffe ist durch Verschleiß zerbrochen',
-        pl: 'Twoja broń zepsuła się od zużycia',
+        ru: 'Ваше оружие сломалось от износа. Его можно починить в мастерской',
+        ua: 'Ваша зброя зламалася від зносу. Її можна полагодити в майстерні',
+        en: 'Your weapon broke from wear. It can be repaired at a workshop',
+        de: 'Deine Waffe ist durch Verschleiß zerbrochen. Sie kann in einer Werkstatt repariert werden',
+        pl: 'Twoja broń zepsuła się od zużycia. Można ją naprawić w warsztacie',
+    },
+
+    weaponBrokenUse: {
+        ru: 'Оружие сломано. Почините его в мастерской',
+        ua: 'Зброя зламана. Полагодьте її в майстерні',
+        en: 'The weapon is broken. Repair it at a workshop',
+        de: 'Die Waffe ist zerbrochen. Repariere sie in einer Werkstatt',
+        pl: 'Broń jest zepsuta. Napraw ją w warsztacie',
+    },
+
+    broken: {
+        stamp: {
+            ru: 'Сломано',
+            ua: 'Зламано',
+            en: 'Broken',
+            de: 'Kaputt',
+            pl: 'Zepsute',
+        },
+    },
+
+    weaponRaisedHands: {
+        ru: 'Сначала опустите руки',
+        ua: 'Спершу опустіть руки',
+        en: 'Lower your hands first',
+        de: 'Nimm zuerst die Hände runter',
+        pl: 'Najpierw opuść ręce',
     },
 
     handsBusy: {

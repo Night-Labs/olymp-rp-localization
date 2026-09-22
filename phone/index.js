@@ -6,6 +6,7 @@ import apps from './pages/apps';
 import vehicles from './pages/vehicles';
 import phone from './pages/phone';
 import messages from './pages/messages';
+import presence from './pages/presence';
 import call from './pages/call';
 import gps from './pages/gps';
 import settings from './pages/settings';
@@ -20,6 +21,7 @@ import taxi from './pages/taxi';
 import bank from './pages/bank';
 import camera from './pages/camera';
 import gallery from './pages/gallery';
+import calculator from './pages/calculator';
 
 export default {
     ...cef,
@@ -29,6 +31,7 @@ export default {
     vehicles,
     phone,
     messages,
+    presence,
     call,
     gps,
     settings,
@@ -43,4 +46,5 @@ export default {
     bank,
     camera,
     gallery,
+    calculator,
 };
