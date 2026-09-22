@@ -242,6 +242,14 @@ export const cef = {
             pl: 'Saldo',
             zh: '余款',
         },
+        expires: {
+            ua: 'Діє до',
+            en: 'Valid Thru',
+            ru: 'Действует до',
+            de: 'Gültig bis',
+            pl: 'Ważna do',
+            zh: '有效期至',
+        },
     },
     control: {
         availableActions: {

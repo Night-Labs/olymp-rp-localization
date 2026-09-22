@@ -55,6 +55,14 @@ export default {
         pl: 'To byla ostatnia paczka z partii.',
     },
 
+    suppliedReturned: {
+        ru: 'Вы вернули остаток партии. Сделанные закладки остаются засчитанными.',
+        ua: 'Ви повернули залишок партії. Зроблені закладки залишаються зарахованими.',
+        en: 'You handed the rest of the batch back. The drops you made still count.',
+        de: 'Du hast den Rest der Charge zurückgegeben. Deine Ablagen zählen weiterhin.',
+        pl: 'Oddałeś resztę partii. Zrobione skrytki nadal się liczą.',
+    },
+
     deliveryPoint: {
         ru: 'Точка доставки',
         ua: 'Точка доставки',
@@ -69,6 +77,14 @@ export default {
         en: 'To leave the stash',
         de: 'Um das Versteck abzulegen',
         pl: 'Aby zostawić skrytkę',
+    },
+
+    batchNoSpace: {
+        ru: 'В карманах нет места для партии товара',
+        ua: 'У кишенях немає місця для партії товару',
+        en: 'There is no room in your pockets for the batch',
+        de: 'In deinen Taschen ist kein Platz für die Charge',
+        pl: 'W kieszeniach nie ma miejsca na partie towaru',
     },
 
     youDontHaveItem: {

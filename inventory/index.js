@@ -39,6 +39,16 @@ const inventory = {
         pl: 'Przedmiot otrzymany',
     },
 
+    dismantle: {
+        notWorn: {
+            ru: 'Разобрать можно только сильно изношенное снаряжение',
+            ua: 'Розібрати можна лише сильно зношене спорядження',
+            en: 'Only badly worn gear can be dismantled',
+            de: 'Nur stark abgenutzte Ausrüstung kann zerlegt werden',
+            pl: 'Rozłożyć można tylko mocno zużyty sprzęt',
+        },
+    },
+
     weaponBroken: {
         ru: 'Ваше оружие сломалось от износа',
         ua: 'Ваша зброя зламалася від зносу',
@@ -68,6 +78,30 @@ const inventory = {
         en: 'This container does not take that',
         de: 'Dieser Behälter nimmt das nicht',
         pl: 'Tego się tu nie wkłada',
+    },
+
+    attachments: {
+        doesNotFit: {
+            ru: 'Этот обвес на это оружие не ставится',
+            ua: 'Цей обвіс на цю зброю не ставиться',
+            en: 'This part does not fit this weapon',
+            de: 'Dieser Aufsatz passt nicht auf diese Waffe',
+            pl: 'Ten dodatek nie pasuje do tej broni',
+        },
+        wrongSlot: {
+            ru: 'Этот обвес ставится в другой слот',
+            ua: 'Цей обвіс ставиться в інший слот',
+            en: 'This part goes into a different slot',
+            de: 'Dieser Aufsatz gehört in einen anderen Steckplatz',
+            pl: 'Ten dodatek montuje się w innym gnieździe',
+        },
+        broken: {
+            ru: 'Обвес {{name}} сломался от износа',
+            ua: 'Обвіс {{name}} зламався від зносу',
+            en: 'Your {{name}} broke from wear',
+            de: 'Dein {{name}} ist durch Verschleiß zerbrochen',
+            pl: 'Dodatek {{name}} zepsuł się od zużycia',
+        },
     },
 
     slotsNotEqual: {
@@ -104,6 +138,13 @@ const inventory = {
             de: 'Dienstausrüstung kann nicht fallen gelassen, übergeben oder eingelagert werden',
             pl: 'Sprzetu sluzbowego nie mozna wyrzucic, przekazac ani schowac do magazynu',
         },
+        blockedUse: {
+            ru: 'Это не ваше имущество, его нельзя расходовать на себя',
+            ua: 'Це не ваше майно, його не можна витрачати на себе',
+            en: 'This is not your property, you cannot spend it on yourself',
+            de: 'Das ist nicht dein Eigentum, du kannst es nicht für dich verbrauchen',
+            pl: 'To nie jest twoja wlasnosc, nie mozesz jej zuzyc na siebie',
+        },
         stamp: {
             ru: 'Служебное',
             ua: 'Службове',
@@ -133,6 +174,53 @@ const inventory = {
                 de: 'Gruppe 6',
                 pl: 'Gruppe 6',
             },
+            stashContract: {
+                ru: 'Dice',
+                ua: 'Dice',
+                en: 'Dice',
+                de: 'Dice',
+                pl: 'Dice',
+            },
+        },
+    },
+
+    // Evidence: an item seized in a police search. It stays in the officer's pockets until it
+    // is handed in to the evidence room (shared/systems/inventory/evidence).
+    evidence: {
+        blocked: {
+            ru: 'Изъятое нельзя использовать, передать или убрать: его можно только сдать в хранилище улик',
+            ua: 'Вилучене не можна використати, передати або прибрати: його можна лише здати до сховища речових доказів',
+            en: 'Seized items cannot be used, handed over or stored: they can only be handed in to the evidence room',
+            de: 'Beschlagnahmte Gegenstände können nicht benutzt, übergeben oder eingelagert werden: sie können nur in der Asservatenkammer abgegeben werden',
+            pl: 'Zatrzymanych przedmiotów nie można użyć, przekazać ani schować: można je tylko oddać do magazynu dowodów rzeczowych',
+        },
+        pocketsOnly: {
+            ru: 'Изъятое кладётся только в карманы',
+            ua: 'Вилучене кладеться лише до кишень',
+            en: 'Seized items go into your pockets only',
+            de: 'Beschlagnahmte Gegenstände kommen nur in die Taschen',
+            pl: 'Zatrzymane przedmioty trafiają tylko do kieszeni',
+        },
+        stamp: {
+            ru: 'Улика',
+            ua: 'Речдок',
+            en: 'Evidence',
+            de: 'Beweis',
+            pl: 'Dowód',
+        },
+        note: {
+            ru: 'Улика. Изъята при обыске: её нельзя использовать, выбросить, продать или передать. Сдайте её в хранилище улик.',
+            ua: 'Речовий доказ. Вилучено під час обшуку: його не можна використати, викинути, продати чи передати. Здайте його до сховища речових доказів.',
+            en: 'Evidence. Seized in a search: it cannot be used, dropped, sold or handed over. Hand it in to the evidence room.',
+            de: 'Beweismittel. Bei einer Durchsuchung beschlagnahmt: es kann nicht benutzt, fallen gelassen, verkauft oder übergeben werden. Gib es in der Asservatenkammer ab.',
+            pl: 'Dowód rzeczowy. Zatrzymany podczas przeszukania: nie można go użyć, wyrzucić, sprzedać ani przekazać. Oddaj go do magazynu dowodów rzeczowych.',
+        },
+        seizedFrom: {
+            ru: 'Изъято у',
+            ua: 'Вилучено у',
+            en: 'Seized from',
+            de: 'Beschlagnahmt bei',
+            pl: 'Zatrzymano u',
         },
     },
 
@@ -142,6 +230,58 @@ const inventory = {
         en: 'Are you dumb?',
         de: 'Bist du dumm?',
         pl: 'Głupi jesteś?',
+    },
+
+    search: {
+        takeOnly: {
+            ru: 'Во время обыска вещи можно только изымать',
+            ua: 'Під час обшуку речі можна лише вилучати',
+            en: 'During a search you can only take items',
+            de: 'Während einer Durchsuchung können Gegenstände nur abgenommen werden',
+            pl: 'Podczas przeszukania przedmioty można tylko zabierać',
+        },
+        targetLost: {
+            ru: 'Обыск прерван: игрок недоступен',
+            ua: 'Обшук перервано: гравець недоступний',
+            en: 'Search interrupted: the player is unavailable',
+            de: 'Durchsuchung abgebrochen: Spieler nicht verfügbar',
+            pl: 'Przeszukanie przerwane: gracz jest niedostępny',
+        },
+        tooFar: {
+            ru: 'Обыск прерван: игрок слишком далеко',
+            ua: 'Обшук перервано: гравець занадто далеко',
+            en: 'Search interrupted: the player is too far away',
+            de: 'Durchsuchung abgebrochen: Spieler zu weit entfernt',
+            pl: 'Przeszukanie przerwane: gracz jest za daleko',
+        },
+        trunkLost: {
+            ru: 'Обыск прерван: машина недоступна',
+            ua: 'Обшук перервано: машина недоступна',
+            en: 'Search interrupted: the vehicle is unavailable',
+            de: 'Durchsuchung abgebrochen: Fahrzeug nicht verfügbar',
+            pl: 'Przeszukanie przerwane: pojazd jest niedostępny',
+        },
+        trunkTooFar: {
+            ru: 'Обыск прерван: машина слишком далеко',
+            ua: 'Обшук перервано: машина занадто далеко',
+            en: 'Search interrupted: the vehicle is too far away',
+            de: 'Durchsuchung abgebrochen: Fahrzeug zu weit entfernt',
+            pl: 'Przeszukanie przerwane: pojazd jest za daleko',
+        },
+        notSeizable: {
+            ru: 'Изымать можно только оружие, патроны и запрещённые предметы',
+            ua: 'Вилучати можна лише зброю, набої та заборонені предмети',
+            en: 'Only weapons, ammunition and illegal items can be seized',
+            de: 'Beschlagnahmt werden können nur Waffen, Munition und illegale Gegenstände',
+            pl: 'Zatrzymać można tylko broń, amunicję i nielegalne przedmioty',
+        },
+        freeSlotOnly: {
+            ru: 'Изъятое кладётся в свободную ячейку',
+            ua: 'Вилучене кладеться у вільну комірку',
+            en: 'Put the seized item into a free slot',
+            de: 'Lege den beschlagnahmten Gegenstand in ein freies Feld',
+            pl: 'Połóż zatrzymany przedmiot w wolnym miejscu',
+        },
     },
 
     bind: {

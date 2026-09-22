@@ -179,6 +179,20 @@ export default {
                 de: 'Willkommen im Büro von Weazel News. Hier arbeiten unsere Redaktion, Moderatoren und Korrespondenten. Wie kann ich dir helfen?',
                 pl: 'Witamy w biurze Weazel News. Tu pracują nasi redaktorzy, prezenterzy i korespondenci. W czym mogę pomóc?',
             },
+            handInPhotos: {
+                ru: 'Сдать фотографии',
+                ua: 'Здати фотографії',
+                en: 'Hand in the photos',
+                de: 'Die Fotos abgeben',
+                pl: 'Oddać zdjęcia',
+            },
+            photosAccepted: {
+                ru: 'Отлично, беру всё. Принято снимков: {{count}}. Гонорар придёт вместе с закрытием заказа.',
+                ua: 'Чудово, беру все. Прийнято знімків: {{count}}. Гонорар прийде разом із закриттям замовлення.',
+                en: "Great, I'll take the lot. Shots accepted: {{count}}. The fee comes through when the order closes.",
+                de: 'Sehr gut, ich nehme alles. Angenommene Aufnahmen: {{count}}. Das Honorar kommt mit dem Abschluss des Auftrags.',
+                pl: 'Świetnie, biorę wszystko. Przyjęte zdjęcia: {{count}}. Honorarium przyjdzie wraz z zamknięciem zlecenia.',
+            },
             howToJoin: {
                 ru: 'Как вступить во фракцию?',
                 ua: 'Як вступити до фракції?',

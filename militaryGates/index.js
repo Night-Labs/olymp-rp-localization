@@ -69,6 +69,13 @@ export default {
         de: 'Das Tor bewegt sich noch, warte',
         pl: 'Brama jeszcze się porusza, poczekaj',
     },
+    powerOut: {
+        ru: 'Форт обесточен: ворота не закрываются, пока не починят щиток',
+        ua: 'Форт знеструмлено: ворота не зачиняються, доки не полагодять щиток',
+        en: 'The fort has no power: the gate will not close until the panel is repaired',
+        de: 'Das Fort hat keinen Strom: Das Tor schließt erst, wenn der Verteiler repariert ist',
+        pl: 'Fort nie ma prądu: brama się nie zamknie, dopóki rozdzielnica nie zostanie naprawiona',
+    },
     labelOpened: {
         ru: 'Управление воротами\nВорота открыты',
         ua: 'Керування воротами\nВорота відчинені',

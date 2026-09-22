@@ -168,4 +168,73 @@ export const ranks = {
             pl: 'Operacja nie powiodła się',
         },
     },
+    payout: {
+        header: {
+            ru: 'Выплата рангу',
+            ua: 'Виплата рангу',
+            en: 'Rank payout',
+            de: 'Rangauszahlung',
+            pl: 'Wypłata dla rangi',
+        },
+        success: {
+            giver: {
+                ru: 'Выплата рангу {{rank}}: {{count}} чел. по ${{value}}, всего ${{total}}',
+                ua: 'Виплата рангу {{rank}}: {{count}} ос. по ${{value}}, усього ${{total}}',
+                en: 'Payout to {{rank}}: {{count}} members, ${{value}} each, ${{total}} in total',
+                de: 'Auszahlung an {{rank}}: {{count}} Mitglieder, je ${{value}}, insgesamt ${{total}}',
+                pl: 'Wypłata dla rangi {{rank}}: {{count}} os. po ${{value}}, łącznie ${{total}}',
+            },
+            target: {
+                ru: 'Организация {{orgName}} сделала выплату вашему рангу {{rank}}: ${{value}}',
+                ua: 'Організація {{orgName}} зробила виплату вашому рангу {{rank}}: ${{value}}',
+                en: '{{orgName}} paid out to your rank {{rank}}: ${{value}}',
+                de: '{{orgName}} hat an deinen Rang {{rank}} ausgezahlt: ${{value}}',
+                pl: 'Organizacja {{orgName}} dokonała wypłaty dla twojej rangi {{rank}}: ${{value}}',
+            },
+        },
+        errors: {
+            noAccess: {
+                ru: 'Вы не можете сделать выплату этому рангу',
+                ua: 'Ви не можете зробити виплату цьому рангу',
+                en: 'You cannot pay out to this rank',
+                de: 'Du kannst an diesen Rang nicht auszahlen',
+                pl: 'Nie możesz dokonać wypłaty dla tej rangi',
+            },
+            invalidData: {
+                ru: 'Проверьте сумму и причину выплаты',
+                ua: 'Перевірте суму та причину виплати',
+                en: 'Check the payout amount and reason',
+                de: 'Prüfe Betrag und Grund der Auszahlung',
+                pl: 'Sprawdź kwotę i powód wypłaty',
+            },
+            cooldown: {
+                ru: 'Этот ранг уже получал выплату. Следующая будет доступна через {{time}}',
+                ua: 'Цей ранг уже отримував виплату. Наступна буде доступна через {{time}}',
+                en: 'This rank has already received a payout. The next one is available in {{time}}',
+                de: 'Dieser Rang hat bereits eine Auszahlung erhalten. Die nächste ist in {{time}} möglich',
+                pl: 'Ta ranga otrzymała już wypłatę. Następna będzie dostępna za {{time}}',
+            },
+            empty: {
+                ru: 'В ранге нет участников',
+                ua: 'У ранзі немає учасників',
+                en: 'There is no one in this rank',
+                de: 'In diesem Rang ist niemand',
+                pl: 'W tej randze nikogo nie ma',
+            },
+            notEnoughBalance: {
+                ru: 'Недостаточно денег на балансе организации',
+                ua: 'Недостатньо грошей на балансі організації',
+                en: 'Not enough money on the organization balance',
+                de: 'Nicht genug Geld auf dem Organisationsguthaben',
+                pl: 'Za mało pieniędzy na bilansie organizacji',
+            },
+            busy: {
+                ru: 'Другая выплата рангу ещё проводится, попробуйте через пару секунд',
+                ua: 'Інша виплата рангу ще проводиться, спробуйте за кілька секунд',
+                en: 'Another rank payout is still being processed, try again in a few seconds',
+                de: 'Eine andere Rangauszahlung läuft noch, versuche es in ein paar Sekunden erneut',
+                pl: 'Inna wypłata dla rangi jest jeszcze realizowana, spróbuj za kilka sekund',
+            },
+        },
+    },
 };

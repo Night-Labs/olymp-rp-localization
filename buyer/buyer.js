@@ -284,11 +284,11 @@ export default {
             pl: 'Grzybów',
         },
         bishop: {
-            ru: 'Бишоп',
-            ua: 'Бішоп',
-            en: 'Bishop',
-            de: 'Bishop',
-            pl: 'Bishop',
+            ru: 'Нелегального товара',
+            ua: 'Нелегального товару',
+            en: 'Illegal goods',
+            de: 'Illegale Ware',
+            pl: 'Nielegalnego towaru',
         },
         fence: {
             ru: 'Краденого',

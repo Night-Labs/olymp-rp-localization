@@ -8,11 +8,11 @@ export const workList = {
             pl: 'Kurier jedzenia',
         },
         description: {
-            ru: 'Вечерний поток заказов мы не вытягиваем - людей нет. Возьми смену на развозе еды и закрой заказы: что дадут на стойке, то и везёшь. Точка развоза отмечена в навигаторе, платим по итогу.',
-            ua: "Вечірній потік замовлень ми не витягуємо - людей немає. Візьми зміну на розвезенні їжі і закрий замовлення: що дадуть на стійці, те й везеш. Точка розвезення позначена в навігаторі, платимо за підсумком.",
-            en: "We can't cover the evening rush - not enough hands. Take a shift on food delivery and close the orders out: whatever they hand you at the counter is what you drive. The dispatch point is marked in your navigator, we pay at the end.",
-            de: 'Den Ansturm am Abend schaffen wir nicht - uns fehlen Leute. Nimm eine Schicht beim Essenslieferdienst und fahr die Bestellungen aus: was sie dir am Tresen geben, das bringst du weg. Der Ausgabepunkt ist im Navi markiert, bezahlt wird am Ende.',
-            pl: 'Wieczornego szczytu nie ogarniamy - brakuje ludzi. Weź zmianę przy dowozie jedzenia i zamknij zamówienia: co dadzą ci przy ladzie, to wieziesz. Punkt wydawania masz zaznaczony w nawigacji, płacimy na koniec.',
+            ru: 'Вечерний поток не вытягиваем, людей нет. Возьми смену на развозе: что дадут на стойке, то и везёшь. Платим по итогу.',
+            ua: 'Вечірній потік не витягуємо, людей немає. Візьми зміну на розвезенні: що дадуть на стійці, те й везеш. Платимо за підсумком.',
+            en: "We can't cover the evening rush, not enough hands. Take a shift on delivery: whatever they hand you at the counter is what you drive. We pay at the end.",
+            de: 'Den Abendansturm schaffen wir nicht, uns fehlen Leute. Nimm eine Schicht beim Liefern: was sie dir am Tresen geben, das bringst du weg. Bezahlt wird am Ende.',
+            pl: 'Wieczornego szczytu nie ogarniamy, brakuje ludzi. Weź zmianę przy dowozie: co dadzą ci przy ladzie, to wieziesz. Płacimy na koniec.',
         },
         objective: {
             ru: 'Развезти заказы еды за смену',
@@ -31,11 +31,11 @@ export const workList = {
             pl: 'Konwój gotówki',
         },
         description: {
-            ru: 'Банк подписал с нами договор на обслуживание банкоматов, а людей у Gruppe 6 в смену не хватает. Оформись у диспетчера в депо, загрузи броневик в кассовом центре и обслужи банкоматы по маршруту. Точка депо в навигаторе, оплата по закрытию наряда.',
-            ua: 'Банк підписав з нами договір на обслуговування банкоматів, а людей у Gruppe 6 на зміну бракує. Оформись у диспетчера в депо, завантаж броньовик у касовому центрі та обслужи банкомати за маршрутом. Точка депо в навігаторі, оплата після закриття наряду.',
-            en: 'The bank signed a machine-servicing contract with us and Gruppe 6 is short of hands for the shift. Sign on with the depot dispatcher, load the van at a cash centre and service the machines along the route. The depot is marked in your navigator, we pay when the order is closed.',
-            de: 'Die Bank hat einen Wartungsvertrag für ihre Automaten mit uns unterschrieben, und Gruppe 6 fehlen Leute für die Schicht. Melde dich beim Disponenten im Depot, belade den Transporter im Kassenzentrum und bediene die Automaten entlang der Route. Das Depot ist im Navi markiert, gezahlt wird beim Abschluss des Auftrags.',
-            pl: 'Bank podpisał z nami umowę na obsługę bankomatów, a Gruppe 6 brakuje ludzi na zmianę. Zamelduj się u dyspozytora w bazie, załaduj furgon w centrum gotówkowym i obsłuż bankomaty na trasie. Baza jest zaznaczona w nawigacji, płacimy po zamknięciu zlecenia.',
+            ru: 'Банк отдал нам свои банкоматы, а людей в смену не хватает. Оформись у диспетчера в депо, загрузи броневик и пройди маршрут. Оплата по закрытию наряда.',
+            ua: 'Банк віддав нам свої банкомати, а людей на зміну бракує. Оформись у диспетчера в депо, завантаж броньовик і пройди маршрут. Оплата після закриття наряду.',
+            en: 'The bank handed us its machines and we are short of hands for the shift. Sign on with the depot dispatcher, load the van and work the route. Paid when the order is closed.',
+            de: 'Die Bank hat uns ihre Automaten überlassen, und uns fehlen Leute für die Schicht. Melde dich beim Disponenten im Depot, belade den Transporter und fahr die Route. Bezahlt wird beim Abschluss.',
+            pl: 'Bank oddał nam swoje bankomaty, a nam brakuje ludzi na zmianę. Zamelduj się u dyspozytora w bazie, załaduj furgon i objedź trasę. Płacimy po zamknięciu zlecenia.',
         },
         objective: {
             ru: 'Обслужить банкоматы на маршруте',
@@ -54,11 +54,11 @@ export const workList = {
             pl: 'Kradzież na zamówienie',
         },
         description: {
-            ru: 'У меня есть покупатель на конкретные машины - в этот раз {{subjectName}}. Заказ берёшь у Джо, машину гонишь на разбор. Машин в заказе - {{rolledGoal}}. Денег с меня не жди, за руль тебе платит он. Мне важно, чтобы твою семью в этих кругах знали.',
-            ua: "У мене є покупець на конкретні машини - цього разу {{subjectName}}. Замовлення береш у Джо, машину женеш на розбирання. Машин у замовленні - {{rolledGoal}}. Грошей з мене не чекай, за кермо тобі платить він. Мені важливо, щоб твою сім'ю в цих колах знали.",
-            en: 'I have a buyer who wants specific cars - this time {{subjectName}}. Take the order from Joe, run the car to the yard. Cars in the order - {{rolledGoal}}. Do not wait for money from me, he pays you for the drive. What I want is your family known in these circles.',
-            de: 'Ich habe einen Käufer für bestimmte Wagen - diesmal {{subjectName}}. Den Auftrag holst du bei Joe, den Wagen bringst du zur Verwertung. Wagen im Auftrag - {{rolledGoal}}. Erwarte von mir kein Geld, fürs Fahren zahlt er. Mir geht es darum, dass man deine Familie in diesen Kreisen kennt.',
-            pl: 'Mam kupca na konkretne auta - tym razem {{subjectName}}. Zlecenie bierzesz u Joego, auto odstawiasz na dziuplę. Aut w zleceniu - {{rolledGoal}}. Pieniędzy ode mnie nie oczekuj, za jazdę płaci on. Mnie zależy na tym, żeby twoją rodzinę znali w tych kręgach.',
+            ru: 'Есть покупатель на конкретные машины - в этот раз {{subjectName}}. Заказ берёшь у Джо, машин в заказе - {{rolledGoal}}. Денег с меня не жди, платит он: мне нужно имя твоей семьи.',
+            ua: "Є покупець на конкретні машини - цього разу {{subjectName}}. Замовлення береш у Джо, машин у замовленні - {{rolledGoal}}. Грошей з мене не чекай, платить він: мені потрібне ім'я твоєї сім'ї.",
+            en: 'I have a buyer for specific cars - this time {{subjectName}}. Take the order from Joe, cars in the order - {{rolledGoal}}. No money from me, he pays for the drive: what I want is your family known.',
+            de: 'Ich habe einen Käufer für bestimmte Wagen - diesmal {{subjectName}}. Den Auftrag holst du bei Joe, Wagen im Auftrag - {{rolledGoal}}. Geld gibt es von mir nicht, dafür zahlt er: mir geht es um den Namen deiner Familie.',
+            pl: 'Mam kupca na konkretne auta - tym razem {{subjectName}}. Zlecenie bierzesz u Joego, aut w zleceniu - {{rolledGoal}}. Pieniędzy ode mnie nie licz, płaci on: mnie zależy na nazwisku twojej rodziny.',
         },
         objective: {
             ru: 'Угнать и сдать машины - {{subjectName}}',
@@ -83,11 +83,11 @@ export const workBlips = {
     // Job-hook contracts own no route, so the only point they publish is where the job itself
     // is started. These name a real place and stand alone in the GPS list.
     foodDeliveryHub: {
-        ru: 'Стойка развоза еды',
-        ua: 'Стійка розвезення їжі',
-        en: 'Food dispatch counter',
-        de: 'Essensausgabe',
-        pl: 'Punkt wydawania jedzenia',
+        ru: 'Диспетчер доставки еды',
+        ua: 'Диспетчер доставки їжі',
+        en: 'Food delivery dispatcher',
+        de: 'Disponent für Essenslieferungen',
+        pl: 'Dyspozytor dostaw jedzenia',
     },
     cashCollectorHub: {
         ru: 'Депо инкассации',

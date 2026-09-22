@@ -405,20 +405,38 @@ export const items = {
 
     defibrocharge: {
         name: {
-            ua: 'Дефібрилятор "DefibroCharge"',
-            en: 'Defibrillator "DefibroCharge"',
-            ru: 'Дефибриллятор "DefibroCharge"',
-            de: 'Defibrillator "DefibroCharge"',
-            pl: 'Defibrylator "DefibroCharge"',
-            zh: '除颤监护仪',
+            ua: 'Реанімаційний комплект',
+            en: 'Resuscitation kit',
+            ru: 'Реанимационный комплект',
+            de: 'Reanimationskoffer',
+            pl: 'Zestaw reanimacyjny',
+            zh: '复苏急救箱',
         },
         desc: {
-            ua: 'Життєво необхідний прилад для невідкладної реанімації, що повертає на межі життя та смерті',
-            en: 'A vital resuscitation device that snatches lives back from the brink of death',
-            ru: 'Жизненно необходимое устройство для экстренной реанимации, возвращающее на грань жизни и смерти',
-            de: 'Ein lebenswichtiges Reanimationsgerät, das Leben an der Schwelle zum Tod zurückholt',
-            pl: 'Niezbędne urządzenie resuscytacyjne, które odzyskuje życie z granicy śmierci',
-            zh: '一种从死亡边缘夺走生命的重要复苏装置”',
+            ua: 'Укладка бригади швидкої допомоги: компактний дефібрилятор, мішок Амбу та адреналін. Дозволяє повернути до життя постраждалого. Витрачається з кожною реанімацією.',
+            en: 'An ambulance crew kit: a compact defibrillator, a bag valve mask and adrenaline. Brings a casualty back to life. Wears down with every resuscitation.',
+            ru: 'Укладка бригады скорой помощи: компактный дефибриллятор, мешок Амбу и адреналин. Позволяет вернуть к жизни пострадавшего. Расходуется с каждой реанимацией.',
+            de: 'Ausrüstung des Rettungsdienstes: ein kompakter Defibrillator, ein Beatmungsbeutel und Adrenalin. Holt einen Verletzten ins Leben zurück. Verbraucht sich mit jeder Reanimation.',
+            pl: 'Wyposażenie zespołu ratownictwa medycznego: kompaktowy defibrylator, worek samorozprężalny i adrenalina. Pozwala przywrócić do życia poszkodowanego. Zużywa się z każdą reanimacją.',
+            zh: '急救队的装备：便携式除颤器、简易呼吸器和肾上腺素。可以救回伤员。每次复苏都会消耗。',
+        },
+    },
+    selfReviveKit: {
+        name: {
+            ru: 'Набор самореанимации',
+            ua: 'Набір самореанімації',
+            en: 'Self-revive kit',
+            de: 'Selbstreanimations-Set',
+            pl: 'Zestaw do samoreanimacji',
+            zh: '自我复苏套装',
+        },
+        desc: {
+            ru: 'Редчайший армейский комплект: автоинъектор с адреналином и кровоостанавливающее средство. Если вы при смерти, позволяет подняться на ноги самостоятельно, не дожидаясь медиков. Одноразовый.',
+            ua: 'Найрідкісніший армійський комплект: автоінжектор з адреналіном і кровоспинний засіб. Якщо ви при смерті, дозволяє піднятися на ноги самостійно, не чекаючи медиків. Одноразовий.',
+            en: 'An extremely rare military kit: an adrenaline auto-injector and a hemostatic agent. When you are dying, it lets you get back on your feet on your own without waiting for medics. Single use.',
+            de: 'Ein äußerst seltenes Militär-Set: ein Adrenalin-Autoinjektor und ein blutstillendes Mittel. Wenn du im Sterben liegst, kommst du damit selbst wieder auf die Beine, ohne auf Sanitäter zu warten. Einmalig verwendbar.',
+            pl: 'Niezwykle rzadki wojskowy zestaw: autostrzykawka z adrenaliną i środek hamujący krwawienie. Gdy umierasz, pozwala samodzielnie stanąć na nogi bez czekania na medyków. Jednorazowy.',
+            zh: '极其稀有的军用套装：肾上腺素自动注射器和止血剂。当你濒临死亡时，可以不等医护人员自行站起来。一次性使用。',
         },
     },
     materials: {
@@ -946,6 +964,22 @@ export const items = {
             en: 'Usage instructions: Stand in the place where you want to place the radar, turn towards the direction it should be facing, and use the item. Choose the minimum speed.',
             de: 'Gebrauchsanweisung: Stelle dich an die Stelle, an der du das Radar aufstellen möchten, drehe dich in die Richtung, in die es zeigen soll, und benutze den Gegenstand. Wähle die Mindestgeschwindigkeit.',
             pl: 'Instrukcja użytkowania: Stań w miejscu, w którym chcesz umieścić radar, obróć się w kierunku, w którym ma być skierowany, i użyj przedmiotu. Wybierz minimalną prędkość.',
+        },
+    },
+    camera: {
+        name: {
+            ru: 'Фотоаппарат',
+            ua: 'Фотоапарат',
+            en: 'Camera',
+            de: 'Kamera',
+            pl: 'Aparat',
+        },
+        desc: {
+            ru: 'Зеркальный фотоаппарат. Примени, чтобы поднять его к лицу: игра уйдёт в режим съёмки, колесо мыши меняет фокусное расстояние, ЛКМ спускает затвор.',
+            ua: 'Дзеркальний фотоапарат. Застосуй, щоб піднести його до обличчя: гра перейде в режим зйомки, колесо миші змінює фокусну відстань, ЛКМ спускає затвор.',
+            en: 'A reflex camera. Use it to raise it to your face: the game goes into shooting mode, the mouse wheel changes the focal length and the left button releases the shutter.',
+            de: 'Eine Spiegelreflexkamera. Benutze sie, um sie ans Gesicht zu heben: das Spiel wechselt in den Aufnahmemodus, das Mausrad ändert die Brennweite und die linke Maustaste löst aus.',
+            pl: 'Lustrzanka. Użyj, aby unieść ją do twarzy: gra przechodzi w tryb fotografowania, kółko myszy zmienia ogniskową, a lewy przycisk zwalnia migawkę.',
         },
     },
     bodycamera: {

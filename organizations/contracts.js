@@ -1,6 +1,7 @@
 import { harvestList, harvestBlips } from './contractFamilies/harvest';
 import { cargoList, cargoBlips } from './contractFamilies/cargo';
 import { workList, workBlips } from './contractFamilies/work';
+import { pressList } from './contractFamilies/press';
 
 export const contracts = {
     notify: {
@@ -125,6 +126,7 @@ export const contracts = {
         ...harvestList,
         ...cargoList,
         ...workList,
+        ...pressList,
         header: {
             ru: 'Доступные контракты (репутация: доверие {{legal}}, авторитет {{crime}}):',
             ua: 'Доступні контракти (репутація: довіра {{legal}}, авторитет {{crime}}):',
@@ -523,11 +525,11 @@ export const contracts = {
                 pl: 'Detal',
             },
             description: {
-                ru: 'Первая работа, за которую в семье берутся всерьёз. Товар не ваш и варить его не надо - Дайс стоит на своём углу и выдаёт партию любому, кто пришёл от вас. Ваше дело - развезти партию и не попасться. Адресов в партии - {{rolledGoal}}. Платят за партию, а не за посылку.',
-                ua: 'Перша робота, за яку в сім\'ї беруться всерйоз. Товар не ваш і варити його не треба - Дайс стоїть на своєму розі й видає партію будь-кому, хто прийшов від вас. Ваша справа - розвезти партію і не попастися. Адрес у партії - {{rolledGoal}}. Платять за партію, а не за посилку.',
-                en: 'The first job a family takes seriously. The product is not yours and nobody has to cook it - Dice stands on his corner and hands a batch to anyone who comes from you. Your part is to work the batch and not get caught. Addresses in the batch - {{rolledGoal}}. The batch is paid for, the single package is not.',
-                de: 'Der erste Job, den eine Familie ernst nimmt. Die Ware gehört nicht euch und muss auch nicht gekocht werden - Dice steht an seiner Ecke und gibt jedem eine Charge, der von euch kommt. Euer Teil ist die Charge, ohne aufzufliegen. Adressen in der Charge - {{rolledGoal}}. Bezahlt wird die Charge, nicht das einzelne Paket.',
-                pl: 'Pierwsza robota, która rodzina bierze na poważnie. Towar nie jest wasz i nikt go nie musi warzyć - Dice stoi na swoim rogu i wydaje partię każdemu, kto przyjdzie od was. Wasza część to rozwieźć partię i nie wpaść. Adresów w partii - {{rolledGoal}}. Płaci się za partię, nie za pojedynczą paczkę.',
+                ru: 'Варить ничего не надо, товар мой. Возьми партию, разложи по адресам и не попадись. Адресов в заказе - {{rolledGoal}}, плачу за весь заказ.',
+                ua: 'Варити нічого не треба, товар мій. Візьми партію, розклади за адресами і не попадись. Адрес у замовленні - {{rolledGoal}}, плачу за все замовлення.',
+                en: 'Nothing to cook, the product is mine. Take a batch, work the addresses and do not get caught. Addresses in the order - {{rolledGoal}}, I pay for the lot.',
+                de: 'Nichts zu kochen, die Ware ist meine. Nimm eine Charge, arbeite die Adressen ab und flieg nicht auf. Adressen im Auftrag - {{rolledGoal}}, bezahlt wird der ganze Auftrag.',
+                pl: 'Nic nie trzeba warzyć, towar jest mój. Bierz partię, rozłóż pod adresami i nie wpadnij. Adresów w zleceniu - {{rolledGoal}}, płacę za całość.',
             },
             objective: {
                 ru: 'Взять партию у Дайса и разложить по адресам',
@@ -546,11 +548,11 @@ export const contracts = {
                 pl: 'Manufaktura',
             },
             description: {
-                ru: 'Хозяйка мануфактуры подписалась под срочным заказом и одна его не вытянет. Садись за швейный станок на фабрике, отшей форму и отвези готовую партию заказчику - {{subjectName}}. Комплектов в заказе - {{rolledGoal}}. Платят за привезённое, а не за отшитое.',
-                ua: 'Господиня мануфактури підписалася під терміновим замовленням і сама його не витягне. Сідай за швейний верстат на фабриці, поший форму і відвези готову партію замовнику - {{subjectName}}. Комплектів у замовленні - {{rolledGoal}}. Платять за привезене, а не за пошите.',
-                en: 'The manufactory owner signed off on a rush order she cannot fill alone. Take a sewing station at the factory, run off the uniforms and drive the finished batch to the client - {{subjectName}}. Sets in the order - {{rolledGoal}}. You are paid for what arrives, not for what you sew.',
-                de: 'Die Chefin der Manufaktur hat einen Eilauftrag unterschrieben, den sie allein nicht schafft. Setz dich an eine Nähmaschine in der Fabrik, fertige die Uniformen und bring die fertige Charge zum Kunden - {{subjectName}}. Sätze im Auftrag - {{rolledGoal}}. Bezahlt wird, was ankommt, nicht was genäht wird.',
-                pl: 'Właścicielka manufaktury wzięła pilne zlecenie, którego sama nie udźwignie. Siadaj do maszyny w fabryce, uszyj mundury i zawieź gotową partię zleceniodawcy - {{subjectName}}. Kompletów w zleceniu - {{rolledGoal}}. Płacą za dostarczone, nie za uszyte.',
+                ru: 'Взяла срочный заказ и одна не вытяну. Садись за станок, отшей форму и отвези заказчику - {{subjectName}}. Комплектов - {{rolledGoal}}, платят за привезённое.',
+                ua: 'Взяла термінове замовлення і сама не витягну. Сідай за верстат, поший форму і відвези замовнику - {{subjectName}}. Комплектів - {{rolledGoal}}, платять за привезене.',
+                en: 'I took a rush order and cannot fill it alone. Take a station, run off the uniforms and drive them to the client - {{subjectName}}. Sets - {{rolledGoal}}, paid on delivery.',
+                de: 'Ich habe einen Eilauftrag angenommen und schaffe ihn nicht allein. Setz dich an die Maschine, näh die Uniformen und bring sie zum Kunden - {{subjectName}}. Sätze - {{rolledGoal}}, bezahlt wird Geliefertes.',
+                pl: 'Wzięłam pilne zlecenie i sama go nie udźwignę. Siadaj do maszyny, uszyj mundury i zawieź je zleceniodawcy - {{subjectName}}. Kompletów - {{rolledGoal}}, płacą za dostarczone.',
             },
             objective: {
                 ru: 'Отшить комплекты формы и сдать заказчику',
@@ -563,11 +565,11 @@ export const contracts = {
         illegalSupplier: {
             name: { ru: 'Нелегальный поставщик', ua: 'Нелегальний постачальник', en: 'Illegal supplier', de: 'Illegaler Lieferant', pl: 'Nielegalny dostawca' },
             description: {
-                ru: 'Товар фасуют на месте руками, партия за партией. Партий в заказе - {{rolledGoal}}. Но склад мне нужен не там, где вы его собрали: закончите - грузите и везите на приёмку. Оплата по факту разгрузки.',
-                ua: 'Товар фасують на місці руками, партія за партією. Партій у замовленні - {{rolledGoal}}. Але склад мені потрібен не там, де ви його зібрали: закінчите - вантажте і везіть на приймання. Оплата за фактом розвантаження.',
-                en: 'The product gets packed on site by hand, batch after batch. Batches in the order - {{rolledGoal}}. But I do not want the stock sitting where you built it: when you are done, load up and drive it to the receiving point. You get paid on unloading.',
-                de: 'Die Ware wird vor Ort von Hand verpackt, Charge um Charge. Chargen im Auftrag - {{rolledGoal}}. Aber das Lager soll nicht dort stehen, wo ihr es zusammengestellt habt: fertig, aufladen und zur Annahmestelle fahren. Bezahlt wird beim Abladen.',
-                pl: 'Towar pakuje się na miejscu ręcznie, partia za partią. Partii w zleceniu - {{rolledGoal}}. Ale magazyn ma nie stać tam, gdzie go złożyliście: koniec roboty, ładujcie i wieźcie na odbiór. Płacą przy rozładunku.',
+                ru: 'Товар фасуют на месте, руками, партия за партией - партий в заказе {{rolledGoal}}. Готовое на точке не оставляйте: грузите и везите на приёмку.',
+                ua: 'Товар фасують на місці, руками, партія за партією - партій у замовленні {{rolledGoal}}. Готове на точці не лишайте: вантажте і везіть на приймання.',
+                en: 'The product gets packed on site by hand, batch after batch - {{rolledGoal}} in the order. Do not leave it standing there: load up and drive it to the receiving point.',
+                de: 'Die Ware wird vor Ort von Hand verpackt, Charge um Charge - {{rolledGoal}} im Auftrag. Lasst sie nicht dort stehen: aufladen und zur Annahme fahren.',
+                pl: 'Towar pakuje się na miejscu ręcznie, partia za partią - partii w zleceniu {{rolledGoal}}. Nie zostawiajcie go na miejscu: ładujcie i wieźcie na odbiór.',
             },
             objective: {
                 ru: 'Расфасовать партии и сдать на приёмке',
@@ -586,11 +588,11 @@ export const contracts = {
                 pl: 'Pralnia',
             },
             description: {
-                ru: 'Новые вывески меня не интересуют, меня интересует, кто доводит партию до конца. Прачечная на Ла-Меса моя, машины стоят пустые. Отработайте смену вдвоём, партию за партией, и привезите отмытое на приёмку. Довезёте - будем разговаривать дальше.',
-                ua: 'Нові вивіски мене не цікавлять, мене цікавить, хто доводить партію до кінця. Пральня на Ла-Меса моя, машини стоять порожні. Відпрацюйте зміну вдвох, партія за партією, і привезіть відмите на приймання. Довезете - будемо говорити далі.',
-                en: 'New names on the street do not interest me. Who takes a batch all the way does. The laundromat on La Mesa is mine and the machines are standing empty. Work a shift there, the two of you, batch after batch, then drive the clean stack to the counter. Get it there, and we keep talking.',
-                de: 'Neue Namen auf der Straße interessieren mich nicht. Wer eine Charge bis zum Ende bringt, schon. Der Waschsalon in La Mesa gehört mir und die Maschinen stehen leer. Fahrt dort zu zweit eine Schicht, Charge für Charge, und bringt das saubere Bündel zur Annahme. Bringt es hin, dann reden wir weiter.',
-                pl: 'Nowe szyldy mnie nie interesują, interesuje mnie, kto doprowadza partię do końca. Pralnia na La Mesa jest moja, a maszyny stoją puste. Odróbcie tam zmianę we dwóch, partia za partią, i przywieźcie czysty plik na odbiór. Dowieziecie, to pogadamy dalej.',
+                ru: 'Прачечная на Ла-Меса моя, машины стоят пустые. Отработайте смену вдвоём и привезите отмытое на приёмку. Довезёте - поговорим дальше.',
+                ua: 'Пральня на Ла-Меса моя, машини стоять порожні. Відпрацюйте зміну вдвох і привезіть відмите на приймання. Довезете - поговоримо далі.',
+                en: 'The laundromat on La Mesa is mine and the machines stand empty. Work a shift there, the two of you, and drive the clean stack to the counter. Get it there and we keep talking.',
+                de: 'Der Waschsalon in La Mesa gehört mir und die Maschinen stehen leer. Fahrt zu zweit eine Schicht und bringt das saubere Bündel zur Annahme. Kommt es an, reden wir weiter.',
+                pl: 'Pralnia na La Mesa jest moja, a maszyny stoją puste. Odróbcie zmianę we dwóch i przywieźcie czysty plik na odbiór. Dowieziecie - pogadamy dalej.',
             },
             objective: {
                 ru: 'Отмыть партии в прачечной и сдать на приёмке',
@@ -600,15 +602,16 @@ export const contracts = {
                 pl: 'Wyprać partie w pralni i zdać na odbiorze',
             },
             // Per rung (`LAUNDROMAT_TIERS`). Args: rolledGoal (batches), inputAmount (per batch),
-            // inputTotal (whole order), inputName (the item). Tier I (`house`) reads the keys above.
+            // inputTotal (whole order), inputName (the item). The briefs quote only the first two -
+            // the total is the product of them and the objective line carries the count as well.
             tiers: {
                 house: {
                     description: {
-                        ru: 'Новые вывески меня не интересуют, меня интересует, кто доводит партию до конца. Прачечная на Ла-Меса моя, машины стоят пустые. Отработайте смену вдвоём, партию за партией, и привезите отмытое на приёмку. Довезёте - будем разговаривать дальше.',
-                        ua: 'Нові вивіски мене не цікавлять, мене цікавить, хто доводить партію до кінця. Пральня на Ла-Меса моя, машини стоять порожні. Відпрацюйте зміну вдвох, партія за партією, і привезіть відмите на приймання. Довезете - будемо говорити далі.',
-                        en: 'New names on the street do not interest me. Who takes a batch all the way does. The laundromat on La Mesa is mine and the machines are standing empty. Work a shift there, the two of you, batch after batch, then drive the clean stack to the counter. Get it there, and we keep talking.',
-                        de: 'Neue Namen auf der Straße interessieren mich nicht. Wer eine Charge bis zum Ende bringt, schon. Der Waschsalon in La Mesa gehört mir und die Maschinen stehen leer. Fahrt dort zu zweit eine Schicht, Charge für Charge, und bringt das saubere Bündel zur Annahme. Bringt es hin, dann reden wir weiter.',
-                        pl: 'Nowe szyldy mnie nie interesują, interesuje mnie, kto doprowadza partię do końca. Pralnia na La Mesa jest moja, a maszyny stoją puste. Odróbcie tam zmianę we dwóch, partia za partią, i przywieźcie czysty plik na odbiór. Dowieziecie, to pogadamy dalej.',
+                        ru: 'Машины стоят пустые, наличка моя. Отработайте смену вдвоём - партий {{rolledGoal}} - и привезите отмытое на Гроув-стрит.',
+                        ua: 'Машини стоять порожні, готівка моя. Відпрацюйте зміну вдвох - партій {{rolledGoal}} - і привезіть відмите на Ґроув-стріт.',
+                        en: 'The machines stand empty and the cash is mine. Work a shift, the two of you - {{rolledGoal}} batches - and bring the clean stack to Grove Street.',
+                        de: 'Die Maschinen stehen leer, das Geld ist meins. Fahrt zu zweit eine Schicht - {{rolledGoal}} Chargen - und bringt das Saubere zur Grove Street.',
+                        pl: 'Maszyny stoją puste, gotówka jest moja. Odróbcie zmianę we dwóch - partii {{rolledGoal}} - i przywieźcie czyste na Grove Street.',
                     },
                     objective: {
                         ru: 'Отмыть {{rolledGoal}} партий в прачечной и сдать на приёмке',
@@ -620,11 +623,11 @@ export const contracts = {
                 },
                 dirty: {
                     description: {
-                        ru: 'Твои грабежи - твоя забота, пока бумага не лежит у меня в кассе. Приносите свою грязную наличку: {{inputAmount}} на партию, {{rolledGoal}} партий, итого {{inputTotal}}. Что не свелось под книгу, то осталось в барабане. Чистые пачки везите на точку в Дэвисе.',
-                        ua: 'Твої грабежі - твій клопіт, поки папір не лежить у мене в касі. Приносьте свою брудну готівку: {{inputAmount}} на партію, {{rolledGoal}} партій, разом {{inputTotal}}. Що не зійшлося під книгу, те лишилося в барабані. Чисті пачки везіть на точку в Девісі.',
-                        en: 'Your robberies are your business until the paper is in my till. Bring your own dirty cash: {{inputAmount}} a batch, {{rolledGoal}} batches, {{inputTotal}} all told. Whatever does not balance against the books stays in the drum. Drive the clean stacks to the counter in Davis.',
-                        de: 'Eure Überfälle sind eure Sache, bis das Papier in meiner Kasse liegt. Bringt euer eigenes schmutziges Geld: {{inputAmount}} pro Charge, {{rolledGoal}} Chargen, insgesamt {{inputTotal}}. Was nicht mit den Büchern aufgeht, bleibt in der Trommel. Die sauberen Bündel fahrt ihr zur Annahme in Davis.',
-                        pl: 'Wasze napady to wasza sprawa, dopóki papier nie leży w mojej kasie. Przynieście własną brudną gotówkę: {{inputAmount}} na partię, {{rolledGoal}} partii, razem {{inputTotal}}. Co nie zejdzie się z księgą, zostaje w bębnie. Czyste pliki wieźcie na punkt w Davis.',
+                        ru: 'Несите свою грязную наличку: {{inputAmount}} на партию, {{rolledGoal}} партий. Что не свелось под книгу - осталось в барабане. Чистое везите в Дэвис.',
+                        ua: 'Несіть свою брудну готівку: {{inputAmount}} на партію, {{rolledGoal}} партій. Що не зійшлося під книгу - лишилося в барабані. Чисте везіть у Девіс.',
+                        en: 'Bring your own dirty cash: {{inputAmount}} a batch, {{rolledGoal}} batches. Whatever does not balance stays in the drum. Drive the clean stacks to Davis.',
+                        de: 'Bringt euer eigenes schmutziges Geld: {{inputAmount}} pro Charge, {{rolledGoal}} Chargen. Was nicht aufgeht, bleibt in der Trommel. Das Saubere fahrt ihr nach Davis.',
+                        pl: 'Przynieście własną brudną gotówkę: {{inputAmount}} na partię, {{rolledGoal}} partii. Co się nie zejdzie, zostaje w bębnie. Czyste wieźcie do Davis.',
                     },
                     objective: {
                         ru: 'Заложить {{inputName}} в машины, отмыть {{rolledGoal}} партий и сдать в Дэвисе',
@@ -636,11 +639,11 @@ export const contracts = {
                 },
                 usd: {
                     description: {
-                        ru: 'Ваш пресс печатает, а скупщик даёт сорок центов с доллара. Я даю больше, потому что не перепродаю бумагу, а провожу её через выручку. {{inputAmount}} {{inputName}} на партию, {{rolledGoal}} партий. Испорченная партия остаётся в машине. Пачки везите ко мне в порт.',
-                        ua: 'Ваш прес друкує, а скупник дає сорок центів з долара. Я даю більше, бо не перепродаю папір, а проводжу його через виторг. {{inputAmount}} {{inputName}} на партію, {{rolledGoal}} партій. Зіпсована партія лишається в машині. Пачки везіть до мене в порт.',
-                        en: 'Your press prints and the fence pays forty cents on the dollar. I pay more, because I do not resell the paper - I put it through the takings. {{inputAmount}} {{inputName}} a batch, {{rolledGoal}} batches. A scrapped batch stays in the machine. Bring the stacks to me at the port.',
-                        de: 'Eure Presse druckt und der Hehler zahlt vierzig Cent pro Dollar. Ich zahle mehr, weil ich das Papier nicht weiterverkaufe, sondern durch die Einnahmen laufen lasse. {{inputAmount}} {{inputName}} pro Charge, {{rolledGoal}} Chargen. Eine verdorbene Charge bleibt in der Maschine. Bringt die Bündel zu mir in den Hafen.',
-                        pl: 'Wasza prasa drukuje, a paser daje czterdzieści centów za dolara. Ja daję więcej, bo nie odsprzedaję papieru, tylko przepuszczam go przez utarg. {{inputAmount}} {{inputName}} na partię, {{rolledGoal}} partii. Zepsuta partia zostaje w maszynie. Pliki wieźcie do mnie do portu.',
+                        ru: 'Скупщик даёт сорок центов, я больше: я эту бумагу не перепродаю, а провожу через кассу. {{inputAmount}} на партию, {{rolledGoal}} партий. Везите ко мне в порт.',
+                        ua: 'Скупник дає сорок центів, я більше: я цей папір не перепродаю, а проводжу через касу. {{inputAmount}} на партію, {{rolledGoal}} партій. Везіть до мене в порт.',
+                        en: 'The fence pays forty cents, I pay more: I put this paper through the till instead of reselling it. {{inputAmount}} a batch, {{rolledGoal}} batches. Bring it to me at the port.',
+                        de: 'Der Hehler zahlt vierzig Cent, ich mehr: dieses Papier verkaufe ich nicht weiter, es läuft durch die Kasse. {{inputAmount}} pro Charge, {{rolledGoal}} Chargen. Bringt es zu mir in den Hafen.',
+                        pl: 'Paser daje czterdzieści centów, ja więcej: tego papieru nie odsprzedaję, przepuszczam go przez kasę. {{inputAmount}} na partię, {{rolledGoal}} partii. Wieźcie do mnie do portu.',
                     },
                     objective: {
                         ru: 'Отмыть {{rolledGoal}} партий из {{inputName}} и сдать Шэдоу в порту',
@@ -652,11 +655,11 @@ export const contracts = {
                 },
                 eur: {
                     description: {
-                        ru: 'Евро идут через кассу тяжелее: у машин другой ход, а в книге купюры покрупнее. {{inputAmount}} на партию, {{rolledGoal}} партий, всего {{inputTotal}}. Отмытое везите в пустыню, на точку у Гранд-Сеноры.',
-                        ua: 'Євро йдуть через касу важче: у машин інший хід, а в книзі купюри більші. {{inputAmount}} на партію, {{rolledGoal}} партій, разом {{inputTotal}}. Відмите везіть у пустелю, на точку біля Гранд-Сенори.',
-                        en: 'Euros go through the till harder: the machines run differently and the books are written in bigger notes. {{inputAmount}} a batch, {{rolledGoal}} batches, {{inputTotal}} all told. Drive the clean stacks out to the desert, the point by Grand Senora.',
-                        de: 'Euro laufen schwerer durch die Kasse: die Maschinen laufen anders, und in den Büchern stehen größere Scheine. {{inputAmount}} pro Charge, {{rolledGoal}} Chargen, insgesamt {{inputTotal}}. Das Gewaschene fahrt ihr in die Wüste, zum Punkt bei Grand Senora.',
-                        pl: 'Euro idą przez kasę ciężej: maszyny chodzą inaczej, a w księdze są większe nominały. {{inputAmount}} na partię, {{rolledGoal}} partii, razem {{inputTotal}}. Wyprane wieźcie na pustynię, na punkt przy Grand Senora.',
+                        ru: 'Евро идут через кассу тяжелее: в книге купюры покрупнее. {{inputAmount}} на партию, {{rolledGoal}} партий. Отмытое везите к Гранд-Сеноре.',
+                        ua: 'Євро йдуть через касу важче: у книзі купюри більші. {{inputAmount}} на партію, {{rolledGoal}} партій. Відмите везіть до Гранд-Сенори.',
+                        en: 'Euros go through the till harder: the books are written in bigger notes. {{inputAmount}} a batch, {{rolledGoal}} batches. Drive the clean stacks out to Grand Senora.',
+                        de: 'Euro laufen schwerer durch die Kasse: in den Büchern stehen größere Scheine. {{inputAmount}} pro Charge, {{rolledGoal}} Chargen. Das Gewaschene fahrt ihr nach Grand Senora.',
+                        pl: 'Euro idą przez kasę ciężej: w księdze są większe nominały. {{inputAmount}} na partię, {{rolledGoal}} partii. Wyprane wieźcie pod Grand Senora.',
                     },
                     objective: {
                         ru: 'Отмыть {{rolledGoal}} партий из {{inputName}} и сдать у Гранд-Сеноры',
@@ -668,11 +671,11 @@ export const contracts = {
                 },
                 gbp: {
                     description: {
-                        ru: 'Фунты. Ничего крупнее полтинника, так что считать придётся дольше, а ошибок я прощаю меньше. {{inputAmount}} на партию, {{rolledGoal}} партий. Чистое отдадите Риперу на холмах.',
-                        ua: 'Фунти. Нічого більшого за півсотні, тож рахувати доведеться довше, а помилок я прощаю менше. {{inputAmount}} на партію, {{rolledGoal}} партій. Чисте віддасте Ріперу на пагорбах.',
-                        en: 'Pounds. Nothing above a fifty, so the count takes longer and I forgive fewer mistakes. {{inputAmount}} a batch, {{rolledGoal}} batches. The clean stacks go to Reaper up in the hills.',
-                        de: 'Pfund. Nichts über einem Fünfziger, also dauert das Zählen länger, und ich verzeihe weniger Fehler. {{inputAmount}} pro Charge, {{rolledGoal}} Chargen. Das Saubere gebt ihr Reaper oben in den Hügeln.',
-                        pl: 'Funty. Nic powyżej pięćdziesiątki, więc liczenie trwa dłużej, a błędów wybaczam mniej. {{inputAmount}} na partię, {{rolledGoal}} partii. Czyste oddacie Reaperowi na wzgórzach.',
+                        ru: 'Фунты. Ничего крупнее полтинника, считать дольше, ошибок прощаю меньше. {{inputAmount}} на партию, {{rolledGoal}} партий. Чистое отдадите Риперу на холмах.',
+                        ua: 'Фунти. Нічого більшого за півсотні, рахувати довше, помилок прощаю менше. {{inputAmount}} на партію, {{rolledGoal}} партій. Чисте віддасте Ріперу на пагорбах.',
+                        en: 'Pounds. Nothing above a fifty, so the count runs longer and I forgive less. {{inputAmount}} a batch, {{rolledGoal}} batches. The clean stacks go to Reaper in the hills.',
+                        de: 'Pfund. Nichts über einem Fünfziger, das Zählen dauert länger und ich verzeihe weniger. {{inputAmount}} pro Charge, {{rolledGoal}} Chargen. Das Saubere geht an Reaper in den Hügeln.',
+                        pl: 'Funty. Nic powyżej pięćdziesiątki, liczenie trwa dłużej, a błędów wybaczam mniej. {{inputAmount}} na partię, {{rolledGoal}} partii. Czyste oddacie Reaperowi na wzgórzach.',
                     },
                     objective: {
                         ru: 'Отмыть {{rolledGoal}} партий из {{inputName}} и сдать Риперу',
@@ -684,11 +687,11 @@ export const contracts = {
                 },
                 chf: {
                     description: {
-                        ru: 'Франки. Лучшая бумага, которую печатает ваш пресс, и самая злая лента. {{inputAmount}} на партию, {{rolledGoal}} партий, {{inputTotal}} всего. Один прогон в брак - и пачка остаётся в барабане. Привозите на побережье в Чумаш, лично.',
-                        ua: 'Франки. Найкращий папір, який друкує ваш прес, і найзліша стрічка. {{inputAmount}} на партію, {{rolledGoal}} партій, {{inputTotal}} разом. Один прогін у брак - і пачка лишається в барабані. Привозьте на узбережжя в Чумаш, особисто.',
-                        en: 'Francs. The best paper your press prints, and the meanest belt. {{inputAmount}} a batch, {{rolledGoal}} batches, {{inputTotal}} all told. One run scrapped and the stack stays in the drum. Bring it to the coast at Chumash, in person.',
-                        de: 'Franken. Das beste Papier, das eure Presse druckt, und das gemeinste Band. {{inputAmount}} pro Charge, {{rolledGoal}} Chargen, insgesamt {{inputTotal}}. Ein Durchlauf Ausschuss, und das Bündel bleibt in der Trommel. Bringt es an die Küste bei Chumash, persönlich.',
-                        pl: 'Franki. Najlepszy papier, jaki drukuje wasza prasa, i najbardziej wredna taśma. {{inputAmount}} na partię, {{rolledGoal}} partii, {{inputTotal}} razem. Jeden przebieg na straty i plik zostaje w bębnie. Przywieźcie na wybrzeże do Chumash, osobiście.',
+                        ru: 'Франки - лучшая бумага вашего пресса и самая злая лента. {{inputAmount}} на партию, {{rolledGoal}} партий. Брак остаётся в барабане. Привозите в Чумаш, лично.',
+                        ua: 'Франки - найкращий папір вашого пресу і найзліша стрічка. {{inputAmount}} на партію, {{rolledGoal}} партій. Брак лишається в барабані. Привозьте в Чумаш, особисто.',
+                        en: 'Francs. The best paper your press prints and the meanest belt. {{inputAmount}} a batch, {{rolledGoal}} batches. A scrapped run stays in the drum. Bring it to Chumash, in person.',
+                        de: 'Franken. Das beste Papier eurer Presse und das gemeinste Band. {{inputAmount}} pro Charge, {{rolledGoal}} Chargen. Ausschuss bleibt in der Trommel. Bringt es persönlich nach Chumash.',
+                        pl: 'Franki. Najlepszy papier waszej prasy i najbardziej wredna taśma. {{inputAmount}} na partię, {{rolledGoal}} partii. Brak zostaje w bębnie. Przywieźcie do Chumash, osobiście.',
                     },
                     objective: {
                         ru: 'Отмыть {{rolledGoal}} партий из {{inputName}} и сдать на побережье Чумаш',
@@ -702,12 +705,54 @@ export const contracts = {
         },
     },
     hud: {
-        loaded: {
-            ru: 'Загружено в машину',
-            ua: 'Завантажено в машину',
-            en: 'Loaded in the car',
-            de: 'Im Auto geladen',
-            pl: 'Zaladowane do auta',
+        delivered: {
+            ru: 'Сдано',
+            ua: 'Здано',
+            en: 'Handed in',
+            de: 'Abgegeben',
+            pl: 'Zdano',
+        },
+        inTransit: {
+            ru: 'В пути',
+            ua: 'В дорозі',
+            en: 'In transit',
+            de: 'Unterwegs',
+            pl: 'W drodze',
+        },
+        onHand: {
+            ru: 'У тебя на руках',
+            ua: 'У тебе на руках',
+            en: 'On you',
+            de: 'Bei dir',
+            pl: 'Przy tobie',
+        },
+        photosOnHand: {
+            ru: 'Снимков в камере',
+            ua: 'Знімків у камері',
+            en: 'Frames in the camera',
+            de: 'Aufnahmen in der Kamera',
+            pl: 'Zdjęć w aparacie',
+        },
+        spotsLeftIn: {
+            ru: 'Осталось точек - {{area}}',
+            ua: 'Залишилось точок - {{area}}',
+            en: 'Marks left - {{area}}',
+            de: 'Punkte übrig - {{area}}',
+            pl: 'Pozostało miejsc - {{area}}',
+        },
+        toProduce: {
+            ru: 'Осталось произвести',
+            ua: 'Залишилось виробити',
+            en: 'Left to produce',
+            de: 'Noch zu produzieren',
+            pl: 'Zostalo do wyprodukowania',
+        },
+        objective: {
+            ru: '{{item}}',
+            ua: '{{item}}',
+            en: '{{item}}',
+            de: '{{item}}',
+            pl: '{{item}}',
         },
         available: {
             ru: 'Осталось на точке',
@@ -715,6 +760,15 @@ export const contracts = {
             en: 'Left at the loading point',
             de: 'Am Beladepunkt uebrig',
             pl: 'Zostalo na punkcie',
+        },
+        // The line a runner-less contract adds to the block of the job it rides: the order's own
+        // name, with its count, marked as the contract so it does not read as one of the job's lines.
+        contract: {
+            ru: 'Контракт: {{contract}}',
+            ua: 'Контракт: {{contract}}',
+            en: 'Contract: {{contract}}',
+            de: 'Vertrag: {{contract}}',
+            pl: 'Kontrakt: {{contract}}',
         },
     },
 
@@ -725,6 +779,220 @@ export const contracts = {
             en: 'Drop the crate',
             de: 'Kiste wegwerfen',
             pl: 'Wyrzuć skrzynię',
+        },
+    },
+
+    // Lines the camera viewfinder prints under the frame while a photo order is running.
+    photo: {
+        accepted: {
+            ru: 'Снято: {{spot}}',
+            ua: 'Знято: {{spot}}',
+            en: 'Got it: {{spot}}',
+            de: 'Im Kasten: {{spot}}',
+            pl: 'Jest: {{spot}}',
+        },
+        status: {
+            done: {
+                ru: 'Эта точка уже снята',
+                ua: 'Ця точка вже знята',
+                en: 'This spot is already shot',
+                de: 'Dieser Punkt ist schon im Kasten',
+                pl: 'To miejsce jest już sfotografowane',
+            },
+        },
+        // The notification after a frame the desk will pay for. The viewfinder says it too, but
+        // the camera comes down the moment the shot is taken and the count has to survive that.
+        notify: {
+            shotReady: {
+                ru: 'Снимок готов: {{spot}}. В камере кадров: {{shots}}, точек осталось: {{left}}. Плёнку сдают в Weazel News',
+                ua: 'Знімок готовий: {{spot}}. У камері кадрів: {{shots}}, точок залишилось: {{left}}. Плівку здають у Weazel News',
+                en: 'Frame ready: {{spot}}. {{shots}} in the camera, {{left}} marks left. The film goes to Weazel News',
+                de: 'Aufnahme im Kasten: {{spot}}. {{shots}} in der Kamera, {{left}} Punkte übrig. Der Film geht zu Weazel News',
+                pl: 'Zdjęcie gotowe: {{spot}}. W aparacie {{shots}}, pozostało miejsc: {{left}}. Film oddaje się w Weazel News',
+            },
+        },
+        errors: {
+            tooClose: {
+                ru: 'Слишком близко - отойди на {{distance}} м',
+                ua: 'Занадто близько - відійди на {{distance}} м',
+                en: 'Too close - back off to {{distance}} m',
+                de: 'Zu nah - geh auf {{distance}} m zurück',
+                pl: 'Za blisko - odejdź na {{distance}} m',
+            },
+            tooFar: {
+                ru: 'Слишком далеко - подойди ближе {{distance}} м',
+                ua: 'Занадто далеко - підійди ближче {{distance}} м',
+                en: 'Too far - get within {{distance}} m',
+                de: 'Zu weit - komm auf {{distance}} m heran',
+                pl: 'Za daleko - podejdź bliżej niż {{distance}} m',
+            },
+            alreadyShot: {
+                ru: 'Этот вид уже сдан',
+                ua: 'Цей вид уже здано',
+                en: 'That view is already filed',
+                de: 'Diese Ansicht ist schon abgegeben',
+                pl: 'Ten widok jest już oddany',
+            },
+            subjectMissed: {
+                ru: 'Нужного вида нет в кадре',
+                ua: 'Потрібного виду немає в кадрі',
+                en: 'The subject is out of frame',
+                de: 'Das Motiv ist nicht im Bild',
+                pl: 'Motyw jest poza kadrem',
+            },
+            framePlayer: {
+                ru: 'В кадре человек',
+                ua: 'У кадрі людина',
+                en: 'Someone is in the shot',
+                de: 'Jemand steht im Bild',
+                pl: 'Ktoś jest w kadrze',
+            },
+            frameVehicle: {
+                ru: 'В кадре машина',
+                ua: 'У кадрі машина',
+                en: 'A car is in the shot',
+                de: 'Ein Auto steht im Bild',
+                pl: 'Samochód jest w kadrze',
+            },
+            framePed: {
+                ru: 'В кадре посторонний',
+                ua: 'У кадрі стороння особа',
+                en: 'A bystander is in the shot',
+                de: 'Ein Passant steht im Bild',
+                pl: 'Ktoś obcy jest w kadrze',
+            },
+            needMembers: {
+                ru: 'Рядом должна быть семья',
+                ua: 'Поруч має бути сім\'я',
+                en: 'The family has to be here',
+                de: 'Die Familie muss dabei sein',
+                pl: 'Rodzina musi tu być',
+            },
+        },
+    },
+
+    // The zones the photo marks live in - a mark carries no name of its own, it is named after
+    // its district. Values are the game's own region names (`files/locations/<lang>.json`), keyed
+    // by the popzone label the coordinate falls in (`.claude/skills/gta-data`, `whereis.js`).
+    photoZones: {
+        lago: {
+            ru: 'Лаго-Занкудо',
+            ua: 'Лаго-Занкудо',
+            en: 'Lago Zancudo',
+            de: 'Lago Zancudo',
+            pl: 'Lago Zancudo',
+        },
+        zancudo: {
+            ru: 'Река Занкудо',
+            ua: 'Річка Занкудо',
+            en: 'Zancudo River',
+            de: 'Zancudo River',
+            pl: 'Rzeka Zancudo',
+        },
+        cmsw: {
+            ru: 'Заповедник горы Чилиад',
+            ua: 'Заповідник гори Чіліад',
+            en: 'Chiliad Mountain State Wilderness',
+            de: 'Chiliad-Mountain-Naturschutzgebiet',
+            pl: 'Park krajobrazowy Góry Chiliad',
+        },
+        paleto: {
+            ru: 'Палето-Бэй',
+            ua: 'Палето-Бей',
+            en: 'Paleto Bay',
+            de: 'Paleto Bay',
+            pl: 'Paleto Bay',
+        },
+        desrt: {
+            ru: 'Пустыня Гранд-Сенора',
+            ua: 'Пустеля Гранд-Сенора',
+            en: 'Grand Senora Desert',
+            de: 'Grand-Senora-Wüste',
+            pl: 'Pustynia Grand Senora',
+        },
+        palfor: {
+            ru: 'Лес Палето',
+            ua: 'Ліс Палето',
+            en: 'Paleto Forest',
+            de: 'Paleto Forest',
+            pl: 'Las Paleto',
+        },
+        oceana: {
+            ru: 'Тихий океан',
+            ua: 'Тихий океан',
+            en: 'Pacific Ocean',
+            de: 'Pazifik',
+            pl: 'Ocean Spokojny',
+        },
+        mtchil: {
+            ru: 'Гора Чилиад',
+            ua: 'Гора Чіліад',
+            en: 'Mount Chiliad',
+            de: 'Mount Chiliad',
+            pl: 'Góra Chiliad',
+        },
+        grapes: {
+            ru: 'Грейпсид',
+            ua: 'Грейпсід',
+            en: 'Grapeseed',
+            de: 'Grapeseed',
+            pl: 'Grapeseed',
+        },
+        tongvah: {
+            ru: 'Тонгва-Хиллз',
+            ua: 'Тонгва-Гіллз',
+            en: 'Tongva Hills',
+            de: 'Tongva Hills',
+            pl: 'Tongva Hills',
+        },
+        mtgordo: {
+            ru: 'Гора Гордо',
+            ua: 'Гора Гордо',
+            en: 'Mount Gordo',
+            de: 'Mount Gordo',
+            pl: 'Góra Gordo',
+        },
+        sanchia: {
+            ru: 'Сан-Шаньский горный хребет',
+            ua: 'Сан-Шаньський хребет',
+            en: 'San Chianski Mountain Range',
+            de: 'San-Chianski-Bergkette',
+            pl: 'Masyw górski San Chianski',
+        },
+        windf: {
+            ru: 'Ветряная ферма Ron Alternates',
+            ua: 'Вітрова ферма Ron Alternates',
+            en: 'Ron Alternates Wind Farm',
+            de: 'Ron-Alternates-Windpark',
+            pl: 'Farma wiatrowa Ron Alternates',
+        },
+        palcov: {
+            ru: 'Бухта Палето',
+            ua: 'Бухта Палето',
+            en: 'Paleto Cove',
+            de: 'Paleto Cove',
+            pl: 'Zatoka Paleto',
+        },
+        zquar: {
+            ru: 'Дэвис-Кварц',
+            ua: 'Девіс-Кварц',
+            en: 'Davis Quartz',
+            de: 'Davis Quartz',
+            pl: 'Davis Quartz',
+        },
+        chu: {
+            ru: 'Чумаш',
+            ua: 'Чумаш',
+            en: 'Chumash',
+            de: 'Chumash',
+            pl: 'Chumash',
+        },
+        bhamca: {
+            ru: 'Каньон Бэнхэм',
+            ua: 'Каньйон Бенгем',
+            en: 'Banham Canyon',
+            de: 'Banham Canyon',
+            pl: 'Kanion Banham',
         },
     },
 
@@ -777,6 +1045,14 @@ export const contracts = {
             en: "Dice's corner",
             de: 'Dice-Ecke',
             pl: 'Róg Dice',
+        },
+        // Where the film of a photo order is handed in - the Weazel News picture desk.
+        pictureDesk: {
+            ru: 'Фотослужба Weazel News',
+            ua: 'Фотослужба Weazel News',
+            en: 'Weazel News picture desk',
+            de: 'Bildredaktion von Weazel News',
+            pl: 'Dział zdjęć Weazel News',
         },
         // These read as a prefix, not as a standalone label: the runner composes them into
         // "<point> - <contract> <tier>" for the map legend and the GPS list.
@@ -1072,6 +1348,15 @@ export const contracts = {
         },
     },
     success: {
+        // A photo order is a district rather than a list of named places, so the one thing the
+        // taker has to hear is where they are driving.
+        photoTaken: {
+            ru: 'Контракт {{contract}} принят: {{goal}} снимков, район - {{area}}.',
+            ua: 'Контракт {{contract}} прийнятий: {{goal}} знімків, район - {{area}}.',
+            en: 'Contract {{contract}} taken: {{goal}} pictures around {{area}}.',
+            de: 'Vertrag {{contract}} angenommen: {{goal}} Aufnahmen im Gebiet {{area}}.',
+            pl: 'Kontrakt {{contract}} przyjęty: {{goal}} zdjęć, rejon - {{area}}.',
+        },
         taken: {
             ru: 'Контракт {{contract}} принят. Цель: {{goal}}.',
             ua: 'Контракт {{contract}} прийнятий. Мета: {{goal}}.',
@@ -1093,6 +1378,13 @@ export const contracts = {
             de: 'Vertrag {{contract}} abgebrochen.',
             pl: 'Kontrakt {{contract}} anulowany.',
         },
+        memberRunCancelled: {
+            ru: 'Контракт {{contract}} участника {{owner}} отменён. Его может взять другой участник.',
+            ua: 'Контракт {{contract}} учасника {{owner}} скасовано. Його може взяти інший учасник.',
+            en: "{{owner}}'s run of {{contract}} is cancelled. Another member can take it now.",
+            de: 'Der Auftrag {{contract}} von {{owner}} ist abgebrochen. Ein anderes Mitglied kann ihn jetzt annehmen.',
+            pl: 'Kontrakt {{contract}} członka {{owner}} anulowany. Może go teraz wziąć inny członek.',
+        },
         completedPersonal: {
             ru: 'Контракт {{contract}} выполнен! Награда зачислена.',
             ua: 'Контракт {{contract}} виконано! Винагороду зараховано.',
@@ -1101,11 +1393,18 @@ export const contracts = {
             pl: 'Kontrakt {{contract}} wykonany! Nagroda zaliczona.',
         },
         completedFamily: {
-            ru: 'Семейный контракт {{contract}} выполнен! Казна получила награду.',
-            ua: 'Сімейний контракт {{contract}} виконано! Казна отримала винагороду.',
-            en: 'Family contract {{contract}} completed! Treasury received the reward.',
-            de: 'Familienvertrag {{contract}} abgeschlossen! Die Kasse erhielt die Belohnung.',
-            pl: 'Kontrakt rodzinny {{contract}} wykonany! Skarbiec otrzymał nagrodę.',
+            ru: 'Семейный контракт {{contract}} выполнен! Награда зачислена на баланс организации.',
+            ua: 'Сімейний контракт {{contract}} виконано! Винагороду зараховано на баланс організації.',
+            en: 'Family contract {{contract}} completed! The reward went to the organization balance.',
+            de: 'Familienvertrag {{contract}} abgeschlossen! Die Belohnung ging auf das Organisationsguthaben.',
+            pl: 'Kontrakt rodzinny {{contract}} wykonany! Nagroda trafiła na bilans organizacji.',
+        },
+        completedFamilyShared: {
+            ru: 'Семейный контракт {{contract}} выполнен! Участники получили {{share}}% награды по вкладу.',
+            ua: 'Сімейний контракт {{contract}} виконано! Учасники отримали {{share}}% винагороди за внеском.',
+            en: 'Family contract {{contract}} completed! Members received {{share}}% of the reward by contribution.',
+            de: 'Familienvertrag {{contract}} abgeschlossen! Die Mitglieder erhielten {{share}}% der Belohnung nach Beitrag.',
+            pl: 'Kontrakt rodzinny {{contract}} wykonany! Członkowie otrzymali {{share}}% nagrody według wkładu.',
         },
         batchDelivered: {
             ru: 'Партия принята: {{units}} ед. зачтено в контракт.',
@@ -1113,6 +1412,13 @@ export const contracts = {
             en: 'Batch accepted: {{units}} units counted toward the contract.',
             de: 'Charge angenommen: {{units}} Einheiten auf den Vertrag angerechnet.',
             pl: 'Partia przyjęta: zaliczono {{units}} jedn. do kontraktu.',
+        },
+        photosDelivered: {
+            ru: 'Фотослужба приняла снимков: {{units}}. Зачтено в контракт.',
+            ua: 'Фотослужба прийняла знімків: {{units}}. Зараховано в контракт.',
+            en: 'The picture desk took {{units}} frames. Counted toward the contract.',
+            de: 'Die Bildredaktion hat {{units}} Aufnahmen genommen. Auf den Vertrag angerechnet.',
+            pl: 'Dział zdjęć przyjął {{units}} zdjęć. Zaliczono do kontraktu.',
         },
         crateLoaded: {
             ru: 'Ящик в багажнике. Можно грузить следующий.',
@@ -1350,11 +1656,11 @@ export const contracts = {
             pl: 'Za mało gotówki, aby aktywować kontrakt.',
         },
         notEnoughOrgMoneyToActivate: {
-            ru: 'В казне организации недостаточно денег для активации контракта.',
-            ua: 'У казні організації недостатньо грошей для активації контракту.',
-            en: 'The organization treasury cannot cover the contract activation.',
-            de: 'Die Organisationskasse kann die Vertragsaktivierung nicht decken.',
-            pl: 'Kasa organizacji nie pokryje aktywacji kontraktu.',
+            ru: 'На балансе организации недостаточно денег для активации контракта.',
+            ua: 'На балансі організації недостатньо грошей для активації контракту.',
+            en: 'The organization balance cannot cover the contract activation.',
+            de: 'Das Organisationsguthaben reicht nicht für die Vertragsaktivierung.',
+            pl: 'Bilans organizacji nie pokryje aktywacji kontraktu.',
         },
         characterLevelTooLow: {
             ru: 'Ваш уровень персонажа слишком низкий для этого контракта.',
@@ -1426,6 +1732,27 @@ export const contracts = {
             de: 'Die Organisation nimmt bereits einen Vertrag an, versuche es erneut.',
             pl: 'Organizacja właśnie bierze kontrakt, spróbuj ponownie.',
         },
+        refusedToday: {
+            ru: 'Вы уже отказались от этого контракта в текущем наборе. Он снова станет доступен вам после рестарта.',
+            ua: 'Ви вже відмовилися від цього контракту в поточному наборі. Він знову стане доступним вам після рестарту.',
+            en: 'You already gave this contract up on the current roster. It opens to you again after the restart.',
+            de: 'Du hast diesen Vertrag auf der aktuellen Liste schon aufgegeben. Nach dem Neustart steht er dir wieder offen.',
+            pl: 'Już porzuciłeś ten kontrakt w obecnym zestawie. Znów będzie dla ciebie dostępny po restarcie.',
+        },
+        treeNodeLocked: {
+            ru: 'Организация не открыла в дереве возможность, без которой этот заказ не выполнить.',
+            ua: 'Організація не відкрила в дереві можливість, без якої це замовлення не виконати.',
+            en: 'The organization has not bought the tree perk this order cannot be filled without.',
+            de: 'Die Organisation hat die Baum-Fähigkeit nicht gekauft, ohne die dieser Auftrag nicht zu erfüllen ist.',
+            pl: 'Organizacja nie kupiła w drzewie umiejętności, bez której tego zlecenia nie da się wykonać.',
+        },
+        onlyLeaderCanCancel: {
+            ru: 'Отменить контракт другого участника может только лидер.',
+            ua: 'Скасувати контракт іншого учасника може тільки лідер.',
+            en: "Only the leader can cancel another member's contract.",
+            de: 'Nur der Leader kann den Vertrag eines anderen Mitglieds abbrechen.',
+            pl: 'Tylko lider może anulować kontrakt innego członka.',
+        },
         alreadyRunningInOrg: {
             ru: 'Этот контракт уже выполняет другой участник организации.',
             ua: 'Цей контракт уже виконує інший учасник організації.',
@@ -1464,9 +1791,46 @@ export const contracts = {
                 de: 'Vertragszeit abgelaufen',
                 pl: 'czas kontraktu wygasł',
             },
+            lifetime: {
+                ru: 'заказ устарел: контракт действует не дольше двух ежедневных рестартов',
+                ua: 'замовлення застаріло: контракт діє не довше двох щоденних рестартів',
+                en: 'the order went stale: a contract lasts no longer than two daily restarts',
+                de: 'der Auftrag ist verfallen: ein Vertrag hält höchstens zwei tägliche Neustarts',
+                pl: 'zlecenie się przedawniło: kontrakt trwa najwyżej dwa codzienne restarty',
+            },
+            robbed: {
+                ru: 'инкассатора ограбили на маршруте',
+                ua: 'інкасатора пограбували на маршруті',
+                en: 'the collector was robbed on the route',
+                de: 'der Geldtransporter wurde auf der Route ausgeraubt',
+                pl: 'konwojent został obrabowany na trasie',
+            },
+        },
+    },
+    returns: {
+        returned: {
+            ru: 'Товары, сданные по незавершённому контракту, возвращены вам.',
+            ua: 'Товари, здані за незавершеним контрактом, повернуто вам.',
+            en: 'The goods you handed in on an unfinished contract were returned to you.',
+            de: 'Die Waren, die du für einen nicht erfüllten Vertrag abgegeben hast, wurden dir zurückgegeben.',
+            pl: 'Towary oddane w ramach niedokończonego kontraktu zostały ci zwrócone.',
+        },
+        noRoom: {
+            ru: 'Часть товаров по незавершённому контракту не поместилась. Освободите место - они вернутся автоматически.',
+            ua: 'Частина товарів за незавершеним контрактом не помістилася. Звільніть місце - вони повернуться автоматично.',
+            en: 'Some goods from an unfinished contract did not fit. Free up space - they come back on their own.',
+            de: 'Ein Teil der Waren aus einem nicht erfüllten Vertrag passte nicht. Mach Platz - sie kommen von selbst zurück.',
+            pl: 'Część towarów z niedokończonego kontraktu się nie zmieściła. Zwolnij miejsce - wrócą same.',
         },
     },
     warning: {
+        cancelledByLeader: {
+            ru: 'Лидер отменил ваш контракт {{contract}}. Сданные по нему товары возвращаются вам.',
+            ua: 'Лідер скасував ваш контракт {{contract}}. Здані за ним товари повертаються вам.',
+            en: 'The leader cancelled your contract {{contract}}. The goods you handed in on it come back to you.',
+            de: 'Der Leader hat deinen Vertrag {{contract}} abgebrochen. Die dafür abgegebenen Waren gehen an dich zurück.',
+            pl: 'Lider anulował twój kontrakt {{contract}}. Oddane w jego ramach towary wracają do ciebie.',
+        },
         stationInputLost: {
             ru: 'Партия ушла в брак. {{amount}} {{itemName}} остались в барабане.',
             ua: 'Партія пішла в брак. {{amount}} {{itemName}} лишилися в барабані.',
@@ -1475,11 +1839,11 @@ export const contracts = {
             pl: 'Partia poszła na straty. {{amount}} {{itemName}} zostało w bębnie.',
         },
         needMembersNearby: {
-            ru: 'Для сдачи нужно {{required}} членов организации рядом (в радиусе {{radius}} м). Груз остался при вас.',
-            ua: 'Для здачі потрібно {{required}} членів організації поруч (у радіусі {{radius}} м). Вантаж залишився при вас.',
-            en: 'You need {{required}} organization members nearby (within {{radius}} m) to hand this over. You kept the cargo.',
-            de: 'Für die Übergabe braucht ihr {{required}} Mitglieder in der Nähe (im Umkreis von {{radius}} m). Die Ladung bleibt bei dir.',
-            pl: 'Do zdania potrzeba {{required}} członków organizacji w pobliżu (w promieniu {{radius}} m). Ładunek został przy tobie.',
+            ru: 'Работать по контракту {{contract}} нужно вместе: рядом должно быть {{required}} членов организации (в радиусе {{radius}} м). Сдавать груз можно и в одиночку.',
+            ua: 'Працювати за контрактом {{contract}} потрібно разом: поруч має бути {{required}} членів організації (у радіусі {{radius}} м). Здавати вантаж можна й самому.',
+            en: 'Working the {{contract}} contract takes a crew: {{required}} organization members within {{radius}} m. Handing the load in can be done alone.',
+            de: 'Am Auftrag {{contract}} wird gemeinsam gearbeitet: {{required}} Mitglieder im Umkreis von {{radius}} m. Die Abgabe geht auch allein.',
+            pl: 'Przy kontrakcie {{contract}} pracuje się razem: {{required}} członków organizacji w promieniu {{radius}} m. Zdać ładunek można samemu.',
         },
         maxPerPlayerReached: {
             ru: 'По контракту {{contract}} с одного игрока принимаем максимум {{cap}} единиц. Передайте остаток партнёрам.',

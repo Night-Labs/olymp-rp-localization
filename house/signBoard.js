@@ -1,0 +1,73 @@
+export default {
+    interact: {
+        ru: 'Чтобы открыть редактор доски, нажмите',
+        ua: 'Щоб відкрити редактор дошки, натисніть',
+        en: 'To open the board editor, press',
+        de: 'Um den Tafel-Editor zu öffnen, drücke',
+        pl: 'Aby otworzyć edytor tablicy, naciśnij',
+    },
+    noAccess: {
+        ru: 'Доску может изменить только владелец дома',
+        ua: 'Дошку може змінити лише власник будинку',
+        en: 'Only the house owner can change the board',
+        de: 'Nur der Hausbesitzer kann die Tafel ändern',
+        pl: 'Tylko właściciel domu może zmienić tablicę',
+    },
+    noAccessOrganization: {
+        ru: 'Доску может изменить только тот, кому организация доверила расстановку мебели',
+        ua: 'Дошку може змінити лише той, кому організація довірила розстановку меблів',
+        en: 'Only someone the organization trusts with arranging the furniture can change the board',
+        de: 'Die Tafel kann nur ändern, wem die Organisation das Einrichten der Möbel anvertraut hat',
+        pl: 'Tablicę może zmienić tylko ten, komu organizacja powierzyła rozstawianie mebli',
+    },
+    saveFailed: {
+        ru: 'Не удалось сохранить доску',
+        ua: 'Не вдалося зберегти дошку',
+        en: 'The board could not be saved',
+        de: 'Die Tafel konnte nicht gespeichert werden',
+        pl: 'Nie udało się zapisać tablicy',
+    },
+    // The payment sheet's line (modules/payment).
+    payment: {
+        ru: 'Оформление доски в доме #{{houseId}}',
+        ua: 'Оформлення дошки в будинку #{{houseId}}',
+        en: 'Board design in house #{{houseId}}',
+        de: 'Tafelgestaltung in Haus #{{houseId}}',
+        pl: 'Projekt tablicy w domu #{{houseId}}',
+    },
+    paid: {
+        ru: 'Доска сохранена, списано ${{price}}',
+        ua: 'Дошку збережено, списано ${{price}}',
+        en: 'Board saved, ${{price}} charged',
+        de: 'Tafel gespeichert, ${{price}} abgebucht',
+        pl: 'Tablica zapisana, pobrano ${{price}}',
+    },
+    savePrice: {
+        ru: 'Сохранить за ${{price}}',
+        ua: 'Зберегти за ${{price}}',
+        en: 'Save for ${{price}}',
+        de: 'Für ${{price}} speichern',
+        pl: 'Zapisz za ${{price}}',
+    },
+    title: {
+        ru: 'Доска',
+        ua: 'Дошка',
+        en: 'Board',
+        de: 'Tafel',
+        pl: 'Tablica',
+    },
+    save: {
+        ru: 'Сохранить',
+        ua: 'Зберегти',
+        en: 'Save',
+        de: 'Speichern',
+        pl: 'Zapisz',
+    },
+    saved: {
+        ru: 'Сохранено',
+        ua: 'Збережено',
+        en: 'Saved',
+        de: 'Gespeichert',
+        pl: 'Zapisano',
+    },
+};

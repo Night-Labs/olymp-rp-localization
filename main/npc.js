@@ -234,6 +234,13 @@ export const npc = {
             de: 'Terminal-Vorarbeiter',
             pl: 'Brygadzista Terminala',
         },
+        evidenceClerk: {
+            ru: 'Инспектор по вещдокам',
+            ua: 'Інспектор з речових доказів',
+            en: 'Evidence Clerk',
+            de: 'Asservatenverwalter',
+            pl: 'Magazynier dowodów rzeczowych',
+        },
         cashCollectorDispatcher: {
             ru: 'Диспетчер Gruppe 6',
             ua: 'Диспетчер Gruppe 6',
@@ -347,6 +354,13 @@ export const npc = {
             de: 'Sophie',
             pl: 'Sophie',
         },
+        houseConcierge: {
+            ru: 'Виктор',
+            ua: 'Віктор',
+            en: 'Victor',
+            de: 'Victor',
+            pl: 'Wiktor',
+        },
         officeSecretaryMale: {
             ru: 'Даниэль',
             ua: 'Даніель',
@@ -447,6 +461,13 @@ export const npc = {
             en: 'Office Secretary',
             de: 'Bürosekretärin',
             pl: 'Sekretarka biura',
+        },
+        houseConcierge: {
+            ru: 'Консьерж',
+            ua: 'Консьєрж',
+            en: 'Concierge',
+            de: 'Concierge',
+            pl: 'Konsjerż',
         },
         officeSecretaryMale: {
             ru: 'Секретарь офиса',

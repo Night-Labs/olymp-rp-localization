@@ -356,12 +356,12 @@ export const territories = {
                 de: 'Diese Organisation ist immun gegen Sabotage',
                 pl: 'Ta organizacja jest odporna na sabotaz',
             },
-            sabotageNoMoney: {
-                ru: 'В казне нет {{amount}} на диверсию',
-                ua: 'У скарбниці немає {{amount}} на диверсію',
-                en: 'The treasury is short of {{amount}} for the sabotage',
-                de: 'In der Kasse fehlen {{amount}} fuer die Sabotage',
-                pl: 'W skarbcu brakuje {{amount}} na sabotaz',
+            sabotageNoSource: {
+                ru: 'Диверсию может устроить только организация, которая держит Истребитель',
+                ua: 'Диверсію може влаштувати лише організація, яка тримає Винищувач',
+                en: 'Only the organization holding the Fighter jet can sabotage',
+                de: 'Nur die Organisation, die den Kampfjet haelt, kann sabotieren',
+                pl: 'Sabotaz moze zrobic tylko organizacja, ktora trzyma Mysliwiec',
             },
             captureCooldown: {
                 ru: 'Захват доступен через {{minutes}} мин онлайна организации',
@@ -608,11 +608,11 @@ export const territories = {
         },
         rating: {
             weeklyReward: {
-                ru: '{{place}} место в недельном рейтинге территорий: {{amount}} в казну',
-                ua: '{{place}} місце в тижневому рейтингу територій: {{amount}} до скарбниці',
-                en: 'Place {{place}} in the weekly territory rating: {{amount}} to the treasury',
-                de: 'Platz {{place}} in der Wochenwertung der Gebiete: {{amount}} in die Kasse',
-                pl: '{{place}} miejsce w tygodniowym rankingu terytoriow: {{amount}} do skarbca',
+                ru: '{{place}} место в недельном рейтинге территорий: {{amount}} на баланс организации',
+                ua: '{{place}} місце в тижневому рейтингу територій: {{amount}} на баланс організації',
+                en: 'Place {{place}} in the weekly territory rating: {{amount}} to the organization balance',
+                de: 'Platz {{place}} in der Wochenwertung der Gebiete: {{amount}} auf das Organisationsguthaben',
+                pl: '{{place}} miejsce w tygodniowym rankingu terytoriow: {{amount}} na bilans organizacji',
             },
         },
         surcharge: {

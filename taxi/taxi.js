@@ -224,4 +224,21 @@ export default {
         de: 'Es gibt keine Fahrer dieser Klasse. Bitte wählen Sie eine niedrigere Klasse.',
         pl: 'Brak kierowców tej klasy. Spróbuj wybrać niższą klasę.',
     },
+
+    errors: {
+        notAtPoint: {
+            ru: 'Вы слишком далеко от точки маршрута.',
+            ua: 'Ви занадто далеко від точки маршруту.',
+            en: 'You are too far from the route point.',
+            de: 'Sie sind zu weit vom Routenpunkt entfernt.',
+            pl: 'Jesteś zbyt daleko od punktu trasy.',
+        },
+        rideTooShort: {
+            ru: 'Поездку пока нельзя завершить: слишком мало времени в пути.',
+            ua: 'Поїздку поки не можна завершити: надто мало часу в дорозі.',
+            en: 'The ride cannot be completed yet: too little time on the road.',
+            de: 'Die Fahrt kann noch nicht abgeschlossen werden: zu wenig Zeit unterwegs.',
+            pl: 'Kursu nie można jeszcze zakończyć: zbyt krótki czas jazdy.',
+        },
+    },
 };

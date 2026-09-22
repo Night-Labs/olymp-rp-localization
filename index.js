@@ -3,6 +3,7 @@ import character from './character';
 import antispam from './antispam';
 import main from './main';
 import hud from './hud';
+import helpCards from './helpCards';
 import house from './house';
 import blips from './blips';
 import vehicles from './vehicles';
@@ -72,6 +73,7 @@ import flappyBird from './flappyBird';
 import grandmaster from './grandmaster';
 import walkieTalkie from './walkieTalkie';
 import drone from './drone';
+import photoCamera from './photoCamera';
 import elevators from './elevators';
 import shootingRange from './shootingRange';
 import prism from './prism';
@@ -113,10 +115,12 @@ import numberPlates from './numberPlates';
 import vehicleKeys from './vehicleKeys';
 import payment from './payment';
 import militaryGates from './militaryGates';
-import signEditor from './signEditor';
+import designEditor from './designEditor';
 import funicular from './funicular';
 import freightTrain from './freightTrain';
+import fortAttack from './fortAttack';
 import ping from './ping';
+import weaponAttachments from './weaponAttachments';
 
 export default {
     account,
@@ -124,6 +128,7 @@ export default {
     character,
     main,
     hud,
+    helpCards,
     house,
     blips,
     vehicles,
@@ -194,6 +199,7 @@ export default {
     grandmaster,
     walkieTalkie,
     drone,
+    photoCamera,
     elevators,
     shootingRange,
     diving,
@@ -235,10 +241,12 @@ export default {
     wars,
     effects,
     militaryGates,
-    signEditor,
+    designEditor,
     funicular,
     freightTrain,
+    fortAttack,
     ping,
+    weaponAttachments,
 };
 
 

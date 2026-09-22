@@ -448,4 +448,12 @@ export default {
         de: 'Hat {{name}} einen Bonus von ${{value}} gegeben. Grund: {{reason}}',
         pl: 'Przyznał premię ${{value}} graczowi {{name}}. Powód: {{reason}}',
     },
+
+    gaveRankBonus: {
+        ru: 'Выдал премию рангу {{rank}}: {{count}} чел. по ${{value}}, всего ${{total}}. Причина: {{reason}}',
+        ua: 'Видав премію рангу {{rank}}: {{count}} ос. по ${{value}}, усього ${{total}}. Причина: {{reason}}',
+        en: 'Gave a bonus to {{rank}}: {{count}} members, ${{value}} each, ${{total}} in total. Reason: {{reason}}',
+        de: 'Hat {{rank}} einen Bonus gegeben: {{count}} Mitglieder, je ${{value}}, insgesamt ${{total}}. Grund: {{reason}}',
+        pl: 'Przyznał premię randze {{rank}}: {{count}} os. po ${{value}}, łącznie ${{total}}. Powód: {{reason}}',
+    },
 };

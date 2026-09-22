@@ -50,6 +50,73 @@ export default {
         pl: 'Abonent ma włączony tryb "Nie przeszkadzać"',
     },
 
+    missedNotify: {
+        ru: 'Пропущенный вызов',
+        ua: 'Пропущений виклик',
+        en: 'Missed call',
+        de: 'Verpasster Anruf',
+        pl: 'Nieodebrane połączenie',
+    },
+
+    attorney: {
+        noWanted: {
+            ru: 'Соул: за тобой ничего не висит, приятель. Позвони, когда будет.',
+            ua: 'Сол: за тобою нічого не висить, друже. Подзвони, коли буде.',
+            en: 'Saul: nothing on you right now, buddy. Call me when there is.',
+            de: 'Saul: gegen dich liegt nichts vor, Kumpel. Ruf an, wenn es so weit ist.',
+            pl: 'Saul: nic na ciebie nie ma, kolego. Zadzwoń, gdy będzie.',
+        },
+        imprisoned: {
+            ru: 'Соул: из камеры такие дела не решаются. Отсидишь и позвонишь.',
+            ua: 'Сол: з камери такі справи не вирішуються. Відсидиш і подзвониш.',
+            en: 'Saul: these things do not get fixed from a cell. Serve it and call me.',
+            de: 'Saul: aus der Zelle regelt man das nicht. Sitz es ab und ruf mich an.',
+            pl: 'Saul: z celi tego się nie załatwia. Odsiedź i zadzwoń.',
+        },
+        restrained: {
+            ru: 'Соул: ты сейчас в наручниках, тут я бессилен.',
+            ua: 'Сол: ти зараз у наручниках, тут я безсилий.',
+            en: 'Saul: you are in cuffs right now, nothing I can do.',
+            de: 'Saul: du bist in Handschellen, da kann ich nichts machen.',
+            pl: 'Saul: jesteś w kajdankach, tu nic nie zrobię.',
+        },
+        cooldown: {
+            ru: 'Соул: я уже вел твое дело, следующее возьму через {{time}}.',
+            ua: 'Сол: я вже вів твою справу, наступну візьму через {{time}}.',
+            en: 'Saul: I already handled a case of yours, the next one in {{time}}.',
+            de: 'Saul: ich hatte schon einen Fall von dir, den nächsten in {{time}}.',
+            pl: 'Saul: już prowadziłem twoją sprawę, następną wezmę za {{time}}.',
+        },
+        tooFresh: {
+            ru: 'Соул: дело слишком свежее, ему всего {{age}}. Приходи через {{time}}.',
+            ua: 'Сол: справа надто свіжа, їй лише {{age}}. Приходь через {{time}}.',
+            en: 'Saul: the case is too fresh, it is only {{age}} old. Come back in {{time}}.',
+            de: 'Saul: der Fall ist zu frisch, er ist erst {{age}} alt. Komm in {{time}} wieder.',
+            pl: 'Saul: sprawa jest za świeża, ma dopiero {{age}}. Wróć za {{time}}.',
+        },
+        notEnoughCash: {
+            ru: 'Соул: мой гонорар {{sum}} наличными. Приходи с деньгами.',
+            ua: 'Сол: мій гонорар {{sum}} готівкою. Приходь з грошима.',
+            en: 'Saul: my retainer is {{sum}} in cash. Come back with the money.',
+            de: 'Saul: mein Honorar sind {{sum}} in bar. Komm mit dem Geld wieder.',
+            pl: 'Saul: moje honorarium to {{sum}} w gotówce. Wróć z pieniędzmi.',
+        },
+        reduced: {
+            ru: 'Соул: часть обвинений снял, розыск теперь {{to}} вместо {{from}}. Гонорар {{sum}}.',
+            ua: 'Сол: частину обвинувачень зняв, розшук тепер {{to}} замість {{from}}. Гонорар {{sum}}.',
+            en: 'Saul: got some charges dropped, your wanted level is {{to}} instead of {{from}}. Fee {{sum}}.',
+            de: 'Saul: ein Teil der Anklagen ist weg, deine Fahndung steht jetzt auf {{to}} statt {{from}}. Honorar {{sum}}.',
+            pl: 'Saul: część zarzutów zdjęta, twój poziom poszukiwania to teraz {{to}} zamiast {{from}}. Honorarium {{sum}}.',
+        },
+        cleared: {
+            ru: 'Соул: все обвинения сняты, ты чист. Гонорар {{sum}}.',
+            ua: 'Сол: усі обвинувачення зняті, ти чистий. Гонорар {{sum}}.',
+            en: 'Saul: all charges dropped, you are clean. Fee {{sum}}.',
+            de: 'Saul: alle Anklagen fallen gelassen, du bist sauber. Honorar {{sum}}.',
+            pl: 'Saul: wszystkie zarzuty zdjęte, jesteś czysty. Honorarium {{sum}}.',
+        },
+    },
+
     statuses: {
         active: {
             ru: 'Активный звонок',
@@ -172,6 +239,20 @@ export default {
             en: "You can't summon this faction",
             de: 'Du kannst diese Fraktion nicht herbeirufen',
             pl: 'Nie możesz przywołać tej frakcji',
+        },
+        callFirst: {
+            ru: 'Позвоните в 911 ещё раз, чтобы отправить вызов',
+            ua: 'Зателефонуйте в 911 ще раз, щоб надіслати виклик',
+            en: 'Call 911 again to send the request',
+            de: 'Ruf erneut 911 an, um die Anfrage zu senden',
+            pl: 'Zadzwoń ponownie pod 911, aby wysłać zgłoszenie',
+        },
+        invalidComment: {
+            ru: 'Комментарий содержит недопустимые символы',
+            ua: 'Коментар містить неприпустимі символи',
+            en: 'The comment contains invalid characters',
+            de: 'Der Kommentar enthält ungültige Zeichen',
+            pl: 'Komentarz zawiera niedozwolone znaki',
         },
         reasons: {
             evacuation: {

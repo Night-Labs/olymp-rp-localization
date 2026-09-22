@@ -232,20 +232,6 @@ export const cef = {
             pl: 'zaladunek',
         },
     },
-    heatLabel: {
-        ru: 'Нагрев',
-        ua: 'Нагрів',
-        en: 'Heat',
-        de: 'Hitze',
-        pl: 'Nagrzanie',
-    },
-    heatExposed: {
-        ru: 'Засветилось',
-        ua: 'Засвітилося',
-        en: 'Exposed',
-        de: 'Aufgeflogen',
-        pl: 'Ujawnione',
-    },
     upgradesTitle: {
         ru: 'Модернизация',
         ua: 'Модернізація',
@@ -282,11 +268,11 @@ export const cef = {
         pl: 'Kup za ${{price}}',
     },
     upgradeNoMoney: {
-        ru: 'Не хватает в казне',
-        ua: 'Не вистачає в казні',
-        en: 'Treasury too low',
-        de: 'Kasse zu leer',
-        pl: 'Za malo w kasie',
+        ru: 'Не хватает на балансе',
+        ua: 'Не вистачає на балансі',
+        en: 'Balance too low',
+        de: 'Guthaben zu niedrig',
+        pl: 'Za malo na bilansie',
     },
     upgradeStepOwned: {
         ru: 'Куплено',
@@ -324,8 +310,8 @@ export const cef = {
         pl: 'Przepada razem z polem',
     },
     upgradeResetNote: {
-        ru: 'Уровни держатся, пока точка за вами. Потеряете её — модернизация обнулится, деньги не вернутся, а захватчику здание достанется пустым.',
-        ua: 'Рівні тримаються, доки точка за вами. Втратите її — модернізація обнулиться, гроші не повернуться, а загарбнику будівля дістанеться порожньою.',
+        ru: 'Уровни держатся, пока точка за вами. Потеряете её, и модернизация обнулится, деньги не вернутся, а захватчику здание достанется пустым.',
+        ua: 'Рівні тримаються, доки точка за вами. Втратите її, і модернізація обнулиться, гроші не повернуться, а загарбнику будівля дістанеться порожньою.',
         en: 'Levels last only while you hold the point. Lose it and the upgrades wipe, the money is gone, and the captor takes an empty building.',
         de: 'Die Stufen halten nur, solange ihr den Punkt haltet. Geht er verloren, wird der Ausbau zurückgesetzt, das Geld ist weg und der Eroberer bekommt ein leeres Gebäude.',
         pl: 'Poziomy trzymaja sie tylko dopoki macie punkt. Stracicie go i modernizacja sie wyzeruje, pieniadze przepadna, a zdobywca dostanie puste budynki.',
@@ -359,11 +345,11 @@ export const cef = {
         pl: 'Przyjedzie za {{time}}',
     },
     wholesaleHint: {
-        ru: 'Деньги уходят в казну организации',
-        ua: 'Гроші йдуть у казну організації',
-        en: 'The money goes to the organization treasury',
-        de: 'Das Geld geht in die Organisationskasse',
-        pl: 'Pieniadze trafiaja do kasy organizacji',
+        ru: 'Деньги уходят на баланс организации',
+        ua: 'Гроші йдуть на баланс організації',
+        en: 'The money goes to the organization balance',
+        de: 'Das Geld geht auf das Organisationsguthaben',
+        pl: 'Pieniadze trafiaja na bilans organizacji',
     },
     blocked: {
         noSupplies: {

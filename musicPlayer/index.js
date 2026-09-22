@@ -220,4 +220,80 @@ export default {
         de: 'In der grünen Zone stummgeschaltet',
         pl: 'Wyciszone w zielonej strefie',
     },
+
+    radio: {
+        live: {
+            ru: 'В эфире',
+            ua: 'В ефірі',
+            en: 'Live',
+            de: 'Live',
+            pl: 'Na żywo',
+        },
+
+        genre: {
+            popHits: {
+                ru: 'Поп-хиты',
+                ua: 'Поп-хіти',
+                en: 'Pop hits',
+                de: 'Pop-Hits',
+                pl: 'Popowe hity',
+            },
+            hits: {
+                ru: 'Хиты',
+                ua: 'Хіти',
+                en: 'Hits',
+                de: 'Hits',
+                pl: 'Hity',
+            },
+            rock: {
+                ru: 'Рок',
+                ua: 'Рок',
+                en: 'Rock',
+                de: 'Rock',
+                pl: 'Rock',
+            },
+            dance: {
+                ru: 'Танцевальная',
+                ua: 'Танцювальна',
+                en: 'Dance',
+                de: 'Dance',
+                pl: 'Taneczna',
+            },
+            pop: {
+                ru: 'Поп',
+                ua: 'Поп',
+                en: 'Pop',
+                de: 'Pop',
+                pl: 'Pop',
+            },
+            ukrainian: {
+                ru: 'Украинская музыка',
+                ua: 'Українська музика',
+                en: 'Ukrainian music',
+                de: 'Ukrainische Musik',
+                pl: 'Muzyka ukraińska',
+            },
+            youthPop: {
+                ru: 'Молодёжный поп',
+                ua: 'Молодіжний поп',
+                en: 'Youth pop',
+                de: 'Junger Pop',
+                pl: 'Młodzieżowy pop',
+            },
+            popRock: {
+                ru: 'Поп / рок',
+                ua: 'Поп / рок',
+                en: 'Pop / rock',
+                de: 'Pop / Rock',
+                pl: 'Pop / rock',
+            },
+            hipHopDance: {
+                ru: 'Хип-хоп / дэнс',
+                ua: 'Хіп-хоп / денс',
+                en: 'Hip-hop / dance',
+                de: 'Hip-Hop / Dance',
+                pl: 'Hip-hop / dance',
+            },
+        },
+    },
 };

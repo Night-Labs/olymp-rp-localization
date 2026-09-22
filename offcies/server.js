@@ -528,6 +528,13 @@ export const server = {
             de: 'Änderung übernommen, ${{price}} abgebucht',
             pl: 'Zmiana zastosowana, pobrano ${{price}}',
         },
+        customizedFree: {
+            ru: 'Изменения применены',
+            ua: 'Зміни застосовано',
+            en: 'Change applied',
+            de: 'Änderung übernommen',
+            pl: 'Zmiana zastosowana',
+        },
     },
     info: {
         previewStarted: {

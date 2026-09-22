@@ -94,8 +94,8 @@ export const lifecycle = {
                 pl: 'Rozwiąż organizację',
             },
             message: {
-                ru: 'Распустить организацию {{orgName}}? База перейдёт вам в личное владение, остаток казны (${{balance}}) будет зачислен на ваш банковский счёт.',
-                ua: 'Розпустити організацію {{orgName}}? База перейде вам в особисте володіння, залишок казни (${{balance}}) буде зараховано на ваш банківський рахунок.',
+                ru: 'Распустить организацию {{orgName}}? База перейдёт вам в личное владение, остаток баланса организации (${{balance}}) будет зачислен на ваш банковский счёт.',
+                ua: 'Розпустити організацію {{orgName}}? База перейде вам в особисте володіння, залишок балансу організації (${{balance}}) буде зараховано на ваш банківський рахунок.',
                 en: 'Disband organization {{orgName}}? The HQ will become yours, and the remaining balance (${{balance}}) will be credited to your bank account.',
                 de: 'Organisation {{orgName}} auflösen? Das HQ geht in deinen persönlichen Besitz über, der verbleibende Saldo (${{balance}}) wird deinem Bankkonto gutgeschrieben.',
                 pl: 'Rozwiązać organizację {{orgName}}? HQ przejdzie na twoją własność, pozostała kwota (${{balance}}) zostanie zapisana na twoje konto bankowe.',

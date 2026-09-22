@@ -47,6 +47,14 @@ export const inventory = {
         pl: 'Twoje bronie',
         zh: '你的武器',
     },
+    searchedWeapons: {
+        ua: 'Зброя',
+        en: 'Weapons',
+        ru: 'Оружие',
+        de: 'Waffen',
+        pl: 'Bronie',
+        zh: '武器',
+    },
     weight: {
         ua: 'кг',
         en: 'kg',
@@ -207,6 +215,14 @@ export const inventory = {
             pl: 'Podziel',
             zh: '差异',
         },
+        take: {
+            ru: 'Изъять',
+            ua: 'Вилучити',
+            en: 'Take',
+            de: 'Abnehmen',
+            pl: 'Zabierz',
+            zh: '没收',
+        },
         drop: {
             ru: 'Выбросить',
             ua: 'Викинути',
@@ -214,6 +230,22 @@ export const inventory = {
             de: 'Fallen lassen',
             pl: 'Upuść',
             zh: '下降',
+        },
+        dismantle: {
+            ru: 'Разобрать',
+            ua: 'Розібрати',
+            en: 'Dismantle',
+            de: 'Zerlegen',
+            pl: 'Rozłóż',
+            zh: '拆解',
+        },
+        attachments: {
+            ru: 'Обвесы',
+            ua: 'Обвіси',
+            en: 'Attachments',
+            de: 'Aufsätze',
+            pl: 'Dodatki',
+            zh: '配件',
         },
         durability: {
             ru: 'Прочность',
@@ -230,6 +262,15 @@ export const inventory = {
             en: 'This weapon is exclusive and will not drop upon death.',
             de: 'Diese Waffe ist exklusiv und wird beim Tod nicht fallen gelassen.',
             pl: 'Ta broń jest ekskluzywna i nie wypadnie po śmierci.',
+        },
+    },
+    attachments: {
+        title: {
+            ru: 'Обвесы',
+            ua: 'Обвіси',
+            en: 'Attachments',
+            de: 'Aufsätze',
+            pl: 'Dodatki',
         },
     },
     quantityMenu: {

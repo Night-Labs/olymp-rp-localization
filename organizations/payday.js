@@ -19,11 +19,11 @@ export const payday = {
     },
     errors: {
         insufficientPool: {
-            ru: 'В казне {{orgName}} не хватило ${{pool}} на зарплаты в этом часу',
-            ua: 'У казні {{orgName}} не вистачило ${{pool}} на зарплати цієї години',
-            en: 'Treasury of {{orgName}} is short ${{pool}} for this hour\'s payroll',
-            de: 'In der Kasse von {{orgName}} fehlen ${{pool}} für die Lohnzahlungen dieser Stunde',
-            pl: 'W skarbcu {{orgName}} brakuje ${{pool}} na wypłaty w tej godzinie',
+            ru: 'На балансе {{orgName}} не хватило ${{pool}} на зарплаты в этом часу',
+            ua: 'На балансі {{orgName}} не вистачило ${{pool}} на зарплати цієї години',
+            en: 'The balance of {{orgName}} is short ${{pool}} for this hour\'s payroll',
+            de: 'Dem Guthaben von {{orgName}} fehlen ${{pool}} für die Lohnzahlungen dieser Stunde',
+            pl: 'Na bilansie {{orgName}} brakuje ${{pool}} na wypłaty w tej godzinie',
         },
     },
 };

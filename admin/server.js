@@ -9,6 +9,14 @@ export const server = {
         pl: 'Admin',
         zh: '管理员',
     },
+    nametag: {
+        ru: 'Администратор',
+        ua: 'Адміністратор',
+        en: 'Administrator',
+        de: 'Administrator',
+        pl: 'Administrator',
+        zh: '管理员',
+    },
     chatGlobalCleared: {
         ru: 'Глобальный чат очищен у всех игроков онлайн',
         ua: 'Глобальний чат очищено у всіх гравців онлайн',
@@ -308,6 +316,24 @@ export const server = {
         pl: 'Twoje imię zostało zmienione na {{newName}}',
         zh: '您的名称已更改为{{newName}}',
     },
+    searchInventory: {
+        targetNotInGame: {
+            ru: 'Игрок не в игре',
+            ua: 'Гравець не в грі',
+            en: 'The player is not in game',
+            de: 'Der Spieler ist nicht im Spiel',
+            pl: 'Gracz nie jest w grze',
+            zh: '玩家不在游戏中',
+        },
+        notYourself: {
+            ru: 'Нельзя обыскать самого себя',
+            ua: 'Не можна обшукати самого себе',
+            en: 'You cannot search yourself',
+            de: 'Du kannst dich nicht selbst durchsuchen',
+            pl: 'Nie możesz przeszukać samego siebie',
+            zh: '你不能搜查自己',
+        },
+    },
     youCantDoThisToAdminUpper: {
         ru: 'Вы не можете сделать это действие против администратора выше вас',
         ua: 'Ви не можете виконати цю дію проти адміністратора вище вас',
@@ -521,6 +547,15 @@ export const server = {
         en: '~r~[OLYMP ADMIN] {{name}} is too suspicious, check them immediately! Reason: {{reason}}',
         de: '~r~[OLYMP ADMIN] {{name}} ist zu verdächtig, überprüfe ihn sofort! Grund: {{reason}}',
         pl: '~r~[OLYMP ADMIN] {{name}} jest zbyt podejrzany, sprawdź go natychmiast! Powód: {{reason}}',
+    },
+
+    jobTooFast: {
+        ru: '~r~[OLYMP ADMIN] {{name}} слишком быстро сдает работу ({{job}}): {{elapsed}} с при минимуме {{min}} с. Проследите за игроком',
+        ua: '~r~[OLYMP ADMIN] {{name}} занадто швидко здає роботу ({{job}}): {{elapsed}} с при мінімумі {{min}} с. Простежте за гравцем',
+        en: '~r~[OLYMP ADMIN] {{name}} is handing in work too fast ({{job}}): {{elapsed}} s against a {{min}} s minimum. Keep an eye on them',
+        de: '~r~[OLYMP ADMIN] {{name}} gibt die Arbeit zu schnell ab ({{job}}): {{elapsed}} s bei mindestens {{min}} s. Behalte den Spieler im Auge',
+        pl: '~r~[OLYMP ADMIN] {{name}} zbyt szybko oddaje pracę ({{job}}): {{elapsed}} s przy minimum {{min}} s. Obserwuj gracza',
+        zh: '~r~[OLYMP ADMIN] {{name}} 交付工作过快（{{job}}）：{{elapsed}} 秒，最低 {{min}} 秒。请留意该玩家',
     },
 
     restoreGangZones: {

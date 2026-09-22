@@ -86,6 +86,15 @@ export const luckyWheel = {
         zh: '另一位玩家正在转轮盘,请稍等',
     },
 
+    notReady: {
+        ru: 'Бесплатное вращение ещё не восстановилось.',
+        ua: 'Безкоштовне обертання ще не відновилося.',
+        en: 'The free spin is not ready yet.',
+        de: 'Der Gratis-Dreh ist noch nicht bereit.',
+        pl: 'Darmowy obrót jeszcze się nie odnowił.',
+        zh: '免费转盘尚未恢复。',
+    },
+
     prizes: {
         clothing: {
             ru: 'одежду',

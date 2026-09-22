@@ -20,6 +20,13 @@ export default {
         de: 'Graffiti übermalen',
         pl: 'Zamazać graffiti',
     },
+    cancelInteractionText: {
+        ru: 'Отменить закрашивание',
+        ua: 'Скасувати зафарбовування',
+        en: 'Cancel painting',
+        de: 'Übermalen abbrechen',
+        pl: 'Anuluj zamalowywanie',
+    },
     graffitiWarHeader: {
         ru: '~r~[Война за граффити]:',
         ua: '~r~[Війна за графіті]:',

@@ -85,6 +85,20 @@ export default {
         "de": "{{name}} hat deine Gruppe verlassen",
         "pl": "{{name}} opuścił twoją grupę",
     },
+    newLeader: {
+        ru: 'Новым лидером группы стал {{name}}',
+        ua: 'Новим лідером групи став {{name}}',
+        en: '{{name}} is now the group leader',
+        de: '{{name}} ist jetzt der Gruppenleiter',
+        pl: '{{name}} jest teraz liderem grupy',
+    },
+    youAreNewLeader: {
+        ru: 'Вы стали лидером группы',
+        ua: 'Ви стали лідером групи',
+        en: 'You are now the group leader',
+        de: 'Du bist jetzt der Gruppenleiter',
+        pl: 'Jesteś teraz liderem grupy',
+    },
     chatMessage: {
         ru: '~t~[Группа] {{playerName}}: {{message}}',
         ua: '~t~[Група] {{playerName}}: {{message}}',

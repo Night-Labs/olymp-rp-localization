@@ -1410,5 +1410,175 @@ export const weapons = {
                 pl: 'Pozłacany pistolet z wykwintnym grawerem, stworzony bardziej dla ostentacyjnego blichtru niż do prawdziwej strzelaniny.',
             },
         },
+
+        switchblade: {
+            name: {
+                ru: 'Выкидной нож',
+                ua: 'Викидний ніж',
+                en: 'Switchblade',
+                de: 'Springmesser',
+                pl: 'Nóż sprężynowy',
+            },
+            desc: {
+                ru: 'Складной нож с пружиной: лезвие выскакивает одним нажатием и так же быстро прячется в карман.',
+                ua: 'Складаний ніж із пружиною: лезо вискакує одним натисканням і так само швидко ховається в кишеню.',
+                en: 'A spring-loaded folding knife: the blade snaps out at a touch and goes back into a pocket just as fast.',
+                de: 'Ein federbelastetes Klappmesser: Die Klinge springt auf Knopfdruck heraus und verschwindet ebenso schnell wieder in der Tasche.',
+                pl: 'Składany nóż ze sprężyną: ostrze wyskakuje po jednym naciśnięciu i równie szybko wraca do kieszeni.',
+            },
+        },
+
+        pistol_mk2: {
+            name: {
+                ru: 'Пистолет Mk II',
+                ua: 'Пістолет Mk II',
+                en: 'Pistol Mk II',
+                de: 'Pistole Mk II',
+                pl: 'Pistolet Mk II',
+            },
+            desc: {
+                ru: 'Улучшенная версия пистолета: перебранный ударно-спусковой механизм и планки под прицел, фонарь и компенсатор.',
+                ua: 'Покращена версія пістолета: перебраний ударно-спусковий механізм і планки під приціл, ліхтар та компенсатор.',
+                en: 'An upgraded version of the pistol: a reworked action and rails for a sight, a light and a compensator.',
+                de: 'Eine verbesserte Version der Pistole: überarbeiteter Abzugsmechanismus und Schienen für Visier, Lampe und Kompensator.',
+                pl: 'Ulepszona wersja pistoletu: przerobiony mechanizm spustowy i szyny na celownik, latarkę i kompensator.',
+            },
+        },
+
+        snspistol_mk2: {
+            name: {
+                ru: 'Пистолет SNS Mk II',
+                ua: 'Пістолет SNS Mk II',
+                en: 'SNS Pistol Mk II',
+                de: 'SNS-Pistole Mk II',
+                pl: 'Pistolet SNS Mk II',
+            },
+            desc: {
+                ru: 'Доработанная версия карманного пистолета: тот же размер, но заметно аккуратнее в работе.',
+                ua: 'Допрацьована версія кишенькового пістолета: той самий розмір, але помітно акуратніший у роботі.',
+                en: 'A reworked version of the pocket pistol: the same size, noticeably tidier to shoot.',
+                de: 'Eine überarbeitete Version der Taschenpistole: gleiche Größe, deutlich sauberer im Schuss.',
+                pl: 'Dopracowana wersja kieszonkowego pistoletu: ten sam rozmiar, ale wyraźnie równiej pracuje.',
+            },
+        },
+
+        revolver_mk2: {
+            name: {
+                ru: 'Револьвер Mk II',
+                ua: 'Револьвер Mk II',
+                en: 'Heavy Revolver Mk II',
+                de: 'Schwerer Revolver Mk II',
+                pl: 'Ciężki rewolwer Mk II',
+            },
+            desc: {
+                ru: 'Тяжёлый револьвер с доработанным стволом и креплениями под оптику: отдача всё та же, попадания точнее.',
+                ua: 'Важкий револьвер із допрацьованим стволом і кріпленнями під оптику: віддача та сама, влучання точніші.',
+                en: 'A heavy revolver with a reworked barrel and mounts for optics: the same recoil, tighter hits.',
+                de: 'Ein schwerer Revolver mit überarbeitetem Lauf und Halterungen für Optik: derselbe Rückstoß, präzisere Treffer.',
+                pl: 'Ciężki rewolwer z przerobioną lufą i mocowaniami pod optykę: ten sam odrzut, celniejsze trafienia.',
+            },
+        },
+
+        bullpuprifle_mk2: {
+            name: {
+                ru: 'Булпап-винтовка Mk II',
+                ua: 'Булпап-гвинтівка Mk II',
+                en: 'Bullpup Rifle Mk II',
+                de: 'Bullpup-Gewehr Mk II',
+                pl: 'Karabin bullpup Mk II',
+            },
+            desc: {
+                ru: 'Улучшенная версия компактной винтовки: магазин за рукоятью, короткий корпус и полный набор планок.',
+                ua: 'Покращена версія компактної гвинтівки: магазин за руків\'ям, короткий корпус і повний набір планок.',
+                en: 'An upgraded version of the compact rifle: magazine behind the grip, short body and a full set of rails.',
+                de: 'Eine verbesserte Version des kompakten Gewehrs: Magazin hinter dem Griff, kurzer Korpus und volle Schienenausstattung.',
+                pl: 'Ulepszona wersja kompaktowego karabinu: magazynek za chwytem, krótki korpus i pełny zestaw szyn.',
+            },
+        },
+
+        minigun: {
+            name: {
+                ru: 'Миниган',
+                ua: 'Мініган',
+                en: 'Minigun',
+                de: 'Minigun',
+                pl: 'Minigun',
+            },
+            desc: {
+                ru: 'Шестиствольный пулемёт с вращающимся блоком стволов: чудовищный темп стрельбы и такой же расход патронов.',
+                ua: 'Шестиствольний кулемет з обертовим блоком стволів: жахливий темп стрільби і така сама витрата патронів.',
+                en: 'A six-barrel rotary machine gun: a monstrous rate of fire and an appetite for ammunition to match.',
+                de: 'Ein sechsläufiges Rotationsmaschinengewehr: eine monströse Feuerrate und ein ebensolcher Munitionsverbrauch.',
+                pl: 'Sześciolufowy karabin rotacyjny: potworna szybkostrzelność i równie potworne zużycie amunicji.',
+            },
+        },
+
+        rpg: {
+            name: {
+                ru: 'РПГ',
+                ua: 'РПГ',
+                en: 'RPG',
+                de: 'RPG',
+                pl: 'RPG',
+            },
+            desc: {
+                ru: 'Ручной противотанковый гранатомёт: один выстрел, один заряд, и перезарядка на виду у всех.',
+                ua: 'Ручний протитанковий гранатомет: один постріл, один заряд, і перезарядка на очах у всіх.',
+                en: 'A shoulder-fired anti-tank launcher: one shot, one round, and a reload everyone gets to watch.',
+                de: 'Ein schultergestützter Panzerabwehrwerfer: ein Schuss, eine Granate und ein Nachladen vor aller Augen.',
+                pl: 'Ręczna wyrzutnia przeciwpancerna: jeden strzał, jeden pocisk i przeładowanie na oczach wszystkich.',
+            },
+        },
+
+        grenadelauncher: {
+            name: {
+                ru: 'Гранатомет',
+                ua: 'Гранатомет',
+                en: 'Grenade Launcher',
+                de: 'Granatwerfer',
+                pl: 'Granatnik',
+            },
+            desc: {
+                ru: 'Барабанный гранатомёт: навесная стрельба по площади, точность здесь никого не интересует.',
+                ua: 'Барабанний гранатомет: навісна стрільба по площі, точність тут нікого не цікавить.',
+                en: 'A drum-fed grenade launcher: lobbed fire over an area, where precision is nobody\'s concern.',
+                de: 'Ein trommelgespeister Granatwerfer: Steilfeuer auf eine Fläche, Präzision interessiert hier niemanden.',
+                pl: 'Granatnik z bębnem: ogień nawesny na obszar, celność nikogo tu nie obchodzi.',
+            },
+        },
+
+        railgun: {
+            name: {
+                ru: 'Рельсотрон',
+                ua: 'Рейкотрон',
+                en: 'Railgun',
+                de: 'Railgun',
+                pl: 'Railgun',
+            },
+            desc: {
+                ru: 'Экспериментальное орудие: разгоняет снаряд электромагнитным полем и пробивает всё, во что попадает.',
+                ua: 'Експериментальна гармата: розганяє снаряд електромагнітним полем і пробиває все, у що влучає.',
+                en: 'An experimental gun: it accelerates a slug with an electromagnetic field and goes through whatever it hits.',
+                de: 'Eine experimentelle Waffe: Sie beschleunigt ein Geschoss mit einem elektromagnetischen Feld und durchschlägt alles, was sie trifft.',
+                pl: 'Eksperymentalne działo: rozpędza pocisk polem elektromagnetycznym i przebija wszystko, w co trafi.',
+            },
+        },
+
+        emplauncher: {
+            name: {
+                ru: 'ЭМИ-излучатель',
+                ua: 'ЕМІ-випромінювач',
+                en: 'EMP Launcher',
+                de: 'EMP-Werfer',
+                pl: 'Wyrzutnia EMP',
+            },
+            desc: {
+                ru: 'Излучатель электромагнитного импульса: глушит электронику техники, не оставляя на ней ни царапины.',
+                ua: 'Випромінювач електромагнітного імпульсу: глушить електроніку техніки, не залишаючи на ній жодної подряпини.',
+                en: 'An electromagnetic pulse emitter: it kills a vehicle\'s electronics without leaving a scratch on it.',
+                de: 'Ein Emitter für elektromagnetische Impulse: Er legt die Elektronik eines Fahrzeugs lahm, ohne einen Kratzer zu hinterlassen.',
+                pl: 'Emiter impulsu elektromagnetycznego: wyłącza elektronikę pojazdu, nie zostawiając na nim rysy.',
+            },
+        },
     },
 };

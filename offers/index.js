@@ -17,6 +17,15 @@ export default {
         zh: '你方报盘已被拒绝',
     },
 
+    targetBusy: {
+        ru: 'Этот человек сейчас рассматривает другое предложение',
+        ua: 'Ця людина зараз розглядає іншу пропозицію',
+        en: 'This person is already considering another offer',
+        de: 'Diese Person prüft gerade ein anderes Angebot',
+        pl: 'Ta osoba rozważa już inną ofertę',
+        zh: '此人正在考虑其他邀请',
+    },
+
     inviteMember: {
         ru: 'Приглашает вас вступить в {{name}}',
         ua: 'Запрошує вас приєднатися до {{name}}',
@@ -33,6 +42,15 @@ export default {
         de: 'Schlägt eine Bekanntschaft vor',
         pl: 'Sugeruje zapoznanie się',
         zh: '建议大家互相了解',
+    },
+
+    shareNumber: {
+        ru: 'Предлагает обменяться номерами телефонов',
+        ua: 'Пропонує обмінятися номерами телефонів',
+        en: 'Offers to exchange phone numbers',
+        de: 'Bietet an, Telefonnummern auszutauschen',
+        pl: 'Proponuje wymianę numerów telefonów',
+        zh: '提议交换电话号码',
     },
 
     passport: {
