@@ -22,6 +22,7 @@ import bank from './pages/bank';
 import camera from './pages/camera';
 import gallery from './pages/gallery';
 import calculator from './pages/calculator';
+import shade from './pages/shade';
 
 export default {
     ...cef,
@@ -47,4 +48,5 @@ export default {
     camera,
     gallery,
     calculator,
+    shade,
 };
