@@ -296,6 +296,14 @@ export default {
             pl: 'Wczoraj',
         },
 
+        track: {
+            ru: 'Трек: {{name}}',
+            ua: 'Трек: {{name}}',
+            en: 'Song: {{name}}',
+            de: 'Song: {{name}}',
+            pl: 'Utwór: {{name}}',
+        },
+
         photos: {
             ru: 'Фото: {{count}}',
             ua: 'Фото: {{count}}',
@@ -394,6 +402,13 @@ export default {
             en: 'The photo was not sent. Try again',
             de: 'Das Foto wurde nicht gesendet. Versuch es erneut',
             pl: 'Zdjęcie nie zostało wysłane. Spróbuj ponownie',
+        },
+        trackFailed: {
+            ru: 'Трек не отправился. Попробуйте ещё раз',
+            ua: 'Трек не надіслався. Спробуйте ще раз',
+            en: 'The song was not sent. Try again',
+            de: 'Der Song wurde nicht gesendet. Versuch es erneut',
+            pl: 'Utwór nie został wysłany. Spróbuj ponownie',
         },
     },
 };

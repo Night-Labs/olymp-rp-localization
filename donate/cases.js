@@ -57,6 +57,14 @@ export const cases = {
         pl: 'Otwórz skrzynkę',
         zh: '打开盒子',
     },
+    openCasesQuantity: {
+        ru: 'Открыть кейсы: {{quantity}} шт.',
+        ua: 'Відкрити кейси: {{quantity}} шт.',
+        en: 'Open cases: {{quantity}} pcs.',
+        de: 'Kisten öffnen: {{quantity}} Stk.',
+        pl: 'Otwórz skrzynki: {{quantity}} szt.',
+        zh: '打开盒子: {{quantity}}',
+    },
     opening: {
         ru: 'Открываем кейс...',
         ua: 'Відкриваємо кейс...',

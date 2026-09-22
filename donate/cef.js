@@ -728,6 +728,15 @@ export const cef = {
             zh: '保存在仓库中',
         },
 
+        holdAll: {
+            ru: 'Оставить остальное на складе',
+            ua: 'Залишити решту на складі',
+            en: 'Keep the rest in storage',
+            de: 'Rest lagern',
+            pl: 'Zostaw resztę w magazynie',
+            zh: '其余保存在仓库中',
+        },
+
         sell: {
             ru: 'Продать',
             ua: 'Продати',

@@ -22,6 +22,7 @@ import bank from './pages/bank';
 import camera from './pages/camera';
 import gallery from './pages/gallery';
 import calculator from './pages/calculator';
+import music from './pages/music';
 import shade from './pages/shade';
 
 export default {
@@ -48,5 +49,6 @@ export default {
     camera,
     gallery,
     calculator,
+    music,
     shade,
 };

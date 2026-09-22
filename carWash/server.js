@@ -22,6 +22,44 @@ export const server = {
             de: 'Autowäsche in Waschanlage #{{number}}',
             pl: 'Mycie auta w myjni #{{number}}',
         },
+        descriptionWax: {
+            ru: 'Мойка и защитный лак на автомойке #{{number}}',
+            ua: 'Мийка та захисний лак на автомийці #{{number}}',
+            en: 'Car wash and protective wax at wash #{{number}}',
+            de: 'Autowäsche und Schutzwachs in Waschanlage #{{number}}',
+            pl: 'Mycie i wosk ochronny w myjni #{{number}}',
+        },
+    },
+    // The offer put up before the bill (systems/businesses/carWash offerWax).
+    wax: {
+        title: {
+            ru: 'Защитный лак',
+            ua: 'Захисний лак',
+            en: 'Protective wax',
+            de: 'Schutzwachs',
+            pl: 'Wosk ochronny',
+        },
+        message: {
+            ru: 'Нанести защитный лак после мойки? {{hours}} часов машина не будет пачкаться.',
+            ua: 'Нанести захисний лак після мийки? {{hours}} годин машина не бруднитиметься.',
+            en: 'Apply protective wax after the wash? The car will not get dirty for {{hours}} hours.',
+            de: 'Nach der Wäsche Schutzwachs auftragen? {{hours}} Stunden lang wird das Auto nicht schmutzig.',
+            pl: 'Nałożyć wosk ochronny po myciu? Przez {{hours}} godzin auto nie będzie się brudzić.',
+        },
+        onlyWash: {
+            ru: 'Только мойка - {{price}}',
+            ua: 'Тільки мийка - {{price}}',
+            en: 'Wash only - {{price}}',
+            de: 'Nur Wäsche - {{price}}',
+            pl: 'Tylko mycie - {{price}}',
+        },
+        withWax: {
+            ru: 'Мойка + лак - {{price}}',
+            ua: 'Мийка + лак - {{price}}',
+            en: 'Wash + wax - {{price}}',
+            de: 'Wäsche + Wachs - {{price}}',
+            pl: 'Mycie + wosk - {{price}}',
+        },
     },
     modal: {
         title: {
@@ -281,6 +319,13 @@ export const server = {
                 de: 'Wenn du nicht waschen willst, waschen wir nicht',
                 pl: 'Nie chcesz myć, to nie myjemy',
             },
+        },
+        waxApplied: {
+            ru: 'Авто помыто и покрыто лаком: {{hours}} часов оно не будет пачкаться',
+            ua: 'Авто помите та вкрите лаком: {{hours}} годин воно не бруднитиметься',
+            en: 'The car is washed and waxed: it will not get dirty for {{hours}} hours',
+            de: 'Das Auto ist gewaschen und gewachst: {{hours}} Stunden lang wird es nicht schmutzig',
+            pl: 'Auto umyte i nawoskowane: przez {{hours}} godzin nie będzie się brudzić',
         },
         notEnoughMoney: {
             ru: 'Недостаточно средств',
