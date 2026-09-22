@@ -589,6 +589,16 @@ export const cef = {
             zh: '卖出',
         },
 
+        // Кнопка продажи, после которой идёт цена: «Продать за 500 [коин]».
+        sellFor: {
+            ru: 'Продать за',
+            ua: 'Продати за',
+            en: 'Sell for',
+            de: 'Verkaufen für',
+            pl: 'Sprzedaj za',
+            zh: '卖出',
+        },
+
         destroy: {
             ru: 'Уничтожить',
             ua: 'Знищити',

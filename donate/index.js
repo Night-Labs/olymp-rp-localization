@@ -258,6 +258,15 @@ export default {
             pl: 'Kup',
         },
 
+        // Кнопка покупки, после которой идёт цена: «Купить за 1 000 [коин]».
+        buyForButton: {
+            ru: 'Купить за',
+            ua: 'Купити за',
+            en: 'Buy for',
+            de: 'Kaufen für',
+            pl: 'Kup za',
+        },
+
         confirmButton: {
             ru: 'Подтвердить',
             ua: 'Підтвердити',

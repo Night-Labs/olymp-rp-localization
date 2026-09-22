@@ -491,6 +491,14 @@ export default {
                 pl: 'Tryb',
                 zh: '模式',
             },
+            strobeLights: {
+                ru: 'Фары',
+                ua: 'Фари',
+                en: 'Headlights',
+                de: 'Scheinwerfer',
+                pl: 'Reflektory',
+                zh: '大灯',
+            },
             strobeNeon: {
                 ru: 'Неон',
                 ua: 'Неон',
@@ -619,6 +627,14 @@ export default {
                     de: 'Regenbogen-Impulse',
                     pl: 'Tęcza: błyski',
                     zh: '彩虹脉冲',
+                },
+                rgbWave: {
+                    ru: 'Радуга: волна',
+                    ua: 'Веселка: хвиля',
+                    en: 'Rainbow wave',
+                    de: 'Regenbogen-Welle',
+                    pl: 'Tęcza: fala',
+                    zh: '彩虹流波',
                 },
                 music: {
                     ru: 'Под музыку',
