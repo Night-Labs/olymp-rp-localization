@@ -495,6 +495,26 @@ export const cases = {
             },
         },
 
+        stickers: {
+            name: {
+                ru: 'Наклейки',
+                ua: 'Наліпки',
+                en: 'Stickers',
+                de: 'Aufkleber',
+                pl: 'Naklejki',
+                zh: '贴纸',
+            },
+
+            desc: {
+                ru: 'Кейс с наклейками для кастомного винила. Внутри - закрытые наклейки: часть из них продаётся в ателье за коины, а часть можно получить только отсюда. Выпавшая наклейка ждёт на донат-складе, а в ателье первый слой с ней ставится на машину бесплатно, и дальше её можно двигать, красить и повторять сколько угодно раз.',
+                ua: 'Кейс із наліпками для кастомного вінілу. Усередині - закриті наліпки: частина з них продається в ательє за коїни, а частину можна отримати лише звідси. Наліпка, що випала, чекає на донат-складі, а в ательє перший шар із нею встановлюється на авто безкоштовно, і далі її можна рухати, фарбувати й повторювати скільки завгодно разів.',
+                en: 'A case of stickers for custom vinyl. Inside are the locked ones: some are sold at the workshop for coins, others come only from here. The sticker waits in the donate warehouse, and at the workshop its first layer goes on the car for free - after that you can move it, tint it and repeat it as often as you like.',
+                de: 'Eine Kiste mit Aufklebern für individuelles Vinyl. Darin stecken die gesperrten: Manche verkauft die Werkstatt für Coins, andere gibt es nur hier. Der Aufkleber wartet im Spendenlager, und in der Werkstatt kommt seine erste Ebene gratis aufs Auto - danach kannst du sie verschieben, einfärben und beliebig oft wiederholen.',
+                pl: 'Skrzynka z naklejkami do własnego winylu. W środku są te zablokowane: część sprzedaje warsztat za coiny, a część zdobędziesz tylko tutaj. Naklejka czeka w magazynie donate, a w warsztacie jej pierwsza warstwa trafia na auto za darmo - potem możesz ją przesuwać, barwić i powtarzać dowolną liczbę razy.',
+                zh: '自定义车贴用的贴纸箱子。里面是锁定的贴纸：一部分可在改装店用金币购买，另一部分只能从这里获得。抽到的贴纸存放在捐赠仓库，在改装店中它的第一个图层免费贴到车上，之后可以随意移动、上色并重复使用。',
+            },
+        },
+
         tuner: {
             name: {
                 ru: 'Тюнер',
