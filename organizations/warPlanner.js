@@ -114,6 +114,13 @@ export const warPlanner = {
             de: 'Keine Mitglieder gewaehlt',
             pl: 'Nie wybrano uczestnikow',
         },
+        tooFew: {
+            ru: 'Нужно не меньше {{count}} участников',
+            ua: 'Потрібно щонайменше {{count}} учасників',
+            en: 'At least {{count}} members needed',
+            de: 'Mindestens {{count}} Mitglieder noetig',
+            pl: 'Potrzeba co najmniej {{count}} uczestnikow',
+        },
         tooMany: {
             ru: 'Участников больше, чем мест',
             ua: 'Учасників більше, ніж місць',

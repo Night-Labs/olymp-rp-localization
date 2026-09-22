@@ -43,6 +43,13 @@ export default {
             de: 'Sprintgeschwindigkeit',
             pl: 'Prędkość biegu',
         },
+        vitalsDrain: {
+            ru: 'Расход еды и воды',
+            ua: 'Витрата їжі та води',
+            en: 'Food and water drain',
+            de: 'Nahrungs- und Wasserverbrauch',
+            pl: 'Zużycie jedzenia i wody',
+        },
     },
 
     // Buff source names. `stat.*` are the generic entries the legacy setters register.

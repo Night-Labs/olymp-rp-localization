@@ -634,6 +634,28 @@ export default {
         },
     },
 
+    // Phone mini-games
+    flappy_iron_nerves: {
+        name: { ru: 'Стальные нервы', ua: 'Сталеві нерви', en: 'Nerves of Steel', de: 'Nerven aus Stahl', pl: 'Nerwy ze Stali' },
+        desc: {
+            ru: 'Пролетите {{value}} труб за одну игру в Flappy Bird',
+            ua: 'Пролетіть {{value}} труб за одну гру у Flappy Bird',
+            en: 'Clear {{value}} pipes in a single Flappy Bird run',
+            de: 'Passiere {{value}} Rohre in einem einzigen Flappy Bird Lauf',
+            pl: 'Przelec obok {{value}} rur w jednej grze Flappy Bird',
+        },
+    },
+    chess_grandmaster: {
+        name: { ru: 'Гроссмейстер', ua: 'Гросмейстер', en: 'Grandmaster', de: 'Grossmeister', pl: 'Arcymistrz' },
+        desc: {
+            ru: 'Обыграйте в шахматы {{value}} живых соперников',
+            ua: 'Обіграйте в шахи {{value}} живих суперників',
+            en: 'Beat {{value}} live opponents at chess',
+            de: 'Besiege {{value}} echte Gegner im Schach',
+            pl: 'Pokonaj {{value}} zywych przeciwnikow w szachach',
+        },
+    },
+
     notify: {
         header: { ru: 'Достижения', ua: 'Досягнення', en: 'Achievements', de: 'Erfolge', pl: 'Osiągnięcia' },
         claimed: { ru: 'Награда получена', ua: 'Нагороду отримано', en: 'Reward claimed', de: 'Belohnung erhalten', pl: 'Nagroda odebrana' },

@@ -54,6 +54,22 @@ export default {
             pl: '10% rabatu na każdy zakup pojazdu za gotówkę.',
         },
     },
+    immunity: {
+        name: {
+            ru: 'Иммунитет',
+            ua: 'Імунітет',
+            en: 'Immunity',
+            de: 'Immunität',
+            pl: 'Odporność',
+        },
+        desc: {
+            ru: 'Организм справился с болезнью. Сутки после выздоровления простуда к вам не пристанет.',
+            ua: 'Організм упорався з хворобою. Добу після одужання застуда до вас не пристане.',
+            en: 'Your body has beaten the illness. For a day after recovery you cannot catch a cold.',
+            de: 'Dein Körper hat die Krankheit besiegt. Einen Tag nach der Genesung kannst du dich nicht erkälten.',
+            pl: 'Organizm pokonał chorobę. Przez dobę po wyzdrowieniu nie przeziębisz się.',
+        },
+    },
     warmedUp: {
         name: {
             ru: 'Второе дыхание',
@@ -167,6 +183,54 @@ export default {
             en: 'The card is on you. For 3 hours the workshop charges 25% less.',
             de: 'Die Karte steckt bei dir. 3 Stunden rechnet die Werkstatt 25% günstiger.',
             pl: 'Wizytówka jest przy tobie. Przez 3 godziny warsztat liczy o 25% taniej.',
+        },
+    },
+    trained: {
+        name: {
+            ru: 'Опыт навыков +75%',
+            ua: 'Досвід навичок +75%',
+            en: 'Skill Training +75%',
+            de: 'Fähigkeitstraining +75%',
+            pl: 'Trening umiejętności +75%',
+        },
+        desc: {
+            ru: 'Все навыки растут на 75% быстрее, пока эффект активен.',
+            ua: 'Усі навички зростають на 75% швидше, поки ефект активний.',
+            en: 'Every skill grows 75% faster while the effect is active.',
+            de: 'Alle Fähigkeiten wachsen 75% schneller, solange der Effekt aktiv ist.',
+            pl: 'Wszystkie umiejętności rosną o 75% szybciej, dopóki efekt jest aktywny.',
+        },
+    },
+    wellFed: {
+        name: {
+            ru: 'Сытость',
+            ua: 'Ситість',
+            en: 'Well Fed',
+            de: 'Gesättigt',
+            pl: 'Najedzony',
+        },
+        desc: {
+            ru: 'Еда и вода расходуются на 40% медленнее.',
+            ua: 'Їжа та вода витрачаються на 40% повільніше.',
+            en: 'Food and water drain 40% slower.',
+            de: 'Nahrung und Wasser werden 40% langsamer verbraucht.',
+            pl: 'Jedzenie i woda zużywają się o 40% wolniej.',
+        },
+    },
+    goodPrices: {
+        name: {
+            ru: 'Выгодная сделка +10%',
+            ua: 'Вигідна угода +10%',
+            en: 'Good Deal +10%',
+            de: 'Gutes Geschäft +10%',
+            pl: 'Dobry interes +10%',
+        },
+        desc: {
+            ru: 'Скупщики платят на 10% больше за любой товар.',
+            ua: 'Скупники платять на 10% більше за будь-який товар.',
+            en: 'Buyers pay 10% more for anything you sell.',
+            de: 'Aufkäufer zahlen 10% mehr für alles, was du verkaufst.',
+            pl: 'Skupujący płacą o 10% więcej za każdy towar.',
         },
     },
 };

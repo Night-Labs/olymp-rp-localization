@@ -27,11 +27,11 @@ export default {
             pl: 'Linia zadań',
         },
         text: {
-            ru: 'Задания Майка закончились, но линия продолжается: следующие квесты запускаются в меню ({{menu}}), раздел "Квестовая линия".',
-            ua: 'Завдання Майка закінчилися, але лінія триває: наступні квести запускаються в меню ({{menu}}), розділ "Лінія квестів".',
-            en: 'The tasks from Mike are done, but the line goes on: start the next quests from the menu ({{menu}}), "Quests" tab.',
-            de: 'Mikes Aufgaben sind erledigt, aber die Reihe geht weiter: die nächsten Quests startest du im Menü ({{menu}}), Reiter "Quests".',
-            pl: `Zadania Mike'a się skończyły, ale linia trwa dalej: kolejne zadania uruchomisz w menu ({{menu}}), zakładka "Zadania".`,
+            ru: 'Задания Майка закончились, но линия продолжается: следующие квесты начинаются сами, один за другим. Весь список с наградами - в меню ({{menu}}), раздел "Квестовая линия".',
+            ua: 'Завдання Майка закінчилися, але лінія триває: наступні квести починаються самі, один за одним. Увесь список з нагородами - у меню ({{menu}}), розділ "Лінія квестів".',
+            en: 'The tasks from Mike are done, but the line goes on: the next quests start by themselves, one after another. The full list with rewards is in the menu ({{menu}}), "Quests" tab.',
+            de: 'Mikes Aufgaben sind erledigt, aber die Reihe geht weiter: die nächsten Quests starten von selbst, eine nach der anderen. Die ganze Liste mit Belohnungen findest du im Menü ({{menu}}), Reiter "Quests".',
+            pl: `Zadania Mike'a się skończyły, ale linia trwa dalej: kolejne zadania zaczynają się same, jedno po drugim. Pełna lista z nagrodami jest w menu ({{menu}}), zakładka "Zadania".`,
         },
     },
     battlePass: {
@@ -242,6 +242,22 @@ export default {
             pl: 'Praca daje doświadczenie: poziomy odblokowują nowe zadania, a w wielu pracach rośnie wypłata. Swoje poziomy prac sprawdzisz w menu ({{menu}}), zakładka "Statystyki".',
         },
     },
+    skillLevel: {
+        title: {
+            ru: 'Навыки',
+            ua: 'Навички',
+            en: 'Skills',
+            de: 'Fähigkeiten',
+            pl: 'Umiejętności',
+        },
+        text: {
+            ru: 'Навык "{{skill}}" вырос. Навыки качаются сами от ваших действий: бег - выносливость, спортзал - сила, стрельба - меткость. Все навыки и их прогресс - в меню ({{menu}}), раздел "Статистика", вкладка "Навыки".',
+            ua: 'Навичка "{{skill}}" зросла. Навички качаються самі від ваших дій: біг - витривалість, спортзал - сила, стрільба - влучність. Усі навички та їхній прогрес - у меню ({{menu}}), розділ "Статистика", вкладка "Навички".',
+            en: 'Your "{{skill}}" skill went up. Skills grow on their own from what you do: running raises stamina, the gym raises strength, shooting raises accuracy. All skills and their progress are in the menu ({{menu}}), "Stats" tab, "Skills" section.',
+            de: 'Deine Fertigkeit "{{skill}}" ist gestiegen. Fertigkeiten wachsen von selbst durch das, was du tust: Laufen bringt Ausdauer, das Gym Kraft, Schießen Treffsicherheit. Alle Fertigkeiten und ihren Fortschritt findest du im Menü ({{menu}}), Reiter "Statistiken", Bereich "Fähigkeiten".',
+            pl: 'Umiejętność "{{skill}}" wzrosła. Umiejętności rosną same od tego, co robisz: bieganie podnosi wytrzymałość, siłownia siłę, strzelanie celność. Wszystkie umiejętności i ich postęp są w menu ({{menu}}), zakładka "Statystyki", sekcja "Umiejętności".',
+        },
+    },
     fishCaught: {
         title: {
             ru: 'Первый улов',
@@ -288,6 +304,22 @@ export default {
             en: 'Sell meat and hides to a buyer: "Navigator" on the phone, "Buyers" section. Do not eat raw meat, it can poison you: cook it on a grill from a 24/7 store.',
             de: 'Fleisch und Felle verkaufst du an einen Händler: "Navigation" im Handy, Bereich "Käufer". Iss kein rohes Fleisch, davon kannst du dich vergiften: brate es auf einem Grill aus dem 24/7-Laden.',
             pl: 'Mięso i skóry sprzedasz skupującemu: "Nawigator" w telefonie, sekcja "Kupujący". Nie jedz surowego mięsa, można się zatruć: upiecz je na grillu ze sklepu 24/7.',
+        },
+    },
+    buyers: {
+        title: {
+            ru: 'Скупщики',
+            ua: 'Скупники',
+            en: 'Buyers',
+            de: 'Käufer',
+            pl: 'Skupujący',
+        },
+        text: {
+            ru: 'У каждого промысла свой скупщик: рыба, мясо и шкуры, урожай, руда, подводные находки, грибы - всё берут разные люди. Цены обновляются каждые {{hours}} часа, деньги у скупщика не бесконечны, а некоторые ещё и переезжают: где нужный стоит сейчас, подскажет "Навигатор" в телефоне, раздел "Скупщики".',
+            ua: `У кожного промислу свій скупник: риба, м'ясо та шкури, врожай, руда, підводні знахідки, гриби - усе беруть різні люди. Ціни оновлюються кожні {{hours}} години, гроші у скупника не безмежні, а дехто ще й переїжджає: де потрібний стоїть зараз, підкаже "Навігатор" у телефоні, розділ "Скупники".`,
+            en: 'Every trade has its own buyer: fish, meat and hides, harvest, ore, underwater finds, mushrooms - each goes to a different man. Prices change every {{hours}} hours, a buyer only carries so much cash, and some of them move around: the "Navigator" on the phone, "Buyers" section, shows where the one you need stands now.',
+            de: 'Jedes Gewerbe hat seinen eigenen Käufer: Fisch, Fleisch und Felle, Ernte, Erz, Unterwasserfunde, Pilze - alles nimmt ein anderer. Die Preise ändern sich alle {{hours}} Stunden, das Bargeld eines Käufers ist begrenzt, und manche ziehen um: wo der richtige gerade steht, zeigt die "Navigation" im Handy, Bereich "Käufer".',
+            pl: 'Każde zajęcie ma swojego skupującego: ryby, mięso i skóry, plony, ruda, podwodne znaleziska, grzyby - wszystko bierze kto inny. Ceny zmieniają się co {{hours}} godziny, gotówka skupującego jest ograniczona, a niektórzy zmieniają miejsce: gdzie stoi ten potrzebny, pokaże "Nawigator" w telefonie, sekcja "Kupujący".',
         },
     },
     weaponLicense: {

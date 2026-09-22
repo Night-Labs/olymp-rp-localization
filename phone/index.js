@@ -6,6 +6,7 @@ import apps from './pages/apps';
 import vehicles from './pages/vehicles';
 import phone from './pages/phone';
 import messages from './pages/messages';
+import presence from './pages/presence';
 import call from './pages/call';
 import gps from './pages/gps';
 import settings from './pages/settings';
@@ -30,6 +31,7 @@ export default {
     vehicles,
     phone,
     messages,
+    presence,
     call,
     gps,
     settings,
