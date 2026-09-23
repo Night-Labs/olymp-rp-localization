@@ -48,13 +48,6 @@ export default {
         de: 'Fahrzeug geladen! Bringe es zum Abschleppplatz.',
         pl: 'Pojazd załadowany! Dostarcz go na parking policyjny.',
     },
-    orderCompleted: {
-        ru: 'Заказ выполнен! Вы получили ${{salary}}. Ожидайте следующий заказ.',
-        ua: 'Замовлення виконано! Ви отримали ${{salary}}. Чекайте на наступне замовлення.',
-        en: 'Order completed! You received ${{salary}}. Wait for the next order.',
-        de: 'Auftrag erledigt! Du hast ${{salary}} erhalten. Warte auf den nächsten Auftrag.',
-        pl: 'Zlecenie wykonane! Otrzymałeś ${{salary}}. Czekaj na następne zlecenie.',
-    },
     noFreePosition: {
         ru: 'Сейчас нет доступных заказов, подождите немного.',
         ua: 'Зараз немає доступних замовлень, зачекайте трохи.',

@@ -253,13 +253,6 @@ export default {
         de: 'Der Wagen ist zu weit weg. Fahr ihn an den Automaten heran (bis {{distance}} m)',
         pl: 'Furgon jest za daleko. Podjedz nim do bankomatu (do {{distance}} m)',
     },
-    atmServiced: {
-        ru: 'Банкомат загружен. Начислено {{money}}',
-        ua: 'Банкомат завантажено. Нараховано {{money}}',
-        en: 'ATM refilled. You earned {{money}}',
-        de: 'Automat befüllt. Du hast {{money}} verdient',
-        pl: 'Bankomat napelniony. Zarobiles {{money}}',
-    },
     missedPayout: {
         ru: 'Вы были далеко от броневика - за этот банкомат вам не начислено',
         ua: 'Ви були далеко від броньовика - за цей банкомат вам не нараховано',

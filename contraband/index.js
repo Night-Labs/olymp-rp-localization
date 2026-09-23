@@ -147,8 +147,8 @@ export const contraband = {
 
     marked: {
         info: {
-            ru: 'Вы гружёны контрабандой: сырьё нельзя убрать в багажник, хранилище или передать — и оно выпадет, если вы умрёте или выйдете из игры. Метка снимется через минуту после выхода из зоны.',
-            ua: 'Ви завантажені контрабандою: сировину не можна прибрати в багажник, сховище чи передати — і вона випаде, якщо ви помрете або вийдете з гри. Мітка зніметься через хвилину після виходу із зони.',
+            ru: 'Вы гружёны контрабандой: сырьё нельзя убрать в багажник, хранилище или передать - и оно выпадет, если вы умрёте или выйдете из игры. Метка снимется через минуту после выхода из зоны.',
+            ua: 'Ви завантажені контрабандою: сировину не можна прибрати в багажник, сховище чи передати - і вона випаде, якщо ви помрете або вийдете з гри. Мітка зніметься через хвилину після виходу із зони.',
             en: 'You are loaded with contraband: the materials cannot be stored or handed over, and they drop if you die or quit. The mark clears one minute after you leave the zone.',
             de: 'Du bist mit Schmuggelware beladen: Das Material kann nicht gelagert oder uebergeben werden und faellt, wenn du stirbst oder das Spiel verlaesst. Die Markierung endet eine Minute nach Verlassen der Zone.',
             pl: 'Jestes zaladowany kontrabanda: surowcow nie mozna schowac ani przekazac, a wypadna, gdy zginiesz lub wyjdziesz z gry. Znacznik zniknie minute po opuszczeniu strefy.',
@@ -197,6 +197,72 @@ export const contraband = {
             en: 'Until the zone is cleared',
             de: 'Bis die Zone geraeumt wird',
             pl: 'Do wyczyszczenia strefy',
+        },
+    },
+
+    admin: {
+        started: {
+            ru: 'Событие запущено (зона откроется через {{seconds}} сек.)',
+            ua: 'Подію запущено (зона відкриється через {{seconds}} сек.)',
+            en: 'Event started (the zone opens in {{seconds}} s)',
+            de: 'Event gestartet (die Zone oeffnet in {{seconds}} Sek.)',
+            pl: 'Wydarzenie uruchomione (strefa otworzy sie za {{seconds}} s)',
+        },
+        alreadyRunning: {
+            ru: 'Событие уже идёт',
+            ua: 'Подія вже триває',
+            en: 'The event is already running',
+            de: 'Das Event laeuft bereits',
+            pl: 'Wydarzenie juz trwa',
+        },
+        stopped: {
+            ru: 'Событие остановлено',
+            ua: 'Подію зупинено',
+            en: 'Event stopped',
+            de: 'Event gestoppt',
+            pl: 'Wydarzenie zatrzymane',
+        },
+        notRunning: {
+            ru: 'Событие не шло, расписание сброшено',
+            ua: 'Подія не тривала, розклад скинуто',
+            en: 'No event was running, the schedule was reset',
+            de: 'Es lief kein Event, der Zeitplan wurde zurueckgesetzt',
+            pl: 'Zadne wydarzenie nie trwalo, harmonogram zresetowany',
+        },
+        unlocked: {
+            ru: 'Ящики можно вскрывать, таймер события запущен заново',
+            ua: 'Ящики можна розкривати, таймер події запущено заново',
+            en: 'The crates can be cracked, the event timer restarted',
+            de: 'Die Kisten koennen aufgebrochen werden, der Event-Timer wurde neu gestartet',
+            pl: 'Skrzynie mozna otwierac, licznik wydarzenia uruchomiony od nowa',
+        },
+        nothingToUnlock: {
+            ru: 'Нечего открывать: событие не идёт, зона ещё не появилась или ящики уже открыты',
+            ua: 'Нічого відкривати: подія не триває, зона ще не з\'явилася або ящики вже відкриті',
+            en: 'Nothing to unlock: no event is running, the zone has not appeared yet or the crates are already open',
+            de: 'Nichts zu entsperren: kein Event laeuft, die Zone ist noch nicht erschienen oder die Kisten sind schon offen',
+            pl: 'Nie ma czego odblokowac: wydarzenie nie trwa, strefa jeszcze sie nie pojawila albo skrzynie sa juz otwarte',
+        },
+        zoneNotFound: {
+            ru: 'Зона не найдена. Доступны: {{known}}',
+            ua: 'Зону не знайдено. Доступні: {{known}}',
+            en: 'Zone not found. Available: {{known}}',
+            de: 'Zone nicht gefunden. Verfuegbar: {{known}}',
+            pl: 'Nie znaleziono strefy. Dostepne: {{known}}',
+        },
+        teleported: {
+            ru: '{{name}}: точек {{points}}, радиус {{radius}} м',
+            ua: '{{name}}: точок {{points}}, радіус {{radius}} м',
+            en: '{{name}}: {{points}} points, radius {{radius}} m',
+            de: '{{name}}: {{points}} Punkte, Radius {{radius}} m',
+            pl: '{{name}}: {{points}} punktow, promien {{radius}} m',
+        },
+        previewCleared: {
+            ru: 'Превью убрано: {{count}} ящиков',
+            ua: 'Прев\'ю прибрано: {{count}} ящиків',
+            en: 'Preview removed: {{count}} crates',
+            de: 'Vorschau entfernt: {{count}} Kisten',
+            pl: 'Podglad usuniety: {{count}} skrzyn',
         },
     },
 };

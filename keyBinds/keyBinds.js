@@ -265,6 +265,13 @@ export default {
         de: 'Diebesgut abstellen',
         pl: 'Odłóż skradziony przedmiot',
     },
+    'organizations.contracts.dropCrate': {
+        ru: 'Выбросить ящик контракта',
+        ua: 'Викинути ящик контракту',
+        en: 'Drop the contract crate',
+        de: 'Vertragskiste wegwerfen',
+        pl: 'Wyrzuć skrzynię kontraktu',
+    },
     'weapon-heavy': {
         ru: 'Тяжёлое оружие',
         ua: 'Важка зброя',
@@ -793,6 +800,13 @@ export default {
             en: 'Shows your licenses to the player you are aiming at once they accept, or opens them for yourself with no target',
             de: 'Zeigt deine Lizenzen dem anvisierten Spieler nach dessen Zustimmung oder öffnet sie für dich, wenn kein Ziel da ist',
             pl: 'Pokazuje twoje licencje graczowi na celowniku po jego zgodzie lub otwiera je tobie, gdy nie ma celu',
+        },
+        shoulderSwap: {
+            ru: 'Перекидывает камеру прицеливания от третьего лица с правого плеча на левое и обратно. Выбранная сторона сохраняется до следующего нажатия. В транспорте не работает',
+            ua: 'Перекидає камеру прицілювання від третьої особи з правого плеча на ліве й назад. Обрана сторона зберігається до наступного натискання. У транспорті не працює',
+            en: 'Moves the third-person aiming camera from the right shoulder to the left and back. The chosen side stays until the next press. Does nothing in a vehicle',
+            de: 'Wechselt die Zielkamera in der Third-Person-Ansicht von der rechten auf die linke Schulter und zurück. Die gewählte Seite bleibt bis zum nächsten Drücken. Im Fahrzeug ohne Wirkung',
+            pl: 'Przenosi kamerę celowania z trzeciej osoby z prawego ramienia na lewe i z powrotem. Wybrana strona zostaje do następnego naciśnięcia. W pojeździe nie działa',
         },
     },
 };

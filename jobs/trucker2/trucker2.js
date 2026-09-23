@@ -66,24 +66,6 @@ export const trucker2 = {
         zh: '交付点',
     },
 
-    notifyDeliveredTrailer: {
-        ru: 'Вы доставили трейлер с грузом и заработали {{salary}} отправляйтесь на следующий заказ.',
-        ua: 'Ви доставили трейлер з вантажем і заробили {{salary}} відправляйтеся на наступне замовлення.',
-        en: 'You have delivered the trailer with cargo and earned {{salary}}, proceed to the next order.',
-        de: 'Du hast den Anhänger mit Ladung geliefert und {{salary}} verdient, mache weiter mit dem nächsten Auftrag.',
-        pl: 'Dostarczyłeś przyczepę z ładunkiem i zarobiłeś {{salary}}, przejdź do następnego zamówienia.',
-        zh: '你已交付载货拖车并赚取了{{salary}}，请继续下一个订单。',
-    },
-
-    notifyDeliveredTrailer2: {
-        ru: 'Вы доставили трейлер с грузом и заработали {{salary}} + {{addSalary}} за дополнительные задания. Отправляйтесь на следующий заказ.',
-        ua: 'Ви доставили трейлер з вантажем і заробили {{salary}} + {{addSalary}} за додаткові завдання. Вирушайте на наступне замовлення.',
-        en: 'You delivered the trailer with cargo and earned {{salary}} + {{addSalary}} for additional tasks. Proceed to the next order.',
-        de: 'Du hast den Anhänger mit Fracht geliefert und {{salary}} + {{addSalary}} für zusätzliche Aufgaben verdient. Gehe zum nächsten Auftrag über.',
-        pl: 'Dostarczyłeś przyczepę z ładunkiem i zarobiłeś {{salary}} + {{addSalary}} za dodatkowe zadania. Przejdź do następnego zamówienia.',
-        zh: '你交付了载货拖车并赚取了{{salary}} + {{addSalary}}作为额外任务的报酬。请继续下一个订单。',
-    },
-
     interactionDeliverTrailer: {
         ru: 'Доставить трейлер',
         ua: 'Доставити трейлер',

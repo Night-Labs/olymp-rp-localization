@@ -27,6 +27,13 @@ export default {
         de: 'Limit',
         pl: 'Limit',
     },
+    limitReached: {
+        ru: 'Достигнут лимит мебели',
+        ua: 'Досягнуто ліміт меблів',
+        en: 'Furniture limit reached',
+        de: 'Möbellimit erreicht',
+        pl: 'Osiągnięto limit mebli',
+    },
     status: {
         mode: {
             ru: 'Режим',

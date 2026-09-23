@@ -23,14 +23,6 @@ export default {
         pl: 'Dostarcz {{drug}}',
     },
 
-    youPlanted: {
-        ru: 'Вы успешно оставили посылку. Награда: ${{money}}',
-        ua: 'Ви успішно залишили посилку. Нагорода: ${{money}}',
-        en: 'You successfully planted the package. Reward: ${{money}}',
-        de: 'Du hast das Paket erfolgreich abgelegt. Belohnung: ${{money}}',
-        pl: 'Pomyślnie dostarczyłeś paczkę. Nagroda: ${{money}}',
-    },
-
     thatWasLast: {
         ru: 'Это была последняя посылка. Заработано: ${{money}}',
         ua: 'Це була остання посилка. Зароблено: ${{money}}',

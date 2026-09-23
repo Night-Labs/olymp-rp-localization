@@ -72,14 +72,6 @@ export const server = {
         pl: 'Załadowałeś skrzynię i zarobiłeś {{salary}}$',
         zh: '你装载了一个箱子，赚取了{{salary}}$',
     },
-    youSuccessfullyUnloadedGoods: {
-        ru: 'Вы успешно разгрузили весь товар из машины и заработали {{salary}}. Отправляйтесь на следующую точку загрузки.',
-        ua: 'Ви успішно розгрузили весь товар з машини і заробили {{salary}}. Вирушайте на наступну точку завантаження.',
-        en: 'You have successfully unloaded all the goods from the truck and earned {{salary}}. Head to the next loading point.',
-        de: 'Du hast erfolgreich alle Waren aus dem LKW entladen und {{salary}} verdient. Begebe dich zur nächsten Ladezone.',
-        pl: 'Pomyślnie rozładowałeś cały towar z ciężarówki i zarobiłeś {{salary}}. Udaj się do następnego punktu załadunku.',
-        zh: '你已成功从卡车卸载所有货物并赚取了{{salary}}。前往下一个装载点。',
-    },
     youUnloadedBoxAndEarned: {
         ru: 'Вы разгрузили ящик и заработали {{salary}}$',
         ua: 'Ви розгрузили ящик і заробили {{salary}}$',

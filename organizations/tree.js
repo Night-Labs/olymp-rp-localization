@@ -100,6 +100,16 @@ const SHARED = {
             pl: 'Limit czlonkow: {{after}} zamiast {{before}}.',
         },
     },
+    contractSlots: {
+        name: { ru: '+1 контракт', ua: '+1 контракт', en: '+1 contract', de: '+1 Auftrag', pl: '+1 kontrakt' },
+        description: {
+            ru: 'Контрактов в наборе: {{after}} вместо {{before}}.',
+            ua: 'Контрактів у наборі: {{after}} замість {{before}}.',
+            en: 'Contracts per roster: {{after}} instead of {{before}}.',
+            de: 'Auftraege pro Liste: {{after}} statt {{before}}.',
+            pl: 'Kontraktow w zestawie: {{after}} zamiast {{before}}.',
+        },
+    },
     contractTier: {
         name: { ru: 'Уровень заказа', ua: 'Рівень замовлення', en: 'Order tier', de: 'Auftragsstufe', pl: 'Poziom zlecenia' },
         description: {
@@ -363,6 +373,13 @@ export const tree = {
         },
     },
     errors: {
+        unknown: {
+            ru: 'Сервер не ответил. Попробуйте ещё раз.',
+            ua: 'Сервер не відповів. Спробуйте ще раз.',
+            en: 'The server did not answer. Try again.',
+            de: 'Der Server hat nicht geantwortet. Versuche es erneut.',
+            pl: 'Serwer nie odpowiedzial. Sprobuj ponownie.',
+        },
         notInGame: {
             ru: 'Сначала войдите в игру.',
             ua: 'Спочатку увійдіть у гру.',

@@ -135,6 +135,13 @@ const cef = {
             de: 'Bezahlt bis',
             pl: 'Opłacono do',
         },
+        notAllowed: {
+            ru: 'Нет доступа',
+            ua: 'Немає доступу',
+            en: 'No access',
+            de: 'Kein Zugriff',
+            pl: 'Brak dostępu',
+        },
         houseClass: {
             ru: 'Класс дома',
             ua: 'Клас будинку',

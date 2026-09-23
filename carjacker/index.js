@@ -152,20 +152,6 @@ export default {
         pl: 'Dziś mamy podrasowane {{model}}, kolor {{color}}, tablice {{plate}}. Przybliżona pozycja znana, pośpiesz się.',
     },
 
-    dropOffPerfect: {
-        ru: 'Отлично! Ты справился с заданием, ты заработал: ${{salary}} + ${{bonus}} бонус за отсутствие повреждений.',
-        ua: 'Відмінно! Ти впорався із завданням, ти заробив: ${{salary}} + ${{bonus}} бонус за відсутність пошкоджень.',
-        en: 'Great! You completed the task, you earned: ${{salary}} + ${{bonus}} bonus for no damage.',
-        de: 'Großartig! Du hast die Aufgabe erledigt und verdienst: ${{salary}} + ${{bonus}} Bonus für keine Schäden.',
-        pl: 'Świetnie! Udało ci się wykonać zadanie, zarobiłeś: ${{salary}} + ${{bonus}} premia za brak uszkodzeń.',
-    },
-    dropOffBad: {
-        ru: 'Ты справился с заданием почти идеально. Ты заработал: ${{salary}} - ${{penalty}} штраф за повреждения.',
-        ua: 'Ти впорався із завданням майже ідеально. Ти заробив: ${{salary}} - ${{penalty}} штраф за пошкодження.',
-        en: 'You almost completed the task perfectly. You earned: ${{salary}} - ${{penalty}} penalty for damage.',
-        de: 'Du hast die Aufgabe fast perfekt geschafft. Du hast verdient: ${{salary}} - ${{penalty}} Strafe für Schäden.',
-        pl: 'Prawie idealnie wykonałeś zadanie. Zarobiłeś: ${{salary}} - ${{penalty}} kara za uszkodzenia.',
-    },
     smsDropOff: {
         ru: 'Я вижу ты успешно доставил машину как я хотел, держи бесплатную доставку личной машины!',
         ua: 'Я бачу, ти успішно доставив машину, як я хотів, тримай безкоштовну доставку особистого автомобіля!',

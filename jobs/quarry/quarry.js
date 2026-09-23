@@ -197,14 +197,6 @@ export const quarry = {
             pl: 'Załadunek zakończony, udaj się do punktu rozładunku.',
         },
 
-        finishUnloading: {
-            ru: 'Разгрузка завершена, вы заработали {{salary}}, отправляйтесь к новой точке загрузки.',
-            ua: 'Розвантаження завершено, ви заробили {{salary}}, вирушайте до нової точки завантаження.',
-            en: 'Unloading complete, you earned {{salary}}, head to the new loading point.',
-            de: 'Entladen abgeschlossen, Du hast {{salary}} verdient, begebe dich zur neuen Ladestelle.',
-            pl: 'Rozładunek zakończony, zarobiłeś {{salary}}, udaj się do nowego punktu załadunku.',
-        },
-
         interaction: {
             load: {
                 ru: 'Начать загрузку',
@@ -312,14 +304,6 @@ export const quarry = {
             en: 'Loading is complete, head to the unloading point.',
             de: 'Das Laden ist abgeschlossen, begebe dich zum Entladepunkt.',
             pl: 'Załadunek zakończony, udaj się do punktu rozładunku.',
-        },
-
-        finishUnloading: {
-            ru: 'Разгрузка завершена, вы заработали {{salary}}, отправляйтесь к новой точке загрузки.',
-            ua: 'Розвантаження завершено, ви заробили {{salary}}, вирушайте до нової точки завантаження.',
-            en: 'Unloading complete, you earned {{salary}}, head to the new loading point.',
-            de: 'Entladen abgeschlossen, du hast {{salary}} verdient, begebe dich zur neuen Ladestelle.',
-            pl: 'Rozładunek zakończony, zarobiłeś {{salary}}, udaj się do nowego punktu załadunku.',
         },
     },
 };

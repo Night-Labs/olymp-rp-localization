@@ -111,6 +111,13 @@ export const settings = {
             de: 'Kamera',
             pl: 'Aparat',
         },
+        drone: {
+            ru: 'Дрон',
+            ua: 'Дрон',
+            en: 'Drone',
+            de: 'Drohne',
+            pl: 'Dron',
+        },
     },
     walkingStyles: {
         default: {
