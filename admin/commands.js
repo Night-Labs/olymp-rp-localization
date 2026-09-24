@@ -2786,6 +2786,13 @@ export default {
         de: 'Das aktive Schmuggel-Event stoppen und den Typ zurueck in den Zeitplan geben.',
         pl: 'Zatrzymaj aktywne wydarzenie kontrabandy i przywroc typ do harmonogramu.',
     },
+    contraband_unlock: {
+        ru: 'Сбросить таймер запечатки: ящики активного события можно вскрывать сразу.',
+        ua: 'Скинути таймер запечатування: ящики активної події можна розкривати одразу.',
+        en: 'Skip the seal timer: the crates of the active event can be cracked right away.',
+        de: 'Den Siegel-Timer ueberspringen: Die Kisten des aktiven Events koennen sofort aufgebrochen werden.',
+        pl: 'Pomin licznik zapieczetowania: skrzynie aktywnego wydarzenia mozna otwierac od razu.',
+    },
     contraband_status: {
         ru: 'Показать состояние событий контрабанды и историю ротации зон.',
         ua: 'Показати стан подій контрабанди та історію ротації зон.',

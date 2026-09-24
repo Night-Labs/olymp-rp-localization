@@ -56,11 +56,11 @@ export default {
     },
 
     crewReady: {
-        ru: 'На дело идёте вместе, {{count}}. Шума больше - времени в доме меньше.',
-        ua: 'На справу йдете разом, {{count}}. Шуму більше - часу в будинку менше.',
-        en: 'You are going in together, {{count}} of you. More noise means less time inside.',
-        de: 'Ihr geht zu {{count}}. rein. Mehr Lärm heißt weniger Zeit im Haus.',
-        pl: 'Idziecie razem, {{count}}. Więcej hałasu to mniej czasu w domu.',
+        ru: 'Вас на деле: {{count}}. Чем больше людей, тем больше шума и тем меньше времени в доме.',
+        ua: 'Вас на справі: {{count}}. Що більше людей, то більше шуму і то менше часу в будинку.',
+        en: 'Crew on this job: {{count}}. The more people, the more noise and the less time inside.',
+        de: 'Leute bei diesem Auftrag: {{count}}. Je mehr Leute, desto mehr Lärm und desto weniger Zeit im Haus.',
+        pl: 'Ludzi na robocie: {{count}}. Im więcej osób, tym więcej hałasu i tym mniej czasu w domu.',
     },
 
     crewSkipped: {
@@ -112,11 +112,11 @@ export default {
     },
 
     inside: {
-        ru: 'Внутри есть чем поживиться: {{count}} вещей',
-        ua: 'Усередині є чим поживитися: {{count}} речей',
-        en: 'There is something worth taking inside: {{count}} items',
-        de: 'Drinnen gibt es etwas zu holen: {{count}} Gegenstände',
-        pl: 'W środku jest coś wartego zabrania: {{count}} przedmiotów',
+        ru: 'Внутри можно вынести вещей: {{count}}',
+        ua: 'Усередині можна винести речей: {{count}}',
+        en: 'Items worth taking inside: {{count}}',
+        de: 'Gegenstände zum Mitnehmen im Haus: {{count}}',
+        pl: 'Przedmioty do wyniesienia w środku: {{count}}',
     },
 
     takeProp: {
@@ -136,18 +136,18 @@ export default {
     },
 
     handsFull: {
-        ru: 'У вас уже занятые руки',
-        ua: 'У вас уже зайняті руки',
+        ru: 'Руки уже заняты',
+        ua: 'Руки вже зайняті',
         en: 'Your hands are already full',
-        de: 'Ihre Hände sind bereits voll',
+        de: 'Deine Hände sind schon voll',
         pl: 'Masz już zajęte ręce',
     },
 
     alreadyInside: {
-        ru: 'Сначала выйдите из дома',
-        ua: 'Спочатку вийдіть з будинку',
+        ru: 'Сначала выйди из дома',
+        ua: 'Спочатку вийди з будинку',
         en: 'Leave the house first',
-        de: 'Verlassen Sie zuerst das Haus',
+        de: 'Verlass zuerst das Haus',
         pl: 'Najpierw opuść dom',
     },
 
@@ -172,14 +172,14 @@ export default {
         ua: 'Зламати замок',
         en: 'Pick the lock',
         de: 'Schloss knacken',
-        pl: 'Otworzyć zamek',
+        pl: 'Otwórz zamek',
     },
 
     noLockpick: {
         ru: 'Нужна отмычка',
         ua: 'Потрібна відмичка',
         en: 'You need a lockpick',
-        de: 'Sie brauchen einen Dietrich',
+        de: 'Du brauchst einen Dietrich',
         pl: 'Potrzebujesz wytrycha',
     },
 
@@ -192,10 +192,10 @@ export default {
     },
 
     alarmArmed: {
-        ru: 'В доме сигнализация. У вас минута, чтобы её отключить',
-        ua: 'У будинку сигналізація. У вас хвилина, щоб її вимкнути',
+        ru: 'В доме сигнализация. У тебя минута, чтобы её отключить',
+        ua: 'У будинку сигналізація. У тебе хвилина, щоб її вимкнути',
         en: 'The house is alarmed. You have a minute to kill it',
-        de: 'Das Haus hat eine Alarmanlage. Sie haben eine Minute, sie abzuschalten',
+        de: 'Das Haus hat eine Alarmanlage. Du hast eine Minute, sie abzuschalten',
         pl: 'Dom ma alarm. Masz minutę, żeby go wyłączyć',
     },
 
@@ -204,7 +204,7 @@ export default {
         ua: 'Вимкнути сигналізацію',
         en: 'Disable the alarm',
         de: 'Alarmanlage abschalten',
-        pl: 'Wyłączyć alarm',
+        pl: 'Wyłącz alarm',
     },
 
     alarmDisabled: {
@@ -219,15 +219,15 @@ export default {
         ru: 'Сигнализация сработала, полиция уже едет. К скупщику не суйся, пока не утихнет',
         ua: 'Сигналізація спрацювала, поліція вже їде. До скупника не потикайся, поки не вщухне',
         en: 'The alarm went off, the police are on their way. Do not go near the fence until it goes quiet',
-        de: 'Der Alarm ist losgegangen, die Polizei ist unterwegs. Gehen Sie nicht zum Hehler, bevor es ruhig ist',
+        de: 'Der Alarm ist losgegangen, die Polizei ist unterwegs. Geh nicht zum Hehler, bevor es ruhig ist',
         pl: 'Alarm się włączył, policja już jedzie. Nie pchaj się do pasera, dopóki nie ucichnie',
     },
 
     timeUp: {
         ru: 'Время вышло, пора уходить. К скупщику не суйся, пока не утихнет',
-        ua: 'Час вийшов, час іти. До скупника не потикайся, поки не вщухне',
+        ua: 'Час вийшов, треба йти. До скупника не потикайся, поки не вщухне',
         en: 'Time is up, get out. Do not go near the fence until it goes quiet',
-        de: 'Die Zeit ist um, verschwinden Sie. Gehen Sie nicht zum Hehler, bevor es ruhig ist',
+        de: 'Die Zeit ist um, verschwinde. Geh nicht zum Hehler, bevor es ruhig ist',
         pl: 'Czas minął, pora się zbierać. Nie pchaj się do pasera, dopóki nie ucichnie',
     },
 
@@ -248,11 +248,11 @@ export default {
     },
 
     leaveWindow: {
-        ru: 'Адрес уже у полиции. {{seconds}} сек, потом уходишь в любом случае',
-        ua: 'Адреса вже в поліції. {{seconds}} сек, потім ідеш у будь-якому разі',
-        en: 'The police have the address. {{seconds}} sec, then you are out either way',
-        de: 'Die Polizei hat die Adresse. {{seconds}} Sek., dann bist du so oder so draußen',
-        pl: 'Policja ma adres. {{seconds}} sek., potem i tak wychodzisz',
+        ru: 'Полиция уже в пути. Покинь дом за {{seconds}} сек.',
+        ua: 'Поліція вже в дорозі. Залиш будинок за {{seconds}} сек.',
+        en: 'The police are on the way. Leave the house within {{seconds}} sec.',
+        de: 'Die Polizei ist unterwegs. Verlass das Haus innerhalb von {{seconds}} Sek.',
+        pl: 'Policja jest w drodze. Opuść dom w ciągu {{seconds}} sek.',
     },
 
     escapeTimer: {
@@ -276,7 +276,7 @@ export default {
         ua: 'Зламати сейф',
         en: 'Crack the safe',
         de: 'Safe knacken',
-        pl: 'Otworzyć sejf',
+        pl: 'Otwórz sejf',
     },
 
     safeCracked: {
@@ -292,7 +292,7 @@ export default {
         ua: 'Обшукати схованку',
         en: 'Search the stash',
         de: 'Versteck durchsuchen',
-        pl: 'Przeszukać skrytkę',
+        pl: 'Przeszukaj skrytkę',
     },
 
     dresserEmpty: {
@@ -330,7 +330,7 @@ export default {
     busted: {
         ru: 'Тебя взяли. Всё, что было в багажнике, изъято',
         ua: 'Тебе взяли. Усе, що було в багажнику, вилучено',
-        en: 'You have been taken. Everything in the boot is seized',
+        en: 'You got caught. Everything in the trunk is seized',
         de: 'Du wurdest hochgenommen. Alles im Kofferraum ist beschlagnahmt',
         pl: 'Zgarnęli cię. Wszystko z bagażnika zostało zajęte',
     },
@@ -352,18 +352,18 @@ export default {
     },
 
     cooldown: {
-        ru: 'Слишком рано, подождите {{time}}',
-        ua: 'Занадто рано, зачекайте {{time}}',
+        ru: 'Слишком рано, подожди {{time}}',
+        ua: 'Занадто рано, зачекай {{time}}',
         en: 'Too soon, wait {{time}}',
-        de: 'Zu früh, warten Sie {{time}}',
+        de: 'Zu früh, warte {{time}}',
         pl: 'Za wcześnie, poczekaj {{time}}',
     },
 
     runInProgress: {
-        ru: 'У вас уже есть адрес',
-        ua: 'У вас уже є адреса',
+        ru: 'У тебя уже есть адрес',
+        ua: 'У тебе вже є адреса',
         en: 'You already have an address',
-        de: 'Sie haben bereits eine Adresse',
+        de: 'Du hast schon eine Adresse',
         pl: 'Masz już adres',
     },
 
@@ -392,10 +392,10 @@ export default {
     },
 
     lootLocked: {
-        ru: 'Пока копы ищут вас, краденое из багажника не достать',
-        ua: 'Поки копи шукають вас, крадене з багажника не дістати',
+        ru: 'Пока копы тебя ищут, краденое из багажника не достать',
+        ua: 'Поки копи тебе шукають, крадене з багажника не дістати',
         en: 'While the police are looking for you, the loot stays in the trunk',
-        de: 'Solange die Polizei nach Ihnen sucht, bleibt die Beute im Kofferraum',
+        de: 'Solange die Polizei nach dir sucht, bleibt die Beute im Kofferraum',
         pl: 'Dopóki policja cię szuka, łup zostaje w bagażniku',
     },
 
@@ -403,7 +403,7 @@ export default {
         ru: 'Грузить можно только в свою машину',
         ua: 'Вантажити можна лише у свою машину',
         en: 'You can only load your own car',
-        de: 'Sie können nur Ihr eigenes Auto beladen',
+        de: 'Du kannst nur dein eigenes Auto beladen',
         pl: 'Możesz ładować tylko własne auto',
     },
 

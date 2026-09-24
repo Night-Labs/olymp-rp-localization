@@ -51,13 +51,6 @@ export const server = {
         pl: 'Za szybko, spróbuj ponownie',
         zh: '太快了，请再试一次',
     },
-    completeOrder: {
-        ru: 'Вы доставили заказ и получили ${{salary}} + ${{tip}} чаевых',
-        ua: 'Ти доставив замовлення та отримав ${{salary}} + ${{tip}} чайових',
-        en: 'You delivered the order and got ${{salary}} + ${{tip}} in tips',
-        de: 'Du hast die Bestellung geliefert und ${{salary}} + ${{tip}} Trinkgeld bekommen',
-        pl: 'Dostarczyłeś zamówienie i otrzymałeś ${{salary}} + ${{tip}} napiwków',
-    },
     destinationBlip: {
         ru: 'Адрес доставки',
         ua: 'Адреса доставки',

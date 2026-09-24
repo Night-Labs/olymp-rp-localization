@@ -94,11 +94,11 @@ export const lifecycle = {
                 pl: 'Rozwiąż organizację',
             },
             message: {
-                ru: 'Распустить организацию {{orgName}}? База перейдёт вам в личное владение, остаток баланса организации (${{balance}}) будет зачислен на ваш банковский счёт.',
-                ua: 'Розпустити організацію {{orgName}}? База перейде вам в особисте володіння, залишок балансу організації (${{balance}}) буде зараховано на ваш банківський рахунок.',
-                en: 'Disband organization {{orgName}}? The HQ will become yours, and the remaining balance (${{balance}}) will be credited to your bank account.',
-                de: 'Organisation {{orgName}} auflösen? Das HQ geht in deinen persönlichen Besitz über, der verbleibende Saldo (${{balance}}) wird deinem Bankkonto gutgeschrieben.',
-                pl: 'Rozwiązać organizację {{orgName}}? HQ przejdzie na twoją własność, pozostała kwota (${{balance}}) zostanie zapisana na twoje konto bankowe.',
+                ru: 'Распустить организацию {{orgName}}? Это действие необратимо.<br /><br />- База перейдёт вам в личное владение.<br />- Остаток казны (${{balance}}) будет зачислен на ваш банковский счёт.<br />- Машины, переданные участниками, вернутся владельцам.<br />- Машины, купленные организацией, будут удалены без компенсации.<br />- Офисы, склад и всё его содержимое будут потеряны.<br />- Территории станут свободными.<br />- Все взятые контракты будут отменены.<br /><br />Для подтверждения введите пароль от аккаунта.',
+                ua: 'Розпустити організацію {{orgName}}? Ця дія незворотна.<br /><br />- База перейде вам в особисте володіння.<br />- Залишок казни (${{balance}}) буде зараховано на ваш банківський рахунок.<br />- Машини, передані учасниками, повернуться власникам.<br />- Машини, куплені організацією, буде видалено без компенсації.<br />- Офіси, склад і весь його вміст буде втрачено.<br />- Території стануть вільними.<br />- Усі взяті контракти буде скасовано.<br /><br />Для підтвердження введіть пароль від акаунта.',
+                en: 'Disband organization {{orgName}}? This cannot be undone.<br /><br />- The HQ becomes your personal property.<br />- The remaining treasury (${{balance}}) is credited to your bank account.<br />- Vehicles transferred by members return to their owners.<br />- Vehicles bought by the organization are deleted without compensation.<br />- Offices, the warehouse and everything in it are lost.<br />- Territories become free.<br />- All taken contracts are cancelled.<br /><br />Enter your account password to confirm.',
+                de: 'Organisation {{orgName}} auflösen? Dies kann nicht rückgängig gemacht werden.<br /><br />- Das HQ geht in deinen persönlichen Besitz über.<br />- Der Rest der Kasse (${{balance}}) wird deinem Bankkonto gutgeschrieben.<br />- Von Mitgliedern übergebene Fahrzeuge gehen an ihre Besitzer zurück.<br />- Von der Organisation gekaufte Fahrzeuge werden ohne Entschädigung gelöscht.<br />- Büros, das Lager und sein gesamter Inhalt gehen verloren.<br />- Gebiete werden frei.<br />- Alle angenommenen Aufträge werden abgebrochen.<br /><br />Gib zur Bestätigung dein Kontopasswort ein.',
+                pl: 'Rozwiązać organizację {{orgName}}? Tego nie można cofnąć.<br /><br />- HQ przejdzie na twoją własność.<br />- Reszta skarbca (${{balance}}) zostanie zapisana na twoje konto bankowe.<br />- Pojazdy przekazane przez członków wrócą do właścicieli.<br />- Pojazdy kupione przez organizację zostaną usunięte bez rekompensaty.<br />- Biura, magazyn i cała jego zawartość przepadną.<br />- Terytoria staną się wolne.<br />- Wszystkie przyjęte kontrakty zostaną anulowane.<br /><br />Aby potwierdzić, wpisz hasło do konta.',
             },
             confirm: {
                 ru: 'Распустить',
@@ -106,6 +106,13 @@ export const lifecycle = {
                 en: 'Disband',
                 de: 'Auflösen',
                 pl: 'Rozwiąż',
+            },
+            passwordPlaceholder: {
+                ru: 'Пароль от аккаунта',
+                ua: 'Пароль від акаунта',
+                en: 'Account password',
+                de: 'Kontopasswort',
+                pl: 'Hasło do konta',
             },
             cancel: {
                 ru: 'Отмена',
@@ -159,6 +166,13 @@ export const lifecycle = {
                 en: 'Your personal house limit is reached. Free a slot before disbanding',
                 de: 'Dein Limit für private Häuser ist erreicht. Mache zuerst einen Platz frei',
                 pl: 'Osiągnąłeś limit prywatnych domów. Zwolnij slot przed rozwiązaniem',
+            },
+            wrongPassword: {
+                ru: 'Неверный пароль',
+                ua: 'Невірний пароль',
+                en: 'Wrong password',
+                de: 'Falsches Passwort',
+                pl: 'Nieprawidłowe hasło',
             },
             failed: {
                 ru: 'Не удалось распустить организацию',

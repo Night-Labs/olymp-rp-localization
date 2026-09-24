@@ -163,6 +163,57 @@ export default {
         pl: 'Już pracujesz w innym miejscu pracy, najpierw zrezygnuj z niego',
         zh: '你已经在另一个工作岗位上，首先请从那里辞职',
     },
+    // The one payout notification every job sends (notifySalary in server/jobs/module.ts)
+    payout: {
+        earned: {
+            ru: 'Вы заработали {{amount}}',
+            ua: 'Ви заробили {{amount}}',
+            en: 'You earned {{amount}}',
+            de: 'Du hast {{amount}} verdient',
+            pl: 'Zarobiłeś {{amount}}',
+            zh: '你赚到了 {{amount}}',
+        },
+        statusBonus: {
+            ru: 'бонус {{status}}',
+            ua: 'бонус {{status}}',
+            en: '{{status}} bonus',
+            de: '{{status}}-Bonus',
+            pl: 'bonus {{status}}',
+            zh: '{{status}} 奖励',
+        },
+        tip: {
+            ru: 'чаевые',
+            ua: 'чайові',
+            en: 'tips',
+            de: 'Trinkgeld',
+            pl: 'napiwek',
+            zh: '小费',
+        },
+        extraTasks: {
+            ru: 'за доп. задания',
+            ua: 'за дод. завдання',
+            en: 'for extra tasks',
+            de: 'für Zusatzaufgaben',
+            pl: 'za zadania dodatkowe',
+            zh: '额外任务',
+        },
+        noDamage: {
+            ru: 'за целую машину',
+            ua: 'за цілу машину',
+            en: 'for no damage',
+            de: 'für keinen Schaden',
+            pl: 'za brak uszkodzeń',
+            zh: '无损奖励',
+        },
+        damagePenalty: {
+            ru: 'штраф за повреждения',
+            ua: 'штраф за пошкодження',
+            en: 'damage penalty',
+            de: 'Strafe für Schäden',
+            pl: 'kara za uszkodzenia',
+            zh: '损坏罚款',
+        },
+    },
 
     // САМИ РАБОТЫ
     trucker,

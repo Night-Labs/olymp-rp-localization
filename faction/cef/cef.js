@@ -176,6 +176,15 @@ export const cef = {
         },
     },
 
+    close: {
+        ru: 'Закрыть',
+        en: 'Close',
+        ua: 'Закрити',
+        de: 'Schließen',
+        pl: 'Zamknij',
+        zh: '关闭',
+    },
+
     nameSurname: {
         ru: 'Имя Фамилия',
         en: 'Name Surname',

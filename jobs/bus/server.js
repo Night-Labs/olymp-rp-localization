@@ -23,14 +23,6 @@ export const server = {
         pl: 'Pomyślnie zrezygnowałeś',
         zh: '您已成功辞职',
     },
-    youGotSalary: {
-        ru: 'Вы получили зарплату: ${{salary}}',
-        ua: 'Ви отримали зарплату: ${{salary}}',
-        en: 'You received a salary: ${{salary}}',
-        de: 'Du hast ein Gehalt von : ${{salary}} erhalten',
-        pl: 'Otrzymałeś wynagrodzenie: ${{salary}}',
-        zh: '您收到了工资: {{salary}}',
-    },
     returnToVehicle: {
         ru: 'Если вы не вернётесь в автобус за 1 минуту вы будете уволены',
         ua: 'Якщо ви не повернетесь до автобуса за 1 хвилину, вас звільнять',
@@ -70,14 +62,6 @@ export const server = {
         de: 'Du hast ${{rideFare}} für die Fahrkarte erhalten.',
         pl: 'Otrzymałeś ${{rideFare}} za przejazd.',
         zh: '您收到了{{rideFare}}作为车费。',
-    },
-    passengersPaid: {
-        ru: 'Пассажиров вошло: {{count}}, за проезд: ${{fare}}',
-        ua: 'Пасажирів увійшло: {{count}}, за проїзд: ${{fare}}',
-        en: 'Passengers boarded: {{count}}, fares: ${{fare}}',
-        de: 'Fahrgäste eingestiegen: {{count}}, Fahrgeld: ${{fare}}',
-        pl: 'Pasażerów wsiadło: {{count}}, za przejazd: ${{fare}}',
-        zh: '上车乘客：{{count}}，车费：{{fare}}',
     },
     notEnoughCash: {
         ru: 'У вас недостаточно денег для оплаты проезда.',
