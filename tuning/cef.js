@@ -1497,6 +1497,23 @@ export const cef = {
             zh: '取消',
         },
 
+        turnOff: {
+            ru: 'Выключить чип',
+            ua: 'Вимкнути чіп',
+            en: 'Switch chip off',
+            de: 'Chip ausschalten',
+            pl: 'Wyłącz chip',
+            zh: '关闭芯片',
+        },
+        turnOn: {
+            ru: 'Включить чип',
+            ua: 'Увімкнути чіп',
+            en: 'Switch chip on',
+            de: 'Chip einschalten',
+            pl: 'Włącz chip',
+            zh: '开启芯片',
+        },
+
         pickChip: {
             ru: 'Выбрать чип',
             ua: 'Вибрати чіп',
@@ -3133,6 +3150,15 @@ export const cef = {
             de: 'Lager / Coins',
             pl: 'Magazyn / coiny',
             zh: '仓库 / 金币',
+        },
+
+        paySourceMoney: {
+            ua: 'Склад / гроші',
+            en: 'Warehouse / money',
+            ru: 'Склад / деньги',
+            de: 'Lager / Geld',
+            pl: 'Magazyn / pieniądze',
+            zh: '仓库 / 现金',
         },
 
         inCart: {
