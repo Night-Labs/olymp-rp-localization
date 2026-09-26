@@ -976,11 +976,11 @@ export default {
             pl: 'Serw przyjęty',
         },
         desc: {
-            ru: 'Выйди на корт и выиграй партию в теннис. Соперник может быть живым или машиной - победа засчитывается любая.',
-            ua: 'Вийди на корт і виграй партію в теніс. Суперник може бути живим або машиною - перемога зараховується будь-яка.',
-            en: 'Get out on the court and win a tennis match. Live opponent or machine, a win is a win.',
-            de: 'Geh auf den Platz und gewinne ein Tennismatch. Ob echter Gegner oder Maschine, ein Sieg zählt.',
-            pl: 'Wyjdź na kort i wygraj mecz tenisa. Żywy przeciwnik czy maszyna - liczy się każda wygrana.',
+            ru: 'Выйди на корт и обыграй другого игрока в теннис.',
+            ua: 'Вийди на корт і обіграй іншого гравця в теніс.',
+            en: 'Get out on the court and beat another player at tennis.',
+            de: 'Geh auf den Platz und besiege einen anderen Spieler im Tennis.',
+            pl: 'Wyjdź na kort i pokonaj innego gracza w tenisa.',
         },
     },
     sellFenceLootToBuyerDailyQuest: {

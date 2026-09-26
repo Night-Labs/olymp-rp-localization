@@ -53,4 +53,32 @@ export default {
             zh: '时间: {{time}}',
         },
     },
+
+    // GTA Race pickups (server gameEvents/modes/race). The special ones are used with the horn key.
+    pickup: {
+        boost: {
+            ru: 'Ускорение. Нажмите E (гудок), чтобы включить',
+            ua: 'Прискорення. Натисніть E (гудок), щоб увімкнути',
+            en: 'Boost. Press E (horn) to fire it',
+            de: 'Boost. Drücke E (Hupe), um ihn zu zünden',
+            pl: 'Dopalacz. Naciśnij E (klakson), aby go użyć',
+            zh: '加速。按 E（喇叭）启用',
+        },
+        rocket: {
+            ru: 'Ракеты. E (гудок) - выстрел, с зажатой C - назад',
+            ua: 'Ракети. E (гудок) - постріл, із затиснутою C - назад',
+            en: 'Rockets. E (horn) fires them, hold C to fire backwards',
+            de: 'Raketen. E (Hupe) feuert sie ab, mit gehaltenem C nach hinten',
+            pl: 'Rakiety. E (klakson) strzela, z wciśniętym C do tyłu',
+            zh: '火箭。按 E（喇叭）发射，按住 C 向后发射',
+        },
+        repair: {
+            ru: 'Транспорт отремонтирован',
+            ua: 'Транспорт відремонтовано',
+            en: 'Vehicle repaired',
+            de: 'Fahrzeug repariert',
+            pl: 'Pojazd naprawiony',
+            zh: '载具已修复',
+        },
+    },
 };

@@ -1580,5 +1580,56 @@ export const weapons = {
                 pl: 'Emiter impulsu elektromagnetycznego: wyłącza elektronikę pojazdu, nie zostawiając na nim rysy.',
             },
         },
+
+        grenade: {
+            name: {
+                ru: 'Граната',
+                ua: 'Граната',
+                en: 'Grenade',
+                de: 'Granate',
+                pl: 'Granat',
+            },
+            desc: {
+                ru: 'Осколочная граната: выдерни чеку и брось. Взрывается через несколько секунд и накрывает всех вокруг.',
+                ua: 'Осколкова граната: висмикни чеку й кинь. Вибухає за кілька секунд і накриває всіх довкола.',
+                en: 'A fragmentation grenade: pull the pin and throw. It goes off a few seconds later and hits everyone around.',
+                de: 'Eine Splittergranate: Stift ziehen und werfen. Sie explodiert nach wenigen Sekunden und trifft jeden in der Nähe.',
+                pl: 'Granat odłamkowy: wyciągnij zawleczkę i rzuć. Wybucha po kilku sekundach i rani wszystkich wokół.',
+            },
+        },
+
+        molotov: {
+            name: {
+                ru: 'Коктейль Молотова',
+                ua: 'Коктейль Молотова',
+                en: 'Molotov Cocktail',
+                de: 'Molotowcocktail',
+                pl: 'Koktajl Mołotowa',
+            },
+            desc: {
+                ru: 'Бутылка с горючей смесью: разбивается о землю и заливает место огнём. Выкуривает из укрытия и перекрывает проход.',
+                ua: 'Пляшка з горючою сумішшю: розбивається об землю й заливає місце вогнем. Викурює з укриття і перекриває прохід.',
+                en: 'A bottle of flammable mix: it shatters on the ground and floods the spot with fire. Smokes people out of cover and shuts a passage.',
+                de: 'Eine Flasche mit Brandgemisch: Sie zerschellt am Boden und setzt die Stelle in Flammen. Treibt Gegner aus der Deckung und sperrt einen Durchgang.',
+                pl: 'Butelka z mieszanką zapalającą: rozbija się o ziemię i zalewa miejsce ogniem. Wykurza z osłony i blokuje przejście.',
+            },
+        },
+
+        smokegrenade: {
+            name: {
+                ru: 'Дымовая граната',
+                ua: 'Димова граната',
+                en: 'Smoke Grenade',
+                de: 'Rauchgranate',
+                pl: 'Granat dymny',
+            },
+            desc: {
+                ru: 'Выдерни чеку и брось: через несколько секунд ставит плотную дымовую завесу. Прикрывает перебежку или лечение.',
+                ua: 'Висмикни чеку й кинь: за кілька секунд ставить щільну димову завісу. Прикриває перебіжку або лікування.',
+                en: 'Pull the pin and throw: a few seconds later it puts up a thick smoke screen. Covers a dash or healing.',
+                de: 'Stift ziehen und werfen: Nach wenigen Sekunden legt sie eine dichte Rauchwand. Deckt einen Sprint oder das Heilen.',
+                pl: 'Wyciągnij zawleczkę i rzuć: po kilku sekundach stawia gęstą zasłonę dymną. Osłania przebieżkę albo leczenie.',
+            },
+        },
     },
 };

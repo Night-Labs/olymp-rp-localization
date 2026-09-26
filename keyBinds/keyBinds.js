@@ -300,6 +300,13 @@ export default {
         de: 'Zielschulter wechseln',
         pl: 'Zmień ramię przy celowaniu',
     },
+    'arena.loadout': {
+        ru: 'Арена: сменить оружие',
+        ua: 'Арена: змінити зброю',
+        en: 'Arena: change weapons',
+        de: 'Arena: Waffen wechseln',
+        pl: 'Arena: zmień broń',
+    },
     'casino.slots.spinButton': {
         ru: 'Слоты - крутить кнопкой',
         ua: 'Слоти - крутити кнопкою',
@@ -516,6 +523,13 @@ export default {
         en: 'Toggle radar size',
         de: 'Radargröße umschalten',
         pl: 'Przełączyć rozmiar radaru',
+    },
+    'arena.matchMenu': {
+        ru: 'Арена: меню матча',
+        ua: 'Арена: меню матчу',
+        en: 'Arena: match menu',
+        de: 'Arena: Match-Menü',
+        pl: 'Arena: menu meczu',
     },
     'photo.shoot': {
         ru: 'Камера: сделать снимок',
@@ -856,6 +870,20 @@ export default {
             en: 'Moves the third-person aiming camera from the right shoulder to the left and back. The chosen side stays until the next press. Does nothing in a vehicle',
             de: 'Wechselt die Zielkamera in der Third-Person-Ansicht von der rechten auf die linke Schulter und zurück. Die gewählte Seite bleibt bis zum nächsten Drücken. Im Fahrzeug ohne Wirkung',
             pl: 'Przenosi kamerę celowania z trzeciej osoby z prawego ramienia na lewe i z powrotem. Wybrana strona zostaje do następnego naciśnięcia. W pojeździe nie działa',
+        },
+        'arena.loadout': {
+            ru: 'В стрелковом матче арены открывает выбор оружия из того, что разрешило лобби. Новый набор выдадут при следующем появлении',
+            ua: 'У стрілецькому матчі арени відкриває вибір зброї з того, що дозволило лобі. Новий набір видадуть під час наступної появи',
+            en: 'In an arena shooting match, opens the weapon pick out of what the lobby allows. The new loadout is handed out at your next spawn',
+            de: 'Öffnet in einem Arena-Schießmatch die Waffenwahl aus dem, was die Lobby erlaubt. Die neue Ausrüstung gibt es beim nächsten Spawn',
+            pl: 'W meczu strzeleckim areny otwiera wybór broni spośród tej, na którą pozwala lobby. Nowy zestaw otrzymasz przy następnym odrodzeniu',
+        },
+        'arena.matchMenu': {
+            ru: 'В любом матче арены открывает меню матча, из которого можно покинуть матч',
+            ua: 'У будь-якому матчі арени відкриває меню матчу, з якого можна покинути матч',
+            en: 'In any arena match, opens the match menu, where you can leave the match',
+            de: 'Öffnet in jedem Arena-Match das Match-Menü, über das du das Match verlassen kannst',
+            pl: 'W każdym meczu areny otwiera menu meczu, z którego możesz opuścić mecz',
         },
         'tank.sniper': {
             ru: 'В танке переключает вид из-за корпуса и прицел у орудия. Колесо мыши тоже приближает вид и переходит в прицел',

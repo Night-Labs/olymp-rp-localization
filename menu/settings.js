@@ -869,6 +869,13 @@ export const settings = {
         de: 'Zeigt einen Kompass mit Kamerarichtung am oberen Bildschirmrand an',
         pl: 'Wyświetla kompas z kierunkiem kamery na górze ekranu',
     },
+    showArenaEventDesc: {
+        ru: 'Показывает отсчёт до события арены, на которое вы записаны',
+        ua: 'Показує відлік до події арени, на яку ви записані',
+        en: 'Shows the countdown to the arena event you signed up for',
+        de: 'Zeigt den Countdown bis zum Arena-Event, für das du angemeldet bist',
+        pl: 'Pokazuje odliczanie do wydarzenia areny, na które się zapisałeś',
+    },
     hudOpacityDesc: {
         ru: 'Регулирует общую прозрачность элементов HUD',
         ua: 'Регулює загальну прозорість елементів HUD',
@@ -1101,6 +1108,13 @@ export const settings = {
         en: 'Show compass',
         de: 'Kompass anzeigen',
         pl: 'Pokaż kompas',
+    },
+    showArenaEvent: {
+        ru: 'Отсчёт до события арены',
+        ua: 'Відлік до події арени',
+        en: 'Arena event countdown',
+        de: 'Countdown zum Arena-Event',
+        pl: 'Odliczanie do wydarzenia areny',
     },
     hudOpacity: {
         ru: 'Прозрачность HUD',

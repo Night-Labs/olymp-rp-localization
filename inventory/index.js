@@ -98,6 +98,14 @@ const inventory = {
         pl: 'Brak miejsca',
     },
 
+    containerTooFar: {
+        ru: 'Вы слишком далеко от контейнера',
+        ua: 'Ви занадто далеко від контейнера',
+        en: 'You are too far away from the container',
+        de: 'Du bist zu weit vom Behälter entfernt',
+        pl: 'Jesteś zbyt daleko od pojemnika',
+    },
+
     itemNotAccepted: {
         ru: 'Это сюда не кладут',
         ua: 'Це сюди не кладуть',
@@ -248,6 +256,14 @@ const inventory = {
             de: 'Beschlagnahmt bei',
             pl: 'Zatrzymano u',
         },
+    },
+
+    backpackNotEmpty: {
+        ru: 'Сначала выложи вещи из рюкзака',
+        ua: 'Спочатку виклади речі з рюкзака',
+        en: 'Empty the backpack first',
+        de: 'Leere zuerst den Rucksack',
+        pl: 'Najpierw opróżnij plecak',
     },
 
     backpackIntoItself: {

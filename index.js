@@ -94,6 +94,7 @@ import gym from './gym';
 import achievements from './achievements';
 import realtor from './realtor';
 import diceGame from './diceGame';
+import darts from './darts';
 import offcies from './offcies';
 import warehouses from './warehouses';
 import sections from './sections';
@@ -102,6 +103,7 @@ import organizations from './organizations';
 import bankRobbery from './bankRobbery';
 import factories from './factories';
 import tennis from './tennis';
+import armWrestling from './armWrestling';
 import trade from './trade';
 import battlePass from './battlePass';
 import vehicleInfo from './vehicleInfo';
@@ -224,6 +226,7 @@ export default {
     achievements,
     realtor,
     diceGame,
+    darts,
     offcies,
     warehouses,
     sections,
@@ -232,6 +235,7 @@ export default {
     bankRobbery,
     factories,
     tennis,
+    armWrestling,
     trade,
     battlePass,
     vehicleInfo,

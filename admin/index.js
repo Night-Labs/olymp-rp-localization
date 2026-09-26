@@ -6,6 +6,7 @@ import mute from './mute';
 import weaponBan from './weaponBan';
 import objectPlacementBan from './objectPlacementBan';
 import musicPlayer from './musicPlayer';
+import darts from './darts';
 export default {
     ...cef,
     ...server,
@@ -15,6 +16,7 @@ export default {
     weaponBan,
     objectPlacementBan,
     musicPlayer,
+    darts,
     getOut: {
         ru: 'Для начала выйди из админки',
         ua: 'Для початку вийди з адмінки',
