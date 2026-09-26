@@ -1877,6 +1877,27 @@ export default {
         de: 'Alle laufenden Spielevents abbrechen und die Teilnehmer dorthin zurücksetzen, wo sie waren.',
         pl: 'Przerwij wszystkie trwające wydarzenia i przywróć uczestników na poprzednie miejsca.',
     },
+    tank: {
+        ru: 'Боевой танк для тестов. /tank <модель> - танк перед вами, вы за рулём: камера, прицел и орудие танковых боёв. /tank target <модель> - пустой танк в 40 м как мишень. /tank repair - полный запас прочности и снарядов. /tank off - убрать свой танк, /tank clear - убрать все.',
+        ua: 'Бойовий танк для тестів. /tank <модель> - танк перед вами, ви за кермом: камера, приціл і гармата танкових боїв. /tank target <модель> - порожній танк за 40 м як мішень. /tank repair - повний запас міцності та снарядів. /tank off - прибрати свій танк, /tank clear - прибрати всі.',
+        en: 'A combat tank for tests. /tank <model> - a tank in front of you with you driving: the camera, sights and gun of the tank battles. /tank target <model> - an empty tank 40 m ahead as a target. /tank repair - full HP and shells. /tank off - remove your tank, /tank clear - remove all of them.',
+        de: 'Ein Kampfpanzer für Tests. /tank <Modell> - ein Panzer vor dir, du fährst: Kamera, Visier und Kanone der Panzerschlachten. /tank target <Modell> - ein leerer Panzer 40 m voraus als Ziel. /tank repair - volle Trefferpunkte und Granaten. /tank off - deinen Panzer entfernen, /tank clear - alle entfernen.',
+        pl: 'Czołg bojowy do testów. /tank <model> - czołg przed tobą, ty kierujesz: kamera, celownik i działo bitew czołgów. /tank target <model> - pusty czołg 40 m przed tobą jako cel. /tank repair - pełna wytrzymałość i pociski. /tank off - usuń swój czołg, /tank clear - usuń wszystkie.',
+    },
+    tankarmor: {
+        ru: 'Вкл/выкл: броня всех боевых танков вокруг вас рисуется плитами, цвет по зоне (лоб башни, маска, верхний и нижний лоб корпуса, борт, корма, крыша). В чат выводится толщина каждой зоны.',
+        ua: 'Увімк/вимк: броня всіх бойових танків навколо вас малюється плитами, колір за зоною (лоб башти, маска, верхній і нижній лоб корпусу, борт, корма, дах). У чат виводиться товщина кожної зони.',
+        en: 'On/off: the armor of every combat tank around you is drawn as plates, coloured by zone (turret front, mantlet, upper and lower front hull, side, rear, roof). The chat lists each zone\'s thickness.',
+        de: 'An/aus: Die Panzerung aller Kampfpanzer um dich herum wird als Platten gezeichnet, gefärbt nach Zone (Turmfront, Blende, obere und untere Wannenfront, Seite, Heck, Dach). Der Chat nennt die Stärke jeder Zone.',
+        pl: 'Wł./wył.: pancerz wszystkich czołgów bojowych wokół ciebie jest rysowany płytami, kolor według strefy (przód wieży, jarzmo, górny i dolny przód kadłuba, burta, tył, dach). Czat podaje grubość każdej strefy.',
+    },
+    tankcam: {
+        ru: 'Камера танка: /tankcam <параметр> <значение> меняет одно число только для вашей камеры и выводит весь набор, чтобы перенести его в конфиг. Без аргументов просто выводит набор.',
+        ua: 'Камера танка: /tankcam <параметр> <значення> змінює одне число лише для вашої камери та виводить увесь набір, щоб перенести його в конфіг. Без аргументів просто виводить набір.',
+        en: 'Tank camera: /tankcam <param> <value> changes one number for your own camera only and prints the whole set to carry into the config. Without arguments it just prints the set.',
+        de: 'Panzerkamera: /tankcam <Parameter> <Wert> ändert eine Zahl nur für deine eigene Kamera und gibt den ganzen Satz aus, um ihn in die Konfiguration zu übernehmen. Ohne Argumente gibt es nur den Satz aus.',
+        pl: 'Kamera czołgu: /tankcam <parametr> <wartość> zmienia jedną liczbę tylko dla twojej kamery i wypisuje cały zestaw do przeniesienia do konfiguracji. Bez argumentów tylko wypisuje zestaw.',
+    },
     battleground: {
         ru: 'Тестовая синяя зона: круглая стена радиусом 100 м вокруг вас, каждую секунду сжимается на 15%. /battleground <радиус> - задать свой, /battleground off - убрать.',
         ua: 'Тестова синя зона: кругла стіна радіусом 100 м навколо вас, щосекунди стискається на 15%. /battleground <радіус> - задати свій, /battleground off - прибрати.',
