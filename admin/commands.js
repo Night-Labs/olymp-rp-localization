@@ -1891,6 +1891,13 @@ export default {
         de: 'An/aus: Die Panzerung aller Kampfpanzer um dich herum wird als Platten gezeichnet, gefärbt nach Zone (Turmfront, Blende, obere und untere Wannenfront, Seite, Heck, Dach). Der Chat nennt die Stärke jeder Zone.',
         pl: 'Wł./wył.: pancerz wszystkich czołgów bojowych wokół ciebie jest rysowany płytami, kolor według strefy (przód wieży, jarzmo, górny i dolny przód kadłuba, burta, tył, dach). Czat podaje grubość każdej strefy.',
     },
+    tankdebug: {
+        ru: 'Вкл/выкл: отладка орудия танка. Красная линия - настоящий ствол по костям модели, зелёная - линия выстрела по модели режима, жёлтый крест - точка наведения. В углу: насколько каждая линия проходит мимо точки и насколько модель расходится с костями.',
+        ua: 'Увімк/вимк: налагодження гармати танка. Червона лінія - справжній ствол за кістками моделі, зелена - лінія пострілу за моделлю режиму, жовтий хрест - точка наведення. У куті: наскільки кожна лінія проходить повз точку і наскільки модель розходиться з кістками.',
+        en: 'On/off: tank gun debug. Red line - the real barrel from the model bones, green - the shot line the mode models, yellow cross - the aim point. The corner shows how far each line passes the point and how far the model is off the bones.',
+        de: 'An/aus: Debug der Panzerkanone. Rote Linie - das echte Rohr aus den Modellknochen, grün - die Schusslinie des Modus, gelbes Kreuz - der Zielpunkt. In der Ecke: wie weit jede Linie am Punkt vorbeigeht und wie weit das Modell von den Knochen abweicht.',
+        pl: 'Wł./wył.: debugowanie działa czołgu. Czerwona linia - prawdziwa lufa z kości modelu, zielona - linia strzału w modelu trybu, żółty krzyżyk - punkt celowania. W rogu: jak daleko każda linia mija punkt i jak bardzo model odbiega od kości.',
+    },
     tankcam: {
         ru: 'Камера танка: /tankcam <параметр> <значение> меняет одно число только для вашей камеры и выводит весь набор, чтобы перенести его в конфиг. Без аргументов просто выводит набор.',
         ua: 'Камера танка: /tankcam <параметр> <значення> змінює одне число лише для вашої камери та виводить увесь набір, щоб перенести його в конфіг. Без аргументів просто виводить набір.',
