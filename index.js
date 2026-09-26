@@ -73,6 +73,7 @@ import flappyBird from './flappyBird';
 import grandmaster from './grandmaster';
 import walkieTalkie from './walkieTalkie';
 import drone from './drone';
+import tanks from './tanks';
 import photoCamera from './photoCamera';
 import elevators from './elevators';
 import shootingRange from './shootingRange';
@@ -199,6 +200,7 @@ export default {
     grandmaster,
     walkieTalkie,
     drone,
+    tanks,
     photoCamera,
     elevators,
     shootingRange,
