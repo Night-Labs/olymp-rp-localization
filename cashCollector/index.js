@@ -91,11 +91,11 @@ export default {
         pl: 'Furgon zostal zniszczony. Zmiana skonczona',
     },
     noActivePartySession: {
-        ru: 'Никто из вашей пати сейчас не на смене Gruppe 6',
-        ua: 'Ніхто з вашої паті зараз не на зміні Gruppe 6',
-        en: 'Nobody in your party is on a Gruppe 6 run right now',
-        de: 'Niemand aus deiner Gruppe ist gerade auf einer Gruppe 6 Tour',
-        pl: 'Nikt z twojej grupy nie jest teraz na trasie Gruppe 6',
+        ru: 'Рядом нет никого из вашей группы на смене Gruppe 6',
+        ua: 'Поруч немає нікого з вашої групи на зміні Gruppe 6',
+        en: 'Nobody from your group next to you is on a Gruppe 6 run',
+        de: 'Niemand aus deiner Gruppe in deiner Nähe ist auf einer Gruppe 6 Tour',
+        pl: 'Nikt z twojej grupy obok ciebie nie jest na trasie Gruppe 6',
     },
     crewFull: {
         ru: 'В броневике уже полный экипаж - {{max}} человека',
@@ -688,11 +688,11 @@ export default {
     },
     dialogPartyJoin: {
         memberWorking: {
-            ru: 'Ваш напарник из пати уже расписался за броневик. Могу записать вас вторым номером в тот же экипаж. Присоединяетесь?',
-            ua: 'Ваш напарник із паті вже розписався за броньовик. Можу записати вас другим номером у той самий екіпаж. Приєднуєтеся?',
-            en: 'Someone in your party has already signed for a van. I can put you on the same crew as the second man. Joining?',
-            de: 'Jemand aus deiner Gruppe hat bereits für einen Wagen unterschrieben. Ich kann dich als zweiten Mann auf dieselbe Besatzung setzen. Machst du mit?',
-            pl: 'Ktos z twojej grupy juz podpisal sie za furgon. Moge wpisac cie jako drugiego do tej samej zalogi. Dolaczasz?',
+            ru: 'Ваш напарник из группы, что стоит рядом, уже расписался за броневик. Могу записать вас в тот же экипаж. Присоединяетесь?',
+            ua: 'Ваш напарник із групи, що стоїть поруч, уже розписався за броньовик. Можу записати вас у той самий екіпаж. Приєднуєтеся?',
+            en: 'A member of your group standing right here has already signed for a van. I can put you on the same crew. Joining?',
+            de: 'Ein Mitglied deiner Gruppe, das hier steht, hat bereits für einen Wagen unterschrieben. Ich kann dich auf dieselbe Besatzung setzen. Machst du mit?',
+            pl: 'Ktos z twojej grupy, kto stoi obok, juz podpisal sie za furgon. Moge wpisac cie do tej samej zalogi. Dolaczasz?',
         },
         joinYes: {
             ru: 'Да, присоединиться',

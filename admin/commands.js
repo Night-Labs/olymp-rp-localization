@@ -1912,6 +1912,13 @@ export default {
         de: 'An/aus: Debug der Panzerkanone. Rote Linie - das echte Rohr aus den Modellknochen, grün - die Schusslinie des Modus, gelbes Kreuz - der Zielpunkt. In der Ecke: wie weit jede Linie am Punkt vorbeigeht und wie weit das Modell von den Knochen abweicht.',
         pl: 'Wł./wył.: debugowanie działa czołgu. Czerwona linia - prawdziwa lufa z kości modelu, zielona - linia strzału w modelu trybu, żółty krzyżyk - punkt celowania. W rogu: jak daleko każda linia mija punkt i jak bardzo model odbiega od kości.',
     },
+    tankprofile: {
+        ru: 'Ангар танков игрока, тестовые выдачи: /tankprofile <игрок> credits <сумма> (минус списывает) | xp <модель> <опыт> | unlock <модель> - исследовать | give <модель> - выдать танк | reset - как первый визит. Открытый ангар игрока обновляется сразу, всё пишется в лог.',
+        ua: 'Ангар танків гравця, тестові видачі: /tankprofile <гравець> credits <сума> (мінус списує) | xp <модель> <досвід> | unlock <модель> - дослідити | give <модель> - видати танк | reset - як перший візит. Відкритий ангар гравця оновлюється одразу, усе пишеться в лог.',
+        en: "A player's tank hangar, test grants: /tankprofile <player> credits <amount> (negative takes) | xp <model> <xp> | unlock <model> - research | give <model> - hand over the tank | reset - back to a first visit. The player's open hangar updates at once; everything is logged.",
+        de: 'Panzer-Hangar eines Spielers, Testvergaben: /tankprofile <Spieler> credits <Betrag> (negativ zieht ab) | xp <Modell> <EP> | unlock <Modell> - erforschen | give <Modell> - Panzer geben | reset - wie beim ersten Besuch. Ein offener Hangar des Spielers aktualisiert sich sofort, alles wird protokolliert.',
+        pl: 'Hangar czołgów gracza, testowe nadania: /tankprofile <gracz> credits <kwota> (minus odejmuje) | xp <model> <doświadczenie> | unlock <model> - zbadaj | give <model> - daj czołg | reset - jak pierwsza wizyta. Otwarty hangar gracza odświeża się od razu, wszystko trafia do logu.',
+    },
     tankcam: {
         ru: 'Камера танка: /tankcam <параметр> <значение> меняет одно число только для вашей камеры и выводит весь набор, чтобы перенести его в конфиг. Без аргументов просто выводит набор.',
         ua: 'Камера танка: /tankcam <параметр> <значення> змінює одне число лише для вашої камери та виводить увесь набір, щоб перенести його в конфіг. Без аргументів просто виводить набір.',
@@ -2037,6 +2044,13 @@ export default {
         en: 'Set the exact health value for an online player from 0 to 100.',
         de: 'Den genauen Gesundheitswert eines Online-Spielers von 0 bis 100 festlegen.',
         pl: 'Ustaw dokładną wartość zdrowia gracza online od 0 do 100.',
+    },
+    sethp_radius: {
+        ru: 'Выдать здоровье всем игрокам в радиусе (м) в вашем измерении: /sethp_radius 30 [hp]. По умолчанию 100. Только повышает здоровье, лежачих не поднимает.',
+        ua: "Видати здоров'я всім гравцям у радіусі (м) у вашому вимірі: /sethp_radius 30 [hp]. За замовчуванням 100. Лише підвищує здоров'я, поранених не піднімає.",
+        en: 'Give health to every player within the radius (m) in your dimension: /sethp_radius 30 [hp]. Defaults to 100. Only raises health, does not revive downed players.',
+        de: 'Allen Spielern im Radius (m) in deiner Dimension Gesundheit geben: /sethp_radius 30 [hp]. Standard 100. Erhöht nur die Gesundheit, belebt niedergeschlagene Spieler nicht wieder.',
+        pl: 'Daj zdrowie wszystkim graczom w promieniu (m) w twoim wymiarze: /sethp_radius 30 [hp]. Domyślnie 100. Tylko podnosi zdrowie, nie podnosi powalonych graczy.',
     },
     god: {
         ru: 'Переключить себе режим неуязвимости администратора.',
@@ -2688,6 +2702,13 @@ export default {
         en: 'Finish the upgrade the organization with the given tag is currently researching, without waiting for its timer.',
         de: 'Das Upgrade, das die Organisation mit dem angegebenen Tag gerade erforscht, sofort abschließen, ohne auf den Timer zu warten.',
         pl: 'Natychmiast zakończ ulepszenie, które organizacja o podanym tagu teraz bada, bez czekania na licznik.',
+    },
+    org_reset: {
+        ru: 'Сбросить организацию с указанным тегом до состояния при создании: казна, уровень, репутация, улучшения, контракты, территории, офисы, склад и машины организации. Участники, ранги и HQ остаются.',
+        ua: 'Скинути організацію з вказаним тегом до стану при створенні: казна, рівень, репутація, покращення, контракти, території, офіси, склад і машини організації. Учасники, ранги та HQ залишаються.',
+        en: 'Reset the organization with the given tag to its creation state: treasury, level, reputation, upgrades, contracts, territories, offices, warehouse and organization vehicles. Members, ranks and the HQ stay.',
+        de: 'Die Organisation mit dem angegebenen Tag auf den Gründungszustand zurücksetzen: Kasse, Level, Ansehen, Upgrades, Aufträge, Gebiete, Büros, Lager und Organisationsfahrzeuge. Mitglieder, Ränge und das HQ bleiben.',
+        pl: 'Zresetuj organizację o podanym tagu do stanu z chwili założenia: skarbiec, poziom, reputacja, ulepszenia, kontrakty, terytoria, biura, magazyn i pojazdy organizacji. Członkowie, rangi i HQ zostają.',
     },
     org_fill_members: {
         ru: 'Добавить в вашу организацию N случайных персонажей, не состоящих ни в одной организации, на низший ранг.',

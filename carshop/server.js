@@ -99,4 +99,35 @@ export const server = {
         pl: 'Pomyślnie zakupiono {{name}}',
         zh: '您已成功购买{{name}}',
     },
+    // Where the bought vehicle goes (systems/businesses/carshop/buyTargets).
+    buyTarget: {
+        noOrganizationPermission: {
+            ru: 'Вы не можете покупать транспорт для организации',
+            ua: 'Ви не можете купувати транспорт для організації',
+            en: 'You cannot buy vehicles for the organization',
+            de: 'Du darfst keine Fahrzeuge für die Organisation kaufen',
+            pl: 'Nie możesz kupować pojazdów dla organizacji',
+        },
+        organizationNoSlots: {
+            ru: 'В гаражах организации нет свободных мест',
+            ua: 'У гаражах організації немає вільних місць',
+            en: 'The organization garages have no free places',
+            de: 'In den Garagen der Organisation sind keine Plätze frei',
+            pl: 'W garażach organizacji nie ma wolnych miejsc',
+        },
+        houseNoSlots: {
+            ru: 'В гараже этого дома нет свободных мест',
+            ua: 'У гаражі цього будинку немає вільних місць',
+            en: 'This house garage has no free places',
+            de: 'In der Garage dieses Hauses sind keine Plätze frei',
+            pl: 'W garażu tego domu nie ma wolnych miejsc',
+        },
+        boughtForOrganization: {
+            ru: 'Вы купили {{name}} для организации {{organization}}. Машина стоит в её гараже',
+            ua: 'Ви купили {{name}} для організації {{organization}}. Машина стоїть у її гаражі',
+            en: 'You bought the {{name}} for {{organization}}. It is waiting in the organization garage',
+            de: 'Du hast {{name}} für {{organization}} gekauft. Es steht in der Garage der Organisation',
+            pl: 'Kupiono {{name}} dla organizacji {{organization}}. Pojazd stoi w jej garażu',
+        },
+    },
 };

@@ -255,6 +255,13 @@ export const inventory = {
             pl: 'Wytrzymałość',
             zh: '持久性',
         },
+        sellTo: {
+            ru: 'Где продать',
+            ua: 'Де продати',
+            en: 'Sell to',
+            de: 'Verkaufen an',
+            pl: 'Gdzie sprzedać',
+        },
 
         exclusiveWeapon: {
             ru: 'Это оружие является эксклюзивным и оно не будет выпадать в случае смерти.',

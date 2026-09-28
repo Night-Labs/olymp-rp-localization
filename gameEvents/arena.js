@@ -102,6 +102,14 @@ export default {
         de: 'Demnächst',
         pl: 'Wkrótce',
     },
+    // A mode with a hangar whose battles are not open yet: its card leads to the hangar.
+    hangarOpen: {
+        ru: 'Ангар открыт, бои скоро',
+        ua: 'Ангар відкрито, бої незабаром',
+        en: 'Hangar open, battles soon',
+        de: 'Hangar offen, Gefechte bald',
+        pl: 'Hangar otwarty, bitwy wkrótce',
+    },
 
     featured: {
         kinds: {
@@ -903,6 +911,22 @@ export default {
                 pl: 'Jedni się chowają, drudzy szukają. Wytrzymaj do końca czasu albo znajdź wszystkich.',
             },
         },
+        tanks: {
+            name: {
+                ru: 'Танки',
+                ua: 'Танки',
+                en: 'Tanks',
+                de: 'Panzer',
+                pl: 'Czołgi',
+            },
+            description: {
+                ru: 'Командные бои на своих танках: исследуйте ветки, покупайте машины и модули, ставьте снаряжение в ангаре.',
+                ua: 'Командні бої на своїх танках: досліджуйте гілки, купуйте машини та модулі, ставте спорядження в ангарі.',
+                en: 'Team battles on your own tanks: research the lines, buy vehicles and modules, fit equipment in the hangar.',
+                de: 'Teamgefechte mit eigenen Panzern: Linien erforschen, Fahrzeuge und Module kaufen, Ausrüstung im Hangar montieren.',
+                pl: 'Bitwy drużynowe na własnych czołgach: badaj linie, kupuj pojazdy i moduły, montuj wyposażenie w hangarze.',
+            },
+        },
     },
 
     stats: {
@@ -1471,6 +1495,13 @@ export default {
     },
 
     sections: {
+        hangar: {
+            ru: 'Ангар',
+            ua: 'Ангар',
+            en: 'Hangar',
+            de: 'Hangar',
+            pl: 'Hangar',
+        },
         lobbies: {
             ru: 'Лобби',
             ua: 'Лобі',
@@ -2105,6 +2136,20 @@ export default {
             de: 'Strecke',
             pl: 'Trasa',
         },
+        tier: {
+            ru: 'Уровень боя',
+            ua: 'Рівень бою',
+            en: 'Battle tier',
+            de: 'Gefechtsstufe',
+            pl: 'Poziom bitwy',
+        },
+        battle: {
+            ru: 'Тип боя',
+            ua: 'Тип бою',
+            en: 'Battle type',
+            de: 'Gefechtsart',
+            pl: 'Rodzaj bitwy',
+        },
         map: {
             ru: 'Карта',
             ua: 'Карта',
@@ -2212,6 +2257,18 @@ export default {
     },
 
     options: {
+        // Tank battle tiers, written the way World of Tanks writes them.
+        tier: {
+            6: { ru: 'VI уровень', ua: 'VI рівень', en: 'Tier VI', de: 'Stufe VI', pl: 'Poziom VI' },
+            7: { ru: 'VII уровень', ua: 'VII рівень', en: 'Tier VII', de: 'Stufe VII', pl: 'Poziom VII' },
+            8: { ru: 'VIII уровень', ua: 'VIII рівень', en: 'Tier VIII', de: 'Stufe VIII', pl: 'Poziom VIII' },
+            9: { ru: 'IX уровень', ua: 'IX рівень', en: 'Tier IX', de: 'Stufe IX', pl: 'Poziom IX' },
+            10: { ru: 'X уровень', ua: 'X рівень', en: 'Tier X', de: 'Stufe X', pl: 'Poziom X' },
+        },
+        battle: {
+            standard: { ru: 'Стандартный', ua: 'Стандартний', en: 'Standard', de: 'Standard', pl: 'Standardowa' },
+            encounter: { ru: 'Встречный', ua: 'Зустрічний', en: 'Encounter', de: 'Begegnung', pl: 'Spotkanie' },
+        },
         // Keyed by `shared/configs/races` route id. Place names stay as in the game, descriptive names are translated.
         route: {
             street_vespucci_canals: {

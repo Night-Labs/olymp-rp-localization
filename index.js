@@ -40,6 +40,7 @@ import phone from './phone';
 import { animations } from './animations/animations';
 import randomQuests from './randomQuests';
 import { gameEvents } from './gameEvents';
+import dmZone from './dmZone';
 import { contraband } from './contraband';
 import death from './death';
 import offers from './offers';
@@ -168,6 +169,7 @@ export default {
     animations,
     randomQuests,
     gameEvents,
+    dmZone,
     contraband,
     handling,
     death,

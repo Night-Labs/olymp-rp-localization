@@ -24,6 +24,7 @@ import gallery from './pages/gallery';
 import calculator from './pages/calculator';
 import music from './pages/music';
 import shade from './pages/shade';
+import party from './pages/party';
 
 export default {
     ...cef,
@@ -51,4 +52,5 @@ export default {
     calculator,
     music,
     shade,
+    party,
 };

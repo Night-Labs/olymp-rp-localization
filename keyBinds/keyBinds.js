@@ -97,6 +97,13 @@ export default {
         de: 'Sprachchat',
         pl: 'Czat głosowy',
     },
+    'party.voice': {
+        ru: 'Голосовой чат группы',
+        ua: 'Голосовий чат групи',
+        en: 'Group voice chat',
+        de: 'Gruppen-Sprachchat',
+        pl: 'Czat głosowy grupy',
+    },
     seatBelt: {
         ru: 'Ремень безопасности',
         ua: 'Пас безпеки',

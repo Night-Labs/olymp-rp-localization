@@ -507,11 +507,11 @@ export default {
             pl: 'Grupa',
         },
         text: {
-            ru: 'У группы свой канал в чате. Вместе можно работать грузоперевозчиком и на мусоровозе: каждый получает оплату за свою часть работы.',
-            ua: 'У групи свій канал у чаті. Разом можна працювати вантажоперевізником і на сміттєвозі: кожен отримує оплату за свою частину роботи.',
-            en: 'Your party has its own chat channel. The carrier and garbage truck jobs can be worked together: everyone is paid for their own share.',
-            de: 'Die Gruppe hat einen eigenen Chatkanal. Lkw-Fahrer und Müllabfuhr könnt ihr gemeinsam erledigen: jeder wird für seinen Teil bezahlt.',
-            pl: 'Grupa ma własny kanał na czacie. Razem możecie pracować jako kierowcy ciężarówki i przy wywozie śmieci: każdy dostaje zapłatę za swoją część.',
+            ru: 'Группой до 20 человек управляют в приложении "Группа" на телефоне: код для вступления, участники и кого показывать в HUD. У группы свой канал в чате. Грузоперевозчик и мусоровоз делятся с теми, кто рядом: каждый получает оплату за свою часть работы.',
+            ua: 'Групою до 20 людей керують у застосунку "Група" на телефоні: код для вступу, учасники і кого показувати в HUD. У групи свій канал у чаті. Вантажоперевізник і сміттєвоз діляться з тими, хто поруч: кожен отримує оплату за свою частину роботи.',
+            en: 'A group of up to 20 is managed in the "Group" phone app: the join code, the members and who shows on your HUD. It has its own chat channel. Carrier and garbage truck work is shared with the members next to you: everyone is paid for their own share.',
+            de: 'Eine Gruppe mit bis zu 20 Leuten verwaltest du in der Handy-App "Gruppe": Beitrittscode, Mitglieder und wer im HUD erscheint. Sie hat einen eigenen Chatkanal. Lkw-Fahrer und Müllabfuhr teilt ihr mit den Mitgliedern in eurer Nähe: jeder wird für seinen Teil bezahlt.',
+            pl: 'Grupą do 20 osób zarządzasz w aplikacji "Grupa" w telefonie: kod dołączenia, członkowie i kogo pokazać w HUD. Ma własny kanał na czacie. Pracę kierowcy ciężarówki i przy wywozie śmieci dzielicie z członkami obok was: każdy dostaje zapłatę za swoją część.',
         },
     },
     faction: {

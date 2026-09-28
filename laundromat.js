@@ -196,4 +196,44 @@ export default {
         de: 'Die Charge ist Ausschuss',
         pl: 'Partia poszła na straty',
     },
+    // A player's own stack through the machines, outside the contract (`systems/laundromat/ownMoney.ts`).
+    own: {
+        // Args: min (the smallest stack a batch takes).
+        nothing: {
+            ru: 'Машина отмывает грязные деньги и фальшивые купюры, не меньше {{min}} за раз. У вас с собой столько нет.',
+            ua: 'Машина відмиває брудні гроші та фальшиві купюри, не менше {{min}} за раз. У вас із собою стільки немає.',
+            en: 'The machine washes dirty money and counterfeit notes, at least {{min}} at a time. You do not carry that much.',
+            de: 'Die Maschine wäscht schmutziges Geld und Falschgeld, mindestens {{min}} auf einmal. So viel hast du nicht dabei.',
+            pl: 'Maszyna pierze brudne pieniądze i fałszywe banknoty, co najmniej {{min}} naraz. Nie masz przy sobie tyle.',
+        },
+        pickTitle: {
+            ru: 'Что загрузить в барабан?',
+            ua: 'Що завантажити в барабан?',
+            en: 'What goes into the drum?',
+            de: 'Was kommt in die Trommel?',
+            pl: 'Co ładujemy do bębna?',
+        },
+        // Args: itemName, amount (units this batch takes), sum (clean cash for it).
+        pickItem: {
+            ru: '{{itemName}}: {{amount}}, чистыми {{sum}}$',
+            ua: '{{itemName}}: {{amount}}, чистими {{sum}}$',
+            en: '{{itemName}}: {{amount}}, {{sum}}$ clean',
+            de: '{{itemName}}: {{amount}}, sauber {{sum}}$',
+            pl: '{{itemName}}: {{amount}}, na czysto {{sum}}$',
+        },
+        success: {
+            ru: 'Партия чистая: {{amount}} {{itemName}} превратились в {{sum}}$.',
+            ua: 'Партія чиста: {{amount}} {{itemName}} перетворилися на {{sum}}$.',
+            en: 'The batch came out clean: {{amount}} {{itemName}} became {{sum}}$.',
+            de: 'Die Charge ist sauber: aus {{amount}} {{itemName}} wurden {{sum}}$.',
+            pl: 'Partia wyszła czysta: {{amount}} {{itemName}} zamieniło się w {{sum}}$.',
+        },
+        lost: {
+            ru: 'Партия ушла в брак. {{amount}} {{itemName}} остались в барабане.',
+            ua: 'Партія пішла в брак. {{amount}} {{itemName}} лишилися в барабані.',
+            en: 'The batch was scrapped. {{amount}} {{itemName}} stayed in the drum.',
+            de: 'Die Charge ist Ausschuss. {{amount}} {{itemName}} sind in der Trommel geblieben.',
+            pl: 'Partia poszła na straty. {{amount}} {{itemName}} zostało w bębnie.',
+        },
+    },
 };

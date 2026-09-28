@@ -657,6 +657,13 @@ export const settings = {
         de: 'Passt die Lautstärke der Gesprächspartner während Telefonaten an',
         pl: 'Reguluje głośność rozmówców podczas połączeń telefonicznych',
     },
+    partyVoiceVolumeDesc: {
+        ru: 'Регулирует громкость участников в голосовом чате группы',
+        ua: 'Регулює гучність учасників у голосовому чаті групи',
+        en: 'Adjusts the volume of members in the group voice chat',
+        de: 'Passt die Lautstärke der Mitglieder im Gruppen-Sprachchat an',
+        pl: 'Reguluje głośność członków na czacie głosowym grupy',
+    },
     voiceActivationMode: {
         ru: 'Режим активации микрофона',
         ua: 'Режим активації мікрофона',
@@ -1341,6 +1348,13 @@ export const settings = {
         en: 'Phone Volume',
         de: 'Telefonlautstärke',
         pl: 'Głośność telefonu',
+    },
+    partyVoiceVolume: {
+        ru: 'Громкость голосового чата группы',
+        ua: 'Гучність голосового чату групи',
+        en: 'Group Voice Chat Volume',
+        de: 'Lautstärke des Gruppen-Sprachchats',
+        pl: 'Głośność czatu głosowego grupy',
     },
     interfaceSounds: {
         ru: 'Звуки интерфейса',

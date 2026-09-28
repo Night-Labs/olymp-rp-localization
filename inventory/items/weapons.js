@@ -1564,23 +1564,6 @@ export const weapons = {
             },
         },
 
-        emplauncher: {
-            name: {
-                ru: 'ЭМИ-излучатель',
-                ua: 'ЕМІ-випромінювач',
-                en: 'EMP Launcher',
-                de: 'EMP-Werfer',
-                pl: 'Wyrzutnia EMP',
-            },
-            desc: {
-                ru: 'Излучатель электромагнитного импульса: глушит электронику техники, не оставляя на ней ни царапины.',
-                ua: 'Випромінювач електромагнітного імпульсу: глушить електроніку техніки, не залишаючи на ній жодної подряпини.',
-                en: 'An electromagnetic pulse emitter: it kills a vehicle\'s electronics without leaving a scratch on it.',
-                de: 'Ein Emitter für elektromagnetische Impulse: Er legt die Elektronik eines Fahrzeugs lahm, ohne einen Kratzer zu hinterlassen.',
-                pl: 'Emiter impulsu elektromagnetycznego: wyłącza elektronikę pojazdu, nie zostawiając na nim rysy.',
-            },
-        },
-
         grenade: {
             name: {
                 ru: 'Граната',

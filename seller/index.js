@@ -49,6 +49,36 @@ export default {
                 pl: 'Innym razem',
             },
         },
+        illegalSeller: {
+            welcome: {
+                ru: 'Чего надо? Товар глянуть или сам что-то притащил?',
+                ua: 'Чого треба? Товар глянути чи сам щось притягнув?',
+                en: 'What do you want? Here for the goods, or did you bring something yourself?',
+                de: 'Was willst du? Die Ware ansehen, oder hast du selbst was mitgebracht?',
+                pl: 'Czego chcesz? Obejrzeć towar, czy sam coś przyniosłeś?',
+            },
+            buy: {
+                ru: 'Покажи товар',
+                ua: 'Покажи товар',
+                en: 'Show me the goods',
+                de: 'Zeig mir die Ware',
+                pl: 'Pokaż towar',
+            },
+            sell: {
+                ru: 'У меня есть что продать',
+                ua: 'У мене є що продати',
+                en: 'I have something to sell',
+                de: 'Ich habe etwas zu verkaufen',
+                pl: 'Mam coś do sprzedania',
+            },
+            leave: {
+                ru: 'В другой раз',
+                ua: 'Іншого разу',
+                en: 'Another time',
+                de: 'Ein andermal',
+                pl: 'Innym razem',
+            },
+        },
     },
     types: {
         illegalSeller: {
@@ -103,6 +133,14 @@ export default {
         de: 'Hier sind geheime Informationen: In deiner Nähe wurde ein Paket verschickt, das du abfangen kannst, sein ungefährer Standort ist auf der Karte markiert!',
         pl: 'Oto tajna informacja: w twojej okolicy wysłano paczkę, którą możesz przechwycić, jej przybliżona lokalizacja jest zaznaczona na mapie!',
     },
+    // Title of the stash's inventory column.
+    stashName: {
+        ru: 'Посылка',
+        ua: 'Посилка',
+        en: 'Package',
+        de: 'Paket',
+        pl: 'Paczka',
+    },
     youTakedStash: {
         ru: 'Вы забрали посылку',
         ua: 'Ви забрали посилку',
@@ -130,6 +168,14 @@ export default {
         en: 'Looks like someone found your package before you, unlucky...',
         de: 'Jemand dein Paket vor dir abgeholt, Pech gehabt...',
         pl: 'Wygląda na to, że ktoś znalazł twoją paczkę przed tobą, pech...',
+    },
+    // The owner opens a stash someone else has already taken from.
+    stashTouched: {
+        ru: 'Похоже, кто-то нашёл вашу посылку раньше вас и что-то из неё забрал',
+        ua: 'Схоже, хтось знайшов вашу посилку раніше за вас і щось із неї забрав',
+        en: 'Looks like someone found your package before you and took something from it',
+        de: 'Sieht so aus, als hätte jemand dein Paket vor dir gefunden und etwas daraus genommen',
+        pl: 'Wygląda na to, że ktoś znalazł twoją paczkę przed tobą i coś z niej zabrał',
     },
     alreadyHaveIllegalOrder: {
         ru: 'У вас есть активная посылка, чем скорее заберите её',

@@ -213,6 +213,14 @@ export default {
             pl: 'kara za uszkodzenia',
             zh: '损坏罚款',
         },
+        groupBonus: {
+            ru: 'бонус группы',
+            ua: 'бонус групи',
+            en: 'group bonus',
+            de: 'Gruppenbonus',
+            pl: 'bonus grupy',
+            zh: '小组奖励',
+        },
     },
 
     // САМИ РАБОТЫ

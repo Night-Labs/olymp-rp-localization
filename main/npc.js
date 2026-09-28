@@ -404,6 +404,13 @@ export const npc = {
             de: 'Walter',
             pl: 'Walter',
         },
+        rico: {
+            ru: 'Рико',
+            ua: 'Ріко',
+            en: 'Rico',
+            de: 'Rico',
+            pl: 'Rico',
+        },
     },
     roles: {
         priest: {

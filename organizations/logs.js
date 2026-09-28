@@ -159,6 +159,13 @@ export const logs = {
                 de: '{{actor}} hat Fahrzeug {{vehicle}} ({{plate}}) an die Organisation übergeben',
                 pl: '{{actor}} przekazał organizacji pojazd {{vehicle}} ({{plate}})',
             },
+            vehicleBought: {
+                ru: '{{actor}} купил организации машину {{vehicle}} ({{plate}})',
+                ua: '{{actor}} купив організації машину {{vehicle}} ({{plate}})',
+                en: '{{actor}} bought vehicle {{vehicle}} ({{plate}}) for the organization',
+                de: '{{actor}} hat Fahrzeug {{vehicle}} ({{plate}}) für die Organisation gekauft',
+                pl: '{{actor}} kupił organizacji pojazd {{vehicle}} ({{plate}})',
+            },
             vehicleReturned: {
                 ru: '{{actor}} вернул машину {{vehicle}} ({{plate}}) владельцу ({{owner}})',
                 ua: '{{actor}} повернув машину {{vehicle}} ({{plate}}) власнику ({{owner}})',
@@ -214,6 +221,13 @@ export const logs = {
                 en: 'Confiscation skipped: no HQ found',
                 de: 'Beschlagnahmung übersprungen: kein HQ gefunden',
                 pl: 'Konfiskata pominięta: brak HQ',
+            },
+            adminReset: {
+                ru: 'Администрация сбросила организацию до состояния при создании (списано из казны: ${{balance}}, из сейфов офисов: ${{vault}})',
+                ua: 'Адміністрація скинула організацію до стану при створенні (списано з казни: ${{balance}}, із сейфів офісів: ${{vault}})',
+                en: 'The administration reset the organization to its creation state (taken from the treasury: ${{balance}}, from office vaults: ${{vault}})',
+                de: 'Die Administration hat die Organisation auf den Gründungszustand zurückgesetzt (aus der Kasse entfernt: ${{balance}}, aus den Bürotresoren: ${{vault}})',
+                pl: 'Administracja zresetowała organizację do stanu z chwili założenia (zabrano ze skarbca: ${{balance}}, z sejfów biur: ${{vault}})',
             },
             renamed: {
                 ru: '{{actor}} переименовал организацию: "{{from}}" → "{{to}}"',
