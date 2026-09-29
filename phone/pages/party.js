@@ -183,13 +183,6 @@ export default {
         de: 'Offline',
         pl: 'Offline',
     },
-    offlineLeft: {
-        ru: 'Не в сети, ещё {{min}} мин',
-        ua: 'Не в мережі, ще {{min}} хв',
-        en: 'Offline, {{min}} min left',
-        de: 'Offline, noch {{min}} Min.',
-        pl: 'Offline, jeszcze {{min}} min',
-    },
     voice: {
         ru: 'Голосовой чат',
         ua: 'Голосовий чат',

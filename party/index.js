@@ -185,13 +185,6 @@ export default {
         "de": "{{name}} hat deine Gruppe verlassen",
         "pl": "{{name}} opuścił twoją grupę",
     },
-    memberDroppedOffline: {
-        ru: '{{name}} не заходил в игру {{minutes}} минут и исключён из группы',
-        ua: '{{name}} не заходив у гру {{minutes}} хвилин і виключений з групи',
-        en: '{{name}} was offline for {{minutes}} minutes and has been removed from the group',
-        de: '{{name}} war {{minutes}} Minuten offline und wurde aus der Gruppe entfernt',
-        pl: '{{name}} był offline przez {{minutes}} minut i został usunięty z grupy',
-    },
     newLeader: {
         ru: 'Новым лидером группы стал {{name}}',
         ua: 'Новим лідером групи став {{name}}',
