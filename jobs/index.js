@@ -221,6 +221,14 @@ export default {
             pl: 'bonus grupy',
             zh: '小组奖励',
         },
+        loadDelivered: {
+            ru: 'за рейс',
+            ua: 'за рейс',
+            en: 'for the run',
+            de: 'für die Tour',
+            pl: 'za kurs',
+            zh: '运送奖励',
+        },
     },
 
     // САМИ РАБОТЫ
