@@ -66,6 +66,9 @@ export default {
     hud: {
         destroyed: { ru: 'Танк уничтожен', ua: 'Танк знищено', en: 'Tank destroyed', de: 'Panzer zerstört', pl: 'Czołg zniszczony' },
         destroyedBy: { ru: 'Уничтожил', ua: 'Знищив', en: 'Destroyed by', de: 'Zerstört von', pl: 'Zniszczony przez' },
+        // World of Tanks' postmortem for a tank lost to deep water: "Vehicle drowned", "Vehicle drowned by ...".
+        drowned: { ru: 'Танк утонул', ua: 'Танк потонув', en: 'Tank drowned', de: 'Panzer ertrunken', pl: 'Czołg utonął' },
+        drownedBy: { ru: 'Утопил', ua: 'Втопив', en: 'Drowned by', de: 'Ertränkt von', pl: 'Utopiony przez' },
         metres: { ru: '{{value}} м', ua: '{{value}} м', en: '{{value}} m', de: '{{value}} m', pl: '{{value}} m' },
         // The damage panel's speedometer unit, drawn smaller after the number.
         kmh: { ru: 'km/h', ua: 'km/h', en: 'km/h', de: 'km/h', pl: 'km/h' },
@@ -74,6 +77,112 @@ export default {
             ally: { ru: 'Наша база', ua: 'Наша база', en: 'Our base', de: 'Unsere Basis', pl: 'Nasza baza' },
             enemy: { ru: 'База противника', ua: 'База противника', en: 'Enemy base', de: 'Feindliche Basis', pl: 'Baza wroga' },
             neutral: { ru: 'База', ua: 'База', en: 'Base', de: 'Basis', pl: 'Baza' },
+        },
+        // The capture bar's title, by whose base it is (World of Tanks' "Enemy base capture (72)", "Base capture blocked").
+        capture: {
+            progress: {
+                ally: { ru: 'Захват нашей базы ({{points}})', ua: 'Захоплення нашої бази ({{points}})', en: 'Friendly base capture ({{points}})', de: 'Eroberung der eigenen Basis ({{points}})', pl: 'Przejmowanie naszej bazy ({{points}})' },
+                enemy: { ru: 'Захват базы противника ({{points}})', ua: 'Захоплення бази супротивника ({{points}})', en: 'Enemy base capture ({{points}})', de: 'Eroberung der feindlichen Basis ({{points}})', pl: 'Przejmowanie bazy wroga ({{points}})' },
+                neutral: { ru: 'Захват базы ({{points}})', ua: 'Захоплення бази ({{points}})', en: 'Base capture ({{points}})', de: 'Eroberung der Basis ({{points}})', pl: 'Przejmowanie bazy ({{points}})' },
+            },
+            captured: {
+                ally: { ru: 'Наша база захвачена!', ua: 'Нашу базу захоплено!', en: 'Friendly base captured!', de: 'Eigene Basis erobert!', pl: 'Nasza baza przejęta!' },
+                enemy: { ru: 'База противника захвачена!', ua: 'Базу супротивника захоплено!', en: 'Enemy base captured!', de: 'Feindliche Basis erobert!', pl: 'Baza wroga przejęta!' },
+                neutral: { ru: 'База захвачена!', ua: 'Базу захоплено!', en: 'Base captured!', de: 'Basis erobert!', pl: 'Baza przejęta!' },
+            },
+            blocked: { ru: 'Захват заблокирован', ua: 'Захоплення заблоковано', en: 'Base capture blocked', de: 'Eroberung blockiert', pl: 'Przejmowanie zablokowane' },
+        },
+        // Two minutes before the time limit, over the time left.
+        endWarning: { ru: 'До конца боя:', ua: 'До кінця бою:', en: 'Battle ends in:', de: 'Gefecht endet in:', pl: 'Bitwa kończy się za:' },
+        // The end of the battle over the screen: the outcome, and why it ended.
+        result: {
+            win: { ru: 'Победа!', ua: 'Перемога!', en: 'Victory!', de: 'Sieg!', pl: 'Zwycięstwo!' },
+            loss: { ru: 'Поражение', ua: 'Поразка', en: 'Defeat', de: 'Niederlage', pl: 'Porażka' },
+            draw: { ru: 'Ничья', ua: 'Нічия', en: 'Draw', de: 'Unentschieden', pl: 'Remis' },
+            reason: {
+                win: {
+                    extermination: { ru: 'Все машины противника уничтожены', ua: 'Усі машини супротивника знищено', en: 'All enemy vehicles destroyed', de: 'Alle feindlichen Fahrzeuge zerstört', pl: 'Wszystkie pojazdy wroga zniszczone' },
+                    base: { ru: 'База противника захвачена', ua: 'Базу супротивника захоплено', en: 'Enemy base captured', de: 'Feindliche Basis erobert', pl: 'Baza wroga przejęta' },
+                },
+                loss: {
+                    extermination: { ru: 'Все машины вашей команды уничтожены', ua: 'Усі машини вашої команди знищено', en: 'All vehicles of your team destroyed', de: 'Alle Fahrzeuge deines Teams zerstört', pl: 'Wszystkie pojazdy twojej drużyny zniszczone' },
+                    base: { ru: 'Противник захватил нашу базу', ua: 'Супротивник захопив нашу базу', en: 'The enemy captured our base', de: 'Der Gegner hat unsere Basis erobert', pl: 'Wróg przejął naszą bazę' },
+                },
+                draw: {
+                    extermination: { ru: 'Обе команды уничтожены', ua: 'Обидві команди знищено', en: 'Both teams destroyed', de: 'Beide Teams zerstört', pl: 'Obie drużyny zniszczone' },
+                    base: { ru: 'Обе базы захвачены одновременно', ua: 'Обидві бази захоплено одночасно', en: 'Both bases captured at once', de: 'Beide Basen gleichzeitig erobert', pl: 'Obie bazy przejęte jednocześnie' },
+                    timeout: { ru: 'Время боя истекло', ua: 'Час бою вичерпано', en: 'Battle time expired', de: 'Gefechtszeit abgelaufen', pl: 'Czas bitwy minął' },
+                },
+            },
+        },
+        // The Tab screen's header: the battle type and what wins it.
+        stats: {
+            type: {
+                standard: { ru: 'Стандартный бой', ua: 'Стандартний бій', en: 'Standard battle', de: 'Standardgefecht', pl: 'Bitwa standardowa' },
+                encounter: { ru: 'Встречный бой', ua: 'Зустрічний бій', en: 'Encounter', de: 'Begegnungsgefecht', pl: 'Bitwa spotkaniowa' },
+            },
+            goal: {
+                standard: {
+                    ru: 'Захватите базу противника или уничтожьте все его машины',
+                    ua: 'Захопіть базу супротивника або знищіть усі його машини',
+                    en: 'Capture the enemy base or destroy all enemy vehicles',
+                    de: 'Erobere die feindliche Basis oder zerstöre alle feindlichen Fahrzeuge',
+                    pl: 'Przejmij bazę wroga lub zniszcz wszystkie jego pojazdy',
+                },
+                encounter: {
+                    ru: 'Захватите базу или уничтожьте все машины противника',
+                    ua: 'Захопіть базу або знищіть усі машини супротивника',
+                    en: 'Capture the base or destroy all enemy vehicles',
+                    de: 'Erobere die Basis oder zerstöre alle feindlichen Fahrzeuge',
+                    pl: 'Przejmij bazę lub zniszcz wszystkie pojazdy wroga',
+                },
+            },
+        },
+        // What befell the own tank, over the ammo panel (World of Tanks' vehicle messages).
+        vehicle: {
+            damaged: {
+                engine: { ru: 'Двигатель повреждён', ua: 'Двигун пошкоджено', en: 'Engine damaged', de: 'Motor beschädigt', pl: 'Silnik uszkodzony' },
+                ammoRack: { ru: 'Боеукладка повреждена', ua: 'Боєукладку пошкоджено', en: 'Ammo rack damaged', de: 'Munitionslager beschädigt', pl: 'Magazyn amunicji uszkodzony' },
+                fuelTank: { ru: 'Топливный бак повреждён', ua: 'Паливний бак пошкоджено', en: 'Fuel tank damaged', de: 'Kraftstofftank beschädigt', pl: 'Zbiornik paliwa uszkodzony' },
+                gun: { ru: 'Орудие повреждено', ua: 'Гармату пошкоджено', en: 'Gun damaged', de: 'Geschütz beschädigt', pl: 'Działo uszkodzone' },
+                turretRing: { ru: 'Механизм поворота башни повреждён', ua: 'Механізм повороту башти пошкоджено', en: 'Turret traverse damaged', de: 'Turmdrehwerk beschädigt', pl: 'Mechanizm obrotu wieży uszkodzony' },
+                optics: { ru: 'Приборы наблюдения повреждены', ua: 'Прилади спостереження пошкоджено', en: 'Observation devices damaged', de: 'Beobachtungsgeräte beschädigt', pl: 'Przyrządy obserwacyjne uszkodzone' },
+                trackLeft: { ru: 'Левая гусеница повреждена', ua: 'Ліву гусеницю пошкоджено', en: 'Left track damaged', de: 'Linke Kette beschädigt', pl: 'Lewa gąsienica uszkodzona' },
+                trackRight: { ru: 'Правая гусеница повреждена', ua: 'Праву гусеницю пошкоджено', en: 'Right track damaged', de: 'Rechte Kette beschädigt', pl: 'Prawa gąsienica uszkodzona' },
+            },
+            destroyed: {
+                engine: { ru: 'Двигатель уничтожен', ua: 'Двигун знищено', en: 'Engine destroyed', de: 'Motor zerstört', pl: 'Silnik zniszczony' },
+                ammoRack: { ru: 'Боеукладка уничтожена', ua: 'Боєукладку знищено', en: 'Ammo rack destroyed', de: 'Munitionslager zerstört', pl: 'Magazyn amunicji zniszczony' },
+                fuelTank: { ru: 'Топливный бак уничтожен', ua: 'Паливний бак знищено', en: 'Fuel tank destroyed', de: 'Kraftstofftank zerstört', pl: 'Zbiornik paliwa zniszczony' },
+                gun: { ru: 'Орудие уничтожено', ua: 'Гармату знищено', en: 'Gun destroyed', de: 'Geschütz zerstört', pl: 'Działo zniszczone' },
+                turretRing: { ru: 'Башню заклинило', ua: 'Башту заклинило', en: 'Turret jammed', de: 'Turm verklemmt', pl: 'Wieża zablokowana' },
+                optics: { ru: 'Приборы наблюдения уничтожены', ua: 'Прилади спостереження знищено', en: 'Observation devices destroyed', de: 'Beobachtungsgeräte zerstört', pl: 'Przyrządy obserwacyjne zniszczone' },
+                trackLeft: { ru: 'Левая гусеница сбита', ua: 'Ліву гусеницю збито', en: 'Left track knocked off', de: 'Linke Kette abgeschossen', pl: 'Lewa gąsienica zerwana' },
+                trackRight: { ru: 'Правая гусеница сбита', ua: 'Праву гусеницю збито', en: 'Right track knocked off', de: 'Rechte Kette abgeschossen', pl: 'Prawa gąsienica zerwana' },
+            },
+            repaired: {
+                engine: { ru: 'Двигатель отремонтирован', ua: 'Двигун відремонтовано', en: 'Engine repaired', de: 'Motor repariert', pl: 'Silnik naprawiony' },
+                ammoRack: { ru: 'Боеукладка отремонтирована', ua: 'Боєукладку відремонтовано', en: 'Ammo rack repaired', de: 'Munitionslager repariert', pl: 'Magazyn amunicji naprawiony' },
+                fuelTank: { ru: 'Топливный бак отремонтирован', ua: 'Паливний бак відремонтовано', en: 'Fuel tank repaired', de: 'Kraftstofftank repariert', pl: 'Zbiornik paliwa naprawiony' },
+                gun: { ru: 'Орудие отремонтировано', ua: 'Гармату відремонтовано', en: 'Gun repaired', de: 'Geschütz repariert', pl: 'Działo naprawione' },
+                turretRing: { ru: 'Механизм поворота башни отремонтирован', ua: 'Механізм повороту башти відремонтовано', en: 'Turret traverse repaired', de: 'Turmdrehwerk repariert', pl: 'Mechanizm obrotu wieży naprawiony' },
+                optics: { ru: 'Приборы наблюдения отремонтированы', ua: 'Прилади спостереження відремонтовано', en: 'Observation devices repaired', de: 'Beobachtungsgeräte repariert', pl: 'Przyrządy obserwacyjne naprawione' },
+                trackLeft: { ru: 'Левая гусеница восстановлена', ua: 'Ліву гусеницю відновлено', en: 'Left track repaired', de: 'Linke Kette repariert', pl: 'Lewa gąsienica naprawiona' },
+                trackRight: { ru: 'Правая гусеница восстановлена', ua: 'Праву гусеницю відновлено', en: 'Right track repaired', de: 'Rechte Kette repariert', pl: 'Prawa gąsienica naprawiona' },
+            },
+            contused: {
+                commander: { ru: 'Командир контужен', ua: 'Командира контужено', en: 'Commander injured', de: 'Kommandant verwundet', pl: 'Dowódca ranny' },
+                gunner: { ru: 'Наводчик контужен', ua: 'Навідника контужено', en: 'Gunner injured', de: 'Richtschütze verwundet', pl: 'Działonowy ranny' },
+                driver: { ru: 'Механик-водитель контужен', ua: 'Механіка-водія контужено', en: 'Driver injured', de: 'Fahrer verwundet', pl: 'Kierowca ranny' },
+                loader: { ru: 'Заряжающий контужен', ua: 'Заряджаючого контужено', en: 'Loader injured', de: 'Ladeschütze verwundet', pl: 'Ładowniczy ranny' },
+            },
+            fire: { ru: 'Пожар!', ua: 'Пожежа!', en: 'Fire!', de: 'Feuer!', pl: 'Pożar!' },
+            fireOut: { ru: 'Пожар потушен', ua: 'Пожежу загашено', en: 'Fire extinguished', de: 'Feuer gelöscht', pl: 'Pożar ugaszony' },
+        },
+        // What the own tank cannot do right now, high in the middle (World of Tanks' vehicle errors).
+        errors: {
+            reloading: { ru: 'Орудие перезаряжается', ua: 'Гармата перезаряджається', en: 'The gun is reloading', de: 'Das Geschütz lädt nach', pl: 'Działo się przeładowuje' },
+            noAmmo: { ru: 'Снаряды этого типа закончились', ua: 'Снаряди цього типу закінчилися', en: 'No shells of this type left', de: 'Keine Granaten dieses Typs mehr', pl: 'Brak pocisków tego typu' },
         },
     },
     // The hangar: the Hangar section of the Tanks page in the arena menu (webviews/systems/arena/pages/mode/hangar).
@@ -106,6 +215,10 @@ export default {
             },
         },
         toLobbies: { ru: 'В лобби', ua: 'У лобі', en: 'To lobbies', de: 'Zu den Lobbys', pl: 'Do lobby' },
+        // The same button while the player waits in a tank lobby, or came from a tank event's banner.
+        toRoom: { ru: 'Вернуться в лобби', ua: 'Повернутися в лобі', en: 'Back to lobby', de: 'Zurück zur Lobby', pl: 'Wróć do lobby' },
+        joinEvent: { ru: 'Участвовать', ua: 'Взяти участь', en: 'Join the event', de: 'Am Event teilnehmen', pl: 'Dołącz do wydarzenia' },
+        toEvent: { ru: 'Лобби ивента', ua: 'Лобі івенту', en: 'Event lobby', de: 'Event-Lobby', pl: 'Lobby wydarzenia' },
         stockNote: {
             ru: 'Характеристики со стоковыми модулями: такой танк приходит после покупки.',
             ua: 'Характеристики зі стоковими модулями: такий танк приходить після купівлі.',
@@ -118,9 +231,12 @@ export default {
             garage: { ru: 'Ангар', ua: 'Ангар', en: 'Hangar', de: 'Hangar', pl: 'Hangar' },
             details: { ru: 'О машине', ua: 'Про машину', en: 'About vehicle', de: 'Über das Fahrzeug', pl: 'O pojeździe' },
             tree: { ru: 'Дерево исследований', ua: 'Дерево досліджень', en: 'Research tree', de: 'Forschungsbaum', pl: 'Drzewko badań' },
+            exterior: { ru: 'Внешний вид', ua: 'Зовнішній вигляд', en: 'Exterior', de: 'Aussehen', pl: 'Wygląd' },
         },
-        // The buttons under the tank in the garage.
+        // The buttons under the tank in the garage and the rows of its vehicle menu.
         actions: {
+            menu: { ru: 'Меню машины', ua: 'Меню машини', en: 'Vehicle menu', de: 'Fahrzeugmenü', pl: 'Menu pojazdu' },
+            exterior: { ru: 'Внешний вид', ua: 'Зовнішній вигляд', en: 'Exterior', de: 'Aussehen', pl: 'Wygląd' },
             stats: { ru: 'Характеристики', ua: 'Характеристики', en: 'Characteristics', de: 'Eigenschaften', pl: 'Parametry' },
             modules: { ru: 'Модули', ua: 'Модулі', en: 'Modules', de: 'Module', pl: 'Moduły' },
             armor: { ru: 'Броня', ua: 'Броня', en: 'Armor', de: 'Panzerung', pl: 'Pancerz' },
@@ -1197,32 +1313,12 @@ export default {
         },
         kit: {
             slot: { ru: 'Слот {{value}}', ua: 'Слот {{value}}', en: 'Slot {{value}}', de: 'Platz {{value}}', pl: 'Slot {{value}}' },
-            cosmetic: { ru: 'Внешний вид', ua: 'Зовнішній вигляд', en: 'Looks', de: 'Optik', pl: 'Wygląd' },
-            cosmeticShort: { ru: 'Вид', ua: 'Вигляд', en: 'Looks', de: 'Optik', pl: 'Wygląd' },
-            emptyHint: {
-                ru: 'Пусто. Нажмите, чтобы выбрать снаряжение.',
-                ua: 'Порожньо. Натисніть, щоб обрати спорядження.',
-                en: 'Empty. Click to pick equipment.',
-                de: 'Leer. Klicken, um Ausrüstung zu wählen.',
-                pl: 'Pusto. Kliknij, aby wybrać wyposażenie.',
-            },
-            needTurret: { ru: 'С топовой башней', ua: 'З топовою баштою', en: 'With the top turret', de: 'Mit dem Top-Turm', pl: 'Z topową wieżą' },
             needTurretLong: {
                 ru: 'Снаряжение открывается, когда исследована топовая башня этого танка.',
                 ua: 'Спорядження відкривається, коли досліджено топову башту цього танка.',
                 en: 'Equipment opens once the top turret of this tank is researched.',
                 de: 'Ausrüstung wird freigeschaltet, sobald der Top-Turm dieses Panzers erforscht ist.',
                 pl: 'Wyposażenie odblokowuje się po zbadaniu topowej wieży tego czołgu.',
-            },
-            mount: { ru: 'Установить', ua: 'Встановити', en: 'Fit', de: 'Montieren', pl: 'Zamontuj' },
-            unmount: { ru: 'Снять', ua: 'Зняти', en: 'Remove', de: 'Abbauen', pl: 'Zdejmij' },
-            elsewhere: { ru: 'В другом слоте', ua: 'В іншому слоті', en: 'In the other slot', de: 'Im anderen Platz', pl: 'W drugim slocie' },
-            conflict: {
-                ru: 'Встаёт на место уже установленного',
-                ua: 'Стає на місце вже встановленого',
-                en: 'Sits where a fitted piece is',
-                de: 'Sitzt, wo schon etwas verbaut ist',
-                pl: 'Zajmuje miejsce zamontowanego',
             },
             effects: {
                 armor: {
@@ -1304,6 +1400,84 @@ export default {
                 t80um1Turret: { ru: 'Башня Т-80УМ-1', ua: 'Башта Т-80УМ-1', en: 'T-80UM-1 turret', de: 'T-80UM-1-Turm', pl: 'Wieża T-80UM-1' },
                 t80um2Turret: { ru: 'Башня Т-80УМ-2', ua: 'Башта Т-80УМ-2', en: 'T-80UM-2 turret', de: 'T-80UM-2-Turm', pl: 'Wieża T-80UM-2' },
                 snorkel: { ru: 'Шноркель', ua: 'Шноркель', en: 'Snorkel', de: 'Schnorchel', pl: 'Chrapy' },
+            },
+        },
+        // The exterior screen: the paint and the kit pieces by kind, tried on, paid and fitted as one purchase.
+        exterior: {
+            categories: {
+                paint: { ru: 'Покраска', ua: 'Фарбування', en: 'Paint', de: 'Lackierung', pl: 'Lakier' },
+                all: { ru: 'Всё навесное', ua: 'Усе навісне', en: 'All attachments', de: 'Alle Anbauteile', pl: 'Wszystkie dodatki' },
+                armor: { ru: 'Броня', ua: 'Броня', en: 'Armor', de: 'Panzerung', pl: 'Pancerz' },
+                camoNet: { ru: 'Маскировочные сети', ua: 'Маскувальні сітки', en: 'Camo nets', de: 'Tarnnetze', pl: 'Siatki maskujące' },
+                dozer: { ru: 'Отвалы и тралы', ua: 'Відвали й трали', en: 'Blades and plows', de: 'Räumschilde und Pflüge', pl: 'Lemiesze i trały' },
+                weaponStation: { ru: 'Вооружение', ua: 'Озброєння', en: 'Weapons', de: 'Bewaffnung', pl: 'Uzbrojenie' },
+                kit: { ru: 'Декор', ua: 'Декор', en: 'Decor', de: 'Dekor', pl: 'Dekor' },
+            },
+            slots: { ru: 'Снаряжение {{used}} / {{max}}', ua: 'Спорядження {{used}} / {{max}}', en: 'Equipment {{used}} / {{max}}', de: 'Ausrüstung {{used}} / {{max}}', pl: 'Wyposażenie {{used}} / {{max}}' },
+            slotsHint: {
+                ru: 'Броня, сети и отвалы меняют характеристики, поэтому их на танке не больше {{max}}. Вооружение и декор ставятся без ограничений, если не занимают одно место на модели.',
+                ua: 'Броня, сітки й відвали змінюють характеристики, тому їх на танку не більше {{max}}. Озброєння й декор ставляться без обмежень, якщо не займають одне місце на моделі.',
+                en: 'Armor, nets and blades change the numbers, so a tank carries {{max}} of them at most. Weapons and decor have no limit, as long as they do not take the same place on the model.',
+                de: 'Panzerung, Netze und Räumschilde verändern die Werte, daher trägt ein Panzer höchstens {{max}} davon. Bewaffnung und Dekor sind unbegrenzt, solange sie nicht dieselbe Stelle am Modell belegen.',
+                pl: 'Pancerz, siatki i lemiesze zmieniają parametry, więc czołg nosi ich najwyżej {{max}}. Uzbrojenie i dekor nie mają limitu, o ile nie zajmują tego samego miejsca na modelu.',
+            },
+            slotsFull: {
+                ru: 'Снаряжения уже {{max}}: сначала снимите одно',
+                ua: 'Спорядження вже {{max}}: спершу зніміть одне',
+                en: '{{max}} equipment pieces are on already: take one off first',
+                de: 'Schon {{max}} Ausrüstungsteile verbaut: erst eines abbauen',
+                pl: 'Wyposażenia jest już {{max}}: najpierw zdejmij jedno',
+            },
+            gunTaken: {
+                ru: 'Это место на модели занимает топовое орудие',
+                ua: 'Це місце на моделі займає топова гармата',
+                en: 'The top gun takes this place on the model',
+                de: 'Die Top-Kanone belegt diese Stelle am Modell',
+                pl: 'To miejsce na modelu zajmuje topowe działo',
+            },
+            replaces: { ru: 'Заменит: {{names}}', ua: 'Замінить: {{names}}', en: 'Replaces: {{names}}', de: 'Ersetzt: {{names}}', pl: 'Zastąpi: {{names}}' },
+            noModel: {
+                ru: 'На модели танка не отображается',
+                ua: 'На моделі танка не відображається',
+                en: 'Not shown on the tank model',
+                de: 'Am Panzermodell nicht sichtbar',
+                pl: 'Niewidoczne na modelu czołgu',
+            },
+            owned: { ru: 'Куплено', ua: 'Куплено', en: 'Owned', de: 'Gekauft', pl: 'Kupione' },
+            noEffect: { ru: 'Не меняет характеристики', ua: 'Не змінює характеристик', en: 'Does not change the numbers', de: 'Ändert die Werte nicht', pl: 'Nie zmienia parametrów' },
+            total: { ru: 'Итого', ua: 'Разом', en: 'Total', de: 'Gesamt', pl: 'Razem' },
+            reset: { ru: 'Сбросить', ua: 'Скинути', en: 'Reset', de: 'Zurücksetzen', pl: 'Resetuj' },
+            apply: { ru: 'Применить', ua: 'Застосувати', en: 'Apply', de: 'Übernehmen', pl: 'Zastosuj' },
+            buyApply: { ru: 'Купить и установить', ua: 'Купити й встановити', en: 'Buy and fit', de: 'Kaufen und montieren', pl: 'Kup i zamontuj' },
+            // The Paint tab, worded as the tuning studio words a car's paint.
+            paint: {
+                colors: {
+                    primary: { ru: 'Основной цвет', ua: 'Основний колір', en: 'Primary color', de: 'Hauptfarbe', pl: 'Kolor podstawowy' },
+                    secondary: { ru: 'Дополнительный цвет', ua: 'Додатковий колір', en: 'Secondary color', de: 'Zweitfarbe', pl: 'Kolor dodatkowy' },
+                },
+                finishOf: {
+                    primary: { ru: 'Тип основного цвета', ua: 'Тип основного кольору', en: 'Primary color type', de: 'Hauptfarbtyp', pl: 'Typ koloru podstawowego' },
+                    secondary: { ru: 'Тип дополнительного цвета', ua: 'Тип додаткового кольору', en: 'Secondary color type', de: 'Zweitfarbtyp', pl: 'Typ koloru dodatkowego' },
+                },
+                finishes: {
+                    standard: { ru: 'Обычный', ua: 'Звичайний', en: 'Default', de: 'Standard', pl: 'Domyślny' },
+                    matte: { ru: 'Матовый', ua: 'Матовий', en: 'Matte', de: 'Matt', pl: 'Matowy' },
+                    metal: { ru: 'Металл', ua: 'Метал', en: 'Metal', de: 'Metall', pl: 'Metal' },
+                    chrome: { ru: 'Хром', ua: 'Хром', en: 'Chrome', de: 'Chrom', pl: 'Chrom' },
+                },
+                factory: { ru: 'Заводской цвет', ua: 'Заводський колір', en: 'Factory color', de: 'Werksfarbe', pl: 'Kolor fabryczny' },
+                current: { ru: 'Сейчас', ua: 'Зараз', en: 'Current', de: 'Aktuell', pl: 'Obecny' },
+                copy: { ru: 'Копировать', ua: 'Копіювати', en: 'Copy', de: 'Kopieren', pl: 'Kopiuj' },
+                paste: { ru: 'Вставить', ua: 'Вставити', en: 'Paste', de: 'Einfügen', pl: 'Wklej' },
+                undo: { ru: 'Вернуть как было', ua: 'Повернути як було', en: 'Undo', de: 'Rückgängig', pl: 'Cofnij' },
+                // A tank whose camouflage livery covers the body colour (configs/tanks/hangar TANK_PAINT): only the finish shows.
+                finishOnly: {
+                    ru: 'Камуфляж этого танка перекрывает цвет: меняется только тип покраски',
+                    ua: 'Камуфляж цього танка перекриває колір: змінюється лише тип фарбування',
+                    en: 'The camouflage of this tank covers the color: only the paint type changes',
+                    de: 'Die Tarnung dieses Panzers verdeckt die Farbe: Nur der Farbtyp ändert sich',
+                    pl: 'Kamuflaż tego czołgu zakrywa kolor: zmienia się tylko typ lakieru',
+                },
             },
         },
         // The details view's Armor tab and the card at the cursor (9.4).

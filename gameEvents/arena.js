@@ -926,6 +926,78 @@ export default {
                 de: 'Teamgefechte mit eigenen Panzern: Linien erforschen, Fahrzeuge und Module kaufen, Ausrüstung im Hangar montieren.',
                 pl: 'Bitwy drużynowe na własnych czołgach: badaj linie, kupuj pojazdy i moduły, montuj wyposażenie w hangarze.',
             },
+            // The team battle's notifications: its result and why, the bounds, a player with no tank for the tier.
+            battle: {
+                victory: {
+                    base: {
+                        ru: 'Победа: база захвачена',
+                        ua: 'Перемога: базу захоплено',
+                        en: 'Victory: the base is captured',
+                        de: 'Sieg: die Basis ist erobert',
+                        pl: 'Zwycięstwo: baza przejęta',
+                    },
+                    extermination: {
+                        ru: 'Победа: все танки противника уничтожены',
+                        ua: 'Перемога: усі танки супротивника знищено',
+                        en: 'Victory: every enemy tank is destroyed',
+                        de: 'Sieg: alle feindlichen Panzer sind zerstört',
+                        pl: 'Zwycięstwo: wszystkie czołgi wroga zniszczone',
+                    },
+                },
+                defeat: {
+                    base: {
+                        ru: 'Поражение: противник захватил базу',
+                        ua: 'Поразка: супротивник захопив базу',
+                        en: 'Defeat: the enemy captured the base',
+                        de: 'Niederlage: der Gegner hat die Basis erobert',
+                        pl: 'Porażka: wróg przejął bazę',
+                    },
+                    extermination: {
+                        ru: 'Поражение: все танки вашей команды уничтожены',
+                        ua: 'Поразка: усі танки вашої команди знищено',
+                        en: 'Defeat: every tank of your team is destroyed',
+                        de: 'Niederlage: alle Panzer deines Teams sind zerstört',
+                        pl: 'Porażka: wszystkie czołgi twojej drużyny zniszczone',
+                    },
+                },
+                draw: {
+                    base: {
+                        ru: 'Ничья: обе базы захвачены одновременно',
+                        ua: 'Нічия: обидві бази захоплено одночасно',
+                        en: 'Draw: both bases were captured at once',
+                        de: 'Unentschieden: beide Basen wurden gleichzeitig erobert',
+                        pl: 'Remis: obie bazy przejęto jednocześnie',
+                    },
+                    extermination: {
+                        ru: 'Ничья: обе команды уничтожены',
+                        ua: 'Нічия: обидві команди знищено',
+                        en: 'Draw: both teams are destroyed',
+                        de: 'Unentschieden: beide Teams sind zerstört',
+                        pl: 'Remis: obie drużyny zniszczone',
+                    },
+                    timeout: {
+                        ru: 'Ничья: время боя истекло',
+                        ua: 'Нічия: час бою вичерпано',
+                        en: 'Draw: the battle time is up',
+                        de: 'Unentschieden: die Gefechtszeit ist abgelaufen',
+                        pl: 'Remis: czas bitwy minął',
+                    },
+                },
+                outOfBounds: {
+                    ru: 'Вы покинули зону боя. Вернитесь за {{seconds}} с, иначе танк будет уничтожен',
+                    ua: 'Ви покинули зону бою. Поверніться за {{seconds}} с, інакше танк буде знищено',
+                    en: 'You left the battle area. Return within {{seconds}} s or the tank is destroyed',
+                    de: 'Du hast das Gefechtsgebiet verlassen. Kehre in {{seconds}} s zurück, sonst wird der Panzer zerstört',
+                    pl: 'Opuściłeś strefę bitwy. Wróć w ciągu {{seconds}} s, inaczej czołg zostanie zniszczony',
+                },
+                noTank: {
+                    ru: 'Выбранный в ангаре танк не подходит по уровню для этого боя: вы в нём не участвуете, депозит возвращён',
+                    ua: 'Вибраний в ангарі танк не підходить за рівнем для цього бою: ви в ньому не берете участі, депозит повернуто',
+                    en: 'The tank selected in your hangar does not fit the tiers of this battle: you sit it out, your deposit is returned',
+                    de: 'Der im Hangar gewählte Panzer passt nicht zu den Stufen dieses Gefechts: du setzt aus, deine Einlage ist zurück',
+                    pl: 'Czołg wybrany w hangarze nie pasuje do poziomów tej bitwy: nie bierzesz w niej udziału, wpisowe zostało zwrócone',
+                },
+            },
         },
     },
 
@@ -1271,6 +1343,14 @@ export default {
             en: 'The match may not be over by the start of your arena event',
             de: 'Das Match ist zum Start deines Arena-Events womöglich nicht vorbei',
             pl: 'Mecz może nie skończyć się przed startem twojego wydarzenia na arenie',
+        },
+        // A tank lobby or event: the tank selected in the hangar is of none of its tiers, or there is none.
+        noTank: {
+            ru: 'Нужен танк одного из уровней боя: выберите его в ангаре',
+            ua: 'Потрібен танк одного з рівнів бою: виберіть його в ангарі',
+            en: 'You need a tank of one of the battle tiers: select it in the hangar',
+            de: 'Du brauchst einen Panzer einer der Gefechtsstufen: wähle ihn im Hangar',
+            pl: 'Potrzebujesz czołgu jednego z poziomów bitwy: wybierz go w hangarze',
         },
     },
 
@@ -1839,6 +1919,37 @@ export default {
                 pl: 'Pojazdy GTA',
             },
         },
+        // A tank lobby or event: the tank the player fights in, the one selected in the hangar (pages/room/RoomTankSlot.vue).
+        tank: {
+            title: {
+                ru: 'Ваш танк в бою',
+                ua: 'Ваш танк у бою',
+                en: 'Your battle tank',
+                de: 'Dein Gefechtspanzer',
+                pl: 'Twój czołg w bitwie',
+            },
+            change: {
+                ru: 'Сменить в ангаре',
+                ua: 'Змінити в ангарі',
+                en: 'Change in hangar',
+                de: 'Im Hangar wechseln',
+                pl: 'Zmień w hangarze',
+            },
+            none: {
+                ru: 'В ангаре не выбран танк',
+                ua: 'В ангарі не вибрано танк',
+                en: 'No tank selected in the hangar',
+                de: 'Im Hangar ist kein Panzer gewählt',
+                pl: 'W hangarze nie wybrano czołgu',
+            },
+            unfit: {
+                ru: '{{tier}} уровень не участвует в этом бою',
+                ua: '{{tier}} рівень не бере участі в цьому бою',
+                en: 'Tier {{tier}} is not in this battle',
+                de: 'Stufe {{tier}} ist in diesem Gefecht nicht dabei',
+                pl: 'Poziom {{tier}} nie bierze udziału w tej bitwie',
+            },
+        },
         status: {
             playing: {
                 ru: 'Матч уже идёт',
@@ -2030,6 +2141,14 @@ export default {
                 de: 'Schaden',
                 pl: 'Obrażenia',
             },
+            // A tank battle: damage allies dealt to the enemies this player immobilised or spotted.
+            assist: {
+                ru: 'Помощь',
+                ua: 'Допомога',
+                en: 'Assist',
+                de: 'Unterstützung',
+                pl: 'Asysta',
+            },
             survivedMs: {
                 ru: 'Выживание',
                 ua: 'Виживання',
@@ -2136,12 +2255,12 @@ export default {
             de: 'Strecke',
             pl: 'Trasa',
         },
-        tier: {
-            ru: 'Уровень боя',
-            ua: 'Рівень бою',
-            en: 'Battle tier',
-            de: 'Gefechtsstufe',
-            pl: 'Poziom bitwy',
+        tiers: {
+            ru: 'Уровни танков',
+            ua: 'Рівні танків',
+            en: 'Tank tiers',
+            de: 'Panzerstufen',
+            pl: 'Poziomy czołgów',
         },
         battle: {
             ru: 'Тип боя',
@@ -2257,13 +2376,13 @@ export default {
     },
 
     options: {
-        // Tank battle tiers, written the way World of Tanks writes them.
-        tier: {
-            6: { ru: 'VI уровень', ua: 'VI рівень', en: 'Tier VI', de: 'Stufe VI', pl: 'Poziom VI' },
-            7: { ru: 'VII уровень', ua: 'VII рівень', en: 'Tier VII', de: 'Stufe VII', pl: 'Poziom VII' },
-            8: { ru: 'VIII уровень', ua: 'VIII рівень', en: 'Tier VIII', de: 'Stufe VIII', pl: 'Poziom VIII' },
-            9: { ru: 'IX уровень', ua: 'IX рівень', en: 'Tier IX', de: 'Stufe IX', pl: 'Poziom IX' },
-            10: { ru: 'X уровень', ua: 'X рівень', en: 'Tier X', de: 'Stufe X', pl: 'Poziom X' },
+        // Tank tiers, written the way World of Tanks writes them: one button each in the create form, runs joined on the chips (VI-VIII).
+        tiers: {
+            6: { ru: 'VI', ua: 'VI', en: 'VI', de: 'VI', pl: 'VI' },
+            7: { ru: 'VII', ua: 'VII', en: 'VII', de: 'VII', pl: 'VII' },
+            8: { ru: 'VIII', ua: 'VIII', en: 'VIII', de: 'VIII', pl: 'VIII' },
+            9: { ru: 'IX', ua: 'IX', en: 'IX', de: 'IX', pl: 'IX' },
+            10: { ru: 'X', ua: 'X', en: 'X', de: 'X', pl: 'X' },
         },
         battle: {
             standard: { ru: 'Стандартный', ua: 'Стандартний', en: 'Standard', de: 'Standard', pl: 'Standardowa' },
@@ -2707,6 +2826,21 @@ export default {
             },
         },
         map: {
+            // The tank battle maps (shared/configs/tanks/maps): place names as in the game.
+            losSantosAirport: {
+                ru: 'Los Santos International',
+                ua: 'Los Santos International',
+                en: 'Los Santos International',
+                de: 'Los Santos International',
+                pl: 'Los Santos International',
+            },
+            sandyShoresAirfield: {
+                ru: 'Sandy Shores Airfield',
+                ua: 'Sandy Shores Airfield',
+                en: 'Sandy Shores Airfield',
+                de: 'Sandy Shores Airfield',
+                pl: 'Sandy Shores Airfield',
+            },
             mazeBankArena: {
                 ru: 'Maze Bank Arena',
                 ua: 'Maze Bank Arena',
