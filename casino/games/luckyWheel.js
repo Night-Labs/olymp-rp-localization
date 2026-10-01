@@ -95,6 +95,15 @@ export const luckyWheel = {
         zh: '免费转盘尚未恢复。',
     },
 
+    notEnoughOnline: {
+        ru: 'Бесплатное вращение открывается после {{minutes}} минут в игре за сутки.',
+        ua: 'Безкоштовне обертання відкривається після {{minutes}} хвилин у грі за добу.',
+        en: 'The free spin unlocks after {{minutes}} minutes in game within a day.',
+        de: 'Der Gratis-Dreh wird nach {{minutes}} Minuten Spielzeit innerhalb eines Tages freigeschaltet.',
+        pl: 'Darmowy obrót odblokowuje się po {{minutes}} minutach gry w ciągu doby.',
+        zh: '每天游戏满{{minutes}}分钟后解锁免费转盘。',
+    },
+
     prizes: {
         clothing: {
             ru: 'одежду',

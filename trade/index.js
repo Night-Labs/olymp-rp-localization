@@ -105,6 +105,14 @@ export default {
                     pl: 'Przedmiot nie jest już dostępny',
                     zh: '资产已不可用',
                 },
+                transferLimit: {
+                    ru: 'Обмен отклонён: превышен суточный лимит передачи имущества у одного из участников',
+                    ua: 'Обмін відхилено: перевищено добовий ліміт передачі майна в одного з учасників',
+                    en: 'Trade declined: one of the participants is over the daily transfer limit',
+                    de: 'Tausch abgelehnt: Einer der Teilnehmer hat das tägliche Übertragungslimit überschritten',
+                    pl: 'Wymiana odrzucona: jeden z uczestników przekroczył dzienny limit przekazywania majątku',
+                    zh: '交换被拒绝：其中一方已超过每日转移上限',
+                },
                 executionFailed: {
                     ru: 'Ошибка при выполнении обмена',
                     ua: 'Помилка під час виконання обміну',

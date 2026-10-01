@@ -60,6 +60,13 @@ export const bank = {
             de: 'Nicht genug Organisationsguthaben',
             pl: 'Niewystarczające środki na bilansie organizacji',
         },
+        withdrawLimit: {
+            ru: 'Превышен суточный лимит снятия из казны организации: ${{limit}} на всех участников, осталось ${{remaining}}',
+            ua: 'Перевищено добовий ліміт зняття з казни організації: ${{limit}} на всіх учасників, залишилося ${{remaining}}',
+            en: 'The daily limit for withdrawing from the organization treasury is exceeded: ${{limit}} for all members together, ${{remaining}} left',
+            de: 'Das Tageslimit für Abhebungen aus der Organisationskasse ist überschritten: ${{limit}} für alle Mitglieder zusammen, noch ${{remaining}} übrig',
+            pl: 'Przekroczono dzienny limit wypłat ze skarbca organizacji: ${{limit}} łącznie dla wszystkich członków, pozostało ${{remaining}}',
+        },
         failed: {
             ru: 'Не удалось выполнить операцию',
             ua: 'Не вдалося виконати операцію',

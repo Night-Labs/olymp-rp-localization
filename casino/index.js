@@ -2,6 +2,9 @@ import { cashier } from './cashier';
 import { luckyWheel } from './games/luckyWheel';
 import { roulette } from './games/roulette';
 import { slots } from './games/slots';
+import { blackjack } from './games/blackjack';
+import { poker } from './games/poker';
+import { jackpot } from './games/jackpot';
 import homeless from './homeless';
 
 export default {
@@ -9,6 +12,9 @@ export default {
     luckyWheel,
     roulette,
     slots,
+    blackjack,
+    poker,
+    jackpot,
     homeless,
 
     balance: {
@@ -27,6 +33,34 @@ export default {
         de: 'Casino',
         pl: 'Kasyno',
         zh:'赌场',
+    },
+
+    // Key hints of the games' bottom bar, the ones every seated game has.
+    hints: {
+        chip: {
+            ru: 'Сменить фишку',
+            ua: 'Змінити фішку',
+            en: 'Change chip',
+            de: 'Chip wechseln',
+            pl: 'Zmień żeton',
+            zh: '切换筹码',
+        },
+        camera: {
+            ru: 'Сменить вид',
+            ua: 'Змінити вигляд',
+            en: 'Switch view',
+            de: 'Ansicht wechseln',
+            pl: 'Zmień widok',
+            zh: '切换视角',
+        },
+        leave: {
+            ru: 'Встать',
+            ua: 'Встати',
+            en: 'Stand up',
+            de: 'Aufstehen',
+            pl: 'Wstań',
+            zh: '起身',
+        },
     },
 
     notEnoughChips: {
