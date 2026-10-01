@@ -16,6 +16,7 @@ import craftComponents from './craftComponents';
 import forgery from './forgery';
 import burglar from './burglar';
 import cargo from './cargo';
+import battleRoyale from './battleRoyale';
 export const items = {
     ...food,
     ...itemsList,
@@ -35,4 +36,5 @@ export const items = {
     ...forgery,
     burglar,
     cargo,
+    br: battleRoyale,
 };

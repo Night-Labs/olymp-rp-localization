@@ -28,11 +28,11 @@ export default {
         pl: 'Aby dokonać napadu, musisz być w grupie!',
     },
     minParty: {
-        ru: 'В группе должно быть минимум {{minCount}} игрока!',
-        ua: 'У групі має бути щонайменше {{minCount}} гравця!',
-        en: 'There must be at least {{minCount}} players in the group!',
-        de: 'In der Gruppe müssen mindestens {{minCount}} Spieler sein!',
-        pl: 'W grupie musi być co najmniej {{minCount}} graczy!',
+        ru: 'Рядом с вами должно быть минимум {{minCount}} игрока из вашей группы, включая вас!',
+        ua: 'Поруч із вами має бути щонайменше {{minCount}} гравця з вашої групи, включно з вами!',
+        en: 'At least {{minCount}} players of your group, you included, must be next to you!',
+        de: 'Mindestens {{minCount}} Spieler deiner Gruppe, du eingeschlossen, müssen in deiner Nähe sein!',
+        pl: 'Obok ciebie musi być co najmniej {{minCount}} graczy z twojej grupy, łącznie z tobą!',
     },
     groupInvalid: {
         ru: 'Ваша группа не соответствует требованиям для начала ограбления.',

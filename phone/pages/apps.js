@@ -84,6 +84,14 @@ export default {
         pl: 'Online',
     },
 
+    party: {
+        ru: 'Группа',
+        ua: 'Група',
+        en: 'Group',
+        de: 'Gruppe',
+        pl: 'Grupa',
+    },
+
     sim: {
         ru: 'SIM-карта',
         ua: 'SIM-картка',

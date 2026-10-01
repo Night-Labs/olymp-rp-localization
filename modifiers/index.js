@@ -89,6 +89,20 @@ export default {
             de: 'Energieschub',
             pl: 'Zastrzyk energii',
         },
+        brEnergyDrink: {
+            ru: 'Энергетик',
+            ua: 'Енергетик',
+            en: 'Energy drink',
+            de: 'Energydrink',
+            pl: 'Energetyk',
+        },
+        brAdrenaline: {
+            ru: 'Адреналин',
+            ua: 'Адреналін',
+            en: 'Adrenaline',
+            de: 'Adrenalin',
+            pl: 'Adrenalina',
+        },
 
         drugs: {
             stank: {

@@ -83,6 +83,13 @@ export default {
         de: 'Signal verloren, Drohne getrennt',
         pl: 'Sygnał utracony, dron rozłączony',
     },
+    pilotHurt: {
+        ru: 'Вас ранили: связь с дроном прервана',
+        ua: 'Вас поранили: зв\'язок із дроном перервано',
+        en: 'You were hurt: the drone link is lost',
+        de: 'Du wurdest verletzt: die Verbindung zur Drohne ist weg',
+        pl: 'Zostałeś ranny: połączenie z dronem zerwane',
+    },
     brokenByDamage: {
         ru: 'Дрон повреждён и вышел из строя',
         ua: 'Дрон пошкоджено, він вийшов з ладу',

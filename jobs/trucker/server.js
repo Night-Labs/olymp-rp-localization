@@ -193,11 +193,11 @@ export const server = {
         zh: '卸载中',
     },
     notInParty: {
-        ru: 'Носить ящики могут только участники пати водителя',
-        ua: 'Носити ящики можуть лише учасники паті водія',
-        en: "Only the driver's party members can carry boxes",
-        de: 'Nur die Party-Mitglieder des Fahrers können Kisten tragen',
-        pl: 'Tylko członkowie party kierowcy mogą nosić skrzynie',
-        zh: '只有司机队伍的成员才能搬运箱子',
+        ru: 'Носить ящики могут только участники группы водителя, которые рядом с ним',
+        ua: 'Носити ящики можуть лише учасники групи водія, які поруч із ним',
+        en: "Only members of the driver's group who are next to him can carry boxes",
+        de: 'Nur Mitglieder der Gruppe des Fahrers in seiner Nähe können Kisten tragen',
+        pl: 'Tylko członkowie grupy kierowcy, którzy są obok niego, mogą nosić skrzynie',
+        zh: '只有在司机身边的司机队伍成员才能搬运箱子',
     },
 };

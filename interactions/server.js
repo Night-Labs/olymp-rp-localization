@@ -150,6 +150,14 @@ export const server = {
         pl: 'Aby zajac to stanowisko, naciśnij',
         zh: '要占用该工位，请按',
     },
+    laundromatOwnMoney: {
+        ru: 'Чтобы отмыть свои деньги, нажмите',
+        ua: 'Щоб відмити свої гроші, натисніть',
+        en: 'To launder your own money, press',
+        de: 'Um dein eigenes Geld zu waschen, drücke',
+        pl: 'Aby wyprać własne pieniądze, naciśnij',
+        zh: '要清洗你自己的钱，请按',
+    },
     contractDeliverBatch: {
         ru: 'Чтобы сдать партию заказчику, нажмите',
         ua: 'Щоб здати партію замовнику, натисніть',

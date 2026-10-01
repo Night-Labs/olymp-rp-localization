@@ -135,6 +135,13 @@ export const permissions = {
             de: 'Zugang zu Familienfahrzeugen',
             pl: 'Dostęp do rodzinnych pojazdów',
         },
+        buyVehicles: {
+            ru: 'Покупка транспорта для организации',
+            ua: 'Купівля транспорту для організації',
+            en: 'Buy vehicles for the organization',
+            de: 'Fahrzeuge für die Organisation kaufen',
+            pl: 'Kupowanie pojazdów dla organizacji',
+        },
         safeOffice: {
             ru: 'Сейф офиса',
             ua: 'Сейф офісу',

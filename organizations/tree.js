@@ -170,6 +170,14 @@ const SHARED = {
         de: 'Zahlt rund {{payout}}, etwa {{delta}} mehr.',
         pl: 'Placa okolo {{payout}}, o okolo {{delta}} wiecej.',
     },
+    // Closes a contract rung node: the rung is the ceiling of the daily roll, not a fixed order.
+    contractTierRoll: {
+        ru: 'Это максимум: в каждом наборе уровень заказа выпадает случайно, но не выше купленного.',
+        ua: 'Це максимум: у кожному наборі рівень замовлення визначається випадково, але не вище купленого.',
+        en: 'This is the ceiling: every contract set rolls the order tier at random, never above the one you own.',
+        de: 'Das ist die Obergrenze: Jede Auftragsliste lost die Stufe zufaellig aus, nie hoeher als die gekaufte.',
+        pl: 'To jest maksimum: w kazdym zestawie poziom zlecenia jest losowany, ale nie wyzszy niz kupiony.',
+    },
     jobTier: {
         name: { ru: 'Уровень работы', ua: 'Рівень роботи', en: 'Job tier', de: 'Jobstufe', pl: 'Poziom pracy' },
         description: {

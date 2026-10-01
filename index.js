@@ -40,6 +40,7 @@ import phone from './phone';
 import { animations } from './animations/animations';
 import randomQuests from './randomQuests';
 import { gameEvents } from './gameEvents';
+import dmZone from './dmZone';
 import { contraband } from './contraband';
 import death from './death';
 import offers from './offers';
@@ -73,6 +74,7 @@ import flappyBird from './flappyBird';
 import grandmaster from './grandmaster';
 import walkieTalkie from './walkieTalkie';
 import drone from './drone';
+import tanks from './tanks';
 import photoCamera from './photoCamera';
 import elevators from './elevators';
 import shootingRange from './shootingRange';
@@ -93,6 +95,7 @@ import gym from './gym';
 import achievements from './achievements';
 import realtor from './realtor';
 import diceGame from './diceGame';
+import darts from './darts';
 import offcies from './offcies';
 import warehouses from './warehouses';
 import sections from './sections';
@@ -101,6 +104,7 @@ import organizations from './organizations';
 import bankRobbery from './bankRobbery';
 import factories from './factories';
 import tennis from './tennis';
+import armWrestling from './armWrestling';
 import trade from './trade';
 import battlePass from './battlePass';
 import vehicleInfo from './vehicleInfo';
@@ -166,6 +170,7 @@ export default {
     animations,
     randomQuests,
     gameEvents,
+    dmZone,
     contraband,
     handling,
     death,
@@ -200,6 +205,7 @@ export default {
     grandmaster,
     walkieTalkie,
     drone,
+    tanks,
     photoCamera,
     elevators,
     shootingRange,
@@ -223,6 +229,7 @@ export default {
     achievements,
     realtor,
     diceGame,
+    darts,
     offcies,
     warehouses,
     sections,
@@ -231,6 +238,7 @@ export default {
     bankRobbery,
     factories,
     tennis,
+    armWrestling,
     trade,
     battlePass,
     vehicleInfo,

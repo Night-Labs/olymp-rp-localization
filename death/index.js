@@ -71,6 +71,15 @@ export default {
         zh: '观战',
     },
 
+    leaveMatch: {
+        ru: 'Покинуть матч',
+        ua: 'Покинути матч',
+        en: 'Leave the match',
+        de: 'Match verlassen',
+        pl: 'Opuść mecz',
+        zh: '离开比赛',
+    },
+
     selfRevived: {
         ru: 'Вы использовали набор самореанимации и поднялись на ноги',
         ua: 'Ви використали набір самореанімації та піднялися на ноги',
@@ -413,6 +422,14 @@ export default {
             de: 'Kampfzone verlassen',
             pl: 'Opuszczenie strefy walki',
             zh: '离开战区',
+        },
+        brZone: {
+            ru: 'Зона королевской битвы',
+            ua: 'Зона королівської битви',
+            en: 'Battle royale zone',
+            de: 'Battle-Royale-Zone',
+            pl: 'Strefa battle royale',
+            zh: '大逃杀毒圈',
         },
         cat: {
             ru: 'Месть кошки',

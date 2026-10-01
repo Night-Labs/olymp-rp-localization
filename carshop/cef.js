@@ -142,4 +142,56 @@ export const cef = {
             zh: '改装',
         },
     },
+    // The "where does it go" choice shown before the bill (components/buyTargetModal.vue).
+    buyModal: {
+        title: {
+            ru: 'Куда оформить машину',
+            ua: 'Куди оформити машину',
+            en: 'Who is the vehicle for',
+            de: 'Für wen ist das Fahrzeug',
+            pl: 'Dla kogo jest pojazd',
+        },
+        house: {
+            ru: 'Дом №{{id}}',
+            ua: 'Будинок №{{id}}',
+            en: 'House #{{id}}',
+            de: 'Haus Nr. {{id}}',
+            pl: 'Dom nr {{id}}',
+        },
+        slots: {
+            ru: 'Свободно {{free}} из {{total}}',
+            ua: 'Вільно {{free}} з {{total}}',
+            en: '{{free}} of {{total}} free',
+            de: '{{free}} von {{total}} frei',
+            pl: 'Wolne {{free}} z {{total}}',
+        },
+        personal: {
+            ru: 'Личный транспорт',
+            ua: 'Особистий транспорт',
+            en: 'Personal vehicle',
+            de: 'Privatfahrzeug',
+            pl: 'Pojazd prywatny',
+        },
+        personalHint: {
+            ru: 'Без гаража',
+            ua: 'Без гаража',
+            en: 'No garage',
+            de: 'Ohne Garage',
+            pl: 'Bez garażu',
+        },
+        noPlaces: {
+            ru: 'Нет мест',
+            ua: 'Немає місць',
+            en: 'No places',
+            de: 'Kein Platz',
+            pl: 'Brak miejsc',
+        },
+        next: {
+            ru: 'Перейти к оплате',
+            ua: 'Перейти до оплати',
+            en: 'Continue to payment',
+            de: 'Weiter zur Zahlung',
+            pl: 'Przejdź do płatności',
+        },
+    },
 };

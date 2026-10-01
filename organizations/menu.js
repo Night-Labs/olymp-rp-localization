@@ -405,6 +405,14 @@ export const menu = {
             de: 'Dein Beitrag: {{count}}',
             pl: 'Twoj wklad: {{count}}',
         },
+        // The card of a line rolled below the rung the family bought: the numeral alone read as a lost upgrade.
+        tierBelowCeiling: {
+            ru: 'Сегодня заказ уровня {{tier}}, куплен уровень {{max}}. Уровень выпадает заново в каждом наборе контрактов: чем выше купленный, тем чаще крупные заказы.',
+            ua: 'Сьогодні замовлення рівня {{tier}}, куплено рівень {{max}}. Рівень випадає заново в кожному наборі контрактів: що вищий куплений, то частіше великі замовлення.',
+            en: "Today's order is tier {{tier}}, your family owns tier {{max}}. The tier is rolled again with every contract set: the higher the tier you own, the more often big orders come.",
+            de: 'Heute ein Auftrag der Stufe {{tier}}, gekauft ist Stufe {{max}}. Die Stufe wird mit jeder Auftragsliste neu ausgelost: je hoeher die gekaufte Stufe, desto oefter kommen grosse Auftraege.',
+            pl: 'Dzis zlecenie poziomu {{tier}}, kupiony poziom {{max}}. Poziom jest losowany od nowa w kazdym zestawie kontraktow: im wyzszy kupiony poziom, tym czesciej duze zlecenia.',
+        },
         requirementsTitle: {
             ru: 'Требования',
             ua: 'Вимоги',

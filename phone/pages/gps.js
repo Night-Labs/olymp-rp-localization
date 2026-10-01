@@ -199,6 +199,13 @@ export default {
         de: 'Büros',
         pl: 'Biura',
     },
+    nearest: {
+        ru: 'Ближайший: {{distance}}',
+        ua: 'Найближчий: {{distance}}',
+        en: 'Nearest: {{distance}}',
+        de: 'Nächster: {{distance}}',
+        pl: 'Najbliższy: {{distance}}',
+    },
     contracts: {
         ru: 'Контракты',
         ua: 'Контракти',

@@ -209,5 +209,12 @@ export const cef = {
             de: 'Megafon',
             pl: 'Megafon',
         },
+        party: {
+            ru: 'Группа',
+            ua: 'Група',
+            en: 'Group',
+            de: 'Gruppe',
+            pl: 'Grupa',
+        },
     },
 };

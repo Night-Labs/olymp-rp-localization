@@ -91,11 +91,11 @@ export default {
         pl: 'Furgon zostal zniszczony. Zmiana skonczona',
     },
     noActivePartySession: {
-        ru: 'Никто из вашей пати сейчас не на смене Gruppe 6',
-        ua: 'Ніхто з вашої паті зараз не на зміні Gruppe 6',
-        en: 'Nobody in your party is on a Gruppe 6 run right now',
-        de: 'Niemand aus deiner Gruppe ist gerade auf einer Gruppe 6 Tour',
-        pl: 'Nikt z twojej grupy nie jest teraz na trasie Gruppe 6',
+        ru: 'Рядом нет никого из вашей группы на смене Gruppe 6',
+        ua: 'Поруч немає нікого з вашої групи на зміні Gruppe 6',
+        en: 'Nobody from your group next to you is on a Gruppe 6 run',
+        de: 'Niemand aus deiner Gruppe in deiner Nähe ist auf einer Gruppe 6 Tour',
+        pl: 'Nikt z twojej grupy obok ciebie nie jest na trasie Gruppe 6',
     },
     crewFull: {
         ru: 'В броневике уже полный экипаж - {{max}} человека',
@@ -355,11 +355,11 @@ export default {
             pl: 'Mozna pracowac we dwoje?',
         },
         about: {
-            ru: 'Броневик закрепляется за вами на смену, форму выдадим сразу. Едете в кассовый центр, грузите деньги, дальше диспетчерская даёт банкомат за банкоматом. Подошли к машине, загрузили, получили за заказ. Как деньги в броневике кончатся, возвращаетесь за новой загрузкой. Берём только с категорией C, военным билетом и лицензией на оружие.',
-            ua: 'Броньовик закріплюється за вами на зміну, форму видамо одразу. Їдете до касового центру, вантажите гроші, далі диспетчерська дає банкомат за банкоматом. Підійшли до машини, завантажили, отримали за замовлення. Щойно гроші в броньовику скінчаться, повертаєтеся по нову загрузку. Беремо лише з категорією C, військовим квитком і ліцензією на зброю.',
-            en: 'The van is assigned to you for the shift and the uniform comes with it. You drive to a cash centre, take the money on, and dispatch feeds you one machine after another. Walk up, refill it, get paid for the drop. When the van runs dry you come back for another load. We only hire with a category C licence, a military ID and a weapon licence.',
-            de: 'Der Wagen wird dir für die Schicht zugeteilt, die Uniform gibt es dazu. Du fährst ins Geldzentrum, nimmst das Geld auf, und die Leitstelle gibt dir Automat für Automat. Hingehen, befüllen, für den Auftrag kassieren. Ist der Wagen leer, kommst du für eine neue Ladung zurück. Wir stellen nur mit Führerschein C, Wehrpass und Waffenschein ein.',
-            pl: 'Furgon jest przypisany do ciebie na zmiane, mundur dostajesz od razu. Jedziesz do centrum gotowkowego, ladujesz pieniadze, a dyspozytornia podaje bankomat za bankomatem. Podchodzisz, napelniasz, dostajesz za zlecenie. Gdy furgon sie oprozni, wracasz po nowy zaladunek. Zatrudniamy tylko z kategoria C, ksiazeczka wojskowa i licencja na bron.',
+            ru: 'Броневик закрепляется за вами на смену, форму выдадим сразу. Едете в кассовый центр, грузите деньги, дальше диспетчерская даёт банкомат за банкоматом. Подошли к машине, загрузили, получили за заказ. Как деньги в броневике кончатся, возвращаетесь за новой загрузкой. За полностью развезённый броневик сверху идёт премия. Берём только с категорией C, военным билетом и лицензией на оружие.',
+            ua: 'Броньовик закріплюється за вами на зміну, форму видамо одразу. Їдете до касового центру, вантажите гроші, далі диспетчерська дає банкомат за банкоматом. Підійшли до машини, завантажили, отримали за замовлення. Щойно гроші в броньовику скінчаться, повертаєтеся по нову загрузку. За повністю розвезений броньовик зверху йде премія. Беремо лише з категорією C, військовим квитком і ліцензією на зброю.',
+            en: 'The van is assigned to you for the shift and the uniform comes with it. You drive to a cash centre, take the money on, and dispatch feeds you one machine after another. Walk up, refill it, get paid for the drop. When the van runs dry you come back for another load. A van delivered to the last machine pays a bonus on top. We only hire with a category C licence, a military ID and a weapon licence.',
+            de: 'Der Wagen wird dir für die Schicht zugeteilt, die Uniform gibt es dazu. Du fährst ins Geldzentrum, nimmst das Geld auf, und die Leitstelle gibt dir Automat für Automat. Hingehen, befüllen, für den Auftrag kassieren. Ist der Wagen leer, kommst du für eine neue Ladung zurück. Für einen komplett ausgelieferten Wagen gibt es obendrauf eine Prämie. Wir stellen nur mit Führerschein C, Wehrpass und Waffenschein ein.',
+            pl: 'Furgon jest przypisany do ciebie na zmiane, mundur dostajesz od razu. Jedziesz do centrum gotowkowego, ladujesz pieniadze, a dyspozytornia podaje bankomat za bankomatem. Podchodzisz, napelniasz, dostajesz za zlecenie. Gdy furgon sie oprozni, wracasz po nowy zaladunek. Za calkowicie rozwieziony furgon jest premia na dokladke. Zatrudniamy tylko z kategoria C, ksiazeczka wojskowa i licencja na bron.',
         },
         aboutCrew: {
             ru: 'Настоятельно советую. Один броневик берёт до четырёх человек: старший расписывается за машину, остальные записываются сюда же и садятся с ним. За каждый банкомат платят всему экипажу, и чем вас больше, тем больше выходит каждому. Но платят только тем, кто был при машине - разбежались по городу, значит работали бесплатно. И держите оружие под рукой: за гружёным броневиком ездят не только мы.',
@@ -688,11 +688,11 @@ export default {
     },
     dialogPartyJoin: {
         memberWorking: {
-            ru: 'Ваш напарник из пати уже расписался за броневик. Могу записать вас вторым номером в тот же экипаж. Присоединяетесь?',
-            ua: 'Ваш напарник із паті вже розписався за броньовик. Можу записати вас другим номером у той самий екіпаж. Приєднуєтеся?',
-            en: 'Someone in your party has already signed for a van. I can put you on the same crew as the second man. Joining?',
-            de: 'Jemand aus deiner Gruppe hat bereits für einen Wagen unterschrieben. Ich kann dich als zweiten Mann auf dieselbe Besatzung setzen. Machst du mit?',
-            pl: 'Ktos z twojej grupy juz podpisal sie za furgon. Moge wpisac cie jako drugiego do tej samej zalogi. Dolaczasz?',
+            ru: 'Ваш напарник из группы, что стоит рядом, уже расписался за броневик. Могу записать вас в тот же экипаж. Присоединяетесь?',
+            ua: 'Ваш напарник із групи, що стоїть поруч, уже розписався за броньовик. Можу записати вас у той самий екіпаж. Приєднуєтеся?',
+            en: 'A member of your group standing right here has already signed for a van. I can put you on the same crew. Joining?',
+            de: 'Ein Mitglied deiner Gruppe, das hier steht, hat bereits für einen Wagen unterschrieben. Ich kann dich auf dieselbe Besatzung setzen. Machst du mit?',
+            pl: 'Ktos z twojej grupy, kto stoi obok, juz podpisal sie za furgon. Moge wpisac cie do tej samej zalogi. Dolaczasz?',
         },
         joinYes: {
             ru: 'Да, присоединиться',

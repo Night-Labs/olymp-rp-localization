@@ -657,6 +657,13 @@ export const settings = {
         de: 'Passt die Lautstärke der Gesprächspartner während Telefonaten an',
         pl: 'Reguluje głośność rozmówców podczas połączeń telefonicznych',
     },
+    partyVoiceVolumeDesc: {
+        ru: 'Регулирует громкость участников в голосовом чате группы',
+        ua: 'Регулює гучність учасників у голосовому чаті групи',
+        en: 'Adjusts the volume of members in the group voice chat',
+        de: 'Passt die Lautstärke der Mitglieder im Gruppen-Sprachchat an',
+        pl: 'Reguluje głośność członków na czacie głosowym grupy',
+    },
     voiceActivationMode: {
         ru: 'Режим активации микрофона',
         ua: 'Режим активації мікрофона',
@@ -841,6 +848,13 @@ export const settings = {
         de: 'Zeigt Tippkarten beim ersten Kontakt mit einer Servermechanik an',
         pl: 'Pokazuje karty z poradami przy pierwszym zetknięciu z mechaniką serwera',
     },
+    showQuestMarkersDesc: {
+        ru: 'Показывает метку и маршрут к текущей цели квеста на карте. Когда они выключены, маршрут можно проложить в меню квестов',
+        ua: 'Показує мітку та маршрут до поточної цілі квесту на мапі. Коли вони вимкнені, маршрут можна прокласти в меню квестів',
+        en: 'Shows the marker and route to the current quest objective on the map. With them off, you can set the route in the quests menu',
+        de: 'Zeigt Markierung und Route zum aktuellen Questziel auf der Karte. Sind sie aus, lässt sich die Route im Questmenü setzen',
+        pl: 'Pokazuje znacznik i trasę do bieżącego celu questu na mapie. Gdy są wyłączone, trasę można wyznaczyć w menu questów',
+    },
     showCompassDesc: {
         ru: 'Показывает полосу компаса с курсом камеры над радаром',
         ua: 'Показує смугу компаса з курсом камери над радаром',
@@ -868,6 +882,13 @@ export const settings = {
         en: 'Displays a compass with camera direction at the top of the screen',
         de: 'Zeigt einen Kompass mit Kamerarichtung am oberen Bildschirmrand an',
         pl: 'Wyświetla kompas z kierunkiem kamery na górze ekranu',
+    },
+    showArenaEventDesc: {
+        ru: 'Показывает отсчёт до события арены, на которое вы записаны',
+        ua: 'Показує відлік до події арени, на яку ви записані',
+        en: 'Shows the countdown to the arena event you signed up for',
+        de: 'Zeigt den Countdown bis zum Arena-Event, für das du angemeldet bist',
+        pl: 'Pokazuje odliczanie do wydarzenia areny, na które się zapisałeś',
     },
     hudOpacityDesc: {
         ru: 'Регулирует общую прозрачность элементов HUD',
@@ -1074,6 +1095,13 @@ export const settings = {
         de: 'Tipps für Neulinge anzeigen',
         pl: 'Pokaż porady dla nowych graczy',
     },
+    showQuestMarkers: {
+        ru: 'Показывать метки квестов',
+        ua: 'Показувати мітки квестів',
+        en: 'Show quest markers',
+        de: 'Questmarkierungen anzeigen',
+        pl: 'Pokaż znaczniki questów',
+    },
     showCompass: {
         ru: 'Показывать компас',
         ua: 'Показувати компас',
@@ -1101,6 +1129,13 @@ export const settings = {
         en: 'Show compass',
         de: 'Kompass anzeigen',
         pl: 'Pokaż kompas',
+    },
+    showArenaEvent: {
+        ru: 'Отсчёт до события арены',
+        ua: 'Відлік до події арени',
+        en: 'Arena event countdown',
+        de: 'Countdown zum Arena-Event',
+        pl: 'Odliczanie do wydarzenia areny',
     },
     hudOpacity: {
         ru: 'Прозрачность HUD',
@@ -1327,6 +1362,13 @@ export const settings = {
         en: 'Phone Volume',
         de: 'Telefonlautstärke',
         pl: 'Głośność telefonu',
+    },
+    partyVoiceVolume: {
+        ru: 'Громкость голосового чата группы',
+        ua: 'Гучність голосового чату групи',
+        en: 'Group Voice Chat Volume',
+        de: 'Lautstärke des Gruppen-Sprachchats',
+        pl: 'Głośność czatu głosowego grupy',
     },
     interfaceSounds: {
         ru: 'Звуки интерфейса',

@@ -91,11 +91,11 @@ export default {
         pl: 'Rampa sie zamknela. Zostales wyprowadzony z ladowni',
     },
     crateBlocked: {
-        ru: 'Этот ящик пока не взять: сверху на нём стоит другой. Разгружайте борт с верхнего ряда',
-        ua: 'Цей ящик поки не взяти: зверху на ньому стоїть інший. Розвантажуйте борт з верхнього ряду',
-        en: "You can't take this crate yet: another one is stacked on top of it. Unload from the top row down",
-        de: 'Diese Kiste geht noch nicht: Auf ihr steht eine andere. Lade von der obersten Reihe ab',
-        pl: 'Tej skrzyni nie da się jeszcze wziąć: stoi na niej inna. Rozładowuj od górnego rzędu',
+        ru: 'Верхний ящик стоит криво, два сразу не взять. Отвезите его отдельно или поправьте',
+        ua: 'Верхній ящик стоїть криво, два одразу не взяти. Відвезіть його окремо або поправте',
+        en: "The crate on top is crooked, so you can't take both at once. Take it on its own or straighten it",
+        de: 'Die obere Kiste steht schief, beide auf einmal gehen nicht. Fahr sie einzeln weg oder richte sie gerade',
+        pl: 'Górna skrzynia stoi krzywo, obu naraz nie weźmiesz. Zawieź ją osobno albo ją popraw',
     },
     leftZone: {
         ru: 'Вы выехали за пределы аэропорта и уволены. Погрузчик и груз изъяты',
@@ -329,6 +329,13 @@ export default {
             en: 'Take the crate to the pad and leave it on the mark',
             de: 'Bring die Kiste zum Abstellplatz und stell sie auf die Markierung',
             pl: 'Zawiez skrzynie na plac i zostaw ja w oznaczeniu',
+        },
+        deliverCrates: {
+            ru: 'Отвезите оба ящика на площадку и оставьте в разметке',
+            ua: 'Відвезіть обидва ящики на майданчик і залиште в розмітці',
+            en: 'Take both crates to the pad and leave them on the mark',
+            de: 'Bring beide Kisten zum Abstellplatz und stell sie auf die Markierung',
+            pl: 'Zawiez obie skrzynie na plac i zostaw je w oznaczeniu',
         },
         leavePlane: {
             ru: 'Борт разгружен, выезжайте из трюма',

@@ -400,11 +400,11 @@ export default {
     },
 
     notYourVehicle: {
-        ru: 'Грузить можно только в свою машину',
-        ua: 'Вантажити можна лише у свою машину',
-        en: 'You can only load your own car',
-        de: 'Du kannst nur dein eigenes Auto beladen',
-        pl: 'Możesz ładować tylko własne auto',
+        ru: 'Грузить можно только в свою машину или в машину напарника по делу',
+        ua: 'Вантажити можна лише у свою машину або в машину напарника по справі',
+        en: 'You can only load your own car or a crew partner\'s car',
+        de: 'Du kannst nur dein eigenes Auto oder das Auto eines Partners aus der Crew beladen',
+        pl: 'Możesz ładować tylko własne auto lub auto wspólnika z ekipy',
     },
 
     dialogs: {
