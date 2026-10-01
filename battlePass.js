@@ -2076,12 +2076,12 @@ export default {
             de: 'Belohnung gegen {{xp}} Pass-XP getauscht',
             pl: 'Nagrodę wymieniono na {{xp}} XP przepustki',
         },
-        seasonRewardsTransferred: {
-            ru: 'Награды прошлого сезона перенесены в донат-инвентарь ({{count}} шт.)',
-            ua: 'Нагороди минулого сезону перенесено в донат-інвентар ({{count}} шт.)',
-            en: 'Last season rewards moved to donate inventory ({{count}} items)',
-            de: 'Belohnungen der letzten Saison wurden ins Donate-Inventar verschoben ({{count}} Stk.)',
-            pl: 'Nagrody z poprzedniego sezonu przeniesiono do inwentarza donate ({{count}} szt.)',
+        seasonEnded: {
+            ru: 'Сезон боевого пропуска завершён',
+            ua: 'Сезон бойового пропуску завершено',
+            en: 'The Battle Pass season has ended',
+            de: 'Die Battle-Pass-Saison ist beendet',
+            pl: 'Sezon karnetu bojowego dobiegł końca',
         },
         taskCompleted: {
             ru: 'Задание «{{title}}» выполнено',
