@@ -72,6 +72,13 @@ export const errors = {
         de: 'Dieses Fahrzeug hat keinen Laderaum.',
         pl: 'Ten pojazd nie ma przestrzeni ładunkowej.',
     },
+    loadingNoTrunkAccess: {
+        ru: 'У вас нет доступа к багажнику этого транспорта.',
+        ua: 'У вас немає доступу до багажника цього транспорту.',
+        en: 'You have no access to the trunk of this vehicle.',
+        de: 'Sie haben keinen Zugriff auf den Kofferraum dieses Fahrzeugs.',
+        pl: 'Nie masz dostępu do bagażnika tego pojazdu.',
+    },
     noOrganization: {
         ru: 'Вы не состоите в организации.',
         ua: 'Ви не перебуваєте в організації.',

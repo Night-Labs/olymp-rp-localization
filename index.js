@@ -125,6 +125,7 @@ import freightTrain from './freightTrain';
 import fortAttack from './fortAttack';
 import ping from './ping';
 import weaponAttachments from './weaponAttachments';
+import reports from './reports';
 
 export default {
     account,
@@ -255,6 +256,7 @@ export default {
     fortAttack,
     ping,
     weaponAttachments,
+    reports,
 };
 
 

@@ -122,11 +122,11 @@ export default {
     },
     commands: {
         supportUsage: {
-            ru: '[сообщение] - связаться с администрацией',
-            ua: "[повідомлення] - зв'язатися з адміністрацією",
-            en: '[message] - contact administration',
-            de: '[nachricht] - administration kontaktieren',
-            pl: '[wiadomosc] - skontaktowac sie z administracja',
+            ru: '- как связаться с администрацией (обращения в меню, раздел Поддержка)',
+            ua: "- як зв'язатися з адміністрацією (звернення в меню, розділ Підтримка)",
+            en: '- how to contact the administration (tickets in the menu, Support section)',
+            de: '- wie man die Administration kontaktiert (Anfragen im Menü, Bereich Support)',
+            pl: '- jak skontaktowac sie z administracja (zgloszenia w menu, sekcja Wsparcie)',
         },
         exitUsage: {
             ru: '- выйти из ивента',
