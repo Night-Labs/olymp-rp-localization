@@ -1490,6 +1490,20 @@ export const menu = {
                     de: 'Uebergeben am',
                     pl: 'Data przekazania',
                 },
+                boughtBy: {
+                    ru: 'Купил',
+                    ua: 'Купив',
+                    en: 'Bought by',
+                    de: 'Gekauft von',
+                    pl: 'Kupił',
+                },
+                boughtAt: {
+                    ru: 'Дата покупки',
+                    ua: 'Дата покупки',
+                    en: 'Bought on',
+                    de: 'Gekauft am',
+                    pl: 'Data zakupu',
+                },
             },
             rankAccess: {
                 title: {

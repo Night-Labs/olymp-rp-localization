@@ -1,0 +1,180 @@
+export const server = {
+    notify: {
+        header: { ru: 'Поддержка', ua: 'Підтримка', en: 'Support', de: 'Support', pl: 'Wsparcie' },
+        created: {
+            ru: 'Обращение №{{number}} отправлено. Ответ придёт в меню, раздел Поддержка',
+            ua: 'Звернення №{{number}} надіслано. Відповідь прийде в меню, розділ Підтримка',
+            en: 'Ticket #{{number}} sent. The answer will arrive in the menu, Support section',
+            de: 'Anfrage #{{number}} gesendet. Die Antwort kommt im Menü, Bereich Support',
+            pl: 'Zgłoszenie nr {{number}} wysłane. Odpowiedź przyjdzie w menu, w sekcji Wsparcie',
+        },
+        tooMany: {
+            ru: 'У вас уже {{count}} открытых обращения. Дождитесь ответа или закройте одно из них',
+            ua: 'У вас уже {{count}} відкритих звернення. Дочекайтеся відповіді або закрийте одне з них',
+            en: 'You already have {{count}} open tickets. Wait for an answer or close one of them',
+            de: 'Du hast bereits {{count}} offene Anfragen. Warte auf eine Antwort oder schließe eine davon',
+            pl: 'Masz już {{count}} otwarte zgłoszenia. Poczekaj na odpowiedź lub zamknij jedno z nich',
+        },
+        invalidText: {
+            ru: 'Выберите тему и опишите ситуацию: от {{min}} до {{max}} символов',
+            ua: 'Виберіть тему та опишіть ситуацію: від {{min}} до {{max}} символів',
+            en: 'Pick a topic and describe the situation: {{min}} to {{max}} characters',
+            de: 'Wähle ein Thema und beschreibe die Situation: {{min}} bis {{max}} Zeichen',
+            pl: 'Wybierz temat i opisz sytuację: od {{min}} do {{max}} znaków',
+        },
+        notFound: { ru: 'Обращение не найдено', ua: 'Звернення не знайдено', en: 'Ticket not found', de: 'Anfrage nicht gefunden', pl: 'Nie znaleziono zgłoszenia' },
+        closed: { ru: 'Обращение уже закрыто', ua: 'Звернення вже закрито', en: 'This ticket is already closed', de: 'Diese Anfrage ist bereits geschlossen', pl: 'To zgłoszenie jest już zamknięte' },
+        full: {
+            ru: 'В обращении слишком много сообщений. Закройте его и создайте новое',
+            ua: 'У зверненні забагато повідомлень. Закрийте його та створіть нове',
+            en: 'This ticket has too many messages. Close it and open a new one',
+            de: 'Diese Anfrage hat zu viele Nachrichten. Schließe sie und erstelle eine neue',
+            pl: 'To zgłoszenie ma zbyt wiele wiadomości. Zamknij je i utwórz nowe',
+        },
+        taken: {
+            ru: 'Обращение уже взял другой администратор',
+            ua: 'Звернення вже взяв інший адміністратор',
+            en: 'Another administrator has already taken this ticket',
+            de: 'Ein anderer Administrator hat diese Anfrage bereits übernommen',
+            pl: 'Inny administrator już przejął to zgłoszenie',
+        },
+        answered: {
+            ru: 'Администрация ответила на обращение №{{number}}. Откройте меню, раздел Поддержка',
+            ua: 'Адміністрація відповіла на звернення №{{number}}. Відкрийте меню, розділ Підтримка',
+            en: 'The administration answered ticket #{{number}}. Open the menu, Support section',
+            de: 'Die Administration hat auf Anfrage #{{number}} geantwortet. Öffne das Menü, Bereich Support',
+            pl: 'Administracja odpowiedziała na zgłoszenie nr {{number}}. Otwórz menu, sekcja Wsparcie',
+        },
+        closedByStaff: {
+            ru: 'Администрация закрыла обращение №{{number}}',
+            ua: 'Адміністрація закрила звернення №{{number}}',
+            en: 'The administration closed ticket #{{number}}',
+            de: 'Die Administration hat Anfrage #{{number}} geschlossen',
+            pl: 'Administracja zamknęła zgłoszenie nr {{number}}',
+        },
+        playerReplied: {
+            ru: 'Новое сообщение в обращении №{{number}}',
+            ua: 'Нове повідомлення у зверненні №{{number}}',
+            en: 'New message in ticket #{{number}}',
+            de: 'Neue Nachricht in Anfrage #{{number}}',
+            pl: 'Nowa wiadomość w zgłoszeniu nr {{number}}',
+        },
+        playerOffline: {
+            ru: 'Игрок не в сети',
+            ua: 'Гравець не в мережі',
+            en: 'The player is offline',
+            de: 'Der Spieler ist offline',
+            pl: 'Gracz jest offline',
+        },
+        spectating: {
+            ru: 'Сначала выйдите из наблюдения',
+            ua: 'Спочатку вийдіть зі спостереження',
+            en: 'Stop spectating first',
+            de: 'Beende zuerst das Beobachten',
+            pl: 'Najpierw przestań obserwować',
+        },
+        inInterior: {
+            ru: 'Игрок в помещении, его измерение верное. Телепортируйте его вместо этого',
+            ua: 'Гравець у приміщенні, його вимір правильний. Телепортуйте його натомість',
+            en: 'The player is inside an interior, the dimension is correct. Teleport them instead',
+            de: 'Der Spieler ist in einem Innenraum, die Dimension stimmt. Teleportiere ihn stattdessen',
+            pl: 'Gracz jest w pomieszczeniu, wymiar jest poprawny. Zamiast tego go teleportuj',
+        },
+        noAccess: {
+            ru: 'Недостаточно прав для этого действия',
+            ua: 'Недостатньо прав для цієї дії',
+            en: 'You do not have access to this action',
+            de: 'Du hast keine Berechtigung für diese Aktion',
+            pl: 'Brak uprawnień do tej akcji',
+        },
+    },
+    // Quick staff answers: `label` is the chip on the admin page, `text` is sent to the player
+    // in the player's own language.
+    templates: {
+        onMyWay: {
+            label: { ru: 'Уже иду', ua: 'Вже йду', en: 'On my way', de: 'Bin unterwegs', pl: 'Już idę' },
+            text: {
+                ru: 'Администратор уже направляется к вам. Оставайтесь, пожалуйста, на месте.',
+                ua: 'Адміністратор вже прямує до вас. Залишайтеся, будь ласка, на місці.',
+                en: 'An administrator is on the way to you. Please stay where you are.',
+                de: 'Ein Administrator ist auf dem Weg zu dir. Bitte bleib, wo du bist.',
+                pl: 'Administrator jest już w drodze do ciebie. Zostań, proszę, na miejscu.',
+            },
+        },
+        details: {
+            label: { ru: 'Подробнее', ua: 'Детальніше', en: 'More details', de: 'Mehr Details', pl: 'Więcej szczegółów' },
+            text: {
+                ru: 'Опишите, пожалуйста, ситуацию подробнее: что случилось, где и с кем.',
+                ua: 'Опишіть, будь ласка, ситуацію детальніше: що сталося, де і з ким.',
+                en: 'Please describe the situation in more detail: what happened, where and with whom.',
+                de: 'Beschreibe die Situation bitte genauer: was passiert ist, wo und mit wem.',
+                pl: 'Opisz, proszę, sytuację dokładniej: co się stało, gdzie i z kim.',
+            },
+        },
+        watching: {
+            label: { ru: 'Наблюдаю', ua: 'Спостерігаю', en: 'Watching', de: 'Beobachte', pl: 'Obserwuję' },
+            text: {
+                ru: 'Принято, наблюдаю за ситуацией.',
+                ua: 'Прийнято, спостерігаю за ситуацією.',
+                en: 'Got it, I am watching the situation.',
+                de: 'Verstanden, ich beobachte die Situation.',
+                pl: 'Przyjęte, obserwuję sytuację.',
+            },
+        },
+        factionLeader: {
+            label: { ru: 'К лидеру', ua: 'До лідера', en: 'Ask your leader', de: 'Zum Leader', pl: 'Do lidera' },
+            text: {
+                ru: 'Этот вопрос решает лидер вашей фракции или организации. Обратитесь, пожалуйста, к нему.',
+                ua: 'Це питання вирішує лідер вашої фракції або організації. Зверніться, будь ласка, до нього.',
+                en: 'This is decided by the leader of your faction or organization. Please ask them.',
+                de: 'Darüber entscheidet der Leader deiner Fraktion oder Organisation. Bitte wende dich an ihn.',
+                pl: 'O tym decyduje lider twojej frakcji lub organizacji. Zwróć się, proszę, do niego.',
+            },
+        },
+        evidence: {
+            label: { ru: 'Нужно видео', ua: 'Потрібне відео', en: 'Need a video', de: 'Video nötig', pl: 'Potrzebne wideo' },
+            text: {
+                ru: 'Для разбора жалобы нужна видеозапись момента. Пришлите ссылку на неё в этом обращении.',
+                ua: 'Для розгляду скарги потрібен відеозапис моменту. Надішліть посилання на нього в цьому зверненні.',
+                en: 'A video of the moment is needed to review the complaint. Please send a link to it in this ticket.',
+                de: 'Für die Prüfung der Beschwerde brauchen wir ein Video der Situation. Schick bitte einen Link in dieser Anfrage.',
+                pl: 'Do rozpatrzenia skargi potrzebne jest nagranie tej sytuacji. Wyślij link do niego w tym zgłoszeniu.',
+            },
+        },
+        resolved: {
+            label: { ru: 'Решено, закрыть', ua: 'Вирішено, закрити', en: 'Solved, close', de: 'Gelöst, schließen', pl: 'Rozwiązane, zamknij' },
+            text: {
+                ru: 'Вопрос решён. Если понадобится помощь, создайте новое обращение.',
+                ua: 'Питання вирішено. Якщо знадобиться допомога, створіть нове звернення.',
+                en: 'The issue is solved. If you need help again, open a new ticket.',
+                de: 'Das Anliegen ist gelöst. Wenn du wieder Hilfe brauchst, erstelle eine neue Anfrage.',
+                pl: 'Sprawa rozwiązana. Jeśli znów będziesz potrzebować pomocy, utwórz nowe zgłoszenie.',
+            },
+        },
+    },
+    chat: {
+        newTicket: {
+            ru: '~r~Обращение №{{number}} от {{player}}: ~w~{{message}}',
+            ua: '~r~Звернення №{{number}} від {{player}}: ~w~{{message}}',
+            en: '~r~Ticket #{{number}} from {{player}}: ~w~{{message}}',
+            de: '~r~Anfrage #{{number}} von {{player}}: ~w~{{message}}',
+            pl: '~r~Zgłoszenie nr {{number}} od {{player}}: ~w~{{message}}',
+        },
+    },
+    command: {
+        hint: {
+            ru: '~r~Обращения к администрации теперь в меню: ~w~откройте меню, раздел Поддержка, и создайте обращение',
+            ua: '~r~Звернення до адміністрації тепер у меню: ~w~відкрийте меню, розділ Підтримка, і створіть звернення',
+            en: '~r~Requests to the administration are in the menu now: ~w~open the menu, Support section, and create a ticket',
+            de: '~r~Anfragen an die Administration sind jetzt im Menü: ~w~öffne das Menü, Bereich Support, und erstelle eine Anfrage',
+            pl: '~r~Zgłoszenia do administracji są teraz w menu: ~w~otwórz menu, sekcja Wsparcie, i utwórz zgłoszenie',
+        },
+        hintNotify: {
+            ru: 'Откройте меню, раздел Поддержка, чтобы написать администрации',
+            ua: 'Відкрийте меню, розділ Підтримка, щоб написати адміністрації',
+            en: 'Open the menu, Support section, to write to the administration',
+            de: 'Öffne das Menü, Bereich Support, um der Administration zu schreiben',
+            pl: 'Otwórz menu, sekcja Wsparcie, aby napisać do administracji',
+        },
+    },
+};

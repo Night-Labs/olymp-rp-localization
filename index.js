@@ -71,6 +71,7 @@ import xmas from './xmas';
 import musicPlayer from './musicPlayer';
 import games from './games/games';
 import flappyBird from './flappyBird';
+import funnyBirds from './funnyBirds';
 import grandmaster from './grandmaster';
 import walkieTalkie from './walkieTalkie';
 import drone from './drone';
@@ -126,6 +127,7 @@ import fortAttack from './fortAttack';
 import ping from './ping';
 import weaponAttachments from './weaponAttachments';
 import financialMonitoring from './financialMonitoring';
+import reports from './reports';
 
 export default {
     account,
@@ -202,6 +204,7 @@ export default {
     musicPlayer,
     games,
     flappyBird,
+    funnyBirds,
     grandmaster,
     walkieTalkie,
     drone,
@@ -257,6 +260,7 @@ export default {
     ping,
     weaponAttachments,
     financialMonitoring,
+    reports,
 };
 
 

@@ -100,6 +100,24 @@ export default {
         pl: 'Karta SIM',
     },
 
+    // Default names of home-screen folders, shown until the player renames one.
+    folders: {
+        games: {
+            ru: 'Игры',
+            ua: 'Ігри',
+            en: 'Games',
+            de: 'Spiele',
+            pl: 'Gry',
+        },
+        folder: {
+            ru: 'Папка',
+            ua: 'Папка',
+            en: 'Folder',
+            de: 'Ordner',
+            pl: 'Folder',
+        },
+    },
+
     unavailableForNow: {
         ru: 'Это приложение на данный момент недоступно',
         ua: 'Цей застосунок на даний момент недоступний',
