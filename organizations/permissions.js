@@ -142,6 +142,13 @@ export const permissions = {
             de: 'Fahrzeuge für die Organisation kaufen',
             pl: 'Kupowanie pojazdów dla organizacji',
         },
+        tuneVehicles: {
+            ru: 'Тюнинг транспорта организации',
+            ua: 'Тюнінг транспорту організації',
+            en: 'Tune organization vehicles',
+            de: 'Fahrzeuge der Organisation tunen',
+            pl: 'Tuning pojazdów organizacji',
+        },
         safeOffice: {
             ru: 'Сейф офиса',
             ua: 'Сейф офісу',
