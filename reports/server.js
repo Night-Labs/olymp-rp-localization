@@ -92,33 +92,43 @@ export const server = {
     // in the player's own language.
     templates: {
         onMyWay: {
-            label: { ru: 'Уже иду', ua: 'Вже йду', en: 'On my way', de: 'Bin unterwegs', pl: 'Już idę' },
+            label: { ru: 'Уже иду', ua: 'Вже йду', en: 'On my way', de: 'Unterwegs', pl: 'Już idę' },
             text: {
                 ru: 'Администратор уже направляется к вам. Оставайтесь, пожалуйста, на месте.',
                 ua: 'Адміністратор вже прямує до вас. Залишайтеся, будь ласка, на місці.',
                 en: 'An administrator is on the way to you. Please stay where you are.',
-                de: 'Ein Administrator ist auf dem Weg zu dir. Bitte bleib, wo du bist.',
+                de: 'Hallo, ich bin auf dem Weg zu dir. Bitte bleib nach Möglichkeit vor Ort.',
                 pl: 'Administrator jest już w drodze do ciebie. Zostań, proszę, na miejscu.',
             },
         },
         details: {
-            label: { ru: 'Подробнее', ua: 'Детальніше', en: 'More details', de: 'Mehr Details', pl: 'Więcej szczegółów' },
+            label: { ru: 'Подробнее', ua: 'Детальніше', en: 'More details', de: 'Problem', pl: 'Więcej szczegółów' },
             text: {
                 ru: 'Опишите, пожалуйста, ситуацию подробнее: что случилось, где и с кем.',
                 ua: 'Опишіть, будь ласка, ситуацію детальніше: що сталося, де і з ким.',
                 en: 'Please describe the situation in more detail: what happened, where and with whom.',
-                de: 'Beschreibe die Situation bitte genauer: was passiert ist, wo und mit wem.',
+                de: 'Wobei brauchst du Hilfe? Bitte beschreibe dein Anliegen kurz, damit ich dir direkt weiterhelfen kann.',
                 pl: 'Opisz, proszę, sytuację dokładniej: co się stało, gdzie i z kim.',
             },
         },
         watching: {
-            label: { ru: 'Наблюдаю', ua: 'Спостерігаю', en: 'Watching', de: 'Beobachte', pl: 'Obserwuję' },
+            label: { ru: 'Наблюдаю', ua: 'Спостерігаю', en: 'Watching', de: 'Prüfe', pl: 'Obserwuję' },
             text: {
                 ru: 'Принято, наблюдаю за ситуацией.',
                 ua: 'Прийнято, спостерігаю за ситуацією.',
                 en: 'Got it, I am watching the situation.',
-                de: 'Verstanden, ich beobachte die Situation.',
+                de: 'Ich schaue mir die Situation an. Bitte habe einen Moment Geduld.',
                 pl: 'Przyjęte, obserwuję sytuację.',
+            },
+        },
+        patience: {
+            label: { ru: 'Подождите', ua: 'Зачекайте', en: 'Please wait', de: 'Geduld', pl: 'Chwila' },
+            text: {
+                ru: 'Подождите, пожалуйста, немного. Я проверяю ваш вопрос и отвечу, как только смогу.',
+                ua: 'Зачекайте, будь ласка, трохи. Я перевіряю ваше питання і відповім, щойно зможу.',
+                en: 'Please bear with me for a moment. I am looking into your request and will get back to you as soon as I can.',
+                de: 'Bitte habe einen Moment Geduld. Ich prüfe dein Anliegen und melde mich, sobald ich dir eine Rückmeldung geben kann.',
+                pl: 'Proszę o chwilę cierpliwości. Sprawdzam twoją sprawę i odezwę się najszybciej, jak to możliwe.',
             },
         },
         factionLeader: {
@@ -141,13 +151,23 @@ export const server = {
                 pl: 'Do rozpatrzenia skargi potrzebne jest nagranie tej sytuacji. Wyślij link do niego w tym zgłoszeniu.',
             },
         },
+        stillNeeded: {
+            label: { ru: 'Ещё актуально?', ua: 'Ще актуально?', en: 'Still need help?', de: 'Noch da?', pl: 'Nadal aktualne?' },
+            text: {
+                ru: 'Вам ещё нужна помощь или вопрос уже решился?',
+                ua: 'Вам ще потрібна допомога чи питання вже вирішилося?',
+                en: 'Do you still need help, or has your issue been sorted out in the meantime?',
+                de: 'Brauchst du noch Hilfe oder hat sich dein Anliegen inzwischen erledigt?',
+                pl: 'Potrzebujesz jeszcze pomocy, czy sprawa już się rozwiązała?',
+            },
+        },
         resolved: {
-            label: { ru: 'Решено, закрыть', ua: 'Вирішено, закрити', en: 'Solved, close', de: 'Gelöst, schließen', pl: 'Rozwiązane, zamknij' },
+            label: { ru: 'Решено, закрыть', ua: 'Вирішено, закрити', en: 'Solved, close', de: 'Fertig, schließen', pl: 'Rozwiązane, zamknij' },
             text: {
                 ru: 'Вопрос решён. Если понадобится помощь, создайте новое обращение.',
                 ua: 'Питання вирішено. Якщо знадобиться допомога, створіть нове звернення.',
                 en: 'The issue is solved. If you need help again, open a new ticket.',
-                de: 'Das Anliegen ist gelöst. Wenn du wieder Hilfe brauchst, erstelle eine neue Anfrage.',
+                de: 'Gerne geholfen! Falls noch etwas sein sollte, melde dich einfach erneut. Viel Spaß auf OLYMP!',
                 pl: 'Sprawa rozwiązana. Jeśli znów będziesz potrzebować pomocy, utwórz nowe zgłoszenie.',
             },
         },

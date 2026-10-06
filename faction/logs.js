@@ -209,6 +209,14 @@ export default {
         pl: 'Wyrzucił gracza {{player}}',
         zh: '玩家{{Player}}被踢出',
     },
+    kickedPlayerWithReason: {
+        ru: 'Выгнал игрока {{player}}. Причина: {{reason}}',
+        ua: 'Вигнав гравця {{player}}. Причина: {{reason}}',
+        en: 'Kicked out player {{player}}. Reason: {{reason}}',
+        de: 'Spieler {{player}} rausgeworfen. Grund: {{reason}}',
+        pl: 'Wyrzucił gracza {{player}}. Powód: {{reason}}',
+        zh: '踢出了玩家{{player}}。原因：{{reason}}',
+    },
     deposited: {
         ru: 'Пополнил бюджет на ${{money}}',
         ua: 'Поповнив бюджет на ${{money}}',

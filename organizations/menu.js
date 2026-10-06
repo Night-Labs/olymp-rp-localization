@@ -1654,36 +1654,6 @@ export const menu = {
             de: 'Alle Ränge',
             pl: 'Wszystkie rangi',
         },
-        confirmKick: {
-            title: {
-                ru: 'Исключение из организации',
-                ua: 'Виключення з організації',
-                en: 'Kick from organization',
-                de: 'Aus der Organisation entfernen',
-                pl: 'Wyrzucenie z organizacji',
-            },
-            message: {
-                ru: 'Вы уверены, что хотите выгнать {{name}} из организации?',
-                ua: 'Ви впевнені, що хочете вигнати {{name}} з організації?',
-                en: 'Are you sure you want to kick {{name}} from the organization?',
-                de: 'Möchtest du {{name}} wirklich aus der Organisation entfernen?',
-                pl: 'Czy na pewno chcesz wyrzucić {{name}} z organizacji?',
-            },
-            confirm: {
-                ru: 'Выгнать',
-                ua: 'Вигнати',
-                en: 'Kick',
-                de: 'Entfernen',
-                pl: 'Wyrzuć',
-            },
-            cancel: {
-                ru: 'Отмена',
-                ua: 'Скасувати',
-                en: 'Cancel',
-                de: 'Abbrechen',
-                pl: 'Anuluj',
-            },
-        },
         empty: {
             ru: 'Участники не найдены',
             ua: 'Учасників не знайдено',
@@ -4312,6 +4282,29 @@ export const menu = {
                 en: 'Disband organization',
                 de: 'Organisation aufloesen',
                 pl: 'Rozwiaz organizacje',
+            },
+        },
+        leave: {
+            title: {
+                ru: 'Выход из организации',
+                ua: 'Вихід з організації',
+                en: 'Leave organization',
+                de: 'Organisation verlassen',
+                pl: 'Opuszczenie organizacji',
+            },
+            subtitle: {
+                ru: 'Для подтверждения потребуется указать причину. Вернуться можно только по новому приглашению',
+                ua: 'Для підтвердження потрібно буде вказати причину. Повернутися можна лише за новим запрошенням',
+                en: 'You will be asked for a reason to confirm. You can only come back with a new invitation',
+                de: 'Zur Bestätigung musst du einen Grund angeben. Zurück kommst du nur mit einer neuen Einladung',
+                pl: 'Do potwierdzenia trzeba będzie podać powód. Wrócić można tylko po nowym zaproszeniu',
+            },
+            action: {
+                ru: 'Покинуть организацию',
+                ua: 'Покинути організацію',
+                en: 'Leave organization',
+                de: 'Organisation verlassen',
+                pl: 'Opuść organizację',
             },
         },
         contractShares: {

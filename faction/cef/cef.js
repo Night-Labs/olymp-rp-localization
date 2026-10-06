@@ -1062,11 +1062,18 @@ export const cef = {
             pl: 'Wyrzuć gracza',
         },
         message: {
-            ru: 'Ты действительно хочешь выгнать игрока {{name}}?',
-            ua: 'Ти справді хочеш вигнати гравця {{name}}?',
-            en: 'Do you really want to kick player {{name}}?',
-            de: 'Willst du den Spieler {{name}} wirklich rauswerfen?',
-            pl: 'Czy naprawdę chcesz wyrzucić gracza {{name}}?',
+            ru: 'Ты действительно хочешь выгнать игрока {{name}}? Укажи причину, она будет записана в логи фракции.',
+            ua: 'Ти справді хочеш вигнати гравця {{name}}? Вкажи причину, її буде записано в логи фракції.',
+            en: 'Do you really want to kick player {{name}}? Enter a reason, it will be written to the faction logs.',
+            de: 'Willst du den Spieler {{name}} wirklich rauswerfen? Gib einen Grund an, er wird in den Fraktionslogs gespeichert.',
+            pl: 'Czy naprawdę chcesz wyrzucić gracza {{name}}? Podaj powód, zostanie zapisany w logach frakcji.',
+        },
+        reasonPlaceholder: {
+            ru: 'Причина',
+            ua: 'Причина',
+            en: 'Reason',
+            de: 'Grund',
+            pl: 'Powód',
         },
         confirmButton: {
             ru: 'Выгнать',

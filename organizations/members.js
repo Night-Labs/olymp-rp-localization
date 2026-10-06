@@ -99,6 +99,43 @@ export const members = {
         },
     },
     kick: {
+        modal: {
+            title: {
+                ru: 'Исключение из организации',
+                ua: 'Виключення з організації',
+                en: 'Kick from organization',
+                de: 'Aus der Organisation entfernen',
+                pl: 'Wyrzucenie z organizacji',
+            },
+            message: {
+                ru: 'Вы уверены, что хотите выгнать {{name}} из организации? Укажите причину, она будет записана в журнал организации.',
+                ua: 'Ви впевнені, що хочете вигнати {{name}} з організації? Вкажіть причину, її буде записано в журнал організації.',
+                en: 'Are you sure you want to kick {{name}} from the organization? Enter a reason, it will be written to the organization activity.',
+                de: 'Möchtest du {{name}} wirklich aus der Organisation entfernen? Gib einen Grund an, er wird im Verlauf der Organisation gespeichert.',
+                pl: 'Czy na pewno chcesz wyrzucić {{name}} z organizacji? Podaj powód, zostanie zapisany w dzienniku organizacji.',
+            },
+            reasonPlaceholder: {
+                ru: 'Причина',
+                ua: 'Причина',
+                en: 'Reason',
+                de: 'Grund',
+                pl: 'Powód',
+            },
+            confirm: {
+                ru: 'Выгнать',
+                ua: 'Вигнати',
+                en: 'Kick',
+                de: 'Entfernen',
+                pl: 'Wyrzuć',
+            },
+            cancel: {
+                ru: 'Отмена',
+                ua: 'Скасувати',
+                en: 'Cancel',
+                de: 'Abbrechen',
+                pl: 'Anuluj',
+            },
+        },
         success: {
             kicked: {
                 ru: 'Игрок {{name}} исключён из организации',
@@ -108,14 +145,21 @@ export const members = {
                 pl: '{{name}} został wyrzucony z organizacji',
             },
             youWereKicked: {
-                ru: 'Вы были исключены из организации {{orgName}}',
-                ua: 'Вас було виключено з організації {{orgName}}',
-                en: 'You have been kicked from organization {{orgName}}',
-                de: 'Du wurdest aus der Organisation {{orgName}} entfernt',
-                pl: 'Zostałeś wyrzucony z organizacji {{orgName}}',
+                ru: 'Вы были исключены из организации {{orgName}}. Причина: {{reason}}',
+                ua: 'Вас було виключено з організації {{orgName}}. Причина: {{reason}}',
+                en: 'You have been kicked from organization {{orgName}}. Reason: {{reason}}',
+                de: 'Du wurdest aus der Organisation {{orgName}} entfernt. Grund: {{reason}}',
+                pl: 'Zostałeś wyrzucony z organizacji {{orgName}}. Powód: {{reason}}',
             },
         },
         errors: {
+            invalidReason: {
+                ru: 'Укажите причину: от {{min}} до {{max}} символов',
+                ua: 'Вкажіть причину: від {{min}} до {{max}} символів',
+                en: 'Enter a reason: {{min}} to {{max}} characters',
+                de: 'Gib einen Grund an: {{min}} bis {{max}} Zeichen',
+                pl: 'Podaj powód: od {{min}} do {{max}} znaków',
+            },
             notInOrganization: {
                 ru: 'Вы не состоите в организации',
                 ua: 'Ви не перебуваєте в організації',
@@ -161,6 +205,43 @@ export const members = {
         },
     },
     leave: {
+        modal: {
+            title: {
+                ru: 'Выход из организации',
+                ua: 'Вихід з організації',
+                en: 'Leave organization',
+                de: 'Organisation verlassen',
+                pl: 'Opuszczenie organizacji',
+            },
+            message: {
+                ru: 'Покинуть организацию {{orgName}}? Вернуться можно будет только по новому приглашению. Укажите причину, она будет записана в журнал организации.',
+                ua: 'Покинути організацію {{orgName}}? Повернутися можна буде лише за новим запрошенням. Вкажіть причину, її буде записано в журнал організації.',
+                en: 'Leave organization {{orgName}}? You can only come back with a new invitation. Enter a reason, it will be written to the organization activity.',
+                de: 'Organisation {{orgName}} verlassen? Zurück kommst du nur mit einer neuen Einladung. Gib einen Grund an, er wird im Verlauf der Organisation gespeichert.',
+                pl: 'Opuścić organizację {{orgName}}? Wrócić można tylko po nowym zaproszeniu. Podaj powód, zostanie zapisany w dzienniku organizacji.',
+            },
+            reasonPlaceholder: {
+                ru: 'Причина',
+                ua: 'Причина',
+                en: 'Reason',
+                de: 'Grund',
+                pl: 'Powód',
+            },
+            confirm: {
+                ru: 'Покинуть',
+                ua: 'Покинути',
+                en: 'Leave',
+                de: 'Verlassen',
+                pl: 'Opuść',
+            },
+            cancel: {
+                ru: 'Отмена',
+                ua: 'Скасувати',
+                en: 'Cancel',
+                de: 'Abbrechen',
+                pl: 'Anuluj',
+            },
+        },
         success: {
             left: {
                 ru: 'Вы покинули организацию {{orgName}}',
@@ -178,6 +259,13 @@ export const members = {
             },
         },
         errors: {
+            invalidReason: {
+                ru: 'Укажите причину: от {{min}} до {{max}} символов',
+                ua: 'Вкажіть причину: від {{min}} до {{max}} символів',
+                en: 'Enter a reason: {{min}} to {{max}} characters',
+                de: 'Gib einen Grund an: {{min}} bis {{max}} Zeichen',
+                pl: 'Podaj powód: od {{min}} do {{max}} znaków',
+            },
             notInOrganization: {
                 ru: 'Вы не состоите в организации',
                 ua: 'Ви не перебуваєте в організації',

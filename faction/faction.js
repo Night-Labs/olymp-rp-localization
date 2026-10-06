@@ -619,11 +619,18 @@ export const faction = {
         'pl': 'Wyrzuciłeś {{name}} z frakcji',
     },
     youWasKicked: {
-        'ru': 'Ты был исключен из фракции {{name}}',
-        'ua': 'Тебе виключили з фракції {{name}}',
-        'en': 'You were kicked from the faction {{name}}',
-        'de': 'Du wurdest aus der Fraktion {{name}} geworfen',
-        'pl': 'Zostałeś wyrzucony z frakcji {{name}}',
+        'ru': 'Ты был исключен из фракции {{name}}. Причина: {{reason}}',
+        'ua': 'Тебе виключили з фракції {{name}}. Причина: {{reason}}',
+        'en': 'You were kicked from the faction {{name}}. Reason: {{reason}}',
+        'de': 'Du wurdest aus der Fraktion {{name}} geworfen. Grund: {{reason}}',
+        'pl': 'Zostałeś wyrzucony z frakcji {{name}}. Powód: {{reason}}',
+    },
+    kickReasonInvalid: {
+        'ru': 'Укажи причину: от {{min}} до {{max}} символов',
+        'ua': 'Вкажи причину: від {{min}} до {{max}} символів',
+        'en': 'Enter a reason: {{min}} to {{max}} characters',
+        'de': 'Gib einen Grund an: {{min}} bis {{max}} Zeichen',
+        'pl': 'Podaj powód: od {{min}} do {{max}} znaków',
     },
     'youGaveWarn': {
         'ru': 'Ты выдал предупреждение {{name}}. Количество {{currentWarnCount}}/{{maxWarnCount}}',
