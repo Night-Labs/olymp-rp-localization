@@ -156,6 +156,43 @@ export const inventory = {
             zh: '弹药类型',
         },
 
+        // Охотничье снаряжение (shared/jobs/hunting/weapons)
+        hunting: {
+            tier: {
+                ru: 'Класс',
+                ua: 'Клас',
+                en: 'Class',
+                de: 'Klasse',
+                pl: 'Klasa',
+            },
+            game: {
+                ru: 'Дичь',
+                ua: 'Дичина',
+                en: 'Game',
+                de: 'Wild',
+                pl: 'Zwierzyna',
+            },
+            level: {
+                ru: 'Уровень охотника',
+                ua: 'Рівень мисливця',
+                en: 'Hunter level',
+                de: 'Jägerstufe',
+                pl: 'Poziom myśliwego',
+            },
+            tiers: {
+                t1: { ru: 'Начальный', ua: 'Початковий', en: 'Starter', de: 'Einsteiger', pl: 'Początkowa' },
+                t2: { ru: 'Любительский', ua: 'Аматорський', en: 'Amateur', de: 'Hobby', pl: 'Amatorska' },
+                t3: { ru: 'Стандартный', ua: 'Стандартний', en: 'Standard', de: 'Standard', pl: 'Standardowa' },
+                t4: { ru: 'Профессиональный', ua: 'Професійний', en: 'Professional', de: 'Profi', pl: 'Profesjonalna' },
+                t5: { ru: 'Мастерский', ua: 'Майстерський', en: 'Master', de: 'Meister', pl: 'Mistrzowska' },
+            },
+            games: {
+                small: { ru: 'Мелкая: кролик, птица', ua: 'Дрібна: кролик, птах', en: 'Small: rabbit, birds', de: 'Klein: Kaninchen, Vögel', pl: 'Drobna: królik, ptactwo' },
+                medium: { ru: 'Средняя: олень, койот', ua: 'Середня: олень, койот', en: 'Medium: deer, coyote', de: 'Mittel: Hirsch, Kojote', pl: 'Średnia: jeleń, kojot' },
+                large: { ru: 'Крупная: кабан, пума, пантера', ua: 'Велика: кабан, пума, пантера', en: 'Large: boar, cougar, panther', de: 'Groß: Wildschwein, Puma, Panther', pl: 'Gruba: dzik, puma, pantera' },
+            },
+        },
+
         water: {
             ru: 'Запас воды',
             ua: 'Запас води',

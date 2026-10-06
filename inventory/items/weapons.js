@@ -1614,5 +1614,329 @@ export const weapons = {
                 pl: 'Wyciągnij zawleczkę i rzuć: po kilku sekundach stawia gęstą zasłonę dymną. Osłania przebieżkę albo leczenie.',
             },
         },
+
+        // ОХОТА (shared/jobs/hunting/weapons)
+        hunt_fieldrf: {
+            name: {
+                ru: 'Northfield Single 12',
+                ua: 'Northfield Single 12',
+                en: 'Northfield Single 12',
+                de: 'Northfield Single 12',
+                pl: 'Northfield Single 12',
+            },
+            desc: {
+                ru: 'Однозарядная винтовка под пулю 12 калибра. Простая, надёжная и бьёт наповал.',
+                ua: 'Однозарядна гвинтівка під кулю 12 калібру. Проста, надійна і б\'є наповал.',
+                en: 'A single-shot rifle firing 12 gauge slugs. Simple, reliable and it drops game on the spot.',
+                de: 'Ein Einzelladergewehr für Flintenlaufgeschosse im Kaliber 12. Einfach, zuverlässig und es streckt das Wild nieder.',
+                pl: 'Jednostrzałowy karabin na kule kalibru 12. Prosty, niezawodny i kładzie zwierzynę na miejscu.',
+            },
+        },
+
+        hunt_semicrb: {
+            name: {
+                ru: 'Kestrel SL-8',
+                ua: 'Kestrel SL-8',
+                en: 'Kestrel SL-8',
+                de: 'Kestrel SL-8',
+                pl: 'Kestrel SL-8',
+            },
+            desc: {
+                ru: 'Карабин с оптикой и деревянной ложей. Второй выстрел - без передёргивания затвора.',
+                ua: 'Карабін з оптикою та дерев\'яним ложем. Другий постріл - без пересмикування затвора.',
+                en: 'A scoped carbine with a wooden stock. The follow-up shot needs no bolt work.',
+                de: 'Ein Karabiner mit Zielfernrohr und Holzschaft. Der zweite Schuss kommt ohne Repetieren.',
+                pl: 'Karabinek z lunetą i drewnianą kolbą. Drugi strzał bez przeładowania zamka.',
+            },
+        },
+
+        hunt_scoutrf: {
+            name: {
+                ru: 'Ridgeline Scout .308',
+                ua: 'Ridgeline Scout .308',
+                en: 'Ridgeline Scout .308',
+                de: 'Ridgeline Scout .308',
+                pl: 'Ridgeline Scout .308',
+            },
+            desc: {
+                ru: 'Лёгкая магазинная винтовка с оптикой для долгих переходов по лесу.',
+                ua: 'Легка магазинна гвинтівка з оптикою для довгих переходів лісом.',
+                en: 'A light scoped bolt-action rifle for long walks through the woods.',
+                de: 'Ein leichter Repetierer mit Zielfernrohr für lange Pirschgänge durch den Wald.',
+                pl: 'Lekki karabin powtarzalny z lunetą na długie wędrówki po lesie.',
+            },
+        },
+
+        hunt_guiderf: {
+            name: {
+                ru: 'Halvard Warden',
+                ua: 'Halvard Warden',
+                en: 'Halvard Warden',
+                de: 'Halvard Warden',
+                pl: 'Halvard Warden',
+            },
+            desc: {
+                ru: 'Рабочая винтовка егеря: оптика, магазин на десять патронов и ложа, которой не страшна непогода.',
+                ua: 'Робоча гвинтівка єгеря: оптика, магазин на десять набоїв і ложе, якому не страшна негода.',
+                en: 'A gamekeeper\'s working rifle: a scope, a ten-round magazine and a stock that shrugs off the weather.',
+                de: 'Das Arbeitsgewehr des Jägers: Zielfernrohr, Zehn-Schuss-Magazin und ein wetterfester Schaft.',
+                pl: 'Robocza broń łowczego: luneta, magazynek na dziesięć nabojów i kolba odporna na pogodę.',
+            },
+        },
+
+        hunt_longrfl: {
+            name: {
+                ru: 'Taiga Longshot',
+                ua: 'Taiga Longshot',
+                en: 'Taiga Longshot',
+                de: 'Taiga Longshot',
+                pl: 'Taiga Longshot',
+            },
+            desc: {
+                ru: 'Мощная оптика для выстрела через всю долину. Зверь не успеет услышать охотника.',
+                ua: 'Потужна оптика для пострілу через усю долину. Звір не встигне почути мисливця.',
+                en: 'A powerful scope for a shot across the whole valley. The game never hears the hunter coming.',
+                de: 'Ein starkes Zielfernrohr für den Schuss über das ganze Tal. Das Wild hört den Jäger nie kommen.',
+                pl: 'Mocna luneta do strzału przez całą dolinę. Zwierzyna nie usłyszy myśliwego.',
+            },
+        },
+
+        hunt_hushrfl: {
+            name: {
+                ru: 'Varg Silent .308',
+                ua: 'Varg Silent .308',
+                en: 'Varg Silent .308',
+                de: 'Varg Silent .308',
+                pl: 'Varg Silent .308',
+            },
+            desc: {
+                ru: 'Тяжёлая винтовка с оптикой и приглушённым выстрелом - не распугивает стадо.',
+                ua: 'Важка гвинтівка з оптикою та приглушеним пострілом - не розлякує стадо.',
+                en: 'A heavy scoped rifle with a muffled report - it does not scatter the herd.',
+                de: 'Ein schweres Gewehr mit Zielfernrohr und gedämpftem Knall - die Herde bleibt stehen.',
+                pl: 'Ciężki karabin z lunetą i przytłumionym strzałem - nie płoszy stada.',
+            },
+        },
+
+        hunt_dblrifl: {
+            name: {
+                ru: 'Brennan Side-by-Side',
+                ua: 'Brennan Side-by-Side',
+                en: 'Brennan Side-by-Side',
+                de: 'Brennan Side-by-Side',
+                pl: 'Brennan Side-by-Side',
+            },
+            desc: {
+                ru: 'Классическая двустволка с деревянной ложей. Два выстрела дробью на близкой дистанции.',
+                ua: 'Класична двостволка з дерев\'яним ложем. Два постріли шротом на близькій дистанції.',
+                en: 'A classic side-by-side with a wooden stock. Two loads of shot at close range.',
+                de: 'Eine klassische Doppelflinte mit Holzschaft. Zwei Schrotschüsse auf kurze Distanz.',
+                pl: 'Klasyczna dubeltówka z drewnianą kolbą. Dwa strzały śrutem z bliska.',
+            },
+        },
+
+        hunt_wdshotg: {
+            name: {
+                ru: 'Marsh Pump 12',
+                ua: 'Marsh Pump 12',
+                en: 'Marsh Pump 12',
+                de: 'Marsh Pump 12',
+                pl: 'Marsh Pump 12',
+            },
+            desc: {
+                ru: 'Помповое ружьё с деревянным цевьём на восемь патронов - для птицы и мелкой дичи.',
+                ua: 'Помпова рушниця з дерев\'яним цівкою на вісім набоїв - для птиці та дрібної дичини.',
+                en: 'An eight-round pump shotgun with a wooden forend - for birds and small game.',
+                de: 'Eine Pumpflinte mit Holzvorderschaft für acht Patronen - für Federwild und Niederwild.',
+                pl: 'Strzelba pompowa z drewnianym łożem na osiem nabojów - na ptactwo i drobną zwierzynę.',
+            },
+        },
+
+        hunt_airpist: {
+            name: {
+                ru: 'Whisper AP-18',
+                ua: 'Whisper AP-18',
+                en: 'Whisper AP-18',
+                de: 'Whisper AP-18',
+                pl: 'Whisper AP-18',
+            },
+            desc: {
+                ru: 'Тихий пневматический пистолет. Для мелкой дичи и тренировки руки.',
+                ua: 'Тихий пневматичний пістолет. Для дрібної дичини та тренування руки.',
+                en: 'A quiet air pistol. For small game and keeping your hand in.',
+                de: 'Eine leise Luftpistole. Für Kleinwild und zum Üben.',
+                pl: 'Cichy pistolet pneumatyczny. Na drobną zwierzynę i do treningu.',
+            },
+        },
+
+        hunt_skinknf: {
+            name: {
+                ru: 'Pelton T-5 Skinner',
+                ua: 'Pelton T-5 Skinner',
+                en: 'Pelton T-5 Skinner',
+                de: 'Pelton T-5 Skinner',
+                pl: 'Pelton T-5 Skinner',
+            },
+            desc: {
+                ru: 'Короткий нож с Т-образной рукоятью и крюком. Снимает шкуру быстро и чисто.',
+                ua: 'Короткий ніж з Т-подібним руків\'ям і гаком. Знімає шкуру швидко й чисто.',
+                en: 'A short T-handle knife with a gut hook. Takes a hide off fast and clean.',
+                de: 'Ein kurzes Messer mit T-Griff und Aufbrechhaken. Häutet schnell und sauber.',
+                pl: 'Krótki nóż z rękojeścią w kształcie litery T i hakiem. Zdejmuje skórę szybko i czysto.',
+            },
+        },
+
+        hunt_scabknf: {
+            name: {
+                ru: 'Stag & Co. Field',
+                ua: 'Stag & Co. Field',
+                en: 'Stag & Co. Field',
+                de: 'Stag & Co. Field',
+                pl: 'Stag & Co. Field',
+            },
+            desc: {
+                ru: 'Нож с упором для пальцев и деревянными накладками - главный инструмент охотника.',
+                ua: 'Ніж з упором для пальців і дерев\'яними накладками - головний інструмент мисливця.',
+                en: 'A knife with a finger guard and wooden scales - the hunter\'s main tool.',
+                de: 'Ein Messer mit Fingerschutz und Holzgriffschalen - das wichtigste Werkzeug des Jägers.',
+                pl: 'Nóż z jelcem i drewnianymi okładkami - główne narzędzie myśliwego.',
+            },
+        },
+
+        hunt_trailhk: {
+            name: {
+                ru: 'Kestrel Gut Hook',
+                ua: 'Kestrel Gut Hook',
+                en: 'Kestrel Gut Hook',
+                de: 'Kestrel Gut Hook',
+                pl: 'Kestrel Gut Hook',
+            },
+            desc: {
+                ru: 'Широкий клинок с крюком на обухе: вскрывает тушу, не задевая мясо.',
+                ua: 'Широкий клинок з гаком на обусі: розкриває тушу, не зачіпаючи м\'ясо.',
+                en: 'A broad blade with a hook on the spine: opens a carcass without cutting into the meat.',
+                de: 'Eine breite Klinge mit Haken am Rücken: öffnet das Wild, ohne das Fleisch zu verletzen.',
+                pl: 'Szerokie ostrze z hakiem na grzbiecie: otwiera tuszę, nie naruszając mięsa.',
+            },
+        },
+
+        hunt_bushknf: {
+            name: {
+                ru: 'Lindqvist Scout',
+                ua: 'Lindqvist Scout',
+                en: 'Lindqvist Scout',
+                de: 'Lindqvist Scout',
+                pl: 'Lindqvist Scout',
+            },
+            desc: {
+                ru: 'Нож с деревянной рукоятью для работы в лесу: строгать, резать, разделывать.',
+                ua: 'Ніж з дерев\'яним руків\'ям для роботи в лісі: стругати, різати, обробляти.',
+                en: 'A wooden-handled knife for work in the woods: carving, cutting, dressing game.',
+                de: 'Ein Messer mit Holzgriff für die Arbeit im Wald: schnitzen, schneiden, aufbrechen.',
+                pl: 'Nóż z drewnianą rękojeścią do pracy w lesie: strugania, cięcia i oprawiania.',
+            },
+        },
+
+        hunt_campknf: {
+            name: {
+                ru: 'Ridgeline Camp-7',
+                ua: 'Ridgeline Camp-7',
+                en: 'Ridgeline Camp-7',
+                de: 'Ridgeline Camp-7',
+                pl: 'Ridgeline Camp-7',
+            },
+            desc: {
+                ru: 'Крепкий нож с прорезиненной рукоятью - на привале и на охоте.',
+                ua: 'Міцний ніж з прогумованим руків\'ям - на привалі та на полюванні.',
+                en: 'A sturdy knife with a rubberised grip - for camp and for the hunt.',
+                de: 'Ein robustes Messer mit gummiertem Griff - fürs Lager und die Jagd.',
+                pl: 'Solidny nóż z gumowaną rękojeścią - na biwak i na polowanie.',
+            },
+        },
+
+        hunt_foldknf: {
+            name: {
+                ru: 'Bramble 40 Folder',
+                ua: 'Bramble 40 Folder',
+                en: 'Bramble 40 Folder',
+                de: 'Bramble 40 Folder',
+                pl: 'Bramble 40 Folder',
+            },
+            desc: {
+                ru: 'Складной нож, который всегда в кармане.',
+                ua: 'Складаний ніж, який завжди в кишені.',
+                en: 'A folding knife that is always in your pocket.',
+                de: 'Ein Klappmesser, das immer in der Tasche steckt.',
+                pl: 'Nóż składany, który zawsze jest w kieszeni.',
+            },
+        },
+
+        hunt_forge: {
+            name: {
+                ru: 'Northforge Anvil',
+                ua: 'Northforge Anvil',
+                en: 'Northforge Anvil',
+                de: 'Northforge Anvil',
+                pl: 'Northforge Anvil',
+            },
+            desc: {
+                ru: 'Тяжёлый кованый клинок - рубит кость и сухие ветки.',
+                ua: 'Важкий кований клинок - рубає кістку й сухе гілля.',
+                en: 'A heavy forged blade - chops bone and dry branches.',
+                de: 'Eine schwere geschmiedete Klinge - hackt Knochen und trockene Äste.',
+                pl: 'Ciężkie kute ostrze - rąbie kości i suche gałęzie.',
+            },
+        },
+
+        hunt_butcher: {
+            name: {
+                ru: 'Halvard B-9 Butcher',
+                ua: 'Halvard B-9 Butcher',
+                en: 'Halvard B-9 Butcher',
+                de: 'Halvard B-9 Butcher',
+                pl: 'Halvard B-9 Butcher',
+            },
+            desc: {
+                ru: 'Нож для разделки туши: длинный изогнутый клинок и удобная рукоять.',
+                ua: 'Ніж для оброблення туші: довгий вигнутий клинок і зручне руків\'я.',
+                en: 'A knife for dressing a carcass: a long curved blade and a comfortable handle.',
+                de: 'Ein Messer zum Zerlegen: lange gebogene Klinge und ein griffiger Griff.',
+                pl: 'Nóż do oprawiania tuszy: długie zakrzywione ostrze i wygodna rękojeść.',
+            },
+        },
+
+        hunt_rawknf: {
+            name: {
+                ru: 'Varg Skelett S-1',
+                ua: 'Varg Skelett S-1',
+                en: 'Varg Skelett S-1',
+                de: 'Varg Skelett S-1',
+                pl: 'Varg Skelett S-1',
+            },
+            desc: {
+                ru: 'Цельнометаллический нож без накладок. Лёгкий, неубиваемый.',
+                ua: 'Суцільнометалевий ніж без накладок. Легкий, незнищенний.',
+                en: 'An all-steel knife with no scales. Light and indestructible.',
+                de: 'Ein Messer ganz aus Stahl ohne Griffschalen. Leicht und unverwüstlich.',
+                pl: 'Nóż w całości ze stali, bez okładek. Lekki i niezniszczalny.',
+            },
+        },
+
+        hunt_cleaver: {
+            name: {
+                ru: 'Taiga Bonecutter',
+                ua: 'Taiga Bonecutter',
+                en: 'Taiga Bonecutter',
+                de: 'Taiga Bonecutter',
+                pl: 'Taiga Bonecutter',
+            },
+            desc: {
+                ru: 'Широкий тесак: прорубает дорогу в зарослях и разделывает крупного зверя.',
+                ua: 'Широкий тесак: прорубує дорогу в хащах і обробляє великого звіра.',
+                en: 'A broad cleaver: cuts a path through brush and dresses big game.',
+                de: 'Ein breites Hackmesser: schlägt Wege durchs Dickicht und zerlegt Großwild.',
+                pl: 'Szeroki tasak: wycina drogę w zaroślach i oprawia grubą zwierzynę.',
+            },
+        },
     },
 };
