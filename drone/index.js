@@ -1,10 +1,10 @@
 export default {
     notFaction: {
-        ru: 'Этот дрон доступен только сотрудникам LSPD',
-        ua: 'Цей дрон доступний лише співробітникам LSPD',
-        en: 'This drone is available to LSPD officers only',
-        de: 'Diese Drohne ist nur für LSPD-Beamte verfügbar',
-        pl: 'Ten dron jest dostępny tylko dla funkcjonariuszy LSPD',
+        ru: 'Этот дрон недоступен вашей фракции',
+        ua: 'Цей дрон недоступний вашій фракції',
+        en: 'This drone is not available to your faction',
+        de: 'Diese Drohne ist für deine Fraktion nicht verfügbar',
+        pl: 'Ten dron jest niedostępny dla twojej frakcji',
     },
     notOnDuty: {
         ru: 'Нужно быть на службе чтобы запустить этот дрон',

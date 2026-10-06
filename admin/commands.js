@@ -34,6 +34,20 @@ export default {
         de: 'Die Cooldowns des Charakters loeschen. Ohne Argument alle, mit Schluessel nur diesen, list zeigt die laufenden',
         pl: 'Wyczysc cooldowny postaci. Bez argumentu wszystkie, z kluczem tylko ten, list pokazuje aktywne',
     },
+    disguise: {
+        ru: 'Замаскироваться: другие игроки видят указанные имя, фамилию и ID. Без имени - случайное, без ID - случайный.',
+        ua: "Замаскуватися: інші гравці бачать вказані ім'я, прізвище та ID. Без імені - випадкове, без ID - випадковий",
+        en: 'Disguise yourself: other players see the given first name, last name and ID. No name or no ID - a random one',
+        de: 'Tarnen: andere Spieler sehen den angegebenen Vor- und Nachnamen und die ID. Ohne Namen ein zufälliger, ohne ID eine zufällige',
+        pl: 'Zamaskuj się: inni gracze widzą podane imię, nazwisko i ID. Bez imienia - losowe, bez ID - losowe',
+    },
+    undisguise: {
+        ru: 'Снять маскировку и вернуть настоящие имя и ID.',
+        ua: "Зняти маскування та повернути справжні ім'я та ID",
+        en: 'Remove the disguise and show the real name and ID again',
+        de: 'Tarnung entfernen und wieder den echten Namen und die echte ID zeigen',
+        pl: 'Zdejmij maskowanie i pokaż znowu prawdziwe imię i ID',
+    },
     burglary: {
         ru: 'Начать тестовое дело домушника: отметить дом на карте. Аргумент - id интерьера или stop.',
         ua: 'Почати тестову справу домушника: відзначити будинок на карті. Аргумент - id інтер’єру або stop',

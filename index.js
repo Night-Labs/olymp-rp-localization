@@ -70,7 +70,7 @@ import party from './party';
 import xmas from './xmas';
 import musicPlayer from './musicPlayer';
 import games from './games/games';
-import flappyBird from './flappyBird';
+import flappyWinds from './flappyWinds';
 import funnyBirds from './funnyBirds';
 import grandmaster from './grandmaster';
 import walkieTalkie from './walkieTalkie';
@@ -203,7 +203,7 @@ export default {
     xmas,
     musicPlayer,
     games,
-    flappyBird,
+    flappyWinds,
     funnyBirds,
     grandmaster,
     walkieTalkie,

@@ -92,6 +92,18 @@ export const cef = {
         closedAdmin: { ru: 'Обращение закрыто', ua: 'Звернення закрито', en: 'This ticket is closed', de: 'Diese Anfrage ist geschlossen', pl: 'Zgłoszenie jest zamknięte' },
         pick: { ru: 'Выберите обращение в списке', ua: 'Виберіть звернення у списку', en: 'Pick a ticket from the list', de: 'Wähle eine Anfrage aus der Liste', pl: 'Wybierz zgłoszenie z listy' },
     },
+    links: {
+        title: { ru: 'Непроверенная ссылка', ua: 'Неперевірене посилання', en: 'Unverified link', de: 'Ungeprüfter Link', pl: 'Niesprawdzony link' },
+        message: {
+            ru: 'Ссылка ведёт на сайт <b>{{host}}</b>, которого нет в списке проверенных. Не вводите там пароль от аккаунта и не скачивайте файлы.',
+            ua: 'Посилання веде на сайт <b>{{host}}</b>, якого немає в списку перевірених. Не вводьте там пароль від акаунта і не завантажуйте файли.',
+            en: 'This link leads to <b>{{host}}</b>, which is not on the verified list. Do not enter your account password there or download files.',
+            de: 'Dieser Link führt zur Seite <b>{{host}}</b>, die nicht auf der Liste geprüfter Seiten steht. Gib dort nicht dein Kontopasswort ein und lade keine Dateien herunter.',
+            pl: 'Ten link prowadzi na stronę <b>{{host}}</b>, której nie ma na liście sprawdzonych. Nie wpisuj tam hasła do konta i nie pobieraj plików.',
+        },
+        open: { ru: 'Открыть', ua: 'Відкрити', en: 'Open', de: 'Öffnen', pl: 'Otwórz' },
+        cancel: { ru: 'Отмена', ua: 'Скасувати', en: 'Cancel', de: 'Abbrechen', pl: 'Anuluj' },
+    },
     player: {
         online: { ru: 'В сети', ua: 'В мережі', en: 'Online', de: 'Online', pl: 'Online' },
         offline: { ru: 'Не в сети', ua: 'Не в мережі', en: 'Offline', de: 'Offline', pl: 'Offline' },

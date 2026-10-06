@@ -1373,18 +1373,18 @@ export default {
                 },
                 flappyBird: {
                     title: {
-                        ru: 'Рекорд в Flappy Bird',
-                        ua: 'Рекорд у Flappy Bird',
-                        en: 'Flappy Bird record',
-                        de: 'Flappy-Bird-Rekord',
-                        pl: 'Rekord we Flappy Bird',
+                        ru: 'Рекорд в Flappy Winds',
+                        ua: 'Рекорд у Flappy Winds',
+                        en: 'Flappy Winds record',
+                        de: 'Flappy-Winds-Rekord',
+                        pl: 'Rekord we Flappy Winds',
                     },
                     description: {
-                        ru: 'Установите новый рекорд в Flappy Bird.',
-                        ua: 'Встановіть новий рекорд у Flappy Bird.',
-                        en: 'Set a new record in Flappy Bird.',
-                        de: 'Stelle einen neuen Rekord in Flappy Bird auf.',
-                        pl: 'Ustanów nowy rekord we Flappy Bird.',
+                        ru: 'Установите новый рекорд в Flappy Winds.',
+                        ua: 'Встановіть новий рекорд у Flappy Winds.',
+                        en: 'Set a new record in Flappy Winds.',
+                        de: 'Stelle einen neuen Rekord in Flappy Winds auf.',
+                        pl: 'Ustanów nowy rekord we Flappy Winds.',
                     },
                 },
                 callStart: {
@@ -1773,11 +1773,11 @@ export default {
                 flappy: {
                     title: { ru: 'Полёт нормальный', ua: 'Політ нормальний', en: 'Smooth flight', de: 'Sanfter Flug', pl: 'Lot normalny' },
                     description: {
-                        ru: 'Наберите минимум {{target}} очков в Flappy Bird.',
-                        ua: 'Наберіть мінімум {{target}} очок у Flappy Bird.',
-                        en: 'Score at least {{target}} points in Flappy Bird.',
-                        de: 'Erziele mindestens {{target}} Punkte in Flappy Bird.',
-                        pl: 'Zdobądź co najmniej {{target}} punktów we Flappy Bird.',
+                        ru: 'Наберите минимум {{target}} очков в Flappy Winds.',
+                        ua: 'Наберіть мінімум {{target}} очок у Flappy Winds.',
+                        en: 'Score at least {{target}} points in Flappy Winds.',
+                        de: 'Erziele mindestens {{target}} Punkte in Flappy Winds.',
+                        pl: 'Zdobądź co najmniej {{target}} punktów we Flappy Winds.',
                     },
                 },
                 2048: {

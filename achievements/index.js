@@ -602,11 +602,11 @@ export default {
     contraband_sweep: {
         name: { ru: 'Подчистую', ua: 'Дочиста', en: 'Clean Sweep', de: 'Reiner Tisch', pl: 'Do Czysta' },
         desc: {
-            ru: 'Вскройте {{value}} ящика за один завоз контрабанды',
-            ua: 'Розкрийте {{value}} ящики за одне завезення контрабанди',
+            ru: 'Вскройте {{value}} ящиков за один завоз контрабанды',
+            ua: 'Розкрийте {{value}} ящиків за одне завезення контрабанди',
             en: 'Crack {{value}} crates during a single contraband event',
             de: 'Knacke {{value}} Kisten waehrend eines Schmuggel-Events',
-            pl: 'Otworz {{value}} skrzynie podczas jednego zwozu kontrabandy',
+            pl: 'Otworz {{value}} skrzyn podczas jednego zwozu kontrabandy',
         },
     },
 
@@ -638,11 +638,21 @@ export default {
     flappy_iron_nerves: {
         name: { ru: 'Стальные нервы', ua: 'Сталеві нерви', en: 'Nerves of Steel', de: 'Nerven aus Stahl', pl: 'Nerwy ze Stali' },
         desc: {
-            ru: 'Пролетите {{value}} труб за одну игру в Flappy Bird',
-            ua: 'Пролетіть {{value}} труб за одну гру у Flappy Bird',
-            en: 'Clear {{value}} pipes in a single Flappy Bird run',
-            de: 'Passiere {{value}} Rohre in einem einzigen Flappy Bird Lauf',
-            pl: 'Przelec obok {{value}} rur w jednej grze Flappy Bird',
+            ru: 'Пролетите {{value}} колонн за одну игру в Flappy Winds',
+            ua: 'Пролетіть {{value}} колон за одну гру у Flappy Winds',
+            en: 'Clear {{value}} columns in a single Flappy Winds run',
+            de: 'Passiere {{value}} Säulen in einem einzigen Flappy Winds Lauf',
+            pl: 'Przelec obok {{value}} kolumn w jednej grze Flappy Winds',
+        },
+    },
+    flappy_secret_bird: {
+        name: { ru: 'Путь шиноби', ua: 'Шлях шинобі', en: 'Way of the Shinobi', de: 'Weg des Shinobi', pl: 'Droga shinobi' },
+        desc: {
+            ru: 'Откройте секретную птицу ниндзя в Flappy Winds',
+            ua: 'Відкрийте секретну пташку ніндзя у Flappy Winds',
+            en: 'Unlock the secret ninja bird in Flappy Winds',
+            de: 'Schalte den geheimen Ninja-Vogel in Flappy Winds frei',
+            pl: 'Odblokuj sekretnego ptaka ninja we Flappy Winds',
         },
     },
     chess_grandmaster: {

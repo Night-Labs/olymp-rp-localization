@@ -284,6 +284,23 @@ export const menu = {
             de: 'Aktivierungskosten',
             pl: 'Koszt aktywacji',
         },
+        tileTimeLimit: {
+            ru: 'Время на выполнение',
+            ua: 'Час на виконання',
+            en: 'Time to complete',
+            de: 'Zeit zur Erfüllung',
+            pl: 'Czas na wykonanie',
+        },
+        timeLimitHours: { ru: '{{hours}} ч', ua: '{{hours}} год', en: '{{hours}} h', de: '{{hours}} Std.', pl: '{{hours}} godz.' },
+        timeLimitHoursMinutes: {
+            ru: '{{hours}} ч {{minutes}} мин',
+            ua: '{{hours}} год {{minutes}} хв',
+            en: '{{hours}} h {{minutes}} min',
+            de: '{{hours}} Std. {{minutes}} Min.',
+            pl: '{{hours}} godz. {{minutes}} min',
+        },
+        timeLimitMinutes: { ru: '{{minutes}} мин', ua: '{{minutes}} хв', en: '{{minutes}} min', de: '{{minutes}} Min.', pl: '{{minutes}} min' },
+        timeLimitNone: { ru: 'Без ограничения', ua: 'Без обмеження', en: 'No limit', de: 'Unbegrenzt', pl: 'Bez limitu' },
         tileTrack: {
             ru: 'Вид',
             ua: 'Вид',
@@ -2428,6 +2445,21 @@ export const menu = {
                 de: 'Kaempfe in {{time}}',
                 pl: 'Walki za {{time}}',
             },
+            // Title of a declared-battle pill: a click opens its conditions and roster.
+            warAttack: {
+                ru: 'Атака на квадрат {{cell}} ({{org}}): открыть условия и состав',
+                ua: 'Атака на квадрат {{cell}} ({{org}}): відкрити умови та склад',
+                en: 'Attack on square {{cell}} ({{org}}): open the terms and the roster',
+                de: 'Angriff auf Sektor {{cell}} ({{org}}): Bedingungen und Aufstellung oeffnen',
+                pl: 'Atak na kwadrat {{cell}} ({{org}}): otworz warunki i sklad',
+            },
+            warDefense: {
+                ru: 'Оборона квадрата {{cell}} от {{org}}: открыть условия и состав',
+                ua: 'Оборона квадрата {{cell}} від {{org}}: відкрити умови та склад',
+                en: 'Defense of square {{cell}} against {{org}}: open the terms and the roster',
+                de: 'Verteidigung von Sektor {{cell}} gegen {{org}}: Bedingungen und Aufstellung oeffnen',
+                pl: 'Obrona kwadratu {{cell}} przed {{org}}: otworz warunki i sklad',
+            },
             windowLeft: {
                 ru: 'Окно боёв: {{time}}',
                 ua: 'Вікно боїв: {{time}}',
@@ -2569,11 +2601,11 @@ export const menu = {
                     pl: 'Walki zaczynaja sie od {{from}} do {{to}}',
                 },
                 declarations: {
-                    ru: 'Объявить бой можно только пока идёт окно: с {{from}} до {{until}}, минимум за {{lead}} ч до начала',
-                    ua: 'Оголосити бій можна лише поки триває вікно: з {{from}} до {{until}}, мінімум за {{lead}} год до початку',
-                    en: 'Declarations are taken only while the window runs: from {{from}} until {{until}}, at least {{lead}} h before the start',
-                    de: 'Ansagen werden nur waehrend des Fensters angenommen: von {{from}} bis {{until}}, mindestens {{lead}} Std vor dem Start',
-                    pl: 'Zgloszenia sa przyjmowane tylko podczas okna: od {{from}} do {{until}}, minimum {{lead}} godz przed startem',
+                    ru: 'Объявить бой можно только пока идёт окно: с {{from}} до {{until}}, за {{minLead}}-{{maxLead}} мин до начала',
+                    ua: 'Оголосити бій можна лише поки триває вікно: з {{from}} до {{until}}, за {{minLead}}-{{maxLead}} хв до початку',
+                    en: 'Declarations are taken only while the window runs: from {{from}} until {{until}}, {{minLead}}-{{maxLead}} min before the start',
+                    de: 'Ansagen werden nur waehrend des Fensters angenommen: von {{from}} bis {{until}}, {{minLead}}-{{maxLead}} Min vor dem Start',
+                    pl: 'Zgloszenia sa przyjmowane tylko podczas okna: od {{from}} do {{until}}, {{minLead}}-{{maxLead}} min przed startem',
                 },
             },
             economy: {
@@ -3179,6 +3211,20 @@ export const menu = {
                 en: 'A battle is already declared',
                 de: 'Ein Kampf ist bereits angesagt',
                 pl: 'Walka jest juz ogloszona',
+            },
+            defenderInBattle: {
+                ru: 'Владелец сейчас в бою',
+                ua: 'Власник зараз у бою',
+                en: 'The owner is in a battle',
+                de: 'Der Besitzer ist im Kampf',
+                pl: 'Wlasciciel jest w walce',
+            },
+            defenderCooldown: {
+                ru: 'Нападение через {{time}}',
+                ua: 'Напад через {{time}}',
+                en: 'Attack in {{time}}',
+                de: 'Angriff in {{time}}',
+                pl: 'Atak za {{time}}',
             },
             noTacticalLeft: {
                 ru: 'Нет тактических действий',

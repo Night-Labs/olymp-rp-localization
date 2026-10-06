@@ -28,6 +28,14 @@ export const warPlanner = {
         de: 'Verteidigungsaufstellung',
         pl: 'Skład do obrony',
     },
+    // The attackers' roster, changed after the declaration.
+    attackRosterTitle: {
+        ru: 'Состав на атаку',
+        ua: 'Склад на атаку',
+        en: 'Attack roster',
+        de: 'Angriffsaufstellung',
+        pl: 'Skład do ataku',
+    },
     defenseSubmit: {
         ru: 'Сохранить состав',
         ua: 'Зберегти склад',
@@ -162,6 +170,13 @@ export const warPlanner = {
             en: 'Too soon: a battle needs notice',
             de: 'Zu frueh: ein Kampf braucht Vorlauf',
             pl: 'Za wczesnie: walka wymaga wyprzedzenia',
+        },
+        leadTooLong: {
+            ru: 'Слишком поздно: выберите время поближе',
+            ua: 'Занадто пізно: оберіть час ближче',
+            en: 'Too far ahead: pick an earlier time',
+            de: 'Zu weit voraus: waehle eine fruehere Zeit',
+            pl: 'Za daleko: wybierz wczesniejsza godzine',
         },
     },
     allowedItems: {
