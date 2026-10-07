@@ -186,11 +186,6 @@ export const inventory = {
                 t4: { ru: 'Профессиональный', ua: 'Професійний', en: 'Professional', de: 'Profi', pl: 'Profesjonalna' },
                 t5: { ru: 'Мастерский', ua: 'Майстерський', en: 'Master', de: 'Meister', pl: 'Mistrzowska' },
             },
-            games: {
-                small: { ru: 'Мелкая: кролик, птица', ua: 'Дрібна: кролик, птах', en: 'Small: rabbit, birds', de: 'Klein: Kaninchen, Vögel', pl: 'Drobna: królik, ptactwo' },
-                medium: { ru: 'Средняя: олень, койот', ua: 'Середня: олень, койот', en: 'Medium: deer, coyote', de: 'Mittel: Hirsch, Kojote', pl: 'Średnia: jeleń, kojot' },
-                large: { ru: 'Крупная: кабан, пума, пантера', ua: 'Велика: кабан, пума, пантера', en: 'Large: boar, cougar, panther', de: 'Groß: Wildschwein, Puma, Panther', pl: 'Gruba: dzik, puma, pantera' },
-            },
         },
 
         water: {
