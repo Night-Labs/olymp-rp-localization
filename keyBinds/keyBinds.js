@@ -629,6 +629,13 @@ export default {
         de: 'Ein Tier häuten',
         pl: 'Oskórować zwierzę',
     },
+    'hunting.skinBar': {
+        ru: 'Разделка: точный надрез',
+        ua: 'Оброблення: точний надріз',
+        en: 'Skinning: clean cut',
+        de: 'Häuten: sauberer Schnitt',
+        pl: 'Oprawianie: czyste cięcie',
+    },
     sit: {
         ru: 'Сесть',
         ua: 'Сісти',
