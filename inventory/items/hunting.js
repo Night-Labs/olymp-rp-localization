@@ -1,4 +1,22 @@
 export default {
+    deer_skin_ruined: {
+        name: {
+            ru: 'Испорченная шкура оленя',
+            ua: 'Зіпсована шкура оленя',
+            en: 'Ruined Deer Skin',
+            de: 'Verdorbene Hirschhaut',
+            pl: 'Zniszczona skóra jelenia',
+            zh: '破损的鹿皮',
+        },
+        desc: {
+            ru: 'Изрезанные и порванные клочья, годятся разве что на ветошь',
+            ua: "Порізані й подерті клапті, придатні хіба що на ганчір'я",
+            en: 'Slashed and torn scraps, good for little more than rags',
+            de: 'Zerschnittene, zerrissene Fetzen, kaum mehr als Lumpen',
+            pl: 'Pocięte i podarte strzępy, nadają się najwyżej na szmaty',
+            zh: '被割破撕裂的碎皮，只能当抹布用',
+        },
+    },
     deer_skin_bad: {
         name: {
             ru: 'Плохая шкура оленя',
@@ -125,6 +143,24 @@ export default {
             zh: '稀有战利品：头骨连同鹿角完整无缺',
         },
     },
+    boar_skin_ruined: {
+        name: {
+            ru: 'Испорченная шкура кабана',
+            ua: 'Зіпсована шкура кабана',
+            en: 'Ruined Boar Skin',
+            de: 'Verdorbene Wildschweinhaut',
+            pl: 'Zniszczona skóra dzika',
+            zh: '破损的野猪皮',
+        },
+        desc: {
+            ru: 'Изрезанные и порванные клочья, годятся разве что на ветошь',
+            ua: "Порізані й подерті клапті, придатні хіба що на ганчір'я",
+            en: 'Slashed and torn scraps, good for little more than rags',
+            de: 'Zerschnittene, zerrissene Fetzen, kaum mehr als Lumpen',
+            pl: 'Pocięte i podarte strzępy, nadają się najwyżej na szmaty',
+            zh: '被割破撕裂的碎皮，只能当抹布用',
+        },
+    },
     boar_skin_bad: {
         name: {
             ru: 'Плохая шкура кабана',
@@ -231,6 +267,24 @@ export default {
             de: 'Kann verkauft oder gekocht werden',
             pl: 'Można sprzedać lub ugotować',
             zh: '你可以卖东西或做饭',
+        },
+    },
+    coyote_skin_ruined: {
+        name: {
+            ru: 'Испорченная шкура койота',
+            ua: 'Зіпсована шкура койота',
+            en: 'Ruined Coyote Skin',
+            de: 'Verdorbene Kojotenhaut',
+            pl: 'Zniszczona skóra kojota',
+            zh: '破损的郊狼皮',
+        },
+        desc: {
+            ru: 'Изрезанные и порванные клочья, годятся разве что на ветошь',
+            ua: "Порізані й подерті клапті, придатні хіба що на ганчір'я",
+            en: 'Slashed and torn scraps, good for little more than rags',
+            de: 'Zerschnittene, zerrissene Fetzen, kaum mehr als Lumpen',
+            pl: 'Pocięte i podarte strzępy, nadają się najwyżej na szmaty',
+            zh: '被割破撕裂的碎皮，只能当抹布用',
         },
     },
     coyote_skin_bad: {
@@ -377,6 +431,24 @@ export default {
             zh: '可以烹饪或出售',
         },
     },
+    lion_skin_ruined: {
+        name: {
+            ru: 'Испорченная шкура льва',
+            ua: 'Зіпсована шкура лева',
+            en: 'Ruined Lion Skin',
+            de: 'Verdorbene Löwenhaut',
+            pl: 'Zniszczona skóra lwa',
+            zh: '破损的狮子皮',
+        },
+        desc: {
+            ru: 'Изрезанные и порванные клочья, годятся разве что на ветошь',
+            ua: "Порізані й подерті клапті, придатні хіба що на ганчір'я",
+            en: 'Slashed and torn scraps, good for little more than rags',
+            de: 'Zerschnittene, zerrissene Fetzen, kaum mehr als Lumpen',
+            pl: 'Pocięte i podarte strzępy, nadają się najwyżej na szmaty',
+            zh: '被割破撕裂的碎皮，只能当抹布用',
+        },
+    },
     lion_skin_bad: {
         name: {
             ru: 'Плохая шкура льва',
@@ -465,6 +537,24 @@ export default {
             de: 'Eine seltene Trophäe: Der Schädel ist samt Fangzähnen unversehrt',
             pl: 'Rzadkie trofeum: czaszka ocalała razem z kłami',
             zh: '稀有战利品：头骨连同獠牙完整无缺',
+        },
+    },
+    rabbit_skin_ruined: {
+        name: {
+            ru: 'Испорченная шкурка кролика',
+            ua: 'Зіпсована шкурка кролика',
+            en: 'Ruined Rabbit Skin',
+            de: 'Verdorbene Kaninchenhaut',
+            pl: 'Zniszczona skóra królika',
+            zh: '破损的兔皮',
+        },
+        desc: {
+            ru: 'Изрезанные и порванные клочья, годятся разве что на ветошь',
+            ua: "Порізані й подерті клапті, придатні хіба що на ганчір'я",
+            en: 'Slashed and torn scraps, good for little more than rags',
+            de: 'Zerschnittene, zerrissene Fetzen, kaum mehr als Lumpen',
+            pl: 'Pocięte i podarte strzępy, nadają się najwyżej na szmaty',
+            zh: '被割破撕裂的碎皮，只能当抹布用',
         },
     },
     rabbit_skin_bad: {
@@ -558,6 +648,24 @@ export default {
         },
     },
     //
+    panther_skin_ruined: {
+        name: {
+            ru: 'Испорченная шкура пантеры',
+            ua: 'Зіпсована шкура пантери',
+            en: 'Ruined Panther Skin',
+            de: 'Verdorbene Pantherhaut',
+            pl: 'Zniszczona skóra pantery',
+            zh: '破损的黑豹皮',
+        },
+        desc: {
+            ru: 'Изрезанные и порванные клочья, годятся разве что на ветошь',
+            ua: "Порізані й подерті клапті, придатні хіба що на ганчір'я",
+            en: 'Slashed and torn scraps, good for little more than rags',
+            de: 'Zerschnittene, zerrissene Fetzen, kaum mehr als Lumpen',
+            pl: 'Pocięte i podarte strzępy, nadają się najwyżej na szmaty',
+            zh: '被割破撕裂的碎皮，只能当抹布用',
+        },
+    },
     panther_skin_bad: {
         name: {
             ru: 'Плохая шкура пантеры',
@@ -646,6 +754,24 @@ export default {
             de: 'Eine seltene Trophäe: der Schädel des gefährlichsten Raubtiers der Insel',
             pl: 'Rzadkie trofeum: czaszka najgroźniejszego drapieżnika wyspy',
             zh: '稀有战利品：岛上最危险的掠食者的头骨',
+        },
+    },
+    monkey_skin_ruined: {
+        name: {
+            ru: 'Испорченная шкура макаки',
+            ua: 'Зіпсована шкура макаки',
+            en: 'Ruined Macaque Skin',
+            de: 'Verdorbene Makakenhaut',
+            pl: 'Zniszczona skóra makaka',
+            zh: '破损的猕猴皮',
+        },
+        desc: {
+            ru: 'Изрезанные и порванные клочья, годятся разве что на ветошь',
+            ua: "Порізані й подерті клапті, придатні хіба що на ганчір'я",
+            en: 'Slashed and torn scraps, good for little more than rags',
+            de: 'Zerschnittene, zerrissene Fetzen, kaum mehr als Lumpen',
+            pl: 'Pocięte i podarte strzępy, nadają się najwyżej na szmaty',
+            zh: '被割破撕裂的碎皮，只能当抹布用',
         },
     },
     monkey_skin_bad: {

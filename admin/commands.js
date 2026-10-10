@@ -34,6 +34,13 @@ export default {
         de: 'Die Cooldowns des Charakters loeschen. Ohne Argument alle, mit Schluessel nur diesen, list zeigt die laufenden',
         pl: 'Wyczysc cooldowny postaci. Bez argumentu wszystkie, z kluczem tylko ten, list pokazuje aktywne',
     },
+    adrenaline: {
+        ru: 'Проиграть на себе анимацию укола адреналина в руку (верх тела) со шприцем в руке.',
+        ua: 'Програти на собі анімацію уколу адреналіну в руку (верх тіла) зі шприцом у руці',
+        en: 'Play the adrenaline shot into the arm animation (upper body) on yourself, with the pen in hand',
+        de: 'Die Animation einer Adrenalinspritze in den Arm (Oberkoerper) mit dem Pen in der Hand an dir selbst abspielen',
+        pl: 'Odtworz na sobie animacje zastrzyku adrenaliny w ramie (gorna czesc ciala) z penem w dloni',
+    },
     disguise: {
         ru: 'Замаскироваться: другие игроки видят указанные имя, фамилию и ID. Без имени - случайное, без ID - случайный.',
         ua: "Замаскуватися: інші гравці бачать вказані ім'я, прізвище та ID. Без імені - випадкове, без ID - випадковий",
