@@ -824,4 +824,28 @@ export const player = {
         pl: '{{firstName}} pokazał(a) swoje prawo jazdy {{targetName}}',
         zh: '{{firstName}}向{{targetName}}出示了自己的驾驶证',
     },
+    handedMoneyAction: {
+        ru: '{{firstName}} передал(а) деньги {{targetName}}',
+        ua: '{{firstName}} передав(ла) гроші {{targetName}}',
+        en: '{{firstName}} handed some money to {{targetName}}',
+        de: '{{firstName}} gab {{targetName}} etwas Geld',
+        pl: '{{firstName}} przekazał(a) pieniądze {{targetName}}',
+        zh: '{{firstName}}把钱交给了{{targetName}}',
+    },
+    handedBouquetAction: {
+        ru: '{{firstName}} подарил(а) букет {{targetName}}',
+        ua: '{{firstName}} подарував(ла) букет {{targetName}}',
+        en: '{{firstName}} gave a bouquet to {{targetName}}',
+        de: '{{firstName}} schenkte {{targetName}} einen Blumenstrauß',
+        pl: '{{firstName}} podarował(a) bukiet {{targetName}}',
+        zh: '{{firstName}}送给{{targetName}}一束花',
+    },
+    gaveFirstAidAction: {
+        ru: '{{firstName}} оказал(а) первую помощь {{targetName}} с помощью аптечки',
+        ua: '{{firstName}} надав(ла) першу допомогу {{targetName}} за допомогою аптечки',
+        en: '{{firstName}} gave first aid to {{targetName}} with a medkit',
+        de: '{{firstName}} leistete {{targetName}} mit einem Verbandskasten Erste Hilfe',
+        pl: '{{firstName}} udzielił(a) pierwszej pomocy {{targetName}} za pomocą apteczki',
+        zh: '{{firstName}}用急救包对{{targetName}}进行了急救',
+    },
 };

@@ -161,4 +161,100 @@ export default {
         de: '{{name}} holte ein Reparaturset heraus und reparierte das Auto',
         pl: '{{name}} wyciągnął zestaw naprawczy i naprawił samochód',
     },
+
+    playerPutOnArmour: {
+        ru: '{{name}} надел(а) бронежилет',
+        ua: '{{name}} одягнув(ла) бронежилет',
+        en: '{{name}} put on body armor',
+        de: '{{name}} legte eine Schutzweste an',
+        pl: '{{name}} założył(a) kamizelkę kuloodporną',
+    },
+
+    playerTookOffArmour: {
+        ru: '{{name}} снял(а) бронежилет',
+        ua: '{{name}} зняв(ла) бронежилет',
+        en: '{{name}} took off body armor',
+        de: '{{name}} legte die Schutzweste ab',
+        pl: '{{name}} zdjął(ęła) kamizelkę kuloodporną',
+    },
+
+    playerInsertedArmourPlate: {
+        ru: '{{name}} вставил(а) бронепластину в бронежилет',
+        ua: '{{name}} вставив(ла) бронепластину в бронежилет',
+        en: '{{name}} inserted an armor plate into the body armor',
+        de: '{{name}} setzte eine Panzerplatte in die Schutzweste ein',
+        pl: '{{name}} włożył(a) płytę balistyczną do kamizelki',
+    },
+
+    playerPutOnMask: {
+        ru: '{{name}} надел(а) маску',
+        ua: '{{name}} одягнув(ла) маску',
+        en: '{{name}} put on a mask',
+        de: '{{name}} setzte eine Maske auf',
+        pl: '{{name}} założył(a) maskę',
+    },
+
+    playerTookOffMask: {
+        ru: '{{name}} снял(а) маску',
+        ua: '{{name}} зняв(ла) маску',
+        en: '{{name}} took off the mask',
+        de: '{{name}} nahm die Maske ab',
+        pl: '{{name}} zdjął(ęła) maskę',
+    },
+
+    playerAte: {
+        ru: '{{name}} съел(а): {{item}}',
+        ua: "{{name}} з'їв(ла): {{item}}",
+        en: '{{name}} ate: {{item}}',
+        de: '{{name}} aß: {{item}}',
+        pl: '{{name}} zjadł(a): {{item}}',
+    },
+
+    playerDrank: {
+        ru: '{{name}} выпил(а): {{item}}',
+        ua: '{{name}} випив(ла): {{item}}',
+        en: '{{name}} drank: {{item}}',
+        de: '{{name}} trank: {{item}}',
+        pl: '{{name}} wypił(a): {{item}}',
+    },
+
+    playerUsedDrug: {
+        ru: '{{name}} употребил(а) содержимое: {{item}}',
+        ua: '{{name}} вжив(ла) вміст: {{item}}',
+        en: '{{name}} used the contents of: {{item}}',
+        de: '{{name}} konsumierte den Inhalt: {{item}}',
+        pl: '{{name}} zażył(a) zawartość: {{item}}',
+    },
+
+    playerLitCigarette: {
+        ru: '{{name}} закурил(а) сигарету',
+        ua: '{{name}} закурив(ла) цигарку',
+        en: '{{name}} lit a cigarette',
+        de: '{{name}} zündete sich eine Zigarette an',
+        pl: '{{name}} zapalił(a) papierosa',
+    },
+
+    playerLitCigar: {
+        ru: '{{name}} раскурил(а) сигару',
+        ua: '{{name}} розкурив(ла) сигару',
+        en: '{{name}} lit a cigar',
+        de: '{{name}} zündete sich eine Zigarre an',
+        pl: '{{name}} zapalił(a) cygaro',
+    },
+
+    playerTurnedOnBodyCamera: {
+        ru: '{{name}} включил(а) нагрудную камеру',
+        ua: '{{name}} увімкнув(ла) нагрудну камеру',
+        en: '{{name}} turned on their body camera',
+        de: '{{name}} schaltete die Bodycam ein',
+        pl: '{{name}} włączył(a) kamerę nasobną',
+    },
+
+    playerTurnedOffBodyCamera: {
+        ru: '{{name}} выключил(а) нагрудную камеру',
+        ua: '{{name}} вимкнув(ла) нагрудну камеру',
+        en: '{{name}} turned off their body camera',
+        de: '{{name}} schaltete die Bodycam aus',
+        pl: '{{name}} wyłączył(a) kamerę nasobną',
+    },
 };
