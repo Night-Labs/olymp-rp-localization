@@ -3325,6 +3325,13 @@ export default {
         de: 'Den Einfluss einer Organisation samt Wochen- und Saisonwertung ändern. Argumente: Tag, Änderung (z. B. 500 oder -500).',
         pl: 'Zmień wpływy organizacji razem z rankingiem tygodniowym i sezonowym. Argumenty: tag, zmiana (np. 500 lub -500).',
     },
+    terr_week: {
+        ru: 'Изменить только недельный рейтинг организации, не трогая влияние и сезон. Аргументы: тег, изменение (например 300 или -300).',
+        ua: 'Змінити лише тижневий рейтинг організації, не чіпаючи вплив і сезон. Аргументи: тег, зміна (наприклад 300 або -300).',
+        en: 'Change only the weekly rating of an organization, leaving its influence and season alone. Arguments: tag, change (e.g. 300 or -300).',
+        de: 'Nur die Wochenwertung einer Organisation ändern, Einfluss und Saison bleiben unberührt. Argumente: Tag, Änderung (z. B. 300 oder -300).',
+        pl: 'Zmień tylko ranking tygodniowy organizacji, bez zmiany wpływów i sezonu. Argumenty: tag, zmiana (np. 300 lub -300).',
+    },
     terr_cd: {
         ru: 'Сбросить откат организации: capture (мирный захват), sabotage (перезарядка саботажа), battle (запрет объявлять на неё бои после боя) или all. Аргументы: тег, тип.',
         ua: 'Скинути відкат організації: capture (мирне захоплення), sabotage (перезаряджання саботажу), battle (заборона оголошувати на неї бої після бою) або all. Аргументи: тег, тип.',
