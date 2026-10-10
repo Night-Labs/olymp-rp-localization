@@ -123,6 +123,33 @@ export default {
         },
     },
 
+    tabs: {
+        top: {
+            ru: 'Топ',
+            ua: 'Топ',
+            en: 'Top',
+            de: 'Top',
+            pl: 'Top',
+        },
+    },
+
+    emptyTop: {
+        name: {
+            ru: 'Топ сервера',
+            ua: 'Топ сервера',
+            en: 'Server top',
+            de: 'Server-Top',
+            pl: 'Top serwera',
+        },
+        desc: {
+            ru: 'Здесь появятся треки, которые чаще всего слушают на сервере за неделю',
+            ua: 'Тут будуть треки, які найчастіше слухають на сервері за тиждень',
+            en: 'The tracks the server plays most over a week will show up here',
+            de: 'Hier erscheinen die Titel, die auf dem Server in einer Woche am meisten gehört werden',
+            pl: 'Tutaj pojawią się utwory najczęściej słuchane na serwerze w ciągu tygodnia',
+        },
+    },
+
     startPage: {
         header: {
             ru: 'Добро пожаловать в панеле управления музыкального плеера!',
