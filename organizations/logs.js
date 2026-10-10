@@ -208,6 +208,13 @@ export const logs = {
                 de: '{{actor}} hat Haus #{{houseId}} zum Familienhaus gemacht',
                 pl: '{{actor}} uczynił dom #{{houseId}} domem rodziny',
             },
+            hqChanged: {
+                ru: '{{actor}} сменил дом организации с #{{previousHouseId}} на #{{houseId}}',
+                ua: '{{actor}} змінив будинок організації з #{{previousHouseId}} на #{{houseId}}',
+                en: '{{actor}} changed the family house from #{{previousHouseId}} to #{{houseId}}',
+                de: '{{actor}} hat das Familienhaus von #{{previousHouseId}} auf #{{houseId}} gewechselt',
+                pl: '{{actor}} zmienił dom rodziny z #{{previousHouseId}} na #{{houseId}}',
+            },
             confiscated: {
                 ru: 'HQ #{{hqId}} конфискован за долги. Компенсация лидеру: ${{refund}} + остаток ${{leftover}}',
                 ua: 'HQ #{{hqId}} конфісковано за борги. Компенсація лідеру: ${{refund}} + залишок ${{leftover}}',

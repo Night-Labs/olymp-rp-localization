@@ -238,6 +238,14 @@ export const server = {
             de: 'Nur der Anführer der Organisation darf ein privates Fahrzeug in der HQ-Garage abstellen',
             pl: 'Tylko lider organizacji może trzymać prywatny pojazd w garażu kwatery głównej',
         },
+        // The house is being bought, sold or swapped as an HQ at this very moment.
+        changingHands: {
+            ru: 'Дом сейчас меняет владельца, попробуйте через несколько секунд',
+            ua: 'Будинок зараз змінює власника, спробуйте за кілька секунд',
+            en: 'The house is changing hands right now, try again in a few seconds',
+            de: 'Das Haus wechselt gerade den Besitzer, versuche es in ein paar Sekunden erneut',
+            pl: 'Dom właśnie zmienia właściciela, spróbuj ponownie za kilka sekund',
+        },
         modal: {
             title: {
                 ua: 'Виїзд з будинку',
