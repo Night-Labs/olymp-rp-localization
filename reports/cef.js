@@ -138,8 +138,7 @@ export const cef = {
             jailAdmin: { ru: 'Деморгран, {{minutes}} мин', ua: 'Деморґран, {{minutes}} хв', en: 'Demorgran, {{minutes}} min', de: 'Demorgran, {{minutes}} Min.', pl: 'Demorgran, {{minutes}} min' },
             jailReason: { ru: 'Причина: {{reason}}', ua: 'Причина: {{reason}}', en: 'Reason: {{reason}}', de: 'Grund: {{reason}}', pl: 'Powód: {{reason}}' },
             cuffed: { ru: 'В наручниках', ua: 'У кайданках', en: 'Handcuffed', de: 'In Handschellen', pl: 'Skuty' },
-            chatMute: { ru: 'Мут чата, {{minutes}} мин', ua: 'Мут чату, {{minutes}} хв', en: 'Chat mute, {{minutes}} min', de: 'Chat-Mute, {{minutes}} Min.', pl: 'Wyciszony czat, {{minutes}} min' },
-            voiceMute: { ru: 'Мут голоса, {{minutes}} мин', ua: 'Мут голосу, {{minutes}} хв', en: 'Voice mute, {{minutes}} min', de: 'Voice-Mute, {{minutes}} Min.', pl: 'Wyciszony głos, {{minutes}} min' },
+            mute: { ru: 'Мут, {{minutes}} мин', ua: 'Мут, {{minutes}} хв', en: 'Muted, {{minutes}} min', de: 'Mute, {{minutes}} Min.', pl: 'Wyciszony, {{minutes}} min' },
         },
         // Full labels for the lead button, short ones for the grid under it.
         actions: {
