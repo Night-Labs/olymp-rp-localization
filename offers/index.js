@@ -80,6 +80,15 @@ export default {
         zh: '邀请查看他们的律师执照',
     },
 
+    pressCard: {
+        ru: 'Предлагает посмотреть своё удостоверение журналиста',
+        ua: 'Запрошує переглянути своє посвідчення журналіста',
+        en: 'Invites to view their press card',
+        de: 'Lädt dazu ein, den eigenen Presseausweis anzusehen',
+        pl: 'Zaprasza do obejrzenia swojej legitymacji prasowej',
+        zh: '邀请查看他们的记者证',
+    },
+
     //
 
     sellPills: {

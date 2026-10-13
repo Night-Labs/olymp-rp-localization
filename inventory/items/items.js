@@ -35,6 +35,24 @@ export const items = {
             zh: '此徽章仅授予在2026年夏季赛季完成项目通行证的玩家。',
         },
     },
+    autumnPassToken2026: {
+        name: {
+            ru: 'Жетон пропуска Осень 2026',
+            ua: 'Жетон перепустки Осінь 2026',
+            en: 'Autumn 2026 Pass Token',
+            de: 'Herbst 2026 Pass-Marke',
+            pl: 'Żeton przepustki Jesień 2026',
+            zh: '2026年秋季通行证徽章',
+        },
+        desc: {
+            ru: 'Этот жетон выдавался только тем, кто проходил батл пасс на проекте в сезоне Осень 2026.',
+            ua: 'Цей жетон видавався лише тим, хто проходив батл пас на проекті в сезоні Осінь 2026.',
+            en: 'This token was given only to those who completed the battle pass on the project during the Autumn 2026 season.',
+            de: 'Diese Marke wurde nur an jene vergeben, die den Battle Pass auf dem Projekt in der Saison Herbst 2026 abgeschlossen haben.',
+            pl: 'Ten żeton był przyznawany tylko tym, którzy ukończyli battle pass na projekcie w sezonie Jesień 2026.',
+            zh: '此徽章仅授予在2026年秋季赛季完成项目通行证的玩家。',
+        },
+    },
     heal: {
         name: {
             ua: 'Аптечка',
@@ -902,6 +920,102 @@ export const items = {
             pl: 'Wytrzymała łopata z drewnianą rączką i zaokrąglonym metalowym ostrzem, idealna do kopania ziemi.',
         },
     },
+    pickaxe_iron: {
+        name: {
+            ru: 'Железная кирка',
+            ua: 'Залізна кирка',
+            en: 'Iron Pickaxe',
+            de: 'Eisenspitzhacke',
+            pl: 'Żelazny kilof',
+        },
+        desc: {
+            ru: 'Кованая кирка с верстака. Берёт литий, серебро и золото, ломает руду быстрее и служит дольше обычной.',
+            ua: 'Кована кирка з верстака. Бере літій, срібло й золото, ламає руду швидше і служить довше за звичайну.',
+            en: 'A forged workbench pickaxe. It reaches lithium, silver and gold, breaks ore faster and lasts longer than a plain one.',
+            de: 'Eine geschmiedete Spitzhacke von der Werkbank. Sie baut Lithium, Silber und Gold ab, bricht Erz schneller und hält länger als eine einfache.',
+            pl: 'Kuty kilof z warsztatu. Wydobywa lit, srebro i złoto, szybciej kruszy rudę i służy dłużej niż zwykły.',
+        },
+    },
+    pickaxe_steel: {
+        name: {
+            ru: 'Стальная кирка',
+            ua: 'Сталева кирка',
+            en: 'Steel Pickaxe',
+            de: 'Stahlspitzhacke',
+            pl: 'Stalowy kilof',
+        },
+        desc: {
+            ru: 'Берёт любую руду карьера, включая платину, алмазы и иридий. Иногда выбивает лишний кусок.',
+            ua: "Бере будь-яку руду кар'єру, включно з платиною, алмазами та іридієм. Іноді вибиває зайвий шматок.",
+            en: 'It reaches every ore in the quarry, platinum, diamonds and iridium included. Now and then it knocks out an extra piece.',
+            de: 'Sie baut jedes Erz im Steinbruch ab, auch Platin, Diamanten und Iridium. Ab und zu bricht sie ein zusätzliches Stück heraus.',
+            pl: 'Wydobywa każdą rudę w kamieniołomie, także platynę, diamenty i iryd. Czasem wybija dodatkowy kawałek.',
+        },
+    },
+    pickaxe_iridium: {
+        name: {
+            ru: 'Иридиевая кирка',
+            ua: 'Іридієва кирка',
+            en: 'Iridium Pickaxe',
+            de: 'Iridiumspitzhacke',
+            pl: 'Irydowy kilof',
+        },
+        desc: {
+            ru: 'Тяжёлый сплав, который почти не тупится. Руда ломается заметно быстрее, лишний кусок выпадает чаще.',
+            ua: 'Важкий сплав, що майже не тупиться. Руда ламається помітно швидше, зайвий шматок випадає частіше.',
+            en: 'A heavy alloy that barely dulls. Ore breaks noticeably faster and an extra piece drops more often.',
+            de: 'Eine schwere Legierung, die kaum stumpf wird. Erz bricht merklich schneller, und öfter fällt ein zusätzliches Stück ab.',
+            pl: 'Ciężki stop, który prawie się nie tępi. Ruda kruszy się wyraźnie szybciej, a dodatkowy kawałek wypada częściej.',
+        },
+    },
+    pickaxe_diamond: {
+        name: {
+            ru: 'Алмазная кирка',
+            ua: 'Алмазна кирка',
+            en: 'Diamond Pickaxe',
+            de: 'Diamantspitzhacke',
+            pl: 'Diamentowy kilof',
+        },
+        desc: {
+            ru: 'Лучшая кирка, какую можно собрать: алмазные вставки режут любую породу. Быстрее всех и самая долговечная.',
+            ua: 'Найкраща кирка, яку можна зібрати: алмазні вставки ріжуть будь-яку породу. Найшвидша і найдовговічніша.',
+            en: 'The best pickaxe you can build: its diamond inserts cut through any rock. The fastest and longest-lasting of them all.',
+            de: 'Die beste Spitzhacke, die man bauen kann: Ihre Diamanteinsätze schneiden jedes Gestein. Die schnellste und langlebigste von allen.',
+            pl: 'Najlepszy kilof, jaki można zbudować: diamentowe wkładki tną każdą skałę. Najszybszy i najtrwalszy ze wszystkich.',
+        },
+    },
+    shovel_iron: {
+        name: {
+            ru: 'Железная лопата',
+            ua: 'Залізна лопата',
+            en: 'Iron Shovel',
+            de: 'Eisenschaufel',
+            pl: 'Żelazna łopata',
+        },
+        desc: {
+            ru: 'Лопата с верстака. Служит дольше обычной, и в кладах чаще попадаются ящики.',
+            ua: 'Лопата з верстака. Служить довше за звичайну, і в скарбах частіше трапляються ящики.',
+            en: 'A workbench shovel. It lasts longer than a plain one, and buried stashes hold boxes more often.',
+            de: 'Eine Schaufel von der Werkbank. Sie hält länger als eine einfache, und in Verstecken finden sich öfter Kisten.',
+            pl: 'Łopata z warsztatu. Służy dłużej niż zwykła, a w skarbach częściej trafiają się skrzynki.',
+        },
+    },
+    shovel_steel: {
+        name: {
+            ru: 'Стальная лопата',
+            ua: 'Сталева лопата',
+            en: 'Steel Shovel',
+            de: 'Stahlschaufel',
+            pl: 'Stalowa łopata',
+        },
+        desc: {
+            ru: 'Лучшая лопата для кладоискателя: ещё больше ящиков и иногда лишняя находка в кладе.',
+            ua: 'Найкраща лопата для шукача скарбів: ще більше ящиків і часом зайва знахідка у скарбі.',
+            en: 'The best shovel for a treasure hunter: even more boxes, and now and then an extra find in the stash.',
+            de: 'Die beste Schaufel für Schatzsucher: noch mehr Kisten und ab und zu ein zusätzlicher Fund im Versteck.',
+            pl: 'Najlepsza łopata dla poszukiwacza skarbów: jeszcze więcej skrzynek i czasem dodatkowe znalezisko.',
+        },
+    },
     lockpick: {
         name: {
             ru: 'Отмычка',
@@ -1172,6 +1286,70 @@ export const items = {
             en: 'A compact and durable helper, convenient for digging, loosening soil, and transplanting plants.',
             de: 'Ein kompakter und robuster Helfer, praktisch zum Graben, Lockern des Bodens und Umpflanzen von Pflanzen.',
             pl: 'Kompaktny i wytrzymały pomocnik, wygodny do kopania, spulchniania ziemi i przesadzania roślin.',
+        },
+    },
+    gardenTrowel_iron: {
+        name: {
+            ru: 'Железная садовая лопатка',
+            ua: 'Залізна садова лопатка',
+            en: 'Iron Garden Trowel',
+            de: 'Eiserne Gartenschaufel',
+            pl: 'Żelazna łopatka ogrodowa',
+        },
+        desc: {
+            ru: 'Лопатка с верстака. Служит дольше обычной и иногда достаёт из куста лишний гриб.',
+            ua: 'Лопатка з верстака. Служить довше за звичайну і часом дістає з куща зайвий гриб.',
+            en: 'A workbench trowel. It lasts longer than a plain one and sometimes gets an extra mushroom out of a patch.',
+            de: 'Eine Gartenschaufel von der Werkbank. Sie hält länger als eine einfache und holt manchmal einen zusätzlichen Pilz heraus.',
+            pl: 'Łopatka z warsztatu. Służy dłużej niż zwykła i czasem wyciąga z kępy dodatkowego grzyba.',
+        },
+    },
+    gardenTrowel_steel: {
+        name: {
+            ru: 'Стальная садовая лопатка',
+            ua: 'Сталева садова лопатка',
+            en: 'Steel Garden Trowel',
+            de: 'Stählerne Gartenschaufel',
+            pl: 'Stalowa łopatka ogrodowa',
+        },
+        desc: {
+            ru: 'Лучшая лопатка грибника: лишний гриб из куста выходит в половине случаев.',
+            ua: 'Найкраща лопатка грибника: зайвий гриб із куща виходить у половині випадків.',
+            en: "The best trowel a mushroom picker can have: every other patch gives an extra mushroom.",
+            de: 'Die beste Gartenschaufel für Pilzsammler: Jedes zweite Mal gibt es einen zusätzlichen Pilz.',
+            pl: 'Najlepsza łopatka grzybiarza: co drugi raz kępa daje dodatkowego grzyba.',
+        },
+    },
+    iron_ingot: {
+        name: {
+            ru: 'Железный слиток',
+            ua: 'Залізний злиток',
+            en: 'Iron Ingot',
+            de: 'Eisenbarren',
+            pl: 'Sztabka żelaza',
+        },
+        desc: {
+            ru: 'Переплавленная железная руда. Идёт на инструменты и сталь на домашнем верстаке.',
+            ua: 'Переплавлена залізна руда. Йде на інструменти та сталь на домашньому верстаку.',
+            en: 'Smelted iron ore. Used for tools and steel at a house workbench.',
+            de: 'Geschmolzenes Eisenerz. Wird an der Werkbank im Haus zu Werkzeugen und Stahl verarbeitet.',
+            pl: 'Przetopiona ruda żelaza. Służy do wyrobu narzędzi i stali na domowym warsztacie.',
+        },
+    },
+    steel_ingot: {
+        name: {
+            ru: 'Стальной слиток',
+            ua: 'Сталевий злиток',
+            en: 'Steel Ingot',
+            de: 'Stahlbarren',
+            pl: 'Sztabka stali',
+        },
+        desc: {
+            ru: 'Железо, сплавленное с металлоломом. Основа стальных и лучших инструментов.',
+            ua: 'Залізо, сплавлене з металобрухтом. Основа сталевих і найкращих інструментів.',
+            en: 'Iron melted down with scrap metal. The base of steel and top-tier tools.',
+            de: 'Eisen, mit Schrott verschmolzen. Die Grundlage für Stahl- und Spitzenwerkzeuge.',
+            pl: 'Żelazo stopione ze złomem. Podstawa stalowych i najlepszych narzędzi.',
         },
     },
     deer_raw_meat: {

@@ -103,6 +103,13 @@ export default {
             de: 'Adrenalin',
             pl: 'Adrenalina',
         },
+        adrenaline: {
+            ru: 'Адреналин',
+            ua: 'Адреналін',
+            en: 'Adrenaline',
+            de: 'Adrenalin',
+            pl: 'Adrenalina',
+        },
 
         drugs: {
             stank: {

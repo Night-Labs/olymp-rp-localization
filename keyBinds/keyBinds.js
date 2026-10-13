@@ -69,6 +69,13 @@ export default {
         de: 'Lizenzen zeigen',
         pl: 'Pokaż licencje',
     },
+    'interaction.quick.contractsLoadTrunk': {
+        ru: 'Погрузить ящик контракта',
+        ua: 'Завантажити ящик контракту',
+        en: 'Load the contract crate',
+        de: 'Vertragskiste einladen',
+        pl: 'Załaduj skrzynię kontraktu',
+    },
     inventory: {
         ru: 'Инвентарь',
         ua: 'Інвентар',
@@ -1003,6 +1010,13 @@ export default {
             en: 'Shows your licenses to the player you are aiming at once they accept, or opens them for yourself with no target',
             de: 'Zeigt deine Lizenzen dem anvisierten Spieler nach dessen Zustimmung oder öffnet sie für dich, wenn kein Ziel da ist',
             pl: 'Pokazuje twoje licencje graczowi na celowniku po jego zgodzie lub otwiera je tobie, gdy nie ma celu',
+        },
+        'interaction.quick.contractsLoadTrunk': {
+            ru: 'Грузит ящик контракта, который вы несёте, в багажник машины, на которую смотрите, без открытия меню',
+            ua: 'Завантажує ящик контракту, який ви несете, у багажник машини, на яку дивитесь, без відкриття меню',
+            en: 'Loads the contract crate you are carrying into the trunk of the vehicle you are looking at, without opening the menu',
+            de: 'Lädt die Vertragskiste, die du trägst, in den Kofferraum des Fahrzeugs, das du ansiehst, ohne das Menü zu öffnen',
+            pl: 'Ładuje niesioną skrzynię kontraktu do bagażnika pojazdu, na który patrzysz, bez otwierania menu',
         },
         shoulderSwap: {
             ru: 'Перекидывает камеру прицеливания от третьего лица с правого плеча на левое и обратно. Выбранная сторона сохраняется до следующего нажатия. В транспорте не работает',

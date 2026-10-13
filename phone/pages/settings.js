@@ -160,6 +160,14 @@ export default {
             de: 'Benachrichtigungslautstärke',
             pl: 'Głośność powiadomienia',
         },
+
+        savePhotosToDisk: {
+            ru: 'Сохранять фото на компьютер',
+            ua: "Зберігати фото на комп'ютер",
+            en: 'Save photos to PC',
+            de: 'Fotos auf dem PC speichern',
+            pl: 'Zapisuj zdjęcia na komputerze',
+        },
     },
 
     categories: {
@@ -183,6 +191,13 @@ export default {
             en: 'Widgets',
             de: 'Widgets',
             pl: 'Widżety',
+        },
+        camera: {
+            ru: 'Камера',
+            ua: 'Камера',
+            en: 'Camera',
+            de: 'Kamera',
+            pl: 'Aparat',
         },
         lockScreen: {
             ru: 'Экран блокировки',

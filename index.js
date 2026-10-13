@@ -102,6 +102,7 @@ import warehouses from './warehouses';
 import sections from './sections';
 import organizationRegistration from './organizationRegistration';
 import organizations from './organizations';
+import activityLog from './activityLog';
 import bankRobbery from './bankRobbery';
 import factories from './factories';
 import tennis from './tennis';
@@ -124,6 +125,7 @@ import designEditor from './designEditor';
 import funicular from './funicular';
 import freightTrain from './freightTrain';
 import fortAttack from './fortAttack';
+import hummerWar from './hummerWar';
 import ping from './ping';
 import weaponAttachments from './weaponAttachments';
 import financialMonitoring from './financialMonitoring';
@@ -238,6 +240,7 @@ export default {
     sections,
     organizationRegistration,
     organizations,
+    activityLog,
     bankRobbery,
     factories,
     tennis,
@@ -257,6 +260,7 @@ export default {
     funicular,
     freightTrain,
     fortAttack,
+    hummerWar,
     ping,
     weaponAttachments,
     financialMonitoring,

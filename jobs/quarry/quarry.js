@@ -149,6 +149,20 @@ export const quarry = {
             de: 'Du hast keine Spitzhacke, Du kannst sie im 24/7-Shop kaufen.',
             pl: 'Nie masz kilofa, możesz go kupić w sklepie 24/7.',
         },
+        pickaxeTierLimit: {
+            ru: 'Твоя кирка добывает не всю руду, доступную на твоём уровне. Больше откроет: {{name}}.',
+            ua: 'Твоя кирка видобуває не всю руду, доступну на твоєму рівні. Більше відкриє: {{name}}.',
+            en: 'Your pickaxe cannot reach every ore your level allows. More opens with: {{name}}.',
+            de: 'Deine Spitzhacke baut nicht jedes Erz ab, das dein Level erlaubt. Mehr gibt es mit: {{name}}.',
+            pl: 'Twój kilof nie wydobywa każdej rudy dostępnej na twoim poziomie. Więcej odblokuje: {{name}}.',
+        },
+        pickaxeTierHint: {
+            ru: '{{name}} и лучше',
+            ua: '{{name}} і краще',
+            en: '{{name}} or better',
+            de: '{{name}} oder besser',
+            pl: '{{name}} lub lepszy',
+        },
         gotOres: {
             ru: 'Вы добыли {{count}} шт. руды',
             ua: 'Ви видобули {{count}} шт. руди',

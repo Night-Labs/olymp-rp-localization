@@ -244,6 +244,88 @@ export default {
         },
     },
 
+    // Field gear from the lodge: binoculars, predator call, salt lick (server jobs/hunting/binoculars, call, bait).
+    gear: {
+        notInVehicle: {
+            ru: 'Снаряжением охотника пользуются пешком',
+            ua: 'Спорядженням мисливця користуються пішки',
+            en: 'Hunting gear is used on foot',
+            de: 'Jagdausrüstung benutzt man zu Fuß',
+            pl: 'Ze sprzętu myśliwskiego korzysta się pieszo',
+        },
+        notHere: {
+            ru: 'Здесь это не сработает',
+            ua: 'Тут це не спрацює',
+            en: 'That will not work here',
+            de: 'Das klappt hier nicht',
+            pl: 'To tu nie zadziała',
+        },
+        takeWithYou: {
+            ru: 'Сначала возьмите это с собой: в карманы или в рюкзак',
+            ua: 'Спершу візьміть це з собою: до кишень або в рюкзак',
+            en: 'Take it with you first: into your pockets or your backpack',
+            de: 'Nimm es erst mit: in die Taschen oder den Rucksack',
+            pl: 'Najpierw weź to ze sobą: do kieszeni albo plecaka',
+        },
+        callCooldown: {
+            ru: 'Звери ещё помнят прошлый зов. Подождите {{seconds}} с',
+            ua: "Звірі ще пам'ятають попередній поклик. Зачекайте {{seconds}} с",
+            en: 'The animals still remember the last call. Wait {{seconds}} s',
+            de: 'Die Tiere erinnern sich noch an den letzten Ruf. Warte {{seconds}} s',
+            pl: 'Zwierzęta wciąż pamiętają ostatnie wabienie. Poczekaj {{seconds}} s',
+        },
+        callUsed: {
+            ru: 'Вы подали зов. Хищники в радиусе {{metres}} м могут выйти на звук, будьте наготове',
+            ua: 'Ви подали поклик. Хижаки в радіусі {{metres}} м можуть вийти на звук, будьте напоготові',
+            en: 'You sent out a call. Predators within {{metres}} m may come to the sound, stay ready',
+            de: 'Du hast gelockt. Raubtiere im Umkreis von {{metres}} m können dem Ruf folgen, sei bereit',
+            pl: 'Wabienie poszło. Drapieżniki w promieniu {{metres}} m mogą przyjść na dźwięk, bądź gotów',
+        },
+        baitAlreadyPlaced: {
+            ru: 'Ваш солонец уже стоит. Новый можно поставить, когда он кончится',
+            ua: 'Ваш солонець уже стоїть. Новий можна поставити, коли він скінчиться',
+            en: 'Your salt lick is already out. You can set a new one once it runs out',
+            de: 'Deine Salzlecke steht schon. Eine neue kannst du aufstellen, wenn sie aufgebraucht ist',
+            pl: 'Twoja lizawka już stoi. Nową możesz postawić, gdy się skończy',
+        },
+        baitTooClose: {
+            ru: 'Рядом уже стоит солонец. Отойдите хотя бы на {{metres}} м',
+            ua: 'Поруч уже стоїть солонець. Відійдіть хоча б на {{metres}} м',
+            en: 'There is a salt lick nearby already. Move at least {{metres}} m away',
+            de: 'In der Nähe steht schon eine Salzlecke. Geh mindestens {{metres}} m weiter',
+            pl: 'W pobliżu stoi już lizawka. Odejdź co najmniej {{metres}} m',
+        },
+        baitPlaced: {
+            ru: 'Солонец поставлен на {{minutes}} мин. Отойдите подальше и ждите: травоядные подтянутся',
+            ua: 'Солонець поставлено на {{minutes}} хв. Відійдіть подалі й чекайте: травоїдні підтягнуться',
+            en: 'Salt lick set for {{minutes}} min. Back off and wait: the grazers will come',
+            de: 'Salzlecke für {{minutes}} Min. aufgestellt. Geh auf Abstand und warte: das Wild kommt',
+            pl: 'Lizawka postawiona na {{minutes}} min. Odsuń się i czekaj: zwierzyna podejdzie',
+        },
+        // The line under the binoculars' crosshair.
+        binocularsSpotting: {
+            ru: '{{name}}, {{metres}} м',
+            ua: '{{name}}, {{metres}} м',
+            en: '{{name}}, {{metres}} m',
+            de: '{{name}}, {{metres}} m',
+            pl: '{{name}}, {{metres}} m',
+        },
+        binocularsMarked: {
+            ru: '{{name}}, {{metres}} м, метка на карте',
+            ua: '{{name}}, {{metres}} м, позначка на мапі',
+            en: '{{name}}, {{metres}} m, marked on the map',
+            de: '{{name}}, {{metres}} m, auf der Karte markiert',
+            pl: '{{name}}, {{metres}} m, zaznaczono na mapie',
+        },
+        binocularsUnknown: {
+            ru: 'Зверь',
+            ua: 'Звір',
+            en: 'Animal',
+            de: 'Tier',
+            pl: 'Zwierzę',
+        },
+    },
+
     hud: {
         title: {
             ru: 'Охотничий контракт',

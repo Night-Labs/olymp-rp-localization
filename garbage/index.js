@@ -57,11 +57,11 @@ export default {
             pl: 'Pozniej',
         },
         about: {
-            ru: 'Слушай порядок. Едете по маршруту, на точке берете мешки и сдаете их в рабочий мусоровоз. Хочешь работать с напарником, будьте в одной группе (приложение "Группа" на телефоне). В смену попадают только те из группы, кто стоит рядом, до 4 человек на машину. Вместе быстрее, один подгоняет машину, другие таскают мешки. Сдавать мешки и получать оплату может каждый. Когда кузов заполнится, только водитель разгружает машину на заводе. Смена у экипажа общая, маршрут тоже общий.',
-            ua: 'Слухай порядок. Iдете за маршрутом, на точцi берете мiшки та здаєте iх у робочий смiттевоз. Хочеш працювати з напарником, будьте в однiй групi (застосунок "Група" на телефонi). У змiну потрапляють лише тi з групи, хто стоїть поруч, до 4 людей на машину. Разом швидше, один пiдганяє машину, iншi носять мiшки. Здавати мiшки та отримувати оплату може кожен. Коли кузов заповниться, лише водiй розвантажує машину на заводi. Змiна в екiпажу спiльна, маршрут теж спiльний.',
-            en: 'Here is the flow. You follow the route, pick up bags at points, and load them into the work garbage truck. To work with a partner, be in the same group (the "Group" app on your phone). Only group members standing next to each other share a shift, up to 4 per truck. Together it is faster: one positions the truck, the others carry bags. Each player gets paid for the bags they deliver. When the truck is full, only the driver unloads it at the plant. The shift and route are shared by the whole crew.',
-            de: 'So läuft es ab. Ihr folgt der Route, nehmt an den Punkten Säcke auf und ladet sie in den Arbeits-Müllwagen. Wenn ihr zusammen arbeiten wollt, seid in derselben Gruppe (App "Gruppe" auf dem Handy). Eine Schicht teilen nur Gruppenmitglieder, die beieinander stehen, bis zu 4 pro Wagen. Zusammen geht es schneller: Einer positioniert den Wagen, die anderen tragen die Säcke. Jeder bekommt Geld für die Säcke, die er abgibt. Ist der Wagen voll, darf nur der Fahrer an der Anlage entladen. Schicht und Route sind für die ganze Besatzung gemeinsam.',
-            pl: 'To dziala tak. Jedziecie trasa, bierzecie worki w punktach i wrzucacie je do roboczej smieciarki. Jesli chcecie pracowac razem, badzcie w jednej grupie (aplikacja "Grupa" w telefonie). Zmiane dziela tylko czlonkowie grupy stojacy obok siebie, do 4 osob na auto. Razem jest szybciej: jedna osoba ustawia auto, pozostali nosza worki. Kazdy dostaje wyplate za worki, ktore sam odda. Gdy auto sie zapelni, tylko kierowca rozladowuje je w zakladzie. Zmiana i trasa sa wspolne dla calej zalogi.',
+            ru: 'Слушай порядок. Едете по маршруту, на точке берете мешки и сдаете их в рабочий мусоровоз. Хочешь работать с напарником, будьте в одной группе (приложение "Группа" на телефоне). В смену попадают только те из группы, кто стоит рядом, до 4 человек на машину. Вместе быстрее, один подгоняет машину, другие таскают мешки. Сдавать мешки и получать оплату может каждый. Когда кузов заполнится, только водитель разгружает машину на заводе. За каждый сданный мешок копится бонус, его выплачивают на заводе после разгрузки, а если уйти со смены раньше, он сгорает. Смена у экипажа общая, маршрут тоже общий.',
+            ua: 'Слухай порядок. Iдете за маршрутом, на точцi берете мiшки та здаєте iх у робочий смiттевоз. Хочеш працювати з напарником, будьте в однiй групi (застосунок "Група" на телефонi). У змiну потрапляють лише тi з групи, хто стоїть поруч, до 4 людей на машину. Разом швидше, один пiдганяє машину, iншi носять мiшки. Здавати мiшки та отримувати оплату може кожен. Коли кузов заповниться, лише водiй розвантажує машину на заводi. За кожен зданий мiшок накопичується бонус, його виплачують на заводi пiсля розвантаження, а якщо пiти зi змiни ранiше, вiн згорає. Змiна в екiпажу спiльна, маршрут теж спiльний.',
+            en: 'Here is the flow. You follow the route, pick up bags at points, and load them into the work garbage truck. To work with a partner, be in the same group (the "Group" app on your phone). Only group members standing next to each other share a shift, up to 4 per truck. Together it is faster: one positions the truck, the others carry bags. Each player gets paid for the bags they deliver. When the truck is full, only the driver unloads it at the plant. Every bag you deliver adds to a bonus paid at the plant after unloading; end the shift before that and it is lost. The shift and route are shared by the whole crew.',
+            de: 'So läuft es ab. Ihr folgt der Route, nehmt an den Punkten Säcke auf und ladet sie in den Arbeits-Müllwagen. Wenn ihr zusammen arbeiten wollt, seid in derselben Gruppe (App "Gruppe" auf dem Handy). Eine Schicht teilen nur Gruppenmitglieder, die beieinander stehen, bis zu 4 pro Wagen. Zusammen geht es schneller: Einer positioniert den Wagen, die anderen tragen die Säcke. Jeder bekommt Geld für die Säcke, die er abgibt. Ist der Wagen voll, darf nur der Fahrer an der Anlage entladen. Jeder abgegebene Sack erhöht einen Bonus, der nach dem Entladen an der Anlage ausgezahlt wird; wer die Schicht vorher beendet, verliert ihn. Schicht und Route sind für die ganze Besatzung gemeinsam.',
+            pl: 'To dziala tak. Jedziecie trasa, bierzecie worki w punktach i wrzucacie je do roboczej smieciarki. Jesli chcecie pracowac razem, badzcie w jednej grupie (aplikacja "Grupa" w telefonie). Zmiane dziela tylko czlonkowie grupy stojacy obok siebie, do 4 osob na auto. Razem jest szybciej: jedna osoba ustawia auto, pozostali nosza worki. Kazdy dostaje wyplate za worki, ktore sam odda. Gdy auto sie zapelni, tylko kierowca rozladowuje je w zakladzie. Kazdy oddany worek powieksza bonus wyplacany w zakladzie po rozladunku; jesli zakonczysz zmiane wczesniej, przepada. Zmiana i trasa sa wspolne dla calej zalogi.',
         },
         aboutCoop: {
             ru: 'Объясняю по шагам. Создай группу в приложении "Группа" на телефоне и дай напарнику код. Один запускает смену у меня, остальные подходят ко мне, пока он рядом, и присоединяются к его смене. На одну машину до 4 человек. Если вы не в одной группе или его нет рядом, совместная смена не запустится.',
@@ -297,11 +297,11 @@ export default {
         pl: 'W poblizu nie ma odpowiedniej smieciarki.',
     },
     truckFullNeedUnload: {
-        ru: 'Мусоровоз заполнен. Отвезите его на мусороперерабатывающий завод.',
-        ua: 'Смiттєвоз заповнений. Вiдвезiть його на смiттєпереробний завод.',
-        en: 'The garbage truck is full. Drive it to the recycling plant.',
-        de: 'Der Müllwagen ist voll. Bring ihn zur Müllverwertungsanlage.',
-        pl: 'Smieciarka jest pelna. Zawiez ja do zakladu recyklingu.',
+        ru: 'Мусоровоз заполнен. Отвезите его на мусороперерабатывающий завод, там выплатят бонус за разгрузку.',
+        ua: 'Смiттєвоз заповнений. Вiдвезiть його на смiттєпереробний завод, там виплатять бонус за розвантаження.',
+        en: 'The garbage truck is full. Drive it to the recycling plant to get the unloading bonus.',
+        de: 'Der Müllwagen ist voll. Bring ihn zur Müllverwertungsanlage, dort gibt es den Entladebonus.',
+        pl: 'Smieciarka jest pelna. Zawiez ja do zakladu recyklingu, tam dostaniesz bonus za rozladunek.',
     },
     needOwnTruckAtPlant: {
         ru: 'Для разгрузки нужен ваш рабочий мусоровоз.',
@@ -436,6 +436,13 @@ export default {
             en: 'Truck load',
             de: 'Ladung im Müllwagen',
             pl: 'Zaladunek smieciarki',
+        },
+        plantBonus: {
+            ru: 'Бонус за разгрузку на заводе',
+            ua: 'Бонус за розвантаження на заводi',
+            en: 'Plant unloading bonus',
+            de: 'Entladebonus an der Anlage',
+            pl: 'Bonus za rozladunek w zakladzie',
         },
     },
 };

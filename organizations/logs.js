@@ -791,26 +791,8 @@ export const logs = {
         granted: { ru: 'Выдано', ua: 'Надано', en: 'Granted', de: 'Erteilt', pl: 'Nadano' },
         revoked: { ru: 'Отозвано', ua: 'Відкликано', en: 'Revoked', de: 'Entzogen', pl: 'Odebrano' },
     },
-    units: {
-        days: { ru: '{{n}} д', ua: '{{n}} д', en: '{{n}}d', de: '{{n}} T', pl: '{{n}} d' },
-        hours: { ru: '{{n}} ч', ua: '{{n}} год', en: '{{n}}h', de: '{{n}} Std', pl: '{{n}} godz' },
-        minutes: { ru: '{{n}} мин', ua: '{{n}} хв', en: '{{n}}m', de: '{{n}} Min', pl: '{{n}} min' },
-        seconds: { ru: '{{n}} с', ua: '{{n}} с', en: '{{n}}s', de: '{{n}} s', pl: '{{n}} s' },
-    },
+    // The rest of the card's words are shared by every journal (`activityLog`).
     modal: {
-        actor: { ru: 'Инициатор', ua: 'Ініціатор', en: 'Initiated by', de: 'Ausgelöst von', pl: 'Inicjator' },
         treasury: { ru: 'Баланс организации', ua: 'Баланс організації', en: 'Organization balance', de: 'Organisationsguthaben', pl: 'Bilans organizacji' },
-        comment: { ru: 'Комментарий', ua: 'Коментар', en: 'Comment', de: 'Kommentar', pl: 'Komentarz' },
-        noDetails: {
-            ru: 'Для этой записи подробностей нет',
-            ua: 'Для цього запису подробиць немає',
-            en: 'This entry has no further details',
-            de: 'Zu diesem Eintrag gibt es keine weiteren Details',
-            pl: 'Ten wpis nie ma dodatkowych szczegółów',
-        },
-    },
-    feed: {
-        loadError: { ru: 'Не удалось загрузить записи', ua: 'Не вдалося завантажити записи', en: 'Could not load entries', de: 'Einträge konnten nicht geladen werden', pl: 'Nie udało się wczytać wpisów' },
-        retry: { ru: 'Повторить', ua: 'Повторити', en: 'Try again', de: 'Erneut versuchen', pl: 'Spróbuj ponownie' },
     },
 };

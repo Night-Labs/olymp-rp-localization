@@ -209,4 +209,18 @@ export const cef = {
         de: 'Keine weiteren Sektionen möglich: Grenze {{limit}}.',
         pl: 'Nie można utworzyć więcej sekcji: limit {{limit}}.',
     },
+    accessLabel: {
+        ru: 'Доступ с ранга',
+        ua: 'Доступ з рангу',
+        en: 'Available from rank',
+        de: 'Verfügbar ab Rang',
+        pl: 'Dostęp od rangi',
+    },
+    rankAll: {
+        ru: 'Всем',
+        ua: 'Усім',
+        en: 'Everyone',
+        de: 'Alle',
+        pl: 'Wszyscy',
+    },
 };

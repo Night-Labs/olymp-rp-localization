@@ -63,4 +63,20 @@ export default {
             pl: 'Woda poświęcona w świątyni. Jeden łyk - i ciało zostaje oczyszczone z każdej choroby, a zdrowie powraca w pełni. Zachowaj ją na czarną godzinę.',
         },
     },
+    adrenaline: {
+        name: {
+            ru: 'Адреналин',
+            ua: 'Адреналін',
+            en: 'Adrenaline shot',
+            de: 'Adrenalinspritze',
+            pl: 'Zastrzyk adrenaliny',
+        },
+        desc: {
+            ru: 'Служебный автоинъектор. На 60 секунд снижает получаемый урон на 30% и повышает наносимый урон на 10%. Повторный укол - не раньше чем через 3 минуты.',
+            ua: 'Службовий автоін\'єктор. На 60 секунд знижує отримувану шкоду на 30% і підвищує завдану шкоду на 10%. Повторний укол - не раніше ніж через 3 хвилини.',
+            en: 'A service auto-injector. For 60 seconds it reduces damage taken by 30% and increases damage dealt by 10%. The next shot is available after 3 minutes.',
+            de: 'Ein Dienst-Autoinjektor. Senkt 60 Sekunden lang den erlittenen Schaden um 30% und erhöht den verursachten Schaden um 10%. Die nächste Spritze ist erst nach 3 Minuten möglich.',
+            pl: 'Służbowa autostrzykawka. Przez 60 sekund zmniejsza otrzymywane obrażenia o 30% i zwiększa zadawane o 10%. Kolejny zastrzyk - nie wcześniej niż po 3 minutach.',
+        },
+    },
 };

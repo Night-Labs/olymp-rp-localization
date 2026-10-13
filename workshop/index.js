@@ -18,4 +18,11 @@ export default {
         de: 'Nicht genug Material für die Reparatur',
         pl: 'Za mało materiałów na naprawę',
     },
+    notEnoughCraftMaterials: {
+        ru: 'Не хватает материалов для создания',
+        ua: 'Не вистачає матеріалів для створення',
+        en: 'Not enough materials to craft this',
+        de: 'Nicht genug Material für die Herstellung',
+        pl: 'Za mało materiałów do wytworzenia',
+    },
 };

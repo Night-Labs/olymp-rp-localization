@@ -1,4 +1,59 @@
 export default {
+    // Field gear (shared/jobs/hunting/gear): the binoculars are sold at the 24/7, the call and the salt lick at the hunting lodge.
+    huntingBinoculars: {
+        name: {
+            ru: 'Бинокль',
+            ua: 'Бінокль',
+            en: 'Binoculars',
+            de: 'Fernglas',
+            pl: 'Lornetka',
+            zh: '望远镜',
+        },
+        desc: {
+            ru: 'Обычный бинокль, чтобы разглядеть что-то издалека. Пригодится на охоте: зверь под перекрестием отмечается на карте',
+            ua: 'Звичайний бінокль, щоб роздивитися щось здалеку. Знадобиться на полюванні: звір під перехрестям позначається на мапі',
+            en: 'Ordinary binoculars for a look at things far away. Handy when hunting: an animal under the crosshair gets marked on the map',
+            de: 'Ein gewöhnliches Fernglas, um Dinge in der Ferne zu betrachten. Praktisch bei der Jagd: Ein Tier im Fadenkreuz wird auf der Karte markiert',
+            pl: 'Zwykła lornetka, by przyjrzeć się czemuś z daleka. Przyda się na polowaniu: zwierzę pod celownikiem zostaje zaznaczone na mapie',
+            zh: '普通的望远镜，用来看清远处的东西。打猎时很有用：准星下的野兽会在地图上被标记',
+        },
+    },
+    huntingPredatorCall: {
+        name: {
+            ru: 'Манок на хищника',
+            ua: 'Вабик на хижака',
+            en: 'Predator Call',
+            de: 'Raubwildlocker',
+            pl: 'Wabik na drapieżnika',
+            zh: '掠食者诱哨',
+        },
+        desc: {
+            ru: 'Вой, на который выходят хищники. Ближайшие койоты и пумы идут туда, где вы позвали, и встречают вас уже как добычу. Травоядных рядом звук спугнёт',
+            ua: 'Виття, на яке виходять хижаки. Найближчі койоти й пуми йдуть туди, де ви покликали, і зустрічають вас уже як здобич. Травоїдних поруч звук сполохає',
+            en: 'A howl predators come out to. The nearest coyotes and cougars head for where you called, and they meet you as prey. Grazers close by bolt at the sound',
+            de: 'Ein Heulen, auf das Raubtiere herauskommen. Die nächsten Kojoten und Pumas ziehen dorthin, wo du gerufen hast, und sehen dich dort als Beute. Pflanzenfresser in der Nähe flüchten vor dem Laut',
+            pl: 'Wycie, na które wychodzą drapieżniki. Najbliższe kojoty i pumy idą tam, gdzie zawołałeś, i witają cię jak zdobycz. Roślinożercy w pobliżu płoszą się na ten dźwięk',
+            zh: '能引出掠食者的嚎叫声。附近的郊狼和美洲狮会朝你呼唤的地方走来，把你当成猎物。附近的食草动物会被声音惊跑',
+        },
+    },
+    huntingSaltLick: {
+        name: {
+            ru: 'Солонец',
+            ua: 'Солонець',
+            en: 'Salt Lick',
+            de: 'Salzlecke',
+            pl: 'Lizawka solna',
+            zh: '盐砖诱饵',
+        },
+        desc: {
+            ru: 'Мешок соли-лизунца с зерном. Поставьте его в лесу: олени, кабаны и кролики вокруг, до трёх сразу, будут приходить к нему пастись 15 минут. Подойдёте близко, и они разбегутся',
+            ua: 'Мішок солі-лизунця із зерном. Поставте його в лісі: олені, кабани й кролі довкола, до трьох одночасно, приходитимуть до нього пастися 15 хвилин. Підійдете близько, і вони розбіжаться',
+            en: 'A sack of lick salt and grain. Set it down in the woods and the deer, boars and rabbits around, up to three at a time, come to graze at it for 15 minutes. Walk up close and they scatter',
+            de: 'Ein Sack Lecksalz mit Getreide. Stell ihn im Wald ab, dann kommen Hirsche, Wildschweine und Kaninchen der Umgebung, bis zu drei zugleich, 15 Minuten lang zum Äsen. Kommst du zu nah, laufen sie davon',
+            pl: 'Worek soli do lizania z ziarnem. Postaw go w lesie, a jelenie, dziki i króliki z okolicy, do trzech naraz, będą przychodzić się przy nim paść przez 15 minut. Podejdziesz zbyt blisko, a uciekną',
+            zh: '一袋舔盐和谷物。把它放在林子里，周围的鹿、野猪和兔子会来这里吃上15分钟，同时最多三只。靠得太近它们就会跑散',
+        },
+    },
     deer_skin_ruined: {
         name: {
             ru: 'Испорченная шкура оленя',

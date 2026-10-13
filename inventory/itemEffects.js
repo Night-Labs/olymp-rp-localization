@@ -121,6 +121,13 @@ export default {
         de: 'Du hast Aktivkohle eingenommen',
         pl: 'Zażyłeś węgiel aktywowany',
     },
+    youInjectedAdrenaline: {
+        ru: 'Вы вкололи адреналин',
+        ua: 'Ви вкололи адреналін',
+        en: 'You injected adrenaline',
+        de: 'Du hast dir Adrenalin gespritzt',
+        pl: 'Wstrzyknąłeś sobie adrenalinę',
+    },
     youDrankHolyWater: {
         ru: 'Святая вода очистила вас от хвори и вернула силы',
         ua: 'Свята вода очистила вас від хвороби та повернула сили',
@@ -136,6 +143,14 @@ export default {
         en: '{{name}} took pills',
         de: '{{name}} hat Pillen genommen',
         pl: '{{name}} wziął pigułki',
+    },
+
+    playerInjectedAdrenaline: {
+        ru: '{{name}} вколол(а) себе адреналин в плечо',
+        ua: '{{name}} вколов(ла) собі адреналін у плече',
+        en: '{{name}} injected adrenaline into their shoulder',
+        de: '{{name}} hat sich Adrenalin in die Schulter gespritzt',
+        pl: '{{name}} wstrzyknął sobie adrenalinę w ramię',
     },
 
     playerUseHeal: {

@@ -2353,6 +2353,13 @@ export default {
             de: 'Nächster Preis',
             pl: 'Następna nagroda',
         },
+        placeholderSoon: {
+            ru: 'Скоро',
+            ua: 'Незабаром',
+            en: 'Coming soon',
+            de: 'Demnächst',
+            pl: 'Wkrótce',
+        },
     },
     categories: {
         default: {
