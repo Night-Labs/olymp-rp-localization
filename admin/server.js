@@ -265,6 +265,16 @@ export const server = {
             pl: '{{name}} nie ma wystarczającej waluty donacyjnej (saldo: {{balance}} Olymp-Coins)',
         },
     },
+    takeDonate: {
+        taken: {
+            ru: 'Вы сняли {{sum}} Olymp-Coins у {{name}} (баланс: {{balance}} Olymp-Coins)',
+            ua: 'Ви зняли {{sum}} Olymp-Coins у {{name}} (баланс: {{balance}} Olymp-Coins)',
+            en: 'You took {{sum}} Olymp-Coins from {{name}} (balance: {{balance}} Olymp-Coins)',
+            de: 'Du hast {{name}} {{sum}} Olymp-Coins abgezogen (Guthaben: {{balance}} Olymp-Coins)',
+            pl: 'Zabrałeś {{sum}} Olymp-Coins graczowi {{name}} (saldo: {{balance}} Olymp-Coins)',
+            zh: '你从{{name}}扣除了{{sum}} Olymp-Coins（余额：{{balance}} Olymp-Coins）',
+        },
+    },
     cash: {
         give: {
             ua: 'Ви видали ${{cash}} гравцю {{name}}',

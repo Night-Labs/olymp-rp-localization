@@ -1847,6 +1847,14 @@ export default {
         de: 'Donat-Währung einem Charakter anhand seiner static ID abziehen, auch wenn er offline ist.',
         pl: 'Odejmij walutę donacyjną postaci po static ID, nawet jeśli jest offline.',
     },
+    take_donate: {
+        ru: 'Снять донат-валюту у персонажа по static ID, даже если он оффлайн. У администратора выше уровнем снять нельзя.',
+        ua: 'Зняти донат-валюту у персонажа за static ID, навіть якщо він офлайн. У адміністратора вищого рівня зняти не можна.',
+        en: 'Take donation currency from a character by static ID, even if they are offline. A higher-level admin cannot be debited.',
+        de: 'Donat-Währung einem Charakter anhand seiner static ID abziehen, auch wenn er offline ist. Bei einem höherstufigen Admin ist das nicht möglich.',
+        pl: 'Zabierz walutę donacyjną postaci po static ID, nawet jeśli jest offline. Administratorowi wyższego poziomu nie można jej zabrać.',
+        zh: '通过 static ID 扣除角色的捐赠货币，即使其不在线。无法扣除更高级别管理员的货币。',
+    },
     reset_daily_case: {
         ru: 'Сбросить дату получения ежедневного кейса игроку по static ID (онлайн или оффлайн).',
         ua: 'Скинути дату отримання щоденного кейса гравцю за static ID (онлайн або офлайн).',
