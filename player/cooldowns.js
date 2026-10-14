@@ -7,6 +7,14 @@ export default {
         pl: 'Będziesz mógł się leczyć za {{time}}',
         zh:'你可以在{{time}}中治愈',
     },
+    adrenaline: {
+        ru: 'Следующий укол адреналина можно сделать через {{time}}',
+        ua: 'Наступний укол адреналіну можна зробити через {{time}}',
+        en: 'You can inject adrenaline again in {{time}}',
+        de: 'Du kannst dir in {{time}} wieder Adrenalin spritzen',
+        pl: 'Kolejny zastrzyk adrenaliny możesz zrobić za {{time}}',
+        zh: '{{time}}后可以再次注射肾上腺素',
+    },
     food: {
         ru: 'Вы недавно ели',
         ua: 'Ви нещодавно їли',

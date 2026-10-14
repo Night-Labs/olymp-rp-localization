@@ -156,6 +156,38 @@ export const inventory = {
             zh: '弹药类型',
         },
 
+        // Охотничье снаряжение (shared/jobs/hunting/weapons)
+        hunting: {
+            tier: {
+                ru: 'Класс',
+                ua: 'Клас',
+                en: 'Class',
+                de: 'Klasse',
+                pl: 'Klasa',
+            },
+            game: {
+                ru: 'Дичь',
+                ua: 'Дичина',
+                en: 'Game',
+                de: 'Wild',
+                pl: 'Zwierzyna',
+            },
+            level: {
+                ru: 'Уровень охотника',
+                ua: 'Рівень мисливця',
+                en: 'Hunter level',
+                de: 'Jägerstufe',
+                pl: 'Poziom myśliwego',
+            },
+            tiers: {
+                t1: { ru: 'Начальный', ua: 'Початковий', en: 'Starter', de: 'Einsteiger', pl: 'Początkowa' },
+                t2: { ru: 'Любительский', ua: 'Аматорський', en: 'Amateur', de: 'Hobby', pl: 'Amatorska' },
+                t3: { ru: 'Стандартный', ua: 'Стандартний', en: 'Standard', de: 'Standard', pl: 'Standardowa' },
+                t4: { ru: 'Профессиональный', ua: 'Професійний', en: 'Professional', de: 'Profi', pl: 'Profesjonalna' },
+                t5: { ru: 'Мастерский', ua: 'Майстерський', en: 'Master', de: 'Meister', pl: 'Mistrzowska' },
+            },
+        },
+
         water: {
             ru: 'Запас воды',
             ua: 'Запас води',

@@ -264,6 +264,13 @@ export const server = {
             de: 'Dieses Fahrzeug hat keinen Kofferraum',
             pl: 'Ten pojazd nie ma bagażnika',
         },
+        loadingNoTrunkAccess: {
+            ru: 'У вас нет доступа к багажнику этого транспорта',
+            ua: 'У вас немає доступу до багажника цього транспорту',
+            en: 'You have no access to the trunk of this vehicle',
+            de: 'Du hast keinen Zugriff auf den Kofferraum dieses Fahrzeugs',
+            pl: 'Nie masz dostępu do bagażnika tego pojazdu',
+        },
         lostControl: {
             ru: 'Ваша организация потеряла контроль над территорией этого бизнеса',
             ua: 'Ваша організація втратила контроль над територією цього бізнесу',

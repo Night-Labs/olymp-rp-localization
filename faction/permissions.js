@@ -140,12 +140,12 @@ export default {
         zh: '管理排名和玩家排名',
     },
     controlInventory: {
-        ru: 'Закрывать/Открывать склад',
-        ua: 'Закривати/Відкривати склад',
-        en: 'Close/Open inventory',
-        de: 'Lager schließen/öffnen',
-        pl: 'Zamykać/Otwierać magazyn',
-        zh: '关闭/打开仓库',
+        ru: 'Закрывать/Открывать склад и доступ к секциям',
+        ua: 'Закривати/Відкривати склад і доступ до секцій',
+        en: 'Close/Open inventory and section access',
+        de: 'Lager schließen/öffnen und Sektionszugriff',
+        pl: 'Zamykać/Otwierać magazyn i dostęp do sekcji',
+        zh: '关闭/打开仓库及分区权限',
     },
     money: {
         ru: 'Доступ к бюджету',

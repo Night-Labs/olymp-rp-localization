@@ -1,0 +1,142 @@
+export default {
+    header: {
+        ru: 'ВЗХ',
+        ua: 'ВЗХ',
+        en: 'Hummer War',
+        de: 'Hummer-Krieg',
+        pl: 'Wojna o hummery',
+    },
+    zoneBlip: {
+        ru: 'ВЗХ: хаммеры с грузом',
+        ua: 'ВЗХ: хаммери з вантажем',
+        en: 'Hummer War: loaded hummers',
+        de: 'Hummer-Krieg: beladene Hummer',
+        pl: 'Wojna o hummery: hummery z ładunkiem',
+    },
+    truckBlip: {
+        ru: 'Хаммер ВЗХ №{{number}}',
+        ua: 'Хаммер ВЗХ №{{number}}',
+        en: 'Hummer War: hummer #{{number}}',
+        de: 'Hummer-Krieg: Hummer #{{number}}',
+        pl: 'Wojna o hummery: hummer #{{number}}',
+    },
+    routeName: {
+        ru: 'Точка разгрузки хаммера',
+        ua: 'Точка розвантаження хаммера',
+        en: 'Hummer drop-off point',
+        de: 'Abladepunkt des Hummers',
+        pl: 'Punkt rozładunku hummera',
+    },
+    promptCargo: {
+        ru: 'Открыть багажник хаммера',
+        ua: 'Відкрити багажник хаммера',
+        en: 'Open the hummer cargo',
+        de: 'Laderaum des Hummers öffnen',
+        pl: 'Otwórz bagażnik hummera',
+    },
+
+    // Announcements
+    started: {
+        ru: 'Началась ВЗХ! На заводе в красной зоне на карте по очереди появляются хаммеры с грузом. Угони хаммер и довези его до точки разгрузки - там откроется багажник.',
+        ua: "Почалася ВЗХ! На заводі в червоній зоні на карті по черзі з'являються хаммери з вантажем. Викради хаммер і довези його до точки розвантаження - там відкриється багажник.",
+        en: 'The Hummer War has begun! Loaded hummers appear one by one at the factory in the red zone on the map. Steal one and drive it to the drop-off point - its cargo opens there.',
+        de: 'Der Hummer-Krieg hat begonnen! Im Werk in der roten Zone auf der Karte erscheinen nacheinander beladene Hummer. Stiehl einen und fahr ihn zum Abladepunkt - dort öffnet sich der Laderaum.',
+        pl: 'Rozpoczęła się wojna o hummery! W fabryce w czerwonej strefie na mapie po kolei pojawiają się hummery z ładunkiem. Ukradnij jednego i zawieź go do punktu rozładunku - tam otworzy się bagażnik.',
+    },
+    truckSpawned: {
+        ru: 'Хаммер {{number}} из {{total}} появился в зоне ВЗХ.',
+        ua: "Хаммер {{number}} з {{total}} з'явився в зоні ВЗХ.",
+        en: 'Hummer {{number}} of {{total}} has appeared in the Hummer War zone.',
+        de: 'Hummer {{number}} von {{total}} ist in der Zone des Hummer-Kriegs erschienen.',
+        pl: 'Hummer {{number}} z {{total}} pojawił się w strefie wojny o hummery.',
+    },
+    truckTaken: {
+        ru: 'Хаммер {{number}} угнали! Он виден на карте - перехвати его.',
+        ua: 'Хаммер {{number}} викрали! Його видно на карті - перехопи його.',
+        en: 'Hummer {{number}} has been stolen! It is shown on the map - intercept it.',
+        de: 'Hummer {{number}} wurde gestohlen! Er ist auf der Karte zu sehen - fang ihn ab.',
+        pl: 'Hummer {{number}} został skradziony! Widać go na mapie - przechwyć go.',
+    },
+    truckOpened: {
+        ru: 'Хаммер {{number}} доставлен: багажник открыт, груз может забрать любой!',
+        ua: 'Хаммер {{number}} доставлено: багажник відкрито, вантаж може забрати будь-хто!',
+        en: 'Hummer {{number}} has been delivered: the cargo is open and anyone can take it!',
+        de: 'Hummer {{number}} wurde abgeliefert: Der Laderaum ist offen, jeder kann die Ladung nehmen!',
+        pl: 'Hummer {{number}} dotarł na miejsce: bagażnik jest otwarty, każdy może zabrać ładunek!',
+    },
+    truckLost: {
+        ru: 'Хаммер {{number}} уничтожен, груз потерян.',
+        ua: 'Хаммер {{number}} знищено, вантаж втрачено.',
+        en: 'Hummer {{number}} has been destroyed, its cargo is lost.',
+        de: 'Hummer {{number}} wurde zerstört, die Ladung ist verloren.',
+        pl: 'Hummer {{number}} został zniszczony, ładunek przepadł.',
+    },
+    ended: {
+        ru: 'ВЗХ завершена.',
+        ua: 'ВЗХ завершено.',
+        en: 'The Hummer War is over.',
+        de: 'Der Hummer-Krieg ist vorbei.',
+        pl: 'Wojna o hummery dobiegła końca.',
+    },
+
+    // Driver
+    driverHint: {
+        ru: 'Довези хаммер до точки разгрузки на карте. Хаммер видят все - тебя будут перехватывать!',
+        ua: 'Довези хаммер до точки розвантаження на карті. Хаммер бачать усі - тебе перехоплюватимуть!',
+        en: 'Drive the hummer to the drop-off point on the map. Everyone can see it - expect to be intercepted!',
+        de: 'Fahr den Hummer zum Abladepunkt auf der Karte. Alle sehen ihn - man wird dich abfangen wollen!',
+        pl: 'Zawieź hummera do punktu rozładunku na mapie. Wszyscy go widzą - spodziewaj się pościgu!',
+    },
+    delivered: {
+        ru: 'Хаммер доставлен! Багажник открыт {{minutes}} мин - забирай груз, пока не забрали другие.',
+        ua: 'Хаммер доставлено! Багажник відкрито на {{minutes}} хв - забирай вантаж, поки не забрали інші.',
+        en: 'Hummer delivered! The cargo stays open for {{minutes}} min - take it before others do.',
+        de: 'Hummer abgeliefert! Der Laderaum bleibt {{minutes}} Min. offen - nimm die Ladung, bevor andere es tun.',
+        pl: 'Hummer dostarczony! Bagażnik jest otwarty przez {{minutes}} min - zabierz ładunek, zanim zrobią to inni.',
+    },
+
+    admin: {
+        started: {
+            ru: 'ВЗХ запущена.',
+            ua: 'ВЗХ запущено.',
+            en: 'The Hummer War has been started.',
+            de: 'Der Hummer-Krieg wurde gestartet.',
+            pl: 'Wojna o hummery została uruchomiona.',
+        },
+        stopped: {
+            ru: 'ВЗХ остановлена.',
+            ua: 'ВЗХ зупинено.',
+            en: 'The Hummer War has been stopped.',
+            de: 'Der Hummer-Krieg wurde gestoppt.',
+            pl: 'Wojna o hummery została zatrzymana.',
+        },
+        running: {
+            ru: 'ВЗХ уже идёт.',
+            ua: 'ВЗХ уже триває.',
+            en: 'The Hummer War is already running.',
+            de: 'Der Hummer-Krieg läuft bereits.',
+            pl: 'Wojna o hummery już trwa.',
+        },
+        notRunning: {
+            ru: 'ВЗХ сейчас не идёт.',
+            ua: 'ВЗХ зараз не триває.',
+            en: 'The Hummer War is not running.',
+            de: 'Der Hummer-Krieg läuft gerade nicht.',
+            pl: 'Wojna o hummery teraz nie trwa.',
+        },
+        noPoints: {
+            ru: 'Нужно минимум {{trucks}} точек появления хаммеров и хотя бы одна точка разгрузки (shared/configs/hummerWar.ts).',
+            ua: 'Потрібно щонайменше {{trucks}} точок появи хаммерів і хоча б одна точка розвантаження (shared/configs/hummerWar.ts).',
+            en: 'At least {{trucks}} hummer spawn points and one drop-off point are needed (shared/configs/hummerWar.ts).',
+            de: 'Es werden mindestens {{trucks}} Spawnpunkte für Hummer und ein Abladepunkt benötigt (shared/configs/hummerWar.ts).',
+            pl: 'Potrzeba co najmniej {{trucks}} punktów pojawiania się hummerów i jednego punktu rozładunku (shared/configs/hummerWar.ts).',
+        },
+        nothingToSpawn: {
+            ru: 'ВЗХ не идёт или все хаммеры уже появились.',
+            ua: "ВЗХ не триває або всі хаммери вже з'явилися.",
+            en: 'The Hummer War is not running or every hummer has already appeared.',
+            de: 'Der Hummer-Krieg läuft nicht oder alle Hummer sind bereits erschienen.',
+            pl: 'Wojna o hummery nie trwa albo wszystkie hummery już się pojawiły.',
+        },
+    },
+};

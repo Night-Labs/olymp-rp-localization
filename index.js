@@ -70,7 +70,8 @@ import party from './party';
 import xmas from './xmas';
 import musicPlayer from './musicPlayer';
 import games from './games/games';
-import flappyBird from './flappyBird';
+import flappyWinds from './flappyWinds';
+import funnyBirds from './funnyBirds';
 import grandmaster from './grandmaster';
 import walkieTalkie from './walkieTalkie';
 import drone from './drone';
@@ -104,6 +105,7 @@ import warehouses from './warehouses';
 import sections from './sections';
 import organizationRegistration from './organizationRegistration';
 import organizations from './organizations';
+import activityLog from './activityLog';
 import bankRobbery from './bankRobbery';
 import factories from './factories';
 import tennis from './tennis';
@@ -126,9 +128,11 @@ import designEditor from './designEditor';
 import funicular from './funicular';
 import freightTrain from './freightTrain';
 import fortAttack from './fortAttack';
+import hummerWar from './hummerWar';
 import ping from './ping';
 import weaponAttachments from './weaponAttachments';
 import financialMonitoring from './financialMonitoring';
+import reports from './reports';
 
 export default {
     account,
@@ -204,7 +208,8 @@ export default {
     xmas,
     musicPlayer,
     games,
-    flappyBird,
+    flappyWinds,
+    funnyBirds,
     grandmaster,
     walkieTalkie,
     drone,
@@ -241,6 +246,7 @@ export default {
     sections,
     organizationRegistration,
     organizations,
+    activityLog,
     bankRobbery,
     factories,
     tennis,
@@ -260,9 +266,11 @@ export default {
     funicular,
     freightTrain,
     fortAttack,
+    hummerWar,
     ping,
     weaponAttachments,
     financialMonitoring,
+    reports,
 };
 
 

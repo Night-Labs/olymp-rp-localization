@@ -37,11 +37,11 @@ export default {
                 pl: 'XP - x{{mult}}',
             },
             description: {
-                ru: 'Встречайте наш первый боевой пропуск!\nВыполняйте задания и получайте уникальные награды.',
-                ua: 'Зустрічайте наш перший бойовий пропуск!\nВиконуйте завдання та отримуйте унікальні нагороди.',
-                en: 'Meet our very first battle pass!\nComplete quests and earn unique rewards.',
-                de: 'Lernt unseren ersten Battle Pass kennen!\nErfüllt Aufgaben und erhaltet einzigartige Belohnungen.',
-                pl: 'Poznajcie naszą pierwszą przepustkę bojową!\nWykonuj zadania i zdobywaj wyjątkowe nagrody.',
+                ru: 'Новый сезон - новые награды!\nВыполняйте задания и повышайте уровень пропуска.',
+                ua: 'Новий сезон - нові нагороди!\nВиконуйте завдання та підвищуйте рівень пропуску.',
+                en: 'New season, new rewards!\nComplete quests and level up your pass.',
+                de: 'Neue Saison, neue Belohnungen!\nErfüllt Aufgaben und levelt euren Pass hoch.',
+                pl: 'Nowy sezon, nowe nagrody!\nWykonuj zadania i zdobywaj kolejne poziomy przepustki.',
             },
         },
         upgrade: {
@@ -789,7 +789,7 @@ export default {
                 },
             },
             fuel: {
-                // fuel.station — medium, прогресс = суммарные литры, залитые на АЗС (target 15–35).
+                // fuel.station - medium, прогресс = суммарные литры, залитые на АЗС (target 15-35).
                 station: {
                     title: {
                         ru: 'Клиент нефтегазовых компаний',
@@ -806,7 +806,7 @@ export default {
                         pl: 'Zatankuj łącznie {{target}} l paliwa na stacjach.',
                     },
                 },
-                // fuel.canister — medium, +1 за дозаправку ТС канистрой/зарядкой (target 1–3).
+                // fuel.canister - medium, +1 за дозаправку ТС канистрой/зарядкой (target 1-3).
                 canister: {
                     title: {
                         ru: 'Дозаправка',
@@ -1373,18 +1373,18 @@ export default {
                 },
                 flappyBird: {
                     title: {
-                        ru: 'Рекорд в Flappy Bird',
-                        ua: 'Рекорд у Flappy Bird',
-                        en: 'Flappy Bird record',
-                        de: 'Flappy-Bird-Rekord',
-                        pl: 'Rekord we Flappy Bird',
+                        ru: 'Рекорд в Flappy Winds',
+                        ua: 'Рекорд у Flappy Winds',
+                        en: 'Flappy Winds record',
+                        de: 'Flappy-Winds-Rekord',
+                        pl: 'Rekord we Flappy Winds',
                     },
                     description: {
-                        ru: 'Установите новый рекорд в Flappy Bird.',
-                        ua: 'Встановіть новий рекорд у Flappy Bird.',
-                        en: 'Set a new record in Flappy Bird.',
-                        de: 'Stelle einen neuen Rekord in Flappy Bird auf.',
-                        pl: 'Ustanów nowy rekord we Flappy Bird.',
+                        ru: 'Установите новый рекорд в Flappy Winds.',
+                        ua: 'Встановіть новий рекорд у Flappy Winds.',
+                        en: 'Set a new record in Flappy Winds.',
+                        de: 'Stelle einen neuen Rekord in Flappy Winds auf.',
+                        pl: 'Ustanów nowy rekord we Flappy Winds.',
                     },
                 },
                 callStart: {
@@ -1637,7 +1637,7 @@ export default {
                         pl: 'Upoluj {{target}} «{{item}}».',
                     },
                 },
-                // Имена видов для подстановки {{item}} (звери — ped-модели, не inventory-предметы).
+                // Имена видов для подстановки {{item}} (звери - ped-модели, не inventory-предметы).
                 // Ключи = точные model-строки из animalsConfig (регистр важен). Резолв server-side:
                 // battlePass.pages.quests.hunting.animals.<model>.name.
                 animals: {
@@ -1773,11 +1773,11 @@ export default {
                 flappy: {
                     title: { ru: 'Полёт нормальный', ua: 'Політ нормальний', en: 'Smooth flight', de: 'Sanfter Flug', pl: 'Lot normalny' },
                     description: {
-                        ru: 'Наберите минимум {{target}} очков в Flappy Bird.',
-                        ua: 'Наберіть мінімум {{target}} очок у Flappy Bird.',
-                        en: 'Score at least {{target}} points in Flappy Bird.',
-                        de: 'Erziele mindestens {{target}} Punkte in Flappy Bird.',
-                        pl: 'Zdobądź co najmniej {{target}} punktów we Flappy Bird.',
+                        ru: 'Наберите минимум {{target}} очков в Flappy Winds.',
+                        ua: 'Наберіть мінімум {{target}} очок у Flappy Winds.',
+                        en: 'Score at least {{target}} points in Flappy Winds.',
+                        de: 'Erziele mindestens {{target}} Punkte in Flappy Winds.',
+                        pl: 'Zdobądź co najmniej {{target}} punktów we Flappy Winds.',
                     },
                 },
                 2048: {
@@ -2352,6 +2352,13 @@ export default {
             en: 'Next prize',
             de: 'Nächster Preis',
             pl: 'Następna nagroda',
+        },
+        placeholderSoon: {
+            ru: 'Скоро',
+            ua: 'Незабаром',
+            en: 'Coming soon',
+            de: 'Demnächst',
+            pl: 'Wkrótce',
         },
     },
     categories: {

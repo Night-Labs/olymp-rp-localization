@@ -188,6 +188,48 @@ export const server = {
             zh: '管理员已将你的姓名更改为{{name}}',
         },
     },
+    disguise: {
+        enabled: {
+            ru: 'Маскировка включена, вас видят как {{name}}',
+            ua: 'Маскування увімкнено, вас бачать як {{name}}',
+            en: 'Disguise on, others see you as {{name}}',
+            de: 'Tarnung aktiv, andere sehen dich als {{name}}',
+            pl: 'Maskowanie włączone, inni widzą cię jako {{name}}',
+            zh: '伪装已开启，其他人看到的你是{{name}}',
+        },
+        disabled: {
+            ru: 'Маскировка снята',
+            ua: 'Маскування знято',
+            en: 'Disguise removed',
+            de: 'Tarnung entfernt',
+            pl: 'Maskowanie zdjęte',
+            zh: '伪装已解除',
+        },
+        notActive: {
+            ru: 'Маскировка не включена',
+            ua: 'Маскування не увімкнено',
+            en: 'Disguise is not on',
+            de: 'Tarnung ist nicht aktiv',
+            pl: 'Maskowanie nie jest włączone',
+            zh: '伪装未开启',
+        },
+        idTaken: {
+            ru: 'ID {{id}} уже у другого игрока онлайн',
+            ua: 'ID {{id}} вже в іншого гравця онлайн',
+            en: 'ID {{id}} already belongs to another online player',
+            de: 'ID {{id}} gehört bereits einem anderen Spieler online',
+            pl: 'ID {{id}} ma już inny gracz online',
+            zh: 'ID {{id}}已被另一名在线玩家使用',
+        },
+        noFreeId: {
+            ru: 'Не нашлось свободного ID, укажите его вручную',
+            ua: 'Не знайшлося вільного ID, вкажіть його вручну',
+            en: 'No free ID found, give one explicitly',
+            de: 'Keine freie ID gefunden, gib eine an',
+            pl: 'Nie znaleziono wolnego ID, podaj je ręcznie',
+            zh: '未找到空闲ID，请手动指定',
+        },
+    },
     giveMyDonate: {
         sent: {
             ru: 'Вы передали {{sum}} Olymp-Coins игроку {{name}}',
@@ -221,6 +263,16 @@ export const server = {
             en: '{{name}} does not have enough donation currency (balance: {{balance}} Olymp-Coins)',
             de: '{{name}} hat nicht genug Olymp-Coins (Guthaben: {{balance}} Olymp-Coins)',
             pl: '{{name}} nie ma wystarczającej waluty donacyjnej (saldo: {{balance}} Olymp-Coins)',
+        },
+    },
+    takeDonate: {
+        taken: {
+            ru: 'Вы сняли {{sum}} Olymp-Coins у {{name}} (баланс: {{balance}} Olymp-Coins)',
+            ua: 'Ви зняли {{sum}} Olymp-Coins у {{name}} (баланс: {{balance}} Olymp-Coins)',
+            en: 'You took {{sum}} Olymp-Coins from {{name}} (balance: {{balance}} Olymp-Coins)',
+            de: 'Du hast {{name}} {{sum}} Olymp-Coins abgezogen (Guthaben: {{balance}} Olymp-Coins)',
+            pl: 'Zabrałeś {{sum}} Olymp-Coins graczowi {{name}} (saldo: {{balance}} Olymp-Coins)',
+            zh: '你从{{name}}扣除了{{sum}} Olymp-Coins（余额：{{balance}} Olymp-Coins）',
         },
     },
     cash: {

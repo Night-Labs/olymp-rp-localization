@@ -92,6 +92,14 @@ export const cef = {
             pl: 'Polecenia',
             zh: '引荐',
         },
+        reports: {
+            ru: 'Поддержка',
+            ua: 'Підтримка',
+            en: 'Support',
+            de: 'Support',
+            pl: 'Wsparcie',
+            zh: '支持',
+        },
     },
     main: {
         title: {

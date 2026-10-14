@@ -14,6 +14,13 @@ export default {
             de: 'Suche',
             pl: 'Szukaj',
         },
+        top: {
+            ru: 'Топ',
+            ua: 'Топ',
+            en: 'Top',
+            de: 'Top',
+            pl: 'Top',
+        },
         library: {
             ru: 'Медиатека',
             ua: 'Медіатека',
@@ -59,6 +66,28 @@ export default {
             de: 'Nachrichten',
             pl: 'Wiadomości',
         },
+        top: {
+            ru: 'Топ сервера',
+            ua: 'Топ сервера',
+            en: 'Server top',
+            de: 'Server-Top',
+            pl: 'Top serwera',
+        },
+    },
+
+    topHint: {
+        ru: 'Самые прослушиваемые треки сервера за последнюю неделю',
+        ua: 'Найпопулярніші треки сервера за останній тиждень',
+        en: 'The most played songs on the server over the past week',
+        de: 'Die meistgehörten Songs des Servers der letzten Woche',
+        pl: 'Najczęściej słuchane utwory na serwerze w ostatnim tygodniu',
+    },
+    emptyTop: {
+        ru: 'Здесь появятся треки, которые чаще всего слушают на сервере',
+        ua: 'Тут будуть треки, які найчастіше слухають на сервері',
+        en: 'The songs the server plays most will show up here',
+        de: 'Hier erscheinen die Songs, die auf dem Server am meisten gehört werden',
+        pl: 'Tutaj pojawią się utwory najczęściej słuchane na serwerze',
     },
 
     searchPlaceholder: {

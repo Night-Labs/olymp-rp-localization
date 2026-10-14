@@ -604,6 +604,13 @@ const inventory = {
         de: 'Nachdem du ihn gelernt hast, erhältst du die Möglichkeit, diesen Gegenstand an einer Werkbank der Stufe {{level}} herzustellen',
         pl: 'Po nauczeniu się otrzymujesz możliwość tworzenia tego przedmiotu na warsztacie poziomu {{level}}',
     },
+    blueprintRetiredDesc: {
+        ru: 'Устаревший чертёж: на верстаке по нему больше ничего не создать. Уолтер выкупит его по базовой цене',
+        ua: 'Застарілий кресленик: на верстаку за ним більше нічого не створити. Волтер викупить його за базовою ціною',
+        en: 'An outdated blueprint: nothing can be crafted from it at a workbench any more. Walter will buy it back at its base price',
+        de: 'Ein veralteter Bauplan: An der Werkbank lässt sich danach nichts mehr herstellen. Walter kauft ihn zum Grundpreis zurück',
+        pl: 'Przestarzały schemat: na warsztacie nie da się już według niego nic stworzyć. Walter odkupi go po cenie bazowej',
+    },
 };
 
 export default inventory;

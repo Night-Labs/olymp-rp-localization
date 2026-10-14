@@ -182,11 +182,11 @@ export default {
             pl: 'Nie',
         },
         none: {
-            ru: '—',
-            ua: '—',
-            en: '—',
-            de: '—',
-            pl: '—',
+            ru: '-',
+            ua: '-',
+            en: '-',
+            de: '-',
+            pl: '-',
         },
     },
 
@@ -218,6 +218,13 @@ export default {
             en: 'Kitchen quality',
             de: 'Küchenqualität',
             pl: 'Jakość kuchni',
+        },
+        toolTier: {
+            ru: 'Уровень инструментов',
+            ua: 'Рівень інструментів',
+            en: 'Tool tier',
+            de: 'Werkzeugstufe',
+            pl: 'Poziom narzędzi',
         },
     },
 };

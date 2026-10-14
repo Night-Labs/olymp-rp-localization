@@ -73,6 +73,14 @@ export default {
         // The damage panel's speedometer unit, drawn smaller after the number.
         kmh: { ru: 'km/h', ua: 'km/h', en: 'km/h', de: 'km/h', pl: 'km/h' },
         burning: { ru: 'Пожар', ua: 'Пожежа', en: 'Fire', de: 'Brand', pl: 'Pożar' },
+        // The destroyed tank's view (World of Tanks' postmortem): the tank watched and the mouse keys that switch it.
+        postmortem: {
+            label: { ru: 'Наблюдение', ua: 'Спостереження', en: 'Spectating', de: 'Zuschauen', pl: 'Obserwacja' },
+            next: { ru: 'Следующий танк', ua: 'Наступний танк', en: 'Next tank', de: 'Nächster Panzer', pl: 'Następny czołg' },
+            previous: { ru: 'Предыдущий танк', ua: 'Попередній танк', en: 'Previous tank', de: 'Vorheriger Panzer', pl: 'Poprzedni czołg' },
+            lmb: { ru: 'ЛКМ', ua: 'ЛКМ', en: 'LMB', de: 'LMT', pl: 'LPM' },
+            rmb: { ru: 'ПКМ', ua: 'ПКМ', en: 'RMB', de: 'RMT', pl: 'PPM' },
+        },
         base: {
             ally: { ru: 'Наша база', ua: 'Наша база', en: 'Our base', de: 'Unsere Basis', pl: 'Nasza baza' },
             enemy: { ru: 'База противника', ua: 'База противника', en: 'Enemy base', de: 'Feindliche Basis', pl: 'Baza wroga' },
@@ -94,6 +102,11 @@ export default {
         },
         // Two minutes before the time limit, over the time left.
         endWarning: { ru: 'До конца боя:', ua: 'До кінця бою:', en: 'Battle ends in:', de: 'Gefecht endet in:', pl: 'Bitwa kończy się za:' },
+        // Under the pre-battle timer (docs/tank-field-modifications.md 7): the tank's two sets of a kind, switched by their key until GO.
+        sets: {
+            shells: { ru: 'Снаряды и снаряжение', ua: 'Снаряди й спорядження', en: 'Shells and consumables', de: 'Munition und Verbrauchsgüter', pl: 'Amunicja i wyposażenie eksploatacyjne' },
+            devices: { ru: 'Оборудование', ua: 'Обладнання', en: 'Equipment', de: 'Ausrüstung', pl: 'Wyposażenie' },
+        },
         // The end of the battle over the screen: the outcome, and why it ended.
         result: {
             win: { ru: 'Победа!', ua: 'Перемога!', en: 'Victory!', de: 'Sieg!', pl: 'Zwycięstwo!' },
@@ -232,6 +245,7 @@ export default {
             details: { ru: 'О машине', ua: 'Про машину', en: 'About vehicle', de: 'Über das Fahrzeug', pl: 'O pojeździe' },
             tree: { ru: 'Дерево исследований', ua: 'Дерево досліджень', en: 'Research tree', de: 'Forschungsbaum', pl: 'Drzewko badań' },
             exterior: { ru: 'Внешний вид', ua: 'Зовнішній вигляд', en: 'Exterior', de: 'Aussehen', pl: 'Wygląd' },
+            ammo: { ru: 'Боекомплект', ua: 'Боєкомплект', en: 'Ammunition', de: 'Munition', pl: 'Amunicja' },
         },
         // The buttons under the tank in the garage and the rows of its vehicle menu.
         actions: {
@@ -239,6 +253,7 @@ export default {
             exterior: { ru: 'Внешний вид', ua: 'Зовнішній вигляд', en: 'Exterior', de: 'Aussehen', pl: 'Wygląd' },
             stats: { ru: 'Характеристики', ua: 'Характеристики', en: 'Characteristics', de: 'Eigenschaften', pl: 'Parametry' },
             modules: { ru: 'Модули', ua: 'Модулі', en: 'Modules', de: 'Module', pl: 'Moduły' },
+            fieldMods: { ru: 'Улучшения', ua: 'Покращення', en: 'Upgrades', de: 'Verbesserungen', pl: 'Ulepszenia' },
             armor: { ru: 'Броня', ua: 'Броня', en: 'Armor', de: 'Panzerung', pl: 'Pancerz' },
             crew: { ru: 'Экипаж', ua: 'Екіпаж', en: 'Crew', de: 'Besatzung', pl: 'Załoga' },
             results: { ru: 'Итоги боёв', ua: 'Підсумки боїв', en: 'Results', de: 'Ergebnisse', pl: 'Wyniki' },
@@ -260,13 +275,450 @@ export default {
                 de: 'Ein Modul kann erforscht oder gekauft werden',
                 pl: 'Moduł można zbadać lub kupić',
             },
+            fieldMods: {
+                ru: 'Есть улучшение, которое можно открыть',
+                ua: 'Є покращення, яке можна відкрити',
+                en: 'An upgrade can be opened',
+                de: 'Eine Verbesserung kann freigeschaltet werden',
+                pl: 'Ulepszenie można odblokować',
+            },
             tree: { ru: 'Есть танк, который можно исследовать', ua: 'Є танк, який можна дослідити', en: 'A tank can be researched', de: 'Ein Panzer kann erforscht werden', pl: 'Czołg można zbadać' },
         },
         tabs: {
             general: { ru: 'Общее', ua: 'Загальне', en: 'General', de: 'Allgemein', pl: 'Ogólne' },
             stats: { ru: 'Характеристики', ua: 'Характеристики', en: 'Characteristics', de: 'Eigenschaften', pl: 'Parametry' },
             modules: { ru: 'Модули', ua: 'Модулі', en: 'Modules', de: 'Module', pl: 'Moduły' },
+            fieldMods: { ru: 'Улучшения', ua: 'Покращення', en: 'Upgrades', de: 'Verbesserungen', pl: 'Ulepszenia' },
             armor: { ru: 'Бронирование', ua: 'Бронювання', en: 'Armor', de: 'Panzerung', pl: 'Opancerzenie' },
+        },
+        // The Upgrades tab: the tank's field modifications tree (docs/tank-field-modifications.md 3, 13). Numbers are written by
+        // `effects`, one line per stat the node moves; the node's own text never repeats them.
+        fieldMods: {
+            category: { ru: 'Категория: {{value}}', ua: 'Категорія: {{value}}', en: 'Category: {{value}}', de: 'Kategorie: {{value}}', pl: 'Kategoria: {{value}}' },
+            kinds: {
+                milestone: { ru: 'Ключевое улучшение', ua: 'Ключове покращення', en: 'Key upgrade', de: 'Schlüsselverbesserung', pl: 'Kluczowe ulepszenie' },
+                pair: { ru: 'Парная модификация', ua: 'Парна модифікація', en: 'Paired modification', de: 'Paarmodifikation', pl: 'Modyfikacja parowa' },
+                name: { ru: 'Особенность машины', ua: 'Особливість машини', en: 'Vehicle trait', de: 'Fahrzeugmerkmal', pl: 'Cecha pojazdu' },
+                final: { ru: 'Специализация', ua: 'Спеціалізація', en: 'Specialization', de: 'Spezialisierung', pl: 'Specjalizacja' },
+            },
+            nodes: {
+                firepower: {
+                    1: { ru: 'Бронепробитие', ua: 'Бронепробиття', en: 'Penetration', de: 'Durchschlag', pl: 'Przebicie' },
+                    2: { ru: 'Время сведения', ua: 'Час зведення', en: 'Aim time', de: 'Zielzeit', pl: 'Czas celowania' },
+                    3: { ru: 'Стабилизация', ua: 'Стабілізація', en: 'Stabilization', de: 'Stabilisierung', pl: 'Stabilizacja' },
+                    4: { ru: 'Перезарядка', ua: 'Перезаряджання', en: 'Reload', de: 'Nachladen', pl: 'Przeładowanie' },
+                    5: { ru: 'Угол склонения', ua: 'Кут зниження', en: 'Gun depression', de: 'Geschützsenkung', pl: 'Depresja działa' },
+                },
+                survivability: {
+                    1: { ru: 'Боеукладка', ua: 'Боєукладка', en: 'Ammo rack', de: 'Munitionslager', pl: 'Magazyn amunicji' },
+                    2: { ru: 'Ремонт гусениц', ua: 'Ремонт гусениць', en: 'Track repair', de: 'Kettenreparatur', pl: 'Naprawa gąsienic' },
+                    3: { ru: 'Пожаробезопасность', ua: 'Пожежобезпека', en: 'Fire safety', de: 'Brandschutz', pl: 'Ochrona przeciwpożarowa' },
+                    4: { ru: 'Запас прочности', ua: 'Запас міцності', en: 'Durability', de: 'Haltbarkeit', pl: 'Wytrzymałość' },
+                    5: { ru: 'Защита экипажа', ua: 'Захист екіпажу', en: 'Crew protection', de: 'Besatzungsschutz', pl: 'Ochrona załogi' },
+                },
+                mobility: {
+                    1: { ru: 'Поворот корпуса', ua: 'Поворот корпусу', en: 'Hull traverse', de: 'Wannendrehung', pl: 'Obrót kadłuba' },
+                    2: { ru: 'Задний ход', ua: 'Задній хід', en: 'Reverse speed', de: 'Rückwärtsfahrt', pl: 'Prędkość cofania' },
+                    3: { ru: 'Мощность двигателя', ua: 'Потужність двигуна', en: 'Engine power', de: 'Motorleistung', pl: 'Moc silnika' },
+                    4: { ru: 'Поворот башни', ua: 'Поворот башти', en: 'Turret traverse', de: 'Turmdrehung', pl: 'Obrót wieży' },
+                    5: { ru: 'Максимальная скорость', ua: 'Максимальна швидкість', en: 'Top speed', de: 'Höchstgeschwindigkeit', pl: 'Prędkość maksymalna' },
+                },
+            },
+            milestones: {
+                shellsSet: {
+                    name: { ru: 'Комплект: снаряды и снаряжение', ua: 'Комплект: снаряди й спорядження', en: 'Set: shells and consumables', de: 'Satz: Munition und Verbrauchsgüter', pl: 'Zestaw: amunicja i wyposażenie eksploatacyjne' },
+                    text: {
+                        ru: 'Второй боекомплект и второй набор снаряжения: переключаются одним нажатием в ряду под танком.',
+                        ua: 'Другий боєкомплект і другий набір спорядження: перемикаються одним натисканням у ряду під танком.',
+                        en: 'A second rack and a second set of consumables, swapped with one press on the row under the tank.',
+                        de: 'Eine zweite Munitionsladung und ein zweiter Satz Verbrauchsgüter, per Klick in der Leiste unter dem Panzer gewechselt.',
+                        pl: 'Druga amunicja i drugi zestaw wyposażenia, przełączane jednym kliknięciem w rzędzie pod czołgiem.',
+                    },
+                },
+                devicesSet: {
+                    name: { ru: 'Комплект: оборудование', ua: 'Комплект: обладнання', en: 'Set: equipment', de: 'Satz: Ausrüstung', pl: 'Zestaw: wyposażenie' },
+                    text: {
+                        ru: 'Второй набор из трёх слотов оборудования, переключается в ряду под танком. Оборудование в обоих наборах покупается один раз.',
+                        ua: 'Другий набір із трьох слотів обладнання, перемикається в ряду під танком. Обладнання в обох наборах купується один раз.',
+                        en: 'A second set of three equipment slots, swapped on the row under the tank. A device in both sets is bought once.',
+                        de: 'Ein zweiter Satz aus drei Ausrüstungsplätzen, gewechselt in der Leiste unter dem Panzer. Ein Teil in beiden Sätzen wird nur einmal gekauft.',
+                        pl: 'Drugi zestaw trzech slotów wyposażenia, przełączany w rzędzie pod czołgiem. Wyposażenie w obu zestawach kupuje się raz.',
+                    },
+                },
+                roleSlot: {
+                    name: { ru: 'Ролевой слот', ua: 'Рольовий слот', en: 'Role slot', de: 'Rollenplatz', pl: 'Slot roli' },
+                    text: {
+                        ru: 'Первому слоту оборудования назначается категория: оборудование этой категории получает в нём бонус. Первое назначение бесплатно.',
+                        ua: 'Першому слоту обладнання призначається категорія: обладнання цієї категорії отримує в ньому бонус. Перше призначення безкоштовне.',
+                        en: 'Equipment slot 1 takes a category: a device of that category gets its bonus there. The first assignment is free.',
+                        de: 'Ausrüstungsplatz 1 erhält eine Kategorie: Ein Teil dieser Kategorie bekommt dort seinen Bonus. Die erste Zuweisung ist kostenlos.',
+                        pl: 'Pierwszy slot wyposażenia dostaje kategorię: wyposażenie tej kategorii otrzymuje w nim premię. Pierwsze przypisanie jest darmowe.',
+                    },
+                },
+            },
+            pairs: {
+                gun: {
+                    name: { ru: 'Орудие', ua: 'Гармата', en: 'Gun', de: 'Kanone', pl: 'Działo' },
+                    a: { ru: 'Скорострельность', ua: 'Скорострільність', en: 'Rapid fire', de: 'Schnellfeuer', pl: 'Szybkostrzelność' },
+                    b: { ru: 'Точность', ua: 'Точність', en: 'Precision', de: 'Präzision', pl: 'Precyzja' },
+                },
+                hull: {
+                    name: { ru: 'Корпус', ua: 'Корпус', en: 'Hull', de: 'Wanne', pl: 'Kadłub' },
+                    a: { ru: 'Тяжёлые листы', ua: 'Важкі листи', en: 'Heavy plates', de: 'Schwere Platten', pl: 'Ciężkie płyty' },
+                    b: { ru: 'Облегчение', ua: 'Полегшення', en: 'Lightened', de: 'Erleichtert', pl: 'Odciążenie' },
+                },
+                vision: {
+                    name: { ru: 'Обзор', ua: 'Огляд', en: 'Vision', de: 'Sicht', pl: 'Widoczność' },
+                    a: { ru: 'Засада', ua: 'Засідка', en: 'Ambush', de: 'Hinterhalt', pl: 'Zasadzka' },
+                    b: { ru: 'Наблюдение', ua: 'Спостереження', en: 'Observation', de: 'Beobachtung', pl: 'Obserwacja' },
+                },
+            },
+            pairText: {
+                ru: 'Две стороны, у каждой свой плюс и свой минус. Сторона покупается один раз, переключение между купленными бесплатно.',
+                ua: 'Дві сторони, у кожної свій плюс і свій мінус. Сторона купується один раз, перемикання між купленими безкоштовне.',
+                en: 'Two sides, each with a gain and a cost. A side is bought once; switching between bought sides is free.',
+                de: 'Zwei Seiten, jede mit einem Vorteil und einem Nachteil. Eine Seite wird einmal gekauft, der Wechsel zwischen gekauften ist kostenlos.',
+                pl: 'Dwie strony, każda z zyskiem i kosztem. Stronę kupuje się raz, przełączanie między kupionymi jest darmowe.',
+            },
+            final: {
+                name: { ru: 'Специализация', ua: 'Спеціалізація', en: 'Specialization', de: 'Spezialisierung', pl: 'Specjalizacja' },
+                text: {
+                    ru: 'Открывается после всех остальных улучшений и даёт одну специализацию класса. Следующие покупаются за кредиты, переключение бесплатно.',
+                    ua: 'Відкривається після всіх інших покращень і дає одну спеціалізацію класу. Наступні купуються за кредити, перемикання безкоштовне.',
+                    en: "Opens after every other upgrade and brings one of the class's specializations. Others cost credits; switching is free.",
+                    de: 'Wird nach allen anderen Verbesserungen freigeschaltet und bringt eine Spezialisierung der Klasse. Weitere kosten Credits, der Wechsel ist kostenlos.',
+                    pl: 'Otwiera się po wszystkich innych ulepszeniach i daje jedną specjalizację klasy. Kolejne kosztują kredyty, przełączanie jest darmowe.',
+                },
+            },
+            specs: {
+                HT: {
+                    assault: {
+                        name: { ru: 'Штурм', ua: 'Штурм', en: 'Assault', de: 'Sturm', pl: 'Szturm' },
+                        text: { ru: 'Ведёт прорыв и размен вблизи.', ua: 'Веде прорив і розмін зблизька.', en: 'Leads the push and trades blows up close.', de: 'Führt den Durchbruch an und tauscht Treffer auf kurze Distanz.', pl: 'Prowadzi natarcie i wymienia ciosy z bliska.' },
+                    },
+                    bastion: {
+                        name: { ru: 'Бастион', ua: 'Бастіон', en: 'Bastion', de: 'Bastion', pl: 'Bastion' },
+                        text: { ru: 'Держит позицию под огнём, экипаж переживает то, что другим не под силу.', ua: 'Тримає позицію під вогнем, екіпаж витримує те, що іншим не під силу.', en: 'Holds a position under fire; the crew lives through what others would not.', de: 'Hält eine Stellung unter Beschuss, die Besatzung übersteht, was andere nicht überstehen.', pl: 'Utrzymuje pozycję pod ostrzałem, załoga przetrwa to, czego inni by nie przetrwali.' },
+                    },
+                    mainGun: {
+                        name: { ru: 'Главный калибр', ua: 'Головний калібр', en: 'Main gun', de: 'Hauptgeschütz', pl: 'Główny kaliber' },
+                        text: { ru: 'Всё ради орудия: быстрее перезарядка, дольше сведение.', ua: 'Усе заради гармати: швидше перезаряджання, довше зведення.', en: 'Everything for the gun: faster reloads, slower aiming.', de: 'Alles für die Kanone: schneller nachladen, langsamer zielen.', pl: 'Wszystko dla działa: szybsze przeładowanie, dłuższe celowanie.' },
+                    },
+                },
+                MT: {
+                    strike: {
+                        name: { ru: 'Удар', ua: 'Удар', en: 'Strike', de: 'Schlag', pl: 'Uderzenie' },
+                        text: { ru: 'Стреляет первым и часто.', ua: 'Стріляє першим і часто.', en: 'Fires first and fires often.', de: 'Schießt zuerst und oft.', pl: 'Strzela pierwszy i często.' },
+                    },
+                    marksman: {
+                        name: { ru: 'Стрелок', ua: 'Стрілець', en: 'Marksman', de: 'Scharfschütze', pl: 'Strzelec' },
+                        text: { ru: 'Бьёт с места и издалека.', ua: "Б'є з місця й здалеку.", en: 'Fights from a standstill, at range.', de: 'Kämpft aus dem Stand und auf Distanz.', pl: 'Walczy z miejsca i z daleka.' },
+                    },
+                    maneuver: {
+                        name: { ru: 'Манёвр', ua: 'Маневр', en: 'Maneuver', de: 'Manöver', pl: 'Manewr' },
+                        text: { ru: 'Побеждает позицией: быстрее на старте и в обходе.', ua: 'Перемагає позицією: швидше на старті й в обході.', en: 'Wins by position: quicker off the line and round the flank.', de: 'Gewinnt durch Position: schneller beim Anfahren und in der Flanke.', pl: 'Wygrywa pozycją: szybszy na starcie i na flance.' },
+                    },
+                },
+                LT: {
+                    scout: {
+                        name: { ru: 'Разведчик', ua: 'Розвідник', en: 'Scout', de: 'Aufklärer', pl: 'Zwiadowca' },
+                        text: { ru: 'Видит первым и подсвечивает цели команде.', ua: 'Бачить першим і підсвічує цілі команді.', en: 'Sees first and spots targets for the team.', de: 'Sieht zuerst und klärt Ziele für das Team auf.', pl: 'Widzi pierwszy i wykrywa cele dla drużyny.' },
+                    },
+                    raider: {
+                        name: { ru: 'Рейдер', ua: 'Рейдер', en: 'Raider', de: 'Plünderer', pl: 'Rajdowiec' },
+                        text: { ru: 'Скорость для прорывов в тыл противника.', ua: 'Швидкість для проривів у тил противника.', en: 'Speed for runs behind the enemy line.', de: 'Tempo für Vorstöße hinter die feindliche Linie.', pl: 'Szybkość do rajdów na tyły wroga.' },
+                    },
+                    hunter: {
+                        name: { ru: 'Охотник', ua: 'Мисливець', en: 'Hunter', de: 'Jäger', pl: 'Łowca' },
+                        text: { ru: 'Сводится на ходу и ловит противника на слабостях.', ua: 'Зводиться на ходу і ловить противника на слабкостях.', en: 'Aims on the move and catches the enemy exposed.', de: 'Zielt in Fahrt und erwischt den Gegner ungedeckt.', pl: 'Celuje w ruchu i łapie wroga odsłoniętego.' },
+                    },
+                },
+                TD: {
+                    ambush: {
+                        name: { ru: 'Засада', ua: 'Засідка', en: 'Ambush', de: 'Hinterhalt', pl: 'Zasadzka' },
+                        text: { ru: 'Ждёт незамеченным и стреляет первым.', ua: 'Чекає непоміченим і стріляє першим.', en: 'Waits unseen and fires first.', de: 'Wartet ungesehen und schießt zuerst.', pl: 'Czeka niezauważony i strzela pierwszy.' },
+                    },
+                    sniper: {
+                        name: { ru: 'Снайпер', ua: 'Снайпер', en: 'Sniper', de: 'Scharfschütze', pl: 'Snajper' },
+                        text: { ru: 'Дальние выстрелы, которые попадают.', ua: 'Дальні постріли, що влучають.', en: 'Long shots that land.', de: 'Weite Schüsse, die treffen.', pl: 'Dalekie strzały, które trafiają.' },
+                    },
+                    assault: {
+                        name: { ru: 'Штурмовое орудие', ua: 'Штурмова гармата', en: 'Assault gun', de: 'Sturmgeschütz', pl: 'Działo szturmowe' },
+                        text: { ru: 'Поддерживает атаку сразу за тяжёлыми.', ua: 'Підтримує атаку одразу за важкими.', en: 'Backs the attack from right behind the heavies.', de: 'Unterstützt den Angriff direkt hinter den Schweren.', pl: 'Wspiera natarcie tuż za ciężkimi.' },
+                    },
+                },
+            },
+            names: {
+                btr4e: {
+                    name: { ru: 'Боевой модуль «Парус»', ua: 'Бойовий модуль «Парус»', en: 'Parus combat module', de: 'Kampfmodul Parus', pl: 'Moduł bojowy Parus' },
+                    text: { ru: 'Дистанционный модуль держит прицел ровно, пока башня поворачивается.', ua: 'Дистанційний модуль тримає приціл рівно, поки башта повертається.', en: 'The remote module keeps its sight steady while the turret turns.', de: 'Das fernbediente Modul hält die Zieloptik ruhig, während der Turm dreht.', pl: 'Zdalny moduł trzyma celownik stabilnie, gdy wieża się obraca.' },
+                },
+                m3a3: {
+                    name: { ru: 'Двухленточная M242', ua: 'Двострічкова M242', en: 'Dual-feed M242', de: 'M242 mit Doppelzuführung', pl: 'Dwutaśmowy M242' },
+                    text: { ru: 'M242 питается сразу двумя лентами: смена снаряда вдвое быстрее.', ua: 'M242 живиться одразу двома стрічками: зміна снаряда вдвічі швидша.', en: 'The M242 feeds from two belts at once: a shell change takes half the time.', de: 'Die M242 wird aus zwei Gurten zugleich gespeist: ein Munitionswechsel dauert halb so lange.', pl: 'M242 zasilany z dwóch taśm naraz: zmiana pocisku trwa o połowę krócej.' },
+                },
+                pumaifv: {
+                    name: { ru: 'Необитаемая башня', ua: 'Безлюдна башта', en: 'Unmanned turret', de: 'Unbemannter Turm', pl: 'Bezzałogowa wieża' },
+                    text: { ru: 'Весь экипаж сидит в бронированном корпусе, вдали от башни.', ua: 'Увесь екіпаж сидить у броньованому корпусі, далеко від башти.', en: 'The whole crew sits in the armoured hull, away from the turret.', de: 'Die ganze Besatzung sitzt in der gepanzerten Wanne, weg vom Turm.', pl: 'Cała załoga siedzi w opancerzonym kadłubie, z dala od wieży.' },
+                },
+                zbl08: {
+                    name: { ru: 'Марш по шоссе', ua: 'Марш шосе', en: 'Highway drive', de: 'Straßenmarsch', pl: 'Marsz szosą' },
+                    text: { ru: 'Колёсная 8x8 для долгих маршей держит скорость выше.', ua: 'Колісна 8x8 для довгих маршів тримає вищу швидкість.', en: 'An 8x8 built for long road marches runs faster.', de: 'Ein 8x8 für lange Straßenmärsche fährt schneller.', pl: 'Kołowy 8x8 do długich marszów jedzie szybciej.' },
+                },
+                t64a: {
+                    name: { ru: 'АЗ «Корзина»', ua: 'АЗ «Кошик»', en: 'Korzina autoloader', de: 'Ladeautomat Korsina', pl: 'Automat ładowania Korzina' },
+                    text: { ru: 'Карусельный автомат заряжания под полом башни работает быстрее человека.', ua: 'Карусельний автомат заряджання під підлогою башти працює швидше за людину.', en: 'The carousel autoloader under the turret floor loads faster than a man.', de: 'Der Karussell-Ladeautomat unter dem Turmboden lädt schneller als ein Mensch.', pl: 'Karuzelowy automat pod podłogą wieży ładuje szybciej niż człowiek.' },
+                },
+                t55a: {
+                    name: { ru: 'Простота в обслуживании', ua: 'Простота в обслуговуванні', en: 'Simple to keep running', de: 'Einfach am Laufen zu halten', pl: 'Łatwy w utrzymaniu' },
+                    text: { ru: 'Простая и проверенная конструкция: экипаж быстрее чинит повреждённые модули.', ua: 'Проста й перевірена конструкція: екіпаж швидше лагодить пошкоджені модулі.', en: 'A simple, proven design: the crew gets damaged modules working faster.', de: 'Eine einfache, bewährte Konstruktion: Die Besatzung repariert beschädigte Module schneller.', pl: 'Prosta, sprawdzona konstrukcja: załoga szybciej naprawia uszkodzone moduły.' },
+                },
+                ajax: {
+                    name: { ru: 'Прицелы ORION', ua: 'Приціли ORION', en: 'ORION sights', de: 'ORION-Visiere', pl: 'Celowniki ORION' },
+                    text: { ru: 'Прицелы ORION видят дальше в любом свете.', ua: 'Приціли ORION бачать далі за будь-якого світла.', en: 'The ORION sights see further in any light.', de: 'Die ORION-Visiere sehen bei jedem Licht weiter.', pl: 'Celowniki ORION widzą dalej w każdym świetle.' },
+                },
+                lavusmc: {
+                    name: { ru: 'Разведка морской пехоты', ua: 'Розвідка морської піхоти', en: 'Marine reconnaissance', de: 'Marineinfanterie-Aufklärung', pl: 'Rozpoznanie piechoty morskiej' },
+                    text: { ru: 'Создан для разведки морской пехоты: экипаж раньше замечает цели.', ua: 'Створений для розвідки морської піхоти: екіпаж раніше помічає цілі.', en: 'Built for Marine reconnaissance: its crew spots targets earlier.', de: 'Für die Aufklärung der Marineinfanterie gebaut: Die Besatzung entdeckt Ziele früher.', pl: 'Zbudowany do rozpoznania piechoty morskiej: załoga wcześniej wykrywa cele.' },
+                },
+                t64b: {
+                    name: { ru: 'СУО 1А33', ua: 'СКВ 1А33', en: '1A33 fire control', de: 'Feuerleitanlage 1A33', pl: 'System kierowania ogniem 1A33' },
+                    text: { ru: 'Система управления огнём 1А33 быстрее наводит орудие.', ua: 'Система керування вогнем 1А33 швидше наводить гармату.', en: 'The 1A33 fire control system lays the gun faster.', de: 'Die Feuerleitanlage 1A33 richtet die Kanone schneller.', pl: 'System kierowania ogniem 1A33 szybciej naprowadza działo.' },
+                },
+                t72b3: {
+                    name: { ru: 'Прицел «Сосна-У»', ua: 'Приціл «Сосна-У»', en: 'Sosna-U sight', de: 'Visier Sosna-U', pl: 'Celownik Sosna-U' },
+                    text: { ru: 'Тепловизионный прицел «Сосна-У» точнее сводит орудие.', ua: 'Тепловізійний приціл «Сосна-У» точніше зводить гармату.', en: 'The Sosna-U thermal sight tightens the aim.', de: 'Das Wärmebildvisier Sosna-U verengt die Streuung.', pl: 'Termowizyjny celownik Sosna-U zawęża rozrzut.' },
+                },
+                t80u: {
+                    name: { ru: 'ГТД-1250', ua: 'ГТД-1250', en: 'GTD-1250 gas turbine', de: 'Gasturbine GTD-1250', pl: 'Turbina gazowa GTD-1250' },
+                    text: { ru: 'Газовая турбина ГТД-1250 выдаёт больше мощности по первому требованию.', ua: 'Газова турбіна ГТД-1250 видає більше потужності на першу вимогу.', en: 'The GTD-1250 gas turbine gives more power on demand.', de: 'Die Gasturbine GTD-1250 liefert auf Abruf mehr Leistung.', pl: 'Turbina gazowa GTD-1250 daje więcej mocy na żądanie.' },
+                },
+                type74: {
+                    name: { ru: 'Гидропневматическая подвеска', ua: 'Гідропневматична підвіска', en: 'Hydropneumatic suspension', de: 'Hydropneumatisches Fahrwerk', pl: 'Zawieszenie hydropneumatyczne' },
+                    text: { ru: 'Подвеска наклоняет корпус вперёд: орудие опускается ниже.', ua: 'Підвіска нахиляє корпус уперед: гармата опускається нижче.', en: 'The suspension kneels the hull forward: the gun dips further.', de: 'Das Fahrwerk neigt die Wanne nach vorn: Die Kanone senkt sich weiter.', pl: 'Zawieszenie pochyla kadłub do przodu: działo opuszcza się niżej.' },
+                },
+                bmp3t: {
+                    name: { ru: 'Спаренные орудия', ua: 'Спарені гармати', en: 'Twin guns', de: 'Zwillingsgeschütze', pl: 'Sprzężone działa' },
+                    text: { ru: 'Пушки 100 и 30 мм стоят рядом: смена снаряда быстрее.', ua: 'Гармати 100 і 30 мм стоять поруч: зміна снаряда швидша.', en: 'The 100 mm and 30 mm guns sit side by side: a shell change is quicker.', de: 'Die 100-mm- und die 30-mm-Kanone sitzen nebeneinander: ein Munitionswechsel geht schneller.', pl: 'Działa 100 i 30 mm stoją obok siebie: zmiana pocisku jest szybsza.' },
+                },
+                rosomak: {
+                    name: { ru: 'Ход Patria AMV', ua: 'Хід Patria AMV', en: 'Patria AMV ride', de: 'Patria-AMV-Fahrwerk', pl: 'Zawieszenie Patria AMV' },
+                    text: { ru: 'Плавный ход Patria AMV успокаивает орудие в движении.', ua: 'Плавний хід Patria AMV заспокоює гармату в русі.', en: 'The smooth Patria AMV ride steadies the gun on the move.', de: 'Das ruhige Fahrwerk des Patria AMV beruhigt die Kanone in Fahrt.', pl: 'Płynna jazda Patria AMV stabilizuje działo w ruchu.' },
+                },
+                strykermgs: {
+                    name: { ru: 'Автомат заряжания', ua: 'Автомат заряджання', en: 'Autoloader', de: 'Ladeautomat', pl: 'Automat ładowania' },
+                    text: { ru: 'Автомат быстрее пополняет магазин.', ua: 'Автомат швидше поповнює магазин.', en: 'The autoloader refills the ready rack faster.', de: 'Der Ladeautomat füllt das Bereitschaftsmagazin schneller auf.', pl: 'Automat szybciej uzupełnia magazynek.' },
+                },
+                t72b3m: {
+                    name: { ru: 'Двигатель В-92С2Ф', ua: 'Двигун В-92С2Ф', en: 'V-92S2F engine', de: 'Motor W-92S2F', pl: 'Silnik W-92S2F' },
+                    text: { ru: 'Двигатель В-92С2Ф мощнее прежнего В-84.', ua: 'Двигун В-92С2Ф потужніший за колишній В-84.', en: 'The V-92S2F engine has more power than the older V-84.', de: 'Der Motor W-92S2F leistet mehr als der ältere W-84.', pl: 'Silnik W-92S2F ma więcej mocy niż starszy W-84.' },
+                },
+                leo2a4: {
+                    name: { ru: 'Стабилизированный EMES 15', ua: 'Стабілізований EMES 15', en: 'EMES 15 stabilised sight', de: 'Stabilisiertes EMES 15', pl: 'Stabilizowany EMES 15' },
+                    text: { ru: 'Стабилизированный прицел EMES 15 держит цель в движении.', ua: 'Стабілізований приціл EMES 15 тримає ціль у русі.', en: 'The EMES 15 stabilised sight holds the aim on the move.', de: 'Das stabilisierte Visier EMES 15 hält das Ziel in Fahrt.', pl: 'Stabilizowany celownik EMES 15 trzyma cel w ruchu.' },
+                },
+                k2panther: {
+                    name: { ru: 'Подвеска в балансирах', ua: 'Підвіска в балансирах', en: 'In-arm suspension', de: 'In-Arm-Fahrwerk', pl: 'Zawieszenie w wahaczach' },
+                    text: { ru: 'Подвеска наклоняет корпус: орудие опускается ниже.', ua: 'Підвіска нахиляє корпус: гармата опускається нижче.', en: 'The suspension tilts the hull: the gun dips further.', de: 'Das Fahrwerk neigt die Wanne: Die Kanone senkt sich weiter.', pl: 'Zawieszenie pochyla kadłub: działo opuszcza się niżej.' },
+                },
+                leclerc: {
+                    name: { ru: 'Автомат заряжания', ua: 'Автомат заряджання', en: 'Autoloader', de: 'Ladeautomat', pl: 'Automat ładowania' },
+                    text: { ru: 'Автомат в нише башни держит ровный и быстрый темп огня.', ua: 'Автомат у ніші башти тримає рівний і швидкий темп вогню.', en: 'The bustle autoloader keeps a steady, fast rate of fire.', de: 'Der Ladeautomat im Turmheck hält eine gleichmäßige, schnelle Feuerrate.', pl: 'Automat w niszy wieży utrzymuje równe, szybkie tempo ognia.' },
+                },
+                leo2pl: {
+                    name: { ru: 'Навесная броня башни', ua: 'Навісна броня башти', en: 'Add-on turret armor', de: 'Zusatzpanzerung am Turm', pl: 'Dodatkowy pancerz wieży' },
+                    text: { ru: 'Навесная броня башни модернизации PL выдерживает больше.', ua: 'Навісна броня башти модернізації PL витримує більше.', en: "The PL upgrade's add-on turret armor takes more punishment.", de: 'Die Zusatzpanzerung am Turm aus dem PL-Umbau hält mehr aus.', pl: 'Dodatkowy pancerz wieży z modernizacji PL wytrzymuje więcej.' },
+                },
+                m1a1: {
+                    name: { ru: 'Турбина AGT1500', ua: 'Турбіна AGT1500', en: 'AGT1500 turbine', de: 'Turbine AGT1500', pl: 'Turbina AGT1500' },
+                    text: { ru: 'Турбина AGT1500 отдаёт мощность мгновенно.', ua: 'Турбіна AGT1500 віддає потужність миттєво.', en: 'The AGT1500 turbine delivers its power at once.', de: 'Die Turbine AGT1500 liefert ihre Leistung sofort.', pl: 'Turbina AGT1500 oddaje moc natychmiast.' },
+                },
+                marder2: {
+                    name: { ru: 'Тяжёлая броня БМП', ua: 'Важка броня БМП', en: 'Heavy IFV armor', de: 'Schwere SPz-Panzerung', pl: 'Ciężki pancerz BWP' },
+                    text: { ru: 'Защищена лучше любой БМП своего времени и выдерживает больше.', ua: 'Захищена краще за будь-яку БМП свого часу й витримує більше.', en: 'Armored beyond any IFV of its day, it withstands more.', de: 'Stärker gepanzert als jeder Schützenpanzer seiner Zeit, hält er mehr aus.', pl: 'Opancerzony lepiej niż każdy BWP swoich czasów, wytrzymuje więcej.' },
+                },
+                t90a: {
+                    name: { ru: 'Сварная башня', ua: 'Зварна башта', en: 'Welded turret', de: 'Geschweißter Turm', pl: 'Spawana wieża' },
+                    text: { ru: 'Сварная башня с комбинированным наполнителем держит лучше литой.', ua: 'Зварна башта з комбінованим наповнювачем тримає краще за литу.', en: 'The welded turret with composite fill holds up better than a cast one.', de: 'Der geschweißte Turm mit Verbundfüllung hält besser als ein gegossener.', pl: 'Spawana wieża z wypełnieniem kompozytowym trzyma lepiej niż odlewana.' },
+                },
+                ztz99a: {
+                    name: { ru: 'Двигатель 1 500 л.с.', ua: 'Двигун 1 500 к.с.', en: '1 500 hp engine', de: 'Motor mit 1 500 PS', pl: 'Silnik 1 500 KM' },
+                    text: { ru: 'Дизель мощностью 1 500 л.с. даёт больше мощности.', ua: 'Дизель потужністю 1 500 к.с. дає більше потужності.', en: 'The 1 500 hp diesel gives it more power.', de: 'Der Diesel mit 1 500 PS gibt ihm mehr Leistung.', pl: 'Diesel o mocy 1 500 KM daje mu więcej mocy.' },
+                },
+                t84bm: {
+                    name: { ru: 'Динамическая защита «Дуплет»', ua: 'Динамічний захист «Дуплет»', en: 'Duplet reactive armor', de: 'Reaktivpanzerung Duplet', pl: 'Pancerz reaktywny Duplet' },
+                    text: { ru: 'Динамическая защита «Дуплет» гасит попадания.', ua: 'Динамічний захист «Дуплет» гасить влучання.', en: 'Duplet explosive reactive armor soaks up hits.', de: 'Die Reaktivpanzerung Duplet fängt Treffer ab.', pl: 'Pancerz reaktywny Duplet pochłania trafienia.' },
+                },
+                leclercs2: {
+                    name: { ru: 'Городской комплект AZUR', ua: 'Міський комплект AZUR', en: 'AZUR urban kit', de: 'Stadtkampfsatz AZUR', pl: 'Zestaw miejski AZUR' },
+                    text: { ru: 'Решётки и экраны комплекта AZUR держат ударную волну.', ua: 'Ґрати й екрани комплекту AZUR тримають ударну хвилю.', en: "The AZUR kit's slat armor and skirts shrug off blast.", de: 'Gitter und Schürzen des AZUR-Satzes halten der Druckwelle stand.', pl: 'Kraty i osłony zestawu AZUR wytrzymują falę uderzeniową.' },
+                },
+                type10: {
+                    name: { ru: 'Гидропневматическая подвеска', ua: 'Гідропневматична підвіска', en: 'Hydropneumatic suspension', de: 'Hydropneumatisches Fahrwerk', pl: 'Zawieszenie hydropneumatyczne' },
+                    text: { ru: 'Активная подвеска наклоняет корпус вперёд: орудие опускается ниже.', ua: 'Активна підвіска нахиляє корпус уперед: гармата опускається нижче.', en: 'The active suspension kneels the hull forward: the gun dips further.', de: 'Das aktive Fahrwerk neigt die Wanne nach vorn: Die Kanone senkt sich weiter.', pl: 'Aktywne zawieszenie pochyla kadłub do przodu: działo opuszcza się niżej.' },
+                },
+                obj292: {
+                    name: { ru: '152-мм ЛП-83', ua: '152-мм ЛП-83', en: '152 mm LP-83', de: '152-mm-LP-83', pl: '152 mm LP-83' },
+                    text: { ru: 'Пушка ЛП-83 калибра 152 мм сильнее бьёт специальными снарядами.', ua: 'Гармата ЛП-83 калібру 152 мм сильніше б\'є спеціальними снарядами.', en: 'The 152 mm LP-83 hits harder with its special shells.', de: 'Die 152-mm-LP-83 trifft mit Spezialmunition härter.', pl: 'Działo LP-83 kalibru 152 mm mocniej bije pociskami specjalnymi.' },
+                },
+                chally2: {
+                    name: { ru: 'Нарезная L30', ua: 'Нарізна L30', en: 'Rifled L30', de: 'Gezogene L30', pl: 'Gwintowana L30' },
+                    text: { ru: 'Нарезная пушка L30 точна на дальней дистанции.', ua: 'Нарізна гармата L30 точна на далекій дистанції.', en: 'The rifled L30 gun is accurate at long range.', de: 'Die gezogene Kanone L30 ist auf große Distanz präzise.', pl: 'Gwintowane działo L30 jest celne na dużym dystansie.' },
+                },
+                m1sepv2: {
+                    name: { ru: 'СУО SEP', ua: 'СКВ SEP', en: 'SEP fire control', de: 'SEP-Feuerleitung', pl: 'Kierowanie ogniem SEP' },
+                    text: { ru: 'Система управления огнём SEP быстрее наводит орудие.', ua: 'Система керування вогнем SEP швидше наводить гармату.', en: 'The SEP fire control lays the gun faster.', de: 'Die SEP-Feuerleitung richtet die Kanone schneller.', pl: 'Kierowanie ogniem SEP szybciej naprowadza działo.' },
+                },
+                leo2pso: {
+                    name: { ru: 'Бульдозерный отвал', ua: 'Бульдозерний відвал', en: 'Dozer blade', de: 'Räumschild', pl: 'Lemiesz' },
+                    text: { ru: 'Отвал бьёт сильнее при таране и принимает удар на себя.', ua: 'Відвал б\'є сильніше при тарані й приймає удар на себе.', en: 'The blade hits harder in a ram and takes the blow for the hull.', de: 'Das Schild trifft beim Rammen härter und fängt den Stoß für die Wanne ab.', pl: 'Lemiesz uderza mocniej przy taranowaniu i przyjmuje cios za kadłub.' },
+                },
+                t80bvm: {
+                    name: { ru: 'Динамическая защита «Реликт»', ua: 'Динамічний захист «Релікт»', en: 'Relikt reactive armor', de: 'Reaktivpanzerung Relikt', pl: 'Pancerz reaktywny Relikt' },
+                    text: { ru: 'Динамическая защита «Реликт» выдерживает больше попаданий.', ua: 'Динамічний захист «Релікт» витримує більше влучань.', en: 'Relikt reactive armor defeats more hits.', de: 'Die Reaktivpanzerung Relikt wehrt mehr Treffer ab.', pl: 'Pancerz reaktywny Relikt odpiera więcej trafień.' },
+                },
+                ztz100: {
+                    name: { ru: 'Экипаж в корпусе', ua: 'Екіпаж у корпусі', en: 'Crew in the hull', de: 'Besatzung in der Wanne', pl: 'Załoga w kadłubie' },
+                    text: { ru: 'Экипаж сидит в защищённой капсуле корпуса.', ua: 'Екіпаж сидить у захищеній капсулі корпусу.', en: 'The crew sits in a protected capsule in the hull.', de: 'Die Besatzung sitzt in einer geschützten Kapsel in der Wanne.', pl: 'Załoga siedzi w chronionej kapsule w kadłubie.' },
+                },
+                strv122: {
+                    name: { ru: 'Шведский пакет брони', ua: 'Шведський пакет броні', en: 'Swedish armor package', de: 'Schwedisches Panzerungspaket', pl: 'Szwedzki pakiet pancerza' },
+                    text: { ru: 'Шведский пакет брони делает его одним из самых защищённых «Леопардов».', ua: 'Шведський пакет броні робить його одним із найзахищеніших «Леопардів».', en: 'The Swedish armor package makes it one of the best-protected Leopards.', de: 'Das schwedische Panzerungspaket macht ihn zu einem der am besten geschützten Leoparden.', pl: 'Szwedzki pakiet pancerza czyni go jednym z najlepiej chronionych Leopardów.' },
+                },
+                m1a2c: {
+                    name: { ru: 'Вышибные панели', ua: 'Вибивні панелі', en: 'Ammo blow-out panels', de: 'Ausblaspaneele', pl: 'Panele wydmuchowe' },
+                    text: { ru: 'Вышибные панели уводят взрыв боеукладки от экипажа.', ua: 'Вибивні панелі відводять вибух боєукладки від екіпажу.', en: 'Blow-out panels vent an ammo hit away from the crew.', de: 'Ausblaspaneele leiten einen Munitionstreffer von der Besatzung weg.', pl: 'Panele wydmuchowe odprowadzają wybuch amunicji z dala od załogi.' },
+                },
+                leo2a7v: {
+                    name: { ru: 'Пушка L55A1', ua: 'Гармата L55A1', en: 'L55A1 gun', de: 'Kanone L55A1', pl: 'Działo L55A1' },
+                    text: { ru: 'Пушка L55A1 выжимает больше из основных снарядов.', ua: 'Гармата L55A1 вичавлює більше з основних снарядів.', en: 'The L55A1 gun gets more out of its standard shells.', de: 'Die Kanone L55A1 holt mehr aus der Standardmunition heraus.', pl: 'Działo L55A1 wyciska więcej z pocisków podstawowych.' },
+                },
+                merk4m: {
+                    name: { ru: 'Двигатель спереди', ua: 'Двигун спереду', en: 'Front engine', de: 'Frontmotor', pl: 'Silnik z przodu' },
+                    text: { ru: 'Двигатель впереди прикрывает экипаж позади себя.', ua: 'Двигун спереду прикриває екіпаж позаду себе.', en: 'The engine up front shields the crew behind it.', de: 'Der Motor vorn schützt die Besatzung dahinter.', pl: 'Silnik z przodu osłania załogę za sobą.' },
+                },
+                abramsx: {
+                    name: { ru: 'Автомат заряжания', ua: 'Автомат заряджання', en: 'Autoloader', de: 'Ladeautomat', pl: 'Automat ładowania' },
+                    text: { ru: 'Автомат заряжания держит темп огня выше.', ua: 'Автомат заряджання тримає вищий темп вогню.', en: 'The autoloader keeps a faster rate of fire.', de: 'Der Ladeautomat hält eine höhere Feuerrate.', pl: 'Automat ładowania utrzymuje szybsze tempo ognia.' },
+                },
+                panzer87: {
+                    name: { ru: '140-мм пушка', ua: '140-мм гармата', en: '140 mm gun', de: '140-mm-Kanone', pl: 'Działo 140 mm' },
+                    text: { ru: 'Пушка калибра 140 мм пробивает больше брони.', ua: 'Гармата калібру 140 мм пробиває більше броні.', en: 'The 140 mm gun punches through more armor.', de: 'Die 140-mm-Kanone durchschlägt mehr Panzerung.', pl: 'Działo 140 mm przebija więcej pancerza.' },
+                },
+            },
+            // One line per stat a node moves; `value` is signed ("+5", "-3").
+            effects: {
+                reload: { ru: '{{value}}% к времени перезарядки', ua: '{{value}}% до часу перезаряджання', en: '{{value}}% reload time', de: '{{value}} % Nachladezeit', pl: '{{value}}% czasu przeładowania' },
+                clipReload: { ru: '{{value}}% к времени перезарядки магазина', ua: '{{value}}% до часу перезаряджання магазину', en: '{{value}}% magazine reload time', de: '{{value}} % Magazin-Nachladezeit', pl: '{{value}}% czasu przeładowania magazynka' },
+                swapReload: { ru: '{{value}}% к времени смены снаряда', ua: '{{value}}% до часу зміни снаряда', en: '{{value}}% shell change time', de: '{{value}} % Munitionswechselzeit', pl: '{{value}}% czasu zmiany pocisku' },
+                aimTime: { ru: '{{value}}% к времени сведения', ua: '{{value}}% до часу зведення', en: '{{value}}% aim time', de: '{{value}} % Zielzeit', pl: '{{value}}% czasu celowania' },
+                dispersion: { ru: '{{value}}% к разбросу при полном сведении', ua: '{{value}}% до розкиду при повному зведенні', en: '{{value}}% dispersion when fully aimed', de: '{{value}} % Streuung bei voller Zielerfassung', pl: '{{value}}% rozrzutu po pełnym wycelowaniu' },
+                dispersionMove: { ru: '{{value}}% к разбросу в движении', ua: '{{value}}% до розкиду в русі', en: '{{value}}% dispersion on the move', de: '{{value}} % Streuung in Fahrt', pl: '{{value}}% rozrzutu w ruchu' },
+                dispersionHullTurn: { ru: '{{value}}% к разбросу при повороте корпуса', ua: '{{value}}% до розкиду при повороті корпусу', en: '{{value}}% dispersion on hull traverse', de: '{{value}} % Streuung beim Wannendrehen', pl: '{{value}}% rozrzutu przy obrocie kadłuba' },
+                dispersionTurret: { ru: '{{value}}% к разбросу при повороте башни', ua: '{{value}}% до розкиду при повороті башти', en: '{{value}}% dispersion on turret traverse', de: '{{value}} % Streuung beim Turmdrehen', pl: '{{value}}% rozrzutu przy obrocie wieży' },
+                hp: { ru: '{{value}}% к запасу прочности', ua: '{{value}}% до запасу міцності', en: '{{value}}% hit points', de: '{{value}} % Trefferpunkte', pl: '{{value}}% punktów wytrzymałości' },
+                moduleHp: {
+                    ammoRack: { ru: '{{value}}% к прочности боеукладки', ua: '{{value}}% до міцності боєукладки', en: '{{value}}% ammo rack durability', de: '{{value}} % Haltbarkeit des Munitionslagers', pl: '{{value}}% wytrzymałości magazynu amunicji' },
+                },
+                trackRepairSpeed: { ru: '{{value}}% к скорости ремонта гусениц', ua: '{{value}}% до швидкості ремонту гусениць', en: '{{value}}% track repair speed', de: '{{value}} % Kettenreparaturgeschwindigkeit', pl: '{{value}}% szybkości naprawy gąsienic' },
+                repairSpeed: { ru: '{{value}}% к скорости ремонта', ua: '{{value}}% до швидкості ремонту', en: '{{value}}% repair speed', de: '{{value}} % Reparaturgeschwindigkeit', pl: '{{value}}% szybkości naprawy' },
+                fireChance: { ru: '{{value}}% к шансу пожара', ua: '{{value}}% до шансу пожежі', en: '{{value}}% chance of fire', de: '{{value}} % Brandwahrscheinlichkeit', pl: '{{value}}% szansy na pożar' },
+                crewHitChance: { ru: '{{value}}% к шансу контузии экипажа', ua: '{{value}}% до шансу контузії екіпажу', en: '{{value}}% chance of crew injury', de: '{{value}} % Verletzungswahrscheinlichkeit der Besatzung', pl: '{{value}}% szansy na ranienie załogi' },
+                heTaken: { ru: '{{value}}% к получаемому урону от фугасов', ua: '{{value}}% до отримуваної шкоди від фугасів', en: '{{value}}% HE damage taken', de: '{{value}} % erlittener HE-Schaden', pl: '{{value}}% otrzymywanych obrażeń od pocisków OB' },
+                ramDealt: { ru: '{{value}}% к урону от тарана', ua: '{{value}}% до шкоди від тарана', en: '{{value}}% ramming damage dealt', de: '{{value}} % verursachter Rammschaden', pl: '{{value}}% obrażeń zadawanych taranem' },
+                ramTaken: { ru: '{{value}}% к получаемому урону от тарана', ua: '{{value}}% до отримуваної шкоди від тарана', en: '{{value}}% ramming damage taken', de: '{{value}} % erlittener Rammschaden', pl: '{{value}}% obrażeń otrzymywanych od taranu' },
+                hullTraverse: { ru: '{{value}}% к скорости поворота корпуса', ua: '{{value}}% до швидкості повороту корпусу', en: '{{value}}% hull traverse speed', de: '{{value}} % Wannendrehgeschwindigkeit', pl: '{{value}}% prędkości obrotu kadłuba' },
+                turretTraverse: { ru: '{{value}}% к скорости поворота башни', ua: '{{value}}% до швидкості повороту башти', en: '{{value}}% turret traverse speed', de: '{{value}} % Turmdrehgeschwindigkeit', pl: '{{value}}% prędkości obrotu wieży' },
+                enginePower: { ru: '{{value}}% к мощности двигателя', ua: '{{value}}% до потужності двигуна', en: '{{value}}% engine power', de: '{{value}} % Motorleistung', pl: '{{value}}% mocy silnika' },
+                topSpeedKmh: { ru: '{{value}} км/ч к максимальной скорости', ua: '{{value}} км/год до максимальної швидкості', en: '{{value}} km/h top speed', de: '{{value}} km/h Höchstgeschwindigkeit', pl: '{{value}} km/h prędkości maksymalnej' },
+                reverseSpeedKmh: { ru: '{{value}} км/ч к скорости заднего хода', ua: '{{value}} км/год до швидкості заднього ходу', en: '{{value}} km/h reverse speed', de: '{{value}} km/h Rückwärtsgeschwindigkeit', pl: '{{value}} km/h prędkości cofania' },
+                viewRange: { ru: '{{value}}% к дальности обзора', ua: '{{value}}% до дальності огляду', en: '{{value}}% view range', de: '{{value}} % Sichtweite', pl: '{{value}}% zasięgu widzenia' },
+                shellSpeed: { ru: '{{value}}% к скорости полёта снаряда', ua: '{{value}}% до швидкості польоту снаряда', en: '{{value}}% shell velocity', de: '{{value}} % Geschossgeschwindigkeit', pl: '{{value}}% prędkości pocisku' },
+                penetration: {
+                    standard: { ru: '{{value}}% к бронепробитию основным', ua: '{{value}}% до бронепробиття основним', en: '{{value}}% standard shell penetration', de: '{{value}} % Durchschlag der Standardmunition', pl: '{{value}}% przebicia pociskiem podstawowym' },
+                    special: { ru: '{{value}}% к бронепробитию специальным', ua: '{{value}}% до бронепробиття спеціальним', en: '{{value}}% special shell penetration', de: '{{value}} % Durchschlag der Spezialmunition', pl: '{{value}}% przebicia pociskiem specjalnym' },
+                    he: { ru: '{{value}}% к бронепробитию фугасным', ua: '{{value}}% до бронепробиття фугасним', en: '{{value}}% HE shell penetration', de: '{{value}} % Durchschlag der HE-Munition', pl: '{{value}}% przebicia pociskiem OB' },
+                },
+                gunDepressionDeg: { ru: '{{value}}° к углу склонения орудия', ua: '{{value}}° до кута зниження гармати', en: '{{value}}° gun depression', de: '{{value}}° Geschützsenkung', pl: '{{value}}° depresji działa' },
+                camoStill: { ru: '{{value}}% к маскировке на месте', ua: '{{value}}% до маскування на місці', en: '{{value}}% camouflage when stationary', de: '{{value}} % Tarnung im Stand', pl: '{{value}}% kamuflażu w miejscu' },
+                camoMoving: { ru: '{{value}}% к маскировке в движении', ua: '{{value}}% до маскування в русі', en: '{{value}}% camouflage on the move', de: '{{value}} % Tarnung in Fahrt', pl: '{{value}}% kamuflażu w ruchu' },
+            },
+            cost: { ru: 'Стоимость', ua: 'Вартість', en: 'Cost', de: 'Kosten', pl: 'Koszt' },
+            sidePrice: { ru: 'Стоимость стороны', ua: 'Вартість сторони', en: 'One side', de: 'Eine Seite', pl: 'Jedna strona' },
+            opened: { ru: 'Открыто', ua: 'Відкрито', en: 'Opened', de: 'Freigeschaltet', pl: 'Odblokowane' },
+            progress: { ru: '{{value}} / {{total}}', ua: '{{value}} / {{total}}', en: '{{value}} / {{total}}', de: '{{value}} / {{total}}', pl: '{{value}} / {{total}}' },
+            lockedBy: { ru: 'Откроется после: {{nodes}}', ua: 'Відкриється після: {{nodes}}', en: 'Opens after: {{nodes}}', de: 'Wird freigeschaltet nach: {{nodes}}', pl: 'Otworzy się po: {{nodes}}' },
+            lockedFinal: {
+                ru: 'Откроется после всех остальных улучшений, осталось: {{count}}',
+                ua: 'Відкриється після всіх інших покращень, лишилося: {{count}}',
+                en: 'Opens after every other upgrade, {{count}} left',
+                de: 'Wird nach allen anderen Verbesserungen freigeschaltet, noch {{count}}',
+                pl: 'Otworzy się po wszystkich innych ulepszeniach, zostało: {{count}}',
+            },
+            open: { ru: 'Открыть за {{value}}', ua: 'Відкрити за {{value}}', en: 'Open for {{value}}', de: 'Für {{value}} freischalten', pl: 'Odblokuj za {{value}}' },
+            openWith: { ru: '{{spec}}: открыть за {{value}}', ua: '{{spec}}: відкрити за {{value}}', en: 'Open with {{spec}} for {{value}}', de: 'Mit {{spec}} für {{value}} freischalten', pl: 'Odblokuj z {{spec}} za {{value}}' },
+            buy: { ru: 'Купить за {{value}}', ua: 'Купити за {{value}}', en: 'Buy for {{value}}', de: 'Für {{value}} kaufen', pl: 'Kup za {{value}}' },
+            pick: { ru: 'Выбрать', ua: 'Обрати', en: 'Pick', de: 'Wählen', pl: 'Wybierz' },
+            inUse: { ru: 'Используется', ua: 'Використовується', en: 'In use', de: 'In Verwendung', pl: 'W użyciu' },
+            assign: { ru: 'Назначить', ua: 'Призначити', en: 'Assign', de: 'Zuweisen', pl: 'Przypisz' },
+            change: { ru: 'Сменить за {{value}}', ua: 'Змінити за {{value}}', en: 'Change for {{value}}', de: 'Für {{value}} ändern', pl: 'Zmień za {{value}}' },
+            roleHint: {
+                ru: 'Слоты 2 и 3 сохраняют категории класса. Первое назначение бесплатно, смена платная.',
+                ua: 'Слоти 2 і 3 зберігають категорії класу. Перше призначення безкоштовне, зміна платна.',
+                en: "Slots 2 and 3 keep the class's categories. The first assignment is free, a change is paid.",
+                de: 'Plätze 2 und 3 behalten die Kategorien der Klasse. Die erste Zuweisung ist kostenlos, ein Wechsel kostet.',
+                pl: 'Sloty 2 i 3 zachowują kategorie klasy. Pierwsze przypisanie jest darmowe, zmiana płatna.',
+            },
+            setsHint: {
+                ru: 'Комплекты переключаются в ряду под танком: вкладки 1 и 2 над слотами.',
+                ua: 'Комплекти перемикаються в ряду під танком: вкладки 1 і 2 над слотами.',
+                en: 'Switch the sets on the row under the tank: tabs 1 and 2 above the slots.',
+                de: 'Die Sätze wechselst du in der Leiste unter dem Panzer: Reiter 1 und 2 über den Plätzen.',
+                pl: 'Zestawy przełączasz w rzędzie pod czołgiem: karty 1 i 2 nad slotami.',
+            },
+            specHint: {
+                ru: 'Купленные специализации остаются навсегда, переключение между ними бесплатно.',
+                ua: 'Куплені спеціалізації лишаються назавжди, перемикання між ними безкоштовне.',
+                en: 'Bought specializations stay bought; switching between them is free.',
+                de: 'Gekaufte Spezialisierungen bleiben, der Wechsel zwischen ihnen ist kostenlos.',
+                pl: 'Kupione specjalizacje zostają na stałe, przełączanie między nimi jest darmowe.',
+            },
+            setTab: { ru: 'Комплект {{value}}', ua: 'Комплект {{value}}', en: 'Set {{value}}', de: 'Satz {{value}}', pl: 'Zestaw {{value}}' },
+            otherSet: { ru: 'Во втором комплекте', ua: 'У другому комплекті', en: 'In the other set', de: 'Im anderen Satz', pl: 'W drugim zestawie' },
+            // A pair side or a specialization that moves only what the characteristics do not list (camouflage, crew injury).
+            previewNone: {
+                ru: 'Характеристики в ангаре не меняются: эффект работает в бою.',
+                ua: 'Характеристики в ангарі не змінюються: ефект діє в бою.',
+                en: 'No number in the hangar moves: it works in battle.',
+                de: 'Kein Wert im Hangar ändert sich: Es wirkt im Gefecht.',
+                pl: 'Żaden parametr w hangarze się nie zmienia: działa w bitwie.',
+            },
+            veteran: {
+                name: { ru: 'Знак ветерана', ua: 'Знак ветерана', en: 'Veteran mark', de: 'Veteranenabzeichen', pl: 'Znak weterana' },
+                text: {
+                    ru: 'Открытая специализация отмечает танк как ветерана: знак в ангаре и в бою, рядом с его именем.',
+                    ua: 'Відкрита спеціалізація позначає танк як ветерана: знак в ангарі й у бою, поруч із його назвою.',
+                    en: 'Opening the specialization marks the tank as a veteran: a mark in the hangar and in battle, next to its name.',
+                    de: 'Die freigeschaltete Spezialisierung kennzeichnet den Panzer als Veteran: ein Abzeichen im Hangar und im Gefecht neben seinem Namen.',
+                    pl: 'Odblokowana specjalizacja oznacza czołg jako weterana: znak w hangarze i w bitwie, obok jego nazwy.',
+                },
+                earned: { ru: 'Получен', ua: 'Отримано', en: 'Earned', de: 'Verdient', pl: 'Zdobyty' },
+            },
+            notOwned: {
+                ru: 'Улучшения открываются опытом этого танка, когда он в ангаре и все его топовые модули исследованы.',
+                ua: 'Покращення відкриваються досвідом цього танка, коли він в ангарі та всі його топові модулі досліджено.',
+                en: "Upgrades are opened with this tank's XP once it is in the hangar with all its top modules researched.",
+                de: 'Verbesserungen werden mit den EP dieses Panzers freigeschaltet, sobald er im Hangar steht und alle Top-Module erforscht sind.',
+                pl: 'Ulepszenia odblokowuje się doświadczeniem tego czołgu, gdy jest w hangarze, a wszystkie jego topowe moduły są zbadane.',
+            },
+            closed: {
+                ru: 'Улучшения откроются, когда будут исследованы все четыре топовых модуля.',
+                ua: 'Покращення відкриються, коли буде досліджено всі чотири топові модулі.',
+                en: 'Upgrades open once all four top modules are researched.',
+                de: 'Verbesserungen werden freigeschaltet, sobald alle vier Top-Module erforscht sind.',
+                pl: 'Ulepszenia otworzą się, gdy wszystkie cztery topowe moduły zostaną zbadane.',
+            },
+            toModules: { ru: 'К модулям', ua: 'До модулів', en: 'To modules', de: 'Zu den Modulen', pl: 'Do modułów' },
         },
         status: {
             owned: { ru: 'В ангаре, готов к бою', ua: 'В ангарі, готовий до бою', en: 'In the hangar, ready for battle', de: 'Im Hangar, gefechtsbereit', pl: 'W hangarze, gotowy do bitwy' },
@@ -275,7 +727,7 @@ export default {
             locked: { ru: 'Не исследован', ua: 'Не досліджено', en: 'Not researched', de: 'Nicht erforscht', pl: 'Niezbadany' },
         },
         carousel: {
-            count: { ru: '{{shown}} / {{total}}', ua: '{{shown}} / {{total}}', en: '{{shown}} / {{total}}', de: '{{shown}} / {{total}}', pl: '{{shown}} / {{total}}' },
+            count: { ru: '{{owned}} / {{slots}}', ua: '{{owned}} / {{slots}}', en: '{{owned}} / {{slots}}', de: '{{owned}} / {{slots}}', pl: '{{owned}} / {{slots}}' },
             filter: { ru: 'Фильтр', ua: 'Фільтр', en: 'Filter', de: 'Filter', pl: 'Filtr' },
             byClass: { ru: 'Класс', ua: 'Клас', en: 'Class', de: 'Klasse', pl: 'Klasa' },
             byTier: { ru: 'Уровень', ua: 'Рівень', en: 'Tier', de: 'Stufe', pl: 'Poziom' },
@@ -289,6 +741,71 @@ export default {
             // The empty slot after the last tank.
             research: { ru: 'Исследовать технику', ua: 'Дослідити техніку', en: 'Research vehicles', de: 'Fahrzeuge erforschen', pl: 'Badaj pojazdy' },
             available: { ru: 'Можно получить: {{count}}', ua: 'Можна отримати: {{count}}', en: 'Ready to get: {{count}}', de: 'Jetzt erhältlich: {{count}}', pl: 'Do zdobycia: {{count}}' },
+            freeSlots: { ru: 'Свободных слотов: {{count}}', ua: 'Вільних слотів: {{count}}', en: 'Free slots: {{count}}', de: 'Freie Plätze: {{count}}', pl: 'Wolne miejsca: {{count}}' },
+            // World of Tanks' slot card, the last of the carousel.
+            buySlot: { ru: 'Купить слот', ua: 'Купити слот', en: 'Buy slot', de: 'Platz kaufen', pl: 'Kup miejsce' },
+        },
+        // A carousel card's right click, World of Tanks' vehicle context menu.
+        context: {
+            tree: { ru: 'Показать в дереве исследований', ua: 'Показати в дереві досліджень', en: 'Show in research tree', de: 'Im Forschungsbaum zeigen', pl: 'Pokaż w drzewku badań' },
+            sell: { ru: 'Продать', ua: 'Продати', en: 'Sell', de: 'Verkaufen', pl: 'Sprzedaj' },
+        },
+        slot: {
+            title: { ru: 'Слот в ангаре', ua: 'Слот в ангарі', en: 'Garage slot', de: 'Garagenplatz', pl: 'Miejsce w garażu' },
+            text: {
+                ru: 'Место ещё для одного танка в ангаре, навсегда.',
+                ua: 'Місце ще для одного танка в ангарі, назавжди.',
+                en: 'Room for one more tank in the garage, for good.',
+                de: 'Platz für einen weiteren Panzer in der Garage, dauerhaft.',
+                pl: 'Miejsce na jeszcze jeden czołg w garażu, na stałe.',
+            },
+            slots: { ru: 'Слотов', ua: 'Слотів', en: 'Slots', de: 'Plätze', pl: 'Miejsca' },
+            free: { ru: 'Свободно', ua: 'Вільно', en: 'Free', de: 'Frei', pl: 'Wolne' },
+            full: {
+                ru: 'Слотов уже хватает на все танки дерева',
+                ua: 'Слотів уже вистачає на всі танки дерева',
+                en: 'There is already a slot for every tank of the tree',
+                de: 'Es gibt schon einen Platz für jeden Panzer des Baums',
+                pl: 'Miejsc wystarczy już na wszystkie czołgi drzewka',
+            },
+            cancel: { ru: 'Отмена', ua: 'Скасувати', en: 'Cancel', de: 'Abbrechen', pl: 'Anuluj' },
+        },
+        // World of Tanks' vehicle sale dialog.
+        sell: {
+            title: { ru: 'Продать {{name}}', ua: 'Продати {{name}}', en: 'Sell {{name}}', de: '{{name}} verkaufen', pl: 'Sprzedaj {{name}}' },
+            vehicle: { ru: 'Машина', ua: 'Машина', en: 'Vehicle', de: 'Fahrzeug', pl: 'Pojazd' },
+            modules: { ru: 'Топовые модули: {{count}}', ua: 'Топові модулі: {{count}}', en: 'Top modules: {{count}}', de: 'Top-Module: {{count}}', pl: 'Topowe moduły: {{count}}' },
+            equipment: { ru: 'На склад', ua: 'На склад', en: 'To the depot', de: 'Ins Depot', pl: 'Do magazynu' },
+            keeps: {
+                ru: 'Экипаж, снаряды, внешний вид и улучшения остаются за машиной и вернутся, если купить её снова.',
+                ua: 'Екіпаж, снаряди, зовнішній вигляд і покращення залишаються за машиною і повернуться, якщо купити її знову.',
+                en: 'The crew, shells, exterior and upgrades stay with the vehicle and come back if you buy it again.',
+                de: 'Besatzung, Granaten, Aussehen und Verbesserungen bleiben beim Fahrzeug und kommen mit einem Neukauf zurück.',
+                pl: 'Załoga, pociski, wygląd i ulepszenia zostają przy pojeździe i wrócą, jeśli kupisz go ponownie.',
+            },
+            total: { ru: 'Вы получите', ua: 'Ви отримаєте', en: 'You receive', de: 'Du erhältst', pl: 'Otrzymasz' },
+            confirm: {
+                ru: 'Для подтверждения введите сумму {{value}}',
+                ua: 'Для підтвердження введіть суму {{value}}',
+                en: 'To confirm, enter the amount {{value}}',
+                de: 'Zur Bestätigung den Betrag {{value}} eingeben',
+                pl: 'Aby potwierdzić, wpisz kwotę {{value}}',
+            },
+            lastTank: {
+                ru: 'Это ваш единственный танк. Чтобы продать его, сначала купите другой.',
+                ua: 'Це ваш єдиний танк. Щоб продати його, спершу купіть інший.',
+                en: 'This is your only tank. Buy another one before you sell it.',
+                de: 'Das ist dein einziger Panzer. Kauf erst einen anderen, bevor du ihn verkaufst.',
+                pl: 'To twój jedyny czołg. Kup najpierw inny, zanim go sprzedasz.',
+            },
+            repair: {
+                ru: 'Сначала отремонтируйте танк: продать можно только исправную машину.',
+                ua: 'Спершу відремонтуйте танк: продати можна лише справну машину.',
+                en: 'Repair the tank first: only an undamaged vehicle can be sold.',
+                de: 'Repariere den Panzer zuerst: Verkauft wird nur ein unbeschädigtes Fahrzeug.',
+                pl: 'Najpierw napraw czołg: sprzedać można tylko sprawny pojazd.',
+            },
+            cancel: { ru: 'Отмена', ua: 'Скасувати', en: 'Cancel', de: 'Abbrechen', pl: 'Anuluj' },
         },
         // The crew roles of the loadout row (5.11): what each answers for and what a stun costs.
         crew: {
@@ -1102,9 +1619,18 @@ export default {
             },
             credits: { ru: 'Кредиты', ua: 'Кредити', en: 'Credits', de: 'Credits', pl: 'Kredyty' },
             earned: { ru: 'Заработано', ua: 'Зароблено', en: 'Earned', de: 'Verdient', pl: 'Zarobione' },
-            shells: { ru: 'Особые снаряды', ua: 'Особливі снаряди', en: 'Special shells', de: 'Spezialmunition', pl: 'Pociski specjalne' },
+            shells: { ru: 'Пополнение боекомплекта', ua: 'Поповнення боєкомплекту', en: 'Ammo resupply', de: 'Munition aufgefüllt', pl: 'Uzupełnienie amunicji' },
             consumables: { ru: 'Расходники', ua: 'Витратники', en: 'Consumables', de: 'Verbrauchsgüter', pl: 'Materiały eksploatacyjne' },
             covered: { ru: 'Списано с баланса', ua: 'Списано з балансу', en: 'Covered by the balance', de: 'Vom Guthaben gedeckt', pl: 'Pokryte z salda' },
+            // The auto-resupply stopped at a round the balance did not cover.
+            ammoShort: {
+                ru: 'Кредитов не хватило: боекомплект пополнен не полностью.',
+                ua: 'Кредитів не вистачило: боєкомплект поповнено не повністю.',
+                en: 'The credits ran out: the ammo rack was not fully resupplied.',
+                de: 'Die Credits reichten nicht: Das Munitionslager wurde nicht ganz aufgefüllt.',
+                pl: 'Zabrakło kredytów: amunicja nie została w pełni uzupełniona.',
+            },
+            resupplyExchange: { ru: 'Пополнить за {{value}}', ua: 'Поповнити за {{value}}', en: 'Resupply for {{value}}', de: 'Für {{value}} auffüllen', pl: 'Uzupełnij za {{value}}' },
             net: { ru: 'Итого', ua: 'Разом', en: 'Net', de: 'Netto', pl: 'Razem' },
             repair: { ru: 'Долг за ремонт', ua: 'Борг за ремонт', en: 'Repair owed', de: 'Offene Reparatur', pl: 'Dług za naprawę' },
             efficiency: { ru: 'Эффективность', ua: 'Ефективність', en: 'Efficiency', de: 'Effizienz', pl: 'Efektywność' },
@@ -1151,22 +1677,86 @@ export default {
                 pl: 'Dzienny limit lobby osiągnięty: ponad niego {{share}}%.',
             },
         },
-        // The ammo loadout: the rack's rounds split between the three shells.
+        // The ammunition screen: the rack's rounds split between the three shells.
         ammo: {
-            title: { ru: 'Боекомплект', ua: 'Боєкомплект', en: 'Ammunition', de: 'Munition', pl: 'Amunicja' },
-            capacity: { ru: '{{value}} из {{max}} снарядов', ua: '{{value}} з {{max}} снарядів', en: '{{value}} of {{max}} rounds', de: '{{value}} von {{max}} Schuss', pl: '{{value}} z {{max}} pocisków' },
+            rack: { ru: 'Боеукладка', ua: 'Боєукладка', en: 'Ammo rack', de: 'Munitionslager', pl: 'Luk amunicyjny' },
+            rackHint: {
+                ru: 'Загружено {{value}} снарядов из {{max}}, которые вмещает боеукладка',
+                ua: 'Завантажено {{value}} снарядів із {{max}}, які вміщує боєукладка',
+                en: '{{value}} rounds loaded of the {{max}} the ammo rack holds',
+                de: '{{value}} von {{max}} Schuss geladen, die das Munitionslager fasst',
+                pl: 'Załadowano {{value}} z {{max}} pocisków, które mieści luk amunicyjny',
+            },
             kinds: {
                 ap: { ru: 'Бронебойный', ua: 'Бронебійний', en: 'Armor-piercing', de: 'Panzergranate', pl: 'Przeciwpancerny' },
                 apcr: { ru: 'Подкалиберный', ua: 'Підкаліберний', en: 'Armor-piercing composite rigid', de: 'Hartkerngeschoss', pl: 'Podkalibrowy' },
                 heat: { ru: 'Кумулятивный', ua: 'Кумулятивний', en: 'High-explosive anti-tank', de: 'Hohlladung', pl: 'Kumulacyjny' },
                 he: { ru: 'Осколочно-фугасный', ua: 'Осколково-фугасний', en: 'High-explosive', de: 'Sprenggranate', pl: 'Odłamkowo-burzący' },
             },
-            stats: {
-                ru: 'Пробитие {{penetration}} мм, урон {{damage}}',
-                ua: 'Пробиття {{penetration}} мм, шкода {{damage}}',
-                en: 'Penetration {{penetration}} mm, damage {{damage}}',
-                de: 'Durchschlag {{penetration}} mm, Schaden {{damage}}',
-                pl: 'Przebicie {{penetration}} mm, obrażenia {{damage}}',
+            // A shell's column: its numbers, each with its unit after it.
+            params: {
+                damage: {
+                    label: { ru: 'Средний урон', ua: 'Середня шкода', en: 'Average damage', de: 'Durchschnittlicher Schaden', pl: 'Średnie obrażenia' },
+                    unit: { ru: 'ед.', ua: 'од.', en: 'HP', de: 'TP', pl: 'PW' },
+                },
+                penetration: {
+                    label: { ru: 'Среднее бронепробитие', ua: 'Середнє пробиття броні', en: 'Average penetration', de: 'Durchschnittlicher Durchschlag', pl: 'Średnia penetracja' },
+                    unit: { ru: 'мм', ua: 'мм', en: 'mm', de: 'mm', pl: 'mm' },
+                },
+                speed: {
+                    label: { ru: 'Скорость полёта', ua: 'Швидкість польоту', en: 'Shell velocity', de: 'Geschossgeschwindigkeit', pl: 'Prędkość pocisku' },
+                    unit: { ru: 'м/с', ua: 'м/с', en: 'm/s', de: 'm/s', pl: 'm/s' },
+                },
+                radius: {
+                    label: { ru: 'Радиус поражения', ua: 'Радіус ураження', en: 'Explosion radius', de: 'Explosionsradius', pl: 'Promień wybuchu' },
+                    unit: { ru: 'м', ua: 'м', en: 'm', de: 'm', pl: 'm' },
+                },
+            },
+            stock: { ru: 'На складе / в боеукладке', ua: 'На складі / у боєукладці', en: 'In depot / in ammo rack', de: 'Im Depot / im Munitionslager', pl: 'W magazynie / w luku' },
+            buy: { ru: 'Докупить', ua: 'Докупити', en: 'Buy', de: 'Nachkaufen', pl: 'Dokup' },
+            total: { ru: 'Итого', ua: 'Разом', en: 'Total', de: 'Gesamt', pl: 'Razem' },
+            autoResupply: { ru: 'Автопополнение', ua: 'Автопоповнення', en: 'Auto-resupply', de: 'Automatisch auffüllen', pl: 'Automatyczne uzupełnianie' },
+            emptyRack: {
+                ru: 'Загрузите хотя бы один снаряд',
+                ua: 'Завантажте хоча б один снаряд',
+                en: 'Load at least one round',
+                de: 'Mindestens einen Schuss laden',
+                pl: 'Załaduj co najmniej jeden pocisk',
+            },
+            cancel: { ru: 'Отменить', ua: 'Скасувати', en: 'Cancel', de: 'Abbrechen', pl: 'Anuluj' },
+            load: { ru: 'Загрузить', ua: 'Завантажити', en: 'Load', de: 'Laden', pl: 'Załaduj' },
+            buyLoad: { ru: 'Купить и загрузить', ua: 'Купити й завантажити', en: 'Buy and load', de: 'Kaufen und laden', pl: 'Kup i załaduj' },
+            swap: { ru: 'Поменять местами', ua: 'Поміняти місцями', en: 'Swap places', de: 'Plätze tauschen', pl: 'Zamień miejscami' },
+            // The credits buy none of the rounds being loaded: the rest of their price can be paid in dollars, the credits spent too.
+            exchangeNote: {
+                ru: 'Кредитов не хватает: остаток можно оплатить долларами, {{value}}',
+                ua: 'Кредитів не вистачає: решту можна оплатити доларами, {{value}}',
+                en: 'Not enough credits: the rest can be paid in dollars, {{value}}',
+                de: 'Nicht genug Credits: Der Rest lässt sich in Dollar bezahlen, {{value}}',
+                pl: 'Za mało kredytów: resztę można opłacić w dolarach, {{value}}',
+            },
+            exchangeLoad: { ru: 'Оплатить {{value}} и загрузить', ua: 'Оплатити {{value}} й завантажити', en: 'Pay {{value}} and load', de: '{{value}} zahlen und laden', pl: 'Zapłać {{value}} i załaduj' },
+            // World of Tanks' vehicle state: fewer rounds in the rack than a fifth of what it takes.
+            incomplete: { ru: 'Боекомплект не полон', ua: 'Боєкомплект неповний', en: 'Ammunition incomplete', de: 'Munition unvollständig', pl: 'Niepełna amunicja' },
+            incompleteHint: {
+                ru: 'Загружено меньше пятой части боеукладки: перед боем игра спросит, идти ли так.',
+                ua: 'Завантажено менше пʼятої частини боєукладки: перед боєм гра спитає, чи йти так.',
+                en: 'Less than a fifth of the rack is loaded: before a battle the game asks whether to go like this.',
+                de: 'Weniger als ein Fünftel des Munitionslagers geladen: Vor dem Gefecht fragt das Spiel, ob es so losgehen soll.',
+                pl: 'Załadowano mniej niż piątą część luku: przed bitwą gra zapyta, czy iść tak.',
+            },
+            // World of Tanks' `lowAmmoAutoLoad` question before a battle.
+            warning: {
+                title: { ru: 'Боекомплект не полон', ua: 'Боєкомплект неповний', en: 'Ammunition incomplete', de: 'Munition unvollständig', pl: 'Niepełna amunicja' },
+                text: {
+                    ru: 'Отправиться в бой с неполным боекомплектом?',
+                    ua: 'Вирушити в бій з неповним боєкомплектом?',
+                    en: 'Enter the battle anyway?',
+                    de: 'Trotzdem ins Gefecht ziehen?',
+                    pl: 'Mimo to wejść do bitwy?',
+                },
+                battle: { ru: 'В бой!', ua: 'У бій!', en: 'Battle!', de: 'Ins Gefecht!', pl: 'Do bitwy!' },
+                cancel: { ru: 'Отмена', ua: 'Скасувати', en: 'Cancel', de: 'Abbrechen', pl: 'Anuluj' },
             },
             speed: { ru: 'Скорость снаряда', ua: 'Швидкість снаряда', en: 'Shell velocity', de: 'Geschossgeschwindigkeit', pl: 'Prędkość pocisku' },
             hint: {
@@ -1176,8 +1766,6 @@ export default {
                 de: 'Klicken, um die Munitionsbeladung zu ändern',
                 pl: 'Kliknij, aby zmienić rozkład amunicji',
             },
-            reset: { ru: 'По умолчанию', ua: 'За замовчуванням', en: 'Default', de: 'Standard', pl: 'Domyślnie' },
-            save: { ru: 'Сохранить', ua: 'Зберегти', en: 'Save', de: 'Speichern', pl: 'Zapisz' },
         },
         // The details view's General tab.
         general: {
@@ -1245,6 +1833,8 @@ export default {
             gunArc: { ru: 'Углы наводки', ua: 'Кути наведення', en: 'Gun depression and elevation', de: 'Höhenrichtbereich', pl: 'Kąty celowania' },
             reverseSpeed: { ru: 'Скорость назад', ua: 'Швидкість назад', en: 'Reverse speed', de: 'Rückwärtsgeschwindigkeit', pl: 'Prędkość wsteczna' },
             mass: { ru: 'Масса', ua: 'Маса', en: 'Weight', de: 'Gewicht', pl: 'Masa' },
+            power: { ru: 'Мощность двигателя', ua: 'Потужність двигуна', en: 'Engine power', de: 'Motorleistung', pl: 'Moc silnika' },
+            specificPower: { ru: 'Удельная мощность', ua: 'Питома потужність', en: 'Specific power', de: 'Leistungsgewicht', pl: 'Moc jednostkowa' },
         },
         units: {
             mm: { ru: '{{value}} мм', ua: '{{value}} мм', en: '{{value}} mm', de: '{{value}} mm', pl: '{{value}} mm' },
@@ -1262,6 +1852,8 @@ export default {
             rounds: { ru: '{{value}} шт.', ua: '{{value}} шт.', en: '{{value}} rounds', de: '{{value}} Schuss', pl: '{{value}} szt.' },
             arc: { ru: '{{down}}° / +{{up}}°', ua: '{{down}}° / +{{up}}°', en: '{{down}}° / +{{up}}°', de: '{{down}}° / +{{up}}°', pl: '{{down}}° / +{{up}}°' },
             t: { ru: '{{value}} т', ua: '{{value}} т', en: '{{value}} t', de: '{{value}} t', pl: '{{value}} t' },
+            hp: { ru: '{{value}} л.с.', ua: '{{value}} к.с.', en: '{{value}} hp', de: '{{value}} PS', pl: '{{value}} KM' },
+            hpt: { ru: '{{value}} л.с./т', ua: '{{value}} к.с./т', en: '{{value}} hp/t', de: '{{value}} PS/t', pl: '{{value}} KM/t' },
             ms: { ru: '{{value}} м/с', ua: '{{value}} м/с', en: '{{value}} m/s', de: '{{value}} m/s', pl: '{{value}} m/s' },
         },
         upgrades: {
@@ -1322,18 +1914,18 @@ export default {
             },
             effects: {
                 armor: {
-                    ru: '+{{hp}}% прочности, -{{speed}}% скорости',
-                    ua: '+{{hp}}% міцності, -{{speed}}% швидкості',
-                    en: '+{{hp}}% hit points, -{{speed}}% top speed',
-                    de: '+{{hp}}% Trefferpunkte, -{{speed}}% Höchstgeschwindigkeit',
-                    pl: '+{{hp}}% wytrzymałości, -{{speed}}% prędkości',
+                    ru: '+{{hp}}% прочности, -{{power}}% удельной мощности',
+                    ua: '+{{hp}}% міцності, -{{power}}% питомої потужності',
+                    en: '+{{hp}}% hit points, -{{power}}% specific power',
+                    de: '+{{hp}}% Trefferpunkte, -{{power}}% Leistungsgewicht',
+                    pl: '+{{hp}}% wytrzymałości, -{{power}}% mocy jednostkowej',
                 },
                 dozer: {
-                    ru: '+{{hp}}% прочности, -{{speed}}% скорости',
-                    ua: '+{{hp}}% міцності, -{{speed}}% швидкості',
-                    en: '+{{hp}}% hit points, -{{speed}}% top speed',
-                    de: '+{{hp}}% Trefferpunkte, -{{speed}}% Höchstgeschwindigkeit',
-                    pl: '+{{hp}}% wytrzymałości, -{{speed}}% prędkości',
+                    ru: '+{{hp}}% прочности, -{{power}}% удельной мощности',
+                    ua: '+{{hp}}% міцності, -{{power}}% питомої потужності',
+                    en: '+{{hp}}% hit points, -{{power}}% specific power',
+                    de: '+{{hp}}% Trefferpunkte, -{{power}}% Leistungsgewicht',
+                    pl: '+{{hp}}% wytrzymałości, -{{power}}% mocy jednostkowej',
                 },
                 camoNet: {
                     ru: '+{{camo}}% маскировки, пока танк стоит',
@@ -1486,6 +2078,7 @@ export default {
             overlays: {
                 nominal: { ru: 'Номинальная броня', ua: 'Номінальна броня', en: 'Nominal armor', de: 'Nennpanzerung', pl: 'Pancerz nominalny' },
                 penetration: { ru: 'Шанс пробития', ua: 'Шанс пробиття', en: 'Penetration chance', de: 'Durchschlagschance', pl: 'Szansa przebicia' },
+                modules: { ru: 'Модули и экипаж', ua: 'Модулі та екіпаж', en: 'Modules and crew', de: 'Module und Besatzung', pl: 'Moduły i załoga' },
             },
             scales: {
                 body: { ru: 'Основная броня, мм', ua: 'Основна броня, мм', en: 'Main armor, mm', de: 'Hauptpanzerung, mm', pl: 'Pancerz główny, mm' },
@@ -1516,6 +2109,78 @@ export default {
             added: { ru: '+{{value}} мм за счёт наклона', ua: '+{{value}} мм через нахил', en: '+{{value}} mm from the slope', de: '+{{value}} mm durch die Neigung', pl: '+{{value}} mm z nachylenia' },
             sum: { ru: '({{nominal}} + {{added}})', ua: '({{nominal}} + {{added}})', en: '({{nominal}} + {{added}})', de: '({{nominal}} + {{added}})', pl: '({{nominal}} + {{added}})' },
             chanceOf: { ru: '{{value}}% пробития', ua: '{{value}}% пробиття', en: '{{value}}% penetration', de: '{{value}}% Durchschlag', pl: '{{value}}% przebicia' },
+            // The modules overlay: the legend's groups, a track by its side, and the card at the cursor.
+            modules: {
+                ammoRack: { ru: 'Боеукладка', ua: 'Боєукладка', en: 'Ammo rack', de: 'Munitionslager', pl: 'Magazyn amunicji' },
+                fuelTank: { ru: 'Топливные баки', ua: 'Паливні баки', en: 'Fuel tanks', de: 'Kraftstofftanks', pl: 'Zbiorniki paliwa' },
+                engine: { ru: 'Двигатель', ua: 'Двигун', en: 'Engine', de: 'Motor', pl: 'Silnik' },
+                gun: { ru: 'Орудие', ua: 'Гармата', en: 'Gun', de: 'Geschütz', pl: 'Działo' },
+                turretRing: { ru: 'Механизм поворота башни', ua: 'Механізм повороту башти', en: 'Turret traverse', de: 'Turmdrehwerk', pl: 'Mechanizm obrotu wieży' },
+                optics: { ru: 'Приборы наблюдения', ua: 'Прилади спостереження', en: 'Observation devices', de: 'Beobachtungsgeräte', pl: 'Przyrządy obserwacyjne' },
+                tracks: { ru: 'Гусеницы', ua: 'Гусениці', en: 'Tracks', de: 'Ketten', pl: 'Gąsienice' },
+                crew: { ru: 'Экипаж', ua: 'Екіпаж', en: 'Crew', de: 'Besatzung', pl: 'Załoga' },
+                trackLeft: { ru: 'Левая гусеница', ua: 'Ліва гусениця', en: 'Left track', de: 'Linke Kette', pl: 'Lewa gąsienica' },
+                trackRight: { ru: 'Правая гусеница', ua: 'Права гусениця', en: 'Right track', de: 'Rechte Kette', pl: 'Prawa gąsienica' },
+            },
+            moduleHp: { ru: 'Прочность модуля', ua: 'Міцність модуля', en: 'Module durability', de: 'Modulhaltbarkeit', pl: 'Wytrzymałość modułu' },
+            moduleEffects: {
+                engine: {
+                    ru: 'Повреждённый двигатель снижает скорость, уничтоженный обездвиживает танк. Попадание может вызвать пожар.',
+                    ua: 'Пошкоджений двигун знижує швидкість, знищений знерухомлює танк. Влучання може спричинити пожежу.',
+                    en: 'A damaged engine cuts the speed, a destroyed one stops the tank. A hit can start a fire.',
+                    de: 'Ein beschädigter Motor senkt die Geschwindigkeit, ein zerstörter legt den Panzer still. Ein Treffer kann einen Brand auslösen.',
+                    pl: 'Uszkodzony silnik obniża prędkość, zniszczony unieruchamia czołg. Trafienie może wywołać pożar.',
+                },
+                ammoRack: {
+                    ru: 'Повреждённая боеукладка замедляет перезарядку. Уничтоженная может взорваться вместе с танком.',
+                    ua: 'Пошкоджена боєукладка сповільнює перезаряджання. Знищена може вибухнути разом із танком.',
+                    en: 'A damaged ammo rack slows the reload. A destroyed one can blow the tank up.',
+                    de: 'Ein beschädigtes Munitionslager verlangsamt das Nachladen. Ein zerstörtes kann den Panzer sprengen.',
+                    pl: 'Uszkodzony magazyn amunicji spowalnia przeładowanie. Zniszczony może wysadzić czołg.',
+                },
+                fuelTank: {
+                    ru: 'Попадание в баки может вызвать пожар.',
+                    ua: 'Влучання в баки може спричинити пожежу.',
+                    en: 'A hit on the fuel tanks can start a fire.',
+                    de: 'Ein Treffer in die Tanks kann einen Brand auslösen.',
+                    pl: 'Trafienie w zbiorniki może wywołać pożar.',
+                },
+                gun: {
+                    ru: 'Повреждённое орудие дольше сводится и сильнее разбрасывает снаряды, уничтоженное не стреляет.',
+                    ua: 'Пошкоджена гармата довше зводиться і сильніше розкидає снаряди, знищена не стріляє.',
+                    en: 'A damaged gun aims slower and spreads its shots wider, a destroyed one cannot fire.',
+                    de: 'Ein beschädigtes Geschütz zielt langsamer und streut stärker, ein zerstörtes feuert nicht.',
+                    pl: 'Uszkodzone działo celuje wolniej i ma większy rozrzut, zniszczone nie strzela.',
+                },
+                turretRing: {
+                    ru: 'Повреждённый механизм замедляет поворот башни, уничтоженный её заклинивает.',
+                    ua: 'Пошкоджений механізм сповільнює поворот башти, знищений її заклинює.',
+                    en: 'A damaged traverse slows the turret, a destroyed one jams it.',
+                    de: 'Ein beschädigtes Drehwerk verlangsamt den Turm, ein zerstörtes blockiert ihn.',
+                    pl: 'Uszkodzony mechanizm spowalnia obrót wieży, zniszczony ją blokuje.',
+                },
+                optics: {
+                    ru: 'Повреждённые приборы сокращают обзор, уничтоженные сокращают его ещё сильнее.',
+                    ua: 'Пошкоджені прилади скорочують огляд, знищені скорочують його ще більше.',
+                    en: 'Damaged observation devices cut the view range, destroyed ones cut it further.',
+                    de: 'Beschädigte Beobachtungsgeräte senken die Sichtweite, zerstörte noch stärker.',
+                    pl: 'Uszkodzone przyrządy zmniejszają zasięg widzenia, zniszczone jeszcze bardziej.',
+                },
+                track: {
+                    ru: 'Сбитая гусеница обездвиживает танк до ремонта.',
+                    ua: 'Збита гусениця знерухомлює танк до ремонту.',
+                    en: 'A broken track stops the tank until it is repaired.',
+                    de: 'Eine abgeschossene Kette legt den Panzer bis zur Reparatur still.',
+                    pl: 'Zerwana gąsienica unieruchamia czołg do naprawy.',
+                },
+            },
+            modulesHint: {
+                ru: 'Наведите курсор на модуль или члена экипажа: карточка покажет, что это и за что он отвечает.',
+                ua: 'Наведіть курсор на модуль або члена екіпажу: картка покаже, що це і за що він відповідає.',
+                en: 'Point at a module or a crew member: the card shows what it is and what it does.',
+                de: 'Zeig auf ein Modul oder ein Besatzungsmitglied: Die Karte zeigt, was es ist und wofür es zuständig ist.',
+                pl: 'Najedź kursorem na moduł lub członka załogi: karta pokaże, co to jest i za co odpowiada.',
+            },
         },
         zones: {
             upperFront: { ru: 'Верхний лобовой лист', ua: 'Верхній лобовий лист', en: 'Upper front plate', de: 'Obere Bugplatte', pl: 'Górna płyta czołowa' },
@@ -1634,6 +2299,15 @@ export default {
                 pl: 'Czołg zbadany. Na zakup brakuje jeszcze kredytów: dają je bitwy.',
             },
             buy: { ru: 'Купить за {{value}}', ua: 'Купити за {{value}}', en: 'Buy for {{value}}', de: 'Für {{value}} kaufen', pl: 'Kup za {{value}}' },
+            noSlot: {
+                ru: 'Свободного слота в ангаре нет: он будет куплен вместе с танком за {{value}}.',
+                ua: 'Вільного слота в ангарі немає: його буде куплено разом із танком за {{value}}.',
+                en: 'No free garage slot: one is bought with the tank for {{value}}.',
+                de: 'Kein freier Garagenplatz: Einer wird mit dem Panzer für {{value}} gekauft.',
+                pl: 'Brak wolnego miejsca w garażu: zostanie kupione razem z czołgiem za {{value}}.',
+            },
+            buyAction: { ru: 'Купить', ua: 'Купити', en: 'Buy', de: 'Kaufen', pl: 'Kup' },
+            buyWithSlotAction: { ru: 'Купить со слотом', ua: 'Купити зі слотом', en: 'Buy with a slot', de: 'Mit Platz kaufen', pl: 'Kup z miejscem' },
             researchFrom: {
                 ru: 'Опыта {{tank}} хватает на исследование.',
                 ua: 'Досвіду {{tank}} вистачає на дослідження.',
@@ -1649,6 +2323,7 @@ export default {
                 pl: 'Doświadczenie {{tank}} wystarcza razem z wolnym: z wolnego pójdzie {{free}}.',
             },
             research: { ru: 'Исследовать за {{value}}', ua: 'Дослідити за {{value}}', en: 'Research for {{value}}', de: 'Für {{value}} erforschen', pl: 'Zbadaj za {{value}}' },
+            researchAction: { ru: 'Исследовать', ua: 'Дослідити', en: 'Research', de: 'Erforschen', pl: 'Zbadaj' },
             needXp: {
                 ru: 'Нужно {{value}} опыта. На {{tank}} накоплено {{have}}.',
                 ua: 'Потрібно {{value}} досвіду. На {{tank}} накопичено {{have}}.',
@@ -1674,6 +2349,15 @@ export default {
         errors: {
             noCredits: { ru: 'Не хватает кредитов', ua: 'Не вистачає кредитів', en: 'Not enough credits', de: 'Nicht genug Credits', pl: 'Za mało kredytów' },
             noXp: { ru: 'Не хватает опыта', ua: 'Не вистачає досвіду', en: 'Not enough XP', de: 'Nicht genug EP', pl: 'Za mało doświadczenia' },
+            noMoney: { ru: 'Не хватает денег', ua: 'Не вистачає грошей', en: 'Not enough money', de: 'Nicht genug Geld', pl: 'Za mało pieniędzy' },
+            noSlot: { ru: 'Нет свободного слота в ангаре', ua: 'Немає вільного слота в ангарі', en: 'No free garage slot', de: 'Kein freier Garagenplatz', pl: 'Brak wolnego miejsca w garażu' },
+            inBattle: {
+                ru: 'Танк ещё в бою: продать его можно, когда бой закончится',
+                ua: 'Танк ще в бою: продати його можна, коли бій закінчиться',
+                en: 'The tank is still in a battle: it can be sold once the battle ends',
+                de: 'Der Panzer ist noch im Gefecht: Verkaufen geht, sobald das Gefecht endet',
+                pl: 'Czołg jest jeszcze w bitwie: można go sprzedać po jej zakończeniu',
+            },
             locked: { ru: 'Сначала пройдите предыдущий шаг', ua: 'Спершу пройдіть попередній крок', en: 'Take the step before this first', de: 'Erst den vorigen Schritt machen', pl: 'Najpierw wykonaj poprzedni krok' },
             conflict: {
                 ru: 'Встаёт на место уже установленного снаряжения',

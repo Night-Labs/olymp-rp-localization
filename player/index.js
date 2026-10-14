@@ -1,5 +1,6 @@
 import passport from './passport';
 import lawyerLicense from './lawyerLicense';
+import pressCard from './pressCard';
 import signature from './signature';
 import payday from './payday';
 import aidkit from './aidkit';
@@ -127,13 +128,20 @@ export default {
         de: 'Dieser Bauplan wurde bereits gelernt, du kannst ihn wegwerfen oder verkaufen',
         pl: 'Ten schemat został już poznany, możesz go wyrzucić lub sprzedać',
     },
+    blueprintRetired: {
+        ru: 'Этот чертёж устарел и больше ничему не учит. Уолтер выкупит его по базовой цене',
+        ua: 'Цей кресленик застарів і більше нічого не навчає. Волтер викупить його за базовою ціною',
+        en: 'This blueprint is outdated and teaches nothing any more. Walter will buy it back at its base price',
+        de: 'Dieser Bauplan ist veraltet und bringt dir nichts mehr bei. Walter kauft ihn zum Grundpreis zurück',
+        pl: 'Ten schemat jest przestarzały i niczego już nie uczy. Walter odkupi go po cenie bazowej',
+    },
     commands: {
         supportUsage: {
-            ru: '[сообщение] - связаться с администрацией',
-            ua: "[повідомлення] - зв'язатися з адміністрацією",
-            en: '[message] - contact administration',
-            de: '[nachricht] - administration kontaktieren',
-            pl: '[wiadomosc] - skontaktowac sie z administracja',
+            ru: '- как связаться с администрацией (обращения в меню, раздел Поддержка)',
+            ua: "- як зв'язатися з адміністрацією (звернення в меню, розділ Підтримка)",
+            en: '- how to contact the administration (tickets in the menu, Support section)',
+            de: '- wie man die Administration kontaktiert (Anfragen im Menü, Bereich Support)',
+            pl: '- jak skontaktowac sie z administracja (zgloszenia w menu, sekcja Wsparcie)',
         },
         exitUsage: {
             ru: '- выйти из ивента',
@@ -161,6 +169,7 @@ export default {
     //
     passport,
     lawyerLicense,
+    pressCard,
     signature,
     payday,
     aidkit,

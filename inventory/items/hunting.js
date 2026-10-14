@@ -1,4 +1,77 @@
 export default {
+    // Field gear (shared/jobs/hunting/gear): the binoculars are sold at the 24/7, the call and the salt lick at the hunting lodge.
+    huntingBinoculars: {
+        name: {
+            ru: 'Бинокль',
+            ua: 'Бінокль',
+            en: 'Binoculars',
+            de: 'Fernglas',
+            pl: 'Lornetka',
+            zh: '望远镜',
+        },
+        desc: {
+            ru: 'Обычный бинокль, чтобы разглядеть что-то издалека. Пригодится на охоте: зверь под перекрестием отмечается на карте',
+            ua: 'Звичайний бінокль, щоб роздивитися щось здалеку. Знадобиться на полюванні: звір під перехрестям позначається на мапі',
+            en: 'Ordinary binoculars for a look at things far away. Handy when hunting: an animal under the crosshair gets marked on the map',
+            de: 'Ein gewöhnliches Fernglas, um Dinge in der Ferne zu betrachten. Praktisch bei der Jagd: Ein Tier im Fadenkreuz wird auf der Karte markiert',
+            pl: 'Zwykła lornetka, by przyjrzeć się czemuś z daleka. Przyda się na polowaniu: zwierzę pod celownikiem zostaje zaznaczone na mapie',
+            zh: '普通的望远镜，用来看清远处的东西。打猎时很有用：准星下的野兽会在地图上被标记',
+        },
+    },
+    huntingPredatorCall: {
+        name: {
+            ru: 'Манок на хищника',
+            ua: 'Вабик на хижака',
+            en: 'Predator Call',
+            de: 'Raubwildlocker',
+            pl: 'Wabik na drapieżnika',
+            zh: '掠食者诱哨',
+        },
+        desc: {
+            ru: 'Вой, на который выходят хищники. Ближайшие койоты и пумы идут туда, где вы позвали, и встречают вас уже как добычу. Травоядных рядом звук спугнёт',
+            ua: 'Виття, на яке виходять хижаки. Найближчі койоти й пуми йдуть туди, де ви покликали, і зустрічають вас уже як здобич. Травоїдних поруч звук сполохає',
+            en: 'A howl predators come out to. The nearest coyotes and cougars head for where you called, and they meet you as prey. Grazers close by bolt at the sound',
+            de: 'Ein Heulen, auf das Raubtiere herauskommen. Die nächsten Kojoten und Pumas ziehen dorthin, wo du gerufen hast, und sehen dich dort als Beute. Pflanzenfresser in der Nähe flüchten vor dem Laut',
+            pl: 'Wycie, na które wychodzą drapieżniki. Najbliższe kojoty i pumy idą tam, gdzie zawołałeś, i witają cię jak zdobycz. Roślinożercy w pobliżu płoszą się na ten dźwięk',
+            zh: '能引出掠食者的嚎叫声。附近的郊狼和美洲狮会朝你呼唤的地方走来，把你当成猎物。附近的食草动物会被声音惊跑',
+        },
+    },
+    huntingSaltLick: {
+        name: {
+            ru: 'Солонец',
+            ua: 'Солонець',
+            en: 'Salt Lick',
+            de: 'Salzlecke',
+            pl: 'Lizawka solna',
+            zh: '盐砖诱饵',
+        },
+        desc: {
+            ru: 'Мешок соли-лизунца с зерном. Поставьте его в лесу: олени, кабаны и кролики вокруг, до трёх сразу, будут приходить к нему пастись 15 минут. Подойдёте близко, и они разбегутся',
+            ua: 'Мішок солі-лизунця із зерном. Поставте його в лісі: олені, кабани й кролі довкола, до трьох одночасно, приходитимуть до нього пастися 15 хвилин. Підійдете близько, і вони розбіжаться',
+            en: 'A sack of lick salt and grain. Set it down in the woods and the deer, boars and rabbits around, up to three at a time, come to graze at it for 15 minutes. Walk up close and they scatter',
+            de: 'Ein Sack Lecksalz mit Getreide. Stell ihn im Wald ab, dann kommen Hirsche, Wildschweine und Kaninchen der Umgebung, bis zu drei zugleich, 15 Minuten lang zum Äsen. Kommst du zu nah, laufen sie davon',
+            pl: 'Worek soli do lizania z ziarnem. Postaw go w lesie, a jelenie, dziki i króliki z okolicy, do trzech naraz, będą przychodzić się przy nim paść przez 15 minut. Podejdziesz zbyt blisko, a uciekną',
+            zh: '一袋舔盐和谷物。把它放在林子里，周围的鹿、野猪和兔子会来这里吃上15分钟，同时最多三只。靠得太近它们就会跑散',
+        },
+    },
+    deer_skin_ruined: {
+        name: {
+            ru: 'Испорченная шкура оленя',
+            ua: 'Зіпсована шкура оленя',
+            en: 'Ruined Deer Skin',
+            de: 'Verdorbene Hirschhaut',
+            pl: 'Zniszczona skóra jelenia',
+            zh: '破损的鹿皮',
+        },
+        desc: {
+            ru: 'Изрезанные и порванные клочья, годятся разве что на ветошь',
+            ua: "Порізані й подерті клапті, придатні хіба що на ганчір'я",
+            en: 'Slashed and torn scraps, good for little more than rags',
+            de: 'Zerschnittene, zerrissene Fetzen, kaum mehr als Lumpen',
+            pl: 'Pocięte i podarte strzępy, nadają się najwyżej na szmaty',
+            zh: '被割破撕裂的碎皮，只能当抹布用',
+        },
+    },
     deer_skin_bad: {
         name: {
             ru: 'Плохая шкура оленя',
@@ -107,6 +180,42 @@ export default {
             zh: '珍贵的狩猎战利品',
         },
     },
+    deer_skull: {
+        name: {
+            ru: 'Олений череп с рогами',
+            ua: 'Олений череп з рогами',
+            en: 'Deer Skull with Antlers',
+            de: 'Hirschschädel mit Geweih',
+            pl: 'Czaszka jelenia z porożem',
+            zh: '带角鹿头骨',
+        },
+        desc: {
+            ru: 'Редкий трофей: череп уцелел целиком, вместе с рогами',
+            ua: 'Рідкісний трофей: череп уцілів повністю, разом з рогами',
+            en: 'A rare trophy: the skull came out whole, antlers and all',
+            de: 'Eine seltene Trophäe: Der Schädel ist samt Geweih unversehrt',
+            pl: 'Rzadkie trofeum: czaszka ocalała w całości razem z porożem',
+            zh: '稀有战利品：头骨连同鹿角完整无缺',
+        },
+    },
+    boar_skin_ruined: {
+        name: {
+            ru: 'Испорченная шкура кабана',
+            ua: 'Зіпсована шкура кабана',
+            en: 'Ruined Boar Skin',
+            de: 'Verdorbene Wildschweinhaut',
+            pl: 'Zniszczona skóra dzika',
+            zh: '破损的野猪皮',
+        },
+        desc: {
+            ru: 'Изрезанные и порванные клочья, годятся разве что на ветошь',
+            ua: "Порізані й подерті клапті, придатні хіба що на ганчір'я",
+            en: 'Slashed and torn scraps, good for little more than rags',
+            de: 'Zerschnittene, zerrissene Fetzen, kaum mehr als Lumpen',
+            pl: 'Pocięte i podarte strzępy, nadają się najwyżej na szmaty',
+            zh: '被割破撕裂的碎皮，只能当抹布用',
+        },
+    },
     boar_skin_bad: {
         name: {
             ru: 'Плохая шкура кабана',
@@ -143,6 +252,60 @@ export default {
             zh: '没有特殊特征的普通皮肤',
         },
     },
+    boar_skin_good: {
+        name: {
+            ru: 'Хорошая шкура кабана',
+            ua: 'Хороша шкура кабана',
+            en: 'Good Boar Skin',
+            de: 'Gute Wildschweinhaut',
+            pl: 'Dobra skóra dzika',
+            zh: '优质野猪皮',
+        },
+        desc: {
+            ru: 'Шкура хорошего качества',
+            ua: 'Шкура хорошої якості',
+            en: 'High-quality skin',
+            de: 'Hochwertige Haut',
+            pl: 'Wysokiej jakości skóra',
+            zh: '高品质皮肤',
+        },
+    },
+    boar_skin_legendary: {
+        name: {
+            ru: 'Легендарная шкура кабана',
+            ua: 'Легендарна шкура кабана',
+            en: 'Legendary Boar Skin',
+            de: 'Legendäre Wildschweinhaut',
+            pl: 'Legendarna skóra dzika',
+            zh: '传奇野猪皮',
+        },
+        desc: {
+            ru: 'Шкура наивысшего качества, редкая и ценная',
+            ua: 'Шкура найвищої якості, рідкісна та цінна',
+            en: 'Top-quality skin, rare and valuable',
+            de: 'Haut höchster Qualität, selten und wertvoll',
+            pl: 'Skóra najwyższej jakości, rzadka i cenna',
+            zh: '最高品质的皮，稀有而珍贵',
+        },
+    },
+    boar_tusk: {
+        name: {
+            ru: 'Кабаний клык',
+            ua: 'Ікло кабана',
+            en: 'Boar Tusk',
+            de: 'Keilerhauer',
+            pl: 'Kieł dzika',
+            zh: '野猪獠牙',
+        },
+        desc: {
+            ru: 'Изогнутый клык секача, охотники хранят его как трофей',
+            ua: 'Вигнуте ікло сікача, мисливці зберігають його як трофей',
+            en: 'A curved tusk of a wild boar, kept by hunters as a trophy',
+            de: 'Ein gebogener Hauer eines Keilers, Jäger bewahren ihn als Trophäe auf',
+            pl: 'Zakrzywiony kieł odyńca, myśliwi trzymają go jako trofeum',
+            zh: '野猪弯曲的獠牙，猎人将其作为战利品收藏',
+        },
+    },
     boar_meat: {
         name: {
             ru: 'Мясо кабана',
@@ -159,6 +322,24 @@ export default {
             de: 'Kann verkauft oder gekocht werden',
             pl: 'Można sprzedać lub ugotować',
             zh: '你可以卖东西或做饭',
+        },
+    },
+    coyote_skin_ruined: {
+        name: {
+            ru: 'Испорченная шкура койота',
+            ua: 'Зіпсована шкура койота',
+            en: 'Ruined Coyote Skin',
+            de: 'Verdorbene Kojotenhaut',
+            pl: 'Zniszczona skóra kojota',
+            zh: '破损的郊狼皮',
+        },
+        desc: {
+            ru: 'Изрезанные и порванные клочья, годятся разве что на ветошь',
+            ua: "Порізані й подерті клапті, придатні хіба що на ганчір'я",
+            en: 'Slashed and torn scraps, good for little more than rags',
+            de: 'Zerschnittene, zerrissene Fetzen, kaum mehr als Lumpen',
+            pl: 'Pocięte i podarte strzępy, nadają się najwyżej na szmaty',
+            zh: '被割破撕裂的碎皮，只能当抹布用',
         },
     },
     coyote_skin_bad: {
@@ -215,6 +396,24 @@ export default {
             zh: '高品质皮肤',
         },
     },
+    coyote_tail: {
+        name: {
+            ru: 'Хвост койота',
+            ua: 'Хвіст койота',
+            en: 'Coyote Tail',
+            de: 'Kojotenschwanz',
+            pl: 'Ogon kojota',
+            zh: '郊狼尾巴',
+        },
+        desc: {
+            ru: 'Пушистый хвост с чёрным кончиком, идёт на отделку одежды',
+            ua: 'Пухнастий хвіст з чорним кінчиком, йде на оздоблення одягу',
+            en: 'A bushy black-tipped tail, used to trim clothing',
+            de: 'Ein buschiger Schwanz mit schwarzer Spitze, für Kleidungsbesatz verwendet',
+            pl: 'Puszysty ogon z czarną końcówką, służy do wykańczania odzieży',
+            zh: '带黑尖的蓬松尾巴，用于装饰衣物',
+        },
+    },
     animal_tooth: {
         name: {
             ru: 'Зуб животного',
@@ -251,6 +450,24 @@ export default {
             zh: '你能把东西卖给交易员吗？',
         },
     },
+    big_cat_claw: {
+        name: {
+            ru: 'Коготь хищника',
+            ua: 'Кіготь хижака',
+            en: 'Big Cat Claw',
+            de: 'Raubkatzenkralle',
+            pl: 'Pazur drapieżnika',
+            zh: '大型猫科动物的爪子',
+        },
+        desc: {
+            ru: 'Изогнутый коготь пумы или пантеры',
+            ua: 'Вигнутий кіготь пуми або пантери',
+            en: 'A curved claw of a cougar or a panther',
+            de: 'Eine gebogene Kralle eines Pumas oder Panthers',
+            pl: 'Zakrzywiony pazur pumy lub pantery',
+            zh: '美洲狮或黑豹的弯爪',
+        },
+    },
     deer_raw_meat: {
         name: {
             ru: 'Сырое мясо оленя',
@@ -267,6 +484,24 @@ export default {
             de: 'Kann gekocht oder verkauft werden',
             pl: 'Można gotować lub sprzedawać',
             zh: '可以烹饪或出售',
+        },
+    },
+    lion_skin_ruined: {
+        name: {
+            ru: 'Испорченная шкура льва',
+            ua: 'Зіпсована шкура лева',
+            en: 'Ruined Lion Skin',
+            de: 'Verdorbene Löwenhaut',
+            pl: 'Zniszczona skóra lwa',
+            zh: '破损的狮子皮',
+        },
+        desc: {
+            ru: 'Изрезанные и порванные клочья, годятся разве что на ветошь',
+            ua: "Порізані й подерті клапті, придатні хіба що на ганчір'я",
+            en: 'Slashed and torn scraps, good for little more than rags',
+            de: 'Zerschnittene, zerrissene Fetzen, kaum mehr als Lumpen',
+            pl: 'Pocięte i podarte strzępy, nadają się najwyżej na szmaty',
+            zh: '被割破撕裂的碎皮，只能当抹布用',
         },
     },
     lion_skin_bad: {
@@ -339,6 +574,42 @@ export default {
             de: 'Haut höchster Qualität, selten und wertvoll',
             pl: 'Skóra najwyższej jakości, rzadka i cenna',
             zh: '优质肌肤，稀有而珍贵',
+        },
+    },
+    cougar_skull: {
+        name: {
+            ru: 'Череп пумы',
+            ua: 'Череп пуми',
+            en: 'Cougar Skull',
+            de: 'Pumaschädel',
+            pl: 'Czaszka pumy',
+            zh: '美洲狮头骨',
+        },
+        desc: {
+            ru: 'Редкий трофей: череп уцелел вместе с клыками',
+            ua: 'Рідкісний трофей: череп уцілів разом з іклами',
+            en: 'A rare trophy: the skull came out whole, fangs and all',
+            de: 'Eine seltene Trophäe: Der Schädel ist samt Fangzähnen unversehrt',
+            pl: 'Rzadkie trofeum: czaszka ocalała razem z kłami',
+            zh: '稀有战利品：头骨连同獠牙完整无缺',
+        },
+    },
+    rabbit_skin_ruined: {
+        name: {
+            ru: 'Испорченная шкурка кролика',
+            ua: 'Зіпсована шкурка кролика',
+            en: 'Ruined Rabbit Skin',
+            de: 'Verdorbene Kaninchenhaut',
+            pl: 'Zniszczona skóra królika',
+            zh: '破损的兔皮',
+        },
+        desc: {
+            ru: 'Изрезанные и порванные клочья, годятся разве что на ветошь',
+            ua: "Порізані й подерті клапті, придатні хіба що на ганчір'я",
+            en: 'Slashed and torn scraps, good for little more than rags',
+            de: 'Zerschnittene, zerrissene Fetzen, kaum mehr als Lumpen',
+            pl: 'Pocięte i podarte strzępy, nadają się najwyżej na szmaty',
+            zh: '被割破撕裂的碎皮，只能当抹布用',
         },
     },
     rabbit_skin_bad: {
@@ -432,6 +703,24 @@ export default {
         },
     },
     //
+    panther_skin_ruined: {
+        name: {
+            ru: 'Испорченная шкура пантеры',
+            ua: 'Зіпсована шкура пантери',
+            en: 'Ruined Panther Skin',
+            de: 'Verdorbene Pantherhaut',
+            pl: 'Zniszczona skóra pantery',
+            zh: '破损的黑豹皮',
+        },
+        desc: {
+            ru: 'Изрезанные и порванные клочья, годятся разве что на ветошь',
+            ua: "Порізані й подерті клапті, придатні хіба що на ганчір'я",
+            en: 'Slashed and torn scraps, good for little more than rags',
+            de: 'Zerschnittene, zerrissene Fetzen, kaum mehr als Lumpen',
+            pl: 'Pocięte i podarte strzępy, nadają się najwyżej na szmaty',
+            zh: '被割破撕裂的碎皮，只能当抹布用',
+        },
+    },
     panther_skin_bad: {
         name: {
             ru: 'Плохая шкура пантеры',
@@ -504,6 +793,132 @@ export default {
             zh: '具有传奇品质的肌肤，无明显瑕疵',
         },
     },
+    panther_skull: {
+        name: {
+            ru: 'Череп пантеры',
+            ua: 'Череп пантери',
+            en: 'Panther Skull',
+            de: 'Pantherschädel',
+            pl: 'Czaszka pantery',
+            zh: '黑豹头骨',
+        },
+        desc: {
+            ru: 'Редкий трофей: череп самого опасного хищника острова',
+            ua: 'Рідкісний трофей: череп найнебезпечнішого хижака острова',
+            en: 'A rare trophy: the skull of the deadliest predator on the island',
+            de: 'Eine seltene Trophäe: der Schädel des gefährlichsten Raubtiers der Insel',
+            pl: 'Rzadkie trofeum: czaszka najgroźniejszego drapieżnika wyspy',
+            zh: '稀有战利品：岛上最危险的掠食者的头骨',
+        },
+    },
+    monkey_skin_ruined: {
+        name: {
+            ru: 'Испорченная шкура макаки',
+            ua: 'Зіпсована шкура макаки',
+            en: 'Ruined Macaque Skin',
+            de: 'Verdorbene Makakenhaut',
+            pl: 'Zniszczona skóra makaka',
+            zh: '破损的猕猴皮',
+        },
+        desc: {
+            ru: 'Изрезанные и порванные клочья, годятся разве что на ветошь',
+            ua: "Порізані й подерті клапті, придатні хіба що на ганчір'я",
+            en: 'Slashed and torn scraps, good for little more than rags',
+            de: 'Zerschnittene, zerrissene Fetzen, kaum mehr als Lumpen',
+            pl: 'Pocięte i podarte strzępy, nadają się najwyżej na szmaty',
+            zh: '被割破撕裂的碎皮，只能当抹布用',
+        },
+    },
+    monkey_skin_bad: {
+        name: {
+            ru: 'Плохая шкура макаки',
+            ua: 'Погана шкура макаки',
+            en: 'Bad Macaque Skin',
+            de: 'Schlechte Makakenhaut',
+            pl: 'Zła skóra makaka',
+            zh: '劣质猕猴皮',
+        },
+        desc: {
+            ru: 'Шкура с многочисленными дефектами и повреждениями',
+            ua: 'Шкура з численними дефектами та пошкодженнями',
+            en: 'Skin with numerous defects and damages',
+            de: 'Haut mit zahlreichen Mängeln und Beschädigungen',
+            pl: 'Skóra z licznymi wadami i uszkodzeniami',
+            zh: '皮肤有许多缺陷和损伤',
+        },
+    },
+    monkey_skin_normal: {
+        name: {
+            ru: 'Нормальная шкура макаки',
+            ua: 'Нормальна шкура макаки',
+            en: 'Normal Macaque Skin',
+            de: 'Normale Makakenhaut',
+            pl: 'Normalna skóra makaka',
+            zh: '普通猕猴皮',
+        },
+        desc: {
+            ru: 'Обычная шкура, пригодная для использования',
+            ua: 'Звичайна шкура, придатна для використання',
+            en: 'Regular skin, suitable for use',
+            de: 'Normale Haut, geeignet für die Verwendung',
+            pl: 'Zwykła skóra, nadająca się do użytku',
+            zh: '适合使用的普通皮肤',
+        },
+    },
+    monkey_skin_good: {
+        name: {
+            ru: 'Хорошая шкура макаки',
+            ua: 'Хороша шкура макаки',
+            en: 'Good Macaque Skin',
+            de: 'Gute Makakenhaut',
+            pl: 'Dobra skóra makaka',
+            zh: '优质猕猴皮',
+        },
+        desc: {
+            ru: 'Шкура хорошего качества, без видимых дефектов',
+            ua: 'Шкура хорошої якості, без видимих дефектів',
+            en: 'Good quality skin, without visible defects',
+            de: 'Haut von guter Qualität, ohne sichtbare Mängel',
+            pl: 'Skóra dobrej jakości, bez widocznych wad',
+            zh: '优质皮肤，无可见缺陷',
+        },
+    },
+    monkey_skin_legendary: {
+        name: {
+            ru: 'Легендарная шкура макаки',
+            ua: 'Легендарна шкура макаки',
+            en: 'Legendary Macaque Skin',
+            de: 'Legendäre Makakenhaut',
+            pl: 'Legendarna skóra makaka',
+            zh: '传奇猕猴皮',
+        },
+        desc: {
+            ru: 'Шкура легендарного качества, без видимых дефектов',
+            ua: 'Шкура легендарної якості, без видимих дефектів',
+            en: 'Legendary quality skin, without visible defects',
+            de: 'Haut von legendärer Qualität, ohne sichtbare Mängel',
+            pl: 'Skóra legendarnej jakości, bez widocznych wad',
+            zh: '具有传奇品质的肌肤，无明显瑕疵',
+        },
+    },
+    monkey_paw: {
+        name: {
+            ru: 'Обезьянья лапка',
+            ua: 'Мавпяча лапка',
+            en: "Monkey's Paw",
+            de: 'Affenpfote',
+            pl: 'Małpia łapa',
+            zh: '猴爪',
+        },
+        desc: {
+            ru: 'Высушенная лапка макаки, её хранят как талисман: по легенде, она исполняет желания, но за каждое придётся заплатить',
+            ua: 'Висушена лапка макаки, її зберігають як талісман: за легендою, вона виконує бажання, але за кожне доведеться заплатити',
+            en: 'A dried macaque paw kept as a talisman: legend says it grants wishes, but every wish comes at a price',
+            de: 'Eine getrocknete Makakenpfote, als Talisman aufbewahrt: Der Legende nach erfüllt sie Wünsche, doch jeder hat seinen Preis',
+            pl: 'Wysuszona łapa makaka, trzymana jako talizman: według legendy spełnia życzenia, ale każde ma swoją cenę',
+            zh: '风干的猕猴爪，被当作护身符收藏：传说它能实现愿望，但每个愿望都有代价',
+        },
+    },
     bird_feather: {
         name: {
             ru: 'Птичье перо',
@@ -574,6 +989,42 @@ export default {
             de: 'Eine seltene Trophäe: Nur wenige holen einen Habicht im Flug herunter',
             pl: 'Rzadkie trofeum: mało kto zestrzeli jastrzębia w locie',
             zh: '稀有战利品：能在空中击落鹰的人寥寥无几',
+        },
+    },
+    hawk_feather: {
+        name: {
+            ru: 'Перо ястреба',
+            ua: 'Перо яструба',
+            en: 'Hawk Feather',
+            de: 'Habichtfeder',
+            pl: 'Pióro jastrzębia',
+            zh: '鹰羽',
+        },
+        desc: {
+            ru: 'Рыжее рулевое перо ястреба, ценится выше обычного',
+            ua: 'Руде стернове перо яструба, цінується вище за звичайне',
+            en: 'A rust-red tail feather of a hawk, worth more than an ordinary one',
+            de: 'Eine rostrote Schwanzfeder eines Habichts, wertvoller als eine gewöhnliche',
+            pl: 'Rdzawe pióro ogonowe jastrzębia, cenniejsze od zwykłego',
+            zh: '鹰的锈红色尾羽，比普通羽毛更值钱',
+        },
+    },
+    bezoar: {
+        name: {
+            ru: 'Безоар',
+            ua: 'Безоар',
+            en: 'Bezoar',
+            de: 'Bezoar',
+            pl: 'Bezoar',
+            zh: '胃石',
+        },
+        desc: {
+            ru: 'Камень из желудка зверя. Попадается крайне редко, в старину ценился как противоядие',
+            ua: 'Камінь зі шлунка звіра. Трапляється вкрай рідко, колись цінувався як протиотрута',
+            en: "A stone from an animal's stomach. Extremely rare, once prized as an antidote",
+            de: 'Ein Stein aus dem Magen eines Tieres. Äußerst selten, einst als Gegengift geschätzt',
+            pl: 'Kamień z żołądka zwierzęcia. Niezwykle rzadki, dawniej ceniony jako odtrutka',
+            zh: '动物胃中的结石，极为罕见，古时被视为解毒良药',
         },
     },
 };

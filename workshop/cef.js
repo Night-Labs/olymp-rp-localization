@@ -139,4 +139,25 @@ export default {
         de: 'Du brauchst eine Werkbank der Stufe {{requiredWorkshopLvl}}',
         pl: 'Potrzebujesz warsztatu na poziomie {{requiredWorkshopLvl}}',
     },
+    needBlueprint: {
+        ru: 'Сначала изучи чертёж этого предмета',
+        ua: 'Спершу вивчи кресленик цього предмета',
+        en: "Learn this item's blueprint first",
+        de: 'Lerne zuerst den Bauplan dieses Gegenstands',
+        pl: 'Najpierw poznaj schemat tego przedmiotu',
+    },
+    lockedLevel: {
+        ru: 'Верстак {{lvl}} ур.',
+        ua: 'Верстак {{lvl}} рів.',
+        en: 'Workbench lvl {{lvl}}',
+        de: 'Werkbank St. {{lvl}}',
+        pl: 'Warsztat poz. {{lvl}}',
+    },
+    lockedBlueprint: {
+        ru: 'Нужен чертёж',
+        ua: 'Потрібен кресленик',
+        en: 'Blueprint needed',
+        de: 'Bauplan nötig',
+        pl: 'Wymagany schemat',
+    },
 };

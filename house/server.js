@@ -146,6 +146,26 @@ export const server = {
         },
     },
     garage: {
+        rearrange: {
+            interaction: { ru: 'Переставить машины', ua: 'Переставити машини', en: 'Rearrange vehicles', de: 'Fahrzeuge umstellen', pl: 'Przestaw pojazdy' },
+            exitToHouse: { ru: 'Выйти в дом', ua: 'Вийти в будинок', en: 'Go to the house', de: 'Ins Haus gehen', pl: 'Przejdź do domu' },
+            busy: {
+                ru: 'Машины здесь сейчас переставляет {{name}}',
+                ua: 'Машини тут зараз переставляє {{name}}',
+                en: '{{name}} is rearranging the vehicles here right now',
+                de: '{{name}} stellt hier gerade die Fahrzeuge um',
+                pl: '{{name}} przestawia teraz tutaj pojazdy',
+            },
+            title: { ru: 'ПЕРЕСТАНОВКА МАШИН', ua: 'ПЕРЕСТАНОВКА МАШИН', en: 'REARRANGE VEHICLES', de: 'FAHRZEUGE UMSTELLEN', pl: 'PRZESTAWIANIE POJAZDÓW' },
+            selectVehicle: { ru: 'Выберите машину', ua: 'Оберіть машину', en: 'Select a vehicle', de: 'Fahrzeug wählen', pl: 'Wybierz pojazd' },
+            controlVehicle: { ru: 'Перемещайте машину', ua: 'Переміщуйте машину', en: 'Move the vehicle', de: 'Fahrzeug verschieben', pl: 'Przesuwaj pojazd' },
+            empty: { ru: 'Свободное место', ua: 'Вільне місце', en: 'Empty space', de: 'Freier Stellplatz', pl: 'Wolne miejsce' },
+            takenOut: { ru: 'Машина сейчас вне гаража', ua: 'Машина зараз поза гаражем', en: 'Vehicle is out of the garage', de: 'Fahrzeug ist außerhalb der Garage', pl: 'Pojazd jest poza garażem' },
+            vehiclesLabel: { ru: 'Машины', ua: 'Машини', en: 'Vehicles', de: 'Fahrzeuge', pl: 'Pojazdy' },
+            moveLabel: { ru: 'Переставить', ua: 'Переставити', en: 'Move', de: 'Verschieben', pl: 'Przesuń' },
+            backLabel: { ru: 'Назад', ua: 'Назад', en: 'Back', de: 'Zurück', pl: 'Wstecz' },
+            exitLabel: { ru: 'Выход', ua: 'Вихід', en: 'Exit', de: 'Beenden', pl: 'Wyjdź' },
+        },
         garage: {
             ua: 'Гараж',
             en: 'Garage',
@@ -217,6 +237,14 @@ export const server = {
             en: 'Only the organization leader may keep a personal vehicle in the HQ garage',
             de: 'Nur der Anführer der Organisation darf ein privates Fahrzeug in der HQ-Garage abstellen',
             pl: 'Tylko lider organizacji może trzymać prywatny pojazd w garażu kwatery głównej',
+        },
+        // The house is being bought, sold or swapped as an HQ at this very moment.
+        changingHands: {
+            ru: 'Дом сейчас меняет владельца, попробуйте через несколько секунд',
+            ua: 'Будинок зараз змінює власника, спробуйте за кілька секунд',
+            en: 'The house is changing hands right now, try again in a few seconds',
+            de: 'Das Haus wechselt gerade den Besitzer, versuche es in ein paar Sekunden erneut',
+            pl: 'Dom właśnie zmienia właściciela, spróbuj ponownie za kilka sekund',
         },
         modal: {
             title: {

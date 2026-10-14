@@ -65,6 +65,13 @@ export default {
             de: 'Fahrzeug ist derzeit bei {{name}}',
             pl: 'Pojazd jest obecnie u {{name}}',
         },
+        impoundRouteNotify: {
+            ru: 'Маршрут до штрафстоянки #{{lotId}} проложен',
+            ua: 'Маршрут до штрафмайданчика #{{lotId}} прокладено',
+            en: 'Route to impound lot #{{lotId}} set',
+            de: 'Route zum Abschleppplatz #{{lotId}} gesetzt',
+            pl: 'Wyznaczono trasę na parking policyjny #{{lotId}}',
+        },
         // Someone else's vehicle held on a key (server modules/vehicles/keys).
         keyAccessBadge: {
             ru: 'Доступ ключом',
@@ -321,6 +328,13 @@ export default {
                 en: 'To garage',
                 de: 'In die Garage',
                 pl: 'Do garażu',
+            },
+            impoundRoute: {
+                ru: 'Проложить маршрут',
+                ua: 'Прокласти маршрут',
+                en: 'Set route',
+                de: 'Route setzen',
+                pl: 'Wyznacz trasę',
             },
             impounded: {
                 ru: 'Т/С находится на штрафстоянке #{{lotId}}',

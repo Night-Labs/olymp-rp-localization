@@ -560,11 +560,11 @@ export default {
             pl: 'Czysty lot',
         },
         desc: {
-            ru: 'Пролети {{goal}} труб за одну игру во Flappy Bird. Одна попытка, никаких склеек - только ты и труба за трубой!',
-            ua: 'Пролети {{goal}} труб за одну гру у Flappy Bird. Одна спроба, ніяких склейок - тільки ти і труба за трубою!',
-            en: 'Clear {{goal}} pipes in a single Flappy Bird run. One attempt, nothing stitched together - just you and pipe after pipe!',
-            de: 'Passiere {{goal}} Rohre in einem einzigen Flappy Bird Lauf. Ein Versuch, nichts zusammengestückelt - nur du und Rohr für Rohr!',
-            pl: 'Przeleć obok {{goal}} rur w jednej grze Flappy Bird. Jedna próba, nic zszywanego - tylko ty i rura za rurą!',
+            ru: 'Пролети {{goal}} колонн за одну игру во Flappy Winds. Одна попытка, никаких склеек - только ты и колонна за колонной!',
+            ua: 'Пролети {{goal}} колон за одну гру у Flappy Winds. Одна спроба, ніяких склейок - тільки ти і колона за колоною!',
+            en: 'Clear {{goal}} columns in a single Flappy Winds run. One attempt, nothing stitched together - just you and column after column!',
+            de: 'Passiere {{goal}} Säulen in einem einzigen Flappy Winds Lauf. Ein Versuch, nichts zusammengestückelt - nur du und Säule für Säule!',
+            pl: 'Przeleć obok {{goal}} kolumn w jednej grze Flappy Winds. Jedna próba, nic zszywanego - tylko ty i kolumna za kolumną!',
         },
     },
     sumFlappyBirdScoreDailyQuest: {
@@ -576,11 +576,11 @@ export default {
             pl: 'Dzień w powietrzu',
         },
         desc: {
-            ru: 'Набери {{goal}} очков во Flappy Bird за сколько угодно попыток. Разбилась птица - запускай снова, всё идёт в копилку!',
-            ua: 'Набери {{goal}} очок у Flappy Bird за скільки завгодно спроб. Розбилася пташка - запускай знову, усе йде в скарбничку!',
-            en: 'Score {{goal}} points in Flappy Bird across as many attempts as you like. Crashed the bird? Start again, it all adds up!',
-            de: 'Erziele {{goal}} Punkte in Flappy Bird in beliebig vielen Versuchen. Vogel abgestürzt? Starte neu, alles zählt zusammen!',
-            pl: 'Zdobądź {{goal}} punktów we Flappy Bird w dowolnej liczbie prób. Ptak się rozbił? Zaczynaj od nowa, wszystko się sumuje!',
+            ru: 'Набери {{goal}} очков во Flappy Winds за сколько угодно попыток. Разбилась птица - запускай снова, всё идёт в копилку!',
+            ua: 'Набери {{goal}} очок у Flappy Winds за скільки завгодно спроб. Розбилася пташка - запускай знову, усе йде в скарбничку!',
+            en: 'Score {{goal}} points in Flappy Winds across as many attempts as you like. Crashed the bird? Start again, it all adds up!',
+            de: 'Erziele {{goal}} Punkte in Flappy Winds in beliebig vielen Versuchen. Vogel abgestürzt? Starte neu, alles zählt zusammen!',
+            pl: 'Zdobądź {{goal}} punktów we Flappy Winds w dowolnej liczbie prób. Ptak się rozbił? Zaczynaj od nowa, wszystko się sumuje!',
         },
     },
     winGrandmasterMatchesDailyQuest: {

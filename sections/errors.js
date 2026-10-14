@@ -34,4 +34,11 @@ export const errors = {
         de: 'Diese Sektion existiert nicht mehr.',
         pl: 'Ta sekcja już nie istnieje.',
     },
+    rankTooLow: {
+        ru: 'Эта секция доступна с {{rank}} ранга.',
+        ua: 'Ця секція доступна з {{rank}} рангу.',
+        en: 'This section is available from rank {{rank}}.',
+        de: 'Diese Sektion ist ab Rang {{rank}} verfügbar.',
+        pl: 'Ta sekcja jest dostępna od rangi {{rank}}.',
+    },
 };

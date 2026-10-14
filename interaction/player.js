@@ -376,6 +376,15 @@ export const player = {
         zh: '查看律师执照',
     },
 
+    viewPressCard: {
+        ru: 'Посмотреть удостоверение журналиста',
+        ua: 'Переглянути посвідчення журналіста',
+        en: 'View press card',
+        de: 'Presseausweis ansehen',
+        pl: 'Zobacz legitymację prasową',
+        zh: '查看记者证',
+    },
+
     showLicenses: {
         ru: 'Показать лицензии',
         ua: 'Показати ліцензії',
@@ -392,6 +401,15 @@ export const player = {
         de: 'Anwaltslizenz vorzeigen',
         pl: 'Pokaż licencję adwokacką',
         zh: '出示律师执照',
+    },
+
+    showPressCard: {
+        ru: 'Показать удостоверение журналиста',
+        ua: 'Показати посвідчення журналіста',
+        en: 'Show press card',
+        de: 'Presseausweis vorzeigen',
+        pl: 'Pokaż legitymację prasową',
+        zh: '出示记者证',
     },
 
     dispatches: {
@@ -808,6 +826,22 @@ export const player = {
         pl: '{{firstName}} pokazał(a) swoją licencję adwokacką {{targetName}}',
         zh: '{{firstName}}向{{targetName}}出示了自己的律师执照',
     },
+    checkedOwnPressCard: {
+        ru: '{{firstName}} достал(а) своё удостоверение журналиста и осмотрел(а) его',
+        ua: '{{firstName}} дістав(ла) своє посвідчення журналіста і оглянув(ла) його',
+        en: '{{firstName}} took out their press card and looked it over',
+        de: '{{firstName}} holte den eigenen Presseausweis hervor und sah ihn sich an',
+        pl: '{{firstName}} wyjął(ęła) swoją legitymację prasową i przyjrzał(a) się jej',
+        zh: '{{firstName}}拿出自己的记者证查看了一下',
+    },
+    showedPressCard: {
+        ru: '{{firstName}} показал(а) своё удостоверение журналиста {{targetName}}',
+        ua: '{{firstName}} показав(ла) своє посвідчення журналіста {{targetName}}',
+        en: '{{firstName}} showed their press card to {{targetName}}',
+        de: '{{firstName}} zeigte {{targetName}} den eigenen Presseausweis',
+        pl: '{{firstName}} pokazał(a) swoją legitymację prasową {{targetName}}',
+        zh: '{{firstName}}向{{targetName}}出示了自己的记者证',
+    },
     checkedOwnDrivingLicenses: {
         ru: '{{firstName}} достал(а) свои водительские права и осмотрел(а) их',
         ua: '{{firstName}} дістав(ла) своє водійське посвідчення і оглянув(ла) його',
@@ -823,5 +857,29 @@ export const player = {
         de: '{{firstName}} zeigte {{targetName}} den eigenen Führerschein',
         pl: '{{firstName}} pokazał(a) swoje prawo jazdy {{targetName}}',
         zh: '{{firstName}}向{{targetName}}出示了自己的驾驶证',
+    },
+    handedMoneyAction: {
+        ru: '{{firstName}} передал(а) деньги {{targetName}}',
+        ua: '{{firstName}} передав(ла) гроші {{targetName}}',
+        en: '{{firstName}} handed some money to {{targetName}}',
+        de: '{{firstName}} gab {{targetName}} etwas Geld',
+        pl: '{{firstName}} przekazał(a) pieniądze {{targetName}}',
+        zh: '{{firstName}}把钱交给了{{targetName}}',
+    },
+    handedBouquetAction: {
+        ru: '{{firstName}} подарил(а) букет {{targetName}}',
+        ua: '{{firstName}} подарував(ла) букет {{targetName}}',
+        en: '{{firstName}} gave a bouquet to {{targetName}}',
+        de: '{{firstName}} schenkte {{targetName}} einen Blumenstrauß',
+        pl: '{{firstName}} podarował(a) bukiet {{targetName}}',
+        zh: '{{firstName}}送给{{targetName}}一束花',
+    },
+    gaveFirstAidAction: {
+        ru: '{{firstName}} оказал(а) первую помощь {{targetName}} с помощью аптечки',
+        ua: '{{firstName}} надав(ла) першу допомогу {{targetName}} за допомогою аптечки',
+        en: '{{firstName}} gave first aid to {{targetName}} with a medkit',
+        de: '{{firstName}} leistete {{targetName}} mit einem Verbandskasten Erste Hilfe',
+        pl: '{{firstName}} udzielił(a) pierwszej pomocy {{targetName}} za pomocą apteczki',
+        zh: '{{firstName}}用急救包对{{targetName}}进行了急救',
     },
 };

@@ -362,5 +362,13 @@ export const server = {
             pl: 'Śledczy',
             zh: '搜查',
         },
+        sniper: {
+            ru: 'Снайпер',
+            ua: 'Снайпер',
+            en: 'Sniper',
+            de: 'Scharfschütze',
+            pl: 'Snajper',
+            zh: '狙击手',
+        },
     },
 };

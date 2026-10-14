@@ -41,4 +41,18 @@ export const server = {
         de: 'Sektion „{{name}}“ gelöscht, {{count}} Slots vernichtet.',
         pl: 'Sekcja „{{name}}” usunięta, zniszczono slotów: {{count}}.',
     },
+    rankSet: {
+        ru: 'Секция «{{name}}» теперь доступна с {{rank}} ранга.',
+        ua: 'Секція «{{name}}» тепер доступна з {{rank}} рангу.',
+        en: 'Section "{{name}}" is now available from rank {{rank}}.',
+        de: 'Sektion „{{name}}“ ist jetzt ab Rang {{rank}} verfügbar.',
+        pl: 'Sekcja „{{name}}” jest teraz dostępna od rangi {{rank}}.',
+    },
+    rankCleared: {
+        ru: 'Секция «{{name}}» теперь открыта всем рангам.',
+        ua: 'Секція «{{name}}» тепер відкрита всім рангам.',
+        en: 'Section "{{name}}" is now open to every rank.',
+        de: 'Sektion „{{name}}“ ist jetzt für alle Ränge offen.',
+        pl: 'Sekcja „{{name}}” jest teraz otwarta dla wszystkich rang.',
+    },
 };
