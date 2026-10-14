@@ -609,11 +609,18 @@ export default {
         pl: 'Usiądź',
     },
     rockstarEditorRecord: {
-        ru: 'Запись Rockstar Editor',
-        ua: 'Запис Rockstar Editor',
-        en: 'Rockstar Editor recording',
-        de: 'Rockstar Editor Aufnahme',
-        pl: 'Nagrywanie w Rockstar Editor',
+        ru: 'Начать запись Rockstar Editor',
+        ua: 'Почати запис Rockstar Editor',
+        en: 'Start Rockstar Editor recording',
+        de: 'Rockstar Editor Aufnahme starten',
+        pl: 'Rozpocznij nagrywanie w Rockstar Editor',
+    },
+    rockstarEditorStop: {
+        ru: 'Остановить запись Rockstar Editor',
+        ua: 'Зупинити запис Rockstar Editor',
+        en: 'Stop Rockstar Editor recording',
+        de: 'Rockstar Editor Aufnahme beenden',
+        pl: 'Zatrzymaj nagrywanie w Rockstar Editor',
     },
     crouch: {
         ru: 'Приседать',

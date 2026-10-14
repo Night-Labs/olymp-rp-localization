@@ -132,16 +132,8 @@ export const jackpot = {
         },
     },
 
-    // The player's own panel on the right of the wall.
+    // The stake of a seated player, over the list.
     panel: {
-        title: {
-            ru: 'Ваша ставка',
-            ua: 'Ваша ставка',
-            en: 'Your stake',
-            de: 'Dein Einsatz',
-            pl: 'Twoja stawka',
-            zh: '你的下注',
-        },
         balance: {
             ru: 'Баланс',
             ua: 'Баланс',
@@ -216,7 +208,7 @@ export const jackpot = {
         },
     },
 
-    // The right of the wall for a player who is not seated.
+    // Over the list, for a player who is not seated.
     rules: {
         title: {
             ru: 'Как играть',

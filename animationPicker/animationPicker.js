@@ -1,0 +1,51 @@
+export default {
+    loading: {
+        ru: 'Загрузка списка анимаций...',
+        ua: 'Завантаження списку анімацій...',
+        en: 'Loading the animation list...',
+        de: 'Animationsliste wird geladen...',
+        pl: 'Wczytywanie listy animacji...',
+    },
+    loadFailed: {
+        ru: 'Не удалось загрузить список анимаций',
+        ua: 'Не вдалося завантажити список анімацій',
+        en: 'Failed to load the animation list',
+        de: 'Die Animationsliste konnte nicht geladen werden',
+        pl: 'Nie udało się wczytać listy animacji',
+    },
+    hint: {
+        ru: 'Анимаций в списке: {{count}}. Введите часть названия словаря или анимации, можно несколько слов',
+        ua: 'Анімацій у списку: {{count}}. Введіть частину назви словника або анімації, можна кілька слів',
+        en: 'Animations in the list: {{count}}. Type part of a dictionary or animation name, several words work too',
+        de: 'Animationen in der Liste: {{count}}. Teil eines Wörterbuch- oder Animationsnamens eingeben, mehrere Wörter möglich',
+        pl: 'Animacji na liście: {{count}}. Wpisz część nazwy słownika lub animacji, można kilka słów',
+    },
+    empty: {
+        ru: 'Ничего не найдено',
+        ua: 'Нічого не знайдено',
+        en: 'Nothing found',
+        de: 'Nichts gefunden',
+        pl: 'Nic nie znaleziono',
+    },
+    found: {
+        ru: 'Найдено: {{total}}.',
+        ua: 'Знайдено: {{total}}.',
+        en: 'Found: {{total}}.',
+        de: 'Gefunden: {{total}}.',
+        pl: 'Znaleziono: {{total}}.',
+    },
+    foundPartial: {
+        ru: 'Со всеми словами: {{total}}, с частью слов: {{partial}}.',
+        ua: 'З усіма словами: {{total}}, з частиною слів: {{partial}}.',
+        en: 'With every word: {{total}}, with some of the words: {{partial}}.',
+        de: 'Mit allen Wörtern: {{total}}, mit einem Teil der Wörter: {{partial}}.',
+        pl: 'Ze wszystkimi słowami: {{total}}, z częścią słów: {{partial}}.',
+    },
+    shownFirst: {
+        ru: 'Показаны {{shown}} самых подходящих',
+        ua: 'Показано {{shown}} найвідповідніших',
+        en: 'Showing the {{shown}} best matches',
+        de: 'Die {{shown}} besten Treffer werden angezeigt',
+        pl: 'Pokazano {{shown}} najlepiej pasujących',
+    },
+};

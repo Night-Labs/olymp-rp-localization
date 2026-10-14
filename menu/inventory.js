@@ -353,6 +353,24 @@ export const inventory = {
                 zh: '添加',
             },
         },
+        donateReceive: {
+            header: {
+                ru: 'Получение предмета',
+                ua: 'Отримання предмета',
+                en: 'Receive item',
+                de: 'Artikel erhalten',
+                pl: 'Odbiór przedmiotu',
+                zh: '获得物品',
+            },
+            accept: {
+                ru: 'Получить',
+                ua: 'Отримати',
+                en: 'Receive',
+                de: 'Erhalten',
+                pl: 'Otrzymaj',
+                zh: '获得',
+            },
+        },
         quantity: {
             ru: 'Количество:',
             ua: 'Кількість:',

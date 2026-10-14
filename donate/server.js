@@ -74,6 +74,15 @@ export const server = {
         zh: '您需要购买奥林普币',
     },
 
+    sellFailed: {
+        ru: 'Не удалось продать {{name}}: предмет остался на складе',
+        ua: 'Не вдалося продати {{name}}: предмет залишився на складі',
+        en: 'Could not sell {{name}}: the item stays in the warehouse',
+        de: '{{name}} konnte nicht verkauft werden: der Gegenstand bleibt im Lager',
+        pl: 'Nie udało się sprzedać {{name}}: przedmiot został w magazynie',
+        zh: '无法出售 {{name}}：物品仍在仓库中',
+    },
+
     sellForXp: {
         ru: 'Вы продали {{name}} за {{xp}} опыта пропуска',
         ua: 'Ви продали {{name}} за {{xp}} досвіду пропуску',

@@ -55,6 +55,13 @@ export default {
         de: 'Zum Hinsetzen drücke',
         pl: 'Aby usiąść, naciśnij',
     },
+    toStandPress: {
+        ru: 'Чтобы встать, нажмите',
+        ua: 'Щоб встати, натисніть',
+        en: 'To stand up, press',
+        de: 'Zum Aufstehen drücke',
+        pl: 'Aby wstać, naciśnij',
+    },
     ladderClimbUp: {
         ru: 'Залезть',
         ua: 'Залізти',

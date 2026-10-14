@@ -1575,11 +1575,11 @@ export default {
         pl: 'Aktywuj tryb lotu pojazdu po stronie klienta dla wybranego gracza na określony czas w milisekundach.',
     },
     veh_set_dirt: {
-        ru: 'Установить уровень загрязнения для текущего транспорта администратора.',
-        ua: 'Встановити рівень забруднення для поточного транспорту адміністратора.',
-        en: "Set the dirt level for the administrator's current vehicle.",
-        de: 'Den Verschmutzungsgrad für das aktuelle Fahrzeug des Administrators festlegen.',
-        pl: 'Ustaw poziom zabrudzenia dla aktualnego pojazdu administratora.',
+        ru: 'Установить уровень загрязнения для текущего транспорта администратора. Второй параметр - часы лака от текущего момента; без него лак снимается.',
+        ua: 'Встановити рівень забруднення для поточного транспорту адміністратора. Другий параметр - години лаку від поточного моменту; без нього лак знімається.',
+        en: "Set the dirt level for the administrator's current vehicle. Second parameter - hours of wax from now; without it the wax is removed.",
+        de: 'Den Verschmutzungsgrad für das aktuelle Fahrzeug des Administrators festlegen. Zweiter Parameter - Stunden Wachs ab jetzt; ohne ihn wird das Wachs entfernt.',
+        pl: 'Ustaw poziom zabrudzenia dla aktualnego pojazdu administratora. Drugi parametr - godziny wosku od teraz; bez niego wosk jest usuwany.',
     },
     veh_set_color: {
         ru: 'Установить основной и дополнительный RGB-цвет для текущего транспорта администратора.',
@@ -2946,6 +2946,20 @@ export default {
         en: 'Contraband crate point editor: teleport to each crate and fix its position/rotation with the gizmo.',
         de: 'Editor fuer Schmuggelkisten-Punkte: zu jeder Kiste teleportieren und Position/Rotation per Gizmo anpassen.',
         pl: 'Edytor punktow skrzyn kontrabandy: teleport do kazdej skrzyni i poprawa pozycji/rotacji gizmem.',
+    },
+    sit_edit: {
+        ru: 'Редактор посадки: выбрать прицелом стул, скамейку или диван и выставить места сидения, сохранение в sitSeats.json.',
+        ua: 'Редактор посадки: вибрати прицілом стілець, лавку або диван і виставити місця сидіння, збереження в sitSeats.json.',
+        en: 'Sit editor: aim at a chair, a bench or a sofa and place its seats, saved to sitSeats.json.',
+        de: 'Sitz-Editor: auf einen Stuhl, eine Bank oder ein Sofa zielen und die Sitzplätze setzen, Speichern in sitSeats.json.',
+        pl: 'Edytor siedzeń: wyceluj w krzesło, ławkę lub kanapę i ustaw miejsca siedzenia, zapis do sitSeats.json.',
+    },
+    casino_edit: {
+        ru: 'Редактор раскладки казино: автоматы, столы и дилеры, сохранение в casinoLayout.json, импорт и экспорт JSON.',
+        ua: 'Редактор розкладки казино: автомати, столи та дилери, збереження в casinoLayout.json, імпорт і експорт JSON.',
+        en: 'Casino layout editor: slot machines, tables and dealers, saved to casinoLayout.json, JSON import and export.',
+        de: 'Casino-Layout-Editor: Spielautomaten, Tische und Croupiers, Speichern in casinoLayout.json, JSON-Import und -Export.',
+        pl: 'Edytor układu kasyna: automaty, stoły i krupierzy, zapis do casinoLayout.json, import i eksport JSON.',
     },
     contraband_preview: {
         ru: 'Заспавнить ящики контрабанды со всех точек (или одной зоны) с блипами. off - убрать.',

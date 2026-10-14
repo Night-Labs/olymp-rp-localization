@@ -89,6 +89,9 @@ import modifiers from './modifiers';
 import drivingLicenses from './drivingLicenses';
 import business from './business/business';
 import furnitureEditor from './furnitureEditor/furnitureEditor';
+import casinoEditor from './casinoEditor/casinoEditor';
+import sitEditor from './sitEditor/sitEditor';
+import animationPicker from './animationPicker/animationPicker';
 import keyBinds from './keyBinds/keyBinds';
 import taxi from './taxi/taxi';
 import gym from './gym';
@@ -223,6 +226,9 @@ export default {
     payment,
     business,
     furnitureEditor,
+    casinoEditor,
+    sitEditor,
+    animationPicker,
     keyBinds,
     taxi,
     gym,

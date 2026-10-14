@@ -41,5 +41,12 @@ export default {
         de: 'Familie',
         pl: 'Rodzinne',
     },
+    rockstarEditorStarted: {
+        ru: 'Запись началась<br />Нажмите {{key}}, чтобы остановить запись',
+        ua: 'Запис розпочато<br />Натисніть {{key}}, щоб зупинити запис',
+        en: 'Recording started<br />Press {{key}} to stop recording',
+        de: 'Aufnahme gestartet<br />Drücke {{key}}, um die Aufnahme zu beenden',
+        pl: 'Nagrywanie rozpoczęte<br />Naciśnij {{key}}, aby zatrzymać nagrywanie',
+    },
 };
 

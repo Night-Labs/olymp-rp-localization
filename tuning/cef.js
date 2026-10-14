@@ -1370,6 +1370,48 @@ export const cef = {
         },
     },
 
+    // The stage ladder as one upgrade card of the chip rail (store chipStageEntry).
+    chipStages: {
+        name: {
+            ru: 'Stage',
+            ua: 'Stage',
+            en: 'Stage',
+            de: 'Stage',
+            pl: 'Stage',
+            zh: 'Stage',
+        },
+
+        desc: {
+            ru: 'Прошивки Stage ставятся по порядку: каждая следующая быстрее предыдущей, и за каждую ступень платится отдельно.',
+            ua: 'Прошивки Stage ставляться по черзі: кожна наступна швидша за попередню, і за кожен щабель платиться окремо.',
+            en: 'Stage maps go on in order: each one is quicker than the last, and every step is paid for on its own.',
+            de: 'Stage-Abstimmungen werden der Reihe nach eingebaut: Jede ist schneller als die vorige, und jede Stufe wird einzeln bezahlt.',
+            pl: 'Mapy Stage montuje się po kolei: każda kolejna jest szybsza od poprzedniej, a za każdy stopień płaci się osobno.',
+            zh: 'Stage 调校按顺序安装：每一级都比上一级更快，每一级都需单独付费。',
+        },
+
+        // The next stage goes on only with a donate warehouse item the player does not have.
+        noItem: {
+            title: {
+                ru: 'Нет на донат-складе',
+                ua: 'Немає на донат-складі',
+                en: 'Not in the donate warehouse',
+                de: 'Nicht im Spendenlager',
+                pl: 'Brak w magazynie donate',
+                zh: '捐赠仓库中没有',
+            },
+
+            message: {
+                ru: 'Этот стейдж ставится только предметом с донат-склада, а его там нет. Поставить его можно, например, для тест-драйва, но куплен он не будет.',
+                ua: 'Цей стейдж ставиться лише предметом з донат-складу, а його там немає. Встановити його можна, наприклад, для тест-драйву, але куплено його не буде.',
+                en: 'This stage goes on only with an item from the donate warehouse, and it is not there. You can install it, for a test drive for example, but it will not be bought.',
+                de: 'Diese Stage wird nur mit einem Gegenstand aus dem Spendenlager eingebaut, und dort ist keiner. Du kannst sie einbauen, zum Beispiel für eine Probefahrt, gekauft wird sie aber nicht.',
+                pl: 'Ten stage montuje się tylko przedmiotem z magazynu donate, a nie ma go tam. Możesz go zamontować, na przykład do jazdy próbnej, ale nie zostanie kupiony.',
+                zh: '此阶段只能使用捐赠仓库中的物品安装，而仓库里没有。您可以先装上它，例如用于试驾，但它不会被购买。',
+            },
+        },
+    },
+
     dynamicDrive: {
         name: {
             ru: 'Dynamic Drive Chip',

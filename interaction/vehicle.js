@@ -636,6 +636,24 @@ export const vehicle = {
         zh: '为他人关闭后备箱',
     },
 
+    'neon-on': {
+        ru: 'Включить неон',
+        ua: 'Увімкнути неон',
+        en: 'Turn the neon on',
+        de: 'Neon einschalten',
+        pl: 'Włącz neon',
+        zh: '打开霓虹灯',
+    },
+
+    'neon-off': {
+        ru: 'Выключить неон',
+        ua: 'Вимкнути неон',
+        en: 'Turn the neon off',
+        de: 'Neon ausschalten',
+        pl: 'Wyłącz neon',
+        zh: '关闭霓虹灯',
+    },
+
     'interiorLight-on': {
         ru: 'Включить свет в салоне',
         ua: 'Увімкнути світло в салоні',

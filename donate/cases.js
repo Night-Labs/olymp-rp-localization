@@ -484,6 +484,46 @@ export const cases = {
             },
         },
 
+        elpis: {
+            name: {
+                ru: 'Элпис',
+                ua: 'Елпіс',
+                en: 'Elpis',
+                de: 'Elpis',
+                pl: 'Elpis',
+                zh: '厄尔庇斯',
+            },
+
+            desc: {
+                ru: 'Когда ящик Пандоры открыли, на дне осталась лишь Элпис - надежда. Этот кейс дешевле Пандоры и полон всего понемногу: машины, валюта, опыт, статусы, расходники, оружие и коины. Чаще всего внутри мелочь, но надежда на редкий ценный приз есть всегда.',
+                ua: 'Коли скриньку Пандори відкрили, на дні залишилася лише Елпіс - надія. Цей кейс дешевший за Пандору й містить усього потроху: авто, валюту, досвід, статуси, витратні матеріали, зброю та коїни. Найчастіше всередині дрібниці, але надія на рідкісний цінний приз є завжди.',
+                en: "When Pandora's box was opened, only Elpis - hope - stayed at the bottom. This case is cheaper than Pandora and holds a little of everything: cars, currency, experience, statuses, supplies, weapons and coins. Most often it gives small things, but there is always hope for a rare valuable prize.",
+                de: 'Als die Büchse der Pandora geöffnet wurde, blieb nur Elpis - die Hoffnung - auf ihrem Grund zurück. Diese Kiste ist günstiger als Pandora und enthält von allem etwas: Autos, Währung, Erfahrung, Status, Verbrauchsgüter, Waffen und Coins. Meistens sind es Kleinigkeiten, aber die Hoffnung auf einen seltenen wertvollen Gewinn bleibt immer.',
+                pl: 'Gdy otwarto puszkę Pandory, na jej dnie została tylko Elpis - nadzieja. Ta skrzynka jest tańsza od Pandory i zawiera wszystkiego po trochu: auta, walutę, doświadczenie, statusy, materiały eksploatacyjne, broń i coiny. Najczęściej wypadają drobiazgi, ale nadzieja na rzadką cenną nagrodę jest zawsze.',
+                zh: '潘多拉的魔盒被打开时，只有希望之神厄尔庇斯留在了盒底。这个箱子比潘多拉更便宜，里面什么都有一点：车辆、货币、经验、身份、消耗品、武器和金币。大多数时候只是小东西，但总有获得稀有珍贵奖品的希望。',
+            },
+        },
+
+        tyche: {
+            name: {
+                ru: 'Тюхе',
+                ua: 'Тюхе',
+                en: 'Tyche',
+                de: 'Tyche',
+                pl: 'Tyche',
+                zh: '堤喀',
+            },
+
+            desc: {
+                ru: 'Тюхе - богиня случая и удачи, что вращает колесо судьбы. Этот кейс дешевле Пандоры и набит всем подряд: от расходников и оружия до дорогих автомобилей, крупных сумм и коинов. Удача капризна и чаще отворачивается, но тем, кому она улыбнётся, достаётся многое.',
+                ua: 'Тюхе - богиня випадку та удачі, що обертає колесо долі. Цей кейс дешевший за Пандору й напханий усім підряд: від витратних матеріалів і зброї до дорогих авто, великих сум і коїнів. Удача примхлива й частіше відвертається, але тим, кому вона всміхнеться, дістається багато.',
+                en: 'Tyche is the goddess of chance and fortune who turns the wheel of fate. This case is cheaper than Pandora and packed with everything: from supplies and weapons to expensive cars, large sums and coins. Fortune is fickle and turns away more often than not, but those she smiles upon get a lot.',
+                de: 'Tyche ist die Göttin des Zufalls und des Glücks, die das Rad des Schicksals dreht. Diese Kiste ist günstiger als Pandora und steckt voller Dinge: von Verbrauchsgütern und Waffen bis zu teuren Autos, großen Summen und Coins. Das Glück ist launisch und wendet sich öfter ab, doch wem es zulächelt, der bekommt viel.',
+                pl: 'Tyche to bogini przypadku i szczęścia, która obraca kołem losu. Ta skrzynka jest tańsza od Pandory i pełna wszystkiego: od materiałów eksploatacyjnych i broni po drogie auta, duże sumy i coiny. Szczęście jest kapryśne i częściej się odwraca, ale ci, do których się uśmiechnie, dostają wiele.',
+                zh: '堤喀是掌管机遇与幸运的女神，转动着命运之轮。这个箱子比潘多拉更便宜，装满了各种东西：从消耗品和武器到昂贵的汽车、大笔金钱和金币。幸运变幻无常，常常转身离去，但被她眷顾的人会收获很多。',
+            },
+        },
+
         pandora: {
             name: {
                 ru: 'Пандора',

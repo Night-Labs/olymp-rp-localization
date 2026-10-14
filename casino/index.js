@@ -4,8 +4,10 @@ import { roulette } from './games/roulette';
 import { slots } from './games/slots';
 import { blackjack } from './games/blackjack';
 import { poker } from './games/poker';
+import { pvpPoker } from './games/pvpPoker';
 import { jackpot } from './games/jackpot';
 import homeless from './homeless';
+import location from './location';
 
 export default {
     cashier,
@@ -14,8 +16,10 @@ export default {
     slots,
     blackjack,
     poker,
+    pvpPoker,
     jackpot,
     homeless,
+    location,
 
     balance: {
         ru: 'Баланс:',
@@ -61,6 +65,14 @@ export default {
             pl: 'Wstań',
             zh: '起身',
         },
+        voice: {
+            ru: 'Микрофон',
+            ua: 'Мікрофон',
+            en: 'Microphone',
+            de: 'Mikrofon',
+            pl: 'Mikrofon',
+            zh: '麦克风',
+        },
     },
 
     notEnoughChips: {
@@ -70,6 +82,83 @@ export default {
         de: 'Du hast nicht genug Chips',
         pl: 'Nie masz wystarczająco żetonów',
        zh:'你没有足够的筹码',
+    },
+
+    maxStake: {
+        ru: 'На эту ставку можно поставить не больше {{max}} фишек',
+        ua: 'На цю ставку можна поставити не більше {{max}} фішок',
+        en: 'This bet takes at most {{max}} chips',
+        de: 'Auf diesen Einsatz passen höchstens {{max}} Chips',
+        pl: 'Na ten zakład można postawić najwyżej {{max}} żetonów',
+        zh: '这个下注最多可以下 {{max}} 筹码',
+    },
+
+    // The manual chip's bet dialog (webviews systems/casino/betAmount.js).
+    betAmount: {
+        title: {
+            ru: 'Своя ставка',
+            ua: 'Своя ставка',
+            en: 'Your bet',
+            de: 'Eigener Einsatz',
+            pl: 'Własny zakład',
+            zh: '自定义下注',
+        },
+        range: {
+            ru: 'От {{min}} до {{max}} фишек',
+            ua: 'Від {{min}} до {{max}} фішок',
+            en: 'From {{min}} to {{max}} chips',
+            de: 'Von {{min}} bis {{max}} Chips',
+            pl: 'Od {{min}} do {{max}} żetonów',
+            zh: '{{min}} 至 {{max}} 筹码',
+        },
+        min: {
+            ru: 'Мин',
+            ua: 'Мін',
+            en: 'Min',
+            de: 'Min',
+            pl: 'Min',
+            zh: '最小',
+        },
+        max: {
+            ru: 'Макс',
+            ua: 'Макс',
+            en: 'Max',
+            de: 'Max',
+            pl: 'Maks',
+            zh: '最大',
+        },
+        half: {
+            ru: '1/2',
+            ua: '1/2',
+            en: '1/2',
+            de: '1/2',
+            pl: '1/2',
+            zh: '1/2',
+        },
+        double: {
+            ru: 'x2',
+            ua: 'x2',
+            en: 'x2',
+            de: 'x2',
+            pl: 'x2',
+            zh: 'x2',
+        },
+        confirm: {
+            ru: 'Поставить',
+            ua: 'Поставити',
+            en: 'Place bet',
+            de: 'Setzen',
+            pl: 'Postaw',
+            zh: '下注',
+        },
+        cancel: {
+            ru: 'Отмена',
+            ua: 'Скасувати',
+            en: 'Cancel',
+            de: 'Abbrechen',
+            pl: 'Anuluj',
+            zh: '取消',
+        },
     },
 
     youWon: {
