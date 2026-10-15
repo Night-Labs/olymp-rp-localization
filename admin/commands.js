@@ -2969,6 +2969,13 @@ export default {
         de: 'Die Organisation mit dem angegebenen Tag auf den Gründungszustand zurücksetzen: Kasse, Level, Ansehen, Upgrades, Aufträge, Gebiete, Büros, Lager und Organisationsfahrzeuge. Mitglieder, Ränge und das HQ bleiben.',
         pl: 'Zresetuj organizację o podanym tagu do stanu z chwili założenia: skarbiec, poziom, reputacja, ulepszenia, kontrakty, terytoria, biura, magazyn i pojazdy organizacji. Członkowie, rangi i HQ zostają.',
     },
+    org_contract_close: {
+        ru: 'Закрыть заказ организации с указанным тегом как выполненный: семейный или указанный по id. Награда делится между участниками по сданному, админ ничего не получает.',
+        ua: 'Закрити замовлення організації з вказаним тегом як виконане: сімейне або вказане за id. Нагорода ділиться між учасниками за зданим, адмін нічого не отримує.',
+        en: 'Close an order of the organization with the given tag as completed: the family one, or the one given by id. The reward is split between the members by what they handed in; the admin gets nothing.',
+        de: 'Einen Auftrag der Organisation mit dem angegebenen Tag als erfüllt abschließen: den Familienauftrag oder den per ID angegebenen. Die Belohnung wird nach dem Abgegebenen unter den Mitgliedern aufgeteilt, der Admin erhält nichts.',
+        pl: 'Zamknij zamówienie organizacji o podanym tagu jako wykonane: rodzinne albo wskazane po id. Nagroda dzielona jest między członków według tego, co oddali; admin nic nie dostaje.',
+    },
     org_fill_members: {
         ru: 'Добавить в вашу организацию N случайных персонажей, не состоящих ни в одной организации, на низший ранг.',
         ua: 'Додати до вашої організації N випадкових персонажів, які не перебувають у жодній організації, на нижчий ранг.',
