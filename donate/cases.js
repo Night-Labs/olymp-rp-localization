@@ -362,18 +362,20 @@ export const cases = {
 
         lambarghiniOrFerrari: {
             name: {
-                ru: 'Ламба или Фера?',
-                ua: 'Бик Чи Кінь?',
-                en: 'Lamborghini or Ferrari?',
-                zh: '兰博基尼还是法拉利',
-                de: 'Lamborghini oder Ferrari?',
+                ru: 'Италия',
+                ua: 'Італія',
+                en: 'Italy',
+                zh: '意大利',
+                de: 'Italien',
+                pl: 'Włochy',
             },
             desc: {
-                ua: 'А чи знали ви що недавно на гору Олімп завітали Ферруччо Ламборгіні та Енцо Феррарі доставивши нам контейнер своїх унікальних транспортних засобів які мають під капотом велику кількість конячок.',
-                ru: 'А знали ли вы что недавно на гору Олимп посетили Ферруччо Ламборгини и Энцо Феррари доставив нам контейнер своих уникальных транспортных средств которые имеют под капотом большое количество лошадок.',
-                en: 'Did you know that recently Ferruccio Lamborghini and Enzo Ferrari visited Mount Olymp and delivered us a container of their unique vehicles with a large number of horses under the hood?',
-                zh: '你知道吗，最近在奥林匹斯山上，兰博基尼和恩佐·法拉利向我们运送了一个集装箱，里面装着他们独特的运输工具，里面有大量的马',
-                de: 'Wusstest du, dass kürzlich Ferruccio Lamborghini und Enzo Ferrari den Olymp besucht und uns einen Container mit ihren einzigartigen Fahrzeugen geliefert haben - mit einer großen Anzahl Pferdestärken unter der Haube?',
+                ru: 'Италия собрала на Олимпе свои лучшие машины: Lamborghini и Ferrari, Pagani Zonda R, Italdesign Zerouno и Alfa Romeo Giulia. Итальянский дизайн, громкие моторы и редкие экземпляры, о которых мечтает каждый.',
+                ua: 'Італія зібрала на Олімпі свої найкращі машини: Lamborghini і Ferrari, Pagani Zonda R, Italdesign Zerouno та Alfa Romeo Giulia. Італійський дизайн, гучні мотори й рідкісні екземпляри, про які мріє кожен.',
+                en: 'Italy has brought its finest cars to Olymp: Lamborghini and Ferrari, the Pagani Zonda R, the Italdesign Zerouno and the Alfa Romeo Giulia. Italian design, loud engines and rare machines everyone dreams of.',
+                de: 'Italien hat seine besten Autos zum Olymp gebracht: Lamborghini und Ferrari, den Pagani Zonda R, den Italdesign Zerouno und die Alfa Romeo Giulia. Italienisches Design, laute Motoren und seltene Stücke, von denen jeder träumt.',
+                pl: 'Włochy przywiozły na Olimp swoje najlepsze auta: Lamborghini i Ferrari, Pagani Zonda R, Italdesign Zerouno i Alfa Romeo Giulia. Włoski design, głośne silniki i rzadkie egzemplarze, o których marzy każdy.',
+                zh: '意大利把最好的汽车带到了奥林匹斯：兰博基尼和法拉利、帕加尼 Zonda R、Italdesign Zerouno 以及阿尔法·罗密欧 Giulia。意大利设计、轰鸣的引擎和人人梦想的稀有车型。',
             },
         },
 
@@ -669,11 +671,11 @@ export const cases = {
 
         armourCase: {
             name: {
-                ru: 'Бронежилеты',
-                ua: 'Бронежилети',
-                en: 'Armour Vests',
-                de: 'Panzerweste',
-                pl: 'Kamizelki kuloodporne',
+                ru: 'Эгида',
+                ua: 'Егіда',
+                en: 'Aegis',
+                de: 'Aegis',
+                pl: 'Egida',
             },
             desc: {
                 ru: 'В этом кейсе вы можете попытать свою удачу выбив уникальный скин для вашего бронежилета.',
@@ -698,6 +700,23 @@ export const cases = {
                 en: 'A case from the first battle pass on the project. Inside you will find the exclusive rewards of Olymp: unique clothing, tattoos, weapon and armour skins, as well as dance animations.',
                 de: 'Eine Kiste aus dem ersten Battle Pass auf dem Projekt. Darin findest du die exklusiven Belohnungen des Olymps: einzigartige Kleidung, Tattoos, Waffen und Rüstungsskins sowie Tanzanimationen.',
                 pl: 'Skrzynia z pierwszego Battle Pass na projekcie. W środku znajdziesz ekskluzywne nagrody Olimpu: unikalne ubrania, tatuaże, skiny broni i kamizelek oraz animacje taneczne.',
+            },
+        },
+
+        autumn2026: {
+            name: {
+                ru: 'Осень 2026',
+                ua: 'Осінь 2026',
+                en: 'Autumn 2026',
+                de: 'Herbst 2026',
+                pl: 'Jesień 2026',
+            },
+            desc: {
+                ru: 'Кейс из осеннего боевого пропуска. Внутри собраны эксклюзивные награды Олимпа: уникальная одежда, скины оружия Snake, танцевальные анимации и автомобили последнего уровня пропуска.',
+                ua: 'Кейс з осіннього бойового пропуску. Усередині зібрані ексклюзивні нагороди Олімпу: унікальний одяг, скіни зброї Snake, танцювальні анімації та автомобілі останнього рівня пропуску.',
+                en: 'A case from the autumn battle pass. Inside you will find the exclusive rewards of Olymp: unique clothing, Snake weapon skins, dance animations and the cars of the final pass level.',
+                de: 'Eine Kiste aus dem Herbst-Battle-Pass. Darin findest du die exklusiven Belohnungen des Olymps: einzigartige Kleidung, Snake-Waffenskins, Tanzanimationen und die Autos der letzten Pass-Stufe.',
+                pl: 'Skrzynia z jesiennego Battle Pass. W środku znajdziesz ekskluzywne nagrody Olimpu: unikalne ubrania, skiny broni Snake, animacje taneczne oraz samochody ostatniego poziomu przepustki.',
             },
         },
     },
