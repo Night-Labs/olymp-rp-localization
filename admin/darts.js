@@ -13,6 +13,13 @@ export default {
         de: 'Dartscheibe #{{id}} entfernt',
         pl: 'Tarcza do rzutek #{{id}} usunięta',
     },
+    saveFailed: {
+        ru: 'Не удалось записать dartsBoards.json, подробности в консоли сервера',
+        ua: 'Не вдалося записати dartsBoards.json, подробиці в консолі сервера',
+        en: 'Could not write dartsBoards.json, see the server console',
+        de: 'dartsBoards.json konnte nicht geschrieben werden, Details in der Serverkonsole',
+        pl: 'Nie udalo sie zapisac dartsBoards.json, szczegoly w konsoli serwera',
+    },
     noneNearby: {
         ru: 'Рядом нет досок для дартса',
         ua: 'Поруч немає дошок для дартсу',
