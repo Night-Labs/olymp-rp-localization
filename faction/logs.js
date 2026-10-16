@@ -337,6 +337,30 @@ export default {
             pl: '{{actor}} zabrał {{item}} ({{quantity}} szt.) z magazynu',
             zh: '{{actor}} 从仓库取出了 {{item}}（{{quantity}} 个）',
         },
+        tookKit: {
+            ru: '{{actor}} получил набор {{kit}} со склада',
+            ua: '{{actor}} отримав набір {{kit}} зі складу',
+            en: '{{actor}} took the {{kit}} kit from storage',
+            de: '{{actor}} hat das Set {{kit}} aus dem Lager erhalten',
+        },
+        createdKit: {
+            ru: '{{actor}} создал набор {{kit}}',
+            ua: '{{actor}} створив набір {{kit}}',
+            en: '{{actor}} created the {{kit}} kit',
+            de: '{{actor}} hat das Set {{kit}} erstellt',
+        },
+        updatedKit: {
+            ru: '{{actor}} изменил набор {{kit}}',
+            ua: '{{actor}} змінив набір {{kit}}',
+            en: '{{actor}} changed the {{kit}} kit',
+            de: '{{actor}} hat das Set {{kit}} geändert',
+        },
+        deletedKit: {
+            ru: '{{actor}} удалил набор {{kit}}',
+            ua: '{{actor}} видалив набір {{kit}}',
+            en: '{{actor}} deleted the {{kit}} kit',
+            de: '{{actor}} hat das Set {{kit}} gelöscht',
+        },
 
         transferredVehicleToFaction: {
             ru: '{{actor}} передал во фракцию транспорт {{vehicle}} ({{plate}})',
@@ -476,9 +500,11 @@ export default {
         perMember: { ru: 'Каждому', ua: 'Кожному', en: 'Per member', de: 'Pro Mitglied', pl: 'Na osobę' },
         previousRank: { ru: 'Прежний ранг', ua: 'Попередній ранг', en: 'Previous rank', de: 'Bisheriger Rang', pl: 'Poprzednia ranga' },
         newRank: { ru: 'Новый ранг', ua: 'Новий ранг', en: 'New rank', de: 'Neuer Rang', pl: 'Nowa ranga' },
+        item: { ru: 'Предмет', ua: 'Предмет', en: 'Item', de: 'Gegenstand' },
     },
     tables: {
         payoutRecipients: { ru: 'Получили премию', ua: 'Отримали премію', en: 'Paid out to', de: 'Ausgezahlt an', pl: 'Otrzymali premię' },
+        kitItems: { ru: 'Содержимое набора', ua: 'Вміст набору', en: 'Kit contents', de: 'Set-Inhalt' },
     },
     modal: {
         treasury: { ru: 'Бюджет фракции', ua: 'Бюджет фракції', en: 'Faction budget', de: 'Fraktionsbudget', pl: 'Budżet frakcji' },
