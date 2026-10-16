@@ -76,10 +76,10 @@ export const server = {
                 pl: 'Sprzedaż biura',
             },
             message: {
-                ru: 'Продать офис #{{slotId}} в {{building}}? На баланс организации вернётся ${{refund}}.',
-                ua: 'Продати офіс #{{slotId}} в {{building}}? На баланс організації повернеться ${{refund}}.',
-                en: 'Sell office #{{slotId}} in {{building}}? The organization will receive ${{refund}}.',
-                de: 'Büro #{{slotId}} in {{building}} verkaufen? Die Organisation erhält ${{refund}}.',
+                ru: 'Продать офис #{{slotId}} в {{building}}? На баланс организации вернётся ${{refund}}. Всё, что лежит на складе офиса, пропадёт вместе с ним.',
+                ua: 'Продати офіс #{{slotId}} в {{building}}? На баланс організації повернеться ${{refund}}. Усе, що лежить на складі офісу, зникне разом з ним.',
+                en: 'Sell office #{{slotId}} in {{building}}? The organization will receive ${{refund}}. Everything in the office storage is lost with it.',
+                de: 'Büro #{{slotId}} in {{building}} verkaufen? Die Organisation erhält ${{refund}}. Alles im Bürolager geht mit dem Büro verloren.',
                 pl: 'Sprzedać biuro #{{slotId}} w {{building}}? Organizacja otrzyma ${{refund}}.',
             },
             confirm: {
@@ -328,6 +328,18 @@ export const server = {
             de: 'Sie haben keinen Zugriff auf den Bürotresor.',
             pl: 'Nie masz dostępu do sejfu biura.',
         },
+        storageNoAccess: {
+            ru: 'У вас нет доступа к складу офиса.',
+            ua: 'У вас немає доступу до складу офісу.',
+            en: 'You have no access to the office storage.',
+            de: 'Sie haben keinen Zugriff auf das Bürolager.',
+        },
+        workbenchNoAccess: {
+            ru: 'У вас нет доступа к верстаку офиса.',
+            ua: 'У вас немає доступу до верстата офісу.',
+            en: 'You have no access to the office workbench.',
+            de: 'Sie haben keinen Zugriff auf die Bürowerkbank.',
+        },
         vaultLimit: {
             ru: 'В сейфе офиса нельзя хранить больше ${{limit}}.',
             ua: 'У сейфі офісу не можна зберігати більше ${{limit}}.',
@@ -462,6 +474,18 @@ export const server = {
             en: 'Open the safe',
             de: 'Tresor öffnen',
             pl: 'Otwórz sejf',
+        },
+        storage: {
+            ru: 'Открыть склад',
+            ua: 'Відкрити склад',
+            en: 'Open the storage',
+            de: 'Lager öffnen',
+        },
+        workbench: {
+            ru: 'Верстак',
+            ua: 'Верстат',
+            en: 'Workbench',
+            de: 'Werkbank',
         },
         enterGarage: {
             ru: 'Заехать в гараж',

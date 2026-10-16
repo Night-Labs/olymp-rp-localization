@@ -73,6 +73,12 @@ export const cef = {
                 de: 'Assistenz',
                 pl: 'Asystent',
             },
+            workbench: {
+                ru: 'Верстак',
+                ua: 'Верстат',
+                en: 'Workbench',
+                de: 'Werkbank',
+            },
             garageStyle: {
                 ru: 'Отделка гаража',
                 ua: 'Оздоблення гаража',
@@ -140,6 +146,12 @@ export const cef = {
             en: 'Garage {{level}}, +{{slots}} spaces',
             de: 'Garage {{level}}, +{{slots}} Plätze',
             pl: 'Garaż {{level}}, +{{slots}} miejsc',
+        },
+        workbenchLevel: {
+            ru: 'Уровень {{level}}',
+            ua: 'Рівень {{level}}',
+            en: 'Level {{level}}',
+            de: 'Stufe {{level}}',
         },
         vault: {
             installed: {
