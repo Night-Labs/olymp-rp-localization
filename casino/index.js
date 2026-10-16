@@ -39,6 +39,43 @@ export default {
         zh:'赌场',
     },
 
+    // The signs over the game tables (client systems/casino/utils/tableSign.ts): the game, the table, its stakes.
+    sign: {
+        table: {
+            ru: 'Стол {{n}}',
+            ua: 'Стіл {{n}}',
+            en: 'Table {{n}}',
+            de: 'Tisch {{n}}',
+            pl: 'Stół {{n}}',
+            zh: '{{n}}号桌',
+        },
+        bet: {
+            ru: 'Ставка',
+            ua: 'Ставка',
+            en: 'Bet',
+            de: 'Einsatz',
+            pl: 'Stawka',
+            zh: '下注',
+        },
+        cellBet: {
+            ru: 'Ставка на поле',
+            ua: 'Ставка на поле',
+            en: 'Bet per spot',
+            de: 'Einsatz pro Feld',
+            pl: 'Stawka na pole',
+            zh: '每格下注',
+        },
+        // The three card game's own name is plain "Poker" in ru/ua, as Hold'em's: the sign tells them apart.
+        threeCardPoker: {
+            ru: 'Покер на трёх картах',
+            ua: 'Покер на трьох картах',
+            en: 'Three Card Poker',
+            de: 'Three Card Poker',
+            pl: 'Poker trzykartowy',
+            zh: '三张牌扑克',
+        },
+    },
+
     // Key hints of the games' bottom bar, the ones every seated game has.
     hints: {
         chip: {

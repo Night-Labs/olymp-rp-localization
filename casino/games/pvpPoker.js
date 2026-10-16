@@ -45,6 +45,18 @@ export const pvpPoker = {
         zh: '你的上一手牌还在进行中，请等待它结束',
     },
 
+    // The sign over every table (client utils/tableSign.ts), with the blinds and the buy-in of buyIn below.
+    sign: {
+        title: {
+            ru: 'Техасский холдем',
+            ua: 'Техаський холдем',
+            en: "Texas Hold'em",
+            de: "Texas Hold'em",
+            pl: "Texas Hold'em",
+            zh: '德州扑克',
+        },
+    },
+
     minBuyIn: {
         ru: 'Чтобы сесть за стол, нужно минимум {{chips}} фишек',
         ua: 'Щоб сісти за стіл, потрібно щонайменше {{chips}} фішок',
@@ -538,6 +550,14 @@ export const pvpPoker = {
             pl: 'Wpisowe',
             zh: '买入',
         },
+        fee: {
+            ru: 'Комиссия',
+            ua: 'Комісія',
+            en: 'Fee',
+            de: 'Gebühr',
+            pl: 'Prowizja',
+            zh: '手续费',
+        },
         stack: {
             ru: 'Фишки за столом',
             ua: 'Фішки за столом',
@@ -939,13 +959,13 @@ export const pvpPoker = {
         },
 
         // The table's numbers along the bottom.
-        factRake: {
-            ru: 'Комиссия с банка',
-            ua: 'Комісія з банку',
-            en: 'Rake per pot',
-            de: 'Rake pro Pot',
-            pl: 'Prowizja z puli',
-            zh: '每池抽水',
+        factFee: {
+            ru: 'Комиссия за вход',
+            ua: 'Комісія за вхід',
+            en: 'Buy-in fee',
+            de: 'Buy-in-Gebühr',
+            pl: 'Prowizja od wpisowego',
+            zh: '买入手续费',
         },
         factTurn: {
             ru: 'Время на ход',
@@ -1244,12 +1264,12 @@ export const pvpPoker = {
             zh: '赌场抽水',
         },
         rake: {
-            ru: 'С каждого банка казино удерживает {{percent}}% до выплаты победителю, с округлением вниз. Комиссия берётся и тогда, когда все сбросили карты.',
-            ua: 'З кожного банку казино утримує {{percent}}% до виплати переможцю, з округленням униз. Комісія береться і тоді, коли всі скинули карти.',
-            en: 'The casino keeps {{percent}}% of every pot, rounded down, before paying the winner. It is taken even when everyone else folded.',
-            de: 'Das Casino behält von jedem Pot {{percent}} % ein, abgerundet, bevor der Gewinner ausgezahlt wird. Auch dann, wenn alle anderen gefoldet haben.',
-            pl: 'Kasyno pobiera {{percent}}% z każdej puli, z zaokrągleniem w dół, przed wypłatą zwycięzcy. Prowizja jest pobierana także wtedy, gdy wszyscy spasowali.',
-            zh: '赌场在支付赢家前从每个底池抽取{{percent}}%，向下取整。即使其他人都弃牌也照样抽取。',
+            ru: 'С каждого банка казино удерживает {{percent}}% до выплаты победителю, с округлением вверх: даже с самого маленького банка берётся хотя бы 1 фишка. Комиссия берётся и тогда, когда все сбросили карты.',
+            ua: 'З кожного банку казино утримує {{percent}}% до виплати переможцю, з округленням угору: навіть із найменшого банку береться хоча б 1 фішка. Комісія береться і тоді, коли всі скинули карти.',
+            en: 'The casino keeps {{percent}}% of every pot, rounded up, before paying the winner: even the smallest pot pays at least 1 chip. It is taken even when everyone else folded.',
+            de: 'Das Casino behält von jedem Pot {{percent}} % ein, aufgerundet, bevor der Gewinner ausgezahlt wird: Selbst der kleinste Pot zahlt mindestens 1 Chip. Auch dann, wenn alle anderen gefoldet haben.',
+            pl: 'Kasyno pobiera {{percent}}% z każdej puli, z zaokrągleniem w górę, przed wypłatą zwycięzcy: nawet z najmniejszej puli pobierany jest co najmniej 1 żeton. Prowizja jest pobierana także wtedy, gdy wszyscy spasowali.',
+            zh: '赌场在支付赢家前从每个底池抽取{{percent}}%，向上取整：再小的底池也至少抽取1个筹码。即使其他人都弃牌也照样抽取。',
         },
         rakeExample: {
             ru: 'Банк {{pot}}: комиссия {{rake}}, победитель получает {{won}}',
@@ -1318,6 +1338,14 @@ export const pvpPoker = {
             de: 'Zwischen den Händen kannst du mit "{{topUp}}" Chips nachkaufen, bis zu {{max}} am Tisch. In einer Hand spielen nur die Chips am Tisch.',
             pl: 'Między rozdaniami możesz dokupić żetony przyciskiem "{{topUp}}", do {{max}} na stole. W rozdaniu grają tylko żetony na stole.',
             zh: '两手牌之间可以用「{{topUp}}」补充筹码，桌上最多{{max}}。一手牌中只能使用桌上的筹码。',
+        },
+        chipsFee: {
+            ru: 'За фишки, которые вы приносите на стол, казино берёт {{percent}}% сверху, и при входе, и при докупке: за {{amount}} фишек на столе с баланса уйдёт {{total}}.',
+            ua: 'За фішки, які ви приносите на стіл, казино бере {{percent}}% зверху, і при вході, і при докупці: за {{amount}} фішок на столі з балансу піде {{total}}.',
+            en: 'The casino takes {{percent}}% on top of the chips you bring to the table, at the buy-in and at every top-up: {{amount}} chips on the table cost {{total}} from your balance.',
+            de: 'Das Casino nimmt {{percent}} % zusätzlich auf die Chips, die du an den Tisch bringst, beim Buy-in und bei jedem Nachkauf: {{amount}} Chips am Tisch kosten {{total}} von deinem Guthaben.',
+            pl: 'Kasyno pobiera {{percent}}% ponad żetony, które przynosisz na stół, przy wpisowym i przy każdym dokupieniu: {{amount}} żetonów na stole kosztuje {{total}} z salda.',
+            zh: '你带上牌桌的筹码，赌场在其之上另收{{percent}}%，买入和补充时都收取：桌上{{amount}}筹码将从余额扣除{{total}}。',
         },
         chipsBusted: {
             ru: 'Закончились фишки: докупите их в течение {{s}} секунд, иначе вы встанете из-за стола.',
