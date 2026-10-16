@@ -214,12 +214,19 @@ export default {
             de: 'Auftrag erfüllt: {{species}} x{{count}}. Hol dir die Belohnung bei Earl',
             pl: 'Kontrakt wykonany: {{species}} x{{count}}. Wróć do Earla po nagrodę',
         },
-        targetLost: {
-            ru: 'Вашу цель забрал кто-то другой. В зоне появится новая',
-            ua: "Вашу ціль забрав хтось інший. У зоні з'явиться нова",
-            en: 'Someone else took your target. A new one will turn up in the zone',
-            de: 'Jemand anderes hat dein Ziel erwischt. Im Gebiet taucht ein neues auf',
-            pl: 'Ktoś inny zabrał twój cel. W strefie pojawi się nowy',
+        helpStarted: {
+            ru: 'Вы помогаете {{name}} с охотничьим контрактом: ваша добыча идёт в зачёт',
+            ua: 'Ви допомагаєте {{name}} з мисливським контрактом: ваша здобич іде в залік',
+            en: 'You are helping {{name}} with a hunting contract: your game counts towards it',
+            de: 'Du hilfst {{name}} bei einem Jagdauftrag: deine Beute zählt dafür',
+            pl: 'Pomagasz {{name}} w kontrakcie myśliwskim: twoja zdobycz się do niego liczy',
+        },
+        helpStopped: {
+            ru: 'Вы больше не помогаете {{name}} с охотой',
+            ua: 'Ви більше не допомагаєте {{name}} з полюванням',
+            en: 'You are no longer helping {{name}} with the hunt',
+            de: 'Du hilfst {{name}} nicht mehr bei der Jagd',
+            pl: 'Nie pomagasz już {{name}} w polowaniu',
         },
         targetsNearby: {
             ru: 'Цели контракта где-то в отмеченном круге',
@@ -361,6 +368,20 @@ export default {
             en: 'Other contracts',
             de: 'Weitere Aufträge',
             pl: 'Inne kontrakty',
+        },
+        helping: {
+            ru: 'Помощь: {{name}}',
+            ua: 'Допомога: {{name}}',
+            en: 'Helping {{name}}',
+            de: 'Hilfe für {{name}}',
+            pl: 'Pomoc: {{name}}',
+        },
+        helpingLine: {
+            ru: 'Помощь {{name}}: {{species}}',
+            ua: 'Допомога {{name}}: {{species}}',
+            en: 'Helping {{name}}: {{species}}',
+            de: 'Hilfe für {{name}}: {{species}}',
+            pl: 'Pomoc {{name}}: {{species}}',
         },
     },
 
