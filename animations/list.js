@@ -1085,6 +1085,12 @@ export const list = {
                 pl: 'Wzruszyć ramionami',
                 zh: '耸肩',
             },
+            clipboard: {
+                ru: 'Планшет для записей',
+                ua: 'Планшет для записів',
+                en: 'Clipboard',
+                de: 'Klemmbrett',
+            },
         },
     },
     racks: {

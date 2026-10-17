@@ -9,6 +9,7 @@ import musicPlayer from './musicPlayer';
 import transferLimit from './transferLimit';
 import darts from './darts';
 import territories from './territories';
+import battlePass from './battlePass';
 export default {
     ...cef,
     ...server,
@@ -21,6 +22,7 @@ export default {
     transferLimit,
     darts,
     territories,
+    battlePass,
     getOut: {
         ru: 'Для начала выйди из админки',
         ua: 'Для початку вийди з адмінки',

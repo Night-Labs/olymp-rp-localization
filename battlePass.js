@@ -1223,6 +1223,68 @@ export default {
                 },
             },
             casino: {
+                // winChips*: the combined casino quest was removed, keys kept so already completed tasks still render until the next refresh.
+                winChips: {
+                    title: { ru: 'Новичкам везет', ua: 'Новачкам щастить', en: "Beginner's luck", de: 'Anfängerglück' },
+                    description: {
+                        ru: 'Выиграйте {{target}} фишек в рулетке, блэкджеке, покере, техасском холдеме или на слотах.',
+                        ua: 'Виграйте {{target}} фішок у рулетці, блекджеку, покері, техаському холдемі або на слотах.',
+                        en: "Win {{target}} chips at roulette, blackjack, poker, Texas Hold'em or slots.",
+                        de: "Gewinne {{target}} Chips beim Roulette, Blackjack, Poker, Texas Hold'em oder an den Slots.",
+                    },
+                },
+                winChipsMedium: {
+                    title: { ru: 'Фартовый игрок', ua: 'Фартовий гравець', en: 'Lucky player', de: 'Glückspilz' },
+                },
+                winChipsBig: {
+                    title: { ru: 'Гроза казино', ua: 'Гроза казино', en: 'Casino menace', de: 'Schrecken des Casinos' },
+                },
+                // rouletteWin / blackjackWin / pokerWin / holdemWin / slotsWin: shared by the easy, medium and hard task of each game.
+                rouletteWin: {
+                    title: { ru: 'Везение на рулетке', ua: 'Везіння на рулетці', en: 'Roulette luck', de: 'Roulette-Glück' },
+                    description: {
+                        ru: 'Выиграйте {{target}} фишек в рулетке. Засчитывается чистый выигрыш каждого спина, выигрыши суммируются.',
+                        ua: 'Виграйте {{target}} фішок у рулетці. Зараховується чистий виграш кожного спіну, виграші сумуються.',
+                        en: 'Win {{target}} chips at roulette. The net win of every spin counts, wins add up.',
+                        de: 'Gewinne {{target}} Chips beim Roulette. Der Nettogewinn jeder Drehung zählt, Gewinne werden addiert.',
+                    },
+                },
+                blackjackWin: {
+                    title: { ru: 'Двадцать одно', ua: 'Двадцять одне', en: 'Twenty one', de: 'Einundzwanzig' },
+                    description: {
+                        ru: 'Выиграйте {{target}} фишек в блэкджеке. Засчитывается чистый выигрыш каждой раздачи, выигрыши суммируются.',
+                        ua: 'Виграйте {{target}} фішок у блекджеку. Зараховується чистий виграш кожної роздачі, виграші сумуються.',
+                        en: 'Win {{target}} chips at blackjack. The net win of every hand counts, wins add up.',
+                        de: 'Gewinne {{target}} Chips beim Blackjack. Der Nettogewinn jeder Hand zählt, Gewinne werden addiert.',
+                    },
+                },
+                pokerWin: {
+                    title: { ru: 'Покерное лицо', ua: 'Покерне обличчя', en: 'Poker face', de: 'Pokerface' },
+                    description: {
+                        ru: 'Выиграйте {{target}} фишек в покере против дилера. Засчитывается чистый выигрыш каждой раздачи, выигрыши суммируются.',
+                        ua: 'Виграйте {{target}} фішок у покері проти дилера. Зараховується чистий виграш кожної роздачі, виграші сумуються.',
+                        en: 'Win {{target}} chips at poker against the dealer. The net win of every hand counts, wins add up.',
+                        de: 'Gewinne {{target}} Chips beim Poker gegen den Dealer. Der Nettogewinn jeder Hand zählt, Gewinne werden addiert.',
+                    },
+                },
+                holdemWin: {
+                    title: { ru: 'Король холдема', ua: 'Король холдему', en: "Hold'em king", de: "Hold'em-König" },
+                    description: {
+                        ru: 'Выиграйте {{target}} фишек в техасском холдеме. Засчитывается чистый выигрыш каждой раздачи, выигрыши суммируются.',
+                        ua: 'Виграйте {{target}} фішок у техаському холдемі. Зараховується чистий виграш кожної роздачі, виграші сумуються.',
+                        en: "Win {{target}} chips at Texas Hold'em. The net win of every hand counts, wins add up.",
+                        de: "Gewinne {{target}} Chips beim Texas Hold'em. Der Nettogewinn jeder Hand zählt, Gewinne werden addiert.",
+                    },
+                },
+                slotsWin: {
+                    title: { ru: 'Однорукий бандит', ua: 'Однорукий бандит', en: 'One armed bandit', de: 'Einarmiger Bandit' },
+                    description: {
+                        ru: 'Выиграйте {{target}} фишек на слотах. Засчитывается чистый выигрыш каждого спина, выигрыши суммируются.',
+                        ua: 'Виграйте {{target}} фішок на слотах. Зараховується чистий виграш кожного спіну, виграші сумуються.',
+                        en: 'Win {{target}} chips at the slots. The net win of every spin counts, wins add up.',
+                        de: 'Gewinne {{target}} Chips an den Slots. Der Nettogewinn jeder Drehung zählt, Gewinne werden addiert.',
+                    },
+                },
                 luckyWheel: {
                     title: {
                         ru: 'Колесо фортуны',
@@ -1806,6 +1868,7 @@ export default {
                     title: { ru: 'Меняла', ua: 'Міняйло', en: 'Trader', de: 'Händler', pl: 'Handlarz' },
                     description: { ru: 'Совершите {{target}} сделок обмена с игроками.', ua: 'Здійсніть {{target}} угод обміну з гравцями.', en: 'Complete {{target}} trades with players.', de: 'Schließe {{target}} Tauschgeschäfte ab.', pl: 'Zawrzyj {{target}} transakcji z graczami.' },
                 },
+                // vehicle / house / business: quests removed, keys kept so already completed tasks still render until the next refresh.
                 vehicle: {
                     title: { ru: 'Авто-обмен', ua: 'Авто-обмін', en: 'Vehicle swap', de: 'Fahrzeugtausch', pl: 'Wymiana pojazdu' },
                     description: { ru: 'Обменяйтесь транспортом в сделке.', ua: 'Обміняйтеся транспортом в угоді.', en: 'Trade a vehicle in a deal.', de: 'Tausche ein Fahrzeug in einem Deal.', pl: 'Wymień pojazd w transakcji.' },
@@ -1817,6 +1880,15 @@ export default {
                 business: {
                     title: { ru: 'Деловой обмен', ua: 'Діловий обмін', en: 'Business deal', de: 'Geschäftsdeal', pl: 'Transakcja biznesowa' },
                     description: { ru: 'Обменяйтесь бизнесом в сделке.', ua: 'Обміняйтеся бізнесом в угоді.', en: 'Trade a business in a deal.', de: 'Tausche ein Geschäft in einem Deal.', pl: 'Wymień biznes w transakcji.' },
+                },
+                sum: {
+                    title: { ru: 'Крупный оборот', ua: 'Великий оборот', en: 'Big turnover', de: 'Großer Umsatz' },
+                    description: {
+                        ru: 'Совершите обмены с игроками на общую сумму ${{target}}. Засчитывается и отданное, и полученное (деньги, транспорт, дома, бизнесы).',
+                        ua: 'Здійсніть обміни з гравцями на загальну суму ${{target}}. Зараховується і віддане, і отримане (гроші, транспорт, будинки, бізнеси).',
+                        en: 'Trade with players for a total of ${{target}}. Both what you give and what you receive count (money, vehicles, houses, businesses).',
+                        de: 'Tausche mit Spielern im Gesamtwert von ${{target}}. Gegebenes und Erhaltenes zählen beide (Geld, Fahrzeuge, Häuser, Unternehmen).',
+                    },
                 },
                 item: {
                     title: { ru: 'Бартер', ua: 'Бартер', en: 'Barter', de: 'Tauschhandel', pl: 'Barter' },

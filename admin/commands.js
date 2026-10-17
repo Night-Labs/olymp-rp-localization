@@ -1140,6 +1140,18 @@ export default {
         de: 'Die erste aktive Battle-Pass-Aufgabe derselben Schwierigkeit des Spielers durch die Aufgabe mit der angegebenen questId ersetzen (ohne Kosten, ohne Ersetzungs-Cooldown).',
         pl: 'Zastąp pierwsze aktywne zadanie przepustki bojowej gracza o tej samej trudności zadaniem o podanym questId (bez opłaty i bez cooldownu zamiany).',
     },
+    bp_tasks: {
+        ru: 'Вывести в чат задания боевого пропуска игрока по порядку: номер, сложность, id, прогресс и награда.',
+        ua: 'Вивести в чат завдання бойової перепустки гравця по порядку: номер, складність, id, прогрес і нагорода.',
+        en: "List the player's battle pass tasks in chat in order: number, difficulty, id, progress and reward.",
+        de: 'Die Battle-Pass-Aufgaben des Spielers der Reihe nach im Chat anzeigen: Nummer, Schwierigkeit, Id, Fortschritt und Belohnung.',
+    },
+    bp_replace_task: {
+        ru: 'Заменить задание боевого пропуска игрока по номеру из /bp_tasks: откроется список доступных игроку заданий той же сложности.',
+        ua: 'Замінити завдання бойової перепустки гравця за номером з /bp_tasks: відкриється список доступних гравцеві завдань тієї ж складності.',
+        en: "Replace the player's battle pass task by its /bp_tasks number: opens a list of tasks of the same difficulty available to the player.",
+        de: 'Die Battle-Pass-Aufgabe des Spielers nach ihrer /bp_tasks-Nummer ersetzen: Öffnet eine Liste der für den Spieler verfügbaren Aufgaben derselben Schwierigkeit.',
+    },
     airdrop: {
         ru: 'Запустить глобальный аирдроп вручную.',
         ua: 'Запустити глобальний аірдроп вручну.',
