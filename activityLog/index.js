@@ -45,5 +45,28 @@ export default {
         yesterday: { ru: 'Вчера', ua: 'Вчора', en: 'Yesterday', de: 'Gestern', pl: 'Wczoraj' },
         loadError: { ru: 'Не удалось загрузить записи', ua: 'Не вдалося завантажити записи', en: 'Could not load entries', de: 'Einträge konnten nicht geladen werden', pl: 'Nie udało się wczytać wpisów' },
         retry: { ru: 'Повторить', ua: 'Повторити', en: 'Try again', de: 'Erneut versuchen', pl: 'Spróbuj ponownie' },
+        // The journal's date filter while no days are picked.
+        allTime: { ru: 'За всё время', ua: 'За весь час', en: 'All time', de: 'Gesamter Zeitraum' },
+    },
+    view: {
+        feed: { ru: 'Журнал', ua: 'Журнал', en: 'Journal', de: 'Journal' },
+        stats: { ru: 'Статистика', ua: 'Статистика', en: 'Statistics', de: 'Statistik' },
+    },
+    // The per-member statistics; each journal names its own columns under `<journal>.stats.metrics`.
+    stats: {
+        member: { ru: 'Участник', ua: 'Учасник', en: 'Member', de: 'Mitglied' },
+        total: { ru: 'Всего', ua: 'Усього', en: 'Total', de: 'Gesamt' },
+        empty: {
+            ru: 'За этот период ничего не записано',
+            ua: 'За цей період нічого не записано',
+            en: 'Nothing was recorded in this period',
+            de: 'In diesem Zeitraum wurde nichts erfasst',
+        },
+        loadError: {
+            ru: 'Не удалось загрузить статистику',
+            ua: 'Не вдалося завантажити статистику',
+            en: 'Could not load the statistics',
+            de: 'Statistik konnte nicht geladen werden',
+        },
     },
 };
