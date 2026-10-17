@@ -81,6 +81,13 @@ export const cef = {
             zh: '运输',
         },
 
+        kits: {
+            ru: 'Наборы',
+            ua: 'Набори',
+            en: 'Kits',
+            de: 'Sets',
+        },
+
         map: {
             ru: 'Карта',
             ua: 'Карта',
@@ -148,6 +155,12 @@ export const cef = {
             de: 'Hier findest du den gesamten Transport deiner Fraktion. Du kannst schnell ein Fahrzeug finden, den Fuhrpark ansehen und neuen Transport hinzufügen.',
             pl: 'Tutaj znajdziesz caly transport swojej frakcji. Mozesz szybko znalezc potrzebny pojazd, przejrzec flote i dodac nowy transport.',
             zh: '这里汇集了你帮派的全部载具。你可以快速查找车辆、查看车队，并添加新的运输工具。',
+        },
+        kits: {
+            ru: 'Наборы со склада, которые бот фракции выдаёт участникам. Каждый набор можно брать раз в час.',
+            ua: 'Набори зі складу, які бот фракції видає учасникам. Кожен набір можна брати раз на годину.',
+            en: 'Storage kits the faction bot hands out to members. Each kit can be taken once an hour.',
+            de: 'Lagersets, die der Fraktionsbot an Mitglieder ausgibt. Jedes Set gibt es einmal pro Stunde.',
         },
         map: {
             ru: 'С помощью этой карты вы можете следить за территориями вашей банды. А также объявлять войну за территории другим бандам.',

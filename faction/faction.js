@@ -25,6 +25,7 @@ import evidence from './evidence';
 import lizaSellPills from './lizaSellPills';
 import warHistory from './warHistory';
 import warPlanner from './warPlanner';
+import kits from './kits';
 
 export const faction = {
     factions,
@@ -52,6 +53,7 @@ export const faction = {
     vehicleNpc,
     evidence,
     lizaSellPills,
+    kits,
     ...cef,
     ...server,
     leader: {

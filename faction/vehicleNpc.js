@@ -13,6 +13,12 @@ export default {
         de: 'Fahrzeug nehmen',
         pl: 'Weź pojazd',
     },
+    kits: {
+        ru: 'Наборы со склада',
+        ua: 'Набори зі складу',
+        en: 'Storage kits',
+        de: 'Sets aus dem Lager',
+    },
     noThanks: {
         ru: 'Нет, спасибо',
         ua: 'Нi, дякую',

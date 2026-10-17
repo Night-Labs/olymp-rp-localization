@@ -106,6 +106,7 @@ import sections from './sections';
 import organizationRegistration from './organizationRegistration';
 import organizations from './organizations';
 import activityLog from './activityLog';
+import dateRange from './dateRange';
 import bankRobbery from './bankRobbery';
 import factories from './factories';
 import tennis from './tennis';
@@ -247,6 +248,7 @@ export default {
     organizationRegistration,
     organizations,
     activityLog,
+    dateRange,
     bankRobbery,
     factories,
     tennis,

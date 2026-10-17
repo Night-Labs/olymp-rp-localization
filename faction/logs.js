@@ -337,6 +337,30 @@ export default {
             pl: '{{actor}} zabrał {{item}} ({{quantity}} szt.) z magazynu',
             zh: '{{actor}} 从仓库取出了 {{item}}（{{quantity}} 个）',
         },
+        tookKit: {
+            ru: '{{actor}} получил набор {{kit}} со склада',
+            ua: '{{actor}} отримав набір {{kit}} зі складу',
+            en: '{{actor}} took the {{kit}} kit from storage',
+            de: '{{actor}} hat das Set {{kit}} aus dem Lager erhalten',
+        },
+        createdKit: {
+            ru: '{{actor}} создал набор {{kit}}',
+            ua: '{{actor}} створив набір {{kit}}',
+            en: '{{actor}} created the {{kit}} kit',
+            de: '{{actor}} hat das Set {{kit}} erstellt',
+        },
+        updatedKit: {
+            ru: '{{actor}} изменил набор {{kit}}',
+            ua: '{{actor}} змінив набір {{kit}}',
+            en: '{{actor}} changed the {{kit}} kit',
+            de: '{{actor}} hat das Set {{kit}} geändert',
+        },
+        deletedKit: {
+            ru: '{{actor}} удалил набор {{kit}}',
+            ua: '{{actor}} видалив набір {{kit}}',
+            en: '{{actor}} deleted the {{kit}} kit',
+            de: '{{actor}} hat das Set {{kit}} gelöscht',
+        },
 
         transferredVehicleToFaction: {
             ru: '{{actor}} передал во фракцию транспорт {{vehicle}} ({{plate}})',
@@ -417,6 +441,68 @@ export default {
             pl: '{{actor}} wydał książeczkę wojskową dla {{name}}',
         },
 
+        // Duty work counted by the per-member statistics (`FACTION_STATS_METRICS`).
+        arrested: {
+            ru: '{{actor}} арестовал {{name}} на {{time}} мин. Причина: {{reason}}',
+            ua: '{{actor}} заарештував {{name}} на {{time}} хв. Причина: {{reason}}',
+            en: '{{actor}} arrested {{name}} for {{time}} min. Reason: {{reason}}',
+            de: '{{actor}} hat {{name}} für {{time}} Min. festgenommen. Grund: {{reason}}',
+        },
+        friskedPlayer: {
+            ru: '{{actor}} обыскал {{name}}',
+            ua: '{{actor}} обшукав {{name}}',
+            en: '{{actor}} searched {{name}}',
+            de: '{{actor}} hat {{name}} durchsucht',
+        },
+        friskedVehicle: {
+            ru: '{{actor}} обыскал багажник {{plate}}',
+            ua: '{{actor}} обшукав багажник {{plate}}',
+            en: '{{actor}} searched the trunk of {{plate}}',
+            de: '{{actor}} hat den Kofferraum von {{plate}} durchsucht',
+        },
+        placedRadar: {
+            ru: '{{actor}} установил радар на {{speed}} км/ч',
+            ua: '{{actor}} встановив радар на {{speed}} км/год',
+            en: '{{actor}} set up a speed radar at {{speed}} km/h',
+            de: '{{actor}} hat einen Radar auf {{speed}} km/h aufgestellt',
+        },
+        healedDiseases: {
+            ru: '{{actor}} вылечил болезни {{name}} за ${{sum}}',
+            ua: '{{actor}} вилікував хвороби {{name}} за ${{sum}}',
+            en: '{{actor}} cured the diseases of {{name}} for ${{sum}}',
+            de: '{{actor}} hat die Krankheiten von {{name}} für ${{sum}} geheilt',
+        },
+        detoxed: {
+            ru: '{{actor}} провёл детокс {{name}} за ${{sum}}',
+            ua: '{{actor}} провів детокс {{name}} за ${{sum}}',
+            en: '{{actor}} gave {{name}} a detox for ${{sum}}',
+            de: '{{actor}} hat bei {{name}} eine Entgiftung für ${{sum}} durchgeführt',
+        },
+        revived: {
+            ru: '{{actor}} реанимировал {{name}}',
+            ua: '{{actor}} реанімував {{name}}',
+            en: '{{actor}} revived {{name}}',
+            de: '{{actor}} hat {{name}} wiederbelebt',
+        },
+        medicalCheckup: {
+            ru: '{{actor}} провёл медосмотр {{name}}',
+            ua: '{{actor}} провів медогляд {{name}}',
+            en: '{{actor}} gave {{name}} a medical checkup',
+            de: '{{actor}} hat {{name}} ärztlich untersucht',
+        },
+        publishedAd: {
+            ru: '{{actor}} опубликовал объявление от {{name}}',
+            ua: '{{actor}} опублікував оголошення від {{name}}',
+            en: '{{actor}} published an ad from {{name}}',
+            de: '{{actor}} hat eine Anzeige von {{name}} veröffentlicht',
+        },
+        startedLiveStream: {
+            ru: '{{actor}} начал прямой эфир',
+            ua: '{{actor}} розпочав прямий ефір',
+            en: '{{actor}} started a live broadcast',
+            de: '{{actor}} hat eine Live-Sendung gestartet',
+        },
+
         declaredWar: {
             ru: '{{actor}} объявил войну за территорию #{{zone}}',
             ua: '{{actor}} оголосив війну за територію #{{zone}}',
@@ -476,11 +562,38 @@ export default {
         perMember: { ru: 'Каждому', ua: 'Кожному', en: 'Per member', de: 'Pro Mitglied', pl: 'Na osobę' },
         previousRank: { ru: 'Прежний ранг', ua: 'Попередній ранг', en: 'Previous rank', de: 'Bisheriger Rang', pl: 'Poprzednia ranga' },
         newRank: { ru: 'Новый ранг', ua: 'Новий ранг', en: 'New rank', de: 'Neuer Rang', pl: 'Nowa ranga' },
+        item: { ru: 'Предмет', ua: 'Предмет', en: 'Item', de: 'Gegenstand' },
     },
     tables: {
         payoutRecipients: { ru: 'Получили премию', ua: 'Отримали премію', en: 'Paid out to', de: 'Ausgezahlt an', pl: 'Otrzymali premię' },
+        kitItems: { ru: 'Содержимое набора', ua: 'Вміст набору', en: 'Kit contents', de: 'Set-Inhalt' },
     },
     modal: {
         treasury: { ru: 'Бюджет фракции', ua: 'Бюджет фракції', en: 'Faction budget', de: 'Fraktionsbudget', pl: 'Budżet frakcji' },
+    },
+    // Column names of the per-member statistics, by `FACTION_STATS_METRICS` id.
+    stats: {
+        metrics: {
+            arrests: { ru: 'Аресты', ua: 'Арешти', en: 'Arrests', de: 'Festnahmen' },
+            fines: { ru: 'Штрафы', ua: 'Штрафи', en: 'Fines', de: 'Bußgelder' },
+            frisks: { ru: 'Обыски', ua: 'Обшуки', en: 'Searches', de: 'Durchsuchungen' },
+            radars: { ru: 'Радары', ua: 'Радари', en: 'Radars', de: 'Radare' },
+            licensesTaken: { ru: 'Изъято лицензий', ua: 'Вилучено ліцензій', en: 'Licenses revoked', de: 'Lizenzentzüge' },
+            heals: { ru: 'Лечение', ua: 'Лікування', en: 'Treatments', de: 'Behandlungen' },
+            revives: { ru: 'Реанимации', ua: 'Реанімації', en: 'Revives', de: 'Reanimationen' },
+            checkups: { ru: 'Медосмотры', ua: 'Медогляди', en: 'Checkups', de: 'Untersuchungen' },
+            blood: { ru: 'Забор крови', ua: 'Забір крові', en: 'Blood draws', de: 'Blutabnahmen' },
+            pills: { ru: 'Таблетки', ua: 'Таблетки', en: 'Pills', de: 'Tabletten' },
+            medicalLicenses: { ru: 'Мед. лицензии', ua: 'Мед. ліцензії', en: 'Medical licenses', de: 'Med. Lizenzen' },
+            militaryTickets: { ru: 'Военные билеты', ua: 'Військові квитки', en: 'Military tickets', de: 'Militärausweise' },
+            licensesSold: { ru: 'Продано лицензий', ua: 'Продано ліцензій', en: 'Licenses sold', de: 'Lizenzen verkauft' },
+            ads: { ru: 'Объявления', ua: 'Оголошення', en: 'Ads', de: 'Anzeigen' },
+            streams: { ru: 'Эфиры', ua: 'Ефіри', en: 'Broadcasts', de: 'Sendungen' },
+            wars: { ru: 'Войны', ua: 'Війни', en: 'Wars', de: 'Kriege' },
+            storageTaken: { ru: 'Взял со склада', ua: 'Взяв зі складу', en: 'Taken from storage', de: 'Aus dem Lager' },
+            storagePut: { ru: 'Положил на склад', ua: 'Поклав на склад', en: 'Put in storage', de: 'Ins Lager' },
+            deposited: { ru: 'Внесено', ua: 'Внесено', en: 'Deposited', de: 'Eingezahlt' },
+            withdrawn: { ru: 'Снято', ua: 'Знято', en: 'Withdrawn', de: 'Abgehoben' },
+        },
     },
 };

@@ -61,11 +61,57 @@ export const cef = {
             pl: 'Wybór siedziby głównej',
         },
         emptyState: {
-            ru: 'У вас нет подходящей недвижимости для размещения штаб-квартиры организации. Приобретите дом с достаточным количеством гаражных мест и попробуйте снова.',
-            ua: 'У вас немає відповідної нерухомості для розміщення штаб-квартири організації. Придбайте будинок з достатньою кількістю гаражних місць і спробуйте знову.',
-            en: 'You do not have a suitable property for an organization headquarters. Purchase a house with enough garage slots and try again.',
-            de: 'Sie besitzen keine geeignete Immobilie für ein Organisationshauptquartier. Kaufen Sie ein Haus mit genügend Garagenplätzen und versuchen Sie es erneut.',
-            pl: 'Nie posiadasz odpowiedniej nieruchomości na siedzibę organizacji. Kup dom z wystarczającą liczbą miejsc w garażu i spróbuj ponownie.',
+            ru: 'У вас нет дома, подходящего для штаб-квартиры: нужен дом с достаточным количеством гаражных мест. Можно купить офис на вкладке "Офис".',
+            ua: 'У вас немає будинку, придатного для штаб-квартири: потрібен будинок з достатньою кількістю гаражних місць. Можна купити офіс на вкладці "Офіс".',
+            en: 'You have no house that can be the headquarters: it needs enough garage slots. You can buy an office on the "Office" tab instead.',
+            de: 'Sie haben kein Haus, das als Hauptquartier taugt: Es braucht genügend Garagenplätze. Stattdessen können Sie im Reiter "Büro" ein Büro kaufen.',
+            pl: 'Nie masz domu, który może być siedzibą: potrzebuje wystarczającej liczby miejsc w garażu. Zamiast tego możesz kupić biuro w zakładce "Biuro".',
+        },
+        kinds: {
+            house: {
+                ru: 'Свой дом',
+                ua: 'Свій будинок',
+                en: 'My house',
+                de: 'Eigenes Haus',
+            },
+            office: {
+                ru: 'Офис',
+                ua: 'Офіс',
+                en: 'Office',
+                de: 'Büro',
+            },
+        },
+        office: {
+            price: {
+                ru: 'Цена',
+                ua: 'Ціна',
+                en: 'Price',
+                de: 'Preis',
+            },
+            free: {
+                ru: 'Свободно',
+                ua: 'Вільно',
+                en: 'Available',
+                de: 'Frei',
+            },
+            chosen: {
+                ru: 'Помещение',
+                ua: 'Приміщення',
+                en: 'Premises',
+                de: 'Räumlichkeit',
+            },
+            note1: {
+                ru: 'Офис покупается вместе с организацией и становится её штаб-квартирой. Роялти за него не платится.',
+                ua: 'Офіс купується разом з організацією і стає її штаб-квартирою. Роялті за нього не сплачується.',
+                en: 'The office is bought together with the organization and becomes its headquarters. No royalty is paid for it.',
+                de: 'Das Büro wird zusammen mit der Organisation gekauft und wird ihr Hauptquartier. Dafür fällt keine Lizenzgebühr an.',
+            },
+            note2: {
+                ru: 'В офисе есть склад организации, верстак и гараж.',
+                ua: 'В офісі є склад організації, верстат і гараж.',
+                en: 'The office has the organization storage, a workbench and a garage.',
+                de: 'Das Büro hat das Organisationslager, eine Werkbank und eine Garage.',
+            },
         },
         actions: {
             next: {
@@ -482,6 +528,12 @@ export const cef = {
                 de: 'Lizenzgebühr (7 Tage)',
                 pl: 'Opłata (7 dni)',
             },
+            office: {
+                ru: 'Офис {{name}} #{{slotId}}',
+                ua: 'Офіс {{name}} #{{slotId}}',
+                en: 'Office {{name}} #{{slotId}}',
+                de: 'Büro {{name}} #{{slotId}}',
+            },
             total: {
                 ru: 'Итого',
                 ua: 'Разом',
@@ -592,6 +644,12 @@ export const cef = {
                 en: 'The selected property can no longer be the headquarters. Open the registration again and pick another one.',
                 de: 'Die gewählte Immobilie kann nicht mehr das Hauptquartier sein. Öffnen Sie die Registrierung erneut und wählen Sie eine andere.',
                 pl: 'Wybrana nieruchomość nie może już być siedzibą. Otwórz rejestrację ponownie i wybierz inną.',
+            },
+            officeUnavailable: {
+                ru: 'Это помещение офиса уже занято. Выберите другое.',
+                ua: 'Це приміщення офісу вже зайняте. Оберіть інше.',
+                en: 'This office premises is already taken. Pick another one.',
+                de: 'Diese Büroräumlichkeit ist bereits vergeben. Wählen Sie eine andere.',
             },
             logoServiceUnavailable: {
                 ru: 'Сервис обработки логотипов сейчас недоступен. Деньги не списаны, попробуйте позже.',

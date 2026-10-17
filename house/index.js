@@ -7,11 +7,13 @@ import residents from './residents';
 import tv from './tv';
 import signBoard from './signBoard';
 import concierge from './concierge';
+import exterior from './exterior';
 
 export default {
     ...cef,
     ...server,
     furniture,
+    exterior,
     safe,
     upgrade,
     residents,

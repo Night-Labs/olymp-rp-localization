@@ -795,4 +795,18 @@ export const logs = {
     modal: {
         treasury: { ru: 'Баланс организации', ua: 'Баланс організації', en: 'Organization balance', de: 'Organisationsguthaben', pl: 'Bilans organizacji' },
     },
+    // Column names of the per-member statistics, by `ORGANIZATION_STATS_METRICS` id.
+    stats: {
+        metrics: {
+            contracts: { ru: 'Выполнено контрактов', ua: 'Виконано контрактів', en: 'Contracts done', de: 'Erledigte Aufträge' },
+            contractsTaken: { ru: 'Взято контрактов', ua: 'Взято контрактів', en: 'Contracts taken', de: 'Angenommene Aufträge' },
+            supplies: { ru: 'Поставки на фабрики', ua: 'Поставки на фабрики', en: 'Factory supplies', de: 'Fabriklieferungen' },
+            harvests: { ru: 'Сбор с территорий', ua: 'Збір з територій', en: 'Harvests', de: 'Ernten' },
+            captures: { ru: 'Захваты', ua: 'Захоплення', en: 'Captures', de: 'Eroberungen' },
+            warehouseTaken: { ru: 'Взял со склада', ua: 'Взяв зі складу', en: 'Taken from warehouse', de: 'Aus dem Lager' },
+            warehousePut: { ru: 'Положил на склад', ua: 'Поклав на склад', en: 'Put in warehouse', de: 'Ins Lager' },
+            deposited: { ru: 'Внесено', ua: 'Внесено', en: 'Deposited', de: 'Eingezahlt' },
+            withdrawn: { ru: 'Снято', ua: 'Знято', en: 'Withdrawn', de: 'Abgehoben' },
+        },
+    },
 };

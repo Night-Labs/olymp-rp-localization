@@ -1,0 +1,80 @@
+export default {
+    emptyDogBowl: {
+        ru: 'Пустая миска для собаки',
+        ua: 'Порожня миска для собаки',
+        en: 'Empty Dog Bowl',
+        de: 'Leerer Hundenapf',
+    },
+    fullDogBowl: {
+        ru: 'Полная миска для собаки',
+        ua: 'Повна миска для собаки',
+        en: 'Full Dog Bowl',
+        de: 'Voller Hundenapf',
+    },
+    greyCatHouse: {
+        ru: 'Серый домик для кошки',
+        ua: 'Сірий будиночок для кішки',
+        en: 'Grey Cat House',
+        de: 'Graues Katzenhaus',
+    },
+    greyWoodenKennel: {
+        ru: 'Серая деревянная будка',
+        ua: "Сіра дерев'яна будка",
+        en: 'Grey Wooden Kennel',
+        de: 'Graue Holzhundehütte',
+    },
+    oldChickenCoop: {
+        ru: 'Старый курятник',
+        ua: 'Старий курник',
+        en: 'Old Chicken Coop',
+        de: 'Alter Hühnerstall',
+    },
+    openDogCage: {
+        ru: 'Открытая клетка для собаки',
+        ua: 'Відкрита клітка для собаки',
+        en: 'Open Dog Cage',
+        de: 'Offener Hundekäfig',
+    },
+    closedDogCage: {
+        ru: 'Закрытая клетка для собаки',
+        ua: 'Закрита клітка для собаки',
+        en: 'Closed Dog Cage',
+        de: 'Geschlossener Hundekäfig',
+    },
+    darkWoodenDoghouse: {
+        ru: 'Тёмная деревянная будка',
+        ua: "Темна дерев'яна будка",
+        en: 'Dark Wooden Doghouse',
+        de: 'Dunkle Holzhundehütte',
+    },
+    roundHayFeeder: {
+        ru: 'Круглая кормушка для сена',
+        ua: 'Кругла годівниця для сіна',
+        en: 'Round Hay Feeder',
+        de: 'Runde Heuraufe',
+    },
+    rustyTinPigShelter: {
+        ru: 'Ржавый жестяной навес для свиней',
+        ua: 'Іржавий бляшаний навіс для свиней',
+        en: 'Rusty Tin Pig Shelter',
+        de: 'Rostiger Blech-Schweineunterstand',
+    },
+    woodenPigShelter: {
+        ru: 'Деревянный навес для свиней',
+        ua: "Дерев'яний навіс для свиней",
+        en: 'Wooden Pig Shelter',
+        de: 'Hölzerner Schweineunterstand',
+    },
+    greyRoundPetBed: {
+        ru: 'Серая круглая лежанка для питомца',
+        ua: 'Сіра кругла лежанка для улюбленця',
+        en: 'Grey Round Pet Bed',
+        de: 'Graues rundes Haustierbett',
+    },
+    brownRoundPetBed: {
+        ru: 'Коричневая круглая лежанка для питомца',
+        ua: 'Коричнева кругла лежанка для улюбленця',
+        en: 'Brown Round Pet Bed',
+        de: 'Braunes rundes Haustierbett',
+    },
+};
