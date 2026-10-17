@@ -312,4 +312,10 @@ export default {
         de: 'Deine Organisation hat nicht genug Geld, um dir dein Gehalt zu zahlen',
         pl: 'Twoja organizacja nie ma wystarczająco pieniędzy, żeby wypłacić ci pensję',
     },
+    stolenVehicleSeized: {
+        ru: 'Угнанное авто изъято, ты получил ${{salary}}',
+        ua: 'Викрадене авто вилучено, ти отримав ${{salary}}',
+        en: 'The stolen car has been seized, you received ${{salary}}',
+        de: 'Das gestohlene Auto wurde sichergestellt, du hast ${{salary}} erhalten',
+    },
 };

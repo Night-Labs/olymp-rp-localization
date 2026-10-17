@@ -997,6 +997,26 @@ export const server = {
             pl: 'Stań na polu farmera, aby je zmienić',
         },
     },
+    busRoutePreview: {
+        on: {
+            ru: 'Маршрут {{route}} показан в мире: {{stops}} остановок, {{points}} точек',
+            ua: 'Маршрут {{route}} показано у світі: {{stops}} зупинок, {{points}} точок',
+            en: 'Route {{route}} shown in the world: {{stops}} stops, {{points}} points',
+            de: 'Linie {{route}} in der Welt angezeigt: {{stops}} Haltestellen, {{points}} Punkte',
+        },
+        off: {
+            ru: 'Просмотр маршрута выключен',
+            ua: 'Перегляд маршруту вимкнено',
+            en: 'Route preview turned off',
+            de: 'Linienvorschau ausgeschaltet',
+        },
+        unknown: {
+            ru: 'Нет такого маршрута. Есть: {{routes}}',
+            ua: 'Немає такого маршруту. Є: {{routes}}',
+            en: 'No such route. Available: {{routes}}',
+            de: 'Keine solche Linie. Verfügbar: {{routes}}',
+        },
+    },
     quest: {
         noActive: {
             ru: 'У {{name}} нет активного квеста в HUD',

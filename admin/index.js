@@ -4,6 +4,9 @@ import replays from './replays';
 import { server } from './server';
 import mute from './mute';
 import weaponBan from './weaponBan';
+import vehicleBan from './vehicleBan';
+import warn from './warn';
+import addiction from './addiction';
 import objectPlacementBan from './objectPlacementBan';
 import musicPlayer from './musicPlayer';
 import transferLimit from './transferLimit';
@@ -17,6 +20,9 @@ export default {
     ban,
     mute,
     weaponBan,
+    vehicleBan,
+    warn,
+    addiction,
     objectPlacementBan,
     musicPlayer,
     transferLimit,

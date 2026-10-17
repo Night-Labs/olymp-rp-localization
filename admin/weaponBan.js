@@ -62,4 +62,16 @@ export default {
         'de': 'Du darfst keine Waffen benutzen. Verbleibend: {{time}}',
         'pl': 'Masz zablokowane używanie broni. Pozostało: {{time}}',
     },
+    broadcast: {
+        ru: '~r~Администратор {{admin}} запретил игроку {{target}} использовать оружие на {{minutes}} минут по причине {{reason}}',
+        ua: '~r~Адміністратор {{admin}} заборонив гравцю {{target}} використовувати зброю на {{minutes}} хвилин з причини {{reason}}',
+        en: '~r~Administrator {{admin}} banned player {{target}} from using weapons for {{minutes}} minutes due to {{reason}}',
+        de: '~r~Administrator {{admin}} hat Spieler {{target}} für {{minutes}} Minuten die Benutzung von Waffen verboten, Grund: {{reason}}',
+    },
+    hudTitle: {
+        ru: 'Запрет оружия',
+        ua: 'Заборона зброї',
+        en: 'Weapon ban',
+        de: 'Waffensperre',
+    },
 };

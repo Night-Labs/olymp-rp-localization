@@ -62,4 +62,10 @@
         'de': '~r~Administrator {{admin}} hat Spieler {{target}} für {{minutes}} Minuten aufgrund von {{reason}} stummgeschaltet',
         'pl': '~r~Administrator {{admin}} wyciszył gracza {{target}} na {{minutes}} minut z powodu {{reason}}',
     },
+    hudTitle: {
+        ru: 'Мут чата и голоса',
+        ua: 'Мут чату та голосу',
+        en: 'Chat and voice mute',
+        de: 'Chat- und Voice-Mute',
+    },
 };

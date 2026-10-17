@@ -1018,11 +1018,22 @@ export const menu = {
                 pl: 'Organizacja nie ma domu.',
             },
             hqChangeInDebt: {
-                ru: 'Сначала погасите долг по аренде дома организации.',
-                ua: 'Спочатку погасіть борг за оренду будинку організації.',
-                en: 'Pay off the rent debt on the family house first.',
-                de: 'Begleiche zuerst die Mietschulden für das Familienhaus.',
-                pl: 'Najpierw spłać dług za czynsz domu rodziny.',
+                ru: 'Сначала погасите долг по налогу на штаб-квартиру.',
+                ua: 'Спочатку погасіть борг з податку на штаб-квартиру.',
+                en: 'Pay off the headquarters tax debt first.',
+                de: 'Begleiche zuerst die Steuerschuld des Hauptquartiers.',
+            },
+            hqChangeDissolving: {
+                ru: 'Организация расформировывается.',
+                ua: 'Організація розформовується.',
+                en: 'The organization is being dissolved.',
+                de: 'Die Organisation wird aufgelöst.',
+            },
+            hqOfficeInDebt: {
+                ru: 'Сначала погасите долг по налогу офиса: он спишется, как только в казне хватит денег.',
+                ua: 'Спочатку погасіть борг з податку офісу: він спишеться, щойно в казні вистачить грошей.',
+                en: 'Pay off the office tax debt first: it is taken as soon as the treasury can cover it.',
+                de: 'Begleiche zuerst die Steuerschuld des Büros: Sie wird abgebucht, sobald die Kasse sie deckt.',
             },
             hqChangeRenovation: {
                 ru: 'В одном из домов идёт ремонт. Завершите его и повторите.',
@@ -1044,6 +1055,25 @@ export const menu = {
                 en: 'Another operation is running on one of the houses. Try again in a moment.',
                 de: 'Mit einem der Häuser läuft gerade ein anderer Vorgang. Versuche es gleich noch einmal.',
                 pl: 'Na jednym z domów trwa inna operacja. Spróbuj ponownie za chwilę.',
+            },
+            // Making the office the HQ in place of the house (`organizations.menu.setOfficeHq`).
+            hqNoOffice: {
+                ru: 'У организации нет офиса.',
+                ua: 'В організації немає офісу.',
+                en: 'The organization has no office.',
+                de: 'Die Organisation hat kein Büro.',
+            },
+            hqChangeMaxHouses: {
+                ru: 'Дом организации вернётся вам, а у вас уже максимум личных домов. Освободите слот и повторите.',
+                ua: 'Будинок організації повернеться вам, а у вас вже максимум особистих будинків. Звільніть слот і повторіть.',
+                en: 'The family house would go back to you, and you already own the maximum of houses. Free a slot and try again.',
+                de: 'Das Familienhaus ginge an dich zurück, und du besitzt bereits die maximale Zahl an Häusern. Mache einen Platz frei und versuche es erneut.',
+            },
+            hqOfficeNoRoom: {
+                ru: 'В гаражах офиса не хватит мест для транспорта из гаража дома.',
+                ua: 'У гаражах офісу не вистачить місць для транспорту з гаража будинку.',
+                en: 'The office garages have no room for the vehicles of the house garage.',
+                de: 'Die Bürogaragen haben nicht genug Plätze für die Fahrzeuge aus der Hausgarage.',
             },
             minRankNotAllowed: {
                 ru: 'Недостаточно прав для управления имуществом.',
@@ -1082,6 +1112,18 @@ export const menu = {
                 en: 'The family house is now #{{houseId}}.',
                 de: 'Das Familienhaus ist jetzt #{{houseId}}.',
                 pl: 'Dom rodziny to teraz #{{houseId}}.',
+            },
+            hqOffice: {
+                ru: 'Офис {{office}} #{{slotId}} стал штаб-квартирой. Дом #{{previousHouseId}} снова ваш.',
+                ua: 'Офіс {{office}} #{{slotId}} став штаб-квартирою. Будинок #{{previousHouseId}} знову ваш.',
+                en: 'Office {{office}} #{{slotId}} is now the headquarters. House #{{previousHouseId}} is yours again.',
+                de: 'Büro {{office}} #{{slotId}} ist jetzt das Hauptquartier. Haus #{{previousHouseId}} gehört wieder dir.',
+            },
+            hqMovedOffice: {
+                ru: 'Штаб-квартира организации теперь в офисе {{office}} #{{slotId}}.',
+                ua: 'Штаб-квартира організації тепер в офісі {{office}} #{{slotId}}.',
+                en: 'The organization headquarters is now office {{office}} #{{slotId}}.',
+                de: 'Das Hauptquartier der Organisation ist jetzt Büro {{office}} #{{slotId}}.',
             },
         },
         // The offer, before the family owns anything: the leader's own house, one step from
@@ -1188,6 +1230,12 @@ export const menu = {
                 en: 'Purchased',
                 de: 'Gekauft',
                 pl: 'Kupiony',
+            },
+            tax: {
+                ru: 'Налог в сутки',
+                ua: 'Податок на добу',
+                en: 'Tax per day',
+                de: 'Steuer pro Tag',
             },
             empty: {
                 ru: 'Офис не приобретён',
@@ -4352,18 +4400,18 @@ export const menu = {
         // The HQ swap: the current house, then the leader's own houses that pass the HQ rules.
         hq: {
             title: {
-                ru: 'Дом организации',
-                ua: 'Будинок організації',
-                en: 'Family house',
-                de: 'Familienhaus',
-                pl: 'Dom rodziny',
+                ru: 'Штаб-квартира',
+                ua: 'Штаб-квартира',
+                en: 'Headquarters',
+                de: 'Hauptquartier',
+                pl: 'Siedziba',
             },
             subtitle: {
-                ru: 'Меняется на ваш личный дом с гаражом от {{slots}} мест',
-                ua: 'Змінюється на ваш особистий будинок із гаражем від {{slots}} місць',
-                en: 'Swapped for a house of your own with a garage of {{slots}} slots or more',
-                de: 'Tauschbar gegen ein eigenes Haus mit einer Garage ab {{slots}} Plätzen',
-                pl: 'Zamieniany na twój własny dom z garażem od {{slots}} miejsc',
+                ru: 'Ваш личный дом с гаражом от {{slots}} мест или офис организации',
+                ua: 'Ваш особистий будинок із гаражем від {{slots}} місць або офіс організації',
+                en: 'A house of your own with a garage of {{slots}} slots or more, or the organization office',
+                de: 'Ein eigenes Haus mit einer Garage ab {{slots}} Plätzen oder das Büro der Organisation',
+                pl: 'Twój własny dom z garażem od {{slots}} miejsc albo biuro organizacji',
             },
             house: {
                 ru: 'Дом #{{id}}',
@@ -4371,6 +4419,18 @@ export const menu = {
                 en: 'House #{{id}}',
                 de: 'Haus #{{id}}',
                 pl: 'Dom #{{id}}',
+            },
+            office: {
+                ru: 'Офис {{name}} #{{slotId}}',
+                ua: 'Офіс {{name}} #{{slotId}}',
+                en: 'Office {{name}} #{{slotId}}',
+                de: 'Büro {{name}} #{{slotId}}',
+            },
+            noteOffice: {
+                ru: 'Ваш дом может стать штаб-квартирой вместо офиса: офис останется у организации, а аренду за дом будет платить организация.',
+                ua: 'Ваш будинок може стати штаб-квартирою замість офісу: офіс залишиться в організації, а оренду за будинок платитиме організація.',
+                en: 'A house of yours can be the headquarters instead of the office: the office stays with the organization, and the organization pays the house rent.',
+                de: 'Ein Haus von dir kann statt des Büros das Hauptquartier sein: Das Büro bleibt bei der Organisation, und die Organisation zahlt die Miete des Hauses.',
             },
             garage: {
                 ru: 'мест в гараже: {{slots}}',
@@ -4386,13 +4446,6 @@ export const menu = {
                 de: '${{amount}} pro Tag',
                 pl: '${{amount}} na dobę',
             },
-            current: {
-                ru: 'Текущий',
-                ua: 'Поточний',
-                en: 'Current',
-                de: 'Aktuell',
-                pl: 'Obecny',
-            },
             action: {
                 ru: 'Сменить',
                 ua: 'Змінити',
@@ -4400,12 +4453,30 @@ export const menu = {
                 de: 'Wechseln',
                 pl: 'Zmień',
             },
-            confirm: {
-                ru: 'Подтвердить',
-                ua: 'Підтвердити',
-                en: 'Confirm',
-                de: 'Bestätigen',
-                pl: 'Potwierdź',
+            // The change modal: where the HQ is now, the places it can move to, the button that moves it.
+            modalTitle: {
+                ru: 'Смена штаб-квартиры',
+                ua: 'Зміна штаб-квартири',
+                en: 'Change headquarters',
+                de: 'Hauptquartier wechseln',
+            },
+            currentLabel: {
+                ru: 'Сейчас',
+                ua: 'Зараз',
+                en: 'Now',
+                de: 'Derzeit',
+            },
+            targetLabel: {
+                ru: 'Перенести в',
+                ua: 'Перенести в',
+                en: 'Move to',
+                de: 'Verlegen nach',
+            },
+            submit: {
+                ru: 'Перенести',
+                ua: 'Перенести',
+                en: 'Move',
+                de: 'Verlegen',
             },
             noRoom: {
                 ru: 'Мало мест в гараже',

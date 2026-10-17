@@ -28,11 +28,11 @@ export default {
         pl: 'Wprowadź poprawne dane',
     },
     alreadyPlaced: {
-        ru: 'Нельзя ставить больше одного радара',
-        ua: 'Не можна ставити більше одного радара',
-        en: 'You can\'t place more than one radar',
-        de: 'Es kann nicht mehr als ein Radar platziert werden',
-        pl: 'Nie można umieścić więcej niż jednego radaru',
+        ru: 'Нельзя ставить больше {{count}} радаров',
+        ua: 'Не можна ставити більше {{count}} радарів',
+        en: 'You can\'t place more than {{count}} radars',
+        de: 'Es können nicht mehr als {{count}} Radare platziert werden',
+        pl: 'Nie można umieścić więcej niż {{count}} radarów',
     },
     notYourRadar: {
         "ru": "Этот радар установил не ты, ты не можешь им пользоваться",

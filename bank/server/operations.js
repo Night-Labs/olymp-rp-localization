@@ -93,6 +93,12 @@ export const operations = {
         pl: 'Magazyn zajęty',
         zh: '仓库被没收',
     },
+    takeOffice: {
+        ru: 'Изъят офис',
+        ua: 'Вилучено офіс',
+        en: 'Office seized',
+        de: 'Büro beschlagnahmt',
+    },
     takeAtm: {
         ru: 'Отобран банкомат #{{id}}',
         ua: 'Відібрано банкомат #{{id}}',

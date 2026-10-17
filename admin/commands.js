@@ -678,6 +678,42 @@ export default {
         de: 'Den Mute (Chat und Voice) eines Spielers anhand seiner static ID aufheben.',
         pl: 'Usuń mute (czat i głos) z gracza po static ID, w tym z postaci offline.',
     },
+    gunmute: {
+        ru: 'Запретить аккаунту игрока по static ID использовать оружие на указанное количество минут с обязательной причиной.',
+        ua: "Заборонити акаунту гравця за static ID використовувати зброю на вказану кількість хвилин з обов'язковою причиною.",
+        en: 'Ban the account of a player (by static ID) from using weapons for a specified number of minutes with a mandatory reason.',
+        de: 'Dem Konto eines Spielers (static ID) für eine angegebene Anzahl von Minuten mit einem Pflichtgrund die Benutzung von Waffen verbieten.',
+    },
+    ungunmute: {
+        ru: 'Снять запрет оружия с аккаунта игрока по static ID, включая оффлайн.',
+        ua: 'Зняти заборону зброї з акаунта гравця за static ID, включаючи офлайн.',
+        en: 'Lift the weapon ban from the account of a player by static ID, offline included.',
+        de: 'Die Waffensperre vom Konto eines Spielers anhand seiner static ID aufheben, auch offline.',
+    },
+    vehmute: {
+        ru: 'Запретить аккаунту игрока по static ID садиться за руль на указанное количество минут с обязательной причиной (DB, NRD).',
+        ua: "Заборонити акаунту гравця за static ID сідати за кермо на вказану кількість хвилин з обов'язковою причиною (DB, NRD).",
+        en: 'Ban the account of a player (by static ID) from the driver seat for a specified number of minutes with a mandatory reason (DB, NRD).',
+        de: 'Dem Konto eines Spielers (static ID) für eine angegebene Anzahl von Minuten mit einem Pflichtgrund das Fahren verbieten (DB, NRD).',
+    },
+    unvehmute: {
+        ru: 'Снять запрет вождения с аккаунта игрока по static ID, включая оффлайн.',
+        ua: 'Зняти заборону водіння з акаунта гравця за static ID, включаючи офлайн.',
+        en: 'Lift the driving ban from the account of a player by static ID, offline included.',
+        de: 'Das Fahrverbot vom Konto eines Spielers anhand seiner static ID aufheben, auch offline.',
+    },
+    warn: {
+        ru: 'Выдать предупреждение аккаунту игрока по static ID: персонаж исключается из фракции, вступать во фракции нельзя, пока предупреждение не снято; второе предупреждение блокирует аккаунт на 7 дней.',
+        ua: 'Видати попередження акаунту гравця за static ID: персонаж виключається з фракції, вступати до фракцій не можна, поки попередження не знято; друге попередження блокує акаунт на 7 днів.',
+        en: 'Warn the account of a player by static ID: the character is removed from its faction and cannot join one until the warning is removed; the second warning bans the account for 7 days.',
+        de: 'Das Konto eines Spielers anhand seiner static ID verwarnen: der Charakter fliegt aus seiner Fraktion und kann keiner beitreten, bis die Verwarnung entfernt ist; die zweite Verwarnung sperrt das Konto für 7 Tage.',
+    },
+    unwarn: {
+        ru: 'Снять одно предупреждение с аккаунта игрока по static ID, включая оффлайн.',
+        ua: 'Зняти одне попередження з акаунта гравця за static ID, включаючи офлайн.',
+        en: 'Remove one warning from the account of a player by static ID, offline included.',
+        de: 'Eine Verwarnung vom Konto eines Spielers anhand seiner static ID entfernen, auch offline.',
+    },
     ban_object_placement: {
         ru: 'Запретить игроку по static ID размещать объекты на указанное количество минут.',
         ua: "Заборонити гравцю за static ID розміщувати об'єкти на вказану кількість хвилин.",
@@ -2568,6 +2604,12 @@ export default {
         de: 'Die Liste der aktiven Krankheiten eines Online-Spielers vollständig löschen.',
         pl: 'Całkowicie wyczyść listę aktywnych chorób u gracza online.',
     },
+    clear_addiction: {
+        ru: 'Снять ломку и обнулить наркозависимость у игрока онлайн.',
+        ua: 'Зняти ломку та обнулити наркозалежність у гравця онлайн.',
+        en: 'Clear withdrawal and reset drug addiction for an online player.',
+        de: 'Entzug beenden und die Drogensucht eines Online-Spielers zurücksetzen.',
+    },
     check_diseases: {
         ru: 'Показать список всех активных болезней у игрока онлайн.',
         ua: 'Показати список усіх активних хвороб у гравця онлайн.',
@@ -2742,6 +2784,12 @@ export default {
         en: 'Open the world map with road routes drawn on it: from the player to the GPS waypoint, plus pinned A -> B pairs.',
         de: 'Die Weltkarte mit Straßenrouten öffnen: vom Spieler zum GPS-Wegpunkt sowie angeheftete A -> B Paare.',
         pl: 'Otwórz mapę świata z trasami po drogach: od gracza do punktu GPS oraz przypięte pary A -> B.',
+    },
+    preview_bus_route: {
+        ru: 'Показать в мире все чекпоинты и остановки маршрута автобуса с номерами и метками на карте, чтобы облететь его. Маршрут - номер в меню депо или ключ; без аргумента - выключить.',
+        ua: 'Показати у світі всі чекпоінти та зупинки маршруту автобуса з номерами й мітками на карті, щоб облетіти його. Маршрут - номер у меню депо або ключ; без аргументу - вимкнути.',
+        en: 'Show every checkpoint and stop of a bus route in the world, numbered and with map blips, to fly over it. The route is its number in the depot menu or its key; no argument turns it off.',
+        de: 'Alle Checkpoints und Haltestellen einer Buslinie in der Welt anzeigen, nummeriert und mit Kartenmarkierungen, um sie abzufliegen. Die Linie ist ihre Nummer im Depotmenü oder ihr Schlüssel; ohne Argument wird die Anzeige ausgeschaltet.',
     },
     restore_gang_zones: {
         ru: 'Сбросить все гангзоны к изначальному эталонному состоянию (владельцы по умолчанию).',

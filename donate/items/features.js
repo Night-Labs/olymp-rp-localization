@@ -96,6 +96,40 @@ export const features = {
             pl: 'Nie jesteś w frakcji',
         },
     },
+    removeWarn: {
+        name: {
+            ru: 'Снять предупреждение',
+            ua: 'Зняти попередження',
+            en: 'Remove a warning',
+            de: 'Verwarnung entfernen',
+        },
+        modal: {
+            name: {
+                ru: 'Снять предупреждение',
+                ua: 'Зняти попередження',
+                en: 'Remove a warning',
+                de: 'Verwarnung entfernen',
+            },
+            desc: {
+                ru: 'С аккаунта будет снято одно предупреждение администрации. Продолжить?',
+                ua: 'З акаунта буде знято одне попередження адміністрації. Продовжити?',
+                en: 'One admin warning will be removed from your account. Continue?',
+                de: 'Eine Verwarnung der Administration wird von deinem Konto entfernt. Fortfahren?',
+            },
+        },
+        success: {
+            ru: 'Предупреждение снято. Осталось предупреждений: {{count}}/{{max}}',
+            ua: 'Попередження знято. Залишилось попереджень: {{count}}/{{max}}',
+            en: 'The warning has been removed. Warnings left: {{count}}/{{max}}',
+            de: 'Die Verwarnung wurde entfernt. Verbleibende Verwarnungen: {{count}}/{{max}}',
+        },
+        error: {
+            ru: 'У вас нет предупреждений',
+            ua: 'У вас немає попереджень',
+            en: 'You have no warnings',
+            de: 'Du hast keine Verwarnungen',
+        },
+    },
     miltaryTicket: {
         name: {
             ru: 'Военный билет',

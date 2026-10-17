@@ -15,6 +15,12 @@ export default {
         pl: '~o~[PAYDAY] ~w~Musisz grać przez co najmniej {{time}} minut, aby otrzymać wypłatę',
        zh:'~o~[PAYDAY]~w~您需要至少玩{{time}}分钟才能获得发薪日',
     },
+    messageNotOnDuty: {
+        ru: '~o~[PAYDAY] ~w~Зарплата не начислена: вы не на рабочей смене. Получено {{exp}} XP',
+        ua: '~o~[PAYDAY] ~w~Зарплату не нараховано: ви не на робочій зміні. Отримано {{exp}} XP',
+        en: '~o~[PAYDAY] ~w~No salary paid: you are not on shift. You received {{exp}} XP',
+        de: '~o~[PAYDAY] ~w~Kein Gehalt gezahlt: Du bist nicht im Dienst. Du hast {{exp}} XP erhalten',
+    },
     messageBenefits: {
         ru: '~o~[PAYDAY] ~w~Вы получили пособие по безработице: {{benefits}} и {{exp}} XP',
         ua: '~o~[PAYDAY] ~w~Ви отримали допомогу по безробіттю: {{benefits}} і {{exp}} XP',

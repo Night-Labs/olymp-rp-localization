@@ -63,8 +63,28 @@ export const logs = {
             de: 'Gebiete',
             pl: 'Terytoria',
         },
+        warehouse: {
+            ru: 'Склад',
+            ua: 'Склад',
+            en: 'Warehouse',
+            de: 'Lager',
+        },
     },
     entries: {
+        warehouse: {
+            putItem: {
+                ru: '{{actor}} положил на склад {{item}} ({{quantity}} шт.)',
+                ua: '{{actor}} поклав на склад {{item}} ({{quantity}} шт.)',
+                en: '{{actor}} put {{item}} ({{quantity}} pcs) into the warehouse',
+                de: '{{actor}} hat {{item}} ({{quantity}} Stk.) ins Lager gelegt',
+            },
+            takeItem: {
+                ru: '{{actor}} взял со склада {{item}} ({{quantity}} шт.)',
+                ua: '{{actor}} взяв зі складу {{item}} ({{quantity}} шт.)',
+                en: '{{actor}} took {{item}} ({{quantity}} pcs) from the warehouse',
+                de: '{{actor}} hat {{item}} ({{quantity}} Stk.) aus dem Lager genommen',
+            },
+        },
         factories: {
             produced: {
                 ru: '{{factory}} #{{number}}: произведено {{quantity}} x {{item}}',
@@ -215,6 +235,12 @@ export const logs = {
                 de: '{{actor}} hat das Familienhaus von #{{previousHouseId}} auf #{{houseId}} gewechselt',
                 pl: '{{actor}} zmienił dom rodziny z #{{previousHouseId}} na #{{houseId}}',
             },
+            hqToOffice: {
+                ru: '{{actor}} сделал штаб-квартирой офис {{office}} #{{slotId}} вместо дома #{{previousHouseId}}',
+                ua: '{{actor}} зробив штаб-квартирою офіс {{office}} #{{slotId}} замість будинку #{{previousHouseId}}',
+                en: '{{actor}} made office {{office}} #{{slotId}} the headquarters in place of house #{{previousHouseId}}',
+                de: '{{actor}} hat Büro {{office}} #{{slotId}} statt Haus #{{previousHouseId}} zum Hauptquartier gemacht',
+            },
             confiscated: {
                 ru: 'HQ #{{hqId}} конфискован за долги. Компенсация лидеру: ${{refund}} + остаток ${{leftover}}',
                 ua: 'HQ #{{hqId}} конфісковано за борги. Компенсація лідеру: ${{refund}} + залишок ${{leftover}}',
@@ -228,6 +254,18 @@ export const logs = {
                 en: 'Warehouse {{building}} #{{number}} confiscated for debt, its contents destroyed',
                 de: 'Lager {{building}} #{{number}} wegen Schulden beschlagnahmt, der Inhalt wurde vernichtet',
                 pl: 'Magazyn {{building}} #{{number}} skonfiskowano za długi, zawartość zniszczona',
+            },
+            officeConfiscated: {
+                ru: 'Офис {{building}} #{{number}} конфискован за долги, содержимое склада и сейфа уничтожено',
+                ua: 'Офіс {{building}} #{{number}} конфісковано за борги, вміст складу й сейфа знищено',
+                en: 'Office {{building}} #{{number}} confiscated for debt, its storage and vault contents destroyed',
+                de: 'Büro {{building}} #{{number}} wegen Schulden beschlagnahmt, der Inhalt von Lager und Tresor wurde vernichtet',
+            },
+            officeHqConfiscated: {
+                ru: 'HQ офис {{building}} #{{number}} конфискован за долги. Компенсация лидеру: ${{refund}} + остаток ${{leftover}}',
+                ua: 'HQ офіс {{building}} #{{number}} конфісковано за борги. Компенсація лідеру: ${{refund}} + залишок ${{leftover}}',
+                en: 'HQ office {{building}} #{{number}} confiscated for debt. Leader refund: ${{refund}} + leftover ${{leftover}}',
+                de: 'HQ-Büro {{building}} #{{number}} wegen Schulden beschlagnahmt. Erstattung an Leiter: ${{refund}} + Rest ${{leftover}}',
             },
             confiscationSkippedNoHq: {
                 ru: 'Конфискация пропущена: HQ не найден',
@@ -423,6 +461,24 @@ export const logs = {
                 en: 'Warehouse tax debt cleared',
                 de: 'Lagersteuerschuld beglichen',
                 pl: 'Dług podatku za magazyn spłacony',
+            },
+            officeRentPaid: {
+                ru: 'Налог офиса {{building}} #{{number}} списан: ${{amount}}',
+                ua: 'Податок офісу {{building}} #{{number}} списано: ${{amount}}',
+                en: 'Office {{building}} #{{number}} tax charged: ${{amount}}',
+                de: 'Steuer für Büro {{building}} #{{number}} abgebucht: ${{amount}}',
+            },
+            officeDebtStarted: {
+                ru: 'Начался долг по налогу офиса (${{rent}}/день). До конфискации офиса {{hours}} ч',
+                ua: 'Розпочалася заборгованість з податку офісу (${{rent}}/день). До конфіскації офісу {{hours}} год',
+                en: 'Office tax debt started (${{rent}}/day). {{hours}} hours until the office is confiscated',
+                de: 'Bürosteuerschuld eingetragen (${{rent}}/Tag). {{hours}} Stunden bis zur Beschlagnahmung des Büros',
+            },
+            officeDebtCleared: {
+                ru: 'Долг по налогу офиса погашен',
+                ua: 'Заборгованість з податку офісу погашено',
+                en: 'Office tax debt cleared',
+                de: 'Bürosteuerschuld beglichen',
             },
         },
         tree: {
