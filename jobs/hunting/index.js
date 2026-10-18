@@ -251,6 +251,97 @@ export default {
         },
     },
 
+    // The trail to a contract target (server jobs/hunting/targets, client jobs/hunting/radar).
+    track: {
+        examine: {
+            ru: 'Изучить следы',
+            ua: 'Вивчити сліди',
+            en: 'Examine the tracks',
+            de: 'Spuren untersuchen',
+        },
+        blip: {
+            ru: 'Следы зверя',
+            ua: 'Сліди звіра',
+            en: 'Animal tracks',
+            de: 'Tierspuren',
+        },
+        started: {
+            ru: 'Вы напали на след. Идите к отметке лапы на карте и изучите следы',
+            ua: 'Ви натрапили на слід. Йдіть до позначки лапи на мапі та вивчіть сліди',
+            en: 'You found a trail. Go to the paw mark on the map and examine the tracks',
+            de: 'Du hast eine Fährte gefunden. Geh zur Pfotenmarkierung auf der Karte und untersuche die Spuren',
+        },
+        next: {
+            ru: 'Следы ведут дальше. Осталось изучить: {{left}}',
+            ua: 'Сліди ведуть далі. Залишилось вивчити: {{left}}',
+            en: 'The tracks lead on. Left to examine: {{left}}',
+            de: 'Die Spuren führen weiter. Noch zu untersuchen: {{left}}',
+        },
+        found: {
+            ru: 'Свежие следы! {{species}} где-то рядом, зверь отмечен на радаре',
+            ua: 'Свіжі сліди! {{species}} десь поруч, звіра позначено на радарі',
+            en: 'Fresh tracks! {{species}} close by, marked on your radar',
+            de: 'Frische Spuren! {{species}} ganz in der Nähe, auf dem Radar markiert',
+        },
+        misread: {
+            ru: 'Вы неверно прочитали след. Изучите его ещё раз',
+            ua: 'Ви неправильно прочитали слід. Вивчіть його ще раз',
+            en: 'You misread the track. Examine it again',
+            de: 'Du hast die Spur falsch gedeutet. Untersuche sie noch einmal',
+        },
+        // The track read minigame (webviews hunting/overlays/TrackRead.vue).
+        read: {
+            clear: {
+                ru: 'Расчистите отпечаток',
+                ua: 'Розчистіть відбиток',
+                en: 'Clear the print',
+                de: 'Leg den Abdruck frei',
+            },
+            pick: {
+                ru: 'Куда ушёл зверь?',
+                ua: 'Куди пішов звір?',
+                en: 'Which way did it go?',
+                de: 'Wohin ist es gelaufen?',
+            },
+            right: {
+                ru: 'След прочитан',
+                ua: 'Слід прочитано',
+                en: 'Track read',
+                de: 'Spur gelesen',
+            },
+            wrong: {
+                ru: 'Не туда',
+                ua: 'Не туди',
+                en: 'Wrong way',
+                de: 'Falsche Richtung',
+            },
+            timeout: {
+                ru: 'Время вышло',
+                ua: 'Час вийшов',
+                en: 'Out of time',
+                de: 'Zeit abgelaufen',
+            },
+            hintBrush: {
+                ru: 'Расчистить',
+                ua: 'Розчистити',
+                en: 'Clear',
+                de: 'Freilegen',
+            },
+            hintPick: {
+                ru: 'Указать направление',
+                ua: 'Вказати напрямок',
+                en: 'Point the way',
+                de: 'Richtung zeigen',
+            },
+            hintExit: {
+                ru: 'Встать',
+                ua: 'Встати',
+                en: 'Stand up',
+                de: 'Aufstehen',
+            },
+        },
+    },
+
     // Field gear from the lodge: binoculars, predator call, salt lick (server jobs/hunting/binoculars, call, bait).
     gear: {
         notInVehicle: {
