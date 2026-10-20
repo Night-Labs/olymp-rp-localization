@@ -498,6 +498,12 @@ export const npc = {
             de: 'Makler',
             pl: 'Pośrednik',
         },
+        yachtBroker: {
+            ru: 'Яхтенный брокер',
+            ua: 'Яхтовий брокер',
+            en: 'Yacht Broker',
+            de: 'Yachtmakler',
+        },
         taxiSupervisor: {
             ru: 'Старший таксопарка',
             ua: 'Старший таксопарку',
