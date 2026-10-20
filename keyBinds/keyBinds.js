@@ -272,6 +272,12 @@ export default {
         de: 'Gabelstaplergabeln senken',
         pl: 'Opuść widły wózka',
     },
+    'yachts.autopilot': {
+        ru: 'Автопилот яхты (за штурвалом)',
+        ua: 'Автопілот яхти (за штурвалом)',
+        en: 'Yacht autopilot (at the helm)',
+        de: 'Autopilot der Jacht (am Steuer)',
+    },
     'burglar.dropItem': {
         ru: 'Поставить краденое',
         ua: 'Поставити крадене',

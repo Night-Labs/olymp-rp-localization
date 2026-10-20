@@ -3558,12 +3558,6 @@ export default {
         en: 'Place a Galaxy yacht ahead of you, bow the way you face. Arguments: model, tint, lighting, railing, flag (-1 - no flag).',
         de: 'Eine Galaxy-Jacht vor dir platzieren, Bug in Blickrichtung. Argumente: Modell, Farbe, Beleuchtung, Reling, Flagge (-1 - keine Flagge).',
     },
-    yacht_helm: {
-        ru: 'Встать за штурвал ближайшей яхты или отдать его. W/S - ход, A/D - руль, Q/E - подруливающие, F - отойти.',
-        ua: 'Стати за штурвал найближчої яхти або віддати його. W/S - хід, A/D - кермо, Q/E - підрулювальні, F - відійти.',
-        en: 'Take the helm of the nearest yacht or hand it back. W/S - engine order, A/D - rudder, Q/E - bow thrusters, F - step away.',
-        de: 'Das Steuer der nächsten Jacht übernehmen oder abgeben. W/S - Fahrstufe, A/D - Ruder, Q/E - Bugstrahlruder, F - weggehen.',
-    },
     yacht_look: {
         ru: 'Сменить вид ближайшей яхты. Аргументы: слот (model, tint, lighting, railing, flag) и значение.',
         ua: 'Змінити вигляд найближчої яхти. Аргументи: слот (model, tint, lighting, railing, flag) і значення.',
@@ -3587,5 +3581,4 @@ export default {
         ua: 'Прибрати найближчу яхту.',
         en: 'Remove the nearest yacht.',
         de: 'Die nächste Jacht entfernen.',
-    },
-};
+    },};
