@@ -154,6 +154,14 @@ export const server = {
             zh: '无法录制{{name}}的屏幕。原因：{{reason}}',
         },
     },
+    setSkill: {
+        success: {
+            ru: 'Навык "{{skill}}" игрока {{name}} установлен на {{level}}',
+            ua: 'Навичку "{{skill}}" гравця {{name}} встановлено на {{level}}',
+            en: 'Skill "{{skill}}" of {{name}} set to {{level}}',
+            de: 'Fähigkeit "{{skill}}" von {{name}} auf {{level}} gesetzt',
+        },
+    },
     setName: {
         invalid: {
             ru: 'Имя и фамилия должны начинаться с заглавной буквы и содержать только латинские буквы (до 20 символов)',

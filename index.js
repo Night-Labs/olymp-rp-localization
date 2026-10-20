@@ -127,6 +127,7 @@ import payment from './payment';
 import militaryGates from './militaryGates';
 import designEditor from './designEditor';
 import funicular from './funicular';
+import yachts from './yachts';
 import freightTrain from './freightTrain';
 import fortAttack from './fortAttack';
 import hummerWar from './hummerWar';
@@ -266,6 +267,7 @@ export default {
     militaryGates,
     designEditor,
     funicular,
+    yachts,
     freightTrain,
     fortAttack,
     hummerWar,

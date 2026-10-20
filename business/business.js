@@ -254,6 +254,13 @@ export default {
                     pl: 'Narzut',
                 },
 
+                stateMarkup: {
+                    ru: 'Госнадбавка',
+                    ua: 'Держнадбавка',
+                    en: 'State surcharge',
+                    de: 'Staatlicher Aufschlag',
+                },
+
                 baseProfit: {
                     ru: 'Базовая прибыль',
                     ua: 'Базовий прибуток',
@@ -393,6 +400,12 @@ export default {
             en: '{{characterName}} bought {{quantity}} pcs. for {{gross}} (base {{base}}, business profit {{profit}}, markup {{markup}})',
             de: '{{characterName}} hat {{quantity}} Stk. für {{gross}} gekauft (Basis {{base}}, Geschäftsgewinn {{profit}}, Aufschlag {{markup}})',
             pl: '{{characterName}} kupił {{quantity}} szt. za {{gross}} (bazowa {{base}}, zysk biznesu {{profit}}, marża {{markup}})',
+        },
+        saleState: {
+            ru: '{{characterName}} купил {{quantity}} шт. на {{gross}} (база {{base}}, прибыль бизнеса {{profit}}, наценка {{markup}}, из неё госнадбавка {{stateMarkup}})',
+            ua: '{{characterName}} купив {{quantity}} шт. на {{gross}} (база {{base}}, прибуток бізнесу {{profit}}, націнка {{markup}}, з неї держнадбавка {{stateMarkup}})',
+            en: '{{characterName}} bought {{quantity}} pcs. for {{gross}} (base {{base}}, business profit {{profit}}, markup {{markup}}, of it state surcharge {{stateMarkup}})',
+            de: '{{characterName}} hat {{quantity}} Stk. für {{gross}} gekauft (Basis {{base}}, Geschäftsgewinn {{profit}}, Aufschlag {{markup}}, davon staatlicher Aufschlag {{stateMarkup}})',
         },
         territoryLevy: {
             ru: 'Сбор за территорию: {{amount}} ({{percent}}) удержано в пользу организации {{org}}',

@@ -3552,4 +3552,40 @@ export default {
         de: 'Die nächste Dartscheibe entfernen, auch aus dartsBoards.json (ein laufendes Spiel wird abgebrochen, Einsätze gehen zurück).',
         pl: 'Usun najblizsza tarcze do rzutek, takze z dartsBoards.json (trwajacy mecz zostaje anulowany, zaklady wracaja).',
     },
+    yacht: {
+        ru: 'Поставить яхту Galaxy перед собой, носом по взгляду. Аргументы: модель, цвет, подсветка, перила, флаг (-1 - без флага).',
+        ua: 'Поставити яхту Galaxy перед собою, носом за поглядом. Аргументи: модель, колір, підсвітка, поруччя, прапор (-1 - без прапора).',
+        en: 'Place a Galaxy yacht ahead of you, bow the way you face. Arguments: model, tint, lighting, railing, flag (-1 - no flag).',
+        de: 'Eine Galaxy-Jacht vor dir platzieren, Bug in Blickrichtung. Argumente: Modell, Farbe, Beleuchtung, Reling, Flagge (-1 - keine Flagge).',
+    },
+    yacht_helm: {
+        ru: 'Встать за штурвал ближайшей яхты или отдать его. W/S - ход, A/D - руль, Q/E - подруливающие, F - отойти.',
+        ua: 'Стати за штурвал найближчої яхти або віддати його. W/S - хід, A/D - кермо, Q/E - підрулювальні, F - відійти.',
+        en: 'Take the helm of the nearest yacht or hand it back. W/S - engine order, A/D - rudder, Q/E - bow thrusters, F - step away.',
+        de: 'Das Steuer der nächsten Jacht übernehmen oder abgeben. W/S - Fahrstufe, A/D - Ruder, Q/E - Bugstrahlruder, F - weggehen.',
+    },
+    yacht_look: {
+        ru: 'Сменить вид ближайшей яхты. Аргументы: слот (model, tint, lighting, railing, flag) и значение.',
+        ua: 'Змінити вигляд найближчої яхти. Аргументи: слот (model, tint, lighting, railing, flag) і значення.',
+        en: 'Restyle the nearest yacht. Arguments: slot (model, tint, lighting, railing, flag) and value.',
+        de: 'Das Aussehen der nächsten Jacht ändern. Argumente: Slot (model, tint, lighting, railing, flag) und Wert.',
+    },
+    yacht_pos: {
+        ru: 'Показать, где ты стоишь на ближайшей яхте: точка и курс в раме корпуса для точек взаимодействия в её конфиге.',
+        ua: 'Показати, де ти стоїш на найближчій яхті: точка й курс у рамі корпусу для точок взаємодії в її конфігу.',
+        en: 'Show where you stand on the nearest yacht: point and heading in the hull frame, for the interaction points in its config.',
+        de: 'Zeigen, wo du auf der nächsten Jacht stehst: Punkt und Kurs im Rumpfrahmen, für die Interaktionspunkte in ihrer Konfiguration.',
+    },
+    yacht_bar: {
+        ru: 'Встроить в ближайшую яхту бар и лаунж из интерьера GTA Online или убрать их. Пока без коллизии.',
+        ua: 'Вбудувати в найближчу яхту бар і лаунж з інтер\'єру GTA Online або прибрати їх. Поки без колізії.',
+        en: 'Build the GTA Online interior bar and lounge into the nearest yacht, or take them out. No collision yet.',
+        de: 'Bar und Lounge aus dem GTA-Online-Interieur in die nächste Jacht einbauen oder wieder entfernen. Noch ohne Kollision.',
+    },
+    yacht_remove: {
+        ru: 'Убрать ближайшую яхту.',
+        ua: 'Прибрати найближчу яхту.',
+        en: 'Remove the nearest yacht.',
+        de: 'Die nächste Jacht entfernen.',
+    },
 };
