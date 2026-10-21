@@ -22,6 +22,13 @@ export default {
         de: 'Die Kontodaten werden noch geladen, versuche es in einigen Sekunden erneut',
         pl: 'Dane konta nadal się ładują, spróbuj ponownie za kilka sekund',
     },
+    // A bet between two players was declined for the other side; that side sees `refused` / `notReady`.
+    betOpponentRefused: {
+        ru: 'Соперник сейчас не может играть на деньги',
+        ua: 'Суперник зараз не може грати на гроші',
+        en: 'Your opponent cannot play for money right now',
+        de: 'Dein Gegner kann gerade nicht um Geld spielen',
+    },
     usageReset: {
         ru: 'Администрация обнулила расход вашего суточного лимита передачи: снова доступно ${{limit}}',
         ua: 'Адміністрація обнулила витрату вашого добового ліміту передачі: знову доступно ${{limit}}',

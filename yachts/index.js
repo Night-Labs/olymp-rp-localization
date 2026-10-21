@@ -202,5 +202,34 @@ export default {
             en: 'Autopilot off: another yacht is on her course',
             de: 'Autopilot aus: Eine andere Yacht liegt auf Kurs',
         },
+        undo: { ru: 'Отменить', ua: 'Скасувати', en: 'Undo', de: 'Rückgängig' },
+        tools: {
+            zoomIn: { ru: 'Приблизить', ua: 'Наблизити', en: 'Zoom in', de: 'Vergrößern' },
+            zoomOut: { ru: 'Отдалить', ua: 'Віддалити', en: 'Zoom out', de: 'Verkleinern' },
+            route: { ru: 'Весь маршрут', ua: 'Весь маршрут', en: 'Whole route', de: 'Ganze Route' },
+            yacht: { ru: 'К яхте', ua: 'До яхти', en: 'To the yacht', de: 'Zur Yacht' },
+        },
+        keys: {
+            lmb: { ru: 'ЛКМ', ua: 'ЛКМ', en: 'LMB', de: 'LMT' },
+            holdLmb: { ru: 'Зажать ЛКМ', ua: 'Затиснути ЛКМ', en: 'Hold LMB', de: 'LMT halten' },
+            rmb: { ru: 'ПКМ', ua: 'ПКМ', en: 'RMB', de: 'RMT' },
+            wheel: { ru: 'Колесо', ua: 'Коліщатко', en: 'Wheel', de: 'Mausrad' },
+            undo: { ru: 'Ctrl+Z', ua: 'Ctrl+Z', en: 'Ctrl+Z', de: 'Strg+Z' },
+        },
+        hints: {
+            add: { ru: 'Поставить точку', ua: 'Поставити точку', en: 'Set a waypoint', de: 'Wegpunkt setzen' },
+            move: { ru: 'Сдвинуть точку или вставить новую', ua: 'Зсунути точку або вставити нову', en: 'Move a waypoint or put one in', de: 'Wegpunkt verschieben oder einfügen' },
+            remove: { ru: 'Убрать точку', ua: 'Прибрати точку', en: 'Remove a waypoint', de: 'Wegpunkt entfernen' },
+            zoom: { ru: 'Масштаб', ua: 'Масштаб', en: 'Zoom', de: 'Zoom' },
+        },
+        tag: {
+            tooClose: {
+                ru: 'Ближе {{metres}} м к соседней точке',
+                ua: 'Ближче {{metres}} м до сусідньої точки',
+                en: 'Under {{metres}} m from the next point',
+                de: 'Unter {{metres}} m zum Nachbarpunkt',
+            },
+            offChart: { ru: 'За краем карты', ua: 'За краєм мапи', en: 'Off the chart', de: 'Außerhalb der Karte' },
+        },
     },
 };

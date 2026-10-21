@@ -18,6 +18,20 @@ export default {
         en: 'Yacht broker',
         de: 'Yachtmakler',
     },
+    ownedBlip: {
+        personal: {
+            ru: 'Моя яхта',
+            ua: 'Моя яхта',
+            en: 'My yacht',
+            de: 'Meine Yacht',
+        },
+        organization: {
+            ru: 'Яхта организации',
+            ua: 'Яхта організації',
+            en: 'Organization yacht',
+            de: 'Yacht der Organisation',
+        },
+    },
     paymentDescription: {
         ru: 'Покупка супер яхты Galaxy',
         ua: 'Купівля супер яхти Galaxy',
@@ -31,17 +45,43 @@ export default {
             en: 'Walk up to the yacht broker',
             de: 'Geh zum Yachtmakler',
         },
-        alreadyOwned: {
-            ru: 'У вас уже есть яхта',
-            ua: 'У вас вже є яхта',
-            en: 'You already own a yacht',
-            de: 'Du besitzt bereits eine Yacht',
-        },
         noYacht: {
-            ru: 'У вас нет яхты',
-            ua: 'У вас немає яхти',
-            en: 'You do not own a yacht',
-            de: 'Du besitzt keine Yacht',
+            ru: 'Этой яхты у вас нет',
+            ua: 'Цієї яхти у вас немає',
+            en: 'You do not own this yacht',
+            de: 'Diese Yacht gehört dir nicht',
+        },
+        sellAboard: {
+            people: {
+                ru: 'На борту яхты есть люди, продать её сейчас нельзя',
+                ua: 'На борту яхти є люди, продати її зараз не можна',
+                en: 'There are people on board, the yacht cannot be sold right now',
+                de: 'Es sind Leute an Bord, die Yacht kann gerade nicht verkauft werden',
+            },
+            vehicles: {
+                ru: 'На палубе яхты стоит транспорт, уберите его перед продажей',
+                ua: 'На палубі яхти стоїть транспорт, приберіть його перед продажем',
+                en: 'There is a vehicle on the deck, move it off before selling',
+                de: 'Auf dem Deck steht ein Fahrzeug, bring es vor dem Verkauf weg',
+            },
+        },
+        sellFailed: {
+            ru: 'Не удалось продать яхту, попробуйте ещё раз',
+            ua: 'Не вдалося продати яхту, спробуйте ще раз',
+            en: 'The yacht could not be sold, try again',
+            de: 'Die Yacht konnte nicht verkauft werden, versuch es noch einmal',
+        },
+        sellUnpaid: {
+            ru: 'Яхта продана, но выплата не прошла. Обратитесь к администрации',
+            ua: 'Яхту продано, але виплата не пройшла. Зверніться до адміністрації',
+            en: 'The yacht has been sold, but the payout failed. Contact the administration',
+            de: 'Die Yacht wurde verkauft, aber die Auszahlung ist fehlgeschlagen. Wende dich an die Administration',
+        },
+        sold: {
+            ru: 'Яхта продана брокеру, ${{price}} зачислены на банковский счёт',
+            ua: 'Яхту продано брокеру, ${{price}} зараховано на банківський рахунок',
+            en: 'The yacht has been sold to the broker, ${{price}} paid into your bank account',
+            de: 'Die Yacht wurde an den Makler verkauft, ${{price}} wurden auf dein Bankkonto überwiesen',
         },
         noMooring: {
             ru: 'Сейчас нет свободной стоянки для новой яхты, попробуйте позже',
@@ -85,6 +125,36 @@ export default {
             en: 'This is not your yacht',
             de: 'Das ist nicht deine Yacht',
         },
+        noRight: {
+            ru: 'Ваш ранг в организации этого не позволяет',
+            ua: 'Ваш ранг в організації цього не дозволяє',
+            en: 'Your rank in the organization does not allow this',
+            de: 'Dein Rang in der Organisation erlaubt das nicht',
+        },
+        noOrganizationPermission: {
+            ru: 'Вы не можете покупать яхты для организации',
+            ua: 'Ви не можете купувати яхти для організації',
+            en: 'You cannot buy yachts for the organization',
+            de: 'Du kannst keine Yachten für die Organisation kaufen',
+        },
+        boughtForOrganization: {
+            ru: 'Яхта куплена для организации {{organization}}. Она стоит на якоре у побережья',
+            ua: 'Яхту куплено для організації {{organization}}. Вона стоїть на якорі біля узбережжя',
+            en: 'The yacht has been bought for {{organization}}. She lies at anchor off the coast',
+            de: 'Die Yacht wurde für {{organization}} gekauft. Sie liegt vor der Küste vor Anker',
+        },
+        soldForOrganization: {
+            ru: 'Яхта продана брокеру, ${{price}} зачислены в казну организации',
+            ua: 'Яхту продано брокеру, ${{price}} зараховано до скарбниці організації',
+            en: 'The yacht has been sold to the broker, ${{price}} paid into the organization treasury',
+            de: 'Die Yacht wurde an den Makler verkauft, ${{price}} gingen in die Kasse der Organisation',
+        },
+        handedOver: {
+            ru: 'Организации {{organization}} больше нет. Яхта, которую вы для неё купили, теперь ваша',
+            ua: 'Організації {{organization}} більше немає. Яхта, яку ви для неї купили, тепер ваша',
+            en: '{{organization}} is no more. The yacht you bought for it is yours now',
+            de: '{{organization}} gibt es nicht mehr. Die Yacht, die du für sie gekauft hast, gehört jetzt dir',
+        },
     },
     // The broker's page (webviews systems/yachtBroker). Option names are R*'s GTA Online names,
     // kept as proper names in every language; slot labels and variant names go by slot id and index.
@@ -103,25 +173,163 @@ export default {
                 de: 'Galaxy-Superyacht',
             },
         },
-        mode: {
-            shop: {
-                ru: 'В продаже',
-                ua: 'У продажу',
-                en: 'For sale',
-                de: 'Zu verkaufen',
+        newYacht: {
+            ru: 'Новая яхта',
+            ua: 'Нова яхта',
+            en: 'New yacht',
+            de: 'Neue Yacht',
+        },
+        home: {
+            title: {
+                ru: 'Яхтенный брокер',
+                ua: 'Яхтовий брокер',
+                en: 'Yacht broker',
+                de: 'Yachtmakler',
             },
-            owner: {
-                ru: 'Ваша яхта',
-                ua: 'Ваша яхта',
-                en: 'Your yacht',
-                de: 'Deine Yacht',
+            yachts: {
+                ru: 'Ваши яхты',
+                ua: 'Ваші яхти',
+                en: 'Your yachts',
+                de: 'Deine Yachten',
             },
+            organizationYachts: {
+                ru: 'Яхты организации {{name}}',
+                ua: 'Яхти організації {{name}}',
+                en: 'Yachts of {{name}}',
+                de: 'Yachten von {{name}}',
+            },
+            emptyTitle: {
+                ru: 'У вас пока нет яхты',
+                ua: 'У вас поки немає яхти',
+                en: 'You do not own a yacht yet',
+                de: 'Du besitzt noch keine Yacht',
+            },
+            emptyText: {
+                ru: 'Новая яхта встанет на якорь у побережья, а брокер доставит вас на борт',
+                ua: 'Нова яхта стане на якір біля узбережжя, а брокер доставить вас на борт',
+                en: 'A new yacht drops anchor off the coast, and the broker takes you aboard',
+                de: 'Eine neue Yacht ankert vor der Küste, und der Makler bringt dich an Bord',
+            },
+        },
+        buyYacht: {
+            ru: 'Купить яхту',
+            ua: 'Купити яхту',
+            en: 'Buy a yacht',
+            de: 'Yacht kaufen',
+        },
+        back: {
+            ru: 'Назад',
+            ua: 'Назад',
+            en: 'Back',
+            de: 'Zurück',
         },
         close: {
             ru: 'Закрыть',
             ua: 'Закрити',
             en: 'Close',
             de: 'Schließen',
+        },
+        status: {
+            anchored: {
+                ru: 'На якоре',
+                ua: 'На якорі',
+                en: 'At anchor',
+                de: 'Vor Anker',
+            },
+            underway: {
+                ru: 'На ходу',
+                ua: 'На ходу',
+                en: 'Under way',
+                de: 'In Fahrt',
+            },
+        },
+        openSea: {
+            ru: 'Открытое море',
+            ua: 'Відкрите море',
+            en: 'Open sea',
+            de: 'Offenes Meer',
+        },
+        facts: {
+            owner: {
+                ru: 'Владелец',
+                ua: 'Власник',
+                en: 'Owner',
+                de: 'Eigentümer',
+            },
+            location: {
+                ru: 'Где стоит',
+                ua: 'Де стоїть',
+                en: 'Location',
+                de: 'Standort',
+            },
+            status: {
+                ru: 'Состояние',
+                ua: 'Стан',
+                en: 'Status',
+                de: 'Zustand',
+            },
+            buyback: {
+                ru: 'Брокер выкупит за',
+                ua: 'Брокер викупить за',
+                en: 'Broker buys back for',
+                de: 'Makler kauft zurück für',
+            },
+        },
+        appearance: {
+            ru: 'Внешний вид',
+            ua: 'Зовнішній вигляд',
+            en: 'Appearance',
+            de: 'Aussehen',
+        },
+        nothingFound: {
+            ru: 'Ничего не найдено',
+            ua: 'Нічого не знайдено',
+            en: 'Nothing found',
+            de: 'Nichts gefunden',
+        },
+        reset: {
+            ru: 'Сбросить',
+            ua: 'Скинути',
+            en: 'Reset',
+            de: 'Zurücksetzen',
+        },
+        sell: {
+            ru: 'Продать',
+            ua: 'Продати',
+            en: 'Sell',
+            de: 'Verkaufen',
+        },
+        sellModal: {
+            title: {
+                ru: 'Продать яхту?',
+                ua: 'Продати яхту?',
+                en: 'Sell the yacht?',
+                de: 'Yacht verkaufen?',
+            },
+            message: {
+                ru: 'Брокер выкупит {{name}} за ${{price}}, деньги придут на банковский счёт. Отменить продажу будет нельзя.',
+                ua: 'Брокер викупить {{name}} за ${{price}}, гроші надійдуть на банківський рахунок. Скасувати продаж буде неможливо.',
+                en: 'The broker buys {{name}} back for ${{price}}, paid into your bank account. The sale cannot be undone.',
+                de: 'Der Makler kauft {{name}} für ${{price}} zurück, das Geld geht auf dein Bankkonto. Der Verkauf kann nicht rückgängig gemacht werden.',
+            },
+            messageOrganization: {
+                ru: 'Брокер выкупит {{name}} за ${{price}}, деньги придут в казну организации. Отменить продажу будет нельзя.',
+                ua: 'Брокер викупить {{name}} за ${{price}}, гроші надійдуть до скарбниці організації. Скасувати продаж буде неможливо.',
+                en: 'The broker buys {{name}} back for ${{price}}, paid into the organization treasury. The sale cannot be undone.',
+                de: 'Der Makler kauft {{name}} für ${{price}} zurück, das Geld geht in die Kasse der Organisation. Der Verkauf kann nicht rückgängig gemacht werden.',
+            },
+            confirm: {
+                ru: 'Продать',
+                ua: 'Продати',
+                en: 'Sell',
+                de: 'Verkaufen',
+            },
+            cancel: {
+                ru: 'Отмена',
+                ua: 'Скасувати',
+                en: 'Cancel',
+                de: 'Abbrechen',
+            },
         },
         price: {
             ru: 'Цена',
@@ -170,6 +378,51 @@ export default {
             ua: 'Яхта на ходу: ви опинитеся на палубі, що рухається',
             en: 'She is under way: you will step onto a moving deck',
             de: 'Die Yacht ist in Fahrt: du betrittst ein fahrendes Deck',
+        },
+        noRights: {
+            ru: 'Ваш ранг в организации не даёт доступа к этой яхте',
+            ua: 'Ваш ранг в організації не дає доступу до цієї яхти',
+            en: 'Your rank in the organization gives no access to this yacht',
+            de: 'Dein Rang in der Organisation gibt keinen Zugang zu dieser Yacht',
+        },
+        // Whom a purchase is for, asked of a member whose rank buys the organization's vehicles.
+        buyTarget: {
+            title: {
+                ru: 'Для кого яхта',
+                ua: 'Для кого яхта',
+                en: 'Who is the yacht for',
+                de: 'Für wen ist die Yacht',
+            },
+            message: {
+                ru: 'Яхта оплачивается из ваших денег. Яхтой организации пользуются её участники с доступом к транспорту организации.',
+                ua: 'Яхта оплачується з ваших грошей. Яхтою організації користуються її учасники з доступом до транспорту організації.',
+                en: 'The yacht is paid from your own money. An organization yacht is used by its members with access to the organization transport.',
+                de: 'Die Yacht wird von deinem eigenen Geld bezahlt. Eine Organisationsyacht nutzen die Mitglieder mit Zugang zum Organisationstransport.',
+            },
+            personal: {
+                ru: 'Себе',
+                ua: 'Собі',
+                en: 'For myself',
+                de: 'Für mich',
+            },
+            personalHint: {
+                ru: 'Личная яхта',
+                ua: 'Особиста яхта',
+                en: 'Personal yacht',
+                de: 'Eigene Yacht',
+            },
+            organizationHint: {
+                ru: 'Яхта организации',
+                ua: 'Яхта організації',
+                en: 'Organization yacht',
+                de: 'Organisationsyacht',
+            },
+            next: {
+                ru: 'К оплате',
+                ua: 'До оплати',
+                en: 'To payment',
+                de: 'Zur Zahlung',
+            },
         },
         none: {
             ru: 'Нет',
@@ -245,6 +498,12 @@ export default {
                     en: 'Model',
                     de: 'Modell',
                 },
+                tab: {
+                    ru: 'Модель',
+                    ua: 'Модель',
+                    en: 'Model',
+                    de: 'Modell',
+                },
                 options: {
                     0: { ru: 'The Orion', ua: 'The Orion', en: 'The Orion', de: 'The Orion' },
                     1: { ru: 'The Pisces', ua: 'The Pisces', en: 'The Pisces', de: 'The Pisces' },
@@ -262,6 +521,12 @@ export default {
                     ua: 'Колірна схема',
                     en: 'Colour scheme',
                     de: 'Farbschema',
+                },
+                tab: {
+                    ru: 'Цвет',
+                    ua: 'Колір',
+                    en: 'Colour',
+                    de: 'Farbe',
                 },
                 options: {
                     0: { ru: 'Pacific', ua: 'Pacific', en: 'Pacific', de: 'Pacific' },
@@ -289,6 +554,12 @@ export default {
                     en: 'Lighting',
                     de: 'Beleuchtung',
                 },
+                tab: {
+                    ru: 'Свет',
+                    ua: 'Світло',
+                    en: 'Lights',
+                    de: 'Licht',
+                },
                 options: {
                     0: { ru: 'Presidential Gold', ua: 'Presidential Gold', en: 'Presidential Gold', de: 'Presidential Gold' },
                     1: { ru: 'Presidential Blue', ua: 'Presidential Blue', en: 'Presidential Blue', de: 'Presidential Blue' },
@@ -307,6 +578,12 @@ export default {
                     en: 'Railings',
                     de: 'Reling',
                 },
+                tab: {
+                    ru: 'Поручни',
+                    ua: 'Поручні',
+                    en: 'Railings',
+                    de: 'Reling',
+                },
                 options: {
                     0: { ru: 'Хромированная фурнитура', ua: 'Хромована фурнітура', en: 'Chrome Fittings', de: 'Chrombeschläge' },
                     1: { ru: 'Золотая фурнитура', ua: 'Золота фурнітура', en: 'Gold Fittings', de: 'Goldbeschläge' },
@@ -314,6 +591,12 @@ export default {
             },
             flag: {
                 label: {
+                    ru: 'Флаг',
+                    ua: 'Прапор',
+                    en: 'Flag',
+                    de: 'Flagge',
+                },
+                tab: {
                     ru: 'Флаг',
                     ua: 'Прапор',
                     en: 'Flag',

@@ -186,6 +186,18 @@ export const logs = {
                 de: '{{actor}} hat Fahrzeug {{vehicle}} ({{plate}}) für die Organisation gekauft',
                 pl: '{{actor}} kupił organizacji pojazd {{vehicle}} ({{plate}})',
             },
+            yachtBought: {
+                ru: '{{actor}} купил организации яхту {{yacht}}',
+                ua: '{{actor}} купив організації яхту {{yacht}}',
+                en: '{{actor}} bought yacht {{yacht}} for the organization',
+                de: '{{actor}} hat die Yacht {{yacht}} für die Organisation gekauft',
+            },
+            yachtSold: {
+                ru: '{{actor}} продал яхту организации {{yacht}} брокеру за ${{price}}',
+                ua: '{{actor}} продав яхту організації {{yacht}} брокеру за ${{price}}',
+                en: '{{actor}} sold the organization yacht {{yacht}} to the broker for ${{price}}',
+                de: '{{actor}} hat die Organisationsyacht {{yacht}} für ${{price}} an den Makler verkauft',
+            },
             vehicleReturned: {
                 ru: '{{actor}} вернул машину {{vehicle}} ({{plate}}) владельцу ({{owner}})',
                 ua: '{{actor}} повернув машину {{vehicle}} ({{plate}}) власнику ({{owner}})',

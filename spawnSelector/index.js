@@ -130,6 +130,28 @@ export default {
         },
     },
 
+    // The player's yachts and his organization's (server systems/yachts/ownership/spawn).
+    yacht: {
+        header: {
+            ru: 'Яхта',
+            ua: 'Яхта',
+            en: 'Yacht',
+            de: 'Yacht',
+        },
+        organizationName: {
+            ru: '{{name}} ({{organization}})',
+            ua: '{{name}} ({{organization}})',
+            en: '{{name}} ({{organization}})',
+            de: '{{name}} ({{organization}})',
+        },
+        gone: {
+            ru: 'Яхты больше нет или к ней нет доступа, вы на берегу у брокера',
+            ua: 'Яхти більше немає або до неї немає доступу, ви на березі біля брокера',
+            en: 'The yacht is gone or no longer yours to board, you are ashore at the broker',
+            de: 'Die Yacht ist weg oder du darfst sie nicht mehr betreten, du bist an Land beim Makler',
+        },
+    },
+
     faction: {
         header: {
             ru: 'Организация',
