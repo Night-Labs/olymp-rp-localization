@@ -179,6 +179,24 @@ export default {
         en: 'US Flag (Weathered)',
         de: 'Verwitterte US-Flagge',
     },
+    ukrainianFlag: {
+        ru: 'Флаг Украины',
+        ua: 'Прапор України',
+        en: 'Ukrainian Flag',
+        de: 'Ukrainische Flagge',
+    },
+    olympFlag: {
+        ru: 'Флаг Olymp RP',
+        ua: 'Прапор Olymp RP',
+        en: 'Olymp RP Flag',
+        de: 'Olymp-RP-Flagge',
+    },
+    pirateFlag: {
+        ru: 'Пиратский флаг',
+        ua: 'Піратський прапор',
+        en: 'Pirate Flag',
+        de: 'Piratenflagge',
+    },
     flagpole: {
         ru: 'Флагшток',
         ua: 'Флагшток',
