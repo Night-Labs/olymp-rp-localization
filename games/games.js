@@ -6,6 +6,7 @@ import vault from './list/vault.js';
 import breachMatrix from './list/breachMatrix.js';
 import skillCheck from './list/skillCheck.js';
 import welding from './list/welding.js';
+import packing from './list/packing.js';
 
 export default {
     wires,
@@ -16,4 +17,5 @@ export default {
     breachMatrix,
     skillCheck,
     welding,
+    packing,
 };

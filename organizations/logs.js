@@ -198,6 +198,48 @@ export const logs = {
                 en: '{{actor}} sold the organization yacht {{yacht}} to the broker for ${{price}}',
                 de: '{{actor}} hat die Organisationsyacht {{yacht}} für ${{price}} an den Makler verkauft',
             },
+            officeBought: {
+                ru: '{{actor}} купил офис {{building}} #{{number}} за ${{price}}',
+                ua: '{{actor}} купив офіс {{building}} #{{number}} за ${{price}}',
+                en: '{{actor}} bought office {{building}} #{{number}} for ${{price}}',
+                de: '{{actor}} hat Büro {{building}} #{{number}} für ${{price}} gekauft',
+            },
+            officeSold: {
+                ru: '{{actor}} продал офис {{building}} #{{number}}, возврат ${{refund}}',
+                ua: '{{actor}} продав офіс {{building}} #{{number}}, повернення ${{refund}}',
+                en: '{{actor}} sold office {{building}} #{{number}}, refund ${{refund}}',
+                de: '{{actor}} hat Büro {{building}} #{{number}} verkauft, Erstattung ${{refund}}',
+            },
+            officeCustomized: {
+                ru: '{{actor}} купил для офиса {{building}} #{{number}}: {{item}} за ${{price}}',
+                ua: '{{actor}} купив для офісу {{building}} #{{number}}: {{item}} за ${{price}}',
+                en: '{{actor}} bought for office {{building}} #{{number}}: {{item}} for ${{price}}',
+                de: '{{actor}} hat für Büro {{building}} #{{number}} gekauft: {{item}} für ${{price}}',
+            },
+            officeLevelBought: {
+                ru: '{{actor}} улучшил в офисе {{building}} #{{number}}: {{item}} до {{level}} уровня за ${{price}}',
+                ua: '{{actor}} покращив в офісі {{building}} #{{number}}: {{item}} до {{level}} рівня за ${{price}}',
+                en: '{{actor}} upgraded {{item}} in office {{building}} #{{number}} to level {{level}} for ${{price}}',
+                de: '{{actor}} hat {{item}} im Büro {{building}} #{{number}} für ${{price}} auf Stufe {{level}} ausgebaut',
+            },
+            warehouseSold: {
+                ru: '{{actor}} продал склад {{building}} #{{number}}, возврат ${{refund}}',
+                ua: '{{actor}} продав склад {{building}} #{{number}}, повернення ${{refund}}',
+                en: '{{actor}} sold warehouse {{building}} #{{number}}, refund ${{refund}}',
+                de: '{{actor}} hat Lager {{building}} #{{number}} verkauft, Erstattung ${{refund}}',
+            },
+            hqFurnitureSold: {
+                ru: '{{actor}} продал {{what}} в HQ #{{houseId}} на ${{amount}}',
+                ua: '{{actor}} продав {{what}} в HQ #{{houseId}} на ${{amount}}',
+                en: '{{actor}} sold {{what}} in HQ #{{houseId}} for ${{amount}}',
+                de: '{{actor}} hat {{what}} im HQ #{{houseId}} für ${{amount}} verkauft',
+            },
+            hqFurnitureReset: {
+                ru: '{{actor}} сбросил {{what}} в HQ #{{houseId}}, возврат ${{amount}}',
+                ua: '{{actor}} скинув {{what}} в HQ #{{houseId}}, повернення ${{amount}}',
+                en: '{{actor}} reset {{what}} in HQ #{{houseId}}, refund ${{amount}}',
+                de: '{{actor}} hat {{what}} im HQ #{{houseId}} zurückgesetzt, Erstattung ${{amount}}',
+            },
             vehicleReturned: {
                 ru: '{{actor}} вернул машину {{vehicle}} ({{plate}}) владельцу ({{owner}})',
                 ua: '{{actor}} повернув машину {{vehicle}} ({{plate}}) власнику ({{owner}})',
@@ -619,6 +661,24 @@ export const logs = {
                 de: 'Gebiete in {{hours}} Std: Ertrag ${{income}}, Zuschlag ${{surcharge}} für {{cells}} Felder, Saldo {{net}}',
                 pl: 'Terytoria za {{hours}} godz: dochód ${{income}}, dopłata ${{surcharge}} za {{cells}} pól, wynik {{net}}',
             },
+            surchargeCharged: {
+                ru: 'Надбавка за {{cells}} квадратов списана: ${{surcharge}}. Доход с территорий за {{hours}} ч: ${{income}}, итог {{net}}',
+                ua: 'Надбавку за {{cells}} квадратів списано: ${{surcharge}}. Дохід з територій за {{hours}} год: ${{income}}, підсумок {{net}}',
+                en: 'Surcharge for {{cells}} squares charged: ${{surcharge}}. Territory income for {{hours}} h: ${{income}}, net {{net}}',
+                de: 'Zuschlag für {{cells}} Felder abgebucht: ${{surcharge}}. Gebietsertrag in {{hours}} Std: ${{income}}, Saldo {{net}}',
+            },
+            income: {
+                ru: 'Доход с территорий: ${{amount}}',
+                ua: 'Дохід з територій: ${{amount}}',
+                en: 'Territory income: ${{amount}}',
+                de: 'Gebietsertrag: ${{amount}}',
+            },
+            released: {
+                ru: '{{actor}} отказался от квадрата {{cell}}',
+                ua: '{{actor}} відмовився від квадрата {{cell}}',
+                en: '{{actor}} gave up square {{cell}}',
+                de: '{{actor}} hat Feld {{cell}} aufgegeben',
+            },
             surchargeShed: {
                 ru: 'Квадрат {{cell}} потерян: организация не тянет надбавку за территории',
                 ua: 'Квадрат {{cell}} втрачено: організація не тягне надбавку за території',
@@ -858,6 +918,9 @@ export const logs = {
     values: {
         granted: { ru: 'Выдано', ua: 'Надано', en: 'Granted', de: 'Erteilt', pl: 'Nadano' },
         revoked: { ru: 'Отозвано', ua: 'Відкликано', en: 'Revoked', de: 'Entzogen', pl: 'Odebrano' },
+        // What an HQ editor sold or reset, by placement scope: the furniture inside, the props in the yard.
+        interiorPlacements: { ru: 'мебель', ua: 'меблі', en: 'furniture', de: 'Möbel' },
+        exteriorPlacements: { ru: 'декор двора', ua: 'декор двору', en: 'yard decor', de: 'Hofdeko' },
     },
     // The rest of the card's words are shared by every journal (`activityLog`).
     modal: {

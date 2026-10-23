@@ -643,17 +643,11 @@ export default {
         de: 'Den Besitzer eines Hauses anhand seiner ID zurücksetzen (Bewohner, Reservierung und Garage werden geleert).',
         pl: 'Zresetuj właściciela domu po jego ID (mieszkańcy, rezerwacja i garaż zostaną wyczyszczone).',
     },
-    house_create: {
-        ru: 'Создать дом: у входа выбери класс, затем у въезда в гараж укажи цену и подтверди. Дом появляется сразу.',
-        ua: 'Створити будинок: біля входу обери клас, потім біля в\'їзду в гараж вкажи ціну і підтверди. Будинок з\'являється одразу.',
-        en: 'Create a house: pick the class at the front door, then set the price at the garage entry and confirm. The house appears at once.',
-        de: 'Ein Haus erstellen: an der Haustür die Klasse wählen, dann an der Garageneinfahrt den Preis festlegen und bestätigen. Das Haus erscheint sofort.',
-    },
-    house_create_cancel: {
-        ru: 'Отменить создание дома.',
-        ua: 'Скасувати створення будинку.',
-        en: 'Cancel creating a house.',
-        de: 'Hauserstellung abbrechen.',
+    parking_clear: {
+        ru: 'Снять с парковки у дома машину, рядом с которой вы стоите.',
+        ua: 'Зняти з парковки біля будинку машину, поруч з якою ви стоїте.',
+        en: 'Take the parked car you stand next to off its spot at the house.',
+        de: 'Das geparkte Auto, neben dem Sie stehen, vom Parkplatz am Haus holen.',
     },
     ban: {
         ru: 'Забанить игрока по static ID на указанное количество дней с обязательной причиной.',

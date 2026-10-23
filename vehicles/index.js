@@ -375,6 +375,12 @@ export default {
         pl: 'Twój pojazd przybył, pobrano {{price}} $',
         zh: '你的车辆已到达，已收取 ${{price}}',
     },
+    deliveredToGarage: {
+        ru: 'Ваш транспорт доставлен в гараж, с вас снято ${{price}}',
+        ua: 'Ваш транспорт доставлено в гараж, з вас списано ${{price}}',
+        en: 'Your vehicle has been delivered to the garage, you have been charged ${{price}}',
+        de: 'Dein Fahrzeug wurde in die Garage geliefert, es wurden {{price}} $ abgebucht',
+    },
     yourVehicleIsDestroyed: {
         ua: 'Ваш транспорт був знищений',
         en: 'Your vehicle has been destroyed',

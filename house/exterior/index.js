@@ -195,25 +195,8 @@ export default {
             de: 'Der Garten ist geleert, ${{amount}} gingen an die Organisation',
         },
     },
+    // The lot tab of the admin house editor (/house_edit) and /lot_clear.
     admin: {
-        command: {
-            ru: 'Редактор участка дома (двора): по номеру дома или ближайший. Повторно - закрыть',
-            ua: 'Редактор ділянки будинку (подвір\'я): за номером будинку або найближчий. Повторно - закрити',
-            en: 'House yard lot editor: by house id or the nearest one. Again to close',
-            de: 'Grundstückseditor eines Hauses: per Hausnummer oder das nächste. Erneut zum Schließen',
-        },
-        noHouse: {
-            ru: 'Рядом нет дома с двором (премиум или элит)',
-            ua: 'Поруч немає будинку з подвір\'ям (преміум або еліт)',
-            en: 'No house with a yard (premium or elite) nearby',
-            de: 'Kein Haus mit Garten (Premium oder Elite) in der Nähe',
-        },
-        title: {
-            ru: 'Участок дома',
-            ua: 'Ділянка будинку',
-            en: 'House lot',
-            de: 'Grundstück',
-        },
         lotDefault: {
             ru: 'Стандартный участок',
             ua: 'Типова ділянка',
@@ -225,12 +208,6 @@ export default {
             ua: 'Намальована ділянка',
             en: 'Drawn lot',
             de: 'Gezeichnetes Grundstück',
-        },
-        unsaved: {
-            ru: 'Не сохранено',
-            ua: 'Не збережено',
-            en: 'Not saved',
-            de: 'Nicht gespeichert',
         },
         lot: {
             ru: 'Участок',
@@ -298,69 +275,7 @@ export default {
             en: 'Delete corner',
             de: 'Ecke löschen',
         },
-        undo: {
-            ru: 'Отменить',
-            ua: 'Скасувати',
-            en: 'Undo',
-            de: 'Rückgängig',
-        },
-        save: {
-            ru: 'Сохранить',
-            ua: 'Зберегти',
-            en: 'Save',
-            de: 'Speichern',
-        },
-        exit: {
-            ru: 'Выйти',
-            ua: 'Вийти',
-            en: 'Exit',
-            de: 'Beenden',
-        },
-        exitConfirm: {
-            title: {
-                ru: 'Выйти без сохранения?',
-                ua: 'Вийти без збереження?',
-                en: 'Exit without saving?',
-                de: 'Ohne Speichern beenden?',
-            },
-            message: {
-                ru: 'Изменения участка не сохранятся.',
-                ua: 'Зміни ділянки не збережуться.',
-                en: 'The changes to the lot will be lost.',
-                de: 'Die Änderungen am Grundstück gehen verloren.',
-            },
-            confirm: {
-                ru: 'Выйти',
-                ua: 'Вийти',
-                en: 'Exit',
-                de: 'Beenden',
-            },
-            cancel: {
-                ru: 'Остаться',
-                ua: 'Залишитися',
-                en: 'Stay',
-                de: 'Bleiben',
-            },
-        },
-        cannotSave: {
-            ru: 'Сохранить нельзя',
-            ua: 'Зберегти не можна',
-            en: 'Cannot be saved',
-            de: 'Speichern nicht möglich',
-        },
-        hints: {
-            ru: 'Управление',
-            ua: 'Керування',
-            en: 'Controls',
-            de: 'Steuerung',
-        },
         hint: {
-            fly: {
-                ru: 'Полёт камеры',
-                ua: 'Політ камери',
-                en: 'Fly the camera',
-                de: 'Kamera fliegen',
-            },
             drag: {
                 ru: 'Тянуть угол или середину стороны',
                 ua: 'Тягнути кут або середину сторони',
@@ -438,22 +353,22 @@ export default {
         },
         error: {
             closed: {
-                ru: 'Редактор участка закрыт: открой его снова через /lot_edit',
-                ua: 'Редактор ділянки закрито: відкрий його знову через /lot_edit',
-                en: 'The lot editor is closed: open it again with /lot_edit',
-                de: 'Der Grundstückseditor ist geschlossen: öffne ihn erneut mit /lot_edit',
+                ru: 'Редактор дома закрыт: открой его снова через /house_edit',
+                ua: 'Редактор будинку закрито: відкрий його знову через /house_edit',
+                en: 'The house editor is closed: open it again with /house_edit',
+                de: 'Der Hauseditor ist geschlossen: öffne ihn erneut mit /house_edit',
             },
             points: {
-                ru: 'У участка должно быть от 3 до 64 углов',
-                ua: 'У ділянки має бути від 3 до 64 кутів',
-                en: 'A lot needs 3 to 64 corners',
-                de: 'Ein Grundstück braucht 3 bis 64 Ecken',
+                ru: 'У участка должно быть от 3 до 128 углов',
+                ua: 'У ділянки має бути від 3 до 128 кутів',
+                en: 'A lot needs 3 to 128 corners',
+                de: 'Ein Grundstück braucht 3 bis 128 Ecken',
             },
             reach: {
-                ru: 'Угол слишком далеко от входа (больше 60 м)',
-                ua: 'Кут занадто далеко від входу (понад 60 м)',
-                en: 'A corner is too far from the front door (over 60 m)',
-                de: 'Eine Ecke ist zu weit von der Haustür entfernt (über 60 m)',
+                ru: 'Угол слишком далеко от входа (больше 120 м)',
+                ua: 'Кут занадто далеко від входу (понад 120 м)',
+                en: 'A corner is too far from the front door (over 120 m)',
+                de: 'Eine Ecke ist zu weit von der Haustür entfernt (über 120 m)',
             },
             selfIntersect: {
                 ru: 'Стороны участка пересекаются',

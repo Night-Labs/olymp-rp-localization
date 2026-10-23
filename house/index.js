@@ -8,6 +8,10 @@ import tv from './tv';
 import signBoard from './signBoard';
 import concierge from './concierge';
 import exterior from './exterior';
+import parking from './parking';
+import roof from './roof';
+import adminEditor from './adminEditor';
+import gates from './gates';
 
 export default {
     ...cef,
@@ -20,6 +24,10 @@ export default {
     tv,
     signBoard,
     concierge,
+    parking,
+    roof,
+    adminEditor,
+    gates,
     houseResident: {
         ru: 'Житель дома',
         ua: 'Мешканець дому',

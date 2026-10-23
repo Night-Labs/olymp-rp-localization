@@ -263,6 +263,12 @@ export default {
         de: 'Ungültiger Kommentar angegeben',
         pl: 'Podano nieprawidłowy komentarz',
     },
+    parkedAtHouse: {
+        ru: 'Машина стоит на парковке у дома, эвакуировать её нельзя',
+        ua: 'Машина стоїть на парковці біля будинку, евакуювати її не можна',
+        en: 'The car is parked at a house and cannot be towed',
+        de: 'Das Auto steht an einem Haus und kann nicht abgeschleppt werden',
+    },
     alreadyEvacuationOrder: {
         ru: 'На это авто уже выписан ордер на эвакуацию',
         ua: 'На це авто вже виписано ордер на евакуацію',

@@ -3,6 +3,7 @@ import { beards } from './beards';
 import { brows } from './brows';
 import { tattoos } from './tatoos';
 import lenses from './lenses';
+import { nails } from './nails';
 
 export default {
     hairs,
@@ -10,4 +11,5 @@ export default {
     brows,
     lenses,
     tattoos,
+    nails,
 };

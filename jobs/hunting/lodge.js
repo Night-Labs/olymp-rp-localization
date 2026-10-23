@@ -538,18 +538,18 @@ export default {
         },
         locked: {
             license: {
-                ru: 'Нужна лицензия на охоту',
-                ua: 'Потрібна ліцензія на полювання',
-                en: 'Hunting licence required',
-                de: 'Jagdschein nötig',
-                pl: 'Wymagana licencja myśliwska',
+                ru: 'Нужны лицензии на оружие и охоту',
+                ua: 'Потрібні ліцензії на зброю та полювання',
+                en: 'Weapon and hunting licences required',
+                de: 'Waffen- und Jagdschein nötig',
+                pl: 'Wymagana licencja na broń i licencja myśliwska',
             },
             group: {
-                ru: 'Для лидера группы из {{min}}-{{max}} человек',
-                ua: 'Для лідера групи з {{min}}-{{max}} осіб',
-                en: 'For a group leader, {{min}}-{{max}} hunters',
-                de: 'Für den Anführer einer Gruppe von {{min}}-{{max}}',
-                pl: 'Dla lidera grupy {{min}}-{{max}} osób',
+                ru: 'Лидеру группы, рядом {{min}}-{{max}} охотников с лицензиями',
+                ua: 'Лідеру групи, поруч {{min}}-{{max}} мисливців з ліцензіями',
+                en: 'Group leader, {{min}}-{{max}} licensed hunters nearby',
+                de: 'Gruppenanführer, {{min}}-{{max}} Jäger mit Waffen- und Jagdschein in der Nähe',
+                pl: 'Lider grupy, {{min}}-{{max}} myśliwych z licencjami w pobliżu',
             },
             slots: {
                 ru: 'Все слоты заняты',

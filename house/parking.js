@@ -1,0 +1,143 @@
+// Outdoor parking at a house (server systems/houses/parking).
+export default {
+    header: {
+        ru: 'Парковка',
+        ua: 'Паркування',
+        en: 'Parking',
+        de: 'Parken',
+    },
+    parked: {
+        ru: '{{name}} стоит на парковке у дома №{{houseId}}. Пока машина там, её не повредить и не угнать',
+        ua: '{{name}} стоїть на парковці біля будинку №{{houseId}}. Поки машина там, її не пошкодити і не викрасти',
+        en: '{{name}} is parked at house #{{houseId}}. While it stands there, nobody can damage or steal it',
+        de: '{{name}} steht am Haus Nr. {{houseId}}. Solange es dort steht, kann es niemand beschädigen oder stehlen',
+    },
+    unparked: {
+        ru: '{{name}} снята с парковки и стоит как обычная машина',
+        ua: '{{name}} знята з парковки і стоїть як звичайна машина',
+        en: '{{name}} is off its parking spot and stands like any other car',
+        de: '{{name}} hat den Parkplatz verlassen und steht wie jedes andere Auto',
+    },
+    returned: {
+        ru: '{{name}} отбуксирована на парковку у дома №{{houseId}}',
+        ua: '{{name}} відбуксирована на парковку біля будинку №{{houseId}}',
+        en: '{{name}} has been towed back to its parking spot at house #{{houseId}}',
+        de: '{{name}} wurde zu seinem Parkplatz am Haus Nr. {{houseId}} zurückgeschleppt',
+    },
+    lost: {
+        ru: '{{name}} больше не стоит на парковке у дома №{{houseId}}: доступа к дому у вас нет',
+        ua: '{{name}} більше не стоїть на парковці біля будинку №{{houseId}}: доступу до будинку у вас немає',
+        en: '{{name}} is no longer parked at house #{{houseId}}: you have no access to the house',
+        de: '{{name}} steht nicht mehr am Haus Nr. {{houseId}}: Sie haben keinen Zugang mehr zum Haus',
+    },
+    spotGone: {
+        ru: '{{name}} больше не стоит на парковке у дома №{{houseId}}: это место теперь вне участка дома',
+        ua: '{{name}} більше не стоїть на парковці біля будинку №{{houseId}}: це місце тепер поза ділянкою будинку',
+        en: '{{name}} is no longer parked at house #{{houseId}}: the spot is now outside the house grounds',
+        de: '{{name}} steht nicht mehr am Haus Nr. {{houseId}}: der Platz liegt jetzt außerhalb des Grundstücks',
+    },
+    notYours: {
+        ru: 'Машина стоит на парковке у дома. Уехать на ней может только владелец или тот, у кого есть ключ',
+        ua: 'Машина стоїть на парковці біля будинку. Поїхати на ній може лише власник або той, у кого є ключ',
+        en: 'The car is parked at a house. Only its owner or someone with a key can drive it off',
+        de: 'Das Auto steht an einem Haus. Nur der Besitzer oder jemand mit Schlüssel kann damit wegfahren',
+    },
+    notOwner: {
+        ru: 'Поставить машину на парковку или снять с неё может только владелец',
+        ua: 'Поставити машину на парковку або зняти з неї може лише власник',
+        en: 'Only the owner can park the car or take it off its spot',
+        de: 'Nur der Besitzer kann das Auto parken oder vom Parkplatz holen',
+    },
+    unsuitable: {
+        ru: 'Эту машину нельзя поставить на парковку у дома',
+        ua: 'Цю машину не можна поставити на парковку біля будинку',
+        en: 'This car cannot be parked at a house',
+        de: 'Dieses Auto kann nicht an einem Haus geparkt werden',
+    },
+    busy: {
+        ru: 'Сейчас машину нельзя поставить на парковку',
+        ua: 'Зараз машину не можна поставити на парковку',
+        en: 'The car cannot be parked right now',
+        de: 'Das Auto kann gerade nicht geparkt werden',
+    },
+    notHere: {
+        ru: 'Парковаться можно только на участке или крыше дома, где у вас есть доступ к гаражу',
+        ua: 'Паркуватися можна лише на ділянці або даху будинку, де у вас є доступ до гаража',
+        en: 'You can only park on the yard or roof of a house whose garage you have access to',
+        de: 'Parken ist nur auf dem Grundstück oder Dach eines Hauses möglich, zu dessen Garage Sie Zugang haben',
+    },
+    entrance: {
+        ru: 'Не загораживайте вход в дом и въезд в гараж',
+        ua: 'Не загороджуйте вхід до будинку та в\'їзд до гаража',
+        en: 'Do not block the front door or the garage entrance',
+        de: 'Blockieren Sie nicht die Haustür oder die Garageneinfahrt',
+    },
+    road: {
+        ru: 'На проезжей части парковаться нельзя: поставьте машину во двор, на въезд или на крышу',
+        ua: 'На проїжджій частині паркуватися не можна: поставте машину у двір, на в\'їзд або на дах',
+        en: 'You cannot park on the road: put the car in the yard, on the driveway or on the roof',
+        de: 'Auf der Fahrbahn darf nicht geparkt werden: stellen Sie das Auto in den Hof, auf die Einfahrt oder aufs Dach',
+    },
+    full: {
+        ru: 'У дома №{{houseId}} заняты все места парковки: {{max}}',
+        ua: 'Біля будинку №{{houseId}} зайняті всі місця парковки: {{max}}',
+        en: 'All parking spots at house #{{houseId}} are taken: {{max}}',
+        de: 'Alle Parkplätze am Haus Nr. {{houseId}} sind belegt: {{max}}',
+    },
+    occupied: {
+        ru: 'В машине и в багажнике никого не должно быть, кроме водителя',
+        ua: 'У машині та в багажнику нікого не має бути, крім водія',
+        en: 'Nobody but the driver may be in the car or its trunk',
+        de: 'Außer dem Fahrer darf niemand im Auto oder im Kofferraum sein',
+    },
+    moving: {
+        ru: 'Сначала остановите машину',
+        ua: 'Спочатку зупиніть машину',
+        en: 'Stop the car first',
+        de: 'Halten Sie das Auto zuerst an',
+    },
+    notSettled: {
+        ru: 'Машина не встала на место, парковка отменена',
+        ua: 'Машина не стала на місце, паркування скасовано',
+        en: 'The car did not come to a stop, parking cancelled',
+        de: 'Das Auto kam nicht zum Stehen, das Parken wurde abgebrochen',
+    },
+    alreadyParked: {
+        ru: 'Машина уже стоит на парковке',
+        ua: 'Машина вже стоїть на парковці',
+        en: 'The car is already parked',
+        de: 'Das Auto ist bereits geparkt',
+    },
+    noParking: {
+        ru: 'У машины нет места на парковке у дома',
+        ua: 'У машини немає місця на парковці біля будинку',
+        en: 'The car has no parking spot at a house',
+        de: 'Das Auto hat keinen Parkplatz an einem Haus',
+    },
+    spotTaken: {
+        ru: 'Место парковки занято другой машиной',
+        ua: 'Місце парковки зайняте іншою машиною',
+        en: 'The parking spot is taken by another vehicle',
+        de: 'Der Parkplatz ist von einem anderen Fahrzeug belegt',
+    },
+    cannotDespawn: {
+        ru: 'Машина стоит на парковке у дома и остаётся в мире. Чтобы убрать её, сначала снимите её с парковки (G)',
+        ua: 'Машина стоїть на парковці біля будинку і залишається у світі. Щоб прибрати її, спочатку зніміть її з парковки (G)',
+        en: 'The car is parked at a house and stays in the world. Take it off its spot first (G) to remove it',
+        de: 'Das Auto steht an einem Haus und bleibt in der Welt. Holen Sie es zuerst vom Parkplatz (G), um es zu entfernen',
+    },
+    admin: {
+        cleared: {
+            ru: '{{name}} снята с парковки',
+            ua: '{{name}} знята з парковки',
+            en: '{{name}} is off its parking spot',
+            de: '{{name}} wurde vom Parkplatz geholt',
+        },
+        noVehicle: {
+            ru: 'Рядом нет машины на парковке',
+            ua: 'Поруч немає машини на парковці',
+            en: 'There is no parked vehicle nearby',
+            de: 'In der Nähe steht kein geparktes Fahrzeug',
+        },
+    },
+};

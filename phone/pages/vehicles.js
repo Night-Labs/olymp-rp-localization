@@ -221,6 +221,24 @@ export default {
                 pl: 'Odholuj',
                 zh: '拖车',
             },
+            deliveryToGarage: {
+                ru: 'Доставить в гараж',
+                ua: 'Доставити в гараж',
+                en: 'Deliver to garage',
+                de: 'In die Garage liefern',
+            },
+            parked: {
+                ru: 'На парковке',
+                ua: 'На парковці',
+                en: 'Parked',
+                de: 'Geparkt',
+            },
+            returnToParking: {
+                ru: 'На парковку',
+                ua: 'На парковку',
+                en: 'Back to parking',
+                de: 'Zum Parkplatz',
+            },
             evacuated: {
                 label: {
                     ua: 'Евакуювати',

@@ -202,6 +202,18 @@ const cef = {
             de: 'In die Garage gehen',
             pl: 'Wejdź do garażu',
         },
+        goRoof: {
+            ru: 'На крышу',
+            ua: 'На дах',
+            en: 'To the roof',
+            de: 'Aufs Dach',
+        },
+        leaveRoof: {
+            ru: 'Спуститься на улицу',
+            ua: 'Спуститися на вулицю',
+            en: 'Go down to the street',
+            de: 'Auf die Straße hinunter',
+        },
         lock: {
             ru: 'Закрыть',
             ua: 'Закрити',

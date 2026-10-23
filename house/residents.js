@@ -49,6 +49,12 @@ export default {
             de: 'Das Haus abschließen oder öffnen',
             pl: 'Zamykać lub otwierać dom',
         },
+        gates: {
+            ru: 'Открывать ворота и менять, как они открываются',
+            ua: 'Відчиняти ворота й змінювати, як вони відчиняються',
+            en: 'Open the gates and switch how they open',
+            de: 'Tore öffnen und umstellen, wie sie sich öffnen',
+        },
         parkingSlots: {
             ru: 'Доступ к гаражу и парковочным местам',
             ua: 'Доступ до гаража та паркувальних місць',

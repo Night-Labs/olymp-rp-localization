@@ -88,6 +88,12 @@ export const cef = {
             de: 'Linsen',
             pl: 'soczewki',
         },
+        nails: {
+            ru: 'маникюр',
+            ua: 'манікюр',
+            en: 'manicure',
+            de: 'Maniküre',
+        },
         tattoo: {
             ru: 'тату',
             ua: 'тату',
@@ -372,6 +378,12 @@ export const cef = {
                 en: 'Lipstick',
                 de: 'Lippenstift',
                 pl: 'Szminka',
+            },
+            nails: {
+                ru: 'Маникюр',
+                ua: 'Манікюр',
+                en: 'Manicure',
+                de: 'Maniküre',
             },
         },
     },
