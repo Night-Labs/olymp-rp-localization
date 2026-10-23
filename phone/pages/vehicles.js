@@ -233,12 +233,6 @@ export default {
                 en: 'Parked',
                 de: 'Geparkt',
             },
-            returnToParking: {
-                ru: 'На парковку',
-                ua: 'На парковку',
-                en: 'Back to parking',
-                de: 'Zum Parkplatz',
-            },
             evacuated: {
                 label: {
                     ua: 'Евакуювати',

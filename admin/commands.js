@@ -41,6 +41,12 @@ export default {
         de: 'Die Animation einer Adrenalinspritze in den Arm (Oberkoerper) mit dem Pen in der Hand an dir selbst abspielen',
         pl: 'Odtworz na sobie animacje zastrzyku adrenaliny w ramie (gorna czesc ciala) z penem w dloni',
     },
+    panning: {
+        ru: 'Проиграть на себе промывку золота с лотком в руках: swirl - промывка, hold - лоток выровнен, off - убрать.',
+        ua: 'Програти на собі промивання золота з лотком у руках: swirl - промивання, hold - лоток вирівняний, off - прибрати',
+        en: 'Play gold panning on yourself with the pan in hand: swirl - washing, hold - pan held level, off - stop',
+        de: 'Goldwaschen mit der Pfanne in der Hand an dir selbst abspielen: swirl - waschen, hold - Pfanne ruhig halten, off - beenden',
+    },
     disguise: {
         ru: 'Замаскироваться: другие игроки видят указанные имя, фамилию и ID. Без имени - случайное, без ID - случайный.',
         ua: "Замаскуватися: інші гравці бачать вказані ім'я, прізвище та ID. Без імені - випадкове, без ID - випадковий",
@@ -695,6 +701,12 @@ export default {
         ua: 'Зняти заборону зброї з акаунта гравця за static ID, включаючи офлайн.',
         en: 'Lift the weapon ban from the account of a player by static ID, offline included.',
         de: 'Die Waffensperre vom Konto eines Spielers anhand seiner static ID aufheben, auch offline.',
+    },
+    reset_2fa: {
+        ru: 'Сбросить двухфакторную аутентификацию аккаунта игрока по static ID, включая оффлайн (игрок потерял телефон с аутентификатором).',
+        ua: 'Скинути двофакторну автентифікацію акаунта гравця за static ID, включаючи офлайн (гравець втратив телефон з автентифікатором).',
+        en: 'Reset two-factor authentication of the account of a player by static ID, offline included (the player lost the phone with the authenticator).',
+        de: 'Die Zwei-Faktor-Authentifizierung des Kontos eines Spielers anhand seiner static ID zurücksetzen, auch offline (der Spieler hat das Handy mit dem Authenticator verloren).',
     },
     vehmute: {
         ru: 'Запретить аккаунту игрока по static ID садиться за руль на указанное количество минут с обязательной причиной (DB, NRD).',

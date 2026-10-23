@@ -218,14 +218,14 @@ const cef = {
             ru: 'Закрыть',
             ua: 'Закрити',
             en: 'Lock',
-            de: 'Abschließen',
+            de: 'Schließen',
             pl: 'Zamknij',
         },
         unlock: {
             ru: 'Открыть',
             ua: 'Відкрити',
             en: 'Unlock',
-            de: 'Aufschließen',
+            de: 'Öffnen',
             pl: 'Otwórz',
         },
         sell: {
@@ -248,6 +248,33 @@ const cef = {
             en: 'Inspect',
             de: 'Besichtigen',
             pl: 'Obejrzyj',
+        },
+        // A full row of buttons names the ways in by where they lead.
+        short: {
+            enterHouse: {
+                ru: 'Дом',
+                ua: 'Дім',
+                en: 'House',
+                de: 'Haus',
+            },
+            exitHouse: {
+                ru: 'Улица',
+                ua: 'Вулиця',
+                en: 'Street',
+                de: 'Straße',
+            },
+            enterGarage: {
+                ru: 'Гараж',
+                ua: 'Гараж',
+                en: 'Garage',
+                de: 'Garage',
+            },
+            goRoof: {
+                ru: 'Крыша',
+                ua: 'Дах',
+                en: 'Roof',
+                de: 'Dach',
+            },
         },
     },
     renovation: {

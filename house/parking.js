@@ -18,12 +18,6 @@ export default {
         en: '{{name}} is off its parking spot and stands like any other car',
         de: '{{name}} hat den Parkplatz verlassen und steht wie jedes andere Auto',
     },
-    returned: {
-        ru: '{{name}} отбуксирована на парковку у дома №{{houseId}}',
-        ua: '{{name}} відбуксирована на парковку біля будинку №{{houseId}}',
-        en: '{{name}} has been towed back to its parking spot at house #{{houseId}}',
-        de: '{{name}} wurde zu seinem Parkplatz am Haus Nr. {{houseId}} zurückgeschleppt',
-    },
     lost: {
         ru: '{{name}} больше не стоит на парковке у дома №{{houseId}}: доступа к дому у вас нет',
         ua: '{{name}} більше не стоїть на парковці біля будинку №{{houseId}}: доступу до будинку у вас немає',
@@ -107,18 +101,6 @@ export default {
         ua: 'Машина вже стоїть на парковці',
         en: 'The car is already parked',
         de: 'Das Auto ist bereits geparkt',
-    },
-    noParking: {
-        ru: 'У машины нет места на парковке у дома',
-        ua: 'У машини немає місця на парковці біля будинку',
-        en: 'The car has no parking spot at a house',
-        de: 'Das Auto hat keinen Parkplatz an einem Haus',
-    },
-    spotTaken: {
-        ru: 'Место парковки занято другой машиной',
-        ua: 'Місце парковки зайняте іншою машиною',
-        en: 'The parking spot is taken by another vehicle',
-        de: 'Der Parkplatz ist von einem anderen Fahrzeug belegt',
     },
     cannotDespawn: {
         ru: 'Машина стоит на парковке у дома и остаётся в мире. Чтобы убрать её, сначала снимите её с парковки (G)',

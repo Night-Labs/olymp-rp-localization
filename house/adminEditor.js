@@ -2,10 +2,10 @@
 export default {
     command: {
         edit: {
-            ru: 'Редактор дома: вход, гараж, крыша, ворота и участок. По номеру дома или ближайший. Повторно - закрыть',
-            ua: 'Редактор будинку: вхід, гараж, дах, ворота й ділянка. За номером будинку або найближчий. Повторно - закрити',
-            en: 'House editor: front door, garage, roof, gates and lot. By house id or the nearest one. Again to close',
-            de: 'Hauseditor: Haustür, Garage, Dach, Tore und Grundstück. Per Hausnummer oder das nächste. Erneut zum Schließen',
+            ru: 'Редактор дома: вход, гараж, крыша, ворота, участок и фото. По номеру дома или ближайший. Повторно - закрыть',
+            ua: 'Редактор будинку: вхід, гараж, дах, ворота, ділянка й фото. За номером будинку або найближчий. Повторно - закрити',
+            en: 'House editor: front door, garage, roof, gates, lot and photo. By house id or the nearest one. Again to close',
+            de: 'Hauseditor: Haustür, Garage, Dach, Tore, Grundstück und Foto. Per Hausnummer oder das nächste. Erneut zum Schließen',
         },
         create: {
             ru: 'Создать дом в редакторе: вход ставится там, где вы стоите. Повторно - закрыть',
@@ -50,6 +50,38 @@ export default {
             ua: 'Ділянка',
             en: 'Lot',
             de: 'Grundstück',
+        },
+        photo: {
+            ru: 'Фото',
+            ua: 'Фото',
+            en: 'Photo',
+            de: 'Foto',
+        },
+    },
+    photo: {
+        title: {
+            ru: 'Фото дома',
+            ua: 'Фото будинку',
+            en: 'House photo',
+            de: 'Hausfoto',
+        },
+        none: {
+            ru: 'Фото пока нет',
+            ua: 'Фото поки немає',
+            en: 'No photo yet',
+            de: 'Noch kein Foto',
+        },
+        body: {
+            ru: 'Наведите камеру на дом и сфотографируйте. Снимок сразу станет фото дома, панель и подсказки в кадр не попадут.',
+            ua: 'Наведіть камеру на будинок і сфотографуйте. Знімок одразу стане фото будинку, панель і підказки в кадр не потраплять.',
+            en: 'Point the camera at the house and take the photo. The shot becomes the house photo at once; the panel and the hints stay out of it.',
+            de: 'Richten Sie die Kamera auf das Haus und machen Sie das Foto. Die Aufnahme wird sofort zum Hausfoto; Panel und Hinweise sind nicht im Bild.',
+        },
+        shoot: {
+            ru: 'Сфотографировать',
+            ua: 'Сфотографувати',
+            en: 'Take photo',
+            de: 'Foto aufnehmen',
         },
     },
     points: {
@@ -303,6 +335,12 @@ export default {
             en: 'House #{{houseId}} is created',
             de: 'Haus Nr. {{houseId}} ist erstellt',
         },
+        photo: {
+            ru: 'Фото дома №{{houseId}} сохранено',
+            ua: 'Фото будинку №{{houseId}} збережено',
+            en: 'The photo of house #{{houseId}} is saved',
+            de: 'Das Foto von Haus Nr. {{houseId}} ist gespeichert',
+        },
     },
     error: {
         street: {
@@ -400,6 +438,12 @@ export default {
             ua: 'Будинок зараз зберігається, спробуйте ще раз',
             en: 'The house is being saved, try again',
             de: 'Das Haus wird gerade gespeichert, versuchen Sie es erneut',
+        },
+        photo: {
+            ru: 'Фото не сохранилось, попробуйте ещё раз',
+            ua: 'Фото не збереглося, спробуйте ще раз',
+            en: 'The photo was not saved, try again',
+            de: 'Das Foto wurde nicht gespeichert, versuchen Sie es erneut',
         },
     },
 };

@@ -150,6 +150,12 @@ export const cef = {
         de: 'Gesperrt',
         pl: 'Zablokowane',
     },
+    owned: {
+        ru: 'Уже есть',
+        ua: 'Вже є',
+        en: 'Already yours',
+        de: 'Bereits vorhanden',
+    },
     primaryColor: {
         ru: 'Основной цвет',
         ua: 'Основний колір',
