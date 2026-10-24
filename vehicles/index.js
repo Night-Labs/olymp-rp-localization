@@ -590,5 +590,11 @@ export default {
             de: 'Unterwegs',
             pl: 'W drodze',
         },
+        parkedOutside: {
+            ru: 'На парковке у дома',
+            ua: 'На парковці біля будинку',
+            en: 'Parked outside the house',
+            de: 'Vor dem Haus geparkt',
+        },
     },
 };

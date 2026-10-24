@@ -42,6 +42,36 @@ export default {
         en: 'Only the owner can park the car or take it off its spot',
         de: 'Nur der Besitzer kann das Auto parken oder vom Parkplatz holen',
     },
+    familyHolderOnly: {
+        ru: 'Поставить семейную машину на парковку может только тот, кто её взял, с доступом к семейному транспорту',
+        ua: 'Поставити сімейну машину на парковку може лише той, хто її взяв, з доступом до сімейного транспорту',
+        en: 'Only the member who took the family car out, with access to family transport, can park it',
+        de: 'Nur das Mitglied, das das Familienauto genommen hat und Zugriff auf Familienfahrzeuge hat, kann es parken',
+    },
+    familyNoAccess: {
+        ru: 'Снять семейную машину с парковки может участник с доступом к семейному транспорту и подходящим рангом',
+        ua: 'Зняти сімейну машину з парковки може учасник з доступом до сімейного транспорту та відповідним рангом',
+        en: 'Only a member with access to family transport and a high enough rank can take the family car off its spot',
+        de: 'Nur ein Mitglied mit Zugriff auf Familienfahrzeuge und passendem Rang kann das Familienauto vom Parkplatz holen',
+    },
+    familyNotYours: {
+        ru: 'Семейная машина стоит на парковке у дома. Уехать на ней может участник организации с доступом к семейному транспорту',
+        ua: 'Сімейна машина стоїть на парковці біля будинку. Поїхати на ній може учасник організації з доступом до сімейного транспорту',
+        en: 'The family car is parked at the house. Only an organization member with access to family transport can drive it off',
+        de: 'Das Familienauto steht am Haus. Nur ein Mitglied der Organisation mit Zugriff auf Familienfahrzeuge kann damit wegfahren',
+    },
+    familyNotHere: {
+        ru: 'Семейную машину можно поставить только на участке или крыше семейного дома',
+        ua: 'Сімейну машину можна поставити лише на ділянці або даху сімейного будинку',
+        en: 'A family car can only be parked on the yard or roof of the family house',
+        de: 'Ein Familienauto kann nur auf dem Grundstück oder Dach des Familienhauses geparkt werden',
+    },
+    familyLost: {
+        ru: '{{name}} больше не стоит на парковке у дома №{{houseId}}: это больше не семейный дом',
+        ua: '{{name}} більше не стоїть на парковці біля будинку №{{houseId}}: це більше не сімейний будинок',
+        en: '{{name}} is no longer parked at house #{{houseId}}: it is no longer the family house',
+        de: '{{name}} steht nicht mehr am Haus Nr. {{houseId}}: es ist nicht mehr das Familienhaus',
+    },
     unsuitable: {
         ru: 'Эту машину нельзя поставить на парковку у дома',
         ua: 'Цю машину не можна поставити на парковку біля будинку',
