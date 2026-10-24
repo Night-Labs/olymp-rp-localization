@@ -1425,6 +1425,12 @@ export default {
         de: 'Einem Spieler ein Fahrzeug aus der Fahrzeug-Konfiguration anhand seiner ID geben und neben dem Spieler spawnen.',
         pl: 'Wydaj graczowi pojazd z konfiguracji pojazdów według jego ID i zrespawnuj go obok gracza.',
     },
+    create_plate: {
+        ru: 'Создать номерной знак с указанным номером, зарегистрировать его на себя и положить в инвентарь.',
+        ua: 'Створити номерний знак із вказаним номером, зареєструвати його на себе та покласти в інвентар.',
+        en: 'Create a number plate with the given number, register it to yourself and put it into your inventory.',
+        de: 'Ein Kennzeichen mit der angegebenen Nummer erstellen, auf dich registrieren und ins Inventar legen.',
+    },
     veh2: {
         ru: 'Альтернативно заспавнить транспорт по имени модели и посадить в него указанного игрока.',
         ua: 'Альтернативно заспавнити транспорт за назвою моделі та посадити в нього вказаного гравця.',

@@ -88,6 +88,30 @@ export default {
         zh: '输入金额',
     },
 
+    // Goods sold by weight (the fish of the fishing job): the page prices them per kg and takes kilograms.
+    enterKg: {
+        ru: 'Введите вес, кг',
+        ua: 'Введіть вагу, кг',
+        en: 'Enter weight, kg',
+        de: 'Gewicht eingeben, kg',
+    },
+
+    // Suffix of a price per kilogram: "$370/kg".
+    perKg: {
+        ru: '/кг',
+        ua: '/кг',
+        en: '/kg',
+        de: '/kg',
+    },
+
+    // The smallest lot one sale takes, next to the amount field: {{amount}} is a mass, "1 kg".
+    minLot: {
+        ru: 'мин. {{amount}}',
+        ua: 'мін. {{amount}}',
+        en: 'min. {{amount}}',
+        de: 'mind. {{amount}}',
+    },
+
     sell: {
         ru: 'Продать',
         en: 'Sell',
@@ -172,6 +196,28 @@ export default {
         en: 'You sold {{quantity}} items for ${{price}}',
         de: 'Du hast {{quantity}} Gegenstände für ${{price}} verkauft',
         pl: 'Sprzedałeś {{quantity}} przedmiotów za ${{price}}',
+    },
+
+    // Goods counted by weight (the fish of the fishing job): {{quantity}} is already a mass, "2.4 kg".
+    soldMass: {
+        ru: 'Вы продали {{name}}: {{quantity}} за ${{price}}',
+        ua: 'Ви продали {{name}}: {{quantity}} за ${{price}}',
+        en: 'You sold {{name}}: {{quantity}} for ${{price}}',
+        de: 'Du hast {{name}} verkauft: {{quantity}} für ${{price}}',
+    },
+
+    soldAllMass: {
+        ru: 'Вы продали {{quantity}} улова за ${{price}}',
+        ua: 'Ви продали {{quantity}} улову за ${{price}}',
+        en: 'You sold {{quantity}} of catch for ${{price}}',
+        de: 'Du hast {{quantity}} Fang für ${{price}} verkauft',
+    },
+
+    minLotKg: {
+        ru: 'Скупщик берёт не меньше {{kg}} кг за раз',
+        ua: 'Скупник бере не менше {{kg}} кг за раз',
+        en: 'The buyer takes at least {{kg}} kg at a time',
+        de: 'Der Händler nimmt mindestens {{kg}} kg auf einmal',
     },
 
     updatePriceIn: {

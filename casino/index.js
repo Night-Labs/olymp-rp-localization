@@ -121,6 +121,13 @@ export default {
        zh:'你没有足够的筹码',
     },
 
+    stopAnimationFirst: {
+        ru: 'Сначала остановите анимацию',
+        ua: 'Спочатку зупиніть анімацію',
+        en: 'Stop the animation first',
+        de: 'Beende zuerst die Animation',
+    },
+
     maxStake: {
         ru: 'На эту ставку можно поставить не больше {{max}} фишек',
         ua: 'На цю ставку можна поставити не більше {{max}} фішок',

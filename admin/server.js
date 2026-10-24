@@ -586,6 +586,18 @@ export const server = {
         pl: 'Administrator wydał ci pojazd {{vehicle}}',
         zh: '管理员向你发放了载具{{vehicle}}',
     },
+    plateInvalid: {
+        ru: 'Недопустимый номер: от 1 до 8 символов, латинские буквы и цифры',
+        ua: 'Неприпустимий номер: від 1 до 8 символів, латинські літери та цифри',
+        en: 'Invalid number: 1 to 8 characters, latin letters and digits',
+        de: 'Ungültiges Kennzeichen: 1 bis 8 Zeichen, lateinische Buchstaben und Ziffern',
+    },
+    plateCreated: {
+        ru: 'Номерной знак {{number}} создан и зарегистрирован на вас',
+        ua: 'Номерний знак {{number}} створено та зареєстровано на вас',
+        en: 'Number plate {{number}} has been created and registered to you',
+        de: 'Kennzeichen {{number}} wurde erstellt und auf dich registriert',
+    },
     businessNotFound: {
         ru: 'Бизнес {{id}} не найден',
         ua: 'Бізнес {{id}} не знайдено',

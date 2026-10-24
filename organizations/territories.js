@@ -674,6 +674,13 @@ export const territories = {
                 de: 'Von Feld {{cell}} {{quantity}} Stk. eingesammelt',
                 pl: 'Zebrano {{quantity}} szt. z pola {{cell}}',
             },
+            // A harvest counted by weight (the fish of a fishing business): {{quantity}} is already a mass, "25 kg".
+            collectedMass: {
+                ru: 'С квадрата {{cell}} собрано {{quantity}}',
+                ua: 'З квадрата {{cell}} зібрано {{quantity}}',
+                en: 'Collected {{quantity}} from square {{cell}}',
+                de: 'Von Feld {{cell}} {{quantity}} eingesammelt',
+            },
             empty: {
                 ru: 'Собирать пока нечего',
                 ua: 'Збирати поки нічого',

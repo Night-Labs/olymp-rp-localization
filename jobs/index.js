@@ -4,6 +4,7 @@ import foodDelivery from './delivery';
 import bus from './bus';
 import farm from './farm';
 import hunting from './hunting';
+import fishing from './fishing';
 import { quarry } from './quarry/quarry';
 import treasureHunter from './treasureHunter/treasureHunter';
 import mushrooms from './mushrooms/mushrooms';
@@ -238,6 +239,7 @@ export default {
     farm,
     trucker2,
     hunting,
+    fishing,
     quarry,
     treasureHunter,
     mushrooms,

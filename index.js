@@ -59,7 +59,6 @@ import dispatch from './dispatch';
 import drugCourier from './drugCourier';
 import adminMP from './adminMP';
 import trading from './trading';
-import fishing from './jobs/fishing/fishing';
 import referral from './referral';
 import buyer from './buyer/buyer';
 import { gasStation } from './gasStation/gasStation';
@@ -134,6 +133,8 @@ import ping from './ping';
 import weaponAttachments from './weaponAttachments';
 import financialMonitoring from './financialMonitoring';
 import reports from './reports';
+import trunkHide from './trunkHide';
+import vehiclePush from './vehiclePush';
 
 export default {
     account,
@@ -198,7 +199,6 @@ export default {
     greenCourier: drugCourier, // alias for backward compatibility (renamed from greenCourier -> drugCourier)
     adminMP,
     trading,
-    fishing,
     referral,
     buyer,
     gasStation,
@@ -273,6 +273,8 @@ export default {
     weaponAttachments,
     financialMonitoring,
     reports,
+    trunkHide,
+    vehiclePush,
 };
 
 
