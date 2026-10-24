@@ -558,6 +558,12 @@ export default {
                 de: 'Alle Plätze belegt',
                 pl: 'Wszystkie miejsca zajęte',
             },
+            cooldown: {
+                ru: 'Людоед раз в 3 часа на охотника: ещё {{minutes}} мин.',
+                ua: 'Людожер раз на 3 години на мисливця: ще {{minutes}} хв.',
+                en: 'One man-eater per 3 hours per hunter: {{minutes}} min left',
+                de: 'Ein Menschenfresser alle 3 Stunden pro Jäger: noch {{minutes}} Min.',
+            },
         },
         emptyBoard: {
             ru: 'Нет контрактов под этот фильтр',

@@ -172,6 +172,12 @@ export default {
             de: 'Einen Gruppenauftrag nimmt ein Gruppenanführer mit {{min}}-{{max}} Jägern mit Waffen- und Jagdschein in der Nähe an, sich selbst mitgezählt',
             pl: 'Kontrakt grupowy przyjmuje lider grupy, gdy w pobliżu jest {{min}}-{{max}} myśliwych z licencją na broń i licencją myśliwską, wliczając jego',
         },
+        maneaterCooldown: {
+            ru: 'Людоеда можно брать раз в 3 часа, и вам, и каждому в группе. Подождите ещё {{minutes}} мин.',
+            ua: 'Людожера можна брати раз на 3 години, і вам, і кожному в групі. Зачекайте ще {{minutes}} хв.',
+            en: 'A man-eater can be taken once every 3 hours, by you and by everyone in the crew. Wait {{minutes}} more min.',
+            de: 'Einen Menschenfresser gibt es alle 3 Stunden, für dich und jeden in der Gruppe. Noch {{minutes}} Min. warten.',
+        },
         groupShareMissing: {
             ru: 'Контракт не сдать: свою часть охоты должны сделать хотя бы {{min}} охотника из группы',
             ua: 'Контракт не здати: свою частину полювання мають зробити хоча б {{min}} мисливці з групи',
