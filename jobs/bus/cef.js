@@ -270,5 +270,11 @@ export const cef = {
             pl: 'Los Santos - Paleto Bay',
             zh: '洛圣都 - 佩立托湾',
         },
+        starTour: {
+            ru: 'Звёздный тур: Вайнвуд-Хиллз',
+            ua: 'Зірковий тур: Вайнвуд-Гіллз',
+            en: 'Star tour: Vinewood Hills',
+            de: 'Sternentour: Vinewood Hills',
+        },
     },
 };

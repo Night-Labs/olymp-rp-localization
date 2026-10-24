@@ -92,6 +92,18 @@ export default {
             en: 'The leader has not put together any kits yet.',
             de: 'Der Anführer hat noch keine Sets zusammengestellt.',
         },
+        notOnDuty: {
+            ru: 'Снаряжение выдаю только на смене. Сначала заступи на службу.',
+            ua: 'Спорядження видаю лише на зміні. Спочатку заступи на службу.',
+            en: 'I hand out equipment on duty only. Start your shift first.',
+            de: 'Ausrüstung gebe ich nur im Dienst aus. Beginne zuerst deine Schicht.',
+        },
+        noAccess: {
+            ru: 'Извини, снаряжение выдаю только своим.',
+            ua: 'Вибач, спорядження видаю лише своїм.',
+            en: 'Sorry, I only hand out equipment to our own people.',
+            de: 'Tut mir leid, Ausrüstung gebe ich nur an unsere Leute aus.',
+        },
         kit: {
             ru: 'Набор {{name}}',
             ua: 'Набір {{name}}',

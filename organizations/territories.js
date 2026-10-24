@@ -10,6 +10,52 @@ export const territories = {
             pl: 'Zabrac zbior',
         },
     },
+    // Names of the hand-placed cells (`TERRITORY_SPECIAL_SEED`). The seed stores the key and
+    // whoever shows the name localizes it; GTA place names stay literal in the seed.
+    cellNames: {
+        hospital: {
+            ru: 'Госпиталь LS',
+            ua: 'Госпіталь LS',
+            en: 'LS Hospital',
+            de: 'Krankenhaus LS',
+        },
+        scrapyard: {
+            ru: 'Свалка транспорта',
+            ua: 'Звалище транспорту',
+            en: 'Scrapyard',
+            de: 'Schrottplatz',
+        },
+        workshopMurrieta: {
+            ru: 'Мастерская Murrieta',
+            ua: 'Майстерня Murrieta',
+            en: 'Murrieta Workshop',
+            de: 'Werkstatt Murrieta',
+        },
+        workshopDavis: {
+            ru: 'Мастерская Davis',
+            ua: 'Майстерня Davis',
+            en: 'Davis Workshop',
+            de: 'Werkstatt Davis',
+        },
+        businessMultiplier: {
+            ru: 'Множитель бизнесов',
+            ua: 'Множник бізнесів',
+            en: 'Business multiplier',
+            de: 'Geschaeftsmultiplikator',
+        },
+        bunkerZancudo: {
+            ru: 'Бункер Zancudo',
+            ua: 'Бункер Zancudo',
+            en: 'Zancudo Bunker',
+            de: 'Bunker Zancudo',
+        },
+        bunkerSenora: {
+            ru: 'Бункер Senora Desert',
+            ua: 'Бункер Senora Desert',
+            en: 'Senora Desert Bunker',
+            de: 'Bunker Senora Desert',
+        },
+    },
     // Оповещения о войне в чат. Всплывающее окно видит только нажавший кнопку,
     // а знать о бое должна вся организация - особенно обороняющаяся.
     chat: {
@@ -17,7 +63,7 @@ export const territories = {
             ru: '~g~[Территории] ~w~Ваша организация объявила атаку на квадрат {{cell}} (владелец: {{org}}). Начало в {{time}}.',
             ua: '~g~[Території] ~w~Ваша організація оголосила атаку на квадрат {{cell}} (власник: {{org}}). Початок о {{time}}.',
             en: '~g~[Territories] ~w~Your organization declared an attack on square {{cell}} (owner: {{org}}). Starts at {{time}}.',
-            de: '~g~[Territorien] ~w~Deine Organisation hat Sektor {{cell}} angegriffen (Besitzer: {{org}}). Beginn um {{time}}.',
+            de: '~g~[Territorien] ~w~Deine Organisation hat einen Angriff auf Sektor {{cell}} angekuendigt (Besitzer: {{org}}). Beginn um {{time}}.',
             pl: '~g~[Terytoria] ~w~Twoja organizacja oglosila atak na kwadrat {{cell}} (wlasciciel: {{org}}). Start o {{time}}.',
         },
         declaredDefender: {
@@ -296,6 +342,24 @@ export const territories = {
                 en: 'This square already belongs to you',
                 de: 'Dieses Feld gehoert bereits dir',
                 pl: 'To pole juz nalezy do Ciebie',
+            },
+            notOwnCell: {
+                ru: 'Этот квадрат вам не принадлежит',
+                ua: 'Цей квадрат вам не належить',
+                en: 'This square does not belong to you',
+                de: 'Dieses Feld gehoert dir nicht',
+            },
+            releaseSabotaged: {
+                ru: 'На квадрате идёт диверсия: отказаться от него можно, когда она закончится',
+                ua: 'На квадраті триває диверсія: відмовитися від нього можна, коли вона закінчиться',
+                en: 'The square is under sabotage: you can give it up once it ends',
+                de: 'Auf dem Feld laeuft eine Sabotage: aufgeben kannst du es, wenn sie endet',
+            },
+            releasePlain: {
+                ru: 'От пустого квадрата отказываться незачем: он ничего не стоит',
+                ua: 'Від порожнього квадрата відмовлятися немає сенсу: він нічого не коштує',
+                en: 'There is no point giving up a plain square: it costs nothing',
+                de: 'Ein leeres Feld aufzugeben bringt nichts: es kostet nichts',
             },
             unknownSquare: {
                 ru: 'Квадрат не найден',
@@ -646,6 +710,14 @@ export const territories = {
                 en: 'Square {{cell}} captured peacefully',
                 de: 'Feld {{cell}} friedlich erobert',
                 pl: 'Pole {{cell}} przejete pokojowo',
+            },
+        },
+        release: {
+            success: {
+                ru: 'Вы отказались от квадрата {{cell}}',
+                ua: 'Ви відмовилися від квадрата {{cell}}',
+                en: 'You gave up square {{cell}}',
+                de: 'Du hast Feld {{cell}} aufgegeben',
             },
         },
         rating: {

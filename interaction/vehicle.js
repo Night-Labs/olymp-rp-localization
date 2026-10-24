@@ -755,6 +755,12 @@ export const vehicle = {
         pl: 'Wyciągnąć z samochodu',
         zh: '下车',
     },
+    putToTrunk: {
+        ru: 'Затолкать в багажник',
+        ua: 'Заштовхати в багажник',
+        en: 'Shove into the trunk',
+        de: 'In den Kofferraum stoßen',
+    },
     checkVehicle: {
         ru: 'Проверить машину',
         ua: 'Перевірити машину',
@@ -762,6 +768,19 @@ export const vehicle = {
         de: 'Überprüfen Sie das Auto',
         pl: 'Sprawdź samochód',
         zh: '检查一下车',
+    },
+
+    park: {
+        ru: 'Припарковать',
+        ua: 'Припаркувати',
+        en: 'Park here',
+        de: 'Hier parken',
+    },
+    unpark: {
+        ru: 'Снять с парковки',
+        ua: 'Зняти з парковки',
+        en: 'Leave the parking spot',
+        de: 'Parkplatz verlassen',
     },
 
     'repair-car': {

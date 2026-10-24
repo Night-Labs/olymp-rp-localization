@@ -41,6 +41,12 @@ export default {
         de: 'Die Animation einer Adrenalinspritze in den Arm (Oberkoerper) mit dem Pen in der Hand an dir selbst abspielen',
         pl: 'Odtworz na sobie animacje zastrzyku adrenaliny w ramie (gorna czesc ciala) z penem w dloni',
     },
+    panning: {
+        ru: 'Проиграть на себе промывку золота с лотком в руках: swirl - промывка, hold - лоток выровнен, off - убрать.',
+        ua: 'Програти на собі промивання золота з лотком у руках: swirl - промивання, hold - лоток вирівняний, off - прибрати',
+        en: 'Play gold panning on yourself with the pan in hand: swirl - washing, hold - pan held level, off - stop',
+        de: 'Goldwaschen mit der Pfanne in der Hand an dir selbst abspielen: swirl - waschen, hold - Pfanne ruhig halten, off - beenden',
+    },
     disguise: {
         ru: 'Замаскироваться: другие игроки видят указанные имя, фамилию и ID. Без имени - случайное, без ID - случайный.',
         ua: "Замаскуватися: інші гравці бачать вказані ім'я, прізвище та ID. Без імені - випадкове, без ID - випадковий",
@@ -643,6 +649,12 @@ export default {
         de: 'Den Besitzer eines Hauses anhand seiner ID zurücksetzen (Bewohner, Reservierung und Garage werden geleert).',
         pl: 'Zresetuj właściciela domu po jego ID (mieszkańcy, rezerwacja i garaż zostaną wyczyszczone).',
     },
+    parking_clear: {
+        ru: 'Снять с парковки у дома машину, рядом с которой вы стоите.',
+        ua: 'Зняти з парковки біля будинку машину, поруч з якою ви стоїте.',
+        en: 'Take the parked car you stand next to off its spot at the house.',
+        de: 'Das geparkte Auto, neben dem Sie stehen, vom Parkplatz am Haus holen.',
+    },
     ban: {
         ru: 'Забанить игрока по static ID на указанное количество дней с обязательной причиной.',
         ua: "Забанити гравця за static ID на вказану кількість днів з обов'язковою причиною.",
@@ -677,6 +689,48 @@ export default {
         en: 'Remove a mute (chat and voice) from a player by static ID, including offline characters.',
         de: 'Den Mute (Chat und Voice) eines Spielers anhand seiner static ID aufheben.',
         pl: 'Usuń mute (czat i głos) z gracza po static ID, w tym z postaci offline.',
+    },
+    gunmute: {
+        ru: 'Запретить аккаунту игрока по static ID использовать оружие на указанное количество минут с обязательной причиной.',
+        ua: "Заборонити акаунту гравця за static ID використовувати зброю на вказану кількість хвилин з обов'язковою причиною.",
+        en: 'Ban the account of a player (by static ID) from using weapons for a specified number of minutes with a mandatory reason.',
+        de: 'Dem Konto eines Spielers (static ID) für eine angegebene Anzahl von Minuten mit einem Pflichtgrund die Benutzung von Waffen verbieten.',
+    },
+    ungunmute: {
+        ru: 'Снять запрет оружия с аккаунта игрока по static ID, включая оффлайн.',
+        ua: 'Зняти заборону зброї з акаунта гравця за static ID, включаючи офлайн.',
+        en: 'Lift the weapon ban from the account of a player by static ID, offline included.',
+        de: 'Die Waffensperre vom Konto eines Spielers anhand seiner static ID aufheben, auch offline.',
+    },
+    reset_2fa: {
+        ru: 'Сбросить двухфакторную аутентификацию аккаунта игрока по static ID, включая оффлайн (игрок потерял телефон с аутентификатором).',
+        ua: 'Скинути двофакторну автентифікацію акаунта гравця за static ID, включаючи офлайн (гравець втратив телефон з автентифікатором).',
+        en: 'Reset two-factor authentication of the account of a player by static ID, offline included (the player lost the phone with the authenticator).',
+        de: 'Die Zwei-Faktor-Authentifizierung des Kontos eines Spielers anhand seiner static ID zurücksetzen, auch offline (der Spieler hat das Handy mit dem Authenticator verloren).',
+    },
+    vehmute: {
+        ru: 'Запретить аккаунту игрока по static ID садиться за руль на указанное количество минут с обязательной причиной (DB, NRD).',
+        ua: "Заборонити акаунту гравця за static ID сідати за кермо на вказану кількість хвилин з обов'язковою причиною (DB, NRD).",
+        en: 'Ban the account of a player (by static ID) from the driver seat for a specified number of minutes with a mandatory reason (DB, NRD).',
+        de: 'Dem Konto eines Spielers (static ID) für eine angegebene Anzahl von Minuten mit einem Pflichtgrund das Fahren verbieten (DB, NRD).',
+    },
+    unvehmute: {
+        ru: 'Снять запрет вождения с аккаунта игрока по static ID, включая оффлайн.',
+        ua: 'Зняти заборону водіння з акаунта гравця за static ID, включаючи офлайн.',
+        en: 'Lift the driving ban from the account of a player by static ID, offline included.',
+        de: 'Das Fahrverbot vom Konto eines Spielers anhand seiner static ID aufheben, auch offline.',
+    },
+    warn: {
+        ru: 'Выдать предупреждение аккаунту игрока по static ID: персонаж исключается из фракции, вступать во фракции нельзя, пока предупреждение не снято; второе предупреждение блокирует аккаунт на 7 дней.',
+        ua: 'Видати попередження акаунту гравця за static ID: персонаж виключається з фракції, вступати до фракцій не можна, поки попередження не знято; друге попередження блокує акаунт на 7 днів.',
+        en: 'Warn the account of a player by static ID: the character is removed from its faction and cannot join one until the warning is removed; the second warning bans the account for 7 days.',
+        de: 'Das Konto eines Spielers anhand seiner static ID verwarnen: der Charakter fliegt aus seiner Fraktion und kann keiner beitreten, bis die Verwarnung entfernt ist; die zweite Verwarnung sperrt das Konto für 7 Tage.',
+    },
+    unwarn: {
+        ru: 'Снять одно предупреждение с аккаунта игрока по static ID, включая оффлайн.',
+        ua: 'Зняти одне попередження з акаунта гравця за static ID, включаючи офлайн.',
+        en: 'Remove one warning from the account of a player by static ID, offline included.',
+        de: 'Eine Verwarnung vom Konto eines Spielers anhand seiner static ID entfernen, auch offline.',
     },
     ban_object_placement: {
         ru: 'Запретить игроку по static ID размещать объекты на указанное количество минут.',
@@ -2574,6 +2628,12 @@ export default {
         de: 'Die Liste der aktiven Krankheiten eines Online-Spielers vollständig löschen.',
         pl: 'Całkowicie wyczyść listę aktywnych chorób u gracza online.',
     },
+    clear_addiction: {
+        ru: 'Снять ломку и обнулить наркозависимость у игрока онлайн.',
+        ua: 'Зняти ломку та обнулити наркозалежність у гравця онлайн.',
+        en: 'Clear withdrawal and reset drug addiction for an online player.',
+        de: 'Entzug beenden und die Drogensucht eines Online-Spielers zurücksetzen.',
+    },
     check_diseases: {
         ru: 'Показать список всех активных болезней у игрока онлайн.',
         ua: 'Показати список усіх активних хвороб у гравця онлайн.',
@@ -2748,6 +2808,12 @@ export default {
         en: 'Open the world map with road routes drawn on it: from the player to the GPS waypoint, plus pinned A -> B pairs.',
         de: 'Die Weltkarte mit Straßenrouten öffnen: vom Spieler zum GPS-Wegpunkt sowie angeheftete A -> B Paare.',
         pl: 'Otwórz mapę świata z trasami po drogach: od gracza do punktu GPS oraz przypięte pary A -> B.',
+    },
+    preview_bus_route: {
+        ru: 'Показать в мире все чекпоинты и остановки маршрута автобуса с номерами и метками на карте, чтобы облететь его. Маршрут - номер в меню депо или ключ; без аргумента - выключить.',
+        ua: 'Показати у світі всі чекпоінти та зупинки маршруту автобуса з номерами й мітками на карті, щоб облетіти його. Маршрут - номер у меню депо або ключ; без аргументу - вимкнути.',
+        en: 'Show every checkpoint and stop of a bus route in the world, numbered and with map blips, to fly over it. The route is its number in the depot menu or its key; no argument turns it off.',
+        de: 'Alle Checkpoints und Haltestellen einer Buslinie in der Welt anzeigen, nummeriert und mit Kartenmarkierungen, um sie abzufliegen. Die Linie ist ihre Nummer im Depotmenü oder ihr Schlüssel; ohne Argument wird die Anzeige ausgeschaltet.',
     },
     restore_gang_zones: {
         ru: 'Сбросить все гангзоны к изначальному эталонному состоянию (владельцы по умолчанию).',
@@ -3498,4 +3564,33 @@ export default {
         de: 'Die nächste Dartscheibe entfernen, auch aus dartsBoards.json (ein laufendes Spiel wird abgebrochen, Einsätze gehen zurück).',
         pl: 'Usun najblizsza tarcze do rzutek, takze z dartsBoards.json (trwajacy mecz zostaje anulowany, zaklady wracaja).',
     },
-};
+    yacht: {
+        ru: 'Поставить яхту Galaxy перед собой, носом по взгляду. Аргументы: модель, цвет, подсветка, перила, флаг (-1 - без флага).',
+        ua: 'Поставити яхту Galaxy перед собою, носом за поглядом. Аргументи: модель, колір, підсвітка, поруччя, прапор (-1 - без прапора).',
+        en: 'Place a Galaxy yacht ahead of you, bow the way you face. Arguments: model, tint, lighting, railing, flag (-1 - no flag).',
+        de: 'Eine Galaxy-Jacht vor dir platzieren, Bug in Blickrichtung. Argumente: Modell, Farbe, Beleuchtung, Reling, Flagge (-1 - keine Flagge).',
+    },
+    yacht_look: {
+        ru: 'Сменить вид ближайшей яхты. Аргументы: слот (model, tint, lighting, railing, flag) и значение.',
+        ua: 'Змінити вигляд найближчої яхти. Аргументи: слот (model, tint, lighting, railing, flag) і значення.',
+        en: 'Restyle the nearest yacht. Arguments: slot (model, tint, lighting, railing, flag) and value.',
+        de: 'Das Aussehen der nächsten Jacht ändern. Argumente: Slot (model, tint, lighting, railing, flag) und Wert.',
+    },
+    yacht_pos: {
+        ru: 'Показать, где ты стоишь на ближайшей яхте: точка и курс в раме корпуса для точек взаимодействия в её конфиге.',
+        ua: 'Показати, де ти стоїш на найближчій яхті: точка й курс у рамі корпусу для точок взаємодії в її конфігу.',
+        en: 'Show where you stand on the nearest yacht: point and heading in the hull frame, for the interaction points in its config.',
+        de: 'Zeigen, wo du auf der nächsten Jacht stehst: Punkt und Kurs im Rumpfrahmen, für die Interaktionspunkte in ihrer Konfiguration.',
+    },
+    yacht_bar: {
+        ru: 'Встроить в ближайшую яхту бар и лаунж из интерьера GTA Online или убрать их. Пока без коллизии.',
+        ua: 'Вбудувати в найближчу яхту бар і лаунж з інтер\'єру GTA Online або прибрати їх. Поки без колізії.',
+        en: 'Build the GTA Online interior bar and lounge into the nearest yacht, or take them out. No collision yet.',
+        de: 'Bar und Lounge aus dem GTA-Online-Interieur in die nächste Jacht einbauen oder wieder entfernen. Noch ohne Kollision.',
+    },
+    yacht_remove: {
+        ru: 'Убрать ближайшую яхту.',
+        ua: 'Прибрати найближчу яхту.',
+        en: 'Remove the nearest yacht.',
+        de: 'Die nächste Jacht entfernen.',
+    },};

@@ -629,6 +629,20 @@ export const items = {
             pl: 'Plik czystych pieniędzy z pralni. Przyjmuje go wyłącznie zleceniodawca kontraktu organizacji.',
         },
     },
+    packed_batch: {
+        name: {
+            ru: 'Фасованная партия',
+            ua: 'Фасована партія',
+            en: 'Packed batch',
+            de: 'Abgepackte Charge',
+        },
+        desc: {
+            ru: 'Запаянные пакеты одной партии, стянутые резинкой. Принимает только заказчик контракта организации.',
+            ua: 'Запаяні пакети однієї партії, стягнуті гумкою. Приймає лише замовник контракту організації.',
+            en: 'The sealed bags of one batch, held by a rubber band. Only the organization contract client takes it.',
+            de: 'Die verschweißten Beutel einer Charge, mit einem Gummiband zusammengehalten. Nur der Auftraggeber des Organisationsvertrags nimmt sie an.',
+        },
+    },
     chipset: {
         name: {
             ru: 'Набор микросхем',

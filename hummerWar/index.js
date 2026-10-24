@@ -51,11 +51,11 @@ export default {
         pl: 'Hummer {{number}} z {{total}} pojawił się w strefie wojny o hummery.',
     },
     truckTaken: {
-        ru: 'Хаммер {{number}} угнали! Он виден на карте - перехвати его.',
-        ua: 'Хаммер {{number}} викрали! Його видно на карті - перехопи його.',
-        en: 'Hummer {{number}} has been stolen! It is shown on the map - intercept it.',
-        de: 'Hummer {{number}} wurde gestohlen! Er ist auf der Karte zu sehen - fang ihn ab.',
-        pl: 'Hummer {{number}} został skradziony! Widać go na mapie - przechwyć go.',
+        ru: 'Хаммер {{number}} угнали!',
+        ua: 'Хаммер {{number}} викрали!',
+        en: 'Hummer {{number}} has been stolen!',
+        de: 'Hummer {{number}} wurde gestohlen!',
+        pl: 'Hummer {{number}} został skradziony!',
     },
     truckOpened: {
         ru: 'Хаммер {{number}} доставлен: багажник открыт, груз может забрать любой!',
@@ -81,11 +81,17 @@ export default {
 
     // Driver
     driverHint: {
-        ru: 'Довези хаммер до точки разгрузки на карте. Хаммер видят все - тебя будут перехватывать!',
-        ua: 'Довези хаммер до точки розвантаження на карті. Хаммер бачать усі - тебе перехоплюватимуть!',
-        en: 'Drive the hummer to the drop-off point on the map. Everyone can see it - expect to be intercepted!',
-        de: 'Fahr den Hummer zum Abladepunkt auf der Karte. Alle sehen ihn - man wird dich abfangen wollen!',
-        pl: 'Zawieź hummera do punktu rozładunku na mapie. Wszyscy go widzą - spodziewaj się pościgu!',
+        ru: 'Точка разгрузки отмечена на карте. Довези хаммер и забери груз из багажника.',
+        ua: 'Точка розвантаження відмічена на карті. Доведи хаммер і забери вантаж із багажника.',
+        en: 'The drop-off point is marked on the map. Deliver the hummer and take the cargo from the trunk.',
+        de: 'Der Abladepunkt ist auf der Karte markiert. Liefere den Hummer ab und nimm die Ladung aus dem Laderaum.',
+        pl: 'Punkt rozładunku jest zaznaczony na mapie. Zawieź hummera i zabierz ładunek z bagażnika.',
+    },
+    driverChat: {
+        ru: 'Доставь хаммер на точку и сможешь забрать ресурсы из багажника.',
+        ua: 'Достав хамер на точку та зможеш забрати ресурси з багажника.',
+        en: 'Deliver the hummer to the point and you will be able to take the resources from the trunk.',
+        de: 'Liefere den Hummer am Punkt ab und du kannst die Ressourcen aus dem Laderaum nehmen.',
     },
     delivered: {
         ru: 'Хаммер доставлен! Багажник открыт {{minutes}} мин - забирай груз, пока не забрали другие.',

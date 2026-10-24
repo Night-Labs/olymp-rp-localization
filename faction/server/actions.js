@@ -106,6 +106,12 @@ export default {
         pl: '{{firstName}} obezwładnił(a) {{targetName}} i włożył do samochodu',
         zh: '｛｛firstName｝｝制服了｛｛targetName｝｝并将其放入车内',
     },
+    putToTrunk: {
+        ru: '{{firstName}} затолкал(а) {{targetName}} в багажник',
+        ua: '{{firstName}} заштовхав(ла) {{targetName}} у багажник',
+        en: '{{firstName}} shoved {{targetName}} into the trunk',
+        de: '{{firstName}} hat {{targetName}} in den Kofferraum gestoßen',
+    },
     removedFromVehicle: {
         ru: '{{firstName}} вытащил(а) {{targetName}} с машины',
         ua: '{{firstName}} витягнув(ла) {{targetName}} з машини',

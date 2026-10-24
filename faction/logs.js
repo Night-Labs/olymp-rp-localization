@@ -165,6 +165,12 @@ export default {
                     de: '{{name}} hat eine Werbeanfrage gestellt. Erhalten: ${{money}}',
                     pl: '{{name}} złożył wniosek o reklamę. Otrzymano: ${{money}}',
                 },
+                carInsuranceShare: {
+                    ru: '{{name}} оформил страховку автомобиля. Получено: ${{money}}',
+                    ua: '{{name}} оформив страховку автомобіля. Отримано: ${{money}}',
+                    en: '{{name}} bought car insurance. Received: ${{money}}',
+                    de: '{{name}} hat eine Autoversicherung abgeschlossen. Erhalten: ${{money}}',
+                },
             },
             take: {
                 upgradePayday: {

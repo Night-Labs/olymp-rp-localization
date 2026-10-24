@@ -110,11 +110,11 @@ export default {
             pl: 'To zdobycz cudzego kontraktu myśliwskiego, nie możesz jej oprawić',
         },
         noHuntingLicense: {
-            ru: 'Для контрактов нужна лицензия на охоту',
-            ua: 'Для контрактів потрібна ліцензія на полювання',
-            en: 'Contracts require a hunting licence',
-            de: 'Für Aufträge brauchst du einen Jagdschein',
-            pl: 'Kontrakty wymagają licencji myśliwskiej',
+            ru: 'Для контрактов нужны лицензия на оружие и лицензия на охоту',
+            ua: 'Для контрактів потрібні ліцензія на зброю та ліцензія на полювання',
+            en: 'Contracts require a weapon licence and a hunting licence',
+            de: 'Für Aufträge brauchst du einen Waffenschein und einen Jagdschein',
+            pl: 'Kontrakty wymagają licencji na broń i licencji myśliwskiej',
         },
         noFirearmLicenses: {
             ru: 'Огнестрельное оружие продаётся только с лицензией на оружие и лицензией на охоту',
@@ -166,11 +166,23 @@ export default {
             pl: 'Tego kontraktu nie ma już na tablicy',
         },
         groupRequired: {
-            ru: 'Групповой контракт берёт лидер группы из {{min}}-{{max}} человек',
-            ua: 'Груповий контракт бере лідер групи з {{min}}-{{max}} осіб',
-            en: 'A group contract is taken by the leader of a group of {{min}}-{{max}}',
-            de: 'Einen Gruppenauftrag nimmt der Anführer einer Gruppe von {{min}}-{{max}} an',
-            pl: 'Kontrakt grupowy przyjmuje lider grupy liczącej {{min}}-{{max}} osób',
+            ru: 'Групповой контракт берёт лидер группы, когда рядом с ним {{min}}-{{max}} охотников с лицензиями на оружие и охоту, считая его самого',
+            ua: 'Груповий контракт бере лідер групи, коли поруч із ним {{min}}-{{max}} мисливців з ліцензіями на зброю та полювання, рахуючи його самого',
+            en: 'A group contract is taken by a group leader with {{min}}-{{max}} hunters with weapon and hunting licences nearby, the leader included',
+            de: 'Einen Gruppenauftrag nimmt ein Gruppenanführer mit {{min}}-{{max}} Jägern mit Waffen- und Jagdschein in der Nähe an, sich selbst mitgezählt',
+            pl: 'Kontrakt grupowy przyjmuje lider grupy, gdy w pobliżu jest {{min}}-{{max}} myśliwych z licencją na broń i licencją myśliwską, wliczając jego',
+        },
+        maneaterCooldown: {
+            ru: 'Людоеда можно брать раз в 3 часа, и вам, и каждому в группе. Подождите ещё {{minutes}} мин.',
+            ua: 'Людожера можна брати раз на 3 години, і вам, і кожному в групі. Зачекайте ще {{minutes}} хв.',
+            en: 'A man-eater can be taken once every 3 hours, by you and by everyone in the crew. Wait {{minutes}} more min.',
+            de: 'Einen Menschenfresser gibt es alle 3 Stunden, für dich und jeden in der Gruppe. Noch {{minutes}} Min. warten.',
+        },
+        groupShareMissing: {
+            ru: 'Контракт не сдать: свою часть охоты должны сделать хотя бы {{min}} охотника из группы',
+            ua: 'Контракт не здати: свою частину полювання мають зробити хоча б {{min}} мисливці з групи',
+            en: 'Cannot hand in: at least {{min}} hunters of the crew have to do their part of the hunt',
+            de: 'Abgabe nicht möglich: mindestens {{min}} Jäger der Gruppe müssen ihren Teil der Jagd erledigen',
         },
         accepted: {
             ru: 'Контракт взят: {{species}} x{{count}}, {{zone}}',
@@ -248,6 +260,97 @@ export default {
             en: 'Wait, the previous action is still running',
             de: 'Warte, die vorige Aktion läuft noch',
             pl: 'Poczekaj, poprzednia akcja jeszcze trwa',
+        },
+    },
+
+    // The trail to a contract target (server jobs/hunting/targets, client jobs/hunting/radar).
+    track: {
+        examine: {
+            ru: 'Изучить следы',
+            ua: 'Вивчити сліди',
+            en: 'Examine the tracks',
+            de: 'Spuren untersuchen',
+        },
+        blip: {
+            ru: 'Следы зверя',
+            ua: 'Сліди звіра',
+            en: 'Animal tracks',
+            de: 'Tierspuren',
+        },
+        started: {
+            ru: 'Вы напали на след. Идите к отметке лапы на карте и изучите следы',
+            ua: 'Ви натрапили на слід. Йдіть до позначки лапи на мапі та вивчіть сліди',
+            en: 'You found a trail. Go to the paw mark on the map and examine the tracks',
+            de: 'Du hast eine Fährte gefunden. Geh zur Pfotenmarkierung auf der Karte und untersuche die Spuren',
+        },
+        next: {
+            ru: 'Следы ведут дальше. Осталось изучить: {{left}}',
+            ua: 'Сліди ведуть далі. Залишилось вивчити: {{left}}',
+            en: 'The tracks lead on. Left to examine: {{left}}',
+            de: 'Die Spuren führen weiter. Noch zu untersuchen: {{left}}',
+        },
+        found: {
+            ru: 'Свежие следы! {{species}} где-то рядом, зверь отмечен на радаре',
+            ua: 'Свіжі сліди! {{species}} десь поруч, звіра позначено на радарі',
+            en: 'Fresh tracks! {{species}} close by, marked on your radar',
+            de: 'Frische Spuren! {{species}} ganz in der Nähe, auf dem Radar markiert',
+        },
+        misread: {
+            ru: 'Вы неверно прочитали след. Изучите его ещё раз',
+            ua: 'Ви неправильно прочитали слід. Вивчіть його ще раз',
+            en: 'You misread the track. Examine it again',
+            de: 'Du hast die Spur falsch gedeutet. Untersuche sie noch einmal',
+        },
+        // The track read minigame (webviews hunting/overlays/TrackRead.vue).
+        read: {
+            clear: {
+                ru: 'Расчистите отпечаток',
+                ua: 'Розчистіть відбиток',
+                en: 'Clear the print',
+                de: 'Leg den Abdruck frei',
+            },
+            pick: {
+                ru: 'Куда ушёл зверь?',
+                ua: 'Куди пішов звір?',
+                en: 'Which way did it go?',
+                de: 'Wohin ist es gelaufen?',
+            },
+            right: {
+                ru: 'След прочитан',
+                ua: 'Слід прочитано',
+                en: 'Track read',
+                de: 'Spur gelesen',
+            },
+            wrong: {
+                ru: 'Не туда',
+                ua: 'Не туди',
+                en: 'Wrong way',
+                de: 'Falsche Richtung',
+            },
+            timeout: {
+                ru: 'Время вышло',
+                ua: 'Час вийшов',
+                en: 'Out of time',
+                de: 'Zeit abgelaufen',
+            },
+            hintBrush: {
+                ru: 'Расчистить',
+                ua: 'Розчистити',
+                en: 'Clear',
+                de: 'Freilegen',
+            },
+            hintPick: {
+                ru: 'Указать направление',
+                ua: 'Вказати напрямок',
+                en: 'Point the way',
+                de: 'Richtung zeigen',
+            },
+            hintExit: {
+                ru: 'Встать',
+                ua: 'Встати',
+                en: 'Stand up',
+                de: 'Aufstehen',
+            },
         },
     },
 

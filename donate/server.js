@@ -292,6 +292,13 @@ export const server = {
             zh: '收到｛｛车辆｝”中',
         },
 
+        vehicleBattlePass: {
+            ru: 'Получено {{vehicle}}. Это машина из боевого пропуска: государство оценивает её в {{percent}}% от обычной стоимости.',
+            ua: 'Отримано {{vehicle}}. Це машина з бойового пропуску: держава оцінює її в {{percent}}% від звичайної вартості.',
+            en: 'Received {{vehicle}}. This car came from the Battle Pass: the state values it at {{percent}}% of its usual price.',
+            de: '{{vehicle}} erhalten. Dieses Auto stammt aus dem Battle Pass: Der Staat bewertet es mit {{percent}}% seines üblichen Preises.',
+        },
+
         donate: {
             ru: 'Получено {{donate}} Olymp-Coins',
             ua: 'Отримано {{donate}} Olymp-Coins',

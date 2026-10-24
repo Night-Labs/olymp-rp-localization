@@ -46,11 +46,10 @@ export const server = {
                 pl: 'Zakup biura',
             },
             message: {
-                ru: 'Вы уверены, что хотите купить офис #{{slotId}} в {{building}} за ${{price}}? Средства будут списаны с баланса организации.',
-                ua: 'Ви впевнені, що хочете купити офіс #{{slotId}} в {{building}} за ${{price}}? Кошти будуть списані з балансу організації.',
-                en: 'Are you sure you want to buy office #{{slotId}} in {{building}} for ${{price}}? Funds will be deducted from the organization balance.',
-                de: 'Möchten Sie Büro #{{slotId}} in {{building}} für ${{price}} kaufen? Der Betrag wird vom Organisationskonto abgebucht.',
-                pl: 'Czy na pewno chcesz kupić biuro #{{slotId}} w {{building}} za ${{price}}? Środki zostaną pobrane z konta organizacji.',
+                ru: 'Вы уверены, что хотите купить офис #{{slotId}} в {{building}} за ${{price}}? Средства будут списаны с баланса организации, налог ${{tax}} будет списываться с него каждый день.',
+                ua: 'Ви впевнені, що хочете купити офіс #{{slotId}} в {{building}} за ${{price}}? Кошти будуть списані з балансу організації, податок ${{tax}} списуватиметься з нього щодня.',
+                en: 'Are you sure you want to buy office #{{slotId}} in {{building}} for ${{price}}? Funds will be deducted from the organization balance, and a ${{tax}} tax will be taken from it every day.',
+                de: 'Möchten Sie Büro #{{slotId}} in {{building}} für ${{price}} kaufen? Der Betrag wird vom Organisationskonto abgebucht, und täglich wird davon eine Steuer von ${{tax}} abgebucht.',
             },
             confirm: {
                 ru: 'Купить',
@@ -328,6 +327,12 @@ export const server = {
             de: 'Sie haben keinen Zugriff auf den Bürotresor.',
             pl: 'Nie masz dostępu do sejfu biura.',
         },
+        sellHq: {
+            ru: 'Этот офис - штаб-квартира организации. Сначала сделайте штабом дом в настройках организации.',
+            ua: 'Цей офіс - штаб-квартира організації. Спочатку зробіть штабом будинок у налаштуваннях організації.',
+            en: 'This office is the organization headquarters. Make a house the headquarters in the organization settings first.',
+            de: 'Dieses Büro ist das Hauptquartier der Organisation. Mache zuerst in den Organisationseinstellungen ein Haus zum Hauptquartier.',
+        },
         storageNoAccess: {
             ru: 'У вас нет доступа к складу офиса.',
             ua: 'У вас немає доступу до складу офісу.',
@@ -451,6 +456,49 @@ export const server = {
             en: 'Your rank is too low to drive «{{name}}».',
             de: 'Dein Rang reicht nicht aus, um «{{name}}» zu fahren.',
             pl: 'Twoja ranga jest zbyt niska, aby prowadzić «{{name}}».',
+        },
+    },
+    // The tax of an office beside an HQ house. The HQ office is billed with the organization tax.
+    taxCycle: {
+        debt: {
+            started: {
+                ru: 'На балансе организации {{orgName}} не хватило ${{rent}} на налог офиса {{building}} #{{slotId}}. У вас {{hours}} ч на погашение долга, иначе офис будет конфискован',
+                ua: 'На балансі організації {{orgName}} не вистачило ${{rent}} на податок офісу {{building}} #{{slotId}}. У вас {{hours}} год на погашення боргу, інакше офіс буде конфісковано',
+                en: 'The balance of {{orgName}} is short ${{rent}} for the tax of office {{building}} #{{slotId}}. You have {{hours}} hours to repay before the office is confiscated',
+                de: 'Dem Organisationsguthaben von {{orgName}} fehlen ${{rent}} für die Steuer des Büros {{building}} #{{slotId}}. Du hast {{hours}} Stunden zur Tilgung, sonst wird das Büro beschlagnahmt',
+            },
+            reminder: {
+                ru: 'Долг по налогу офиса {{building}} #{{slotId}} не погашен. Осталось {{hoursLeft}}ч до конфискации офиса. Требуется ${{rent}}',
+                ua: 'Борг з податку офісу {{building}} #{{slotId}} не погашено. Залишилося {{hoursLeft}}год до конфіскації офісу. Потрібно ${{rent}}',
+                en: 'The tax debt of office {{building}} #{{slotId}} is unpaid. {{hoursLeft}}h until the office is confiscated. Required: ${{rent}}',
+                de: 'Steuerschuld des Büros {{building}} #{{slotId}} nicht beglichen. Noch {{hoursLeft}}h bis zur Beschlagnahmung des Büros. Benötigt: ${{rent}}',
+            },
+            cleared: {
+                ru: 'Долг по налогу офиса {{building}} #{{slotId}} погашен',
+                ua: 'Борг з податку офісу {{building}} #{{slotId}} погашено',
+                en: 'The tax debt of office {{building}} #{{slotId}} has been cleared',
+                de: 'Steuerschuld des Büros {{building}} #{{slotId}} wurde beglichen',
+            },
+        },
+        confiscation: {
+            notifyMembers: {
+                ru: 'Офис {{building}} #{{slotId}} организации {{orgName}} конфискован за неуплату налога. Содержимое склада и сейфа офиса утрачено',
+                ua: 'Офіс {{building}} #{{slotId}} організації {{orgName}} конфісковано за несплату податку. Вміст складу й сейфа офісу втрачено',
+                en: 'Office {{building}} #{{slotId}} of {{orgName}} has been confiscated for unpaid tax. The office storage and vault contents are lost',
+                de: 'Büro {{building}} #{{slotId}} von {{orgName}} wurde wegen unbezahlter Steuern beschlagnahmt. Der Inhalt von Lager und Tresor des Büros ist verloren',
+            },
+            leaderRefund: {
+                ru: 'Офис организации {{orgName}} конфискован. На банк зачислено ${{amount}}',
+                ua: 'Офіс організації {{orgName}} конфісковано. На банк зараховано ${{amount}}',
+                en: 'The office of {{orgName}} has been confiscated. ${{amount}} credited to your bank',
+                de: 'Das Büro von {{orgName}} wurde beschlagnahmt. ${{amount}} wurden deinem Bankkonto gutgeschrieben',
+            },
+            sms: {
+                ru: 'Офис вашей организации {{orgName}} конфискован за неуплату налога. Возвращено {{percent}}% от стоимости',
+                ua: 'Офіс вашої організації {{orgName}} конфісковано за несплату податку. Повернуто {{percent}}% від вартості',
+                en: 'The office of your organization {{orgName}} has been confiscated for unpaid tax. {{percent}}% of its value refunded',
+                de: 'Das Büro deiner Organisation {{orgName}} wurde wegen unbezahlter Steuern beschlagnahmt. {{percent}}% des Wertes erstattet',
+            },
         },
     },
     interactions: {

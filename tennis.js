@@ -745,6 +745,14 @@ export default {
             zh: '你已取消挑战，球场已空出。',
         },
     },
+    spectate: {
+        noMatch: {
+            ru: 'На этом корте сейчас нет матча.',
+            ua: 'На цьому корті зараз немає матчу.',
+            en: 'There is no match on this court right now.',
+            de: 'Auf diesem Platz läuft gerade kein Match.',
+        },
+    },
     inviteExpired: {
         ru: 'Приглашение истекло.',
         ua: 'Запрошення минуло.',
@@ -1161,6 +1169,18 @@ export default {
             de: 'Ein Match läuft',
             pl: 'Trwa mecz',
             zh: '比赛进行中',
+        },
+        watch: {
+            ru: 'Смотреть матч',
+            ua: 'Дивитися матч',
+            en: 'Watch the match',
+            de: 'Match ansehen',
+        },
+        watchHint: {
+            ru: 'Смотрите с камеры над кортом, игроки вас не видят.',
+            ua: 'Дивіться з камери над кортом, гравці вас не бачать.',
+            en: 'Watch from the court camera; the players cannot see you.',
+            de: 'Sieh von der Platzkamera aus zu, die Spieler sehen dich nicht.',
         },
         topPlayers: {
             ru: 'Лучшие теннисисты',

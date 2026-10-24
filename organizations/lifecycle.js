@@ -9,20 +9,12 @@ export const lifecycle = {
         },
     },
     transfer: {
-        offer: {
-            ru: 'Передаёт вам лидерство в организации {{orgName}}',
-            ua: 'Передає вам лідерство в організації {{orgName}}',
-            en: 'Offers you leadership of organization {{orgName}}',
-            de: 'Übergibt dir die Führung der Organisation {{orgName}}',
-            pl: 'Przekazuje ci dowództwo organizacji {{orgName}}',
-        },
         success: {
             transferred: {
-                ru: 'Лидерство передано игроку {{name}}',
-                ua: 'Лідерство передано гравцю {{name}}',
-                en: 'Leadership transferred to {{name}}',
-                de: 'Führung an {{name}} übertragen',
-                pl: 'Dowództwo przekazane graczowi {{name}}',
+                ru: 'Вы передали организацию игроку {{name}}. Ваш ранг теперь: {{rank}}',
+                ua: 'Ви передали організацію гравцю {{name}}. Ваш ранг тепер: {{rank}}',
+                en: 'You handed the organization to {{name}}. Your rank is now {{rank}}',
+                de: 'Du hast die Organisation an {{name}} übergeben. Dein Rang ist jetzt {{rank}}',
             },
             received: {
                 ru: 'Вы стали лидером организации {{orgName}}',
@@ -54,26 +46,23 @@ export const lifecycle = {
                 de: 'Spieler ist nicht in deiner Organisation',
                 pl: 'Gracz nie należy do twojej organizacji',
             },
-            targetNotInGame: {
-                ru: 'Игрок ещё не загрузился в игру',
-                ua: 'Гравець ще не завантажився в гру',
-                en: 'Player is not yet in game',
-                de: 'Spieler ist noch nicht im Spiel',
-                pl: 'Gracz nie jest jeszcze w grze',
+            targetGone: {
+                ru: 'Этого персонажа больше нет',
+                ua: 'Цього персонажа більше немає',
+                en: 'This character no longer exists',
+                de: 'Diesen Charakter gibt es nicht mehr',
             },
-            targetTooFar: {
-                ru: 'Игрок слишком далеко',
-                ua: 'Гравець надто далеко',
-                en: 'Player is too far away',
-                de: 'Spieler ist zu weit weg',
-                pl: 'Gracz jest zbyt daleko',
+            wrongPassword: {
+                ru: 'Неверный пароль',
+                ua: 'Невірний пароль',
+                en: 'Wrong password',
+                de: 'Falsches Passwort',
             },
-            noDeputyRank: {
-                ru: 'Нет ранга для понижения. Создайте дополнительный ранг',
-                ua: 'Немає рангу для пониження. Створіть додатковий ранг',
-                en: 'No deputy rank available. Create one first',
-                de: 'Kein Stellvertreterrang vorhanden. Erstelle zuerst einen',
-                pl: 'Brak rangi do degradacji. Najpierw utwórz dodatkową',
+            busy: {
+                ru: 'Подождите, предыдущее действие с организацией ещё выполняется',
+                ua: 'Зачекайте, попередня дія з організацією ще виконується',
+                en: 'Wait, the previous organization action is still running',
+                de: 'Warte, die vorherige Aktion der Organisation läuft noch',
             },
             failed: {
                 ru: 'Не удалось передать лидерство',

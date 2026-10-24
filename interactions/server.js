@@ -190,6 +190,12 @@ export const server = {
         pl: 'Aby przerwać leczenie, naciśnij',
         zh: '停止治疗，请按',
     },
+    bedLieDown: {
+        ru: 'Чтобы лечь, нажмите',
+        ua: 'Щоб лягти, натисніть',
+        en: 'To lie down, press',
+        de: 'Um dich hinzulegen, drücke',
+    },
     gymChinups: {
         ru: 'Чтобы начать тренировку на турнике, нажмите',
         ua: 'Щоб почати тренування на турніку, натисніть',

@@ -66,6 +66,14 @@ export const pvpPoker = {
         zh: '入座至少需要{{chips}}筹码',
     },
 
+    // A yacht's table is played for cash (server pvpPoker/cash.ts).
+    minBuyInCash: {
+        ru: 'Чтобы сесть за стол, нужно минимум ${{chips}} наличными',
+        ua: 'Щоб сісти за стіл, потрібно щонайменше ${{chips}} готівкою',
+        en: 'You need at least ${{chips}} in cash to sit down',
+        de: 'Du brauchst mindestens ${{chips}} in bar, um dich zu setzen',
+    },
+
     chipsRefused: {
         ru: 'Не удалось перевести фишки, попробуйте ещё раз',
         ua: 'Не вдалося перевести фішки, спробуйте ще раз',
@@ -108,6 +116,12 @@ export const pvpPoker = {
             de: 'Der Tisch ist geschlossen, deine Chips sind zurück auf deinem Guthaben',
             pl: 'Stół zamknięty, żetony wróciły na twoje saldo',
             zh: '牌桌已关闭，筹码已退回余额',
+        },
+        closedCash: {
+            ru: 'Стол закрыт, ваши фишки вернулись наличными',
+            ua: 'Стіл закрито, ваші фішки повернулися готівкою',
+            en: 'The table closed, your chips are paid back in cash',
+            de: 'Der Tisch ist geschlossen, deine Chips wurden dir bar ausgezahlt',
         },
     },
 
@@ -573,6 +587,18 @@ export const pvpPoker = {
             de: 'Deine Chips',
             pl: 'Twoje żetony',
             zh: '你的筹码',
+        },
+        cashBalance: {
+            ru: 'Ваши наличные',
+            ua: 'Ваша готівка',
+            en: 'Your cash',
+            de: 'Dein Bargeld',
+        },
+        cashShort: {
+            ru: 'Нужно минимум ${{chips}} наличными',
+            ua: 'Потрібно щонайменше ${{chips}} готівкою',
+            en: 'You need at least ${{chips}} in cash',
+            de: 'Du brauchst mindestens ${{chips}} in bar',
         },
         short: {
             ru: 'Нужно минимум {{chips}} фишек',

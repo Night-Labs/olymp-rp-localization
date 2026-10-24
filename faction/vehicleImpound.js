@@ -263,6 +263,12 @@ export default {
         de: 'Ungültiger Kommentar angegeben',
         pl: 'Podano nieprawidłowy komentarz',
     },
+    parkedAtHouse: {
+        ru: 'Машина стоит на парковке у дома, эвакуировать её нельзя',
+        ua: 'Машина стоїть на парковці біля будинку, евакуювати її не можна',
+        en: 'The car is parked at a house and cannot be towed',
+        de: 'Das Auto steht an einem Haus und kann nicht abgeschleppt werden',
+    },
     alreadyEvacuationOrder: {
         ru: 'На это авто уже выписан ордер на эвакуацию',
         ua: 'На це авто вже виписано ордер на евакуацію',
@@ -311,5 +317,11 @@ export default {
         en: "Your organization doesn't have enough money to pay your salary",
         de: 'Deine Organisation hat nicht genug Geld, um dir dein Gehalt zu zahlen',
         pl: 'Twoja organizacja nie ma wystarczająco pieniędzy, żeby wypłacić ci pensję',
+    },
+    stolenVehicleSeized: {
+        ru: 'Угнанное авто изъято, ты получил ${{salary}}',
+        ua: 'Викрадене авто вилучено, ти отримав ${{salary}}',
+        en: 'The stolen car has been seized, you received ${{salary}}',
+        de: 'Das gestohlene Auto wurde sichergestellt, du hast ${{salary}} erhalten',
     },
 };

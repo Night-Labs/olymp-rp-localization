@@ -23,6 +23,12 @@ export const server = {
             pl: 'Czy naprawdę chcesz sprzedać {{name}} za ${{price}}?<br/>Pamiętaj, że na zawsze stracisz wszystko, co jest związane z tym pojazdem.',
             zh: '您真的想以${{price}}的价格出售{{name}}吗?<br/>请注意,与该车辆相关的一切都将永久失去。',
         },
+        battlePass: {
+            ru: 'Это машина из боевого пропуска: государство оценивает её в {{percent}}% от обычной стоимости.',
+            ua: 'Це машина з бойового пропуску: держава оцінює її в {{percent}}% від звичайної вартості.',
+            en: 'This car came from the Battle Pass: the state values it at {{percent}}% of its usual price.',
+            de: 'Dieses Auto stammt aus dem Battle Pass: Der Staat bewertet es mit {{percent}}% seines üblichen Preises.',
+        },
         lossesTitle: {
             ru: 'Вы потеряете:',
             en: 'You will lose:',

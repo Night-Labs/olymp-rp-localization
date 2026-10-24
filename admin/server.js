@@ -154,6 +154,14 @@ export const server = {
             zh: '无法录制{{name}}的屏幕。原因：{{reason}}',
         },
     },
+    setSkill: {
+        success: {
+            ru: 'Навык "{{skill}}" игрока {{name}} установлен на {{level}}',
+            ua: 'Навичку "{{skill}}" гравця {{name}} встановлено на {{level}}',
+            en: 'Skill "{{skill}}" of {{name}} set to {{level}}',
+            de: 'Fähigkeit "{{skill}}" von {{name}} auf {{level}} gesetzt',
+        },
+    },
     setName: {
         invalid: {
             ru: 'Имя и фамилия должны начинаться с заглавной буквы и содержать только латинские буквы (до 20 символов)',
@@ -1007,6 +1015,26 @@ export const server = {
             en: 'Stand on a farm field to change it',
             de: 'Stell dich auf ein Farmfeld, um es zu ändern',
             pl: 'Stań na polu farmera, aby je zmienić',
+        },
+    },
+    busRoutePreview: {
+        on: {
+            ru: 'Маршрут {{route}} показан в мире: {{stops}} остановок, {{points}} точек',
+            ua: 'Маршрут {{route}} показано у світі: {{stops}} зупинок, {{points}} точок',
+            en: 'Route {{route}} shown in the world: {{stops}} stops, {{points}} points',
+            de: 'Linie {{route}} in der Welt angezeigt: {{stops}} Haltestellen, {{points}} Punkte',
+        },
+        off: {
+            ru: 'Просмотр маршрута выключен',
+            ua: 'Перегляд маршруту вимкнено',
+            en: 'Route preview turned off',
+            de: 'Linienvorschau ausgeschaltet',
+        },
+        unknown: {
+            ru: 'Нет такого маршрута. Есть: {{routes}}',
+            ua: 'Немає такого маршруту. Є: {{routes}}',
+            en: 'No such route. Available: {{routes}}',
+            de: 'Keine solche Linie. Verfügbar: {{routes}}',
         },
     },
     quest: {

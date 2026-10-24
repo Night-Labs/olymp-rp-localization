@@ -31,6 +31,12 @@ export const server = {
         pl: 'Uwaga',
         zh: '警告',
     },
+    phoneInHands: {
+        ru: 'Сначала уберите телефон',
+        ua: 'Спочатку приберіть телефон',
+        en: 'Put your phone away first',
+        de: 'Leg zuerst dein Handy weg',
+    },
     serverRestartHeader: {
         ru: 'ВНИМАНИЕ',
         ua: 'УВАГА',

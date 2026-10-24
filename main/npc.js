@@ -418,6 +418,42 @@ export const npc = {
             de: 'Earl',
             pl: 'Earl',
         },
+        sarah: {
+            ru: 'Сара',
+            ua: 'Сара',
+            en: 'Sarah',
+            de: 'Sarah',
+        },
+        nancy: {
+            ru: 'Нэнси',
+            ua: 'Ненсі',
+            en: 'Nancy',
+            de: 'Nancy',
+        },
+        george: {
+            ru: 'Джордж',
+            ua: 'Джордж',
+            en: 'George',
+            de: 'George',
+        },
+        olivia: {
+            ru: 'Оливия',
+            ua: 'Олівія',
+            en: 'Olivia',
+            de: 'Olivia',
+        },
+        thomas: {
+            ru: 'Томас',
+            ua: 'Томас',
+            en: 'Thomas',
+            de: 'Thomas',
+        },
+        kevin: {
+            ru: 'Кевин',
+            ua: 'Кевін',
+            en: 'Kevin',
+            de: 'Kevin',
+        },
     },
     roles: {
         priest: {
@@ -461,6 +497,12 @@ export const npc = {
             en: 'Realtor',
             de: 'Makler',
             pl: 'Pośrednik',
+        },
+        yachtBroker: {
+            ru: 'Яхтенный брокер',
+            ua: 'Яхтовий брокер',
+            en: 'Yacht Broker',
+            de: 'Yachtmakler',
         },
         taxiSupervisor: {
             ru: 'Старший таксопарка',
@@ -524,6 +566,12 @@ export const npc = {
             en: 'Trader',
             de: 'Händler',
             pl: 'Handlarz',
+        },
+        quartermaster: {
+            ru: 'Снаряжение',
+            ua: 'Спорядження',
+            en: 'Equipment',
+            de: 'Ausrüstung',
         },
     },
 };

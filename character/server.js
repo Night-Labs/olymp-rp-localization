@@ -33,6 +33,12 @@ export const server = {
                 pl: 'Aby skontaktować się z administracją, otwórz w menu sekcję ~b~Wsparcie',
                 zh: '要联系管理员，请打开菜单中的~b~支持',
             },
+            salaryEvent: {
+                ru: 'Акция: ~g~x{{salary}}~w~ к зарплате на всех работах и во фракциях, ~g~x{{donate}}~w~ на донат!',
+                ua: 'Акція: ~g~x{{salary}}~w~ до зарплати на всіх роботах і у фракціях, ~g~x{{donate}}~w~ на донат!',
+                en: 'Event: ~g~x{{salary}}~w~ salary at every job and faction, ~g~x{{donate}}~w~ on donate top-ups!',
+                de: 'Aktion: ~g~x{{salary}}~w~ Gehalt bei allen Jobs und Fraktionen, ~g~x{{donate}}~w~ auf Donate-Aufladungen!',
+            },
         },
         delete: {
             ua: 'Видалення персонажа',
