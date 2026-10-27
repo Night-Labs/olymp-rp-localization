@@ -618,6 +618,12 @@ export const server = {
                 de: 'Donate-Möbel: {{count}}',
                 pl: 'Mebli donate: {{count}}',
             },
+            finishCount: {
+                ru: 'Отделка поверхностей: {{count}}',
+                ua: 'Оздоблення поверхонь: {{count}}',
+                en: 'Surface finishes: {{count}}',
+                de: 'Oberflächen-Ausbau: {{count}}',
+            },
             changed: {
                 ru: 'Заказ изменился, откройте оплату заново',
                 ua: 'Замовлення змінилося, відкрийте оплату заново',

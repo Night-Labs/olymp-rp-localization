@@ -936,6 +936,12 @@ export default {
         de: 'Objekt löschen',
         pl: 'Usuń obiekt',
     },
+    'furnitureEditor.store': {
+        ru: 'Убрать на склад',
+        ua: 'Прибрати на склад',
+        en: 'Put in storage',
+        de: 'Ins Lager räumen',
+    },
     'furnitureEditor.duplicate': {
         ru: 'Дублировать объект',
         ua: "Дублювати об'єкт",

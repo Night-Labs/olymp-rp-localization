@@ -626,6 +626,54 @@ export const server = {
         pl: 'Nie znaleziono domu {{id}}',
         zh: '未找到房屋{{id}}',
     },
+    flatNotFound: {
+        ru: 'Квартира {{id}} не найдена',
+        ua: 'Квартиру {{id}} не знайдено',
+        en: 'Flat {{id}} not found',
+        de: 'Wohnung {{id}} wurde nicht gefunden',
+    },
+    flatNotHere: {
+        ru: 'Ты не в квартире нового конструктора интерьеров (/flat_test)',
+        ua: "Ти не в квартирі нового конструктора інтер'єрів (/flat_test)",
+        en: 'You are not in a flat of the new interior builder (/flat_test)',
+        de: 'Du bist in keiner Wohnung des neuen Innenraum-Baukastens (/flat_test)',
+    },
+    flatSlots: {
+        ru: 'Квартира {{id}}, поверхности: {{slots}}',
+        ua: 'Квартира {{id}}, поверхні: {{slots}}',
+        en: 'Flat {{id}}, surfaces: {{slots}}',
+        de: 'Wohnung {{id}}, Flächen: {{slots}}',
+    },
+    flatSlotMaterials: {
+        ru: '{{slot}}, {{tier}}: {{materials}}',
+        ua: '{{slot}}, {{tier}}: {{materials}}',
+        en: '{{slot}}, {{tier}}: {{materials}}',
+        de: '{{slot}}, {{tier}}: {{materials}}',
+    },
+    flatSlotNotFound: {
+        ru: 'В квартире нет поверхности {{slot}}',
+        ua: 'У квартирі немає поверхні {{slot}}',
+        en: 'The flat has no surface {{slot}}',
+        de: 'Die Wohnung hat keine Fläche {{slot}}',
+    },
+    flatMaterialNotFound: {
+        ru: 'У поверхности {{slot}} нет материала {{material}}',
+        ua: 'У поверхні {{slot}} немає матеріалу {{material}}',
+        en: 'Surface {{slot}} has no material {{material}}',
+        de: 'Fläche {{slot}} hat kein Material {{material}}',
+    },
+    flatColourOutOfRange: {
+        ru: 'У материала {{material}} цвета от 0 до {{max}}',
+        ua: 'У матеріалу {{material}} кольори від 0 до {{max}}',
+        en: 'Material {{material}} has colours 0 to {{max}}',
+        de: 'Material {{material}} hat die Farben 0 bis {{max}}',
+    },
+    flatTierNotFound: {
+        ru: 'Нет уровня {{tier}}, есть: {{tiers}}',
+        ua: 'Немає рівня {{tier}}, є: {{tiers}}',
+        en: 'No tier {{tier}}, the tiers are: {{tiers}}',
+        de: 'Keine Stufe {{tier}}, es gibt: {{tiers}}',
+    },
     houseHasNoOwner: {
         ru: 'У дома {{id}} нет владельца',
         ua: 'У будинку {{id}} немає власника',
@@ -1023,6 +1071,32 @@ export const server = {
             ua: 'Немає такого маршруту. Є: {{routes}}',
             en: 'No such route. Available: {{routes}}',
             de: 'Keine solche Linie. Verfügbar: {{routes}}',
+        },
+    },
+    adminTools: {
+        playersOn: {
+            ru: 'Admin tools включены, радиус {{radius}} м',
+            ua: 'Admin tools увімкнено, радіус {{radius}} м',
+            en: 'Admin tools on, radius {{radius}} m',
+            de: 'Admin-Tools an, Radius {{radius}} m',
+        },
+        playersOff: {
+            ru: 'Admin tools выключены',
+            ua: 'Admin tools вимкнено',
+            en: 'Admin tools off',
+            de: 'Admin-Tools aus',
+        },
+        vehiclesOn: {
+            ru: 'Admin tools 2 (транспорт) включены, радиус {{radius}} м',
+            ua: 'Admin tools 2 (транспорт) увімкнено, радіус {{radius}} м',
+            en: 'Admin tools 2 (vehicles) on, radius {{radius}} m',
+            de: 'Admin-Tools 2 (Fahrzeuge) an, Radius {{radius}} m',
+        },
+        vehiclesOff: {
+            ru: 'Admin tools 2 (транспорт) выключены',
+            ua: 'Admin tools 2 (транспорт) вимкнено',
+            en: 'Admin tools 2 (vehicles) off',
+            de: 'Admin-Tools 2 (Fahrzeuge) aus',
         },
     },
     quest: {

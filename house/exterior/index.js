@@ -277,10 +277,10 @@ export default {
         },
         hint: {
             drag: {
-                ru: 'Тянуть угол или середину стороны',
-                ua: 'Тягнути кут або середину сторони',
-                en: 'Drag a corner or the middle of a side',
-                de: 'Ecke oder Seitenmitte ziehen',
+                ru: 'Угол: выбрать для gizmo, середина стороны: новый угол',
+                ua: 'Кут: вибрати для gizmo, середина сторони: новий кут',
+                en: 'Corner: select for the gizmo, middle of a side: new corner',
+                de: 'Ecke: für das Gizmo wählen, Seitenmitte: neue Ecke',
             },
             deleteCorner: {
                 ru: 'Удалить выбранный угол',
@@ -365,10 +365,10 @@ export default {
                 de: 'Ein Grundstück braucht 3 bis 128 Ecken',
             },
             reach: {
-                ru: 'Угол слишком далеко от входа (больше 120 м)',
-                ua: 'Кут занадто далеко від входу (понад 120 м)',
-                en: 'A corner is too far from the front door (over 120 m)',
-                de: 'Eine Ecke ist zu weit von der Haustür entfernt (über 120 m)',
+                ru: 'Угол слишком далеко от входа (больше 150 м)',
+                ua: 'Кут занадто далеко від входу (понад 150 м)',
+                en: 'A corner is too far from the front door (over 150 m)',
+                de: 'Eine Ecke ist zu weit von der Haustür entfernt (über 150 m)',
             },
             selfIntersect: {
                 ru: 'Стороны участка пересекаются',

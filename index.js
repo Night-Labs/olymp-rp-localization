@@ -127,6 +127,7 @@ import payment from './payment';
 import militaryGates from './militaryGates';
 import designEditor from './designEditor';
 import funicular from './funicular';
+import fairground from './fairground';
 import yachts from './yachts';
 import yachtBroker from './yachtBroker';
 import freightTrain from './freightTrain';
@@ -268,6 +269,7 @@ export default {
     militaryGates,
     designEditor,
     funicular,
+    fairground,
     yachts,
     yachtBroker,
     freightTrain,

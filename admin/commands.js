@@ -607,6 +607,24 @@ export default {
         de: 'Zu einem Spieler anhand seiner static ID teleportieren.',
         pl: 'Teleportuj się do gracza po jego static ID.',
     },
+    flat_test: {
+        ru: 'Войти в квартиру нового конструктора интерьеров (по её id, без него в первую).',
+        ua: "Увійти до квартири нового конструктора інтер'єрів (за її id, без нього до першої).",
+        en: 'Enter a flat of the new interior builder (by its id, the first one without).',
+        de: 'Eine Wohnung des neuen Innenraum-Baukastens betreten (nach ihrer ID, ohne sie die erste).',
+    },
+    flat_mat: {
+        ru: 'Отделка поверхности квартиры, в которой стоишь, только у тебя: поверхность, материал, цвет. Без поверхности: список поверхностей, без материала: что она предлагает.',
+        ua: 'Оздоблення поверхні квартири, в якій стоїш, тільки в тебе: поверхня, матеріал, колір. Без поверхні: список поверхонь, без матеріалу: що вона пропонує.',
+        en: 'The finish of a surface of the flat you stand in, on your client only: surface, material, colour. Without a surface: the list of surfaces; without a material: what it offers.',
+        de: 'Die Ausstattung einer Fläche der Wohnung, in der du stehst, nur bei dir: Fläche, Material, Farbe. Ohne Fläche: die Liste der Flächen, ohne Material: was sie anbietet.',
+    },
+    flat_tier: {
+        ru: 'Все поверхности квартиры, в которой стоишь, в материалы уровня по умолчанию (budget или premium), только у тебя.',
+        ua: 'Усі поверхні квартири, в якій стоїш, у матеріали рівня за замовчуванням (budget або premium), тільки в тебе.',
+        en: 'Every surface of the flat you stand in to its tier default materials (budget or premium), on your client only.',
+        de: 'Alle Flächen der Wohnung, in der du stehst, auf die Standardmaterialien einer Stufe (budget oder premium), nur bei dir.',
+    },
     tphere: {
         ru: 'Телепортировать игрока к себе по его static ID.',
         ua: 'Телепортувати гравця до себе за його static ID.',
@@ -1584,6 +1602,12 @@ export default {
         de: 'Fort Zancudo sofort ohne Prüfungen im Namen einer Gang (standardmäßig der eigenen) abschalten. Angreifer sind alle am Verteiler und im Fort.',
         pl: 'Od razu odciąć prąd w Fort Zancudo w imieniu gangu (domyślnie własnego), bez sprawdzeń. Uczestnicy to wszyscy przy rozdzielnicy i w forcie.',
     },
+    fzdemo: {
+        ru: 'Тестовое нападение на Форт-Занкудо для съемки при малом онлайне: следующая установка ЭМИ бандой (по умолчанию своей) идет без проверок и без устройства. Материалы не двигаются, нет КД, розыска и записи. Повторно без аргумента - отменить.',
+        ua: 'Тестовий напад на Форт-Занкудо для зйомки при малому онлайні: наступне встановлення ЕМІ бандою (за замовчуванням своєю) без перевірок і без пристрою. Матеріали не рухаються, немає КД, розшуку і запису. Повторно без аргументу - скасувати.',
+        en: 'Test attack on Fort Zancudo for filming at low online: the next EMP plant by the gang (your own by default) skips every check and needs no device. No materials move, no cooldown, wanted level or record. Again without an argument to disarm.',
+        de: 'Test-Angriff auf Fort Zancudo zum Filmen bei wenig Online: Die nächste EMP-Platzierung der Gang (standardmäßig der eigenen) läuft ohne Prüfungen und ohne Gerät. Keine Materialien, keine Abklingzeit, keine Fahndung, kein Eintrag. Erneut ohne Argument zum Abbrechen.',
+    },
     trainwarpraid: {
         ru: 'Телепортировать грузовой поезд на точку ограбления и сразу открыть ивент.',
         ua: 'Телепортувати вантажний потяг на точку пограбунку та відразу відкрити івент.',
@@ -1655,11 +1679,16 @@ export default {
         pl: 'Przełącz niezniszczalność aktualnego pojazdu administratora.',
     },
     admin_tools: {
-        ru: 'Включить или выключить приватные admin-tools у себя.',
-        ua: 'Увімкнути або вимкнути приватні admin-tools у себе.',
-        en: 'Enable or disable private admin tools for yourself.',
-        de: 'Private Admin-Tools für dich selbst ein- oder ausschalten.',
-        pl: 'Włącz lub wyłącz prywatne admin-tools u siebie.',
+        ru: 'Admin tools: игроки, дома, бизнесы и объекты сквозь стены. Без радиуса переключить, 0 выключить, число задаёт радиус в метрах (до 1000).',
+        ua: "Admin tools: гравці, будинки, бізнеси та об'єкти крізь стіни. Без радіуса перемкнути, 0 вимкнути, число задає радіус у метрах (до 1000).",
+        en: 'Admin tools: players, houses, businesses and objects through walls. No radius toggles, 0 turns off, a number sets the radius in metres (up to 1000).',
+        de: 'Admin-Tools: Spieler, Häuser, Geschäfte und Objekte durch Wände. Ohne Radius umschalten, 0 aus, eine Zahl setzt den Radius in Metern (bis 1000).',
+    },
+    admin_tools2: {
+        ru: 'Admin tools 2: транспорт сквозь стены (ID, последний водитель, HP двигателя и кузова, броня, модель, кто синхронит, координаты). Без радиуса переключить, 0 выключить, число задаёт радиус в метрах (до 1000).',
+        ua: 'Admin tools 2: транспорт крізь стіни (ID, останній водій, HP двигуна та кузова, броня, модель, хто синхронізує, координати). Без радіуса перемкнути, 0 вимкнути, число задає радіус у метрах (до 1000).',
+        en: 'Admin tools 2: vehicles through walls (ID, last driver, engine and body HP, armour, model, sync owner, coordinates). No radius toggles, 0 turns off, a number sets the radius in metres (up to 1000).',
+        de: 'Admin-Tools 2: Fahrzeuge durch Wände (ID, letzter Fahrer, Motor- und Karosserie-HP, Panzerung, Modell, Sync-Besitzer, Koordinaten). Ohne Radius umschalten, 0 aus, eine Zahl setzt den Radius in Metern (bis 1000).',
     },
     vehicle_get_fuel: {
         ru: 'Показать текущее состояние топлива у выбранного транспорта или у текущего транспорта администратора.',
