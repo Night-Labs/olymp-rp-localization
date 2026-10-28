@@ -237,4 +237,286 @@ export default {
             pl: 'Skupujący płacą o 10% więcej za każdy towar.',
         },
     },
+
+    // Dish buffs: one meal buff and one drink buff at a time.
+    cookEnergy1: {
+        name: {
+            ru: 'Бодрость I',
+            ua: 'Бадьорість I',
+            en: 'Energy I',
+            de: 'Energie I',
+        },
+        desc: {
+            ru: 'Домашняя еда придаёт сил: выносливость расходуется на 15% медленнее, бег на 3% быстрее.',
+            ua: 'Домашня їжа додає сил: витривалість витрачається на 15% повільніше, біг на 3% швидший.',
+            en: 'Home cooking keeps you going: stamina drains 15% slower and you run 3% faster.',
+            de: 'Hausmannskost gibt Kraft: Ausdauer sinkt 15% langsamer, du rennst 3% schneller.',
+        },
+    },
+    cookEnergy2: {
+        name: {
+            ru: 'Бодрость II',
+            ua: 'Бадьорість II',
+            en: 'Energy II',
+            de: 'Energie II',
+        },
+        desc: {
+            ru: 'Домашняя еда придаёт сил: выносливость расходуется на 25% медленнее, бег на 5% быстрее.',
+            ua: 'Домашня їжа додає сил: витривалість витрачається на 25% повільніше, біг на 5% швидший.',
+            en: 'Home cooking keeps you going: stamina drains 25% slower and you run 5% faster.',
+            de: 'Hausmannskost gibt Kraft: Ausdauer sinkt 25% langsamer, du rennst 5% schneller.',
+        },
+    },
+    cookToughness1: {
+        name: {
+            ru: 'Стойкость I',
+            ua: 'Стійкість I',
+            en: 'Toughness I',
+            de: 'Zähigkeit I',
+        },
+        desc: {
+            ru: 'Сытное мясное блюдо: получаемый урон снижен на 3%.',
+            ua: "Ситна м'ясна страва: отримана шкода знижена на 3%.",
+            en: 'A hearty meat dish: damage you take is reduced by 3%.',
+            de: 'Ein kräftiges Fleischgericht: erlittener Schaden sinkt um 3%.',
+        },
+    },
+    cookToughness2: {
+        name: {
+            ru: 'Стойкость II',
+            ua: 'Стійкість II',
+            en: 'Toughness II',
+            de: 'Zähigkeit II',
+        },
+        desc: {
+            ru: 'Сытное мясное блюдо: получаемый урон снижен на 5%.',
+            ua: "Ситна м'ясна страва: отримана шкода знижена на 5%.",
+            en: 'A hearty meat dish: damage you take is reduced by 5%.',
+            de: 'Ein kräftiges Fleischgericht: erlittener Schaden sinkt um 5%.',
+        },
+    },
+    cookRecovery1: {
+        name: {
+            ru: 'Восстановление I',
+            ua: 'Відновлення I',
+            en: 'Recovery I',
+            de: 'Erholung I',
+        },
+        desc: {
+            ru: 'Здоровье понемногу восстанавливается, 0.1 в секунду.',
+            ua: "Здоров'я потроху відновлюється, 0.1 на секунду.",
+            en: 'Health slowly comes back, 0.1 per second.',
+            de: 'Gesundheit regeneriert sich langsam, 0.1 pro Sekunde.',
+        },
+    },
+    cookRecovery2: {
+        name: {
+            ru: 'Восстановление II',
+            ua: 'Відновлення II',
+            en: 'Recovery II',
+            de: 'Erholung II',
+        },
+        desc: {
+            ru: 'Здоровье понемногу восстанавливается, 0.2 в секунду.',
+            ua: "Здоров'я потроху відновлюється, 0.2 на секунду.",
+            en: 'Health slowly comes back, 0.2 per second.',
+            de: 'Gesundheit regeneriert sich langsam, 0.2 pro Sekunde.',
+        },
+    },
+    cookWarmth2: {
+        name: {
+            ru: 'Тепло II',
+            ua: 'Тепло II',
+            en: 'Warmth II',
+            de: 'Wärme II',
+        },
+        desc: {
+            ru: 'Горячая еда греет изнутри: простуда не пристанет, выносливость расходуется на 10% медленнее, здоровье восстанавливается на 0.05 в секунду.',
+            ua: "Гаряча їжа гріє зсередини: застуда не пристане, витривалість витрачається на 10% повільніше, здоров'я відновлюється на 0.05 на секунду.",
+            en: 'Hot food warms you from inside: you will not catch a cold, stamina drains 10% slower and health comes back 0.05 per second.',
+            de: 'Warmes Essen wärmt von innen: Du erkältest dich nicht, Ausdauer sinkt 10% langsamer und Gesundheit regeneriert sich um 0.05 pro Sekunde.',
+        },
+    },
+    cookWarmthDrink1: {
+        name: {
+            ru: 'Тепло I',
+            ua: 'Тепло I',
+            en: 'Warmth I',
+            de: 'Wärme I',
+        },
+        desc: {
+            ru: 'Горячий чай греет: простуда не пристанет, выносливость расходуется на 10% медленнее.',
+            ua: 'Гарячий чай гріє: застуда не пристане, витривалість витрачається на 10% повільніше.',
+            en: 'Hot tea warms you up: you will not catch a cold and stamina drains 10% slower.',
+            de: 'Heißer Tee wärmt: Du erkältest dich nicht und Ausdauer sinkt 10% langsamer.',
+        },
+    },
+    cookFocus1: {
+        name: {
+            ru: 'Сосредоточенность I',
+            ua: 'Зосередженість I',
+            en: 'Focus I',
+            de: 'Fokus I',
+        },
+        desc: {
+            ru: 'Все навыки растут на 10% быстрее.',
+            ua: 'Усі навички зростають на 10% швидше.',
+            en: 'Every skill grows 10% faster.',
+            de: 'Alle Fähigkeiten wachsen 10% schneller.',
+        },
+    },
+    cookFocus2: {
+        name: {
+            ru: 'Сосредоточенность II',
+            ua: 'Зосередженість II',
+            en: 'Focus II',
+            de: 'Fokus II',
+        },
+        desc: {
+            ru: 'Все навыки растут на 20% быстрее.',
+            ua: 'Усі навички зростають на 20% швидше.',
+            en: 'Every skill grows 20% faster.',
+            de: 'Alle Fähigkeiten wachsen 20% schneller.',
+        },
+    },
+    cookCelebration1: {
+        name: {
+            ru: 'Праздник I',
+            ua: 'Свято I',
+            en: 'Celebration I',
+            de: 'Festlaune I',
+        },
+        desc: {
+            ru: 'Праздничное настроение: опыт персонажа увеличен на 5%.',
+            ua: 'Святковий настрій: досвід персонажа збільшено на 5%.',
+            en: 'A festive mood: character experience is increased by 5%.',
+            de: 'Feststimmung: Charaktererfahrung um 5% erhöht.',
+        },
+    },
+    cookCelebration2: {
+        name: {
+            ru: 'Праздник II',
+            ua: 'Свято II',
+            en: 'Celebration II',
+            de: 'Festlaune II',
+        },
+        desc: {
+            ru: 'Праздничное настроение: опыт персонажа увеличен на 10%.',
+            ua: 'Святковий настрій: досвід персонажа збільшено на 10%.',
+            en: 'A festive mood: character experience is increased by 10%.',
+            de: 'Feststimmung: Charaktererfahrung um 10% erhöht.',
+        },
+    },
+    cookLuck1: {
+        name: {
+            ru: 'Удача I',
+            ua: 'Удача I',
+            en: 'Luck I',
+            de: 'Glück I',
+        },
+        desc: {
+            ru: 'Грибы, руда и клады отдают на один предмет больше, а в сундуках чаще попадаются ящики.',
+            ua: 'Гриби, руда та скарби віддають на один предмет більше, а в скринях частіше трапляються ящики.',
+            en: 'Mushrooms, ore and treasure give one more item, and chests hold boxes more often.',
+            de: 'Pilze, Erz und Schätze geben einen Gegenstand mehr, und Kisten enthalten öfter Boxen.',
+        },
+    },
+    cookLuck2: {
+        name: {
+            ru: 'Удача II',
+            ua: 'Удача II',
+            en: 'Luck II',
+            de: 'Glück II',
+        },
+        desc: {
+            ru: 'Грибы, руда и клады отдают на один предмет больше, в сундуках чаще попадаются ящики, а скупщики платят на 3% больше.',
+            ua: 'Гриби, руда та скарби віддають на один предмет більше, у скринях частіше трапляються ящики, а скупники платять на 3% більше.',
+            en: 'Mushrooms, ore and treasure give one more item, chests hold boxes more often, and buyers pay 3% more.',
+            de: 'Pilze, Erz und Schätze geben einen Gegenstand mehr, Kisten enthalten öfter Boxen, und Aufkäufer zahlen 3% mehr.',
+        },
+    },
+    cookRoad1: {
+        name: {
+            ru: 'В дорогу I',
+            ua: 'У дорогу I',
+            en: 'Road Trip I',
+            de: 'Reiseproviant I',
+        },
+        desc: {
+            ru: 'Машина под вашим управлением тратит на 10% меньше топлива.',
+            ua: 'Машина під вашим керуванням витрачає на 10% менше пального.',
+            en: 'A vehicle you are driving burns 10% less fuel.',
+            de: 'Ein Fahrzeug, das du fährst, verbraucht 10% weniger Kraftstoff.',
+        },
+    },
+    cookRoad2: {
+        name: {
+            ru: 'В дорогу II',
+            ua: 'У дорогу II',
+            en: 'Road Trip II',
+            de: 'Reiseproviant II',
+        },
+        desc: {
+            ru: 'Машина под вашим управлением тратит на 20% меньше топлива.',
+            ua: 'Машина під вашим керуванням витрачає на 20% менше пального.',
+            en: 'A vehicle you are driving burns 20% less fuel.',
+            de: 'Ein Fahrzeug, das du fährst, verbraucht 20% weniger Kraftstoff.',
+        },
+    },
+    cookCaffeine1: {
+        name: {
+            ru: 'Кофеин I',
+            ua: 'Кофеїн I',
+            en: 'Caffeine I',
+            de: 'Koffein I',
+        },
+        desc: {
+            ru: 'Выносливость расходуется на 10% медленнее, бег на 2% быстрее.',
+            ua: 'Витривалість витрачається на 10% повільніше, біг на 2% швидший.',
+            en: 'Stamina drains 10% slower and you run 2% faster.',
+            de: 'Ausdauer sinkt 10% langsamer, du rennst 2% schneller.',
+        },
+    },
+    cookCaffeine2: {
+        name: {
+            ru: 'Кофеин II',
+            ua: 'Кофеїн II',
+            en: 'Caffeine II',
+            de: 'Koffein II',
+        },
+        desc: {
+            ru: 'Выносливость расходуется на 20% медленнее, бег на 4% быстрее.',
+            ua: 'Витривалість витрачається на 20% повільніше, біг на 4% швидший.',
+            en: 'Stamina drains 20% slower and you run 4% faster.',
+            de: 'Ausdauer sinkt 20% langsamer, du rennst 4% schneller.',
+        },
+    },
+    cookVitamin1: {
+        name: {
+            ru: 'Витамины I',
+            ua: 'Вітаміни I',
+            en: 'Vitamins I',
+            de: 'Vitamine I',
+        },
+        desc: {
+            ru: 'Свежий сок поддерживает иммунитет: простуда не пристанет.',
+            ua: 'Свіжий сік підтримує імунітет: застуда не пристане.',
+            en: 'Fresh juice keeps your immunity up: you will not catch a cold.',
+            de: 'Frischer Saft stärkt das Immunsystem: Du erkältest dich nicht.',
+        },
+    },
+    cookCocktail1: {
+        name: {
+            ru: 'Коктейль',
+            ua: 'Коктейль',
+            en: 'Cocktail',
+            de: 'Cocktail',
+        },
+        desc: {
+            ru: 'Лёгкое веселье: опыт персонажа увеличен на 3%.',
+            ua: 'Легкі веселощі: досвід персонажа збільшено на 3%.',
+            en: 'In high spirits: character experience is increased by 3%.',
+            de: 'Gute Laune: Charaktererfahrung um 3% erhöht.',
+        },
+    },
 };

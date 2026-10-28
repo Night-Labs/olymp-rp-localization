@@ -272,4 +272,10 @@ export const server = {
         de: 'Um den Lagerspeicher zu öffnen',
         pl: 'Aby otworzyć schowek magazynu',
     },
+    cookingStation: {
+        ru: 'Чтобы приготовить еду',
+        ua: 'Щоб приготувати їжу',
+        en: 'To cook',
+        de: 'Um zu kochen',
+    },
 };

@@ -1,5 +1,31 @@
 // The cooking steps (webviews `systems/games/cooking`): the page around a step and each game in it.
+// Games added later keep their keys in `cooking/<game>.js`.
+import peel from './cooking/peel.js';
+import boil from './cooking/boil.js';
+import season from './cooking/season.js';
+import whisk from './cooking/whisk.js';
+import bake from './cooking/bake.js';
+import deepfry from './cooking/deepfry.js';
+import dough from './cooking/dough.js';
+import wok from './cooking/wok.js';
+import fillet from './cooking/fillet.js';
+import sushi from './cooking/sushi.js';
+import barista from './cooking/barista.js';
+import bar from './cooking/bar.js';
+
 export default {
+    peel,
+    boil,
+    season,
+    whisk,
+    bake,
+    deepfry,
+    dough,
+    wok,
+    fillet,
+    sushi,
+    barista,
+    bar,
     stepOf: {
         ru: 'Шаг {{step}} из {{steps}}',
         ua: 'Крок {{step}} з {{steps}}',
@@ -44,8 +70,8 @@ export default {
             de: 'Mäßig',
         },
         raw: {
-            ru: 'Недожарено',
-            ua: 'Недосмажено',
+            ru: 'Не готово',
+            ua: 'Не готове',
             en: 'Undercooked',
             de: 'Nicht durch',
         },

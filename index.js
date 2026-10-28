@@ -137,6 +137,7 @@ import ping from './ping';
 import weaponAttachments from './weaponAttachments';
 import financialMonitoring from './financialMonitoring';
 import reports from './reports';
+import cooking from './cooking';
 
 export default {
     account,
@@ -279,6 +280,7 @@ export default {
     weaponAttachments,
     financialMonitoring,
     reports,
+    cooking,
 };
 
 

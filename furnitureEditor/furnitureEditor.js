@@ -324,6 +324,18 @@ export default {
             en: 'A real door on hinges: bring it to a doorway and it fits itself in.',
             de: 'Eine echte Tür mit Scharnieren: an eine Türöffnung führen, dann setzt sie sich selbst ein.',
         },
+        fridge: {
+            ru: 'Хранит еду, напитки и продукты, до {{maxWeight}} кг. Приготовленное внутри портится намного медленнее.',
+            ua: 'Зберігає їжу, напої та продукти, до {{maxWeight}} кг. Приготоване всередині псується набагато повільніше.',
+            en: 'Keeps food, drinks and ingredients, up to {{maxWeight}} kg. Cooked food spoils much slower inside.',
+            de: 'Bewahrt Essen, Getränke und Zutaten auf, bis zu {{maxWeight}} kg. Gekochtes verdirbt darin viel langsamer.',
+        },
+        freezer: {
+            ru: 'Хранит еду, напитки и продукты, до {{maxWeight}} кг. Приготовленное внутри почти не портится.',
+            ua: 'Зберігає їжу, напої та продукти, до {{maxWeight}} кг. Приготоване всередині майже не псується.',
+            en: 'Keeps food, drinks and ingredients, up to {{maxWeight}} kg. Cooked food barely spoils inside.',
+            de: 'Bewahrt Essen, Getränke und Zutaten auf, bis zu {{maxWeight}} kg. Gekochtes verdirbt darin kaum.',
+        },
     },
     // The sides of the editor, the rail at the left of the bottom panel.
     modes: {
@@ -444,6 +456,7 @@ export default {
         mixed: { ru: 'В комнатах разная отделка', ua: 'У кімнатах різне оздоблення', en: 'The rooms are finished differently', de: 'Die Räume sind unterschiedlich ausgebaut' },
         pickForAll: { ru: 'Выбери материал, и он ляжет во всех комнатах', ua: 'Обери матеріал, і він ляже в усіх кімнатах', en: 'Pick a material to lay it in every room', de: 'Wähle ein Material für alle Räume' },
         pickRoom: { ru: 'Выбери комнату на плане или кликни по ней', ua: 'Обери кімнату на плані або клацни по ній', en: 'Pick a room on the plan or click it in the house', de: 'Wähle einen Raum auf dem Plan oder klicke ihn im Haus an' },
+        notLoaded: { ru: 'Материал не загрузился, попробуй ещё раз', ua: 'Матеріал не завантажився, спробуй ще раз', en: 'The material did not load, try again', de: 'Das Material wurde nicht geladen, versuch es noch einmal' },
         materials: {
             lam_ash: { ru: 'Ламинат «Ясень»', ua: 'Ламінат «Ясен»', en: 'Ash laminate', de: 'Laminat Esche' },
             lam_honey: { ru: 'Ламинат «Мёд»', ua: 'Ламінат «Мед»', en: 'Honey laminate', de: 'Laminat Honig' },

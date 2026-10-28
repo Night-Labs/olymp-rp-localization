@@ -11,6 +11,7 @@ import ores from './ores';
 import diving from './diving';
 import treasureHunter from './treasureHunter';
 import mushrooms from './mushrooms';
+import cooking from './cooking';
 import blueprint from './blueprints';
 import craftComponents from './craftComponents';
 import forgery from './forgery';
@@ -32,6 +33,7 @@ export const items = {
     blueprint,
     ...treasureHunter,
     ...mushrooms,
+    ...cooking,
     ...craftComponents,
     ...forgery,
     burglar,

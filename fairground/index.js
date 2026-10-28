@@ -1,9 +1,6 @@
 // Del Perro Pier fairground (systems/fairground). The ru / en / de lines are R*'s own
-// AMFW_* / AMRC_* texts from the game's text tables; ua is translated from them.
-//
-// Every button token LEADS its line, as in the shooting range's help: the help box
-// carries <font face> markup, and markup in front of a ~INPUT_*~ token pushes its
-// button sprite away from the gap reserved for it.
+// AMFW_* / AMRC_* texts from the game's text tables, shortened where our UI shows the
+// key itself (the HUD action line, the ride's hint bar); ua is translated from them.
 export default {
     header: {
         ru: 'Ярмарочный аттракцион',
@@ -21,45 +18,45 @@ export default {
     ferrisWheel: {
         // AMFW_ENTER
         enter: {
-            ru: '~INPUT_CONTEXT~ - прокатиться на колесе обозрения. Стоимость - ${{cost}}.',
-            ua: '~INPUT_CONTEXT~ - покататися на оглядовому колесі. Вартість - ${{cost}}.',
-            en: '~INPUT_CONTEXT~ - ride the Ferris Whale. The cost is ${{cost}}.',
-            de: '~INPUT_CONTEXT~ - Riesenrad fahren. Eine Fahrt kostet ${{cost}}.',
+            ru: 'Прокатиться на колесе обозрения за ${{cost}}',
+            ua: 'Покататися на оглядовому колесі за ${{cost}}',
+            en: 'Ride the Ferris Whale for ${{cost}}',
+            de: 'Riesenrad fahren für ${{cost}}',
         },
         // AMFW_WAIT
         wait: {
-            ru: 'Останавливается...',
-            ua: 'Зупиняється...',
+            ru: 'Колесо останавливается...',
+            ua: 'Колесо зупиняється...',
             en: 'Stopping...',
             de: 'Wird angehalten ...',
         },
         // AMFW_WAIT_OFF
         waitOff: {
-            ru: 'Аттракцион остановится на следующем круге.',
-            ua: 'Атракціон зупиниться на наступному колі.',
-            en: 'The ride will stop on the next rotation.',
-            de: 'Das Fahrgeschäft wird bei der nächsten Umdrehung angehalten.',
+            ru: 'Аттракцион остановится на следующем круге',
+            ua: 'Атракціон зупиниться на наступному колі',
+            en: 'The ride will stop on the next rotation',
+            de: 'Das Fahrgeschäft wird bei der nächsten Umdrehung angehalten',
         },
         // AMFW_GET_IN
         getIn: {
-            ru: '~INPUT_ENTER~ - залезть внутрь.',
-            ua: '~INPUT_ENTER~ - залізти всередину.',
-            en: '~INPUT_ENTER~ - get in.',
-            de: '~INPUT_ENTER~ - einsteigen.',
+            ru: 'Сесть в кабинку',
+            ua: 'Сісти в кабінку',
+            en: 'Get in',
+            de: 'Einsteigen',
         },
         // AMFW_GET_IN_P
         getInPaid: {
-            ru: '~INPUT_ENTER~ - сесть в кабинку. Стоимость - ${{cost}}.',
-            ua: '~INPUT_ENTER~ - сісти в кабінку. Вартість - ${{cost}}.',
-            en: '~INPUT_ENTER~ - get in the gondola. The cost is ${{cost}}.',
-            de: '~INPUT_ENTER~ - in die Gondel steigen. Die Fahrt kostet ${{cost}}.',
+            ru: 'Сесть в кабинку за ${{cost}}',
+            ua: 'Сісти в кабінку за ${{cost}}',
+            en: 'Get in the gondola for ${{cost}}',
+            de: 'In die Gondel steigen für ${{cost}}',
         },
         // AMFW_GET_OUT
         getOut: {
-            ru: '~INPUT_ENTER~ - вылезти.',
-            ua: '~INPUT_ENTER~ - вилізти.',
-            en: '~INPUT_ENTER~ - get out.',
-            de: '~INPUT_ENTER~ - aussteigen.',
+            ru: 'Выйти из кабинки',
+            ua: 'Вийти з кабінки',
+            en: 'Get out',
+            de: 'Aussteigen',
         },
         // AMFW_CAR_FULL
         full: {
@@ -86,24 +83,23 @@ export default {
     rollerCoaster: {
         // AMRC_ENTER
         enter: {
-            ru: '~INPUT_CONTEXT~ - прокатиться на "Левиафане". Стоимость - ${{cost}}.',
-            ua: '~INPUT_CONTEXT~ - покататися на "Левіафані". Вартість - ${{cost}}.',
-            en: '~INPUT_CONTEXT~ - ride the Leviathan. The cost is ${{cost}}.',
-            de: '~INPUT_CONTEXT~ - Achterbahn fahren. Eine Fahrt kostet ${{cost}}.',
+            ru: 'Прокатиться на "Левиафане" за ${{cost}}',
+            ua: 'Покататися на "Левіафані" за ${{cost}}',
+            en: 'Ride the Leviathan for ${{cost}}',
+            de: 'Achterbahn fahren für ${{cost}}',
         },
-        // AMRC_TIMER
-        timer: {
-            ru: 'АМЕРИКАНСКИЕ ГОРКИ',
-            ua: 'АМЕРИКАНСЬКІ ГІРКИ',
-            en: 'ROLLERCOASTER',
-            de: 'ACHTERBAHN',
+        // The countdown block around the station (AMRC_TIMER): the ride's name and what the time is to.
+        name: {
+            ru: 'Левиафан',
+            ua: 'Левіафан',
+            en: 'Leviathan',
+            de: 'Leviathan',
         },
-        // AMRC_HELPTEXT, without its line about screaming for RP.
-        help: {
-            ru: '~INPUT_FRONTEND_X~ - поднять руки.',
-            ua: '~INPUT_FRONTEND_X~ - підняти руки.',
-            en: '~INPUT_FRONTEND_X~ - raise your hands.',
-            de: '~INPUT_FRONTEND_X~ - die Hände hochheben.',
+        departure: {
+            ru: 'Отправление через',
+            ua: 'Відправлення через',
+            en: 'Departs in',
+            de: 'Abfahrt in',
         },
         // AMRC_HANDSRAISE
         raiseHands: {

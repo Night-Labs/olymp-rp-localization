@@ -75,6 +75,81 @@ const inventory = {
         },
     },
 
+    // Cooked food on the hint card: how long it keeps, and how well it was cooked.
+    freshness: {
+        title: {
+            ru: 'Свежесть',
+            ua: 'Свіжість',
+            en: 'Freshness',
+            de: 'Frische',
+        },
+        stale: {
+            ru: 'Несвежее, {{time}}',
+            ua: 'Несвіже, {{time}}',
+            en: 'Stale, {{time}}',
+            de: 'Nicht mehr frisch, {{time}}',
+        },
+        spoiled: {
+            ru: 'Испорчено',
+            ua: 'Зіпсовано',
+            en: 'Spoiled',
+            de: 'Verdorben',
+        },
+        time: {
+            days: {
+                ru: '{{d}} д {{h}} ч',
+                ua: '{{d}} д {{h}} год',
+                en: '{{d}} d {{h}} h',
+                de: '{{d}} T. {{h}} Std.',
+            },
+            hours: {
+                ru: '{{h}} ч {{m}} мин',
+                ua: '{{h}} год {{m}} хв',
+                en: '{{h}} h {{m}} min',
+                de: '{{h}} Std. {{m}} Min.',
+            },
+            minutes: {
+                ru: '{{m}} мин',
+                ua: '{{m}} хв',
+                en: '{{m}} min',
+                de: '{{m}} Min.',
+            },
+        },
+    },
+
+    cookingQuality: {
+        title: {
+            ru: 'Качество',
+            ua: 'Якість',
+            en: 'Quality',
+            de: 'Qualität',
+        },
+        poor: {
+            ru: 'Так себе',
+            ua: 'Так собі',
+            en: 'Poor',
+            de: 'Mäßig',
+        },
+        normal: {
+            ru: 'Обычное',
+            ua: 'Звичайна',
+            en: 'Normal',
+            de: 'Normal',
+        },
+        good: {
+            ru: 'Хорошее',
+            ua: 'Добра',
+            en: 'Good',
+            de: 'Gut',
+        },
+        perfect: {
+            ru: 'Идеальное',
+            ua: 'Ідеальна',
+            en: 'Perfect',
+            de: 'Perfekt',
+        },
+    },
+
     weaponRaisedHands: {
         ru: 'Сначала опустите руки',
         ua: 'Спершу опустіть руки',

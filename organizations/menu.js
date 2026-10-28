@@ -1677,6 +1677,12 @@ export const menu = {
             de: 'Offline',
             pl: 'Offline',
         },
+        lastSeen: {
+            ru: 'Был(а)',
+            ua: 'Був(ла)',
+            en: 'Last seen',
+            de: 'Zuletzt online',
+        },
         youTag: {
             ru: 'Вы',
             ua: 'Ви',

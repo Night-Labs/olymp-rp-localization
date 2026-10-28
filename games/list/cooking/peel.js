@@ -1,0 +1,127 @@
+// The peel game (webviews `systems/games/cooking/peel`), read as `games.cooking.peel.*`.
+export default {
+    title: {
+        ru: 'Чистка',
+        ua: 'Чищення',
+        en: 'Peeling',
+        de: 'Schälen',
+    },
+    desc: {
+        ru: 'Срежьте кожуру одной лентой. Пока держите кнопку, продукт вращается под овощечисткой: ведите лезвие мышью по пунктиру. Ближе к центру срежете мякоть, дальше от него кожура порвётся',
+        ua: 'Зріжте шкірку однією стрічкою. Поки тримаєте кнопку, продукт обертається під овочечисткою: ведіть лезо мишею по пунктиру. Ближче до центру зріжете м\'якоть, далі від нього шкірка порветься',
+        en: 'Peel it in one strip. While you hold the button the food turns under the peeler: keep the blade on the dashed line with the mouse. Closer to the middle cuts into the flesh, further out the peel snaps',
+        de: 'Schäle es in einem Streifen. Solange du die Taste hältst, dreht es sich unter dem Schäler: führe die Klinge mit der Maus auf der gestrichelten Linie. Näher zur Mitte schneidest du ins Fruchtfleisch, weiter außen reißt die Schale',
+    },
+    food: {
+        apple: { ru: 'Яблоко', ua: 'Яблуко', en: 'Apple', de: 'Apfel' },
+        potato: { ru: 'Картофель', ua: 'Картопля', en: 'Potato', de: 'Kartoffel' },
+    },
+    depth: {
+        ru: 'Глубина',
+        ua: 'Глибина',
+        en: 'Depth',
+        de: 'Tiefe',
+    },
+    peel: {
+        ru: 'Кожура',
+        ua: 'Шкірка',
+        en: 'Peel',
+        de: 'Schale',
+    },
+    onLine: {
+        ru: 'по линии',
+        ua: 'по лінії',
+        en: 'on the line',
+        de: 'auf der Linie',
+    },
+    deep: {
+        ru: 'глубоко',
+        ua: 'глибоко',
+        en: 'deep',
+        de: 'tief',
+    },
+    shallow: {
+        ru: 'мелко',
+        ua: 'мілко',
+        en: 'shallow',
+        de: 'flach',
+    },
+    gouge: {
+        ru: 'режет мякоть',
+        ua: 'ріже м\'якоть',
+        en: 'into the flesh',
+        de: 'ins Fruchtfleisch',
+    },
+    off: {
+        ru: 'мимо кожуры',
+        ua: 'повз шкірку',
+        en: 'off the peel',
+        de: 'neben der Schale',
+    },
+    onePiece: {
+        ru: 'одной лентой',
+        ua: 'однією стрічкою',
+        en: 'in one strip',
+        de: 'in einem Streifen',
+    },
+    pieces: {
+        ru: 'кусков: {{count}}',
+        ua: 'шматків: {{count}}',
+        en: 'pieces: {{count}}',
+        de: 'Stücke: {{count}}',
+    },
+    msgStart: {
+        ru: 'Наведите лезвие на кружок в начале пунктира и держите кнопку',
+        ua: 'Наведіть лезо на кружечок на початку пунктиру й тримайте кнопку',
+        en: 'Put the blade on the ring at the start of the dashed line and hold the button',
+        de: 'Setz die Klinge auf den Ring am Anfang der gestrichelten Linie und halte die Taste',
+    },
+    msgResume: {
+        ru: 'Верните лезвие на кружок и держите кнопку, чтобы чистить дальше',
+        ua: 'Поверніть лезо на кружечок і тримайте кнопку, щоб чистити далі',
+        en: 'Put the blade back on the ring and hold the button to go on peeling',
+        de: 'Setz die Klinge zurück auf den Ring und halte die Taste, um weiterzuschälen',
+    },
+    msgGouge: {
+        ru: 'Слишком глубоко: лезвие режет мякоть. Отведите его от центра',
+        ua: 'Надто глибоко: лезо ріже м\'якоть. Відведіть його від центру',
+        en: 'Too deep: the blade is cutting the flesh. Move it away from the middle',
+        de: 'Zu tief: die Klinge schneidet ins Fruchtfleisch. Führ sie weiter nach außen',
+    },
+    msgOff: {
+        ru: 'Лезвие мимо кожуры: верните его на пунктир',
+        ua: 'Лезо повз шкірку: поверніть його на пунктир',
+        en: 'The blade is off the peel: bring it back to the dashed line',
+        de: 'Die Klinge ist neben der Schale: zurück auf die gestrichelte Linie',
+    },
+    hintMove: {
+        ru: 'Вести лезвие',
+        ua: 'Вести лезо',
+        en: 'Move the blade',
+        de: 'Klinge führen',
+    },
+    hintHold: {
+        ru: 'Держать: чистить',
+        ua: 'Тримати: чистити',
+        en: 'Hold: peel',
+        de: 'Halten: schälen',
+    },
+    subUnbroken: {
+        ru: 'Качество {{score}} из 100, кожура одной лентой',
+        ua: 'Якість {{score}} зі 100, шкірка однією стрічкою',
+        en: 'Quality {{score}} of 100, the peel in one strip',
+        de: 'Qualität {{score}} von 100, die Schale in einem Streifen',
+    },
+    subUnfinished: {
+        ru: 'Кожура не дочищена до конца',
+        ua: 'Шкірку не дочищено до кінця',
+        en: 'The peeling was left unfinished',
+        de: 'Das Schälen wurde nicht beendet',
+    },
+    subPieces: {
+        ru: 'Качество {{score}} из 100, кусков кожуры: {{pieces}}',
+        ua: 'Якість {{score}} зі 100, шматків шкірки: {{pieces}}',
+        en: 'Quality {{score}} of 100, peel pieces: {{pieces}}',
+        de: 'Qualität {{score}} von 100, Schalenstücke: {{pieces}}',
+    },
+};
