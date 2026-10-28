@@ -267,11 +267,10 @@ export default {
             pl: 'Pierwszy połów',
         },
         text: {
-            ru: 'Продать улов можно скупщику рыбы: "Навигатор" в телефоне, раздел "Скупщики". С уровнем рыбалки открываются новые места, но для них нужна удочка получше из магазина 24/7.',
-            ua: 'Продати улов можна скупнику риби: "Навігатор" у телефоні, розділ "Скупники". З рівнем риболовлі відкриваються нові місця, але для них потрібна краща вудка з магазину 24/7.',
-            en: 'Sell your catch to a fish buyer: "Navigator" on the phone, "Buyers" section. Higher fishing levels open new spots, but they need a better rod from a 24/7 store.',
-            de: 'Deinen Fang verkaufst du an einen Fischhändler: "Navigation" im Handy, Bereich "Käufer". Höhere Angellevel schalten neue Plätze frei, dafür brauchst du eine bessere Angel aus dem 24/7-Laden.',
-            pl: 'Połów sprzedasz skupującemu ryby: "Nawigator" w telefonie, sekcja "Kupujący". Wyższy poziom wędkowania otwiera nowe łowiska, ale potrzebna jest do nich lepsza wędka ze sklepu 24/7.',
+            ru: 'Улов продаётся скупщику рыбы на вес, от 1 кг: "Навигатор" в телефоне, раздел "Скупщики". Снасти, контракты и навыки - на рыболовных базах в Палето-Коув и на побережье Сан-Шиански. С рангом открываются новые воды.',
+            ua: 'Улов продається скупнику риби на вагу, від 1 кг: "Навігатор" у телефоні, розділ "Скупники". Снасті, контракти й навички - на рибальських базах у Палето-Ков і на узбережжі Сан-Шиански. З рангом відкриваються нові води.',
+            en: 'Sell your catch to a fish buyer by weight, from 1 kg: "Navigator" on the phone, "Buyers" section. Tackle, contracts and skills are at the fishing bases in Paleto Cove and on the San Chianski coast. Each rank opens new waters.',
+            de: 'Deinen Fang verkaufst du nach Gewicht an einen Fischhändler, ab 1 kg: "Navigation" im Handy, Bereich "Käufer". Ausrüstung, Aufträge und Fähigkeiten gibt es an den Angelstationen in Paleto Cove und an der Küste von San Chianski. Jeder Rang schaltet neue Gewässer frei.',
         },
     },
     fishingBait: {
@@ -283,11 +282,10 @@ export default {
             pl: 'Brak przynęty',
         },
         text: {
-            ru: 'Наживка продаётся в магазинах 24/7. Места для рыбалки есть в "Навигаторе", раздел "Хобби".',
-            ua: 'Наживка продається в магазинах 24/7. Місця для риболовлі є в "Навігаторі", розділ "Хобі".',
-            en: 'Bait is sold in 24/7 stores. Fishing spots are in the "Navigator", "Hobbies" section.',
-            de: 'Köder gibt es in 24/7-Läden. Angelplätze findest du in der "Navigation", Bereich "Hobbys".',
-            pl: 'Przynętę kupisz w sklepach 24/7. Łowiska są w "Nawigatorze", sekcja "Hobby".',
+            ru: 'Наживку надевают на удочку: ПКМ по удочке в инвентаре, "Оснастка", и перетащите наживку в ячейку. Простая наживка есть в магазинах 24/7, остальная и приманки - на рыболовных базах.',
+            ua: 'Наживку надягають на вудку: ПКМ по вудці в інвентарі, "Оснащення", і перетягніть наживку в комірку. Проста наживка є в магазинах 24/7, решта й приманки - на рибальських базах.',
+            en: 'Bait goes onto the rod: right-click the rod in the inventory, "Tackle", and drag the bait into its cell. Basic bait is sold in 24/7 stores, the rest and the lures at the fishing bases.',
+            de: 'Der Köder kommt an die Angel: Rechtsklick auf die Angel im Inventar, "Ausrüstung", und zieh den Köder in sein Feld. Einfache Köder gibt es in 24/7-Läden, alle anderen und die Kunstköder an den Angelstationen.',
         },
     },
     animalHunted: {

@@ -101,6 +101,27 @@ export const server = {
         pl: 'szt.',
         zh: '片数',
     },
+    // Mass of goods counted in grams (shared/systems/inventory/quantity.ts formatGrams).
+    units: {
+        kg: {
+            ru: 'кг',
+            ua: 'кг',
+            en: 'kg',
+            de: 'kg',
+        },
+        g: {
+            ru: 'г',
+            ua: 'г',
+            en: 'g',
+            de: 'g',
+        },
+        decimal: {
+            ru: ',',
+            ua: ',',
+            en: '.',
+            de: ',',
+        },
+    },
     money: {
         ru: 'Деньги',
         ua: 'Гроші',

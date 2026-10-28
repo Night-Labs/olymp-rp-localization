@@ -619,6 +619,13 @@ export const logs = {
                 de: '{{actor}} hat {{quantity}} x {{item}} von Feld {{cell}} abgeholt',
                 pl: '{{actor}} wywiozl {{quantity}} x {{item}} z pola {{cell}}',
             },
+            // A haul counted by weight (the fish of a fishing business): {{kg}} is a number of kilograms.
+            harvestCollectedMass: {
+                ru: '{{actor}} вывез с квадрата {{cell}} {{kg}} кг: {{item}}',
+                ua: '{{actor}} вивіз із квадрата {{cell}} {{kg}} кг: {{item}}',
+                en: '{{actor}} hauled {{kg}} kg of {{item}} from square {{cell}}',
+                de: '{{actor}} hat {{kg}} kg {{item}} von Feld {{cell}} abgeholt',
+            },
             harvestFull: {
                 ru: 'Квадрат {{cell}}: буфер заполнен, добыча больше не копится',
                 ua: 'Квадрат {{cell}}: буфер заповнений, здобич більше не накопичується',

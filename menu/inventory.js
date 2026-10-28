@@ -279,6 +279,13 @@ export const inventory = {
             pl: 'Dodatki',
             zh: '配件',
         },
+        // The attachments window opened on a fishing rod: its bait, reel and line.
+        tackle: {
+            ru: 'Оснастка',
+            ua: 'Оснащення',
+            en: 'Tackle',
+            de: 'Ausrüstung',
+        },
         durability: {
             ru: 'Прочность',
             ua: 'Міцність',
@@ -310,6 +317,33 @@ export const inventory = {
             en: 'Attachments',
             de: 'Aufsätze',
             pl: 'Dodatki',
+        },
+        // The same window open on a fishing rod (shared/jobs/fishing/tackle).
+        tackleTitle: {
+            ru: 'Оснастка',
+            ua: 'Оснащення',
+            en: 'Tackle',
+            de: 'Ausrüstung',
+        },
+        tackleSlots: {
+            bait: {
+                ru: 'Наживка',
+                ua: 'Наживка',
+                en: 'Bait',
+                de: 'Köder',
+            },
+            reel: {
+                ru: 'Катушка',
+                ua: 'Котушка',
+                en: 'Reel',
+                de: 'Rolle',
+            },
+            line: {
+                ru: 'Леска',
+                ua: 'Волосінь',
+                en: 'Line',
+                de: 'Schnur',
+            },
         },
     },
     quantityMenu: {
@@ -418,6 +452,13 @@ export const inventory = {
             de: 'Menge eingeben',
             pl: 'Ilość przedmiotów',
             zh: '物品数量',
+        },
+        // A stack counted in grams (a catch) is split in grams.
+        inputPlaceholderGrams: {
+            ru: 'Количество, г',
+            ua: 'Кількість, г',
+            en: 'Amount, g',
+            de: 'Menge, g',
         },
         pcs: {
             ru: 'шт.',

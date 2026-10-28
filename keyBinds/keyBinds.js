@@ -614,6 +614,18 @@ export default {
         de: 'Wegpunkt an Fahrer senden',
         pl: 'Wyślij punkt trasy kierowcy',
     },
+    'vehicle.trunkExit': {
+        ru: 'Вылезти из багажника',
+        ua: 'Вилізти з багажника',
+        en: 'Get out of the trunk',
+        de: 'Aus dem Kofferraum steigen',
+    },
+    'vehicle.pushStop': {
+        ru: 'Отпустить машину',
+        ua: 'Відпустити машину',
+        en: 'Let go of the vehicle',
+        de: 'Fahrzeug loslassen',
+    },
     megaphone: {
         ru: 'Мегафон',
         ua: 'Мегафон',
@@ -648,6 +660,18 @@ export default {
         en: 'Skinning: clean cut',
         de: 'Häuten: sauberer Schnitt',
         pl: 'Oprawianie: czyste cięcie',
+    },
+    'fishing.take': {
+        ru: 'Рыбалка: забрать рыбу',
+        ua: 'Риболовля: забрати рибу',
+        en: 'Fishing: keep the fish',
+        de: 'Angeln: Fisch behalten',
+    },
+    'fishing.release': {
+        ru: 'Рыбалка: отпустить рыбу',
+        ua: 'Риболовля: відпустити рибу',
+        en: 'Fishing: release the fish',
+        de: 'Angeln: Fisch freilassen',
     },
     sit: {
         ru: 'Сесть',

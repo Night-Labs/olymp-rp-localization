@@ -164,6 +164,21 @@ export default {
             zh: '出售换取通行证经验',
         },
 
+        // Every prize of a multi case opening at once
+        receiveItemsTitle: {
+            ru: 'Получение предметов',
+            ua: 'Отримання предметів',
+            en: 'Receive items',
+            de: 'Gegenstände erhalten',
+        },
+
+        sellItemsTitle: {
+            ru: 'Продажа предметов',
+            ua: 'Продаж предметів',
+            en: 'Sell items',
+            de: 'Gegenstände verkaufen',
+        },
+
         destroyTitle: {
             ru: 'Уничтожение предмета',
             ua: 'Знищення предмета',

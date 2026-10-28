@@ -610,6 +610,27 @@ export const vehicle = {
         pl: 'Zaladuj skrzynie kontraktu',
     },
 
+    'trunkHide-enter': {
+        ru: 'Лечь в багажник',
+        ua: 'Лягти в багажник',
+        en: 'Lie down in the trunk',
+        de: 'Sich in den Kofferraum legen',
+    },
+
+    'trunkHide-pullOut': {
+        ru: 'Вытащить из багажника',
+        ua: 'Витягти з багажника',
+        en: 'Pull out of the trunk',
+        de: 'Aus dem Kofferraum ziehen',
+    },
+
+    vehiclePush: {
+        ru: 'Толкать машину',
+        ua: 'Штовхати машину',
+        en: 'Push the vehicle',
+        de: 'Fahrzeug schieben',
+    },
+
     'cashCollector-rob': {
         ru: 'Вскрыть броневик',
         ua: 'Розкрити броньовик',
