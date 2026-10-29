@@ -105,6 +105,12 @@ export default {
         en: 'Tasting...',
         de: 'Probieren...',
     },
+    msgTasteLost: {
+        ru: 'Не удалось распробовать',
+        ua: 'Не вдалося розкуштувати',
+        en: 'Could not make out the taste',
+        de: 'Geschmack nicht erkannt',
+    },
     msgRight: {
         ru: 'В самый раз: можно подавать',
         ua: 'Саме те: можна подавати',

@@ -308,6 +308,12 @@ export const kitchen = {
         en: 'Missing',
         de: 'Fehlt',
     },
+    toolShop: {
+        ru: 'Посуда продаётся в магазинах 24/7, в разделе «Инструменты»',
+        ua: 'Посуд продається в магазинах 24/7, у розділі «Інструменти»',
+        en: 'Kitchenware is sold at 24/7 stores, under Tools',
+        de: 'Küchengeräte gibt es in 24/7-Läden unter Werkzeuge',
+    },
     groups: {
         fish: {
             ru: 'Любая рыба',
@@ -381,6 +387,74 @@ export const kitchen = {
         ua: 'Закрити',
         en: 'Close',
         de: 'Schließen',
+    },
+    intro: {
+        open: {
+            ru: 'Как готовить',
+            ua: 'Як готувати',
+            en: 'How to cook',
+            de: 'So wird gekocht',
+        },
+        title: {
+            ru: 'Домашняя кухня',
+            ua: 'Домашня кухня',
+            en: 'Home kitchen',
+            de: 'Hausküche',
+        },
+        text: {
+            ru: 'Готовьте у плиты, духовки, кофемашины или чайника в доме. Домашние блюда сытнее магазинной еды и дают бонусы: ешьте сами или продавайте другим игрокам.',
+            ua: 'Готуйте біля плити, духовки, кавомашини або чайника в домі. Домашні страви ситніші за магазинну їжу й дають бонуси: їжте самі або продавайте іншим гравцям.',
+            en: 'Cook at a stove, oven, coffee machine or kettle in a house. Home-cooked dishes fill you up better than shop food and give bonuses: eat them yourself or sell them to other players.',
+            de: 'Gekocht wird an Herd, Backofen, Kaffeemaschine oder Wasserkocher in einem Haus. Hausgemachte Gerichte sättigen mehr als Essen aus dem Laden und geben Boni: selbst essen oder an andere Spieler verkaufen.',
+        },
+        station: {
+            title: {
+                ru: 'Рецепт и шаги',
+                ua: 'Рецепт і кроки',
+                en: 'Recipe and steps',
+                de: 'Rezept und Schritte',
+            },
+            text: {
+                ru: 'Выберите рецепт: продукты берутся из карманов и холодильников этого дома. Каждый шаг - отдельная мини-игра, от неё зависит качество блюда.',
+                ua: 'Оберіть рецепт: продукти беруться з кишень і холодильників цього дому. Кожен крок - окрема міні-гра, від неї залежить якість страви.',
+                en: 'Pick a recipe: the ingredients come from your pockets and the fridges of this house. Every step is a minigame, and it decides how good the dish turns out.',
+                de: 'Wähle ein Rezept: Die Zutaten kommen aus deinen Taschen und den Kühlschränken dieses Hauses. Jeder Schritt ist ein Minispiel und entscheidet über die Qualität des Gerichts.',
+            },
+        },
+        fridge: {
+            title: {
+                ru: 'Холодильник',
+                ua: 'Холодильник',
+                en: 'Fridge',
+                de: 'Kühlschrank',
+            },
+            text: {
+                ru: 'Готовые блюда портятся со временем, где бы они ни лежали. В холодильнике они хранятся дольше, в морозильнике почти не портятся.',
+                ua: 'Готові страви псуються з часом, де б вони не лежали. У холодильнику вони зберігаються довше, у морозильнику майже не псуються.',
+                en: 'Cooked dishes go off over time wherever they are. They keep longer in a fridge and hardly age at all in a freezer.',
+                de: 'Gekochte Gerichte verderben mit der Zeit, egal wo sie liegen. Im Kühlschrank halten sie länger, im Gefrierschrank fast unbegrenzt.',
+            },
+        },
+        spoiled: {
+            title: {
+                ru: 'Испорченная еда',
+                ua: 'Зіпсована їжа',
+                en: 'Spoiled food',
+                de: 'Verdorbenes Essen',
+            },
+            text: {
+                ru: 'Полоска на предмете показывает свежесть. Испорченное блюдо не даёт бонуса и может отравить. Продукты из магазина не портятся.',
+                ua: 'Смужка на предметі показує свіжість. Зіпсована страва не дає бонусу й може отруїти. Продукти з магазину не псуються.',
+                en: 'The bar on an item shows how fresh it is. A spoiled dish gives no bonus and may poison you. Groceries from the shop never go off.',
+                de: 'Der Balken am Gegenstand zeigt die Frische. Ein verdorbenes Gericht gibt keinen Bonus und kann vergiften. Lebensmittel aus dem Laden verderben nie.',
+            },
+        },
+        go: {
+            ru: 'К рецептам',
+            ua: 'До рецептів',
+            en: 'To the recipes',
+            de: 'Zu den Rezepten',
+        },
     },
     result: {
         ready: {

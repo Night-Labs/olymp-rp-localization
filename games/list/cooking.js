@@ -12,6 +12,7 @@ import fillet from './cooking/fillet.js';
 import sushi from './cooking/sushi.js';
 import barista from './cooking/barista.js';
 import bar from './cooking/bar.js';
+import assembly from './cooking/assembly.js';
 
 export default {
     peel,
@@ -26,6 +27,7 @@ export default {
     sushi,
     barista,
     bar,
+    assembly,
     stepOf: {
         ru: 'Шаг {{step}} из {{steps}}',
         ua: 'Крок {{step}} з {{steps}}',
@@ -156,6 +158,42 @@ export default {
                 en: 'Fish fillet',
                 de: 'Fischfilet',
             },
+            omelette: {
+                ru: 'Омлет',
+                ua: 'Омлет',
+                en: 'Omelette',
+                de: 'Omelett',
+            },
+            potatoes: {
+                ru: 'Жареная картошка',
+                ua: 'Смажена картопля',
+                en: 'Fried potatoes',
+                de: 'Bratkartoffeln',
+            },
+            mince: {
+                ru: 'Говяжий фарш',
+                ua: 'Яловичий фарш',
+                en: 'Minced beef',
+                de: 'Rinderhack',
+            },
+            ham_dice: {
+                ru: 'Ветчина кубиками',
+                ua: 'Шинка кубиками',
+                en: 'Diced ham',
+                de: 'Schinkenwürfel',
+            },
+            plov: {
+                ru: 'Зирвак для плова',
+                ua: 'Зірвак для плову',
+                en: 'Zirvak for plov',
+                de: 'Zirvak für Pilaw',
+            },
+            onion: {
+                ru: 'Жареный лук',
+                ua: 'Смажена цибуля',
+                en: 'Fried onion',
+                de: 'Gebratene Zwiebeln',
+            },
         },
         pan: {
             ru: 'Сковорода',
@@ -186,6 +224,12 @@ export default {
             ua: 'Перевернути: різко вгору',
             en: 'Flip: flick up',
             de: 'Wenden: nach oben schnippen',
+        },
+        hintToss: {
+            ru: 'Подбросить: резко вверх',
+            ua: 'Підкинути: різко вгору',
+            en: 'Toss: flick up',
+            de: 'Schwenken: nach oben schnippen',
         },
         hintLid: {
             ru: 'Крышка',
@@ -253,11 +297,31 @@ export default {
             en: 'It missed the pan',
             de: 'Neben die Pfanne gefallen',
         },
-        msgNoFlip: {
-            ru: 'Яичницу не переворачивают',
-            ua: 'Яєчню не перевертають',
-            en: 'A fried egg is not flipped',
-            de: 'Ein Spiegelei wird nicht gewendet',
+        msgTossClean: {
+            ru: 'Подбросили ровно',
+            ua: 'Підкинули рівно',
+            en: 'A clean toss',
+            de: 'Sauber geschwenkt',
+        },
+        msgTossMessy: {
+            ru: 'Перевернулось не всё',
+            ua: 'Перевернулося не все',
+            en: 'Not all of it turned over',
+            de: 'Nicht alles hat sich gewendet',
+        },
+        noFlip: {
+            egg: {
+                ru: 'Яичницу не переворачивают',
+                ua: 'Яєчню не перевертають',
+                en: 'A fried egg is not flipped',
+                de: 'Ein Spiegelei wird nicht gewendet',
+            },
+            omelette: {
+                ru: 'Омлет не переворачивают',
+                ua: 'Омлет не перевертають',
+                en: 'An omelette is not flipped',
+                de: 'Ein Omelett wird nicht gewendet',
+            },
         },
         msgWatchTwo: {
             ru: 'Снизу румянится. Край подскажет, когда переворачивать',
@@ -265,11 +329,25 @@ export default {
             en: 'The underside is browning. The edge tells you when to flip',
             de: 'Unten wird es braun. Der Rand zeigt dir, wann du wenden musst',
         },
-        msgWatchOne: {
-            ru: 'Снимайте, когда белок схватится',
-            ua: 'Знімайте, коли білок схопиться',
-            en: 'Take it off once the white has set',
-            de: 'Nimm es herunter, sobald das Eiweiß gestockt ist',
+        msgWatchToss: {
+            ru: 'Снизу румянится. Край подскажет, когда подбросить',
+            ua: 'Знизу рум\'яниться. Край підкаже, коли підкинути',
+            en: 'The bottom is browning. The edge tells you when to toss',
+            de: 'Unten wird es braun. Der Rand zeigt dir, wann du schwenken musst',
+        },
+        watchOne: {
+            egg: {
+                ru: 'Снимайте, когда белок схватится',
+                ua: 'Знімайте, коли білок схопиться',
+                en: 'Take it off once the white has set',
+                de: 'Nimm es herunter, sobald das Eiweiß gestockt ist',
+            },
+            omelette: {
+                ru: 'Снимайте, когда омлет схватится и зарумянится',
+                ua: 'Знімайте, коли омлет схопиться й підрум\'яниться',
+                en: 'Take it off once the omelette has set and turned golden',
+                de: 'Nimm es herunter, sobald das Omelett gestockt und goldbraun ist',
+            },
         },
     },
     chop: {
@@ -394,104 +472,6 @@ export default {
             lemon: { ru: 'Лимон', ua: 'Лимон', en: 'Lemon', de: 'Zitrone' },
             pineapple: { ru: 'Ананас', ua: 'Ананас', en: 'Pineapple', de: 'Ananas' },
             egg: { ru: 'Варёное яйцо', ua: 'Варене яйце', en: 'Boiled egg', de: 'Gekochtes Ei' },
-        },
-    },
-    assembly: {
-        title: {
-            ru: 'Сборка',
-            ua: 'Збирання',
-            en: 'Assembly',
-            de: 'Zusammenbau',
-        },
-        desc: {
-            ru: 'Соберите блюдо по рецепту. Слой качается над тарелкой: нажмите, когда он ровно над стопкой. Кривая башня падает',
-            ua: 'Зберіть страву за рецептом. Шар гойдається над тарілкою: натисніть, коли він рівно над стосом. Крива вежа падає',
-            en: 'Build the dish by the recipe. The layer swings over the plate: press when it is right over the stack. A crooked tower falls',
-            de: 'Baue das Gericht nach Rezept. Die Schicht schwingt über dem Teller: drücke, wenn sie genau über dem Stapel ist. Ein schiefer Turm fällt',
-        },
-        layerOf: {
-            ru: 'Слой {{index}} из {{count}}',
-            ua: 'Шар {{index}} з {{count}}',
-            en: 'Layer {{index}} of {{count}}',
-            de: 'Schicht {{index}} von {{count}}',
-        },
-        recipe: {
-            ru: 'Рецепт',
-            ua: 'Рецепт',
-            en: 'Recipe',
-            de: 'Rezept',
-        },
-        alignment: {
-            ru: 'Ровность',
-            ua: 'Рівність',
-            en: 'Alignment',
-            de: 'Ausrichtung',
-        },
-        lean: {
-            ru: 'Крен',
-            ua: 'Крен',
-            en: 'Lean',
-            de: 'Neigung',
-        },
-        even: {
-            ru: 'ровно',
-            ua: 'рівно',
-            en: 'square',
-            de: 'gerade',
-        },
-        offLeft: {
-            ru: 'левее',
-            ua: 'лівіше',
-            en: 'to the left',
-            de: 'zu weit links',
-        },
-        offRight: {
-            ru: 'правее',
-            ua: 'правіше',
-            en: 'to the right',
-            de: 'zu weit rechts',
-        },
-        hintDrop: {
-            ru: 'Опустить слой',
-            ua: 'Опустити шар',
-            en: 'Drop the layer',
-            de: 'Schicht fallen lassen',
-        },
-        msgStart: {
-            ru: 'Нажмите, когда слой окажется ровно над тарелкой',
-            ua: 'Натисніть, коли шар буде рівно над тарілкою',
-            en: 'Press when the layer is right over the plate',
-            de: 'Drücke, wenn die Schicht genau über dem Teller ist',
-        },
-        msgLean: {
-            ru: 'Башня кренится: кладите ближе к другому краю',
-            ua: 'Вежа хилиться: кладіть ближче до іншого краю',
-            en: 'The tower leans: place nearer the other side',
-            de: 'Der Turm neigt sich: leg näher zur anderen Seite',
-        },
-        toppled: {
-            ru: 'Башня упала',
-            ua: 'Вежа впала',
-            en: 'The tower fell',
-            de: 'Der Turm ist umgefallen',
-        },
-        dish: {
-            burger: { ru: 'Бургер', ua: 'Бургер', en: 'Burger', de: 'Burger' },
-            sandwich: { ru: 'Сэндвич', ua: 'Сендвіч', en: 'Sandwich', de: 'Sandwich' },
-            cake: { ru: 'Торт', ua: 'Торт', en: 'Cake', de: 'Torte' },
-        },
-        layer: {
-            bun_bottom: { ru: 'Нижняя булка', ua: 'Нижня булка', en: 'Bottom bun', de: 'Unteres Brötchen' },
-            bun_top: { ru: 'Верхняя булка', ua: 'Верхня булка', en: 'Top bun', de: 'Oberes Brötchen' },
-            sauce: { ru: 'Соус', ua: 'Соус', en: 'Sauce', de: 'Soße' },
-            patty: { ru: 'Котлета', ua: 'Котлета', en: 'Patty', de: 'Patty' },
-            cheese: { ru: 'Сыр', ua: 'Сир', en: 'Cheese', de: 'Käse' },
-            lettuce: { ru: 'Салат', ua: 'Салат', en: 'Lettuce', de: 'Salat' },
-            tomato: { ru: 'Помидор', ua: 'Помідор', en: 'Tomato', de: 'Tomate' },
-            bread: { ru: 'Хлеб', ua: 'Хліб', en: 'Bread', de: 'Brot' },
-            ham: { ru: 'Ветчина', ua: 'Шинка', en: 'Ham', de: 'Schinken' },
-            sponge: { ru: 'Корж', ua: 'Корж', en: 'Sponge', de: 'Biskuitboden' },
-            cream: { ru: 'Крем', ua: 'Крем', en: 'Cream', de: 'Creme' },
         },
     },
 };

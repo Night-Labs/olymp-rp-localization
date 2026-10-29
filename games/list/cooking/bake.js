@@ -19,6 +19,10 @@ export default {
         pizza: { ru: 'Пицца', ua: 'Піца', en: 'Pizza', de: 'Pizza' },
         cake: { ru: 'Шоколадный бисквит', ua: 'Шоколадний бісквіт', en: 'Chocolate cake', de: 'Schokoladenkuchen' },
         roast: { ru: 'Мясо с картофелем', ua: 'М\'ясо з картоплею', en: 'Roast with potatoes', de: 'Braten mit Kartoffeln' },
+        gingerbread: { ru: 'Имбирные пряники', ua: 'Імбирні пряники', en: 'Gingerbread cookies', de: 'Lebkuchen' },
+        pumpkin_pie: { ru: 'Тыквенный пирог', ua: 'Гарбузовий пиріг', en: 'Pumpkin pie', de: 'Kürbiskuchen' },
+        easter_bread: { ru: 'Кулич', ua: 'Паска', en: 'Easter bread', de: 'Osterbrot' },
+        cabbage_rolls: { ru: 'Голубцы', ua: 'Голубці', en: 'Cabbage rolls', de: 'Kohlrouladen' },
     },
     recipe: {
         ru: 'По рецепту: {{value}}°',
@@ -134,11 +138,20 @@ export default {
         en: 'Watch the colour through the glass. Open the door to see it clearly',
         de: 'Achte durch die Scheibe auf die Farbe. Öffne die Tür, um es genau zu sehen',
     },
-    msgWatchCake: {
-        ru: 'Готовность бисквита проверьте зубочисткой',
-        ua: 'Готовність бісквіта перевірте зубочисткою',
-        en: 'Check the cake with a toothpick',
-        de: 'Prüf den Kuchen mit einem Stäbchen',
+    // The dishes tested with a toothpick (BAKE_DISHES `toothpick`).
+    msgWatchPick: {
+        cake: {
+            ru: 'Готовность бисквита проверьте зубочисткой',
+            ua: 'Готовність бісквіта перевірте зубочисткою',
+            en: 'Check the cake with a toothpick',
+            de: 'Prüf den Kuchen mit einem Stäbchen',
+        },
+        easter_bread: {
+            ru: 'Верх румянится раньше середины: готовность кулича проверьте зубочисткой',
+            ua: 'Верх рум\'яниться раніше за середину: готовність паски перевірте зубочисткою',
+            en: 'The top browns before the middle is done: check the Easter bread with a toothpick',
+            de: 'Die Kuppel bräunt, bevor die Mitte durch ist: prüf das Osterbrot mit einem Stäbchen',
+        },
     },
     turned: {
         ru: 'Противень развёрнут',

@@ -336,6 +336,63 @@ export const server = {
             de: 'Hauptquartier der Organisation',
             pl: 'Kwatera organizacji',
         },
+        // Interactive furniture on the radar inside the house (client systems/houses/furniture/blips.ts).
+        furniture: {
+            tv: {
+                ru: 'Телевизор',
+                ua: 'Телевізор',
+                en: 'TV',
+                de: 'Fernseher',
+            },
+            stove: {
+                ru: 'Кухня',
+                ua: 'Кухня',
+                en: 'Kitchen',
+                de: 'Küche',
+            },
+            coffee: {
+                ru: 'Кофе и чай',
+                ua: 'Кава і чай',
+                en: 'Coffee and tea',
+                de: 'Kaffee und Tee',
+            },
+            fridge: {
+                ru: 'Холодильник',
+                ua: 'Холодильник',
+                en: 'Fridge',
+                de: 'Kühlschrank',
+            },
+            storage: {
+                ru: 'Шкаф',
+                ua: 'Шафа',
+                en: 'Storage',
+                de: 'Schrank',
+            },
+            safe: {
+                ru: 'Сейф',
+                ua: 'Сейф',
+                en: 'Safe',
+                de: 'Tresor',
+            },
+            workshop: {
+                ru: 'Верстак',
+                ua: 'Верстат',
+                en: 'Workbench',
+                de: 'Werkbank',
+            },
+            medkit: {
+                ru: 'Аптечка',
+                ua: 'Аптечка',
+                en: 'First aid kit',
+                de: 'Verbandskasten',
+            },
+            signboard: {
+                ru: 'Табличка',
+                ua: 'Табличка',
+                en: 'Sign board',
+                de: 'Schild',
+            },
+        },
     },
     exitInspect: {
         ru: 'Выйти из осмотра дома',

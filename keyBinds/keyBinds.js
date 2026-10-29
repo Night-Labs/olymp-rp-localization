@@ -946,6 +946,18 @@ export default {
         de: 'Achsen: lokal / global',
         pl: 'Osie: lokalne / globalne',
     },
+    'furnitureEditor.rotateSnap': {
+        ru: 'Шаг поворота',
+        ua: 'Крок повороту',
+        en: 'Rotation step',
+        de: 'Drehschritt',
+    },
+    'furnitureEditor.freeRotate': {
+        ru: 'Поворот без шага (удерживать)',
+        ua: 'Поворот без кроку (утримувати)',
+        en: 'Rotate freely (hold)',
+        de: 'Frei drehen (halten)',
+    },
     'furnitureEditor.hideHints': {
         ru: 'Скрыть подсказки',
         ua: 'Сховати підказки',

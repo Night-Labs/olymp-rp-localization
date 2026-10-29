@@ -14,7 +14,7 @@ export default {
     },
     shape: {
         round: { ru: 'Рыба', ua: 'Риба', en: 'Fish', de: 'Fisch' },
-        flat: { ru: 'Плоская рыба', ua: 'Плоска риба', en: 'Flatfish', de: 'Plattfisch' },
+        flat: { ru: 'Широкая рыба', ua: 'Широка риба', en: 'Deep-bodied fish', de: 'Hochrückiger Fisch' },
         long: { ru: 'Длинная рыба', ua: 'Довга риба', en: 'Long fish', de: 'Langer Fisch' },
     },
     bones: {

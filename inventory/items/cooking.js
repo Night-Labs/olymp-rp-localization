@@ -842,7 +842,7 @@ export default {
         },
     },
     baking_tray: {
-        name: { ru: 'Противень', ua: 'Деко', en: 'Baking Tray', de: 'Backblech' },
+        name: { ru: 'Противень', ua: 'Лист для випікання', en: 'Baking Tray', de: 'Backblech' },
         desc: {
             ru: 'Для выпечки в духовке. Изнашивается от работы.',
             ua: 'Для випікання в духовці. Зношується від роботи.',
@@ -851,10 +851,10 @@ export default {
         },
     },
     chef_baking_tray: {
-        name: { ru: 'Противень шефа', ua: 'Деко шефа', en: "Chef's Baking Tray", de: 'Profi-Backblech' },
+        name: { ru: 'Противень шефа', ua: 'Лист для випікання шефа', en: "Chef's Baking Tray", de: 'Profi-Backblech' },
         desc: {
             ru: 'Профессиональный противень: прочнее обычного, с ним выпечка прощает больше ошибок.',
-            ua: 'Професійне деко: міцніше за звичайне, з ним випікання пробачає більше помилок.',
+            ua: 'Професійний лист для випікання: міцніший за звичайний, з ним випікання пробачає більше помилок.',
             en: 'A professional tray: sturdier than a regular one and more forgiving in the oven.',
             de: 'Ein Profiblech: robuster als ein normales und verzeiht beim Backen mehr.',
         },

@@ -63,6 +63,12 @@ export default {
         en: 'Milk in the jug',
         de: 'Milch im Kännchen',
     },
+    inJug: {
+        ru: 'В питчере',
+        ua: 'У пітчері',
+        en: 'In the jug',
+        de: 'Im Kännchen',
+    },
     depth: {
         ru: 'Глубина',
         ua: 'Глибина',

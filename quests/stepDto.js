@@ -882,6 +882,12 @@ export const stepDto = {
         de: 'Erziele {{count}} Punkte im Flappy Winds Minispiel',
         pl: 'Zdobądź {{count}} punktów w minigrze Flappy Winds',
     },
+    cookDishes: {
+        ru: 'Приготовь {{count}} блюда на домашней кухне',
+        ua: 'Приготуй {{count}} страви на домашній кухні',
+        en: 'Cook {{count}} dishes in a home kitchen',
+        de: 'Koche {{count}} Gerichte in einer Hausküche',
+    },
     grandmasterWinMatches: {
         ru: 'Победи в {{count}} партиях в шахматы',
         ua: 'Перемож у {{count}} партіях у шахи',
