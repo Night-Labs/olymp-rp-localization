@@ -7,11 +7,10 @@ export const server = {
         pl: 'W domu rozpoczął się remont',
     },
     currentlyRenovation: {
-        ru: 'Сейчас в доме ремонт',
-        ua: 'Зараз у домі ремонт',
-        en: 'There’s renovation going on at home right now',
-        de: 'Das Haus wird gerade renoviert',
-        pl: 'W domu trwa remont',
+        ru: 'В доме идёт ремонт: мебелью нельзя пользоваться, пока редактор не закроют',
+        ua: 'У домі триває ремонт: меблями не можна користуватися, доки редактор не закриють',
+        en: 'The house is being renovated: furniture cannot be used until the editor is closed',
+        de: 'Das Haus wird renoviert: Möbel können erst benutzt werden, wenn der Editor geschlossen ist',
     },
     finishEditor: {
         ru: 'Вы закончили редактирование успешно',
@@ -43,6 +42,20 @@ export const server = {
             en: 'To use the medkit, press',
             de: 'Um das Medkit zu benutzen, drücke',
             pl: 'Aby użyć apteczki, naciśnij',
+        },
+    },
+    fireplace: {
+        light: {
+            ru: 'Чтобы разжечь камин, нажмите',
+            ua: 'Щоб розпалити камін, натисніть',
+            en: 'To light the fireplace, press',
+            de: 'Um den Kamin anzuzünden, drücke',
+        },
+        extinguish: {
+            ru: 'Чтобы потушить камин, нажмите',
+            ua: 'Щоб загасити камін, натисніть',
+            en: 'To put out the fireplace, press',
+            de: 'Um den Kamin zu löschen, drücke',
         },
     },
     sell: {
@@ -804,11 +817,10 @@ export const server = {
             pl: '{{starterName}} uruchomił edytor domu',
         },
         message: {
-            ru: 'Вы хотите войти в редактор или покинуть дом на время ремонта?<br/><br/>Сейчас в редакторе: <b>{{editorPlayers}}</b>',
-            ua: 'Ви хочете увійти в редактор чи покинути дім на час ремонту?<br/><br/>Зараз у редакторі: <b>{{editorPlayers}}</b>',
-            en: 'Do you want to enter the editor or leave the house during renovation?<br/><br/>Currently in editor: <b>{{editorPlayers}}</b>',
-            de: 'Möchtest du den Editor betreten oder das Haus für die Renovierung verlassen?<br/><br/>Aktuell im Editor: <b>{{editorPlayers}}</b>',
-            pl: 'Czy chcesz wejść do edytora czy opuścić dom na czas remontu?<br/><br/>Obecnie w edytorze: <b>{{editorPlayers}}</b>',
+            ru: 'Хотите присоединиться к редактору? Можно остаться в доме, но пока идёт ремонт, мебелью пользоваться нельзя.<br/><br/>Сейчас в редакторе: <b>{{editorPlayers}}</b>',
+            ua: 'Хочете приєднатися до редактора? Можна залишитися в домі, але поки триває ремонт, меблями користуватися не можна.<br/><br/>Зараз у редакторі: <b>{{editorPlayers}}</b>',
+            en: 'Do you want to join the editor? You can stay in the house, but furniture cannot be used during the renovation.<br/><br/>Currently in editor: <b>{{editorPlayers}}</b>',
+            de: 'Möchtest du dem Editor beitreten? Du kannst im Haus bleiben, aber während der Renovierung können Möbel nicht benutzt werden.<br/><br/>Aktuell im Editor: <b>{{editorPlayers}}</b>',
         },
         enterButton: {
             ru: 'Войти в редактор',
@@ -817,19 +829,11 @@ export const server = {
             de: 'Editor betreten',
             pl: 'Wejdź do edytora',
         },
-        leaveButton: {
-            ru: 'Покинуть дом',
-            ua: 'Покинути дім',
-            en: 'Leave house',
-            de: 'Haus verlassen',
-            pl: 'Opuść dom',
-        },
-        cancelButton: {
-            ru: 'Отмена',
-            ua: 'Скасувати',
-            en: 'Cancel',
-            de: 'Abbrechen',
-            pl: 'Anuluj',
+        stayButton: {
+            ru: 'Остаться в доме',
+            ua: 'Залишитися в домі',
+            en: 'Stay in the house',
+            de: 'Im Haus bleiben',
         },
         noPlayers: {
             ru: 'никого',
