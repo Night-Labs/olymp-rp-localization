@@ -240,10 +240,10 @@ export default {
             de: '{{value}} m²',
         },
         height: {
-            ru: 'Высота от входа',
-            ua: 'Висота від входу',
-            en: 'Height from the door',
-            de: 'Höhe ab Haustür',
+            ru: 'Высота от земли у углов',
+            ua: 'Висота від землі біля кутів',
+            en: 'Height from the ground at the corners',
+            de: 'Höhe über dem Boden an den Ecken',
         },
         top: {
             ru: 'Верх',

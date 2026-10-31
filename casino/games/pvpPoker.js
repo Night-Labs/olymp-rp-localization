@@ -772,8 +772,8 @@ export const pvpPoker = {
         straight: {
             ru: 'Стрит до {{of}}',
             ua: 'Стріт до {{of}}',
-            en: 'Straight, {{one}} high',
-            de: 'Straße bis {{one}}',
+            en: 'Straight, {{of}} high',
+            de: 'Straße bis {{of}}',
             pl: 'Strit do {{of}}',
             zh: '顺子，最大{{one}}',
         },
@@ -804,8 +804,8 @@ export const pvpPoker = {
         straightFlush: {
             ru: 'Стрит-флеш до {{of}}',
             ua: 'Стріт-флеш до {{of}}',
-            en: 'Straight flush, {{one}} high',
-            de: 'Straight Flush bis {{one}}',
+            en: 'Straight flush, {{of}} high',
+            de: 'Straight Flush bis {{of}}',
             pl: 'Poker do {{of}}',
             zh: '同花顺，最大{{one}}',
         },

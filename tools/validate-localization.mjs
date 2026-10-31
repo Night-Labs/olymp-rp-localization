@@ -27,7 +27,8 @@ const DEFAULT_EXPORT_RE = /\bexport\s+default\b/;
 const DANGEROUS_CODE_PATTERNS = [
     { pattern: /\b(?:eval|Function|require|fetch|XMLHttpRequest|WebSocket)\s*\(/, message: 'dangerous runtime API is not allowed in localization files' },
     { pattern: /\bimport\s*\(/, message: 'dynamic import is not allowed in localization files' },
-    { pattern: /\b(?:process|global|globalThis|window|document|localStorage|sessionStorage)\b/, message: 'global runtime objects are not allowed in localization files' },
+    // A locale key may be named like a global (`window: { ru: ... }`): only a reference to one counts.
+    { pattern: /\b(?:process|global|globalThis|window|document|localStorage|sessionStorage)\b/, message: 'global runtime objects are not allowed in localization files', allowAsKey: true },
     { pattern: /\b(?:setTimeout|setInterval|setImmediate|queueMicrotask)\s*\(/, message: 'timers are not allowed in localization files' },
     { pattern: /\b(?:constructor|__proto__|prototype)\b/, message: 'prototype/constructor access is not allowed in localization files' },
 ];
@@ -126,11 +127,22 @@ function stripStringsAndComments(source) {
     return out;
 }
 
+/** The word at [start, end) is a property key: right after `{` or `,` and right before `:`. */
+function isObjectKey(source, start, end) {
+    let before = start - 1;
+    while (before >= 0 && /\s/.test(source[before])) before--;
+    let after = end;
+    while (after < source.length && /\s/.test(source[after])) after++;
+    return (source[before] === '{' || source[before] === ',') && source[after] === ':';
+}
+
 function checkDangerousCode(file, source) {
     const stripped = stripStringsAndComments(source);
     for (const rule of DANGEROUS_CODE_PATTERNS) {
-        if (rule.pattern.test(stripped)) {
+        for (const match of stripped.matchAll(new RegExp(rule.pattern.source, 'g'))) {
+            if (rule.allowAsKey && isObjectKey(stripped, match.index, match.index + match[0].length)) continue;
             report(file, rule.message);
+            break;
         }
     }
 }
