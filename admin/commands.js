@@ -2879,6 +2879,12 @@ export default {
         de: 'Spieler, Fahrzeuge und Peds um dich herum mit einstellbarem Radius und Kraft wegstoßen.',
         pl: 'Odepchnij graczy, pojazdy i pedów wokół siebie z konfigurowalnym promieniem i siłą.',
     },
+    kamui: {
+        ru: 'Вкл/выкл Камуи: игроки, педы, машины и пули проходят сквозь вас, с миром вы взаимодействуете как обычно. Другие админы не могут применять к вам команды.',
+        ua: 'Увімк/вимк Камуі: гравці, педи, машини та кулі проходять крізь вас, зі світом ви взаємодієте як зазвичай. Інші адміни не можуть застосовувати до вас команди.',
+        en: 'Toggle Kamui: players, peds, vehicles and bullets pass through you while the world stays solid. Other admins cannot use commands on you.',
+        de: 'Kamui umschalten: Spieler, Peds, Fahrzeuge und Kugeln gehen durch dich hindurch, die Welt bleibt fest. Andere Admins können keine Befehle auf dich anwenden.',
+    },
     set_random_temp_name: {
         ru: 'Выдать себе случайное временное имя и nameId для отладки nametag-сценариев.',
         ua: "Видати собі випадкове тимчасове ім'я та nameId для налагодження nametag-сценаріїв.",

@@ -1291,4 +1291,24 @@ export const server = {
             zh: '所有维度中已删除的管理员对象：{{count}}',
         },
     },
+    kamui: {
+        targetShielded: {
+            ru: 'Недоступно',
+            ua: 'Недоступно',
+            en: 'Unavailable',
+            de: 'Nicht verfügbar',
+        },
+        enabled: {
+            ru: 'Камуи включено',
+            ua: 'Камуі увімкнено',
+            en: 'Kamui on',
+            de: 'Kamui an',
+        },
+        disabled: {
+            ru: 'Камуи выключено',
+            ua: 'Камуі вимкнено',
+            en: 'Kamui off',
+            de: 'Kamui aus',
+        },
+    },
 };

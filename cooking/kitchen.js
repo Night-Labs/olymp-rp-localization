@@ -195,6 +195,12 @@ export const kitchen = {
             en: 'Level',
             de: 'Stufe',
         },
+        exp: {
+            ru: 'Опыт',
+            ua: 'Досвід',
+            en: 'Experience',
+            de: 'Erfahrung',
+        },
     },
     hours: {
         ru: '{{h}} ч',
@@ -395,59 +401,17 @@ export const kitchen = {
             en: 'How to cook',
             de: 'So wird gekocht',
         },
-        title: {
-            ru: 'Домашняя кухня',
-            ua: 'Домашня кухня',
-            en: 'Home kitchen',
-            de: 'Hausküche',
+        next: {
+            ru: 'Далее',
+            ua: 'Далі',
+            en: 'Next',
+            de: 'Weiter',
         },
-        text: {
-            ru: 'Готовьте у плиты, духовки, кофемашины или чайника в доме. Домашние блюда сытнее магазинной еды и дают бонусы: ешьте сами или продавайте другим игрокам.',
-            ua: 'Готуйте біля плити, духовки, кавомашини або чайника в домі. Домашні страви ситніші за магазинну їжу й дають бонуси: їжте самі або продавайте іншим гравцям.',
-            en: 'Cook at a stove, oven, coffee machine or kettle in a house. Home-cooked dishes fill you up better than shop food and give bonuses: eat them yourself or sell them to other players.',
-            de: 'Gekocht wird an Herd, Backofen, Kaffeemaschine oder Wasserkocher in einem Haus. Hausgemachte Gerichte sättigen mehr als Essen aus dem Laden und geben Boni: selbst essen oder an andere Spieler verkaufen.',
-        },
-        station: {
-            title: {
-                ru: 'Рецепт и шаги',
-                ua: 'Рецепт і кроки',
-                en: 'Recipe and steps',
-                de: 'Rezept und Schritte',
-            },
-            text: {
-                ru: 'Выберите рецепт: продукты берутся из карманов и холодильников этого дома. Каждый шаг - отдельная мини-игра, от неё зависит качество блюда.',
-                ua: 'Оберіть рецепт: продукти беруться з кишень і холодильників цього дому. Кожен крок - окрема міні-гра, від неї залежить якість страви.',
-                en: 'Pick a recipe: the ingredients come from your pockets and the fridges of this house. Every step is a minigame, and it decides how good the dish turns out.',
-                de: 'Wähle ein Rezept: Die Zutaten kommen aus deinen Taschen und den Kühlschränken dieses Hauses. Jeder Schritt ist ein Minispiel und entscheidet über die Qualität des Gerichts.',
-            },
-        },
-        fridge: {
-            title: {
-                ru: 'Холодильник',
-                ua: 'Холодильник',
-                en: 'Fridge',
-                de: 'Kühlschrank',
-            },
-            text: {
-                ru: 'Готовые блюда портятся со временем, где бы они ни лежали. В холодильнике они хранятся дольше, в морозильнике почти не портятся.',
-                ua: 'Готові страви псуються з часом, де б вони не лежали. У холодильнику вони зберігаються довше, у морозильнику майже не псуються.',
-                en: 'Cooked dishes go off over time wherever they are. They keep longer in a fridge and hardly age at all in a freezer.',
-                de: 'Gekochte Gerichte verderben mit der Zeit, egal wo sie liegen. Im Kühlschrank halten sie länger, im Gefrierschrank fast unbegrenzt.',
-            },
-        },
-        spoiled: {
-            title: {
-                ru: 'Испорченная еда',
-                ua: 'Зіпсована їжа',
-                en: 'Spoiled food',
-                de: 'Verdorbenes Essen',
-            },
-            text: {
-                ru: 'Полоска на предмете показывает свежесть. Испорченное блюдо не даёт бонуса и может отравить. Продукты из магазина не портятся.',
-                ua: 'Смужка на предметі показує свіжість. Зіпсована страва не дає бонусу й може отруїти. Продукти з магазину не псуються.',
-                en: 'The bar on an item shows how fresh it is. A spoiled dish gives no bonus and may poison you. Groceries from the shop never go off.',
-                de: 'Der Balken am Gegenstand zeigt die Frische. Ein verdorbenes Gericht gibt keinen Bonus und kann vergiften. Lebensmittel aus dem Laden verderben nie.',
-            },
+        back: {
+            ru: 'Назад',
+            ua: 'Назад',
+            en: 'Back',
+            de: 'Zurück',
         },
         go: {
             ru: 'К рецептам',
@@ -455,6 +419,350 @@ export const kitchen = {
             en: 'To the recipes',
             de: 'Zu den Rezepten',
         },
+        // The slides of the presentation; every number in them comes from the shared configs (webviews `systems/cooking/guide.ts`).
+        slides: {
+            howItWorks: {
+                chapter: {
+                    ru: 'Как готовить',
+                    ua: 'Як готувати',
+                    en: 'How to cook',
+                    de: 'So wird gekocht',
+                },
+                title: {
+                    ru: 'Домашняя кухня',
+                    ua: 'Домашня кухня',
+                    en: 'Home kitchen',
+                    de: 'Hausküche',
+                },
+                lead: {
+                    ru: 'Выберите рецепт, пройдите его шаги и заберите готовое блюдо. Ешьте сами или продавайте другим игрокам.',
+                    ua: 'Оберіть рецепт, пройдіть його кроки й заберіть готову страву. Їжте самі або продавайте іншим гравцям.',
+                    en: 'Pick a recipe, play through its steps and take the finished dish. Eat it yourself or sell it to other players.',
+                    de: 'Wähle ein Rezept, spiele seine Schritte durch und nimm das fertige Gericht mit. Iss es selbst oder verkaufe es an andere Spieler.',
+                },
+                facts: {
+                    ingredients: {
+                        ru: 'Продукты берутся сначала из карманов, потом из холодильников этого дома, если у вас есть доступ к хранилищу',
+                        ua: 'Продукти беруться спершу з кишень, потім з холодильників цього дому, якщо у вас є доступ до сховища',
+                        en: 'Ingredients come from your pockets first, then from the fridges of this house if you have storage access',
+                        de: 'Die Zutaten kommen zuerst aus deinen Taschen, dann aus den Kühlschränken dieses Hauses, wenn du Zugriff auf das Lager hast',
+                    },
+                    station: {
+                        ru: 'У каждой станции свои рецепты. Эта станция ({{station}}) готовит {{count}} из {{total}}',
+                        ua: 'Кожна станція має свої рецепти. Ця станція ({{station}}) готує {{count}} з {{total}}',
+                        en: 'Every station has its own recipes. This one ({{station}}) cooks {{count}} of {{total}}',
+                        de: 'Jede Station hat eigene Rezepte. Diese hier ({{station}}) kocht {{count}} von {{total}}',
+                    },
+                    steps: {
+                        ru: 'Каждый шаг рецепта - мини-игра: нарезать, пожарить, сварить. От того, как сыграете, зависит качество',
+                        ua: 'Кожен крок рецепта - міні-гра: нарізати, посмажити, зварити. Від того, як зіграєте, залежить якість',
+                        en: 'Every step of a recipe is a minigame: chop, fry, boil. How well you play decides the quality',
+                        de: 'Jeder Schritt eines Rezepts ist ein Minispiel: schneiden, braten, kochen. Wie gut du spielst, bestimmt die Qualität',
+                    },
+                    dish: {
+                        ru: 'Готовое блюдо утоляет голод и даёт бонус: к выносливости, здоровью, опыту, удаче и другим',
+                        ua: 'Готова страва втамовує голод і дає бонус: до витривалості, здоров\'я, досвіду, удачі та інших',
+                        en: 'A finished dish fills you up and gives a bonus: stamina, health, experience, luck and more',
+                        de: 'Ein fertiges Gericht macht satt und gibt einen Bonus: Ausdauer, Gesundheit, Erfahrung, Glück und mehr',
+                    },
+                },
+            },
+            levels: {
+                chapter: {
+                    ru: 'Уровень',
+                    ua: 'Рівень',
+                    en: 'Level',
+                    de: 'Stufe',
+                },
+                title: {
+                    ru: 'Уровень и рецепты',
+                    ua: 'Рівень і рецепти',
+                    en: 'Level and recipes',
+                    de: 'Stufe und Rezepte',
+                },
+                lead: {
+                    ru: 'Новые рецепты открываются с уровнем навыка. Опыт дают за каждое приготовленное блюдо, и чем выше качество, тем его больше.',
+                    ua: 'Нові рецепти відкриваються з рівнем навички. Досвід дають за кожну приготовану страву, і чим вища якість, тим його більше.',
+                    en: 'New recipes open as the skill levels up. Every cooked dish gives experience, and the better its quality, the more.',
+                    de: 'Neue Rezepte schalten sich mit der Stufe frei. Jedes gekochte Gericht gibt Erfahrung, und je besser die Qualität, desto mehr.',
+                },
+                facts: {
+                    discovery: {
+                        ru: 'опыта, когда готовите рецепт в первый раз',
+                        ua: 'досвіду, коли готуєте рецепт уперше',
+                        en: 'experience the first time you cook a recipe',
+                        de: 'Erfahrung beim ersten Kochen eines Rezepts',
+                    },
+                    stale: {
+                        ru: 'опыта за рецепт на {{levels}} и больше уровней ниже вашего',
+                        ua: 'досвіду за рецепт на {{levels}} і більше рівнів нижче за ваш',
+                        en: 'experience for a recipe {{levels}} or more levels below yours',
+                        de: 'Erfahrung für ein Rezept {{levels}} oder mehr Stufen unter deiner',
+                    },
+                },
+                perks: {
+                    title: {
+                        ru: 'Что даёт уровень',
+                        ua: 'Що дає рівень',
+                        en: 'What the level gives',
+                        de: 'Was die Stufe bringt',
+                    },
+                    now: {
+                        ru: 'Сейчас',
+                        ua: 'Зараз',
+                        en: 'Now',
+                        de: 'Jetzt',
+                    },
+                    max: {
+                        ru: 'На {{level}}',
+                        ua: 'На {{level}}',
+                        en: 'At {{level}}',
+                        de: 'Auf {{level}}',
+                    },
+                    window: {
+                        ru: 'Шире окна в мини-играх',
+                        ua: 'Ширші вікна в міні-іграх',
+                        en: 'Wider minigame windows',
+                        de: 'Breitere Fenster in Minispielen',
+                    },
+                    extraPortion: {
+                        ru: 'Шанс лишней порции',
+                        ua: 'Шанс зайвої порції',
+                        en: 'Chance of an extra portion',
+                        de: 'Chance auf eine Extraportion',
+                    },
+                    refund: {
+                        ru: 'Шанс сберечь продукт',
+                        ua: 'Шанс зберегти продукт',
+                        en: 'Chance to save an ingredient',
+                        de: 'Chance, eine Zutat zu sparen',
+                    },
+                    shelfLife: {
+                        ru: 'Дольше свежи ваши блюда',
+                        ua: 'Довше свіжі ваші страви',
+                        en: 'Your dishes stay fresh longer',
+                        de: 'Deine Gerichte bleiben länger frisch',
+                    },
+                },
+                ladder: {
+                    you: {
+                        ru: 'Вы здесь: уровень {{level}}',
+                        ua: 'Ви тут: рівень {{level}}',
+                        en: 'You are here: level {{level}}',
+                        de: 'Du bist hier: Stufe {{level}}',
+                    },
+                    other: {
+                        ru: 'Бледные блюда готовятся на другой станции',
+                        ua: 'Бліді страви готуються на іншій станції',
+                        en: 'Faded dishes are cooked at another station',
+                        de: 'Blasse Gerichte werden an einer anderen Station gekocht',
+                    },
+                    rank: {
+                        ru: 'Новое звание',
+                        ua: 'Нове звання',
+                        en: 'New title',
+                        de: 'Neuer Titel',
+                    },
+                },
+            },
+            quality: {
+                chapter: {
+                    ru: 'Качество',
+                    ua: 'Якість',
+                    en: 'Quality',
+                    de: 'Qualität',
+                },
+                title: {
+                    ru: 'Качество и бонус',
+                    ua: 'Якість і бонус',
+                    en: 'Quality and bonus',
+                    de: 'Qualität und Bonus',
+                },
+                lead: {
+                    ru: 'Каждый шаг оценивается от 0 до 100 очков. Из оценок шагов складывается качество блюда, а от качества зависит, сколько длится бонус. Подгоревшее блюдо можно съесть, но бонуса не будет.',
+                    ua: 'Кожен крок оцінюється від 0 до 100 очок. З оцінок кроків складається якість страви, а від якості залежить, скільки триває бонус. Пригорілу страву можна з\'їсти, але бонусу не буде.',
+                    en: 'Every step scores 0 to 100 points. The step scores make the quality of the dish, and the quality sets how long its bonus lasts. A burnt dish is still edible, but gives no bonus.',
+                    de: 'Jeder Schritt bringt 0 bis 100 Punkte. Aus den Punkten der Schritte ergibt sich die Qualität des Gerichts, und die Qualität bestimmt, wie lange der Bonus hält. Ein angebranntes Gericht ist essbar, gibt aber keinen Bonus.',
+                },
+                facts: {
+                    mainStep: {
+                        ru: 'весит главный шаг рецепта в общей оценке',
+                        ua: 'важить головний крок рецепта в загальній оцінці',
+                        en: 'is the weight of the main step in the dish score',
+                        de: 'zählt der Hauptschritt in der Gesamtwertung',
+                    },
+                    slots: {
+                        ru: 'бонус еды и бонус напитка действуют вместе. Новое блюдо заменяет прошлый бонус своего вида',
+                        ua: 'бонус їжі й бонус напою діють разом. Нова страва замінює попередній бонус свого виду',
+                        en: 'a meal bonus and a drink bonus work together. A new dish replaces the last bonus of its kind',
+                        de: 'ein Essens- und ein Getränkebonus wirken zusammen. Ein neues Gericht ersetzt den letzten Bonus seiner Art',
+                    },
+                    undercooked: {
+                        ru: 'шанс отравиться недожаренным мясом',
+                        ua: 'шанс отруїтися недосмаженим м\'ясом',
+                        en: 'chance of food poisoning from undercooked meat',
+                        de: 'Risiko einer Lebensmittelvergiftung durch nicht durchgegartes Fleisch',
+                    },
+                },
+                table: {
+                    quality: {
+                        ru: 'Качество',
+                        ua: 'Якість',
+                        en: 'Quality',
+                        de: 'Qualität',
+                    },
+                    score: {
+                        ru: 'Очки',
+                        ua: 'Очки',
+                        en: 'Points',
+                        de: 'Punkte',
+                    },
+                    meal: {
+                        ru: 'Бонус еды',
+                        ua: 'Бонус їжі',
+                        en: 'Meal bonus',
+                        de: 'Essensbonus',
+                    },
+                    drink: {
+                        ru: 'Бонус напитка',
+                        ua: 'Бонус напою',
+                        en: 'Drink bonus',
+                        de: 'Getränkebonus',
+                    },
+                },
+            },
+            pantry: {
+                chapter: {
+                    ru: 'Продукты',
+                    ua: 'Продукти',
+                    en: 'Ingredients',
+                    de: 'Zutaten',
+                },
+                title: {
+                    ru: 'Продукты и посуда',
+                    ua: 'Продукти й посуд',
+                    en: 'Ingredients and kitchenware',
+                    de: 'Zutaten und Küchengeräte',
+                },
+                lead: {
+                    ru: 'Продукты продаются в магазинах 24/7, в разделе "{{cooking}}". Овощи есть и у фермеров, а дичь, рыбу и грибы покупайте у охотников, рыбаков и грибников. Посуда лежит в 24/7, в разделе "{{tools}}", и работает, только когда она у вас в карманах.',
+                    ua: 'Продукти продаються в магазинах 24/7, у розділі "{{cooking}}". Овочі є й у фермерів, а дичину, рибу та гриби купуйте в мисливців, рибалок і грибників. Посуд лежить у 24/7, у розділі "{{tools}}", і працює, лише коли він у вас у кишенях.',
+                    en: 'Ingredients are sold at 24/7 stores, under "{{cooking}}". Farmers sell vegetables too; buy game meat, fish and mushrooms from hunters, fishers and mushroom pickers. Kitchenware is at 24/7 under "{{tools}}" and only counts while it is in your pockets.',
+                    de: 'Zutaten gibt es in 24/7-Läden unter "{{cooking}}". Gemüse haben auch die Bauern; Wild, Fisch und Pilze kaufst du bei Jägern, Fischern und Pilzsammlern. Küchengeräte findest du im 24/7 unter "{{tools}}"; sie zählen nur, wenn du sie in den Taschen hast.',
+                },
+                facts: {
+                    chef: {
+                        ru: 'к окну шага с шеф-посудой',
+                        ua: 'до вікна кроку з шеф-посудом',
+                        en: 'to a step window with chef kitchenware',
+                        de: 'zum Schrittfenster mit Profi-Küchengeräten',
+                    },
+                    uses: {
+                        ru: 'шагов выдерживает обычная и шеф-посуда',
+                        ua: 'кроків витримує звичайний і шеф-посуд',
+                        en: 'steps basic and chef kitchenware last',
+                        de: 'Schritte halten einfache und Profi-Geräte',
+                    },
+                    batches: {
+                        ru: 'партий за раз: продуктов и порций больше, а шаги проходятся один раз',
+                        ua: 'партій за раз: продуктів і порцій більше, а кроки проходяться один раз',
+                        en: 'batches at once: more ingredients and portions, the steps are played once',
+                        de: 'Durchgänge auf einmal: mehr Zutaten und Portionen, die Schritte spielst du einmal',
+                    },
+                },
+                tools: {
+                    have: {
+                        ru: 'Есть',
+                        ua: 'Є',
+                        en: 'Owned',
+                        de: 'Vorhanden',
+                    },
+                },
+            },
+            freshness: {
+                chapter: {
+                    ru: 'Свежесть',
+                    ua: 'Свіжість',
+                    en: 'Freshness',
+                    de: 'Frische',
+                },
+                title: {
+                    ru: 'Свежесть и холодильник',
+                    ua: 'Свіжість і холодильник',
+                    en: 'Freshness and the fridge',
+                    de: 'Frische und Kühlschrank',
+                },
+                lead: {
+                    ru: 'Готовые блюда портятся со временем, где бы ни лежали. Продукты из магазина и урожай фермы тоже, но медленнее: примерно за неделю. Вода и алкоголь не портятся. Свежесть видна по полоске на предмете.',
+                    ua: 'Готові страви псуються з часом, де б не лежали. Продукти з магазину і врожай ферми теж, але повільніше: приблизно за тиждень. Вода й алкоголь не псуються. Свіжість видно за смужкою на предметі.',
+                    en: 'Cooked dishes go off over time wherever they lie. Groceries from the shop and farm crops do too, only slower: in about a week. Water and alcohol keep. The bar on the item shows how fresh it is.',
+                    de: 'Gekochte Gerichte verderben mit der Zeit, egal wo sie liegen. Lebensmittel aus dem Laden und die Ernte vom Hof auch, nur langsamer: in etwa einer Woche. Wasser und Alkohol halten. Der Balken am Gegenstand zeigt die Frische.',
+                },
+                facts: {
+                    fridge: {
+                        ru: 'дольше хранятся блюда в холодильнике',
+                        ua: 'довше зберігаються страви в холодильнику',
+                        en: 'longer dishes keep in a fridge',
+                        de: 'länger halten Gerichte im Kühlschrank',
+                    },
+                    freezer: {
+                        ru: 'дольше в морозильнике',
+                        ua: 'довше в морозильнику',
+                        en: 'longer in a freezer',
+                        de: 'länger im Gefrierschrank',
+                    },
+                    stale: {
+                        ru: 'длится бонус несвежего блюда (последние {{share}}% срока)',
+                        ua: 'триває бонус несвіжої страви (останні {{share}}% терміну)',
+                        en: 'is how long a stale dish\'s bonus lasts (the last {{share}}% of its life)',
+                        de: 'hält der Bonus eines nicht frischen Gerichts (die letzten {{share}}% der Haltbarkeit)',
+                    },
+                    spoiled: {
+                        ru: 'шанс отравиться испорченным блюдом. Бонуса у него нет',
+                        ua: 'шанс отруїтися зіпсованою стравою. Бонусу вона не дає',
+                        en: 'chance of food poisoning from a spoiled dish. It gives no bonus',
+                        de: 'Risiko einer Lebensmittelvergiftung durch ein verdorbenes Gericht. Es gibt keinen Bonus',
+                    },
+                },
+                shelf: {
+                    ru: 'Через сколько блюда портятся вне холодильника, без бонуса навыка',
+                    ua: 'Через скільки страви псуються поза холодильником, без бонусу навички',
+                    en: 'When dishes spoil outside a fridge, before the skill bonus',
+                    de: 'Wann Gerichte ohne Kühlschrank verderben, ohne Fertigkeitsbonus',
+                },
+            },
+        },
+    },
+    // The open recipe's chain of minigames, the experience it gives and the cook's level as a way into the guide.
+    steps: {
+        ru: 'Шаги',
+        ua: 'Кроки',
+        en: 'Steps',
+        de: 'Schritte',
+    },
+    stepMain: {
+        ru: 'Главный',
+        ua: 'Головний',
+        en: 'Main',
+        de: 'Haupt',
+    },
+    expRange: {
+        ru: '+{{from}}-{{to}}',
+        ua: '+{{from}}-{{to}}',
+        en: '+{{from}}-{{to}}',
+        de: '+{{from}}-{{to}}',
+    },
+    minutesRange: {
+        ru: '{{from}}-{{to}} мин',
+        ua: '{{from}}-{{to}} хв',
+        en: '{{from}}-{{to}} min',
+        de: '{{from}}-{{to}} Min.',
+    },
+    skillGuide: {
+        ru: 'Как растёт уровень',
+        ua: 'Як росте рівень',
+        en: 'How the level grows',
+        de: 'Wie die Stufe steigt',
     },
     result: {
         ready: {

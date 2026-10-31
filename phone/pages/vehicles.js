@@ -36,7 +36,41 @@ export default {
         de: 'Favoriten enthalten bereits {{max}} Fahrzeuge',
         pl: 'W ulubionych jest już {{max}} pojazdów',
     },
+    // The list's filter by whose car it is: own ones with the ones held on a key, the organization's, the faction's.
+    filters: {
+        personal: {
+            ru: 'Личные',
+            ua: 'Особисті',
+            en: 'Personal',
+            de: 'Eigene',
+        },
+        family: {
+            ru: 'Семейные',
+            ua: 'Сімейні',
+            en: 'Family',
+            de: 'Familie',
+        },
+        faction: {
+            ru: 'Фракционные',
+            ua: 'Фракційні',
+            en: 'Faction',
+            de: 'Fraktion',
+        },
+    },
     control: {
+        // A faction car the player does not hold: it is taken and restored at the faction's garage.
+        factionFree: {
+            ru: 'Свободна. Взять её можно в гараже фракции на смене',
+            ua: 'Вільна. Взяти її можна в гаражі фракції на зміні',
+            en: 'Available. Take it at the faction garage while on duty',
+            de: 'Frei. Im Dienst in der Fraktionsgarage abholen',
+        },
+        factionDestroyed: {
+            ru: 'Разбита. Восстановить её можно в гараже фракции',
+            ua: 'Розбита. Відновити її можна в гаражі фракції',
+            en: 'Wrecked. It can be restored at the faction garage',
+            de: 'Zerstört. In der Fraktionsgarage wiederherstellen',
+        },
         km: {
             ru: 'км.',
             ua: 'км.',

@@ -278,4 +278,16 @@ export const server = {
         en: 'To cook',
         de: 'Um zu kochen',
     },
+    cookingKettle: {
+        ru: 'Чтобы заварить чай',
+        ua: 'Щоб заварити чай',
+        en: 'To brew tea',
+        de: 'Um Tee aufzubrühen',
+    },
+    cookingCoffee: {
+        ru: 'Чтобы сварить кофе',
+        ua: 'Щоб зварити каву',
+        en: 'To make coffee',
+        de: 'Um Kaffee zu kochen',
+    },
 };

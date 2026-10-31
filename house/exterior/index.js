@@ -42,6 +42,12 @@ export default {
             en: 'Yard',
             de: 'Garten',
         },
+        unavailable: {
+            ru: 'Недоступно',
+            ua: 'Недоступно',
+            en: 'Unavailable',
+            de: 'Nicht verfügbar',
+        },
     },
     notAvailable: {
         ru: 'Обустраивать двор можно только у домов премиум и элит класса',

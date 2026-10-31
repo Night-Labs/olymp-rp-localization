@@ -876,6 +876,12 @@ export default {
         de: 'Ein Objekt auswählen',
         pl: 'Wybierz obiekt',
     },
+    'furnitureEditor.multiSelect': {
+        ru: 'Выделить несколько (удерживать)',
+        ua: 'Виділити кілька (утримувати)',
+        en: 'Select several (hold)',
+        de: 'Mehrere auswählen (halten)',
+    },
     'furnitureEditor.deselect': {
         ru: 'Снять выделение',
         ua: 'Зняти виділення',
@@ -947,16 +953,16 @@ export default {
         pl: 'Osie: lokalne / globalne',
     },
     'furnitureEditor.rotateSnap': {
-        ru: 'Шаг поворота',
-        ua: 'Крок повороту',
-        en: 'Rotation step',
-        de: 'Drehschritt',
+        ru: 'Шаг поворота / перемещения',
+        ua: 'Крок повороту / переміщення',
+        en: 'Rotation / move step',
+        de: 'Dreh- / Bewegungsschritt',
     },
     'furnitureEditor.freeRotate': {
-        ru: 'Поворот без шага (удерживать)',
-        ua: 'Поворот без кроку (утримувати)',
-        en: 'Rotate freely (hold)',
-        de: 'Frei drehen (halten)',
+        ru: 'Без шага (удерживать)',
+        ua: 'Без кроку (утримувати)',
+        en: 'No step (hold)',
+        de: 'Ohne Schritt (halten)',
     },
     'furnitureEditor.hideHints': {
         ru: 'Скрыть подсказки',
