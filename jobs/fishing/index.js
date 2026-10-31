@@ -30,6 +30,12 @@ export default {
     },
 
     notify: {
+        disabled: {
+            ru: 'Рыбалка временно недоступна',
+            ua: 'Рибалка тимчасово недоступна',
+            en: 'Fishing is temporarily unavailable',
+            de: 'Angeln ist vorübergehend nicht verfügbar',
+        },
         rodInPockets: {
             ru: 'Удочка должна лежать в карманах',
             ua: 'Вудка має лежати в кишенях',
