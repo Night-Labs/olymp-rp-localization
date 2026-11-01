@@ -14,13 +14,19 @@ export default {
             de: 'Ein Haus im Editor erstellen: die Haustür beginnt dort, wo Sie stehen. Erneut zum Schließen',
         },
         delete: {
-            ru: 'Удалить дом, созданный через /house_create, вместе со всем, что в нём осталось. Только дом без владельца и брони',
-            ua: 'Видалити будинок, створений через /house_create, разом з усім, що в ньому лишилося. Лише будинок без власника й броні',
-            en: 'Delete a house built with /house_create, with everything left in it. Only a house with no owner or reservation',
-            de: 'Ein mit /house_create erstelltes Haus samt allem, was darin übrig ist, löschen. Nur ein Haus ohne Besitzer und Reservierung',
+            ru: 'Удалить дом вместе со всем, что в нём осталось. Только дом без владельца и брони',
+            ua: 'Видалити будинок разом з усім, що в ньому лишилося. Лише будинок без власника й броні',
+            en: 'Delete a house with everything left in it. Only a house with no owner or reservation',
+            de: 'Ein Haus samt allem, was darin übrig ist, löschen. Nur ein Haus ohne Besitzer und Reservierung',
         },
     },
     delete: {
+        action: {
+            ru: 'Удалить дом',
+            ua: 'Видалити будинок',
+            en: 'Delete house',
+            de: 'Haus löschen',
+        },
         title: {
             ru: 'Удалить дом №{{houseId}}?',
             ua: 'Видалити будинок №{{houseId}}?',
@@ -52,12 +58,6 @@ export default {
             de: 'Haus Nr. {{houseId}} ist gelöscht',
         },
         error: {
-            config: {
-                ru: 'Дом №{{houseId}} из списка домов в коде: командой удаляется только дом, созданный через /house_create',
-                ua: 'Будинок №{{houseId}} зі списку будинків у коді: командою видаляється лише будинок, створений через /house_create',
-                en: 'House #{{houseId}} comes from the house list in the code: the command deletes only a house built with /house_create',
-                de: 'Haus Nr. {{houseId}} stammt aus der Hausliste im Code: der Befehl löscht nur ein mit /house_create erstelltes Haus',
-            },
             occupied: {
                 ru: 'Дом №{{houseId}} занят: у него есть владелец или это штаб организации. Сначала освободите его',
                 ua: 'Будинок №{{houseId}} зайнятий: у нього є власник або це штаб організації. Спершу звільніть його',
