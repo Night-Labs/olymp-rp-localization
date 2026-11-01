@@ -2,7 +2,18 @@
  * Inside Job (docs/inside-job-design.md): the hidden-saboteur match in Humane Labs. The mode's name stays English in every
  * language (owner 2026-11-01). Colours are said out loud at meetings, so every colour has a name in every language.
  */
+import { gamesLab } from './gamesLab';
+import { gamesLong } from './gamesLong';
+import { screens } from './screens';
+import { server } from './server';
+
 export default {
+    // The task minigames (16.7) and their frame, the fix and security screens (16.6, 16.8, 16.9), the server's texts.
+    gamesLab,
+    gamesLong,
+    screens,
+    server,
+
     name: { ru: 'Inside Job', ua: 'Inside Job', en: 'Inside Job', de: 'Inside Job' },
 
     colours: {
