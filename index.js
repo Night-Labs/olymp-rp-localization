@@ -75,6 +75,7 @@ import grandmaster from './grandmaster';
 import walkieTalkie from './walkieTalkie';
 import drone from './drone';
 import tanks from './tanks';
+import insideJob from './insideJob';
 import photoCamera from './photoCamera';
 import elevators from './elevators';
 import shootingRange from './shootingRange';
@@ -219,6 +220,7 @@ export default {
     walkieTalkie,
     drone,
     tanks,
+    insideJob,
     photoCamera,
     elevators,
     shootingRange,
