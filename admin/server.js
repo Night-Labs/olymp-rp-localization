@@ -877,6 +877,32 @@ export const server = {
             pl: 'Organizacja "{{name}}" zresetowana do stanu z chwili założenia. Zabrano ze skarbca: ${{balance}}, z sejfów biur: ${{vault}}',
         },
     },
+    orgTakeBalance: {
+        notFound: {
+            ru: 'Организация с тегом {{tag}} не найдена',
+            ua: 'Організацію з тегом {{tag}} не знайдено',
+            en: 'No organization with tag {{tag}}',
+            de: 'Keine Organisation mit dem Tag {{tag}}',
+        },
+        notEnough: {
+            ru: 'В казне организации "{{name}}" только ${{balance}}',
+            ua: 'У казні організації "{{name}}" лише ${{balance}}',
+            en: 'The treasury of "{{name}}" holds only ${{balance}}',
+            de: 'In der Kasse von "{{name}}" sind nur ${{balance}}',
+        },
+        failed: {
+            ru: 'Не удалось списать деньги с казны организации "{{name}}"',
+            ua: 'Не вдалося списати гроші з казни організації "{{name}}"',
+            en: 'Failed to take money from the treasury of "{{name}}"',
+            de: 'Geld konnte nicht aus der Kasse von "{{name}}" entfernt werden',
+        },
+        done: {
+            ru: 'С казны организации "{{name}}" списано ${{amount}} (осталось: ${{total}})',
+            ua: 'З казни організації "{{name}}" списано ${{amount}} (залишилось: ${{total}})',
+            en: 'Took ${{amount}} from the treasury of "{{name}}" (left: ${{total}})',
+            de: '${{amount}} aus der Kasse von "{{name}}" entfernt (verbleibend: ${{total}})',
+        },
+    },
 
     orgContractClose: {
         title: {

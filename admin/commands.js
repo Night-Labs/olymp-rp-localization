@@ -3088,6 +3088,12 @@ export default {
         de: 'Die Organisation mit dem angegebenen Tag auf den Gründungszustand zurücksetzen: Kasse, Level, Ansehen, Upgrades, Aufträge, Gebiete, Büros, Lager und Organisationsfahrzeuge. Mitglieder, Ränge und das HQ bleiben.',
         pl: 'Zresetuj organizację o podanym tagu do stanu z chwili założenia: skarbiec, poziom, reputacja, ulepszenia, kontrakty, terytoria, biura, magazyn i pojazdy organizacji. Członkowie, rangi i HQ zostają.',
     },
+    take_org_balance: {
+        ru: 'Списать указанную сумму с казны организации с указанным тегом. Деньги никому не зачисляются, запись попадает в журнал организации.',
+        ua: 'Списати вказану суму з казни організації з вказаним тегом. Гроші нікому не зараховуються, запис потрапляє до журналу організації.',
+        en: 'Take the given amount out of the treasury of the organization with the given tag. The money goes to nobody; the entry lands in the organization journal.',
+        de: 'Den angegebenen Betrag aus der Kasse der Organisation mit dem angegebenen Tag entfernen. Das Geld geht an niemanden; der Eintrag landet im Organisationsjournal.',
+    },
     org_contract_close: {
         ru: 'Закрыть заказ организации с указанным тегом как выполненный: семейный или указанный по id. Награда делится между участниками по сданному, админ ничего не получает.',
         ua: 'Закрити замовлення організації з вказаним тегом як виконане: сімейне або вказане за id. Нагорода ділиться між учасниками за зданим, адмін нічого не отримує.',
