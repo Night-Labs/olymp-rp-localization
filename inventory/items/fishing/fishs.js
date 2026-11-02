@@ -443,148 +443,533 @@ export const fish = {
             de: 'Schwertfisch',
         },
         desc: {
-            ru: 'Ночной гигант глубины. Самый редкий и тяжёлый улов.',
-            ua: 'Нічний велетень глибини. Найрідкісніший і найважчий улов.',
-            en: 'A night giant of the deep. The rarest and heaviest catch.',
-            de: 'Ein nächtlicher Riese der Tiefe. Der seltenste und schwerste Fang.',
+            ru: 'Ночной гигант глубины. Самый редкий и тяжёлый улов у берегов Лос-Сантоса.',
+            ua: 'Нічний велетень глибини. Найрідкісніший і найважчий улов біля берегів Лос-Сантоса.',
+            en: 'A night giant of the deep. The rarest and heaviest catch off Los Santos.',
+            de: 'Ein nächtlicher Riese der Tiefe. Der seltenste und schwerste Fang vor Los Santos.',
+        },
+    },
+    bonefish: {
+        name: {
+            ru: 'Альбула',
+            ua: 'Альбула',
+            en: 'Bonefish',
+            de: 'Grätenfisch',
+        },
+        desc: {
+            ru: 'Серебристый призрак отмелей Кайо-Перико. Пуглива и стремительна.',
+            ua: 'Срібляста примара мілин Кайо-Періко. Полохлива і стрімка.',
+            en: 'The silver ghost of the Cayo Perico flats. Wary and lightning fast.',
+            de: 'Der silberne Geist der Flachwasser von Cayo Perico. Scheu und blitzschnell.',
+        },
+    },
+    redSnapper: {
+        name: {
+            ru: 'Красный луциан',
+            ua: 'Червоний луціан',
+            en: 'Red Snapper',
+            de: 'Roter Schnapper',
+        },
+        desc: {
+            ru: 'Рифовая рыба островных причалов. Клюёт в любое время суток.',
+            ua: 'Рифова риба острівних причалів. Клює в будь-яку пору доби.',
+            en: 'A reef fish of the island docks. Bites at any hour.',
+            de: 'Ein Rifffisch der Inselanleger. Beißt zu jeder Tageszeit.',
+        },
+    },
+    greatBarracuda: {
+        name: {
+            ru: 'Большая барракуда',
+            ua: 'Велика барракуда',
+            en: 'Great Barracuda',
+            de: 'Großer Barrakuda',
+        },
+        desc: {
+            ru: 'Зубастый хищник рифов. Бьёт по блесне молнией.',
+            ua: 'Зубатий хижак рифів. Б\'є по блешні блискавкою.',
+            en: 'A toothy reef predator. Hits a lure like lightning.',
+            de: 'Ein zahnbewehrter Riffräuber. Schlägt blitzschnell auf den Köder.',
+        },
+    },
+    permit: {
+        name: {
+            ru: 'Пермит',
+            ua: 'Перміт',
+            en: 'Permit',
+            de: 'Permit',
+        },
+        desc: {
+            ru: 'Осторожный и сильный житель отмелей. Мечта любого нахлыстовика.',
+            ua: 'Обережний і сильний мешканець мілин. Мрія кожного нахлистовика.',
+            en: 'A wary, powerful fish of the flats. Every fly angler\'s dream.',
+            de: 'Ein scheuer, kräftiger Fisch der Flachwasser. Der Traum jedes Fliegenfischers.',
+        },
+    },
+    commonSnook: {
+        name: {
+            ru: 'Снук',
+            ua: 'Снук',
+            en: 'Common Snook',
+            de: 'Snook',
+        },
+        desc: {
+            ru: 'Засадный хищник причалов и мангровых зарослей. Выходит в сумерках.',
+            ua: 'Хижак із засідки біля причалів і мангрових заростей. Виходить у сутінках.',
+            en: 'An ambush predator of docks and mangroves. Comes out at dusk.',
+            de: 'Ein Lauerjäger an Anlegern und Mangroven. Kommt in der Dämmerung heraus.',
+        },
+    },
+    tarpon: {
+        name: {
+            ru: 'Тарпон',
+            ua: 'Тарпон',
+            en: 'Tarpon',
+            de: 'Tarpun',
+        },
+        desc: {
+            ru: 'Серебряный король. Выпрыгивает из воды на подсечке и бьётся долго.',
+            ua: 'Срібний король. Вистрибує з води на підсічці й б\'ється довго.',
+            en: 'The silver king. Leaps from the water on the strike and fights long.',
+            de: 'Der Silberkönig. Springt beim Anhieb aus dem Wasser und kämpft lange.',
+        },
+    },
+    goliathGrouper: {
+        name: {
+            ru: 'Гигантский групер',
+            ua: 'Гігантський групер',
+            en: 'Goliath Grouper',
+            de: 'Riesenzackenbarsch',
+        },
+        desc: {
+            ru: 'Живёт под причалами и тянет в укрытие. Вытащить его - испытание.',
+            ua: 'Живе під причалами й тягне в укриття. Витягти його - випробування.',
+            en: 'Lives under the docks and pulls for cover. Landing one is a trial.',
+            de: 'Lebt unter den Anlegern und zieht in sein Versteck. Ihn zu landen ist eine Prüfung.',
+        },
+    },
+    wahoo: {
+        name: {
+            ru: 'Ваху',
+            ua: 'Ваху',
+            en: 'Wahoo',
+            de: 'Wahoo',
+        },
+        desc: {
+            ru: 'Одна из самых быстрых рыб океана. Берёт на троллинговую приманку.',
+            ua: 'Одна з найшвидших риб океану. Бере на тролінгову приманку.',
+            en: 'One of the fastest fish in the ocean. Takes a trolling lure.',
+            de: 'Einer der schnellsten Fische des Ozeans. Nimmt den Schleppköder.',
+        },
+    },
+    sailfish: {
+        name: {
+            ru: 'Парусник',
+            ua: 'Вітрильник',
+            en: 'Sailfish',
+            de: 'Fächerfisch',
+        },
+        desc: {
+            ru: 'Копьеносец с парусом на спине. Сражается в прыжках.',
+            ua: 'Списоносець із вітрилом на спині. Б\'ється у стрибках.',
+            en: 'A billfish with a sail on its back. Fights in leaps.',
+            de: 'Ein Speerfisch mit einem Segel auf dem Rücken. Kämpft in Sprüngen.',
+        },
+    },
+    blueMarlin: {
+        name: {
+            ru: 'Голубой марлин',
+            ua: 'Блакитний марлін',
+            en: 'Blue Marlin',
+            de: 'Blauer Marlin',
+        },
+        desc: {
+            ru: 'Легенда тропических вод. Самый редкий и тяжёлый улов Кайо-Перико.',
+            ua: 'Легенда тропічних вод. Найрідкісніший і найважчий улов Кайо-Періко.',
+            en: 'A legend of tropical waters. The rarest and heaviest catch of Cayo Perico.',
+            de: 'Eine Legende tropischer Gewässer. Der seltenste und schwerste Fang von Cayo Perico.',
         },
     },
 };
 
-const TROPHY_DESC = {
-    ru: 'Трофейный экземпляр: учитывается отдельно от обычного улова, скупщик платит за килограмм дороже.',
-    ua: 'Трофейний екземпляр: враховується окремо від звичайного улову, скупник платить за кілограм дорожче.',
-    en: 'A trophy specimen: kept apart from the ordinary catch, and the buyer pays more per kilogram.',
-    de: 'Ein Trophäenexemplar: wird getrennt vom normalen Fang geführt, der Händler zahlt mehr pro Kilogramm.',
-};
-
+// Every entry spells its desc out as a literal dict: the locale projector flattens only literal
+// dicts, and a shared constant reached the page as the whole four-language object.
 export const fishTrophy = {
     bluegill: {
         name: { ru: 'Трофейный синежаберный солнечник', ua: 'Трофейний синьозябровий сонячний окунь', en: 'Trophy Bluegill', de: 'Blauer Sonnenbarsch (Trophäe)' },
-        desc: TROPHY_DESC,
+        desc: {
+            ru: 'Трофейный экземпляр: учитывается отдельно от обычного улова, скупщик платит за килограмм дороже.',
+            ua: 'Трофейний екземпляр: враховується окремо від звичайного улову, скупник платить за кілограм дорожче.',
+            en: 'A trophy specimen: kept apart from the ordinary catch, and the buyer pays more per kilogram.',
+            de: 'Ein Trophäenexemplar: wird getrennt vom normalen Fang geführt, der Händler zahlt mehr pro Kilogramm.',
+        },
     },
     blackCrappie: {
         name: { ru: 'Трофейный чёрный краппи', ua: 'Трофейний чорний крапі', en: 'Trophy Black Crappie', de: 'Schwarzer Crappie (Trophäe)' },
-        desc: TROPHY_DESC,
+        desc: {
+            ru: 'Трофейный экземпляр: учитывается отдельно от обычного улова, скупщик платит за килограмм дороже.',
+            ua: 'Трофейний екземпляр: враховується окремо від звичайного улову, скупник платить за кілограм дорожче.',
+            en: 'A trophy specimen: kept apart from the ordinary catch, and the buyer pays more per kilogram.',
+            de: 'Ein Trophäenexemplar: wird getrennt vom normalen Fang geführt, der Händler zahlt mehr pro Kilogramm.',
+        },
     },
     commonCarp: {
         name: { ru: 'Трофейный карп', ua: 'Трофейний короп', en: 'Trophy Common Carp', de: 'Karpfen (Trophäe)' },
-        desc: TROPHY_DESC,
+        desc: {
+            ru: 'Трофейный экземпляр: учитывается отдельно от обычного улова, скупщик платит за килограмм дороже.',
+            ua: 'Трофейний екземпляр: враховується окремо від звичайного улову, скупник платить за кілограм дорожче.',
+            en: 'A trophy specimen: kept apart from the ordinary catch, and the buyer pays more per kilogram.',
+            de: 'Ein Trophäenexemplar: wird getrennt vom normalen Fang geführt, der Händler zahlt mehr pro Kilogramm.',
+        },
     },
     channelCatfish: {
         name: { ru: 'Трофейный канальный сомик', ua: 'Трофейний канальний сомик', en: 'Trophy Channel Catfish', de: 'Getüpfelter Gabelwels (Trophäe)' },
-        desc: TROPHY_DESC,
+        desc: {
+            ru: 'Трофейный экземпляр: учитывается отдельно от обычного улова, скупщик платит за килограмм дороже.',
+            ua: 'Трофейний екземпляр: враховується окремо від звичайного улову, скупник платить за кілограм дорожче.',
+            en: 'A trophy specimen: kept apart from the ordinary catch, and the buyer pays more per kilogram.',
+            de: 'Ein Trophäenexemplar: wird getrennt vom normalen Fang geführt, der Händler zahlt mehr pro Kilogramm.',
+        },
     },
     barredSurfperch: {
         name: { ru: 'Трофейная полосатая эмбиотока', ua: 'Трофейна смугаста ембіотока', en: 'Trophy Barred Surfperch', de: 'Gebänderter Brandungsbarsch (Trophäe)' },
-        desc: TROPHY_DESC,
+        desc: {
+            ru: 'Трофейный экземпляр: учитывается отдельно от обычного улова, скупщик платит за килограмм дороже.',
+            ua: 'Трофейний екземпляр: враховується окремо від звичайного улову, скупник платить за кілограм дорожче.',
+            en: 'A trophy specimen: kept apart from the ordinary catch, and the buyer pays more per kilogram.',
+            de: 'Ein Trophäenexemplar: wird getrennt vom normalen Fang geführt, der Händler zahlt mehr pro Kilogramm.',
+        },
     },
     pacificMackerel: {
         name: { ru: 'Трофейная тихоокеанская скумбрия', ua: 'Трофейна тихоокеанська скумбрія', en: 'Trophy Pacific Mackerel', de: 'Pazifische Makrele (Trophäe)' },
-        desc: TROPHY_DESC,
+        desc: {
+            ru: 'Трофейный экземпляр: учитывается отдельно от обычного улова, скупщик платит за килограмм дороже.',
+            ua: 'Трофейний екземпляр: враховується окремо від звичайного улову, скупник платить за кілограм дорожче.',
+            en: 'A trophy specimen: kept apart from the ordinary catch, and the buyer pays more per kilogram.',
+            de: 'Ein Trophäenexemplar: wird getrennt vom normalen Fang geführt, der Händler zahlt mehr pro Kilogramm.',
+        },
     },
     californiaCorbina: {
         name: { ru: 'Трофейная калифорнийская корбина', ua: 'Трофейна каліфорнійська корбіна', en: 'Trophy California Corbina', de: 'Kalifornischer Umberfisch (Trophäe)' },
-        desc: TROPHY_DESC,
+        desc: {
+            ru: 'Трофейный экземпляр: учитывается отдельно от обычного улова, скупщик платит за килограмм дороже.',
+            ua: 'Трофейний екземпляр: враховується окремо від звичайного улову, скупник платить за кілограм дорожче.',
+            en: 'A trophy specimen: kept apart from the ordinary catch, and the buyer pays more per kilogram.',
+            de: 'Ein Trophäenexemplar: wird getrennt vom normalen Fang geführt, der Händler zahlt mehr pro Kilogramm.',
+        },
     },
     largemouthBass: {
         name: { ru: 'Трофейный большеротый окунь', ua: 'Трофейний великоротий окунь', en: 'Trophy Largemouth Bass', de: 'Forellenbarsch (Trophäe)' },
-        desc: TROPHY_DESC,
+        desc: {
+            ru: 'Трофейный экземпляр: учитывается отдельно от обычного улова, скупщик платит за килограмм дороже.',
+            ua: 'Трофейний екземпляр: враховується окремо від звичайного улову, скупник платить за кілограм дорожче.',
+            en: 'A trophy specimen: kept apart from the ordinary catch, and the buyer pays more per kilogram.',
+            de: 'Ein Trophäenexemplar: wird getrennt vom normalen Fang geführt, der Händler zahlt mehr pro Kilogramm.',
+        },
     },
     smallmouthBass: {
         name: { ru: 'Трофейный малоротый окунь', ua: 'Трофейний малоротий окунь', en: 'Trophy Smallmouth Bass', de: 'Schwarzbarsch (Trophäe)' },
-        desc: TROPHY_DESC,
+        desc: {
+            ru: 'Трофейный экземпляр: учитывается отдельно от обычного улова, скупщик платит за килограмм дороже.',
+            ua: 'Трофейний екземпляр: враховується окремо від звичайного улову, скупник платить за кілограм дорожче.',
+            en: 'A trophy specimen: kept apart from the ordinary catch, and the buyer pays more per kilogram.',
+            de: 'Ein Trophäenexemplar: wird getrennt vom normalen Fang geführt, der Händler zahlt mehr pro Kilogramm.',
+        },
     },
     rainbowTrout: {
         name: { ru: 'Трофейная радужная форель', ua: 'Трофейна райдужна форель', en: 'Trophy Rainbow Trout', de: 'Regenbogenforelle (Trophäe)' },
-        desc: TROPHY_DESC,
+        desc: {
+            ru: 'Трофейный экземпляр: учитывается отдельно от обычного улова, скупщик платит за килограмм дороже.',
+            ua: 'Трофейний екземпляр: враховується окремо від звичайного улову, скупник платить за кілограм дорожче.',
+            en: 'A trophy specimen: kept apart from the ordinary catch, and the buyer pays more per kilogram.',
+            de: 'Ein Trophäenexemplar: wird getrennt vom normalen Fang geführt, der Händler zahlt mehr pro Kilogramm.',
+        },
     },
     flatheadCatfish: {
         name: { ru: 'Трофейный оливковый сом', ua: 'Трофейний оливковий сом', en: 'Trophy Flathead Catfish', de: 'Flachkopfwels (Trophäe)' },
-        desc: TROPHY_DESC,
+        desc: {
+            ru: 'Трофейный экземпляр: учитывается отдельно от обычного улова, скупщик платит за килограмм дороже.',
+            ua: 'Трофейний екземпляр: враховується окремо від звичайного улову, скупник платить за кілограм дорожче.',
+            en: 'A trophy specimen: kept apart from the ordinary catch, and the buyer pays more per kilogram.',
+            de: 'Ein Trophäenexemplar: wird getrennt vom normalen Fang geführt, der Händler zahlt mehr pro Kilogramm.',
+        },
     },
     stripedBass: {
         name: { ru: 'Трофейный полосатый лаврак', ua: 'Трофейний смугастий лаврак', en: 'Trophy Striped Bass', de: 'Felsenbarsch (Trophäe)' },
-        desc: TROPHY_DESC,
+        desc: {
+            ru: 'Трофейный экземпляр: учитывается отдельно от обычного улова, скупщик платит за килограмм дороже.',
+            ua: 'Трофейний екземпляр: враховується окремо від звичайного улову, скупник платить за кілограм дорожче.',
+            en: 'A trophy specimen: kept apart from the ordinary catch, and the buyer pays more per kilogram.',
+            de: 'Ein Trophäenexemplar: wird getrennt vom normalen Fang geführt, der Händler zahlt mehr pro Kilogramm.',
+        },
     },
     tilapia: {
         name: { ru: 'Трофейная тиляпия', ua: 'Трофейна тиляпія', en: 'Trophy Tilapia', de: 'Tilapia (Trophäe)' },
-        desc: TROPHY_DESC,
+        desc: {
+            ru: 'Трофейный экземпляр: учитывается отдельно от обычного улова, скупщик платит за килограмм дороже.',
+            ua: 'Трофейний екземпляр: враховується окремо від звичайного улову, скупник платить за кілограм дорожче.',
+            en: 'A trophy specimen: kept apart from the ordinary catch, and the buyer pays more per kilogram.',
+            de: 'Ein Trophäenexemplar: wird getrennt vom normalen Fang geführt, der Händler zahlt mehr pro Kilogramm.',
+        },
     },
     stripedMullet: {
         name: { ru: 'Трофейный лобан', ua: 'Трофейний лобань', en: 'Trophy Striped Mullet', de: 'Großkopfmeeräsche (Trophäe)' },
-        desc: TROPHY_DESC,
+        desc: {
+            ru: 'Трофейный экземпляр: учитывается отдельно от обычного улова, скупщик платит за килограмм дороже.',
+            ua: 'Трофейний екземпляр: враховується окремо від звичайного улову, скупник платить за кілограм дорожче.',
+            en: 'A trophy specimen: kept apart from the ordinary catch, and the buyer pays more per kilogram.',
+            de: 'Ein Trophäenexemplar: wird getrennt vom normalen Fang geführt, der Händler zahlt mehr pro Kilogramm.',
+        },
     },
     sargo: {
         name: { ru: 'Трофейный сарг', ua: 'Трофейний сарг', en: 'Trophy Sargo', de: 'Sargo (Trophäe)' },
-        desc: TROPHY_DESC,
+        desc: {
+            ru: 'Трофейный экземпляр: учитывается отдельно от обычного улова, скупщик платит за килограмм дороже.',
+            ua: 'Трофейний екземпляр: враховується окремо від звичайного улову, скупник платить за кілограм дорожче.',
+            en: 'A trophy specimen: kept apart from the ordinary catch, and the buyer pays more per kilogram.',
+            de: 'Ein Trophäenexemplar: wird getrennt vom normalen Fang geführt, der Händler zahlt mehr pro Kilogramm.',
+        },
     },
     orangemouthCorvina: {
         name: { ru: 'Трофейная оранжеворотая корвина', ua: 'Трофейна помаранчеворота корвіна', en: 'Trophy Orangemouth Corvina', de: 'Orangemaul-Corvina (Trophäe)' },
-        desc: TROPHY_DESC,
+        desc: {
+            ru: 'Трофейный экземпляр: учитывается отдельно от обычного улова, скупщик платит за килограмм дороже.',
+            ua: 'Трофейний екземпляр: враховується окремо від звичайного улову, скупник платить за кілограм дорожче.',
+            en: 'A trophy specimen: kept apart from the ordinary catch, and the buyer pays more per kilogram.',
+            de: 'Ein Trophäenexemplar: wird getrennt vom normalen Fang geführt, der Händler zahlt mehr pro Kilogramm.',
+        },
     },
     kelpBass: {
         name: { ru: 'Трофейный келповый окунь', ua: 'Трофейний келповий окунь', en: 'Trophy Kelp Bass', de: 'Kelpbarsch (Trophäe)' },
-        desc: TROPHY_DESC,
+        desc: {
+            ru: 'Трофейный экземпляр: учитывается отдельно от обычного улова, скупщик платит за килограмм дороже.',
+            ua: 'Трофейний екземпляр: враховується окремо від звичайного улову, скупник платить за кілограм дорожче.',
+            en: 'A trophy specimen: kept apart from the ordinary catch, and the buyer pays more per kilogram.',
+            de: 'Ein Trophäenexemplar: wird getrennt vom normalen Fang geführt, der Händler zahlt mehr pro Kilogramm.',
+        },
     },
     californiaSheephead: {
         name: { ru: 'Трофейный калифорнийский губан', ua: 'Трофейний каліфорнійський губань', en: 'Trophy California Sheephead', de: 'Kalifornischer Schafskopf (Trophäe)' },
-        desc: TROPHY_DESC,
+        desc: {
+            ru: 'Трофейный экземпляр: учитывается отдельно от обычного улова, скупщик платит за килограмм дороже.',
+            ua: 'Трофейний екземпляр: враховується окремо від звичайного улову, скупник платить за кілограм дорожче.',
+            en: 'A trophy specimen: kept apart from the ordinary catch, and the buyer pays more per kilogram.',
+            de: 'Ein Trophäenexemplar: wird getrennt vom normalen Fang geführt, der Händler zahlt mehr pro Kilogramm.',
+        },
     },
     vermilionRockfish: {
         name: { ru: 'Трофейный киноварный морской окунь', ua: 'Трофейний кіноварний морський окунь', en: 'Trophy Vermilion Rockfish', de: 'Zinnober-Drachenkopf (Trophäe)' },
-        desc: TROPHY_DESC,
+        desc: {
+            ru: 'Трофейный экземпляр: учитывается отдельно от обычного улова, скупщик платит за килограмм дороже.',
+            ua: 'Трофейний екземпляр: враховується окремо від звичайного улову, скупник платить за кілограм дорожче.',
+            en: 'A trophy specimen: kept apart from the ordinary catch, and the buyer pays more per kilogram.',
+            de: 'Ein Trophäenexemplar: wird getrennt vom normalen Fang geführt, der Händler zahlt mehr pro Kilogramm.',
+        },
     },
     californiaHalibut: {
         name: { ru: 'Трофейный калифорнийский палтус', ua: 'Трофейний каліфорнійський палтус', en: 'Trophy California Halibut', de: 'Kalifornischer Heilbutt (Trophäe)' },
-        desc: TROPHY_DESC,
+        desc: {
+            ru: 'Трофейный экземпляр: учитывается отдельно от обычного улова, скупщик платит за килограмм дороже.',
+            ua: 'Трофейний екземпляр: враховується окремо від звичайного улову, скупник платить за кілограм дорожче.',
+            en: 'A trophy specimen: kept apart from the ordinary catch, and the buyer pays more per kilogram.',
+            de: 'Ein Trophäenexemplar: wird getrennt vom normalen Fang geführt, der Händler zahlt mehr pro Kilogramm.',
+        },
     },
     lingcod: {
         name: { ru: 'Трофейный зубатый терпуг', ua: 'Трофейний зубатий терпуг', en: 'Trophy Lingcod', de: 'Lingcod (Trophäe)' },
-        desc: TROPHY_DESC,
+        desc: {
+            ru: 'Трофейный экземпляр: учитывается отдельно от обычного улова, скупщик платит за килограмм дороже.',
+            ua: 'Трофейний екземпляр: враховується окремо від звичайного улову, скупник платить за кілограм дорожче.',
+            en: 'A trophy specimen: kept apart from the ordinary catch, and the buyer pays more per kilogram.',
+            de: 'Ein Trophäenexemplar: wird getrennt vom normalen Fang geführt, der Händler zahlt mehr pro Kilogramm.',
+        },
     },
     leopardShark: {
         name: { ru: 'Трофейная леопардовая акула', ua: 'Трофейна леопардова акула', en: 'Trophy Leopard Shark', de: 'Leopardenhai (Trophäe)' },
-        desc: TROPHY_DESC,
+        desc: {
+            ru: 'Трофейный экземпляр: учитывается отдельно от обычного улова, скупщик платит за килограмм дороже.',
+            ua: 'Трофейний екземпляр: враховується окремо від звичайного улову, скупник платить за кілограм дорожче.',
+            en: 'A trophy specimen: kept apart from the ordinary catch, and the buyer pays more per kilogram.',
+            de: 'Ein Trophäenexemplar: wird getrennt vom normalen Fang geführt, der Händler zahlt mehr pro Kilogramm.',
+        },
     },
     pacificBarracuda: {
         name: { ru: 'Трофейная тихоокеанская барракуда', ua: 'Трофейна тихоокеанська барракуда', en: 'Trophy Pacific Barracuda', de: 'Pazifischer Barrakuda (Trophäe)' },
-        desc: TROPHY_DESC,
+        desc: {
+            ru: 'Трофейный экземпляр: учитывается отдельно от обычного улова, скупщик платит за килограмм дороже.',
+            ua: 'Трофейний екземпляр: враховується окремо від звичайного улову, скупник платить за кілограм дорожче.',
+            en: 'A trophy specimen: kept apart from the ordinary catch, and the buyer pays more per kilogram.',
+            de: 'Ein Trophäenexemplar: wird getrennt vom normalen Fang geführt, der Händler zahlt mehr pro Kilogramm.',
+        },
     },
     pacificBonito: {
         name: { ru: 'Трофейная тихоокеанская пеламида', ua: 'Трофейна тихоокеанська пеламіда', en: 'Trophy Pacific Bonito', de: 'Pazifischer Bonito (Trophäe)' },
-        desc: TROPHY_DESC,
+        desc: {
+            ru: 'Трофейный экземпляр: учитывается отдельно от обычного улова, скупщик платит за килограмм дороже.',
+            ua: 'Трофейний екземпляр: враховується окремо від звичайного улову, скупник платить за кілограм дорожче.',
+            en: 'A trophy specimen: kept apart from the ordinary catch, and the buyer pays more per kilogram.',
+            de: 'Ein Trophäenexemplar: wird getrennt vom normalen Fang geführt, der Händler zahlt mehr pro Kilogramm.',
+        },
     },
     californiaYellowtail: {
         name: { ru: 'Трофейная калифорнийская лакедра', ua: 'Трофейна каліфорнійська лакедра', en: 'Trophy California Yellowtail', de: 'Kalifornische Gelbschwanzmakrele (Trophäe)' },
-        desc: TROPHY_DESC,
+        desc: {
+            ru: 'Трофейный экземпляр: учитывается отдельно от обычного улова, скупщик платит за килограмм дороже.',
+            ua: 'Трофейний екземпляр: враховується окремо від звичайного улову, скупник платить за кілограм дорожче.',
+            en: 'A trophy specimen: kept apart from the ordinary catch, and the buyer pays more per kilogram.',
+            de: 'Ein Trophäenexemplar: wird getrennt vom normalen Fang geführt, der Händler zahlt mehr pro Kilogramm.',
+        },
     },
     whiteSeabass: {
         name: { ru: 'Трофейный белый горбыль', ua: 'Трофейний білий горбиль', en: 'Trophy White Seabass', de: 'Weißer Umberfisch (Trophäe)' },
-        desc: TROPHY_DESC,
+        desc: {
+            ru: 'Трофейный экземпляр: учитывается отдельно от обычного улова, скупщик платит за килограмм дороже.',
+            ua: 'Трофейний екземпляр: враховується окремо від звичайного улову, скупник платить за кілограм дорожче.',
+            en: 'A trophy specimen: kept apart from the ordinary catch, and the buyer pays more per kilogram.',
+            de: 'Ein Trophäenexemplar: wird getrennt vom normalen Fang geführt, der Händler zahlt mehr pro Kilogramm.',
+        },
     },
     dorado: {
         name: { ru: 'Трофейная корифена', ua: 'Трофейна корифена', en: 'Trophy Dorado', de: 'Goldmakrele (Trophäe)' },
-        desc: TROPHY_DESC,
+        desc: {
+            ru: 'Трофейный экземпляр: учитывается отдельно от обычного улова, скупщик платит за килограмм дороже.',
+            ua: 'Трофейний екземпляр: враховується окремо від звичайного улову, скупник платить за кілограм дорожче.',
+            en: 'A trophy specimen: kept apart from the ordinary catch, and the buyer pays more per kilogram.',
+            de: 'Ein Trophäenexemplar: wird getrennt vom normalen Fang geführt, der Händler zahlt mehr pro Kilogramm.',
+        },
     },
     yellowfin: {
         name: { ru: 'Трофейный желтопёрый тунец', ua: 'Трофейний жовтоперий тунець', en: 'Trophy Yellowfin Tuna', de: 'Gelbflossen-Thun (Trophäe)' },
-        desc: TROPHY_DESC,
+        desc: {
+            ru: 'Трофейный экземпляр: учитывается отдельно от обычного улова, скупщик платит за килограмм дороже.',
+            ua: 'Трофейний екземпляр: враховується окремо від звичайного улову, скупник платить за кілограм дорожче.',
+            en: 'A trophy specimen: kept apart from the ordinary catch, and the buyer pays more per kilogram.',
+            de: 'Ein Trophäenexemplar: wird getrennt vom normalen Fang geführt, der Händler zahlt mehr pro Kilogramm.',
+        },
     },
     pacificBluefin: {
         name: { ru: 'Трофейный тихоокеанский синий тунец', ua: 'Трофейний тихоокеанський синій тунець', en: 'Trophy Pacific Bluefin Tuna', de: 'Pazifischer Blauflossen-Thun (Trophäe)' },
-        desc: TROPHY_DESC,
+        desc: {
+            ru: 'Трофейный экземпляр: учитывается отдельно от обычного улова, скупщик платит за килограмм дороже.',
+            ua: 'Трофейний екземпляр: враховується окремо від звичайного улову, скупник платить за кілограм дорожче.',
+            en: 'A trophy specimen: kept apart from the ordinary catch, and the buyer pays more per kilogram.',
+            de: 'Ein Trophäenexemplar: wird getrennt vom normalen Fang geführt, der Händler zahlt mehr pro Kilogramm.',
+        },
     },
     stripedMarlin: {
         name: { ru: 'Трофейный полосатый марлин', ua: 'Трофейний смугастий марлін', en: 'Trophy Striped Marlin', de: 'Gestreifter Marlin (Trophäe)' },
-        desc: TROPHY_DESC,
+        desc: {
+            ru: 'Трофейный экземпляр: учитывается отдельно от обычного улова, скупщик платит за килограмм дороже.',
+            ua: 'Трофейний екземпляр: враховується окремо від звичайного улову, скупник платить за кілограм дорожче.',
+            en: 'A trophy specimen: kept apart from the ordinary catch, and the buyer pays more per kilogram.',
+            de: 'Ein Trophäenexemplar: wird getrennt vom normalen Fang geführt, der Händler zahlt mehr pro Kilogramm.',
+        },
     },
     shortfinMako: {
         name: { ru: 'Трофейная акула-мако', ua: 'Трофейна акула мако', en: 'Trophy Shortfin Mako', de: 'Kurzflossen-Mako (Trophäe)' },
-        desc: TROPHY_DESC,
+        desc: {
+            ru: 'Трофейный экземпляр: учитывается отдельно от обычного улова, скупщик платит за килограмм дороже.',
+            ua: 'Трофейний екземпляр: враховується окремо від звичайного улову, скупник платить за кілограм дорожче.',
+            en: 'A trophy specimen: kept apart from the ordinary catch, and the buyer pays more per kilogram.',
+            de: 'Ein Trophäenexemplar: wird getrennt vom normalen Fang geführt, der Händler zahlt mehr pro Kilogramm.',
+        },
     },
     swordfish: {
         name: { ru: 'Трофейная меч-рыба', ua: 'Трофейна риба-меч', en: 'Trophy Swordfish', de: 'Schwertfisch (Trophäe)' },
-        desc: TROPHY_DESC,
+        desc: {
+            ru: 'Трофейный экземпляр: учитывается отдельно от обычного улова, скупщик платит за килограмм дороже.',
+            ua: 'Трофейний екземпляр: враховується окремо від звичайного улову, скупник платить за кілограм дорожче.',
+            en: 'A trophy specimen: kept apart from the ordinary catch, and the buyer pays more per kilogram.',
+            de: 'Ein Trophäenexemplar: wird getrennt vom normalen Fang geführt, der Händler zahlt mehr pro Kilogramm.',
+        },
+    },
+    bonefish: {
+        name: { ru: 'Трофейная альбула', ua: 'Трофейна альбула', en: 'Trophy Bonefish', de: 'Grätenfisch (Trophäe)' },
+        desc: {
+            ru: 'Трофейный экземпляр: учитывается отдельно от обычного улова, скупщик платит за килограмм дороже.',
+            ua: 'Трофейний екземпляр: враховується окремо від звичайного улову, скупник платить за кілограм дорожче.',
+            en: 'A trophy specimen: kept apart from the ordinary catch, and the buyer pays more per kilogram.',
+            de: 'Ein Trophäenexemplar: wird getrennt vom normalen Fang geführt, der Händler zahlt mehr pro Kilogramm.',
+        },
+    },
+    redSnapper: {
+        name: { ru: 'Трофейный красный луциан', ua: 'Трофейний червоний луціан', en: 'Trophy Red Snapper', de: 'Roter Schnapper (Trophäe)' },
+        desc: {
+            ru: 'Трофейный экземпляр: учитывается отдельно от обычного улова, скупщик платит за килограмм дороже.',
+            ua: 'Трофейний екземпляр: враховується окремо від звичайного улову, скупник платить за кілограм дорожче.',
+            en: 'A trophy specimen: kept apart from the ordinary catch, and the buyer pays more per kilogram.',
+            de: 'Ein Trophäenexemplar: wird getrennt vom normalen Fang geführt, der Händler zahlt mehr pro Kilogramm.',
+        },
+    },
+    greatBarracuda: {
+        name: { ru: 'Трофейная большая барракуда', ua: 'Трофейна велика барракуда', en: 'Trophy Great Barracuda', de: 'Großer Barrakuda (Trophäe)' },
+        desc: {
+            ru: 'Трофейный экземпляр: учитывается отдельно от обычного улова, скупщик платит за килограмм дороже.',
+            ua: 'Трофейний екземпляр: враховується окремо від звичайного улову, скупник платить за кілограм дорожче.',
+            en: 'A trophy specimen: kept apart from the ordinary catch, and the buyer pays more per kilogram.',
+            de: 'Ein Trophäenexemplar: wird getrennt vom normalen Fang geführt, der Händler zahlt mehr pro Kilogramm.',
+        },
+    },
+    permit: {
+        name: { ru: 'Трофейный пермит', ua: 'Трофейний перміт', en: 'Trophy Permit', de: 'Permit (Trophäe)' },
+        desc: {
+            ru: 'Трофейный экземпляр: учитывается отдельно от обычного улова, скупщик платит за килограмм дороже.',
+            ua: 'Трофейний екземпляр: враховується окремо від звичайного улову, скупник платить за кілограм дорожче.',
+            en: 'A trophy specimen: kept apart from the ordinary catch, and the buyer pays more per kilogram.',
+            de: 'Ein Trophäenexemplar: wird getrennt vom normalen Fang geführt, der Händler zahlt mehr pro Kilogramm.',
+        },
+    },
+    commonSnook: {
+        name: { ru: 'Трофейный снук', ua: 'Трофейний снук', en: 'Trophy Common Snook', de: 'Snook (Trophäe)' },
+        desc: {
+            ru: 'Трофейный экземпляр: учитывается отдельно от обычного улова, скупщик платит за килограмм дороже.',
+            ua: 'Трофейний екземпляр: враховується окремо від звичайного улову, скупник платить за кілограм дорожче.',
+            en: 'A trophy specimen: kept apart from the ordinary catch, and the buyer pays more per kilogram.',
+            de: 'Ein Trophäenexemplar: wird getrennt vom normalen Fang geführt, der Händler zahlt mehr pro Kilogramm.',
+        },
+    },
+    tarpon: {
+        name: { ru: 'Трофейный тарпон', ua: 'Трофейний тарпон', en: 'Trophy Tarpon', de: 'Tarpun (Trophäe)' },
+        desc: {
+            ru: 'Трофейный экземпляр: учитывается отдельно от обычного улова, скупщик платит за килограмм дороже.',
+            ua: 'Трофейний екземпляр: враховується окремо від звичайного улову, скупник платить за кілограм дорожче.',
+            en: 'A trophy specimen: kept apart from the ordinary catch, and the buyer pays more per kilogram.',
+            de: 'Ein Trophäenexemplar: wird getrennt vom normalen Fang geführt, der Händler zahlt mehr pro Kilogramm.',
+        },
+    },
+    goliathGrouper: {
+        name: { ru: 'Трофейный гигантский групер', ua: 'Трофейний гігантський групер', en: 'Trophy Goliath Grouper', de: 'Riesenzackenbarsch (Trophäe)' },
+        desc: {
+            ru: 'Трофейный экземпляр: учитывается отдельно от обычного улова, скупщик платит за килограмм дороже.',
+            ua: 'Трофейний екземпляр: враховується окремо від звичайного улову, скупник платить за кілограм дорожче.',
+            en: 'A trophy specimen: kept apart from the ordinary catch, and the buyer pays more per kilogram.',
+            de: 'Ein Trophäenexemplar: wird getrennt vom normalen Fang geführt, der Händler zahlt mehr pro Kilogramm.',
+        },
+    },
+    wahoo: {
+        name: { ru: 'Трофейный ваху', ua: 'Трофейний ваху', en: 'Trophy Wahoo', de: 'Wahoo (Trophäe)' },
+        desc: {
+            ru: 'Трофейный экземпляр: учитывается отдельно от обычного улова, скупщик платит за килограмм дороже.',
+            ua: 'Трофейний екземпляр: враховується окремо від звичайного улову, скупник платить за кілограм дорожче.',
+            en: 'A trophy specimen: kept apart from the ordinary catch, and the buyer pays more per kilogram.',
+            de: 'Ein Trophäenexemplar: wird getrennt vom normalen Fang geführt, der Händler zahlt mehr pro Kilogramm.',
+        },
+    },
+    sailfish: {
+        name: { ru: 'Трофейный парусник', ua: 'Трофейний вітрильник', en: 'Trophy Sailfish', de: 'Fächerfisch (Trophäe)' },
+        desc: {
+            ru: 'Трофейный экземпляр: учитывается отдельно от обычного улова, скупщик платит за килограмм дороже.',
+            ua: 'Трофейний екземпляр: враховується окремо від звичайного улову, скупник платить за кілограм дорожче.',
+            en: 'A trophy specimen: kept apart from the ordinary catch, and the buyer pays more per kilogram.',
+            de: 'Ein Trophäenexemplar: wird getrennt vom normalen Fang geführt, der Händler zahlt mehr pro Kilogramm.',
+        },
+    },
+    blueMarlin: {
+        name: { ru: 'Трофейный голубой марлин', ua: 'Трофейний блакитний марлін', en: 'Trophy Blue Marlin', de: 'Blauer Marlin (Trophäe)' },
+        desc: {
+            ru: 'Трофейный экземпляр: учитывается отдельно от обычного улова, скупщик платит за килограмм дороже.',
+            ua: 'Трофейний екземпляр: враховується окремо від звичайного улову, скупник платить за кілограм дорожче.',
+            en: 'A trophy specimen: kept apart from the ordinary catch, and the buyer pays more per kilogram.',
+            de: 'Ein Trophäenexemplar: wird getrennt vom normalen Fang geführt, der Händler zahlt mehr pro Kilogramm.',
+        },
     },
 };

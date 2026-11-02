@@ -107,12 +107,6 @@ export default {
             en: 'Contracts at once: {{value}}',
             de: 'Aufträge gleichzeitig: {{value}}',
         },
-        deck: {
-            ru: 'Рыбалка с палубы лодки',
-            ua: 'Риболовля з палуби човна',
-            en: 'Fishing from a boat\'s deck',
-            de: 'Angeln vom Bootsdeck',
-        },
     },
 
     branches: {

@@ -673,6 +673,12 @@ export default {
         en: 'Fishing: release the fish',
         de: 'Angeln: Fisch freilassen',
     },
+    'fishing.target': {
+        ru: 'Рыбалка: куда класть улов',
+        ua: 'Риболовля: куди класти улов',
+        en: 'Fishing: where the catch goes',
+        de: 'Angeln: wohin der Fang kommt',
+    },
     sit: {
         ru: 'Сесть',
         ua: 'Сісти',

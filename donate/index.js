@@ -179,6 +179,28 @@ export default {
             de: 'Gegenstände verkaufen',
         },
 
+        // What a bulk take / sale left on the warehouse, each slot with why
+        receiveItemsFailedTitle: {
+            ru: 'Не всё удалось получить',
+            ua: 'Не все вдалося отримати',
+            en: 'Not everything was received',
+            de: 'Nicht alles konnte erhalten werden',
+        },
+
+        sellItemsFailedTitle: {
+            ru: 'Не всё удалось продать',
+            ua: 'Не все вдалося продати',
+            en: 'Not everything was sold',
+            de: 'Nicht alles konnte verkauft werden',
+        },
+
+        closeButton: {
+            ru: 'Закрыть',
+            ua: 'Закрити',
+            en: 'Close',
+            de: 'Schließen',
+        },
+
         destroyTitle: {
             ru: 'Уничтожение предмета',
             ua: 'Знищення предмета',

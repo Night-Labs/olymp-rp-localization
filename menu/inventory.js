@@ -345,6 +345,78 @@ export const inventory = {
                 de: 'Schnur',
             },
         },
+        // The part picker a slot opens (components/partPicker.vue): the part in the slot and what the player carries
+        // that goes in; `verdict` is what a click on a part does, or why it does nothing.
+        picker: {
+            takeOff: {
+                ru: 'Снять',
+                ua: 'Зняти',
+                en: 'Take off',
+                de: 'Abnehmen',
+            },
+            empty: {
+                ru: 'Пусто',
+                ua: 'Порожньо',
+                en: 'Empty',
+                de: 'Leer',
+            },
+            carried: {
+                ru: 'Можно поставить',
+                ua: 'Можна встановити',
+                en: 'Can be fitted',
+                de: 'Passt hinein',
+            },
+            inBackpack: {
+                ru: 'В рюкзаке',
+                ua: 'У рюкзаку',
+                en: 'In the backpack',
+                de: 'Im Rucksack',
+            },
+            none: {
+                ru: 'Нет подходящих предметов',
+                ua: 'Немає відповідних предметів',
+                en: 'Nothing that fits',
+                de: 'Nichts Passendes',
+            },
+            whereTackle: {
+                ru: 'Снасти продаются на рыболовных базах',
+                ua: 'Снасті продаються на рибальських базах',
+                en: 'Tackle is sold at fishing bases',
+                de: 'Angelzubehör gibt es an Angelstationen',
+            },
+            whereParts: {
+                ru: 'Обвесы продаются в оружейных магазинах',
+                ua: 'Обвіси продаються у збройових магазинах',
+                en: 'Attachments are sold at gun stores',
+                de: 'Aufsätze gibt es in Waffenläden',
+            },
+            verdict: {
+                fit: {
+                    ru: 'Установить',
+                    ua: 'Встановити',
+                    en: 'Fit',
+                    de: 'Anbringen',
+                },
+                topUp: {
+                    ru: 'Пополнить',
+                    ua: 'Поповнити',
+                    en: 'Top up',
+                    de: 'Auffüllen',
+                },
+                fitted: {
+                    ru: 'Уже установлено',
+                    ua: 'Вже встановлено',
+                    en: 'Already fitted',
+                    de: 'Schon angebracht',
+                },
+                full: {
+                    ru: 'Наживка уже полная',
+                    ua: 'Наживка вже повна',
+                    en: 'Bait already full',
+                    de: 'Köder schon voll',
+                },
+            },
+        },
     },
     quantityMenu: {
         divide: {

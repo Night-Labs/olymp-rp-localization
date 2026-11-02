@@ -33,6 +33,14 @@ export const cases = {
         zh: '你没有盒子',
     },
 
+    // A prize of the opening could not be built (a case config error): every case stays where it was
+    openFailed: {
+        ru: 'Не удалось открыть кейс, обратитесь в поддержку',
+        ua: 'Не вдалося відкрити кейс, зверніться до підтримки',
+        en: 'Could not open the case, contact support',
+        de: 'Die Kiste konnte nicht geöffnet werden, wende dich an den Support',
+    },
+
     back: {
         ru: 'Вернуться к кейсам',
         ua: 'Повернутися до кейсів',

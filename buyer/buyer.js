@@ -104,7 +104,7 @@ export default {
         de: '/kg',
     },
 
-    // The smallest lot one sale takes, next to the amount field: {{amount}} is a mass, "1 kg".
+    // The smallest sale, next to the amount field: {{amount}} is a sum, "$1".
     minLot: {
         ru: 'мин. {{amount}}',
         ua: 'мін. {{amount}}',
@@ -213,11 +213,11 @@ export default {
         de: 'Du hast {{quantity}} Fang für ${{price}} verkauft',
     },
 
-    minLotKg: {
-        ru: 'Скупщик берёт не меньше {{kg}} кг за раз',
-        ua: 'Скупник бере не менше {{kg}} кг за раз',
-        en: 'The buyer takes at least {{kg}} kg at a time',
-        de: 'Der Händler nimmt mindestens {{kg}} kg auf einmal',
+    minSale: {
+        ru: 'Скупщик не берёт сделки дешевле {{price}}',
+        ua: 'Скупник не бере угоди дешевші за {{price}}',
+        en: 'The buyer takes no deal worth less than {{price}}',
+        de: 'Der Händler nimmt keinen Handel unter {{price}} an',
     },
 
     updatePriceIn: {
@@ -342,6 +342,23 @@ export default {
             en: 'Stolen goods',
             de: 'Diebesgut',
             pl: 'Kradzionych rzeczy',
+        },
+    },
+
+    // The variants of one catalogue card (a fish species: the ordinary catch and the trophy), as the
+    // card's rows and the switch of the sale panel name them.
+    variants: {
+        normal: {
+            ru: 'Обычная',
+            ua: 'Звичайна',
+            en: 'Regular',
+            de: 'Normal',
+        },
+        trophy: {
+            ru: 'Трофейная',
+            ua: 'Трофейна',
+            en: 'Trophy',
+            de: 'Trophäe',
         },
     },
 };

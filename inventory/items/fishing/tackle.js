@@ -91,6 +91,20 @@ export const reels = {
 };
 
 export const lines = {
+    basic: {
+        name: {
+            ru: 'Обычная леска',
+            ua: 'Звичайна волосінь',
+            en: 'Regular Line',
+            de: 'Normale Schnur',
+        },
+        desc: {
+            ru: 'Обычная леска без особенностей. Без лески удочку не закинуть: установите её через оснастку удочки.',
+            ua: 'Звичайна волосінь без особливостей. Без волосіні вудку не закинути: встановіть її через оснащення вудки.',
+            en: 'A plain line with no special traits. A rod does not cast without a line: fit it through the rod\'s tackle.',
+            de: 'Eine einfache Schnur ohne Besonderheiten. Ohne Schnur lässt sich die Angel nicht auswerfen: bring sie über die Ausrüstung der Angel an.',
+        },
+    },
     strong: {
         name: {
             ru: 'Прочная леска',

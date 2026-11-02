@@ -54,23 +54,23 @@ export default {
             en: 'These waters open at fishing rank {{rank}}',
             de: 'Diese Gewässer werden ab Angelrang {{rank}} freigeschaltet',
         },
-        boatRequired: {
-            ru: 'Здесь рыбачат только с палубы лодки',
-            ua: 'Тут рибалять лише з палуби човна',
-            en: 'Here you can only fish from the deck of a boat',
-            de: 'Hier kannst du nur vom Deck eines Bootes aus angeln',
+        swimming: {
+            ru: 'Вплавь рыбачить нельзя: встаньте на берег, причал или палубу',
+            ua: 'Рибалити вплав не можна: станьте на берег, причал або палубу',
+            en: 'You cannot fish while swimming: stand on a shore, a pier or a deck',
+            de: 'Schwimmend kannst du nicht angeln: stell dich ans Ufer, auf einen Steg oder ein Deck',
         },
-        noBoatHere: {
-            ru: 'Здесь рыбачат только с берега',
-            ua: 'Тут рибалять лише з берега',
-            en: 'Here you can only fish from the shore',
-            de: 'Hier kannst du nur vom Ufer aus angeln',
+        noLine: {
+            ru: 'На удочке нет лески. Установите её через оснастку удочки. Леску можно купить в магазине 24/7 или на рыболовной базе',
+            ua: 'На вудці немає волосіні. Встановіть її через оснащення вудки. Волосінь можна купити в магазині 24/7 або на рибальській базі',
+            en: 'There is no line on the rod. Fit one through the rod\'s tackle. Lines are sold at 24/7 stores and the fishing bases',
+            de: 'An der Angel ist keine Schnur. Bring eine über die Ausrüstung der Angel an. Schnüre gibt es in 24/7-Läden und an den Angelstationen',
         },
-        deckRank: {
-            ru: 'Рыбалка с палубы открывается с {{rank}} ранга',
-            ua: 'Риболовля з палуби відкривається з {{rank}} рангу',
-            en: 'Fishing from a deck opens at rank {{rank}}',
-            de: 'Angeln vom Deck wird ab Rang {{rank}} freigeschaltet',
+        lineWornOut: {
+            ru: 'Леска износилась и порвалась. Установите новую через оснастку удочки. Леску можно купить в магазине 24/7 или на рыболовной базе',
+            ua: 'Волосінь зносилася й порвалася. Встановіть нову через оснащення вудки. Волосінь можна купити в магазині 24/7 або на рибальській базі',
+            en: 'The line wore out and broke. Fit a new one through the rod\'s tackle. Lines are sold at 24/7 stores and the fishing bases',
+            de: 'Die Schnur ist verschlissen und gerissen. Bring eine neue über die Ausrüstung der Angel an. Schnüre gibt es in 24/7-Läden und an den Angelstationen',
         },
         noBait: {
             ru: 'На удочке нет наживки. Наденьте её через оснастку удочки',
@@ -96,17 +96,17 @@ export default {
             en: 'You cannot change the tackle while the line is in the water',
             de: 'Die Ausrüstung lässt sich nicht wechseln, solange die Schnur im Wasser ist',
         },
+        rigging: {
+            ru: 'Сначала закончите оснащать удочку',
+            ua: 'Спершу закінчіть оснащувати вудку',
+            en: 'Finish rigging the rod first',
+            de: 'Rüste zuerst die Angel fertig aus',
+        },
         decideCatch: {
             ru: 'Сначала заберите пойманную рыбу или отпустите её',
             ua: 'Спершу заберіть спійману рибу або відпустіть її',
             en: 'Keep or release the fish you caught first',
             de: 'Behalte zuerst den gefangenen Fisch oder lass ihn frei',
-        },
-        noRoomOnDeck: {
-            ru: 'В карманах нет места: освободите место или отпустите рыбу',
-            ua: 'У кишенях немає місця: звільніть місце або відпустіть рибу',
-            en: 'No room in your pockets: make room or release the fish',
-            de: 'Kein Platz in den Taschen: schaffe Platz oder lass den Fisch frei',
         },
         noSeat: {
             ru: 'Этот групповой контракт взят до того, как вы вступили в группу',
@@ -264,6 +264,46 @@ export default {
             en: 'The contract ran out of time: {{species}}',
             de: 'Die Zeit für den Auftrag ist abgelaufen: {{species}}',
         },
+        // Where a taken fish goes (server jobs/fishing/target).
+        targetTrunkLost: {
+            ru: 'Багажник больше не доступен: улов снова идёт в инвентарь',
+            ua: 'Багажник більше не доступний: улов знову йде в інвентар',
+            en: 'The trunk is out of reach: the catch goes to your inventory again',
+            de: 'Der Kofferraum ist nicht mehr erreichbar: der Fang kommt wieder ins Inventar',
+        },
+        targetGone: {
+            ru: 'Этот вариант больше недоступен',
+            ua: 'Цей варіант більше недоступний',
+            en: 'That place is no longer available',
+            de: 'Dieser Ort ist nicht mehr verfügbar',
+        },
+        targetBackpackLost: {
+            ru: 'Рюкзак снят: улов снова идёт в инвентарь',
+            ua: 'Рюкзак знято: улов знову йде в інвентар',
+            en: 'The backpack is off: the catch goes to your inventory again',
+            de: 'Der Rucksack ist abgelegt: der Fang kommt wieder ins Inventar',
+        },
+        // Said before the pockets are tried: whether the fish fits there or lands next to the player comes in its own notice.
+        trunkFull: {
+            ru: 'В багажнике нет места для этой рыбы',
+            ua: 'У багажнику немає місця для цієї риби',
+            en: 'No room in the trunk for this fish',
+            de: 'Kein Platz im Kofferraum für diesen Fisch',
+        },
+        backpackFull: {
+            ru: 'В рюкзаке нет места для этой рыбы',
+            ua: 'У рюкзаку немає місця для цієї риби',
+            en: 'No room in the backpack for this fish',
+            de: 'Kein Platz im Rucksack für diesen Fisch',
+        },
+    },
+
+    // /rod_test: the block in the HUD hints strip naming the rod model in the hands (client jobs/fishing/session.ts).
+    rodTestHeader: {
+        ru: 'Тест удочки',
+        ua: 'Тест вудки',
+        en: 'Rod test',
+        de: 'Angeltest',
     },
 
     // The contract block of the HUD task list (server jobs/fishing/contracts.ts updateFishingHud).
@@ -439,6 +479,42 @@ export default {
             ua: 'Відкритий океан: схід',
             en: 'Open ocean: east',
             de: 'Offener Ozean: Ost',
+        },
+        cayoNorthBay: {
+            ru: 'Кайо-Перико: северная бухта',
+            ua: 'Кайо-Періко: північна бухта',
+            en: 'Cayo Perico: north bay',
+            de: 'Cayo Perico: Nordbucht',
+        },
+        cayoNorthDock: {
+            ru: 'Кайо-Перико: северный причал',
+            ua: 'Кайо-Періко: північний причал',
+            en: 'Cayo Perico: north dock',
+            de: 'Cayo Perico: Nordanleger',
+        },
+        cayoMainDock: {
+            ru: 'Кайо-Перико: главный причал',
+            ua: 'Кайо-Періко: головний причал',
+            en: 'Cayo Perico: main dock',
+            de: 'Cayo Perico: Hauptanleger',
+        },
+        cayoSouthBeach: {
+            ru: 'Кайо-Перико: южный пляж',
+            ua: 'Кайо-Періко: південний пляж',
+            en: 'Cayo Perico: south beach',
+            de: 'Cayo Perico: Südstrand',
+        },
+        cayoWestWaters: {
+            ru: 'Воды Кайо-Перико: запад',
+            ua: 'Води Кайо-Періко: захід',
+            en: 'Cayo Perico waters: west',
+            de: 'Gewässer von Cayo Perico: West',
+        },
+        cayoNorthEastWaters: {
+            ru: 'Воды Кайо-Перико: северо-восток',
+            ua: 'Води Кайо-Періко: північний схід',
+            en: 'Cayo Perico waters: north-east',
+            de: 'Gewässer von Cayo Perico: Nordost',
         },
     },
 };

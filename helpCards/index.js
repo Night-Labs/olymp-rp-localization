@@ -267,10 +267,10 @@ export default {
             pl: 'Pierwszy połów',
         },
         text: {
-            ru: 'Улов продаётся скупщику рыбы на вес, от 1 кг: "Навигатор" в телефоне, раздел "Скупщики". Снасти, контракты и навыки - на рыболовных базах в Палето-Коув и на побережье Сан-Шиански. С рангом открываются новые воды.',
-            ua: 'Улов продається скупнику риби на вагу, від 1 кг: "Навігатор" у телефоні, розділ "Скупники". Снасті, контракти й навички - на рибальських базах у Палето-Ков і на узбережжі Сан-Шиански. З рангом відкриваються нові води.',
-            en: 'Sell your catch to a fish buyer by weight, from 1 kg: "Navigator" on the phone, "Buyers" section. Tackle, contracts and skills are at the fishing bases in Paleto Cove and on the San Chianski coast. Each rank opens new waters.',
-            de: 'Deinen Fang verkaufst du nach Gewicht an einen Fischhändler, ab 1 kg: "Navigation" im Handy, Bereich "Käufer". Ausrüstung, Aufträge und Fähigkeiten gibt es an den Angelstationen in Paleto Cove und an der Küste von San Chianski. Jeder Rang schaltet neue Gewässer frei.',
+            ru: 'Улов продаётся скупщику рыбы на вес, любым количеством: "Навигатор" в телефоне, раздел "Скупщики". Снасти, контракты и навыки - на рыболовных базах в Палето-Коув и на побережье Сан-Шиански. С рангом открываются новые воды.',
+            ua: 'Улов продається скупнику риби на вагу, будь-якою кількістю: "Навігатор" у телефоні, розділ "Скупники". Снасті, контракти й навички - на рибальських базах у Палето-Ков і на узбережжі Сан-Шиански. З рангом відкриваються нові води.',
+            en: 'Sell your catch to a fish buyer by weight, in any amount: "Navigator" on the phone, "Buyers" section. Tackle, contracts and skills are at the fishing bases in Paleto Cove and on the San Chianski coast. Each rank opens new waters.',
+            de: 'Deinen Fang verkaufst du nach Gewicht an einen Fischhändler, in jeder Menge: "Navigation" im Handy, Bereich "Käufer". Ausrüstung, Aufträge und Fähigkeiten gibt es an den Angelstationen in Paleto Cove und an der Küste von San Chianski. Jeder Rang schaltet neue Gewässer frei.',
         },
     },
     fishingBait: {

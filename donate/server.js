@@ -152,6 +152,58 @@ export const server = {
         pl: 'Ta ekskluzywna animacja jest już odblokowana',
     },
 
+    // Why a slot stayed on the warehouse: a bulk take / sale of the multi case opening summary leaves it to a single one
+    oneByOne: {
+        ru: 'Только отдельно, через склад',
+        ua: 'Тільки окремо, через склад',
+        en: 'Only one at a time, from the warehouse',
+        de: 'Nur einzeln, über das Lager',
+    },
+
+    // Why a slot stayed on the warehouse: the grant did not happen
+    itemKept: {
+        ru: 'Не получилось: предмет остался на складе',
+        ua: 'Не вийшло: предмет залишився на складі',
+        en: 'Did not work: the item stays in the warehouse',
+        de: 'Hat nicht geklappt: der Gegenstand bleibt im Lager',
+    },
+
+    // The coins of a take or a sale did not land on the balance (a database refusal)
+    coinsFailed: {
+        ru: 'Не удалось зачислить Olymp-Coins, попробуйте ещё раз',
+        ua: 'Не вдалося зарахувати Olymp-Coins, спробуйте ще раз',
+        en: 'Could not credit the Olymp-Coins, try again',
+        de: 'Die Olymp-Coins konnten nicht gutgeschrieben werden, versuch es erneut',
+    },
+
+    // One summary of a bulk take / sale instead of a notification per slot
+    bulk: {
+        received: {
+            ru: 'Получено предметов: {{count}}',
+            ua: 'Отримано предметів: {{count}}',
+            en: 'Items received: {{count}}',
+            de: 'Gegenstände erhalten: {{count}}',
+        },
+        soldCoins: {
+            ru: 'Продано предметов: {{count}} за {{price}} Olymp-Coins',
+            ua: 'Продано предметів: {{count}} за {{price}} Olymp-Coins',
+            en: 'Items sold: {{count}} for {{price}} Olymp-Coins',
+            de: 'Gegenstände verkauft: {{count}} für {{price}} Olymp-Coins',
+        },
+        soldXp: {
+            ru: 'Продано предметов: {{count}} за {{xp}} опыта пропуска',
+            ua: 'Продано предметів: {{count}} за {{xp}} досвіду пропуску',
+            en: 'Items sold: {{count}} for {{xp}} pass XP',
+            de: 'Gegenstände verkauft: {{count}} für {{xp}} Pass-XP',
+        },
+        soldCoinsXp: {
+            ru: 'Продано предметов: {{count}} за {{price}} Olymp-Coins и {{xp}} опыта пропуска',
+            ua: 'Продано предметів: {{count}} за {{price}} Olymp-Coins і {{xp}} досвіду пропуску',
+            en: 'Items sold: {{count}} for {{price}} Olymp-Coins and {{xp}} pass XP',
+            de: 'Gegenstände verkauft: {{count}} für {{price}} Olymp-Coins und {{xp}} Pass-XP',
+        },
+    },
+
     receive: {
 
         adminGrant: {

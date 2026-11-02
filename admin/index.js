@@ -13,6 +13,7 @@ import transferLimit from './transferLimit';
 import darts from './darts';
 import territories from './territories';
 import battlePass from './battlePass';
+import handlingLog from './handlingLog';
 export default {
     ...cef,
     ...server,
@@ -29,6 +30,7 @@ export default {
     darts,
     territories,
     battlePass,
+    handlingLog,
     getOut: {
         ru: 'Для начала выйди из админки',
         ua: 'Для початку вийди з адмінки',
