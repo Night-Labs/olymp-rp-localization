@@ -376,11 +376,10 @@ export const items = {
             pl: 'Wizytówka mechanika',
         },
         desc: {
-            ru: 'Мятая визитка в масляных пятнах. 3 часа ремонт и тюнинг в мастерской стоят на 25% дешевле.',
-            ua: 'Зім’ята візитка в масляних плямах. 3 години ремонт і тюнінг у майстерні коштують на 25% дешевше.',
-            en: 'A crumpled card covered in grease. For 3 hours repairs and tuning at the workshop cost 25% less.',
-            de: 'Eine zerknitterte, ölverschmierte Karte. 3 Stunden kosten Reparatur und Tuning in der Werkstatt 25% weniger.',
-            pl: 'Pognieciona wizytówka w plamach smaru. Przez 3 godziny naprawa i tuning w warsztacie kosztują o 25% mniej.',
+            ru: 'Мятая визитка в масляных пятнах. Один заказ ремонта и тюнинга в мастерской обойдётся на 25% дешевле.',
+            ua: 'Зім’ята візитка в масляних плямах. Одне замовлення ремонту й тюнінгу в майстерні обійдеться на 25% дешевше.',
+            en: 'A crumpled card covered in grease. One repair and tuning order at the workshop costs 25% less.',
+            de: 'Eine zerknitterte, ölverschmierte Karte. Ein Reparatur- und Tuningauftrag in der Werkstatt kostet 25% weniger.',
         },
     },
     //

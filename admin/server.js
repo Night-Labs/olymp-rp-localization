@@ -638,6 +638,54 @@ export const server = {
         pl: 'Nie znaleziono domu {{id}}',
         zh: '未找到房屋{{id}}',
     },
+    flatNotFound: {
+        ru: 'Квартира {{id}} не найдена',
+        ua: 'Квартиру {{id}} не знайдено',
+        en: 'Flat {{id}} not found',
+        de: 'Wohnung {{id}} wurde nicht gefunden',
+    },
+    flatNotHere: {
+        ru: 'Ты не в квартире нового конструктора интерьеров (/flat_test)',
+        ua: "Ти не в квартирі нового конструктора інтер'єрів (/flat_test)",
+        en: 'You are not in a flat of the new interior builder (/flat_test)',
+        de: 'Du bist in keiner Wohnung des neuen Innenraum-Baukastens (/flat_test)',
+    },
+    flatSlots: {
+        ru: 'Квартира {{id}}, поверхности: {{slots}}',
+        ua: 'Квартира {{id}}, поверхні: {{slots}}',
+        en: 'Flat {{id}}, surfaces: {{slots}}',
+        de: 'Wohnung {{id}}, Flächen: {{slots}}',
+    },
+    flatSlotMaterials: {
+        ru: '{{slot}}, {{tier}}: {{materials}}',
+        ua: '{{slot}}, {{tier}}: {{materials}}',
+        en: '{{slot}}, {{tier}}: {{materials}}',
+        de: '{{slot}}, {{tier}}: {{materials}}',
+    },
+    flatSlotNotFound: {
+        ru: 'В квартире нет поверхности {{slot}}',
+        ua: 'У квартирі немає поверхні {{slot}}',
+        en: 'The flat has no surface {{slot}}',
+        de: 'Die Wohnung hat keine Fläche {{slot}}',
+    },
+    flatMaterialNotFound: {
+        ru: 'У поверхности {{slot}} нет материала {{material}}',
+        ua: 'У поверхні {{slot}} немає матеріалу {{material}}',
+        en: 'Surface {{slot}} has no material {{material}}',
+        de: 'Fläche {{slot}} hat kein Material {{material}}',
+    },
+    flatColourOutOfRange: {
+        ru: 'У материала {{material}} цвета от 0 до {{max}}',
+        ua: 'У матеріалу {{material}} кольори від 0 до {{max}}',
+        en: 'Material {{material}} has colours 0 to {{max}}',
+        de: 'Material {{material}} hat die Farben 0 bis {{max}}',
+    },
+    flatTierNotFound: {
+        ru: 'Нет уровня {{tier}}, есть: {{tiers}}',
+        ua: 'Немає рівня {{tier}}, є: {{tiers}}',
+        en: 'No tier {{tier}}, the tiers are: {{tiers}}',
+        de: 'Keine Stufe {{tier}}, es gibt: {{tiers}}',
+    },
     houseHasNoOwner: {
         ru: 'У дома {{id}} нет владельца',
         ua: 'У будинку {{id}} немає власника',
@@ -827,6 +875,32 @@ export const server = {
             en: 'Organization "{{name}}" reset to its creation state. Taken from the treasury: ${{balance}}, from office vaults: ${{vault}}',
             de: 'Organisation "{{name}}" auf den Gründungszustand zurückgesetzt. Aus der Kasse entfernt: ${{balance}}, aus den Bürotresoren: ${{vault}}',
             pl: 'Organizacja "{{name}}" zresetowana do stanu z chwili założenia. Zabrano ze skarbca: ${{balance}}, z sejfów biur: ${{vault}}',
+        },
+    },
+    orgTakeBalance: {
+        notFound: {
+            ru: 'Организация с тегом {{tag}} не найдена',
+            ua: 'Організацію з тегом {{tag}} не знайдено',
+            en: 'No organization with tag {{tag}}',
+            de: 'Keine Organisation mit dem Tag {{tag}}',
+        },
+        notEnough: {
+            ru: 'В казне организации "{{name}}" только ${{balance}}',
+            ua: 'У казні організації "{{name}}" лише ${{balance}}',
+            en: 'The treasury of "{{name}}" holds only ${{balance}}',
+            de: 'In der Kasse von "{{name}}" sind nur ${{balance}}',
+        },
+        failed: {
+            ru: 'Не удалось списать деньги с казны организации "{{name}}"',
+            ua: 'Не вдалося списати гроші з казни організації "{{name}}"',
+            en: 'Failed to take money from the treasury of "{{name}}"',
+            de: 'Geld konnte nicht aus der Kasse von "{{name}}" entfernt werden',
+        },
+        done: {
+            ru: 'С казны организации "{{name}}" списано ${{amount}} (осталось: ${{total}})',
+            ua: 'З казни організації "{{name}}" списано ${{amount}} (залишилось: ${{total}})',
+            en: 'Took ${{amount}} from the treasury of "{{name}}" (left: ${{total}})',
+            de: '${{amount}} aus der Kasse von "{{name}}" entfernt (verbleibend: ${{total}})',
         },
     },
 
@@ -1037,6 +1111,32 @@ export const server = {
             de: 'Keine solche Linie. Verfügbar: {{routes}}',
         },
     },
+    adminTools: {
+        playersOn: {
+            ru: 'Admin tools включены, радиус {{radius}} м',
+            ua: 'Admin tools увімкнено, радіус {{radius}} м',
+            en: 'Admin tools on, radius {{radius}} m',
+            de: 'Admin-Tools an, Radius {{radius}} m',
+        },
+        playersOff: {
+            ru: 'Admin tools выключены',
+            ua: 'Admin tools вимкнено',
+            en: 'Admin tools off',
+            de: 'Admin-Tools aus',
+        },
+        vehiclesOn: {
+            ru: 'Admin tools 2 (транспорт) включены, радиус {{radius}} м',
+            ua: 'Admin tools 2 (транспорт) увімкнено, радіус {{radius}} м',
+            en: 'Admin tools 2 (vehicles) on, radius {{radius}} m',
+            de: 'Admin-Tools 2 (Fahrzeuge) an, Radius {{radius}} m',
+        },
+        vehiclesOff: {
+            ru: 'Admin tools 2 (транспорт) выключены',
+            ua: 'Admin tools 2 (транспорт) вимкнено',
+            en: 'Admin tools 2 (vehicles) off',
+            de: 'Admin-Tools 2 (Fahrzeuge) aus',
+        },
+    },
     quest: {
         noActive: {
             ru: 'У {{name}} нет активного квеста в HUD',
@@ -1215,6 +1315,26 @@ export const server = {
             de: 'Gelöschte Admin-Objekte in allen Dimensionen: {{count}}',
             pl: 'Usunięto obiektów administracji we wszystkich wymiarach: {{count}}',
             zh: '所有维度中已删除的管理员对象：{{count}}',
+        },
+    },
+    kamui: {
+        targetShielded: {
+            ru: 'Недоступно',
+            ua: 'Недоступно',
+            en: 'Unavailable',
+            de: 'Nicht verfügbar',
+        },
+        enabled: {
+            ru: 'Камуи включено',
+            ua: 'Камуі увімкнено',
+            en: 'Kamui on',
+            de: 'Kamui an',
+        },
+        disabled: {
+            ru: 'Камуи выключено',
+            ua: 'Камуі вимкнено',
+            en: 'Kamui off',
+            de: 'Kamui aus',
         },
     },
 };

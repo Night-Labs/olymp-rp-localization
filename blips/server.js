@@ -20,6 +20,13 @@ export const server = {
         de: 'Seilbahn',
         pl: 'Kolej linowa',
     },
+    // B_RIDE
+    fairground: {
+        ru: 'Ярмарочный аттракцион',
+        ua: 'Ярмарковий атракціон',
+        en: 'Fairground Ride',
+        de: 'Fahrgeschäft',
+    },
     automarket: {
         ua: 'Авторинок',
         en: 'Automarket',

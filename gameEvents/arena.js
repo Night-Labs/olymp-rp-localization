@@ -999,6 +999,16 @@ export default {
                 },
             },
         },
+        // The name is English in every language (owner 2026-11-01).
+        insideJob: {
+            name: { ru: 'Inside Job', ua: 'Inside Job', en: 'Inside Job', de: 'Inside Job' },
+            description: {
+                ru: 'Лаборатория Humane Labs. Сотрудники выполняют задания и ищут кротов, кроты устраняют сотрудников по одному, саботируют и лгут на собраниях.',
+                ua: 'Лабораторія Humane Labs. Співробітники виконують завдання й шукають кротів, кроти усувають співробітників по одному, саботують і брешуть на зборах.',
+                en: 'The Humane Labs. Staff do their tasks and hunt the Moles; the Moles take the staff out one by one, sabotage and lie at the meetings.',
+                de: 'Die Humane Labs. Das Personal erledigt Aufgaben und sucht die Maulwürfe; die Maulwürfe schalten es einzeln aus, sabotieren und lügen bei den Besprechungen.',
+            },
+        },
     },
 
     stats: {
@@ -2213,6 +2223,9 @@ export default {
                 de: 'Unterstützung',
                 pl: 'Asysta',
             },
+            // Inside Job: task steps done, votes for a Mole who was ejected.
+            tasks: { ru: 'Задания', ua: 'Завдання', en: 'Tasks', de: 'Aufgaben' },
+            votes: { ru: 'Верные голоса', ua: 'Влучні голоси', en: 'Correct votes', de: 'Richtige Stimmen' },
             survivedMs: {
                 ru: 'Выживание',
                 ua: 'Виживання',
@@ -2426,6 +2439,22 @@ export default {
             de: 'Nur Kopfschüsse',
             pl: 'Tylko w głowę',
         },
+        // Inside Job (docs/inside-job-design.md 2.3).
+        moles: { ru: 'Кроты', ua: 'Кроти', en: 'Moles', de: 'Maulwürfe' },
+        killCooldown: { ru: 'Перезарядка устранения', ua: 'Перезарядка усунення', en: 'Kill cooldown', de: 'Abklingzeit Ausschalten' },
+        killDistance: { ru: 'Дистанция устранения', ua: 'Дистанція усунення', en: 'Kill distance', de: 'Ausschaltdistanz' },
+        discussionTime: { ru: 'Обсуждение', ua: 'Обговорення', en: 'Discussion', de: 'Diskussion' },
+        votingTime: { ru: 'Голосование', ua: 'Голосування', en: 'Voting', de: 'Abstimmung' },
+        alarmUses: { ru: 'Тревога на игрока', ua: 'Тривога на гравця', en: 'Alarms per player', de: 'Alarme pro Spieler' },
+        confirmEjects: { ru: 'Показывать роль изгнанного', ua: 'Показувати роль вигнаного', en: 'Confirm ejects', de: 'Rolle beim Rauswurf zeigen' },
+        anonymousVotes: { ru: 'Анонимные голоса', ua: 'Анонімні голоси', en: 'Anonymous votes', de: 'Anonyme Stimmen' },
+        taskBarUpdates: { ru: 'Шкала заданий', ua: 'Шкала завдань', en: 'Task bar updates', de: 'Aufgabenbalken' },
+        commonTasks: { ru: 'Общие задания', ua: 'Спільні завдання', en: 'Common tasks', de: 'Gemeinsame Aufgaben' },
+        longTasks: { ru: 'Длинные задания', ua: 'Довгі завдання', en: 'Long tasks', de: 'Lange Aufgaben' },
+        shortTasks: { ru: 'Короткие задания', ua: 'Короткі завдання', en: 'Short tasks', de: 'Kurze Aufgaben' },
+        roamVoice: { ru: 'Голос вне собраний', ua: 'Голос поза зборами', en: 'Voice between meetings', de: 'Sprache außerhalb der Besprechung' },
+        staffRoles: { ru: 'Роли сотрудников', ua: 'Ролі співробітників', en: 'Staff roles', de: 'Personalrollen' },
+        moleRoles: { ru: 'Роли кротов', ua: 'Ролі кротів', en: 'Mole roles', de: 'Maulwurfrollen' },
     },
 
     // The line under a setting in the create form, for the settings marked `hint` (shared/systems/gameEvents/arena/types.ts).
@@ -2451,6 +2480,27 @@ export default {
         battle: {
             standard: { ru: 'Стандартный', ua: 'Стандартний', en: 'Standard', de: 'Standard', pl: 'Standardowa' },
             encounter: { ru: 'Встречный', ua: 'Зустрічний', en: 'Encounter', de: 'Begegnung', pl: 'Spotkanie' },
+        },
+        // Inside Job's rules (shared/systems/gameEvents/arena/modes.ts).
+        moles: {
+            auto: { ru: 'По числу игроков', ua: 'За кількістю гравців', en: 'By player count', de: 'Nach Spielerzahl' },
+            1: { ru: '1', ua: '1', en: '1', de: '1' },
+            2: { ru: '2', ua: '2', en: '2', de: '2' },
+            3: { ru: '3', ua: '3', en: '3', de: '3' },
+        },
+        killDistance: {
+            short: { ru: 'Короткая', ua: 'Коротка', en: 'Short', de: 'Kurz' },
+            normal: { ru: 'Обычная', ua: 'Звичайна', en: 'Normal', de: 'Normal' },
+            long: { ru: 'Длинная', ua: 'Довга', en: 'Long', de: 'Lang' },
+        },
+        taskBarUpdates: {
+            always: { ru: 'Сразу', ua: 'Одразу', en: 'Always', de: 'Immer' },
+            meetings: { ru: 'На собраниях', ua: 'На зборах', en: 'At meetings', de: 'Bei Besprechungen' },
+            never: { ru: 'Скрыта', ua: 'Прихована', en: 'Never', de: 'Nie' },
+        },
+        roamVoice: {
+            proximity: { ru: 'Рядом', ua: 'Поруч', en: 'Proximity', de: 'In der Nähe' },
+            off: { ru: 'Выключен', ua: 'Вимкнено', en: 'Off', de: 'Aus' },
         },
         // Keyed by `shared/configs/races` route id. Place names stay as in the game, descriptive names are translated.
         route: {
@@ -2890,6 +2940,8 @@ export default {
             },
         },
         map: {
+            // The Inside Job labs (shared/configs/insideJob/maps).
+            humaneLabs: { ru: 'Humane Labs', ua: 'Humane Labs', en: 'Humane Labs', de: 'Humane Labs' },
             // The tank battle maps (shared/configs/tanks/maps): place names as in the game.
             losSantosAirport: {
                 ru: 'Los Santos International',
@@ -3136,6 +3188,8 @@ export default {
             de: '{{value}} Std.',
             pl: '{{value}} godz.',
         },
+        seconds: { ru: '{{value}} с', ua: '{{value}} с', en: '{{value}} s', de: '{{value}} s' },
+        count: { ru: '{{value}}', ua: '{{value}}', en: '{{value}}', de: '{{value}}' },
     },
 
     toggle: {

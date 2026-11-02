@@ -299,6 +299,13 @@ const cef = {
             de: 'Gesamtbetrag',
             pl: 'Na kwotę',
         },
+        // Pieces in the furniture warehouse, in the furniture card's head.
+        stored: {
+            ru: 'На складе',
+            ua: 'На складі',
+            en: 'In storage',
+            de: 'Im Lager',
+        },
         editor: {
             ru: 'Редактор',
             ua: 'Редактор',

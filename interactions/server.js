@@ -272,4 +272,22 @@ export const server = {
         de: 'Um den Lagerspeicher zu öffnen',
         pl: 'Aby otworzyć schowek magazynu',
     },
+    cookingStation: {
+        ru: 'Чтобы приготовить еду',
+        ua: 'Щоб приготувати їжу',
+        en: 'To cook',
+        de: 'Um zu kochen',
+    },
+    cookingKettle: {
+        ru: 'Чтобы заварить чай',
+        ua: 'Щоб заварити чай',
+        en: 'To brew tea',
+        de: 'Um Tee aufzubrühen',
+    },
+    cookingCoffee: {
+        ru: 'Чтобы сварить кофе',
+        ua: 'Щоб зварити каву',
+        en: 'To make coffee',
+        de: 'Um Kaffee zu kochen',
+    },
 };

@@ -94,6 +94,14 @@ export default {
             pl: 'Państwo',
         },
     },
+    payment: {
+        description: {
+            ru: 'Покупка бизнеса: {{name}} #{{index}}',
+            ua: 'Купівля бізнесу: {{name}} #{{index}}',
+            en: 'Buying a business: {{name}} #{{index}}',
+            de: 'Kauf eines Geschäfts: {{name}} #{{index}}',
+        },
+    },
     buyNotify: {
         ru: 'Ты купил бизнес за ${{cash}}',
         ua: 'Ти купив бізнес за ${{cash}}',
@@ -163,6 +171,12 @@ export default {
         en: "You don't have enough money in your commercial account",
         de: 'Du hast nicht genug Geld auf deinem Geschäftskonto',
         pl: 'Nie masz wystarczająco pieniędzy na swoim koncie handlowym',
+    },
+    goodsPriceChanged: {
+        ru: 'Цена доставки изменилась, проверь сумму и закажи снова',
+        ua: 'Ціна доставки змінилася, перевір суму та замов знову',
+        en: 'The delivery price has changed, check the amount and order again',
+        de: 'Der Lieferpreis hat sich geändert, prüfe den Betrag und bestelle erneut',
     },
     youOrderedGoods: {
         ru: 'Ты успешно заказал товар на склад',

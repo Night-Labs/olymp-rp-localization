@@ -827,6 +827,12 @@ export const settings = {
         de: 'Zeigt die aktuelle Waffe und Munition auf dem HUD an',
         pl: 'Pokazuje aktualną broń i amunicję na HUD',
     },
+    showReloadRingDesc: {
+        ru: 'Показывает круг перезарядки в прицеле',
+        ua: 'Показує коло перезарядки в прицілі',
+        en: 'Shows the reload ring at the crosshair',
+        de: 'Zeigt den Nachladering am Fadenkreuz an',
+    },
     showChatDesc: {
         ru: 'Показывает или скрывает окно игрового чата на HUD',
         ua: 'Показує або приховує вікно ігрового чату на HUD',
@@ -1073,6 +1079,12 @@ export const settings = {
         en: 'Show weapon',
         de: 'Waffe anzeigen',
         pl: 'Pokaż broń',
+    },
+    showReloadRing: {
+        ru: 'Круг перезарядки',
+        ua: 'Коло перезарядки',
+        en: 'Reload ring',
+        de: 'Nachladering',
     },
     showChat: {
         ru: 'Показывать чат',

@@ -972,6 +972,35 @@ export default {
                     },
                 },
             },
+            cooking: {
+                any: {
+                    title: { ru: 'Домашний ужин', ua: 'Домашня вечеря', en: 'Home dinner', de: 'Abendessen zu Hause' },
+                    description: {
+                        ru: 'Приготовьте {{target}} блюда на домашней кухне. Считаются блюда нормального качества и лучше.',
+                        ua: 'Приготуйте {{target}} страви на домашній кухні. Рахуються страви нормальної якості й кращі.',
+                        en: 'Cook {{target}} dishes in a home kitchen. Dishes of normal quality or better count.',
+                        de: 'Koche {{target}} Gerichte in einer Hausküche. Es zählen Gerichte ab normaler Qualität.',
+                    },
+                },
+                perfect: {
+                    title: { ru: 'Шеф-повар', ua: 'Шеф-кухар', en: 'Head chef', de: 'Chefkoch' },
+                    description: {
+                        ru: 'Приготовьте блюда идеального качества: {{target}} шт.',
+                        ua: 'Приготуйте страви ідеальної якості: {{target}} шт.',
+                        en: 'Cook dishes of perfect quality: {{target}}.',
+                        de: 'Koche Gerichte in perfekter Qualität: {{target}}.',
+                    },
+                },
+                many: {
+                    title: { ru: 'Полный холодильник', ua: 'Повний холодильник', en: 'A full fridge', de: 'Ein voller Kühlschrank' },
+                    description: {
+                        ru: 'Приготовьте {{target}} блюд на домашней кухне. Считаются блюда нормального качества и лучше.',
+                        ua: 'Приготуйте {{target}} страв на домашній кухні. Рахуються страви нормальної якості й кращі.',
+                        en: 'Cook {{target}} dishes in a home kitchen. Dishes of normal quality or better count.',
+                        de: 'Koche {{target}} Gerichte in einer Hausküche. Es zählen Gerichte ab normaler Qualität.',
+                    },
+                },
+            },
             inventory: {
                 vodka: {
                     title: {

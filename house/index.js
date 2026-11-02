@@ -12,6 +12,7 @@ import parking from './parking';
 import roof from './roof';
 import adminEditor from './adminEditor';
 import gates from './gates';
+import furnitureStorage from './furnitureStorage';
 
 export default {
     ...cef,
@@ -28,6 +29,7 @@ export default {
     roof,
     adminEditor,
     gates,
+    furnitureStorage,
     houseResident: {
         ru: 'Житель дома',
         ua: 'Мешканець дому',

@@ -1,0 +1,477 @@
+// The cooking steps (webviews `systems/games/cooking`): the page around a step and each game in it.
+// Games added later keep their keys in `cooking/<game>.js`.
+import peel from './cooking/peel.js';
+import boil from './cooking/boil.js';
+import season from './cooking/season.js';
+import whisk from './cooking/whisk.js';
+import bake from './cooking/bake.js';
+import deepfry from './cooking/deepfry.js';
+import dough from './cooking/dough.js';
+import wok from './cooking/wok.js';
+import fillet from './cooking/fillet.js';
+import sushi from './cooking/sushi.js';
+import barista from './cooking/barista.js';
+import bar from './cooking/bar.js';
+import assembly from './cooking/assembly.js';
+
+export default {
+    peel,
+    boil,
+    season,
+    whisk,
+    bake,
+    deepfry,
+    dough,
+    wok,
+    fillet,
+    sushi,
+    barista,
+    bar,
+    assembly,
+    stepOf: {
+        ru: 'Шаг {{step}} из {{steps}}',
+        ua: 'Крок {{step}} з {{steps}}',
+        en: 'Step {{step}} of {{steps}}',
+        de: 'Schritt {{step}} von {{steps}}',
+    },
+    burns: {
+        ru: 'Ожоги',
+        ua: 'Опіки',
+        en: 'Burns',
+        de: 'Verbrennungen',
+    },
+    hintExit: {
+        ru: 'Бросить',
+        ua: 'Кинути',
+        en: 'Give up',
+        de: 'Aufgeben',
+    },
+    verdict: {
+        perfect: {
+            ru: 'Идеально',
+            ua: 'Ідеально',
+            en: 'Perfect',
+            de: 'Perfekt',
+        },
+        good: {
+            ru: 'Хорошо',
+            ua: 'Добре',
+            en: 'Good',
+            de: 'Gut',
+        },
+        normal: {
+            ru: 'Нормально',
+            ua: 'Нормально',
+            en: 'Decent',
+            de: 'Ordentlich',
+        },
+        poor: {
+            ru: 'Так себе',
+            ua: 'Так собі',
+            en: 'Poor',
+            de: 'Mäßig',
+        },
+        raw: {
+            ru: 'Не готово',
+            ua: 'Не готове',
+            en: 'Undercooked',
+            de: 'Nicht durch',
+        },
+        burnt: {
+            ru: 'Сгорело',
+            ua: 'Згоріло',
+            en: 'Burnt',
+            de: 'Verbrannt',
+        },
+        aborted: {
+            ru: 'Брошено',
+            ua: 'Кинуто',
+            en: 'Given up',
+            de: 'Aufgegeben',
+        },
+    },
+    quality: {
+        ru: 'Качество {{score}} из 100',
+        ua: 'Якість {{score}} зі 100',
+        en: 'Quality {{score}} of 100',
+        de: 'Qualität {{score}} von 100',
+    },
+    qualityBurns: {
+        ru: 'Качество {{score}} из 100, ожогов: {{burns}}',
+        ua: 'Якість {{score}} зі 100, опіків: {{burns}}',
+        en: 'Quality {{score}} of 100, burns: {{burns}}',
+        de: 'Qualität {{score}} von 100, Verbrennungen: {{burns}}',
+    },
+    refused: {
+        ru: 'Шаг не засчитан',
+        ua: 'Крок не зараховано',
+        en: 'The step did not count',
+        de: 'Der Schritt zählt nicht',
+    },
+    fry: {
+        title: {
+            ru: 'Жарка',
+            ua: 'Смаження',
+            en: 'Frying',
+            de: 'Braten',
+        },
+        desc: {
+            ru: 'Держите сковороду в нужном жару и переверните вовремя. Низа не видно: смотрите на край, слушайте шипение и следите за дымом',
+            ua: 'Тримайте сковороду в потрібному жарі й переверніть вчасно. Низу не видно: дивіться на край, слухайте шипіння та стежте за димом',
+            en: 'Keep the pan at the right heat and flip in time. You cannot see the underside: watch the edge, listen to the sizzle and look out for smoke',
+            de: 'Halte die Pfanne bei der richtigen Hitze und wende rechtzeitig. Die Unterseite siehst du nicht: achte auf den Rand, hör auf das Brutzeln und auf Rauch',
+        },
+        food: {
+            egg: {
+                ru: 'Яичница',
+                ua: 'Яєчня',
+                en: 'Fried egg',
+                de: 'Spiegelei',
+            },
+            pancake: {
+                ru: 'Блин',
+                ua: 'Млинець',
+                en: 'Pancake',
+                de: 'Pfannkuchen',
+            },
+            steak: {
+                ru: 'Стейк',
+                ua: 'Стейк',
+                en: 'Steak',
+                de: 'Steak',
+            },
+            patty: {
+                ru: 'Котлета для бургера',
+                ua: 'Котлета для бургера',
+                en: 'Burger patty',
+                de: 'Burger-Patty',
+            },
+            cutlet: {
+                ru: 'Котлета в панировке',
+                ua: 'Котлета в паніруванні',
+                en: 'Breaded cutlet',
+                de: 'Paniertes Schnitzel',
+            },
+            fish: {
+                ru: 'Рыбное филе',
+                ua: 'Рибне філе',
+                en: 'Fish fillet',
+                de: 'Fischfilet',
+            },
+            omelette: {
+                ru: 'Омлет',
+                ua: 'Омлет',
+                en: 'Omelette',
+                de: 'Omelett',
+            },
+            potatoes: {
+                ru: 'Жареная картошка',
+                ua: 'Смажена картопля',
+                en: 'Fried potatoes',
+                de: 'Bratkartoffeln',
+            },
+            mince: {
+                ru: 'Говяжий фарш',
+                ua: 'Яловичий фарш',
+                en: 'Minced beef',
+                de: 'Rinderhack',
+            },
+            ham_dice: {
+                ru: 'Ветчина кубиками',
+                ua: 'Шинка кубиками',
+                en: 'Diced ham',
+                de: 'Schinkenwürfel',
+            },
+            plov: {
+                ru: 'Зирвак для плова',
+                ua: 'Зірвак для плову',
+                en: 'Zirvak for plov',
+                de: 'Zirvak für Pilaw',
+            },
+            onion: {
+                ru: 'Жареный лук',
+                ua: 'Смажена цибуля',
+                en: 'Fried onion',
+                de: 'Gebratene Zwiebeln',
+            },
+        },
+        pan: {
+            ru: 'Сковорода',
+            ua: 'Сковорода',
+            en: 'Pan',
+            de: 'Pfanne',
+        },
+        heat: {
+            ru: 'Огонь',
+            ua: 'Вогонь',
+            en: 'Heat',
+            de: 'Hitze',
+        },
+        degrees: {
+            ru: '{{value}}°',
+            ua: '{{value}}°',
+            en: '{{value}}°',
+            de: '{{value}}°',
+        },
+        hintHeat: {
+            ru: 'Огонь',
+            ua: 'Вогонь',
+            en: 'Heat',
+            de: 'Hitze',
+        },
+        hintFlip: {
+            ru: 'Перевернуть: резко вверх',
+            ua: 'Перевернути: різко вгору',
+            en: 'Flip: flick up',
+            de: 'Wenden: nach oben schnippen',
+        },
+        hintToss: {
+            ru: 'Подбросить: резко вверх',
+            ua: 'Підкинути: різко вгору',
+            en: 'Toss: flick up',
+            de: 'Schwenken: nach oben schnippen',
+        },
+        hintLid: {
+            ru: 'Крышка',
+            ua: 'Кришка',
+            en: 'Lid',
+            de: 'Deckel',
+        },
+        hintServe: {
+            ru: 'Снять с огня',
+            ua: 'Зняти з вогню',
+            en: 'Take off',
+            de: 'Herunternehmen',
+        },
+        msgLight: {
+            ru: 'Прибавьте огня колесом мыши',
+            ua: 'Додайте вогню коліщатком миші',
+            en: 'Turn up the heat with the mouse wheel',
+            de: 'Dreh die Hitze mit dem Mausrad hoch',
+        },
+        msgWarming: {
+            ru: 'Сковорода греется',
+            ua: 'Сковорода гріється',
+            en: 'The pan is heating up',
+            de: 'Die Pfanne heizt auf',
+        },
+        msgTooHot: {
+            ru: 'Слишком горячо: корка пригорает',
+            ua: 'Занадто гаряче: скоринка пригорає',
+            en: 'Too hot: the crust is scorching',
+            de: 'Zu heiß: die Kruste brennt an',
+        },
+        msgSpit: {
+            ru: 'Масло сейчас брызнет: накройте крышкой',
+            ua: 'Олія зараз бризне: накрийте кришкою',
+            en: 'The oil is about to spit: put the lid on',
+            de: 'Gleich spritzt das Öl: Deckel drauf',
+        },
+        msgBurn: {
+            ru: 'Обожглись маслом',
+            ua: 'Обпеклися олією',
+            en: 'Burnt by the oil',
+            de: 'Am Öl verbrannt',
+        },
+        msgClean: {
+            ru: 'Перевернули ровно',
+            ua: 'Перевернули рівно',
+            en: 'A clean flip',
+            de: 'Sauber gewendet',
+        },
+        msgMessy: {
+            ru: 'Легло криво',
+            ua: 'Лягло криво',
+            en: 'It landed crooked',
+            de: 'Schief gelandet',
+        },
+        msgRim: {
+            ru: 'Упало на край сковороды',
+            ua: 'Впало на край сковороди',
+            en: 'It landed on the rim',
+            de: 'Auf dem Pfannenrand gelandet',
+        },
+        msgDropped: {
+            ru: 'Уронили мимо сковороды',
+            ua: 'Впустили повз сковороду',
+            en: 'It missed the pan',
+            de: 'Neben die Pfanne gefallen',
+        },
+        msgTossClean: {
+            ru: 'Подбросили ровно',
+            ua: 'Підкинули рівно',
+            en: 'A clean toss',
+            de: 'Sauber geschwenkt',
+        },
+        msgTossMessy: {
+            ru: 'Перевернулось не всё',
+            ua: 'Перевернулося не все',
+            en: 'Not all of it turned over',
+            de: 'Nicht alles hat sich gewendet',
+        },
+        noFlip: {
+            egg: {
+                ru: 'Яичницу не переворачивают',
+                ua: 'Яєчню не перевертають',
+                en: 'A fried egg is not flipped',
+                de: 'Ein Spiegelei wird nicht gewendet',
+            },
+            omelette: {
+                ru: 'Омлет не переворачивают',
+                ua: 'Омлет не перевертають',
+                en: 'An omelette is not flipped',
+                de: 'Ein Omelett wird nicht gewendet',
+            },
+        },
+        msgWatchTwo: {
+            ru: 'Снизу румянится. Край подскажет, когда переворачивать',
+            ua: 'Знизу рум\'яниться. Край підкаже, коли перевертати',
+            en: 'The underside is browning. The edge tells you when to flip',
+            de: 'Unten wird es braun. Der Rand zeigt dir, wann du wenden musst',
+        },
+        msgWatchToss: {
+            ru: 'Снизу румянится. Край подскажет, когда подбросить',
+            ua: 'Знизу рум\'яниться. Край підкаже, коли підкинути',
+            en: 'The bottom is browning. The edge tells you when to toss',
+            de: 'Unten wird es braun. Der Rand zeigt dir, wann du schwenken musst',
+        },
+        watchOne: {
+            egg: {
+                ru: 'Снимайте, когда белок схватится',
+                ua: 'Знімайте, коли білок схопиться',
+                en: 'Take it off once the white has set',
+                de: 'Nimm es herunter, sobald das Eiweiß gestockt ist',
+            },
+            omelette: {
+                ru: 'Снимайте, когда омлет схватится и зарумянится',
+                ua: 'Знімайте, коли омлет схопиться й підрум\'яниться',
+                en: 'Take it off once the omelette has set and turned golden',
+                de: 'Nimm es herunter, sobald das Omelett gestockt und goldbraun ist',
+            },
+        },
+    },
+    chop: {
+        title: {
+            ru: 'Нарезка',
+            ua: 'Нарізка',
+            en: 'Chopping',
+            de: 'Schneiden',
+        },
+        desc: {
+            ru: 'Режьте ровными ломтиками. Держите, и продукт едет под нож. Отпустите, и нож опустится. Мягкое не торопите, а за пальцами следите',
+            ua: 'Ріжте рівними скибочками. Тримайте, і продукт їде під ніж. Відпустіть, і ніж опуститься. М\'яке не квапте, а за пальцями стежте',
+            en: 'Cut even slices. Hold to slide the piece under the knife, let go to bring the knife down. Do not rush soft food, and mind your fingers',
+            de: 'Schneide gleichmäßige Scheiben. Halten schiebt das Stück unter das Messer, Loslassen lässt das Messer fallen. Weiches nicht hetzen und auf die Finger achten',
+        },
+        pieceOf: {
+            ru: '{{index}} из {{count}}',
+            ua: '{{index}} з {{count}}',
+            en: '{{index}} of {{count}}',
+            de: '{{index}} von {{count}}',
+        },
+        cuts: {
+            ru: 'Порезы',
+            ua: 'Порізи',
+            en: 'Cuts',
+            de: 'Schnitte',
+        },
+        thickness: {
+            ru: 'Толщина',
+            ua: 'Товщина',
+            en: 'Thickness',
+            de: 'Dicke',
+        },
+        thin: {
+            ru: 'тонко',
+            ua: 'тонко',
+            en: 'thin',
+            de: 'dünn',
+        },
+        thick: {
+            ru: 'толсто',
+            ua: 'товсто',
+            en: 'thick',
+            de: 'dick',
+        },
+        even: {
+            ru: 'ровно',
+            ua: 'рівно',
+            en: 'even',
+            de: 'gleichmäßig',
+        },
+        hintHold: {
+            ru: 'Держать: подвинуть, отпустить: резать',
+            ua: 'Тримати: посунути, відпустити: різати',
+            en: 'Hold: slide, release: cut',
+            de: 'Halten: schieben, loslassen: schneiden',
+        },
+        hintNext: {
+            ru: 'Следующий продукт',
+            ua: 'Наступний продукт',
+            en: 'Next piece',
+            de: 'Nächstes Stück',
+        },
+        msgStart: {
+            ru: 'Держите, чтобы подвинуть под нож, и отпустите на метке',
+            ua: 'Тримайте, щоб посунути під ніж, і відпустіть на позначці',
+            en: 'Hold to slide it under the knife, let go at the mark',
+            de: 'Halten zum Schieben, an der Markierung loslassen',
+        },
+        msgSoft: {
+            ru: 'Мягкое: дождитесь, пока нож поднимется',
+            ua: 'М\'яке: дочекайтеся, поки ніж підніметься',
+            en: 'Soft: wait for the knife to come back up',
+            de: 'Weich: warte, bis das Messer wieder oben ist',
+        },
+        msgRushed: {
+            ru: 'Рано, раздавите: отпустите и нажмите снова',
+            ua: 'Рано, розчавите: відпустіть і натисніть знову',
+            en: 'Too early, it will squash: let go and press again',
+            de: 'Zu früh, es wird zerdrückt: loslassen und neu drücken',
+        },
+        msgFingers: {
+            ru: 'Пальцы у ножа!',
+            ua: 'Пальці біля ножа!',
+            en: 'Fingers at the knife!',
+            de: 'Finger am Messer!',
+        },
+        msgSlip: {
+            ru: 'Порезались',
+            ua: 'Порізалися',
+            en: 'You cut yourself',
+            de: 'Du hast dich geschnitten',
+        },
+        msgSquashed: {
+            ru: 'Раздавили: слишком быстро',
+            ua: 'Розчавили: занадто швидко',
+            en: 'Squashed: too fast',
+            de: 'Zerdrückt: zu schnell',
+        },
+        msgNext: {
+            ru: 'Дальше: {{food}}',
+            ua: 'Далі: {{food}}',
+            en: 'Next: {{food}}',
+            de: 'Weiter: {{food}}',
+        },
+        food: {
+            carrot: { ru: 'Морковь', ua: 'Морква', en: 'Carrot', de: 'Karotte' },
+            cucumber: { ru: 'Огурец', ua: 'Огірок', en: 'Cucumber', de: 'Gurke' },
+            onion: { ru: 'Лук', ua: 'Цибуля', en: 'Onion', de: 'Zwiebel' },
+            potato: { ru: 'Картофель', ua: 'Картопля', en: 'Potato', de: 'Kartoffel' },
+            tomato: { ru: 'Помидор', ua: 'Помідор', en: 'Tomato', de: 'Tomate' },
+            beet: { ru: 'Свёкла', ua: 'Буряк', en: 'Beetroot', de: 'Rote Bete' },
+            cabbage: { ru: 'Капуста', ua: 'Капуста', en: 'Cabbage', de: 'Kohl' },
+            garlic: { ru: 'Чеснок', ua: 'Часник', en: 'Garlic', de: 'Knoblauch' },
+            mushroom: { ru: 'Шампиньон', ua: 'Печериця', en: 'Mushroom', de: 'Champignon' },
+            pumpkin: { ru: 'Тыква', ua: 'Гарбуз', en: 'Pumpkin', de: 'Kürbis' },
+            apple: { ru: 'Яблоко', ua: 'Яблуко', en: 'Apple', de: 'Apfel' },
+            chicken: { ru: 'Куриное филе', ua: 'Куряче філе', en: 'Chicken breast', de: 'Hähnchenbrust' },
+            ham: { ru: 'Ветчина', ua: 'Шинка', en: 'Ham', de: 'Schinken' },
+            cheese: { ru: 'Сыр', ua: 'Сир', en: 'Cheese', de: 'Käse' },
+            bread: { ru: 'Хлеб', ua: 'Хліб', en: 'Bread', de: 'Brot' },
+            lemon: { ru: 'Лимон', ua: 'Лимон', en: 'Lemon', de: 'Zitrone' },
+            pineapple: { ru: 'Ананас', ua: 'Ананас', en: 'Pineapple', de: 'Ananas' },
+            egg: { ru: 'Варёное яйцо', ua: 'Варене яйце', en: 'Boiled egg', de: 'Gekochtes Ei' },
+        },
+    },
+};

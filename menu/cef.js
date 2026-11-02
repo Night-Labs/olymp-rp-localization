@@ -509,6 +509,12 @@ export const cef = {
             de: 'Dauerhaft',
             pl: 'Na stałe',
         },
+        untilSpentEffect: {
+            ru: 'До использования',
+            ua: 'До використання',
+            en: 'Until used',
+            de: 'Bis zur Nutzung',
+        },
         diseasesTitle: {
             ru: 'Заболевания',
             ua: 'Захворювання',

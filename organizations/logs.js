@@ -453,6 +453,12 @@ export const logs = {
                 de: '{{actor}} hat ${{amount}} vom Organisationsguthaben abgehoben (Stand: ${{total}})',
                 pl: '{{actor}} pobrał ${{amount}} z bilansu organizacji (saldo: ${{total}})',
             },
+            adminTaken: {
+                ru: 'Администрация списала ${{amount}} с баланса организации (итого: ${{total}})',
+                ua: 'Адміністрація списала ${{amount}} з балансу організації (разом: ${{total}})',
+                en: 'The administration took ${{amount}} from the organization balance (total: ${{total}})',
+                de: 'Die Administration hat ${{amount}} vom Organisationsguthaben entfernt (Stand: ${{total}})',
+            },
             paydayPaid: {
                 ru: 'Выплата зарплат: ${{amount}} распределено между {{members}} участниками',
                 ua: 'Виплата зарплат: ${{amount}} розподілено між {{members}} учасниками',

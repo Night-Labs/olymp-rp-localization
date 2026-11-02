@@ -75,6 +75,7 @@ import grandmaster from './grandmaster';
 import walkieTalkie from './walkieTalkie';
 import drone from './drone';
 import tanks from './tanks';
+import insideJob from './insideJob';
 import photoCamera from './photoCamera';
 import elevators from './elevators';
 import shootingRange from './shootingRange';
@@ -126,6 +127,7 @@ import payment from './payment';
 import militaryGates from './militaryGates';
 import designEditor from './designEditor';
 import funicular from './funicular';
+import fairground from './fairground';
 import yachts from './yachts';
 import yachtBroker from './yachtBroker';
 import freightTrain from './freightTrain';
@@ -135,6 +137,7 @@ import ping from './ping';
 import weaponAttachments from './weaponAttachments';
 import financialMonitoring from './financialMonitoring';
 import reports from './reports';
+import cooking from './cooking';
 import trunkHide from './trunkHide';
 import vehiclePush from './vehiclePush';
 
@@ -217,6 +220,7 @@ export default {
     walkieTalkie,
     drone,
     tanks,
+    insideJob,
     photoCamera,
     elevators,
     shootingRange,
@@ -268,6 +272,7 @@ export default {
     militaryGates,
     designEditor,
     funicular,
+    fairground,
     yachts,
     yachtBroker,
     freightTrain,
@@ -277,6 +282,7 @@ export default {
     weaponAttachments,
     financialMonitoring,
     reports,
+    cooking,
     trunkHide,
     vehiclePush,
 };

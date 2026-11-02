@@ -397,5 +397,11 @@ export const server = {
             pl: 'Snajper',
             zh: '狙击手',
         },
+        cooking: {
+            ru: 'Кулинария',
+            ua: 'Кулінарія',
+            en: 'Cooking',
+            de: 'Kochen',
+        },
     },
 };

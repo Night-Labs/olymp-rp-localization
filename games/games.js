@@ -7,6 +7,7 @@ import breachMatrix from './list/breachMatrix.js';
 import skillCheck from './list/skillCheck.js';
 import welding from './list/welding.js';
 import packing from './list/packing.js';
+import cooking from './list/cooking.js';
 
 export default {
     wires,
@@ -18,4 +19,5 @@ export default {
     skillCheck,
     welding,
     packing,
+    cooking,
 };

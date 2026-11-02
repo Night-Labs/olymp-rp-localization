@@ -260,6 +260,30 @@ export default {
             de: 'Halten zum Aufgeben',
             pl: 'Przytrzymaj, aby się poddać',
         },
+        clickHint: {
+            ru: 'Жмите только на белом и красном',
+            ua: 'Тисніть лише на білому та червоному',
+            en: 'Click only on white and red',
+            de: 'Klicke nur auf Weiß und Rot',
+        },
+        perfect: {
+            ru: 'Идеально!',
+            ua: 'Ідеально!',
+            en: 'Perfect!',
+            de: 'Perfekt!',
+        },
+        early: {
+            ru: 'Рано!',
+            ua: 'Зарано!',
+            en: 'Too early!',
+            de: 'Zu früh!',
+        },
+        slam: {
+            ru: 'Рывок!',
+            ua: 'Ривок!',
+            en: 'Power push!',
+            de: 'Kraftstoß!',
+        },
         bet: {
             ru: 'Банк',
             ua: 'Банк',

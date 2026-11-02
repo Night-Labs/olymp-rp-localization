@@ -583,6 +583,20 @@ export default {
             pl: 'Zdobądź {{goal}} punktów we Flappy Winds w dowolnej liczbie prób. Ptak się rozbił? Zaczynaj od nowa, wszystko się sumuje!',
         },
     },
+    cookDishesDailyQuest: {
+        name: {
+            ru: 'Обед дома',
+            ua: 'Обід удома',
+            en: 'Lunch at Home',
+            de: 'Mittagessen zu Hause',
+        },
+        desc: {
+            ru: 'Приготовь {{count}} блюда на домашней кухне. Считаются блюда нормального качества и лучше, а удачные можно съесть самому или продать.',
+            ua: 'Приготуй {{count}} страви на домашній кухні. Рахуються страви нормальної якості й кращі, а вдалі можна з\'їсти самому або продати.',
+            en: 'Cook {{count}} dishes in a home kitchen. Dishes of normal quality or better count; the good ones are yours to eat or sell.',
+            de: 'Koche {{count}} Gerichte in einer Hausküche. Es zählen Gerichte ab normaler Qualität, Gelungenes kannst du essen oder verkaufen.',
+        },
+    },
     winGrandmasterMatchesDailyQuest: {
         name: {
             ru: 'Партия за телефоном',

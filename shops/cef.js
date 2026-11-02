@@ -698,6 +698,12 @@ export const cef = {
             pl: 'Żywność',
             zh: '食品',
         },
+        cooking: {
+            ru: 'Кулинария',
+            ua: 'Кулінарія',
+            en: 'Cooking',
+            de: 'Kochen',
+        },
         medical: {
             ru: 'Медикоменты',
             ua: 'Медикаменти',

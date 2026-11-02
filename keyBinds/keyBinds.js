@@ -721,6 +721,13 @@ export default {
         de: 'Arena: Match-Menü',
         pl: 'Arena: menu meczu',
     },
+    'insideJob.use': { ru: 'Inside Job: действие', ua: 'Inside Job: дія', en: 'Inside Job: use', de: 'Inside Job: benutzen' },
+    'insideJob.report': { ru: 'Inside Job: сообщить о теле', ua: 'Inside Job: повідомити про тіло', en: 'Inside Job: report a body', de: 'Inside Job: Leiche melden' },
+    'insideJob.kill': { ru: 'Inside Job: устранить', ua: 'Inside Job: усунути', en: 'Inside Job: kill', de: 'Inside Job: ausschalten' },
+    'insideJob.sabotage': { ru: 'Inside Job: план диверсий', ua: 'Inside Job: план диверсій', en: 'Inside Job: sabotage plan', de: 'Inside Job: Sabotageplan' },
+    'insideJob.plan': { ru: 'Inside Job: план лаборатории', ua: 'Inside Job: план лабораторії', en: 'Inside Job: lab plan', de: 'Inside Job: Laborplan' },
+    'insideJob.chat': { ru: 'Inside Job: чат призраков', ua: 'Inside Job: чат привидів', en: 'Inside Job: ghost chat', de: 'Inside Job: Geisterchat' },
+    'insideJob.ability': { ru: 'Inside Job: способность роли', ua: 'Inside Job: здібність ролі', en: 'Inside Job: role ability', de: 'Inside Job: Rollenfähigkeit' },
     'photo.shoot': {
         ru: 'Камера: сделать снимок',
         ua: 'Камера: зробити знімок',
@@ -882,6 +889,12 @@ export default {
         de: 'Ein Objekt auswählen',
         pl: 'Wybierz obiekt',
     },
+    'furnitureEditor.multiSelect': {
+        ru: 'Выделить несколько (удерживать)',
+        ua: 'Виділити кілька (утримувати)',
+        en: 'Select several (hold)',
+        de: 'Mehrere auswählen (halten)',
+    },
     'furnitureEditor.deselect': {
         ru: 'Снять выделение',
         ua: 'Зняти виділення',
@@ -952,6 +965,18 @@ export default {
         de: 'Achsen: lokal / global',
         pl: 'Osie: lokalne / globalne',
     },
+    'furnitureEditor.rotateSnap': {
+        ru: 'Шаг поворота / перемещения',
+        ua: 'Крок повороту / переміщення',
+        en: 'Rotation / move step',
+        de: 'Dreh- / Bewegungsschritt',
+    },
+    'furnitureEditor.freeRotate': {
+        ru: 'Без шага (удерживать)',
+        ua: 'Без кроку (утримувати)',
+        en: 'No step (hold)',
+        de: 'Ohne Schritt (halten)',
+    },
     'furnitureEditor.hideHints': {
         ru: 'Скрыть подсказки',
         ua: 'Сховати підказки',
@@ -965,6 +990,12 @@ export default {
         en: 'Delete object',
         de: 'Objekt löschen',
         pl: 'Usuń obiekt',
+    },
+    'furnitureEditor.store': {
+        ru: 'Убрать на склад',
+        ua: 'Прибрати на склад',
+        en: 'Put in storage',
+        de: 'Ins Lager räumen',
     },
     'furnitureEditor.duplicate': {
         ru: 'Дублировать объект',
@@ -1081,6 +1112,48 @@ export default {
             en: 'In any arena match, opens the match menu, where you can leave the match',
             de: 'Öffnet in jedem Arena-Match das Match-Menü, über das du das Match verlassen kannst',
             pl: 'W każdym meczu areny otwiera menu meczu, z którego możesz opuścić mecz',
+        },
+        'insideJob.use': {
+            ru: 'В матче Inside Job: задание у станции, кнопка тревоги, считыватель двери, раковина и устранение диверсии. Удерживай, чтобы взять или поставить груз',
+            ua: 'У матчі Inside Job: завдання біля станції, кнопка тривоги, зчитувач дверей, раковина та усунення диверсії. Утримуй, щоб узяти або поставити вантаж',
+            en: 'In an Inside Job match: a task at its station, the alarm button, a door reader, a sink and a sabotage fix. Hold it to pick up or set down a load',
+            de: 'Im Inside-Job-Match: eine Aufgabe an ihrer Station, der Alarmknopf, ein Türleser, ein Waschbecken und das Beheben einer Sabotage. Halten, um eine Last aufzunehmen oder abzustellen',
+        },
+        'insideJob.report': {
+            ru: 'В матче Inside Job сообщает о найденном рядом теле и созывает собрание',
+            ua: 'У матчі Inside Job повідомляє про знайдене поруч тіло та скликає збори',
+            en: 'In an Inside Job match, reports a body found nearby and calls a meeting',
+            de: 'Meldet im Inside-Job-Match eine Leiche in der Nähe und beruft eine Besprechung ein',
+        },
+        'insideJob.kill': {
+            ru: 'Крот в матче Inside Job устраняет сотрудника рядом с собой',
+            ua: 'Кріт у матчі Inside Job усуває співробітника поруч із собою',
+            en: 'As a Mole in an Inside Job match, takes out a staff member next to you',
+            de: 'Als Maulwurf im Inside-Job-Match schaltest du einen Mitarbeiter neben dir aus',
+        },
+        'insideJob.sabotage': {
+            ru: 'Крот в матче Inside Job открывает план лаборатории с диверсиями',
+            ua: 'Кріт у матчі Inside Job відкриває план лабораторії з диверсіями',
+            en: 'As a Mole in an Inside Job match, opens the lab plan with the sabotages',
+            de: 'Als Maulwurf im Inside-Job-Match öffnest du den Laborplan mit den Sabotagen',
+        },
+        'insideJob.plan': {
+            ru: 'В матче Inside Job показывает план лаборатории с твоими заданиями',
+            ua: 'У матчі Inside Job показує план лабораторії з твоїми завданнями',
+            en: 'In an Inside Job match, shows the lab plan with your tasks',
+            de: 'Zeigt im Inside-Job-Match den Laborplan mit deinen Aufgaben',
+        },
+        'insideJob.chat': {
+            ru: 'Призрак в матче Inside Job пишет в чат призраков, который живые не видят',
+            ua: 'Привид у матчі Inside Job пише в чат привидів, якого живі не бачать',
+            en: 'As a ghost in an Inside Job match, writes in the ghost chat the living do not see',
+            de: 'Als Geist im Inside-Job-Match schreibst du in den Geisterchat, den die Lebenden nicht sehen',
+        },
+        'insideJob.ability': {
+            ru: 'В матче Inside Job применяет способность твоей роли, если она у тебя есть',
+            ua: 'У матчі Inside Job застосовує здібність твоєї ролі, якщо вона в тебе є',
+            en: 'In an Inside Job match, uses the ability of your role, if you have one',
+            de: 'Setzt im Inside-Job-Match die Fähigkeit deiner Rolle ein, falls du eine hast',
         },
         'tank.sniper': {
             ru: 'В танке переключает вид из-за корпуса и прицел у орудия. Колесо мыши тоже приближает вид и переходит в прицел',

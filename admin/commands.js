@@ -619,6 +619,24 @@ export default {
         de: 'Zu einem Spieler anhand seiner static ID teleportieren.',
         pl: 'Teleportuj się do gracza po jego static ID.',
     },
+    flat_test: {
+        ru: 'Войти в квартиру нового конструктора интерьеров (по её id, без него в первую).',
+        ua: "Увійти до квартири нового конструктора інтер'єрів (за її id, без нього до першої).",
+        en: 'Enter a flat of the new interior builder (by its id, the first one without).',
+        de: 'Eine Wohnung des neuen Innenraum-Baukastens betreten (nach ihrer ID, ohne sie die erste).',
+    },
+    flat_mat: {
+        ru: 'Отделка поверхности квартиры, в которой стоишь, только у тебя: поверхность, материал, цвет. Без поверхности: список поверхностей, без материала: что она предлагает.',
+        ua: 'Оздоблення поверхні квартири, в якій стоїш, тільки в тебе: поверхня, матеріал, колір. Без поверхні: список поверхонь, без матеріалу: що вона пропонує.',
+        en: 'The finish of a surface of the flat you stand in, on your client only: surface, material, colour. Without a surface: the list of surfaces; without a material: what it offers.',
+        de: 'Die Ausstattung einer Fläche der Wohnung, in der du stehst, nur bei dir: Fläche, Material, Farbe. Ohne Fläche: die Liste der Flächen, ohne Material: was sie anbietet.',
+    },
+    flat_tier: {
+        ru: 'Все поверхности квартиры, в которой стоишь, в материалы уровня по умолчанию (budget или premium), только у тебя.',
+        ua: 'Усі поверхні квартири, в якій стоїш, у матеріали рівня за замовчуванням (budget або premium), тільки в тебе.',
+        en: 'Every surface of the flat you stand in to its tier default materials (budget or premium), on your client only.',
+        de: 'Alle Flächen der Wohnung, in der du stehst, auf die Standardmaterialien einer Stufe (budget oder premium), nur bei dir.',
+    },
     tphere: {
         ru: 'Телепортировать игрока к себе по его static ID.',
         ua: 'Телепортувати гравця до себе за його static ID.',
@@ -1602,6 +1620,12 @@ export default {
         de: 'Fort Zancudo sofort ohne Prüfungen im Namen einer Gang (standardmäßig der eigenen) abschalten. Angreifer sind alle am Verteiler und im Fort.',
         pl: 'Od razu odciąć prąd w Fort Zancudo w imieniu gangu (domyślnie własnego), bez sprawdzeń. Uczestnicy to wszyscy przy rozdzielnicy i w forcie.',
     },
+    fzdemo: {
+        ru: 'Тестовое нападение на Форт-Занкудо для съемки при малом онлайне: следующая установка ЭМИ бандой (по умолчанию своей) идет без проверок и без устройства. Материалы не двигаются, нет КД, розыска и записи. Повторно без аргумента - отменить.',
+        ua: 'Тестовий напад на Форт-Занкудо для зйомки при малому онлайні: наступне встановлення ЕМІ бандою (за замовчуванням своєю) без перевірок і без пристрою. Матеріали не рухаються, немає КД, розшуку і запису. Повторно без аргументу - скасувати.',
+        en: 'Test attack on Fort Zancudo for filming at low online: the next EMP plant by the gang (your own by default) skips every check and needs no device. No materials move, no cooldown, wanted level or record. Again without an argument to disarm.',
+        de: 'Test-Angriff auf Fort Zancudo zum Filmen bei wenig Online: Die nächste EMP-Platzierung der Gang (standardmäßig der eigenen) läuft ohne Prüfungen und ohne Gerät. Keine Materialien, keine Abklingzeit, keine Fahndung, kein Eintrag. Erneut ohne Argument zum Abbrechen.',
+    },
     trainwarpraid: {
         ru: 'Телепортировать грузовой поезд на точку ограбления и сразу открыть ивент.',
         ua: 'Телепортувати вантажний потяг на точку пограбунку та відразу відкрити івент.',
@@ -1673,11 +1697,16 @@ export default {
         pl: 'Przełącz niezniszczalność aktualnego pojazdu administratora.',
     },
     admin_tools: {
-        ru: 'Включить или выключить приватные admin-tools у себя.',
-        ua: 'Увімкнути або вимкнути приватні admin-tools у себе.',
-        en: 'Enable or disable private admin tools for yourself.',
-        de: 'Private Admin-Tools für dich selbst ein- oder ausschalten.',
-        pl: 'Włącz lub wyłącz prywatne admin-tools u siebie.',
+        ru: 'Admin tools: игроки, дома, бизнесы и объекты сквозь стены. Без радиуса переключить, 0 выключить, число задаёт радиус в метрах (до 1000).',
+        ua: "Admin tools: гравці, будинки, бізнеси та об'єкти крізь стіни. Без радіуса перемкнути, 0 вимкнути, число задає радіус у метрах (до 1000).",
+        en: 'Admin tools: players, houses, businesses and objects through walls. No radius toggles, 0 turns off, a number sets the radius in metres (up to 1000).',
+        de: 'Admin-Tools: Spieler, Häuser, Geschäfte und Objekte durch Wände. Ohne Radius umschalten, 0 aus, eine Zahl setzt den Radius in Metern (bis 1000).',
+    },
+    admin_tools2: {
+        ru: 'Admin tools 2: транспорт сквозь стены (ID, последний водитель, HP двигателя и кузова, броня, модель, кто синхронит, координаты). Без радиуса переключить, 0 выключить, число задаёт радиус в метрах (до 1000).',
+        ua: 'Admin tools 2: транспорт крізь стіни (ID, останній водій, HP двигуна та кузова, броня, модель, хто синхронізує, координати). Без радіуса перемкнути, 0 вимкнути, число задає радіус у метрах (до 1000).',
+        en: 'Admin tools 2: vehicles through walls (ID, last driver, engine and body HP, armour, model, sync owner, coordinates). No radius toggles, 0 turns off, a number sets the radius in metres (up to 1000).',
+        de: 'Admin-Tools 2: Fahrzeuge durch Wände (ID, letzter Fahrer, Motor- und Karosserie-HP, Panzerung, Modell, Sync-Besitzer, Koordinaten). Ohne Radius umschalten, 0 aus, eine Zahl setzt den Radius in Metern (bis 1000).',
     },
     vehicle_get_fuel: {
         ru: 'Показать текущее состояние топлива у выбранного транспорта или у текущего транспорта администратора.',
@@ -2219,6 +2248,12 @@ export default {
         en: 'Battle royale. /br start [sec] - run the event of the day in that many seconds (15 by default), no player minimum: it takes the registered players who are at the arena then. /br stop - abort every match and return the deposits. /br zone - skip the current zone wait. /br skip - end the warm-up, everyone boards the plane now. /br scan [count] - open the scanner screen with test players around you.',
         de: 'Battle Royale. /br start [Sek.] - das Event des Tages in so vielen Sekunden starten (standardmäßig 15), ohne Mindestzahl: Es nimmt die Angemeldeten mit, die dann in der Arena sind. /br stop - alle Matches abbrechen, Einsätze zurück. /br zone - die aktuelle Zonen-Wartezeit überspringen. /br skip - das Aufwärmen beenden, alle steigen sofort ins Flugzeug. /br scan [Anzahl] - den Scanner-Bildschirm mit Testspielern um dich herum öffnen.',
         pl: 'Battle royale. /br start [sek] - uruchom wydarzenie dnia za podaną liczbę sekund (domyślnie 15), bez minimum graczy: zabierze zapisanych, którzy będą wtedy na arenie. /br stop - przerwij wszystkie mecze ze zwrotem wpisowego. /br zone - pomiń bieżące oczekiwanie strefy. /br skip - zakończ rozgrzewkę, wszyscy od razu do samolotu. /br scan [liczba] - otwórz ekran skanera z testowymi graczami wokół ciebie.',
+    },
+    mole: {
+        ru: 'Inside Job. /mole start [сек] - запустить часовое событие, если это Inside Job. /mole stop - прервать все матчи с возвратом взносов. /mole role <id> staff|mole - роль игрока при следующей раздаче. /mole meeting - собрание в вашем матче. /mole sabotage <вид> [цель] - диверсия в вашем матче. /mole demo [кол-во] - тестовый матч с манекенами-сотрудниками. /mole survey - показать точки карты в мире.',
+        ua: 'Inside Job. /mole start [сек] - запустити щогодинну подію, якщо це Inside Job. /mole stop - перервати всі матчі з поверненням внесків. /mole role <id> staff|mole - роль гравця при наступній роздачі. /mole meeting - збори у вашому матчі. /mole sabotage <вид> [ціль] - диверсія у вашому матчі. /mole demo [кількість] - тестовий матч із манекенами-співробітниками. /mole survey - показати точки карти у світі.',
+        en: 'Inside Job. /mole start [sec] - start the hourly event if it is Inside Job. /mole stop - abort every match and return the deposits. /mole role <id> staff|mole - a player\'s side at the next deal. /mole meeting - a meeting in your match. /mole sabotage <kind> [target] - a sabotage in your match. /mole demo [count] - a test match with dummy staff. /mole survey - show the map\'s points in the world.',
+        de: 'Inside Job. /mole start [Sek.] - das stündliche Event starten, wenn es Inside Job ist. /mole stop - alle Matches abbrechen, Einsätze zurück. /mole role <id> staff|mole - die Seite eines Spielers bei der nächsten Verteilung. /mole meeting - eine Besprechung in deinem Match. /mole sabotage <Art> [Ziel] - eine Sabotage in deinem Match. /mole demo [Anzahl] - ein Testmatch mit Personal-Dummys. /mole survey - die Punkte der Karte in der Welt zeigen.',
     },
     tank: {
         ru: 'Боевой танк для тестов. /tank <модель> - танк перед вами, вы за рулём: камера, прицел и орудие танковых боёв. /tank target <модель> - пустой танк в 40 м как мишень. /tank repair - полный запас прочности и снарядов. /tank off - убрать свой танк, /tank clear - убрать все.',
@@ -2862,6 +2897,12 @@ export default {
         de: 'Spieler, Fahrzeuge und Peds um dich herum mit einstellbarem Radius und Kraft wegstoßen.',
         pl: 'Odepchnij graczy, pojazdy i pedów wokół siebie z konfigurowalnym promieniem i siłą.',
     },
+    kamui: {
+        ru: 'Вкл/выкл Камуи: игроки, педы, машины и пули проходят сквозь вас, с миром вы взаимодействуете как обычно. Другие админы не могут применять к вам команды.',
+        ua: 'Увімк/вимк Камуі: гравці, педи, машини та кулі проходять крізь вас, зі світом ви взаємодієте як зазвичай. Інші адміни не можуть застосовувати до вас команди.',
+        en: 'Toggle Kamui: players, peds, vehicles and bullets pass through you while the world stays solid. Other admins cannot use commands on you.',
+        de: 'Kamui umschalten: Spieler, Peds, Fahrzeuge und Kugeln gehen durch dich hindurch, die Welt bleibt fest. Andere Admins können keine Befehle auf dich anwenden.',
+    },
     set_random_temp_name: {
         ru: 'Выдать себе случайное временное имя и nameId для отладки nametag-сценариев.',
         ua: "Видати собі випадкове тимчасове ім'я та nameId для налагодження nametag-сценаріїв.",
@@ -3070,6 +3111,12 @@ export default {
         en: 'Reset the organization with the given tag to its creation state: treasury, level, reputation, upgrades, contracts, territories, offices, warehouse and organization vehicles. Members, ranks and the HQ stay.',
         de: 'Die Organisation mit dem angegebenen Tag auf den Gründungszustand zurücksetzen: Kasse, Level, Ansehen, Upgrades, Aufträge, Gebiete, Büros, Lager und Organisationsfahrzeuge. Mitglieder, Ränge und das HQ bleiben.',
         pl: 'Zresetuj organizację o podanym tagu do stanu z chwili założenia: skarbiec, poziom, reputacja, ulepszenia, kontrakty, terytoria, biura, magazyn i pojazdy organizacji. Członkowie, rangi i HQ zostają.',
+    },
+    take_org_balance: {
+        ru: 'Списать указанную сумму с казны организации с указанным тегом. Деньги никому не зачисляются, запись попадает в журнал организации.',
+        ua: 'Списати вказану суму з казни організації з вказаним тегом. Гроші нікому не зараховуються, запис потрапляє до журналу організації.',
+        en: 'Take the given amount out of the treasury of the organization with the given tag. The money goes to nobody; the entry lands in the organization journal.',
+        de: 'Den angegebenen Betrag aus der Kasse der Organisation mit dem angegebenen Tag entfernen. Das Geld geht an niemanden; der Eintrag landet im Organisationsjournal.',
     },
     org_contract_close: {
         ru: 'Закрыть заказ организации с указанным тегом как выполненный: семейный или указанный по id. Награда делится между участниками по сданному, админ ничего не получает.',
