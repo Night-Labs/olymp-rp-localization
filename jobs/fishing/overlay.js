@@ -127,6 +127,46 @@ export default {
             de: 'Kein Bonus, keine Strafe',
         },
     },
+    // What becomes of a landed fish (owner 2026-11-03): switched in R's list of places (fishing/rod/PickerList), named in
+    // the rod HUD column's "Catch" block when the card no longer asks.
+    catchMode: {
+        title: {
+            ru: 'Что делать с уловом',
+            ua: 'Що робити з уловом',
+            en: 'What to do with the catch',
+            de: 'Was mit dem Fang geschieht',
+        },
+        ask: {
+            ru: 'Спрашивать',
+            ua: 'Питати',
+            en: 'Ask',
+            de: 'Fragen',
+        },
+        take: {
+            ru: 'Забирать',
+            ua: 'Забирати',
+            en: 'Keep',
+            de: 'Behalten',
+        },
+        release: {
+            ru: 'Отпускать',
+            ua: 'Відпускати',
+            en: 'Release',
+            de: 'Freilassen',
+        },
+        autoTake: {
+            ru: 'Забирать автоматически',
+            ua: 'Забирати автоматично',
+            en: 'Keep automatically',
+            de: 'Automatisch behalten',
+        },
+        autoRelease: {
+            ru: 'Отпускать автоматически',
+            ua: 'Відпускати автоматично',
+            en: 'Release automatically',
+            de: 'Automatisch freilassen',
+        },
+    },
     // Where a taken fish goes, picked in the menu R opens (also on the catch card); the headers of its item notify.
     target: {
         hintMove: {
@@ -471,6 +511,32 @@ export default {
             ua: 'Відпущена',
             en: 'Released',
             de: 'Freigelassen',
+        },
+        // The card's status in place of its buttons when the catch mode decided (owner 2026-11-03..04): where the fish went;
+        // a vehicle by its name and plate ("BMW M5 F90 #UWU").
+        autoTaken: {
+            ru: 'Забрано в {{place}}',
+            ua: 'Забрано в {{place}}',
+            en: 'Stored in {{place}}',
+            de: 'Verstaut in {{place}}',
+        },
+        autoPockets: {
+            ru: 'Забрано в инвентарь',
+            ua: 'Забрано в інвентар',
+            en: 'Stored in the inventory',
+            de: 'Im Inventar verstaut',
+        },
+        autoBackpack: {
+            ru: 'Забрано в рюкзак',
+            ua: 'Забрано в рюкзак',
+            en: 'Stored in the backpack',
+            de: 'Im Rucksack verstaut',
+        },
+        autoGround: {
+            ru: 'Нет места: лежит рядом',
+            ua: 'Немає місця: лежить поруч',
+            en: 'No room: dropped beside you',
+            de: 'Kein Platz: liegt neben dir',
         },
         exp: {
             ru: '+{{exp}} опыта',
