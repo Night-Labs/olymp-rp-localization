@@ -2942,6 +2942,8 @@ export default {
         map: {
             // The Inside Job labs (shared/configs/insideJob/maps).
             humaneLabs: { ru: 'Humane Labs', ua: 'Humane Labs', en: 'Humane Labs', de: 'Humane Labs' },
+            orbitalLab: { ru: 'Орбитальная лаборатория', ua: 'Орбітальна лабораторія', en: 'Orbital Lab', de: 'Orbitallabor' },
+            lockedLab: { ru: 'Запертая лаборатория', ua: 'Замкнена лабораторія', en: 'Locked Lab', de: 'Verschlossenes Labor' },
             // The tank battle maps (shared/configs/tanks/maps): place names as in the game.
             losSantosAirport: {
                 ru: 'Los Santos International',
