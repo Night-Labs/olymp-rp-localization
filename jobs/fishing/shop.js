@@ -273,5 +273,18 @@ export default {
             en: 'Buy',
             de: 'Kaufen',
         },
+        // The species list of a bait opens past its first two rows.
+        showAll: {
+            ru: 'Показать все ({{count}})',
+            ua: 'Показати всі ({{count}})',
+            en: 'Show all ({{count}})',
+            de: 'Alle zeigen ({{count}})',
+        },
+        showLess: {
+            ru: 'Свернуть',
+            ua: 'Згорнути',
+            en: 'Show less',
+            de: 'Weniger zeigen',
+        },
     },
 };

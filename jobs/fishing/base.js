@@ -146,6 +146,18 @@ export default {
             en: 'Open ocean',
             de: 'Offener Ozean',
         },
+        islandCoast: {
+            ru: 'Берег Кайо-Перико',
+            ua: 'Берег Кайо-Періко',
+            en: 'Cayo Perico coast',
+            de: 'Küste von Cayo Perico',
+        },
+        islandWaters: {
+            ru: 'Воды Кайо-Перико',
+            ua: 'Води Кайо-Періко',
+            en: 'Cayo Perico waters',
+            de: 'Gewässer von Cayo Perico',
+        },
     },
 
     // Contract kinds (shared/jobs/fishing/contracts.ts).

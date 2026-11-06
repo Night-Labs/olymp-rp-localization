@@ -608,6 +608,14 @@ export const cef = {
             zh: '销毁',
         },
 
+        // A prize of the multi case opening summary: stays on the warehouse, out of the summary's receive / sell all
+        keep: {
+            ru: 'Оставить на складе',
+            ua: 'Залишити на складі',
+            en: 'Keep in the warehouse',
+            de: 'Im Lager lassen',
+        },
+
         // Filter
         vehicles: {
             ru: 'Транспорт',
@@ -954,6 +962,325 @@ export const cef = {
             en: 'Apply',
             de: 'Anwenden',
             pl: 'Zastosuj',
+        },
+    },
+
+    // The info panel of a donate item (Donate/components/ItemInfo.vue)
+    itemInfo: {
+        title: {
+            ru: 'Информация',
+            ua: 'Інформація',
+            en: 'Information',
+            de: 'Informationen',
+        },
+        yes: {
+            ru: 'Да',
+            ua: 'Так',
+            en: 'Yes',
+            de: 'Ja',
+        },
+        no: {
+            ru: 'Нет',
+            ua: 'Ні',
+            en: 'No',
+            de: 'Nein',
+        },
+        // An installed upgrade
+        has: {
+            ru: 'Есть',
+            ua: 'Є',
+            en: 'Installed',
+            de: 'Vorhanden',
+        },
+        unavailable: {
+            ru: 'Недоступен',
+            ua: 'Недоступний',
+            en: 'Unavailable',
+            de: 'Nicht verfügbar',
+        },
+        // A long description is cut to a few lines until opened
+        showMore: {
+            ru: 'Показать полностью',
+            ua: 'Показати повністю',
+            en: 'Show more',
+            de: 'Mehr anzeigen',
+        },
+        showLess: {
+            ru: 'Свернуть',
+            ua: 'Згорнути',
+            en: 'Show less',
+            de: 'Weniger anzeigen',
+        },
+        level: {
+            ru: 'Уровень {{level}}',
+            ua: 'Рівень {{level}}',
+            en: 'Level {{level}}',
+            de: 'Stufe {{level}}',
+        },
+        // Every stage from 1 up to the highest one the car has
+        stageRange: {
+            ru: 'Stage 1-{{max}}',
+            ua: 'Stage 1-{{max}}',
+            en: 'Stage 1-{{max}}',
+            de: 'Stage 1-{{max}}',
+        },
+        labels: {
+            modKit: {
+                ru: 'Комплект обвесов',
+                ua: 'Комплект обвісів',
+                en: 'Body kit',
+                de: 'Bodykit',
+            },
+            class: {
+                ru: 'Класс',
+                ua: 'Клас',
+                en: 'Class',
+                de: 'Klasse',
+            },
+            maxSpeed: {
+                ru: 'Макс. скорость',
+                ua: 'Макс. швидкість',
+                en: 'Top speed',
+                de: 'Höchstgeschwindigkeit',
+            },
+            seats: {
+                ru: 'Посадочных мест',
+                ua: 'Посадкових місць',
+                en: 'Seats',
+                de: 'Sitzplätze',
+            },
+            fuelType: {
+                ru: 'Тип топлива',
+                ua: 'Тип пального',
+                en: 'Fuel type',
+                de: 'Kraftstoffart',
+            },
+            fuelTank: {
+                ru: 'Бензобак',
+                ua: 'Бензобак',
+                en: 'Fuel tank',
+                de: 'Tank',
+            },
+            battery: {
+                ru: 'Батарея',
+                ua: 'Батарея',
+                en: 'Battery',
+                de: 'Akku',
+            },
+            trunk: {
+                ru: 'Багажник',
+                ua: 'Багажник',
+                en: 'Trunk',
+                de: 'Kofferraum',
+            },
+            chips: {
+                ru: 'Чип-тюнинг',
+                ua: 'Чіп-тюнінг',
+                en: 'Chip tuning',
+                de: 'Chiptuning',
+            },
+            exclusive: {
+                ru: 'Эксклюзив',
+                ua: 'Ексклюзив',
+                en: 'Exclusive',
+                de: 'Exklusiv',
+            },
+            govPrice: {
+                ru: 'Гос. цена',
+                ua: 'Держ. ціна',
+                en: 'State price',
+                de: 'Staatspreis',
+            },
+            scrapyard: {
+                ru: 'Свалка',
+                ua: 'Звалище',
+                en: 'Scrapyard',
+                de: 'Schrottplatz',
+            },
+            fitsOn: {
+                ru: 'Устанавливается на',
+                ua: 'Встановлюється на',
+                en: 'Fits',
+                de: 'Passend für',
+            },
+            install: {
+                ru: 'Установка в ателье',
+                ua: 'Встановлення в ательє',
+                en: 'Workshop installation',
+                de: 'Einbau in der Werkstatt',
+            },
+            quantity: {
+                ru: 'Количество',
+                ua: 'Кількість',
+                en: 'Quantity',
+                de: 'Menge',
+            },
+            gender: {
+                ru: 'Пол',
+                ua: 'Стать',
+                en: 'Gender',
+                de: 'Geschlecht',
+            },
+            styles: {
+                ru: 'Расцветок',
+                ua: 'Забарвлень',
+                en: 'Colour options',
+                de: 'Farbvarianten',
+            },
+            weight: {
+                ru: 'Вес',
+                ua: 'Вага',
+                en: 'Weight',
+                de: 'Gewicht',
+            },
+            ammo: {
+                ru: 'Патроны',
+                ua: 'Набої',
+                en: 'Ammo',
+                de: 'Munition',
+            },
+            clipSize: {
+                ru: 'Магазин',
+                ua: 'Магазин',
+                en: 'Magazine',
+                de: 'Magazin',
+            },
+            illegal: {
+                ru: 'Нелегальный',
+                ua: 'Нелегальний',
+                en: 'Illegal',
+                de: 'Illegal',
+            },
+            duration: {
+                ru: 'Срок',
+                ua: 'Термін',
+                en: 'Duration',
+                de: 'Dauer',
+            },
+            zone: {
+                ru: 'Зона',
+                ua: 'Зона',
+                en: 'Body area',
+                de: 'Körperzone',
+            },
+            category: {
+                ru: 'Категория',
+                ua: 'Категорія',
+                en: 'Category',
+                de: 'Kategorie',
+            },
+            experience: {
+                ru: 'Опыт',
+                ua: 'Досвід',
+                en: 'Experience',
+                de: 'Erfahrung',
+            },
+        },
+        sections: {
+            description: {
+                ru: 'Описание',
+                ua: 'Опис',
+                en: 'Description',
+                de: 'Beschreibung',
+            },
+            tuning: {
+                ru: 'Тюнинг',
+                ua: 'Тюнінг',
+                en: 'Tuning',
+                de: 'Tuning',
+            },
+            extras: {
+                ru: 'Улучшения',
+                ua: 'Покращення',
+                en: 'Upgrades',
+                de: 'Upgrades',
+            },
+            privileges: {
+                ru: 'Привилегии',
+                ua: 'Привілеї',
+                en: 'Privileges',
+                de: 'Privilegien',
+            },
+        },
+        fuel: {
+            gasoline: {
+                ru: 'Бензин',
+                ua: 'Бензин',
+                en: 'Petrol',
+                de: 'Benzin',
+            },
+            electric: {
+                ru: 'Электричество',
+                ua: 'Електрика',
+                en: 'Electricity',
+                de: 'Strom',
+            },
+        },
+        gender: {
+            male: {
+                ru: 'Мужской',
+                ua: 'Чоловіча',
+                en: 'Male',
+                de: 'Männlich',
+            },
+            female: {
+                ru: 'Женский',
+                ua: 'Жіноча',
+                en: 'Female',
+                de: 'Weiblich',
+            },
+            any: {
+                ru: 'Любой',
+                ua: 'Будь-яка',
+                en: 'Any',
+                de: 'Alle',
+            },
+        },
+        units: {
+            l: {
+                ru: 'л',
+                ua: 'л',
+                en: 'L',
+                de: 'L',
+            },
+            kwh: {
+                ru: 'кВтч',
+                ua: 'кВт-год',
+                en: 'kWh',
+                de: 'kWh',
+            },
+            kg: {
+                ru: 'кг',
+                ua: 'кг',
+                en: 'kg',
+                de: 'kg',
+            },
+            kmh: {
+                ru: 'км/ч',
+                ua: 'км/год',
+                en: 'km/h',
+                de: 'km/h',
+            },
+        },
+        notes: {
+            battlePassVehicle: {
+                ru: 'Машины, полученные с боевого пропуска, государство оценивает значительно дешевле при продаже на свалку.',
+                ua: 'Машини, отримані з бойового пропуску, держава оцінює значно дешевше під час продажу на звалище.',
+                en: 'Cars received from the battle pass are valued much lower by the state when sold to the scrapyard.',
+                de: 'Autos aus dem Battle Pass bewertet der Staat beim Verkauf auf dem Schrottplatz deutlich niedriger.',
+            },
+            consumedOnInstall: {
+                ru: 'Предмет расходуется при установке в ателье.',
+                ua: 'Предмет витрачається під час встановлення в ательє.',
+                en: 'The item is used up when it is installed in the workshop.',
+                de: 'Der Gegenstand wird beim Einbau in der Werkstatt verbraucht.',
+            },
+            vinylRetired: {
+                ru: 'Этот винил больше не используется: предмет ничего не открывает.',
+                ua: 'Цей вініл більше не використовується: предмет нічого не відкриває.',
+                en: 'This vinyl is no longer in use: the item unlocks nothing.',
+                de: 'Diese Folie wird nicht mehr verwendet: Der Gegenstand schaltet nichts frei.',
+            },
         },
     },
 };

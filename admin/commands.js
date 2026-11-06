@@ -47,6 +47,12 @@ export default {
         en: 'Play gold panning on yourself with the pan in hand: swirl - washing, hold - pan held level, off - stop',
         de: 'Goldwaschen mit der Pfanne in der Hand an dir selbst abspielen: swirl - waschen, hold - Pfanne ruhig halten, off - beenden',
     },
+    rod_test: {
+        ru: 'Удочка в руках на стойке рыбалки: < > меняют модель удочки. Повторно - убрать.',
+        ua: 'Вудка в руках у стійці риболовлі: < > змінюють модель вудки. Повторно - прибрати.',
+        en: 'Rod in hand in the fishing stance: < > switch the rod model. Again - put it away.',
+        de: 'Angel in der Hand in der Angelhaltung: < > wechseln das Angelmodell. Erneut - wegstecken.',
+    },
     disguise: {
         ru: 'Замаскироваться: другие игроки видят указанные имя, фамилию и ID. Без имени - случайное, без ID - случайный.',
         ua: "Замаскуватися: інші гравці бачать вказані ім'я, прізвище та ID. Без імені - випадкове, без ID - випадковий",
@@ -83,6 +89,12 @@ export default {
         de: 'Chiptuning: den eingebauten Chip mit dem vergleichen, was tatsächlich in Handling und Getriebe angekommen ist.',
         pl: 'Chip tuning: porównaj chip zamontowany w pojeździe z tym, co faktycznie trafiło do jego prowadzenia i skrzyni.',
         zh: '芯片调校：将车上装配的芯片与实际生效的操控与变速箱数据进行比对。',
+    },
+    handlingLog: {
+        ru: 'Хендлинг: записать в лог клиента покадровую телеметрию подвески и шин машины (секунды, повтор - стоп).',
+        ua: 'Хендлінг: записати в лог клієнта покадрову телеметрію підвіски та шин машини (секунди, повтор - стоп).',
+        en: 'Handling: write per-frame suspension and tyre telemetry of the vehicle into the client log (seconds, repeat to stop).',
+        de: 'Handling: Fahrwerks- und Reifentelemetrie des Fahrzeugs pro Frame ins Client-Log schreiben (Sekunden, erneut zum Stoppen).',
     },
     vinyl: {
         ru: 'Демо винила: наклеить картинку на livery-слой машины с перемещением, масштабом, поворотом и перекраской.',
@@ -2904,6 +2916,12 @@ export default {
         en: 'Play the specified animation on yourself with an optional flag.',
         de: 'Die angegebene Animation mit optionalem Flag auf dir selbst abspielen.',
         pl: 'Uruchom na sobie wskazaną animację z opcjonalnym flag.',
+    },
+    anim_stop: {
+        ru: 'Остановить анимацию, запущенную через /anim.',
+        ua: 'Зупинити анімацію, запущену через /anim.',
+        en: 'Stop the animation started with /anim.',
+        de: 'Die mit /anim gestartete Animation stoppen.',
     },
     set_mod: {
         ru: 'Поставить модификацию текущему транспорту по modType и modIndex.',
