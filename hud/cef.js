@@ -217,4 +217,21 @@ export const cef = {
             pl: 'Grupa',
         },
     },
+    // The zone badge by the minimap (radar.vue); green and red zones carry English literals.
+    specialZone: {
+        hummerWar: {
+            name: {
+                ru: 'ЗОНА ВЗХ',
+                ua: 'ЗОНА ВЗХ',
+                en: 'HUMMER WAR',
+                de: 'HUMMER-KRIEG',
+            },
+            text: {
+                ru: 'ВЫ НАХОДИТЕСЬ В ЗОНЕ ВЗХ',
+                ua: 'ВИ ЗНАХОДИТЕСЬ У ЗОНІ ВЗХ',
+                en: 'YOU ARE IN THE HUMMER WAR ZONE',
+                de: 'DU BIST IN DER HUMMER-KRIEG-ZONE',
+            },
+        },
+    },
 };

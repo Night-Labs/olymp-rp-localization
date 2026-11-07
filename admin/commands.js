@@ -136,6 +136,12 @@ export default {
         pl: 'Prototyp winylu: nakleja testowy obrazek na karoserię pojazdu, na który patrzysz.',
         zh: '贴纸原型：将测试图片贴到你正在看的车辆车身上。',
     },
+    naruto: {
+        ru: 'Теневые клоны: открыть или закрыть панель управления.',
+        ua: 'Тіньові клони: відкрити або закрити панель керування.',
+        en: 'Shadow clones: open or close the control panel.',
+        de: 'Schattenklone: Steuerpanel öffnen oder schließen.',
+    },
     nika: {
         ru: 'Ника: два компаньона-телохранителя. start / end / kill <id> / forget <id> / mode <0-2> / ammo <тип|off> / anim / fly [on|off] / antidb [on|off].',
         ua: 'Ніка: два компаньйони-охоронці. start / end / kill <id> / forget <id> / mode <0-2> / ammo <тип|off> / anim / fly [on|off] / antidb [on|off].',

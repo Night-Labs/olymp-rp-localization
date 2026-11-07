@@ -14,6 +14,7 @@ import darts from './darts';
 import territories from './territories';
 import battlePass from './battlePass';
 import handlingLog from './handlingLog';
+import narutoClones from './narutoClones';
 export default {
     ...cef,
     ...server,
@@ -31,6 +32,7 @@ export default {
     territories,
     battlePass,
     handlingLog,
+    narutoClones,
     getOut: {
         ru: 'Для начала выйди из админки',
         ua: 'Для початку вийди з адмінки',
