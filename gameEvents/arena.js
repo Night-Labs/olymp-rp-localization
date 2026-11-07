@@ -1116,6 +1116,13 @@ export default {
             de: 'Keine Lobby passt zur Suche und den Filtern.',
             pl: 'Żadne lobby nie pasuje do wyszukiwania i filtrów.',
         },
+        // An Inside Job lobby's card: the language it is played in (by voice), named by the language itself.
+        language: {
+            ru: 'Язык',
+            ua: 'Мова',
+            en: 'Language',
+            de: 'Sprache',
+        },
     },
 
     create: {
@@ -1376,6 +1383,20 @@ export default {
             de: 'Du brauchst einen Panzer einer der Gefechtsstufen: wähle ihn im Hangar',
             pl: 'Potrzebujesz czołgu jednego z poziomów bitwy: wybierz go w hangarze',
         },
+        // An Inside Job lobby of another language than the player's: the mode is played by voice.
+        language: {
+            ru: 'Это лобби играет на другом языке: в Inside Job играют голосом',
+            ua: 'Це лобі грає іншою мовою: в Inside Job грають голосом',
+            en: 'This lobby plays in another language: Inside Job is played by voice',
+            de: 'Diese Lobby spielt in einer anderen Sprache: Inside Job wird im Sprachchat gespielt',
+        },
+        // The match server is out of reach (server mesh): the call never got to it.
+        meshUnavailable: {
+            ru: 'Olymp Arena сейчас недоступна, попробуйте через минуту',
+            ua: 'Olymp Arena зараз недоступна, спробуйте за хвилину',
+            en: 'Olymp Arena is unavailable right now, try again in a minute',
+            de: 'Olymp Arena ist gerade nicht erreichbar, versuche es in einer Minute erneut',
+        },
     },
 
     notify: {
@@ -1602,6 +1623,13 @@ export default {
             en: 'The series is over. Your place on the table: {{place}}',
             de: 'Die Serie ist beendet. Dein Platz in der Tabelle: {{place}}',
             pl: 'Seria zakończona. Twoje miejsce w tabeli: {{place}}',
+        },
+        // The match server went down mid-match (server mesh): the player is back in their own world, the money follows it.
+        hubLost: {
+            ru: 'Сервер матчей отключился: вы снова в городе. Залоги вернутся или будут выплачены, как только он снова заработает',
+            ua: 'Сервер матчів відключився: ви знову в місті. Застави повернуться або будуть виплачені, щойно він знову запрацює',
+            en: 'The match server went down: you are back in the city. Deposits are refunded or paid out as soon as it is back',
+            de: 'Der Match-Server ist ausgefallen: Du bist zurück in der Stadt. Einsätze werden erstattet oder ausgezahlt, sobald er wieder läuft',
         },
     },
 
