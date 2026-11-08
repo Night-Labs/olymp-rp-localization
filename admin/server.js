@@ -417,6 +417,58 @@ export const server = {
             pl: 'Nie możesz przeszukać samego siebie',
             zh: '你不能搜查自己',
         },
+        characterLoading: {
+            ru: 'Игрок сейчас заходит в игру. Повтори через пару секунд',
+            ua: 'Гравець зараз заходить у гру. Повтори за кілька секунд',
+            en: 'The player is entering the game right now. Try again in a few seconds',
+            de: 'Der Spieler betritt gerade das Spiel. Versuche es in ein paar Sekunden erneut',
+        },
+        alreadyOpen: {
+            ru: 'Инвентарь этого персонажа уже открыт другим администратором',
+            ua: 'Інвентар цього персонажа вже відкрито іншим адміністратором',
+            en: 'Another administrator already has this character inventory open',
+            de: 'Ein anderer Administrator hat das Inventar dieses Charakters bereits geöffnet',
+        },
+        noInventory: {
+            ru: 'У персонажа ещё нет инвентаря',
+            ua: 'У персонажа ще немає інвентарю',
+            en: 'The character has no inventory yet',
+            de: 'Der Charakter hat noch kein Inventar',
+        },
+    },
+    searchTrunk: {
+        notFound: {
+            ru: 'Машина с номером {{plate}} не найдена',
+            ua: 'Машину з номером {{plate}} не знайдено',
+            en: 'No vehicle with the plate {{plate}}',
+            de: 'Kein Fahrzeug mit dem Kennzeichen {{plate}} gefunden',
+        },
+        noTrunk: {
+            ru: 'Багажник машины {{plate}} сейчас недоступен',
+            ua: 'Багажник машини {{plate}} зараз недоступний',
+            en: 'The trunk of {{plate}} is not available right now',
+            de: 'Der Kofferraum von {{plate}} ist gerade nicht verfügbar',
+        },
+        alreadyOpen: {
+            ru: 'Этот багажник уже открыт другим администратором',
+            ua: 'Цей багажник вже відкрито іншим адміністратором',
+            en: 'Another administrator already has this trunk open',
+            de: 'Ein anderer Administrator hat diesen Kofferraum bereits geöffnet',
+        },
+    },
+    searchHouse: {
+        notFound: {
+            ru: 'Дом #{{id}} не найден',
+            ua: 'Будинок #{{id}} не знайдено',
+            en: 'House #{{id}} not found',
+            de: 'Haus #{{id}} nicht gefunden',
+        },
+        noStorage: {
+            ru: 'В доме #{{id}} нет ни одного склада',
+            ua: 'У будинку #{{id}} немає жодного складу',
+            en: 'House #{{id}} has no storage placed',
+            de: 'In Haus #{{id}} ist kein Lager aufgestellt',
+        },
     },
     youCantDoThisToAdminUpper: {
         ru: 'Вы не можете сделать это действие против администратора выше вас',

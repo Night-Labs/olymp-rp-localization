@@ -1932,11 +1932,22 @@ export default {
         pl: 'Odbierz graczowi odblokowany ekskluzywny tatuaż według jego id.',
     },
     search_inventory: {
-        ru: 'Открыть инвентарь игрока: одежда, оружие, карманы и рюкзаки, с возможностью изъять предметы.',
-        ua: 'Відкрити інвентар гравця: одяг, зброя, кишені та рюкзаки, з можливістю вилучити предмети.',
-        en: 'Open a player inventory: clothes, weapons, pockets and backpacks, with the option to take items.',
-        de: 'Inventar eines Spielers öffnen: Kleidung, Waffen, Taschen und Rucksäcke, mit der Möglichkeit, Gegenstände abzunehmen.',
-        pl: 'Otwórz ekwipunek gracza: ubrania, broń, kieszenie i plecaki, z możliwością zabrania przedmiotów.',
+        ru: 'Открыть инвентарь игрока по static ID, в игре или офлайн: одежда, оружие, карманы и рюкзаки, с возможностью изъять предметы.',
+        ua: 'Відкрити інвентар гравця за static ID, у грі чи офлайн: одяг, зброя, кишені та рюкзаки, з можливістю вилучити предмети.',
+        en: 'Open a player inventory by static ID, online or offline: clothes, weapons, pockets and backpacks, with the option to take items.',
+        de: 'Inventar eines Spielers per static ID öffnen, online oder offline: Kleidung, Waffen, Taschen und Rucksäcke, mit der Möglichkeit, Gegenstände abzunehmen.',
+    },
+    search_trunk: {
+        ru: 'Открыть багажник машины по номеру, где бы она ни стояла: на улице, в гараже или на штрафстоянке.',
+        ua: 'Відкрити багажник машини за номером, де б вона не стояла: на вулиці, в гаражі чи на штрафмайданчику.',
+        en: 'Open a vehicle trunk by its plate, wherever it stands: on the street, in a garage or at the impound lot.',
+        de: 'Den Kofferraum eines Fahrzeugs per Kennzeichen öffnen, egal wo es steht: auf der Straße, in einer Garage oder auf dem Abschlepphof.',
+    },
+    search_house_storage: {
+        ru: 'Открыть все склады дома по его номеру, каждый на своей вкладке.',
+        ua: 'Відкрити всі склади будинку за його номером, кожен на своїй вкладці.',
+        en: 'Open every storage of a house by its number, each on its own tab.',
+        de: 'Alle Lager eines Hauses per Hausnummer öffnen, jedes in einem eigenen Tab.',
     },
     infinity_inventory: {
         ru: 'Включить или выключить бесконечный инвентарь у администратора.',
