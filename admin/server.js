@@ -470,6 +470,51 @@ export const server = {
             de: 'In Haus #{{id}} ist kein Lager aufgestellt',
         },
     },
+    // The inventory window of the admin site (olymp-admin): the game's inventory page with the player's things.
+    inventoryWeb: {
+        online: {
+            ru: 'В игре',
+            ua: 'У грі',
+            en: 'In game',
+            de: 'Im Spiel',
+        },
+        offline: {
+            ru: 'Не в сети',
+            ua: 'Не в мережі',
+            en: 'Offline',
+            de: 'Offline',
+        },
+        giveItem: {
+            ru: 'Выдать предмет',
+            ua: 'Видати предмет',
+            en: 'Give item',
+            de: 'Gegenstand geben',
+        },
+        stale: {
+            ru: 'Инвентарь успел измениться, показано то, что в нём сейчас',
+            ua: 'Інвентар встиг змінитися, показано те, що в ньому зараз',
+            en: 'The inventory changed in the meantime, this is what it holds now',
+            de: 'Das Inventar hat sich inzwischen geändert, das ist sein aktueller Inhalt',
+        },
+        failed: {
+            ru: 'Не удалось выполнить действие',
+            ua: 'Не вдалося виконати дію',
+            en: 'The action failed',
+            de: 'Die Aktion ist fehlgeschlagen',
+        },
+        serverDown: {
+            ru: 'Игровой сервер не отвечает',
+            ua: 'Ігровий сервер не відповідає',
+            en: 'The game server does not answer',
+            de: 'Der Spielserver antwortet nicht',
+        },
+        forbidden: {
+            ru: 'Нет доступа к изменению этого инвентаря',
+            ua: 'Немає доступу до зміни цього інвентарю',
+            en: 'You may not change this inventory',
+            de: 'Du darfst dieses Inventar nicht ändern',
+        },
+    },
     youCantDoThisToAdminUpper: {
         ru: 'Вы не можете сделать это действие против администратора выше вас',
         ua: 'Ви не можете виконати цю дію проти адміністратора вище вас',

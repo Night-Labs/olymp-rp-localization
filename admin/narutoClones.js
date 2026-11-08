@@ -9,6 +9,7 @@ export default {
     sections: {
         summon: { ru: 'Призыв', ua: 'Призов', en: 'Summon', de: 'Beschwörung' },
         orders: { ru: 'Приказ', ua: 'Наказ', en: 'Order', de: 'Befehl' },
+        look: { ru: 'Превращение', ua: 'Перетворення', en: 'Transformation', de: 'Verwandlung' },
         combat: { ru: 'Бой', ua: 'Бій', en: 'Combat', de: 'Kampf' },
         weapon: { ru: 'Оружие', ua: 'Зброя', en: 'Weapon', de: 'Waffe' },
         health: { ru: 'Здоровье клона', ua: "Здоров'я клона", en: 'Clone health', de: 'Klon-Gesundheit' },
@@ -23,6 +24,9 @@ export default {
         dismiss: { ru: 'Развеять всех', ua: 'Розвіяти всіх', en: 'Dispel all', de: 'Alle auflösen' },
         recall: { ru: 'Собрать ко мне', ua: 'Зібрати до мене', en: 'Recall to me', de: 'Zu mir rufen' },
         substitute: { ru: 'Подмена', ua: 'Підміна', en: 'Substitution', de: 'Tausch' },
+        shuffle: { ru: 'Перетасовка', ua: 'Перетасовка', en: 'Shuffle', de: 'Mischen' },
+        henge: { ru: 'Облик', ua: 'Подоба', en: 'Look', de: 'Aussehen' },
+        ownLook: { ru: 'Вернуть свой', ua: 'Повернути свій', en: 'Back to mine', de: 'Mein eigenes' },
         ceasefire: { ru: 'Отбой', ua: 'Відбій', en: 'Cease fire', de: 'Feuer einstellen' },
         attack: { ru: 'Атаковать', ua: 'Атакувати', en: 'Attack', de: 'Angreifen' },
         heal: { ru: 'Вылечить', ua: 'Вилікувати', en: 'Heal', de: 'Heilen' },
@@ -53,10 +57,23 @@ export default {
             en: 'Whoever hits you or a clone becomes the target',
             de: 'Wer dich oder einen Klon trifft, wird zum Ziel',
         },
+        autoSubstitute: { ru: 'Авто-подмена', ua: 'Авто-підміна', en: 'Auto substitution', de: 'Auto-Tausch' },
+        autoSubstituteHint: {
+            ru: 'Если удар оставит тебе {{value}} HP или меньше, ты меняешься местами с ближайшим клоном',
+            ua: 'Якщо удар залишить тобі {{value}} HP або менше, ти міняєшся місцями з найближчим клоном',
+            en: 'If a hit would leave you at {{value}} HP or less, you swap places with the nearest clone',
+            de: 'Wenn dich ein Treffer auf {{value}} HP oder weniger bringt, tauschst du den Platz mit dem nächsten Klon',
+        },
         target: { ru: 'Цель', ua: 'Ціль', en: 'Target', de: 'Ziel' },
         npc: { ru: 'Прохожий', ua: 'Перехожий', en: 'Passer-by', de: 'Passant' },
         nobody: { ru: 'Рядом никого', ua: 'Поруч нікого', en: 'Nobody nearby', de: 'Niemand in der Nähe' },
         distance: { ru: '{{value}} м', ua: '{{value}} м', en: '{{value}} m', de: '{{value}} m' },
+    },
+
+    look: {
+        label: { ru: 'Облик клонов', ua: 'Подоба клонів', en: 'Clones look like', de: 'Klone sehen aus wie' },
+        own: { ru: 'Ты', ua: 'Ти', en: 'You', de: 'Du' },
+        hint: { ru: 'Игрока выбирают в списке ниже', ua: 'Гравця обирають у списку нижче', en: 'Pick a player in the list below', de: 'Spieler in der Liste unten wählen' },
     },
 
     weapons: {
