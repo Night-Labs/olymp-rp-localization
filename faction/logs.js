@@ -297,6 +297,35 @@ export default {
             de: '{{actor}} hat den Rang von {{member}} auf {{rank}} geändert',
             pl: '{{actor}} zmienił rangę {{member}} na {{rank}}',
         },
+        // Made from the admin site (systems/factions/adminApi): no member did it.
+        adminChangedRank: {
+            ru: 'Администрация изменила ранг {{member}} на {{rank}}',
+            ua: 'Адміністрація змінила ранг {{member}} на {{rank}}',
+            en: "The administration changed {{member}}'s rank to {{rank}}",
+            de: 'Die Administration hat den Rang von {{member}} auf {{rank}} geändert',
+            pl: 'Administracja zmieniła rangę {{member}} na {{rank}}',
+        },
+        adminAppointedLeader: {
+            ru: 'Администрация назначила {{player}} лидером',
+            ua: 'Адміністрація призначила {{player}} лідером',
+            en: 'The administration appointed {{player}} as the leader',
+            de: 'Die Administration hat {{player}} zum Anführer ernannt',
+            pl: 'Administracja mianowała {{player}} liderem',
+        },
+        adminRemovedLeader: {
+            ru: 'Администрация сняла лидера {{player}} и исключила его из фракции',
+            ua: 'Адміністрація зняла лідера {{player}} і виключила його з фракції',
+            en: 'The administration removed the leader {{player}} from the faction',
+            de: 'Die Administration hat den Anführer {{player}} aus der Fraktion entfernt',
+            pl: 'Administracja usunęła lidera {{player}} z frakcji',
+        },
+        adminDemotedLeader: {
+            ru: 'Администрация сняла лидера {{player}}, новый ранг: {{rank}}',
+            ua: 'Адміністрація зняла лідера {{player}}, новий ранг: {{rank}}',
+            en: 'The administration removed {{player}} as the leader, new rank: {{rank}}',
+            de: 'Die Administration hat {{player}} als Anführer abgesetzt, neuer Rang: {{rank}}',
+            pl: 'Administracja zdjęła lidera {{player}}, nowa ranga: {{rank}}',
+        },
         giveWarn: {
             ru: '{{actor}} выдал предупреждение {{member}} ({{warns}}/3)',
             ua: '{{actor}} видав догану {{member}} ({{warns}}/3)',
