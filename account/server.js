@@ -82,6 +82,18 @@ export const server = {
         pl: 'Możesz mieć tylko jedno konto',
         zh: '一人最多只能拥有一个账户',
     },
+    passwordChangedOnSite: {
+        ru: 'Пароль аккаунта изменён через восстановление на сайте. Войдите с новым паролем',
+        ua: 'Пароль акаунта змінено через відновлення на сайті. Увійдіть з новим паролем',
+        en: 'The account password was changed through recovery on the website. Log in with the new password',
+        de: 'Das Passwort des Kontos wurde über die Wiederherstellung auf der Website geändert. Melde dich mit dem neuen Passwort an',
+    },
+    siteAccountMachineTaken: {
+        ru: 'На этом компьютере уже есть аккаунт на этом сервере. Аккаунт, созданный на сайте, нельзя к нему привязать',
+        ua: "На цьому комп'ютері вже є аккаунт на цьому сервері. Аккаунт, створений на сайті, не можна до нього прив'язати",
+        en: 'This computer already has an account on this server. An account created on the website cannot be linked to it',
+        de: 'Auf diesem Computer gibt es bereits ein Konto auf diesem Server. Ein auf der Website erstelltes Konto kann nicht damit verknüpft werden',
+    },
     recoveryDataNotFound: {
         ua: 'Акаунт з такою поштою не знайдено',
         en: 'No account was found with this email',
@@ -139,11 +151,11 @@ export const server = {
         zh: '密码修改成功',
     },
     invalidPasswordFormat: {
-        ru: 'Пароль должен содержать от 4 до 20 символов (латинские буквы, цифры, _ . -)',
-        ua: 'Пароль має містити від 4 до 20 символів (латинські літери, цифри, _ . -)',
-        en: 'Password must be 4-20 characters (letters, digits, _ . -)',
-        de: 'Passwort muss 4-20 Zeichen lang sein (Buchstaben, Ziffern, _ . -)',
-        pl: 'Hasło musi mieć 4-20 znaków (litery, cyfry, _ . -)',
+        ru: 'Пароль должен содержать от 4 до 20 символов: латинские буквы, цифры и спецсимволы без пробелов',
+        ua: 'Пароль має містити від 4 до 20 символів: латинські літери, цифри та спецсимволи без пробілів',
+        en: 'Password must be 4-20 characters: Latin letters, digits and special characters, no spaces',
+        de: 'Passwort muss 4-20 Zeichen lang sein: lateinische Buchstaben, Ziffern und Sonderzeichen, keine Leerzeichen',
+        pl: 'Hasło musi mieć 4-20 znaków: litery łacińskie, cyfry i znaki specjalne, bez spacji',
     },
     resetData: {
         ru: 'Сохраненные данные были сброшены в целях безопасности',
