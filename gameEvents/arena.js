@@ -1088,6 +1088,13 @@ export default {
             de: 'Beitreten',
             pl: 'Dołącz',
         },
+        // A lobby whose match is in play and still takes late joiners: the join goes straight into the fight.
+        joinInPlay: {
+            ru: 'Войти в бой',
+            ua: 'Увійти в бій',
+            en: 'Join the fight',
+            de: 'Ins Gefecht',
+        },
         empty: {
             ru: 'Лобби пока нет',
             ua: 'Лобі поки немає',
@@ -1283,6 +1290,13 @@ export default {
             en: 'That lobby has already started. The list has been refreshed.',
             de: 'In dieser Lobby wird bereits gespielt. Die Liste wurde aktualisiert.',
             pl: 'W tym lobby gra już trwa. Lista została odświeżona.',
+        },
+        // A match in play takes each player once: they left it before (or were in it at the start).
+        played: {
+            ru: 'Вы уже были в этом матче',
+            ua: 'Ви вже були в цьому матчі',
+            en: 'You were already in this match',
+            de: 'Du warst schon in diesem Match',
         },
         gone: {
             ru: 'Этого лобби больше нет. Список обновлён.',
@@ -1821,6 +1835,21 @@ export default {
     },
 
     room: {
+        // A rematch lobby: the vote over its next map (RoomMapVote.vue).
+        mapVote: {
+            title: {
+                ru: 'Следующая карта',
+                ua: 'Наступна карта',
+                en: 'Next map',
+                de: 'Nächste Karte',
+            },
+            note: {
+                ru: 'Играем карту с большинством голосов, ничью решает хост',
+                ua: 'Граємо карту з більшістю голосів, нічию вирішує хост',
+                en: 'The most voted map is played, a tie goes to the host',
+                de: 'Gespielt wird die Karte mit den meisten Stimmen, bei Gleichstand entscheidet der Host',
+            },
+        },
         settings: {
             ru: 'Настройки',
             ua: 'Налаштування',
@@ -2229,6 +2258,25 @@ export default {
                 de: 'Tode',
                 pl: 'Zgony',
             },
+            kd: {
+                ru: 'K/D',
+                ua: 'K/D',
+                en: 'K/D',
+                de: 'K/D',
+            },
+            // The longest run of kills without dying.
+            bestStreak: {
+                ru: 'Серия',
+                ua: 'Серія',
+                en: 'Streak',
+                de: 'Serie',
+            },
+            headshots: {
+                ru: 'В голову',
+                ua: 'У голову',
+                en: 'Headshots',
+                de: 'Kopfschüsse',
+            },
             level: {
                 ru: 'Оружие',
                 ua: 'Зброя',
@@ -2326,6 +2374,26 @@ export default {
             en: 'Play again',
             de: 'Nochmal spielen',
             pl: 'Zagraj ponownie',
+        },
+        // The same lobby again for its players, for a short while after the end: the first to press hosts it.
+        rematch: {
+            ru: 'Реванш',
+            ua: 'Реванш',
+            en: 'Rematch',
+            de: 'Revanche',
+        },
+        // The most kills of the field, of each side in a team match.
+        mvp: {
+            ru: 'MVP',
+            ua: 'MVP',
+            en: 'MVP',
+            de: 'MVP',
+        },
+        mvpSelf: {
+            ru: 'Лучший игрок',
+            ua: 'Найкращий гравець',
+            en: 'Top player',
+            de: 'Bester Spieler',
         },
         rank: {
             title: {
@@ -2467,6 +2535,11 @@ export default {
             de: 'Nur Kopfschüsse',
             pl: 'Tylko w głowę',
         },
+        // Shooting matches: the kills that end it counted from the players at the start, or the host's own number.
+        scoreTarget: { ru: 'Цель по убийствам', ua: 'Ціль за вбивствами', en: 'Kill target', de: 'Kill-Ziel' },
+        // GTA Online's power player and bounty streaks, and everyone on the radar at the start and the end.
+        powerPlay: { ru: 'Power Player и серии', ua: 'Power Player і серії', en: 'Power Player and streaks', de: 'Power Player und Serien' },
+        campBlips: { ru: 'Кемперы на радаре', ua: 'Кемпери на радарі', en: 'Campers on the radar', de: 'Camper auf dem Radar' },
         // Inside Job (docs/inside-job-design.md 2.3).
         moles: { ru: 'Кроты', ua: 'Кроти', en: 'Moles', de: 'Maulwürfe' },
         killCooldown: { ru: 'Перезарядка устранения', ua: 'Перезарядка усунення', en: 'Kill cooldown', de: 'Abklingzeit Ausschalten' },
@@ -2494,9 +2567,26 @@ export default {
             de: 'Waffen, Boosts, Raketen und Reparaturen auf der Strecke. Gegner können ausgeschaltet werden',
             pl: 'Broń, dopalacze, rakiety i naprawy na trasie. Rywali można wyeliminować',
         },
+        powerPlay: {
+            ru: 'Лидер с большим отрывом виден всем и получает двойной урон. Серия из 6 убийств делает игрока целью',
+            ua: 'Лідер із великим відривом видимий усім і отримує подвійну шкоду. Серія з 6 вбивств робить гравця ціллю',
+            en: 'A leader far ahead shows to everyone and takes double damage. A 6-kill streak makes a player the target',
+            de: 'Ein weit führender Spieler ist für alle sichtbar und nimmt doppelten Schaden. 6 Kills in Folge machen ihn zum Ziel',
+        },
+        campBlips: {
+            ru: 'Кто стоит на месте 10 секунд, появляется на радаре соперников',
+            ua: "Хто стоїть на місці 10 секунд, з'являється на радарі суперників",
+            en: "Standing still for 10 seconds puts a player on the rivals' radar",
+            de: 'Wer 10 Sekunden stillsteht, erscheint auf dem Radar der Gegner',
+        },
     },
 
     options: {
+        // Shooting matches: the kill target (`scoreTarget`).
+        scoreTarget: {
+            auto: { ru: 'По числу игроков', ua: 'За кількістю гравців', en: 'By player count', de: 'Nach Spielerzahl' },
+            custom: { ru: 'Своя', ua: 'Своя', en: 'Custom', de: 'Eigenes' },
+        },
         // Tank tiers, written the way World of Tanks writes them: one button each in the create form, runs joined on the chips (VI-VIII).
         tiers: {
             6: { ru: 'VI', ua: 'VI', en: 'VI', de: 'VI', pl: 'VI' },
@@ -3533,6 +3623,61 @@ export default {
             en: 'Lvl',
             de: 'Stufe',
             pl: 'Poz.',
+        },
+        // The death card: what the killer had left, and how far away they were.
+        distance: { ru: '{{value}} м', ua: '{{value}} м', en: '{{value}} m', de: '{{value}} m' },
+        // The viewer's own kill streak under the score.
+        streak: { ru: 'Серия {{value}}', ua: 'Серія {{value}}', en: 'Streak {{value}}', de: 'Serie {{value}}' },
+        // GTA Online's power player, under the score.
+        powerPlayer: { ru: 'Power Player: {{name}}', ua: 'Power Player: {{name}}', en: 'Power Player: {{name}}', de: 'Power Player: {{name}}' },
+        powerPlayerSelf: { ru: 'Вы Power Player', ua: 'Ви Power Player', en: 'You are the Power Player', de: 'Du bist der Power Player' },
+        // No move, shot or aim: the countdown to being taken out of the match.
+        afk: { ru: 'Нет активности. Выход из матча через {{value}}', ua: 'Немає активності. Вихід із матчу через {{value}}', en: 'Inactive. Leaving the match in {{value}}', de: 'Inaktiv. Match wird verlassen in {{value}}' },
+        afkKicked: { ru: 'Вы вышли из матча из-за неактивности', ua: 'Ви вийшли з матчу через неактивність', en: 'You were taken out of the match for inactivity', de: 'Du wurdest wegen Inaktivität aus dem Match genommen' },
+        // A team match whose other side left: it waits for a late joiner before it ends.
+        waitingForRivals: {
+            ru: 'Соперников не осталось. Ждём новых игроков {{seconds}} с',
+            ua: 'Суперників не залишилось. Чекаємо нових гравців {{seconds}} с',
+            en: 'No rivals left. Waiting {{seconds}} s for new players',
+            de: 'Keine Gegner mehr. Warte {{seconds}} s auf neue Spieler',
+        },
+        // Big messages over the match (`IShooterAnnouncement`): a title and a line under it.
+        announce: {
+            streakTitle: { ru: 'Серия убийств', ua: 'Серія вбивств', en: 'Kill streak', de: 'Killserie' },
+            streakLine: { ru: '{{count}} подряд', ua: '{{count}} поспіль', en: '{{count}} in a row', de: '{{count}} in Folge' },
+            bountySelfTitle: { ru: 'На вас охота', ua: 'На вас полюють', en: 'You are hunted', de: 'Du wirst gejagt' },
+            bountySelfLine: {
+                ru: 'Серия {{count}}: вы получаете двойной урон',
+                ua: 'Серія {{count}}: ви отримуєте подвійну шкоду',
+                en: 'Streak of {{count}}: you take double damage',
+                de: 'Serie von {{count}}: du nimmst doppelten Schaden',
+            },
+            bountyTitle: { ru: 'Охота на {{name}}', ua: 'Полювання на {{name}}', en: '{{name}} is hunted', de: 'Jagd auf {{name}}' },
+            bountyLine: {
+                ru: 'Серия {{count}}: по нему двойной урон',
+                ua: 'Серія {{count}}: по ньому подвійна шкода',
+                en: 'Streak of {{count}}: double damage on them',
+                de: 'Serie von {{count}}: doppelter Schaden gegen ihn',
+            },
+            bountyEndedSelfTitle: { ru: 'Серия прервана', ua: 'Серію перервано', en: 'Streak ended', de: 'Serie beendet' },
+            bountyEndedBy: { ru: 'Её прервал {{by}}', ua: 'Її перервав {{by}}', en: 'Ended by {{by}}', de: 'Beendet von {{by}}' },
+            bountyEndedTitle: { ru: 'Серия {{name}} прервана', ua: 'Серію {{name}} перервано', en: "{{name}}'s streak is over", de: 'Serie von {{name}} beendet' },
+            powerPlayerSelfTitle: { ru: 'Вы Power Player', ua: 'Ви Power Player', en: 'You are the Power Player', de: 'Du bist der Power Player' },
+            powerPlayerSelfLine: {
+                ru: 'Вы видите всех соперников, они видят вас. Урон по вам удвоен',
+                ua: 'Ви бачите всіх суперників, вони бачать вас. Шкода по вас подвоєна',
+                en: 'You see every rival and they see you. You take double damage',
+                de: 'Du siehst alle Gegner und sie dich. Du nimmst doppelten Schaden',
+            },
+            powerPlayerTitle: { ru: '{{name}} - Power Player', ua: '{{name}} - Power Player', en: '{{name}} is the Power Player', de: '{{name}} ist der Power Player' },
+            powerPlayerLine: {
+                ru: 'Он на радаре у всех, урон по нему удвоен',
+                ua: 'Він на радарі в усіх, шкода по ньому подвоєна',
+                en: "They are on everyone's radar and take double damage",
+                de: 'Er ist auf jedem Radar und nimmt doppelten Schaden',
+            },
+            teamSwitchTitle: { ru: 'Вы в другой команде', ua: 'Ви в іншій команді', en: 'You switched sides', de: 'Du hast das Team gewechselt' },
+            teamSwitchLine: { ru: 'Для баланса сторон', ua: 'Для балансу сторін', en: 'To keep the sides even', de: 'Für ausgeglichene Teams' },
         },
     },
 

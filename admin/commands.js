@@ -2335,6 +2335,12 @@ export default {
         de: 'Leichentest: dich selbst (oder den Spieler per ID) durch den normalen Tod töten und den Körper als Leiche liegen lassen, wie im Battle Royale. Sie bleibt bis /corpseclear.',
         pl: 'Test zwłok: zabij siebie (lub gracza po ID) zwykłą śmiercią i zostaw ciało jako zwłoki, jak w battle royale. Zostają do /corpseclear.',
     },
+    arenamapcheck: {
+        ru: 'Проверка точек появления карт арены (DM/TDM): ставит тебя на каждую точку и пишет плохие в лог и в отчёт для генератора карт. Без аргумента - все карты, с ID карты - одна, stop - остановить.',
+        ua: 'Перевірка точок появи карт арени (DM/TDM): ставить тебе на кожну точку й пише погані в лог і у звіт для генератора карт. Без аргументу - усі карти, з ID карти - одна, stop - зупинити.',
+        en: 'Spawn check of the arena shooting maps (DM/TDM): stands you on every spawn point and writes the bad ones to the log and to a report for the map generator. No argument: every map; a map id: that one; stop: end it.',
+        de: 'Spawnprüfung der Arena-Schießkarten (DM/TDM): stellt dich auf jeden Spawnpunkt und schreibt die schlechten ins Log und in einen Bericht für den Kartengenerator. Ohne Argument: alle Karten; eine Karten-ID: nur diese; stop: beenden.',
+    },
     corpseclear: {
         ru: 'Убрать все трупы, оставленные командой /corpse.',
         ua: 'Прибрати всі трупи, залишені командою /corpse.',
