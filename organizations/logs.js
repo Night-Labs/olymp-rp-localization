@@ -158,6 +158,21 @@ export const logs = {
                 de: '{{actor}} hat die Führung an {{target}} übertragen',
                 pl: '{{actor}} przekazał przywództwo {{target}}',
             },
+            // Made from the admin site (systems/organizations/adminApi): no member did it.
+            adminLeadershipTransferred: {
+                ru: 'Администрация передала лидерство от {{previous}} к {{target}}, ранг {{previous}}: {{rank}}',
+                ua: 'Адміністрація передала лідерство від {{previous}} до {{target}}, ранг {{previous}}: {{rank}}',
+                en: 'The administration transferred leadership from {{previous}} to {{target}}, {{previous}} is now {{rank}}',
+                de: 'Die Administration hat die Führung von {{previous}} an {{target}} übertragen, {{previous}} ist jetzt {{rank}}',
+                pl: 'Administracja przekazała przywództwo od {{previous}} do {{target}}, {{previous}} ma teraz rangę {{rank}}',
+            },
+            adminLeaderAppointed: {
+                ru: 'Администрация назначила {{target}} лидером',
+                ua: 'Адміністрація призначила {{target}} лідером',
+                en: 'The administration appointed {{target}} as the leader',
+                de: 'Die Administration hat {{target}} zum Anführer ernannt',
+                pl: 'Administracja mianowała {{target}} liderem',
+            },
             disbanded: {
                 ru: '{{actor}} распустил организацию (участников: {{members}}, остаток: ${{balance}})',
                 ua: '{{actor}} розпустив організацію (учасників: {{members}}, залишок: ${{balance}})',
@@ -392,6 +407,13 @@ export const logs = {
                 en: '{{actor}} set {{target}}\'s rank to {{rank}}',
                 de: '{{actor}} hat den Rang von {{target}} auf {{rank}} gesetzt',
                 pl: '{{actor}} ustawił {{target}} rangę {{rank}}',
+            },
+            adminRankChanged: {
+                ru: 'Администрация назначила {{target}} ранг {{rank}}',
+                ua: 'Адміністрація призначила {{target}} ранг {{rank}}',
+                en: 'The administration set {{target}}\'s rank to {{rank}}',
+                de: 'Die Administration hat den Rang von {{target}} auf {{rank}} gesetzt',
+                pl: 'Administracja ustawiła {{target}} rangę {{rank}}',
             },
             salaryChanged: {
                 ru: '{{actor}} установил зарплату {{target}}: ${{amount}}',
