@@ -175,26 +175,32 @@ export default {
         zh: '您不能激活您自己的推荐代码',
     },
 
+    // {{coin:<arg>}} is the <arg> amount, drawn by Referral.vue in the accent colour with the Olymp-Coin icon; keep it outside the colour spans.
     hint0: {
-        ru: '1. Если игрок вводит ваш реферальный код, он становится вашим рефералом и сразу получает <span style="color: var(--primary)">{{referralAward}} Olymp-Coins, {{referralAwardCash}} и VIP на {{days}} дней</span> для комфортного старта',
-        ua: '1. Якщо гравець вводить твій реферальний код, він стає твоїм рефералом і одразу отримує <span style="color: var(--primary)">{{referralAward}} Olymp-Coins, {{referralAwardCash}} і VIP на {{days}} днів</span> для комфортного старту',
-        en: '1. If a player enters your referral code, they become your referral and immediately receive <span style="color: var(--primary)">{{referralAward}} Olymp-Coins, {{referralAwardCash}} and VIP for {{days}} days</span> to start comfortably',
-        de: '1. Wenn ein Spieler deinen Empfehlungscode eingibt, wird er dein Referral und erhält sofort <span style="color: var(--primary)">{{referralAward}} Olymp-Coins, {{referralAwardCash}} und VIP für {{days}} Tage</span> für einen angenehmen Start',
-        pl: '1. Jeśli gracz wpisze twój kod polecający, zostaje twoim poleconym i natychmiast otrzymuje <span style="color: var(--primary)">{{referralAward}} Olymp-Coins, {{referralAwardCash}} i VIP na {{days}} dni</span> na komfortowy start',
+        ru: 'Введите код человека, который вас пригласил, и сразу получите {{coin:referralAward}}<span style="color: var(--primary)">, {{referralAwardCash}} и VIP на {{days}} дней</span>',
+        ua: 'Введіть код людини, яка вас запросила, й одразу отримайте {{coin:referralAward}}<span style="color: var(--primary)">, {{referralAwardCash}} і VIP на {{days}} днів</span>',
+        en: 'Enter the code of the person who invited you and get {{coin:referralAward}}<span style="color: var(--primary)">, {{referralAwardCash}} and VIP for {{days}} days</span> right away',
+        de: 'Geben Sie den Code der Person ein, die Sie eingeladen hat, und erhalten Sie sofort {{coin:referralAward}}<span style="color: var(--primary)">, {{referralAwardCash}} und VIP für {{days}} Tage</span>',
+    },
+    // Under step 1 while the player has not entered a code yet
+    noCodeHint: {
+        ru: 'Если вы не знаете, какой код ввести, введите "OLYMP"',
+        ua: 'Якщо ви не знаєте, який код ввести, введіть "OLYMP"',
+        en: 'If you don\'t know which code to enter, enter "OLYMP"',
+        de: 'Wenn Sie nicht wissen, welchen Code Sie eingeben sollen, geben Sie "OLYMP" ein',
     },
     hint1: {
-        ru: '2. Когда ваш реферал достигает <span style="color: var(--primary)">{{level}} уровня</span> - он получает <span style="color: var(--primary)">{{referralAward}} Olymp-Coins, {{referralAwardCash}} и Premium на {{days}} дней</span>, а вы <span style="color: var(--primary)">{{yourAward}} Olymp-Coins</span>',
-        ua: '2. Коли твій реферал досягає <span style="color: var(--primary)">{{level}} рівня</span> - він отримує <span style="color: var(--primary)">{{referralAward}} Olymp-Coins, {{referralAwardCash}} і Premium на {{days}} днів</span>, а ти <span style="color: var(--primary)">{{yourAward}} Olymp-Coins</span>',
-        en: '2. When your referral reaches <span style="color: var(--primary)">{{level}} level</span>, they get <span style="color: var(--primary)">{{referralAward}} Olymp-Coins, {{referralAwardCash}} and Premium for {{days}} days</span> and you get <span style="color: var(--primary)">{{yourAward}} Olymp-Coins</span>',
-        de: '2. Wenn dein Referral <span style="color: var(--primary)">{{level}} Level</span> erreicht, bekommt er <span style="color: var(--primary)">{{referralAward}} Olymp-Coins, {{referralAwardCash}} und Premium für {{days}} Tage</span> und du bekommst <span style="color: var(--primary)">{{yourAward}} Olymp-Coins</span>',
-        pl: '2. Gdy twój polecony osiąga <span style="color: var(--primary)">{{level}} poziom</span>, on otrzymuje <span style="color: var(--primary)">{{referralAward}} Olymp-Coins, {{referralAwardCash}} i Premium na {{days}} dni</span>, a ty <span style="color: var(--primary)">{{yourAward}} Olymp-Coins</span>',
+        ru: 'Достигните <span style="color: var(--primary)">{{level}} уровня</span> и получите ещё {{coin:referralAward}}<span style="color: var(--primary)">, {{referralAwardCash}} и Premium на {{days}} дней</span>',
+        ua: 'Досягніть <span style="color: var(--primary)">{{level}} рівня</span> й отримайте ще {{coin:referralAward}}<span style="color: var(--primary)">, {{referralAwardCash}} і Premium на {{days}} днів</span>',
+        en: 'Reach <span style="color: var(--primary)">level {{level}}</span> and get another {{coin:referralAward}}<span style="color: var(--primary)">, {{referralAwardCash}} and Premium for {{days}} days</span>',
+        de: 'Erreichen Sie <span style="color: var(--primary)">Level {{level}}</span> und erhalten Sie zusätzlich {{coin:referralAward}}<span style="color: var(--primary)">, {{referralAwardCash}} und Premium für {{days}} Tage</span>',
     },
+    // {{coin:percent}} arrives with its % sign
     hint2: {
-        ru: '3. При каждом донате реферала вы получаете <span style="color: var(--primary)">{{percent}}%</span> от суммы его доната',
-        ua: '3. При кожному донаті реферала ти отримуєш <span style="color: var(--primary)">{{percent}}%</span> від суми його донату',
-        en: '3. Every time your referral donates, you get <span style="color: var(--primary)">{{percent}}%</span> of their donation amount',
-        de: '3. Bei jeder Spende deines Referrals bekommst du <span style="color: var(--primary)">{{percent}}%</span> des Spendenbetrags',
-        pl: '3. Przy każdej dotacji od twojego poleconego otrzymujesz <span style="color: var(--primary)">{{percent}}%</span> kwoty jego dotacji',
+        ru: 'Приглашайте игроков по своему коду: когда приглашённый игрок достигнет <span style="color: var(--primary)">{{level}} уровня</span>, вы получите {{coin:yourAward}}, а с каждого его доната - ещё {{coin:percent}}',
+        ua: 'Запрошуйте гравців за своїм кодом: коли запрошений гравець досягне <span style="color: var(--primary)">{{level}} рівня</span>, ви отримаєте {{coin:yourAward}}, а з кожного його донату - ще {{coin:percent}}',
+        en: 'Invite players with your code: when an invited player reaches <span style="color: var(--primary)">level {{level}}</span>, you get {{coin:yourAward}}, plus {{coin:percent}} of every donation they make',
+        de: 'Laden Sie Spieler mit Ihrem Code ein: Erreicht ein eingeladener Spieler <span style="color: var(--primary)">Level {{level}}</span>, bekommen Sie {{coin:yourAward}} und dazu {{coin:percent}} von jeder seiner Spenden',
     },
 
     //

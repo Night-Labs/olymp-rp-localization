@@ -814,11 +814,10 @@ export const settings = {
         pl: 'Twoja postać nie wchodzi już na drabinę sama: wspinaczka i schodzenie zaczynają się tylko po naciśnięciu klawisza interakcji przy drabinie',
     },
     showDailyCaseDesc: {
-        ru: 'Отображает обратный отсчёт до получения ежедневного кейса на HUD',
-        ua: 'Відображає зворотний відлік до отримання щоденного кейсу на HUD',
-        en: 'Displays a countdown to your daily case on the HUD',
-        de: 'Zeigt einen Countdown bis zur täglichen Kiste auf dem HUD an',
-        pl: 'Wyświetla odliczanie do codziennej skrzynki na HUD',
+        ru: 'Отображает на HUD бонусы, которые ещё не получены, и сколько осталось до их получения',
+        ua: 'Відображає на HUD бонуси, які ще не отримано, і скільки залишилося до їх отримання',
+        en: 'Shows the bonuses you have not received yet on the HUD, with the time left to get them',
+        de: 'Zeigt noch nicht erhaltene Boni auf dem HUD an, mit der verbleibenden Zeit bis zum Erhalt',
     },
     showWeaponDesc: {
         ru: 'Показывает текущее оружие и боеприпасы на HUD',
@@ -1067,11 +1066,10 @@ export const settings = {
         pl: 'Ustawienia HUD',
     },
     showDailyCase: {
-        ru: 'Показывать время до получения ежедневного кейса',
-        ua: 'Показувати час до отримання щоденного кейсу',
-        en: 'Show time until daily case is available',
-        de: 'Zeit bis zur Verfügbarkeit der täglichen Kiste anzeigen',
-        pl: 'Pokaż czas do otrzymania codziennej skrzynki',
+        ru: 'Показывать бонусы',
+        ua: 'Показувати бонуси',
+        en: 'Show bonuses',
+        de: 'Boni anzeigen',
     },
     showWeapon: {
         ru: 'Показывать оружие',

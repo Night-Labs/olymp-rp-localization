@@ -137,11 +137,11 @@ export default {
         zh: '贴纸原型：将测试图片贴到你正在看的车辆车身上。',
     },
     nika: {
-        ru: 'Ника: два компаньона-телохранителя. start / end / kill <id> / forget <id> / mode <0-2> / ammo <тип|off> / anim / fly [on|off] / antidb [on|off].',
-        ua: 'Ніка: два компаньйони-охоронці. start / end / kill <id> / forget <id> / mode <0-2> / ammo <тип|off> / anim / fly [on|off] / antidb [on|off].',
-        en: 'Nika: two bodyguard companions. start / end / kill <id> / forget <id> / mode <0-2> / ammo <type|off> / anim / fly [on|off] / antidb [on|off].',
-        de: 'Nika: zwei Leibwächter-Begleiter. start / end / kill <id> / forget <id> / mode <0-2> / ammo <Typ|off> / anim / fly [on|off] / antidb [on|off].',
-        pl: 'Nika: dwie towarzyszki-ochroniarki. start / end / kill <id> / forget <id> / mode <0-2> / ammo <typ|off> / anim / fly [on|off] / antidb [on|off].',
+        ru: 'Ника: два компаньона-телохранителя. start / end / kill <id> / forget <id> / mode <0-2> / ammo <тип|off> / anim [poses|dances|romantic] / fly [on|off] / antidb [on|off] / tp (к себе).',
+        ua: 'Ніка: два компаньйони-охоронці. start / end / kill <id> / forget <id> / mode <0-2> / ammo <тип|off> / anim [poses|dances|romantic] / fly [on|off] / antidb [on|off] / tp (до себе).',
+        en: 'Nika: two bodyguard companions. start / end / kill <id> / forget <id> / mode <0-2> / ammo <type|off> / anim [poses|dances|romantic] / fly [on|off] / antidb [on|off] / tp (to you).',
+        de: 'Nika: zwei Leibwächter-Begleiter. start / end / kill <id> / forget <id> / mode <0-2> / ammo <Typ|off> / anim [poses|dances|romantic] / fly [on|off] / antidb [on|off] / tp (zu dir).',
+        pl: 'Nika: dwie towarzyszki-ochroniarki. start / end / kill <id> / forget <id> / mode <0-2> / ammo <typ|off> / anim [poses|dances|romantic] / fly [on|off] / antidb [on|off] / tp (do ciebie).',
         zh: '妮卡：两名护卫同伴。start / end / kill <id> / forget <id> / mode <0-2> / ammo <类型|off> / anim / fly [on|off] / antidb [on|off]。',
     },
     ahelp: {
@@ -2548,6 +2548,18 @@ export default {
         en: 'Remove handcuffs from an online player.',
         de: 'Einem Online-Spieler die Handschellen abnehmen.',
         pl: 'Zdejmij kajdanki z gracza online.',
+    },
+    follow: {
+        ru: 'Телепортировать игрока к себе, надеть наручники (если их нет) и вести его перед собой. Повторно на того же игрока - отпустить.',
+        ua: 'Телепортувати гравця до себе, надягти наручники (якщо їх немає) і вести його перед собою. Повторно на того самого гравця - відпустити.',
+        en: 'Teleport a player to you, cuff them (if not cuffed yet) and lead them in front of you. Run again on the same player to let go.',
+        de: 'Einen Spieler zu dir teleportieren, ihm Handschellen anlegen (falls noch keine) und ihn vor dir herführen. Erneut auf denselben Spieler - loslassen.',
+    },
+    unfollow: {
+        ru: 'Перестать вести игрока. Наручники остаются, снять их - /uncuff.',
+        ua: 'Перестати вести гравця. Наручники залишаються, зняти їх - /uncuff.',
+        en: 'Stop leading a player. The handcuffs stay on, remove them with /uncuff.',
+        de: 'Aufhören, einen Spieler zu führen. Die Handschellen bleiben, abnehmen mit /uncuff.',
     },
     bag: {
         ru: 'Надеть мешок на голову игроку онлайн.',

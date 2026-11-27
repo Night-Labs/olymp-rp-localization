@@ -466,6 +466,24 @@ export const server = {
         pl: 'Tryb administratora jest niedostępny jeszcze przez {{seconds}} s',
         zh: '管理员模式还需 {{seconds}} 秒后才能开启',
     },
+    followFromVehicle: {
+        ru: 'Выйдите из транспорта, чтобы вести игрока',
+        ua: 'Вийдіть із транспорту, щоб вести гравця',
+        en: 'Leave the vehicle to lead a player',
+        de: 'Steig aus dem Fahrzeug, um einen Spieler zu führen',
+    },
+    notLeadingAnyone: {
+        ru: 'Вы никого не ведёте',
+        ua: 'Ви нікого не ведете',
+        en: 'You are not leading anyone',
+        de: 'Du führst niemanden',
+    },
+    adminModeOnJob: {
+        ru: 'Нельзя включить или выключить админку на работе, сначала завершите её',
+        ua: 'Не можна увімкнути або вимкнути адмінку на роботі, спершу завершіть її',
+        en: 'You cannot toggle admin mode while on a job, finish it first',
+        de: 'Du kannst den Adminmodus während eines Jobs nicht umschalten, beende ihn zuerst',
+    },
     adminResumedAfterGameEvent: {
         ru: 'Ивент окончен, ваша админка снова включена',
         ua: 'Івент завершено, ваша адмінка знову увімкнена',
