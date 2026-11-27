@@ -136,6 +136,12 @@ export default {
         pl: 'Prototyp winylu: nakleja testowy obrazek na karoserię pojazdu, na który patrzysz.',
         zh: '贴纸原型：将测试图片贴到你正在看的车辆车身上。',
     },
+    naruto: {
+        ru: 'Теневые клоны: открыть или закрыть панель управления.',
+        ua: 'Тіньові клони: відкрити або закрити панель керування.',
+        en: 'Shadow clones: open or close the control panel.',
+        de: 'Schattenklone: Steuerpanel öffnen oder schließen.',
+    },
     nika: {
         ru: 'Ника: два компаньона-телохранителя. start / end / kill <id> / forget <id> / mode <0-2> / ammo <тип|off> / anim [poses|dances|romantic] / fly [on|off] / antidb [on|off] / tp (к себе).',
         ua: 'Ніка: два компаньйони-охоронці. start / end / kill <id> / forget <id> / mode <0-2> / ammo <тип|off> / anim [poses|dances|romantic] / fly [on|off] / antidb [on|off] / tp (до себе).',
@@ -1926,11 +1932,22 @@ export default {
         pl: 'Odbierz graczowi odblokowany ekskluzywny tatuaż według jego id.',
     },
     search_inventory: {
-        ru: 'Открыть инвентарь игрока: одежда, оружие, карманы и рюкзаки, с возможностью изъять предметы.',
-        ua: 'Відкрити інвентар гравця: одяг, зброя, кишені та рюкзаки, з можливістю вилучити предмети.',
-        en: 'Open a player inventory: clothes, weapons, pockets and backpacks, with the option to take items.',
-        de: 'Inventar eines Spielers öffnen: Kleidung, Waffen, Taschen und Rucksäcke, mit der Möglichkeit, Gegenstände abzunehmen.',
-        pl: 'Otwórz ekwipunek gracza: ubrania, broń, kieszenie i plecaki, z możliwością zabrania przedmiotów.',
+        ru: 'Открыть инвентарь игрока по static ID, в игре или офлайн: одежда, оружие, карманы и рюкзаки, с возможностью изъять предметы.',
+        ua: 'Відкрити інвентар гравця за static ID, у грі чи офлайн: одяг, зброя, кишені та рюкзаки, з можливістю вилучити предмети.',
+        en: 'Open a player inventory by static ID, online or offline: clothes, weapons, pockets and backpacks, with the option to take items.',
+        de: 'Inventar eines Spielers per static ID öffnen, online oder offline: Kleidung, Waffen, Taschen und Rucksäcke, mit der Möglichkeit, Gegenstände abzunehmen.',
+    },
+    search_trunk: {
+        ru: 'Открыть багажник машины по номеру, где бы она ни стояла: на улице, в гараже или на штрафстоянке.',
+        ua: 'Відкрити багажник машини за номером, де б вона не стояла: на вулиці, в гаражі чи на штрафмайданчику.',
+        en: 'Open a vehicle trunk by its plate, wherever it stands: on the street, in a garage or at the impound lot.',
+        de: 'Den Kofferraum eines Fahrzeugs per Kennzeichen öffnen, egal wo es steht: auf der Straße, in einer Garage oder auf dem Abschlepphof.',
+    },
+    search_house_storage: {
+        ru: 'Открыть все склады дома по его номеру, каждый на своей вкладке.',
+        ua: 'Відкрити всі склади будинку за його номером, кожен на своїй вкладці.',
+        en: 'Open every storage of a house by its number, each on its own tab.',
+        de: 'Alle Lager eines Hauses per Hausnummer öffnen, jedes in einem eigenen Tab.',
     },
     infinity_inventory: {
         ru: 'Включить или выключить бесконечный инвентарь у администратора.',
@@ -2317,6 +2334,12 @@ export default {
         en: 'Corpse test: kill yourself (or the player by ID) through the normal death and leave the body as a corpse, the way battle royale does. It stays until /corpseclear.',
         de: 'Leichentest: dich selbst (oder den Spieler per ID) durch den normalen Tod töten und den Körper als Leiche liegen lassen, wie im Battle Royale. Sie bleibt bis /corpseclear.',
         pl: 'Test zwłok: zabij siebie (lub gracza po ID) zwykłą śmiercią i zostaw ciało jako zwłoki, jak w battle royale. Zostają do /corpseclear.',
+    },
+    arenamapcheck: {
+        ru: 'Проверка точек появления карт арены (DM/TDM): ставит тебя на каждую точку и пишет плохие в лог и в отчёт для генератора карт. Без аргумента - все карты, с ID карты - одна, stop - остановить.',
+        ua: 'Перевірка точок появи карт арени (DM/TDM): ставить тебе на кожну точку й пише погані в лог і у звіт для генератора карт. Без аргументу - усі карти, з ID карти - одна, stop - зупинити.',
+        en: 'Spawn check of the arena shooting maps (DM/TDM): stands you on every spawn point and writes the bad ones to the log and to a report for the map generator. No argument: every map; a map id: that one; stop: end it.',
+        de: 'Spawnprüfung der Arena-Schießkarten (DM/TDM): stellt dich auf jeden Spawnpunkt und schreibt die schlechten ins Log und in einen Bericht für den Kartengenerator. Ohne Argument: alle Karten; eine Karten-ID: nur diese; stop: beenden.',
     },
     corpseclear: {
         ru: 'Убрать все трупы, оставленные командой /corpse.',

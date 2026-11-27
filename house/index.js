@@ -13,6 +13,7 @@ import roof from './roof';
 import adminEditor from './adminEditor';
 import gates from './gates';
 import furnitureStorage from './furnitureStorage';
+import moving from './moving';
 
 export default {
     ...cef,
@@ -30,6 +31,7 @@ export default {
     adminEditor,
     gates,
     furnitureStorage,
+    moving,
     houseResident: {
         ru: 'Житель дома',
         ua: 'Мешканець дому',

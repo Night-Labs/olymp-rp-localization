@@ -1,5 +1,5 @@
 // The task frame and the lab-bench minigames of Inside Job (webviews `systems/insideJob/tasks`): badge, centrifuge, pipette,
-// microscope, valve, labels.
+// microscope, valve, labels, and the technical rooms' synchro (generator), fuses (switchboard), dampers (ventilation).
 export const gamesLab = {
     frame: {
         // The subtitle of a task of several steps.
@@ -87,5 +87,68 @@ export const gamesLab = {
             de: 'Zieh jedes Fläschchen in das Gestell mit demselben Symbol',
         },
         wrong: { ru: 'Не тот штатив: смотри на символ', ua: 'Не той штатив: дивись на символ', en: 'Wrong rack: check the symbol', de: 'Falsches Gestell: achte auf das Symbol' },
+    },
+
+    synchro: {
+        hint: {
+            ru: 'Подгони обороты, чтобы стрелка почти остановилась, и включи автомат, когда она вверху',
+            ua: 'Піджени оберти, щоб стрілка майже зупинилася, і ввімкни автомат, коли вона вгорі',
+            en: 'Trim the speed until the needle barely turns, then close the breaker with it at the top',
+            de: 'Gleiche die Drehzahl an, bis die Nadel kaum noch dreht, und schalte zu, wenn sie oben steht',
+        },
+        // The synchroscope's two senses: the generator lags (needle counterclockwise) or leads (clockwise).
+        slow: { ru: 'Медленнее', ua: 'Повільніше', en: 'Slow', de: 'Langsam' },
+        fast: { ru: 'Быстрее', ua: 'Швидше', en: 'Fast', de: 'Schnell' },
+        grid: { ru: 'Сеть', ua: 'Мережа', en: 'Grid', de: 'Netz' },
+        generator: { ru: 'Генератор', ua: 'Генератор', en: 'Generator', de: 'Generator' },
+        hz: { ru: 'Гц', ua: 'Гц', en: 'Hz', de: 'Hz' },
+        speed: { ru: 'Обороты', ua: 'Оберти', en: 'Speed', de: 'Drehzahl' },
+        close: { ru: 'Включить автомат', ua: 'Увімкнути автомат', en: 'Close the breaker', de: 'Zuschalten' },
+        phase: {
+            ru: 'Не в фазе, автомат выбило. Включай, когда стрелка вверху',
+            ua: 'Не у фазі, автомат вибило. Вмикай, коли стрілка вгорі',
+            en: 'Out of phase, the breaker tripped. Close it with the needle at the top',
+            de: 'Nicht in Phase, der Schalter hat ausgelöst. Schalte zu, wenn die Nadel oben steht',
+        },
+        slip: {
+            ru: 'Стрелка крутится слишком быстро, автомат выбило. Сначала подгони обороты',
+            ua: 'Стрілка крутиться надто швидко, автомат вибило. Спершу піджени оберти',
+            en: 'The needle turns too fast, the breaker tripped. Match the speed first',
+            de: 'Die Nadel dreht zu schnell, der Schalter hat ausgelöst. Erst die Drehzahl angleichen',
+        },
+        done: { ru: 'Генератор в сети', ua: 'Генератор у мережі', en: 'Generator on the grid', de: 'Generator am Netz' },
+    },
+
+    fuses: {
+        hint: {
+            ru: 'Вытащи сгоревшие предохранители и поставь запасные того же номинала',
+            ua: 'Витягни перегорілі запобіжники й постав запасні того самого номіналу',
+            en: 'Pull the blown fuses and fit spares of the same rating',
+            de: 'Zieh die durchgebrannten Sicherungen und setz Ersatz mit demselben Nennwert ein',
+        },
+        spares: { ru: 'Запасные', ua: 'Запасні', en: 'Spares', de: 'Ersatz' },
+        amp: { ru: 'А', ua: 'А', en: 'A', de: 'A' },
+        wrong: {
+            ru: 'Не тот номинал: смотри на цифру под гнездом',
+            ua: 'Не той номінал: дивись на цифру під гніздом',
+            en: 'Wrong rating: match the number under the holder',
+            de: 'Falscher Nennwert: achte auf die Zahl unter der Halterung',
+        },
+        pullFirst: {
+            ru: 'Сначала вытащи сгоревший: нажми на него',
+            ua: 'Спершу витягни перегорілий: натисни на нього',
+            en: 'Pull the blown one first: click it',
+            de: 'Zieh zuerst die durchgebrannte: klick sie an',
+        },
+    },
+
+    dampers: {
+        hint: {
+            ru: 'Двигай заслонки, чтобы все три расхода держались в зелёной зоне',
+            ua: 'Рухай заслінки, щоб усі три витрати трималися в зеленій зоні',
+            en: 'Move the dampers until all three flows sit in their green bands',
+            de: 'Stell die Klappen so, dass alle drei Luftmengen im grünen Bereich bleiben',
+        },
+        duct: { ru: 'Канал {{index}}', ua: 'Канал {{index}}', en: 'Duct {{index}}', de: 'Kanal {{index}}' },
     },
 };

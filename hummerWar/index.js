@@ -58,11 +58,11 @@ export default {
         pl: 'Hummer {{number}} został skradziony!',
     },
     truckOpened: {
-        ru: 'Хаммер {{number}} доставлен: багажник открыт, груз может забрать любой!',
-        ua: 'Хаммер {{number}} доставлено: багажник відкрито, вантаж може забрати будь-хто!',
-        en: 'Hummer {{number}} has been delivered: the cargo is open and anyone can take it!',
-        de: 'Hummer {{number}} wurde abgeliefert: Der Laderaum ist offen, jeder kann die Ladung nehmen!',
-        pl: 'Hummer {{number}} dotarł na miejsce: bagażnik jest otwarty, każdy może zabrać ładunek!',
+        ru: 'Хаммер {{number}} доставлен: багажник открыт.',
+        ua: 'Хаммер {{number}} доставлено: багажник відкрито.',
+        en: 'Hummer {{number}} has been delivered: the cargo is open.',
+        de: 'Hummer {{number}} wurde abgeliefert: Der Laderaum ist offen.',
+        pl: 'Hummer {{number}} dotarł na miejsce: bagażnik jest otwarty.',
     },
     truckLost: {
         ru: 'Хаммер {{number}} уничтожен, груз потерян.',

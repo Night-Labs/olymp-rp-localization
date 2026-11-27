@@ -263,6 +263,13 @@ export const inventory = {
             pl: 'Upuść',
             zh: '下降',
         },
+        // The admin site: the item leaves the player's inventory for good.
+        remove: {
+            ru: 'Удалить',
+            ua: 'Видалити',
+            en: 'Remove',
+            de: 'Entfernen',
+        },
         dismantle: {
             ru: 'Разобрать',
             ua: 'Розібрати',
@@ -453,6 +460,21 @@ export const inventory = {
                 de: 'Fallen lassen',
                 pl: 'Upuść',
                 zh: '下降',
+            },
+        },
+        // The admin site: how much of the stack leaves the player's inventory for good.
+        remove: {
+            header: {
+                ru: 'Удалить предмет',
+                ua: 'Видалити предмет',
+                en: 'Remove Item',
+                de: 'Gegenstand entfernen',
+            },
+            accept: {
+                ru: 'Удалить',
+                ua: 'Видалити',
+                en: 'Remove',
+                de: 'Entfernen',
             },
         },
         pickUpDrop: {

@@ -399,6 +399,36 @@ const inventory = {
             de: 'Lege den beschlagnahmten Gegenstand in ein freies Feld',
             pl: 'Połóż zatrzymany przedmiot w wolnym miejscu',
         },
+        characterJoined: {
+            ru: 'Обыск прерван: игрок зашёл в игру',
+            ua: 'Обшук перервано: гравець зайшов у гру',
+            en: 'Search interrupted: the player joined the game',
+            de: 'Durchsuchung abgebrochen: Der Spieler ist dem Spiel beigetreten',
+        },
+        saveFailed: {
+            ru: 'Обыск прерван: изменения не сохранились, сообщи разработчикам',
+            ua: 'Обшук перервано: зміни не збереглися, повідом розробникам',
+            en: 'Search interrupted: the changes were not saved, tell the developers',
+            de: 'Durchsuchung abgebrochen: Die Änderungen wurden nicht gespeichert, melde es den Entwicklern',
+        },
+        storageLost: {
+            ru: 'Обыск прерван: склад недоступен',
+            ua: 'Обшук перервано: склад недоступний',
+            en: 'Search interrupted: the storage is unavailable',
+            de: 'Durchsuchung abgebrochen: Lager nicht verfügbar',
+        },
+        offlineFreeSlotOnly: {
+            ru: 'Персонаж не в игре: снятую вещь кладут только в свободную ячейку',
+            ua: 'Персонаж не в грі: зняту річ кладуть лише у вільну комірку',
+            en: 'The character is offline: a removed item goes into a free slot only',
+            de: 'Der Charakter ist offline: Ein abgelegter Gegenstand kommt nur in ein freies Feld',
+        },
+        offlineNotDressed: {
+            ru: 'Персонаж не в игре: на него ничего нельзя надеть',
+            ua: 'Персонаж не в грі: на нього нічого не можна вдягнути',
+            en: 'The character is offline: nothing can be put on them',
+            de: 'Der Charakter ist offline: Ihm kann nichts angelegt werden',
+        },
     },
 
     bind: {

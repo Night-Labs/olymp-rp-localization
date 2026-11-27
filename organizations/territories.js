@@ -9,6 +9,13 @@ export const territories = {
             de: 'Ertrag einsammeln',
             pl: 'Zabrac zbior',
         },
+        // Map blip on the haul point, shown only to the organization holding the cell.
+        blip: {
+            ru: 'Сбор с территории',
+            ua: 'Збір з території',
+            en: 'Territory harvest',
+            de: 'Gebietsertrag',
+        },
     },
     // Names of the hand-placed cells (`TERRITORY_SPECIAL_SEED`). The seed stores the key and
     // whoever shows the name localizes it; GTA place names stay literal in the seed.
